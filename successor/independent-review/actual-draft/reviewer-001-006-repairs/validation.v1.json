@@ -1,0 +1,56 @@
+{
+  "exact_assignment_counts": {
+    "subjects": 202,
+    "relationships": 134,
+    "reader_tasks": 336
+  },
+  "changed_whole_records": {
+    "subjects": 124,
+    "relationships": 13,
+    "reader_tasks": 43
+  },
+  "removals": {
+    "subjects": [],
+    "relationships": [],
+    "reader_tasks": [
+      "TASK-SUCC-039417B07401"
+    ]
+  },
+  "additions": {
+    "subjects": 0,
+    "relationships": 0,
+    "reader_tasks": 2
+  },
+  "source_findings_bound": 181,
+  "historical_relationships_previously_reviewed": 323,
+  "additional_historical_relationships_inspected": 1038,
+  "later_source_referrals": 27,
+  "all_authorized_input_file_hashes_verified": [
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+      "file_count": 109,
+      "all_hashes_verified": true
+    },
+    {
+      "path": ".source-only/independent-review-draft-addendum.v1.json",
+      "sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760",
+      "file_count": 146,
+      "all_hashes_verified": true
+    }
+  ],
+  "all_finalized_actual_draft_artifact_hashes_unchanged": true,
+  "source_first_receipt_hash_unchanged": true,
+  "all_source_first_artifact_hashes_unchanged": true,
+  "proposed_evidence_lineage_repairs": 96,
+  "draft_hash_unchanged": true,
+  "parent_task_target_contains_all_retained_facet_targets": true,
+  "semantic_main_question_checks": "Each retained/rehome decision follows the finalized substantive task review; no indiscriminate union of unrelated targets. Broad Church sequence and political-song task have coherent main questions.",
+  "map_policy": "All graph-interior spatial claims and the location task are removed; caption-only evidence carries no interior access obligation.",
+  "not_tested_or_claimed": [
+    "cross-shard fulfillment",
+    "whole-book benchmark approval",
+    "freeze readiness",
+    "candidate performance"
+  ]
+}

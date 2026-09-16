@@ -1,0 +1,3182 @@
+{
+  "status": "proposed owned repairs do not imply fulfillment by lead",
+  "current_referrals": [
+    {
+      "kind": "evidence_rebinding",
+      "retired_evidence_id": "EVID-SUCC-D5CC85D5C030",
+      "subject_id": "SUBJ-SUCC-1C628235D449",
+      "evidence_ids": [
+        "EVID-SUCC-DCE39CA94E54"
+      ],
+      "claim": "Montesquieu's principle is used to constrain ministers and keep the executive dependent on the legislature.",
+      "source_page": 123,
+      "status": "bound_to_exact_claim"
+    },
+    {
+      "kind": "evidence_rebinding",
+      "retired_evidence_id": "EVID-SUCC-8D4F686839F3",
+      "subject_id": "SUBJ-SUCC-1C628235D449",
+      "evidence_ids": [
+        "EVID-SUCC-23A537D105D7"
+      ],
+      "claim": "Deputies bar themselves from government, reinforcing institutional separation.",
+      "source_page": 124,
+      "status": "bound_to_exact_claim"
+    },
+    {
+      "kind": "evidence_rebinding",
+      "retired_evidence_id": "EVID-SUCC-87DD399CEBDE",
+      "subject_id": "SUBJ-SUCC-2056A5304D29",
+      "evidence_ids": [
+        "EVID-SUCC-434EB6FFAD20"
+      ],
+      "claim": "Reliance on a politically safer but uncertain National Guard exposes the weakness of revolutionary enforcement.",
+      "source_page": 126,
+      "status": "bound_to_exact_claim"
+    },
+    {
+      "kind": "evidence_rebinding",
+      "retired_evidence_id": "EVID-SUCC-1FDAFA017A36",
+      "subject_id": "SUBJ-SUCC-1C628235D449",
+      "evidence_ids": [
+        "EVID-SUCC-DCE39CA94E54"
+      ],
+      "claim": "Montesquieu's principle is used to constrain ministers and keep the executive dependent on the legislature.",
+      "source_page": 123,
+      "status": "bound_to_exact_claim"
+    },
+    {
+      "kind": "evidence_rebinding",
+      "retired_evidence_id": "EVID-SUCC-28BE348AC396",
+      "subject_id": "SUBJ-SUCC-1C628235D449",
+      "evidence_ids": [
+        "EVID-SUCC-23A537D105D7"
+      ],
+      "claim": "Deputies bar themselves from government, reinforcing institutional separation.",
+      "source_page": 124,
+      "status": "bound_to_exact_claim"
+    },
+    {
+      "kind": "lineage_rebinding",
+      "old_evidence_ids": [
+        "EVID-3DC8D7D02A51",
+        "native:EVID-0209-002:free-coloured-clause"
+      ],
+      "target_subject_id": "SUBJ-SUCC-2AC42802019F",
+      "source_pages": [
+        151
+      ],
+      "requirement": "Free people of colour’s political rights are legally distinct from preservation of slavery. Bind to actual claim-bearing evidence there.",
+      "status": "unresolved_cross_shard"
+    },
+    {
+      "kind": "lineage_rebinding",
+      "old_evidence_ids": [
+        "EVID-8997DC608F8A"
+      ],
+      "target_subject_id": "SUBJ-SUCC-04E7153E268C",
+      "source_pages": [
+        157
+      ],
+      "requirement": "Émigré princes and foreign diplomatic threats are not preserved by general officer or noble withdrawal.",
+      "status": "unresolved_cross_shard"
+    },
+    {
+      "kind": "scope_rebinding",
+      "target_subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "source_pages": [
+        153
+      ],
+      "requirement": "Retain nationwide post-Varennes Guard, vigilance and persecution as a coherent emergency mobilization requirement. Jacobin subject retains only network-specific claims.",
+      "status": "unresolved_cross_shard"
+    },
+    {
+      "kind": "task_requirement",
+      "from_task_id": "TASK-SUCC-077FE592CCA7",
+      "source_pages": [
+        128
+      ],
+      "requirement": "Political song combined optimism and threats against aristocrats; retain oral political culture outside the newspaper task.",
+      "target_subject_id": "SUBJ-SUCC-8ABFA61625D7",
+      "status": "new_coherent_task_below"
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-DCC4DAA8230F",
+      "to_task_id": "TASK-SUCC-CA3CE3FD3C60",
+      "facet": {
+        "facet_id": "legacy:TASK-06DC93A671AA",
+        "question": "How does Doyle compare constitutional and refractory clergy and explain the regional and social pattern of oath-taking?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "historical_task_id": "TASK-06DC93A671AA",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The composite question is answered through the exact listed inquiries; retain each component and its target scope rather than projecting the entire question onto every mapped subject."
+      },
+      "status": "unresolved_cross_shard",
+      "proposed_parent_question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+      "proposed_parent_subject_ids": [
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-26AD2CABDCC5",
+        "SUBJ-SUCC-7BF0734F6369"
+      ],
+      "proposed_facet": {
+        "facet_id": "legacy:TASK-06DC93A671AA",
+        "question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "historical_task_id": "TASK-06DC93A671AA",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+      }
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-8B413B736948",
+      "to_task_id": "TASK-SUCC-CA3CE3FD3C60",
+      "facet": {
+        "facet_id": "legacy:TASK-06DC93A671AA",
+        "question": "How does Doyle compare constitutional and refractory clergy and explain the regional and social pattern of oath-taking?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "historical_task_id": "TASK-06DC93A671AA",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The composite question is answered through the exact listed inquiries; retain each component and its target scope rather than projecting the entire question onto every mapped subject."
+      },
+      "status": "unresolved_cross_shard",
+      "proposed_parent_question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+      "proposed_parent_subject_ids": [
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-26AD2CABDCC5",
+        "SUBJ-SUCC-7BF0734F6369"
+      ],
+      "proposed_facet": {
+        "facet_id": "legacy:TASK-06DC93A671AA",
+        "question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "historical_task_id": "TASK-06DC93A671AA",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+      }
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-AEEE0FFC967C",
+      "to_task_id": "TASK-SUCC-A03FF05DCA5B",
+      "facet": {
+        "facet_id": "legacy:TASK-FA9B87A92325",
+        "question": "How does Doyle trace the sequence from early Church reforms through the Civil Constitution, clerical oath, and breach with Rome?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-D990EC541CE5",
+          "SUBJ-SUCC-F066F35B29BE",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369",
+          "SUBJ-SUCC-F3495B619256"
+        ],
+        "historical_task_id": "TASK-FA9B87A92325",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+      },
+      "status": "implemented_in_owned_new_task"
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-371278D8D186",
+      "to_task_id": "TASK-SUCC-A03FF05DCA5B",
+      "facet": {
+        "facet_id": "legacy:TASK-FA9B87A92325",
+        "question": "How does Doyle trace the sequence from early Church reforms through the Civil Constitution, clerical oath, and breach with Rome?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-D990EC541CE5",
+          "SUBJ-SUCC-F066F35B29BE",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369",
+          "SUBJ-SUCC-F3495B619256"
+        ],
+        "historical_task_id": "TASK-FA9B87A92325",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+      },
+      "status": "implemented_in_owned_new_task"
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-DEDDF69CB4C6",
+      "to_task_id": "TASK-SUCC-0BA28F1C7165",
+      "facet": {
+        "facet_id": "legacy:TASK-297472D1571A",
+        "question": "How does Doyle connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB",
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-B26E579BEEC5",
+          "SUBJ-SUCC-3E7ADBDC503B",
+          "SUBJ-SUCC-C5578768FEE3",
+          "SUBJ-SUCC-A38083855AA9",
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-B42BAF6EA994",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-7CE426B45CF3",
+          "SUBJ-SUCC-5FCCBDB023C6"
+        ],
+        "historical_task_id": "TASK-297472D1571A",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+      },
+      "status": "unresolved_cross_shard",
+      "proposed_parent_question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+      "proposed_parent_subject_ids": [
+        "SUBJ-SUCC-49764CEDFDC8",
+        "SUBJ-SUCC-936AFF93E708",
+        "SUBJ-SUCC-F7206C895F76",
+        "SUBJ-SUCC-C918DFC81FAD",
+        "SUBJ-SUCC-C99D07DA5B57",
+        "SUBJ-SUCC-C1C93BC08ECB"
+      ],
+      "proposed_facet": {
+        "facet_id": "legacy:TASK-297472D1571A",
+        "question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+        "required_subject_ids": [
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB"
+        ],
+        "historical_task_id": "TASK-297472D1571A",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+      }
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-3C20CDA7F858",
+      "to_task_id": "TASK-SUCC-0BA28F1C7165",
+      "facet": {
+        "facet_id": "legacy:TASK-297472D1571A",
+        "question": "How does Doyle connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB",
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-B26E579BEEC5",
+          "SUBJ-SUCC-3E7ADBDC503B",
+          "SUBJ-SUCC-C5578768FEE3",
+          "SUBJ-SUCC-A38083855AA9",
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-B42BAF6EA994",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-7CE426B45CF3",
+          "SUBJ-SUCC-5FCCBDB023C6"
+        ],
+        "historical_task_id": "TASK-297472D1571A",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+      },
+      "status": "unresolved_cross_shard",
+      "proposed_parent_question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+      "proposed_parent_subject_ids": [
+        "SUBJ-SUCC-49764CEDFDC8",
+        "SUBJ-SUCC-936AFF93E708",
+        "SUBJ-SUCC-F7206C895F76",
+        "SUBJ-SUCC-C918DFC81FAD",
+        "SUBJ-SUCC-C99D07DA5B57",
+        "SUBJ-SUCC-C1C93BC08ECB"
+      ],
+      "proposed_facet": {
+        "facet_id": "legacy:TASK-297472D1571A",
+        "question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+        "required_subject_ids": [
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB"
+        ],
+        "historical_task_id": "TASK-297472D1571A",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+      }
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-922FC132EFD1",
+      "to_task_id": "TASK-SUCC-239D13E4FC29",
+      "facet": {
+        "facet_id": "legacy:TASK-838A35AF3E6C",
+        "question": "How does Doyle trace the process by which press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-3FC7F858D56D",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-2B7B67960E9B",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-FDBB895E6A69",
+          "SUBJ-SUCC-B42BAF6EA994",
+          "SUBJ-SUCC-C1C93BC08ECB",
+          "SUBJ-SUCC-6F60304562FF",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-7CE426B45CF3",
+          "SUBJ-SUCC-9ABD4A9D46E5"
+        ],
+        "historical_task_id": "TASK-838A35AF3E6C",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+      },
+      "status": "unresolved_cross_shard",
+      "proposed_parent_question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+      "proposed_parent_subject_ids": [
+        "SUBJ-SUCC-75B959BD3520",
+        "SUBJ-SUCC-45D9EA9DAAF0",
+        "SUBJ-SUCC-C9D730C2AC1F",
+        "SUBJ-SUCC-9ABD4A9D46E5",
+        "SUBJ-SUCC-B003E162E3E1",
+        "SUBJ-SUCC-92FF96EC39D9",
+        "SUBJ-SUCC-36FC305F79B7",
+        "SUBJ-SUCC-B42BAF6EA994"
+      ],
+      "proposed_facet": {
+        "facet_id": "legacy:TASK-838A35AF3E6C",
+        "question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+        "required_subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-9ABD4A9D46E5",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-B42BAF6EA994"
+        ],
+        "historical_task_id": "TASK-838A35AF3E6C",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+      }
+    },
+    {
+      "kind": "task_facet_rehome",
+      "from_task_id": "TASK-SUCC-885376D2AB47",
+      "to_task_id": "TASK-SUCC-239D13E4FC29",
+      "facet": {
+        "facet_id": "legacy:TASK-838A35AF3E6C",
+        "question": "How does Doyle trace the process by which press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization?",
+        "required_subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-3FC7F858D56D",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-2B7B67960E9B",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-FDBB895E6A69",
+          "SUBJ-SUCC-B42BAF6EA994",
+          "SUBJ-SUCC-C1C93BC08ECB",
+          "SUBJ-SUCC-6F60304562FF",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-7CE426B45CF3",
+          "SUBJ-SUCC-9ABD4A9D46E5"
+        ],
+        "historical_task_id": "TASK-838A35AF3E6C",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+      },
+      "status": "unresolved_cross_shard",
+      "proposed_parent_question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+      "proposed_parent_subject_ids": [
+        "SUBJ-SUCC-75B959BD3520",
+        "SUBJ-SUCC-45D9EA9DAAF0",
+        "SUBJ-SUCC-C9D730C2AC1F",
+        "SUBJ-SUCC-9ABD4A9D46E5",
+        "SUBJ-SUCC-B003E162E3E1",
+        "SUBJ-SUCC-92FF96EC39D9",
+        "SUBJ-SUCC-36FC305F79B7",
+        "SUBJ-SUCC-B42BAF6EA994"
+      ],
+      "proposed_facet": {
+        "facet_id": "legacy:TASK-838A35AF3E6C",
+        "question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+        "required_subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-9ABD4A9D46E5",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-B42BAF6EA994"
+        ],
+        "historical_task_id": "TASK-838A35AF3E6C",
+        "historical_lineage": "legacy",
+        "weight": "unweighted_access_facet",
+        "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+      }
+    },
+    {
+      "kind": "historical_task_rebinding",
+      "historical_task_id": "TASK-2E1CFBBCFEED",
+      "to_task_id": "TASK-SUCC-3A03F04E995C",
+      "source_pages": [
+        119,
+        123,
+        124,
+        125
+      ],
+      "requirement": "Separation of legislative, executive, judicial and administrative functions requires a coherent constitutional inquiry; civil equality or venality abolition alone does not preserve it.",
+      "status": "unresolved_cross_shard"
+    }
+  ],
+  "preserved_final_review_referrals": {
+    "schema_version": "independent-review-lead-referrals-v1",
+    "reviewer": "reviewer-001-006",
+    "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+    "source_finding_referrals": [
+      {
+        "finding_id": "ISR-C01-003",
+        "source_pages": [
+          "3"
+        ],
+        "topic": "Administrative map and scope boundary",
+        "source_first_note": "Map 1 depicts administrative, judicial, and fiscal divisions. Its caption is eligible descriptive text; map internals are not converted into an exhaustive place inventory under the graph-internals exclusion.",
+        "reader_routes_considered": [
+          "maps",
+          "pre-revolutionary administration"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-34E9F76FFF90",
+          "SUBJ-SUCC-1B0BBB32F02E"
+        ],
+        "disposition": "defer",
+        "basis": "The administrative topic is supported by the map caption, but the draft violates the finding’s graphic-internals boundary.",
+        "proposed_disposition_or_fix": "Lead should correct global eligibility controls; retire the mapped internal claims at3 while keeping caption-only topic access.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-34E9F76FFF90": "revise",
+          "SUBJ-SUCC-1B0BBB32F02E": "revise"
+        },
+        "lead_owned_context_subject_ids": [],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C04-023",
+        "source_pages": [
+          "106",
+          "107"
+        ],
+        "topic": "Royal Session’s concession and coercion",
+        "source_first_note": "The June 23 plan contains substantial reforms but reserves corporate vetoes, feudal property, royal approval, and exclusion of spectators. Its timing and threats defeat reconciliation; Mirabeau’s defiance and the king’s acquiescence collapse enforcement.",
+        "reader_routes_considered": [
+          "Royal Session of June 1789",
+          "Mirabeau",
+          "royal veto",
+          "feudal rights",
+          "deputies’ inviolability"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-5FCCBDB023C6",
+          "SUBJ-SUCC-1E3F43DBAD08",
+          "SUBJ-SUCC-1DB77B316BEB"
+        ],
+        "disposition": "defer",
+        "basis": "Owned Mirabeau and Assembly records cover defiance and accessions; the whole June23 programme is a lead-owned cross-chapter subject.",
+        "proposed_disposition_or_fix": "Lead should retain substantive concessions together with preserved corporate/feudal/royal limits, threats, timing and later maximum-concession reception.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-5FCCBDB023C6": "revise",
+          "SUBJ-SUCC-1E3F43DBAD08": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-1DB77B316BEB"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C05-001",
+        "source_pages": [
+          "112",
+          "113"
+        ],
+        "topic": "Royal submission, emigration, and patriotic symbols",
+        "source_first_note": "Artois’s departure, royal Paris visit, recognition of Bailly/Lafayette, and acceptance of the cockade visibly ratify lost royal initiative. The tricolour develops from city colours and Bourbon white.",
+        "reader_routes_considered": [
+          "emigration",
+          "Artois",
+          "Bailly",
+          "Lafayette",
+          "cockade",
+          "tricolour"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-05EA4E351A83",
+          "SUBJ-SUCC-6F7507052D8F",
+          "SUBJ-SUCC-2056A5304D29"
+        ],
+        "disposition": "defer",
+        "basis": "Royal submission and emigration remain in owned parents. Tricolour fusion and royal adoption are a substantive source distinction in the lead-owned Guard treatment.",
+        "proposed_disposition_or_fix": "Preserve112–113 fusion of city colours with Bourbon white and royal acceptance under2056; repair05EA’s July-to-October scope. Lead already confirmed this retention.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-05EA4E351A83": "revise",
+          "SUBJ-SUCC-6F7507052D8F": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-2056A5304D29"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C05-015",
+        "source_pages": [
+          "123",
+          "124"
+        ],
+        "topic": "Weak executive and ministerial exclusion",
+        "source_first_note": "Legislative review, restricted veto, civil list, impeachment, and separation from ministers inhibit revived despotism. Suspicion of Mirabeau’s ambitions helps entrench exclusion of deputies from government.",
+        "reader_routes_considered": [
+          "Constitution of 1791",
+          "executive power",
+          "civil list",
+          "ministers",
+          "separation of powers",
+          "Mirabeau"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-9E6D9535AA17",
+          "SUBJ-SUCC-933F54A354BC",
+          "SUBJ-SUCC-1C628235D449"
+        ],
+        "disposition": "defer",
+        "basis": "Owned judicial/veto parents cover components, but full executive design is lead-owned1C628. Copying ministerial exclusion into the judiciary does not preserve that institutional distinction.",
+        "proposed_disposition_or_fix": "Lead should retain civil list, review, impeachment, minister/deputy exclusion and suspicion of Mirabeau under1C628 and task3A03F04E995C; retire misattached123–124 evidence from9E6.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-9E6D9535AA17": "revise",
+          "SUBJ-SUCC-933F54A354BC": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-1C628235D449"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C05-020",
+        "source_pages": [
+          "126",
+          "128"
+        ],
+        "topic": "National Guard and Martial Law",
+        "source_first_note": "Distrust of royal army makes Guard the approved coercive force. Martial Law authorizes fire after refusal to disperse; active-citizen membership, self-funded uniform, oaths, and officer restrictions aim at reliability.",
+        "reader_routes_considered": [
+          "National Guard",
+          "Martial Law against Tumults",
+          "red flag",
+          "active citizens",
+          "public order"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-2056A5304D29"
+        ],
+        "disposition": "defer",
+        "basis": "This is a lead-owned institution, not an incidental Guard mention: the source develops authorized force, membership, equipment, oaths and martial-law procedures.",
+        "proposed_disposition_or_fix": "Preserve126/128 institutional controls and red-flag firing procedure under2056, while removing131 general fiscal collection and118 generic sovereignty claims.",
+        "mapped_subject_review_verdicts": {},
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-2056A5304D29"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C05-026",
+        "source_pages": [
+          "133",
+          "134"
+        ],
+        "topic": "Bank proposal, Law’s memory, and assignats",
+        "source_first_note": "Necker’s nationalized Discount Bank meets fear of paper collapse and rivalry between displaced Catholic financiers and Swiss/Protestant bankers. Mirabeau favours visible land-backed state bonds and Extraordinary Fund.",
+        "reader_routes_considered": [
+          "Discount Bank",
+          "John Law",
+          "paper money",
+          "assignats",
+          "Caisse de l’Extraordinaire",
+          "financiers"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-F398BDEDBD57",
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "disposition": "defer",
+        "basis": "Necker’s bank alternative and financier conflict need ownedF398 repair. The land-backed state-bond alternative and ExtraordinaryFund belong to lead-ownedassignats.",
+        "proposed_disposition_or_fix": "Retain bank/Law memory and Catholic versusSwiss/Protestant financial interests underF398; lead should retain the assignat proposal’s distinct mechanism under5193.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-F398BDEDBD57": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C05-027",
+        "source_pages": [
+          "134"
+        ],
+        "topic": "Assignats become money and a patriotic test",
+        "source_first_note": "Initial interest-bearing large bonds become legal tender, smaller denominations, and repeatedly enlarged issues as deficits/compensation grow. Political identification with the Revolution overrides Necker’s caution and precedes his resignation.",
+        "reader_routes_considered": [
+          "assignats",
+          "legal tender",
+          "deficit",
+          "paper issues",
+          "Necker’s resignation"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-F398BDEDBD57",
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "disposition": "defer",
+        "basis": "The source develops conversion of bonds into circulating money, denominations and larger issues; this belongs to the lead-ownedcrosschapter monetary parent.",
+        "proposed_disposition_or_fix": "Retain134 sequence and patriotic identification, distinguish from later inflation, and record134 April1790 legal-tender wording versus265 April1793 rather than silently harmonizing.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-F398BDEDBD57": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-003",
+        "source_pages": [
+          "138"
+        ],
+        "topic": "Montauban and Nîmes: confessional shifts in power",
+        "source_first_note": "Protestant wealth, electoral organization, and militias face Catholic municipal majorities. Montauban’s anti-inventory riot and Nîmes’s deadly bagarre differ in sequence/outcome; Gard administration identifies Revolution with Protestant ascendancy for local Catholics.",
+        "reader_routes_considered": [
+          "Montauban",
+          "Nîmes",
+          "bagarre",
+          "Protestants",
+          "Catholics",
+          "Gard",
+          "National Guard"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-C4552AA613C0"
+        ],
+        "disposition": "defer",
+        "basis": "Montauban/Nîmes are developed local-confessional mechanisms, not interchangeable examples of a uniform conspiracy.",
+        "proposed_disposition_or_fix": "Lead should retain contrasting sequences, Protestant organization versus Catholic local majorities, and Gard’s identification of Revolution with confessional ascendancy.",
+        "mapped_subject_review_verdicts": {},
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-C4552AA613C0"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-010",
+        "source_pages": [
+          "142",
+          "143"
+        ],
+        "topic": "Jalès and Catholic counter-revolutionary organization",
+        "source_first_note": "A patriotic Guard federation is captured by defeated Nîmes Catholic leaders, then leaves a committee connecting local grievances to Artois’s plans. Distinguish stages of the gathering from labeling all federation participants originally counter-revolutionary.",
+        "reader_routes_considered": [
+          "Camp de Jalès",
+          "Catholic resistance",
+          "Artois",
+          "counter-revolution",
+          "Gard"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-B4386E288802",
+          "SUBJ-SUCC-7593EEA0BB95",
+          "SUBJ-SUCC-C4552AA613C0"
+        ],
+        "disposition": "defer",
+        "basis": "Jalès has distinct stages: a patriotic federation is captured by defeated local Catholic leaders and becomes a continuing committee.",
+        "proposed_disposition_or_fix": "Lead should preserve staged conversion and ties toArtois; do not classify all original participants as intentional counter-revolutionaries.",
+        "mapped_subject_review_verdicts": {},
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-B4386E288802",
+          "SUBJ-SUCC-7593EEA0BB95",
+          "SUBJ-SUCC-C4552AA613C0"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-016",
+        "source_pages": [
+          "146",
+          "147"
+        ],
+        "topic": "Counter-revolution’s popular base and émigré limits",
+        "source_first_note": "Religious division supplies support previously missing beyond sectarian districts. Mirabeau secretly seeks a stronger monarchy within revolutionary gains; Artois/Calonne aim at reversal. Rhône/Lyons and second Jalès plots fail, and émigré headquarters move from Turin to Koblenz.",
+        "reader_routes_considered": [
+          "counter-revolution",
+          "Mirabeau’s secret advice",
+          "Artois",
+          "Calonne",
+          "Lyons plot",
+          "Jalès",
+          "Koblenz"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-B4386E288802",
+          "SUBJ-SUCC-3ABA24F75F80",
+          "SUBJ-SUCC-7593EEA0BB95"
+        ],
+        "disposition": "defer",
+        "basis": "Religion’s popular constituency, Mirabeau’s accommodation and émigré reversal are distinct source positions; their crosschapter parents are lead-owned.",
+        "proposed_disposition_or_fix": "Retain the ideological difference, failed plots andTurin-to-Koblenz movement without treating court/émigré action as the sole basis of counter-revolution.",
+        "mapped_subject_review_verdicts": {},
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-B4386E288802",
+          "SUBJ-SUCC-3ABA24F75F80",
+          "SUBJ-SUCC-7593EEA0BB95"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-019",
+        "source_pages": [
+          "148",
+          "149"
+        ],
+        "topic": "Parisian activism and social-economic pressure",
+        "source_first_note": "Women, Cordeliers, popular societies, and radical press attack clerical/royal retreat; Lafayette pleases neither radicals nor royalists. Emigration and church closures cut employment, charity workshops respond, and depreciating assignats raise prices.",
+        "reader_routes_considered": [
+          "women’s demonstrations",
+          "Cordeliers",
+          "unemployment",
+          "charity workshops",
+          "Vincennes",
+          "assignat depreciation"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-38F9D4ACE8D4",
+          "SUBJ-SUCC-533DDAFD9F99",
+          "SUBJ-SUCC-578402719E99",
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "disposition": "defer",
+        "basis": "Ownedwomen/Cordeliers/Lafayette routes cover mobilization and political discontent. Assignat depreciation and labour/charity mechanisms must be bound coherently rather than inferred from those actor names.",
+        "proposed_disposition_or_fix": "Lead should retain148–149 depreciation/prices under5193; keep employment loss from emigration/church closures and charity workshops in a coherent social-economic route, and remove genericChamp/Lafayette claims fromwomen.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-38F9D4ACE8D4": "revise",
+          "SUBJ-SUCC-533DDAFD9F99": "revise",
+          "SUBJ-SUCC-578402719E99": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-023",
+        "source_pages": [
+          "150",
+          "151"
+        ],
+        "topic": "Colonial rights, slavery, and free people of colour",
+        "source_first_note": "Barnave’s committee protects slavery; Saint-Domingue whites resist free-coloured political claims. Robespierre opposes slavery and supports rights independent of colour. Distinguish enslaved people, free coloureds, and white colonists rather than treating all colonial rights as identical.",
+        "reader_routes_considered": [
+          "Saint-Domingue",
+          "slavery",
+          "free people of colour",
+          "white colonists",
+          "Barnave",
+          "Robespierre"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-E460E732EDD9",
+          "SUBJ-SUCC-77F58847CF83",
+          "SUBJ-SUCC-5306306A9030",
+          "SUBJ-SUCC-2AC42802019F"
+        ],
+        "disposition": "defer",
+        "basis": "Ownedslavery preservation andRobespierre treatment preserve parts, but free-coloured rights are a distinct lead-owned population and claim.",
+        "proposed_disposition_or_fix": "Retain slavery versus free-coloured citizenship versus white-colonist claims separately; bind oldEVID3DC8D7D02A51/native0209-002 to2AC428 instead of treating slavery parent as complete retention.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-E460E732EDD9": "faithful_with_lineage_repair",
+          "SUBJ-SUCC-77F58847CF83": "revise",
+          "SUBJ-SUCC-5306306A9030": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-2AC42802019F"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-024",
+        "source_pages": [
+          "151",
+          "152"
+        ],
+        "topic": "Varennes: organization, interception, and unresolved intention",
+        "source_first_note": "Fersen coordinates flight toward Montmédy with Bouillé’s escorts; delays, suspicious troop movements, recognition at Sainte-Ménehould, and Drouet’s intervention lead to Varennes capture. Negotiating from safety versus foreign-backed return remains uncertain.",
+        "reader_routes_considered": [
+          "flight to Varennes",
+          "Fersen",
+          "Bouillé",
+          "Montmédy",
+          "Drouet",
+          "Sainte-Ménehould"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-76B1DD749C59",
+          "SUBJ-SUCC-44E68A442988",
+          "SUBJ-SUCC-6216510D2EE3"
+        ],
+        "disposition": "defer",
+        "basis": "Full flight sequence and uncertainty of intended destination/political strategy belong to the lead-ownedVarennes parent.",
+        "proposed_disposition_or_fix": "Retain Fersen, delays, suspicious escorts, recognition/Drouet andcapture, while leaving negotiation-from-safety versusforeign-backed return unresolved.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-76B1DD749C59": "faithful",
+          "SUBJ-SUCC-44E68A442988": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-6216510D2EE3"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-028",
+        "source_pages": [
+          "154",
+          "155"
+        ],
+        "topic": "Final constitutional revision and constrained politics",
+        "source_first_note": "Barnave’s royal conciliation excludes Civil Constitution from entrenched constitutional law and rejects harsher refractory exclusion. Silver-mark removal is offset by richer elector qualifications; press restrictions pass while broader monarchien proposals fail.",
+        "reader_routes_considered": [
+          "constitutional revision",
+          "Civil Constitution",
+          "silver mark",
+          "elector qualifications",
+          "press law",
+          "Feuillants"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-1A129D23C345",
+          "SUBJ-SUCC-65FAC461622C",
+          "SUBJ-SUCC-5306306A9030",
+          "SUBJ-SUCC-6A5ADB894FAD",
+          "SUBJ-SUCC-1C628235D449"
+        ],
+        "disposition": "defer",
+        "basis": "Owned subjects retain religious restraint, press law and political filtering components. The whole final settlement belongs to the lead-owned constitution subject.",
+        "proposed_disposition_or_fix": "Retain ordinary-law status of the Civil Constitution, rejection of the refractory ban, silver-mark removal versus richer elector qualifications and failed monarchien revision under1C628; remove the general155 constitutional-status claim fromD990.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-1A129D23C345": "faithful",
+          "SUBJ-SUCC-65FAC461622C": "faithful",
+          "SUBJ-SUCC-5306306A9030": "revise",
+          "SUBJ-SUCC-6A5ADB894FAD": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-1C628235D449"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-030",
+        "source_pages": [
+          "156",
+          "157"
+        ],
+        "topic": "Padua, Pillnitz, and perception versus intent",
+        "source_first_note": "Leopold seeks concerted monarchical action, but limited response and Austrian demobilization make Pillnitz chiefly a conditional honour gesture. Émigré publication and war rumours turn it into provocation in France.",
+        "reader_routes_considered": [
+          "Padua Circular",
+          "Declaration of Pillnitz",
+          "Leopold II",
+          "Prussia",
+          "war rumours",
+          "émigrés"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-04E7153E268C",
+          "SUBJ-SUCC-7593EEA0BB95"
+        ],
+        "disposition": "defer",
+        "basis": "Pillnitz and Padua form a lead-owned diplomatic treatment, with conditional intent distinguished from provocative public use.",
+        "proposed_disposition_or_fix": "Retain limited concert, demobilization, émigré publication and rumours. Domestic153 club responses can retire here with binding toABA54, preserving fear of foreign intervention as context.",
+        "mapped_subject_review_verdicts": {},
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-04E7153E268C",
+          "SUBJ-SUCC-7593EEA0BB95"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      },
+      {
+        "finding_id": "ISR-C06-031",
+        "source_pages": [
+          "156",
+          "157",
+          "158"
+        ],
+        "topic": "Failure of Feuillant consensus and Constituent legacy",
+        "source_first_note": "Most provincial Jacobins stay affiliated; nobles withhold support and king’s sincerity is doubted. Constitution, amnesty, annexation, and Assembly’s end coexist with schism and republican polarization. The source credits durable institutional achievement while locating seeds of future extremes in these unresolved divisions.",
+        "reader_routes_considered": [
+          "Feuillants",
+          "Constitution of 1791",
+          "national consensus",
+          "religious schism",
+          "republicanism",
+          "Constituent Assembly"
+        ],
+        "mapped_subject_ids": [
+          "SUBJ-SUCC-5306306A9030",
+          "SUBJ-SUCC-5BF206CEDFE0",
+          "SUBJ-SUCC-ABA54E187E4B",
+          "SUBJ-SUCC-42910A6904FC",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-1C628235D449"
+        ],
+        "disposition": "defer",
+        "basis": "Owned records cover the failed moderate coalition and continuing religious and club divisions; the overall constitution and Constituent legacy are lead-owned.",
+        "proposed_disposition_or_fix": "Retain durable institutional achievement together with unresolved divisions. Make Feuillant affiliate choices, noble opposition and doubts about the king explicit in53063 and the lead’s1C628 treatment.",
+        "mapped_subject_review_verdicts": {
+          "SUBJ-SUCC-5306306A9030": "revise",
+          "SUBJ-SUCC-5BF206CEDFE0": "faithful",
+          "SUBJ-SUCC-ABA54E187E4B": "revise",
+          "SUBJ-SUCC-42910A6904FC": "faithful",
+          "SUBJ-SUCC-2EC1BFCD2A04": "revise"
+        },
+        "lead_owned_context_subject_ids": [
+          "SUBJ-SUCC-1C628235D449"
+        ],
+        "entity_review_claim": "Only assigned entities are reviewed here; lead-owned mappings are source-grounded referrals, not approval."
+      }
+    ],
+    "dependency_referrals": [
+      {
+        "source_task_id": "TASK-SUCC-DEDDF69CB4C6",
+        "also_remove_from": [
+          "TASK-SUCC-3C20CDA7F858"
+        ],
+        "facet_id": "legacy:TASK-297472D1571A",
+        "proposed_destination": "TASK-SUCC-0BA28F1C7165",
+        "basis": "July military/food/militia/Bastille sequence is not an economic-conditioning or before-May question. Align the facet with the destination’s actual event-specific parents rather than projecting every old dossier."
+      },
+      {
+        "source_task_id": "TASK-SUCC-922FC132EFD1",
+        "also_remove_from": [
+          "TASK-SUCC-885376D2AB47"
+        ],
+        "facet_id": "legacy:TASK-838A35AF3E6C",
+        "proposed_destination": "TASK-SUCC-239D13E4FC29",
+        "basis": "The anti-despotism to anti-privilege process is directly asked by the destination and is not equivalent to representation forms or July troop withdrawal."
+      },
+      {
+        "source_task_ids": [
+          "TASK-SUCC-DCC4DAA8230F",
+          "TASK-SUCC-8B413B736948"
+        ],
+        "facet_id": "legacy:TASK-06DC93A671AA",
+        "proposed_destination": "TASK-SUCC-CA3CE3FD3C60",
+        "proposed_question": "How did the compulsory oath and papal intervention divide constitutional and refractory clergy, and what explains regional and social patterns of acceptance, refusal and later retraction?",
+        "proposed_subject_ids": [
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "basis": "A coherent expansion of the existing regional oath question can retain this comparison once, while narrow population/timing and career/vacancy tasks remain specific."
+      },
+      {
+        "historical_task_id": "legacy:TASK-2E1CFBBCFEED",
+        "proposed_destination": "TASK-SUCC-3A03F04E995C",
+        "basis": "The separation-of-powers demand on119 and123–125 is not preserved merely by abolition-of-privilege, civil-equality or election-of-officials questions. Destination’s constitutional/judicial/Declaration links are the coherent place for lead review."
+      }
+    ],
+    "new_task_proposals": [
+      {
+        "proposal_id": "ISR-C06-PROPOSED-CHURCH-SEQUENCE",
+        "status": "proposal_not_a_canonical_task",
+        "question": "How did early Church dispossession and religious equality lead through the Civil Constitution and compulsory oath to schism and the breach with Rome?",
+        "subject_ids": [
+          "SUBJ-SUCC-F066F35B29BE",
+          "SUBJ-SUCC-F3495B619256",
+          "SUBJ-SUCC-D990EC541CE5",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "source_pages": [
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          153,
+          155,
+          157
+        ],
+        "facet_id_to_rehome": "legacy:TASK-FA9B87A92325",
+        "remove_attachments_from": [
+          "TASK-SUCC-AEEE0FFC967C",
+          "TASK-SUCC-371278D8D186"
+        ],
+        "basis": "The source develops a cumulative sequence that is useful to retrieve as a whole. Neither material dependence nor Dom Gerle’s motion alone answers it. The facet remains unweighted; adoption of any new parent task is an editorial change requiring normal validation."
+      }
+    ],
+    "global_scope_referral": "Frozen policy excludes graph internals and numbered map keys semantically. Correct global controls and retire spatial task039417B07401; retain substantive captions and eligible institutional prose.",
+    "not_independent_approval_of_lead_entities": true
+  },
+  "later_historical_relationship_referrals": [
+    {
+      "review_key": "legacy:REL-66D40B0E3B45",
+      "old_record": {
+        "relationship_id": "REL-66D40B0E3B45",
+        "source_subject_id": "SUBJ-FB5835208AEC",
+        "type": "implements",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "organizes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S028",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-C1335903871D"
+      },
+      "old_source_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "old_target_meaning": "An armed mass entered the Tuileries to demand restoration of ministers and an end to royal obstruction but failed to intimidate Louis XVI.",
+      "source_pages": [
+        185,
+        186
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3",
+        "SUBJ-SUCC-987993A8C47A"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-9511F5F29FA1",
+      "old_record": {
+        "relationship_id": "REL-9511F5F29FA1",
+        "source_subject_id": "SUBJ-FB5835208AEC",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contributes_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S028",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-1E1D8A56F292"
+      },
+      "old_source_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "old_target_meaning": "Neighborhood organizations revived under economic and military pressure, broadened participation, coordinated petitions and armed action, formed a central committee, and seized municipal power.",
+      "source_pages": [
+        185,
+        186
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-38771744E82A",
+      "old_record": {
+        "relationship_id": "REL-38771744E82A",
+        "source_subject_id": "SUBJ-C1335903871D",
+        "type": "implemented_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "organized_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S062",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FB5835208AEC"
+      },
+      "old_source_meaning": "An armed mass entered the Tuileries to demand restoration of ministers and an end to royal obstruction but failed to intimidate Louis XVI.",
+      "old_target_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "source_pages": [
+        186,
+        187
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-987993A8C47A",
+        "SUBJ-SUCC-9EE66EC07AA3"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-D8E6CD5620DE",
+      "old_record": {
+        "relationship_id": "REL-D8E6CD5620DE",
+        "source_subject_id": "SUBJ-C5B56D9B6F0B",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "ends"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-012",
+            "local_subject_id": "CHUNK-012-S040",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-DCE698874E49"
+      },
+      "old_source_meaning": "The Convention ended state payment and recognition of all cults, thereby abandoning both the constitutional Church and official sponsorship of the Supreme Being.",
+      "old_target_meaning": "Whole-book synthesis: The July 1790 settlement reconstructed the French Church as a salaried, territorially rationalized, electorally staffed national institution subordinated in temporal organization to the revolutionary state. The Civil Constitution's oath divided clergy into constitutional and refractory camps, exposed refusers to deprivation, exile, massacre, or execution, and left both sides with wounds the Concordat could not fully heal.",
+      "source_pages": [
+        288
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9DC759EBDD0D",
+        "SUBJ-SUCC-28E04117C501",
+        "SUBJ-SUCC-0848F7E708D9"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-1EBBF6EA4A2A",
+      "old_record": {
+        "relationship_id": "REL-1EBBF6EA4A2A",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "distinction"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-014",
+            "local_subject_id": "CHUNK-014-S003",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "Babeuf's egalitarian programme",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "old_target_meaning": null,
+      "source_pages": [
+        318
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-3065B333B34D",
+      "old_record": {
+        "relationship_id": "REL-3065B333B34D",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "distinction"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-014",
+            "local_subject_id": "CHUNK-014-S003",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-452A2157F44B"
+      },
+      "old_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "old_target_meaning": "The drafters argue that property gives citizens education, independence, attachment to law, and a durable interest in public order.",
+      "source_pages": [
+        318
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-097BEBD11879",
+      "old_record": {
+        "relationship_id": "REL-097BEBD11879",
+        "source_subject_id": "SUBJ-5C93466C9CE3",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "advances"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S011",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-148DFDDAEB81"
+      },
+      "old_source_meaning": "The Revolution removed noble corporate representation, fiscal and feudal privileges, venal ennoblement, legal recognition of nobility, and automatic deference, making equality and talent-based advancement durable norms.",
+      "old_target_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "source_pages": [
+        394,
+        395
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-1786C26A3F8E",
+      "old_record": {
+        "relationship_id": "REL-1786C26A3F8E",
+        "source_subject_id": "SUBJ-487B3DBB76B2",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contributes_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S010",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "old_source_meaning": "Whole-book synthesis: Duport's largely noble reform society organized publicity against 1614 and privilege and promoted double representation and head voting. An organized intellectual circle exploited tensions within the educated elite to build support for a single legislature and helped turn a constitutional dispute into broad hostility toward nobles.",
+      "old_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        394
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4B5E17A01A07",
+      "old_record": {
+        "relationship_id": "REL-4B5E17A01A07",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "partially_reversed_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_label": "Napoleonic nobility",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "old_target_meaning": null,
+      "source_pages": [
+        395,
+        396
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-97CDEAF55414",
+      "old_record": {
+        "relationship_id": "REL-97CDEAF55414",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "feeds"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-77F81074B10E"
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "old_target_meaning": "The category of internal enemies expanded from nonjurors and royalist plotters to foreigners, guards, ministers, prisoners, criminals, and other presumed conspirators.",
+      "source_pages": [
+        395,
+        396
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-1A51A7EA164F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-BD24CAF20EE4",
+      "old_record": {
+        "relationship_id": "REL-BD24CAF20EE4",
+        "source_subject_id": "SUBJ-DA71DBE1FE5A",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "part_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S070",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "old_source_meaning": "Ending purchasable office and ennoblement closed the old route by which new wealth entered the nobility, turning a previously open elite into a hereditary identity even as the law ceased to recognize it.",
+      "old_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        395
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-D27635E715E7",
+      "old_record": {
+        "relationship_id": "REL-D27635E715E7",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "caused_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "consequence_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "old_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        395,
+        396
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-30C5B38CC14E",
+      "old_record": {
+        "relationship_id": "REL-30C5B38CC14E",
+        "source_subject_id": "SUBJ-DCE698874E49",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "partially_resolved_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S015",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "Concordat",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Whole-book synthesis: The July 1790 settlement reconstructed the French Church as a salaried, territorially rationalized, electorally staffed national institution subordinated in temporal organization to the revolutionary state. The Civil Constitution's oath divided clergy into constitutional and refractory camps, exposed refusers to deprivation, exile, massacre, or execution, and left both sides with wounds the Concordat could not fully heal.",
+      "old_target_meaning": null,
+      "source_pages": [
+        397,
+        398
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-28E04117C501",
+        "SUBJ-SUCC-0848F7E708D9"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4A980199C01A",
+      "old_record": {
+        "relationship_id": "REL-4A980199C01A",
+        "source_subject_id": "SUBJ-E5774A6ACD0C",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S074",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-ABCE0B740A17"
+      },
+      "old_source_meaning": "Revolutionary law declared support for needy citizens a public obligation, created a national register, and prohibited private alms and begging on the assumption that the state would provide.",
+      "old_target_meaning": "Urban monasteries, hospitals, poorhouses, and private charity attracted migrants but became increasingly inadequate as claims grew and resources eroded.",
+      "source_pages": [
+        399,
+        400
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-39CA1B8E5293"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-BD1BC21539B2",
+      "old_record": {
+        "relationship_id": "REL-BD1BC21539B2",
+        "source_subject_id": "SUBJ-54BA40D54EA6",
+        "type": "contributes_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "shapes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S020",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "anti-feudal legislation",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Bread prices and supply fears repeatedly converted subsistence insecurity into popular price-setting, political mobilization, and pressure on governments from the old regime through the Revolution.",
+      "old_target_meaning": null,
+      "source_pages": [
+        401
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-F9B86363669D",
+      "old_record": {
+        "relationship_id": "REL-F9B86363669D",
+        "source_subject_id": "SUBJ-54BA40D54EA6",
+        "type": "contributes_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "shapes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S020",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "sansculotte moral economy",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Bread prices and supply fears repeatedly converted subsistence insecurity into popular price-setting, political mobilization, and pressure on governments from the old regime through the Revolution.",
+      "old_target_meaning": null,
+      "source_pages": [
+        401
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4CB30CD54EDE",
+      "old_record": {
+        "relationship_id": "REL-4CB30CD54EDE",
+        "source_subject_id": "SUBJ-DC01DAC8A1A8",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "linked_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S023",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_subject_id": "SUBJ-D6CEF25EA2F9"
+      },
+      "old_source_meaning": "Whole-book synthesis: A reduced but exceptionally valuable colonial empire generated rapid overseas-trade growth through tropical commodities and re-export networks centered on major ports. The Saint-Domingue crisis, war with Britain, blockade, embargoes, and maritime insecurity permanently displaced France's leading pre-revolutionary commercial sector and devastated major ports.",
+      "old_target_meaning": "Whole-book synthesis: The August 1791 uprising grew into the largest and only successful slave rebellion, embedded in a fast-moving colonial civil war and plantation expansion. Enslaved people rose amid violent conflict among whites and free people of colour, creating the military crisis that forced metropolitan policy toward emancipation.",
+      "source_pages": [
+        403,
+        404
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-6C55756B4F00",
+      "old_record": {
+        "relationship_id": "REL-6C55756B4F00",
+        "source_subject_id": "SUBJ-DC01DAC8A1A8",
+        "type": "caused_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "consequence_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S023",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-A6FF2C8D7900"
+      },
+      "old_source_meaning": "Whole-book synthesis: A reduced but exceptionally valuable colonial empire generated rapid overseas-trade growth through tropical commodities and re-export networks centered on major ports. The Saint-Domingue crisis, war with Britain, blockade, embargoes, and maritime insecurity permanently displaced France's leading pre-revolutionary commercial sector and devastated major ports.",
+      "old_target_meaning": "The chapter treats the war as a process that transformed the French Revolution, the French state and army, and political alignments across Europe.",
+      "source_pages": [
+        403,
+        404
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-AEC1E9A933E9",
+        "SUBJ-SUCC-007488A999B1",
+        "SUBJ-SUCC-C7DF46AA6436"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-01B76C79F23C",
+      "old_record": {
+        "relationship_id": "REL-01B76C79F23C",
+        "source_subject_id": "SUBJ-5F74ACED6A87",
+        "type": "qualifies",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "qualified_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-51A22D57BC47"
+      },
+      "old_source_meaning": "Old Regime internal customs, tolls, tariffs, and nonuniform measures obstructed exchange; revolutionary reform removed these internal barriers as part of national economic unification.",
+      "old_target_meaning": "The Revolution delayed French growth for roughly a generation; institutional simplification did not release enterprise, while insecurity, national-land sales, and abolition of venal office reinforced bourgeois preference for land over productive investment.",
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-13D8A951FDA7",
+      "old_record": {
+        "relationship_id": "REL-13D8A951FDA7",
+        "source_subject_id": "SUBJ-F8282C0D5793",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "rationalizing economic reforms",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Revolutionary economic liberalization abolished guilds and, through the Le Chapelier Law, prohibited worker coalitions as well as corporate privilege.",
+      "old_target_meaning": null,
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-40E308B0406F",
+      "old_record": {
+        "relationship_id": "REL-40E308B0406F",
+        "source_subject_id": "SUBJ-5F74ACED6A87",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "rationalizing economic reforms",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Old Regime internal customs, tolls, tariffs, and nonuniform measures obstructed exchange; revolutionary reform removed these internal barriers as part of national economic unification.",
+      "old_target_meaning": null,
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4FBF1FE6AC13",
+      "old_record": {
+        "relationship_id": "REL-4FBF1FE6AC13",
+        "source_subject_id": "SUBJ-F8282C0D5793",
+        "type": "qualifies",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "qualified_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-51A22D57BC47"
+      },
+      "old_source_meaning": "Revolutionary economic liberalization abolished guilds and, through the Le Chapelier Law, prohibited worker coalitions as well as corporate privilege.",
+      "old_target_meaning": "The Revolution delayed French growth for roughly a generation; institutional simplification did not release enterprise, while insecurity, national-land sales, and abolition of venal office reinforced bourgeois preference for land over productive investment.",
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-2925FCACB9BE",
+      "old_record": {
+        "relationship_id": "REL-2925FCACB9BE",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "affected_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S082",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-2921D23ACD59"
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "old_target_meaning": "Falling exchange value of both monetary instruments raised prices, especially for imports, and intensified popular accusations against merchants and hoarders.",
+      "source_pages": [
+        408
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-E4C3D945CE3F",
+        "SUBJ-SUCC-4DF9C902BF5B"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-732EB7DA9DDB",
+      "old_record": {
+        "relationship_id": "REL-732EB7DA9DDB",
+        "source_subject_id": "SUBJ-AC3E316FBFE3",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "benefits"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S031",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-F93C5DA22925"
+      },
+      "old_source_meaning": "Abolition of venal office and corporate barriers opened professions but also removed training and validation, creating disorder that Napoleonic licensing and bureaucracy later corrected.",
+      "old_target_meaning": "The bourgeoisie expanded faster than the population and controlled much commercial, industrial, landed, office, and financial wealth, forming most of the secure urban elite.",
+      "source_pages": [
+        408
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-DD0F8069AD66",
+      "old_record": {
+        "relationship_id": "REL-DD0F8069AD66",
+        "source_subject_id": "SUBJ-A71BF60B59EC",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "benefits"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S032",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-F93C5DA22925"
+      },
+      "old_source_meaning": "War reversed early decentralizing aspirations, multiplied administrators and central personnel, and created stable bourgeois careers with qualifications, promotion structures, and pensions.",
+      "old_target_meaning": "The bourgeoisie expanded faster than the population and controlled much commercial, industrial, landed, office, and financial wealth, forming most of the secure urban elite.",
+      "source_pages": [
+        408,
+        409,
+        424
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-E5F0AA1801C9",
+      "old_record": {
+        "relationship_id": "REL-E5F0AA1801C9",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S082",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "professional transformation",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "old_target_meaning": null,
+      "source_pages": [
+        408
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-09204FA1AD53",
+      "old_record": {
+        "relationship_id": "REL-09204FA1AD53",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "constrains",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "constrained_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S050",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "property rights and Notable rule",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "old_target_meaning": null,
+      "source_pages": [
+        419,
+        421
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    }
+  ],
+  "additional_explicit_historical_referrals": [
+    {
+      "review_key": "legacy:REL-4A63AA004DF7",
+      "old_record": {
+        "relationship_id": "REL-4A63AA004DF7",
+        "source_subject_id": "SUBJ-A6D7A0FA07E4",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S028",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "old_source_meaning": "The Revolution abolished sale-based officeholding as incompatible with equality and reconstructed justice, while recognizing many offices as compensable property.",
+      "old_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        116,
+        117,
+        125,
+        134
+      ],
+      "verdict": "scope_cross_shard_requirement",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-8246690A8BF7"
+      ],
+      "source_grounded_disposition": "Venality’s institutional abolition belongs to justice and August privilege reform; compensation’s fiscal continuation under assignats is a distinct lead dependency.",
+      "chapter_source_basis": "Eligible prose distinguishes popular enforcement from legislative principle and property limits, and distinguishes court, administrative, electoral and fiscal mechanisms. August and October sequences remain explicit. Excluded maps cannot supply spatial requirements; the captions identify literal topics only.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-737E91EA55BE",
+      "old_record": {
+        "relationship_id": "REL-737E91EA55BE",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "worsens"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S083",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-C63462B08260"
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "old_target_meaning": "Inherited debt, collapsing revenue, failed loans, compensation obligations, and growing deficits forced the Assembly toward Church-land nationalization and assignat finance.",
+      "source_pages": [
+        117,
+        131,
+        134
+      ],
+      "verdict": "scope_cross_shard_requirement",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-65CB496E4820"
+      ],
+      "source_grounded_disposition": "Compensation raised debt. Later professional outcomes and assignat mechanics require their own source owners, not an all-purpose venality parent.",
+      "chapter_source_basis": "Eligible prose distinguishes popular enforcement from legislative principle and property limits, and distinguishes court, administrative, electoral and fiscal mechanisms. August and October sequences remain explicit. Excluded maps cannot supply spatial requirements; the captions identify literal topics only.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-F36CE4F6B65D",
+      "old_record": {
+        "relationship_id": "REL-F36CE4F6B65D",
+        "source_subject_id": "SUBJ-2811A9AF5637",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "related"
+        ],
+        "descriptions": [
+          "Women also formed a conspicuous part of later Parisian popular mobilization, though in a different political setting."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-008",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-BBA116A85CC0"
+      },
+      "old_source_meaning": "Catholic crowds stopped inventories of confiscated monastic property and attacked a Protestant-linked militia, producing deaths and Protestant flight.",
+      "old_target_meaning": "Crowds and local activists obstructed nonjuror worship, attacked or threatened religious communities, and associated refractories with conspiracy.",
+      "source_pages": [
+        138
+      ],
+      "verdict": "correct_endpoint_and_refer",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-38F9D4ACE8D4"
+      ],
+      "source_grounded_disposition": "The supplied description compares women’s agency in Montauban and Paris, not Montauban’s relation to later refractory persecution. Retain women’s action and refer the regional episode to the lead.",
+      "chapter_source_basis": "Eligible prose traces cumulative religious rupture and a divided political coalition. Reform, oath, papal reception, clubs, petition, repression and constitutional consolidation are separate mechanisms. The repaired parents preserve social and chronological qualifications, including limited republicanism and the failure of Feuillant support.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-59F492E39CAB",
+      "old_record": {
+        "relationship_id": "REL-59F492E39CAB",
+        "source_subject_id": "SUBJ-DA96B0CFF40C",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "mobilizes_against"
+        ],
+        "descriptions": [
+          "Midi clubs opposed Catholic counter-revolutionary formations."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-019",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-D3DA6D94D350"
+      },
+      "old_source_meaning": "The Paris Society of the Friends of the Constitution and its provincial affiliates formed a rapidly expanding national political network that debated policy, sustained enthusiasm, pressured authorities, and circulated patriotic information.",
+      "old_target_meaning": "A National Guard federation in the Gard was redirected by defeated Catholic leaders into organized resistance linked to émigré royalists; a second camp failed militarily.",
+      "source_pages": [
+        142,
+        143,
+        153
+      ],
+      "verdict": "scope_cross_shard_requirement",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-ABA54E187E4B"
+      ],
+      "source_grounded_disposition": "Jalès galvanized southern clubs; the émigré connection is a distinct source-backed element for the lead, not a substitute for the local religious mobilization.",
+      "chapter_source_basis": "Eligible prose traces cumulative religious rupture and a divided political coalition. Reform, oath, papal reception, clubs, petition, repression and constitutional consolidation are separate mechanisms. The repaired parents preserve social and chronological qualifications, including limited republicanism and the failure of Feuillant support.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-24959D4089EF",
+      "old_record": {
+        "relationship_id": "REL-24959D4089EF",
+        "source_subject_id": "SUBJ-A8857B12C90E",
+        "type": "contrasts_with",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "distinct_from"
+        ],
+        "descriptions": [
+          "Political rights for free people did not abolish slavery."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-070",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-5EF2BDD9F1CB"
+      },
+      "old_source_meaning": "Free people of color demanded political rights against determined white colonial resistance and violent repression; the Assembly ultimately granted rights regardless of color.",
+      "old_target_meaning": "The Constituent Assembly declined to abolish colonial slavery in March 1790 despite its universal rights language.",
+      "source_pages": [
+        151
+      ],
+      "verdict": "retain_distinct_statuses_and_refer",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-E460E732EDD9"
+      ],
+      "source_grounded_disposition": "Preserving slavery and granting rights to some free people of colour are distinct legal questions. Retain the contrast and require the lead’s free-coloured subject, not a slavery-only substitute.",
+      "chapter_source_basis": "Eligible prose traces cumulative religious rupture and a divided political coalition. Reform, oath, papal reception, clubs, petition, repression and constitutional consolidation are separate mechanisms. The repaired parents preserve social and chronological qualifications, including limited republicanism and the failure of Feuillant support.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-B6DC4C5E3979",
+      "old_record": {
+        "relationship_id": "REL-B6DC4C5E3979",
+        "source_subject_id": "SUBJ-5EF2BDD9F1CB",
+        "type": "contrasts_with",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contradicts"
+        ],
+        "descriptions": [
+          "Racial exclusion qualified the Assembly’s universalist legacy."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-069",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-744C7C41CE77"
+      },
+      "old_source_meaning": "The Constituent Assembly declined to abolish colonial slavery in March 1790 despite its universal rights language.",
+      "old_target_meaning": "Louis XVI accepted the completed Constitution amid amnesty and celebration, and the Constituent Assembly ended after dismantling the ancien régime and establishing enduring principles and institutions.",
+      "source_pages": [
+        151
+      ],
+      "verdict": "scope_distinction_and_refer",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-E460E732EDD9",
+        "SUBJ-SUCC-59FB4D856AE3"
+      ],
+      "source_grounded_disposition": "Preservation of slavery contradicts proclaimed universal rights; the free-coloured and later constitutional-legacy questions are separate.",
+      "chapter_source_basis": "Eligible prose traces cumulative religious rupture and a divided political coalition. Reform, oath, papal reception, clubs, petition, repression and constitutional consolidation are separate mechanisms. The repaired parents preserve social and chronological qualifications, including limited republicanism and the failure of Feuillant support.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-F901AD713C65",
+      "old_record": {
+        "relationship_id": "REL-F901AD713C65",
+        "source_subject_id": "SUBJ-A8857B12C90E",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "specific_aspect_of"
+        ],
+        "descriptions": [
+          "This is the citizenship branch of the colonial debate."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-070",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-20E4EBF24394"
+      },
+      "old_source_meaning": "Free people of color demanded political rights against determined white colonial resistance and violent repression; the Assembly ultimately granted rights regardless of color.",
+      "old_target_meaning": "The Assembly refused to abolish colonial slavery in 1790, exposing the exclusion of enslaved Black people from the universal language of the Rights of Man.",
+      "source_pages": [
+        151
+      ],
+      "verdict": "correct_status_category_and_refer",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-E460E732EDD9"
+      ],
+      "source_grounded_disposition": "Free-coloured citizenship is not a specific aspect of preserving slavery. It needs a distinct target and the distinction must survive.",
+      "chapter_source_basis": "Eligible prose traces cumulative religious rupture and a divided political coalition. Reform, oath, papal reception, clubs, petition, repression and constitutional consolidation are separate mechanisms. The repaired parents preserve social and chronological qualifications, including limited republicanism and the failure of Feuillant support.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-0EE2D070A628",
+      "old_record": {
+        "relationship_id": "REL-0EE2D070A628",
+        "source_subject_id": "SUBJ-BC854EC092B5",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "uses"
+        ],
+        "descriptions": [
+          "The already extensive club network supplied the machinery of vigilance."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-045",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-DA96B0CFF40C"
+      },
+      "old_source_meaning": "The royal flight produced nationwide expectations of Austrian intervention, Guard mobilization, vigilance committees, attacks on refractories, and intense political-club participation.",
+      "old_target_meaning": "The Paris Society of the Friends of the Constitution and its provincial affiliates formed a rapidly expanding national political network that debated policy, sustained enthusiasm, pressured authorities, and circulated patriotic information.",
+      "source_pages": [
+        153
+      ],
+      "verdict": "scope_network_and_refer",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-ABA54E187E4B"
+      ],
+      "source_grounded_disposition": "The club network participated in emergency vigilance. General Guards, committees and persecution after Varennes remain a distinct lead-owned emergency requirement.",
+      "chapter_source_basis": "Eligible prose traces cumulative religious rupture and a divided political coalition. Reform, oath, papal reception, clubs, petition, repression and constitutional consolidation are separate mechanisms. The repaired parents preserve social and chronological qualifications, including limited republicanism and the failure of Feuillant support.",
+      "whole_record_binding_status": "proposed_owned_records; external dependencies explicitly unresolved",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-66D40B0E3B45",
+      "old_record": {
+        "relationship_id": "REL-66D40B0E3B45",
+        "source_subject_id": "SUBJ-FB5835208AEC",
+        "type": "implements",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "organizes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S028",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-C1335903871D"
+      },
+      "old_source_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "old_target_meaning": "An armed mass entered the Tuileries to demand restoration of ministers and an end to royal obstruction but failed to intimidate Louis XVI.",
+      "source_pages": [
+        185,
+        186
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3",
+        "SUBJ-SUCC-987993A8C47A"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-9511F5F29FA1",
+      "old_record": {
+        "relationship_id": "REL-9511F5F29FA1",
+        "source_subject_id": "SUBJ-FB5835208AEC",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contributes_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S028",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-1E1D8A56F292"
+      },
+      "old_source_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "old_target_meaning": "Neighborhood organizations revived under economic and military pressure, broadened participation, coordinated petitions and armed action, formed a central committee, and seized municipal power.",
+      "source_pages": [
+        185,
+        186
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-38771744E82A",
+      "old_record": {
+        "relationship_id": "REL-38771744E82A",
+        "source_subject_id": "SUBJ-C1335903871D",
+        "type": "implemented_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "organized_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S062",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FB5835208AEC"
+      },
+      "old_source_meaning": "An armed mass entered the Tuileries to demand restoration of ministers and an end to royal obstruction but failed to intimidate Louis XVI.",
+      "old_target_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "source_pages": [
+        186,
+        187
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-987993A8C47A",
+        "SUBJ-SUCC-9EE66EC07AA3"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-D8E6CD5620DE",
+      "old_record": {
+        "relationship_id": "REL-D8E6CD5620DE",
+        "source_subject_id": "SUBJ-C5B56D9B6F0B",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "ends"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-012",
+            "local_subject_id": "CHUNK-012-S040",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-DCE698874E49"
+      },
+      "old_source_meaning": "The Convention ended state payment and recognition of all cults, thereby abandoning both the constitutional Church and official sponsorship of the Supreme Being.",
+      "old_target_meaning": "Whole-book synthesis: The July 1790 settlement reconstructed the French Church as a salaried, territorially rationalized, electorally staffed national institution subordinated in temporal organization to the revolutionary state. The Civil Constitution's oath divided clergy into constitutional and refractory camps, exposed refusers to deprivation, exile, massacre, or execution, and left both sides with wounds the Concordat could not fully heal.",
+      "source_pages": [
+        288
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-9DC759EBDD0D",
+        "SUBJ-SUCC-28E04117C501",
+        "SUBJ-SUCC-0848F7E708D9"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-1EBBF6EA4A2A",
+      "old_record": {
+        "relationship_id": "REL-1EBBF6EA4A2A",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "distinction"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-014",
+            "local_subject_id": "CHUNK-014-S003",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "Babeuf's egalitarian programme",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "old_target_meaning": null,
+      "source_pages": [
+        318
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-3065B333B34D",
+      "old_record": {
+        "relationship_id": "REL-3065B333B34D",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "distinction"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-014",
+            "local_subject_id": "CHUNK-014-S003",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-452A2157F44B"
+      },
+      "old_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "old_target_meaning": "The drafters argue that property gives citizens education, independence, attachment to law, and a durable interest in public order.",
+      "source_pages": [
+        318
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-097BEBD11879",
+      "old_record": {
+        "relationship_id": "REL-097BEBD11879",
+        "source_subject_id": "SUBJ-5C93466C9CE3",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "advances"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S011",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-148DFDDAEB81"
+      },
+      "old_source_meaning": "The Revolution removed noble corporate representation, fiscal and feudal privileges, venal ennoblement, legal recognition of nobility, and automatic deference, making equality and talent-based advancement durable norms.",
+      "old_target_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "source_pages": [
+        394,
+        395
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-1786C26A3F8E",
+      "old_record": {
+        "relationship_id": "REL-1786C26A3F8E",
+        "source_subject_id": "SUBJ-487B3DBB76B2",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contributes_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S010",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "old_source_meaning": "Whole-book synthesis: Duport's largely noble reform society organized publicity against 1614 and privilege and promoted double representation and head voting. An organized intellectual circle exploited tensions within the educated elite to build support for a single legislature and helped turn a constitutional dispute into broad hostility toward nobles.",
+      "old_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        394
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4B5E17A01A07",
+      "old_record": {
+        "relationship_id": "REL-4B5E17A01A07",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "partially_reversed_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_label": "Napoleonic nobility",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "old_target_meaning": null,
+      "source_pages": [
+        395,
+        396
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-97CDEAF55414",
+      "old_record": {
+        "relationship_id": "REL-97CDEAF55414",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "feeds"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-77F81074B10E"
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "old_target_meaning": "The category of internal enemies expanded from nonjurors and royalist plotters to foreigners, guards, ministers, prisoners, criminals, and other presumed conspirators.",
+      "source_pages": [
+        395,
+        396
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-1A51A7EA164F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-BD24CAF20EE4",
+      "old_record": {
+        "relationship_id": "REL-BD24CAF20EE4",
+        "source_subject_id": "SUBJ-DA71DBE1FE5A",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "part_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S070",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "old_source_meaning": "Ending purchasable office and ennoblement closed the old route by which new wealth entered the nobility, turning a previously open elite into a hereditary identity even as the law ceased to recognize it.",
+      "old_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        395
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-D27635E715E7",
+      "old_record": {
+        "relationship_id": "REL-D27635E715E7",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "caused_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "consequence_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "old_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        395,
+        396
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-30C5B38CC14E",
+      "old_record": {
+        "relationship_id": "REL-30C5B38CC14E",
+        "source_subject_id": "SUBJ-DCE698874E49",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "partially_resolved_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S015",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "Concordat",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Whole-book synthesis: The July 1790 settlement reconstructed the French Church as a salaried, territorially rationalized, electorally staffed national institution subordinated in temporal organization to the revolutionary state. The Civil Constitution's oath divided clergy into constitutional and refractory camps, exposed refusers to deprivation, exile, massacre, or execution, and left both sides with wounds the Concordat could not fully heal.",
+      "old_target_meaning": null,
+      "source_pages": [
+        397,
+        398
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-28E04117C501",
+        "SUBJ-SUCC-0848F7E708D9"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4A980199C01A",
+      "old_record": {
+        "relationship_id": "REL-4A980199C01A",
+        "source_subject_id": "SUBJ-E5774A6ACD0C",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S074",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-ABCE0B740A17"
+      },
+      "old_source_meaning": "Revolutionary law declared support for needy citizens a public obligation, created a national register, and prohibited private alms and begging on the assumption that the state would provide.",
+      "old_target_meaning": "Urban monasteries, hospitals, poorhouses, and private charity attracted migrants but became increasingly inadequate as claims grew and resources eroded.",
+      "source_pages": [
+        399,
+        400
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-39CA1B8E5293"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-BD1BC21539B2",
+      "old_record": {
+        "relationship_id": "REL-BD1BC21539B2",
+        "source_subject_id": "SUBJ-54BA40D54EA6",
+        "type": "contributes_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "shapes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S020",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "anti-feudal legislation",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Bread prices and supply fears repeatedly converted subsistence insecurity into popular price-setting, political mobilization, and pressure on governments from the old regime through the Revolution.",
+      "old_target_meaning": null,
+      "source_pages": [
+        401
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-F9B86363669D",
+      "old_record": {
+        "relationship_id": "REL-F9B86363669D",
+        "source_subject_id": "SUBJ-54BA40D54EA6",
+        "type": "contributes_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "shapes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S020",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "sansculotte moral economy",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Bread prices and supply fears repeatedly converted subsistence insecurity into popular price-setting, political mobilization, and pressure on governments from the old regime through the Revolution.",
+      "old_target_meaning": null,
+      "source_pages": [
+        401
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4CB30CD54EDE",
+      "old_record": {
+        "relationship_id": "REL-4CB30CD54EDE",
+        "source_subject_id": "SUBJ-DC01DAC8A1A8",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "linked_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S023",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_subject_id": "SUBJ-D6CEF25EA2F9"
+      },
+      "old_source_meaning": "Whole-book synthesis: A reduced but exceptionally valuable colonial empire generated rapid overseas-trade growth through tropical commodities and re-export networks centered on major ports. The Saint-Domingue crisis, war with Britain, blockade, embargoes, and maritime insecurity permanently displaced France's leading pre-revolutionary commercial sector and devastated major ports.",
+      "old_target_meaning": "Whole-book synthesis: The August 1791 uprising grew into the largest and only successful slave rebellion, embedded in a fast-moving colonial civil war and plantation expansion. Enslaved people rose amid violent conflict among whites and free people of colour, creating the military crisis that forced metropolitan policy toward emancipation.",
+      "source_pages": [
+        403,
+        404
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-6C55756B4F00",
+      "old_record": {
+        "relationship_id": "REL-6C55756B4F00",
+        "source_subject_id": "SUBJ-DC01DAC8A1A8",
+        "type": "caused_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "consequence_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S023",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-A6FF2C8D7900"
+      },
+      "old_source_meaning": "Whole-book synthesis: A reduced but exceptionally valuable colonial empire generated rapid overseas-trade growth through tropical commodities and re-export networks centered on major ports. The Saint-Domingue crisis, war with Britain, blockade, embargoes, and maritime insecurity permanently displaced France's leading pre-revolutionary commercial sector and devastated major ports.",
+      "old_target_meaning": "The chapter treats the war as a process that transformed the French Revolution, the French state and army, and political alignments across Europe.",
+      "source_pages": [
+        403,
+        404
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-AEC1E9A933E9",
+        "SUBJ-SUCC-007488A999B1",
+        "SUBJ-SUCC-C7DF46AA6436"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-01B76C79F23C",
+      "old_record": {
+        "relationship_id": "REL-01B76C79F23C",
+        "source_subject_id": "SUBJ-5F74ACED6A87",
+        "type": "qualifies",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "qualified_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-51A22D57BC47"
+      },
+      "old_source_meaning": "Old Regime internal customs, tolls, tariffs, and nonuniform measures obstructed exchange; revolutionary reform removed these internal barriers as part of national economic unification.",
+      "old_target_meaning": "The Revolution delayed French growth for roughly a generation; institutional simplification did not release enterprise, while insecurity, national-land sales, and abolition of venal office reinforced bourgeois preference for land over productive investment.",
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-13D8A951FDA7",
+      "old_record": {
+        "relationship_id": "REL-13D8A951FDA7",
+        "source_subject_id": "SUBJ-F8282C0D5793",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "rationalizing economic reforms",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Revolutionary economic liberalization abolished guilds and, through the Le Chapelier Law, prohibited worker coalitions as well as corporate privilege.",
+      "old_target_meaning": null,
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-40E308B0406F",
+      "old_record": {
+        "relationship_id": "REL-40E308B0406F",
+        "source_subject_id": "SUBJ-5F74ACED6A87",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "rationalizing economic reforms",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Old Regime internal customs, tolls, tariffs, and nonuniform measures obstructed exchange; revolutionary reform removed these internal barriers as part of national economic unification.",
+      "old_target_meaning": null,
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-4FBF1FE6AC13",
+      "old_record": {
+        "relationship_id": "REL-4FBF1FE6AC13",
+        "source_subject_id": "SUBJ-F8282C0D5793",
+        "type": "qualifies",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "qualified_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-51A22D57BC47"
+      },
+      "old_source_meaning": "Revolutionary economic liberalization abolished guilds and, through the Le Chapelier Law, prohibited worker coalitions as well as corporate privilege.",
+      "old_target_meaning": "The Revolution delayed French growth for roughly a generation; institutional simplification did not release enterprise, while insecurity, national-land sales, and abolition of venal office reinforced bourgeois preference for land over productive investment.",
+      "source_pages": [
+        405
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-2925FCACB9BE",
+      "old_record": {
+        "relationship_id": "REL-2925FCACB9BE",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "affected_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S082",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-2921D23ACD59"
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "old_target_meaning": "Falling exchange value of both monetary instruments raised prices, especially for imports, and intensified popular accusations against merchants and hoarders.",
+      "source_pages": [
+        408
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-E4C3D945CE3F",
+        "SUBJ-SUCC-4DF9C902BF5B"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-732EB7DA9DDB",
+      "old_record": {
+        "relationship_id": "REL-732EB7DA9DDB",
+        "source_subject_id": "SUBJ-AC3E316FBFE3",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "benefits"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S031",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-F93C5DA22925"
+      },
+      "old_source_meaning": "Abolition of venal office and corporate barriers opened professions but also removed training and validation, creating disorder that Napoleonic licensing and bureaucracy later corrected.",
+      "old_target_meaning": "The bourgeoisie expanded faster than the population and controlled much commercial, industrial, landed, office, and financial wealth, forming most of the secure urban elite.",
+      "source_pages": [
+        408
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-DD0F8069AD66",
+      "old_record": {
+        "relationship_id": "REL-DD0F8069AD66",
+        "source_subject_id": "SUBJ-A71BF60B59EC",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "benefits"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S032",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-F93C5DA22925"
+      },
+      "old_source_meaning": "War reversed early decentralizing aspirations, multiplied administrators and central personnel, and created stable bourgeois careers with qualifications, promotion structures, and pensions.",
+      "old_target_meaning": "The bourgeoisie expanded faster than the population and controlled much commercial, industrial, landed, office, and financial wealth, forming most of the secure urban elite.",
+      "source_pages": [
+        408,
+        409,
+        424
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-E5F0AA1801C9",
+      "old_record": {
+        "relationship_id": "REL-E5F0AA1801C9",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S082",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "professional transformation",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "old_target_meaning": null,
+      "source_pages": [
+        408
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    },
+    {
+      "review_key": "legacy:REL-09204FA1AD53",
+      "old_record": {
+        "relationship_id": "REL-09204FA1AD53",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "constrains",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "constrained_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S050",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "property rights and Notable rule",
+        "candidate_subject_ids": []
+      },
+      "old_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "old_target_meaning": null,
+      "source_pages": [
+        419,
+        421
+      ],
+      "verdict": "refer_later_source_requirement_not_preserved_by_early_parent",
+      "proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "source_grounded_disposition": "The actual old relation depends on later pages outside this reviewer’s inspected 1–158 source scope. Its early-chapter endpoint overlap does not establish preservation. The lead must inspect the stated later causal, comparative or institutional claim and bind it to its later source treatment; no fulfillment is presumed.",
+      "historical_author_disposition_not_used_as_verdict": true
+    }
+  ]
+}

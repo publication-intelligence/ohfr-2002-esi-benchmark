@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T23:16:22.874824+00:00",
+  "recorded_at": "2026-09-16T23:42:06.588523+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -211,7 +211,31 @@
       "authorized": true,
       "complete": false,
       "limitation": "Prior current-entity review did not certify all retired/internalized historical keys; whole-book union must close explicitly."
-    }
+    },
+    "completed_repair_packet_001_006": {
+      "manifest": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/output-manifest.v1.json",
+        "sha256": "b16d8f786fef2d41051b1443a0472f35fa95a91da2f685a7c397d491863088e5"
+      },
+      "whole_replacements": {
+        "subjects": 124,
+        "relationships": 13,
+        "reader_tasks": 43
+      },
+      "exact_diff_reconstruction_verified": 183,
+      "new_tasks": 2,
+      "removed_tasks": 1,
+      "original_historical_relationship_rows_verified": {
+        "prior": 323,
+        "additional": 1038,
+        "unique_union": 1361
+      },
+      "original_evidence_lineage_rows_verified": 96,
+      "exact_source_first_findings_verified": 181,
+      "remaining_later_page_relationship_referrals": 27,
+      "cross_shard_repair_closure_complete": false
+    },
+    "independent_historical_requirement_closure_complete": false
   },
   "density_proposal": {
     "total": 193118,
@@ -295,7 +319,7 @@
     "remaining_holds_are_validation_dependencies": true
   },
   "candidate_evidence_triage": {
-    "status": "all_private_inventories_verified_substantive_preparatory_direct_evidence_review_underway",
+    "status": "all_four_private_preparatory_reviews_preserved_and_verified_final_source_release_pending",
     "artifact_hashes_independently_verified": {
       "Indexia": 113,
       "IndexPDF": 118,
@@ -303,6 +327,12 @@
       "Published": 134
     },
     "audit_transfer_authorized": false,
-    "published_historical_registration_mismatch_preserved": true
+    "published_historical_registration_mismatch_preserved": true,
+    "task_owned_c11_consumers_quiescent_reported": [
+      "Published",
+      "IndexPDF",
+      "IndexerLabs",
+      "Indexia"
+    ]
   }
 }
