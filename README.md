@@ -65,6 +65,8 @@ The independent review found systemic defects in benchmark v2 and triggered a te
 
 Pull requests and pushes to `main` run [`scripts/validate_benchmark_release.py`](scripts/validate_benchmark_release.py). The check verifies the release hashes, frozen counts, independent-review status, cleared control gate, checkpoint integrity, and byte-for-byte identity of benchmark v3 with the artifact freeze commit.
 
+Successor release validation is separate: after every historical v3 check passes, the validator explicitly dispatches the [pinned successor checks](docs/successor-release-validation.md) if a successor release descriptor has been selected. Until then, CI remains historical-v3-only. The workflow and immutable v3 enforcement remain unchanged.
+
 ## Rights
 
 This repository contains source-derived analytical metadata and evidence summaries, not the copyrighted source text. No repository license has been selected; technical reuse instructions do not grant rights beyond those separately held or authorized by the repository owner.
