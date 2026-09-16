@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T20:00:35.864060+00:00",
+  "recorded_at": "2026-09-16T20:22:37.831416+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -70,7 +70,12 @@
   "successor": {
     "status": "full_source_only_synthesis_started",
     "independent_review": "required_after_actual_draft",
-    "frozen": false
+    "frozen": false,
+    "source_pages_inspected": 425,
+    "source_page_scope": 425,
+    "page_inspection_basis": "source_only_synthesis_team_report",
+    "whole_book_entity_reconciliation_complete": false,
+    "independent_source_pass_packet_prepared": true
   },
   "density_proposal": {
     "total": 193118,
@@ -81,5 +86,15 @@
     "independent_exact_reproduction": true,
     "study_registered": false
   },
-  "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17"
+  "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17",
+  "website_consumer": {
+    "status": "local_isolated_patch_in_progress",
+    "owner": "Published_evaluation_task",
+    "scope": [
+      "display_producer_benchmark_identity",
+      "reject_missing_stale_or_mixed_comparison_bindings"
+    ],
+    "current_data_replaced": false,
+    "published": false
+  }
 }
