@@ -1,0 +1,44 @@
+{
+  "schema_version": "historical-review-ownership-check-v1",
+  "recorded_at": "2026-09-16T23:48:16.817271+00:00",
+  "candidate_information_used": false,
+  "coordinator_candidate_unexposed": false,
+  "method": "Exact historical key sets only; mentions and assignments are not substantive completion. Active lead queue was observed read-only.",
+  "relationships": {
+    "original_population": 3741,
+    "001_completed_packet_including_referrals": 1361,
+    "007_explicit_assigned_including_prior_completed": 1836,
+    "lead_observed_queue": 903,
+    "assigned_unique_union": 3740,
+    "missing_keys": [
+      "native:REL-0013"
+    ],
+    "extra_keys": [],
+    "queue_file_sha256": "8e140c8b53be551dba517dc1df16100cfc7c4d31d812879424483594ef76ad1d"
+  },
+  "tasks": {
+    "original_population": 1664,
+    "001_prior_mentioned_lineage_keys_not_automatic_approval": 515,
+    "007_explicit_assigned_including_prior_completed": 927,
+    "001_new_assignment": 226,
+    "lead_fallback_keys": 22,
+    "assigned_or_mentioned_union": 1653,
+    "missing_keys": [
+      "legacy:TASK-AF7F58F705B5",
+      "legacy:TASK-F06800D8C202",
+      "native:TASK-0118",
+      "native:TASK-0119",
+      "native:TASK-0133",
+      "native:TASK-0136",
+      "native:TASK-0137",
+      "native:TASK-0142",
+      "native:TASK-0157",
+      "native:TASK-0158",
+      "native:TASK-0160"
+    ],
+    "extra_keys": []
+  },
+  "action": "Exact missing keys and coverage caveat sent to independent lead for explicit inspection/disposition. No review or benchmark content changed.",
+  "editorial_approval": false,
+  "whole_book_closure": false
+}

@@ -245,6 +245,18 @@
       "disjoint_exhaustive_populations_verified": 7,
       "complete": false,
       "original_review_outputs_preserved": true
+    },
+    "global_ownership_gap_check": {
+      "path": "validation/reconciliation/historical-review-ownership-check.v1.json",
+      "original_relationships": 3741,
+      "original_tasks": 1664,
+      "orphan_relationship_disposition": {
+        "path": "successor/independent-review/actual-draft/lead/global-historical-orphan-relationship.v1.json",
+        "sha256": "13ca81399476407f704a8ac08822191f3169013bb8fcd321d53eb74c315003af",
+        "exact_original_verified": true
+      },
+      "eleven_retired_early_tasks_explicit_review_pending": true,
+      "prior001_historical_task_substantive_coverage_requires_explicit_attestation": true
     }
   },
   "density_proposal": {

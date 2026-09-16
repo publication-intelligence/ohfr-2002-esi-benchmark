@@ -1,0 +1,31 @@
+{
+  "schema_version": "independent-global-historical-relationship-disposition-v1",
+  "historical_key": "native:REL-0013",
+  "exact_before": {
+    "relationship_id": "REL-0013",
+    "source_subject_id": "SUBJ-0054",
+    "relationship_type": "concludes",
+    "resolution_status": "unresolved_label",
+    "source_relationship_clues": [
+      {
+        "source_chunk_id": "CHUNK-001",
+        "source_local_subject_id": "CHUNK-001-S054",
+        "source_relationship_ordinal": 1,
+        "source_relationship": {
+          "type": "concludes",
+          "target": "Chapter 1"
+        }
+      }
+    ],
+    "target_label": "Chapter 1"
+  },
+  "source_pages_reinspected_in_full": [
+    43
+  ],
+  "disposition": "retire_document_structure_relation",
+  "rationale": "The old concludes predicate links the Louis XVI character treatment to the document label Chapter 1. Full page 43 supports the substantive judgment that education, duty and good intentions did not equip the inexperienced king for court intrigue. That judgment belongs in the Louis XVI subject, while chapter position is not a historical dependency or a useful independently weighted subject-index relationship. Retire the structural edge without retiring its source subject or that substantive characterization.",
+  "source_subject_retention_target": "SUBJ-SUCC-842353BC1D2D",
+  "relationship_successor_ids": [],
+  "approval_scope": "Exact old edge retirement only; final parent values and whole-book approval remain pending.",
+  "candidate_unseen": true
+}
