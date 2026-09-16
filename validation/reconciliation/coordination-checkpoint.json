@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T23:44:02.214045+00:00",
+  "recorded_at": "2026-09-16T23:50:43.257781+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -257,6 +257,16 @@
       },
       "eleven_retired_early_tasks_explicit_review_pending": true,
       "prior001_historical_task_substantive_coverage_requires_explicit_attestation": true
+    },
+    "explicit_historical_task_closure_assignment": {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.historical-task-closure.assignment.v1.json",
+      "sha256": "89c74b2e0943aada99967722575b27f2befdaa5597c9f31952b286010411b614",
+      "additional_keys": 502,
+      "prior_associations_requiring_substantive_review": 491,
+      "retired_template_keys": 11,
+      "global_assigned_exact_union": 1664,
+      "new_keys_disjoint_from_other_assignments": true,
+      "review_complete": false
     }
   },
   "density_proposal": {
