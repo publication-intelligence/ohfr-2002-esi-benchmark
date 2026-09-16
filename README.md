@@ -4,7 +4,9 @@ This repository contains the frozen, candidate-independent source benchmark for 
 
 ## Frozen benchmark release
 
-Benchmark v3 is final. It completed source-led discovery, whole-book synthesis, and a full independent candidate-blind review before freeze.
+Benchmark v3 is an immutable historical release. It completed source-led discovery, whole-book synthesis, and a full independent candidate-blind review before freeze.
+
+**Study reconciliation is pending.** A later, independently reviewed native V8 release covers the same supplied source. The original v3 reuse mandate predates that release and does not establish comparative quality. A fresh candidate-unexposed review is comparing both source models before recommending retention, replacement, or an independently reviewed successor. See [study reconciliation](docs/study-benchmark-reconciliation.md). Until selection and shared bindings are complete, the four candidate evaluation PRs and comparative bundle cutover remain on hold.
 
 | Release fact | Value |
 | --- | --- |
@@ -42,7 +44,7 @@ The review retains 303 label-only relationships where no single stable subject i
 
 ## Reuse in candidate repositories
 
-Every candidate evaluation must:
+The historical v3 reuse contract is preserved below. It governs reuse of v3; it does not preselect the outcome of the current study reconciliation. An evaluation reusing v3 must:
 
 1. pin benchmark repository commit `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab` as its immutable benchmark artifact reference;
 2. bind `source/source-benchmark.v3.json` to canonical SHA-256 `b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3` and file SHA-256 `34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27`;

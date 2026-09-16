@@ -1,0 +1,44 @@
+{
+  "schema_version": "study-reconciliation-coordination-checkpoint-v1",
+  "recorded_at": "2026-09-16T19:26:54.008250+00:00",
+  "benchmark_selection": "pending_source_only_comparison",
+  "coordinator_candidate_unexposed": false,
+  "source_review_context": {
+    "fresh_context": true,
+    "input_allowlist_sha256": "a977c0270f13d0d4a39881da80ceb99911621ed6ad061de50613755dc128922e",
+    "native_freeze_addendum_sha256": "4e847fbb81888cca2f39923d9ef7b10f3d223ce7a9a3ff868a15ec06662a5eb9",
+    "attestation_status": "reviewer_authored_attestation_pending"
+  },
+  "methodology": {
+    "installed_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "verified_file_count": 111,
+    "receipt_and_git_blob_equality_verified": true,
+    "generic_study_lock_work": "in_progress_no_release_or_install"
+  },
+  "preservation_checks": {
+    "legacy_v3_release_validator": "passed",
+    "Published_private_archive_sha256": "95f2f5523d68dc54a2d50c12377bab6076177840a6dc60c2693378c8285103ad",
+    "IndexPDF_private_archive_sha256": "664a87c0ebbb8a8f07c237136c5f2fcc959d826fd3e452db1b9725bad9133f65",
+    "IndexerLabs_preserved_state_sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+    "Indexia_private_archive_sha256": "b480bce90bfb28e904e6666e0ae41a13a0fe46949d842edb7a6dfab12af5a314",
+    "all_named_hashes_independently_verified": true,
+    "zip_integrity_checked": [
+      "Published",
+      "IndexPDF",
+      "Indexia"
+    ]
+  },
+  "execution": {
+    "candidate_rebound": false,
+    "candidate_rescored": false,
+    "evaluation_pr_merged": false,
+    "saved_project_activated": false,
+    "website_deployed": false,
+    "audit_transfer_authorized": false
+  },
+  "limitations": [
+    "Source comparison and semantic crosswalk remain in progress.",
+    "No density basis is selected; reviewer is examining a uniform source counting protocol.",
+    "Reconciliation checkpoint is not canonical evaluation state, a benchmark approval, or a substitute artifact manifest."
+  ]
+}
