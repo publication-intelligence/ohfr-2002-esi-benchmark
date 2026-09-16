@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T20:52:35.336167+00:00",
+  "recorded_at": "2026-09-16T21:24:00.109720+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -30,7 +30,17 @@
     "public_transport_paths_omitted": true,
     "merge_commit": "77e5c8b9274c75200b31cf14e730ac1398b06128",
     "exact_registered_report_bytes_in_comparison": true,
-    "merge_tree_equals_tested_head": true
+    "merge_tree_equals_tested_head": true,
+    "staged_installation": {
+      "commit": "77e5c8b9274c75200b31cf14e730ac1398b06128",
+      "status": "staged_verified_not_activated",
+      "files_verified_against_receipt_and_blob_ids": 120,
+      "receipt_sha256": "01f1f335651c3265748635fbed7c484de25c55422e5f6ff4677c513f68db2085",
+      "payload_manifest_sha256": "ffbf0a6d49e05c799fa0ce724d5a4f0c4f9dc399eba76e94b15e761cb3142444",
+      "activated": false,
+      "owner_staging_tests_passed": 201,
+      "owner_schema_checks_passed": 54
+    }
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -80,13 +90,19 @@
     "whole_book_entity_reconciliation_complete": false,
     "independent_source_pass_packet_prepared": true,
     "provisional_subject_count": 531,
-    "provisional_relationship_count": 380,
+    "provisional_relationship_count": 493,
     "historical_subject_ids_mapped": 2004,
     "historical_relationship_dispositions_pending": true,
     "historical_reader_task_dispositions_pending": true,
     "independent_source_first_pages_reported": 425,
     "independent_source_first_artifact_hashes_verified": true,
-    "independent_draft_review_complete": false
+    "independent_draft_review_complete": false,
+    "provisional_reader_task_count": 685,
+    "final_evidence_restorations_or_reroutings": 159,
+    "independent_cross_chapter_checks": 29,
+    "independent_consolidation_receipt_sha256": "30eeb29278e7e0c518319ff6ea6d6526d122988e2a3b7dd3f743f90d94fe66c9",
+    "independent_consolidation_hashes_verified": true,
+    "historical_evidence_records_mapped": 4823
   },
   "density_proposal": {
     "total": 193118,
@@ -99,7 +115,7 @@
   },
   "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17",
   "website_consumer": {
-    "status": "reviewed_draft_pr_open_ci_pending",
+    "status": "current_presentation_pushed_license_expression_fix_reviewed",
     "owner": "Published_evaluation_task",
     "scope": [
       "display_producer_benchmark_identity",
@@ -108,10 +124,46 @@
     "current_data_replaced": false,
     "published": false,
     "coordinator_focused_tests_passed": 48,
-    "owner_focused_tests_passed": 82,
+    "owner_focused_tests_passed": 86,
     "producer_synthetic_bundle_interoperability_passed": true,
     "pr": "https://github.com/publication-intelligence/publication-intelligence/pull/5",
-    "head": "89d5e162eea95c50d0edf395a4866f8804615a7f",
-    "ci_status": "application_license_audit_failed_on_unchanged_jszip_expression_other_jobs_pending"
+    "head": "4513610e853dc9ec8e1cea9c5db38ed00678fc6d",
+    "ci_status": "four_test_shards_passed_application_stopped_at_unchanged_license_audit",
+    "ci_test_shards_passed": [
+      "frontend-unit-1",
+      "frontend-unit-2",
+      "backend-integration-1",
+      "backend-integration-2"
+    ],
+    "ci_application_failure": {
+      "job": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35151174179/job/104979576382",
+      "step": "license:audit",
+      "dependency": "jszip@3.10.2",
+      "license_expression": "(MIT OR GPL-3.0-or-later)",
+      "dependency_or_license_policy_changed": false,
+      "owner_verified_unchanged_relevant_files": 24,
+      "skipped_after_failure": [
+        "repository-wide typecheck",
+        "application unit command",
+        "backend build",
+        "frontend build"
+      ]
+    },
+    "followup_finding": "Corrected current metadata reports to use producer view scores and current gate/defect evidence; historical prose, density fits, numeric constants and provenance fallbacks are limited to historical reports.",
+    "coordinator_followup_adapter_renderer_tests_passed": 57,
+    "license_expression_fix_coordinator_tests_passed": 39,
+    "license_expression_fix": "Reviewed conservative AND/OR/grouping evaluation; existing allowlist and package overrides unchanged; owner full audit reports 796 allowed,28 review,0 blocked. Commit and fresh CI pending."
+  },
+  "authorization": {
+    "recorded_at": "2026-09-16T21:14:40.118131+00:00",
+    "source": "Direct user instruction in coordinator task",
+    "successor_direction_confirmed": true,
+    "independent_coordination": true,
+    "commits_in_relevant_repositories": true,
+    "merge_relevant_pull_requests": true,
+    "migrate_and_reevaluate_all_four_indexes": true,
+    "prepare_website_integration": true,
+    "website_deployment_authorized": false,
+    "remaining_holds_are_validation_dependencies": true
   }
 }

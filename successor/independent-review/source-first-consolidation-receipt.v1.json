@@ -1,0 +1,40 @@
+{
+  "schema_version": "independent-source-first-consolidation-receipt-v1",
+  "bindings": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae",
+    "policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "original_packet_sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+    "phase1_addendum_sha256": "756db14e10f2829e6671058dc0e46bae92d095792576a69edc8c5b6a1f0ab9be"
+  },
+  "validation": {
+    "addendum_file_count": 25,
+    "all_addendum_hashes_match_before_and_after": true,
+    "all425_pages_covered_once_against_approved_sidecars": true,
+    "unique_finding_ids": 446,
+    "checklist_routes": 29,
+    "all_route_finding_references_resolve": true,
+    "existing_phase1_artifacts_unchanged": true,
+    "candidate_and_draft_unseen": true,
+    "benchmark_approval": false,
+    "entity_review_complete": false,
+    "source_findings_not_selected_in_condensed_routes_remain_explicit_pending_checks": true
+  },
+  "outputs": [
+    {
+      "path": "successor/independent-review/source-first-visual-followup.v1.json",
+      "sha256": "f90850c2458e1d530250a13b77ea6e26edf5ad8980531f987c997b063d7c0201"
+    },
+    {
+      "path": "successor/independent-review/source-first-cross-chapter-checklist.v1.json",
+      "sha256": "ff3fccbb7b253110b752d357e68891c0df8cd07cf0d3e5561c6d9c6dbd4b24dd"
+    },
+    {
+      "path": "successor/independent-review/source-first-cross-chapter-checklist.v1.md",
+      "sha256": "052a270875e00a712c97e3f8bfcecf70a283bd32284b254f44c95c82011a9a11"
+    }
+  ]
+}
