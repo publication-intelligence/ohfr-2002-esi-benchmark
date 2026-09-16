@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T23:42:06.588523+00:00",
+  "recorded_at": "2026-09-16T23:44:02.214045+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -133,7 +133,7 @@
       "reviewer_001_006": {
         "subjects": 202,
         "relationships": 134,
-        "tasks": 336
+        "tasks": 423
       },
       "reviewer_007_012": {
         "subjects": 238,
@@ -143,7 +143,7 @@
       "lead": {
         "subjects": 91,
         "relationships": 56,
-        "tasks": 93
+        "tasks": 6
       }
     },
     "cross_chapter_review_queue": 40,
@@ -235,7 +235,17 @@
       "remaining_later_page_relationship_referrals": 27,
       "cross_shard_repair_closure_complete": false
     },
-    "independent_historical_requirement_closure_complete": false
+    "independent_historical_requirement_closure_complete": false,
+    "partition_amendment_v5_sha256": "118d0e246b2578313c1a22a513e2497d3ef61361280c1e7fcbc809f377b0dc85",
+    "additional_task_review_transfer": {
+      "whole_tasks": 87,
+      "facet_bindings": 185,
+      "historical_task_keys": 226,
+      "dependency_subjects_inspected_without_ownership_transfer": 153,
+      "disjoint_exhaustive_populations_verified": 7,
+      "complete": false,
+      "original_review_outputs_preserved": true
+    }
   },
   "density_proposal": {
     "total": 193118,
