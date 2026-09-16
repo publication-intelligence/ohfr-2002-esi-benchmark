@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T22:09:06.261358+00:00",
+  "recorded_at": "2026-09-16T22:53:56.964966+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -173,6 +173,12 @@
       "manifest_sha256": "08b97e1e34f6de30e527387f6686369660a0c9a0d85626bf09f214656fb71139",
       "hashes_and_exact_id_coverage_verified": true,
       "whole_book_editorial_approval": false
+    },
+    "independent_initial_subject_and_evidence_dispositions": {
+      "subjects": 531,
+      "evidence": 3341,
+      "basis": "independent_lead_and_completed_shard_reports",
+      "full_review_and_repaired_final_approval_complete": false
     }
   },
   "density_proposal": {
@@ -186,7 +192,16 @@
     "semantic_role_note_conflict": "Resolved by independent source-only disposition: map interiors/keys excluded; captions eligible only for own wording. Original contradictory density note is superseded by a separate metadata addendum; original counts and bytes preserved.",
     "final_metadata_resolution_pending": false,
     "scope_disposition_sha256": "adb81320deac697201511a04a9b4848a048db2aaa1613a267f492a6ef4a32577",
-    "scope_metadata_addendum_sha256": "dd23c7699fc4225c09ccc8fc98a301f0b46bb117bb1bed824e0c1870dbe3b7a6"
+    "scope_metadata_addendum_sha256": "dd23c7699fc4225c09ccc8fc98a301f0b46bb117bb1bed824e0c1870dbe3b7a6",
+    "clean_metadata_corrected_evidence": {
+      "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+      "file_sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562",
+      "whole_object_equivalence_except_scope_note_and_provenance_verified": true,
+      "coordinator_and_methodology_owner_schema_and_density_validation_passed": true,
+      "new_extraction_or_recount": false,
+      "selected_in_study_lock": false,
+      "provenance_files_preserved_separately": true
+    }
   },
   "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17",
   "website_consumer": {
