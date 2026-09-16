@@ -26,7 +26,11 @@
       "Published",
       "IndexPDF",
       "Indexia"
-    ]
+    ],
+    "historical_review_chain_validators": {
+      "legacy_v3": "passed",
+      "native_v2": "passed"
+    }
   },
   "execution": {
     "candidate_rebound": false,
@@ -40,5 +44,12 @@
     "Source comparison and semantic crosswalk remain in progress.",
     "No density basis is selected; reviewer is examining a uniform source counting protocol.",
     "Reconciliation checkpoint is not canonical evaluation state, a benchmark approval, or a substitute artifact manifest."
-  ]
+  ],
+  "candidate_preparation_heads": {
+    "Published": "d4b17c5bf15da2448959436cfb82c05285a1a763",
+    "IndexPDF": "15fbcceae798964338327c2cad893db196ac6983",
+    "IndexerLabs": "443289183f2f83f1d8e00084d585812a644af9d7",
+    "Indexia": "372dabb"
+  },
+  "all_four_candidate_prs_remain_draft": true
 }

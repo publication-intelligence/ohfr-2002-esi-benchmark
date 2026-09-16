@@ -19,7 +19,7 @@ Benchmark v3 is an immutable historical release. It completed source-led discove
 | Reader tasks | 1,026 |
 | Independent review | Full, completed, candidate blindness preserved |
 
-The machine-readable release bindings are in [`benchmark-release.v3.json`](benchmark-release.v3.json). Commits after the artifact freeze may improve documentation, control metadata, checkpoints, or validation automation, but they do not redefine benchmark v3. Candidate repositories must continue to pin the artifact freeze commit above.
+The machine-readable release bindings are in [`benchmark-release.v3.json`](benchmark-release.v3.json). Commits after the artifact freeze may improve documentation, control metadata, checkpoints, or validation automation, but they do not redefine benchmark v3. Evaluations reusing v3 must continue to pin the artifact freeze commit above.
 
 ## Source scope and limitations
 

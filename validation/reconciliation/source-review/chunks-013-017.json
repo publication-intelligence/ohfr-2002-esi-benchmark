@@ -1,0 +1,1168 @@
+{
+  "schema_version": "source-only-semantic-comparison-partial-v1",
+  "review_id": "chunks-013-017",
+  "status": "bounded_source_review_complete_not_full_benchmark_approval",
+  "public_completeness_claims_allowed": false,
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "candidate_unexposed_attestation": {
+    "candidate_indexes_opened": false,
+    "candidate_audits_opened": false,
+    "candidate_results_opened": false,
+    "inputs": "Allowlisted packet and native freeze addendum, methodology/skill instructions, own source-only reviewer outputs only.",
+    "metadata_limit": "Inherited administrative lineage identifiers occurred inside allowlisted files; no candidate content, outcomes, ranking or candidate-derived measurements were opened or used."
+  },
+  "coverage": {
+    "exhaustive": false,
+    "owned_document_page_span": [
+      297,
+      425
+    ],
+    "source_pages_semantically_inspected": [
+      297,
+      298,
+      303,
+      307,
+      308,
+      310,
+      314,
+      316,
+      317,
+      318,
+      319,
+      322,
+      323,
+      324,
+      325,
+      326,
+      330,
+      331,
+      333,
+      334,
+      337,
+      340,
+      343,
+      344,
+      345,
+      346,
+      347,
+      350,
+      354,
+      355,
+      358,
+      367,
+      368,
+      371,
+      372,
+      375,
+      376,
+      377,
+      378,
+      384,
+      388,
+      389,
+      390,
+      395,
+      398,
+      399,
+      405,
+      406,
+      411,
+      412,
+      413,
+      419,
+      420,
+      421,
+      423,
+      424,
+      425
+    ],
+    "prose_pages_semantically_inspected": [
+      297,
+      298,
+      303,
+      307,
+      308,
+      310,
+      314,
+      316,
+      317,
+      318,
+      319,
+      322,
+      323,
+      324,
+      325,
+      326,
+      330,
+      331,
+      333,
+      334,
+      337,
+      340,
+      343,
+      344,
+      346,
+      347,
+      350,
+      354,
+      355,
+      358,
+      367,
+      368,
+      371,
+      372,
+      375,
+      376,
+      377,
+      378,
+      384,
+      388,
+      389,
+      390,
+      395,
+      398,
+      399,
+      405,
+      406,
+      411,
+      412,
+      413,
+      419,
+      420,
+      421,
+      423,
+      424,
+      425
+    ],
+    "visual_map_pages": [
+      345
+    ],
+    "additional_visual_measurement_QA_pages": [
+      136,
+      318
+    ],
+    "measurement_QA_is_not_additional_semantic_coverage": true,
+    "chunks": [
+      {
+        "chunk_id": "CHUNK-013",
+        "reviewed_source_pages": [
+          297,
+          298,
+          303,
+          307,
+          308,
+          310,
+          314,
+          316,
+          317
+        ]
+      },
+      {
+        "chunk_id": "CHUNK-014",
+        "reviewed_source_pages": [
+          318,
+          319,
+          322,
+          323,
+          324,
+          325,
+          326,
+          330,
+          331,
+          333,
+          334,
+          337,
+          340
+        ]
+      },
+      {
+        "chunk_id": "CHUNK-015",
+        "reviewed_source_pages": [
+          343,
+          344,
+          345,
+          346,
+          347,
+          350,
+          354,
+          355,
+          358,
+          367,
+          368
+        ]
+      },
+      {
+        "chunk_id": "CHUNK-016",
+        "reviewed_source_pages": [
+          371,
+          372,
+          375,
+          376,
+          377,
+          378,
+          384,
+          388,
+          389,
+          390
+        ]
+      },
+      {
+        "chunk_id": "CHUNK-017",
+        "reviewed_source_pages": [
+          395,
+          398,
+          399,
+          405,
+          406,
+          411,
+          412,
+          413,
+          419,
+          420,
+          421,
+          423,
+          424,
+          425
+        ]
+      }
+    ],
+    "source_first_omission_pass": "Bounded fresh checks of counter-revolution causes, directorial constitutional alternatives, liberation/domination, religious reconciliation, material winners/losers, gender/race limits and the final human-cost verdict. No exhaustive whole-source omission pass claimed.",
+    "unreviewed_document_pages": [
+      299,
+      300,
+      301,
+      302,
+      304,
+      305,
+      306,
+      309,
+      311,
+      312,
+      313,
+      315,
+      320,
+      321,
+      327,
+      328,
+      329,
+      332,
+      335,
+      336,
+      338,
+      339,
+      341,
+      342,
+      348,
+      349,
+      351,
+      352,
+      353,
+      356,
+      357,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      369,
+      370,
+      373,
+      374,
+      379,
+      380,
+      381,
+      382,
+      383,
+      385,
+      386,
+      387,
+      391,
+      392,
+      393,
+      394,
+      396,
+      397,
+      400,
+      401,
+      402,
+      403,
+      404,
+      407,
+      408,
+      409,
+      410,
+      414,
+      415,
+      416,
+      417,
+      418,
+      422
+    ],
+    "reviewed_subject_ids": {
+      "legacy": [
+        "SUBJ-026306A4CB87",
+        "SUBJ-0E80B86A0800",
+        "SUBJ-25E14D8D2A67",
+        "SUBJ-289FA76841EF",
+        "SUBJ-2B7E70223A52",
+        "SUBJ-3A39190A0AB8",
+        "SUBJ-415E3CD4F39E",
+        "SUBJ-4EECC35B66DB",
+        "SUBJ-591D4DF73916",
+        "SUBJ-64AB649FAAD9",
+        "SUBJ-6F20EDDB282C",
+        "SUBJ-6FB57152C401",
+        "SUBJ-7828A4491C70",
+        "SUBJ-79F8290570D7",
+        "SUBJ-9A050CC31262",
+        "SUBJ-9BCF585419C9",
+        "SUBJ-A51E96AF2B7C",
+        "SUBJ-AEAAA36263B2",
+        "SUBJ-AFA7274427C9",
+        "SUBJ-B0A25204040A",
+        "SUBJ-B18996712363",
+        "SUBJ-B1CE0BB71138",
+        "SUBJ-B3B33F0A5D31",
+        "SUBJ-B3F5D2BA17B5",
+        "SUBJ-BC41E0A881DB",
+        "SUBJ-BE2B454984A0",
+        "SUBJ-BE3F4B3E2AC3",
+        "SUBJ-BEB31CA3DD20",
+        "SUBJ-CFFF0A2C9FFC",
+        "SUBJ-D08336564402",
+        "SUBJ-D6C4BAE83755",
+        "SUBJ-DCF31ACB19F3",
+        "SUBJ-E56D5576F925",
+        "SUBJ-EC57B98BDD1C",
+        "SUBJ-F7C31EBD4551",
+        "SUBJ-FB81C1F98593"
+      ],
+      "native": [
+        "SUBJ-0297",
+        "SUBJ-0450",
+        "SUBJ-0451",
+        "SUBJ-0452",
+        "SUBJ-0454",
+        "SUBJ-0457",
+        "SUBJ-0466",
+        "SUBJ-0467",
+        "SUBJ-0476",
+        "SUBJ-0477",
+        "SUBJ-0495",
+        "SUBJ-0497",
+        "SUBJ-0504",
+        "SUBJ-0505",
+        "SUBJ-0514",
+        "SUBJ-0526",
+        "SUBJ-0533",
+        "SUBJ-0536",
+        "SUBJ-0554",
+        "SUBJ-0579",
+        "SUBJ-0580",
+        "SUBJ-0582",
+        "SUBJ-0593",
+        "SUBJ-0596",
+        "SUBJ-0598",
+        "SUBJ-0604",
+        "SUBJ-0607",
+        "SUBJ-0610",
+        "SUBJ-0614",
+        "SUBJ-0615",
+        "SUBJ-0616",
+        "SUBJ-0624",
+        "SUBJ-0633",
+        "SUBJ-0638"
+      ]
+    },
+    "other_entity_review": {
+      "legacy": {
+        "relationship_ids": [],
+        "reader_task_ids": [
+          "TASK-AD9645DB1283",
+          "TASK-710BE903C33E"
+        ],
+        "uncertainty_ids": [
+          "UNC-E6DC0EA51B05"
+        ]
+      },
+      "native": {
+        "relationship_ids": [
+          "REL-0244"
+        ],
+        "reader_task_ids": [
+          "TASK-0497",
+          "TASK-0579",
+          "TASK-0624",
+          "TASK-0638"
+        ],
+        "uncertainty_ids": [
+          "UNC-0070",
+          "UNC-0073"
+        ]
+      }
+    },
+    "partial_task_checks": {
+      "legacy": [
+        "TASK-41DBD42936D4",
+        "TASK-FDC098634296",
+        "TASK-048442A45A69"
+      ]
+    },
+    "unreviewed_scope": "All other relationships/tasks/uncertainties; other pages of each subject; full cross-chapter comparisons; omitted subject universes beyond the bounded checks."
+  },
+  "semantic_crosswalk": [
+    {
+      "crosswalk_id": "CW-013017-01",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-DCF31ACB19F3"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0450"
+      ],
+      "source_pages": [
+        297,
+        298,
+        316,
+        317
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Both derive counter-revolution from the new sovereignty claim and distinguish organized restoration from resistance; native omits additional illustrative pages without losing the tested central argument.",
+      "recommended_action": "Retain this organizing requirement with the distinction explicit.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-02",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-B3B33F0A5D31"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0452"
+      ],
+      "source_pages": [
+        298,
+        303,
+        310,
+        314,
+        316
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Both preserve factionalism as explanatory, not merely a list of royalist factions.",
+      "recommended_action": "Retain one requirement and its qualified access routes.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-03",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-BE3F4B3E2AC3",
+        "SUBJ-B0A25204040A"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0451"
+      ],
+      "source_pages": [
+        298,
+        303
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "The native umbrella covers organization and motives but does not expose successive emigration waves or the balance between status rivalry and sincere loyalty as explicit access routes. Legacy has useful narrower reader purposes, not demonstrated omissions of all treatment.",
+      "recommended_action": "Add component access or independently justify separate requirements; do not import every émigré anecdote.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-04",
+      "relation": "changed",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-AEAAA36263B2"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0457"
+      ],
+      "source_pages": [
+        308,
+        314
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Meaning overlaps substantially; the priority changes from major to essential. The inspected passages make decentralization and localism important, but do not settle whole-book weighting independently of the umbrella western-counter-revolution requirements.",
+      "recommended_action": "Adjudicate priority alongside overlapping western-resistance units; no priority inferred from page count.",
+      "axes": [
+        "meaning",
+        "priority",
+        "redundancy"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-05",
+      "relation": "split",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-25E14D8D2A67"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0466",
+        "SUBJ-0467",
+        "SUBJ-0454"
+      ],
+      "source_pages": [
+        307,
+        308
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Legacy presents a multi-causal Vendée explanation; native separates trigger, material grievance and religion. Source explicitly rejects conscription as a sufficient cause. Either architecture can preserve the distinction; scoring three units must not require redundant rediscovery of one causal chain.",
+      "recommended_action": "Preserve trigger versus underlying grievance and declare overlap rules.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-06",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-415E3CD4F39E"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0477"
+      ],
+      "source_pages": [
+        310,
+        314,
+        317
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Both keep an electoral constitutional alternative distinct from armed restoration and from certainty of restoration.",
+      "recommended_action": "Retain this qualification.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-07",
+      "relation": "changed",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-BC41E0A881DB"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0476"
+      ],
+      "source_pages": [
+        307,
+        314,
+        316,
+        317
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Legacy explicitly lists the interacting causes of defeat and calls it essential; native is major and more event-focused, with several causes in nearby essential subjects. This is redistribution of explanatory emphasis, not automatic loss of source coverage.",
+      "recommended_action": "Set causal retrieval requirements and priority at whole-book level before assigning weights.",
+      "axes": [
+        "meaning",
+        "priority",
+        "granularity"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-08",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-4EECC35B66DB",
+        "SUBJ-591D4DF73916",
+        "SUBJ-6F20EDDB282C"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0497"
+      ],
+      "source_pages": [
+        330,
+        331
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native retains the coup, doubt about imminent restoration, and premature constitutional destruction in one event-and-interpretation record. The source sustains all three but they share a retrieval purpose; literal union would multiply it.",
+      "recommended_action": "Prefer the integrated unit with interpretive access terms retained.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-09",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-AFA7274427C9",
+        "SUBJ-9BCF585419C9",
+        "SUBJ-FB81C1F98593"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0504"
+      ],
+      "source_pages": [
+        322,
+        323,
+        324
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native distinguishes the failed replacement from assignats and preserves speculation and final withdrawal. The burning ceremony is an illustrative endpoint within this process; its separate legacy major weight is not justified merely by an independently labeled event.",
+      "recommended_action": "Use one process unit with both currency names; reconsider the ceremony as optional component access.",
+      "axes": [
+        "meaning",
+        "priority",
+        "granularity",
+        "redundancy"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-10",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-3A39190A0AB8",
+        "SUBJ-D6C4BAE83755"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0505"
+      ],
+      "source_pages": [
+        333,
+        334
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Both the practical debt settlement and its breach of revolutionary public faith are retained in native meaning and stance. Separate legacy records should not be blindly added to the native unit.",
+      "recommended_action": "Preserve technical and ideological readings together.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-11",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-026306A4CB87",
+        "SUBJ-6FB57152C401"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0495"
+      ],
+      "source_pages": [
+        324,
+        325,
+        326,
+        421
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native preserves doctrine, the different contemporary appeal of the 1793 constitution, and organizational repression. Legacy links the later equality synthesis explicitly; native has that later material in a separate modern-revolution unit.",
+      "recommended_action": "Retain explicit communism and rights-of-resistance routes and review the cross-chapter linkage.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-12",
+      "relation": "ambiguous",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-9A050CC31262",
+        "SUBJ-BE2B454984A0"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0526",
+        "SUBJ-0297",
+        "SUBJ-0514"
+      ],
+      "source_pages": [
+        343,
+        344,
+        345,
+        347,
+        354,
+        355,
+        358,
+        367,
+        368
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "The five records distribute territorial forms, Great Nation ideology, and client-state dependency differently across chapters. The map supports distinctions among annexation, occupation and sister republics, but cannot alone establish motives or coercion. Text supports the liberation/domination contradiction. Whole-book coextensiveness remains unreviewed.",
+      "recommended_action": "Keep the distinctions and review the complete cross-chapter group; do not force one-to-one matches.",
+      "axes": [
+        "boundaries",
+        "cross_chapter",
+        "treatment",
+        "evidence"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-13",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-D08336564402"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0533"
+      ],
+      "source_pages": [
+        343,
+        344,
+        346
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Both preserve the federal/unitary dispute, constitutional reconstruction, and French intervention while explaining local political agency.",
+      "recommended_action": "Retain the Dutch institutional distinction.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-14",
+      "relation": "changed",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-2B7E70223A52"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0536"
+      ],
+      "source_pages": [
+        346,
+        347
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "The same failed Anglo-Russian invasion is optional in legacy and major in native. These pages use it to explain dependency and lack of an attractive alternative to French alliance. Priority must be judged alongside that broader argument, not the event name.",
+      "recommended_action": "Review event versus explanatory-component priority.",
+      "axes": [
+        "priority",
+        "granularity"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-15",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-EC57B98BDD1C"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0554"
+      ],
+      "source_pages": [
+        367
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native explicitly retains attacks on Jews in the evidence summary for Italian resistance; the subject is not absent. Legacy supplies a direct minority-focused route, but a separate major requirement rests here on a single qualified example.",
+      "recommended_action": "Retain a Jewish/Italian-backlash access route; adjudicate optional versus major treatment without manufacturing an omission.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-16",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-7828A4491C70",
+        "SUBJ-A51E96AF2B7C"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0593"
+      ],
+      "source_pages": [
+        384
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native joins prefects, banditry and criminal courts around restored order, retaining the difference between ordinary legality and high-political arbitrariness. Legacy preserves two independently useful institutional routes.",
+      "recommended_action": "Integrated unit is defensible if prefects and special-court access remain explicit.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-17",
+      "relation": "split",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-BEB31CA3DD20",
+        "SUBJ-CFFF0A2C9FFC"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0580",
+        "SUBJ-0582"
+      ],
+      "source_pages": [
+        377,
+        378
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Architecture is overlapping rather than a clean count-based split: legacy separates institutional operation from constitution; native separates constitutional machinery from concentration of power. Both retain executive dominance and nominal representation.",
+      "recommended_action": "Review overlapping constitutional requirements and retain the actual division of legislative functions.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-18",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-B18996712363"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0579"
+      ],
+      "source_pages": [
+        375,
+        376,
+        377
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native includes party rejection within the wider failure explanation and explicitly permits party-politics access. Legacy separately foregrounds general-will reasoning and failure to build a moderate party, useful detail within the same source argument.",
+      "recommended_action": "Preserve the philosophical mechanism in the consolidated meaning/task; no separate requirement is automatically necessary.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-19",
+      "relation": "changed",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-0E80B86A0800"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0598"
+      ],
+      "source_pages": [
+        389,
+        390
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "The event and suppression of parliamentary life are supported in both. Native confidently dates the purge to 1802; the source first says January 1801 but then locates it in the Year X sequence before April 1802. Legacy UNC-E6DC0EA51B05 records the inconsistency and avoids silent correction. Native also raises priority major to essential.",
+      "recommended_action": "Carry an explicit source-date uncertainty and distinguish an inferred date from the literal source; adjudicate priority separately.",
+      "axes": [
+        "meaning",
+        "priority",
+        "uncertainty",
+        "evidence"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-20",
+      "relation": "split",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-289FA76841EF"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0596",
+        "SUBJ-0607"
+      ],
+      "source_pages": [
+        388,
+        389,
+        390,
+        398
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Legacy synthesizes negotiated religious settlement and increased papal authority across chapters. Native separates settlement from long-term polarization and preserves the paradox. Both structures are defensible, but loss of the cross-chapter relationship would weaken the later unit.",
+      "recommended_action": "Preserve settlement versus long-term consequences and an explicit relationship between them.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-21",
+      "relation": "changed",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-E56D5576F925"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0633"
+      ],
+      "source_pages": [
+        419,
+        420,
+        421
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Both faithfully distinguish women’s decisive action from exclusion. Native priority major versus legacy essential changes weighted emphasis without an evident reduction in source centrality; the equality argument makes sex exclusion part of its limiting test.",
+      "recommended_action": "Retain women as an explicit retrieval requirement and review essential priority in the whole-book framework.",
+      "axes": [
+        "meaning",
+        "priority",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-22",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-64AB649FAAD9",
+        "SUBJ-B1CE0BB71138"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0624"
+      ],
+      "source_pages": [
+        411,
+        412,
+        413
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native combines the contiguous causal narrative well, but compresses the difference between slavery actually restored elsewhere and unsuccessful restoration in Saint-Domingue. Legacy explicitly articulates that geography and supplies restoration-of-slavery and free-coloured-rights access.",
+      "recommended_action": "Retain native narrative coherence while making the geographical outcome distinction and free-coloured versus enslaved status explicit.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-23",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-B3F5D2BA17B5",
+        "SUBJ-79F8290570D7"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0638"
+      ],
+      "source_pages": [
+        423,
+        424,
+        425
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Native keeps tragedy and archetypal significance, but aggregate mortality is only implicit as mass death and has no direct human-cost route. Legacy makes the final reckoning searchable. The source uses loss of life as part of its concluding evaluation, not incidental ornament.",
+      "recommended_action": "Add explicit human-cost meaning and access to the synthesis; do not automatically import a second essential denominator unit.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    },
+    {
+      "crosswalk_id": "CW-013017-24",
+      "relation": "ambiguous",
+      "direction": "legacy to native; broader/narrower describes native relative to legacy",
+      "legacy_subject_ids": [
+        "SUBJ-F7C31EBD4551"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0604",
+        "SUBJ-0610",
+        "SUBJ-0614",
+        "SUBJ-0615",
+        "SUBJ-0616"
+      ],
+      "source_pages": [
+        395,
+        405,
+        406,
+        424
+      ],
+      "review_status": "source_adjudicated_bounded",
+      "judgment": "Legacy connects legal feudal abolition to uneven tenant benefits. Native distributes noble loss, agrarian continuity, economic effects and ordinary citizens among several records. Treatment exists, but direct peasant-benefit access across those units requires review; the aggregate mappings are not semantically interchangeable.",
+      "recommended_action": "Restore a clear legal-gain/material-limit retrieval route and complete the cross-chapter boundary review.",
+      "axes": [
+        "meaning",
+        "boundaries",
+        "evidence",
+        "access"
+      ],
+      "limit": "Only listed source pages and the stated semantic comparison are adjudicated; neither all declared evidence nor all incident entities are approved."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F-013017-01",
+      "lineage": "native",
+      "severity": "high",
+      "kind": "overbroad_relationship_scope",
+      "entity_ids": [
+        "REL-0244",
+        "SUBJ-0572",
+        "SUBJ-0591"
+      ],
+      "source_pages": [
+        371,
+        372,
+        384
+      ],
+      "finding": "REL-0244 applies repealed_under to a compound subject containing conscription, the forced loan and Law of Hostages. The source identifies repeal of the latter two; it continues to discuss conscription as an operative cause of banditry. The whole composite cannot safely serve as an unqualified repeal antecedent.",
+      "action": "Scope the edge to the two repealed measures, or use separately justified component nodes. Do not infer wholesale repeal of conscription."
+    },
+    {
+      "finding_id": "F-013017-02",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "unacknowledged_source_uncertainty",
+      "entity_ids": [
+        "SUBJ-0598"
+      ],
+      "source_pages": [
+        389,
+        390
+      ],
+      "finding": "The 1802 date is a reasonable internal-chronology inference, but the record silently resolves an explicit source inconsistency. Legacy UNC-E6DC0EA51B05 records both alternatives.",
+      "action": "Preserve the discrepancy and mark the inferred date before any external correction."
+    },
+    {
+      "finding_id": "F-013017-03",
+      "lineage": "both",
+      "severity": "medium",
+      "kind": "priority_and_overlap",
+      "entity_ids": [
+        "SUBJ-AFA7274427C9",
+        "SUBJ-FB81C1F98593",
+        "SUBJ-0504",
+        "SUBJ-AEAAA36263B2",
+        "SUBJ-0457",
+        "SUBJ-E56D5576F925",
+        "SUBJ-0633"
+      ],
+      "source_pages": [
+        308,
+        322,
+        323,
+        324,
+        419,
+        420,
+        421
+      ],
+      "finding": "Some priority changes are changes in where analytical weight is placed, not differences in substantive treatment. Separate legacy illustrations can overlap their umbrella requirement; some native reductions of priority affect explicit limits of the central equality argument.",
+      "action": "Use a whole-book priority rationale and declared overlap rules; do not use label count, frequency, or page count as a quota."
+    },
+    {
+      "finding_id": "F-013017-04",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "lost_explicit_access",
+      "entity_ids": [
+        "SUBJ-0624",
+        "SUBJ-0638"
+      ],
+      "source_pages": [
+        411,
+        412,
+        413,
+        423,
+        424,
+        425
+      ],
+      "finding": "Consolidation retains broad treatment but weakens explicit access to free-coloured citizenship, geographically different restoration outcomes, and aggregate human cost.",
+      "action": "Restore the demonstrated access and qualification inside coherent units before considering additional standalone requirements."
+    },
+    {
+      "finding_id": "F-013017-05",
+      "lineage": "both",
+      "severity": "medium",
+      "kind": "reader_task_specificity",
+      "entity_ids": [
+        "TASK-0497",
+        "TASK-0579",
+        "TASK-0624",
+        "TASK-0638",
+        "TASK-AD9645DB1283",
+        "TASK-710BE903C33E"
+      ],
+      "source_pages": [
+        331,
+        375,
+        376,
+        377,
+        411,
+        412,
+        413,
+        425
+      ],
+      "finding": "The inspected native tasks all use a general argument-and-qualification template. They are answerable but do not independently test distinctive contrasts. Some legacy questions supply those contrasts; other legacy questions are equally generic. Task count and fallback flags do not establish editorial quality.",
+      "action": "Independently write or adjudicate source-answerable tasks for constitutional accommodation, colonial outcome differences, and the human-cost verdict; verify all linked subject IDs."
+    }
+  ],
+  "recommendation": "Create a versioned successor through source-only reconciliation and a separate fresh-context review. Use native organizing units where this comparison demonstrates retained meaning, incorporate justified legacy access and qualifications, and explicitly adjudicate every unreviewed item. No wholesale union, final base approval, freeze alteration, successor registration or audit transfer is authorized by this report."
+}
