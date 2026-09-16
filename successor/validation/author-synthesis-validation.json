@@ -1,0 +1,38 @@
+{
+  "schema_version": "source-successor-author-validation-v1",
+  "ok": true,
+  "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+  "historical_release_sha256": {
+    "legacy": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "native": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
+  },
+  "draft_counts": {
+    "subjects": 531,
+    "relationships": 493,
+    "reader_tasks": 599,
+    "evidence": 3341,
+    "exclusions": 248,
+    "uncertainties": 151,
+    "unique_unweighted_task_facets": 921
+  },
+  "historical_coverage_counts": {
+    "legacy:subjects": 1366,
+    "legacy:relationships": 3460,
+    "legacy:tasks": 1026,
+    "legacy:evidence": 3246,
+    "legacy:exclusion": 155,
+    "legacy:uncertainty": 94,
+    "native:subjects": 638,
+    "native:relationships": 281,
+    "native:tasks": 638,
+    "native:evidence": 1577,
+    "native:exclusion": 152,
+    "native:uncertainty": 75
+  },
+  "source_pages": 425,
+  "chunks": 17,
+  "density_words": 193118,
+  "errors": [],
+  "unresolved_author_blocking_issues": [],
+  "review_boundary": "Structural consistency and exact-ID closure only; not independent editorial approval."
+}

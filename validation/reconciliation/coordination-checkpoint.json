@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T21:24:00.109720+00:00",
+  "recorded_at": "2026-09-16T21:36:07.072607+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -81,28 +81,55 @@
   },
   "all_four_candidate_prs_remain_draft": true,
   "successor": {
-    "status": "whole_book_subject_integration_in_progress",
+    "status": "registered_immutable_draft_independent_item_review_underway",
     "independent_review": "required_after_actual_draft",
     "frozen": false,
     "source_pages_inspected": 425,
     "source_page_scope": 425,
     "page_inspection_basis": "source_only_synthesis_team_report",
-    "whole_book_entity_reconciliation_complete": false,
+    "whole_book_entity_reconciliation_complete": true,
     "independent_source_pass_packet_prepared": true,
     "provisional_subject_count": 531,
     "provisional_relationship_count": 493,
     "historical_subject_ids_mapped": 2004,
-    "historical_relationship_dispositions_pending": true,
-    "historical_reader_task_dispositions_pending": true,
+    "historical_relationship_dispositions_pending": false,
+    "historical_reader_task_dispositions_pending": false,
     "independent_source_first_pages_reported": 425,
     "independent_source_first_artifact_hashes_verified": true,
     "independent_draft_review_complete": false,
-    "provisional_reader_task_count": 685,
+    "provisional_reader_task_count": 599,
     "final_evidence_restorations_or_reroutings": 159,
     "independent_cross_chapter_checks": 29,
     "independent_consolidation_receipt_sha256": "30eeb29278e7e0c518319ff6ea6d6526d122988e2a3b7dd3f743f90d94fe66c9",
     "independent_consolidation_hashes_verified": true,
-    "historical_evidence_records_mapped": 4823
+    "historical_evidence_records_mapped": 4823,
+    "draft_file_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+    "draft_state_sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "evidence_records": 3341,
+    "exclusions": 248,
+    "uncertainties": 151,
+    "independent_item_review_partition": {
+      "reviewer_001_006": {
+        "subjects": 202,
+        "relationships": 134,
+        "tasks": 336
+      },
+      "reviewer_007_012": {
+        "subjects": 147,
+        "relationships": 93,
+        "tasks": 59
+      },
+      "lead": {
+        "subjects": 182,
+        "relationships": 266,
+        "tasks": 204
+      }
+    },
+    "cross_chapter_review_queue": 40,
+    "fallback_task_review_queue": 6,
+    "independent_open_findings": [
+      "Independent lead confirmed map-internal eligibility language conflicts with frozen policy; precise affected evidence and required corrections are under review."
+    ]
   },
   "density_proposal": {
     "total": 193118,
@@ -165,5 +192,14 @@
     "prepare_website_integration": true,
     "website_deployment_authorized": false,
     "remaining_holds_are_validation_dependencies": true
+  },
+  "candidate_evidence_triage": {
+    "status": "private_unassessed_against_successor",
+    "artifact_hashes_independently_verified": {
+      "Indexia": 113,
+      "IndexPDF": 118,
+      "IndexerLabs": 125
+    },
+    "audit_transfer_authorized": false
   }
 }

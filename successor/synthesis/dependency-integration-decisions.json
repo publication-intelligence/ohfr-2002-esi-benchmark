@@ -1,0 +1,2989 @@
+{
+  "schema_version": "successor-dependency-integration-decisions-v1",
+  "candidate_unseen": true,
+  "status": "author_integration_pending_independent_review",
+  "proposal_id_to_stable_id": {
+    "REL-PROP-C001006-CF0337537C4E": "REL-SUCC-2AFD539229DA",
+    "REL-PROP-C001006-4C8D40BC128E": "REL-SUCC-0EC046BA86DD",
+    "REL-PROP-C001006-00E1414E6DFC": "REL-SUCC-6346B62FAB7C",
+    "REL-PROP-C001006-F5B4EEF242DB": "REL-SUCC-969C1F8C2733",
+    "REL-PROP-C001006-9428E650877F": "REL-SUCC-895C4186C954",
+    "REL-PROP-C001006-E2E3516386FE": "REL-SUCC-CAF1ACD5D083",
+    "REL-PROP-C001006-DDBC2FCC70BD": "REL-SUCC-4F9108A9AFC4",
+    "REL-PROP-C001006-1026E5CBA2F9": "REL-SUCC-B0374861A868",
+    "REL-PROP-C001006-06AF13B1704F": "REL-SUCC-501DC0A44455",
+    "REL-PROP-C001006-AD024823E975": "REL-SUCC-9E949FE94B00",
+    "REL-PROP-C001006-ADFDEF6A8E43": "REL-SUCC-2DE9C126EBD7",
+    "REL-PROP-C001006-8404A4625D75": "REL-SUCC-27C8DE8D66C8",
+    "REL-PROP-C001006-9FC6E4912F40": "REL-SUCC-31CC9CE8434C",
+    "REL-PROP-C001006-18D2DE89E2D0": "REL-SUCC-D12B3E40A6FB",
+    "REL-PROP-C001006-34357327C7D7": "REL-SUCC-14760A5DB80C",
+    "REL-PROP-C001006-49A47596B054": "REL-SUCC-0911747DDE14",
+    "REL-PROP-C001006-D905DAE6B020": "REL-SUCC-CAB2821185C3",
+    "REL-PROP-C001006-26F2DB400102": "REL-SUCC-D0CEF1EE8B02",
+    "REL-PROP-C001006-CEB8FF02DBCA": "REL-SUCC-41E59A33A8BE",
+    "REL-PROP-C001006-DE2F52DCF5C6": "REL-SUCC-9F70BE8A5553",
+    "REL-PROP-C001006-7DE740282FFE": "REL-SUCC-7C84C31492CD",
+    "REL-PROP-C001006-CDE93626A795": "REL-SUCC-644EDFF9D8FD",
+    "REL-PROP-C001006-61CE5B364852": "REL-SUCC-B893D401017D",
+    "REL-PROP-C001006-3972FB444C99": "REL-SUCC-6CCA637758F9",
+    "REL-PROP-C001006-CBC622AC98BA": "REL-SUCC-640B20CBC697",
+    "REL-PROP-C001006-009CBC838CCD": "REL-SUCC-A9AB09D39E33",
+    "REL-PROP-C001006-AB78F6C48CDA": "REL-SUCC-C08B10FC4AC5",
+    "REL-PROP-C001006-5CD9D3C97745": "REL-SUCC-E21BB2635F5E",
+    "REL-PROP-C001006-780F22474E01": "REL-SUCC-A47B82360CF5",
+    "REL-PROP-C001006-4242E78DA566": "REL-SUCC-99785B6A720B",
+    "REL-PROP-C001006-00A864D00F8B": "REL-SUCC-A3021277C040",
+    "REL-PROP-C001006-D05125C767F6": "REL-SUCC-E1D4C447CDC2",
+    "REL-PROP-C001006-B8D701839A0F": "REL-SUCC-34EF1BF39733",
+    "REL-PROP-C001006-B3AB1F889F31": "REL-SUCC-FFE2F523A135",
+    "REL-PROP-C001006-1E8FF45B051B": "REL-SUCC-96DB406B28FB",
+    "REL-PROP-C001006-11DDD2981D42": "REL-SUCC-03D87F2B4F53",
+    "REL-PROP-C001006-8DD37C066FED": "REL-SUCC-2962ECF51A78",
+    "REL-PROP-C001006-D512598070A0": "REL-SUCC-C2F97D548FD5",
+    "REL-PROP-C001006-B79E7769376D": "REL-SUCC-CA78959B569E",
+    "REL-PROP-C001006-BA77B1FCB07D": "REL-SUCC-F8C9FF0E7613",
+    "REL-PROP-C001006-8F934BB932FF": "REL-SUCC-5623D6C6DAAB",
+    "REL-PROP-C001006-ECB04221E3D1": "REL-SUCC-6EA47A57C384",
+    "REL-PROP-C001006-C11256BE21D5": "REL-SUCC-6F7FCC206FAB",
+    "REL-PROP-C001006-409C71B856C5": "REL-SUCC-D9D7D6948B71",
+    "REL-PROP-C001006-AE49750CFA21": "REL-SUCC-2B8517C69BE7",
+    "REL-PROP-C001006-946EBAF15A69": "REL-SUCC-DC7EC6A2552C",
+    "REL-PROP-C001006-2B56F1DDABC8": "REL-SUCC-33091612EED4",
+    "REL-PROP-C001006-4C626B1D95B2": "REL-SUCC-2202F9DA335C",
+    "REL-PROP-C001006-C11251CF3A68": "REL-SUCC-59CB9A14DCD2",
+    "REL-PROP-C001006-63E6D9D4624A": "REL-SUCC-9300CBCE5473",
+    "REL-PROP-C001006-60AFC0E3C15B": "REL-SUCC-54D85B97E9F5",
+    "REL-PROP-C001006-C62BFB861A88": "REL-SUCC-2C2C9C7925ED",
+    "REL-PROP-C001006-F6624ED1B863": "REL-SUCC-B34F46C0596A",
+    "REL-PROP-C001006-D1B8CDA7539A": "REL-SUCC-7194CC61F70B",
+    "REL-PROP-C001006-4295D27F07A0": "REL-SUCC-A036CB1AF505",
+    "REL-PROP-C001006-C6D7DBCB5777": "REL-SUCC-010485DC2F6C",
+    "REL-PROP-C001006-B4C0CB3071BB": "REL-SUCC-FFA2254991CB",
+    "REL-PROP-C001006-B9BED55B643C": "REL-SUCC-B9733971DA17",
+    "REL-PROP-C001006-EA858DA67FF4": "REL-SUCC-ED1ED661A89B",
+    "REL-PROP-C001006-C39AD519B0B8": "REL-SUCC-D1873C9A4C92",
+    "REL-PROP-C001006-980AF886B6DD": "REL-SUCC-3253841514C7",
+    "REL-PROP-C001006-EE04323F2D26": "REL-SUCC-F20FE071F595",
+    "REL-PROP-C001006-69E4670A4564": "REL-SUCC-4365ACE17CB8",
+    "REL-PROP-C001006-4D9FB52B1E09": "REL-SUCC-D58302AD9DE3",
+    "REL-PROP-C001006-B0CA351823E7": "REL-SUCC-F4431BA58812",
+    "REL-PROP-C001006-8818858653B3": "REL-SUCC-9EBFCB92BA2C",
+    "REL-PROP-C001006-C861D1AF2D98": "REL-SUCC-EC4926036625",
+    "REL-PROP-C001006-3EB9F049D075": "REL-SUCC-7C8764780334",
+    "REL-PROP-C001006-7117A5237ED9": "REL-SUCC-1856DC4F565F",
+    "REL-PROP-C001006-E53040325B2B": "REL-SUCC-6422E95ADCD3",
+    "REL-PROP-C001006-44E2619AAA27": "REL-SUCC-64223FC7D78D",
+    "REL-PROP-C001006-6CA5F0E22B94": "REL-SUCC-CFF220143C2A",
+    "REL-PROP-C001006-200DA4C611CC": "REL-SUCC-85A2A2B7920C",
+    "REL-PROP-C001006-31746BADD9F2": "REL-SUCC-F03C9B74C8A0",
+    "REL-SUCC-PROP-AE1DCB3F3F11": "REL-SUCC-PROP-AE1DCB3F3F11",
+    "REL-SUCC-PROP-4E70C00FA8C3": "REL-SUCC-PROP-4E70C00FA8C3",
+    "REL-SUCC-PROP-D656DB357ABE": "REL-SUCC-PROP-D656DB357ABE",
+    "REL-SUCC-PROP-B75560952200": "REL-SUCC-PROP-B75560952200",
+    "REL-SUCC-PROP-D869D8AF98B9": "REL-SUCC-PROP-D869D8AF98B9",
+    "REL-SUCC-PROP-A29891C41A06": "REL-SUCC-PROP-A29891C41A06",
+    "REL-SUCC-PROP-9C8C6716422D": "REL-SUCC-PROP-9C8C6716422D",
+    "REL-SUCC-PROP-87DC080B2EE0": "REL-SUCC-PROP-87DC080B2EE0",
+    "REL-SUCC-PROP-45C680CBB20C": "REL-SUCC-PROP-45C680CBB20C",
+    "REL-SUCC-PROP-0A11135333F8": "REL-SUCC-PROP-0A11135333F8",
+    "REL-SUCC-PROP-FB898C93AAE6": "REL-SUCC-PROP-FB898C93AAE6",
+    "REL-SUCC-PROP-1A37D4E2DFC9": "REL-SUCC-PROP-1A37D4E2DFC9",
+    "REL-SUCC-PROP-9FED830590D2": "REL-SUCC-PROP-9FED830590D2",
+    "REL-SUCC-PROP-1ECE1E385E96": "REL-SUCC-PROP-1ECE1E385E96",
+    "REL-SUCC-PROP-E9EEFC335766": "REL-SUCC-PROP-E9EEFC335766",
+    "REL-SUCC-PROP-6F22800729A0": "REL-SUCC-PROP-6F22800729A0",
+    "REL-SUCC-PROP-86893195121E": "REL-SUCC-PROP-86893195121E",
+    "REL-SUCC-PROP-5BA2586DD6D6": "REL-SUCC-PROP-5BA2586DD6D6",
+    "REL-SUCC-PROP-72AE0E8BE71F": "REL-SUCC-PROP-72AE0E8BE71F",
+    "REL-SUCC-PROP-E61B09D46C27": "REL-SUCC-PROP-E61B09D46C27",
+    "REL-SUCC-PROP-48D4A930B1B6": "REL-SUCC-PROP-48D4A930B1B6",
+    "REL-SUCC-PROP-D2ADD0F53EF9": "REL-SUCC-PROP-D2ADD0F53EF9",
+    "REL-SUCC-PROP-1711FB45813D": "REL-SUCC-PROP-1711FB45813D",
+    "REL-SUCC-PROP-CEB9B5ABEE36": "REL-SUCC-PROP-CEB9B5ABEE36",
+    "REL-SUCC-PROP-AE251CF534C8": "REL-SUCC-PROP-AE251CF534C8",
+    "REL-SUCC-PROP-08455E1FB2C4": "REL-SUCC-PROP-08455E1FB2C4",
+    "REL-SUCC-PROP-8739531232B1": "REL-SUCC-PROP-8739531232B1",
+    "REL-SUCC-PROP-56E97F565026": "REL-SUCC-PROP-56E97F565026",
+    "REL-SUCC-PROP-7FB2182062F3": "REL-SUCC-PROP-7FB2182062F3",
+    "REL-SUCC-PROP-1AB475423451": "REL-SUCC-PROP-1AB475423451",
+    "REL-SUCC-PROP-034CC51A04E0": "REL-SUCC-PROP-034CC51A04E0",
+    "REL-SUCC-PROP-345FC1D69E3F": "REL-SUCC-PROP-345FC1D69E3F",
+    "REL-SUCC-PROP-B61BF538AC6F": "REL-SUCC-PROP-B61BF538AC6F",
+    "REL-SUCC-PROP-C8E357FA6257": "REL-SUCC-PROP-C8E357FA6257",
+    "REL-SUCC-PROP-D6BB5AF14AE5": "REL-SUCC-PROP-D6BB5AF14AE5",
+    "REL-SUCC-PROP-9BF48EA69D41": "REL-SUCC-PROP-9BF48EA69D41",
+    "REL-SUCC-PROP-A49AA6AEDCE8": "REL-SUCC-PROP-A49AA6AEDCE8",
+    "REL-SUCC-PROP-E0964B593343": "REL-SUCC-PROP-E0964B593343"
+  },
+  "rows": [
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-CF0337537C4E",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-7F399445D1A7",
+        "target_subject_id": "SUBJ-SUCC-107FFF6D0A82",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          12,
+          14,
+          15
+        ],
+        "rationale": "Agricultural downturn and real-wage pressure deepen household insecurity; the relation concerns demand and livelihoods, not a claim that population caused individual crop failures.",
+        "relationship_id": "REL-SUCC-2AFD539229DA",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S016",
+        "author_proposal_id": "REL-PROP-C001006-CF0337537C4E"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-4C8D40BC128E",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+        "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+        "relationship_type": "conflicts_with",
+        "evidence_document_pages": [
+          11,
+          12,
+          19
+        ],
+        "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+        "relationship_id": "REL-SUCC-0EC046BA86DD",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S013",
+        "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-00E1414E6DFC",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+        "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+        "relationship_id": "REL-SUCC-6346B62FAB7C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S040",
+        "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-F5B4EEF242DB",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-107FFF6D0A82",
+        "target_subject_id": "SUBJ-SUCC-4CBE3903C47A",
+        "relationship_type": "heightens_vulnerability_to",
+        "evidence_document_pages": [
+          14,
+          20,
+          21
+        ],
+        "rationale": "Poor households’ expenditure on grain makes price rises dangerous and subsistence protest intelligible; precarious wages do not cause crop failure.",
+        "relationship_id": "REL-SUCC-969C1F8C2733",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S020",
+        "author_proposal_id": "REL-PROP-C001006-F5B4EEF242DB"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-9428E650877F",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-817E099CC28B",
+        "target_subject_id": "SUBJ-SUCC-00A7DA235523",
+        "relationship_type": "circulates",
+        "evidence_document_pages": [
+          46,
+          47,
+          48,
+          49
+        ],
+        "rationale": "Legal, clandestine and foreign book supply circulates the works and criticism associated with Enlightenment; censorship persists and circulation does not equate to universal assent.",
+        "relationship_id": "REL-SUCC-895C4186C954",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S003",
+        "author_proposal_id": "REL-PROP-C001006-9428E650877F"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-E2E3516386FE",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-32717CAF10C8",
+        "target_subject_id": "SUBJ-SUCC-B72813B66EC2",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "rationale": "Defeat encourages inquiry into institutions and the postwar search for improvement; failed reform and subsequent conflicts deepen the later confidence crisis. Defeat is one contributor, not a sufficient cause.",
+        "relationship_id": "REL-SUCC-CAF1ACD5D083",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S016",
+        "author_proposal_id": "REL-PROP-C001006-E2E3516386FE"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-DDBC2FCC70BD",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-32717CAF10C8",
+        "target_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+        "relationship_type": "encourages_reform_debate_about",
+        "evidence_document_pages": [
+          56,
+          57
+        ],
+        "rationale": "The postwar inquest makes economic improvement a ministerial priority and helps give Physiocratic ideas an audience.",
+        "relationship_id": "REL-SUCC-4F9108A9AFC4",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S016",
+        "author_proposal_id": "REL-PROP-C001006-DDBC2FCC70BD"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-1026E5CBA2F9",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6ED183AAA09B",
+        "target_subject_id": "SUBJ-SUCC-EFACBA8E0CD4",
+        "relationship_type": "sustains_a_clandestine_strand_of",
+        "evidence_document_pages": [
+          45,
+          53,
+          54
+        ],
+        "rationale": "The longstanding Jansenist conflict supplies the Nouvelles ecclésiastiques example within the expanding press; it does not explain all journalism.",
+        "relationship_id": "REL-SUCC-B0374861A868",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S012",
+        "author_proposal_id": "REL-PROP-C001006-1026E5CBA2F9"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-06AF13B1704F",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6ED183AAA09B",
+        "target_subject_id": "SUBJ-SUCC-00A7DA235523",
+        "relationship_type": "helps_define_opposition_within",
+        "evidence_document_pages": [
+          51,
+          53,
+          54,
+          55
+        ],
+        "rationale": "Religious prosecutions and attacks help cohere the philosophes’ sense of common cause despite doctrinal differences; changing orthodox piety remains a separate facet.",
+        "relationship_id": "REL-SUCC-501DC0A44455",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S012",
+        "author_proposal_id": "REL-PROP-C001006-06AF13B1704F"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-AD024823E975",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6ED183AAA09B",
+        "target_subject_id": "SUBJ-SUCC-3D8A0053D7DE",
+        "relationship_type": "provides_context_for",
+        "evidence_document_pages": [
+          53,
+          54,
+          55
+        ],
+        "rationale": "Prolonged intra-Catholic conflict and changes in piety accompany declining acceptance of persecution. The source does not establish a single sufficient cause of toleration.",
+        "relationship_id": "REL-SUCC-9E949FE94B00",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S012",
+        "author_proposal_id": "REL-PROP-C001006-AD024823E975"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-ADFDEF6A8E43",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-5972B59F1599",
+        "target_subject_id": "SUBJ-SUCC-109654B88E5D",
+        "relationship_type": "participates_in_reform_campaigns_within",
+        "evidence_document_pages": [
+          55,
+          65
+        ],
+        "rationale": "Some philanthropic lodges, including the Nine Sisters, engage in campaigns against judicial injustice; this is not institutional support for every literary society.",
+        "relationship_id": "REL-SUCC-2DE9C126EBD7",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S026",
+        "author_proposal_id": "REL-PROP-C001006-ADFDEF6A8E43"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-8404A4625D75",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-72BFF2A0B28C",
+        "target_subject_id": "SUBJ-SUCC-D656CB5829D8",
+        "relationship_type": "informs_search_for",
+        "evidence_document_pages": [
+          51,
+          59,
+          60,
+          61
+        ],
+        "rationale": "The argument for intermediary bodies and checks on despotism informs interest in accountable provincial representation, without making Necker’s programme a direct transcription of Montesquieu.",
+        "relationship_id": "REL-SUCC-27C8DE8D66C8",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S009",
+        "author_proposal_id": "REL-PROP-C001006-8404A4625D75"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-9FC6E4912F40",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-B72813B66EC2",
+        "target_subject_id": "SUBJ-SUCC-D656CB5829D8",
+        "relationship_type": "prompts_search_for",
+        "evidence_document_pages": [
+          59,
+          60,
+          61
+        ],
+        "rationale": "Restored parlements fail to settle the confidence crisis, and representative provincial institutions become an alternative protection against administrative despotism.",
+        "relationship_id": "REL-SUCC-31CC9CE8434C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S019",
+        "author_proposal_id": "REL-PROP-C001006-9FC6E4912F40"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-18D2DE89E2D0",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+        "target_subject_id": "SUBJ-SUCC-C1C7F6F7A3BE",
+        "relationship_type": "shapes_reform_context_of",
+        "evidence_document_pages": [
+          57,
+          58,
+          60
+        ],
+        "rationale": "State-led economic rationalization underlies enlightened administrative ambitions; arbitrary and unaccountable implementation creates opposition. This is contextual influence, not a claim that every intendant adopted the doctrine.",
+        "relationship_id": "REL-SUCC-D12B3E40A6FB",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "author_proposal_id": "REL-PROP-C001006-18D2DE89E2D0"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-34357327C7D7",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-2D34B3F763DB",
+        "target_subject_id": "SUBJ-SUCC-85F40786F221",
+        "relationship_type": "informs_french_reception_of",
+        "evidence_document_pages": [
+          52,
+          53,
+          63,
+          64
+        ],
+        "rationale": "French observers read American political language through ideas of liberty and popular authority familiar from French discussion, including Rousseau; this does not assert that Rousseau caused the American Revolution.",
+        "relationship_id": "REL-SUCC-14760A5DB80C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S011",
+        "author_proposal_id": "REL-PROP-C001006-34357327C7D7"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-49A47596B054",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-7F399445D1A7",
+        "target_subject_id": "SUBJ-SUCC-0383CF37560D",
+        "relationship_type": "contributes_to_scarcity_context_of",
+        "evidence_document_pages": [
+          12,
+          57,
+          58
+        ],
+        "rationale": "Harvest fluctuation makes experiments in grain freedom politically vulnerable; distinguish shortage and subsistence unrest from the policy theory and conspiracy explanation.",
+        "relationship_id": "REL-SUCC-0911747DDE14",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S016",
+        "author_proposal_id": "REL-PROP-C001006-49A47596B054"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-D905DAE6B020",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-4BD86B38620A",
+        "target_subject_id": "SUBJ-SUCC-7E3399C22F9E",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          66,
+          67,
+          68
+        ],
+        "rationale": "Turgot warned against financing American intervention; Necker financed war through borrowing and cultivated public confidence. Compare fiscal strategies, not a personal quarrel.",
+        "relationship_id": "REL-SUCC-CAB2821185C3",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S010",
+        "author_proposal_id": "REL-PROP-C001006-D905DAE6B020"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-26F2DB400102",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-0DA4A1C4E112",
+        "target_subject_id": "SUBJ-SUCC-A5AA75EEABBF",
+        "relationship_type": "responds_to",
+        "evidence_document_pages": [
+          68,
+          69,
+          70
+        ],
+        "rationale": "Calonne’s coordinated tax, provincial and commercial programme addresses structural fiscal weakness; it was proposed and contested, not implemented by the Notables.",
+        "relationship_id": "REL-SUCC-D0CEF1EE8B02",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S003",
+        "author_proposal_id": "REL-PROP-C001006-26F2DB400102"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-CEB8FF02DBCA",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-7E3399C22F9E",
+        "target_subject_id": "SUBJ-SUCC-4006B19862D2",
+        "relationship_type": "undermines_confidence_in",
+        "evidence_document_pages": [
+          69,
+          70,
+          71
+        ],
+        "rationale": "Necker’s published account of financial administration and reputation sharpen doubts about Calonne’s management; limit the claim to reputation and the accounting controversy.",
+        "relationship_id": "REL-SUCC-41E59A33A8BE",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S011",
+        "author_proposal_id": "REL-PROP-C001006-CEB8FF02DBCA"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-DE2F52DCF5C6",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-9A8F898AB77D",
+        "target_subject_id": "SUBJ-SUCC-71B17F79525C",
+        "relationship_type": "seeks_authorization_for",
+        "evidence_document_pages": [
+          76,
+          77,
+          78,
+          79
+        ],
+        "rationale": "The November 1787 Royal Session seeks registration of Brienne’s staged loan programme; a contested registration attempt is not successful implementation of the entire recovery plan.",
+        "relationship_id": "REL-SUCC-9F70BE8A5553",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S017",
+        "author_proposal_id": "REL-PROP-C001006-DE2F52DCF5C6"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-7DE740282FFE",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-27DFBAFAABE0",
+        "target_subject_id": "SUBJ-SUCC-A5AA75EEABBF",
+        "relationship_type": "is_demanded_as_remedy_for",
+        "evidence_document_pages": [
+          71,
+          72,
+          74,
+          75,
+          77,
+          83,
+          84
+        ],
+        "rationale": "Calls for the Estates-General increasingly make national consent the answer to taxation and credit problems, while the timing and political purpose of the demand change.",
+        "relationship_id": "REL-SUCC-7C84C31492CD",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S007",
+        "author_proposal_id": "REL-PROP-C001006-7DE740282FFE"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-CDE93626A795",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-79326CACD8C3",
+        "target_subject_id": "SUBJ-SUCC-E36C9512FC50",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "rationale": "The failure to enforce the May judicial settlement disrupts justice and tax collection and helps close the treasury’s remaining credit channels; retain debt and harvest damage as additional pressures.",
+        "relationship_id": "REL-SUCC-644EDFF9D8FD",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S008",
+        "author_proposal_id": "REL-PROP-C001006-CDE93626A795"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-61CE5B364852",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-2FEF2FC2A91D",
+        "target_subject_id": "SUBJ-SUCC-27DFBAFAABE0",
+        "relationship_type": "reinforces_demand_for",
+        "evidence_document_pages": [
+          81,
+          82,
+          83,
+          84
+        ],
+        "rationale": "Clerical, noble, provincial and popular resistance presses for representation; the groups’ motives differ and cannot be reduced to one revolutionary ideology.",
+        "relationship_id": "REL-SUCC-B893D401017D",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S020",
+        "author_proposal_id": "REL-PROP-C001006-61CE5B364852"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-3972FB444C99",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-E36C9512FC50",
+        "target_subject_id": "SUBJ-SUCC-7E3399C22F9E",
+        "relationship_type": "prompts_recall_of_financier_within",
+        "evidence_document_pages": [
+          84,
+          85
+        ],
+        "rationale": "Treasury collapse leads to Necker’s recall because his public credit appears the only immediate remedy. It does not cause the Compte rendu published seven years earlier.",
+        "relationship_id": "REL-SUCC-6CCA637758F9",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S009",
+        "author_proposal_id": "REL-PROP-C001006-3972FB444C99"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-CBC622AC98BA",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-40DBC004643F",
+        "target_subject_id": "SUBJ-SUCC-E36C9512FC50",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          83,
+          84
+        ],
+        "rationale": "The July hailstorm undermines tax and credit expectations already weakened by debt, anticipations and political resistance.",
+        "relationship_id": "REL-SUCC-640B20CBC697",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S023",
+        "author_proposal_id": "REL-PROP-C001006-CBC622AC98BA"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-009CBC838CCD",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-71B17F79525C",
+        "target_subject_id": "SUBJ-SUCC-E36C9512FC50",
+        "relationship_type": "contributes_through_failed_treasury_restructuring_to",
+        "evidence_document_pages": [
+          83,
+          84
+        ],
+        "rationale": "Treasury centralization threatens established financiers, whose refusal of final advances contributes to collapse; this is a particular administrative mechanism, not a claim that every element of Brienne’s plan failed identically.",
+        "relationship_id": "REL-SUCC-A9AB09D39E33",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C003-S016",
+        "author_proposal_id": "REL-PROP-C001006-009CBC838CCD"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-AB78F6C48CDA",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-92FF96EC39D9",
+        "target_subject_id": "SUBJ-SUCC-C9D730C2AC1F",
+        "relationship_type": "articulates",
+        "evidence_document_pages": [
+          93,
+          94
+        ],
+        "rationale": "Sieyes gives the third estate’s claim to embody the nation an influential anti-privilege formulation; the pamphlet is an intervention in an existing mobilization.",
+        "relationship_id": "REL-SUCC-C08B10FC4AC5",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S016",
+        "author_proposal_id": "REL-PROP-C001006-AB78F6C48CDA"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-5CD9D3C97745",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-92FF96EC39D9",
+        "target_subject_id": "SUBJ-SUCC-1E3F43DBAD08",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          102,
+          103,
+          104
+        ],
+        "rationale": "Sieyes’s final appeal and roll call help turn verification deadlock into a claim of national representation; preserve the deputies’ collective action and broader constitutional setting.",
+        "relationship_id": "REL-SUCC-E21BB2635F5E",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S016",
+        "author_proposal_id": "REL-PROP-C001006-5CD9D3C97745"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-780F22474E01",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-F0E37CAD434D",
+        "target_subject_id": "SUBJ-SUCC-C9D730C2AC1F",
+        "relationship_type": "intensifies_conflict_over",
+        "evidence_document_pages": [
+          89,
+          90,
+          91,
+          92,
+          93,
+          94
+        ],
+        "rationale": "Insistence on the 1614 order-based form turns a procedural and constitutional dispute into confrontation over privilege; it does not create the social orders.",
+        "relationship_id": "REL-SUCC-A47B82360CF5",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S007",
+        "author_proposal_id": "REL-PROP-C001006-780F22474E01"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-4242E78DA566",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-3FC7F858D56D",
+        "target_subject_id": "SUBJ-SUCC-1AA4E445D945",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          91,
+          92
+        ],
+        "rationale": "The second Notables oppose doubling; the royal Result grants doubled third-estate representation while leaving voting procedure unresolved.",
+        "relationship_id": "REL-SUCC-99785B6A720B",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S012",
+        "author_proposal_id": "REL-PROP-C001006-4242E78DA566"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-00A864D00F8B",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-75B959BD3520",
+        "target_subject_id": "SUBJ-SUCC-C9D730C2AC1F",
+        "relationship_type": "amplifies",
+        "evidence_document_pages": [
+          90,
+          91,
+          92,
+          93,
+          94
+        ],
+        "rationale": "Pamphlets and petitions enlarge anti-privilege mobilization and national claims; print is a means of publicity rather than a sufficient cause of social conflict.",
+        "relationship_id": "REL-SUCC-A3021277C040",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S009",
+        "author_proposal_id": "REL-PROP-C001006-00A864D00F8B"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-D05125C767F6",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-1AA4E445D945",
+        "target_subject_id": "SUBJ-SUCC-625C5AF207F1",
+        "relationship_type": "leaves_unresolved",
+        "evidence_document_pages": [
+          92,
+          101,
+          102,
+          103
+        ],
+        "rationale": "Doubling the third estate without deciding voting procedure leaves the verification dispute capable of becoming a struggle over separate orders and national authority.",
+        "relationship_id": "REL-SUCC-E1D4C447CDC2",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S013",
+        "author_proposal_id": "REL-PROP-C001006-D05125C767F6"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-B8D701839A0F",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-A38083855AA9",
+        "target_subject_id": "SUBJ-SUCC-625C5AF207F1",
+        "relationship_type": "fails_to_resolve",
+        "evidence_document_pages": [
+          101,
+          102
+        ],
+        "rationale": "Necker’s equivocation at the opening offers no authoritative decision on the central procedural issue, leaving deputies to contest verification.",
+        "relationship_id": "REL-SUCC-34EF1BF39733",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S005",
+        "author_proposal_id": "REL-PROP-C001006-B8D701839A0F"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-B3AB1F889F31",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-AD1724EBE928",
+        "target_subject_id": "SUBJ-SUCC-DF242A7BAF78",
+        "relationship_type": "requires_preparation_of",
+        "evidence_document_pages": [
+          96,
+          97,
+          99,
+          100
+        ],
+        "rationale": "Electoral assemblies prepare grievance lists alongside choosing deputies; electoral mobilization and cahier drafting are interlocking stages, not an abstract one-way cause of democratization.",
+        "relationship_id": "REL-SUCC-FFE2F523A135",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S018",
+        "author_proposal_id": "REL-PROP-C001006-B3AB1F889F31"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-1E8FF45B051B",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-36FC305F79B7",
+        "target_subject_id": "SUBJ-SUCC-625C5AF207F1",
+        "relationship_type": "provides_procedural_resources_for",
+        "evidence_document_pages": [
+          95,
+          96,
+          102,
+          103
+        ],
+        "rationale": "Legal training equips leading third-estate deputies for the procedural dispute over verification and national legitimacy; it does not make their political outcome automatic.",
+        "relationship_id": "REL-SUCC-96DB406B28FB",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S017",
+        "author_proposal_id": "REL-PROP-C001006-1E8FF45B051B"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-11DDD2981D42",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-936AFF93E708",
+        "target_subject_id": "SUBJ-SUCC-C5578768FEE3",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          86,
+          87,
+          88,
+          97,
+          98
+        ],
+        "rationale": "Economic distress, high bread prices and shortages contribute to food disturbances during electoral mobilization; particular disturbances have local triggers.",
+        "relationship_id": "REL-SUCC-03D87F2B4F53",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S001",
+        "author_proposal_id": "REL-PROP-C001006-11DDD2981D42"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-8DD37C066FED",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-3E7ADBDC503B",
+        "target_subject_id": "SUBJ-SUCC-522782B090A1",
+        "relationship_type": "shapes_supply_context_of",
+        "evidence_document_pages": [
+          86,
+          87,
+          88,
+          97,
+          121,
+          122
+        ],
+        "rationale": "Government procurement and contested trade rules form part of the supply context; do not flatten policy shifts and harvest shortage into a single cause of all bread politics.",
+        "relationship_id": "REL-SUCC-2962ECF51A78",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S002",
+        "author_proposal_id": "REL-PROP-C001006-8DD37C066FED"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-D512598070A0",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-5FCCBDB023C6",
+        "target_subject_id": "SUBJ-SUCC-1DB77B316BEB",
+        "relationship_type": "participates_in_resistance_to",
+        "evidence_document_pages": [
+          103,
+          104,
+          106,
+          107
+        ],
+        "rationale": "Mirabeau’s journalism and defiant intervention support the Assembly’s resistance to royal commands; the refusal is collective and its success also depends on the king abandoning coercion.",
+        "relationship_id": "REL-SUCC-C2F97D548FD5",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S032",
+        "author_proposal_id": "REL-PROP-C001006-D512598070A0"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-B79E7769376D",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-4304E8CB2BD3",
+        "target_subject_id": "SUBJ-SUCC-1DB77B316BEB",
+        "relationship_type": "supports_resistance_to",
+        "evidence_document_pages": [
+          104,
+          105,
+          106,
+          107
+        ],
+        "rationale": "Spectators and outside demonstrations sustain deputies resisting the Royal Session; this supplements the already authored crowd-to-Assembly formation relationship.",
+        "relationship_id": "REL-SUCC-CA78959B569E",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S031",
+        "author_proposal_id": "REL-PROP-C001006-B79E7769376D"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-BA77B1FCB07D",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-1DB77B316BEB",
+        "target_subject_id": "SUBJ-SUCC-7CE426B45CF3",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          106,
+          107,
+          108
+        ],
+        "rationale": "Failed dispersal and subsequent union of the orders defeat the royal constitutional strategy; effective coercive authority collapses later in July, not immediately in every sphere.",
+        "relationship_id": "REL-SUCC-F8C9FF0E7613",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S036",
+        "author_proposal_id": "REL-PROP-C001006-BA77B1FCB07D"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-8F934BB932FF",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-49764CEDFDC8",
+        "target_subject_id": "SUBJ-SUCC-F7206C895F76",
+        "relationship_type": "provokes_defensive_organization_within",
+        "evidence_document_pages": [
+          108,
+          109
+        ],
+        "rationale": "Troop concentration and Necker’s dismissal intensify fear of coercion and help prompt Paris electors’ militia preparations; the militia does not cause the earlier troop concentration.",
+        "relationship_id": "REL-SUCC-5623D6C6DAAB",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S040",
+        "author_proposal_id": "REL-PROP-C001006-8F934BB932FF"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-ECB04221E3D1",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-C918DFC81FAD",
+        "target_subject_id": "SUBJ-SUCC-F7206C895F76",
+        "relationship_type": "prompts_response_within",
+        "evidence_document_pages": [
+          97,
+          98,
+          108,
+          109
+        ],
+        "rationale": "Citizens organize militias in response to weak policing and disorder as well as court threat; the relation is not militia creation causing the prior breakdown of enforcement.",
+        "relationship_id": "REL-SUCC-6EA47A57C384",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S038",
+        "author_proposal_id": "REL-PROP-C001006-ECB04221E3D1"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-C11256BE21D5",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-522782B090A1",
+        "target_subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+        "relationship_type": "contributes_to",
+        "evidence_document_pages": [
+          113,
+          114
+        ],
+        "rationale": "Scarcity and disorder contribute to provincial seizure and reconstitution of municipal power; Paris’s example, collapsing royal authority and local political motives also matter.",
+        "relationship_id": "REL-SUCC-6F7FCC206FAB",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S014",
+        "author_proposal_id": "REL-PROP-C001006-C11256BE21D5"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-409C71B856C5",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6916B131C643",
+        "target_subject_id": "SUBJ-SUCC-8246690A8BF7",
+        "relationship_type": "prompts_response_in",
+        "evidence_document_pages": [
+          114,
+          115,
+          116
+        ],
+        "rationale": "Direct action against seigneurial rights pressures the Assembly toward the night of renunciations; distinguish this pressure from the deputies’ legal qualifications and the continuing rural campaign.",
+        "relationship_id": "REL-SUCC-D9D7D6948B71",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S006",
+        "author_proposal_id": "REL-PROP-C001006-409C71B856C5"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-AE49750CFA21",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-7B3E1AAE16C8",
+        "target_subject_id": "SUBJ-SUCC-933F54A354BC",
+        "relationship_type": "mobilizes_opposition_to_absolute_veto_within",
+        "evidence_document_pages": [
+          119,
+          120,
+          121
+        ],
+        "rationale": "Journalists and public agitation attack the Monarchiens’ constitutional proposals; the resulting suspensive veto is distinct from the full veto they advocated.",
+        "relationship_id": "REL-SUCC-2B8517C69BE7",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S013",
+        "author_proposal_id": "REL-PROP-C001006-AE49750CFA21"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-946EBAF15A69",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+        "target_subject_id": "SUBJ-SUCC-9E6D9535AA17",
+        "relationship_type": "limits_eligibility_within",
+        "evidence_document_pages": [
+          124,
+          125
+        ],
+        "rationale": "Tax and property qualifications restrict political participation and eligibility for elective offices; the franchise limits the reach of election, not the reverse.",
+        "relationship_id": "REL-SUCC-DC7EC6A2552C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S018",
+        "author_proposal_id": "REL-PROP-C001006-946EBAF15A69"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-2B56F1DDABC8",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "target_subject_id": "SUBJ-SUCC-65CB496E4820",
+        "relationship_type": "aggravates_financial_crisis_through_collection_failure",
+        "evidence_document_pages": [
+          131,
+          132
+        ],
+        "rationale": "The new direct-tax system’s weak enforcement and late collection aggravate the state’s financial crisis. Fiscal equality itself is not alleged to cause inherited debt.",
+        "relationship_id": "REL-SUCC-33091612EED4",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S027",
+        "author_proposal_id": "REL-PROP-C001006-2B56F1DDABC8"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-4C626B1D95B2",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+        "target_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "relationship_type": "pressures_reform_of",
+        "evidence_document_pages": [
+          130,
+          131
+        ],
+        "rationale": "Widespread evasion and resistance help make old indirect taxes and monopolies politically untenable, while reformers also act on egalitarian and economic principles.",
+        "relationship_id": "REL-SUCC-2202F9DA335C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S026",
+        "author_proposal_id": "REL-PROP-C001006-4C626B1D95B2"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-C11251CF3A68",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-F538F5819691",
+        "target_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+        "relationship_type": "contrasts_participation_with_exclusion_in",
+        "evidence_document_pages": [
+          121,
+          122,
+          123,
+          124
+        ],
+        "rationale": "Women act prominently in the October mobilization but remain excluded from the formal political franchise; retain this difference between popular intervention and legal citizenship.",
+        "relationship_id": "REL-SUCC-59CB9A14DCD2",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S015",
+        "author_proposal_id": "REL-PROP-C001006-C11251CF3A68"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-63E6D9D4624A",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-D990EC541CE5",
+        "target_subject_id": "SUBJ-SUCC-5BF206CEDFE0",
+        "relationship_type": "contributes_to_breakdown_of",
+        "evidence_document_pages": [
+          139,
+          140,
+          141,
+          142,
+          143
+        ],
+        "rationale": "State reorganization of the Church and the subsequent oath divide the earlier revolutionary coalition; distinguish the legal constitution from the later oath and regional reactions.",
+        "relationship_id": "REL-SUCC-9300CBCE5473",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S002",
+        "author_proposal_id": "REL-PROP-C001006-63E6D9D4624A"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-60AFC0E3C15B",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-2EC1BFCD2A04",
+        "target_subject_id": "SUBJ-SUCC-5BF206CEDFE0",
+        "relationship_type": "makes_division_public_within",
+        "evidence_document_pages": [
+          141,
+          142,
+          143
+        ],
+        "rationale": "The oath operates as a public test of allegiance and reveals, as well as deepens, the breach in consensus; an opinion-poll metaphor is not a separate causal mechanism.",
+        "relationship_id": "REL-SUCC-54D85B97E9F5",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S003",
+        "author_proposal_id": "REL-PROP-C001006-60AFC0E3C15B"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-C62BFB861A88",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "target_subject_id": "SUBJ-SUCC-5BF206CEDFE0",
+        "relationship_type": "contributes_to_breakdown_of",
+        "evidence_document_pages": [
+          151,
+          152,
+          153
+        ],
+        "rationale": "The failed flight and royal declaration expose repudiation of the Revolution and force another national choice; this compounds a religious and political breach already underway.",
+        "relationship_id": "REL-SUCC-2C2C9C7925ED",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S005",
+        "author_proposal_id": "REL-PROP-C001006-C62BFB861A88"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-F6624ED1B863",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-F066F35B29BE",
+        "target_subject_id": "SUBJ-SUCC-D990EC541CE5",
+        "relationship_type": "creates_conditions_for",
+        "evidence_document_pages": [
+          136,
+          137,
+          138,
+          139,
+          140
+        ],
+        "rationale": "Dispossession and loss of independent clerical resources place the Church increasingly in state dependence and make salaried reorganization possible; they do not alone cause every later schism.",
+        "relationship_id": "REL-SUCC-B34F46C0596A",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S007",
+        "author_proposal_id": "REL-PROP-C001006-F6624ED1B863"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-D1B8CDA7539A",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-7BF0734F6369",
+        "target_subject_id": "SUBJ-SUCC-D990EC541CE5",
+        "relationship_type": "condemns",
+        "evidence_document_pages": [
+          140,
+          145,
+          146
+        ],
+        "rationale": "Papal condemnation rejects the ecclesiastical settlement; distinguish delayed private opposition from publication and resulting oath withdrawals.",
+        "relationship_id": "REL-SUCC-7194CC61F70B",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S010",
+        "author_proposal_id": "REL-PROP-C001006-D1B8CDA7539A"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-4295D27F07A0",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-42910A6904FC",
+        "target_subject_id": "SUBJ-SUCC-7BF0734F6369",
+        "relationship_type": "aggravates_territorial_dispute_within",
+        "evidence_document_pages": [
+          138,
+          139,
+          145,
+          146
+        ],
+        "rationale": "Conflict over Avignon and the Comtat adds a territorial grievance to the ecclesiastical breach with Pius VI; the quarrels cannot be collapsed into a single doctrinal issue.",
+        "relationship_id": "REL-SUCC-A036CB1AF505",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S009",
+        "author_proposal_id": "REL-PROP-C001006-4295D27F07A0"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-C6D7DBCB5777",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-7BF0734F6369",
+        "target_subject_id": "SUBJ-SUCC-1A129D23C345",
+        "relationship_type": "intensifies_hostility_toward_refractories_within",
+        "evidence_document_pages": [
+          145,
+          146,
+          148
+        ],
+        "rationale": "Publication of the papal break and oath withdrawals intensify suspicion of refractory worshippers; popular persecution is not simply execution of papal policy.",
+        "relationship_id": "REL-SUCC-010485DC2F6C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S010",
+        "author_proposal_id": "REL-PROP-C001006-C6D7DBCB5777"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-B4C0CB3071BB",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-1A129D23C345",
+        "target_subject_id": "SUBJ-SUCC-B4386E288802",
+        "relationship_type": "strengthens",
+        "evidence_document_pages": [
+          146,
+          147,
+          148
+        ],
+        "rationale": "Harassment of refractory worship and conflict over religious liberty strengthen popular religious opposition to the Revolution; do not invert the old reinforced_by relation.",
+        "relationship_id": "REL-SUCC-FFA2254991CB",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S015",
+        "author_proposal_id": "REL-PROP-C001006-B4C0CB3071BB"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-B9BED55B643C",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-C4552AA613C0",
+        "target_subject_id": "SUBJ-SUCC-B4386E288802",
+        "relationship_type": "provides_regional_instance_of",
+        "evidence_document_pages": [
+          138,
+          139,
+          143,
+          147
+        ],
+        "rationale": "Catholic royalist mobilization around Montauban, Nîmes and Jalès supplies a southern instance of religious counter-revolution. It must not be subsumed geographically under the Vendée or western France.",
+        "relationship_id": "REL-SUCC-B9733971DA17",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S008",
+        "author_proposal_id": "REL-PROP-C001006-B9BED55B643C"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-EA858DA67FF4",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-F066F35B29BE",
+        "target_subject_id": "SUBJ-SUCC-C4552AA613C0",
+        "relationship_type": "helps_trigger_conflict_through_inventories_within",
+        "evidence_document_pages": [
+          138
+        ],
+        "rationale": "Monastic inventories are a specific trigger in the Montauban conflict; the relationship is not an undifferentiated assertion that all Church-land sales caused the riot.",
+        "relationship_id": "REL-SUCC-ED1ED661A89B",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S007",
+        "author_proposal_id": "REL-PROP-C001006-EA858DA67FF4"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-C39AD519B0B8",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-F3495B619256",
+        "target_subject_id": "SUBJ-SUCC-C4552AA613C0",
+        "relationship_type": "changes_power_context_of",
+        "evidence_document_pages": [
+          138,
+          139
+        ],
+        "rationale": "Religious equality alters the local political position of Protestants and intersects with Catholic reaction in the southern towns; equality as principle is distinct from the violent reaction.",
+        "relationship_id": "REL-SUCC-D1873C9A4C92",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S036",
+        "author_proposal_id": "REL-PROP-C001006-C39AD519B0B8"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-980AF886B6DD",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-44E68A442988",
+        "target_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "relationship_type": "motivates",
+        "evidence_document_pages": [
+          144,
+          145,
+          148,
+          149,
+          151,
+          152
+        ],
+        "rationale": "The king’s religious and political alienation helps motivate escape; route planning, the Saint-Cloud confrontation and distrust are distinct contributing circumstances.",
+        "relationship_id": "REL-SUCC-3253841514C7",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S014",
+        "author_proposal_id": "REL-PROP-C001006-980AF886B6DD"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-EE04323F2D26",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "target_subject_id": "SUBJ-SUCC-ABA54E187E4B",
+        "relationship_type": "mobilizes_vigilance_within",
+        "evidence_document_pages": [
+          152,
+          153
+        ],
+        "rationale": "The flight activates the Jacobin network’s emergency vigilance and defense of the Revolution; subsequent club division is a different consequence.",
+        "relationship_id": "REL-SUCC-F20FE071F595",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S005",
+        "author_proposal_id": "REL-PROP-C001006-EE04323F2D26"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-69E4670A4564",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "target_subject_id": "SUBJ-SUCC-533DDAFD9F99",
+        "relationship_type": "stimulates_republican_petitioning_within",
+        "evidence_document_pages": [
+          152,
+          153
+        ],
+        "rationale": "Flight and repudiation sharpen republican demands and petition organization by Cordeliers and Social Circle activists; they did not organize the later massacre.",
+        "relationship_id": "REL-SUCC-4365ACE17CB8",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S005",
+        "author_proposal_id": "REL-PROP-C001006-69E4670A4564"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-4D9FB52B1E09",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-533DDAFD9F99",
+        "target_subject_id": "SUBJ-SUCC-866593B802EE",
+        "relationship_type": "opposes_restoration_without_national_consent_within",
+        "evidence_document_pages": [
+          153
+        ],
+        "rationale": "Republican petitioning challenges the Assembly’s preservation of monarchy and exposes divisions among former patriots; retain the precise dispute over restoration and national consent.",
+        "relationship_id": "REL-SUCC-D58302AD9DE3",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S025",
+        "author_proposal_id": "REL-PROP-C001006-4D9FB52B1E09"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-B0CA351823E7",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-866593B802EE",
+        "target_subject_id": "SUBJ-SUCC-1C628235D449",
+        "relationship_type": "enables_completion_of",
+        "evidence_document_pages": [
+          153,
+          154,
+          155
+        ],
+        "rationale": "The Assembly’s kidnapping fiction and preservation of the crown allow moderates to complete a monarchical settlement; this is not the Constitution causing the earlier Varennes response.",
+        "relationship_id": "REL-SUCC-F4431BA58812",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S006",
+        "author_proposal_id": "REL-PROP-C001006-B0CA351823E7"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-8818858653B3",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "target_subject_id": "SUBJ-SUCC-04E7153E268C",
+        "relationship_type": "intensifies_intervention_context_of",
+        "evidence_document_pages": [
+          152,
+          155,
+          156
+        ],
+        "rationale": "Varennes heightens expectations and fears of foreign rescue that shape reception of later diplomacy. Pillnitz did not cause the earlier flight.",
+        "relationship_id": "REL-SUCC-9EBFCB92BA2C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S005",
+        "author_proposal_id": "REL-PROP-C001006-8818858653B3"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-C861D1AF2D98",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-44E68A442988",
+        "target_subject_id": "SUBJ-SUCC-1C628235D449",
+        "relationship_type": "undermines_credibility_of_acceptance_within",
+        "evidence_document_pages": [
+          152,
+          157,
+          158
+        ],
+        "rationale": "The king’s repudiation and continuing alienation make later constitutional acceptance suspect; the manifesto undermines confidence in the settlement, not vice versa.",
+        "relationship_id": "REL-SUCC-EC4926036625",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S014",
+        "author_proposal_id": "REL-PROP-C001006-C861D1AF2D98"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-3EB9F049D075",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-5306306A9030",
+        "target_subject_id": "SUBJ-SUCC-77F58847CF83",
+        "relationship_type": "opens_political_space_for",
+        "evidence_document_pages": [
+          149,
+          150,
+          151
+        ],
+        "rationale": "The leaders’ move toward moderation and the fragmentation of earlier radical coalitions leave space for Robespierre’s distinct opposition and rise.",
+        "relationship_id": "REL-SUCC-7C8764780334",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S017",
+        "author_proposal_id": "REL-PROP-C001006-3EB9F049D075"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-7117A5237ED9",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-65FAC461622C",
+        "target_subject_id": "SUBJ-SUCC-1AF0A9682A4D",
+        "relationship_type": "continues_repression_after",
+        "evidence_document_pages": [
+          154,
+          155
+        ],
+        "rationale": "The August press restriction belongs to the restrictive aftermath of Champ de Mars; it does not cause the shooting or retrospectively authorize it.",
+        "relationship_id": "REL-SUCC-1856DC4F565F",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S029",
+        "author_proposal_id": "REL-PROP-C001006-7117A5237ED9"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-E53040325B2B",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-26AD2CABDCC5",
+        "target_subject_id": "SUBJ-SUCC-2EC1BFCD2A04",
+        "relationship_type": "contrasts_constitutional_and_refractory_positions_within",
+        "evidence_document_pages": [
+          142,
+          143,
+          145
+        ],
+        "rationale": "Election and staffing of the Constitutional Church contrast with refusal and rival authority among refractories, with substantial regional variation.",
+        "relationship_id": "REL-SUCC-6422E95ADCD3",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S024",
+        "author_proposal_id": "REL-PROP-C001006-E53040325B2B"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-44E2619AAA27",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-76B1DD749C59",
+        "target_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "relationship_type": "provides_military_support_for_escape_planning_within",
+        "evidence_document_pages": [
+          147,
+          151,
+          152
+        ],
+        "rationale": "The king’s confidence in Bouillé provides a military component of escape planning; army mutiny as a whole is not a cause of the king’s religious convictions.",
+        "relationship_id": "REL-SUCC-64223FC7D78D",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S013",
+        "author_proposal_id": "REL-PROP-C001006-44E2619AAA27"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-6CA5F0E22B94",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-8A61B94A809A",
+        "target_subject_id": "SUBJ-SUCC-04E7153E268C",
+        "relationship_type": "heightens_fear_of_intervention_within",
+        "evidence_document_pages": [
+          155,
+          156
+        ],
+        "rationale": "Loss of officers makes the army’s weakness and foreign intervention more alarming; it does not cause the diplomatic Declaration itself.",
+        "relationship_id": "REL-SUCC-CFF220143C2A",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S023",
+        "author_proposal_id": "REL-PROP-C001006-6CA5F0E22B94"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-200DA4C611CC",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-8A61B94A809A",
+        "target_subject_id": "SUBJ-SUCC-76B1DD749C59",
+        "relationship_type": "aggravates_later_military_disorganization_within",
+        "evidence_document_pages": [
+          147,
+          156
+        ],
+        "rationale": "Officer emigration worsens military leadership and cohesion later in 1791; it must not be projected backward as the cause of the earlier Nancy mutiny.",
+        "relationship_id": "REL-SUCC-85A2A2B7920C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S023",
+        "author_proposal_id": "REL-PROP-C001006-200DA4C611CC"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-PROP-C001006-31746BADD9F2",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-578402719E99",
+        "target_subject_id": "SUBJ-SUCC-1C628235D449",
+        "relationship_type": "supports_final_revision_of",
+        "evidence_document_pages": [
+          150,
+          154,
+          155
+        ],
+        "rationale": "Lafayette collaborates with constitutional moderates in the final settlement; this does not erase conflict with radical crowds or transform his entire political career into support for one constitution.",
+        "relationship_id": "REL-SUCC-F03C9B74C8A0",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C006-S027",
+        "author_proposal_id": "REL-PROP-C001006-31746BADD9F2"
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-2275550925BC",
+      "before": {
+        "relationship_id": "REL-SUCC-2275550925BC",
+        "source_subject_id": "SUBJ-SUCC-533DDAFD9F99",
+        "relationship_type": "organizes",
+        "target_subject_id": "SUBJ-SUCC-1AF0A9682A4D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          153,
+          154
+        ],
+        "rationale": "Petitioning campaign leads to confrontation under martial law.",
+        "source_local_subject_id": "SUCC-C006-S025",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-2275550925BC",
+        "source_subject_id": "SUBJ-SUCC-533DDAFD9F99",
+        "relationship_type": "organizes_petition_preceding",
+        "target_subject_id": "SUBJ-SUCC-1AF0A9682A4D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          153,
+          154
+        ],
+        "rationale": "Cordeliers and Social Circle activists organize the petition preceding Champ de Mars; Lafayette and the National Guard implement the shooting. Petition organizers must not be labeled organizers of the massacre.",
+        "source_local_subject_id": "SUCC-C006-S025",
+        "source_local_relationship_index": 0
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-6A0966104C0F",
+      "before": {
+        "relationship_id": "REL-SUCC-6A0966104C0F",
+        "source_subject_id": "SUBJ-SUCC-59FB4D856AE3",
+        "relationship_type": "qualifies",
+        "target_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          119,
+          124,
+          125
+        ],
+        "rationale": "Universal civil principles coexist with restricted political franchise.",
+        "source_local_subject_id": "SUCC-C005-S010",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-6A0966104C0F",
+        "source_subject_id": "SUBJ-SUCC-59FB4D856AE3",
+        "relationship_type": "contrasts_with",
+        "target_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          118,
+          119,
+          124,
+          125
+        ],
+        "rationale": "The Declaration’s civil equality and rights language contrast with restricted political citizenship. Preserve the civil/political distinction; this is not a claim that equality of taxation itself confers the franchise.",
+        "source_local_subject_id": "SUCC-C005-S010",
+        "source_local_relationship_index": 0
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-B5304BD4CEA3",
+      "before": {
+        "relationship_id": "REL-SUCC-B5304BD4CEA3",
+        "source_subject_id": "SUBJ-SUCC-7BF0734F6369",
+        "relationship_type": "completes",
+        "target_subject_id": "SUBJ-SUCC-B4386E288802",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          146
+        ],
+        "rationale": "Publication of papal opposition completes the breach.",
+        "source_local_subject_id": "SUCC-C006-S010",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-B5304BD4CEA3",
+        "source_subject_id": "SUBJ-SUCC-7BF0734F6369",
+        "relationship_type": "contributes_to",
+        "target_subject_id": "SUBJ-SUCC-B4386E288802",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          145,
+          146
+        ],
+        "rationale": "Papal condemnation and its publication complete the religious breach and contribute to religious counter-revolution. The source does not say Pius VI completes counter-revolution as a whole.",
+        "source_local_subject_id": "SUCC-C006-S010",
+        "source_local_relationship_index": 0
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-068AD2631067",
+      "before": {
+        "relationship_id": "REL-SUCC-068AD2631067",
+        "source_subject_id": "SUBJ-SUCC-A5F4F85BCE57",
+        "relationship_type": "contributes_to",
+        "target_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          125,
+          126,
+          131
+        ],
+        "rationale": "Administrative reconstruction leaves enforcement and collection weak.",
+        "source_local_subject_id": "SUCC-C005-S020",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-068AD2631067",
+        "source_subject_id": "SUBJ-SUCC-A5F4F85BCE57",
+        "relationship_type": "constrains_collection_under",
+        "target_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          125,
+          126,
+          131,
+          132
+        ],
+        "rationale": "Decentralized and weak administrative machinery impedes enforcement and collection under the new tax regime; it does not cause the egalitarian tax design.",
+        "source_local_subject_id": "SUCC-C005-S020",
+        "source_local_relationship_index": 0
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-804AC85EE1BF",
+      "before": {
+        "relationship_id": "REL-SUCC-804AC85EE1BF",
+        "source_subject_id": "SUBJ-SUCC-ED1B4EDF9C32",
+        "relationship_type": "advocates",
+        "target_subject_id": "SUBJ-SUCC-109654B88E5D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          55
+        ],
+        "rationale": "Voltaire promotes humane judicial reform.",
+        "source_local_subject_id": "SUCC-C002-S008",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-804AC85EE1BF",
+        "source_subject_id": "SUBJ-SUCC-ED1B4EDF9C32",
+        "relationship_type": "campaigns_for_reform_within",
+        "target_subject_id": "SUBJ-SUCC-109654B88E5D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          55,
+          56
+        ],
+        "rationale": "Voltaire campaigns against injustice and for judicial reform; a composite target containing miscarriages of justice must not make the edge read as advocacy of miscarriages or torture.",
+        "source_local_subject_id": "SUCC-C002-S008",
+        "source_local_relationship_index": 0
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-26F1ABA8FCC4",
+      "before": {
+        "relationship_id": "REL-SUCC-26F1ABA8FCC4",
+        "source_subject_id": "SUBJ-SUCC-7F399445D1A7",
+        "relationship_type": "contributes_to",
+        "target_subject_id": "SUBJ-SUCC-A8F9C4659D2F",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          12,
+          13
+        ],
+        "rationale": "Harvests alter purchasing power for manufactures.",
+        "source_local_subject_id": "SUCC-C001-S016",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-26F1ABA8FCC4",
+        "source_subject_id": "SUBJ-SUCC-7F399445D1A7",
+        "relationship_type": "affects_demand_in",
+        "target_subject_id": "SUBJ-SUCC-A8F9C4659D2F",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          12,
+          13
+        ],
+        "rationale": "Harvest fluctuation affects rural purchasing power and therefore industrial demand, not the existence or growth of rural industry in every respect.",
+        "source_local_subject_id": "SUCC-C001-S016",
+        "source_local_relationship_index": 0
+      }
+    },
+    {
+      "action": "update_task",
+      "entity_id": "TASK-SUCC-1BEC81E616EF",
+      "before": {
+        "task_id": "TASK-SUCC-1BEC81E616EF",
+        "question": "How did his support for abolition and free coloured political rights differ from Barnave’s positions?",
+        "subject_ids": [
+          "SUBJ-SUCC-77F58847CF83"
+        ],
+        "source_task_ids": [
+          "SUCC-C006-S018:1"
+        ],
+        "fallback_generated": false
+      },
+      "after": {
+        "task_id": "TASK-SUCC-1BEC81E616EF",
+        "question": "How did Robespierre’s denunciation of slavery and support for free coloured political rights differ from Barnave’s positions, and which question produced the reported victory?",
+        "subject_ids": [
+          "SUBJ-SUCC-77F58847CF83",
+          "SUBJ-SUCC-2AC42802019F"
+        ],
+        "source_task_ids": [
+          "SUCC-C006-S018:1"
+        ],
+        "fallback_generated": false,
+        "source_pages": [
+          151
+        ]
+      },
+      "rationale": "The source reports denunciation of slavery and a political-rights victory. Explicit wording avoids implying that slavery was abolished in 1791; preserved slavery remains the separate S019A requirement."
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-AE1DCB3F3F11",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-94460DC3C7C8",
+        "relationship_type": "civic_ideal_expressed_in",
+        "target_subject_id": "SUBJ-SUCC-260AA907209B",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          273,
+          276
+        ],
+        "rationale": "The civic cult gives religious expression to republican virtue. This differs from the festival increasing suspicions of personal dictatorship.",
+        "relationship_id": "REL-SUCC-PROP-AE1DCB3F3F11",
+        "replaces_old_relationship_ids": [
+          "REL-0842972F3F21",
+          "REL-D7F37C108500"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-AE1DCB3F3F11"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-4E70C00FA8C3",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-94460DC3C7C8",
+        "relationship_type": "temporarily_supports_moderation_campaign_of",
+        "target_subject_id": "SUBJ-SUCC-488D7D90E0DF",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          267
+        ],
+        "rationale": "Robespierre initially protected Danton and Desmoulins against excessive repression; this temporary alliance must not be conflated with his subsequent framing of their purge.",
+        "relationship_id": "REL-SUCC-PROP-4E70C00FA8C3",
+        "replaces_old_relationship_ids": [
+          "REL-27FABF0AFCDE"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-4E70C00FA8C3"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-D656DB357ABE",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-4E4FFDBB28E9",
+        "relationship_type": "disrupts_temporary_alliance_with_indulgents_of",
+        "target_subject_id": "SUBJ-SUCC-94460DC3C7C8",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          268
+        ],
+        "rationale": "Evidence of Fabre’s fraud damaged the alignment between Robespierre and the Indulgents; real corruption must remain distinct from fabricated foreign conspiracy.",
+        "relationship_id": "REL-SUCC-PROP-D656DB357ABE",
+        "replaces_old_relationship_ids": [
+          "REL-4CFE6DA29A8B",
+          "REL-BB259CD17B3D"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-D656DB357ABE"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-B75560952200",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+        "relationship_type": "marseilles_collapse_accelerates_foreign_alignment_at",
+        "target_subject_id": "SUBJ-SUCC-DFDC18284F68",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          249
+        ],
+        "rationale": "The defeat at Marseilles helped propel Toulon toward seeking British protection. This is an event sequence, not a claim that both cities shared a royalist programme.",
+        "relationship_id": "REL-SUCC-PROP-B75560952200",
+        "replaces_old_relationship_ids": [
+          "REL-2951581584BE"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-B75560952200"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-D869D8AF98B9",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "coercive_enforcement_uses",
+        "target_subject_id": "SUBJ-SUCC-7754A8D39F3E",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          251,
+          258
+        ],
+        "rationale": "Revolutionary armies requisitioned provisions and coerced suspected hoarders. The edge concerns enforcement of subsistence policy, not all wage or currency policy.",
+        "relationship_id": "REL-SUCC-PROP-D869D8AF98B9",
+        "replaces_old_relationship_ids": [
+          "REL-2A8885616A68"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-D869D8AF98B9"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-A29891C41A06",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-B537E54F3566",
+        "relationship_type": "pressures_creation_of",
+        "target_subject_id": "SUBJ-SUCC-7754A8D39F3E",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          251
+        ],
+        "rationale": "September popular pressure secured the Revolutionary Army; keep this creation distinct from later subordination and dissolution.",
+        "relationship_id": "REL-SUCC-PROP-A29891C41A06",
+        "replaces_old_relationship_ids": [
+          "REL-422E33D27960",
+          "REL-447E80C1BC60"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-A29891C41A06"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-9C8C6716422D",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-0853ED267EBF",
+        "relationship_type": "military_recovery_opens_moderation_pressure_from",
+        "target_subject_id": "SUBJ-SUCC-488D7D90E0DF",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          266,
+          267
+        ],
+        "rationale": "Once immediate military crisis eased, Danton and Desmoulins urged moderation. This scoped late-1793 shift does not make every aspect of Terror a cause of indulgence.",
+        "relationship_id": "REL-SUCC-PROP-9C8C6716422D",
+        "replaces_old_relationship_ids": [
+          "REL-2E280AC3A6BF"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-9C8C6716422D"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-87DC080B2EE0",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-F539754012D5",
+        "relationship_type": "released_prisoners_feed",
+        "target_subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          282,
+          283
+        ],
+        "rationale": "Released suspects brought anti-Jacobin anger and support into the Gilded Youth milieu, without reducing the movement to one social origin.",
+        "relationship_id": "REL-SUCC-PROP-87DC080B2EE0",
+        "replaces_old_relationship_ids": [
+          "REL-391B55652BD1"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-87DC080B2EE0"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-45C680CBB20C",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-F539754012D5",
+        "relationship_type": "prison_memories_and_reprisals_feed",
+        "target_subject_id": "SUBJ-SUCC-75493DD9F6D7",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          284,
+          292
+        ],
+        "rationale": "Release and memories of Year II repression supplied revenge motives; the geographically varied White Terror was not wholly royalist or caused by release alone.",
+        "relationship_id": "REL-SUCC-PROP-45C680CBB20C",
+        "replaces_old_relationship_ids": [
+          "REL-B62FB8B41028"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-45C680CBB20C"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-0A11135333F8",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-5DD90C556A55",
+        "relationship_type": "forced_loan_supports_controlled_currency_recovery_in",
+        "target_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          265,
+          266
+        ],
+        "rationale": "The forced loan withdrew purchasing power and contributed to temporary assignat recovery within the controlled economy. Do not attribute this realized effect to the unimplemented Ventôse confiscation scheme.",
+        "relationship_id": "REL-SUCC-PROP-0A11135333F8",
+        "replaces_old_relationship_ids": [
+          "REL-325AFD855504",
+          "REL-CC6165962DFA"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-0A11135333F8"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-FB898C93AAE6",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-54D178FEEEA6",
+        "relationship_type": "reinforces_secular_time_in",
+        "target_subject_id": "SUBJ-SUCC-72A1D9C70157",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          260
+        ],
+        "rationale": "The republican calendar helped remove Christian temporal markers, while the wider dechristianizing campaign also included local coercion and later official retreat.",
+        "relationship_id": "REL-SUCC-PROP-FB898C93AAE6",
+        "replaces_old_relationship_ids": [
+          "REL-6862772FEBD6"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-FB898C93AAE6"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-1A37D4E2DFC9",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-94460DC3C7C8",
+        "relationship_type": "moralized_political_standards_shape",
+        "target_subject_id": "SUBJ-SUCC-42A647BF0FDD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          273,
+          274,
+          275
+        ],
+        "rationale": "Virtue and preventive suspicion help explain the treatment of potential enemies in the Great Terror; this is not sole personal authorship or socially indiscriminate killing.",
+        "relationship_id": "REL-SUCC-PROP-1A37D4E2DFC9",
+        "replaces_old_relationship_ids": [
+          "REL-6EDA01140F41",
+          "REL-ECC20455CE8F"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-1A37D4E2DFC9"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-9FED830590D2",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-FDB170E87280",
+        "relationship_type": "invokes_democratic_promise_of",
+        "target_subject_id": "SUBJ-SUCC-E57AD92C0E46",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          287
+        ],
+        "rationale": "Babeuf used the unimplemented democratic constitution against Thermidorian retreat before the Directory conspiracy.",
+        "relationship_id": "REL-SUCC-PROP-9FED830590D2",
+        "replaces_old_relationship_ids": [
+          "REL-DC00906E1A69",
+          "REL-DF4CAD9E6993"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-9FED830590D2"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-1ECE1E385E96",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-AF9995D451BE",
+        "relationship_type": "prior_organizational_erosion_weakens",
+        "target_subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          276,
+          291
+        ],
+        "rationale": "The destruction and exhaustion of militant organization before Germinal impaired the rising. Rebind from the post-Prairial repression unit, which occurs later and cannot cause Germinal’s failure.",
+        "relationship_id": "REL-SUCC-PROP-1ECE1E385E96",
+        "replaces_old_relationship_ids": [
+          "REL-7B48C5DB14EC",
+          "REL-A9C4EBFBE49F"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-1ECE1E385E96"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-E9EEFC335766",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6CADAB0E6D01",
+        "relationship_type": "toulon_jacobin_march_responds_to",
+        "target_subject_id": "SUBJ-SUCC-75493DD9F6D7",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          292
+        ],
+        "rationale": "Toulon workers mobilized against persecution but were defeated and executed. This responsive action differs from the same unit’s account of authorities enabling White Terror.",
+        "relationship_id": "REL-SUCC-PROP-E9EEFC335766",
+        "replaces_old_relationship_ids": [
+          "REL-D78D1650E18E"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-E9EEFC335766"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-6F22800729A0",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-86D03B0C3585",
+        "relationship_type": "culminates_in_girondin_purge_during",
+        "target_subject_id": "SUBJ-SUCC-8E3A7F5371C6",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          233,
+          235,
+          236
+        ],
+        "rationale": "Factional conflict culminated in the coercive purge on 2 June; the Commission of Twelve was an earlier defensive step, not itself the final event.",
+        "relationship_id": "REL-SUCC-PROP-6F22800729A0",
+        "replaces_old_relationship_ids": [
+          "REL-0100",
+          "REL-794724464472"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-6F22800729A0"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-86893195121E",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "subsistence_demands_mobilize",
+        "target_subject_id": "SUBJ-SUCC-65D590EBAFE2",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          223,
+          229
+        ],
+        "rationale": "Inflation, provision shortages and demands for controls sharpened sectional pressure on representation. Keep the 1793 political mobilization distinct from 1794 wage alienation.",
+        "relationship_id": "REL-SUCC-PROP-86893195121E",
+        "replaces_old_relationship_ids": [
+          "REL-0110",
+          "REL-C7DC8547FC24"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-86893195121E"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-5BA2586DD6D6",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-CC141AF36901",
+        "relationship_type": "military_crisis_prompts_mass_mobilization_through",
+        "target_subject_id": "SUBJ-SUCC-81DD3C32CF36",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          247,
+          249,
+          251
+        ],
+        "rationale": "Summer danger helped prompt the August levée en masse. Rebind the old compound levy endpoint to the August measure, excluding February conscription and later retrospective mass-war synthesis.",
+        "relationship_id": "REL-SUCC-PROP-5BA2586DD6D6",
+        "replaces_old_relationship_ids": [
+          "REL-20B518A1A01C"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-5BA2586DD6D6"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-72AE0E8BE71F",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6B6553ED0407",
+        "relationship_type": "helps_organize_subsistence_pressure_in",
+        "target_subject_id": "SUBJ-SUCC-B537E54F3566",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          250,
+          251
+        ],
+        "rationale": "Chaumette linked municipal provisioning failure to the September mobilization; he did not command all popular actors.",
+        "relationship_id": "REL-SUCC-PROP-72AE0E8BE71F",
+        "replaces_old_relationship_ids": [
+          "REL-24367E385815"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-72AE0E8BE71F"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-E61B09D46C27",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-488D7D90E0DF",
+        "relationship_type": "campaigns_against_excesses_associated_with",
+        "target_subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          267,
+          268,
+          269
+        ],
+        "rationale": "Desmoulins and the Indulgents attacked Hébertist excess, amid reciprocal factional hostility; disagreement is not proof of the alleged foreign plots.",
+        "relationship_id": "REL-SUCC-PROP-E61B09D46C27",
+        "replaces_old_relationship_ids": [
+          "REL-31DC052AEF83",
+          "REL-5AAA9E4DEC31",
+          "REL-5C0528829F2C"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-E61B09D46C27"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-48D4A930B1B6",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-94460DC3C7C8",
+        "relationship_type": "supports_centralization_and_restraint_on_local_excess_in",
+        "target_subject_id": "SUBJ-SUCC-CC141AF36901",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          262,
+          263,
+          264
+        ],
+        "rationale": "Robespierre supported governmental control and resisted religious coercion; rebind the old religious fragment to his political role rather than treating religion itself as an administrative actor.",
+        "relationship_id": "REL-SUCC-PROP-48D4A930B1B6",
+        "replaces_old_relationship_ids": [
+          "REL-4AE34FFF71B5",
+          "REL-23A394FA8529"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-48D4A930B1B6"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-D2ADD0F53EF9",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-8C73715839F5",
+        "relationship_type": "defection_prompts_creation_of",
+        "target_subject_id": "SUBJ-SUCC-1EB98E1BFFEE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          226,
+          227
+        ],
+        "rationale": "The general’s betrayal sharpened the emergency that produced the Committee of Public Safety; this specifically preserves the institution’s creation rather than only the broader emergency-government consequence.",
+        "relationship_id": "REL-SUCC-PROP-D2ADD0F53EF9",
+        "replaces_old_relationship_ids": [
+          "REL-4E5DE739F369"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-D2ADD0F53EF9"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-1711FB45813D",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-5193E3F37320",
+        "relationship_type": "currency_collapse_aggravates",
+        "target_subject_id": "SUBJ-SUCC-655205C566BE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          286,
+          287,
+          290
+        ],
+        "rationale": "Paper depreciation deepened provisioning hardship alongside harvest, transport, winter and policy factors; it is not a sufficient explanation by itself.",
+        "relationship_id": "REL-SUCC-PROP-1711FB45813D",
+        "replaces_old_relationship_ids": [
+          "REL-5E18720A09B7",
+          "REL-73025FDA7D44"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-1711FB45813D"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-CEB9B5ABEE36",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-260AA907209B",
+        "relationship_type": "contrasts_with_coercive_atheistic_campaigns_of",
+        "target_subject_id": "SUBJ-SUCC-72A1D9C70157",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          264,
+          276
+        ],
+        "rationale": "The Supreme Being provided civic religion compatible with belief, in contrast with coercive dechristianization; official tolerance and local religious damage remained uneven.",
+        "relationship_id": "REL-SUCC-PROP-CEB9B5ABEE36",
+        "replaces_old_relationship_ids": [
+          "REL-710C46D0675F"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-CEB9B5ABEE36"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-AE251CF534C8",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-0853ED267EBF",
+        "relationship_type": "local_excess_and_autonomy_prompt_centralization_in",
+        "target_subject_id": "SUBJ-SUCC-CC141AF36901",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          262,
+          263,
+          264
+        ],
+        "rationale": "Government consolidation addressed dispersed and self-sustaining coercion; centralization did not simply abolish Terror, and could intensify its use.",
+        "relationship_id": "REL-SUCC-PROP-AE251CF534C8",
+        "replaces_old_relationship_ids": [
+          "REL-0310329103F9",
+          "REL-22E6A25A2602",
+          "REL-E9195490F824"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-AE251CF534C8"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-08455E1FB2C4",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-AF9995D451BE",
+        "relationship_type": "government_absorption_can_intensify",
+        "target_subject_id": "SUBJ-SUCC-0853ED267EBF",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          271
+        ],
+        "rationale": "Destruction of popular rivals transferred control to government while Terror grew harsher; do not treat the Commune purge as termination of terror.",
+        "relationship_id": "REL-SUCC-PROP-08455E1FB2C4",
+        "replaces_old_relationship_ids": [
+          "REL-791B308DC19F",
+          "REL-99BCBE86DFF9"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-08455E1FB2C4"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-8739531232B1",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-9B51E63EF68F",
+        "relationship_type": "post_prairial_repression_ends_organized_political_force_of",
+        "target_subject_id": "SUBJ-SUCC-FC3075CE0927",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          295
+        ],
+        "rationale": "Final 1795 repression extinguished organized sansculotte force. Scope this edge to that final result, not the earlier erosion that helped defeat Hébert or Germinal.",
+        "relationship_id": "REL-SUCC-PROP-8739531232B1",
+        "replaces_old_relationship_ids": [
+          "REL-997950832528"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-8739531232B1"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-56E97F565026",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-9DC759EBDD0D",
+        "relationship_type": "withdraws_public_support_from",
+        "target_subject_id": "SUBJ-SUCC-260AA907209B",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          288
+        ],
+        "rationale": "Separation withdrew state payment for religion, including civic worship; this is a fiscal and institutional ending of official support, not an assertion that private belief vanished.",
+        "relationship_id": "REL-SUCC-PROP-56E97F565026",
+        "replaces_old_relationship_ids": [
+          "REL-AA2F063AD750",
+          "REL-B481456B1F8B"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-56E97F565026"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-7FB2182062F3",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-3CA26E8D160A",
+        "relationship_type": "dismantles_emergency_institutions_of",
+        "target_subject_id": "SUBJ-SUCC-CC141AF36901",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          281,
+          282
+        ],
+        "rationale": "Thermidorian measures curtailed committee powers, judicial terror and local emergency organs; the coup-to-dismantling edge alone does not name the institutional object.",
+        "relationship_id": "REL-SUCC-PROP-7FB2182062F3",
+        "replaces_old_relationship_ids": [
+          "REL-E141457EAB2D"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-7FB2182062F3"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-1AB475423451",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-6B6553ED0407",
+        "relationship_type": "executed_in_purge_of",
+        "target_subject_id": "SUBJ-SUCC-AF9995D451BE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          270,
+          271
+        ],
+        "rationale": "Chaumette’s eventual execution and the purge of the Commune followed his guarded response to insurrection; avoid labeling him an unqualified organizer of Hébert’s failed rising.",
+        "relationship_id": "REL-SUCC-PROP-1AB475423451",
+        "replaces_old_relationship_ids": [
+          "REL-F60470012206"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-1AB475423451"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-034CC51A04E0",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-C79CB5DAAF53",
+        "relationship_type": "conscription_triggers_breton_resistance_developing_as",
+        "target_subject_id": "SUBJ-SUCC-FB2D9394DA1C",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          224,
+          225,
+          226
+        ],
+        "rationale": "February conscription sparked western rural resistance with distinct Breton guerrilla development; it must not be rebound to August national mobilization.",
+        "relationship_id": "REL-SUCC-PROP-034CC51A04E0",
+        "replaces_old_relationship_ids": [
+          "REL-F574324FCB6D"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-034CC51A04E0"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-345FC1D69E3F",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-94460DC3C7C8",
+        "relationship_type": "political_isolation_and_suspicions_contribute_to",
+        "target_subject_id": "SUBJ-SUCC-9465F7AFB297",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          278,
+          279,
+          280
+        ],
+        "rationale": "Isolation, absences and fear of further denunciation helped produce the coalition against Robespierre; perceptions of dictatorship are not evidence of unlimited effective power.",
+        "relationship_id": "REL-SUCC-PROP-345FC1D69E3F",
+        "replaces_old_relationship_ids": [
+          "REL-BBAC8E0A4E85",
+          "REL-F14A807139A1",
+          "REL-4C809BC31BAE",
+          "REL-0117"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-345FC1D69E3F"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-B61BF538AC6F",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-3CA26E8D160A",
+        "relationship_type": "repeals",
+        "target_subject_id": "SUBJ-SUCC-F3A79D2249F5",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          281,
+          282
+        ],
+        "rationale": "The post-coup dismantling included repeal of 22 Prairial; the earlier law’s enactment and social effects are separate requirements.",
+        "relationship_id": "REL-SUCC-PROP-B61BF538AC6F",
+        "replaces_old_relationship_ids": [
+          "REL-039A01391EB5",
+          "REL-0118"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-B61BF538AC6F"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-C8E357FA6257",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-65D590EBAFE2",
+        "relationship_type": "indivisible_sovereignty_frames_dispute_called",
+        "target_subject_id": "SUBJ-SUCC-BBD84DC00640",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          220,
+          221,
+          236,
+          241
+        ],
+        "rationale": "The label federalist arose within disputes over legitimate national sovereignty; many rebels professed the same indivisible republic and did not seek federal government.",
+        "relationship_id": "REL-SUCC-PROP-C8E357FA6257",
+        "replaces_old_relationship_ids": [
+          "REL-37D502DB88AF",
+          "REL-71D53DFB4995",
+          "REL-C5C896D5654C",
+          "REL-C6C68DD27629",
+          "REL-0099"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-C8E357FA6257"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-D6BB5AF14AE5",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+        "relationship_type": "proposes_unimplemented_redistribution_in",
+        "target_subject_id": "SUBJ-SUCC-5DD90C556A55",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          269,
+          270
+        ],
+        "rationale": "Saint-Just’s Ventôse proposals contemplated transfers from suspects to indigent patriots but were not carried out; this does not make him author of every emergency property measure.",
+        "relationship_id": "REL-SUCC-PROP-D6BB5AF14AE5",
+        "replaces_old_relationship_ids": [
+          "REL-86143E081A47"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-D6BB5AF14AE5"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-9BF48EA69D41",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+        "relationship_type": "frames_prosecution_of",
+        "target_subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          270
+        ],
+        "rationale": "Saint-Just presented the case against Hébertists within the government’s anti-faction campaign; retain allegations as allegations, not demonstrated foreign agency.",
+        "relationship_id": "REL-SUCC-PROP-9BF48EA69D41",
+        "replaces_old_relationship_ids": [
+          "REL-BDAE2F71538F"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-9BF48EA69D41"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-A49AA6AEDCE8",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-488D7D90E0DF",
+        "relationship_type": "trial_restrictions_anticipate_procedural_direction_of",
+        "target_subject_id": "SUBJ-SUCC-F3A79D2249F5",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          273,
+          274,
+          275
+        ],
+        "rationale": "Exceptional interference with Danton’s defense foreshadowed the later law’s restriction of defendants’ protections; the earlier trial did not occur under that later law.",
+        "relationship_id": "REL-SUCC-PROP-A49AA6AEDCE8",
+        "replaces_old_relationship_ids": [
+          "REL-CD6C7BEB0138"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-A49AA6AEDCE8"
+      }
+    },
+    {
+      "action": "add_relationship",
+      "proposal_id": "REL-SUCC-PROP-E0964B593343",
+      "after": {
+        "source_subject_id": "SUBJ-SUCC-25B078097C6D",
+        "relationship_type": "selective_accountability_extends_to",
+        "target_subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          283,
+          284,
+          291
+        ],
+        "rationale": "Blame for collective Terror was concentrated on selected former leaders, including prosecutions and deportation around Germinal; preserve the Convention’s own participation.",
+        "relationship_id": "REL-SUCC-PROP-E0964B593343",
+        "replaces_old_relationship_ids": [
+          "REL-EE1289641362"
+        ],
+        "author_proposal_id": "REL-SUCC-PROP-E0964B593343"
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-749802A209CF",
+      "before": {
+        "relationship_id": "REL-SUCC-749802A209CF",
+        "source_subject_id": "SUBJ-SUCC-5DD90C556A55",
+        "relationship_type": "politically_outbids",
+        "target_subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          266,
+          270
+        ],
+        "rationale": "Ventôse and subsistence concessions compete with radical claims.",
+        "source_local_subject_id": "SUCC-C011-S016",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-749802A209CF",
+        "source_subject_id": "SUBJ-SUCC-5DD90C556A55",
+        "relationship_type": "ventose_proposals_outbid_hebertist_radicalism",
+        "target_subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          269,
+          270
+        ],
+        "rationale": "The source gives the outbidding role to Ventôse, not every property measure in the composite source unit.",
+        "source_local_subject_id": "SUCC-C011-S016",
+        "source_local_relationship_index": 0,
+        "source_facet": "Unimplemented Ventôse redistribution proposals, excluding the earlier forced loan",
+        "target_facet": "Hébertist claims to popular radicalism"
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-9F0528805A27",
+      "before": {
+        "relationship_id": "REL-SUCC-9F0528805A27",
+        "source_subject_id": "SUBJ-SUCC-7A343F73BC1F",
+        "relationship_type": "administers",
+        "target_subject_id": "SUBJ-SUCC-AF783FF68D90",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          258,
+          259
+        ],
+        "rationale": "Detention adds deaths beyond formal execution.",
+        "source_local_subject_id": "SUCC-C011-S013",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-9F0528805A27",
+        "source_subject_id": "SUBJ-SUCC-7A343F73BC1F",
+        "relationship_type": "suspect_system_administers_detention",
+        "target_subject_id": "SUBJ-SUCC-AF783FF68D90",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          258,
+          259
+        ],
+        "rationale": "Detention is the object; the surveillance apparatus did not administer demographic composition, all executions or every extrajudicial death.",
+        "source_local_subject_id": "SUCC-C011-S013",
+        "source_local_relationship_index": 0,
+        "source_facet": "Law of Suspects, watch committees and independent security detention",
+        "target_facet": "Administrative imprisonment within the larger Terror-victim treatment"
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-4A1C6BDAFD4E",
+      "before": {
+        "relationship_id": "REL-SUCC-4A1C6BDAFD4E",
+        "source_subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "relationship_type": "precedes",
+        "target_subject_id": "SUBJ-SUCC-AF9995D451BE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          270,
+          271
+        ],
+        "rationale": "The Hébertist execution precedes the wider Commune purge.",
+        "source_local_subject_id": "SUCC-C011-S024",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-4A1C6BDAFD4E",
+        "source_subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "relationship_type": "hebertist_destruction_precedes_commune_purge",
+        "target_subject_id": "SUBJ-SUCC-AF9995D451BE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          270,
+          271
+        ],
+        "rationale": "Earlier popular exhaustion helped isolate Hébert; the edge must not date all decline after his destruction.",
+        "source_local_subject_id": "SUCC-C011-S024",
+        "source_local_relationship_index": 0,
+        "source_facet": "Execution of the Hébertists in March 1794",
+        "target_facet": "Subsequent Commune purge and governmental absorption of popular power"
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-985690E87F2C",
+      "before": {
+        "relationship_id": "REL-SUCC-985690E87F2C",
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "motivates",
+        "target_subject_id": "SUBJ-SUCC-B537E54F3566",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          250,
+          251
+        ],
+        "rationale": "Real subsistence problems precede redirected mass action.",
+        "source_local_subject_id": "SUCC-C011-S014",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-985690E87F2C",
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "provisioning_crisis_and_demands_motivate_september_pressure",
+        "target_subject_id": "SUBJ-SUCC-B537E54F3566",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          250,
+          251
+        ],
+        "rationale": "A later law cannot cause the prior demonstration; retain the material crisis and popular demands as the source facet.",
+        "source_local_subject_id": "SUCC-C011-S014",
+        "source_local_relationship_index": 0,
+        "source_facet": "Provisioning shortages and pressure for controls before full General Maximum",
+        "target_facet": "Mobilization of 4–5 September 1793"
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-2319D3861F52",
+      "before": {
+        "relationship_id": "REL-SUCC-2319D3861F52",
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "accelerates",
+        "target_subject_id": "SUBJ-SUCC-5193E3F37320",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          286,
+          287
+        ],
+        "rationale": "Market procurement and revenue weakness force more paper issues.",
+        "source_local_subject_id": "SUCC-C012-S018",
+        "source_local_relationship_index": 0
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-2319D3861F52",
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "abolition_of_controls_accelerates_assignat_collapse",
+        "target_subject_id": "SUBJ-SUCC-5193E3F37320",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          286,
+          287
+        ],
+        "rationale": "Specify abolition, not operation of the Maximum; the source also identifies continuing fiscal and material causes.",
+        "source_local_subject_id": "SUCC-C012-S018",
+        "source_local_relationship_index": 0,
+        "source_facet": "Abolition of the Maximum and loss of coercive control in late 1794",
+        "target_facet": "Fiscal and currency collapse in 1795"
+      }
+    },
+    {
+      "action": "update_relationship",
+      "entity_id": "REL-SUCC-FF07B5DEA65D",
+      "before": {
+        "relationship_id": "REL-SUCC-FF07B5DEA65D",
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "worsens",
+        "target_subject_id": "SUBJ-SUCC-655205C566BE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          286
+        ],
+        "rationale": "Abolition coincides with severe cold and scarce resources, increasing prices.",
+        "source_local_subject_id": "SUCC-C012-S018",
+        "source_local_relationship_index": 1
+      },
+      "after": {
+        "relationship_id": "REL-SUCC-FF07B5DEA65D",
+        "source_subject_id": "SUBJ-SUCC-8A64FF09886C",
+        "relationship_type": "abolition_of_controls_aggravates_famine",
+        "target_subject_id": "SUBJ-SUCC-655205C566BE",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          286,
+          287,
+          290
+        ],
+        "rationale": "Controls’ abolition aggravated hardship alongside harvest, weather, transport and currency pressures; it was not the sole cause.",
+        "source_local_subject_id": "SUCC-C012-S018",
+        "source_local_relationship_index": 1,
+        "source_facet": "Late-1794 abolition of price controls",
+        "target_facet": "Winter/spring 1795 provisioning crisis"
+      }
+    },
+    {
+      "action": "add_task",
+      "after": {
+        "task_id": "TASK-SUCC-PROP-EF2613B9F6E1",
+        "question": "How did the Cult and Festival of the Supreme Being express Robespierre’s civic ideals while intensifying suspicions of his personal power?",
+        "subject_ids": [
+          "SUBJ-SUCC-260AA907209B",
+          "SUBJ-SUCC-94460DC3C7C8",
+          "SUBJ-SUCC-72A1D9C70157"
+        ],
+        "source_pages": [
+          264,
+          276,
+          277
+        ],
+        "rationale": "The existing religious-settlement comparison does not explicitly test the cult’s affirmative purpose and the difference between perceived personal dominance and effective power.",
+        "fallback_generated": false
+      }
+    },
+    {
+      "action": "add_task",
+      "after": {
+        "task_id": "TASK-SUCC-PROP-84AA1A064536",
+        "question": "How did the Great Terror change the scale, preventive logic and social distribution of executions, and why must its victims not be conflated with all victims of the Terror?",
+        "subject_ids": [
+          "SUBJ-SUCC-42A647BF0FDD",
+          "SUBJ-SUCC-AF783FF68D90",
+          "SUBJ-SUCC-F3A79D2249F5"
+        ],
+        "source_pages": [
+          257,
+          258,
+          274,
+          275
+        ],
+        "rationale": "Preserves the corrected argument: the Great Terror was socially more discriminating, with qualifications about guilt, rather than simply socially indiscriminate. Distinguish periods and denominators.",
+        "fallback_generated": false
+      }
+    },
+    {
+      "action": "add_task",
+      "after": {
+        "task_id": "TASK-SUCC-PROP-64DC48AB3844",
+        "question": "How did Le Peletier, Chalier and Marat become revolutionary martyrs, and how did their deaths serve different local and national political purposes?",
+        "subject_ids": [
+          "SUBJ-SUCC-0B38A7EF0244",
+          "SUBJ-SUCC-B7832AC4F354",
+          "SUBJ-SUCC-C8838C6F47C7"
+        ],
+        "source_pages": [
+          222,
+          232,
+          233,
+          245,
+          253,
+          254
+        ],
+        "rationale": "The existing Marat-to-Thermidor question does not preserve the comparison with the other named martyrs and the Lyonnais context.",
+        "fallback_generated": false
+      }
+    },
+    {
+      "action": "add_task",
+      "after": {
+        "task_id": "TASK-SUCC-PROP-7FC43B3C934E",
+        "question": "What distinguished sansculotte social composition, moral economy and direct political action from both representative sovereignty and Robespierre’s democratic ideal?",
+        "subject_ids": [
+          "SUBJ-SUCC-FC3075CE0927",
+          "SUBJ-SUCC-65D590EBAFE2",
+          "SUBJ-SUCC-94460DC3C7C8"
+        ],
+        "source_pages": [
+          220,
+          221,
+          223,
+          236,
+          273
+        ],
+        "rationale": "Preserves a coherent substantive comparison not fully tested by the current event-centred questions or the later whole-book material-outcomes question.",
+        "fallback_generated": false
+      }
+    },
+    {
+      "action": "add_task",
+      "after": {
+        "task_id": "TASK-SUCC-PROP-0A1D8790304E",
+        "question": "What could British blockade and maritime superiority achieve, and how did Caribbean ambitions and their human costs complicate the coalition war?",
+        "subject_ids": [
+          "SUBJ-SUCC-51F0F6F76B36"
+        ],
+        "source_pages": [
+          205,
+          210,
+          211
+        ],
+        "rationale": "The existing Caribbean question preserves colonial operations but does not explicitly ask the limits of blockade and the strategic link to continental war.",
+        "fallback_generated": false
+      }
+    },
+    {
+      "action": "add_task",
+      "after": {
+        "task_id": "TASK-SUCC-PROP-3BE9ACD9FB2D",
+        "question": "Why did Marat’s impeachment and acquittal backfire against the Girondins, and what does the episode show about the new Revolutionary Tribunal?",
+        "subject_ids": [
+          "SUBJ-SUCC-A314B3102640",
+          "SUBJ-SUCC-86D03B0C3585"
+        ],
+        "source_pages": [
+          228,
+          229
+        ],
+        "rationale": "The king’s trial is a different event. The existing emergency-institutions question names the Tribunal but does not explicitly test Marat’s acquittal and its factional result.",
+        "fallback_generated": false
+      }
+    },
+    {
+      "action": "update_task",
+      "entity_id": "TASK-SUCC-AEACB1C3BE60",
+      "before": {
+        "task_id": "TASK-SUCC-AEACB1C3BE60",
+        "question": "How did wage policy and the weakening of popular organizations affect Parisian politics?",
+        "subject_ids": [
+          "SUBJ-SUCC-8A64FF09886C",
+          "SUBJ-SUCC-9B51E63EF68F",
+          "SUBJ-SUCC-9465F7AFB297"
+        ],
+        "source_task_ids": [
+          "SUCC-C012-TASK-004"
+        ],
+        "fallback_generated": false
+      },
+      "after": {
+        "task_id": "TASK-SUCC-AEACB1C3BE60",
+        "question": "How did wage policy and the erosion of popular organizations before Thermidor affect the attempted rescue of Robespierre?",
+        "subject_ids": [
+          "SUBJ-SUCC-8A64FF09886C",
+          "SUBJ-SUCC-AF9995D451BE",
+          "SUBJ-SUCC-9465F7AFB297"
+        ],
+        "source_task_ids": [
+          "SUCC-C012-TASK-004"
+        ],
+        "fallback_generated": false,
+        "source_pages": [
+          271,
+          276,
+          280,
+          281
+        ]
+      },
+      "rationale": "The current target F68F concerns final repression after Prairial in 1795. The pre-Thermidor question requires earlier exhaustion and governmental absorption of popular institutions, preserved in 51BE."
+    },
+    {
+      "action": "update_task",
+      "entity_id": "TASK-SUCC-28574DDD2B24",
+      "before": {
+        "task_id": "TASK-SUCC-28574DDD2B24",
+        "question": "Explain why Britain entered the war and why repeated peace efforts failed.",
+        "subject_ids": [
+          "SUBJ-SUCC-CCFD03FFBD3B",
+          "SUBJ-SUCC-2E013F69DF56",
+          "SUBJ-SUCC-29F595EE7C3B"
+        ],
+        "source_task_ids": [
+          "SUCC-C009-TASK-003"
+        ],
+        "fallback_generated": false
+      },
+      "after": {
+        "task_id": "TASK-SUCC-28574DDD2B24",
+        "question": "Explain why Britain entered the war and why repeated peace efforts failed.",
+        "subject_ids": [
+          "SUBJ-SUCC-CCFD03FFBD3B",
+          "SUBJ-SUCC-2E013F69DF56",
+          "SUBJ-SUCC-29F595EE7C3B",
+          "SUBJ-SUCC-B6A0C6B7E4B4"
+        ],
+        "source_task_ids": [
+          "SUCC-C009-TASK-003"
+        ],
+        "fallback_generated": false,
+        "source_pages": [
+          197,
+          198,
+          213,
+          218
+        ]
+      },
+      "rationale": "Belgian annexation and its strategic value are required by the question about Britain’s entry and failed peace; preserve the old specific continuation-of-war facet."
+    },
+    {
+      "action": "update_task",
+      "entity_id": "TASK-SUCC-D08507913B4C",
+      "before": {
+        "task_id": "TASK-SUCC-D08507913B4C",
+        "question": "Why did Robespierre fall on 9 Thermidor, and was he actually a dictator?",
+        "subject_ids": [
+          "SUBJ-SUCC-13AF8F136719",
+          "SUBJ-SUCC-9465F7AFB297",
+          "SUBJ-SUCC-94460DC3C7C8"
+        ],
+        "source_task_ids": [
+          "SUCC-C012-TASK-005"
+        ],
+        "fallback_generated": false
+      },
+      "after": {
+        "task_id": "TASK-SUCC-D08507913B4C",
+        "question": "Why did Robespierre fall on 9 Thermidor, and was he actually a dictator?",
+        "subject_ids": [
+          "SUBJ-SUCC-13AF8F136719",
+          "SUBJ-SUCC-9465F7AFB297",
+          "SUBJ-SUCC-94460DC3C7C8",
+          "SUBJ-SUCC-F3A79D2249F5"
+        ],
+        "source_task_ids": [
+          "SUCC-C012-TASK-005"
+        ],
+        "fallback_generated": false,
+        "source_pages": [
+          277,
+          278
+        ]
+      },
+      "rationale": "Committee/deputy alarm over 22 Prairial is a specific source-grounded cause of the coup and is required by the law’s political-effects question."
+    }
+  ]
+}

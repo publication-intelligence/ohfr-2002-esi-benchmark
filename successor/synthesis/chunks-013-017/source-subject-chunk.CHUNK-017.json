@@ -1,0 +1,2503 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "evaluation_id": "ohfr-2002-study-source-successor-v1",
+  "chunk": {
+    "chunk_id": "CHUNK-017",
+    "chapter_labels": [
+      "17. The Revolution in Perspective",
+      "Chapter 17"
+    ],
+    "owned_document_pages": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425
+    ],
+    "context_document_pages": [
+      389,
+      390
+    ]
+  },
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 35,
+    "reviewed_owned_pages": 35,
+    "reviewed_owned_document_pages": [
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425
+    ],
+    "reused_complete_source_pages": [
+      395,
+      398,
+      399,
+      405,
+      406,
+      411,
+      412,
+      413,
+      419,
+      420,
+      421,
+      423,
+      424,
+      425
+    ],
+    "new_complete_source_pages": [
+      391,
+      392,
+      393,
+      394,
+      396,
+      397,
+      400,
+      401,
+      402,
+      403,
+      404,
+      407,
+      408,
+      409,
+      410,
+      414,
+      415,
+      416,
+      417,
+      418,
+      422
+    ],
+    "indexable_source_words": 15802,
+    "measurement_id": "ohfr-2002-source-prose-words-v1",
+    "complete": true
+  },
+  "subjects": [
+    {
+      "local_subject_id": "SUCC-C017-S001",
+      "label": "France in 1802: visible aftermath of the Revolution",
+      "priority": "optional",
+      "meaning": "The physical and social landscape encountered in 1802 combined revolutionary ruins and symbols with revived sociability, order, and religious practice.",
+      "stance": "The visible aftermath mixed temporary disruption with permanent change and did not straightforwardly embody the reformers' original aims.",
+      "acceptable_access": [
+        "French Revolution—aftermath in 1802",
+        "France—conditions in 1802",
+        "Paris—post-revolutionary life",
+        "Consular depoliticization",
+        "Paris--policing and military spectacle",
+        "Peace--reopening civilian travel"
+      ],
+      "evidence": [
+        {
+          "document_page": 391,
+          "source_page_label": "391",
+          "locator_class": "principal",
+          "evidence_summary": "British visitors encounter damaged roads, ruined aristocratic and religious buildings, revolutionary symbols, and resumed worship."
+        },
+        {
+          "document_page": 392,
+          "source_page_label": "392",
+          "locator_class": "principal",
+          "evidence_summary": "Paris appears socially lively and safer but politically quiet, with revolutionary sites and relics amid returning fashionable society."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S001"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S001",
+          "CHUNK-017-S066",
+          "CHUNK-017-S067"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S002",
+      "label": "Enlightenment origins and the project of national regeneration",
+      "priority": "essential",
+      "meaning": "The Revolution began as an intellectual project led by an enlarged educated public seeking rational, just, and humane regeneration after the monarchy's crisis.",
+      "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress.",
+      "acceptable_access": [
+        "French Revolution—Enlightenment origins",
+        "Enlightenment—French Revolution",
+        "National regeneration",
+        "Estates-General and cahiers--unanticipated political opening",
+        "Jacobin clubs--enlightened regeneration"
+      ],
+      "evidence": [
+        {
+          "document_page": 392,
+          "source_page_label": "392",
+          "locator_class": "principal",
+          "evidence_summary": "Educational growth and critical public opinion supplied the intellectual setting for the collapse of confidence in the old monarchy."
+        },
+        {
+          "document_page": 393,
+          "source_page_label": "393",
+          "locator_class": "principal",
+          "evidence_summary": "The Estates-General, cahiers, National Assembly, and Jacobin clubs widened a program of enlightened national regeneration."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "inspires",
+          "target_local_subject_id": "SUCC-C017-S003",
+          "evidence_document_pages": [
+            393
+          ]
+        },
+        {
+          "type": "qualified_by_intolerance_in",
+          "target_local_subject_id": "SUCC-C017-S004",
+          "evidence_document_pages": [
+            394
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S002"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S002",
+          "CHUNK-017-S003",
+          "CHUNK-017-S004"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S003",
+      "label": "Lasting rational and legal reforms",
+      "priority": "major",
+      "meaning": "Departments, metrication, the Civil Code, and criminal-law reform gave durable institutional form to revolutionary rationalism.",
+      "stance": "These were genuine and enduring achievements, although some were completed under Bonaparte and the guillotine became associated with terror rather than humanity.",
+      "acceptable_access": [
+        "French Revolution—administrative and legal reforms",
+        "Departments",
+        "Metric system",
+        "Civil Code",
+        "Criminal-law reform",
+        "Guillotine--humanitarian design and Terror",
+        "Decimal measures",
+        "Civil Code--property security and patriarchal limits"
+      ],
+      "evidence": [
+        {
+          "document_page": 393,
+          "source_page_label": "393",
+          "locator_class": "principal",
+          "evidence_summary": "Administrative departments, metric and decimal measures, codification, and abolition of old criminal-law abuses are identified as permanent reforms."
+        },
+        {
+          "document_page": 420,
+          "source_page_label": "420",
+          "locator_class": "supporting",
+          "evidence_summary": "Bonaparte’s role in codification included restriction of women’s property rights; legal rationalization was not universally emancipatory."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S003"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S005",
+          "CHUNK-017-S006",
+          "CHUNK-017-S007",
+          "CHUNK-017-S008",
+          "CHUNK-017-S039"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S004",
+      "label": "Resistance, political intolerance, and revolutionary violence",
+      "priority": "essential",
+      "meaning": "Resistance to change interacted with patriots' conviction that opponents acted from ignorance or bad faith, normalizing intimidation and escalating repression into Terror.",
+      "stance": "Violence was not simply inherent in reforming intentions, but precedents from 1789 and refusal to recognize legitimate opposition helped produce it.",
+      "acceptable_access": [
+        "French Revolution—violence and resistance",
+        "Terror—origins",
+        "Political intolerance",
+        "Legitimate opposition--revolutionary intolerance",
+        "1789 intimidation--precedents for coercion",
+        "War--radicalization of the Revolution"
+      ],
+      "evidence": [
+        {
+          "document_page": 394,
+          "source_page_label": "394",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter links violence to resistance, Enlightenment contempt for opponents, intimidation in 1789, and the precedent of patriotic coercion."
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "War and governmental mass execution transformed the meaning and memory of political change."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to_tragic_judgment_in",
+          "target_local_subject_id": "SUCC-C017-S039",
+          "evidence_document_pages": [
+            424,
+            425
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S004"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S008",
+          "CHUNK-017-S009",
+          "CHUNK-017-S063",
+          "CHUNK-017-S064",
+          "CHUNK-017-S068"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S005",
+      "label": "Nobility: loss of privilege and social transformation",
+      "priority": "major",
+      "meaning": "The Revolution ended noble corporate status,feudal and fiscal privilege,venal ennoblement and automatic deference. Emigration,confiscation,execution and failed return caused trauma,but property recovery and later elite continuity limit any claim of total material destruction.",
+      "stance": "Many nobles had supported reform before polemic cast aristocracy as a universal enemy. Nobles lost public monopoly and presumed social subordination more decisively than wealth; ending purchased ennoblement paradoxically made surviving social nobility more caste-like.",
+      "acceptable_access": [
+        "Nobility—effects of the Revolution",
+        "Aristocracy—abolition of privilege",
+        "Feudalism—abolition",
+        "Aristocracy--political label",
+        "Society of Thirty--anti-noble mobilization",
+        "Venal office--end of ennoblement",
+        "Noble emigration--confiscation and recovery",
+        "Nobility--psychological versus material losses"
+      ],
+      "evidence": [
+        {
+          "document_page": 394,
+          "source_page_label": "394",
+          "locator_class": "supporting",
+          "evidence_summary": "Anti-noble rhetoric and conflict over separate representation turned a reform-minded order into presumed enemies of regeneration."
+        },
+        {
+          "document_page": 395,
+          "source_page_label": "395",
+          "locator_class": "principal",
+          "evidence_summary": "Political, fiscal, feudal, and heraldic privileges disappeared, altering nobility from an open elite into an inherited caste."
+        },
+        {
+          "document_page": 396,
+          "source_page_label": "396",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Exile,Quiberon,suspicion and diminished public influence deepened hostility; enduring loss of automatic social deference outweighed complete material ruin."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_material_and_institutional_losses_with",
+          "target_local_subject_id": "SUCC-C017-S007",
+          "evidence_document_pages": [
+            396
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S005",
+          "CH17-S006"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S010",
+          "CHUNK-017-S011",
+          "CHUNK-017-S012",
+          "CHUNK-017-S068",
+          "CHUNK-017-S069",
+          "CHUNK-017-S070"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S007",
+      "label": "Catholic clergy: dispossession, schism, and dechristianization",
+      "priority": "essential",
+      "meaning": "The Revolution dismantled the Gallican Church's corporate resources, dissolved monastic life, divided oath-taking and refractory clergy, and subjected priests and worship to persecution.",
+      "stance": "The clergy suffered more cataclysmically than the nobility; the resulting schism and trauma were deep and enduring.",
+      "acceptable_access": [
+        "Catholic Church—effects of the Revolution",
+        "Clergy—Civil Constitution and oath",
+        "Dechristianization",
+        "Monasticism—dissolution",
+        "Nuns--resistance to convent dissolution",
+        "Women religious--clerical oath",
+        "Constitutional and refractory clergy--schism",
+        "Little Church--unreconciled religious division",
+        "Clerical emigration and mortality"
+      ],
+      "evidence": [
+        {
+          "document_page": 396,
+          "source_page_label": "396",
+          "locator_class": "principal",
+          "evidence_summary": "Loss of tithes, feudal rights, land, corporate autonomy, and monasticism preceded the Civil Constitution's formal restructuring."
+        },
+        {
+          "document_page": 397,
+          "source_page_label": "397",
+          "locator_class": "principal",
+          "evidence_summary": "The oath split the clergy; refractory priests were deprived, massacred, condemned, deported, or driven into emigration amid dechristianization."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "damages_institutional_base_of",
+          "target_local_subject_id": "SUCC-C017-S009",
+          "evidence_document_pages": [
+            398,
+            399
+          ]
+        },
+        {
+          "type": "damages_institutional_base_of",
+          "target_local_subject_id": "SUCC-C017-S010",
+          "evidence_document_pages": [
+            399,
+            400
+          ]
+        },
+        {
+          "type": "paradoxically_strengthens_papacy_in",
+          "target_local_subject_id": "SUCC-C017-S008",
+          "evidence_document_pages": [
+            398,
+            424
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S007"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S013",
+          "CHUNK-017-S014",
+          "CHUNK-017-S015",
+          "CHUNK-017-S071",
+          "CHUNK-017-S072",
+          "CHUNK-017-S102"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S008",
+      "label": "Concordat, papal revival, and Church–republican polarization",
+      "priority": "major",
+      "meaning": "The Concordat restored worship and papal authority without restoring the old Church, while the revolutionary religious quarrel hardened Catholic and republican antagonism through 1905.",
+      "stance": "The papacy paradoxically gained authority from revolutionary persecution, but reconciliation remained incomplete and politically polarizing.",
+      "acceptable_access": [
+        "Concordat of 1801—long-term effects",
+        "Papacy—revival",
+        "Church and state—France",
+        "Catholicism and republicanism",
+        "Catholic-republican polarization--1905 separation",
+        "Gallicanism--weakened popular legitimacy",
+        "Papacy--paradoxical revolutionary beneficiary"
+      ],
+      "evidence": [
+        {
+          "document_page": 398,
+          "source_page_label": "398",
+          "locator_class": "principal",
+          "evidence_summary": "The settlement restored free worship, an organized clergy, and Rome's authority while leaving the Church materially reduced."
+        },
+        {
+          "document_page": 398,
+          "source_page_label": "398",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Catholic condemnation of the Revolution and republican anti-clericalism are traced to the schism and eventually to separation in 1905."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S008"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S016",
+          "CHUNK-017-S017",
+          "CHUNK-017-S039",
+          "CHUNK-017-S063",
+          "CHUNK-017-S071"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S009",
+      "label": "Education: revolutionary disruption and decline",
+      "priority": "major",
+      "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed.",
+      "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+      "acceptable_access": [
+        "Education—effects of the French Revolution",
+        "Schools—revolutionary France",
+        "Literacy—decline",
+        "Education as a right",
+        "Central schools",
+        "Universities--suppression",
+        "Primary schools--funding and teacher shortages"
+      ],
+      "evidence": [
+        {
+          "document_page": 399,
+          "source_page_label": "399",
+          "locator_class": "principal",
+          "evidence_summary": "Institutional dissolution, confiscation, and inadequate replacement reduced college attendance and basic literacy despite ambitious plans."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S009"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S018",
+          "CHUNK-017-S073"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S010",
+      "label": "Poor relief and hospitals: destruction without replacement",
+      "priority": "major",
+      "meaning": "State promises of public support did not replace the Church-based charitable network, whose income, personnel, and property were dismantled.",
+      "stance": "The poor and sick suffered lasting human damage because revolutionary rhetoric was not matched by viable, funded institutions.",
+      "acceptable_access": [
+        "Poor relief—French Revolution",
+        "Hospitals—revolutionary disruption",
+        "Charity—destruction of institutions",
+        "Great Book of National Benevolence",
+        "Private almsgiving--prohibition",
+        "Nursing sisters--suppression and return",
+        "Hospitals--partial post-Terror recovery"
+      ],
+      "evidence": [
+        {
+          "document_page": 399,
+          "source_page_label": "399",
+          "locator_class": "principal",
+          "evidence_summary": "The Great Book of National Benevolence and statutory rights to aid remained impractical amid war and fiscal scarcity."
+        },
+        {
+          "document_page": 400,
+          "source_page_label": "400",
+          "locator_class": "principal",
+          "evidence_summary": "Relief and hospitals lost revenues,assets and nursing staff through overlapping fiscal,monetary and religious policies. Local improvisation,returned unsold land and nursing sisters enabled partial recovery,not restoration of former capacity."
+        },
+        {
+          "document_page": 401,
+          "source_page_label": "401",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The chapter judges the long-term harm to the poor and sick as a prime example of rhetoric failing reality."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S010"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S014",
+          "CHUNK-017-S019",
+          "CHUNK-017-S074",
+          "CHUNK-017-S075"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S011",
+      "label": "Economic consequences of the French Revolution",
+      "priority": "essential",
+      "meaning": "Crisis, legislation, institutional destruction, inflation, and war made the Revolution an economic disaster that set French expansion back by a generation.",
+      "stance": "Some preconditions for later progress emerged, but the net short- and medium-term material effect for most people was destructive and precarious.",
+      "acceptable_access": [
+        "French Revolution—economic consequences",
+        "French economy—revolutionary disruption",
+        "Material effects of the Revolution",
+        "Harvest and employment crisis of1788",
+        "Cheap bread--popular expectations"
+      ],
+      "evidence": [
+        {
+          "document_page": 401,
+          "source_page_label": "401",
+          "locator_class": "principal",
+          "evidence_summary": "The Revolution began amid harvest, price, and manufacturing crises and its legislation compounded those difficulties."
+        },
+        {
+          "document_page": 404,
+          "source_page_label": "404",
+          "locator_class": "supporting",
+          "evidence_summary": "War redirected trade and production, creating selective opportunities alongside severe contraction."
+        },
+        {
+          "document_page": 405,
+          "source_page_label": "405",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Recovery was delayed to the 1830s, entrepreneurial patterns persisted, and most citizens experienced greater insecurity."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S011"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S020"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S012",
+      "label": "Collapse of elite consumption and urban luxury employment",
+      "priority": "optional",
+      "meaning": "The disappearance of aristocratic, ecclesiastical, and provincial institutional demand damaged service employment, luxury trades, and cities dependent on elite consumption.",
+      "stance": "Revolutionary redistribution produced shock waves far beyond the privileged groups directly dispossessed.",
+      "acceptable_access": [
+        "Luxury trades—revolutionary decline",
+        "Urban economies—loss of elite demand",
+        "Versailles—economic decline",
+        "Church employment--loss",
+        "Domestic service and luxury trades",
+        "Tenants--rent response to lost seigneurial income"
+      ],
+      "evidence": [
+        {
+          "document_page": 401,
+          "source_page_label": "401",
+          "locator_class": "supporting",
+          "evidence_summary": "Loss of feudal income encouraged rent rises and transmitted the shock of privileged dispossession."
+        },
+        {
+          "document_page": 402,
+          "source_page_label": "402",
+          "locator_class": "principal",
+          "evidence_summary": "Versailles, provincial cities, church employment, domestic service, and luxury industries contracted sharply."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "SUCC-C017-S011",
+          "evidence_document_pages": [
+            402
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S012"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S021"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S013",
+      "label": "Assignats, inflation, and redistribution between debtors and creditors",
+      "priority": "major",
+      "meaning": "Over-issued land-backed assignats depreciated severely, undermining land-sale returns, credit, fixed incomes, wages, production, and employment.",
+      "stance": "War intensified the monetary collapse, but fiscal weakness and revolutionary over-issue caused most depreciation and broad economic damage.",
+      "acceptable_access": [
+        "Assignats—inflation",
+        "Inflation—revolutionary France",
+        "Paper money—economic effects",
+        "Debtors and creditors",
+        "Fixed incomes and wages--inflation losses",
+        "National lands--depreciated sale proceeds"
+      ],
+      "evidence": [
+        {
+          "document_page": 402,
+          "source_page_label": "402",
+          "locator_class": "principal",
+          "evidence_summary": "Land-backed paper became vulnerable when the Assembly over-issued it and failed to tax or retire the notes."
+        },
+        {
+          "document_page": 403,
+          "source_page_label": "403",
+          "locator_class": "principal",
+          "evidence_summary": "Depreciation rewarded debtors, ruined creditors and fixed-income earners, restricted credit, and contributed to unemployment and crime."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "SUCC-C017-S011",
+          "evidence_document_pages": [
+            402,
+            403
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S013"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S022",
+          "CHUNK-017-S077"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S014",
+      "label": "War, overseas trade, and continental reorientation",
+      "priority": "major",
+      "meaning": "Slave revolt, European war, blockade, and British sea power destroyed much colonial commerce and redirected French trade toward captive continental markets.",
+      "stance": "The loss of the old regime's leading commercial sector was among the Revolution's most permanent economic injuries, despite later partial recovery and wartime winners.",
+      "acceptable_access": [
+        "French foreign trade—Revolutionary Wars",
+        "Colonial trade—collapse",
+        "Continental markets—French economy",
+        "War industries--qualified gains",
+        "Cotton--protected recovery and technological lag",
+        "Belgian industry--continental market",
+        "Port economies--Atlantic contraction"
+      ],
+      "evidence": [
+        {
+          "document_page": 403,
+          "source_page_label": "403",
+          "locator_class": "principal",
+          "evidence_summary": "Saint-Domingue's revolt and war with Britain initiated the destruction of French Atlantic trade."
+        },
+        {
+          "document_page": 404,
+          "source_page_label": "404",
+          "locator_class": "principal",
+          "evidence_summary": "Blockade reduced foreign trade sharply and shifted commerce toward continental markets while war industries and protected cotton gained."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "SUCC-C017-S011",
+          "evidence_document_pages": [
+            403,
+            404
+          ]
+        },
+        {
+          "type": "benefits",
+          "target_local_subject_id": "SUCC-C017-S028",
+          "evidence_document_pages": [
+            404,
+            415
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S014"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S023",
+          "CHUNK-017-S024"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S015",
+      "label": "Economic recovery, investment, and structural continuity",
+      "priority": "major",
+      "meaning": "Recovery eventually occurred, but conservative investment in land, weak entrepreneurship, and older economic structures persisted or were reinforced.",
+      "stance": "Administrative preconditions for progress did not themselves release growth; the Revolution often altered timing rather than the direction of long-standing trends.",
+      "acceptable_access": [
+        "French economy—structural continuity",
+        "Investment—land preference",
+        "Economic modernization—limits",
+        "Internal customs barriers--abolition",
+        "Guild abolition",
+        "Le Chapelier Law--labour organization",
+        "Venal-office abolition--land investment"
+      ],
+      "evidence": [
+        {
+          "document_page": 405,
+          "source_page_label": "405",
+          "locator_class": "principal",
+          "evidence_summary": "Internal barriers and guilds disappeared, but uncertainty and national-land sales reinforced investment in land rather than enterprise."
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Conservative investment, agricultural inertia, and unentrepreneurial business persisted, suggesting acceleration or retardation rather than wholesale redirection."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "qualifies_modernizing_effects_of",
+          "target_local_subject_id": "SUCC-C017-S003",
+          "evidence_document_pages": [
+            405
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S015"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S025",
+          "CHUNK-017-S078"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S016",
+      "label": "Agriculture: limited gains and persistent inertia",
+      "priority": "major",
+      "meaning": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and lack of innovation.",
+      "stance": "Agriculture fed more people by 1802 but remained structurally and productively close to its pre-revolutionary condition until the railway era.",
+      "acceptable_access": [
+        "Agriculture—effects of the French Revolution",
+        "Peasant holdings—continuity",
+        "Agricultural productivity",
+        "Tenant peasants--rent increases",
+        "Sharecropping",
+        "Inheritance fragmentation",
+        "Agriculture--livestock and military labour losses"
+      ],
+      "evidence": [
+        {
+          "document_page": 401,
+          "source_page_label": "401",
+          "locator_class": "supporting",
+          "evidence_summary": "Landlords increased rents after losing feudal income,transferring costs to tenants; leaseholding regions often resisted the Revolution."
+        },
+        {
+          "document_page": 405,
+          "source_page_label": "405",
+          "locator_class": "principal",
+          "evidence_summary": "Small holdings, sharecropping, livestock losses, conscription, and minimal innovation limited agricultural transformation."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "limits_material_gains_in",
+          "target_local_subject_id": "SUCC-C017-S020",
+          "evidence_document_pages": [
+            405,
+            407
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S016"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S026",
+          "CHUNK-017-S069",
+          "CHUNK-017-S076"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S017",
+      "label": "Material verdict for ordinary citizens and growth of state power",
+      "priority": "essential",
+      "meaning": "For most ordinary people the Revolution brought insecurity, institutional loss, intrusion, conscription, and a permanently enlarged coercive state.",
+      "stance": "The material bargain was largely negative, and popular demands for stability and autonomy exposed the distance between revolutionary promise and experience.",
+      "acceptable_access": [
+        "French Revolution—effects on ordinary people",
+        "State power—revolutionary expansion",
+        "Citizens—material consequences"
+      ],
+      "evidence": [
+        {
+          "document_page": 405,
+          "source_page_label": "405",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The chapter answers that the Revolution was not materially worthwhile for most subjects transformed into citizens."
+        },
+        {
+          "document_page": 406,
+          "source_page_label": "406",
+          "locator_class": "principal",
+          "evidence_summary": "Terror receded but the state's coercive power remained permanently enlarged, provoking broad popular resistance."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "helps_explain",
+          "target_local_subject_id": "SUCC-C017-S018",
+          "evidence_document_pages": [
+            405,
+            406
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S017"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S027"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S018",
+      "label": "Popular anti-revolution and rural resistance",
+      "priority": "major",
+      "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion.",
+      "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy.",
+      "acceptable_access": [
+        "Anti-revolution—popular movement",
+        "Popular resistance—French Revolution",
+        "Conscription—evasion",
+        "Vendée and chouannerie",
+        "Insoumis",
+        "Deserters and rural banditry--social protest",
+        "Community autonomy versus restoration",
+        "Popular anti-revolution versus organized counter-revolution"
+      ],
+      "evidence": [
+        {
+          "document_page": 406,
+          "source_page_label": "406",
+          "locator_class": "principal",
+          "evidence_summary": "Regional rebellions, peasant and worker emigration, Terror victims, draft evasion, and rural crime indicate mass popular resistance."
+        },
+        {
+          "document_page": 407,
+          "source_page_label": "407",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The chapter characterizes anti-revolution as more broadly popular than the sansculotte movement."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S018"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S028",
+          "CHUNK-017-S076",
+          "CHUNK-017-S079",
+          "CHUNK-017-S080"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S019",
+      "label": "Sansculottes, moral economy, and popular tutelage",
+      "priority": "major",
+      "meaning": "Sansculottes defended a moral economy and popular democracy against elite economic liberalism and property-centered politics.",
+      "stance": "Relative to the founders’ market liberalism and property commitments,the sansculotte moral economy was itself anti-revolutionary. Governments used and then suppressed its pressure without durable gains. Its example both inspired and,through fear of violence,probably delayed acceptance of mass democracy.",
+      "acceptable_access": [
+        "Sansculottes—moral economy",
+        "Sansculottes—popular democracy",
+        "Popular movement—revolutionary politics"
+      ],
+      "evidence": [
+        {
+          "document_page": 407,
+          "source_page_label": "407",
+          "locator_class": "principal",
+          "evidence_summary": "Sansculotte moral economy and mistrust of wealth conflicted with deputies' property commitments, ending in repression after 1795."
+        },
+        {
+          "document_page": 418,
+          "source_page_label": "418",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Their claim to popular power horrified property holders and probably hindered, even as it exemplified, mass democracy."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_founders_property_priorities_with",
+          "target_local_subject_id": "SUCC-C017-S020",
+          "evidence_document_pages": [
+            407
+          ]
+        },
+        {
+          "type": "complicates_democratic_legacy_in",
+          "target_local_subject_id": "SUCC-C017-S031",
+          "evidence_document_pages": [
+            418
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S019"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S020",
+          "CHUNK-017-S029",
+          "CHUNK-017-S097"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S020",
+      "label": "Landowners, bourgeoisie, and the property settlement",
+      "priority": "essential",
+      "meaning": "Landowners and especially bourgeois purchasers gained from abolition of dues, national-land sales, civil-law protection, and political systems grounded in property.",
+      "stance": "The Revolution entrenched property as the chief social and political commodity while only modestly broadening small peasant ownership.",
+      "acceptable_access": [
+        "Property—French Revolution",
+        "National lands—beneficiaries",
+        "Bourgeoisie—revolutionary gains",
+        "Landowners—political power",
+        "Notables--property-based political nation",
+        "Bourgeois purchasers versus small peasant gains",
+        "National lands--Restoration acceptance and compensation"
+      ],
+      "evidence": [
+        {
+          "document_page": 407,
+          "source_page_label": "407",
+          "locator_class": "principal",
+          "evidence_summary": "Feudal and tithe burdens ended, property rights were codified, and effective political rights depended on ownership."
+        },
+        {
+          "document_page": 408,
+          "source_page_label": "408",
+          "locator_class": "principal",
+          "evidence_summary": "The bourgeoisie were the main beneficiaries of redistributed church and noble land, and Napoleon guaranteed the settlement."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "limits_economic_equality_in",
+          "target_local_subject_id": "SUCC-C017-S033",
+          "evidence_document_pages": [
+            407,
+            419
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S020"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S030",
+          "CHUNK-017-S039",
+          "CHUNK-017-S069",
+          "CHUNK-017-S077",
+          "CHUNK-017-S081"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S021",
+      "label": "Professions and the rise of bureaucracy",
+      "priority": "major",
+      "meaning": "Abolition of venality and corporations briefly deregulated professions, while wartime centralization created a much larger, career-based administrative apparatus.",
+      "stance": "Careers opened to bourgeois talent, but stable professional standards returned through a more bureaucratic Napoleonic state.",
+      "acceptable_access": [
+        "Professions—French Revolution",
+        "Bureaucracy—expansion",
+        "Administration—centralization",
+        "Careers open to talents",
+        "Venal-office compensation--undervalued assignats",
+        "Professional licensing--loss and restoration",
+        "Administrative pensions and career promotion",
+        "Elected localism--wartime reversal"
+      ],
+      "evidence": [
+        {
+          "document_page": 408,
+          "source_page_label": "408",
+          "locator_class": "principal",
+          "evidence_summary": "Professional monopolies and qualifications collapsed before Napoleonic licensing restored standards bureaucratically."
+        },
+        {
+          "document_page": 409,
+          "source_page_label": "409",
+          "locator_class": "principal",
+          "evidence_summary": "Central administration and the wider official class expanded dramatically and gained durable career structures."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "expands_state_power_described_in",
+          "target_local_subject_id": "SUCC-C017-S017",
+          "evidence_document_pages": [
+            408,
+            409
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S021"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S031",
+          "CHUNK-017-S032",
+          "CHUNK-017-S039",
+          "CHUNK-017-S070",
+          "CHUNK-017-S082"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S022",
+      "label": "Soldiers, military careers, and the militarized state",
+      "priority": "major",
+      "meaning": "The Revolution ended aristocratic control of the officer corps, promoted soldiers from the ranks, expanded military careers, and elevated armies in politics and hierarchy.",
+      "stance": "Military service offered exceptional mobility, glory, and rewards while imposing immense mortality and remaining far from universally attractive.",
+      "acceptable_access": [
+        "Army—careers open to talent",
+        "Soldiers—beneficiaries of the Revolution",
+        "Military influence—state and politics",
+        "Armies--guardians of revolutionary politics",
+        "Military plunder and hierarchy",
+        "Military casualties--limits of opportunity"
+      ],
+      "evidence": [
+        {
+          "document_page": 409,
+          "source_page_label": "409",
+          "locator_class": "principal",
+          "evidence_summary": "Promotion from the ranks, army expansion, political intervention, plunder, hierarchy, and mass death defined soldiers' mixed gains."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "combines_opportunity_with_human_cost_in",
+          "target_local_subject_id": "SUCC-C017-S039",
+          "evidence_document_pages": [
+            409,
+            425
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S022"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S033",
+          "CHUNK-017-S039",
+          "CHUNK-017-S067",
+          "CHUNK-017-S083",
+          "CHUNK-017-S084"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S023",
+      "label": "Protestant emancipation and religious equality",
+      "priority": "major",
+      "meaning": "The Revolution established Protestant civil and religious equality despite dechristianization, regional conflict, and later Catholic reprisals.",
+      "stance": "The settlement was incomplete and disruptive, but pre-revolutionary Catholic legal dominance could not be restored.",
+      "acceptable_access": [
+        "Protestants—emancipation",
+        "Religious equality—Protestants",
+        "Calvinism—Revolutionary France",
+        "Gard and Cévennes--confessional conflict",
+        "White Terror of1815--Protestants",
+        "Protestant church democracy--state restructuring"
+      ],
+      "evidence": [
+        {
+          "document_page": 410,
+          "source_page_label": "410",
+          "locator_class": "principal",
+          "evidence_summary": "Protestants gained equal civil rights and worship, suffered revolutionary persecution, and secured durable legal equality under Bonaparte."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "compared_with_emancipation_of",
+          "target_local_subject_id": "SUCC-C017-S024",
+          "evidence_document_pages": [
+            410,
+            411
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S023"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S034",
+          "CHUNK-017-S085"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S024",
+      "label": "Jewish emancipation and citizenship",
+      "priority": "major",
+      "meaning": "French Jews gained full citizenship after delay and resistance, followed by continued prejudice and greater state supervision.",
+      "stance": "Emancipation was neither immediate nor socially complete, but it permanently ended the older marginal legal status.",
+      "acceptable_access": [
+        "Jews—emancipation in France",
+        "Jewish citizenship—French Revolution",
+        "Religious equality—Jews",
+        "Alsatian Jews--national belonging and assimilation",
+        "Jewish immigration--persistent prejudice",
+        "Napoleonic regulation--Jewish communities"
+      ],
+      "evidence": [
+        {
+          "document_page": 410,
+          "source_page_label": "410",
+          "locator_class": "supporting",
+          "evidence_summary": "Earlier reforms and debate framed Jewish claims as a possible extension of Protestant emancipation."
+        },
+        {
+          "document_page": 411,
+          "source_page_label": "411",
+          "locator_class": "principal",
+          "evidence_summary": "Full citizenship arrived in September 1791 despite opposition; persecution and prejudice persisted without restoring legal marginality."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S024"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S035"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S025",
+      "label": "Colonial slave revolt and wartime abolition,1791–1794",
+      "priority": "essential",
+      "meaning": "Saint-Domingue’s mass slave uprising changed the military and racial conflict. Commissioners initially defended slavery,but Sonthonax offered freedom to black defenders and then proclaimed local emancipation under pressure of white rebellion and foreign invasion. The Convention subsequently declared abolition and colonial citizenship throughout French colonies.",
+      "stance": "Distinguish free people of colour’s rights from emancipation of enslaved people. Abolition was belated and driven by colonial action and war,not merely metropolitan principle. The source’s legal declaration was broad; later restoration elsewhere and failure to restore slavery in Saint-Domingue are separately traced.",
+      "acceptable_access": [
+        "Slavery--abolition,1793–1794",
+        "Saint-Domingue--slave uprising of1791",
+        "Sonthonax--wartime emancipation",
+        "Convention--abolition decree of4February1794",
+        "Colonial citizenship--emancipation"
+      ],
+      "evidence": [
+        {
+          "document_page": 411,
+          "source_page_label": "411",
+          "locator_class": "principal",
+          "evidence_summary": "Metropolitan abolitionism was weak, but political conflict over representation and free-coloured rights destabilized Saint-Domingue."
+        },
+        {
+          "document_page": 412,
+          "source_page_label": "412",
+          "locator_class": "principal",
+          "evidence_summary": "The1791 uprising forced racial policy; Sonthonax’s unauthorized local emancipation followed black military support and invasion. The Convention’s decree then abolished slavery in all French colonies and proclaimed citizenship."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "enables_black_military_power_in",
+          "target_local_subject_id": "SUCC-C017-S044",
+          "evidence_document_pages": [
+            412,
+            413
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S025"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S036",
+          "CHUNK-017-S037",
+          "CHUNK-017-S087",
+          "CHUNK-017-S088",
+          "CHUNK-017-S090"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S026",
+      "label": "Latin American independence and revolutionary language",
+      "priority": "optional",
+      "meaning": "French invasion accelerated Spanish American independence, whose founders adopted revolutionary declarations, constitutions, tricolours, and ideas of national freedom.",
+      "stance": "Latin American independence was precipitated by Napoleon rather than directly by the Revolution, but its political language drew heavily on the revolutionary inheritance.",
+      "acceptable_access": [
+        "Latin America—French Revolutionary influence",
+        "Independence movements—revolutionary language",
+        "Miranda, Francisco"
+      ],
+      "evidence": [
+        {
+          "document_page": 413,
+          "source_page_label": "413",
+          "locator_class": "principal",
+          "evidence_summary": "Napoleonic intervention helped trigger independence while revolutionary symbols and rights language informed its leaders."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S026"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S040"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S027",
+      "label": "Revolutionary and Napoleonic restructuring of European states",
+      "priority": "major",
+      "meaning": "French power destroyed city-republics, secularized German states, transformed the Netherlands and Switzerland, and helped end older Polish, Irish, and imperial arrangements.",
+      "stance": "Many territorial and constitutional changes outlasted French domination, but France surrendered most direct gains after 1815.",
+      "acceptable_access": [
+        "Europe—territorial effects of the French Revolution",
+        "Holy Roman Empire—dissolution",
+        "German secularization",
+        "Revolutionary Wars—state restructuring",
+        "Holy Roman Empire--secularization and dissolution",
+        "City republics--destruction",
+        "Ireland--loss of legislative independence",
+        "Natural frontiers--French territorial reversals after1815"
+      ],
+      "evidence": [
+        {
+          "document_page": 413,
+          "source_page_label": "413",
+          "locator_class": "supporting",
+          "evidence_summary": "The chapter introduces the scarcely recognizable European state landscape created by revolutionary influence."
+        },
+        {
+          "document_page": 414,
+          "source_page_label": "414",
+          "locator_class": "principal",
+          "evidence_summary": "City-republics, Germany, the Netherlands, Switzerland, Poland, and Ireland underwent durable territorial or constitutional change."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_durable_institutional_change_with_losses_to",
+          "target_local_subject_id": "SUCC-C017-S028",
+          "evidence_document_pages": [
+            414,
+            415
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S027"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S041",
+          "CHUNK-017-S042",
+          "CHUNK-017-S091",
+          "CHUNK-017-S092"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S028",
+      "label": "British ascendancy and the widening economic gap with France",
+      "priority": "major",
+      "meaning": "Britain used sea power and war to appropriate markets and assets lost by France and its allies, consolidating nineteenth-century global predominance.",
+      "stance": "British economic superiority was already emerging, but the Revolution widened the gap irrecoverably and made France's enemies major long-term beneficiaries.",
+      "acceptable_access": [
+        "Great Britain—effects of the Revolutionary Wars",
+        "British economic ascendancy",
+        "France—economic rivalry with Britain",
+        "British subsidies and Iberian intervention",
+        "Britain--pre-existing economic lead"
+      ],
+      "evidence": [
+        {
+          "document_page": 414,
+          "source_page_label": "414",
+          "locator_class": "supporting",
+          "evidence_summary": "Austria, Prussia, Britain, and other enemies retained gains while France lost most revolutionary conquests."
+        },
+        {
+          "document_page": 415,
+          "source_page_label": "415",
+          "locator_class": "principal",
+          "evidence_summary": "British naval and commercial power absorbed markets and resources, widening an existing lead over France."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S028"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S042",
+          "CHUNK-017-S043"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S029",
+      "label": "Mass warfare, conscription, and expanded European states",
+      "priority": "essential",
+      "meaning": "Revolutionary mobilization turned war into an affair of nations and compelled rival governments to enlarge armies, taxation, policing, finance, and coercive capacity.",
+      "stance": "National mobilization forced rival states to enlarge coercion,finance and recruitment. Resistance persisted across Europe,but fear of France often legitimized burdens abroad more than within France. Clausewitz supplies a theory of removed limits; this is not a claim that every state instantly developed identical institutions.",
+      "acceptable_access": [
+        "Mass warfare—French Revolutionary origins",
+        "Conscription—European spread",
+        "State power—wartime expansion",
+        "Nation in arms",
+        "Clausewitz--nation in arms",
+        "Landwehr and Landsturm",
+        "Militia and press gangs",
+        "Income tax--wartime expansion",
+        "Police,spies and informers",
+        "Paper finance--European wars"
+      ],
+      "evidence": [
+        {
+          "document_page": 415,
+          "source_page_label": "415",
+          "locator_class": "principal",
+          "evidence_summary": "France mobilized national resources on a scale that forced other monarchies into mass warfare."
+        },
+        {
+          "document_page": 416,
+          "source_page_label": "416",
+          "locator_class": "principal",
+          "evidence_summary": "Conscription, militias, police, spies, taxation, and paper money expanded across states fighting France."
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Arming the people and the emergencies of war revolutionized both the Revolution and the established European pattern of warfare."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "generates_rival_nationalisms_in",
+          "target_local_subject_id": "SUCC-C017-S030",
+          "evidence_document_pages": [
+            415,
+            416,
+            417
+          ]
+        },
+        {
+          "type": "contributes_to_human_cost_in",
+          "target_local_subject_id": "SUCC-C017-S039",
+          "evidence_document_pages": [
+            424,
+            425
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S029"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S044",
+          "CHUNK-017-S045",
+          "CHUNK-017-S063",
+          "CHUNK-017-S064",
+          "CHUNK-017-S093",
+          "CHUNK-017-S094",
+          "CHUNK-017-S095"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S030",
+      "label": "Nationalism and national sovereignty",
+      "priority": "essential",
+      "meaning": "French expansion spread the doctrine of national sovereignty while provoking stronger counter-nationalisms, especially in Italy and among states resisting occupation.",
+      "stance": "Revolutionary nationalism was both emancipatory and imperial; it taught subject peoples to mobilize against France in the same national terms.",
+      "acceptable_access": [
+        "Nationalism—French Revolutionary impact",
+        "National sovereignty",
+        "Italy—rise of national sentiment",
+        "Wars of peoples"
+      ],
+      "evidence": [
+        {
+          "document_page": 416,
+          "source_page_label": "416",
+          "locator_class": "principal",
+          "evidence_summary": "French occupation and nation-in-arms mobilization caused neighbours to answer with their own claims of sovereignty."
+        },
+        {
+          "document_page": 417,
+          "source_page_label": "417",
+          "locator_class": "principal",
+          "evidence_summary": "Italian nationalism and mass volunteering illustrate how nationalism resisted nationalism and produced future wars of peoples."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "draws_on_and_contests_French_claims_of",
+          "target_local_subject_id": "SUCC-C017-S031",
+          "evidence_document_pages": [
+            416,
+            417
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S030"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S046",
+          "CHUNK-017-S096"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S031",
+      "label": "Popular sovereignty, democracy, and political legitimacy",
+      "priority": "essential",
+      "meaning": "The Revolution established the people as the ultimate source of sovereignty and made some display of popular consent increasingly necessary for political legitimacy.",
+      "stance": "Democratic practice remained contested and often manipulated; sansculotte pressure frightened elites, yet hereditary prescription never fully recovered its old authority.",
+      "acceptable_access": [
+        "Popular sovereignty—French Revolution",
+        "Democracy—revolutionary legacy",
+        "Political legitimacy—popular consent",
+        "Plebiscites--token popular endorsement",
+        "Hereditary legitimacy--decline",
+        "Direct democracy--violent reputation",
+        "Rights of Man--popular sovereignty"
+      ],
+      "evidence": [
+        {
+          "document_page": 417,
+          "source_page_label": "417",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter presents popular sovereignty as the Revolution's globally victorious political message."
+        },
+        {
+          "document_page": 418,
+          "source_page_label": "418",
+          "locator_class": "principal",
+          "evidence_summary": "Tumultuous democracy alarmed elites but made elections, plebiscites, or other tokens of consent increasingly unavoidable."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S031"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S039",
+          "CHUNK-017-S047",
+          "CHUNK-017-S048",
+          "CHUNK-017-S063",
+          "CHUNK-017-S097",
+          "CHUNK-017-S098",
+          "CHUNK-017-S104"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S032",
+      "label": "Liberty: ideals, symbols, and contradictions",
+      "priority": "essential",
+      "meaning": "Liberty encompassed freedom from arbitrary rule and freedoms of action, thought, writing, and worship, expressed through a durable revolutionary iconography.",
+      "stance": "Revolutionary regimes repeatedly restricted liberty and exported it as French domination, but continued allegiance to the ideal made it central to later revolutionary belief.",
+      "acceptable_access": [
+        "Liberty—French Revolutionary ideal",
+        "Rights of Man—liberty",
+        "Revolutionary symbolism—liberty",
+        "Liberty trees",
+        "Phrygian caps and Roman symbols",
+        "Liberty,Equality,Fraternity--uneven chronology"
+      ],
+      "evidence": [
+        {
+          "document_page": 418,
+          "source_page_label": "418",
+          "locator_class": "principal",
+          "evidence_summary": "Liberty trees and classical symbols accompanied competing definitions, including coercive and imperial distortions."
+        },
+        {
+          "document_page": 419,
+          "source_page_label": "419",
+          "locator_class": "principal",
+          "evidence_summary": "Freedom from arbitrary rule and freedoms of thought,writing and worship endured as ideals. The later three-part motto compresses different trajectories: fraternity appeared later and largely faded with sansculotte influence."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "paired_with_but_distinct_from",
+          "target_local_subject_id": "SUCC-C017-S033",
+          "evidence_document_pages": [
+            418,
+            419
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S032"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S047",
+          "CHUNK-017-S049",
+          "CHUNK-017-S099",
+          "CHUNK-017-S100"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S033",
+      "label": "Equality: abolition of privilege and property-based limits",
+      "priority": "essential",
+      "meaning": "Revolutionary equality abolished legal privilege and promoted equal rights and careers open to talent, but rejected economic equality and retained property-based political power.",
+      "stance": "Its practical egalitarianism was transformative yet narrow, stopping well short of equality of fortune, broad democratic power, or equality between the sexes.",
+      "acceptable_access": [
+        "Equality—French Revolutionary ideal",
+        "Rights of Man—equality",
+        "Property qualifications",
+        "Careers open to talents",
+        "Property--natural and imprescriptible right",
+        "Agrarian law--criminalized redistribution",
+        "Civil equality versus equality of fortunes",
+        "Fraternity--late and short-lived revolutionary use"
+      ],
+      "evidence": [
+        {
+          "document_page": 419,
+          "source_page_label": "419",
+          "locator_class": "principal",
+          "evidence_summary": "Equality ended privilege in principle while property remained inviolable and effective political power stayed with substantial owners."
+        },
+        {
+          "document_page": 421,
+          "source_page_label": "421",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The chapter explicitly judges revolutionary egalitarianism narrow despite its radical language."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S033"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S047",
+          "CHUNK-017-S050",
+          "CHUNK-017-S081",
+          "CHUNK-017-S100",
+          "CHUNK-017-S101"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S034",
+      "label": "Women: political participation and exclusion from equal rights",
+      "priority": "essential",
+      "meaning": "Women played decisive roles in journées, religious resistance, salons, clubs, and political writing but were excluded from citizenship and confined ideologically to domestic roles.",
+      "stance": "Women acted in popular journées,religious resistance,salons,clubs and rights advocacy,with divergent aims. Male authorities used ideas of female disorder and domestic duty to deny political equality; Bonaparte’s Code further restricted property rights. Do not equate every woman with every political camp or claim that de Gouges was executed simply for demanding women’s rights.",
+      "acceptable_access": [
+        "Women—French Revolution",
+        "Women's political clubs",
+        "Women's rights—revolutionary exclusion",
+        "Olympe de Gouges",
+        "Women--religious resistance and Catholic revival",
+        "Olympe de Gouges--equal political citizenship",
+        "Claire Lacombe",
+        "Théroigne de Méricourt",
+        "Revolutionary Republican Women",
+        "Women’s organizations--Convention ban",
+        "Civil Code--women’s property restrictions"
+      ],
+      "evidence": [
+        {
+          "document_page": 419,
+          "source_page_label": "419",
+          "locator_class": "supporting",
+          "evidence_summary": "The equality discussion identifies sex equality as largely dismissed despite women's unprecedented public role."
+        },
+        {
+          "document_page": 420,
+          "source_page_label": "420",
+          "locator_class": "principal",
+          "evidence_summary": "Women intervened in popular action, religion, elite politics, clubs, and rights advocacy before organizations were banned."
+        },
+        {
+          "document_page": 421,
+          "source_page_label": "421",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Contemporary prescriptions confined women to sex-specific domestic duties rather than political rights."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "exposes_limits_of",
+          "target_local_subject_id": "SUCC-C017-S033",
+          "evidence_document_pages": [
+            419,
+            420,
+            421
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S034"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S039",
+          "CHUNK-017-S051",
+          "CHUNK-017-S052",
+          "CHUNK-017-S053",
+          "CHUNK-017-S102",
+          "CHUNK-017-S103"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S035",
+      "label": "Right of resistance, Babeuf, and the modern idea of revolution",
+      "priority": "essential",
+      "meaning": "Declarations of a right to resist oppression legitimized insurrection, while Babeuf and later self-conscious revolutionaries made planned social revolution a reproducible political project.",
+      "stance": "The Revolution created both the modern revolutionary and a model of techniques, language, inspiration, and caution for later movements.",
+      "acceptable_access": [
+        "Revolution—modern political concept",
+        "Resistance to oppression",
+        "Babeuf—Conspiracy of Equals",
+        "Revolutionaries—French model",
+        "Babeuf--material equality versus propertied rights",
+        "10August1792--right of resistance",
+        "Professional revolutionary--modern political identity"
+      ],
+      "evidence": [
+        {
+          "document_page": 421,
+          "source_page_label": "421",
+          "locator_class": "principal",
+          "evidence_summary": "Babeuf pursued radical equality, and revolutionary declarations made insurrection a sacred right against oppressive government."
+        },
+        {
+          "document_page": 422,
+          "source_page_label": "422",
+          "locator_class": "principal",
+          "evidence_summary": "Later movements consciously copied revolutionary plans, symbols, commemorations, and historical lessons."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "challenges_property_limits_in",
+          "target_local_subject_id": "SUCC-C017-S033",
+          "evidence_document_pages": [
+            421
+          ]
+        },
+        {
+          "type": "supplies_model_for",
+          "target_local_subject_id": "SUCC-C017-S036",
+          "evidence_document_pages": [
+            421,
+            422
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S035"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S047",
+          "CHUNK-017-S054",
+          "CHUNK-017-S055",
+          "CHUNK-017-S056",
+          "CHUNK-017-S104"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S036",
+      "label": "Revolutionary political vocabulary, Marxism, Left and Right",
+      "priority": "major",
+      "meaning": "The Revolution supplied later movements with symbols and historical theory and permanently established the political categories of Left and Right.",
+      "stance": "Socialists and Marxists appropriated much revolutionary heritage, enabled partly by the Right's wholesale rejection of it.",
+      "acceptable_access": [
+        "Left and Right—origins",
+        "Marxism—French Revolutionary influence",
+        "Political vocabulary—French Revolution",
+        "Marseillaise and tricolour--later revolutionary adoption",
+        "Marx,Lenin and Trotsky--French revolutionary model"
+      ],
+      "evidence": [
+        {
+          "document_page": 422,
+          "source_page_label": "422",
+          "locator_class": "principal",
+          "evidence_summary": "Marx, Lenin, and Trotsky studied the 1790s, while assembly seating generated the enduring categories of Left and Right."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S036"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S056",
+          "CHUNK-017-S057"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S037",
+      "label": "Birth of modern conservatism and counter-revolutionary ideology",
+      "priority": "major",
+      "meaning": "The revolutionary assault on property, hierarchy, religion, and monarchy generated a self-conscious conservative theory and a transnational politics of order.",
+      "stance": "Intransigent restorationism often provoked the revolutions it sought to prevent, while moderate conservatives turned toward reform as prevention.",
+      "acceptable_access": [
+        "Conservatism—origins in the French Revolution",
+        "Counter-revolutionary thought",
+        "Maistre, Joseph de",
+        "Right-wing politics",
+        "Burke",
+        "Gentz",
+        "Maistre,Joseph de--Considerations on France",
+        "Moderate conservatism--reform to prevent revolution",
+        "Throne,altar,and property"
+      ],
+      "evidence": [
+        {
+          "document_page": 422,
+          "source_page_label": "422",
+          "locator_class": "principal",
+          "evidence_summary": "Burke, Gentz, and Maistre formulated defenses of throne, altar, property, and hierarchy against revolutionary ideology."
+        },
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Repressive intransigence spread across frontiers but drove blocked reformers toward renewed revolution; moderates favored reform instead."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "arises_in_reaction_to",
+          "target_local_subject_id": "SUCC-C017-S035",
+          "evidence_document_pages": [
+            422,
+            423
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S037"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S058",
+          "CHUNK-017-S059",
+          "CHUNK-017-S060"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S038",
+      "label": "Counterfactual continuity: acceleration and retardation of existing trends",
+      "priority": "major",
+      "meaning": "Many social, economic, administrative, religious, and international developments attributed to the Revolution were already underway and may have occurred without it.",
+      "stance": "The Revolution often accelerated or retarded existing trends rather than redirecting them, but this qualification does not explain its distinctive ideological, religious, military, and cultural effects.",
+      "acceptable_access": [
+        "French Revolution—counterfactual assessment",
+        "Continuity and change",
+        "Long-term effects—qualification",
+        "Counterfactual causation--pre-existing trends",
+        "Distinctive revolutionary contingency versus continuity"
+      ],
+      "evidence": [
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "principal",
+          "evidence_summary": "Elite convergence, property politics, legal and fiscal reform, religious toleration, and stronger government all had pre-1789 precedents."
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "principal",
+          "evidence_summary": "Economic and international trends largely retained their direction, whereas revolutionary ideology, dechristianization, democracy, mass war, and Terror were harder to imagine without 1789."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "qualifies_causal_claims_in",
+          "target_local_subject_id": "SUCC-C017-S039",
+          "evidence_document_pages": [
+            423,
+            424
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S038"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S062",
+          "CHUNK-017-S063"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S039",
+      "label": "The French Revolution as modern archetype and cultural tragedy",
+      "priority": "essential",
+      "meaning": "The Revolution became a model of deliberate political transformation and altered political culture,memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction,mass death,and ruined lives in France and abroad.",
+      "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates,not an independent verified demographic calculation,and the argument does not reduce the Revolution to either triumph or failure.",
+      "acceptable_access": [
+        "French Revolution—historical significance",
+        "French Revolution—cultural transformation",
+        "French Revolution—tragedy",
+        "Modern revolution—archetype",
+        "Human cost--Revolution and Napoleonic aftermath",
+        "French and foreign deaths",
+        "Ruined lives--beyond mortality counts",
+        "Enlightenment reason--limits and unintended consequences"
+      ],
+      "evidence": [
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter calls it the first modern and archetypal revolution whose influence made the post-1789 European world fundamentally different."
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "supporting",
+          "evidence_summary": "Distinctive ideology, popular democracy, mass war, and Terror transformed the meaning of political change."
+        },
+        {
+          "document_page": 425,
+          "source_page_label": "425",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The conclusion estimates about a million French deaths by1802,another million under Napoleon and further deaths abroad,alongside uncounted ruined lives. These costs qualify the founders’ courage and idealism within a deliberately tragic cultural assessment."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S039"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S061",
+          "CHUNK-017-S064",
+          "CHUNK-017-S065",
+          "CHUNK-017-S084",
+          "CHUNK-017-S105"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S040",
+      "label": "Fanny Burney and British tourist impressions",
+      "priority": "exclude_by_default",
+      "meaning": "Burney's surprise at ordinary French people and other tourist observations introduce the chapter's postwar scene.",
+      "stance": "The named testimony is illustrative scene-setting rather than a sustained treatment of Burney or tourism as independent subjects.",
+      "acceptable_access": [],
+      "evidence": [
+        {
+          "document_page": 391,
+          "source_page_label": "391",
+          "locator_class": "incidental",
+          "evidence_summary": "Burney's brief reaction illustrates the contrast between British wartime demonology and conditions observed in Calais."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S040"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S041",
+      "label": "Individual quoted witnesses to noble and clerical trauma",
+      "priority": "exclude_by_default",
+      "meaning": "The Marquise de Falaiseau, Count de Villèle, and Cardinal Antonelli provide vivid testimony within broader analyses of noble and clerical experience.",
+      "stance": "Their quotations support larger subjects but do not create separate required access points by themselves.",
+      "acceptable_access": [],
+      "evidence": [
+        {
+          "document_page": 396,
+          "source_page_label": "396",
+          "locator_class": "incidental",
+          "evidence_summary": "Falaiseau and Villèle are quoted as witnesses to exile and the loss of social subordination."
+        },
+        {
+          "document_page": 398,
+          "source_page_label": "398",
+          "locator_class": "incidental",
+          "evidence_summary": "Antonelli's reaction dramatizes clerical trauma before his vote for the Concordat."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S041"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S042",
+      "label": "Local statistical examples of economic disruption",
+      "priority": "exclude_by_default",
+      "meaning": "Bayeux, Lyons, Rouen, Marseilles, Bordeaux, and Nantes supply local employment, population, and industry examples for national economic arguments.",
+      "stance": "These places are evidentiary examples here; separate access is not required unless synthesis establishes broader place treatments elsewhere.",
+      "acceptable_access": [],
+      "evidence": [
+        {
+          "document_page": 402,
+          "source_page_label": "402",
+          "locator_class": "incidental",
+          "evidence_summary": "Bayeux and Lyons quantify lost elite employment and luxury production."
+        },
+        {
+          "document_page": 404,
+          "source_page_label": "404",
+          "locator_class": "incidental",
+          "evidence_summary": "Port-city population changes and Rouen's cotton recovery illustrate divergent effects of war and trade reorientation."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S042"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S043",
+      "label": "Free people of colour and the first steps toward racial equality",
+      "priority": "major",
+      "meaning": "Conflict over representation, the execution of Vincent Oge, and armed struggle forced successive French assemblies to recognize civil rights first for some and then all free people of colour.",
+      "stance": "Metropolitan civil rights advanced under colonial conflict and violence: initially limited by free parentage,then extended to all free people of colour. These measures did not themselves abolish slavery and must retain separate access from the1793–1794 emancipation sequence.",
+      "acceptable_access": [
+        "free people of colour",
+        "Vincent Oge",
+        "racial equality",
+        "colonial civil rights",
+        "Ogé,Vincent",
+        "Free people of colour--parentage qualification",
+        "Colonial representation--racial citizenship"
+      ],
+      "relationships": [
+        {
+          "type": "precedes_but_does_not_equal",
+          "target_local_subject_id": "SUCC-C017-S025",
+          "evidence_document_pages": [
+            411,
+            412
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 411,
+          "source_page_label": "411",
+          "locator_class": "principal",
+          "evidence_summary": "Debate over colonial representation and brutal suppression of free-coloured claims made racial citizenship a metropolitan issue."
+        },
+        {
+          "document_page": 412,
+          "source_page_label": "412",
+          "locator_class": "principal",
+          "evidence_summary": "Assemblies expanded rights from a limited parentage qualification to all free people of colour as colonial conflict worsened."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S025"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S036",
+          "CHUNK-017-S086"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C017-S044",
+      "label": "Toussaint L'Ouverture, restored slavery, and Haitian independence",
+      "priority": "essential",
+      "meaning": "Black forces and Toussaint’s shifting alliances defeated foreign intervention and created autonomy beyond French control,without ending racial conflict. Bonaparte’s reconquest captured Toussaint,but disease,renewed black resistance after news of slavery’s restoration,and renewed Anglo-French war defeated French control. Haiti declared independence in1804.",
+      "stance": "Slavery was restored in other French colonies but never re-established in Saint-Domingue. Toussaint remained formally loyal to France while beyond its control; black military ascendancy did not ensure racial harmony. The author calls Haiti the only independent state directly created by the French Revolution,distinguishing later Latin American independence precipitated by Napoleon.",
+      "acceptable_access": [
+        "Toussaint L'Ouverture",
+        "Haitian Revolution",
+        "Haiti independence",
+        "restoration of slavery",
+        "Saint-Domingue",
+        "Haiti--independence",
+        "Leclerc expedition",
+        "Toussaint--capture and death",
+        "Black military power--conflict with free coloureds",
+        "Slavery--restoration elsewhere and failure in Saint-Domingue",
+        "Dessalines--post-independence violence"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_direct_independence_with",
+          "target_local_subject_id": "SUCC-C017-S026",
+          "evidence_document_pages": [
+            413
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 412,
+          "source_page_label": "412",
+          "locator_class": "principal",
+          "evidence_summary": "Toussaint's switch to the Republic and the mobilization of formerly enslaved troops defeated Spanish forces and entrenched black military authority."
+        },
+        {
+          "document_page": 413,
+          "source_page_label": "413",
+          "locator_class": "principal",
+          "evidence_summary": "Toussaint’s autonomy gave way to capture,but disease and renewed resistance defeated reconquest. News of the1802 restoration of slavery changed black commanders’ loyalties; slavery remained unrestored in Saint-Domingue,which declared Haiti’s independence."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH17-S025"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-017-S038",
+          "CHUNK-017-S039",
+          "CHUNK-017-S087",
+          "CHUNK-017-S089",
+          "CHUNK-017-S090"
+        ],
+        "review": "All35ownedpages and both complete local semantic sets reviewed; whole-book identities and dependency review separately queued."
+      }
+    }
+  ],
+  "reader_tasks": [
+    {
+      "task_id": "SUCC-C017-T001",
+      "question": "How did the1790s outcomes diverge from Enlightenment hopes of regeneration?",
+      "subject_ids": [
+        "SUCC-C017-S002",
+        "SUCC-C017-S003",
+        "SUCC-C017-S004",
+        "SUCC-C017-S039"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T002",
+      "question": "Why were noble material losses less complete than their political and psychological displacement?",
+      "subject_ids": [
+        "SUCC-C017-S005"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T003",
+      "question": "How did Church destruction strengthen papal authority while leaving lasting religious polarization?",
+      "subject_ids": [
+        "SUCC-C017-S007",
+        "SUCC-C017-S008"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T004",
+      "question": "Why did declarations of educational and welfare rights fail to replace dismantled institutions?",
+      "subject_ids": [
+        "SUCC-C017-S009",
+        "SUCC-C017-S010"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T005",
+      "question": "How did inflation,war and lost elite demand combine into economic setback?",
+      "subject_ids": [
+        "SUCC-C017-S011",
+        "SUCC-C017-S012",
+        "SUCC-C017-S013",
+        "SUCC-C017-S014"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T006",
+      "question": "Why did rationalizing reforms fail to generate immediate entrepreneurial or agricultural transformation?",
+      "subject_ids": [
+        "SUCC-C017-S015",
+        "SUCC-C017-S016"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T007",
+      "question": "How did ordinary people’s material experience differ from property owners’ gains?",
+      "subject_ids": [
+        "SUCC-C017-S017",
+        "SUCC-C017-S018",
+        "SUCC-C017-S019",
+        "SUCC-C017-S020"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T008",
+      "question": "How did professional and military opportunity coexist with enlarged coercive power and mortality?",
+      "subject_ids": [
+        "SUCC-C017-S021",
+        "SUCC-C017-S022",
+        "SUCC-C017-S029",
+        "SUCC-C017-S039"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T009",
+      "question": "How did religious emancipation change legal status without eliminating prejudice or conflict?",
+      "subject_ids": [
+        "SUCC-C017-S023",
+        "SUCC-C017-S024"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T010",
+      "question": "How did free-coloured rights differ from slave emancipation,and what forced each change?",
+      "subject_ids": [
+        "SUCC-C017-S043",
+        "SUCC-C017-S025"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T011",
+      "question": "Why did black military power prevent restoration of slavery in Saint-Domingue while France restored it elsewhere?",
+      "subject_ids": [
+        "SUCC-C017-S044",
+        "SUCC-C017-S025"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T012",
+      "question": "How did European transformation coexist with French territorial loss and British advantage?",
+      "subject_ids": [
+        "SUCC-C017-S027",
+        "SUCC-C017-S028"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T013",
+      "question": "How did mass war spread nationalism and state intrusion across Europe?",
+      "subject_ids": [
+        "SUCC-C017-S029",
+        "SUCC-C017-S030"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T014",
+      "question": "Why did popular sovereignty become durable even under manipulated endorsement?",
+      "subject_ids": [
+        "SUCC-C017-S031"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T015",
+      "question": "How did liberty and equality remain compelling despite their practical limits?",
+      "subject_ids": [
+        "SUCC-C017-S032",
+        "SUCC-C017-S033"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T016",
+      "question": "How did women’s varied political and religious agency coexist with deliberate exclusion from equal rights?",
+      "subject_ids": [
+        "SUCC-C017-S034"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T017",
+      "question": "How did the right of resistance generate both revolutionary models and conservative responses?",
+      "subject_ids": [
+        "SUCC-C017-S035",
+        "SUCC-C017-S036",
+        "SUCC-C017-S037"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T018",
+      "question": "Which changes continued older trends,and which does the author regard as specifically revolutionary?",
+      "subject_ids": [
+        "SUCC-C017-S038",
+        "SUCC-C017-S039",
+        "SUCC-C017-S004",
+        "SUCC-C017-S008",
+        "SUCC-C017-S029"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    },
+    {
+      "task_id": "SUCC-C017-T019",
+      "question": "How do human costs shape the concluding judgment of the Revolution as tragedy?",
+      "subject_ids": [
+        "SUCC-C017-S039",
+        "SUCC-C017-S022"
+      ],
+      "source_basis": "Complete retrospective chapter review; specific comparisons and qualified interpretations."
+    }
+  ],
+  "exclusions": [
+    {
+      "exclusion_id": "SUCC-CH17-X001",
+      "category": "running_furniture",
+      "description": "Running chapter titles and printed page numbers on document pages 391–425 are nonindexable navigation furniture.",
+      "document_pages": [
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425
+      ]
+    },
+    {
+      "exclusion_id": "SUCC-CH17-X002",
+      "category": "citation_or_attribution_only",
+      "description": "Brief named travelers and quoted witnesses are excluded as standalone required subjects where they only illustrate a broader analytical treatment.",
+      "document_pages": [
+        391,
+        392,
+        396,
+        397,
+        398,
+        403,
+        406
+      ]
+    },
+    {
+      "exclusion_id": "SUCC-CH17-X003",
+      "category": "incidental_named_entity",
+      "description": "Local places used only for a single statistic or example are not independently required subjects in this chapter-level discovery.",
+      "document_pages": [
+        402,
+        404
+      ]
+    },
+    {
+      "exclusion_id": "SUCC-CH17-X004",
+      "category": "context_only",
+      "description": "Adjacent chapter pages389–390 belong to CHUNK-016; they are not duplicate CHUNK-017 evidence. The principal reviewed them fully under their owner.",
+      "document_pages": [
+        389,
+        390
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "SUCC-C017-U001",
+      "category": "causal_scope",
+      "description": "The counterfactual argument distinguishes continuity or altered timing from distinctive ideological,religious,military and cultural transformations. Preserve both sides.",
+      "affected_document_pages": [
+        423,
+        424,
+        425
+      ]
+    },
+    {
+      "uncertainty_id": "SUCC-C017-U002",
+      "category": "aggregate_estimates",
+      "description": "Closing human-cost figures are authorial aggregate estimates spanning revolutionary and Napoleonic periods; distinguish them from independently verified demographic totals.",
+      "affected_document_pages": [
+        409,
+        425
+      ]
+    },
+    {
+      "uncertainty_id": "SUCC-C017-U003",
+      "category": "cross_chapter_integration",
+      "description": "Separate civil rights for free people of colour,abolition,and Saint-Domingue autonomy/reconquest preserve different populations and outcomes. Global consolidation with earlier colonial requirements remains queued.",
+      "affected_document_pages": [
+        411,
+        412,
+        413
+      ]
+    }
+  ],
+  "provenance": {
+    "reviewer": "source_comparison",
+    "candidate_unseen_in_this_context": true,
+    "historical_discovery_reused": true,
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "actual_work": "All35pages,42native and105legacy local semantic/evidence/access/relationship records plus exclusions/uncertainties reviewed. Global final-freeze identity and dependency reconciliation remains separately queued."
+  },
+  "discovery_assessment": {
+    "whole_source_omission_pass_complete_for_owned_pages": true,
+    "density_used_as_subject_quota": false,
+    "independent_review_status": "pending_actual_draft"
+  }
+}

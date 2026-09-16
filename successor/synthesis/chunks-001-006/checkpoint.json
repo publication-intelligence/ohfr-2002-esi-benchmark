@@ -1,0 +1,5516 @@
+{
+  "schema_version": "successor-source-synthesis-shard-checkpoint-v1",
+  "evaluation_id": "ohfr-2002-study-source-successor-v1",
+  "status": "complete_owned_page_and_local_discovery_synthesis_parent_global_adjudication_pending",
+  "owned_chunks": [
+    "CHUNK-001",
+    "CHUNK-002",
+    "CHUNK-003",
+    "CHUNK-004",
+    "CHUNK-005",
+    "CHUNK-006"
+  ],
+  "owned_pages_reviewed": 158,
+  "previously_reviewed_pages_reused": 43,
+  "newly_read_pages": 115,
+  "active_legacy_records_mapped": 572,
+  "active_native_records_mapped": 240,
+  "historical_C001_records_mapped": 33,
+  "proposed_records": 242,
+  "proposed_nonexcluded_records": 224,
+  "density_measurement_id": "ohfr-2002-uniform-body-caption-v1",
+  "owned_indexable_source_words": 71159,
+  "source_density_never_used_as_quota": true,
+  "schema_validation": "all six proposals pass current source-subject-chunk schema",
+  "immutable_input_hashes_verified": [
+    "legacy/source/source-benchmark.v3.json",
+    "legacy/source/source-subject-chunk.CHUNK-001.json",
+    "legacy/source/source-subject-chunk.CHUNK-001.v2.json",
+    "legacy/source/source-subject-chunk.CHUNK-002.json",
+    "legacy/source/source-subject-chunk.CHUNK-003.json",
+    "legacy/source/source-subject-chunk.CHUNK-004.json",
+    "legacy/source/source-subject-chunk.CHUNK-005.json",
+    "legacy/source/source-subject-chunk.CHUNK-006.json",
+    "native/source/source-benchmark.v2.json",
+    "native/source/source-subject-chunk.CHUNK-001.json",
+    "native/source/source-subject-chunk.CHUNK-002.json",
+    "native/source/source-subject-chunk.CHUNK-003.json",
+    "native/source/source-subject-chunk.CHUNK-004.json",
+    "native/source/source-subject-chunk.CHUNK-005.json",
+    "native/source/source-subject-chunk.CHUNK-006.json",
+    "source/chunks/CHUNK-001.pages.json",
+    "source/chunks/CHUNK-001.pdf",
+    "source/chunks/CHUNK-002.pages.json",
+    "source/chunks/CHUNK-002.pdf",
+    "source/chunks/CHUNK-003.pages.json",
+    "source/chunks/CHUNK-003.pdf",
+    "source/chunks/CHUNK-004.pages.json",
+    "source/chunks/CHUNK-004.pdf",
+    "source/chunks/CHUNK-005.pages.json",
+    "source/chunks/CHUNK-005.pdf",
+    "source/chunks/CHUNK-006.pages.json",
+    "source/chunks/CHUNK-006.pdf"
+  ],
+  "candidate_unexposed_attestation": "Only explicitly allowlisted source PDFs, source-only discovery/frozen benchmark lineages, methodology, source-only comparison artifacts and own work were inspected. No candidate index, names, results or audits exposed.",
+  "exact_final_entity_union_counts": {
+    "legacy": {
+      "subject_ids": 558,
+      "owned_evidence_ids": 1358,
+      "relationship_ids": 1449,
+      "task_ids": 401,
+      "exclusion_ids": 46,
+      "uncertainty_ids": 27
+    },
+    "native": {
+      "subject_ids": 218,
+      "owned_evidence_ids": 523,
+      "relationship_ids": 83,
+      "task_ids": 218,
+      "exclusion_ids": 55,
+      "uncertainty_ids": 29
+    }
+  },
+  "parent_relationship_adjudication_queue": {
+    "legacy": [
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-01A6396D00EA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-01B76C79F23C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-023A9F8C673C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-02A0AEFCE8A0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-02A1EA977440",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-04CB29D4915F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-04FF813E7FFE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0769CAC4D9ED",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-07F549C11162",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-08FB475682E6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0CEBB758F72F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1298266FC10A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-140F68C89619",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-140F9B68C759",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-167D6D33097E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1831438711E1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-19D352BCAA28",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1A77DCD47317",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1A866952E3B1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1AC94F20A5EC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1BF4A3F74F1B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1D0D9A660BA5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1D1FD648DF2C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1DFE82B6DF2B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-1FB2F3EEE44B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-200A2E509633",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2291C83C834E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-25266EEBB5B9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2660AA37F989",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-26EE1FD85F83",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2823A8A9A0C0",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-28ADDE59DC5B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2A1FA263D2DF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2A3C76B08E7E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2AF7BF606773",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2B5E0AEC9B55",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2B63B5FC1CC7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2BED248F834B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2C6B022F83F3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2CE9441EA237",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2D0CC7832D94",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2D152247895F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2D3F1D3339C4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2F3CCF0E2BC0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2F87B28A095C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-2FA3E88D428D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-323A29A2A63D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-32C31FF8BC82",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-33B5A61EDA55",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-38FB013C627B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-39132F50129C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3923E941834D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-396E7B677231",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3B86321C0775",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3C101CBBFE5A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3C34219B9954",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3C78AD44D52C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3D817D4FBA62",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3E5893A822EF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-3E5FBF38011C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-40042A09BD85",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-40E308B0406F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-432E8BA5391D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-43B081C862F2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-44660820A835",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-475E5E520BC1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-4862F86E8738",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-495B70D44902",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-4A2E180D6A82",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-4A980199C01A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-4CB30CD54EDE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-4D89DA03F82B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-4DAA2C390E67",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-50DFA65D62B3",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-526DD3D21A86",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-52A1713083CF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-535B0E75C6D0",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-55580B5DB452",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-55BFE2C18300",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-56CE55C537CC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-5760B95EE4F1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-58AAD471F9F7",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-594E7D34BE62",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-59D1BEFF630F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-5A460357A44A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-5A9FDB51A667",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-5EA81738CD5F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-5EFDA0AB40E2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-5F408A29B467",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-5F45453894F5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-613D73CC8717",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-61D80A65C3AC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-62DFC1AA6E3E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-640FD1437547",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-646C23DF3062",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-64B9D28CB1F5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-659BC54A49DD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-6737D95639E6",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-673DE130587E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-67BFFE0E5BF8",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-68250590A0A5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-683687759099",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-68ED3A64A006",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-6ADFA4FBEB33",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-6C55756B4F00",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-6CFDBFA4FCF4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-6FB1E7F9ABA4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-70182E900CC2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7057FCFB365E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-71F3EAADE466",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-72765B740CE1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-732EB7DA9DDB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-75474D8BB62B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-75971F77BD7A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-764BBB33D791",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-77F4826EEAFE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-79F8CECF0A9A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7A0B011CFE28",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7A46B99CB7ED",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7A83471335A4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7ACF8B434C33",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7B97BE83FF19",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7BDE8E53B503",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7D1F37D3FC17",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7D5D41098CFC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7DE5BC61E551",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7E110515DB3E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-7F3E312EDE94",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-80C331AEA4E2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-80FFA385D7F1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-82868AEC8CC5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-83137E9A6B1D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-85DD7E79265A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-89839C35E498",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-8A7603D33511",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-8B78AD590DE5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-8C2CD5563502",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-8E4409B335DF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-8FFE8820D652",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-912F1D04A7C2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-9163F625F6D7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-9384B4C449B3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-964B96294A8B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-997B0CD7D620",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-9B2AC6F0B0DD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-9C4A45605827",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-9D311458A27F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-9D7929AC019E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A07BA82D7596",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A1E81259344E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A1EA1AAFE1CD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A2CABF1D7C61",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A2E94C7226A4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A393CCDC8E41",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A3AB0D3EB1B9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A4F295AB1B1C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A63A59F77B14",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A85771DC19B2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-A9C042481B52",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-ABAAA4F2F400",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-ABF3BF091F5E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-AC01DB69FFEF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-AC3AFFF6F148",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-AC50435EACE5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-AD3DA2C478F3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-AD84267C1BCA",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B10390818991",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B1353233877A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B16A75D20A52",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B20E79F79898",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B2B72CD16F58",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B2C2749FF3A5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B2D927EAD1C2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B47461AA58A9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B4AEB1652F4D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B5CA1E77B4E6",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-B73C0594C770",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BAD65C85A07F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BB42A39372A4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BBA68A0B2B70",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BBC502E9DC7D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BBE848B2D038",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BD1BC21539B2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BE0FC5A61A5A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BEE0A3FA77CA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BF5526CA2579",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-BF87E8243B9B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C1607F6ECD27",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C167621659A0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C221D620E4A8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C294413A5DC6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C2F541E9ADD0",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C49EF7CB1A5A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C588706A786D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C899426E0A39",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C91C31718FFB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-C9AB7034A551",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-CA58E5196FBA",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-CAB9C3C8A3E3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-CB35E2507998",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-CBFB3AA2A001",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-D0E31E08CA9C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-D20381E4EEC3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-D288A00DCD68",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-D6C8F13BEDF2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-DC6DBF46DBFF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-DD0F8069AD66",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-DFF872873FEC",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E01C2E9D468B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E1BB1A518C16",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E1D925A14869",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E221F14FCF0A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E26679FEF9BD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E2A3C0DED9CD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E49DC12032F3",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E6999C52123E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E7F1EA4A66D4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E80048F37DEB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-E99F2EEF58AB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-EB74D13F6088",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-EC3FDE900AE7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F00746042D39",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F28F4F03F927",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F32BF94BF948",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F34A843EDAE7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F3DA0FE696C6",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F42A524337D1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F4A1A349440D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F4D0C790CA85",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F5FEB77F0427",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F67FD7EBDB67",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F93D746EA090",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F9666D123E5B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-F9B86363669D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-FA5F74C3E1B8",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-FA854F722640",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-FB865B3C3289",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-FCE2772D2B80",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-FD5A65580B88",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-00519021FEB4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-009EBEAE8761",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-023A9F8C673C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-04FF813E7FFE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0517A95F93E7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-05FE01059CFF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-07B7A875148A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-08B564601643",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0ABD6A0B131A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0AFCAF0BA319",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0CD03D8E420F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0CEBB758F72F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0E0853B1C3B5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0F6F0F27AF32",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0F8A3CCD8227",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-1298266FC10A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-1453FE2BC376",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-156337A97E21",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-16588F02295C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-165F08A327F9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-1668ED22BFB5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-167D6D33097E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-19144B4587DF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-1AD93C467FF4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-1B6349AF74BD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-1C629F4E6363",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-1F933F4267B1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-26045B30A3C6",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-27FA93AA2BEF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-2A26AA6C0742",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-2BDC8CA84527",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-2D942BEE8FC6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-2F1B907E0F5B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-2F87B28A095C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-30F6661400AC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-31A7E3F26149",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-31F1F5220E35",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-327952ADFE37",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-32C31FF8BC82",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-33C3BB3A5989",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-34462BA04907",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-37D23D49D4F8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-3A65216D752D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-3C34219B9954",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-40042A09BD85",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-4192D8650803",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-43FEF9E03BDB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-454CBB4D0822",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-4614B4F18AA9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-4862F86E8738",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-48AD8A45EC15",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-495B70D44902",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-50DFA65D62B3",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-530D36E716CC",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-536942463BBA",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-54479F78E13D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-5513D74B1FCB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-557989676167",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-57074616A6EE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-594E7D34BE62",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-5A9FDB51A667",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-5DA342548948",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-5EFDA0AB40E2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-62055B365285",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-629BF62CFBCA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-62DFC1AA6E3E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-659BC54A49DD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-672238C76EB8",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-673591FF8409",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-673DE130587E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-68250590A0A5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-6896A2B55FE5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-69FEB8622CD5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-6BF538C22380",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-6CFDBFA4FCF4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-6E45252CF46E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-6F818D1C7FB4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-6FB1E7F9ABA4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-72765B740CE1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-79CC1E864BE7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-7B97BE83FF19",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-7E110515DB3E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-7F5EE9646653",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-80FFA385D7F1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-8161C57D5B79",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-81C7C6FDEAC4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-83137E9A6B1D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-85DD7E79265A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-89839C35E498",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-8BAC30F800D5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-8C46E7F3AEDA",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-8DB58B1AE562",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-9500BEB6116B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-96481570D6F5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-971492C78511",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-974C53EE5E35",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-9862B03EAB9A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-99446940368C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-9A101F0B545A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-9D311458A27F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-9E230E559748",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A2B79BF46BE9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A2CABF1D7C61",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A393CCDC8E41",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A453757EF9F9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A6B36399EDFC",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A7608E4E5670",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A7EC9C8F3BA8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-A8B31091BA87",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-AA7130FE3EB7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-AC01DB69FFEF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-B09C9FE4E830",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-B0F9D422FA8F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-B4B45E83B656",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-BAD65C85A07F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-BC7ACC3E777F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-BCA266DC3BAD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-BD5709EE304B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-BE4222983623",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-BF42D15EC60A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C221D620E4A8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C294413A5DC6",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C3F8F4BC83FA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C599A700FE82",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C7C3D3C98695",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C7EDB9090E4E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C91C31718FFB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-C92E15C96B1C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-CA58E5196FBA",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-CC8D1C5A84B7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-CD3A8C01840D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-CDA4681F007A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-CDE30884D349",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-D288A00DCD68",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-D56C5C8118F8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-D5C71CD20CE3",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-D66BA7282C7D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-D7932C6BF0A5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-DC4EEA5E4EB6",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E01C2E9D468B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E099AF11706F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E157F35D635B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E1BB1A518C16",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E2326D9D847B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E26679FEF9BD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E2A3C0DED9CD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E6999C52123E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-E73EB925D066",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-EA68FFDC570F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-EAA955649CC5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-EB74D13F6088",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-ED58C20299DA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-EF6EAE431A00",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-F3DA0FE696C6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-F42A524337D1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-035E3FA4D7BA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-060821A415BF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0741EF922572",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0BA9ECADB9B6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0BD69996C2C5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0CFB8366EFD7",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0D8DEC7A141F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0E11C3023E7C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0FEF6B9F94BF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-11195A692867",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-16C105804980",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-18D08754F335",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-197BC6AD46E3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-21DA2E0D1020",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-2481502201E7",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-24866C6F4E41",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-25ED0ABB8B5D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-2EB8188B1B55",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-2F6A16AD05C8",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-33C72D3E8B49",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-43F58E3EA0FF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-44AEF0EFA7ED",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-477407FB2E82",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-4D4B529538E2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-4FCC14EC6EC3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-58E917F2AEF4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-59CAD3E8EC69",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-5D1F9300825E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-64EF183D1F55",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-652A659F3FC1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-6A70EC90DFF1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-747347291524",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-79871253A13F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-7F4C0AF8D493",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-88364F80A19C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-8880D92A23AE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-88812AEC8E25",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-8A5497BF217F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-8CE9AA5FD348",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-91A9303A99EB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-9615D0FA565C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-9656F7487979",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-97885443810A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-9896D1CD2F03",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-99459A926B0D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-9B70C4444FAB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-9BE1A468586C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-A2318028E672",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-A3244088AE85",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-A95AE7F7D30D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-ABC3B0869B82",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-AD3DF90D8EDC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-B1BE49990719",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-B81E3B3ABDBC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-BA845D886F70",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-C401DBD794CC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-C42F724B5EE5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-C52C5BB13258",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-CB92C8E32738",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-CF7BAC9C9CB3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-CFB7060BD946",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-D0DBA9790BD4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-D288A00DCD68",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-D7F000B9300A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-D8B62BD8693B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E099AF11706F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E11EA42E5B2C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E2223FD1CC5F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E2808AEC82D3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E749CA143E47",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E74E5D6C1D74",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E7B2F56D8EE9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-E8462A5A18F4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-EF5440CD241D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-F14F19D9B1D0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-F564E2C5BEBE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-F5863EAC70DB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-F5C5D8FF861F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-F8D1158B1F30",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-FE04A555BF94",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-001EA95DB68D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-00D96D37A366",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-010AAAD75416",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-01B49EC3959F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-02A1EA977440",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-059CF6C860D3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-05FE01059CFF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-06A0854557BE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-081A439D0335",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-08232E46E112",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-083A60C2445B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-09204FA1AD53",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-097BEBD11879",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-0ACB1804A769",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-0CEBB758F72F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-0D3598443D16",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-0DB9AC9C9ECE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1035E81C8A80",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-103D7B43E395",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-11945593DC9F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-12A12BBF617F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-138F02CC3E44",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1516EA9DC21F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1547D88B4A3E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-163113F247C0",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-178019559AB4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1786C26A3F8E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1793475B82E6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-179A4B0E8F4C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-19AA338D54A0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-19B79BF7CFC0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-19D352BCAA28",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1A375A282786",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1A57A2B92CFD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1A979E17BEE4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1C24D30BF69D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1CC4E5BAE1F6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1DB9880418FB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1E7E8061A956",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-1EBBF6EA4A2A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-20FA307E7585",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-215934EE632F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-21655DB16E6C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2250B2F58911",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2291C83C834E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-22D536B4ED97",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-23149E8CCEB2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2318C7ABCC67",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2652EECF5C4F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-268A02154560",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-275B4B8AC4EA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2CD794B0244D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2D3F1D3339C4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2D80031D730B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2EAC56354954",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-2F663B2BA218",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3065B333B34D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-30BC8B91AF31",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-31782F103DB9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3315BBC089BE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-337C37D9DA6E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3445CAD79756",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-34E0EBE04E46",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-34F6F8C1022C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-35D46B3E0E6F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-367D3FE73135",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-368B8612AD8C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-379B8A7F6A71",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-38FB013C627B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-393295A0831C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3A02A62666F1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3AE3793F6F4C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3C89B14673D7",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3DC672924559",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-3E68B0889B9E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-40042A09BD85",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-40B90944F127",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-41478BA8600E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4297B351B569",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-438326A4E095",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4397C86E8497",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-43FDC6B15FEA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4440D48EB1C8",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4452226DF03C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-456EBD4303B0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4598805925FE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4599B9F1C9D2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-45D020E0823E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-465C14B98FB6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4862F86E8738",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-492A8A01B75C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4B6EFC691A14",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4B8281E4ECD9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4D561C9E8F01",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4E40DA7BA3D6",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-4EC8621C2983",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5071198D4FE9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-50DFA65D62B3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-51688543CB58",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-51A6D45167FD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-51D9C5A21F19",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-522C73F07ED4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5599CA1620C0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-55BFE2C18300",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-56B52F25238C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-57E290C655F3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-594846B3691F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5A460357A44A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5A656E266708",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5A9FD345EE07",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5ABCF06A757C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5C1D50FEE2CF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5C24EA23629C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5E0E1DFFC48A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5E752952B253",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-5E8863952859",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6049FD60C4CB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-60C843CAC611",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6115E80FC9E9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-613F9499DB7E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-622D9B4C39CC",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-63671216D007",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-63A22F4B0E12",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-63C3BF8D5DDB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-63DC1FD7AE5A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6463FA0A6E9F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-651BA3A57D5F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-67BFFE0E5BF8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-67F6616B749B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-682806F66D04",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-692E071A2DA3",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6A70EC90DFF1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6B2D4CBFF7A6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6C034477FFC5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6DA862483C42",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6F818D1C7FB4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-6FBED98AB466",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-71AD18A3A1AF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-71ED45ADD44E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-73D5309D5D67",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-750C251C1222",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-75971F77BD7A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-76819A59BC7E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-77BAD17E2E8C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-7840FFFABDD7",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-786D3E838FD5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-791BCDAC777E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-7AF64483F9C1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-7BDE8E53B503",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-7E972CCEBD91",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-7F83224C5435",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-806027651B58",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8403F386E613",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-853FF694BAD3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-861A3425EEB1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8817983E0EF3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8A7603D33511",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8C86ACB710F2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8DD843BE780C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8E436C889A42",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8E9C5973DB00",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8EA31600A09E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-8EFAB25E0C77",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-92E6D2E6EBDE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-93B7C0BDC006",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-93D892784FA0",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-941670EEFD74",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-95221DAB3F27",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-958201E81352",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-959C4534BD9D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-96319937E6BB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-969F79BD5A16",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-98A76E31F883",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-9D2D83746DF0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-9D7929AC019E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-9D903A37C068",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-9DBDD6B8DA0D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A06F4F6CD4B2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A121AB298FFB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A1F26D57CE8D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A2473F3C5ABB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A358F2627A70",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A4E02503C80C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A5049B7A4946",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A5066FAB1C48",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A678CC900234",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A69594052C7E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A69927740929",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A840ACBFE5FB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A85771DC19B2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A86D63E1BB0C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A8871A473A2F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-A9C042481B52",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-AC4B8120C6FE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-AD012454A3C2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-AD4D29747CD2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-AF43B5841877",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-AFAD60371564",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-AFF7A5175C05",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B06B3F8DED2B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B10FC51E6F86",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B16A75D20A52",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B1A59E423CE9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B2B5037C9BE8",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B3123A65FD71",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B3C200582EAE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B449771840CD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B465FDA64402",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B4AEB1652F4D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B4B4E2BB3E3F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B721AEBE74ED",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B9A086D77F62",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-B9E794D05882",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-BA4BD5C08A31",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-BBB1515B5AE3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-BCDBD399D2FC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-BD1BC21539B2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-BE4222983623",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-BF5CC7C1B35E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-BF87E8243B9B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C274E44CE348",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C2F541E9ADD0",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C3741F28FED5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C42F724B5EE5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C531C4C44E43",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C53D7CD39D86",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C571B1A3264F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C5C6275871E4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C70B6F39E85E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C724ECBC32B1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C77BAE83A9B3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C821B782FDEC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-C86D74C41215",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-CA58E5196FBA",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-CB92C8E32738",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-CB9971381843",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-CBB8A409B5BC",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-CC50A0575FAB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D03A96E87301",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D07C10CBDE98",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D2D731D998E9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D5575FE26EB9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D56C5C8118F8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D608C306F87C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D6D28AA26822",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D70D9DC0988C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D884E3DECA5D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-D970AE2BCF9E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-DA04E97F5C5F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-DA27F7AF251D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-DC6DBF46DBFF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-DCA4787E5AAE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-DD2C3D2D0E7E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-E16AAC167B8F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-E2A3C0DED9CD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-E6211211B364",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-E7B2F56D8EE9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-E80E8D6A705B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-E91C2615736A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-EA41064900C5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-EA8F1094AD4A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-EBC5755F1C7C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-EBF2F2E8BCB8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-EE0256E2E792",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-EEC7286FDC9C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F23578478A51",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F35ADAC53541",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F3760258F153",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F3ABCFCE80D7",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F4EDA7D637CD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F55C89D169BA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F5ACB68E73F9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F64B68959D18",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F67E111BA77D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F67FD7EBDB67",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F71DD299F8C1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F74CB9F64B2B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F93D746EA090",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F9B86363669D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-F9BDC6ABF4C4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-FAB0F4EA8C30",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-015E704F7EA8",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-02A1EA977440",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-03AE7D6DB622",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-05FE01059CFF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-09204FA1AD53",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-097BEBD11879",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-09EFF53FDA62",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-0D31C48678B9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1035E81C8A80",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-150D762230C0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1547B7161F34",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-16632F2FB8DD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-173776F43E0C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1786C26A3F8E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1964882A415D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-19D352BCAA28",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1B0423F39CAE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1D78F6C6C1BC",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1DADEF1ED285",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-1EBBF6EA4A2A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-204C24F83E02",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-2291C83C834E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-2925FCACB9BE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-2C0EC17AC8AF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-2D3F1D3339C4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-2DF8E7131BFA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-30248780E016",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-3065B333B34D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-30BC8B91AF31",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-3356C78D0779",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-344E2B612A6A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-368B8612AD8C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-38CDC2EEB0F1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-38FB013C627B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-3923E941834D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-395CF7C8035F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-3A575A391555",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-3AE3793F6F4C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-3C55C021CB61",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-3F44B440474D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-40042A09BD85",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-420C4E4B6A45",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-422395623F6B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-4440D48EB1C8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-4599B9F1C9D2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-4862E62BBD26",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-4A48126D3717",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-4A63AA004DF7",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-4CBE96AAA7E3",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-513873FDF41C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-51688543CB58",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-51A6D45167FD",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-52D4727CEFA5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-535B0E75C6D0",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-5A460357A44A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-5B1286A3C684",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-5CC4937F93DD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-5E752952B253",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-6054F545F60C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-613D73CC8717",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-63C3BF8D5DDB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-654BE3FBF4C5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-657B2245F725",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-6645F7BC2400",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-66A44C737B03",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-67AE694A01ED",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-67BFFE0E5BF8",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-67F6616B749B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-682806F66D04",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-6A5EB497AD9B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-6AE23048C195",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-6BB8CFE3F771",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-6C034477FFC5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-6DA862483C42",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-7260BE1317E2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-737E91EA55BE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-7485196EE79A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-792AE2990B6F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-79B6ACF98FA5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-7AF64483F9C1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-7BDE8E53B503",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-831635637E55",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8403F386E613",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-86022570191A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8966360FC831",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8994A953066A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8A7603D33511",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8CF2408C41C3",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8DD843BE780C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8E9C5973DB00",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8EFAB25E0C77",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-8FFE8820D652",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-90261DE19D77",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-92E6D2E6EBDE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-96319937E6BB",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-9726F20426D5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-997B0CD7D620",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-9B561EF0097A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-9D903A37C068",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-9FDB686FA9E4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-A1605181A8D3",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-A3595A5FCC58",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-A85771DC19B2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-A86D63E1BB0C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-A9C042481B52",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-AC50435EACE5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-AD1E7486AD2C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-B14A01B9AB11",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-B180BEC7F5FE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-B1E4C36501B5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-B67EF589E15F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-B8E96FAA56AE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-B9A086D77F62",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-BA193CED6939",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-BAA6BC01FF0D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-BAE0F6BF112A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-BD1BC21539B2",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-BD24CAF20EE4",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-BF87E8243B9B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-C2F541E9ADD0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-C3741F28FED5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-C3A8812A8F35",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-C821B782FDEC",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-C9AB7034A551",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-CBB8A409B5BC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-D27635E715E7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-D2B6A53E6787",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-D54945BD917A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-D5575FE26EB9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-D80B24D9DD7C",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-DC6DBF46DBFF",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-E14C18C82895",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-E5F0AA1801C9",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-EA41064900C5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-F5D363E9D16C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-F64B68959D18",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-F67FD7EBDB67",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-F93D746EA090",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-F9B86363669D",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-FE0E096BD288",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-FF3C814E2763",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0080E35F3276",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-02FC6DF89CC9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-04DAF2F58E1D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-062E1D10450C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-08FFF414FD5F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0A0AD0242193",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0AF0883F32C5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0CCDF655F858",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-10C40064696E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-13D8A951FDA7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-149D29762FDC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-16CB7B7F3E0F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-25CA46BC5112",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-25E8C92F6AC1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-25FFFCD86333",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-2994269F6F4F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-29FD0722058B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-2ACD83BB2104",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-2D348333E443",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-30C5B38CC14E",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-31D8C9FDAE38",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-32CB811A9636",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-35C49333FAE5",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-37D4E4B40A58",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-38771744E82A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-3CAF8E605F8F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-3D70458F369F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-3FDB00728FFE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-428D11250CAD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-462541347E71",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-474563435E89",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-479F385EE201",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-482F2CCF513F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-4B5E17A01A07",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-4D4C36F5619A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-4FBF1FE6AC13",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-4FC3677FBF58",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-53D7DB041D78",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-552530915C14",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-57344551083A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-579A78F20231",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-57A59278C305",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-592411B0E75B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-59F492E39CAB",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-5B24AE642356",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-5CF498364B2D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-5EC46269469B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-5F32FF3F813E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-5FFAE4BCF7DA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-6061E45AA0E9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-62C21D41AD83",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-635BCF6E16B4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-63C8A15C4E5A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-63E813C87D38",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-6471803C1E3B",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-6679831F65CD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-66D40B0E3B45",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-673286AB9988",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-69157A4D5E17",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-6AFF7D46BD1F",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-6C487FACB095",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-6D6962A1DB76",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-71058742EDBE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-746A29C780DE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-749E2E909696",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-76A5D5F954EC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-7942746BD954",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-79A143583F9E",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-7C2C5B02425A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-7C7F637473F0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-7ED2199C3247",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-87BC59B5B217",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-8A5EA6A081F5",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-8AB804FCA123",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-8D39F52406B1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-8DEAA87CC58F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-8F321DE0496D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-92CB1E5AC20F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-9511F5F29FA1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-955E527771D4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-97CDEAF55414",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-9C51489E486F",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-9C7CA114FF27",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-9F34345E6445",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-A20268DF3886",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-A7815C7315B1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-A95508A16732",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-ACCBA04DF78A",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-AD0CA8A1E0A1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-AD3FB8B80DDD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-AF963AA1DF4B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-B494EAEB3D27",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-B638590AC457",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-B6618E228781",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-BA078E761FBE",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-BA089196B519",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-BD9C8F393CC9",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-C0BF73646629",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-C2112358A7B4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-C4112155422A",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-C47E0BA258EA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-C4A2C952C97D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-C51B4D9F6F79",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-CED6FDFA31C6",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-D17FEB89EDCD",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-D27635E715E7",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-D28AE04C26E1",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-D67877DA6BDC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-D784ADA994FF",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-D8E6CD5620DE",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-D96A8DB7EA51",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-DC0BDE491092",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-DDB113633061",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-DE417066E457",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-DF4E2067F4FA",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-E1E4C20C487C",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-E2272FEB4AB2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-E2F61871B8B2",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-E38170DB9BA0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-E7E5FFAC2B31",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-EAD25EC4FD7B",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-EBFA318F9930",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-EC0915038644",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-EC41A23339B4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-ECBB30AF70E4",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-ECD28A5AB663",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-ED28504C45D0",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-EF7BD1714BC1",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-F09B60BEA6CC",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-F21C6F720D63",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-F30077EF5698",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-F36CE4F6B65D",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-F5DFDFC78F63",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-F9E20D32EA02",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-FB7011017E68",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-FD00D1A7A190",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-FF322D10D601",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      }
+    ],
+    "native": [
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0004",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0005",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0006",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0007",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0008",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0010",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0011",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0012",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-001",
+        "old_relationship_id": "REL-0013",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0016",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0018",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0020",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0021",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0022",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0024",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0026",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0028",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0029",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0030",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0032",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0033",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0034",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0035",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0037",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0039",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0040",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0043",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0045",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "old_relationship_id": "REL-0048",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0053",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0055",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0056",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0057",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "old_relationship_id": "REL-0058",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-0061",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-0062",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "old_relationship_id": "REL-0063",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-0065",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "old_relationship_id": "REL-0079",
+        "status": "external_dependency_queued_to_parent"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0068",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0069",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0070",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0072",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0074",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0075",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0076",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0078",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0079",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0080",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0081",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0082",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "old_relationship_id": "REL-0083",
+        "status": "not_imported_relation_available_for_parent_adjudication"
+      }
+    ]
+  },
+  "remaining_scope": [
+    "Whole-book semantic merges and final identity assignment.",
+    "Whole-book priorities and weights.",
+    "External evidence portions of merged final subjects.",
+    "Explicitly queued final graph relations not inherited into compact local graph; retained endpoints/facets do not certify graph equivalence.",
+    "Final benchmark compilation, independent review and any approval/freeze."
+  ],
+  "notes": [
+    "The new proposal is synthesis and re-examination, not historically fresh independent discovery.",
+    "Original lineage counts, freezes and releases unchanged; this shard does not approve or register a final benchmark.",
+    "All owned final subject/evidence/task/edge/exclusion/uncertainty IDs are enumerated in the six ledgers; exact new schema evidence positions are provided for each owned old evidence ID."
+  ]
+}

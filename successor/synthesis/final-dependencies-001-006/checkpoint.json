@@ -1,0 +1,57 @@
+{
+  "status": "owned_final_dependency_reconciliation_complete",
+  "coverage": "coverage.json",
+  "relationship_ledger": "relationship-ledger.json",
+  "task_ledger": "task-ledger.json",
+  "suggestions": "suggested-additions.json",
+  "authored_review": "authored-edge-review.json",
+  "counts": {
+    "old_relationships_by_lineage": {
+      "legacy": 1387,
+      "native": 83
+    },
+    "old_relationships_by_disposition": {
+      "internalized_in_coherent_requirement": 548,
+      "retired_redundant_or_nonspecific_link": 476,
+      "superseded_by_proposed_necessary_edge": 138,
+      "superseded_by_authored_edge": 235,
+      "corrected_semantic_defect": 73
+    },
+    "old_relationships_by_owner": {
+      "legacy": {
+        "CHUNK-005": 202,
+        "CHUNK-002": 213,
+        "CHUNK-006": 205,
+        "CHUNK-004": 372,
+        "CHUNK-001": 246,
+        "CHUNK-003": 149
+      },
+      "native": {
+        "CHUNK-001": 13,
+        "CHUNK-002": 35,
+        "CHUNK-003": 12,
+        "CHUNK-004": 2,
+        "CHUNK-005": 5,
+        "CHUNK-006": 16
+      }
+    },
+    "old_tasks_by_lineage": {
+      "legacy": 365,
+      "native": 214
+    },
+    "old_tasks_by_disposition": {
+      "decomposed_into_specific_questions": 5,
+      "superseded_by_equivalent_specific_question": 277,
+      "superseded_by_named_facet_question": 48,
+      "retired_generic_template": 249
+    },
+    "authored_snapshot_edges_inspected": 98,
+    "authored_edge_amendments": 6,
+    "necessary_edge_proposals": 74,
+    "task_wording_amendments": 1,
+    "new_task_proposals": 0
+  },
+  "candidate_unexposed": true,
+  "canonical_files_mutated": false,
+  "owned_unresolved_queue": []
+}

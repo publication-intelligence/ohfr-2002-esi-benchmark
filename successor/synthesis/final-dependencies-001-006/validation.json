@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "counts": {
+    "old_relationships_by_lineage": {
+      "legacy": 1387,
+      "native": 83
+    },
+    "old_relationships_by_disposition": {
+      "internalized_in_coherent_requirement": 548,
+      "retired_redundant_or_nonspecific_link": 476,
+      "superseded_by_proposed_necessary_edge": 138,
+      "superseded_by_authored_edge": 235,
+      "corrected_semantic_defect": 73
+    },
+    "old_relationships_by_owner": {
+      "legacy": {
+        "CHUNK-005": 202,
+        "CHUNK-002": 213,
+        "CHUNK-006": 205,
+        "CHUNK-004": 372,
+        "CHUNK-001": 246,
+        "CHUNK-003": 149
+      },
+      "native": {
+        "CHUNK-001": 13,
+        "CHUNK-002": 35,
+        "CHUNK-003": 12,
+        "CHUNK-004": 2,
+        "CHUNK-005": 5,
+        "CHUNK-006": 16
+      }
+    },
+    "old_tasks_by_lineage": {
+      "legacy": 365,
+      "native": 214
+    },
+    "old_tasks_by_disposition": {
+      "decomposed_into_specific_questions": 5,
+      "superseded_by_equivalent_specific_question": 277,
+      "superseded_by_named_facet_question": 48,
+      "retired_generic_template": 249
+    },
+    "authored_snapshot_edges_inspected": 98,
+    "authored_edge_amendments": 6,
+    "necessary_edge_proposals": 74,
+    "task_wording_amendments": 1,
+    "new_task_proposals": 0
+  },
+  "checks": {
+    "owned_old_relationship_ids_exactly_match_frozen_provenance_selection": true,
+    "owned_task_ids_unique_and_match_selection": true,
+    "replacement_edge_ids_resolve_to_snapshot_or_proposals": true,
+    "replacement_task_ids_resolve_to_real_catalog_questions": true,
+    "proposed_edge_endpoints_exist_in_hashed_snapshot": true,
+    "source_packet_hashes_match_original_allowlist": true,
+    "original_freeze_hashes_unchanged": true,
+    "duplicate_proposed_endpoint_type_tuples": false,
+    "canonical_files_written": false
+  },
+  "unresolved_owned_disposition_ids": [],
+  "source_evidence_note": "Three corrections intentionally have no prior snapshot endpoint evidence: the two colonial split/duplicate decisions bind to the coordinator’s A/B facets, and the chapter-conclusion link is retired as document structure.",
+  "no_approval_claim": true
+}
