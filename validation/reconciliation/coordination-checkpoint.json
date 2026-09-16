@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T20:47:47.118997+00:00",
+  "recorded_at": "2026-09-16T20:52:35.336167+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -83,7 +83,10 @@
     "provisional_relationship_count": 380,
     "historical_subject_ids_mapped": 2004,
     "historical_relationship_dispositions_pending": true,
-    "historical_reader_task_dispositions_pending": true
+    "historical_reader_task_dispositions_pending": true,
+    "independent_source_first_pages_reported": 425,
+    "independent_source_first_artifact_hashes_verified": true,
+    "independent_draft_review_complete": false
   },
   "density_proposal": {
     "total": 193118,
@@ -108,6 +111,7 @@
     "owner_focused_tests_passed": 82,
     "producer_synthetic_bundle_interoperability_passed": true,
     "pr": "https://github.com/publication-intelligence/publication-intelligence/pull/5",
-    "head": "89d5e162eea95c50d0edf395a4866f8804615a7f"
+    "head": "89d5e162eea95c50d0edf395a4866f8804615a7f",
+    "ci_status": "application_license_audit_failed_on_unchanged_jszip_expression_other_jobs_pending"
   }
 }

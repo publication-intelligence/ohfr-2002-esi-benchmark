@@ -1,0 +1,144 @@
+{
+  "schema_version": "source-first-mechanical-verification-v1",
+  "recorded_at": "2026-09-16T20:52:35.336167+00:00",
+  "role": "Coordinator verification of file identities and reported page coverage; not a source editorial approval or canonical evaluation state.",
+  "coordinator_candidate_unexposed": false,
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "input_packet_sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+  "unchanged_input_file_count": 109,
+  "owned_page_count": 425,
+  "owned_document_page_span": [
+    1,
+    425
+  ],
+  "duplicate_owned_pages": [],
+  "uncovered_owned_pages": [],
+  "unique_source_finding_ids": 446,
+  "findings_are_not_benchmark_subject_quotas": true,
+  "reviewer_attestations": [
+    {
+      "path": "successor/independent-review/reviewer-001-006/source-first-attestation.json",
+      "sha256": "a75ed92835c81082f9e78a8c2960552fa313718825f5baf2e952b527761610e0"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/phase1-attestation.json",
+      "sha256": "0cebfc167cc5bb6d604237590908d360f285d492843ba9e6bcf21ae91b613553"
+    },
+    {
+      "path": "successor/independent-review/lead-phase1-attestation.json",
+      "sha256": "94ce4760779b30baf2ca0d23eb15b30a2237cf7aa76d914686cf99fc51242080"
+    }
+  ],
+  "reviewer_reported_visibility": {
+    "source_first_before_draft": true,
+    "candidate_content_seen": false,
+    "candidate_results_seen": false,
+    "note": "These are reviewer-authored visibility attestations. Coordinator mechanical verification does not substitute its own blindness claim."
+  },
+  "verified_artifacts": [
+    {
+      "path": "successor/independent-review/chunks-007-012/CHUNK-007.source-first.json",
+      "sha256": "f65dce7338f3a5d758db4f12a805a3740073ff4aa8398b4b06869b1f4ce211de"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/CHUNK-008.source-first.json",
+      "sha256": "78e8fa1b3b34e8f79fe84523997adb2ad3aeb88aa27353cb7291eec63bc62fc6"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/CHUNK-009.source-first.json",
+      "sha256": "5f606e08a2530089d8b9b1ff5b7ba949958bd826e16d3a6ecba74952e4a02221"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/CHUNK-010.source-first.json",
+      "sha256": "b047ef3e01a8690b4831b21de282b01eb7efa402f5dd08c999f22130cf6b5130"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/CHUNK-011.source-first.json",
+      "sha256": "f98cb3a47eb601f5048e769994a6a36e35950f003926bcc3b09675e423ea28a7"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/CHUNK-012.source-first.json",
+      "sha256": "a3c50b1e6df7b39baaca99459472b309f5cd0bb0b77e9c4eda6d9d7f84f973fd"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/phase1-attestation.json",
+      "sha256": "0cebfc167cc5bb6d604237590908d360f285d492843ba9e6bcf21ae91b613553"
+    },
+    {
+      "path": "successor/independent-review/chunks-007-012/source-first-overview.md",
+      "sha256": "363f1ebbbdc5766c7f148407b7f3e7045bc7824ae750c5e8edc39501b9039fa0"
+    },
+    {
+      "path": "successor/independent-review/lead-phase1-attestation.json",
+      "sha256": "94ce4760779b30baf2ca0d23eb15b30a2237cf7aa76d914686cf99fc51242080"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-001.source-first-notes.json",
+      "sha256": "f952fc4b0f1aec5e3e2ce7baa906a82534cc744702e0691f6ccf1923ecef4862"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-002.source-first-notes.json",
+      "sha256": "73655a51c3277348cb127a13a801a6429ea6f789394723b657f06541d9010408"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-003.source-first-notes.json",
+      "sha256": "651b992378d4834df906ffb8fb2495c4748c04fdcf1bfb01c475fdd732367f50"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-004.source-first-notes.json",
+      "sha256": "241788bb32cd85da79948c6f2a94ddd73846afa5323b3eed5da375df78b0ba48"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-005.source-first-notes.json",
+      "sha256": "71325b2bf473b65486f93b6aa31046de0d062c260137739bbf40d45ded01ddfc"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-006.source-first-notes.json",
+      "sha256": "8427ed673bf965c314b513dcb3c603f4c01445c73b2c7652d3fa6555409a60c2"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/HANDOFF.md",
+      "sha256": "590fc2eb460dda0e3797aeab26a94622e422de9e625c6d2d0648a99eae52c8ac"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/output-receipt.json",
+      "sha256": "c31cc0e70ffd8c03e77fc8982a836fcfe3ad900c246a0a797bf51d86063f0dd0"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/page-coverage.json",
+      "sha256": "dcf14d95635003ca67dc6a512379b80beba39d2a3ed22b15452a2968395d0362"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/reader-route-notes.json",
+      "sha256": "b17899276b3b2150c21909aade4e7456587f5965a333e7d16543fcdd6d2cb3b5"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/source-first-attestation.json",
+      "sha256": "a75ed92835c81082f9e78a8c2960552fa313718825f5baf2e952b527761610e0"
+    },
+    {
+      "path": "successor/independent-review/source-first-chunk-013.json",
+      "sha256": "e557b9b0b6151bd2b61404357739ef8814b30b30a7c6582a9a969d3e7f1a703e"
+    },
+    {
+      "path": "successor/independent-review/source-first-chunk-014.json",
+      "sha256": "61dfd92a646c1a3fa5322caa1733ec70ce3c1e16fda9c1580c6535ed433dc77b"
+    },
+    {
+      "path": "successor/independent-review/source-first-chunk-015.json",
+      "sha256": "fb56162c7d53e53ffb62f03d57bd5403ff410d367492dc472cfa8095a63e8188"
+    },
+    {
+      "path": "successor/independent-review/source-first-chunk-016.json",
+      "sha256": "8a74461b42dde9c9e038f1588a643f6490e877c0ac928646b25f1cced5e3bdea"
+    },
+    {
+      "path": "successor/independent-review/source-first-chunk-017.json",
+      "sha256": "f84670f545e97ac1038b732c468546c89ae020e9138e1220f9f18ff78aa178e2"
+    }
+  ],
+  "completed_draft_review_complete": false,
+  "benchmark_approved": false,
+  "freeze_created": false,
+  "remaining": "Item-complete independent review of the exact completed registered whole-book draft and its source-first omission checks."
+}
