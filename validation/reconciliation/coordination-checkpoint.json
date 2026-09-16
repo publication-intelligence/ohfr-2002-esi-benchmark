@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T20:22:37.831416+00:00",
+  "recorded_at": "2026-09-16T20:47:47.118997+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -20,14 +20,17 @@
     "installed_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
     "verified_file_count": 111,
     "receipt_and_git_blob_equality_verified": true,
-    "generic_study_lock_work": "reviewed_and_ci_passed_pending_source_successor_not_installed",
+    "generic_study_lock_work": "merged_reviewed_and_ci_passed_installation_held_for_pinned_source_review",
     "pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/51",
-    "reviewed_head": "473cd821df57d0a7321d28a7b0f830aa23bde7a5",
-    "coordinator_study_tests_passed": 20,
-    "ci_methodology_tests_passed": 200,
+    "reviewed_head": "ae87f5e1a91dec5237fadbf2d38b792009a87376",
+    "coordinator_study_tests_passed": 21,
+    "ci_methodology_tests_passed": 201,
     "ci_utility_tests_passed": 20,
     "current_source_freeze_supported": true,
-    "public_transport_paths_omitted": true
+    "public_transport_paths_omitted": true,
+    "merge_commit": "77e5c8b9274c75200b31cf14e730ac1398b06128",
+    "exact_registered_report_bytes_in_comparison": true,
+    "merge_tree_equals_tested_head": true
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -68,14 +71,19 @@
   },
   "all_four_candidate_prs_remain_draft": true,
   "successor": {
-    "status": "full_source_only_synthesis_started",
+    "status": "whole_book_subject_integration_in_progress",
     "independent_review": "required_after_actual_draft",
     "frozen": false,
     "source_pages_inspected": 425,
     "source_page_scope": 425,
     "page_inspection_basis": "source_only_synthesis_team_report",
     "whole_book_entity_reconciliation_complete": false,
-    "independent_source_pass_packet_prepared": true
+    "independent_source_pass_packet_prepared": true,
+    "provisional_subject_count": 531,
+    "provisional_relationship_count": 380,
+    "historical_subject_ids_mapped": 2004,
+    "historical_relationship_dispositions_pending": true,
+    "historical_reader_task_dispositions_pending": true
   },
   "density_proposal": {
     "total": 193118,
@@ -88,13 +96,18 @@
   },
   "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17",
   "website_consumer": {
-    "status": "local_isolated_patch_in_progress",
+    "status": "reviewed_draft_pr_open_ci_pending",
     "owner": "Published_evaluation_task",
     "scope": [
       "display_producer_benchmark_identity",
       "reject_missing_stale_or_mixed_comparison_bindings"
     ],
     "current_data_replaced": false,
-    "published": false
+    "published": false,
+    "coordinator_focused_tests_passed": 48,
+    "owner_focused_tests_passed": 82,
+    "producer_synthetic_bundle_interoperability_passed": true,
+    "pr": "https://github.com/publication-intelligence/publication-intelligence/pull/5",
+    "head": "89d5e162eea95c50d0edf395a4866f8804615a7f"
   }
 }
