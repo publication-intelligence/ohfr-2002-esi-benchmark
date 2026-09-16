@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T19:49:24.502615+00:00",
+  "recorded_at": "2026-09-16T20:00:35.864060+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -20,9 +20,14 @@
     "installed_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
     "verified_file_count": 111,
     "receipt_and_git_blob_equality_verified": true,
-    "generic_study_lock_work": "PR_review_corrections_in_progress_not_installed",
+    "generic_study_lock_work": "reviewed_and_ci_passed_pending_source_successor_not_installed",
     "pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/51",
-    "reviewed_head": "9335ef07c309cfcd0b94e428288e5e98f1ad7c3b"
+    "reviewed_head": "473cd821df57d0a7321d28a7b0f830aa23bde7a5",
+    "coordinator_study_tests_passed": 20,
+    "ci_methodology_tests_passed": 200,
+    "ci_utility_tests_passed": 20,
+    "current_source_freeze_supported": true,
+    "public_transport_paths_omitted": true
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -75,5 +80,6 @@
     "script_sha256": "74205eeff2bced9962b7ed40a5b8095142060c56c8ec69a2971cf2e6bca95663",
     "independent_exact_reproduction": true,
     "study_registered": false
-  }
+  },
+  "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17"
 }

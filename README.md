@@ -6,7 +6,7 @@ This repository contains the frozen, candidate-independent source benchmark for 
 
 Benchmark v3 is an immutable historical release. It completed source-led discovery, whole-book synthesis, and a full independent candidate-blind review before freeze.
 
-**Study reconciliation is pending.** A later, independently reviewed native V8 release covers the same supplied source. The original v3 reuse mandate predates that release and does not establish comparative quality. A fresh candidate-unexposed review is comparing both source models before recommending retention, replacement, or an independently reviewed successor. See [study reconciliation](docs/study-benchmark-reconciliation.md). Until selection and shared bindings are complete, the four candidate evaluation PRs and comparative bundle cutover remain on hold.
+**Study reconciliation is pending.** A later, independently reviewed native V8 release covers the same supplied source. A bounded candidate-unexposed comparison and a separate source check found material defects in both unchanged releases and recommended an independently reviewed successor. Full source-only synthesis is underway; the actual completed draft must then pass a distinct full independent review. See [study reconciliation](docs/study-benchmark-reconciliation.md) and [draft PR 17](https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17). Until the reviewed release and shared bindings are complete, the four candidate evaluation PRs and comparative bundle cutover remain on hold.
 
 | Release fact | Value |
 | --- | --- |

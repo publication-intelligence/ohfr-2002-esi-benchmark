@@ -1,0 +1,623 @@
+{
+  "schema_version": "study-policy-readiness-v1",
+  "recorded_at": "2026-09-16T20:03:53.130213+00:00",
+  "status": "comparison_only_no_candidate_migration_or_study_selection",
+  "methodology_commit": "473cd821df57d0a7321d28a7b0f830aa23bde7a5",
+  "proposed_policy": {
+    "path": "successor/source/evaluation-policy.v4.json",
+    "file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+    "policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae",
+    "semantic_sha256": "f4da9719cbf79b79e08fa77680c873a61c328754a59f4d4eaf25ad707815ea9a"
+  },
+  "candidates": [
+    {
+      "candidate": "Published",
+      "preserved_state_file_sha256": "ad0231e3053c4e674ea94f58ab89fb7152af0319b94e3a0e7dc04c7717354a5e",
+      "current_policy_sha256": "543bd48d7f41eb1826de9ce030c6391dec7fb1255071d683b530adc39e679114",
+      "current_policy_file_sha256": "7c9320dcde3faa27ff492615234b835709b0ed173faa9f7444ef817ce4162e24",
+      "current_semantic_sha256": "4d109ac329b20c8730196a5887d786832d767e22998d1101345cdf7e214a7db3",
+      "common_invariants": {
+        "source_map_chunks_and_span": true,
+        "audit_design": true,
+        "gate_definitions_ignoring_order": true,
+        "density_metric_calibration": true,
+        "policy_profile": true
+      },
+      "differences": [
+        {
+          "field": "/critical_gates/order",
+          "current": [
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE",
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE"
+          ],
+          "proposed": [
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE",
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE"
+          ]
+        },
+        {
+          "field": "/density_profile/metrics/locator_bearing_heading_paths_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/density_profile/metrics/locator_occurrences_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/density_profile/rounding",
+          "current": "nearest_0.5_after_aggregation",
+          "proposed": "none_dimension_and_contribution; overall_nearest_0.01"
+        }
+      ]
+    },
+    {
+      "candidate": "IndexPDF",
+      "preserved_state_file_sha256": "577f66ae217afa3486398620ddab17f28db6036cfed3cef643147c9b2844e8f8",
+      "current_policy_sha256": "84b44cf3167e61202640aa2982fe83eee9281ee6785b18b7ecbae374b40b2da9",
+      "current_policy_file_sha256": "8f65e1e23e0f0c3ceb97e881de5cf89893ef50c9b3bd1db610fef27ea39c0466",
+      "current_semantic_sha256": "c12149e7f5a1a2d621725b43eacd5fb9e3392da8169a6f79d94c88d24963f5f6",
+      "common_invariants": {
+        "source_map_chunks_and_span": true,
+        "audit_design": true,
+        "gate_definitions_ignoring_order": true,
+        "density_metric_calibration": true,
+        "policy_profile": true
+      },
+      "differences": [
+        {
+          "field": "/content_policies/compound_heading_scope/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/conceptual_stance_fidelity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/cross_references/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/editorial_selectivity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/heading_access_architecture/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/locator_quality/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/mechanical_validity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/scope_compliance/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/substantive_coverage/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/whole_index_coherence/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/critical_gates/order",
+          "current": [
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE",
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE"
+          ],
+          "proposed": [
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE",
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE"
+          ]
+        },
+        {
+          "field": "/density_profile/metrics/locator_bearing_heading_paths_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/density_profile/metrics/locator_occurrences_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/density_profile/rounding",
+          "current": "nearest_0.5_after_aggregation",
+          "proposed": "none_dimension_and_contribution; overall_nearest_0.01"
+        }
+      ]
+    },
+    {
+      "candidate": "IndexerLabs",
+      "preserved_state_file_sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+      "current_policy_sha256": "c2ef6f6e015fdde13afed22addfa0e9633a0b452ca49990f713dca9e487bed32",
+      "current_policy_file_sha256": "c8063d6d634b888141164a7015ce79591433b0732b9505c5062b2235cb358267",
+      "current_semantic_sha256": "e21868c7cf8ce6d7aae6567d973704e71a2090987c1d01f711b99e56a539fd7f",
+      "common_invariants": {
+        "source_map_chunks_and_span": true,
+        "audit_design": true,
+        "gate_definitions_ignoring_order": true,
+        "density_metric_calibration": true,
+        "policy_profile": true
+      },
+      "differences": [
+        {
+          "field": "/audience/rationale",
+          "current": "The intended readership was previously approved as scholarly for this exact source identity and is reused unchanged.",
+          "proposed": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+        },
+        {
+          "field": "/content_policies/compound_heading_scope/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/conceptual_stance_fidelity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/cross_references/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/editorial_selectivity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/heading_access_architecture/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/locator_quality/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/mechanical_validity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/scope_compliance/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/substantive_coverage/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/whole_index_coherence/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/critical_gates/order",
+          "current": [
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE",
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE"
+          ],
+          "proposed": [
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE",
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE"
+          ]
+        },
+        {
+          "field": "/density_profile/metrics/locator_bearing_heading_paths_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/density_profile/metrics/locator_occurrences_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/source_scope/availability/available_document_page_span",
+          "current": null,
+          "proposed": [
+            1,
+            425
+          ]
+        },
+        {
+          "field": "/source_scope/availability/bibliography",
+          "current": "absent_from_supplied_source",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/body_text",
+          "current": "present_and_inspectable",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/front_matter",
+          "current": "absent_from_supplied_source",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/maps_and_captions",
+          "current": "present_and_inspectable_when_encountered",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/note",
+          "current": null,
+          "proposed": "The exact 425-page source bytes used by the existing evaluation are available; omitted matter is not inferred or substituted."
+        },
+        {
+          "field": "/source_scope/availability/notes_and_endnotes",
+          "current": "absent_from_supplied_source",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/publisher_index",
+          "current": "absent_from_supplied_source",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/status",
+          "current": null,
+          "proposed": "partial_source_supplied"
+        },
+        {
+          "field": "/source_scope/availability/unavailable_material",
+          "current": null,
+          "proposed": [
+            "front matter before source page 1",
+            "endnotes and other matter after source page 425"
+          ]
+        },
+        {
+          "field": "/source_scope/excluded",
+          "current": [
+            "front or back matter designated nonindexable",
+            "bibliographies and source lists",
+            "publisher and candidate indexes",
+            "contents pages and navigation lists",
+            "running furniture and page numbers",
+            "proof or production material",
+            "graph internals and ignored regions",
+            "material unavailable in the supplied source",
+            "front matter absent from the supplied source",
+            "notes and endnotes absent from the supplied source",
+            "bibliography absent from the supplied source",
+            "publisher index absent from the supplied source"
+          ],
+          "proposed": [
+            "front or back matter designated nonindexable",
+            "bibliographies and source lists",
+            "publisher and candidate indexes",
+            "contents pages and navigation lists",
+            "running furniture and page numbers",
+            "proof or production material",
+            "graph internals and ignored regions",
+            "material unavailable in the supplied source",
+            "front matter, endnotes, and other matter absent from the supplied 425-page source"
+          ]
+        },
+        {
+          "field": "/source_scope/included",
+          "current": [
+            "preparation-approved indexable content",
+            "substantive body, chapter, and part text",
+            "substantive block quotations",
+            "substantive inspectable notes, footnotes, and endnotes",
+            "substantive captions and table text",
+            "eligible text whose role remains unknown",
+            "all substantive content on supplied document pages 1-425",
+            "substantive maps and captions within the supplied body pages",
+            "chapter synthesis and final-conclusion passages"
+          ],
+          "proposed": [
+            "preparation-approved indexable content",
+            "substantive body, chapter, and part text",
+            "substantive block quotations",
+            "substantive inspectable notes, footnotes, and endnotes",
+            "substantive captions and table text",
+            "eligible text whose role remains unknown",
+            "main text on supplied source pages 1-425"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "Indexia",
+      "preserved_state_file_sha256": "60605d32663803b99ce4c3f67365bd6ed55879a5610da74f1478f19b65ae7cec",
+      "current_policy_sha256": "808df7fa23326c6f416102cbccef62c4e7ca62181c3066cb17be222e462a46a2",
+      "current_policy_file_sha256": "65e93ab6427c875427491b14e4dcea107a569098ef8cdd6b7c12bf2aa97de448",
+      "current_semantic_sha256": "acf77c7ef01e66cdab26fa90e0460412788a08f409ba2863bac4826be8ee0f11",
+      "common_invariants": {
+        "source_map_chunks_and_span": true,
+        "audit_design": true,
+        "gate_definitions_ignoring_order": true,
+        "density_metric_calibration": true,
+        "policy_profile": true
+      },
+      "differences": [
+        {
+          "field": "/audience/basis",
+          "current": "inferred",
+          "proposed": "user_supplied"
+        },
+        {
+          "field": "/audience/label",
+          "current": "Scholars, students, and informed general readers of the French Revolution",
+          "proposed": "scholarly"
+        },
+        {
+          "field": "/audience/rationale",
+          "current": "The source is a scholarly synthetic history intended for study and reference.",
+          "proposed": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+        },
+        {
+          "field": "/content_policies/compound_heading_scope/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/conceptual_stance_fidelity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/cross_references/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/editorial_selectivity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/heading_access_architecture/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/locator_quality/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/mechanical_validity/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/scope_compliance/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/substantive_coverage/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/content_policies/whole_index_coherence/profile",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/critical_gates/order",
+          "current": [
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE",
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE"
+          ],
+          "proposed": [
+            "GATE-WRONG-LOCATOR",
+            "GATE-BROKEN-REFERENCE",
+            "GATE-SCOPE-LOCATOR",
+            "GATE-SYSTEMIC-UNSUPPORTED",
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-COMPOUND",
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING",
+            "GATE-STRUCTURE"
+          ]
+        },
+        {
+          "field": "/density_profile/metrics/locator_bearing_heading_paths_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/density_profile/metrics/locator_occurrences_per_1000_source_words/provenance",
+          "current": "subject-index-standard-policy-v8.1",
+          "proposed": "subject-index-standard-policy-v8.2"
+        },
+        {
+          "field": "/source_scope/availability/available_document_page_span",
+          "current": null,
+          "proposed": [
+            1,
+            425
+          ]
+        },
+        {
+          "field": "/source_scope/availability/endnotes",
+          "current": "unavailable",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/front_matter",
+          "current": "unavailable",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/main_text",
+          "current": "available",
+          "proposed": null
+        },
+        {
+          "field": "/source_scope/availability/note",
+          "current": null,
+          "proposed": "The exact 425-page source bytes used by the existing evaluation are available; omitted matter is not inferred or substituted."
+        },
+        {
+          "field": "/source_scope/availability/status",
+          "current": null,
+          "proposed": "partial_source_supplied"
+        },
+        {
+          "field": "/source_scope/availability/unavailable_material",
+          "current": null,
+          "proposed": [
+            "front matter before source page 1",
+            "endnotes and other matter after source page 425"
+          ]
+        },
+        {
+          "field": "/source_scope/excluded",
+          "current": [
+            "front or back matter designated nonindexable",
+            "bibliographies and source lists",
+            "publisher and candidate indexes",
+            "contents pages and navigation lists",
+            "running furniture and page numbers",
+            "proof or production material",
+            "graph internals and ignored regions",
+            "material unavailable in the supplied source",
+            "Unavailable front matter",
+            "Unavailable endnotes"
+          ],
+          "proposed": [
+            "front or back matter designated nonindexable",
+            "bibliographies and source lists",
+            "publisher and candidate indexes",
+            "contents pages and navigation lists",
+            "running furniture and page numbers",
+            "proof or production material",
+            "graph internals and ignored regions",
+            "material unavailable in the supplied source",
+            "front matter, endnotes, and other matter absent from the supplied 425-page source"
+          ]
+        },
+        {
+          "field": "/source_scope/included",
+          "current": [
+            "preparation-approved indexable content",
+            "substantive body, chapter, and part text",
+            "substantive block quotations",
+            "substantive inspectable notes, footnotes, and endnotes",
+            "substantive captions and table text",
+            "eligible text whose role remains unknown",
+            "Supplied main text, source labels 1–425"
+          ],
+          "proposed": [
+            "preparation-approved indexable content",
+            "substantive body, chapter, and part text",
+            "substantive block quotations",
+            "substantive inspectable notes, footnotes, and endnotes",
+            "substantive captions and table text",
+            "eligible text whose role remains unknown",
+            "main text on supplied source pages 1-425"
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Policy comparison does not approve the unfinished successor or authorize reuse of benchmark-dependent judgments.",
+    "Existing candidate states, policies and freezes are unchanged.",
+    "Array order and provenance prose remain in the conservative exact policy fingerprint; this report does not silently normalize those differences.",
+    "The existing V8 calculation adapter already suppresses historical dimension/density rounding; the new standard policy declares that behavior explicitly."
+  ]
+}
