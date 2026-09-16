@@ -1,0 +1,160 @@
+{
+  "schema_version": "independent-source-scope-disposition-v1",
+  "reviewer": "independent_review_lead",
+  "scope_of_decision": "Interpret and apply the exact already-frozen source-region policy; no source-scope expansion or whole-benchmark approval.",
+  "candidate_visibility": "No candidate content or results seen.",
+  "policy_file": "successor/source/evaluation-policy.v4.json",
+  "policy_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "decision": "The graph-internals exclusion covers the inspected cartographic interiors and their explanatory keys. Substantive map captions are eligible only for what their own wording supports.",
+  "source_region_rationale": [
+    "The five inspected maps are bounded graphical representations: location labels, shapes, boundary lines, shading, arrows, scale bars and symbol legends jointly encode spatial information. They are graphic internals rather than substantive body prose, table text or independent captions.",
+    "The numbered Paris-sections list on129 is a key to numbers in the graphical representation. Its role is known and dependent on that representation; placement below the border does not make it an independent substantive table or unknown-role text.",
+    "The map caption identifies a subject and sometimes the kinds of information represented; its eligibility does not make the cartographic information it describes eligible. A caption identifying departments supports the existence/topic of that map, not particular department boundaries or annexation dates printed inside it.",
+    "A genuine body-prose treatment on another eligible page may independently support a geographical claim. Retain that claim only with its own prose support; do not preserve an interior-derived claim by relabeling the same map evidence as caption.",
+    "Substantive chapter/part text remains eligible under the explicit inclusion. The prose-density convention that omits chapter displays is not an eligibility rule.",
+    "The generic included phrase preparation-approved indexable content does not override the explicit graph-internals exclusion. The known cartographic roles are not eligible unknown-role text."
+  ],
+  "map_boundaries": [
+    {
+      "document_page": 3,
+      "eligible_caption_support": "Pre-revolutionary France and its administrative, judicial and fiscal subdivisions as the topic of the map.",
+      "excluded_region": "Map interior, locations, boundary systems, shading, scale and explanatory legend; source credit is bibliographic attribution.",
+      "literal_caption": "Map 1. Pre-revolutionary France: principal administrative, judicial, and fiscal subdivisions",
+      "transcription_convention": "Visible caption wording with small capitals normalized to title case and line breaks normalized to spaces; bibliographic Source credit excluded.",
+      "source_page_identity": {
+        "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "document_page": 3,
+        "source_page_label": "3",
+        "page_map_canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "render_png_sha256": "cc2e8d664fa9d8b687c7fe8f46d8c4fce55787b6970dc06b95f4b031c240980e",
+        "render_parameters": "pdftoppm PNG,100dpi,single selected page"
+      },
+      "eligible_caption_support_is": "Paraphrase of caption topic only; distinct from the literal transcription and from inferred graphic information."
+    },
+    {
+      "document_page": 127,
+      "eligible_caption_support": "Departments of revolutionary France as the map topic.",
+      "excluded_region": "Interior department names/boundaries, towns, frontier, annexation annotations and scale.",
+      "literal_caption": "Map 2. The departments of revolutionary France",
+      "transcription_convention": "Visible caption wording with small capitals normalized to title case and line breaks normalized to spaces; bibliographic Source credit excluded.",
+      "source_page_identity": {
+        "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "document_page": 127,
+        "source_page_label": "127",
+        "page_map_canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "render_png_sha256": "732135dd0f9a5525e3363d5a6cd47e4f20f48e3d6f6c3155010b6e0f3a4ee9b6",
+        "render_parameters": "pdftoppm PNG,100dpi,single selected page"
+      },
+      "eligible_caption_support_is": "Paraphrase of caption topic only; distinct from the literal transcription and from inferred graphic information."
+    },
+    {
+      "document_page": 129,
+      "eligible_caption_support": "Revolutionary Paris, sections, principal places and streets as the map topic.",
+      "excluded_region": "Interior locations, street/section geography, scale, numbered sections key and source credit.",
+      "literal_caption": "Map 3. Revolutionary Paris: the sections and main places and streets mentioned in the text",
+      "transcription_convention": "Visible caption wording with small capitals normalized to title case and line breaks normalized to spaces; bibliographic Source credit excluded.",
+      "source_page_identity": {
+        "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "document_page": 129,
+        "source_page_label": "129",
+        "page_map_canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "render_png_sha256": "651bc8f58b9c54898bd6eb5e4b81a99a1cb22afd94337847286f52a631fa8f18",
+        "render_parameters": "pdftoppm PNG,100dpi,single selected page"
+      },
+      "eligible_caption_support_is": "Paraphrase of caption topic only; distinct from the literal transcription and from inferred graphic information."
+    },
+    {
+      "document_page": 225,
+      "eligible_caption_support": "Resistance to the Revolution during1793–1799 as the map topic.",
+      "excluded_region": "Interior locations, routes, shaded resistance zones and symbol/line keys.",
+      "literal_caption": "Map 4. Resistance to the Revolution, 1793–1799",
+      "transcription_convention": "Visible caption wording with small capitals normalized to title case and line breaks normalized to spaces; bibliographic Source credit excluded.",
+      "source_page_identity": {
+        "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "document_page": 225,
+        "source_page_label": "225",
+        "page_map_canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "render_png_sha256": "650ea3fcd2a60a52a98f8f505123f1596b4c4a046d18d98817395ebf19570011",
+        "render_parameters": "pdftoppm PNG,100dpi,single selected page"
+      },
+      "eligible_caption_support_is": "Paraphrase of caption topic only; distinct from the literal transcription and from inferred graphic information."
+    },
+    {
+      "document_page": 345,
+      "eligible_caption_support": "The expansion of revolutionary France as the map topic; the caption itself does not specify a year or assert individual annexations, borders or political statuses.",
+      "excluded_region": "Interior state/territory labels, boundaries, shading, political classifications, geographical relations and scale/key.",
+      "literal_caption": "Map 5. The expansion of revolutionary France",
+      "transcription_convention": "Visible caption wording with small capitals normalized to title case and line breaks normalized to spaces; bibliographic Source credit excluded.",
+      "source_page_identity": {
+        "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "document_page": 345,
+        "source_page_label": "345",
+        "page_map_canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "render_png_sha256": "1ac91318bcecd179bb6e903419acf209b6482d33f9d74d5b72c079ce4abf594e",
+        "render_parameters": "pdftoppm PNG,100dpi,single selected page"
+      },
+      "eligible_caption_support_is": "Paraphrase of caption topic only; distinct from the literal transcription and from inferred graphic information."
+    }
+  ],
+  "inspection_basis": {
+    "rendered_pages": [
+      3,
+      127,
+      129,
+      225,
+      345
+    ],
+    "newly_rendered_this_disposition": [
+      3,
+      127,
+      129
+    ],
+    "previously_rendered_and_inspected_in_actual_review": [
+      225,
+      345
+    ],
+    "source_first_notes_status": "Source-first map observations remain preserved; observations from excluded interiors do not become eligible benchmark requirements.",
+    "additional_direct_recheck_for_v2": [
+      345
+    ],
+    "all_five_directly_rendered_and_visually_verified_for_version3": [
+      3,
+      127,
+      129,
+      225,
+      345
+    ]
+  },
+  "density_contradiction": {
+    "input": "validation/reconciliation/source-review/source-density-measurement.json",
+    "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
+    "field": "protocol.source_role_note",
+    "disposition": "Its claim of semantic map eligibility conflicts with the frozen policy as applied here and has no authority to broaden it. The same measurement artifact explicitly limits its approval to computation.",
+    "word_count_effect": "No recount is required by this interpretation: the stated measurement already excluded interiors, numbered map key and credits. No numerical count has been changed or independently recomputed in this disposition.",
+    "required_metadata_correction": "Preserve original measurement bytes and attach a corrected metadata addendum or version that supersedes only the semantic source_role_note, cites this scope decision and preserves verified measurement counts and counting convention."
+  },
+  "required_benchmark_repairs": [
+    "Remove internal-map-derived evidence and access requirements or reground them in independently eligible prose. Caption-only subjects may be retained only at an appropriate optional priority with meaning/access bounded by caption wording.",
+    "Replace all exclusion scope_constraint boilerplate that states maps remain eligible with explicit caption/interior distinction; retain chapter/part semantics according to the frozen inclusion.",
+    "Correct the draft editorial-policy wording and source-only author report by preserved provenance plus reviewed-final disposition, not by changing immutable author draft or lineage files.",
+    "Review every affected dependency and source-first finding explicitly; an invalid historical or draft requirement may be retired with this source/policy reason."
+  ],
+  "whole_benchmark_review_complete": false,
+  "freeze_authorized": false,
+  "supersedes": {
+    "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v2.json",
+    "sha256": "5e594ff141657062a1d7c0a57d60bac96d814613f3db9b98ea622db2498e0ea3",
+    "correction": "Version3 adds literal caption transcription and exact rendered-page identities for all five maps, verified directly at this checkpoint. Version2 corrected the erroneous Europe in1799 paraphrase for page345 in version1. Neither correction changes the independent source-scope decision."
+  },
+  "prior_versions": [
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v1.json",
+      "sha256": "a8a02bfb27fdfde362474b0e9c38ea070b6c3d68c4c7cc469e772dbad4d723b1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v2.json",
+      "sha256": "5e594ff141657062a1d7c0a57d60bac96d814613f3db9b98ea622db2498e0ea3"
+    }
+  ]
+}

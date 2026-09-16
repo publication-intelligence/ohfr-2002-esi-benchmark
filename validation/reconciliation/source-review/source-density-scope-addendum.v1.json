@@ -1,0 +1,22 @@
+{
+  "schema_version": "source-density-scope-addendum-v1",
+  "recorded_at": "2026-09-16T22:13:25.224401+00:00",
+  "status": "metadata_correction_bound_to_independent_source_scope_disposition",
+  "original_measurement": {
+    "path": "validation/reconciliation/source-review/source-density-measurement.json",
+    "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
+    "preserved_unchanged": true
+  },
+  "independent_scope_disposition": {
+    "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v1.json",
+    "sha256": "a8a02bfb27fdfde362474b0e9c38ea070b6c3d68c4c7cc469e772dbad4d723b1"
+  },
+  "superseded_field": "protocol.source_role_note",
+  "corrected_source_role_note": "The frozen graph-internals exclusion covers map interiors and their explanatory keys. Substantive caption wording remains eligible only for what it supports independently. Map credits are excluded source attribution. Chapter and part semantic text remains eligible despite its exclusion from the prose-density counting convention. Density weighting is not semantic source-scope approval.",
+  "counts_or_counting_convention_changed": false,
+  "total_indexable_source_words_preserved": 193118,
+  "new_extraction_or_recount_claimed": false,
+  "coordinator_source_editorial_approval": false,
+  "basis": "The independent source reviewer determined the scope interpretation and metadata correction. This addendum records that decision without changing original measurement or source-review bytes. Study selection and registration remain pending the whole-benchmark freeze.",
+  "addendum_sha256": "29c685e72a351b201cbef6c6219f5a3ea22927d033eaf0306c0ce8931c02dae0"
+}

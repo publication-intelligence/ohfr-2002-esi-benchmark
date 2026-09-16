@@ -1,0 +1,27 @@
+{
+  "schema_version": "source-density-scope-addendum-v1",
+  "recorded_at": "2026-09-16T22:15:29.028539+00:00",
+  "status": "metadata_correction_bound_to_independent_source_scope_disposition",
+  "original_measurement": {
+    "path": "validation/reconciliation/source-review/source-density-measurement.json",
+    "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
+    "preserved_unchanged": true
+  },
+  "independent_scope_disposition": {
+    "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v3.json",
+    "sha256": "adb81320deac697201511a04a9b4848a048db2aaa1613a267f492a6ef4a32577"
+  },
+  "superseded_field": "protocol.source_role_note",
+  "corrected_source_role_note": "The frozen graph-internals exclusion covers map interiors and their explanatory keys. Substantive caption wording remains eligible only for what it supports independently. Map credits are excluded source attribution. Chapter and part semantic text remains eligible despite its exclusion from the prose-density counting convention. Density weighting is not semantic source-scope approval.",
+  "counts_or_counting_convention_changed": false,
+  "total_indexable_source_words_preserved": 193118,
+  "new_extraction_or_recount_claimed": false,
+  "coordinator_source_editorial_approval": false,
+  "basis": "The independent source reviewer determined the scope interpretation and metadata correction. This addendum records that decision without changing original measurement or source-review bytes. Study selection and registration remain pending the whole-benchmark freeze.",
+  "supersedes": {
+    "path": "validation/reconciliation/source-review/source-density-scope-addendum.v1.json",
+    "sha256": "13e90a7743182002192b94d070c6d6c26c84a400c7d87ab11301194c6725c305",
+    "reason": "Bind corrected literal caption transcriptions and all five exact source-page render identities; semantic scope and word counts unchanged."
+  },
+  "addendum_sha256": "ed140c6a66f028e11e8da70bfb2ecd4ef1b1648bfbdc8354b3569010ca69f1ec"
+}
