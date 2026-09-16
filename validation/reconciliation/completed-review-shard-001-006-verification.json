@@ -1,0 +1,27 @@
+{
+  "schema_version": "source-review-shard-mechanical-verification-v1",
+  "recorded_at": "2026-09-16T23:01:59.514868+00:00",
+  "coordinator_candidate_unexposed": false,
+  "editorial_approval_by_coordinator": false,
+  "whole_book_review_complete": false,
+  "assignment_sha256": "77fb18262a820e09c6450fc36cab5eb8f8aea2e348d92f55a221dc25907d9277",
+  "artifact_manifest": {
+    "path": "successor/independent-review/actual-draft/reviewer-001-006/output-receipt.json",
+    "sha256": "0b95c1d203b9363efaeea6cddde755cd81ccbf3fe1193b4594489a432d595b00",
+    "artifact_hashes_verified": 9
+  },
+  "exact_id_coverage": {
+    "subject_ids": 202,
+    "evidence_ids": 1840,
+    "relationship_ids": 134,
+    "reader_task_ids": 336,
+    "source_first_finding_ids": 181
+  },
+  "nested_facet_coverage": {
+    "subject_facets": 211,
+    "task_facets": 327,
+    "exact_parent_facet_id_sets_verified": true
+  },
+  "limitation": "Integrity and exact record coverage only. Reviewer requires revisions; repaired values and whole-book approval remain independent lead responsibilities.",
+  "original_109_and_addendum_146_input_hashes_unchanged": true
+}
