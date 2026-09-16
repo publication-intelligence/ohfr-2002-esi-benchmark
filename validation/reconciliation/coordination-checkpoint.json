@@ -137,13 +137,13 @@
       },
       "reviewer_007_012": {
         "subjects": 238,
-        "relationships": 163,
-        "tasks": 91
+        "relationships": 303,
+        "tasks": 170
       },
       "lead": {
         "subjects": 91,
-        "relationships": 196,
-        "tasks": 172
+        "relationships": 56,
+        "tasks": 93
       }
     },
     "cross_chapter_review_queue": 40,
@@ -162,7 +162,18 @@
       "hashes_and_exact_id_coverage_verified": true,
       "whole_book_editorial_approval": false
     },
-    "partition_amendment_v3_sha256": "5b9f127bd0017a3f7d74242e06516a0d590b042f3e94436c6181767b274be97a"
+    "partition_amendment_v3_sha256": "5b9f127bd0017a3f7d74242e06516a0d590b042f3e94436c6181767b274be97a",
+    "partition_amendment_v4_sha256": "ef47bf12dddb1968d38f1426d452bca53d38c0f328e2b5c50f94cf88823bf0fd",
+    "completed_additional_review_shard": {
+      "reviewer": "reviewer_007_012",
+      "subjects": 91,
+      "evidence": 250,
+      "relationships": 70,
+      "tasks": 36,
+      "manifest_sha256": "08b97e1e34f6de30e527387f6686369660a0c9a0d85626bf09f214656fb71139",
+      "hashes_and_exact_id_coverage_verified": true,
+      "whole_book_editorial_approval": false
+    }
   },
   "density_proposal": {
     "total": 193118,
