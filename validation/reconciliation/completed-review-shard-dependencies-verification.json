@@ -1,0 +1,24 @@
+{
+  "schema_version": "source-review-shard-mechanical-verification-v1",
+  "recorded_at": "2026-09-16T23:15:48.521772+00:00",
+  "coordinator_candidate_unexposed": false,
+  "editorial_approval_by_coordinator": false,
+  "whole_book_review_complete": false,
+  "assignment_sha256": "4143c099d80405815d187f66ffb361f4025b56bbcc2cabd6820377402f94c2cc",
+  "artifact_manifest": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/artifact-manifest.v1.json",
+    "sha256": "1b4a463b49c44c9c07b6f88680b1e00c02b841559fd6f8cea53bdd46295edc78",
+    "artifact_hashes_verified": 14
+  },
+  "exact_added_id_coverage": {
+    "relationships": 140,
+    "tasks": 79,
+    "task_facet_bindings": 401,
+    "unique_task_facets": 351,
+    "historical_relationship_keys": 332,
+    "historical_task_keys": 550
+  },
+  "all_original_historical_records_match_actual_two_frozen_benchmarks": true,
+  "proposed_task_facet_requirements_missing_from_parent": 0,
+  "limitation": "Mechanical integrity and exact coverage only; proposals and remaining historical requirements need independent whole-book closure and final-byte approval."
+}

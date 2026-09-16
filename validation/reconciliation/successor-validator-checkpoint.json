@@ -10,9 +10,13 @@
   "coordinator_focused_tests_passed": 15,
   "coordinator_historical_release_and_preselection_dispatch": "passed_historical_v3_only",
   "owner_offline_selected_synthetic_runner": "passed",
-  "network_bootstrap": "pending_bounded_synthetic_smoke",
+  "network_bootstrap": "passed_selected_synthetic_proof_isolated_exact_commit_and_venv",
   "actual_successor_descriptor_selected": false,
   "actual_successor_validated": false,
   "installed_runtime_changed": false,
-  "limitation": "Checks bind exact selected bytes and existing method contracts; independent editorial approval must explicitly attest actual final values and bytes."
+  "limitation": "Checks bind exact selected bytes and existing method contracts; independent editorial approval must explicitly attest actual final values and bytes.",
+  "network_smoke_receipt_file_sha256": "4a97117a5d3465f371e6f4605af84d0a8818c6b89e8065fa5dc938eb0119f802",
+  "network_smoke_log_sha256": "66ebc4a27ee0b6dc68253ef735094e00323256359c756194192236de1916c1c6",
+  "network_smoke_focused_tests_passed": 15,
+  "network_smoke_did_not_use_actual_source_or_candidate": true
 }

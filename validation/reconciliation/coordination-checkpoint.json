@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T23:02:39.655794+00:00",
+  "recorded_at": "2026-09-16T23:16:22.874824+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -192,6 +192,25 @@
       "hashes_and_exact_id_coverage_verified": true,
       "status": "assigned_review_complete_revisions_required",
       "whole_book_editorial_approval": false
+    },
+    "completed_dependency_review_shard": {
+      "relationships": 140,
+      "tasks": 79,
+      "task_facet_bindings": 401,
+      "unique_task_facets": 351,
+      "historical_relationship_keys": 332,
+      "historical_task_keys": 550,
+      "manifest_sha256": "1b4a463b49c44c9c07b6f88680b1e00c02b841559fd6f8cea53bdd46295edc78",
+      "hashes_exact_ids_original_records_and_proposed_parent_bindings_verified": true,
+      "whole_book_editorial_approval": false
+    },
+    "additional_historical_closure_assignment": {
+      "sha256": "358878c99a67048256c98699e8e22ce03bb2a9c840b9c284e30552dafb167f5c",
+      "relationship_keys": 1504,
+      "task_keys": 377,
+      "authorized": true,
+      "complete": false,
+      "limitation": "Prior current-entity review did not certify all retired/internalized historical keys; whole-book union must close explicitly."
     }
   },
   "density_proposal": {
