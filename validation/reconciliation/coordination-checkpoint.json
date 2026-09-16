@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T21:36:07.072607+00:00",
+  "recorded_at": "2026-09-16T21:46:22.997535+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -40,6 +40,12 @@
       "activated": false,
       "owner_staging_tests_passed": 201,
       "owner_schema_checks_passed": 54
+    },
+    "public_requirement_projection_followup": {
+      "status": "minimal_generic_fix_approved_implementation_underway",
+      "reason": "Canonical nested access requirements survive migration/fingerprint but current public source-subject projection omits them.",
+      "scoring_changed": false,
+      "installed_runtime_changed": false
     }
   },
   "preservation_checks": {
@@ -117,12 +123,12 @@
       "reviewer_007_012": {
         "subjects": 147,
         "relationships": 93,
-        "tasks": 59
+        "tasks": 55
       },
       "lead": {
         "subjects": 182,
         "relationships": 266,
-        "tasks": 204
+        "tasks": 208
       }
     },
     "cross_chapter_review_queue": 40,
@@ -142,7 +148,7 @@
   },
   "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17",
   "website_consumer": {
-    "status": "current_presentation_pushed_license_expression_fix_reviewed",
+    "status": "reviewed_pushed_ci_green_real_bundle_and_requirement_projection_pending",
     "owner": "Published_evaluation_task",
     "scope": [
       "display_producer_benchmark_identity",
@@ -154,15 +160,21 @@
     "owner_focused_tests_passed": 86,
     "producer_synthetic_bundle_interoperability_passed": true,
     "pr": "https://github.com/publication-intelligence/publication-intelligence/pull/5",
-    "head": "4513610e853dc9ec8e1cea9c5db38ed00678fc6d",
-    "ci_status": "four_test_shards_passed_application_stopped_at_unchanged_license_audit",
+    "head": "ca6b958c267a14cced52111e6a32e0bbf6f35471",
+    "ci_status": "all_selected_jobs_passed",
     "ci_test_shards_passed": [
       "frontend-unit-1",
       "frontend-unit-2",
       "backend-integration-1",
       "backend-integration-2"
     ],
-    "ci_application_failure": {
+    "followup_finding": "Corrected current metadata reports to use producer view scores and current gate/defect evidence; historical prose, density fits, numeric constants and provenance fallbacks are limited to historical reports.",
+    "coordinator_followup_adapter_renderer_tests_passed": 57,
+    "license_expression_fix_coordinator_tests_passed": 39,
+    "license_expression_fix": "Committed;39 regression tests and full audit pass under unchanged allowlist/overrides; workflow unchanged.",
+    "ci_run": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35153272172",
+    "local_workspace_tasks_passed": 53,
+    "historical_ci_application_failure": {
       "job": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35151174179/job/104979576382",
       "step": "license:audit",
       "dependency": "jszip@3.10.2",
@@ -176,10 +188,7 @@
         "frontend build"
       ]
     },
-    "followup_finding": "Corrected current metadata reports to use producer view scores and current gate/defect evidence; historical prose, density fits, numeric constants and provenance fallbacks are limited to historical reports.",
-    "coordinator_followup_adapter_renderer_tests_passed": 57,
-    "license_expression_fix_coordinator_tests_passed": 39,
-    "license_expression_fix": "Reviewed conservative AND/OR/grouping evaluation; existing allowlist and package overrides unchanged; owner full audit reports 796 allowed,28 review,0 blocked. Commit and fresh CI pending."
+    "public_requirement_display": "Optional safe requirement projection and consumer display under preparation; no score formula or denominator change."
   },
   "authorization": {
     "recorded_at": "2026-09-16T21:14:40.118131+00:00",
@@ -198,8 +207,10 @@
     "artifact_hashes_independently_verified": {
       "Indexia": 113,
       "IndexPDF": 118,
-      "IndexerLabs": 125
+      "IndexerLabs": 125,
+      "Published": 134
     },
-    "audit_transfer_authorized": false
+    "audit_transfer_authorized": false,
+    "published_historical_registration_mismatch_preserved": true
   }
 }

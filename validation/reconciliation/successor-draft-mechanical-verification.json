@@ -34,5 +34,22 @@
     "task_before_and_targets": 1664,
     "auxiliary_before_after_records": 476
   },
-  "evidence_after_projection_omits_only_optional_historical_evidence_identity": true
+  "evidence_after_projection_omits_only_optional_historical_evidence_identity": true,
+  "independent_assignments": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.assignment.v1.json",
+      "sha256": "77fb18262a820e09c6450fc36cab5eb8f8aea2e348d92f55a221dc25907d9277"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012.assignment.v2.json",
+      "sha256": "5647d8b6ca557b63b72fe988ee59ab5f0ac33d67bfa51763e26ad40128d638e5"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead.assignment.v2.json",
+      "sha256": "cf3a1b851cd4ac82684f836b3e3d4bd4bb81849a283ed979b463128acc1befe6"
+    }
+  ],
+  "independent_assignments_exhaustive_and_disjoint": true,
+  "source_first_findings_assigned_once": 446,
+  "screened_fallback_tasks_all_lead_owned": 6
 }
