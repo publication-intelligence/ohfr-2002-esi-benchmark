@@ -1,0 +1,50 @@
+{
+  "schema_version": "methodology-public-requirements-merge-checkpoint-v1",
+  "pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/52",
+  "reviewed_head": "4ffd2213ccbc82ac571fbd676b04ea8f2903b96e",
+  "merge_commit": "7ed97581c1e82eb13052874b0e82eb429580a7b1",
+  "merged_at": "2026-09-16T21:51:31Z",
+  "base_commit": "77e5c8b9274c75200b31cf14e730ac1398b06128",
+  "reviewed_and_merged_tree": "a6ee17f5fa0acc4dc8fd8c959c99f3fcc8bb97de",
+  "coordinator_independent_tests": {
+    "web_projection": 13,
+    "end_to_end_public_privacy": 1
+  },
+  "owner_tests": {
+    "methodology": 203,
+    "utility": 20,
+    "schema_and_reference_checks": 54
+  },
+  "ci_jobs": [
+    {
+      "url": "https://github.com/publication-intelligence/evaluate-subject-index/actions/runs/35154506908/job/104990612770",
+      "conclusion": "SUCCESS"
+    },
+    {
+      "url": "https://github.com/publication-intelligence/evaluate-subject-index/actions/runs/35154423877/job/104990343161",
+      "conclusion": "SUCCESS"
+    }
+  ],
+  "scope": [
+    "optional_safe_public_subject_and_task_requirement_fields",
+    "full_requirement_worker_guidance",
+    "private_review_receipt_guidance"
+  ],
+  "scoring_or_denominators_changed": false,
+  "audit_schema_changed": false,
+  "source_draft_or_policy_changed": false,
+  "installed_commit_still": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "new_staging_requested_activation_held_for_source_review": true,
+  "staged_installation": {
+    "commit": "7ed97581c1e82eb13052874b0e82eb429580a7b1",
+    "status": "staged_verified_not_activated",
+    "files_independently_verified": 120,
+    "git_blob_and_mode_equality_verified": true,
+    "receipt_file_sha256": "1eb4d78a05d1648643db8fce2839c2de2596ae665fd401355a3aa24ff317a5cf",
+    "payload_manifest_sha256": "5ef1567ffddd4d341a4582744a5eba4311e7efda40e19812594544f017aef8c3",
+    "checkpoint_file_sha256": "da501b32fa015ca9cfbeb6e500c48d1a2300208d73ca214d1aaa16525ebcf31f",
+    "activation_plan_sha256": "d8b3bbc1bcb2d239605eb584f8b19deae69a7ca0f4c1a116b7d4d4c84e87718b",
+    "installed_c11_receipt_and111files_unchanged": true
+  },
+  "checkpoint_sha256": "044f3a2d47083dea21fb45ee28c8beeb7f581713528fe3bf873dd969f97a829f"
+}

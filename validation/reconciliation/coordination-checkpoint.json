@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T21:46:22.997535+00:00",
+  "recorded_at": "2026-09-16T22:09:06.261358+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -32,6 +32,27 @@
     "exact_registered_report_bytes_in_comparison": true,
     "merge_tree_equals_tested_head": true,
     "staged_installation": {
+      "commit": "7ed97581c1e82eb13052874b0e82eb429580a7b1",
+      "status": "staged_verified_not_activated",
+      "files_verified_against_receipt_and_blob_ids": 120,
+      "receipt_sha256": "1eb4d78a05d1648643db8fce2839c2de2596ae665fd401355a3aa24ff317a5cf",
+      "payload_manifest_sha256": "5ef1567ffddd4d341a4582744a5eba4311e7efda40e19812594544f017aef8c3",
+      "activated": false,
+      "owner_staging_tests_passed": 203,
+      "owner_schema_checks_passed": 54
+    },
+    "public_requirement_projection_followup": {
+      "status": "merged_reviewed_ci_passed_and_fresh_staging_verified",
+      "reason": "Canonical nested access requirements survive migration/fingerprint but current public source-subject projection omits them.",
+      "scoring_changed": false,
+      "installed_runtime_changed": false,
+      "merge_commit": "7ed97581c1e82eb13052874b0e82eb429580a7b1",
+      "reviewed_head": "4ffd2213ccbc82ac571fbd676b04ea8f2903b96e",
+      "pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/52",
+      "coordinator_tests_passed": 14
+    },
+    "current_prepared_merge_commit": "7ed97581c1e82eb13052874b0e82eb429580a7b1",
+    "historical_staged_installation": {
       "commit": "77e5c8b9274c75200b31cf14e730ac1398b06128",
       "status": "staged_verified_not_activated",
       "files_verified_against_receipt_and_blob_ids": 120,
@@ -40,12 +61,6 @@
       "activated": false,
       "owner_staging_tests_passed": 201,
       "owner_schema_checks_passed": 54
-    },
-    "public_requirement_projection_followup": {
-      "status": "minimal_generic_fix_approved_implementation_underway",
-      "reason": "Canonical nested access requirements survive migration/fingerprint but current public source-subject projection omits them.",
-      "scoring_changed": false,
-      "installed_runtime_changed": false
     }
   },
   "preservation_checks": {
@@ -75,7 +90,7 @@
   },
   "limitations": [
     "Bounded comparison supports successor development; it is not whole-book approval.",
-    "Complete source synthesis and a distinct full independent review of the actual draft remain required.",
+    "Complete synthesis is registered; full independent review of the actual draft remains required.",
     "No final study release, audit transfer or density registration is approved.",
     "This is a coordination checkpoint, not canonical evaluation state or a replacement artifact manifest."
   ],
@@ -83,7 +98,7 @@
     "Published": "d4b17c5bf15da2448959436cfb82c05285a1a763",
     "IndexPDF": "15fbcceae798964338327c2cad893db196ac6983",
     "IndexerLabs": "443289183f2f83f1d8e00084d585812a644af9d7",
-    "Indexia": "372dabb"
+    "Indexia": "372dabbf3c77253afc06475f6d46f8b7d2460c23"
   },
   "all_four_candidate_prs_remain_draft": true,
   "successor": {
@@ -121,21 +136,33 @@
         "tasks": 336
       },
       "reviewer_007_012": {
-        "subjects": 147,
-        "relationships": 93,
-        "tasks": 55
+        "subjects": 238,
+        "relationships": 163,
+        "tasks": 91
       },
       "lead": {
-        "subjects": 182,
-        "relationships": 266,
-        "tasks": 208
+        "subjects": 91,
+        "relationships": 196,
+        "tasks": 172
       }
     },
     "cross_chapter_review_queue": 40,
     "fallback_task_review_queue": 6,
     "independent_open_findings": [
       "Independent lead confirmed map-internal eligibility language conflicts with frozen policy; precise affected evidence and required corrections are under review."
-    ]
+    ],
+    "completed_original_review_shard": {
+      "reviewer": "reviewer_007_012",
+      "subjects": 147,
+      "evidence": 617,
+      "relationships": 93,
+      "tasks": 55,
+      "source_first_findings": 159,
+      "manifest_sha256": "8f97720b376f73921954a82d55213b69b9c440cf2c372ef861e56d1426c68720",
+      "hashes_and_exact_id_coverage_verified": true,
+      "whole_book_editorial_approval": false
+    },
+    "partition_amendment_v3_sha256": "5b9f127bd0017a3f7d74242e06516a0d590b042f3e94436c6181767b274be97a"
   },
   "density_proposal": {
     "total": 193118,
@@ -144,11 +171,13 @@
     "measurement_sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
     "script_sha256": "74205eeff2bced9962b7ed40a5b8095142060c56c8ec69a2971cf2e6bca95663",
     "independent_exact_reproduction": true,
-    "study_registered": false
+    "study_registered": false,
+    "semantic_role_note_conflict": "Preserved measurement excludes map internals from word counts but source_role_note calls maps semantically eligible. Independent source lead must resolve against frozen policy before study lock; measurement is not semantic approval.",
+    "final_metadata_resolution_pending": true
   },
   "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17",
   "website_consumer": {
-    "status": "reviewed_pushed_ci_green_real_bundle_and_requirement_projection_pending",
+    "status": "reviewed_pushed_ci_green_actual_bundle_browser_qa_pending",
     "owner": "Published_evaluation_task",
     "scope": [
       "display_producer_benchmark_identity",
@@ -160,7 +189,7 @@
     "owner_focused_tests_passed": 86,
     "producer_synthetic_bundle_interoperability_passed": true,
     "pr": "https://github.com/publication-intelligence/publication-intelligence/pull/5",
-    "head": "ca6b958c267a14cced52111e6a32e0bbf6f35471",
+    "head": "67494e42ea84e6b746afc56c5de6dee54cae0845",
     "ci_status": "all_selected_jobs_passed",
     "ci_test_shards_passed": [
       "frontend-unit-1",
@@ -172,7 +201,7 @@
     "coordinator_followup_adapter_renderer_tests_passed": 57,
     "license_expression_fix_coordinator_tests_passed": 39,
     "license_expression_fix": "Committed;39 regression tests and full audit pass under unchanged allowlist/overrides; workflow unchanged.",
-    "ci_run": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35153272172",
+    "ci_run": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35155611003",
     "local_workspace_tasks_passed": 53,
     "historical_ci_application_failure": {
       "job": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35151174179/job/104979576382",
@@ -188,7 +217,10 @@
         "frontend build"
       ]
     },
-    "public_requirement_display": "Optional safe requirement projection and consumer display under preparation; no score formula or denominator change."
+    "public_requirement_display": "Reviewed safe optional details with English/Spanish interface text; authored prose remains producer data and no facet scores are invented.",
+    "historical_green_ci_head": "ca6b958c267a14cced52111e6a32e0bbf6f35471",
+    "historical_green_ci_run": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35153272172",
+    "coordinator_requirement_followup_tests_passed": 69
   },
   "authorization": {
     "recorded_at": "2026-09-16T21:14:40.118131+00:00",
@@ -203,7 +235,7 @@
     "remaining_holds_are_validation_dependencies": true
   },
   "candidate_evidence_triage": {
-    "status": "private_unassessed_against_successor",
+    "status": "all_private_inventories_verified_substantive_preparatory_direct_evidence_review_underway",
     "artifact_hashes_independently_verified": {
       "Indexia": 113,
       "IndexPDF": 118,
