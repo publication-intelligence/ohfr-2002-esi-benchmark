@@ -1,0 +1,114 @@
+{
+  "schema_version": "source-comparison-lineage-review-v1",
+  "lineages": {
+    "legacy": {
+      "historical_full_review_claim": true,
+      "candidate_unseen_historical_attestation": true,
+      "historical_recommendation": "approve_revised",
+      "coverage_id_checks": {
+        "subjects": {
+          "baseline_count": 1378,
+          "review_ids_count": 1378,
+          "baseline_missing_from_review": [],
+          "review_ids_not_in_baseline": [],
+          "final_ids_not_in_review": [],
+          "removed_before_final": [
+            "SUBJ-09D5FFF36144",
+            "SUBJ-0CC5A7A9E626",
+            "SUBJ-0CF9AFCA217E",
+            "SUBJ-1DD0CEE75C24",
+            "SUBJ-32F6C823F3F5",
+            "SUBJ-4A30FC8C0397",
+            "SUBJ-8427B4F41A3F",
+            "SUBJ-92C441983BB1",
+            "SUBJ-9A8197422710",
+            "SUBJ-A144B787506D",
+            "SUBJ-AC59985EBA31",
+            "SUBJ-B6A1171D6688"
+          ]
+        },
+        "relationships": {
+          "baseline_count": 3468,
+          "review_ids_count": 3468,
+          "baseline_missing_from_review": [],
+          "review_ids_not_in_baseline": [],
+          "final_ids_not_in_review": [],
+          "removed_before_final": [
+            "REL-45BC7774AA09",
+            "REL-7564EEB946EC",
+            "REL-837D6A1DACEE",
+            "REL-92168445F117",
+            "REL-9A0508523E1D",
+            "REL-B727846398E7",
+            "REL-D4072E18DF9D",
+            "REL-F1DD53403E1D"
+          ]
+        },
+        "reader_tasks": {
+          "baseline_count": 1026,
+          "review_ids_count": 1026,
+          "baseline_missing_from_review": [],
+          "review_ids_not_in_baseline": [],
+          "final_ids_not_in_review": [],
+          "removed_before_final": []
+        }
+      },
+      "review_ledger_file_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "final_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "canonical_benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+      "release_evidence": {
+        "kind": "git_bound_release_descriptor",
+        "artifact_freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+        "descriptor_file_sha256": "68701c2e7d0e3b16448180c19b16c4029a314c6f6e4d9c99bcae33dc034cbacf",
+        "historical_gate": "Frozen benchmark/review retained a historical merge hold; later exact release descriptor records clearance. The old control text is not a present semantic verdict.",
+        "review_limit": "Detailed predecessor QA referenced by the review is outside this packet; its separate item narratives were not independently inspected here."
+      }
+    },
+    "native": {
+      "historical_full_review_claim": true,
+      "candidate_unseen_historical_attestation": true,
+      "historical_recommendation": "approve_revised",
+      "coverage_id_checks": {
+        "subjects": {
+          "baseline_count": 638,
+          "review_ids_count": 638,
+          "baseline_missing_from_review": [],
+          "review_ids_not_in_baseline": [],
+          "final_ids_not_in_review": [],
+          "removed_before_final": []
+        },
+        "relationships": {
+          "baseline_count": 281,
+          "review_ids_count": 281,
+          "baseline_missing_from_review": [],
+          "review_ids_not_in_baseline": [],
+          "final_ids_not_in_review": [],
+          "removed_before_final": []
+        },
+        "reader_tasks": {
+          "baseline_count": 638,
+          "review_ids_count": 638,
+          "baseline_missing_from_review": [],
+          "review_ids_not_in_baseline": [],
+          "final_ids_not_in_review": [],
+          "removed_before_final": []
+        }
+      },
+      "review_ledger_file_sha256": "1427248ed809aeb829dac8deba3cfc6b932e90732132904318a17778b953e1c0",
+      "final_file_sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "canonical_benchmark_sha256": "558980b374ca4b162b12f2726e237319b170f9e8b7014f71ad7c2171e9e98983",
+      "release_evidence": {
+        "kind": "checkpoint_bound_source_only_freeze",
+        "portable_archive_sha256": "aaf2e4e85d1475f8be72e4e9a00d8415602f5aafeda54c85dfac1ecc483b7d64",
+        "state_file_sha256": "6a18926c020f1b5a7e9d08fcab9d09e1886a1a89ae016181f63446d18c1b4d5a",
+        "candidate_is_null": true,
+        "benchmark_freeze_stage": "completed",
+        "downstream_stages_not_started": true,
+        "git_freeze_commit": null
+      }
+    }
+  },
+  "interpretation": "Both lineages retain genuine historical source-only independent-review provenance. Complete historical ID coverage is not proof that present semantic fields are error-free. This comparison neither repudiates every historical judgment nor reapproves either freeze.",
+  "current_methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "mechanical_validator_note": "Root coordinator reports installed legacy and native review validators returned no errors on the exact lineages. This is structural provenance evidence only and was not used as editorial approval."
+}

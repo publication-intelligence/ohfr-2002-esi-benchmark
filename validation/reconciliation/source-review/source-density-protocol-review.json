@@ -1,0 +1,143 @@
+{
+  "schema_version": "source-density-protocol-review-v1",
+  "status": "approved_as_source_measurement_proposal_not_study_registered",
+  "approver_role": "principal_candidate_unexposed_source_comparison_reviewer",
+  "measurement_file_sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
+  "script_sha256": "74205eeff2bced9962b7ed40a5b8095142060c56c8ec69a2971cf2e6bca95663",
+  "measurement_id": "ohfr-2002-uniform-body-caption-v1",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+  "rationale": [
+    "One source-role rule and one tokenizer replace mixed historical conventions.",
+    "Substantive prose, block quotations, available notes and map captions are counted; navigation, note calls and source credits are not.",
+    "All five maps remain source evidence. Graphic internals are excluded from prose density; the page129 name list is a numbered map key rather than a separate analytic table.",
+    "The decision was made by source role before using the total, with no candidate quantities or desired density result.",
+    "The full page geometry and ownership are verified mechanically. A separate fresh-context reviewer checked all five maps and all17 chapter-opening top regions, and accepted this explicit operational denominator.",
+    "Excluding chapter display headings is an explicit navigation-versus-prose measurement choice, not exclusion of headings or maps from semantic eligibility."
+  ],
+  "reviewed_material": [
+    "Both 17-chunk discovery word-count provenance sets",
+    "Exact source bbox extraction",
+    "Source-map visual checks3,127,129,225,345 by source-only team",
+    "Principal display checks136,318"
+  ],
+  "historical_counts": [
+    {
+      "chunk_id": "CHUNK-001",
+      "legacy": 19778,
+      "native": 19854,
+      "uniform_protocol": 19635
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "legacy": 10088,
+      "native": 9970,
+      "uniform_protocol": 9922
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "legacy": 9090,
+      "native": 9171,
+      "uniform_protocol": 9055
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "legacy": 11987,
+      "native": 11993,
+      "uniform_protocol": 11861
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "legacy": 10384,
+      "native": 10328,
+      "uniform_protocol": 10208
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "legacy": 10356,
+      "native": 10573,
+      "uniform_protocol": 10478
+    },
+    {
+      "chunk_id": "CHUNK-007",
+      "legacy": 6561,
+      "native": 6627,
+      "uniform_protocol": 6543
+    },
+    {
+      "chunk_id": "CHUNK-008",
+      "legacy": 10909,
+      "native": 10908,
+      "uniform_protocol": 10803
+    },
+    {
+      "chunk_id": "CHUNK-009",
+      "legacy": 10537,
+      "native": 10469,
+      "uniform_protocol": 10457
+    },
+    {
+      "chunk_id": "CHUNK-010",
+      "legacy": 12192,
+      "native": 12190,
+      "uniform_protocol": 12080
+    },
+    {
+      "chunk_id": "CHUNK-011",
+      "legacy": 11621,
+      "native": 11628,
+      "uniform_protocol": 11612
+    },
+    {
+      "chunk_id": "CHUNK-012",
+      "legacy": 11603,
+      "native": 11947,
+      "uniform_protocol": 11557
+    },
+    {
+      "chunk_id": "CHUNK-013",
+      "legacy": 9810,
+      "native": 9816,
+      "uniform_protocol": 9710
+    },
+    {
+      "chunk_id": "CHUNK-014",
+      "legacy": 10836,
+      "native": 10837,
+      "uniform_protocol": 10719
+    },
+    {
+      "chunk_id": "CHUNK-015",
+      "legacy": 12739,
+      "native": 12633,
+      "uniform_protocol": 12419
+    },
+    {
+      "chunk_id": "CHUNK-016",
+      "legacy": 10258,
+      "native": 10405,
+      "uniform_protocol": 10257
+    },
+    {
+      "chunk_id": "CHUNK-017",
+      "legacy": 15969,
+      "native": 15997,
+      "uniform_protocol": 15802
+    }
+  ],
+  "historical_totals": {
+    "legacy": 194718,
+    "native": 195346
+  },
+  "proposed_total": 193118,
+  "repeatability": "Root independently reran the final code and reports byte-identical measurement output and rejection of a tampered manifest before output creation.",
+  "invocation": "python3 scripts/measure_source_density.py --source SOURCE.pdf --manifest chunk-manifest.json --page-map page-map.json --private-dir PRIVATE_WORK_DIRECTORY --output source-density-measurement.json",
+  "limits": "This is an exact operational text-density denominator, not the unique linguistic word count. PDF whitespace/possessives retain their extraction convention. No change to source subject eligibility, benchmark identity, policy or historical counts is made.",
+  "approval_is_not": "Study-wide registration, benchmark selection, retrospective recalculation or candidate result transfer.",
+  "independent_targeted_review": {
+    "artifact": "independent-decision-check.json",
+    "sha256": "5a87cba37d61ee1b58a397eed88d024b0115e7ec0f5ca9c019ece53cb4ea8f72",
+    "verdict": "defensible_reproducible_operational_prose_denominator_for_exact_bound_inputs"
+  }
+}

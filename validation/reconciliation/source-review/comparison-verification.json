@@ -1,0 +1,62 @@
+{
+  "schema_version": "source-comparison-verification-v1",
+  "status": "passed",
+  "scope": "Mechanical consistency of completed bounded comparison, not full editorial approval",
+  "allowlisted_original_and_addendum_files_hash_verified_unchanged": 158,
+  "semantic_groups": 78,
+  "semantic_comparison_pages": 128,
+  "full_entity_inventories_unique_and_reconciled": true,
+  "all_crosswalk_pages_within_declared_inspection": true,
+  "independent_check_sha_bound": true,
+  "public_artifacts_parse_and_no_private_absolute_paths": true,
+  "files": [
+    {
+      "path": "source-comparison.json",
+      "sha256": "93fcaeb001b9326cf0f6775325c6ad4c998cc36bde08f42d6069c43bba587279"
+    },
+    {
+      "path": "semantic-crosswalk.json",
+      "sha256": "32d46286f08031f68b95c00907aad0eff7cd5654576cc3048f4ea0d3be00b734"
+    },
+    {
+      "path": "entity-review-coverage.json",
+      "sha256": "c90f2834878c73895f3803e7ba6083583d2e8f8ff08166d77b7d12cb5524e1e4"
+    },
+    {
+      "path": "lineage-review.json",
+      "sha256": "54852f5e3f50e836a8a275fd2a30bea44606ca43cfed13fa24ea525b09e69384"
+    },
+    {
+      "path": "source-density-measurement.json",
+      "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767"
+    },
+    {
+      "path": "source-density-protocol-review.json",
+      "sha256": "6814726da6939cdd16c9033cd691e142baa98943a520216eca4c3be094def0e0"
+    },
+    {
+      "path": "independent-decision-check.json",
+      "sha256": "5a87cba37d61ee1b58a397eed88d024b0115e7ec0f5ca9c019ece53cb4ea8f72"
+    },
+    {
+      "path": "chunks-001-006.json",
+      "sha256": "0021effeac65697f227890690300868029eaa6503ac6c8f819be255f0c0bc3ab"
+    },
+    {
+      "path": "chunks-007-012.json",
+      "sha256": "37ebe9c81cc73f2596fa39efa22892c77b1e3ccd9786ea858022079665eac1ee"
+    },
+    {
+      "path": "chunks-013-017.json",
+      "sha256": "61e22fd032662bd75e51d4390ece68e02006a21445a3891c84ab8a3a26a2878d"
+    }
+  ],
+  "report_sha256": "ecc849ee916196f0de707d21076d2becb2506a17fa7dee3d7ff5319b85d13712",
+  "density_script_sha256": "74205eeff2bced9962b7ed40a5b8095142060c56c8ec69a2971cf2e6bca95663",
+  "state_changes": {
+    "freezes_modified": false,
+    "successor_created": false,
+    "successor_registered": false,
+    "audit_transfer_approved": false
+  }
+}

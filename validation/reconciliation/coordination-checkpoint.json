@@ -1,19 +1,28 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T19:26:54.008250+00:00",
-  "benchmark_selection": "pending_source_only_comparison",
+  "recorded_at": "2026-09-16T19:49:24.502615+00:00",
+  "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
     "fresh_context": true,
     "input_allowlist_sha256": "a977c0270f13d0d4a39881da80ceb99911621ed6ad061de50613755dc128922e",
     "native_freeze_addendum_sha256": "4e847fbb81888cca2f39923d9ef7b10f3d223ce7a9a3ff868a15ec06662a5eb9",
-    "attestation_status": "reviewer_authored_attestation_pending"
+    "attestation_status": "reviewer_authored_attestations_complete_for_bounded_comparison",
+    "comparison_decision_sha256": "93fcaeb001b9326cf0f6775325c6ad4c998cc36bde08f42d6069c43bba587279",
+    "independent_check_sha256": "5a87cba37d61ee1b58a397eed88d024b0115e7ec0f5ca9c019ece53cb4ea8f72",
+    "all_158_allowlisted_inputs_unchanged": true,
+    "source_semantic_pages_reviewed": 128,
+    "total_source_pages": 425,
+    "crosswalk_complete": false,
+    "semantic_groups": 78
   },
   "methodology": {
     "installed_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
     "verified_file_count": 111,
     "receipt_and_git_blob_equality_verified": true,
-    "generic_study_lock_work": "in_progress_no_release_or_install"
+    "generic_study_lock_work": "PR_review_corrections_in_progress_not_installed",
+    "pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/51",
+    "reviewed_head": "9335ef07c309cfcd0b94e428288e5e98f1ad7c3b"
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -41,9 +50,10 @@
     "audit_transfer_authorized": false
   },
   "limitations": [
-    "Source comparison and semantic crosswalk remain in progress.",
-    "No density basis is selected; reviewer is examining a uniform source counting protocol.",
-    "Reconciliation checkpoint is not canonical evaluation state, a benchmark approval, or a substitute artifact manifest."
+    "Bounded comparison supports successor development; it is not whole-book approval.",
+    "Complete source synthesis and a distinct full independent review of the actual draft remain required.",
+    "No final study release, audit transfer or density registration is approved.",
+    "This is a coordination checkpoint, not canonical evaluation state or a replacement artifact manifest."
   ],
   "candidate_preparation_heads": {
     "Published": "d4b17c5bf15da2448959436cfb82c05285a1a763",
@@ -51,5 +61,19 @@
     "IndexerLabs": "443289183f2f83f1d8e00084d585812a644af9d7",
     "Indexia": "372dabb"
   },
-  "all_four_candidate_prs_remain_draft": true
+  "all_four_candidate_prs_remain_draft": true,
+  "successor": {
+    "status": "full_source_only_synthesis_started",
+    "independent_review": "required_after_actual_draft",
+    "frozen": false
+  },
+  "density_proposal": {
+    "total": 193118,
+    "pages": 425,
+    "chunks": 17,
+    "measurement_sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
+    "script_sha256": "74205eeff2bced9962b7ed40a5b8095142060c56c8ec69a2971cf2e6bca95663",
+    "independent_exact_reproduction": true,
+    "study_registered": false
+  }
 }
