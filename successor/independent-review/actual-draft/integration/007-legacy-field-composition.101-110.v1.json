@@ -1,0 +1,2420 @@
+{
+  "schema_version": "independent-legacy-repair-composition-v1",
+  "status": "sealed_scoped_repaired_values; whole_book_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    }
+  ],
+  "group_range": [
+    101,
+    110
+  ],
+  "rows": [
+    {
+      "group_index": 101,
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0200",
+        "CORR-007-LEGACY-0201"
+      ],
+      "source_correction_row_sha256s": [
+        "57da800a14339cfa4e7c52a14fb84772c67e2c1eebd1790de299e3ff8e1bf3e9",
+        "0e0f4241c04291c66c9a0e97f207721028267527091cf29ce2c8a76704c97ddf"
+      ],
+      "before_record": {
+        "label": "Law of 22 Prairial: tribunal procedure and political repercussions",
+        "priority": "essential",
+        "meaning": "The June 1794 law that expanded the Revolutionary Tribunal, eliminated important defenses, defined enemies broadly, and accelerated executions.",
+        "stance": "The law is presented as a decisive intensification that made moral or political nonconformity potentially capital and alarmed even governing deputies. Increased capital punishment follows the procedural law, not the reverse. Acquittal is not described as abolished: death is the only penalty the tribunal may impose.",
+        "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+        "acceptable_access": [
+          "Law of 22 Prairial: tribunal procedure and political repercussions",
+          "Law of 22 Prairial",
+          "Great Terror",
+          "Revolutionary Tribunal, procedure",
+          "Terror, intensification in 1794",
+          "Revolutionary Tribunal—procedure under Prairial",
+          "enemies of the people—legal definition"
+        ],
+        "evidence": [
+          {
+            "document_page": 275,
+            "source_page_label": "275",
+            "locator_class": "principal",
+            "evidence_summary": "The law increases judges and jurors, dispenses with witnesses and defense counsel, and leaves death as the tribunal's sole penalty.",
+            "evidence_id": "EVID-SUCC-7EBC5AF704A4",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 277,
+            "source_page_label": "277",
+            "locator_class": "supporting",
+            "evidence_summary": "Its sweeping terms multiply Robespierre's enemies and intensify disputes between the Committees of Public Safety and General Security.",
+            "evidence_id": "EVID-SUCC-F826EF0C8A4C",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 278,
+            "source_page_label": "278",
+            "locator_class": "supporting",
+            "evidence_summary": "Deputies secure a guarantee of parliamentary immunity under the law as fear of arbitrary arrest grows.",
+            "evidence_id": "EVID-SUCC-2E32D48DEBF1",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 282,
+            "source_page_label": "282",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The remodelled governing committees repeal the law immediately after Thermidor, helping collapse the Terror.",
+            "evidence_id": "EVID-SUCC-242E39D2471B",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-012"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C012-S004",
+            "label": "Law of 22 Prairial: tribunal procedure and political repercussions",
+            "meaning": "The June 1794 law that expanded the Revolutionary Tribunal, eliminated important defenses, defined enemies broadly, and accelerated executions.",
+            "stance": "The law is presented as a decisive intensification that made moral or political nonconformity potentially capital and alarmed even governing deputies. Increased capital punishment follows the procedural law, not the reverse. Acquittal is not described as abolished: death is the only penalty the tribunal may impose.",
+            "acceptable_access": [
+              "Law of 22 Prairial: tribunal procedure and political repercussions",
+              "Law of 22 Prairial",
+              "Great Terror",
+              "Revolutionary Tribunal, procedure",
+              "Terror, intensification in 1794",
+              "Revolutionary Tribunal—procedure under Prairial",
+              "enemies of the people—legal definition"
+            ],
+            "document_pages": [
+              275,
+              277,
+              278,
+              282
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C012-S004"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C012-S004",
+            "label": "Law of 22 Prairial: tribunal procedure and political repercussions",
+            "meaning": "The June 1794 law that expanded the Revolutionary Tribunal, eliminated important defenses, defined enemies broadly, and accelerated executions.",
+            "stance": "The law is presented as a decisive intensification that made moral or political nonconformity potentially capital and alarmed even governing deputies. Increased capital punishment follows the procedural law, not the reverse. Acquittal is not described as abolished: death is the only penalty the tribunal may impose.",
+            "acceptable_access": [
+              "Law of 22 Prairial: tribunal procedure and political repercussions",
+              "Law of 22 Prairial",
+              "Great Terror",
+              "Revolutionary Tribunal, procedure",
+              "Terror, intensification in 1794",
+              "Revolutionary Tribunal—procedure under Prairial",
+              "enemies of the people—legal definition"
+            ],
+            "document_pages": [
+              275,
+              277,
+              278,
+              282
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "e9b2a137fb05c7b4dee62a6d8feef037ac1270f03cf6337c2f1910790674a4df",
+      "proposed_record": {
+        "label": "Law of 22 Prairial: tribunal procedure and political repercussions",
+        "priority": "essential",
+        "meaning": "The June 1794 law that expanded the Revolutionary Tribunal, eliminated important defenses, defined enemies broadly, and accelerated executions. Robespierre and Couthon advanced it without prior consultation, deepening committee distrust and deputies’ fear for their immunity.",
+        "stance": "The law is presented as a decisive intensification that made moral or political nonconformity potentially capital and alarmed even governing deputies. Increased capital punishment follows the procedural law, not the reverse. Acquittal is not described as abolished: death is the only penalty the tribunal may impose.",
+        "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+        "acceptable_access": [
+          "Law of 22 Prairial: tribunal procedure and political repercussions",
+          "Law of 22 Prairial",
+          "Great Terror",
+          "Revolutionary Tribunal, procedure",
+          "Terror, intensification in 1794",
+          "Revolutionary Tribunal—procedure under Prairial",
+          "enemies of the people—legal definition"
+        ],
+        "evidence": [
+          {
+            "document_page": 275,
+            "source_page_label": "275",
+            "locator_class": "principal",
+            "evidence_summary": "The law increases judges and jurors, dispenses with witnesses and defense counsel, and leaves death as the tribunal's sole penalty.",
+            "evidence_id": "EVID-SUCC-7EBC5AF704A4",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 277,
+            "source_page_label": "277",
+            "locator_class": "supporting",
+            "evidence_summary": "Robespierre and Couthon introduced the sweeping law without prior committee consultation, reflecting uncertain support and widening their enemies. Deputies and the governing committees feared its reach amid overlapping police jurisdiction and internal quarrels.",
+            "evidence_id": "EVID-SUCC-F826EF0C8A4C",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 278,
+            "source_page_label": "278",
+            "locator_class": "supporting",
+            "evidence_summary": "Deputies secure a guarantee of parliamentary immunity under the law as fear of arbitrary arrest grows.",
+            "evidence_id": "EVID-SUCC-2E32D48DEBF1",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 282,
+            "source_page_label": "282",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The remodelled governing committees repeal the law immediately after Thermidor, helping collapse the Terror.",
+            "evidence_id": "EVID-SUCC-242E39D2471B",
+            "source_local_subject_id": "SUCC-C012-S004",
+            "source_chunk_id": "CHUNK-012"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-012"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C012-S004",
+            "label": "Law of 22 Prairial: tribunal procedure and political repercussions",
+            "meaning": "The June 1794 law that expanded the Revolutionary Tribunal, eliminated important defenses, defined enemies broadly, and accelerated executions. Robespierre and Couthon advanced it without prior consultation, deepening committee distrust and deputies’ fear for their immunity.",
+            "stance": "The law is presented as a decisive intensification that made moral or political nonconformity potentially capital and alarmed even governing deputies. Increased capital punishment follows the procedural law, not the reverse. Acquittal is not described as abolished: death is the only penalty the tribunal may impose.",
+            "acceptable_access": [
+              "Law of 22 Prairial: tribunal procedure and political repercussions",
+              "Law of 22 Prairial",
+              "Great Terror",
+              "Revolutionary Tribunal, procedure",
+              "Terror, intensification in 1794",
+              "Revolutionary Tribunal—procedure under Prairial",
+              "enemies of the people—legal definition"
+            ],
+            "document_pages": [
+              275,
+              277,
+              278,
+              282
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C012-S004"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C012-S004",
+            "label": "Law of 22 Prairial: tribunal procedure and political repercussions",
+            "meaning": "The June 1794 law that expanded the Revolutionary Tribunal, eliminated important defenses, defined enemies broadly, and accelerated executions. Robespierre and Couthon advanced it without prior consultation, deepening committee distrust and deputies’ fear for their immunity.",
+            "stance": "The law is presented as a decisive intensification that made moral or political nonconformity potentially capital and alarmed even governing deputies. Increased capital punishment follows the procedural law, not the reverse. Acquittal is not described as abolished: death is the only penalty the tribunal may impose.",
+            "acceptable_access": [
+              "Law of 22 Prairial: tribunal procedure and political repercussions",
+              "Law of 22 Prairial",
+              "Great Terror",
+              "Revolutionary Tribunal, procedure",
+              "Terror, intensification in 1794",
+              "Revolutionary Tribunal—procedure under Prairial",
+              "enemies of the people—legal definition"
+            ],
+            "document_pages": [
+              275,
+              277,
+              278,
+              282
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "f87f103235a0ef6b5c6833bdde250c0c6d42d470695b238ec90a5a0e363125f6",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "277 supplies the unconsulted introduction and institutional distrust;278 separately treats deputies’ immunity fears and explicit guarantee. The parent may encompass both pages, but the277 evidence remains limited to that page’s general anxiety and jurisdictional conflict. The preserved stance does not assert abolition of acquittal.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 102,
+      "subject_id": "SUBJ-SUCC-71A8FF90E718",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0202",
+        "CORR-007-LEGACY-0203",
+        "CORR-007-LEGACY-0295",
+        "CORR-007-LEGACY-0296"
+      ],
+      "source_correction_row_sha256s": [
+        "6449f7dae0cf981fd84dd1442518c2af687c855a3e8c6405db0bc747f3bba5e8",
+        "3a2c3d8051760bf671aff274a01f347c03013112d892b37dd2de7e305437002b",
+        "bd419e6a45ab013430f6f8da321415dc80204aa132d09eb84bb6c6cbdcb38399",
+        "e5164d86c88e32094bbda88f506d61d1af12c7898068b818470d03445073f06a"
+      ],
+      "before_record": {
+        "label": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+        "priority": "essential",
+        "meaning": "Under pressure of slave rebellion, white resistance and foreign invasion, Sonthonax offered freedom for black military service and then proclaimed local emancipation. The Convention subsequently abolished slavery and declared citizenship throughout the French colonies.",
+        "stance": "The 1791 uprising is a separately accessible antecedent. Distinguish free coloured rights from emancipation of enslaved people, and Sonthonax’s unauthorized provincial action from the Convention’s colonial decree. Abolition was belated and driven by colonial action and war; later restoration and Haitian independence remain separate requirements.",
+        "subject_id": "SUBJ-SUCC-71A8FF90E718",
+        "acceptable_access": [
+          "Slavery--abolition,1793–1794",
+          "Sonthonax--wartime emancipation",
+          "Convention--abolition decree of 4 February 1794",
+          "Colonial citizenship--emancipation"
+        ],
+        "evidence": [
+          {
+            "document_page": 411,
+            "source_page_label": "411",
+            "locator_class": "principal",
+            "evidence_summary": "Metropolitan abolitionism was weak, but political conflict over representation and free-coloured rights destabilized Saint-Domingue.",
+            "evidence_id": "EVID-SUCC-BFF9109E847A",
+            "source_local_subject_id": "SUCC-C017-S025",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 412,
+            "source_page_label": "412",
+            "locator_class": "principal",
+            "evidence_summary": "The 1791 uprising forced racial policy; Sonthonax’s unauthorized local emancipation followed black military support and invasion. The Convention’s decree then abolished slavery in all French colonies and proclaimed citizenship.",
+            "evidence_id": "EVID-SUCC-95B3CA508791",
+            "source_local_subject_id": "SUCC-C017-S025",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S025",
+            "label": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+            "meaning": "Under pressure of slave rebellion, white resistance and foreign invasion, Sonthonax offered freedom for black military service and then proclaimed local emancipation. The Convention subsequently abolished slavery and declared citizenship throughout the French colonies.",
+            "stance": "The 1791 uprising is a separately accessible antecedent. Distinguish free coloured rights from emancipation of enslaved people, and Sonthonax’s unauthorized provincial action from the Convention’s colonial decree. Abolition was belated and driven by colonial action and war; later restoration and Haitian independence remain separate requirements.",
+            "acceptable_access": [
+              "Slavery--abolition,1793–1794",
+              "Sonthonax--wartime emancipation",
+              "Convention--abolition decree of 4 February 1794",
+              "Colonial citizenship--emancipation"
+            ],
+            "document_pages": [
+              411,
+              412
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S025"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S025",
+            "label": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+            "meaning": "Under pressure of slave rebellion, white resistance and foreign invasion, Sonthonax offered freedom for black military service and then proclaimed local emancipation. The Convention subsequently abolished slavery and declared citizenship throughout the French colonies.",
+            "stance": "The 1791 uprising is a separately accessible antecedent. Distinguish free coloured rights from emancipation of enslaved people, and Sonthonax’s unauthorized provincial action from the Convention’s colonial decree. Abolition was belated and driven by colonial action and war; later restoration and Haitian independence remain separate requirements.",
+            "acceptable_access": [
+              "Slavery--abolition,1793–1794",
+              "Sonthonax--wartime emancipation",
+              "Convention--abolition decree of 4 February 1794",
+              "Colonial citizenship--emancipation"
+            ],
+            "document_pages": [
+              411,
+              412
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "d1602087bac1e186492bfd3c4760c3c80e80ea8af90bbe851db53a2218ec0c47",
+      "proposed_record": {
+        "label": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+        "priority": "essential",
+        "meaning": "Under pressure of slave rebellion, white resistance and foreign invasion, Sonthonax offered freedom for black military service and then proclaimed local emancipation. The Convention subsequently abolished slavery and declared citizenship throughout the French colonies. The commissioners initially reaffirmed slavery; Sonthonax’s later reversal emerged from the changing colonial struggle rather than carrying out an existing metropolitan abolition mandate.",
+        "stance": "The 1791 uprising is a separately accessible antecedent. Distinguish free coloured rights from emancipation of enslaved people, and Sonthonax’s unauthorized provincial action from the Convention’s colonial decree. Abolition was belated and driven by colonial action and war; later restoration and Haitian independence remain separate requirements. The Convention welcomed emancipation partly as a means of defeating British and Spanish enemies in the Caribbean; universal citizenship language coexisted with that strategic motive.",
+        "subject_id": "SUBJ-SUCC-71A8FF90E718",
+        "acceptable_access": [
+          "Slavery--abolition,1793–1794",
+          "Sonthonax--wartime emancipation",
+          "Convention--abolition decree of 4 February 1794",
+          "Colonial citizenship--emancipation"
+        ],
+        "evidence": [
+          {
+            "document_page": 411,
+            "source_page_label": "411",
+            "locator_class": "principal",
+            "evidence_summary": "Metropolitan abolitionism was weak, but political conflict over representation and free-coloured rights destabilized Saint-Domingue.",
+            "evidence_id": "EVID-SUCC-BFF9109E847A",
+            "source_local_subject_id": "SUCC-C017-S025",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 412,
+            "source_page_label": "412",
+            "locator_class": "principal",
+            "evidence_summary": "Slave rebellion and invasion forced racial policy; Sonthonax’s unauthorized emancipation followed black military support. Paris welcomed it partly as a weapon against Britain and Spain, then on 4 February 1794 abolished slavery throughout French colonies and proclaimed full citizenship. The commissioners had first defended slavery; Sonthonax then offered freedom for black military service and subsequently general emancipation locally, without metropolitan authorization.",
+            "evidence_id": "EVID-SUCC-95B3CA508791",
+            "source_local_subject_id": "SUCC-C017-S025",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S025",
+            "label": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+            "meaning": "Under pressure of slave rebellion, white resistance and foreign invasion, Sonthonax offered freedom for black military service and then proclaimed local emancipation. The Convention subsequently abolished slavery and declared citizenship throughout the French colonies. The commissioners initially reaffirmed slavery; Sonthonax’s later reversal emerged from the changing colonial struggle rather than carrying out an existing metropolitan abolition mandate.",
+            "stance": "The 1791 uprising is a separately accessible antecedent. Distinguish free coloured rights from emancipation of enslaved people, and Sonthonax’s unauthorized provincial action from the Convention’s colonial decree. Abolition was belated and driven by colonial action and war; later restoration and Haitian independence remain separate requirements. The Convention welcomed emancipation partly as a means of defeating British and Spanish enemies in the Caribbean; universal citizenship language coexisted with that strategic motive.",
+            "acceptable_access": [
+              "Slavery--abolition,1793–1794",
+              "Sonthonax--wartime emancipation",
+              "Convention--abolition decree of 4 February 1794",
+              "Colonial citizenship--emancipation"
+            ],
+            "document_pages": [
+              411,
+              412
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S025"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S025",
+            "label": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+            "meaning": "Under pressure of slave rebellion, white resistance and foreign invasion, Sonthonax offered freedom for black military service and then proclaimed local emancipation. The Convention subsequently abolished slavery and declared citizenship throughout the French colonies. The commissioners initially reaffirmed slavery; Sonthonax’s later reversal emerged from the changing colonial struggle rather than carrying out an existing metropolitan abolition mandate.",
+            "stance": "The 1791 uprising is a separately accessible antecedent. Distinguish free coloured rights from emancipation of enslaved people, and Sonthonax’s unauthorized provincial action from the Convention’s colonial decree. Abolition was belated and driven by colonial action and war; later restoration and Haitian independence remain separate requirements. The Convention welcomed emancipation partly as a means of defeating British and Spanish enemies in the Caribbean; universal citizenship language coexisted with that strategic motive.",
+            "acceptable_access": [
+              "Slavery--abolition,1793–1794",
+              "Sonthonax--wartime emancipation",
+              "Convention--abolition decree of 4 February 1794",
+              "Colonial citizenship--emancipation"
+            ],
+            "document_pages": [
+              411,
+              412
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "8fa3d9a86b75a259209bb387835724f792915710c2d383c5f6ed872a6f29c246",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "412 distinguishes initial affirmation of slavery, service-linked freedom, unauthorized local emancipation and the Convention’s later colony-wide decree. Combine the initial-position and strategic-motive additions without merging these stages or free-coloured rights with emancipation.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 103,
+      "subject_id": "SUBJ-SUCC-28E04117C501",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0205",
+        "CORR-007-LEGACY-0340",
+        "CORR-007-LEGACY-0341",
+        "CORR-007-LEGACY-0443",
+        "CORR-007-LEGACY-0444"
+      ],
+      "source_correction_row_sha256s": [
+        "80619fa334a1393c1ab8af51fe79645ee73e782c7f1a2655eed17e36b0fb2d75",
+        "656f898962f7cfe8a8786017fb7c39448cd1c0b611e6ec2ed1c5dc1a684293ea",
+        "0bf5e5faaed564852ce0b04c9587f159f36c3e7e4177af722853f8f610b4fcc2",
+        "fec5e7449ba1643cb8fafecd9ac831f945714fa940279a0b6bd20bbf749435f2",
+        "506e2da62c5a898dbd21e268279c651f2da0f3b0bd212950769c535264bd1432"
+      ],
+      "before_record": {
+        "label": "Catholic clergy: dispossession, schism, and dechristianization",
+        "priority": "essential",
+        "meaning": "The Revolution dismantled the Gallican Church's corporate resources, dissolved monastic life, divided oath-taking and refractory clergy, and subjected priests and worship to persecution. Nuns overwhelmingly opposed convent dissolution, unlike many released monks; the Concordat did not restore the former corporate or cloistered order. Refractory priests faced deprivation and persecution, while constitutional priests lost papal recognition and widespread popular legitimacy; the two camps suffered different forms of exclusion.",
+        "stance": "The clergy suffered more cataclysmically than the nobility; the resulting schism and trauma were deep and enduring.",
+        "subject_id": "SUBJ-SUCC-28E04117C501",
+        "acceptable_access": [
+          "Catholic Church—effects of the Revolution",
+          "Clergy—Civil Constitution and oath",
+          "Dechristianization",
+          "Monasticism—dissolution",
+          "Nuns--resistance to convent dissolution",
+          "Women religious--clerical oath",
+          "Constitutional and refractory clergy--schism",
+          "Little Church--unreconciled religious division",
+          "Clerical emigration and mortality"
+        ],
+        "evidence": [
+          {
+            "document_page": 396,
+            "source_page_label": "396",
+            "locator_class": "principal",
+            "evidence_summary": "Loss of tithes, feudal rights, land, corporate autonomy, and monasticism preceded the Civil Constitution's formal restructuring.",
+            "evidence_id": "EVID-SUCC-D9A37306716C",
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 397,
+            "source_page_label": "397",
+            "locator_class": "principal",
+            "evidence_summary": "The oath splits clergy: refractories lose posts and face massacre, execution, deportation or emigration, while jurors are discredited by papal condemnation and loss of popular legitimacy amid wider religious disruption.",
+            "evidence_id": "EVID-SUCC-2FA0C14F1B68",
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-96B5DFEDFBE0",
+            "source_evidence_id": "EVID-B8AA44A02DB8",
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The conclusion treats dechristianization and the resulting papal revival as distinctive outcomes of the revolutionary Church conflict.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S071",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-5D94BA5B1458",
+              "evidence_id": "EVID-29EC30048535"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S007",
+            "label": "Catholic clergy: dispossession, schism, and dechristianization",
+            "meaning": "The Revolution dismantled the Gallican Church's corporate resources, dissolved monastic life, divided oath-taking and refractory clergy, and subjected priests and worship to persecution. Nuns overwhelmingly opposed convent dissolution, unlike many released monks; the Concordat did not restore the former corporate or cloistered order.",
+            "stance": "The clergy suffered more cataclysmically than the nobility; the resulting schism and trauma were deep and enduring.",
+            "acceptable_access": [
+              "Catholic Church—effects of the Revolution",
+              "Clergy—Civil Constitution and oath",
+              "Dechristianization",
+              "Monasticism—dissolution",
+              "Nuns--resistance to convent dissolution",
+              "Women religious--clerical oath",
+              "Constitutional and refractory clergy--schism",
+              "Little Church--unreconciled religious division",
+              "Clerical emigration and mortality"
+            ],
+            "document_pages": [
+              396,
+              397
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S007"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S007",
+            "label": "Catholic clergy: dispossession, schism, and dechristianization",
+            "meaning": "The Revolution dismantled the Gallican Church's corporate resources, dissolved monastic life, divided oath-taking and refractory clergy, and subjected priests and worship to persecution. Nuns overwhelmingly opposed convent dissolution, unlike many released monks; the Concordat did not restore the former corporate or cloistered order.",
+            "stance": "The clergy suffered more cataclysmically than the nobility; the resulting schism and trauma were deep and enduring.",
+            "acceptable_access": [
+              "Catholic Church—effects of the Revolution",
+              "Clergy—Civil Constitution and oath",
+              "Dechristianization",
+              "Monasticism—dissolution",
+              "Nuns--resistance to convent dissolution",
+              "Women religious--clerical oath",
+              "Constitutional and refractory clergy--schism",
+              "Little Church--unreconciled religious division",
+              "Clerical emigration and mortality"
+            ],
+            "document_pages": [
+              396,
+              397
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "711a8fdd4e3784a2ffbabb39b6579a5215ccdfaa0bee1b4675d72a5d58ce0358",
+      "proposed_record": {
+        "label": "Catholic clergy: dispossession, schism, and dechristianization",
+        "priority": "essential",
+        "meaning": "The Revolution dismantled the Gallican Church's corporate resources, dissolved monastic life, divided oath-taking and refractory clergy, and subjected priests and worship to persecution. Nuns overwhelmingly opposed convent dissolution, unlike many released monks; the Concordat did not restore the former corporate or cloistered order. Refractory priests faced deprivation and persecution, while constitutional priests lost papal recognition and widespread popular legitimacy; the two camps suffered different forms of exclusion. Emigration and deportation fell predominantly on secular clergy, leaving parish staffing nearly halved in Doyle’s account and making persecution a local social loss as well as an institutional trauma.",
+        "stance": "The clergy suffered more cataclysmically than the nobility; the resulting schism and trauma were deep and enduring. The concluding counterfactual treats the revolutionary Church conflict and dechristianization as contingent ruptures that paradoxically helped revive papal authority, not inevitable extensions of earlier secular trends.",
+        "subject_id": "SUBJ-SUCC-28E04117C501",
+        "acceptable_access": [
+          "Catholic Church—effects of the Revolution",
+          "Clergy—Civil Constitution and oath",
+          "Dechristianization",
+          "Monasticism—dissolution",
+          "Nuns--resistance to convent dissolution",
+          "Women religious--clerical oath",
+          "Constitutional and refractory clergy--schism",
+          "Little Church--unreconciled religious division",
+          "Clerical emigration and mortality"
+        ],
+        "evidence": [
+          {
+            "document_page": 396,
+            "source_page_label": "396",
+            "locator_class": "principal",
+            "evidence_summary": "Loss of tithes, feudal rights, land, corporate autonomy, and monasticism preceded the Civil Constitution's formal restructuring.",
+            "evidence_id": "EVID-SUCC-D9A37306716C",
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 397,
+            "source_page_label": "397",
+            "locator_class": "principal",
+            "evidence_summary": "Nuns overwhelmingly opposed convent dissolution, and the Concordat did not restore cloistered life on its former scale. The oath then divided clergy; refractories faced deprivation, massacre, execution, deportation and exile, while continuing schism and dechristianization deepened trauma. Nearly 25,000 clergy emigrated or were deported; the strong secular concentration meant parish-clergy loss was not far short of half, according to Doyle’s estimate. Constitutional clergy also fell under suspicion by 1794, after Rome and much of the population had repudiated them; continuing schism and attacks on worship injured both sides.",
+            "evidence_id": "EVID-SUCC-2FA0C14F1B68",
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-96B5DFEDFBE0",
+            "source_evidence_id": "EVID-B8AA44A02DB8",
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The conclusion treats dechristianization and the resulting papal revival as distinctive outcomes of the revolutionary Church conflict.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S071",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-5D94BA5B1458",
+              "evidence_id": "EVID-29EC30048535"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S007",
+            "label": "Catholic clergy: dispossession, schism, and dechristianization",
+            "meaning": "The Revolution dismantled the Gallican Church's corporate resources, dissolved monastic life, divided oath-taking and refractory clergy, and subjected priests and worship to persecution. Nuns overwhelmingly opposed convent dissolution, unlike many released monks; the Concordat did not restore the former corporate or cloistered order. Refractory priests faced deprivation and persecution, while constitutional priests lost papal recognition and widespread popular legitimacy; the two camps suffered different forms of exclusion. Emigration and deportation fell predominantly on secular clergy, leaving parish staffing nearly halved in Doyle’s account and making persecution a local social loss as well as an institutional trauma.",
+            "stance": "The clergy suffered more cataclysmically than the nobility; the resulting schism and trauma were deep and enduring. The concluding counterfactual treats the revolutionary Church conflict and dechristianization as contingent ruptures that paradoxically helped revive papal authority, not inevitable extensions of earlier secular trends.",
+            "acceptable_access": [
+              "Catholic Church—effects of the Revolution",
+              "Clergy—Civil Constitution and oath",
+              "Dechristianization",
+              "Monasticism—dissolution",
+              "Nuns--resistance to convent dissolution",
+              "Women religious--clerical oath",
+              "Constitutional and refractory clergy--schism",
+              "Little Church--unreconciled religious division",
+              "Clerical emigration and mortality"
+            ],
+            "document_pages": [
+              396,
+              397,
+              424
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S007"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S007",
+            "label": "Catholic clergy: dispossession, schism, and dechristianization",
+            "meaning": "The Revolution dismantled the Gallican Church's corporate resources, dissolved monastic life, divided oath-taking and refractory clergy, and subjected priests and worship to persecution. Nuns overwhelmingly opposed convent dissolution, unlike many released monks; the Concordat did not restore the former corporate or cloistered order. Refractory priests faced deprivation and persecution, while constitutional priests lost papal recognition and widespread popular legitimacy; the two camps suffered different forms of exclusion. Emigration and deportation fell predominantly on secular clergy, leaving parish staffing nearly halved in Doyle’s account and making persecution a local social loss as well as an institutional trauma.",
+            "stance": "The clergy suffered more cataclysmically than the nobility; the resulting schism and trauma were deep and enduring. The concluding counterfactual treats the revolutionary Church conflict and dechristianization as contingent ruptures that paradoxically helped revive papal authority, not inevitable extensions of earlier secular trends.",
+            "acceptable_access": [
+              "Catholic Church—effects of the Revolution",
+              "Clergy—Civil Constitution and oath",
+              "Dechristianization",
+              "Monasticism—dissolution",
+              "Nuns--resistance to convent dissolution",
+              "Women religious--clerical oath",
+              "Constitutional and refractory clergy--schism",
+              "Little Church--unreconciled religious division",
+              "Clerical emigration and mortality"
+            ],
+            "document_pages": [
+              396,
+              397,
+              424
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "6819e0953ddf49fc055d6995fb93fc2031bc6a5d92ba3f4d611eaf882bc4d8e2",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "397 supports nuns’ resistance, both clerical allegiances and the explicitly attributed scale of parish loss. Preserve stage8’s differentiated forms of exclusion while adding the demographic mechanism.424 separately supplies the concluding contingent-rupture/papal-revival qualification and is included in nested page scope.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 104,
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0206",
+        "CORR-007-LEGACY-0324",
+        "CORR-007-LEGACY-0420"
+      ],
+      "source_correction_row_sha256s": [
+        "131953fda98dfbfcebcf45334aac1b32f64bb3e3bffcd74235dc7dc14a080aff",
+        "96f8e3a652901159a5ec269d2c03fcacbef2e547f7fd84944a68360402aca286",
+        "25c78cf73948825df3d3edcbf44e5e5334e463b18b2b11641c353f19672be477"
+      ],
+      "before_record": {
+        "label": "Sansculottes and Paris Commune, radical pressure and political defeat",
+        "priority": "essential",
+        "meaning": "Sansculotte mobilization pushed emergency social and coercive measures through the Convention, but incorporation into the state, the destruction of the Hébertists and the Commune purge curtailed autonomous popular political power. Paid twice-weekly attendance widened working people’s access while ending permanent sessions. Exhaustion, delivery of economic demands and paid public employment reduced autonomous mobilization. Dissolution of the Paris Revolutionary Army transferred coercive power to government.",
+        "stance": "Do not reduce the sansculottes to a uniformly bloodthirsty bloc; their support shifted as much of their programme was implemented and exhaustion set in. On page 271 the author describes the March–April 1794 repression as ending them as a political force, while the later account describes renewed mobilization and a final destruction in Prairial 1795. Preserve these dated judgments instead of silently choosing one undifferentiated endpoint. Defeat of autonomous popular power did not end the Terror: a harsher governmental phase followed.",
+        "subject_id": "SUBJ-SUCC-AF9995D451BE",
+        "acceptable_access": [
+          "Sansculottes and Paris Commune, radical pressure and political defeat",
+          "sansculottes > pressure on government and decline",
+          "Paris Commune > radical politics and subordination",
+          "popular movement > September 1793 to spring 1794",
+          "popular radicalism—Terror",
+          "Hébertists and enragés",
+          "Cordeliers—radical program",
+          "Terror—popular pressure",
+          "sansculottes—political decline",
+          "sansculottes—state employment",
+          "forty-sou patriots",
+          "sectional societies",
+          "popular movement—exhaustion",
+          "Paris Commune—purge",
+          "Revolutionary Army—dissolution",
+          "Terror—governmental control",
+          "sansculottes—end as political force",
+          "sectional meetings—paid attendance",
+          "Danton—sectional attendance",
+          "permanent sessions—abolition"
+        ],
+        "evidence": [
+          {
+            "document_page": 249,
+            "source_page_label": "249",
+            "locator_class": "principal",
+            "evidence_summary": "After Marat's death and Roux's displacement, Hébert and Chaumette appropriated demands previously associated with the enragés.",
+            "evidence_id": "EVID-SUCC-B027DCEF1F11",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 250,
+            "source_page_label": "250",
+            "locator_class": "principal",
+            "evidence_summary": "Rival radical networks converged on maximum prices, revolutionary armies, harsher repression, and mass political action.",
+            "evidence_id": "EVID-SUCC-DE3283500C3C",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "Popular demonstrations compelled measures on food, Revolutionary Armies, arms, tribunals, and paid sectional attendance.",
+            "evidence_id": "EVID-SUCC-D886B13300E6",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 252,
+            "source_page_label": "252",
+            "locator_class": "supporting",
+            "evidence_summary": "The movement obtained the General Maximum and broad suspect legislation while radical rivals were suppressed.",
+            "evidence_id": "EVID-SUCC-5F0AAFF987F3",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "principal",
+            "evidence_summary": "The sansculottes did not rally to the Hébertist insurrection and accepted the government's famine-plot narrative.",
+            "evidence_id": "EVID-SUCC-77EA7FE8E411",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 271,
+            "source_page_label": "271",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The author describes state employment, achieved demands, fatigue and the March–April 1794 Commune purge as ending the sansculottes as an independent political force; this is a dated source judgment, distinct from the later Prairial 1795 final-destruction account.",
+            "evidence_id": "EVID-SUCC-9BC3E1BB10EE",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S008",
+            "label": "Sansculottes and Paris Commune, radical pressure and political defeat",
+            "meaning": "Sansculotte mobilization pushed emergency social and coercive measures through the Convention, but incorporation into the state, the destruction of the Hébertists and the Commune purge curtailed autonomous popular political power. Paid twice-weekly attendance widened working people’s access while ending permanent sessions. Exhaustion, delivery of economic demands and paid public employment reduced autonomous mobilization. Dissolution of the Paris Revolutionary Army transferred coercive power to government.",
+            "stance": "Do not reduce the sansculottes to a uniformly bloodthirsty bloc; their support shifted as much of their programme was implemented and exhaustion set in. On page 271 the author describes the March–April 1794 repression as ending them as a political force, while the later account describes renewed mobilization and a final destruction in Prairial 1795. Preserve these dated judgments instead of silently choosing one undifferentiated endpoint. Defeat of autonomous popular power did not end the Terror: a harsher governmental phase followed.",
+            "acceptable_access": [
+              "Sansculottes and Paris Commune, radical pressure and political defeat",
+              "sansculottes > pressure on government and decline",
+              "Paris Commune > radical politics and subordination",
+              "popular movement > September 1793 to spring 1794",
+              "popular radicalism—Terror",
+              "Hébertists and enragés",
+              "Cordeliers—radical program",
+              "Terror—popular pressure",
+              "sansculottes—political decline",
+              "sansculottes—state employment",
+              "forty-sou patriots",
+              "sectional societies",
+              "popular movement—exhaustion",
+              "Paris Commune—purge",
+              "Revolutionary Army—dissolution",
+              "Terror—governmental control",
+              "sansculottes—end as political force",
+              "sectional meetings—paid attendance",
+              "Danton—sectional attendance",
+              "permanent sessions—abolition"
+            ],
+            "document_pages": [
+              249,
+              250,
+              251,
+              252,
+              270,
+              271
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S008"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S008",
+            "label": "Sansculottes and Paris Commune, radical pressure and political defeat",
+            "meaning": "Sansculotte mobilization pushed emergency social and coercive measures through the Convention, but incorporation into the state, the destruction of the Hébertists and the Commune purge curtailed autonomous popular political power. Paid twice-weekly attendance widened working people’s access while ending permanent sessions. Exhaustion, delivery of economic demands and paid public employment reduced autonomous mobilization. Dissolution of the Paris Revolutionary Army transferred coercive power to government.",
+            "stance": "Do not reduce the sansculottes to a uniformly bloodthirsty bloc; their support shifted as much of their programme was implemented and exhaustion set in. On page 271 the author describes the March–April 1794 repression as ending them as a political force, while the later account describes renewed mobilization and a final destruction in Prairial 1795. Preserve these dated judgments instead of silently choosing one undifferentiated endpoint. Defeat of autonomous popular power did not end the Terror: a harsher governmental phase followed.",
+            "acceptable_access": [
+              "Sansculottes and Paris Commune, radical pressure and political defeat",
+              "sansculottes > pressure on government and decline",
+              "Paris Commune > radical politics and subordination",
+              "popular movement > September 1793 to spring 1794",
+              "popular radicalism—Terror",
+              "Hébertists and enragés",
+              "Cordeliers—radical program",
+              "Terror—popular pressure",
+              "sansculottes—political decline",
+              "sansculottes—state employment",
+              "forty-sou patriots",
+              "sectional societies",
+              "popular movement—exhaustion",
+              "Paris Commune—purge",
+              "Revolutionary Army—dissolution",
+              "Terror—governmental control",
+              "sansculottes—end as political force",
+              "sectional meetings—paid attendance",
+              "Danton—sectional attendance",
+              "permanent sessions—abolition"
+            ],
+            "document_pages": [
+              249,
+              250,
+              251,
+              252,
+              270,
+              271
+            ],
+            "independently_weighted": false
+          }
+        ],
+        "source_qualification_references": [
+          {
+            "subject_id": "SUBJ-SUCC-AF9995D451BE",
+            "field": "stance",
+            "qualification_source": {
+              "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+              "evidence_id": "EVID-SUCC-C49C53B025C2",
+              "document_page": 295
+            },
+            "instruction": "Use this exact eligible source binding to check the later Prairial judgment against271; the core1794 requirement remains distinct from the separate1795 suppression subject."
+          }
+        ]
+      },
+      "before_sha256": "5725bdc6af59adb0145d85a0c19d7e6fb8beb7dcb402f25643ea598aa14b7d4e",
+      "proposed_record": {
+        "label": "Sansculottes and Paris Commune, radical pressure and political defeat",
+        "priority": "essential",
+        "meaning": "Sansculotte mobilization pushed emergency social and coercive measures through the Convention, but incorporation into the state, the destruction of the Hébertists and the Commune purge curtailed autonomous popular political power. Paid twice-weekly attendance widened working people’s access while ending permanent sessions. Exhaustion, delivery of economic demands and paid public employment reduced autonomous mobilization. Dissolution of the Paris Revolutionary Army transferred coercive power to government. After Marat’s death, rival enragé, Hébertist, Commune and club networks competed to appropriate radical demands, combining subsistence grievance with factional leadership.",
+        "stance": "Do not reduce the sansculottes to a uniformly bloodthirsty bloc; their support shifted as much of their programme was implemented and exhaustion set in. On page 271 the author describes the March–April 1794 repression as ending them as a political force, while the later account describes renewed mobilization and a final destruction in Prairial 1795. Preserve these dated judgments instead of silently choosing one undifferentiated endpoint. Defeat of autonomous popular power did not end the Terror: a harsher governmental phase followed.",
+        "subject_id": "SUBJ-SUCC-AF9995D451BE",
+        "acceptable_access": [
+          "Sansculottes and Paris Commune, radical pressure and political defeat",
+          "sansculottes > pressure on government and decline",
+          "Paris Commune > radical politics and subordination",
+          "popular movement > September 1793 to spring 1794",
+          "popular radicalism—Terror",
+          "Hébertists and enragés",
+          "Cordeliers—radical program",
+          "Terror—popular pressure",
+          "sansculottes—political decline",
+          "sansculottes—state employment",
+          "forty-sou patriots",
+          "sectional societies",
+          "popular movement—exhaustion",
+          "Paris Commune—purge",
+          "Revolutionary Army—dissolution",
+          "Terror—governmental control",
+          "sansculottes—end as political force",
+          "sectional meetings—paid attendance",
+          "Danton—sectional attendance",
+          "permanent sessions—abolition"
+        ],
+        "evidence": [
+          {
+            "document_page": 249,
+            "source_page_label": "249",
+            "locator_class": "principal",
+            "evidence_summary": "After Marat's death and Roux's displacement, Hébert and Chaumette appropriated demands previously associated with the enragés.",
+            "evidence_id": "EVID-SUCC-B027DCEF1F11",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 250,
+            "source_page_label": "250",
+            "locator_class": "principal",
+            "evidence_summary": "Rival radical networks converged on maximum prices, revolutionary armies, harsher repression, and mass political action.",
+            "evidence_id": "EVID-SUCC-DE3283500C3C",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "Popular demonstrations compelled measures on food, Revolutionary Armies, arms, tribunals, and paid sectional attendance.",
+            "evidence_id": "EVID-SUCC-D886B13300E6",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 252,
+            "source_page_label": "252",
+            "locator_class": "supporting",
+            "evidence_summary": "The movement obtained the General Maximum and broad suspect legislation while radical rivals were suppressed.",
+            "evidence_id": "EVID-SUCC-5F0AAFF987F3",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "principal",
+            "evidence_summary": "The sansculottes did not rally to the Hébertist insurrection and accepted the government's famine-plot narrative.",
+            "evidence_id": "EVID-SUCC-77EA7FE8E411",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 271,
+            "source_page_label": "271",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Exhaustion, achieved economic/coercive demands and paid public or sectional roles encouraged support for the government. Alternative sectional societies arose, but experienced militants had been absorbed into state machinery. The Commune purge completed the loss of autonomous power described here in 1794; later chapters separately recount renewed mobilization and final 1795 defeat. Chaumette and associates were executed, the Commune became obedient through a personnel purge, and the Paris Revolutionary Army was dissolved. Government control did not end the Terror: a harsher phase followed.",
+            "evidence_id": "EVID-SUCC-9BC3E1BB10EE",
+            "source_local_subject_id": "SUCC-C011-S008",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S008",
+            "label": "Sansculottes and Paris Commune, radical pressure and political defeat",
+            "meaning": "Sansculotte mobilization pushed emergency social and coercive measures through the Convention, but incorporation into the state, the destruction of the Hébertists and the Commune purge curtailed autonomous popular political power. Paid twice-weekly attendance widened working people’s access while ending permanent sessions. Exhaustion, delivery of economic demands and paid public employment reduced autonomous mobilization. Dissolution of the Paris Revolutionary Army transferred coercive power to government. After Marat’s death, rival enragé, Hébertist, Commune and club networks competed to appropriate radical demands, combining subsistence grievance with factional leadership.",
+            "stance": "Do not reduce the sansculottes to a uniformly bloodthirsty bloc; their support shifted as much of their programme was implemented and exhaustion set in. On page 271 the author describes the March–April 1794 repression as ending them as a political force, while the later account describes renewed mobilization and a final destruction in Prairial 1795. Preserve these dated judgments instead of silently choosing one undifferentiated endpoint. Defeat of autonomous popular power did not end the Terror: a harsher governmental phase followed.",
+            "acceptable_access": [
+              "Sansculottes and Paris Commune, radical pressure and political defeat",
+              "sansculottes > pressure on government and decline",
+              "Paris Commune > radical politics and subordination",
+              "popular movement > September 1793 to spring 1794",
+              "popular radicalism—Terror",
+              "Hébertists and enragés",
+              "Cordeliers—radical program",
+              "Terror—popular pressure",
+              "sansculottes—political decline",
+              "sansculottes—state employment",
+              "forty-sou patriots",
+              "sectional societies",
+              "popular movement—exhaustion",
+              "Paris Commune—purge",
+              "Revolutionary Army—dissolution",
+              "Terror—governmental control",
+              "sansculottes—end as political force",
+              "sectional meetings—paid attendance",
+              "Danton—sectional attendance",
+              "permanent sessions—abolition"
+            ],
+            "document_pages": [
+              249,
+              250,
+              251,
+              252,
+              270,
+              271
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S008"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S008",
+            "label": "Sansculottes and Paris Commune, radical pressure and political defeat",
+            "meaning": "Sansculotte mobilization pushed emergency social and coercive measures through the Convention, but incorporation into the state, the destruction of the Hébertists and the Commune purge curtailed autonomous popular political power. Paid twice-weekly attendance widened working people’s access while ending permanent sessions. Exhaustion, delivery of economic demands and paid public employment reduced autonomous mobilization. Dissolution of the Paris Revolutionary Army transferred coercive power to government. After Marat’s death, rival enragé, Hébertist, Commune and club networks competed to appropriate radical demands, combining subsistence grievance with factional leadership.",
+            "stance": "Do not reduce the sansculottes to a uniformly bloodthirsty bloc; their support shifted as much of their programme was implemented and exhaustion set in. On page 271 the author describes the March–April 1794 repression as ending them as a political force, while the later account describes renewed mobilization and a final destruction in Prairial 1795. Preserve these dated judgments instead of silently choosing one undifferentiated endpoint. Defeat of autonomous popular power did not end the Terror: a harsher governmental phase followed.",
+            "acceptable_access": [
+              "Sansculottes and Paris Commune, radical pressure and political defeat",
+              "sansculottes > pressure on government and decline",
+              "Paris Commune > radical politics and subordination",
+              "popular movement > September 1793 to spring 1794",
+              "popular radicalism—Terror",
+              "Hébertists and enragés",
+              "Cordeliers—radical program",
+              "Terror—popular pressure",
+              "sansculottes—political decline",
+              "sansculottes—state employment",
+              "forty-sou patriots",
+              "sectional societies",
+              "popular movement—exhaustion",
+              "Paris Commune—purge",
+              "Revolutionary Army—dissolution",
+              "Terror—governmental control",
+              "sansculottes—end as political force",
+              "sectional meetings—paid attendance",
+              "Danton—sectional attendance",
+              "permanent sessions—abolition"
+            ],
+            "document_pages": [
+              249,
+              250,
+              251,
+              252,
+              270,
+              271
+            ],
+            "independently_weighted": false
+          }
+        ],
+        "source_qualification_references": [
+          {
+            "subject_id": "SUBJ-SUCC-AF9995D451BE",
+            "field": "stance",
+            "qualification_source": {
+              "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+              "evidence_id": "EVID-SUCC-C49C53B025C2",
+              "document_page": 295
+            },
+            "instruction": "Use this exact eligible source binding to check the later Prairial judgment against271; the core1794 requirement remains distinct from the separate1795 suppression subject."
+          }
+        ]
+      },
+      "proposed_sha256": "e09ef5de2033ae78d7e97343f939503b21454e12b14294d3c677d16424362f56",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "249–251 and271 support competitive appropriation, organizational absorption, the Commune purge and Army dissolution. Preserve the dated1794 endpoint qualification against the later1795 narrative, and the paradox of harsher governmental Terror.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 105,
+      "subject_id": "SUBJ-SUCC-BB9639326872",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0209"
+      ],
+      "source_correction_row_sha256s": [
+        "591645c35dd3d977f90757e81c8bfecc08489403f37ff1ca5fc6f3d7588d2244"
+      ],
+      "before_record": {
+        "label": "Joseph II—reforms and resistance in the Austrian Netherlands",
+        "priority": "major",
+        "meaning": "Joseph II's centralizing reforms in Church and state provoked resistance that became the Brabant Revolution.",
+        "stance": "The emperor, not his subjects, was the agent of disruptive change in Belgium.",
+        "subject_id": "SUBJ-SUCC-BB9639326872",
+        "acceptable_access": [
+          "Joseph II—reforms and resistance in the Austrian Netherlands",
+          "Austrian Netherlands—reforms of Joseph II",
+          "Joseph II—Belgian revolt",
+          "Joseph II—reforms and resistance",
+          "Habsburg monarchy—reforming despotism",
+          "Austrian Netherlands—Joseph II",
+          "Belgian Revolution—causes"
+        ],
+        "evidence": [
+          {
+            "document_page": 159,
+            "source_page_label": "159",
+            "locator_class": "supporting",
+            "evidence_summary": "Joseph's effort to create an efficient military despotism destabilized Hungary and the southern Netherlands.",
+            "evidence_id": "EVID-SUCC-370E17EBABEC",
+            "source_local_subject_id": "SUCC-C007-S008",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 162,
+            "source_page_label": "162",
+            "locator_class": "principal",
+            "evidence_summary": "His demand for unlimited taxation and legislation and repudiation of the Joyous Entry brought Belgian resistance to a head.",
+            "evidence_id": "EVID-SUCC-3A16BFA931DE",
+            "source_local_subject_id": "SUCC-C007-S008",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S008",
+            "label": "Joseph II—reforms and resistance in the Austrian Netherlands",
+            "meaning": "Joseph II's centralizing reforms in Church and state provoked resistance that became the Brabant Revolution.",
+            "stance": "The emperor, not his subjects, was the agent of disruptive change in Belgium.",
+            "acceptable_access": [
+              "Joseph II—reforms and resistance in the Austrian Netherlands",
+              "Austrian Netherlands—reforms of Joseph II",
+              "Joseph II—Belgian revolt",
+              "Joseph II—reforms and resistance",
+              "Habsburg monarchy—reforming despotism",
+              "Austrian Netherlands—Joseph II",
+              "Belgian Revolution—causes"
+            ],
+            "document_pages": [
+              159,
+              162
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S008"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S008",
+            "label": "Joseph II—reforms and resistance in the Austrian Netherlands",
+            "meaning": "Joseph II's centralizing reforms in Church and state provoked resistance that became the Brabant Revolution.",
+            "stance": "The emperor, not his subjects, was the agent of disruptive change in Belgium.",
+            "acceptable_access": [
+              "Joseph II—reforms and resistance in the Austrian Netherlands",
+              "Austrian Netherlands—reforms of Joseph II",
+              "Joseph II—Belgian revolt",
+              "Joseph II—reforms and resistance",
+              "Habsburg monarchy—reforming despotism",
+              "Austrian Netherlands—Joseph II",
+              "Belgian Revolution—causes"
+            ],
+            "document_pages": [
+              159,
+              162
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "f84a5e3ea97f5a4d59ddedda805d5661faa3b63d76205a01d3b9ce16b546751b",
+      "proposed_record": {
+        "label": "Joseph II—reforms and resistance in the Austrian Netherlands",
+        "priority": "major",
+        "meaning": "Joseph II's centralizing reforms in Church and state provoked resistance that became the Brabant Revolution. This belonged to a wider drive for an efficient military despotism that also destabilized Hungary.",
+        "stance": "The emperor, not his subjects, was the agent of disruptive change in Belgium.",
+        "subject_id": "SUBJ-SUCC-BB9639326872",
+        "acceptable_access": [
+          "Joseph II—reforms and resistance in the Austrian Netherlands",
+          "Austrian Netherlands—reforms of Joseph II",
+          "Joseph II—Belgian revolt",
+          "Joseph II—reforms and resistance",
+          "Habsburg monarchy—reforming despotism",
+          "Austrian Netherlands—Joseph II",
+          "Belgian Revolution—causes"
+        ],
+        "evidence": [
+          {
+            "document_page": 159,
+            "source_page_label": "159",
+            "locator_class": "supporting",
+            "evidence_summary": "Joseph's effort to create an efficient military despotism destabilized Hungary and the southern Netherlands.",
+            "evidence_id": "EVID-SUCC-370E17EBABEC",
+            "source_local_subject_id": "SUCC-C007-S008",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 162,
+            "source_page_label": "162",
+            "locator_class": "principal",
+            "evidence_summary": "His demand for unlimited taxation and legislation and repudiation of the Joyous Entry brought Belgian resistance to a head.",
+            "evidence_id": "EVID-SUCC-3A16BFA931DE",
+            "source_local_subject_id": "SUCC-C007-S008",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S008",
+            "label": "Joseph II—reforms and resistance in the Austrian Netherlands",
+            "meaning": "Joseph II's centralizing reforms in Church and state provoked resistance that became the Brabant Revolution. This belonged to a wider drive for an efficient military despotism that also destabilized Hungary.",
+            "stance": "The emperor, not his subjects, was the agent of disruptive change in Belgium.",
+            "acceptable_access": [
+              "Joseph II—reforms and resistance in the Austrian Netherlands",
+              "Austrian Netherlands—reforms of Joseph II",
+              "Joseph II—Belgian revolt",
+              "Joseph II—reforms and resistance",
+              "Habsburg monarchy—reforming despotism",
+              "Austrian Netherlands—Joseph II",
+              "Belgian Revolution—causes"
+            ],
+            "document_pages": [
+              159,
+              162
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S008"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S008",
+            "label": "Joseph II—reforms and resistance in the Austrian Netherlands",
+            "meaning": "Joseph II's centralizing reforms in Church and state provoked resistance that became the Brabant Revolution. This belonged to a wider drive for an efficient military despotism that also destabilized Hungary.",
+            "stance": "The emperor, not his subjects, was the agent of disruptive change in Belgium.",
+            "acceptable_access": [
+              "Joseph II—reforms and resistance in the Austrian Netherlands",
+              "Austrian Netherlands—reforms of Joseph II",
+              "Joseph II—Belgian revolt",
+              "Joseph II—reforms and resistance",
+              "Habsburg monarchy—reforming despotism",
+              "Austrian Netherlands—Joseph II",
+              "Belgian Revolution—causes"
+            ],
+            "document_pages": [
+              159,
+              162
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "3004379becd8070c94b7583913d9ebd49fea5524696ed78e3bbdbf124653abb6",
+      "fields_changed": [
+        "meaning",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "159 supplies the broader Habsburg military-despotism/Hungary context, while162 supplies the developed Belgian mechanism. The addition is contextual, not a substitution of Hungarian events for Belgian causes.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 106,
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0214"
+      ],
+      "source_correction_row_sha256s": [
+        "4716435918fd13592679f0bd42437217bc89586c0eb554d56030090c11fb0e44"
+      ],
+      "before_record": {
+        "label": "Cisalpine Republic: French control, dependency, and coups",
+        "priority": "major",
+        "meaning": "French nomination of institutions, military and trade obligations, and successive 1798 purges of the Cisalpine government.",
+        "stance": "The republic became a byword for exploitation and instability as Paris alternated between radical and conservative clients to preserve French interests. French agents were not always obedient instruments: Brune’s intervention temporarily defied Paris.",
+        "subject_id": "SUBJ-SUCC-C9C4454491D0",
+        "acceptable_access": [
+          "Cisalpine Republic—French control",
+          "Cisalpine coups of 1798",
+          "Cisalpine Republic—constitution and army"
+        ],
+        "evidence": [
+          {
+            "document_page": 361,
+            "source_page_label": "361",
+            "locator_class": "principal",
+            "evidence_summary": "Bonaparte dictated the constitution, nominated the first institutions and curbed clubs. After his departure, the February1798 alliance imposed army-maintenance and tariff obligations.",
+            "evidence_id": "EVID-SUCC-774F2B76A0C8",
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 362,
+            "source_page_label": "362",
+            "locator_class": "principal",
+            "evidence_summary": "An April 1798 purge removed conservative nominees and empowered club radicals.",
+            "evidence_id": "EVID-SUCC-3DBE504C71E9",
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 363,
+            "source_page_label": "363",
+            "locator_class": "principal",
+            "evidence_summary": "Paris pressed successive constitutional and factional changes, while Brune temporarily defied its instructions by expelling moderates; renewed intervention imposed the restricted constitution in December.",
+            "evidence_id": "EVID-SUCC-C281E3558236",
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "evidence_id": "EVID-SUCC-5AFBEAC10940",
+            "source_evidence_id": "EVID-2196FBF5574B",
+            "document_page": 361,
+            "source_page_label": "361",
+            "locator_class": "supporting",
+            "evidence_summary": "Cisalpine dependence included maintaining large French and local armies and accepting discriminatory commercial terms.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S032",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-14BB01082A7B",
+              "evidence_id": "EVID-545049C63138"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S027",
+            "label": "Cisalpine Republic: French control, dependency, and coups",
+            "meaning": "French nomination of institutions, military and trade obligations, and successive 1798 purges of the Cisalpine government.",
+            "stance": "The republic became a byword for exploitation and instability as Paris alternated between radical and conservative clients to preserve French interests. French agents were not always obedient instruments: Brune’s intervention temporarily defied Paris.",
+            "acceptable_access": [
+              "Cisalpine Republic—French control",
+              "Cisalpine coups of 1798",
+              "Cisalpine Republic—constitution and army"
+            ],
+            "document_pages": [
+              361,
+              362,
+              363
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S027",
+            "label": "Cisalpine Republic: French control, dependency, and coups",
+            "meaning": "French nomination of institutions, military and trade obligations, and successive 1798 purges of the Cisalpine government.",
+            "stance": "The republic became a byword for exploitation and instability as Paris alternated between radical and conservative clients to preserve French interests. French agents were not always obedient instruments: Brune’s intervention temporarily defied Paris.",
+            "acceptable_access": [
+              "Cisalpine Republic—French control",
+              "Cisalpine coups of 1798",
+              "Cisalpine Republic—constitution and army"
+            ],
+            "document_pages": [
+              361,
+              362,
+              363
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "71be7e776be18880a7b4d17dc910f4e52c51e8bac2fe9275fa764f9ae12f2c97",
+      "proposed_record": {
+        "label": "Cisalpine Republic: French control, dependency, and coups",
+        "priority": "major",
+        "meaning": "French nomination of institutions, military and trade obligations, and successive 1798 purges of the Cisalpine government.",
+        "stance": "The republic became a byword for exploitation and instability as Paris alternated between radical and conservative clients to preserve French interests. French agents were not always obedient instruments: Brune’s intervention temporarily defied Paris. The imposed obligations made the republic serve French strategic and commercial interests while preventing independent strength from challenging its patron.",
+        "subject_id": "SUBJ-SUCC-C9C4454491D0",
+        "acceptable_access": [
+          "Cisalpine Republic—French control",
+          "Cisalpine coups of 1798",
+          "Cisalpine Republic—constitution and army"
+        ],
+        "evidence": [
+          {
+            "document_page": 361,
+            "source_page_label": "361",
+            "locator_class": "principal",
+            "evidence_summary": "Bonaparte dictated the constitution, nominated the first institutions and curbed clubs. After his departure, the February1798 alliance imposed army-maintenance and tariff obligations.",
+            "evidence_id": "EVID-SUCC-774F2B76A0C8",
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 362,
+            "source_page_label": "362",
+            "locator_class": "principal",
+            "evidence_summary": "An April 1798 purge removed conservative nominees and empowered club radicals.",
+            "evidence_id": "EVID-SUCC-3DBE504C71E9",
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 363,
+            "source_page_label": "363",
+            "locator_class": "principal",
+            "evidence_summary": "Paris pressed successive constitutional and factional changes, while Brune temporarily defied its instructions by expelling moderates; renewed intervention imposed the restricted constitution in December.",
+            "evidence_id": "EVID-SUCC-C281E3558236",
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "evidence_id": "EVID-SUCC-5AFBEAC10940",
+            "source_evidence_id": "EVID-2196FBF5574B",
+            "document_page": 361,
+            "source_page_label": "361",
+            "locator_class": "supporting",
+            "evidence_summary": "Cisalpine dependence included maintaining large French and local armies and accepting discriminatory commercial terms.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S032",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S027",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-14BB01082A7B",
+              "evidence_id": "EVID-545049C63138"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S027",
+            "label": "Cisalpine Republic: French control, dependency, and coups",
+            "meaning": "French nomination of institutions, military and trade obligations, and successive 1798 purges of the Cisalpine government.",
+            "stance": "The republic became a byword for exploitation and instability as Paris alternated between radical and conservative clients to preserve French interests. French agents were not always obedient instruments: Brune’s intervention temporarily defied Paris. The imposed obligations made the republic serve French strategic and commercial interests while preventing independent strength from challenging its patron.",
+            "acceptable_access": [
+              "Cisalpine Republic—French control",
+              "Cisalpine coups of 1798",
+              "Cisalpine Republic—constitution and army"
+            ],
+            "document_pages": [
+              361,
+              362,
+              363
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S027",
+            "label": "Cisalpine Republic: French control, dependency, and coups",
+            "meaning": "French nomination of institutions, military and trade obligations, and successive 1798 purges of the Cisalpine government.",
+            "stance": "The republic became a byword for exploitation and instability as Paris alternated between radical and conservative clients to preserve French interests. French agents were not always obedient instruments: Brune’s intervention temporarily defied Paris. The imposed obligations made the republic serve French strategic and commercial interests while preventing independent strength from challenging its patron.",
+            "acceptable_access": [
+              "Cisalpine Republic—French control",
+              "Cisalpine coups of 1798",
+              "Cisalpine Republic—constitution and army"
+            ],
+            "document_pages": [
+              361,
+              362,
+              363
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "ca6f840dcbb45b5a536bdfd82f522fe5d2a81353cc4ee1839fe3e542d0e7ce0a",
+      "fields_changed": [
+        "stance",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "361–363 supports commercial/military obligations and the explicit limited-client-strength aim. Preserve the corrected post-Bonaparte timing and Brune’s disobedience rather than treating all agents as consistently obedient.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 107,
+      "subject_id": "SUBJ-SUCC-EE60D7547263",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0218"
+      ],
+      "source_correction_row_sha256s": [
+        "cab4d11718217e14a99d48fb39e001a52e17c0018fdd847d2e1682a38a9b22e1"
+      ],
+      "before_record": {
+        "label": "Burke-Paine controversy—polarization and revival of British reform",
+        "priority": "essential",
+        "meaning": "The controversy turned French events into a mass British political debate and revived a previously weakening reform movement.",
+        "stance": "Burke's attack strengthened both conservative reaction and the radical opposition it sought to defeat.",
+        "subject_id": "SUBJ-SUCC-EE60D7547263",
+        "acceptable_access": [
+          "Burke-Paine controversy—polarization and revival of British reform",
+          "British debate on the French Revolution—Burke and Paine",
+          "Parliamentary reform—impact of Rights of Man",
+          "Burke-Paine debate",
+          "British politics—polarization over French Revolution",
+          "Reflections and Rights of Man",
+          "French Revolution debate in Britain"
+        ],
+        "evidence": [
+          {
+            "document_page": 168,
+            "source_page_label": "168",
+            "locator_class": "supporting",
+            "evidence_summary": "Burke's intensity focused his opponents and prompted a series of replies.",
+            "evidence_id": "EVID-SUCC-8D2139E6F56B",
+            "source_local_subject_id": "SUCC-C007-S022",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 169,
+            "source_page_label": "169",
+            "locator_class": "principal",
+            "evidence_summary": "Rights of Man vastly outsold Reflections and revitalized reform societies throughout the British Isles.",
+            "evidence_id": "EVID-SUCC-66C9369EA925",
+            "source_local_subject_id": "SUCC-C007-S022",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 170,
+            "source_page_label": "170",
+            "locator_class": "supporting",
+            "evidence_summary": "The debate activated artisans and helped generate constitutional and corresponding societies.",
+            "evidence_id": "EVID-SUCC-AD2EF22AF5E1",
+            "source_local_subject_id": "SUCC-C007-S022",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S022",
+            "label": "Burke-Paine controversy—polarization and revival of British reform",
+            "meaning": "The controversy turned French events into a mass British political debate and revived a previously weakening reform movement.",
+            "stance": "Burke's attack strengthened both conservative reaction and the radical opposition it sought to defeat.",
+            "acceptable_access": [
+              "Burke-Paine controversy—polarization and revival of British reform",
+              "British debate on the French Revolution—Burke and Paine",
+              "Parliamentary reform—impact of Rights of Man",
+              "Burke-Paine debate",
+              "British politics—polarization over French Revolution",
+              "Reflections and Rights of Man",
+              "French Revolution debate in Britain"
+            ],
+            "document_pages": [
+              168,
+              169,
+              170
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S022"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S022",
+            "label": "Burke-Paine controversy—polarization and revival of British reform",
+            "meaning": "The controversy turned French events into a mass British political debate and revived a previously weakening reform movement.",
+            "stance": "Burke's attack strengthened both conservative reaction and the radical opposition it sought to defeat.",
+            "acceptable_access": [
+              "Burke-Paine controversy—polarization and revival of British reform",
+              "British debate on the French Revolution—Burke and Paine",
+              "Parliamentary reform—impact of Rights of Man",
+              "Burke-Paine debate",
+              "British politics—polarization over French Revolution",
+              "Reflections and Rights of Man",
+              "French Revolution debate in Britain"
+            ],
+            "document_pages": [
+              168,
+              169,
+              170
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "5b046ea0fa950c993169e50068d60f8ae6d9020e709e05f57a34436a186a7bcb",
+      "proposed_record": {
+        "label": "Burke-Paine controversy—polarization and revival of British reform",
+        "priority": "essential",
+        "meaning": "The controversy turned French events into a mass British political debate and revived a previously weakening reform movement.",
+        "stance": "Burke's attack strengthened both conservative reaction and the radical opposition it sought to defeat.",
+        "subject_id": "SUBJ-SUCC-EE60D7547263",
+        "acceptable_access": [
+          "Burke-Paine controversy—polarization and revival of British reform",
+          "British debate on the French Revolution—Burke and Paine",
+          "Parliamentary reform—impact of Rights of Man",
+          "Burke-Paine debate",
+          "British politics—polarization over French Revolution",
+          "Reflections and Rights of Man",
+          "French Revolution debate in Britain"
+        ],
+        "evidence": [
+          {
+            "document_page": 168,
+            "source_page_label": "168",
+            "locator_class": "supporting",
+            "evidence_summary": "Burke's intensity focused his opponents and prompted a series of replies.",
+            "evidence_id": "EVID-SUCC-8D2139E6F56B",
+            "source_local_subject_id": "SUCC-C007-S022",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 169,
+            "source_page_label": "169",
+            "locator_class": "principal",
+            "evidence_summary": "Rights of Man vastly outsold Reflections and revitalized reform societies throughout the British Isles.",
+            "evidence_id": "EVID-SUCC-66C9369EA925",
+            "source_local_subject_id": "SUCC-C007-S022",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 170,
+            "source_page_label": "170",
+            "locator_class": "supporting",
+            "evidence_summary": "The debate activated artisan and corresponding-society reform networks while loyalist reaction hardened, expressed in the Birmingham attack on dissenting reformers and renewed royal patriotic symbolism.",
+            "evidence_id": "EVID-SUCC-AD2EF22AF5E1",
+            "source_local_subject_id": "SUCC-C007-S022",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S022",
+            "label": "Burke-Paine controversy—polarization and revival of British reform",
+            "meaning": "The controversy turned French events into a mass British political debate and revived a previously weakening reform movement.",
+            "stance": "Burke's attack strengthened both conservative reaction and the radical opposition it sought to defeat.",
+            "acceptable_access": [
+              "Burke-Paine controversy—polarization and revival of British reform",
+              "British debate on the French Revolution—Burke and Paine",
+              "Parliamentary reform—impact of Rights of Man",
+              "Burke-Paine debate",
+              "British politics—polarization over French Revolution",
+              "Reflections and Rights of Man",
+              "French Revolution debate in Britain"
+            ],
+            "document_pages": [
+              168,
+              169,
+              170
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S022"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S022",
+            "label": "Burke-Paine controversy—polarization and revival of British reform",
+            "meaning": "The controversy turned French events into a mass British political debate and revived a previously weakening reform movement.",
+            "stance": "Burke's attack strengthened both conservative reaction and the radical opposition it sought to defeat.",
+            "acceptable_access": [
+              "Burke-Paine controversy—polarization and revival of British reform",
+              "British debate on the French Revolution—Burke and Paine",
+              "Parliamentary reform—impact of Rights of Man",
+              "Burke-Paine debate",
+              "British politics—polarization over French Revolution",
+              "Reflections and Rights of Man",
+              "French Revolution debate in Britain"
+            ],
+            "document_pages": [
+              168,
+              169,
+              170
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "274aff43c05633e6a4aee1370fc1e9e7549cd9b4cad8eb7a301602648f999c1b",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "170 supports artisan/corresponding-society mobilization alongside Birmingham loyalist violence and renewed royal symbolism. No uniform British radicalization is implied.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 108,
+      "subject_id": "SUBJ-SUCC-2B71B80300BF",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0219",
+        "CORR-007-LEGACY-0327",
+        "CORR-007-LEGACY-0328",
+        "CORR-007-LEGACY-0360",
+        "CORR-007-LEGACY-0361"
+      ],
+      "source_correction_row_sha256s": [
+        "5c5a4830b59174f6e9b0eab1c0a7aed465e74d73fa4e63937e1db49ae75cbd07",
+        "aeb112fc0787e9d76bd9baf5dc9af41e38a8ebf310b58221841de793d55aad6a",
+        "3eefa4f915867a04e43548a6cfeb8ddcda7c8cfb3e248e787c2bc84d2fa0cc19",
+        "ab1df2162bbb50cdd466eb1a1dfabf4f0c222e10a16792b94f7278c17cbfff90",
+        "ead940d6680a8196cc31512aebce8aa45f7f939a25002bbfdfc177474ea83ed2"
+      ],
+      "before_record": {
+        "label": "Poland—national revival and Constitution of 3 May 1791",
+        "priority": "essential",
+        "meaning": "Polish patriots used Russia's distraction to recover autonomy and replace Golden Liberty with a stronger constitutional state.",
+        "stance": "French parallels influenced language and perception, but Poland's reform problem was fundamentally different.",
+        "subject_id": "SUBJ-SUCC-2B71B80300BF",
+        "acceptable_access": [
+          "Poland—national revival and Constitution of 3 May 1791",
+          "Polish Revolution, 1788-1791",
+          "Constitution of 3 May 1791",
+          "Poland—French revolutionary influence",
+          "Poland—national revival, 1788-1791",
+          "Four Years' Diet",
+          "Polish Patriots",
+          "Russia and Polish constitutional reform",
+          "Golden Liberty—Poland",
+          "Polish constitution—Patriot reforms",
+          "liberum veto",
+          "Poland—hereditary monarchy and majority rule",
+          "May Constitution—Poland",
+          "Friends of the Constitution—Poland",
+          "Polish constitutional revolution"
+        ],
+        "evidence": [
+          {
+            "document_page": 165,
+            "source_page_label": "165",
+            "locator_class": "principal",
+            "evidence_summary": "The diet threw off Russian control and expanded the army; patriots favored a stronger executive, while political life remained a noble monopoly and the diet opposed a petition for non-noble representation.",
+            "evidence_id": "EVID-SUCC-FB2D4CC3C6FE",
+            "source_local_subject_id": "SUCC-C007-S014",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 166,
+            "source_page_label": "166",
+            "locator_class": "principal",
+            "evidence_summary": "King and patriots enacted the 3 May constitution, with majority voting, hereditary monarchy, and French constitutional echoes.",
+            "evidence_id": "EVID-SUCC-4103A7E53847",
+            "source_local_subject_id": "SUCC-C007-S014",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S014",
+            "label": "Poland—national revival and Constitution of 3 May 1791",
+            "meaning": "Polish patriots used Russia's distraction to recover autonomy and replace Golden Liberty with a stronger constitutional state.",
+            "stance": "French parallels influenced language and perception, but Poland's reform problem was fundamentally different.",
+            "acceptable_access": [
+              "Poland—national revival and Constitution of 3 May 1791",
+              "Polish Revolution, 1788-1791",
+              "Constitution of 3 May 1791",
+              "Poland—French revolutionary influence",
+              "Poland—national revival, 1788-1791",
+              "Four Years' Diet",
+              "Polish Patriots",
+              "Russia and Polish constitutional reform",
+              "Golden Liberty—Poland",
+              "Polish constitution—Patriot reforms",
+              "liberum veto",
+              "Poland—hereditary monarchy and majority rule",
+              "May Constitution—Poland",
+              "Friends of the Constitution—Poland",
+              "Polish constitutional revolution"
+            ],
+            "document_pages": [
+              165,
+              166
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S014"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S014",
+            "label": "Poland—national revival and Constitution of 3 May 1791",
+            "meaning": "Polish patriots used Russia's distraction to recover autonomy and replace Golden Liberty with a stronger constitutional state.",
+            "stance": "French parallels influenced language and perception, but Poland's reform problem was fundamentally different.",
+            "acceptable_access": [
+              "Poland—national revival and Constitution of 3 May 1791",
+              "Polish Revolution, 1788-1791",
+              "Constitution of 3 May 1791",
+              "Poland—French revolutionary influence",
+              "Poland—national revival, 1788-1791",
+              "Four Years' Diet",
+              "Polish Patriots",
+              "Russia and Polish constitutional reform",
+              "Golden Liberty—Poland",
+              "Polish constitution—Patriot reforms",
+              "liberum veto",
+              "Poland—hereditary monarchy and majority rule",
+              "May Constitution—Poland",
+              "Friends of the Constitution—Poland",
+              "Polish constitutional revolution"
+            ],
+            "document_pages": [
+              165,
+              166
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "5d520691468930ef98774db0ad7a9ee1f96ccbf9c256fcb9f13ea957dbfb04d8",
+      "proposed_record": {
+        "label": "Poland—national revival and Constitution of 3 May 1791",
+        "priority": "essential",
+        "meaning": "Polish patriots used Russia's distraction to recover autonomy and replace Golden Liberty with a stronger constitutional state. Their program replaced weak elective kingship, unanimity through the liberum veto and legalized rebellion with hereditary executive authority and majority voting, while political life remained dominated by nobles. The king and Patriots enacted the constitution through a thinly attended Diet surrounded by troops.",
+        "stance": "French parallels influenced language and perception, but Poland's reform problem was fundamentally different.",
+        "subject_id": "SUBJ-SUCC-2B71B80300BF",
+        "acceptable_access": [
+          "Poland—national revival and Constitution of 3 May 1791",
+          "Polish Revolution, 1788-1791",
+          "Constitution of 3 May 1791",
+          "Poland—French revolutionary influence",
+          "Poland—national revival, 1788-1791",
+          "Four Years' Diet",
+          "Polish Patriots",
+          "Russia and Polish constitutional reform",
+          "Golden Liberty—Poland",
+          "Polish constitution—Patriot reforms",
+          "liberum veto",
+          "Poland—hereditary monarchy and majority rule",
+          "May Constitution—Poland",
+          "Friends of the Constitution—Poland",
+          "Polish constitutional revolution"
+        ],
+        "evidence": [
+          {
+            "document_page": 165,
+            "source_page_label": "165",
+            "locator_class": "principal",
+            "evidence_summary": "The diet threw off Russian control and expanded the army; patriots favored a stronger executive, while political life remained a noble monopoly and the diet opposed a petition for non-noble representation. Golden Liberty meant weak elected kingship, a single-vote legislative veto and a legal right to rebel; patriots sought stronger hereditary authority.",
+            "evidence_id": "EVID-SUCC-FB2D4CC3C6FE",
+            "source_local_subject_id": "SUCC-C007-S014",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 166,
+            "source_page_label": "166",
+            "locator_class": "principal",
+            "evidence_summary": "With Russia approaching release from the Turkish war, stronger constitutional defenses became urgent. King and patriots enacted the 3 May constitution, introducing majority voting and hereditary monarchy with French linguistic echoes but a different social and political setting. The Diet was thinly attended and surrounded by troops; French echoes in wording and the Friends of the Constitution did not erase Poland’s distinct political problem.",
+            "evidence_id": "EVID-SUCC-4103A7E53847",
+            "source_local_subject_id": "SUCC-C007-S014",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S014",
+            "label": "Poland—national revival and Constitution of 3 May 1791",
+            "meaning": "Polish patriots used Russia's distraction to recover autonomy and replace Golden Liberty with a stronger constitutional state. Their program replaced weak elective kingship, unanimity through the liberum veto and legalized rebellion with hereditary executive authority and majority voting, while political life remained dominated by nobles. The king and Patriots enacted the constitution through a thinly attended Diet surrounded by troops.",
+            "stance": "French parallels influenced language and perception, but Poland's reform problem was fundamentally different.",
+            "acceptable_access": [
+              "Poland—national revival and Constitution of 3 May 1791",
+              "Polish Revolution, 1788-1791",
+              "Constitution of 3 May 1791",
+              "Poland—French revolutionary influence",
+              "Poland—national revival, 1788-1791",
+              "Four Years' Diet",
+              "Polish Patriots",
+              "Russia and Polish constitutional reform",
+              "Golden Liberty—Poland",
+              "Polish constitution—Patriot reforms",
+              "liberum veto",
+              "Poland—hereditary monarchy and majority rule",
+              "May Constitution—Poland",
+              "Friends of the Constitution—Poland",
+              "Polish constitutional revolution"
+            ],
+            "document_pages": [
+              165,
+              166
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S014"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S014",
+            "label": "Poland—national revival and Constitution of 3 May 1791",
+            "meaning": "Polish patriots used Russia's distraction to recover autonomy and replace Golden Liberty with a stronger constitutional state. Their program replaced weak elective kingship, unanimity through the liberum veto and legalized rebellion with hereditary executive authority and majority voting, while political life remained dominated by nobles. The king and Patriots enacted the constitution through a thinly attended Diet surrounded by troops.",
+            "stance": "French parallels influenced language and perception, but Poland's reform problem was fundamentally different.",
+            "acceptable_access": [
+              "Poland—national revival and Constitution of 3 May 1791",
+              "Polish Revolution, 1788-1791",
+              "Constitution of 3 May 1791",
+              "Poland—French revolutionary influence",
+              "Poland—national revival, 1788-1791",
+              "Four Years' Diet",
+              "Polish Patriots",
+              "Russia and Polish constitutional reform",
+              "Golden Liberty—Poland",
+              "Polish constitution—Patriot reforms",
+              "liberum veto",
+              "Poland—hereditary monarchy and majority rule",
+              "May Constitution—Poland",
+              "Friends of the Constitution—Poland",
+              "Polish constitutional revolution"
+            ],
+            "document_pages": [
+              165,
+              166
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "3eec92ec8150c9f9486804b54e0a8d1e40205b6a4db0f478d2e5c8e5775269e7",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "165–166 supports both specific abolished constitutional mechanisms and the irregularly pressured enactment. Preserve noble predominance, Russian strategic urgency and the warning against equating Polish and French political problems.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 109,
+      "subject_id": "SUBJ-SUCC-5A2C055BC3AC",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0223",
+        "CORR-007-LEGACY-0224"
+      ],
+      "source_correction_row_sha256s": [
+        "5bba2a95c2edb9f1561aba299760247193f826f8ff6503f1b91259578de36e3e",
+        "206dc34c6049877a80fdffdbcca13e0cc6c3e83bf8c3a05177f74fee9af34b6b"
+      ],
+      "before_record": {
+        "label": "Guillotine, introduction and political use",
+        "priority": "optional",
+        "meaning": "Retention of capital punishment led to adoption of a supposedly reliable, egalitarian, and painless mechanical decapitator, first used on a highwayman and then for political execution after 10 August.",
+        "stance": "Its introduction joined humanitarian and egalitarian claims to a rapidly expanding politics of punitive violence.",
+        "subject_id": "SUBJ-SUCC-5A2C055BC3AC",
+        "acceptable_access": [
+          "Guillotine, introduction and political use",
+          "Guillotine—introduction",
+          "Capital punishment—Revolution",
+          "Political execution—1792",
+          "revolutionary justice",
+          "special tribunal of August 1792",
+          "guillotine and political execution",
+          "popular justice",
+          "guillotine",
+          "Guillotin",
+          "mechanical decapitation",
+          "capital punishment"
+        ],
+        "evidence": [
+          {
+            "document_page": 183,
+            "source_page_label": "183",
+            "locator_class": "principal",
+            "evidence_summary": "Explains the machine's legislative background, claimed qualities, naming, and first execution on 25 April.",
+            "evidence_id": "EVID-SUCC-91A46A51810E",
+            "source_local_subject_id": "SUCC-C008-S038",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 190,
+            "source_page_label": "190",
+            "locator_class": "supporting",
+            "evidence_summary": "The 17 August tribunal sends its first political victim to the guillotine on 21 August.",
+            "evidence_id": "EVID-SUCC-BDB59DCDEA2F",
+            "source_local_subject_id": "SUCC-C008-S038",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "incidental",
+            "evidence_summary": "Anger at the slow17August tribunal and prison fears helped produce popular massacre; this is contextual revolutionary justice, not evidence of guillotine use on this page.",
+            "evidence_id": "EVID-SUCC-9514DC0E4322",
+            "source_local_subject_id": "SUCC-C008-S038",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S038",
+            "label": "Guillotine, introduction and political use",
+            "meaning": "Retention of capital punishment led to adoption of a supposedly reliable, egalitarian, and painless mechanical decapitator, first used on a highwayman and then for political execution after 10 August.",
+            "stance": "Its introduction joined humanitarian and egalitarian claims to a rapidly expanding politics of punitive violence.",
+            "acceptable_access": [
+              "Guillotine, introduction and political use",
+              "Guillotine—introduction",
+              "Capital punishment—Revolution",
+              "Political execution—1792",
+              "revolutionary justice",
+              "special tribunal of August 1792",
+              "guillotine and political execution",
+              "popular justice",
+              "guillotine",
+              "Guillotin",
+              "mechanical decapitation",
+              "capital punishment"
+            ],
+            "document_pages": [
+              183,
+              190
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S038"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S038",
+            "label": "Guillotine, introduction and political use",
+            "meaning": "Retention of capital punishment led to adoption of a supposedly reliable, egalitarian, and painless mechanical decapitator, first used on a highwayman and then for political execution after 10 August.",
+            "stance": "Its introduction joined humanitarian and egalitarian claims to a rapidly expanding politics of punitive violence.",
+            "acceptable_access": [
+              "Guillotine, introduction and political use",
+              "Guillotine—introduction",
+              "Capital punishment—Revolution",
+              "Political execution—1792",
+              "revolutionary justice",
+              "special tribunal of August 1792",
+              "guillotine and political execution",
+              "popular justice",
+              "guillotine",
+              "Guillotin",
+              "mechanical decapitation",
+              "capital punishment"
+            ],
+            "document_pages": [
+              183,
+              190
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "f8ce9de0fbcd738558182346f6eee0ac9440dedccb1593703c1bea14476cfd2a",
+      "proposed_record": {
+        "label": "Guillotine, introduction and political use",
+        "priority": "optional",
+        "meaning": "Retention of capital punishment led to adoption of a supposedly reliable, egalitarian, and painless mechanical decapitator, first used on a highwayman and then for political execution after 10 August.",
+        "stance": "Its introduction joined humanitarian and egalitarian claims to a rapidly expanding politics of punitive violence. Guillotin proposed the idea but did not invent the device.",
+        "subject_id": "SUBJ-SUCC-5A2C055BC3AC",
+        "acceptable_access": [
+          "Guillotine, introduction and political use",
+          "Guillotine—introduction",
+          "Capital punishment—Revolution",
+          "Political execution—1792",
+          "revolutionary justice",
+          "special tribunal of August 1792",
+          "guillotine and political execution",
+          "popular justice",
+          "guillotine",
+          "Guillotin",
+          "mechanical decapitation",
+          "capital punishment"
+        ],
+        "evidence": [
+          {
+            "document_page": 183,
+            "source_page_label": "183",
+            "locator_class": "principal",
+            "evidence_summary": "After the assembly retained capital punishment, a mechanical decapitator was devised as reliable, egalitarian and supposedly painless. Guillotin had proposed the idea but was not its inventor; its first victim was a highwayman on 25 April.",
+            "evidence_id": "EVID-SUCC-91A46A51810E",
+            "source_local_subject_id": "SUCC-C008-S038",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 190,
+            "source_page_label": "190",
+            "locator_class": "supporting",
+            "evidence_summary": "The 17 August tribunal sends its first political victim to the guillotine on 21 August.",
+            "evidence_id": "EVID-SUCC-BDB59DCDEA2F",
+            "source_local_subject_id": "SUCC-C008-S038",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "incidental",
+            "evidence_summary": "Anger at the slow17August tribunal and prison fears helped produce popular massacre; this is contextual revolutionary justice, not evidence of guillotine use on this page.",
+            "evidence_id": "EVID-SUCC-9514DC0E4322",
+            "source_local_subject_id": "SUCC-C008-S038",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S038",
+            "label": "Guillotine, introduction and political use",
+            "meaning": "Retention of capital punishment led to adoption of a supposedly reliable, egalitarian, and painless mechanical decapitator, first used on a highwayman and then for political execution after 10 August.",
+            "stance": "Its introduction joined humanitarian and egalitarian claims to a rapidly expanding politics of punitive violence. Guillotin proposed the idea but did not invent the device.",
+            "acceptable_access": [
+              "Guillotine, introduction and political use",
+              "Guillotine—introduction",
+              "Capital punishment—Revolution",
+              "Political execution—1792",
+              "revolutionary justice",
+              "special tribunal of August 1792",
+              "guillotine and political execution",
+              "popular justice",
+              "guillotine",
+              "Guillotin",
+              "mechanical decapitation",
+              "capital punishment"
+            ],
+            "document_pages": [
+              183,
+              190
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S038"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S038",
+            "label": "Guillotine, introduction and political use",
+            "meaning": "Retention of capital punishment led to adoption of a supposedly reliable, egalitarian, and painless mechanical decapitator, first used on a highwayman and then for political execution after 10 August.",
+            "stance": "Its introduction joined humanitarian and egalitarian claims to a rapidly expanding politics of punitive violence. Guillotin proposed the idea but did not invent the device.",
+            "acceptable_access": [
+              "Guillotine, introduction and political use",
+              "Guillotine—introduction",
+              "Capital punishment—Revolution",
+              "Political execution—1792",
+              "revolutionary justice",
+              "special tribunal of August 1792",
+              "guillotine and political execution",
+              "popular justice",
+              "guillotine",
+              "Guillotin",
+              "mechanical decapitation",
+              "capital punishment"
+            ],
+            "document_pages": [
+              183,
+              190
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "a221b2949a350363c9205b1b0f0aab1004d694397040716226237fab401175f2",
+      "fields_changed": [
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "183 expressly distinguishes Guillotin’s proposal from invention, and names the first victim and date. This is a source-supported clarification, not external correction.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 110,
+      "subject_id": "SUBJ-SUCC-8760C754C67B",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0225",
+        "CORR-007-LEGACY-0226",
+        "CORR-007-LEGACY-0410",
+        "CORR-007-LEGACY-0411"
+      ],
+      "source_correction_row_sha256s": [
+        "c67bcb82faf7729de4a63105d00dbe849335b3c04ccfd67e0c99bde091590e37",
+        "43dc161ce7661fd47f935c5afe068c2fb567be93fd083b7616f5568d5a544a92",
+        "5be50a5f27cbeb12b86615f0936353db2b79ea63d2d5ff3eef2f9a3b7aa93cae",
+        "69f227e491ff40e6184ce02b5c179375e42bada6cdf52f945c90fe1e0f4c8c0c"
+      ],
+      "before_record": {
+        "label": "Rhineland: religious policy and passive resistance",
+        "priority": "major",
+        "meaning": "Rhenish Catholic hostility to confiscation, anticlerical restrictions, clerical persecution, and foreign rule.",
+        "stance": "The region produced sustained passive resistance rather than a mass uprising, partly because of dense French occupation and the absence of conscription.",
+        "subject_id": "SUBJ-SUCC-8760C754C67B",
+        "acceptable_access": [
+          "Rhineland—religion and resistance",
+          "Rhenish Catholicism under French rule",
+          "Germany—passive resistance to France",
+          "Rhineland--confiscation and retained church dues",
+          "Priests--centres of Rhenish resistance"
+        ],
+        "evidence": [
+          {
+            "document_page": 353,
+            "source_page_label": "353",
+            "locator_class": "principal",
+            "evidence_summary": "Religious restrictions and clerical persecution produced resentment, defiance, and Vendée comparisons without a general revolt.",
+            "evidence_id": "EVID-SUCC-F23942D77EFE",
+            "source_local_subject_id": "SUCC-C015-S020",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S020",
+            "label": "Rhineland: religious policy and passive resistance",
+            "meaning": "Rhenish Catholic hostility to confiscation, anticlerical restrictions, clerical persecution, and foreign rule.",
+            "stance": "The region produced sustained passive resistance rather than a mass uprising, partly because of dense French occupation and the absence of conscription.",
+            "acceptable_access": [
+              "Rhineland—religion and resistance",
+              "Rhenish Catholicism under French rule",
+              "Germany—passive resistance to France",
+              "Rhineland--confiscation and retained church dues",
+              "Priests--centres of Rhenish resistance"
+            ],
+            "document_pages": [
+              353
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S020"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S020",
+            "label": "Rhineland: religious policy and passive resistance",
+            "meaning": "Rhenish Catholic hostility to confiscation, anticlerical restrictions, clerical persecution, and foreign rule.",
+            "stance": "The region produced sustained passive resistance rather than a mass uprising, partly because of dense French occupation and the absence of conscription.",
+            "acceptable_access": [
+              "Rhineland—religion and resistance",
+              "Rhenish Catholicism under French rule",
+              "Germany—passive resistance to France",
+              "Rhineland--confiscation and retained church dues",
+              "Priests--centres of Rhenish resistance"
+            ],
+            "document_pages": [
+              353
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "e0b568c1d8c35c93fa550cb313166757d59568a1dc92b9a4781ef97b2056559d",
+      "proposed_record": {
+        "label": "Rhineland: religious policy and passive resistance",
+        "priority": "major",
+        "meaning": "Rhenish Catholic hostility to confiscation, anticlerical restrictions, clerical persecution, and foreign rule. Opposition included attacks on liberty trees, intimidation of officials, circulated appeals and noncooperation; the lack of a general rising did not mean acceptance.",
+        "stance": "The region produced sustained passive resistance rather than a mass uprising, partly because of dense French occupation and the absence of conscription. In this case the author judges French suspicions that priests led resistance to be justified; do not turn the attribution into either an invented universal conspiracy or a merely imaginary religious grievance.",
+        "subject_id": "SUBJ-SUCC-8760C754C67B",
+        "acceptable_access": [
+          "Rhineland—religion and resistance",
+          "Rhenish Catholicism under French rule",
+          "Germany—passive resistance to France",
+          "Rhineland--confiscation and retained church dues",
+          "Priests--centres of Rhenish resistance"
+        ],
+        "evidence": [
+          {
+            "document_page": 353,
+            "source_page_label": "353",
+            "locator_class": "principal",
+            "evidence_summary": "Religious persecution and news of neighboring revolts intensified hostility, expressed through attacks on liberty trees, official intimidation, leaflets and noncooperation. Dense occupation and absence of conscription helped prevent a general rising. The source judges priests to have been real centers of resistance, while expulsions and arrests sustained their congregations’ resentment.",
+            "evidence_id": "EVID-SUCC-F23942D77EFE",
+            "source_local_subject_id": "SUCC-C015-S020",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S020",
+            "label": "Rhineland: religious policy and passive resistance",
+            "meaning": "Rhenish Catholic hostility to confiscation, anticlerical restrictions, clerical persecution, and foreign rule. Opposition included attacks on liberty trees, intimidation of officials, circulated appeals and noncooperation; the lack of a general rising did not mean acceptance.",
+            "stance": "The region produced sustained passive resistance rather than a mass uprising, partly because of dense French occupation and the absence of conscription. In this case the author judges French suspicions that priests led resistance to be justified; do not turn the attribution into either an invented universal conspiracy or a merely imaginary religious grievance.",
+            "acceptable_access": [
+              "Rhineland—religion and resistance",
+              "Rhenish Catholicism under French rule",
+              "Germany—passive resistance to France",
+              "Rhineland--confiscation and retained church dues",
+              "Priests--centres of Rhenish resistance"
+            ],
+            "document_pages": [
+              353
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S020"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S020",
+            "label": "Rhineland: religious policy and passive resistance",
+            "meaning": "Rhenish Catholic hostility to confiscation, anticlerical restrictions, clerical persecution, and foreign rule. Opposition included attacks on liberty trees, intimidation of officials, circulated appeals and noncooperation; the lack of a general rising did not mean acceptance.",
+            "stance": "The region produced sustained passive resistance rather than a mass uprising, partly because of dense French occupation and the absence of conscription. In this case the author judges French suspicions that priests led resistance to be justified; do not turn the attribution into either an invented universal conspiracy or a merely imaginary religious grievance.",
+            "acceptable_access": [
+              "Rhineland—religion and resistance",
+              "Rhenish Catholicism under French rule",
+              "Germany—passive resistance to France",
+              "Rhineland--confiscation and retained church dues",
+              "Priests--centres of Rhenish resistance"
+            ],
+            "document_pages": [
+              353
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "9b2d1fea2bbce818ac64fafa39939558462b844503276817b8217deebe1a23f1",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "353 supports concrete hostile acts, occupation/conscription limits and actual priestly resistance. Combine these compatible layers without turning the author’s specific Rhineland judgment into a universal conspiracy claim.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    }
+  ],
+  "actual_full_source_pages_reread_after_draft_access": [
+    159,
+    166,
+    170,
+    183,
+    271,
+    277,
+    353,
+    361,
+    362,
+    363,
+    397,
+    412,
+    424
+  ],
+  "same_active_pass_source_page_reuse": [
+    162,
+    165,
+    249,
+    250,
+    251,
+    278
+  ],
+  "new_evidence_ids": [],
+  "original_draft_unchanged": true,
+  "whole_book_approval": false
+}

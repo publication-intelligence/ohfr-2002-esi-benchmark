@@ -1,0 +1,1397 @@
+{
+  "schema_version": "independent-integration-proposal-derivation-v1",
+  "status": "sealed_provisional_values_pending_independent_final_assent",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1",
+      "bytes": 6553097
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "sha256": "dd5c26b1ed92b6d8d52dc693f87b599bb42d03e26c14305daf615217a70527a4",
+      "bytes": 165307
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "sha256": "683941d4c1b8dd5acafd1992c6c3bb0ef33bf0771b40a4b4d45fbb92d4676f7e",
+      "bytes": 215514
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "sha256": "4564362f44fee9a1f6fe4fdd37274a27d62be745962f100cb2fee4fe2935e7f2",
+      "bytes": 164842
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "sha256": "2094037fe9e959cae618edb8be32e3d9634e3881f601298bddab829dd925e6b1",
+      "bytes": 175205
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "sha256": "1588d95c34239435c36731fcdb586d128d9d863abb87cd1c006a97f9170fdb18",
+      "bytes": 166421
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "sha256": "c92ab0eea3623521aed764d8154396164918d240b2c667035bcae60a45fd57b6",
+      "bytes": 150389
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "sha256": "196e1071ae6cf8668e24cf6c718b6d96468293473a2cc56552eeef38afd6b27e",
+      "bytes": 186171
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "sha256": "86f38e60f14f1e3c6140fd105c9e9cd01255b1bab84eed0dbf002944dfbe757b",
+      "bytes": 158201
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "sha256": "c3de3c7555c34053b490aec8dca08a857bf03a57f79697efdecd0b37497eba25",
+      "bytes": 161928
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "sha256": "7d0c507b15b5725c29e3eb43d9b3b774bf2c15c895da5f384193793a6112e278",
+      "bytes": 155167
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "sha256": "2ee426876df3b3a61afafcb9118e1ea401492c7c94887ec3cc5395481593b355",
+      "bytes": 142853
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "sha256": "8491da88eee308f59d3fa8bbb16b95273ad9cea39f5438c32e817677a8e110e8",
+      "bytes": 249773
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "sha256": "e824f28d6c0145f5cc2d53385f294f289f48ae2db8b069ec7155aad117d79f6a",
+      "bytes": 232832
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "sha256": "3b68709dccb316712894d288f3904d3889b2993df59a07b4671b4f39003a18ca",
+      "bytes": 220693
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "sha256": "b78c1dfeafc21fa9334ebd3f49992430c9391ed87603c13a4e6ea2ad4728285c",
+      "bytes": 202402
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-159-162.v1.json",
+      "sha256": "e40165d23f28564aafd6f049e4622443eed8b203290d9b1e73221d7ca374918d",
+      "bytes": 63142
+    }
+  ],
+  "output": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage9.v1.json",
+    "sha256": "3bc8b4289d286c01d6d8b4c20556a24eb64484002e55ac9c2e29c0c44c70e87c",
+    "bytes": 6701183
+  },
+  "ordered_whole_record_compositions": [
+    {
+      "group_index": 1,
+      "subject_id": "SUBJ-SUCC-A1B30A58C722",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "e296da50447524a4d7c312a80440f2e595a8260e247e877b899eb45210b5ac03",
+      "before_sha256": "6dc1525e6f447a463146c781695ef31103ed6ba989f3c0e4c916fa888fb777f6",
+      "proposed_sha256": "64257f0282cb17fc297b2236454dc502a23ea3014b1b14c10cf010c80ee02628"
+    },
+    {
+      "group_index": 2,
+      "subject_id": "SUBJ-SUCC-87628E298F61",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "025656fce0e45a7b1b5599dc3339601fbb6940494fd688743fa5c7719c43e03f",
+      "before_sha256": "5b188db3ad1318ccb307b9a754abe72560d07b0bb76ffd6d9b4c16871cdf0753",
+      "proposed_sha256": "8336408830a3f8f105262e9d421762eb17f77425fd12db5d3f196fcbcefb3105"
+    },
+    {
+      "group_index": 3,
+      "subject_id": "SUBJ-SUCC-51F0F6F76B36",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "779ab09333967b2dd69061f4f8b1519f7e124948b3d4d677d02ad2e88e79881e",
+      "before_sha256": "6ab72e562a7b36f5085f369f5ae2e66fa85a3ad7eff156c77fbbe8e37f3e74e4",
+      "proposed_sha256": "acefbc634ee71031fc5da592d88ea3301f874f065b5f411dd95b52c568a72a60"
+    },
+    {
+      "group_index": 4,
+      "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "e8fb411103ae57903d0fd018c2a4bb6f12ebd77323a7abc370b95f659919bc8d",
+      "before_sha256": "2170d5391681a3ec375bd487ac28027ba112f3ef130a784d87b0c4bde15a15bd",
+      "proposed_sha256": "9d9c5129e4b9b905be9961b008755d82c8782e88e3ad2a35285e91c53bf5f14e"
+    },
+    {
+      "group_index": 5,
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "02aefe64e1bead5e337f1ef79699353ec7f67abf1e22f17fc017aae8925fda8d",
+      "before_sha256": "e545a9ca84d4972c78280745057fabea5238fd721fe4a4ebb7819387727ef8a5",
+      "proposed_sha256": "3be986e05a99fe82bde5fc1c992cdcd24aeed06f34e16c7bad4d7b593433e7b7"
+    },
+    {
+      "group_index": 6,
+      "subject_id": "SUBJ-SUCC-1671B419419F",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "4ba321e565db4d4797e3e257b4fe876581052ee31768e9ce601e2d35ace9f124",
+      "before_sha256": "8d183e5240482708a27d0e3983f5d361fbb3811cd38e917600b7e74bed810dbf",
+      "proposed_sha256": "834f27290ec3e89d09c7f910b26aa892517c4fc3599752335f4be0533dd8044b"
+    },
+    {
+      "group_index": 7,
+      "subject_id": "SUBJ-SUCC-4A15787A5F56",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "6d8367e5b8470e2af7e98650ea151a8ae3671dd562a15278780b5762bfcfbb32",
+      "before_sha256": "1e19cd280b917ccd43a99d195465c4dd06f1853d5ce79bfe097548aabfb075df",
+      "proposed_sha256": "0816db1c76646be598ad084615112f8d9767cf0ba52e1663999093d0fafe1b48"
+    },
+    {
+      "group_index": 8,
+      "subject_id": "SUBJ-SUCC-B6A0C6B7E4B4",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "8c71de8baba09778f7bc75ff897e489ca0ca93f0bf61b5853b3bc15d4e885fe4",
+      "before_sha256": "30b263646c6f70a9f8009b5a1a61d517cbae6636510db51bded4cdb8395463a3",
+      "proposed_sha256": "402a939e92e1ea814f649a2ae191b0d10f981908ce786f997cc2f1ec18378d04"
+    },
+    {
+      "group_index": 9,
+      "subject_id": "SUBJ-SUCC-1635049F80A6",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "2b4f4be8221d627af4f08563e434aea0a9c8313c19b9447a7b91e6d78edb56c1",
+      "before_sha256": "fd929cf595b99fa1faf54a04226bfb7efa131f9d25f44a6c84f9226ce8bca795",
+      "proposed_sha256": "c2ff9974eff6979bbe33320c77afe8cd18a7fc1f6bf26d8b1ab12c63deb10ca1"
+    },
+    {
+      "group_index": 10,
+      "subject_id": "SUBJ-SUCC-8F566C23AFAC",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.001-010.v1.json",
+      "component_row_sha256": "e8d4fa823f8ced4466712944d70835eb0a9a91f2775ce31d77bf22a6cefc87ee",
+      "before_sha256": "7e3a3eee9603903202c5fa33c9e3c11e68d6c64f31b5f11b64c08e62bdc5b48a",
+      "proposed_sha256": "2546661d449d8e94d01c230da1262922bd698e14cfc6692c9d9a46466a20585e"
+    },
+    {
+      "group_index": 11,
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "599fcd7e3eb657147bef80de3a3f8d17746f9cc6d1584a1340c2eafb8f484b94",
+      "before_sha256": "d1ece16ae9a66588c2cf73049f08cb0fc0551aa81221626bfd5d0ad5f157be5c",
+      "proposed_sha256": "8731ceb8ca8e7816538d55878e513c4f24ec442bf317fbb03917aa5aebaaf50a"
+    },
+    {
+      "group_index": 12,
+      "subject_id": "SUBJ-SUCC-A946B0B96B6D",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "694b5cd226a713dd5b73813c6a1496d7d0f004d546412e65916424764e18cfad",
+      "before_sha256": "ef5353b0bb24ca9356b47b21f5c55e0d42731f3e45a88cb62e45f5184e679eef",
+      "proposed_sha256": "23b0124d111d54f2a6df94d2cddbce75c4388ecb66411aada95dea3ab56bc7fa"
+    },
+    {
+      "group_index": 13,
+      "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "e84cd78e5e8091a7c7c1fb6d7dc09b26cf89172a9eea5d24b035f16a4f29c7e8",
+      "before_sha256": "48b2525ecaeceb49eb99c08877f204388c63ff3f49f4a44507bca9445369c74c",
+      "proposed_sha256": "c5c716556eabfc4ab009882a38cb3ef4e1e859df797f854441d095091f537c34"
+    },
+    {
+      "group_index": 14,
+      "subject_id": "SUBJ-SUCC-FC3075CE0927",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "72ea5b4564983e4c4e7b6bfcce83a7f8ca18a2cdaa16f59d76c3d356f7b99f87",
+      "before_sha256": "e8d21094908e470c7317d4dabbb358a8c5d093c1182d540ef73aa97a984bd54d",
+      "proposed_sha256": "589819f9eab147eb27dd01b514e621f261558f7190716434b5c140ecf7cd15ac"
+    },
+    {
+      "group_index": 15,
+      "subject_id": "SUBJ-SUCC-7922496FA528",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "8cf36ed74da16228fdcbd459185fbdf7dbd006107b6aa5e69792a324f37f42fe",
+      "before_sha256": "d4517249f81f613aa1a877a854e89f0d9d1d2648506ef6843bf987420d6da4f9",
+      "proposed_sha256": "c000337aaa502f6fa022fb2e1bb4e1074520e22d3e475ff45730d3b7bc7a18e6"
+    },
+    {
+      "group_index": 16,
+      "subject_id": "SUBJ-SUCC-2D772631E96A",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "30ccf8dd577fc5751f9b5ab050ff0b9ac83fd66373b29eceb429dc51a0f746ee",
+      "before_sha256": "d8c7139e9660100105653d544e6211484defc7c540f8febfc79b9ec41f1b91d1",
+      "proposed_sha256": "e20f0421ca89758672c29db3afb66326c2b63193aa1db4cad63bb8f65c675a09"
+    },
+    {
+      "group_index": 17,
+      "subject_id": "SUBJ-SUCC-86D03B0C3585",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "d0f32abcd9a7183a08127072949cbe7d1490cba162c783639f24e1ef89d44ac8",
+      "before_sha256": "cbb079506066236a086c1eedbf7cfb573b99bc541d646eceb107ae2fabc91dd2",
+      "proposed_sha256": "656cbfd8c34e7cf9593c84c0046b84c266454382c9b6c39196bb6b6519d0be73"
+    },
+    {
+      "group_index": 18,
+      "subject_id": "SUBJ-SUCC-7C338D256927",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "1e1ab140da951063cf68049ef018b757e7a0ab4a67eb725f0ad11f9008165cbc",
+      "before_sha256": "dc62c3c10ee6ee3a08883cc24005c8019c8170060019748e4aba5e1274fd34da",
+      "proposed_sha256": "a114d39223293f84a6643a8fa0c8877a6889e45e35789afe2ec17a1a63f068c8"
+    },
+    {
+      "group_index": 19,
+      "subject_id": "SUBJ-SUCC-AF783FF68D90",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "2a39aa975f51e5d03bd268b4f218c165514ec8be6f6c1fd5def14ea26f27d53f",
+      "before_sha256": "8f83357cf3dc9be5e7c05819d6a292ff411fc1660bd12bc662b3f2714d87ce78",
+      "proposed_sha256": "f0a6ef42e4534fb599184e0740441597de02d29b35218ee714d11b9aa4f85360"
+    },
+    {
+      "group_index": 20,
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.011-020.v2.json",
+      "component_row_sha256": "6df0a403b528dd2cce1eca046718b9ea0a93ccf7fb81b9ba8eade074e214da85",
+      "before_sha256": "4fbb16fb6e3e9a5225e136a7715cb975e9252f853b1bd1c913cc22784001553a",
+      "proposed_sha256": "0bf3eb01d380bfc64fa6d9e68a8fd44dafa41c9ff40adf1519e1f6874a66401c"
+    },
+    {
+      "group_index": 21,
+      "subject_id": "SUBJ-SUCC-5B53956EB181",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "2e5fb480307935c8482dc194c95cf28c385a2363af8344dd2a911b7362c4fe0c",
+      "before_sha256": "793a0f9b6b2976521bebed67d05fe5ad823703f558ca5db5a97f75ccce92a390",
+      "proposed_sha256": "866df8e960437733f62d7cb3dd9d18aa954de4c65a56afd9ff9c71a0d898ba6e"
+    },
+    {
+      "group_index": 22,
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "cb1897ffc6b7faac9b8909c3cd164c03a3b96fb991f5807b297e913542a11894",
+      "before_sha256": "600280d9a345a05297fd2c3c75c5bbd7c730f0391ff5e035cf0441613d6b3bfa",
+      "proposed_sha256": "c8c7e05b3eab776416fad09177ddcab00c813930d59868f6152bf2a7e4e57187"
+    },
+    {
+      "group_index": 23,
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "a2dd603617054a0b6a1964e23a37e554d04b831ed957a955232f8909664c5eb2",
+      "before_sha256": "48fb80d9ee9a0a61f42edc0b771f07f4c505bd9ebca613e6a49825dcb1912eef",
+      "proposed_sha256": "385078a71d535d4dd93496c92950f51b39d519e5a146cfebda4db2174147a011"
+    },
+    {
+      "group_index": 24,
+      "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "d6155328aebe687ecb4b8fa404fe76006716de06d410059ebc2220a4a882b8b9",
+      "before_sha256": "92d28759145c7b673cab83e36fd4f3cd8b7e004daba752e6421e7ca8f6efe933",
+      "proposed_sha256": "2c8dbf8d5ea4c787588071d09460b9af5a3b662ba93241a61c6df6c2025c29c9"
+    },
+    {
+      "group_index": 25,
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "057795d9b71036036b50d71affeec7dda03534dc505814c79db70c1e8554f33e",
+      "before_sha256": "6d067b493c48c58644d4ab5c44a0382a40bdd898d46d18f8d22ae8603322b1e5",
+      "proposed_sha256": "dd6cccf080c758d551dd3372aea78b25a1f2ed730afd0dbd3a7dd3adecc2818a"
+    },
+    {
+      "group_index": 26,
+      "subject_id": "SUBJ-SUCC-BAE3182C598F",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "14b61d7e79088e8cd228ad09bc5ae5e1bf2b4d0a3101de24d2ecbcd315f5a01b",
+      "before_sha256": "a8146e3e86b45a3802eb45fcaf397f174c75b992dd9cfcb1cb2cd32c64ba9617",
+      "proposed_sha256": "09d8653b885e04d1c7443ff3aec7949e9d27ccb8ca760941be3cb5842167fc59"
+    },
+    {
+      "group_index": 27,
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "3c38ecbf9225cb95146c8b5eb67d9340761e067ae1e6182c908036438fff2d55",
+      "before_sha256": "969cd4665af77ad3cd84e19757a553c34082c779cd498903e086d69ca15fa09b",
+      "proposed_sha256": "0a53aab4d8d3e5a17ccb80f8f36f81d14f72b84665ce435c827e7d2b84d9d9c3"
+    },
+    {
+      "group_index": 28,
+      "subject_id": "SUBJ-SUCC-A6EB838468C1",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "fcbf2e9119c930bca99bb65f50ece63aba81eac8aedad0c046642f82b7508d40",
+      "before_sha256": "e53e79a030c6a1fadc4460ee4d481a5e1d7f79e1eb282027c26ac68fb0ede601",
+      "proposed_sha256": "671cdb4827a7235829cdd571bdb41827d72ffd93c27b3af01083208679a01b54"
+    },
+    {
+      "group_index": 29,
+      "subject_id": "SUBJ-SUCC-415BA63D659A",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "4af45125f9ee62beb2585907ac040391d451c3bcd7211a748d1e6f6bb99fef80",
+      "before_sha256": "d034a46a0b59470490c6be76ffe2afb07432abddd5c42d859151045b77b3f430",
+      "proposed_sha256": "4dc3731c15ef0a35e2601259af7c9a39c1f3e2f486d888a5544260744b8e25c6"
+    },
+    {
+      "group_index": 30,
+      "subject_id": "SUBJ-SUCC-6BBDB6F461D1",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.021-030.v1.json",
+      "component_row_sha256": "19e27f1833e10465fbbac598547fee88ca364cd01f8af24a1d6d874d032c7fe5",
+      "before_sha256": "264d0be4227fa82abb23f48da17da29651ffa01b619f0abec460f2390d206a55",
+      "proposed_sha256": "65792b70ab7ecf26e56680a0be824ee392139de16151fb3687f1fd09845743fe"
+    },
+    {
+      "group_index": 31,
+      "subject_id": "SUBJ-SUCC-BE926DEFD2FF",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "d1cd7d588defda2413f7252542ec0b66d93502286fb72e8812d3f2abd160111a",
+      "before_sha256": "47209a0e327f383a97e146bf4500304ca330a2fd9bdc68e71f3f5c8cbb339aad",
+      "proposed_sha256": "ab6325fa77eb946b3f157a443f792ba387fc533de97c90eb21210fc7c0c17b84"
+    },
+    {
+      "group_index": 32,
+      "subject_id": "SUBJ-SUCC-42A647BF0FDD",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "755ccee0e1eda42149d48b7c65de6cb42c54fc3524ee85dadcf583255865aa0a",
+      "before_sha256": "bf358adb988ee9f6678271da6a11892bc08ff825ca5994f2464ce5fcf9e1e3ff",
+      "proposed_sha256": "d6adb72efe76fbbc99b42f948c52e231819bff5caca3a69ef5b8cb7fa4725930"
+    },
+    {
+      "group_index": 33,
+      "subject_id": "SUBJ-SUCC-C31553A0D1B9",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "f3015f70652e68cd20c09e5182f22de459e762e5ee84da95508f8fff281be5df",
+      "before_sha256": "2ab7b89a56447258a47556e1cf6233f0b145987ac0cf274eaec8a618ead092fc",
+      "proposed_sha256": "5eb81954a05490d075e36d8ca882ac528d4db3cf9630fd32c59ada08f88e0ae0"
+    },
+    {
+      "group_index": 34,
+      "subject_id": "SUBJ-SUCC-25B078097C6D",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "47871d0a813cb4ec2384ba46995cfd04b835a87dd8d4af9422a9cc3b77b12e81",
+      "before_sha256": "d71e514c5b1090b444c5c3ea1cff4c83de26be646818dd950e0dc30f10cb04a0",
+      "proposed_sha256": "6db1929871535c4222c2657b567182cc75172abfc5b16cd2b15b7aeb8d9a5c15"
+    },
+    {
+      "group_index": 35,
+      "subject_id": "SUBJ-SUCC-B29051308F1C",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "b30eee79b41e6541c2afa308126c42a4d40f28f555a3b5211073e51d77ba7b5f",
+      "before_sha256": "9abc06bd84cad337081d0ffcb3ca0eb7414cb0d0250a0066360525d9669859eb",
+      "proposed_sha256": "56685ca54cc81e9496831b07aad7f9959fb27e92e43b8b362dd617ee7de7ca81"
+    },
+    {
+      "group_index": 36,
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "02e3b0479f3a4389f3b48a0e8addd0da2da1c21d8980607511f8af57414ceb73",
+      "before_sha256": "ac0c7e0bcbad255c3e0c489859d8e7fcd8f6111bd19f6d058887b600f98cfd9e",
+      "proposed_sha256": "9fdd5bd4a09d44a9bb0edf5d961354ea71df09e19e167d1d88d8cb0ca2fb04eb"
+    },
+    {
+      "group_index": 37,
+      "subject_id": "SUBJ-SUCC-DACCA6754DFE",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "031fad23a7b584eb75da50255b6003467a6992a5a616b346e9958892fadea7f2",
+      "before_sha256": "93d0d83c279f3bbd6f5f1fcd7014f180027e6986d452a3abb2b3699379d402d4",
+      "proposed_sha256": "b4d0e059532e9071f4c69837067e5bb2520197479351902d2e9748a850184cd7"
+    },
+    {
+      "group_index": 38,
+      "subject_id": "SUBJ-SUCC-8E3A7F5371C6",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "4b8735354512643b31d22bd3adaa654bea615b396b33b3b4d9d10a02b236f26c",
+      "before_sha256": "626878064a4736204545d113d5f355958a39adcc584cbf7597bc28e1c5e8e722",
+      "proposed_sha256": "0046da503ac20dce439c59b2d23fa487c0433a13bdf06593068d88dfdcc4d661"
+    },
+    {
+      "group_index": 39,
+      "subject_id": "SUBJ-SUCC-73959CE24E90",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "e1dcf6dcd5e8b950aacfe13661bc26ef7db440bb111933bb834f022eb6762231",
+      "before_sha256": "3741832d4eaadac752e863fb630b665379aecf23129f6b9532d8f7b048541ec4",
+      "proposed_sha256": "164ff78e670686f2ab464ca58830a0422b4f53ba80e8b82f2f37243771ba356f"
+    },
+    {
+      "group_index": 40,
+      "subject_id": "SUBJ-SUCC-3B80B2B4FB82",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.031-040.v1.json",
+      "component_row_sha256": "bceae6179ab0183b6df2e9864a8b91dc4e6feb4eadced048d1f3c06264217e86",
+      "before_sha256": "928db859c1eaca9ea33699fcf101c28bdfa77e34b9c3f0ab431b8484658bc049",
+      "proposed_sha256": "d224e4e36bca0449a1b35d863f193bc9b835cd8024f65fc025823872c1424a5a"
+    },
+    {
+      "group_index": 41,
+      "subject_id": "SUBJ-SUCC-9EE66EC07AA3",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "b520696bccf87a5bc7b013181b4918328c33fc4a28811aac292fb69d0c18a4a0",
+      "before_sha256": "cdbc30c8b21038f104b133c71333b2f0953daac06832f0c51e0a17c7c66d8ef1",
+      "proposed_sha256": "9412b06711413e4944c4359ee1fb2e6fc39f25d5ab0650ece72eeb772dd7810f"
+    },
+    {
+      "group_index": 42,
+      "subject_id": "SUBJ-SUCC-525A1728F643",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "b71181de023839843d070d133f4ae2ab8a761c507040833015d0da1a1db6eec8",
+      "before_sha256": "d38813c79d5b47ca6e2ee043b2570c3168fda1927735b7e0af429478d83c77d0",
+      "proposed_sha256": "9e5f0c893637c19215f715f3657728614a2deaf69af823f59957f1157a6b8f3b"
+    },
+    {
+      "group_index": 43,
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "9b54043f59aafabad74dab58863c52ef5b9bf752a48e58f6a965e1ed6622f043",
+      "before_sha256": "1232bc4f5f00fe508b76bf7e67eac8e644affeb7b8ebea705d1a15215ffcf9a1",
+      "proposed_sha256": "04a79bf67f8040409b8dea7b16dd0a4345dc3340d9a4f073988d1acf52367236"
+    },
+    {
+      "group_index": 44,
+      "subject_id": "SUBJ-SUCC-BEB51695F38C",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "66019467fd3d9d634304582cb6eb054e85eca48581145bc8b0ff2a12856e8819",
+      "before_sha256": "d96d58025a72f02c79668ed93e83e611bb176e39950a9904ba56de319c95d24b",
+      "proposed_sha256": "096d0223bd2941351df320fc0300a3fa74d0d6bfd8a14736c1a9a6e49d7a7bb9"
+    },
+    {
+      "group_index": 45,
+      "subject_id": "SUBJ-SUCC-8A3FF7132FF1",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "2688fb943de5766aae3617515a6f6f21e56edd3202783d5896ca5c4cb8c13469",
+      "before_sha256": "871bbfb6c6c79a29959b14dd5908b5b5cf1a811f680875e4f782a0953da58652",
+      "proposed_sha256": "cc5bf58dc4a64687ffa295612bc92b0f04e68599734a39b8862c6401080ca7ed"
+    },
+    {
+      "group_index": 46,
+      "subject_id": "SUBJ-SUCC-CB0C8FAE5B09",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "e4fc3ea580e1c239787d0c3ca2910395cfce9392f1c5697619c36913f00a21d7",
+      "before_sha256": "fe52d4960068007322d90edbe3ef02fa05693c47a4a68fcee4d985ce1e4c53f0",
+      "proposed_sha256": "09eec42eb7ca458869234e6f61ac590e1faec37178860edf5c830eb7f04b9920"
+    },
+    {
+      "group_index": 47,
+      "subject_id": "SUBJ-SUCC-0B38A7EF0244",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "03f0cde216a72b73ecab94fc6f27d068a8c40319f0c11d147bab193d63917339",
+      "before_sha256": "6ffa07bc6e1b643cfb291857fcac5b3d5e47ea482237c465aa919acbb53b3ea2",
+      "proposed_sha256": "0317890a1936d78f07c3e4e2c425872a8b63f83603dfa095d6eaec5c2e932adc"
+    },
+    {
+      "group_index": 48,
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "62af05550c56aba94126fb1b31bfe505e3ae3775d27d1259590141622c9ba6b7",
+      "before_sha256": "34d47d1dcaf3e421b29d97f35e4d5fc973fd16772aaeee13588cdc3db6b0ad7f",
+      "proposed_sha256": "055e988c430a845957766fb1610378b8a624aa164d655ae6b04671ac57f61b56"
+    },
+    {
+      "group_index": 49,
+      "subject_id": "SUBJ-SUCC-162FE9FCA811",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "4a4b98a1d2983a53c2626e8cf2b7184be13bba04ea704b09a493b4cbc32379f4",
+      "before_sha256": "c81ad54649893da289755f761ae725351ed72abba90005400f405146bab64424",
+      "proposed_sha256": "502e3804db044d98ee941899e1408897be0a4fc6954f04c9cbd8c1def446431d"
+    },
+    {
+      "group_index": 50,
+      "subject_id": "SUBJ-SUCC-3261B99CDE1E",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.041-050.v1.json",
+      "component_row_sha256": "7497f1a69129f5d0494bded33764a74fb10458d95b57492d86d7fad842f2c0d7",
+      "before_sha256": "bf73ad6391c2e23370a370a7bf27c5024c0f24cf56cc856823a9d8e9b91abe2f",
+      "proposed_sha256": "73e135e098df0aa27bc04cdd8bffde3a8b5b32a3c783f9bde03546d9204a3353"
+    },
+    {
+      "group_index": 51,
+      "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "516582ef5bb5225ca00349f4ecfff86df7bc5b1f1913883cc3370d4744c3b4e5",
+      "before_sha256": "3b4e3fd3b7cbbe1fc0ec9a0bccd72d615e2e867527808be58767fe260318472a",
+      "proposed_sha256": "7aa67cdc4638b05f4babe9656d96978d861caea9e8f69558929b16853ad72fc5"
+    },
+    {
+      "group_index": 52,
+      "subject_id": "SUBJ-SUCC-4DF9C902BF5B",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "bb4358f9ceaa626d9691beaf627fecf5eaa01a3dd3b95dcaf7f3f038017e2959",
+      "before_sha256": "c8c49074d5b038727261fb45d3d37035f0d74c57a5d25fda49e386c7849bcb94",
+      "proposed_sha256": "d31ae710b0567fe3b5fc6921e68d9fb2bb06808867534b908c9eb4514c752689"
+    },
+    {
+      "group_index": 53,
+      "subject_id": "SUBJ-SUCC-E20FB0D1A107",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "b93599f5bc51d70bfaecd499d5944f60f50a7ce6fa530fd1036100b65d7ce5e8",
+      "before_sha256": "8fcc504e79108e2c37e7274c702d482a1492afc68cff7f8f29a5f8aea510452b",
+      "proposed_sha256": "725d3aa38d5897b474dee18fef715b682ceaf6b10a9949ed7bb5840f3b26faee"
+    },
+    {
+      "group_index": 54,
+      "subject_id": "SUBJ-SUCC-0790BF160C73",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "bef57b101ac0fda0318493aabf3bc4e265e01e5f9f3b178ba63b8eaa415fccd5",
+      "before_sha256": "bce0bf891956b241d759a33a7f38a37ca1609a4290569d9c9929b7647a5ea4a1",
+      "proposed_sha256": "62671229dffd13f5366d64d1024f7b1724bdb563ea45dac103f872425bffa514"
+    },
+    {
+      "group_index": 55,
+      "subject_id": "SUBJ-SUCC-2FF0879B4083",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "96f6fd3f2653d39010d102dcc2b7b4206a09bf8176198f511ed87d132935a493",
+      "before_sha256": "26e5410b7a13dcabc6f2974022ea881d7779edd41ede63a6b2e365abf4e1dded",
+      "proposed_sha256": "e90843e4cb5c4a63d7fdb8e394e3a273e236ad6c967e8c3b81d54717da09a912"
+    },
+    {
+      "group_index": 56,
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "b3bc56b65055e6dfa501a870db6e602b7c947d25d981ed1ea71361384b8fec08",
+      "before_sha256": "63f1edeb7752f0f411b2432fa617e648bb9c0a4d36c860fd966446ae61918768",
+      "proposed_sha256": "7173bc16d7b05dba09aac5fc49337c2cc26e16a72124c6f95578991ceb27cae6"
+    },
+    {
+      "group_index": 57,
+      "subject_id": "SUBJ-SUCC-5DD90C556A55",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "06315f861e8c3cb5dbccd5954514af856184fe1ad2ee9f5c15a0d95521f20359",
+      "before_sha256": "2cda7f926c20f4a851daaea2133eefd8b4257830108a0c896db89ba7dfa6112d",
+      "proposed_sha256": "deae4512b76eb64894f962f3810e019be1459d1afb67381b51cc87de77ed3dad"
+    },
+    {
+      "group_index": 58,
+      "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "ab70910f6bf72170b69050c586a4851be2dd4d48084d26fed17b5d522d68ef31",
+      "before_sha256": "09bdae6a5ac8dfb6844c29939a573dc493373897e86b2b36004da8de719388be",
+      "proposed_sha256": "9dfb738307a0a7f15e68956b08da0e490ae236bd4b2adf5455a86a75ce05d85b"
+    },
+    {
+      "group_index": 59,
+      "subject_id": "SUBJ-SUCC-034398CDB346",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "0dc1c6ed2978a2dad3ac3c61892979734736257a86eed70859636e0e0082f769",
+      "before_sha256": "24d9211b94fe3be75d2e30481680ae005659a0a468b3ff104351ac7079fbb075",
+      "proposed_sha256": "fe28c6fe51087705facc0cec72a59e8ceb48334016d5bba83db452eb77f22fb8"
+    },
+    {
+      "group_index": 60,
+      "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.051-060.v1.json",
+      "component_row_sha256": "ed13cf77690dca8ee5383eb3c838c37cb9d78477e9eeeed47de7d39686ac2f21",
+      "before_sha256": "8cf1968f70b27ad1e516699b92475cf5abe2642a2cf26f301e0b02ac484f5547",
+      "proposed_sha256": "2928da6051fed8e96c0287e2e98787c0fc6d1ba07812ae98b861d2565a2f8c2c"
+    },
+    {
+      "group_index": 61,
+      "subject_id": "SUBJ-SUCC-ED05A22FC18F",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "370d69cfd1a4081be22be241a7398f0573ad62dca3c6dd4d77db515391373bed",
+      "before_sha256": "c7c93984f91aa590872e0840f209eccb330fdbad163fd2fd283db5559efa03e3",
+      "proposed_sha256": "14575ed894728027395262d805f79bb17d695b67e3aa3f6b48ec52b7f65a69d5"
+    },
+    {
+      "group_index": 62,
+      "subject_id": "SUBJ-SUCC-056C6DE7868F",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "03009a6ce07f15d54c0fce58f898335e99be82bdf8fc8c23ca00697fc4d97b41",
+      "before_sha256": "360be743993b4774d7a2941b2a231f33842e71e432ded99de43b3ef8871594db",
+      "proposed_sha256": "9dcb2265a572f9ba5dc77a09c8f69358cd35b8911e2f4497826db9fc45ea60fb"
+    },
+    {
+      "group_index": 63,
+      "subject_id": "SUBJ-SUCC-65D590EBAFE2",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "cdb59d6026186d710bc8b5ebbe59545affed6b8f961bb30a6bf15537e7cbc7aa",
+      "before_sha256": "1e68c66811f50883dd68653b92d9b87ac4d3fe77512ba405b1d24803c6268882",
+      "proposed_sha256": "f5c747da8514a4ee0ad60b181048a100fe67335a0d74f8196c4e09287f4d9488"
+    },
+    {
+      "group_index": 64,
+      "subject_id": "SUBJ-SUCC-41EBDED9E240",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "5b996bb07d8ef78cec26fada9660c6eb7bc4c028869cb62c744bf08c15c03011",
+      "before_sha256": "82b81459e520c4187258b5333006a0e33901499da230e1ed20c2b3e3e741068f",
+      "proposed_sha256": "7eb63681c0329d9b46b4a982263cd3a10b7167b730ea0ff4adb4389b81ae06b6"
+    },
+    {
+      "group_index": 65,
+      "subject_id": "SUBJ-SUCC-ED45439A1452",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "5240c3a209bc1f7a4c66a143a94c235615745c66c93976803819aee87e7daaa5",
+      "before_sha256": "4f50b6383fdad5b43aee7f6cfbf7f10b7f48db37ac2ddf8ac24578eba4215302",
+      "proposed_sha256": "d246852ebe914d9fb884be6d792b11344cb6732aadd18101e12f7a1e189fac1b"
+    },
+    {
+      "group_index": 66,
+      "subject_id": "SUBJ-SUCC-547228C69DA0",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "ff2ebdd8addff4794b0c8afab1ece5b7fdd2870de944105ed965c70d4a22e22d",
+      "before_sha256": "97ca5d521ff6ca1381997879fbb62e58dfc599305b4b07376023305886107465",
+      "proposed_sha256": "5914f9b6a515f64c5035c954fd2d5e589c8620a16a783a69b94f95d77604cb7b"
+    },
+    {
+      "group_index": 67,
+      "subject_id": "SUBJ-SUCC-29F595EE7C3B",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "175516f98974de868190a3900fcd67d623568f5fdbe7bb647d50c29a78dc7d6c",
+      "before_sha256": "b2f84601d799b3723f777af0069166ced648ecf4b3c45446b87677df73278557",
+      "proposed_sha256": "957b301723c3440acf53ee9c901607d64cb83a000524eaf37f5777758855c60d"
+    },
+    {
+      "group_index": 68,
+      "subject_id": "SUBJ-SUCC-E801BA395EE8",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "d415dde5db283bb17b4e751ea4493cffa0812a74841e9c3b975e1ae9ce6ad7e0",
+      "before_sha256": "03c2b44058472c79ca295c60d19905ff39ae7fef1e3a26e51200f4781a502af2",
+      "proposed_sha256": "a9dce65c04bd4c0306881d0c9695cf794f75291e3f58fbb686400bbd7bb201e5"
+    },
+    {
+      "group_index": 69,
+      "subject_id": "SUBJ-SUCC-F7E85272CDFE",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "6c51a5815f7d8e62235f8048cc1d547d27c59663f224d5fe1aff37824070b8b4",
+      "before_sha256": "011d0bf3f7aa064f169c5dc619016faff2ea3a5d2bde45722fae02ff463216c7",
+      "proposed_sha256": "e644a72f35ccd348ae8748a183fc62fcb1f65d5b97cea00295620cefd5777425"
+    },
+    {
+      "group_index": 70,
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.061-070.v1.json",
+      "component_row_sha256": "42e5f1e7fcd09639a9fdb10886a51f3ffadfc25048122597d979f13c289b86a8",
+      "before_sha256": "5217fa6517cc3c52d139f3da717111ff450b6acd8ade48202d33a97131477e40",
+      "proposed_sha256": "79f403c1729f0cabe2c895da1bb7434bb8ba48c19348d9cfc38c7248a49e8723"
+    },
+    {
+      "group_index": 71,
+      "subject_id": "SUBJ-SUCC-6568AD1BCF30",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "6ce5854f4dfc84b89227ef7c751a90c6d7938d73673a604ffaa1503b105a9338",
+      "before_sha256": "e683c08bc046f60d6a1d0c8aeb46cb4e9845517b2014bf1aff6f6c1389e5761e",
+      "proposed_sha256": "3f363a7cb9597123425d8c8df5873f591c650d4aaeb45a0766f543045a1516e8"
+    },
+    {
+      "group_index": 72,
+      "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "1e0fb0abdbc94f53bb0874647910f109a980f4e621ab8128a56691c1f995589e",
+      "before_sha256": "75732d52edbe0b33f05f65125dfbbdd59886dd615fe983f35fb4752a0343ca0b",
+      "proposed_sha256": "c5a1281f160982c6a58e0e883fe0f75b4f0655e48070974b4d67d1121c953b92"
+    },
+    {
+      "group_index": 73,
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "6ca6bb0ede7dab0300579276fdbd34096a443dc40bb56ecc4661335c00bf9ed0",
+      "before_sha256": "8663da5ac1d8bed4fbc4f702d72f92ebdfb6bd22703b1484cfb356ad55c0c656",
+      "proposed_sha256": "77c102f7dca2443d53310ff4a591a538fd1af53898255045c54364ad4fcc7530"
+    },
+    {
+      "group_index": 74,
+      "subject_id": "SUBJ-SUCC-18017BE43CD2",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "9fea2f67c9f15ff50a082c6aca40d04ac9874ff5cbf638106d55aef08256eea9",
+      "before_sha256": "6915f8397d4ad60f0a2af0fe518dcca704e54fce4ae99dc4c34fda0f5bc0fba7",
+      "proposed_sha256": "b8e7f90dd7c1fdd084a722e79447516701259fe7f365e280a415e767e40c1392"
+    },
+    {
+      "group_index": 75,
+      "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "74aa14b46e6de09a3df22d0dab17454a300789324541933b4d98398a3f9356a8",
+      "before_sha256": "9608723342446f3937099661074cc0facffed73cc48557e4ae5e36b98d3d7fa8",
+      "proposed_sha256": "82f8900846c5c6c37f6f2053da63cc7f88de8a4633f560e1ae702f9725dce815"
+    },
+    {
+      "group_index": 76,
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "14fbbd5366078b4203fd4380172d6dfe2ccae1f71b473e4b9923722b3b2c1a4e",
+      "before_sha256": "768556b6174b4e5c8d342c107539f70de641036824837ba824efc647ba4e85bf",
+      "proposed_sha256": "6ac64e64079dd34c2f2910e20aa826ab304f142cffac210d845576ac55e599f3"
+    },
+    {
+      "group_index": 77,
+      "subject_id": "SUBJ-SUCC-A055803B2A41",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "cb197a5562730d1e2c84e1ffe2218b8a7668bc328ed3454159cc7b4e0e8c4195",
+      "before_sha256": "1f78b9250c00fa17332ac69a9af4cd8aeeee4b57f714274db4a16911941fae66",
+      "proposed_sha256": "88f9349a458c6178fc01ababd999d52b4e08a918ac815ed8ea51078105b11b80"
+    },
+    {
+      "group_index": 78,
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "bff724d0b45702bcb90e7ca8465011f54d19694a7c7b758d38ae9cccea15d12b",
+      "before_sha256": "d32ce0c67f20c9639cd87e1093c983347056455a49d69610d20421b8841d3365",
+      "proposed_sha256": "28a1251086d5d2254742c7361069b2bb9581eba9f13ef97165ded96473291840"
+    },
+    {
+      "group_index": 79,
+      "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "f42b6f9dd394b9d7f1bd5d4bc629deeeda98c9b2dc3ff760c0fabf70b3d548fb",
+      "before_sha256": "c1902265efd6d5c6f30a7f78a13e753673d18b22221f11030cefcdf92f21ffb2",
+      "proposed_sha256": "3bc7635465817dcf67883576bf523a823780c720dd94d4ec73b44cb8fcf4a488"
+    },
+    {
+      "group_index": 80,
+      "subject_id": "SUBJ-SUCC-13D741A01D65",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.071-080.v2.json",
+      "component_row_sha256": "551eb9e76c35be186be2e83621adf448d240553e2a8963abdf9a725a161db553",
+      "before_sha256": "3d89a96a455503d14bb786296a59340a4ff39266cc8387900f37f06a3aa498aa",
+      "proposed_sha256": "5d6565cb0ec4b7bfde072399768496e573181d484620eedc81cb3d8093fd8aaa"
+    },
+    {
+      "group_index": 81,
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "86637c8880bda0df9f0b8b34be4ef3172d2699b1d38f29fb4416755dfa29c870",
+      "before_sha256": "aca94333b2f627025e3b86aa453afe2ce515be9523f5127f2e15ee213d1f224d",
+      "proposed_sha256": "14a8f681c6458d7a5ec88c82a5f0f765157b919303ad29ab54bc48506efa34a4"
+    },
+    {
+      "group_index": 82,
+      "subject_id": "SUBJ-SUCC-21DA491F60E3",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "c3131e9e2e3b613d1592f10d383f6a7566e0d75567ae329cee831d342937d5cb",
+      "before_sha256": "a92be738e721abdc05d973b3412208df5d668b08d027978880d43437dfea0bac",
+      "proposed_sha256": "dfe0941368236e17c8ceb5b5dfc2d9bacd43014285e54c20a238d3686756215b"
+    },
+    {
+      "group_index": 83,
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "752766e2ac79cd63233c7bca0c8740c2ec7e8417c3e917d747b374c8be342367",
+      "before_sha256": "c8b8d65db5c4e84f6791134e6ced1fdd297fad528b41eeead69375bd30794074",
+      "proposed_sha256": "368548fcb966bc58bbbc54b929c71909d814a1364715640dc60e0deddd29f4b8"
+    },
+    {
+      "group_index": 84,
+      "subject_id": "SUBJ-SUCC-67D4327ABD41",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "a678f2e507415429f0a5785f89d7ddf0aa6e736140fe7f8f4de2ed687fcbcd00",
+      "before_sha256": "4f925482aeeada35b86b65c2776fbe6a0e990c9451f8c75406e093af75c56777",
+      "proposed_sha256": "a526f209ed2ac8dbc0024a28c61e9176c8e73d07e30be6207b8e63065ac8c5dd"
+    },
+    {
+      "group_index": 85,
+      "subject_id": "SUBJ-SUCC-1A51A7EA164F",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "c61bde7620da52a577b5e96dd4732f3f54fdadd7aeb626daadb0fac4743ffb9f",
+      "before_sha256": "956709a650438f49b18a3a8478e9c3dbc82e46a51d347ae0a6a62ecf68e8e77d",
+      "proposed_sha256": "70dc695d67da410841ca1ea23f1b6164f390bf89127701e935e606d425718916"
+    },
+    {
+      "group_index": 86,
+      "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "c8ab76edd1b70a2212de176a9894b7b1489246ebd2fdc5219d2b0d91943b31ec",
+      "before_sha256": "c5d460f0dd76fe100b9afedb320c202ab1ac2a0f57f04a8ce7aba2e721816db8",
+      "proposed_sha256": "097d48b0400426ae5d07a31f39ac1e8c93fd1149dd9c2bdd6265852ffa5953f3"
+    },
+    {
+      "group_index": 87,
+      "subject_id": "SUBJ-SUCC-298B26A9D77A",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "104a5d49f8c615ba83d2b6adf43164d86699e6104838805badbd0cc38f241159",
+      "before_sha256": "47319b4081614af1ae4cdef6106d549793a810f3e6eb9155af7f5272195b5d7a",
+      "proposed_sha256": "0874bb33cce861fd6382066debe3041ac18a97fb2d13a73feb23d958c1e7ad63"
+    },
+    {
+      "group_index": 88,
+      "subject_id": "SUBJ-SUCC-56FAED657225",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "9b6d5607265938e517ba70639299c14424d6f7a867ca6912ec7f8fd459b0d82f",
+      "before_sha256": "979998c9140eb99ff703e93765838c564bc704dec0b8d62b96d36a9057b903ad",
+      "proposed_sha256": "6e49519bde9d44d7aa9a5202d80fd37b891d2865079a12e79a60c0eb76ae0caa"
+    },
+    {
+      "group_index": 89,
+      "subject_id": "SUBJ-SUCC-DF287F758EED",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "60c38aa63ef0fc7c117dee925e2b9e5f9c72ef5a159a5945a3eb5467407b52f5",
+      "before_sha256": "20d2232fd47a22ef67544526aac4df9d45a3e83624f4d327f0ca0757a104d6dd",
+      "proposed_sha256": "b1655960053a41a5e41dc2fe836210102dff73a7cf46b55361e462b0051f4cdb"
+    },
+    {
+      "group_index": 90,
+      "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.081-090.v1.json",
+      "component_row_sha256": "6d20738a004487a283f444d347efce68beac0e76d60f7e7ef733e0211524c7e9",
+      "before_sha256": "4f107bc83bb12da2064fc11a23f2935e70cfc484a741e8d8a8ad36b3f607bb8c",
+      "proposed_sha256": "56d26a5a9e8abf892587213fe34396ded21ce75f1fa6b12c8462f2ad3d1c6277"
+    },
+    {
+      "group_index": 91,
+      "subject_id": "SUBJ-SUCC-E01B6781D013",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "d09248dae1ce3e3557f5554518bea0e9ee4f8c303bbe1c329928f1c9578ba802",
+      "before_sha256": "fd789a7bd6d3a2779f5746748f2a7439595a3dad7a41d6f247a71637765119d6",
+      "proposed_sha256": "a5fafc2c3ec756f5e638470aec7cebc2c6e274a6739a0361daca771910d518a4"
+    },
+    {
+      "group_index": 92,
+      "subject_id": "SUBJ-SUCC-B537E54F3566",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "8728aa890edec9f9aee1cf24f11bcc3db9b0a5d97a5b30f11b5fc11da7e9c2d0",
+      "before_sha256": "b4ae300637e89deece7dc412c3bcc03f188c310d66252bd2eb02be67a94fb504",
+      "proposed_sha256": "1c84b84072e3c0a2410c1366797231ee36f830e7a7981cd842e178ec52f1bcf3"
+    },
+    {
+      "group_index": 93,
+      "subject_id": "SUBJ-SUCC-7F8042CFA7E2",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "3094182dbb07d813beb26890aa3a11a81047c758630aac5d4c9a899b50dd2f26",
+      "before_sha256": "ac5c6098ddd285e1bfbf96af0bc2878091c1b4219bc052924b9a09f724628afc",
+      "proposed_sha256": "c33f0b803cd8c77f5bd72e3ffb57ece9e26fdf8e95a1181b3151b6bc446643ae"
+    },
+    {
+      "group_index": 94,
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "8cb728711efa46be95753fa91903e15d75b999ade92ca517ebc7e80b6a3f2e38",
+      "before_sha256": "963c23c780ffd9c2370944c8123cb3d28184a0afd7b3778e9060960698b509ed",
+      "proposed_sha256": "c6439eb3073d51e6fb57dfe399de78a985b324960eb39f4211a44cefe5216529"
+    },
+    {
+      "group_index": 95,
+      "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "8a4b7e731674e22ab17fc671177bed4a5a3fa531525f0e295b47db12f1c3a41f",
+      "before_sha256": "405ccdc30b2ac936c99bbd350de896963583ffedb6553826ddb0ca523b2097e9",
+      "proposed_sha256": "effbdd34d45a39b83b30dc363fcf8708dfc39fcf0388e370cba66a7bbaa69f52"
+    },
+    {
+      "group_index": 96,
+      "subject_id": "SUBJ-SUCC-38D7478429CE",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "cc5453606117b1df1061bcabd76d8e3d24672d3b75af3ec70587a81ab05938d1",
+      "before_sha256": "6d0e561576a1e16e6fd9e6f7ed92fb84eecd66e9d02a21ee574b731689511b1a",
+      "proposed_sha256": "076f251346a08559175dfd94bdc86df61804b6c9a9c9fdb0c8816747ff61a25c"
+    },
+    {
+      "group_index": 97,
+      "subject_id": "SUBJ-SUCC-BEBD3DEC1E8D",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "27fa4815979585ea1b2c3f4588b1c7e7e961cbf7cabd360f3a7ed014eab6c37c",
+      "before_sha256": "b12c6e29bc41a003b1ef81b181fa7bc5e111b901ecda25b351ee1bc60065efa0",
+      "proposed_sha256": "639b47cfdf66a7c71f224363bd684d77b6d2d10918b698516a145337de6890ab"
+    },
+    {
+      "group_index": 98,
+      "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "4c190b533f65009b0699a750851ddf689c1aeca2293362677b6fc7c5de330a97",
+      "before_sha256": "43770317c79f28d9b06db3f1ddaf5306c7696c62b3270290b679322e177a8954",
+      "proposed_sha256": "c17f1a5639e3e18a44cfadcfd4bfe94b07cef7290913ebf2e08c71950578d403"
+    },
+    {
+      "group_index": 99,
+      "subject_id": "SUBJ-SUCC-FA919FE4CE14",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "587a1382b5d3653f7008116780a9b189bf1b0bd49c2f8f0df60337a946208a3d",
+      "before_sha256": "02514262f3d2319f0f0045383b9f47894fa4ddb7e2fccade50875a484b2269d9",
+      "proposed_sha256": "6d0ddebf04a0dc37e45fb2adee9d676c0e850c96bfbcaea30d3484bea5040535"
+    },
+    {
+      "group_index": 100,
+      "subject_id": "SUBJ-SUCC-40720510D7E5",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.091-100.v1.json",
+      "component_row_sha256": "68b0a60ef438dd6b2d8cba74851175f82d7d31f7be8bb846df7c29c146dc9567",
+      "before_sha256": "b00ca91875bc47ff9cb9f1e21acd13c01e2e9e18b96f5f59ba1af059348f2049",
+      "proposed_sha256": "b549294c28bbe1fef190704ed661b3193329d8ed4ea2753e48fe42aae0772ae3"
+    },
+    {
+      "group_index": 101,
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "cd2a4d95ca76c3062523e6a8d2b3838541c399a64c5cf6f68d98f54f110df8f4",
+      "before_sha256": "e9b2a137fb05c7b4dee62a6d8feef037ac1270f03cf6337c2f1910790674a4df",
+      "proposed_sha256": "f87f103235a0ef6b5c6833bdde250c0c6d42d470695b238ec90a5a0e363125f6"
+    },
+    {
+      "group_index": 102,
+      "subject_id": "SUBJ-SUCC-71A8FF90E718",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "e3ff49ff6a5a33b985caf1c2706993bfb410f425cea73214f9ee65c295e97517",
+      "before_sha256": "d1602087bac1e186492bfd3c4760c3c80e80ea8af90bbe851db53a2218ec0c47",
+      "proposed_sha256": "8fa3d9a86b75a259209bb387835724f792915710c2d383c5f6ed872a6f29c246"
+    },
+    {
+      "group_index": 103,
+      "subject_id": "SUBJ-SUCC-28E04117C501",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "dd2f8c66c36af9dd69cf241396a96de735f12413398a030c17ac854723ce6734",
+      "before_sha256": "711a8fdd4e3784a2ffbabb39b6579a5215ccdfaa0bee1b4675d72a5d58ce0358",
+      "proposed_sha256": "6819e0953ddf49fc055d6995fb93fc2031bc6a5d92ba3f4d611eaf882bc4d8e2"
+    },
+    {
+      "group_index": 104,
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "456fc3398d47d87fd3dbe0815b8de0dcf8b8205bcb23f3eb92174e2aff145d51",
+      "before_sha256": "5725bdc6af59adb0145d85a0c19d7e6fb8beb7dcb402f25643ea598aa14b7d4e",
+      "proposed_sha256": "e09ef5de2033ae78d7e97343f939503b21454e12b14294d3c677d16424362f56"
+    },
+    {
+      "group_index": 105,
+      "subject_id": "SUBJ-SUCC-BB9639326872",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "af0bc68d8820f375ca748e3f2745e902116fee73d9e3a8b2a768e5aec96ad829",
+      "before_sha256": "f84a5e3ea97f5a4d59ddedda805d5661faa3b63d76205a01d3b9ce16b546751b",
+      "proposed_sha256": "3004379becd8070c94b7583913d9ebd49fea5524696ed78e3bbdbf124653abb6"
+    },
+    {
+      "group_index": 106,
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "d5a39a7c3a83fc9c624a99d362974783fe6c595472f407e94439ed7b99c7aead",
+      "before_sha256": "71be7e776be18880a7b4d17dc910f4e52c51e8bac2fe9275fa764f9ae12f2c97",
+      "proposed_sha256": "ca6f840dcbb45b5a536bdfd82f522fe5d2a81353cc4ee1839fe3e542d0e7ce0a"
+    },
+    {
+      "group_index": 107,
+      "subject_id": "SUBJ-SUCC-EE60D7547263",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "f788cfb8487318e1b0cd0a234e5db0204d0ac58bc6cf7912c21146e68c9fbce3",
+      "before_sha256": "5b046ea0fa950c993169e50068d60f8ae6d9020e709e05f57a34436a186a7bcb",
+      "proposed_sha256": "274aff43c05633e6a4aee1370fc1e9e7549cd9b4cad8eb7a301602648f999c1b"
+    },
+    {
+      "group_index": 108,
+      "subject_id": "SUBJ-SUCC-2B71B80300BF",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "11fae5989faae6c132d212ca2771f60b38a48774669a2b9655ac42abc7fe0f8f",
+      "before_sha256": "5d520691468930ef98774db0ad7a9ee1f96ccbf9c256fcb9f13ea957dbfb04d8",
+      "proposed_sha256": "3eec92ec8150c9f9486804b54e0a8d1e40205b6a4db0f478d2e5c8e5775269e7"
+    },
+    {
+      "group_index": 109,
+      "subject_id": "SUBJ-SUCC-5A2C055BC3AC",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "e8c5dfa8a04633f19bb82f4aa5d1f24443fafdb65773e09808d5a4a39f8df015",
+      "before_sha256": "f8ce9de0fbcd738558182346f6eee0ac9440dedccb1593703c1bea14476cfd2a",
+      "proposed_sha256": "a221b2949a350363c9205b1b0f0aab1004d694397040716226237fab401175f2"
+    },
+    {
+      "group_index": 110,
+      "subject_id": "SUBJ-SUCC-8760C754C67B",
+      "component": "successor/independent-review/actual-draft/integration/007-legacy-field-composition.101-110.v1.json",
+      "component_row_sha256": "d9d4fcd8ac84c542dfa2be014df56cf4e2d12658fdee4f5291e14d972dd7b5a7",
+      "before_sha256": "e0b568c1d8c35c93fa550cb313166757d59568a1dc92b9a4781ef97b2056559d",
+      "proposed_sha256": "9b2d1fea2bbce818ac64fafa39939558462b844503276817b8217deebe1a23f1"
+    },
+    {
+      "group_index": 111,
+      "subject_id": "SUBJ-SUCC-916802D75925",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "118081297ca7ae15e9058a295b247d3b2ea7dfa64178edd145246902e738c2e7",
+      "before_sha256": "8dd39712ee021c0f156f18780394b98f280dd6a8103c45ee65dd7d0bfa5f235f",
+      "proposed_sha256": "5849565229a635bbb686186887b8b31aa4920228c605693145d2a5e6a2b3e8e2"
+    },
+    {
+      "group_index": 112,
+      "subject_id": "SUBJ-SUCC-987993A8C47A",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "635513ddc2a96a42c9032228813eabcc04bc6eeb46023ae40c7d3e639e08dc43",
+      "before_sha256": "5911eff5586cef32bd6853239b973011cf82820532b2c7cf0f2d856bf9468b68",
+      "proposed_sha256": "1765e149485405f57bf7248b258dae9adf293f557241f08667af152bca0e19b1"
+    },
+    {
+      "group_index": 113,
+      "subject_id": "SUBJ-SUCC-3C56EEDB9FCC",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "b19f787db5a182da840fd49c6e56b39f2a2c197577e9af6462a08a807cbb6c78",
+      "before_sha256": "c50f9588c1180ff00dac20c7c16aae0592a1befab093b0d67e3894bf933e75c5",
+      "proposed_sha256": "7e51ef4932df6fcdb6127014349983b77e961474800129aa5f50cc02a7d93429"
+    },
+    {
+      "group_index": 114,
+      "subject_id": "SUBJ-SUCC-DB78F0834F84",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "3dbeaef24ee76ce83eeb2f8cb6d7b77f105c95c3c24d86f482724c720fb8b50b",
+      "before_sha256": "154be9fba4b0094216f2c54f793f7a0e415f6fd9953f3b94402831cddf3843a7",
+      "proposed_sha256": "0a40f2b9044f2c8d2e27809dc8697c839cd973c6ec9659f470cb91a01e4766f8"
+    },
+    {
+      "group_index": 115,
+      "subject_id": "SUBJ-SUCC-329D40EC5910",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "5c08491ce72eaa4caa5bfa5af01c9dcf0c52f5253d94653bcfb0945ca0caf84a",
+      "before_sha256": "78e5ab58592bb04a83bc7b77139817fbfe9aceeffb748a0e0f3b4c2aa03a967f",
+      "proposed_sha256": "f8687e4df7fec716f0da92a4886be3dd48fe59a803d1f6d2aacd865f9577e828"
+    },
+    {
+      "group_index": 116,
+      "subject_id": "SUBJ-SUCC-60B96F147FEF",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "821783d9f74192ca041ee896596346bf9f1d693b9d66deb00583341856d22ad0",
+      "before_sha256": "fc2142c0ecb4b8c52856230a8292d7010251405f9a666cf5fc6bd3333578dbca",
+      "proposed_sha256": "f4ca9b9ff153e234140f4199cc2324aab2d37f2fbdf6217ec9b7f9434fae00e1"
+    },
+    {
+      "group_index": 117,
+      "subject_id": "SUBJ-SUCC-1EB98E1BFFEE",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "254be591c0db17d09d73030bc8a560517613500cf43932740a2c47062fc51ca1",
+      "before_sha256": "31e4557caca8baa58dee2b900dda13c522399c8be9c408c5e563d467e07c542c",
+      "proposed_sha256": "4b3e968839b3d68be17b64e9093b9945b47b67bb04b34c5dd6f77787ce6811ec"
+    },
+    {
+      "group_index": 118,
+      "subject_id": "SUBJ-SUCC-F1FC19003FE5",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "14242c02eae28fbc38a529a4f7768748766933ee252dcfc619a4df3dfbe2dc3a",
+      "before_sha256": "c03973e166b39f667fcaf3d6da7423179a0152cd1b4bf8ef105e4d4ac101f00b",
+      "proposed_sha256": "ab7a22efb75499f262aa4f8a6c71491f1b52f2b3c548a7a4518095096a478779"
+    },
+    {
+      "group_index": 119,
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "5b849deed14afc8e3beb23de40824cdbf4c0c5456c7b3061d3e0798e4ec2523a",
+      "before_sha256": "d9e33ae2bda01a21045674dcd09030e34a2cff6c65f1192150b6ba2590935d7f",
+      "proposed_sha256": "8399b6670bf37d66a493f21e3cb2931b4e33c4e29445a6924f912b87f04ac32f"
+    },
+    {
+      "group_index": 120,
+      "subject_id": "SUBJ-SUCC-10D5B4071C72",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "1edbf88f5b25d39bc91d3efdfb4374cf7e9cf0a506e03a56d1e7f07070df05cb",
+      "before_sha256": "7e4a957632793c301473c56d3352950ddbaf88257a928a730692a0b88e4bb7e8",
+      "proposed_sha256": "27a3d437fb52971691b9c144a302316bfd5502bda2182013e03138129dcfd509"
+    },
+    {
+      "group_index": 121,
+      "subject_id": "SUBJ-SUCC-7CE8C15FFC5B",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "72ee89ddc0933bbf215822b3b523be9a2ec2cf7eadfeca53d20d84dc9dc6a326",
+      "before_sha256": "6fafc33460673f183ab2908ede37c2acf402f548a2cacc2fa3ab955057e47df2",
+      "proposed_sha256": "9914c692e853e4a7eeec700f853dbccbd16b23adf56949bbfe8c6cc3d4b3f3f5"
+    },
+    {
+      "group_index": 122,
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "component_row_sha256": "2a9fe7c9422338a1c554fcdfc4ee858f5530eb1eeef56706a3d415599a352228",
+      "before_sha256": "96d7163ea78c195f0343d41bd41471587ab1039d8d673744ec10e83e111e2e8d",
+      "proposed_sha256": "c892b7d37be49f3bafb68f170718455c298d53e91fb029ff1187fa0d5a7ab338"
+    },
+    {
+      "group_index": 123,
+      "subject_id": "SUBJ-SUCC-D319BFEA28A1",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "130a46f18bf75f5f5f80a6ef16c1a7b1260ff3b3730a85982ba445a203dbc9af",
+      "before_sha256": "7a8d310b2cb3c82c42a10c6290e49a83d7ee6b5a835e6c29d1bdde92e4f21343",
+      "proposed_sha256": "6c6ac9690c7e81dee37d20a366bf82f8f6dd9b26830fa2be6aa756a4798bdee1"
+    },
+    {
+      "group_index": 124,
+      "subject_id": "SUBJ-SUCC-943186368241",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "2ce08d5a379dab3087a6f7b3c376711a3a7442a234dd898eda6cff4058719686",
+      "before_sha256": "2a89795425a1cfc58c96ba5c8d110d35de98237a45c5e644fc234c6d9d53c16f",
+      "proposed_sha256": "1ad3dc4413157f86b3ad3d108c04150fbfac39297c4f056fc960804f5c07a37e"
+    },
+    {
+      "group_index": 125,
+      "subject_id": "SUBJ-SUCC-39CA1B8E5293",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "c60197d18a6e9b107fd890bd118d49ec9a6503c4ea487c4d8d662193b2cbdc48",
+      "before_sha256": "bb21539e3863b4ee4ba1a88e80b69271a112e51e5aea4abde178b78906426ecc",
+      "proposed_sha256": "e8819224c3d422ee9d25b61b9043ce09aaecc075d983b717b55dd3fbc649b2b8"
+    },
+    {
+      "group_index": 126,
+      "subject_id": "SUBJ-SUCC-625493A707D6",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "5a57df2e021a14ccfe321fa8c73f48acc9f134029ddca8a5a0d0f7c5a1cc290b",
+      "before_sha256": "cd6dcf2f7fc757b8278fe4c7bc2a4640fe4ef980a0e2c9508f5b80ef4f35778d",
+      "proposed_sha256": "95f6b89c1bd504431c0b56110a554871e366afbf9e4fe2fa11a8f87c82df971d"
+    },
+    {
+      "group_index": 127,
+      "subject_id": "SUBJ-SUCC-64736F65518E",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "66e12560a44146bf8e86969f9db4d3f462adf699715da38182c5ed2780fdd0f5",
+      "before_sha256": "18e09d419773b8d536fa88674b5de5f7ba9bba776e696c6ce40bf9cda7ce474e",
+      "proposed_sha256": "8c4b8fdf52cd94a01d2669f7058b911c8ed281d919707adca74c471d10e5d8cb"
+    },
+    {
+      "group_index": 128,
+      "subject_id": "SUBJ-SUCC-B6801A5B2E03",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "83b3b4cf436819aaf992da77685dc60517e908dc904d160f58aa0232ecf62f6f",
+      "before_sha256": "42cdc42eeb108c24ecbc230db9742f5cc31d675dc9209bfa6f05bb4ed91d62e9",
+      "proposed_sha256": "ee3cbf23df627d8ece1c22d6b08a80261c165dff13df750ca9e90878b6e70898"
+    },
+    {
+      "group_index": 129,
+      "subject_id": "SUBJ-SUCC-84898172084C",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "d00555bf8995a13d8f820029761dc6db8d29d619e513d5a1c3b8a99714af16f4",
+      "before_sha256": "cb4464648e4ed1396f895fb0f93e16f5f4e981cc71238993220023705f3d4523",
+      "proposed_sha256": "fdb3d7d6b578653091faa136daf2e248a47141092e127cf1f4957ee5b229ae05"
+    },
+    {
+      "group_index": 130,
+      "subject_id": "SUBJ-SUCC-467C949D416F",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "a2e5b3a0309f4e9a4d115c75c056ca416c90e893f582528af2eb5e90700e49b7",
+      "before_sha256": "4059a5a660bdc7ba78f5c7961a9bac9eaa2ac8552b8abdc75ac06d88b38bb9f2",
+      "proposed_sha256": "3eb077bc9c0e9990fb512a34317649b74fddf5a9abce56e6e8662ae40dc6ee73"
+    },
+    {
+      "group_index": 131,
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "6511371562842d45f8c148c0d5fa9098f9f94d710ccc5a6dacef6d937d7a4f01",
+      "before_sha256": "d4d36198c3460f950f818fdfdc2e783ff6af923d732dad85fa9e158516e8de77",
+      "proposed_sha256": "65774e7d2166ca784b98955bce888b64651318d06c9bb8c18a80f42ffcdb35b3"
+    },
+    {
+      "group_index": 132,
+      "subject_id": "SUBJ-SUCC-31D23A1391B1",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "1c42c6072e470472f292fbbc4662b66224ece4ce31b8b2b0d43789192d22bb92",
+      "before_sha256": "5c944479acbff68c52b790ff06b49c84f220a5859020c9213c0c0318a9026f0f",
+      "proposed_sha256": "161244e0c611a2492d8eec81e047d386080238902054d81b8aa1db86065e224f"
+    },
+    {
+      "group_index": 133,
+      "subject_id": "SUBJ-SUCC-151622A0A4C4",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "d9551b3e57bae0d65086213cf5ed336e99364d70167430ba779848b27829ef54",
+      "before_sha256": "461869790404466b4db582a7a2f039663bb30a0a1cff89b7fc958eeacf03bb2f",
+      "proposed_sha256": "f28247b0c1eba272a0588af813beda31d129e78a86fe01cb6aa83aa6a554ff88"
+    },
+    {
+      "group_index": 134,
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "component_row_sha256": "89be69087cf44cbf7281fb69a31631cded753c73e408aa00083fe37df6565442",
+      "before_sha256": "96144621a283ff8545fc3cbb80335af17b67db205ee3e4c6c13519954bc24ecf",
+      "proposed_sha256": "2c7e8091768f49e60d5821986b0a335285dd3c1146b3cc4355ebb0a800480000"
+    },
+    {
+      "group_index": 135,
+      "subject_id": "SUBJ-SUCC-55CCA1CC2481",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "ba173951a83cd62e7b094bce4d2c3c1999f09ed2252bb0f9920c73602e069907",
+      "before_sha256": "a08bb518c314bfae1695ab5a77fb623920707542c81a1e755262b6dca57e2969",
+      "proposed_sha256": "dcc07a29e24b32c14eca4280ab27c84d078c1cc7baad77d38578ac6cf244948d"
+    },
+    {
+      "group_index": 136,
+      "subject_id": "SUBJ-SUCC-EB2C28D684C6",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "9075534474699d5c049f486123ea9cb3a39dabeafe80d5c399067b6777e51077",
+      "before_sha256": "fefd4f20bed7d2e7fb66ded6e7d6672141d99d33250d4ae5b592d6171123d3b0",
+      "proposed_sha256": "99594ea77f0ac29deb2f5241b31351d6595c45d8757c0c9f62b1e2bf55c7bffa"
+    },
+    {
+      "group_index": 137,
+      "subject_id": "SUBJ-SUCC-9465F7AFB297",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "e443a1d46e9ca119a15037495c59117ee7ad4b76e82378670b0a79cbdf2862e0",
+      "before_sha256": "f2de85655c8ad7779c24ff86763a49e305706c96a1dc4a6afa72627192b69c7b",
+      "proposed_sha256": "ca74f49dd62a5fff6d44f0d749ab0ec9a175d8963e1675dfa0d85a87d83e501c"
+    },
+    {
+      "group_index": 138,
+      "subject_id": "SUBJ-SUCC-7A3B2AE4DD35",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "3cdd1823cb154bf3f44acc8b73f392a06bf2a121ec118c7d23084087a7c324cf",
+      "before_sha256": "faff4bfd1e3cb8f0d7066f54c4008254395664d152445485bd982d5b8816fecd",
+      "proposed_sha256": "b925dec14fd5cccbf17cba7cac55ee72199b4f44ebb029d1910680c8c0228610"
+    },
+    {
+      "group_index": 139,
+      "subject_id": "SUBJ-SUCC-C81AF981D95D",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "8508816928ebb04a4feaf7e3ecc15daa8644dd819317286ecb31b0d46a97dcec",
+      "before_sha256": "920d52021ade1b79aa35b234d123b48a211f124d8e4bbb42fabadff859dc4849",
+      "proposed_sha256": "920d52021ade1b79aa35b234d123b48a211f124d8e4bbb42fabadff859dc4849"
+    },
+    {
+      "group_index": 140,
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "9ec2eeeceb8623a24a867d2771997eb8b4e406717d1ceee8d60604a490204c02",
+      "before_sha256": "7c37db10b331a6623cc827b3074f69bc1c6265fe9d7ae41b593747b1261764ed",
+      "proposed_sha256": "123d166ebe383e73c9028446ecb86eba797f503d1e7563f2a80f14299802f1c2"
+    },
+    {
+      "group_index": 141,
+      "subject_id": "SUBJ-SUCC-41C1A762D0B5",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "67f6258f5c3103aeeae59cebec590a57e81c7f6a731ad47772663ead3d006239",
+      "before_sha256": "7c81df81c3ea70340b7258f8435bec0daac4e8b45054c143585c272da69677a1",
+      "proposed_sha256": "5e71a2eb28fc6c66e67b6aa5f8b990c78402a068754642e93bcd13d2638c2477"
+    },
+    {
+      "group_index": 142,
+      "subject_id": "SUBJ-SUCC-0AC74CCFDC8E",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "72dda593dee48a76289bfd4d508ba32c70a748512f21af7b8d1df88e1084c4c0",
+      "before_sha256": "2be5a2515bc3a7f46b252f2b176b8fb6aac6fe245c95093e0436762804862523",
+      "proposed_sha256": "f972d4111b17eedcbe5771377c2909478eea724bc9082e539c85b5c5b16b3cee"
+    },
+    {
+      "group_index": 143,
+      "subject_id": "SUBJ-SUCC-E4C3D945CE3F",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "18c5f0f3d1a2db048758166ca09dd0f7f58ff4ca455e88c9fe33f704c4d0ae0b",
+      "before_sha256": "b93245a9cb6f8c37f938b39b754ce902d1d0d8af92d497d33a974c92cf6c8f65",
+      "proposed_sha256": "a12fa9501ae6b8d3bec107da17471e668eda5c8e2ec5b84735a94d35930fe405"
+    },
+    {
+      "group_index": 144,
+      "subject_id": "SUBJ-SUCC-A196529B349B",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "e10c77b0afea09a1121b9badc8989ffd6f8dd9eeb47651435216bfaf9fa8f7b6",
+      "before_sha256": "24c76d7c8d725581faa2a383ff077128851be1b81a02c46304198ae192108800",
+      "proposed_sha256": "92596a5f71dfa68481ce9e8e413de893865be60051d2d66adb2ee5a7d26301dd"
+    },
+    {
+      "group_index": 145,
+      "subject_id": "SUBJ-SUCC-7E820E02A6A2",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "9cddc503ea875d7f1a593795a1a221804a2c43b0341859a3388fab9cd4e18a90",
+      "before_sha256": "46fa4b7ed50e12172639eab9754eba69b48a6f04efbe781ab42479fcbdb2b3f8",
+      "proposed_sha256": "982077b2b0664c918d8cc3eed768c68378ffa38bf62921eaf5545541c9d36918"
+    },
+    {
+      "group_index": 146,
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "component_row_sha256": "221e15d4b4590843135db3a4373714bc43365665e5dd32436d19562f328e854f",
+      "before_sha256": "e11031f8ce9d470d0284076115573ae7f32dfaa72d504469094dff2efd4cc301",
+      "proposed_sha256": "516fbbfa082afcdce9399cb53f30663cea7143cc2c9df3c5773d9daed13b4843"
+    },
+    {
+      "group_index": 147,
+      "subject_id": "SUBJ-SUCC-5F07AA578495",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "a0fb6ab9c54f2e6b684e0bbac1668f90b2c267b904501f8ee9accabae44ceb3c",
+      "before_sha256": "570316a184b57945f484cf9fb9d5728936da1de712db947bfdc3c68e52a721be",
+      "proposed_sha256": "b6bb4ccba927883cc276f358a61f044847ae314a588f239ff94bf7bedca65717"
+    },
+    {
+      "group_index": 148,
+      "subject_id": "SUBJ-SUCC-34E281DBB58D",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "a465efc76f27f1360686b53e809e57f19509414b6dd2c758e3deb36fbe22131a",
+      "before_sha256": "88f51f8bb16b672e0ccaa35095910c343bd40ac1364c5a59585530fa9a8b2456",
+      "proposed_sha256": "60a85fa7a5207c6a93b7484a1b0b84876134dec7722798c8caa06dca2dce35d2"
+    },
+    {
+      "group_index": 149,
+      "subject_id": "SUBJ-SUCC-80B9CA82989A",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "91db1fe6e6e90539dde50b0f22723e6c3aae9afd36230adcdce48593dcfd208d",
+      "before_sha256": "d8c48ae6bce5efed944d8b05986e564e330b4bdb6d3e1a75b3d51214e5f63c90",
+      "proposed_sha256": "3cb59ffd1318260e602f7ff355321565193c3c86f53c1f5e1f5823ca11381c2f"
+    },
+    {
+      "group_index": 150,
+      "subject_id": "SUBJ-SUCC-2E5B26D8A9D6",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "f64561822113c0beb79e1dbabb1ad1526f540c36d6518a08cf89e1c5ffc5c213",
+      "before_sha256": "252fd011f88d351b07ccf6620ceffacb260d0f7127426abaf38dbd40e0bf3730",
+      "proposed_sha256": "5200e0c29435168b03a2643e4e8b2506d2857f74719314bafa8c7c39e766a02b"
+    },
+    {
+      "group_index": 151,
+      "subject_id": "SUBJ-SUCC-E353D1807798",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "a4b2c8c33d1d3a17fac079667f67d5e16f766ef1db893dcecaf870f0310c72ff",
+      "before_sha256": "2c00e3751446503d43309e4e1d28645e857929769e34b9a8e3af464b4003596c",
+      "proposed_sha256": "0d0e0a3b06c5a475e1e2a1c649a7914f64f16748d56bc379208ea21d2d11fbea"
+    },
+    {
+      "group_index": 152,
+      "subject_id": "SUBJ-SUCC-CFFCD493828A",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "e877042c20e0ba4a83d5e4f4e17e8b68d04834d1e781e2befaccc0f4c0af78bb",
+      "before_sha256": "43b2ec6d64a65421ec87720aaeecca1a551cafdf011dd329c2b38fe259c27805",
+      "proposed_sha256": "32cae6849d7b0b34bdc5b37964d2aec7535707762402a93bb7df5d9155c3c3be"
+    },
+    {
+      "group_index": 153,
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "2c82e15a4acbe067918351fff40be2f20f8e5767a7f91bddc3bb1961c2aaf119",
+      "before_sha256": "356b5495eff19af87bafe58e8541d34b54535302676de7c8e88396caf2d1eb0d",
+      "proposed_sha256": "05d8da05d237bd2b0545e0460659f707929e91f0cd8aeb898cd5682056701a20"
+    },
+    {
+      "group_index": 154,
+      "subject_id": "SUBJ-SUCC-6A2BFDEA57F6",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "576afb21ac7204ed14053062b94e426261fcba020e9212f0587768c3347d97a6",
+      "before_sha256": "348c6318ae21970e09eeb3be735a3aa48e4c719ecd310cdeff96b48cd68e4f07",
+      "proposed_sha256": "6c8caa056a7c68524bc8e3c594ab05182c042dfa834a475aa164a9ddd0c30e61"
+    },
+    {
+      "group_index": 155,
+      "subject_id": "SUBJ-SUCC-54D178FEEEA6",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "0f2c16246007ccdc005c65af38b8c55dacd5b2053bf90e8b2611f1c8bdc06a64",
+      "before_sha256": "4c1feb7e529f53230ab5d10b62154908a9bad0906e99a274abc42c5fa99b828c",
+      "proposed_sha256": "3fbc83c2ea9fdd9466daccb2be20e85e235dc386cef8be630d460202048eddf4"
+    },
+    {
+      "group_index": 156,
+      "subject_id": "SUBJ-SUCC-9DC759EBDD0D",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "d1854422b6e30952be7e4dcc73cbce742b2c609be5535709db88bdd8bdee76a9",
+      "before_sha256": "5bf03ac811a376da13e6f5852aa49c6cccfab0702e9ced202045bb9b9470f301",
+      "proposed_sha256": "b7806488355ef76c082eaf774be99098ac469f1925c14e7408fa4f2a8d92d6b0"
+    },
+    {
+      "group_index": 157,
+      "subject_id": "SUBJ-SUCC-C9FC2D29F642",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "d2277e523dda014641fe602e93208541c2695404c6796a7667a5826d4c194352",
+      "before_sha256": "9defba6454c69e5d456735a861777a8caddfc43401ddb09b9282cba492c33be3",
+      "proposed_sha256": "31749d6beeb343604d43102a3cb875991717737cbf65faa048289689ba149ed4"
+    },
+    {
+      "group_index": 158,
+      "subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "component_row_sha256": "b03774de9c5d0eaa77456c36b75961b568122a5b127d1a88c12c0e6949dc1d4b",
+      "before_sha256": "b40b3ddcb7c0903b5df4cc4993e43216131e99494bb7ad64b72394db0a1e5061",
+      "proposed_sha256": "dc27d43197999b679442f6fe43ef1052ccea226da630f47c208fb88e22a9c669"
+    },
+    {
+      "group_index": 159,
+      "subject_id": "SUBJ-SUCC-B4528BB49F19",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-159-162.v1.json",
+      "component_row_sha256": "684261563150315ccedda9bdda73f43553313323a2b4a8c861939c85835cc4f0",
+      "before_sha256": "53ee2d14ccc4acb059a5a806e8bff065d5e917e06a86c5782808fc4f0669f8e6",
+      "proposed_sha256": "96e151e03c1448f860dc9bfa21c495f96bffe52c55ba941528a944c9214bea95"
+    },
+    {
+      "group_index": 160,
+      "subject_id": "SUBJ-SUCC-C421B8FB7D43",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-159-162.v1.json",
+      "component_row_sha256": "92d350763c939b7925cdd8dea7f6ece50e3f6eefb1d3a158046513653d486652",
+      "before_sha256": "467d0f53d49542103c52beccd8148de71f089d8c62ced74dfe3ead52320f37ee",
+      "proposed_sha256": "246a4724a34805f3e662efdb1db17eccbb095dadb05d17416c5a4dbbee6c7e42"
+    },
+    {
+      "group_index": 161,
+      "subject_id": "SUBJ-SUCC-46CEA9999339",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-159-162.v1.json",
+      "component_row_sha256": "5ab069b29d11fdd09c12fbff0ca9636f12b866bde6af0a252f370c04f118c62a",
+      "before_sha256": "b33bdaabdb3c4a875a43de89e2b2f325a68b4aa409a32e7854ec22e322da5090",
+      "proposed_sha256": "ef6fb38962d84f2f4333d37f7c04905b727cd59a3797d3c20bb1f9b6a380995b"
+    },
+    {
+      "group_index": 162,
+      "subject_id": "SUBJ-SUCC-CD9A2A52162E",
+      "component": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-159-162.v1.json",
+      "component_row_sha256": "40cb86bcb8e248655b0f2d0f14440bd9313421fc6ca12b20a933d855e67eb72c",
+      "before_sha256": "8bac45507ba3764e4f49d15e141f2990325f31d353b41ca644412130f0e2c08c",
+      "proposed_sha256": "81b6420322f8681344665097febfd88997566c68941d9ab32bccde98366d9593"
+    }
+  ],
+  "unchanged_other_benchmark_fields": true,
+  "whole_book_approval": false,
+  "pending_value_checks": "001 independently checks111–146; lead checks147–162 and final integrated values. Tail proposals remain uncomposed."
+}

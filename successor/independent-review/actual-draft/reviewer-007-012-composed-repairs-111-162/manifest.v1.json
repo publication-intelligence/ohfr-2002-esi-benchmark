@@ -1,0 +1,86 @@
+{
+  "schema_version": "independent-composition-immutable-manifest-v1",
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.composed-repairs-111-162.assignment.v1.json",
+    "sha256": "e83be2bc947a9ad98e4e3ca1867885bbd20fa447c1e9daeb1a641e2605d33fa9",
+    "bytes": 25128
+  },
+  "activation": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.composed-repairs-111-162.activation.v1.json",
+    "sha256": "10bb65a204ca9f6199b2b84df751e8b135b6d8867b348df2b76399935839342c",
+    "bytes": 1767
+  },
+  "status": "sealed_proposed_whole_records_pending_independent_lead_review",
+  "counts": {
+    "parents": 52,
+    "correction_rows": 108,
+    "new_evidence": 2,
+    "components": 5
+  },
+  "inputs": [
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49"
+    },
+    {
+      "path": ".source-only/independent-review-draft-addendum.v1.json",
+      "sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-base.v1.json",
+      "sha256": "2ac81eda1994ee929e80f9cb063220f05925460c770313eafb9704bd7773c97c"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.025-026.v1.json",
+      "sha256": "51344d57674652f938b3c57abfb15a631677765b1cc3d751152ce239d6ccd8b2"
+    }
+  ],
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-111-122.v1.json",
+      "sha256": "8491da88eee308f59d3fa8bbb16b95273ad9cea39f5438c32e817677a8e110e8",
+      "bytes": 249773
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-123-134.v1.json",
+      "sha256": "e824f28d6c0145f5cc2d53385f294f289f48ae2db8b069ec7155aad117d79f6a",
+      "bytes": 232832
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-135-146.v1.json",
+      "sha256": "3b68709dccb316712894d288f3904d3889b2993df59a07b4671b4f39003a18ca",
+      "bytes": 220693
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-147-158.v1.json",
+      "sha256": "b78c1dfeafc21fa9334ebd3f49992430c9391ed87603c13a4e6ea2ad4728285c",
+      "bytes": 202402
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composed-groups-159-162.v1.json",
+      "sha256": "e40165d23f28564aafd6f049e4622443eed8b203290d9b1e73221d7ca374918d",
+      "bytes": 63142
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/composition-attestation.v1.json",
+      "sha256": "2c738615b4c7d84368516144172ce2f2f1a8c7da31ccf85ac9b713e1bd32d680",
+      "bytes": 9442
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/mechanical-integrity.v1.json",
+      "sha256": "ba7079d0c930337816bd077a18b834ac38d3159147e1e516c88daaf44a9745b8",
+      "bytes": 848
+    }
+  ],
+  "final_editorial_approval": false,
+  "whole_book_approval": false,
+  "historical_key_ownership_changed": false
+}

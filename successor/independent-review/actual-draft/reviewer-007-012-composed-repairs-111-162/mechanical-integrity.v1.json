@@ -1,0 +1,24 @@
+{
+  "schema_version": "scoped-composition-mechanical-integrity-v1",
+  "counts": {
+    "groups": 52,
+    "correction_rows": 108,
+    "new_evidence": 2,
+    "existing_evidence_rows_preserved": 170,
+    "field_and_nested_diff_rows": 273
+  },
+  "checks": {
+    "exact_assigned_parent_union": true,
+    "exact_correction_union": true,
+    "exact_new_evidence_union": true,
+    "whole_before_records_match_stage8": true,
+    "diff_application_recreates_proposed_records": true,
+    "evidence_identifiers_unique_per_parent": true,
+    "existing_evidence_retained": true,
+    "nested_scope_matches_single_chapter_parent": true,
+    "nested_page_bindings_valid": true,
+    "all_six_inputs_rehash": true,
+    "original_historical_component_manifest_unchanged": true
+  },
+  "scope": "Mechanical integrity does not establish substantive editorial approval."
+}
