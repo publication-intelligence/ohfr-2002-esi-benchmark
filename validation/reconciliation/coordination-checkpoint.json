@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T01:07:00.685393+00:00",
+  "recorded_at": "2026-09-17T01:21:12.067496+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -400,6 +400,17 @@
       "sha256": "2ac81eda1994ee929e80f9cb063220f05925460c770313eafb9704bd7773c97c",
       "status": "assembly_only_not_reviewed_final_not_frozen",
       "bound_by_source_only_followup_assignments": true
+    },
+    "lead_additional_repair_encoding_verified": {
+      "receipt": "validation/reconciliation/lead-integration-components-verification.v2.json",
+      "immutable_files": 4,
+      "disjoint_owned_subject_rows": 37,
+      "exact_whole_replacements_reconstructed": 33,
+      "field_diffs_reconstructed": 109,
+      "total_single_chapter_subject_rows_encoded": 48,
+      "cross_chapter_subject_rows_encoded": 11,
+      "cross_chapter_subject_rows_remaining": 32,
+      "final_value_approval": false
     }
   },
   "density_proposal": {
