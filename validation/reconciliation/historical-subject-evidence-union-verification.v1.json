@@ -1,0 +1,30 @@
+{
+  "schema_version": "historical-subject-evidence-union-verification-v1",
+  "recorded_at": "2026-09-17T04:30:57.106372+00:00",
+  "component": {
+    "path": "successor/independent-review/actual-draft/integration/historical-subject-evidence-review-union.v1.json",
+    "sha256": "cb748febd326469e7e6a66b1cc290a3a1c7a45cf6492501fb01bd537e50e65b9"
+  },
+  "input_hashes_verified": 28,
+  "exact_original_key_sets_and_whole_record_hashes_verified": true,
+  "all_specific_inspection_row_hashes_and_explicit_original_key_memberships_verified": true,
+  "counts": {
+    "subjects": {
+      "unique_original_keys": 2004,
+      "component_binding_count": 2082,
+      "duplicate_component_bindings_excluded_from_unique_count": 78,
+      "keys_with_overlap": 65
+    },
+    "evidence": {
+      "unique_original_keys": 4823,
+      "component_binding_count": 4898,
+      "duplicate_component_bindings_excluded_from_unique_count": 75,
+      "keys_with_overlap": 72
+    }
+  },
+  "final_repaired_value_fulfillment": false,
+  "editorial_approval": false,
+  "whole_book_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}
