@@ -1,0 +1,94 @@
+{
+  "schema_version": "source-correction-access-author-manifest-v1",
+  "role": "author",
+  "status": "sealed_proposal_pending_independent_review",
+  "decision": "no_delta",
+  "sealed_at": "2026-09-17T06:22:54.343690+00:00",
+  "assignment": {
+    "path": "successor/access-amendment/source-correction-v3/author-assignment.v1.json",
+    "sha256": "b2df422fcd41547bc78c36abe0811ab4a36ef888b3c7cbbdfaf7fd547d0a3550",
+    "bytes": 1758
+  },
+  "input_packet": {
+    "path": "successor/access-amendment/source-correction-v3/source-only-inputs.v1.json",
+    "sha256": "9b30760639bbcbf141603842da8628726a6e13200673e487a549e58a2e7c01ba",
+    "bytes": 70278
+  },
+  "base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "base_canonical_sha256": "2dc940cc93d172d70d7371e382e93192aceb16d58832ec280c4f62dcff9ffbeb",
+  "base_review": {
+    "path": "successor/independent-review/source-benchmark-review.v2.json",
+    "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+    "bytes": 492840
+  },
+  "actual_post_freeze_state": {
+    "path": "successor/evaluation-state.source-correction-v3.json",
+    "sha256": "abb517647eeced5d45d44ebf0bbbcc51d8ad3b89f6650093bc00d66b5cd01d36",
+    "bytes": 15542
+  },
+  "source_freeze_receipt": {
+    "path": "successor/independent-review/post-freeze/artois-correction/typed-freeze-receipt.v1.json",
+    "sha256": "e0138ebbc7bc76841c007f126b52f301d02e45df84ad5274036f675fec844df8",
+    "bytes": 6893
+  },
+  "files": [
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/benchmark-access-overlay.v1.json",
+      "sha256": "29620e2cdaf56d25624be5ee21264cb0cdf9d9a8511c6a0444a2176bc56b305d",
+      "bytes": 186350
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/exact-comparison.v1.json",
+      "sha256": "17532164aaf62375f17435cccf3f4f55358c278c2090e3a52cf637f326394614",
+      "bytes": 729412
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "64f6f1b9504e0b7d6ebdb178ffdc79d158115a65159812ecfda9b4a296ad9ca0",
+      "bytes": 17664
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/input-visibility-attestation.v1.json",
+      "sha256": "a28430eb6550b767155f76837d2cf42f4b740f1caf23c2bb8522baa21abe0256",
+      "bytes": 35940
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/mechanical-check.v1.json",
+      "sha256": "e5ec2cbb97e3254bc308c4a249e3e14f13866e366cffecfc22c35ac971154fe8",
+      "bytes": 1314
+    }
+  ],
+  "overlay_sha256": "9b83673935183c011a740fd449786be42f07a16b9534614200f1e6f432ca955e",
+  "population": {
+    "subjects": 531,
+    "reader_tasks": 617,
+    "delta_count": 0
+  },
+  "reused_access_reasoning": {
+    "path": "successor/access-amendment/author/clause-rationale.v1.json",
+    "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886",
+    "bytes": 15095
+  },
+  "source_correction_acknowledged": {
+    "retired_relationship_id": "REL-SUCC-8AD7BFC51F21",
+    "network_routes_retained": true
+  },
+  "coverage": {
+    "whole_subject_records_compared": 531,
+    "whole_task_records_compared": 617,
+    "source_evidence_bindings_compared": 3297,
+    "subject_facets_compared": 597,
+    "task_facets_compared": 980,
+    "new_substantive_endpoint_access_checks": 2,
+    "new_substantive_task_checks": 1,
+    "new_targeted_source_page_reads": [
+      305
+    ],
+    "new_source_first_page_reads": []
+  },
+  "author_does_not_approve_or_freeze": true
+}

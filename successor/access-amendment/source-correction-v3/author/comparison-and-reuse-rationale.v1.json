@@ -1,0 +1,340 @@
+{
+  "schema_version": "source-correction-access-author-rationale-v1",
+  "role": "author",
+  "status": "sealed_proposal_pending_independent_review",
+  "decision": "propose_no_delta_on_actual_frozen_v3",
+  "overlay": {
+    "path": "successor/access-amendment/source-correction-v3/author/benchmark-access-overlay.v1.json",
+    "sha256": "29620e2cdaf56d25624be5ee21264cb0cdf9d9a8511c6a0444a2176bc56b305d",
+    "bytes": 186350
+  },
+  "exact_comparison": {
+    "path": "successor/access-amendment/source-correction-v3/author/exact-comparison.v1.json",
+    "sha256": "17532164aaf62375f17435cccf3f4f55358c278c2090e3a52cf637f326394614",
+    "bytes": 729412
+  },
+  "prior_reasoning_reuse": {
+    "rationale": {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886",
+      "bytes": 15095
+    },
+    "inspection_ledger": {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec",
+      "bytes": 118951
+    },
+    "prior_proposal": {
+      "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+      "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+      "bytes": 186329
+    },
+    "prior_independent_review": {
+      "path": "successor/access-amendment/reviewer/benchmark-access-review.v1.json",
+      "sha256": "78499f5df31659be648e39e9e5ae3056a40a0cc05ede56471cd107f889f4aa8f",
+      "bytes": 1517
+    },
+    "basis": "All prior cases, inspected subject/task access fields and evidence values are exactly unchanged in v3. Reuse their source-grounded four-clause reasoning rather than repeat a broad pass. Prior approval applies to the old proposal only; the new proposal still requires independent review.",
+    "prior_focused_coverage": {
+      "targeted_subjects": 28,
+      "targeted_tasks": 43,
+      "additional_exploratory_subjects": 14,
+      "additional_exploratory_tasks": 1,
+      "subject_evidence_bindings": 129,
+      "new_source_pages": 0
+    },
+    "new_whole_book_review_claimed": false
+  },
+  "clause_assessments": [
+    {
+      "clause_id": "IPDF-GOV-02",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-GOV-02",
+        "decision": "no_delta",
+        "reason": "The frozen scholarly audience is explicit. Existing questions support retrieval, explanation, comparison and source criticism, with coherent main demands and named target subjects. Cases 01–09 show specific reader needs already covered rather than relying on a generic book-level question. No distinct source-supported reader obligation was found that needs an additional parent or unweighted facet.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-02",
+          "ACCESS-AUTH-03",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-05",
+          "ACCESS-AUTH-06",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08",
+          "ACCESS-AUTH-09"
+        ]
+      },
+      "unchanged_case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-02",
+        "ACCESS-AUTH-03",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-05",
+        "ACCESS-AUTH-06",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08",
+        "ACCESS-AUTH-09"
+      ],
+      "correction_specific_reasoning": "The unchanged royal-networks task asks how different actors organized resistance and how their resources and tactics differed. It does not require an individual authorization by Artois. Both endpoint requirements remain available, so retirement creates no missing scholarly lookup task."
+    },
+    {
+      "clause_id": "IPDF-ANA-06",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-ANA-06",
+        "decision": "no_delta",
+        "reason": "The completed representation review is reused and the present cases test likely erasure points: women’s diverse agency, distinct colonial legal populations, religious communities, ordinary households, popular resistance and minority violence in Italy. Their material source treatment already has explicit access without inventing equal coverage, uniformly virtuous actors or an unsupported stand-alone population history.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-02",
+          "ACCESS-AUTH-03",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-05",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08"
+        ]
+      },
+      "unchanged_case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-02",
+        "ACCESS-AUTH-03",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-05",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08"
+      ],
+      "correction_specific_reasoning": "Artois, La Rouërie, the Breton Association, coastal contacts, trusted organizers and the wider princely network remain explicitly represented. Removing unsupported personal agency does not erase the materially treated collective network or require a balancing new group."
+    },
+    {
+      "clause_id": "IPDF-VOC-01",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-VOC-01",
+        "decision": "no_delta",
+        "reason": "The final parent/facet values expressly preserve attribution, contested labels, uncertainty, chronology and negation. Examples distinguish claimed constitutional law, conditional diplomacy, alleged plots, possible payment, different emancipation phases and the failure to restore slavery in Saint-Domingue. Existing plain-language routes make these source-faithful requirements intelligible to the stipulated scholarly reader.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-02",
+          "ACCESS-AUTH-03",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-05",
+          "ACCESS-AUTH-06",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08",
+          "ACCESS-AUTH-09"
+        ]
+      },
+      "unchanged_case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-02",
+        "ACCESS-AUTH-03",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-05",
+        "ACCESS-AUTH-06",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08",
+        "ACCESS-AUTH-09"
+      ],
+      "correction_specific_reasoning": "The retained Artois evidence expressly denies that the passage identifies an individual grantor; the Breton parent/evidence describe princely links and organizational limits. Removing the contradictory authorizes edge aligns the source benchmark with that qualification. No further label, stance or task rewrite is necessary."
+    },
+    {
+      "clause_id": "IPDF-VOC-02",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-VOC-02",
+        "decision": "no_delta",
+        "reason": "Existing accepted routes cover meaningful lexical alternatives, accents, personal/topic access, translated specialist vocabulary, calendar variants and temporally qualified place/state names. The base access policy accepts a clear route that retrieves the required meaning; it does not require verbatim matching to a closed alias list. A valid equivalent route still must reach the right source treatment. Enumerating every imaginable spelling, abbreviation or later name would not by itself add a missing source-supported obligation, and blanket equivalence could erase the temporal or political distinctions in Cases 01, 06 and 07.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-06",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08"
+        ]
+      },
+      "unchanged_case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-06",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08"
+      ],
+      "correction_specific_reasoning": "The existing routes Artois, Count of; Charles, Count of Artois; Émigré princes--Artois; La Rouërie, Marquis de; Breton Association; and Brittany--counter-revolutionary organization still retrieve the supported requirements. The correction removes no supported synonym or equivalent access route."
+    }
+  ],
+  "narrow_source_decision": {
+    "retired_relationship_id": "REL-SUCC-8AD7BFC51F21",
+    "retired_historical_key": "legacy:REL-100E2B727434",
+    "source_page": 305,
+    "interpretation": "Full page 305 reports princely support and encouragement in the exile/Koblenz network, La Rouërie’s coastal organization, recruitment difficulty and arms without a clear operational plan. It does not identify Artois individually as granting that encouragement. The later named Artois sentence concerns his expectations about the coming war. Retirement removes an unsupported individual authorizes requirement; it does not establish that individual authorization was historically impossible.",
+    "retained_subject_ids": [
+      "SUBJ-SUCC-8EBFEFD6F582",
+      "SUBJ-SUCC-2CAD9C10478B"
+    ],
+    "retained_task_id": "TASK-SUCC-7570FD1DEF57",
+    "retained_evidence": [
+      {
+        "evidence_id": "EVID-SUCC-89246D51BD6C",
+        "source_evidence_id": "EVID-30ECCB318724",
+        "document_page": 305,
+        "source_page_label": "305",
+        "locator_class": "supporting",
+        "evidence_summary": "Froment secured princely support at Koblenz, and La Rouërie received encouragement for his Breton organization. The passage supports Artois’s princely network context without identifying him individually as the grantor of either authorization.",
+        "provenance": {
+          "chunk_id": "CHUNK-013",
+          "local_subject_id": "CHUNK-013-SUBJ-010",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-013.json",
+          "source_artifact_sha256": "b968dfd3cc69bad019b4988886048ed52e4912bee999d98d25c8c472a8f1d719"
+        },
+        "source_local_subject_id": "SUCC-C013-S012",
+        "source_chunk_id": "CHUNK-013",
+        "historical_evidence_identity": {
+          "lineage": "legacy",
+          "subject_id": "SUBJ-C532A48A9329",
+          "evidence_id": "EVID-F88C1B3C9238"
+        },
+        "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+      },
+      {
+        "document_page": 305,
+        "source_page_label": "305",
+        "locator_class": "principal",
+        "evidence_summary": "La Rouërie sought princely support and coastal contacts, struggled to keep trusted organizers in Brittany rather than emigrating, and accumulated arms without a clear operational plan.",
+        "evidence_id": "EVID-SUCC-C6EADF2D2AD2",
+        "source_local_subject_id": "SUCC-C013-S043",
+        "source_chunk_id": "CHUNK-013"
+      }
+    ],
+    "endpoint_access_values": [
+      {
+        "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+        "label": "Artois and counter-revolutionary leadership",
+        "meaning": "Artois's role in the court reaction of 1789, émigré organization, foreign diplomacy, military schemes, and western expeditions.",
+        "stance": "Artois was a central, energetic but often unrealistic and ineffective leader. His late arrival at Portsmouth and failure to reach the Vendée mainland in 1795 disappointed royalist expectations.",
+        "acceptable_access": [
+          "Artois, Count of",
+          "Charles, Count of Artois",
+          "Émigré princes--Artois"
+        ],
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C013-S012",
+            "label": "Artois and counter-revolutionary leadership",
+            "meaning": "Artois's role in the court reaction of 1789, émigré organization, foreign diplomacy, military schemes, and western expeditions.",
+            "stance": "Artois was a central, energetic but often unrealistic and ineffective leader. His late arrival at Portsmouth and failure to reach the Vendée mainland in 1795 disappointed royalist expectations.",
+            "acceptable_access": [
+              "Artois, Count of",
+              "Charles, Count of Artois",
+              "Émigré princes--Artois"
+            ],
+            "document_pages": [
+              297,
+              298,
+              300,
+              302,
+              305,
+              307,
+              312,
+              313,
+              314
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      {
+        "subject_id": "SUBJ-SUCC-2CAD9C10478B",
+        "label": "La Rouërie and the Breton Association",
+        "meaning": "La Rouërie organized the Breton Association through coastal contacts and links to émigré princes, driven by opposition to the loss of Brittany’s distinct provincial character and encouraged by widespread support for refractory clergy. He struggled to keep trusted contacts in Brittany instead of emigrating; the network accumulated arms but lacked a clear operational plan.",
+        "stance": "The association had contacts and arms but lacked a clear operational plan, foreshadowing later problems coordinating Breton resistance.",
+        "acceptable_access": [
+          "La Rouërie, Marquis de",
+          "Breton Association",
+          "Brittany--counter-revolutionary organization"
+        ],
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C013-S043",
+            "label": "La Rouërie and the Breton Association",
+            "meaning": "La Rouërie organized the Breton Association through coastal contacts and links to émigré princes, driven by opposition to the loss of Brittany’s distinct provincial character and encouraged by widespread support for refractory clergy. He struggled to keep trusted contacts in Brittany instead of emigrating; the network accumulated arms but lacked a clear operational plan.",
+            "stance": "The association had contacts and arms but lacked a clear operational plan, foreshadowing later problems coordinating Breton resistance.",
+            "acceptable_access": [
+              "La Rouërie, Marquis de",
+              "Breton Association",
+              "Brittany--counter-revolutionary organization"
+            ],
+            "document_pages": [
+              305
+            ],
+            "independently_weighted": false
+          }
+        ]
+      }
+    ],
+    "retained_task": {
+      "task_id": "TASK-SUCC-7570FD1DEF57",
+      "question": "How did Artois, Calonne, La Rouërie and conservative Assembly spokesmen organize resistance, and why did court leadership, Breton networks and parliamentary obstruction differ in resources and tactics?",
+      "subject_ids": [
+        "SUBJ-SUCC-8EBFEFD6F582",
+        "SUBJ-SUCC-AB9E2AC4F876",
+        "SUBJ-SUCC-2CAD9C10478B",
+        "SUBJ-SUCC-DE8ADB718815",
+        "SUBJ-SUCC-67735238DEAA"
+      ],
+      "source_task_ids": [
+        "whole_book_authored:royalnetworks"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [],
+      "source_pages": [
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        305,
+        307,
+        312,
+        313,
+        314
+      ]
+    },
+    "completed_source_correction_review": {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/source-and-dependency-review.v1.json",
+      "sha256": "f6530e67b15692d32ac701e1b282fdc1d6db42d5e00ae21b947f6a71326056c2",
+      "bytes": 82834
+    },
+    "additive_historical_disposition": {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/legacy-disposition.v1.json",
+      "sha256": "d558c417d9fac4c58044bd9cbbbd0359e28ac22a25301defff3122b9f75b3a4f",
+      "bytes": 2921
+    }
+  },
+  "source_reading": {
+    "new_targeted_post_freeze_page_reads": [
+      305
+    ],
+    "new_source_first_pages": [],
+    "purpose": "Confirm the concrete named-agency versus network qualification relevant to access rebinding. No new subject discovery or broad pass.",
+    "layout": "Continuous prose; no unresolved map or layout question requiring a new render."
+  },
+  "population_accounting": {
+    "subjects_before": 531,
+    "subjects_after": 531,
+    "tasks_before": 617,
+    "tasks_after": 617,
+    "source_evidence_bindings_preserved": 3297,
+    "delta_count": 0,
+    "new_weighted_parents": 0,
+    "new_unweighted_facets": 0,
+    "priority_changes": [],
+    "population_sha256": "6f8cbe9f994101437bf29ba94c9d898a9b60c19c9943d8235d47968afba03e8b"
+  },
+  "field_changes": [],
+  "independent_author_judgment": "No access change is justified by this source correction: its unsupported individual relation has already been retired in the actual frozen base while the supported network access remains explicit. A new subject, synonym requirement or task would either duplicate that surviving access or reintroduce unwarranted individual agency.",
+  "limits": "Author proposal only. No independent amendment approval, source-state edit, runtime activation, lock selection or amendment freeze. No candidate content or result informs this judgment."
+}

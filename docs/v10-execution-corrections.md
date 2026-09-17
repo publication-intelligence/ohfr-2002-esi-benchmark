@@ -8,6 +8,8 @@ The installed `815bcb66` runtime cannot truthfully serialize a physically inspec
 
 The contract owner's [v1 interpretation](v10-semantic-uncertainty-addendum-v1.md) and controlling [v2 clarification](v10-semantic-uncertainty-addendum-v2.md) specify the correction. Known axes remain factual, unknown axes receive neutral bounds, selectivity applicability uses only jointly consistent existing treatment states, and semantic assessment insufficiency remains separate from physical validity. Numeric invariance does not restore evaluation authority. Existing confirmed gate facts and outcome precedence remain intact. The reviewed scope changes no score mapping, weight, cap threshold, source scope or historical artifact.
 
+The additive [v3 precision](v10-semantic-uncertainty-addendum-v3.md) rejects uncertainty when established facts force a single legacy value. The [v4 representation](v10-semantic-uncertainty-addendum-v4.md) preserves known binary non-keep when only its finer judgment subtype remains unresolved. Such a row retains exact zero keep credit; its unknown fit/subtype supplies an assessment blocker, without widening keep bounds or discarding known treatment. The execution binding must include all four immutable addenda and the original decision.
+
 The methodology owner is implementing the correction in isolation. New native schemas, fixtures, consumer compatibility, explicit execution provenance and a reviewed installation must precede adoption. The active installation remains the preserved `815bcb66` payload until that coordinated cutover.
 
 ## Identical retained distinction
