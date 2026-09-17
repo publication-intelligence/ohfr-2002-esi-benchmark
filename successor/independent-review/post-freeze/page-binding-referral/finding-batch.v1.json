@@ -1,0 +1,2656 @@
+{
+  "schema_version": "post-freeze-source-page-binding-referral-v1",
+  "status": "sealed_source_findings_and_minimal_correction_proposal; no_source_artifact_mutated; separate_review_and_release_handling_pending",
+  "recorded_at": "2026-09-17T06:37:25.913356+00:00",
+  "reviewer": "successor_independent_review",
+  "provenance": "Post-freeze coordinator referrals arising during application of the source benchmark. The coordinator supplied exact source-only suspected inconsistencies, including later additions to the same bounded batch. They were treated as hypotheses and independently checked against six complete printed pages and exact prior source-review records. This is not fresh source-first discovery, a new whole-book pass, or renewed candidate blindness.",
+  "visibility": {
+    "candidate_content_seen": false,
+    "candidate_results_seen": false,
+    "candidate_application_judgments_seen": false,
+    "root_validation_or_other_root_docs_read": false,
+    "app_or_task_history_read": false,
+    "installed_active_runtime_accessed": false,
+    "prior_source_and_proposal_visibility": "Existing source reviewer/coordinator context retained. The v3 access author manifest was read only to identify and preserve its sealed bytes; no new access review dispatched."
+  },
+  "base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "base_canonical_sha256": "2dc940cc93d172d70d7371e382e93192aceb16d58832ec280c4f62dcff9ffbeb",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+  "policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae",
+  "source_inspection": [
+    {
+      "document_page": 56,
+      "source_page_label": "56",
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 15,
+      "sidecar_row": {
+        "chunk_pdf_page": 15,
+        "document_page": 56,
+        "source_page_label": "56",
+        "ownership": "owned"
+      },
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page56.txt",
+        "sha256": "b752e13b09f8ac5fd567b82c0b4f25f4dec53f71fae9d78c01116b97667cce4c",
+        "bytes": 3077
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page56.png",
+        "sha256": "6bb9cdc36c26974f6abc799532dea7d34e708ec539914c6eb3e6fa957be5ad68",
+        "bytes": 413363
+      }
+    },
+    {
+      "document_page": 57,
+      "source_page_label": "57",
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 16,
+      "sidecar_row": {
+        "chunk_pdf_page": 16,
+        "document_page": 57,
+        "source_page_label": "57",
+        "ownership": "owned"
+      },
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page57.txt",
+        "sha256": "df9d6b75b5839b3f95c22332e0a73e5280765b4b1cdde152dccadad98c825489",
+        "bytes": 2959
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page57.png",
+        "sha256": "6b674661d751720fd06f835b20b2d9aecd0eb0339dd791f350fa6c08e9ea4550",
+        "bytes": 399207
+      }
+    },
+    {
+      "document_page": 131,
+      "source_page_label": "131",
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 22,
+      "sidecar_row": {
+        "chunk_pdf_page": 22,
+        "document_page": 131,
+        "source_page_label": "131",
+        "ownership": "owned"
+      },
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page131.txt",
+        "sha256": "bb772b23d8e86ee120eb631a762a2715b888432a57183f01b78b1c2a22f49222",
+        "bytes": 3092
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page131.png",
+        "sha256": "7b4bd3294a8b8f14c83be9d00f43388f382ec9f394d0598bd6fbd100408740ec",
+        "bytes": 416308
+      }
+    },
+    {
+      "document_page": 132,
+      "source_page_label": "132",
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 23,
+      "sidecar_row": {
+        "chunk_pdf_page": 23,
+        "document_page": 132,
+        "source_page_label": "132",
+        "ownership": "owned"
+      },
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page132.txt",
+        "sha256": "4b8fc83e8ec518c0585e274d5f12e37c37c545bcb68b86cbc4e96900e8ca9516",
+        "bytes": 3024
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page132.png",
+        "sha256": "da6c3390e129745fe796b17a8b95ddb432dd0bef415989bc69efa829df0c2ff4",
+        "bytes": 404243
+      }
+    },
+    {
+      "document_page": 133,
+      "source_page_label": "133",
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 24,
+      "sidecar_row": {
+        "chunk_pdf_page": 24,
+        "document_page": 133,
+        "source_page_label": "133",
+        "ownership": "owned"
+      },
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page133.txt",
+        "sha256": "8ddc64660e365332dc1d18ec80bc7ba818972444802a067d6b5d56413a204546",
+        "bytes": 3109
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page133.png",
+        "sha256": "a2047b91f0890d004ec012b19fca9e499fd9c41556324e162d107bfeba5e9efb",
+        "bytes": 416058
+      }
+    },
+    {
+      "document_page": 134,
+      "source_page_label": "134",
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 25,
+      "sidecar_row": {
+        "chunk_pdf_page": 25,
+        "document_page": 134,
+        "source_page_label": "134",
+        "ownership": "owned"
+      },
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page134.txt",
+        "sha256": "cf958d2100eeded6c15672fe24be8960058818bfd730d5944582499c71e1892f",
+        "bytes": 2983
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-56-57-131-132-134/page134.png",
+        "sha256": "5e5474f2c179a2aeb2880b608c9cf0b856a3012794dcab93fa8038e1e7a4835e",
+        "bytes": 405309
+      }
+    }
+  ],
+  "evidence_contract": {
+    "schema": {
+      "path": ".source-only/methodology/references/schemas/source-benchmark.schema.json",
+      "sha256": "405d6687b064bdf858f908b70be7e61d9ce3456f151fb23fcb891e8b8d477ae8",
+      "bytes": 4078
+    },
+    "schema_pointer": "/properties/subjects/items/properties/evidence/items/properties/document_page",
+    "interpretation": "A source evidence row binds one integer document page. A claim may have context in a continuous paragraph across pages, but that does not establish each explicit predicate on the one selected page. Synthesis summaries can be qualified to their actual page while other existing rows preserve the earlier premises. Aggregate treatment and relationship page arrays are assessed by their own content, not by blind global page-number replacement.",
+    "no_new_methodology": "This applies the existing requirement for source-grounded, page-specific evidence; no new score rule, scope, weight or threshold is created."
+  },
+  "findings": [
+    {
+      "finding_id": "PBF-001",
+      "subject_id": "SUBJ-SUCC-C3088DA62479",
+      "evidence_id": "EVID-SUCC-7A2F098446C6",
+      "verdict": "misbound_page",
+      "source_pages_inspected": [
+        56,
+        57
+      ],
+      "independent_source_basis": "The bottom portion of printed page 56 explicitly gives increasingly long royal-edict preambles, refutation of unwelcome remonstrances, and writers hired to praise and defend Maupeou. The statement is substantively supported there. Page 57 begins inside a contemporary warning and contains none of these three ministerial examples. A shared paragraph does not move the examples onto page 57.",
+      "before_pointer": "/subjects/116/evidence/6",
+      "before_record": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+        "evidence_id": "EVID-SUCC-7A2F098446C6",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "before_record_sha256": "3e1c0af14f99eab375b31f3b7117413304488c9579334afe1107cf0ebddfc48e",
+      "proposed_record": {
+        "document_page": 56,
+        "source_page_label": "56",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+        "evidence_id": "EVID-SUCC-7A2F098446C6",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "proposed_record_sha256": "e5a72ee48feb93015639980d3802795036af9a345cab92444280d5a23b054eac",
+      "proposed_field_changes": [
+        {
+          "pointer": "/subjects/116/evidence/6/document_page",
+          "field": "document_page",
+          "before": 57,
+          "proposed": 56
+        },
+        {
+          "pointer": "/subjects/116/evidence/6/source_page_label",
+          "field": "source_page_label",
+          "before": "57",
+          "proposed": "56"
+        }
+      ],
+      "prior_initial_review": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "jsonl_line_one_based": 73,
+        "row_sha256": "f2d1b5c6b31c32ef58a5143db640ba8bbdd93c968a6a585c481e952e0946e926",
+        "basis": "Pages 56–57 support the changed meaning of opinion, competing earlier religious/judicial actors, philosophic ambition and official entry into public argument despite surviving censorship. Parent meaning/stance faithfully capture those mechanisms. The additional retained requirement about anticipated revolution is only nested, without its uncertainty in the parent.",
+        "proposed_fix": "Add that some contemporaries feared constitutional discussion would dissolve deference and produce revolution, explicitly as contemporary anxiety/foreshadowing rather than demonstrated inevitability. Essential priority fits the chapter’s principal political mechanism."
+      },
+      "prior_exact_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 873,
+        "row_sha256": "b96201dbe94d1007161fe665ea56c8026645feee2e938a253ae8f5e1878f96d9",
+        "requirement_key": "SUBJ-SUCC-C3088DA62479:evidence:EVID-SUCC-7A2F098446C6",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+          "evidence_id": "EVID-SUCC-7A2F098446C6",
+          "source_local_subject_id": "SUCC-C002-S015",
+          "source_chunk_id": "CHUNK-002"
+        },
+        "after": {
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+          "evidence_id": "EVID-SUCC-7A2F098446C6",
+          "source_local_subject_id": "SUCC-C002-S015",
+          "source_chunk_id": "CHUNK-002"
+        }
+      },
+      "prior_historical_disposition": [
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+            "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+            "bytes": 4971257
+          },
+          "jsonl_line_one_based": 371,
+          "row_sha256": "8ef68ffd03fe9a27e7ad365c3522d31d762474bd725055ea2e4ce9b44b90b38c",
+          "review_key": "legacy:SUBJ-AC3BF591EBEB:EVID-736F5728858A",
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "original_claim": {
+            "evidence_id": "EVID-736F5728858A",
+            "source_evidence_id": "EVID-DCDC43982799",
+            "document_page": 57,
+            "source_page_label": "57",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+            "provenance": {
+              "chunk_id": "CHUNK-002",
+              "local_subject_id": "CHUNK-002-S055",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-002.json",
+              "source_artifact_sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053"
+            }
+          },
+          "original_lineage_pointer": "/rows/315"
+        }
+      ],
+      "frozen_draft_to_v2_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+          "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+          "bytes": 22889770
+        },
+        "pointer": "/populations/parent_qualified_evidence/2617",
+        "row_sha256": "ebff5e18269f20cfbff72ae7fb053a6f98e5b38dfebdd1b35d0c84a7b60b746a",
+        "record": {
+          "subject_id": "SUBJ-SUCC-C3088DA62479",
+          "evidence_id": "EVID-SUCC-7A2F098446C6",
+          "disposition": "retained_unchanged",
+          "before_sha256": "3e1c0af14f99eab375b31f3b7117413304488c9579334afe1107cf0ebddfc48e",
+          "final_sha256": "3e1c0af14f99eab375b31f3b7117413304488c9579334afe1107cf0ebddfc48e",
+          "original_item_inspection": {
+            "entity_id": "SUBJ-SUCC-C3088DA62479:EVID-SUCC-7A2F098446C6",
+            "original_draft_record_sha256": "3e1c0af14f99eab375b31f3b7117413304488c9579334afe1107cf0ebddfc48e",
+            "inspection_bindings": [
+              {
+                "component_path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "inspection_row_sha256": "f2d1b5c6b31c32ef58a5143db640ba8bbdd93c968a6a585c481e952e0946e926",
+                "jsonl_line_one_based": 73
+              }
+            ]
+          }
+        }
+      },
+      "v2_equals_v3_equals_draft_for_this_evidence": true,
+      "prior_disposition_resolution": "The earlier supported/retained judgments did not resolve this page-level issue. Their evidence values survived unchanged. Preserve those original ledgers; an additive correction must qualify the listed current and historical bindings."
+    },
+    {
+      "finding_id": "PBF-002",
+      "subject_id": "SUBJ-SUCC-C3088DA62479",
+      "evidence_id": "EVID-SUCC-EE0D698188B1",
+      "verdict": "mixed_page_summary_requires_local_qualification",
+      "source_pages_inspected": [
+        56,
+        57
+      ],
+      "independent_source_basis": "The paragraph genuinely continues across the 56/57 boundary. Failed state censorship and ministers courting opinion are on 56; the contemporary warning about replies, constitutional analysis and revolution continues on 57. The combined historical claim is supported by the two-page passage, but the current single-page evidence summary assigns all of it to 57 without marking the earlier-page context. Keep the genuine 57 conclusion and its synthesis classification; narrow this row rather than moving the warning to 56 or silently treating adjacency as page-level support.",
+      "before_pointer": "/subjects/116/evidence/5",
+      "before_record": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+        "evidence_id": "EVID-SUCC-EE0D698188B1",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "before_record_sha256": "1b1f64488c408be9741ea84b8222c65b9102e2e5a17ef95dd235471a74fe0e46",
+      "proposed_record": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "An anxious contemporary warned that public exchanges about the constitution and the knowledge people were acquiring would eventually bring revolutions.",
+        "evidence_id": "EVID-SUCC-EE0D698188B1",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "proposed_record_sha256": "b57600ded92a59fae921ccf790cd16b7f5591ff3f82b3e07658f123a4d5537ae",
+      "proposed_field_changes": [
+        {
+          "pointer": "/subjects/116/evidence/5/evidence_summary",
+          "field": "evidence_summary",
+          "before": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+          "proposed": "An anxious contemporary warned that public exchanges about the constitution and the knowledge people were acquiring would eventually bring revolutions."
+        }
+      ],
+      "prior_initial_review": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "jsonl_line_one_based": 73,
+        "row_sha256": "f2d1b5c6b31c32ef58a5143db640ba8bbdd93c968a6a585c481e952e0946e926",
+        "basis": "Pages 56–57 support the changed meaning of opinion, competing earlier religious/judicial actors, philosophic ambition and official entry into public argument despite surviving censorship. Parent meaning/stance faithfully capture those mechanisms. The additional retained requirement about anticipated revolution is only nested, without its uncertainty in the parent.",
+        "proposed_fix": "Add that some contemporaries feared constitutional discussion would dissolve deference and produce revolution, explicitly as contemporary anxiety/foreshadowing rather than demonstrated inevitability. Essential priority fits the chapter’s principal political mechanism."
+      },
+      "prior_exact_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 877,
+        "row_sha256": "9c07b2036873d8e57b78809dc65df76fe8609c7f3b2dd7d055f0ec5cbe8726cf",
+        "requirement_key": "SUBJ-SUCC-C3088DA62479:evidence:EVID-SUCC-EE0D698188B1",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+          "evidence_id": "EVID-SUCC-EE0D698188B1",
+          "source_local_subject_id": "SUCC-C002-S015",
+          "source_chunk_id": "CHUNK-002"
+        },
+        "after": {
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+          "evidence_id": "EVID-SUCC-EE0D698188B1",
+          "source_local_subject_id": "SUCC-C002-S015",
+          "source_chunk_id": "CHUNK-002"
+        }
+      },
+      "prior_historical_disposition": [
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+            "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+            "bytes": 4971257
+          },
+          "jsonl_line_one_based": 367,
+          "row_sha256": "d0edd402b48048bb7c824a3845c9ba5bda013084648879959ea2554382c2c38f",
+          "review_key": "native:SUBJ-0073:EVID-0073-002",
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "original_claim": {
+            "document_page": 57,
+            "source_page_label": "57",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+            "source_chunk_id": "CHUNK-002",
+            "source_local_subject_id": "CHUNK-002-S015",
+            "evidence_id": "EVID-0073-002"
+          },
+          "original_lineage_pointer": "/rows/3381"
+        }
+      ],
+      "frozen_draft_to_v2_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+          "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+          "bytes": 22889770
+        },
+        "pointer": "/populations/parent_qualified_evidence/2621",
+        "row_sha256": "bcbefcbd8bab7299b940e467445c4e501fb5a07e7ada1889082e1ea3dd2ffecb",
+        "record": {
+          "subject_id": "SUBJ-SUCC-C3088DA62479",
+          "evidence_id": "EVID-SUCC-EE0D698188B1",
+          "disposition": "retained_unchanged",
+          "before_sha256": "1b1f64488c408be9741ea84b8222c65b9102e2e5a17ef95dd235471a74fe0e46",
+          "final_sha256": "1b1f64488c408be9741ea84b8222c65b9102e2e5a17ef95dd235471a74fe0e46",
+          "original_item_inspection": {
+            "entity_id": "SUBJ-SUCC-C3088DA62479:EVID-SUCC-EE0D698188B1",
+            "original_draft_record_sha256": "1b1f64488c408be9741ea84b8222c65b9102e2e5a17ef95dd235471a74fe0e46",
+            "inspection_bindings": [
+              {
+                "component_path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "inspection_row_sha256": "f2d1b5c6b31c32ef58a5143db640ba8bbdd93c968a6a585c481e952e0946e926",
+                "jsonl_line_one_based": 73
+              }
+            ]
+          }
+        }
+      },
+      "v2_equals_v3_equals_draft_for_this_evidence": true,
+      "prior_disposition_resolution": "The earlier supported/retained judgments did not resolve this page-level issue. Their evidence values survived unchanged. Preserve those original ledgers; an additive correction must qualify the listed current and historical bindings."
+    },
+    {
+      "finding_id": "PBF-003",
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+      "verdict": "misbound_page",
+      "source_pages_inspected": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "independent_source_basis": "Page 131 describes tax-system reconstruction, collection weakness, the obligation to honor inherited national debt, and Necker's declining standing. Page 132 explicitly links an estimate of short-term debt above 707 million in November 1789 and nearly two billion by the following summer to continuing compensation for abolished offices or property. That is this row's predicate. Page 134 is a different, correctly retained account of later compensation costs driving expanded assignat issuance.",
+      "before_pointer": "/subjects/206/evidence/18",
+      "before_record": {
+        "document_page": 131,
+        "source_page_label": "131",
+        "locator_class": "supporting",
+        "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+        "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+        "source_local_subject_id": "SUCC-C005-S019",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "before_record_sha256": "d4a6956ac0820ef43933ecbb379c171bb871dc6314f3605c09421a527dc247f4",
+      "proposed_record": {
+        "document_page": 132,
+        "source_page_label": "132",
+        "locator_class": "supporting",
+        "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+        "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+        "source_local_subject_id": "SUCC-C005-S019",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "proposed_record_sha256": "216cff82771b498484ade84b6fc7844f3b05bcc2d5f31db62ef0dc70ed33625f",
+      "proposed_field_changes": [
+        {
+          "pointer": "/subjects/206/evidence/18/document_page",
+          "field": "document_page",
+          "before": 131,
+          "proposed": 132
+        },
+        {
+          "pointer": "/subjects/206/evidence/18/source_page_label",
+          "field": "source_page_label",
+          "before": "131",
+          "proposed": "132"
+        }
+      ],
+      "prior_initial_review": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "jsonl_line_one_based": 161,
+        "row_sha256": "71647acb68faaccdbfb738c90524bdbd09a91d0a2ee9d36a9ad38d7e169551e8",
+        "basis": "Election and judicial reconstruction on pp.124–126 are accurately supported, including abolished parlements, local/civil/criminal/cassation courts, juries, unfinished codification and lack of police machinery. The parent omits compensable office-property and its fiscal cost. Copied broad separation-of-powers and public-coercion dossiers also import executive/legislative separation and tax collection unrelated to this judicial requirement.",
+        "proposed_fix": "State the particular new court architecture, uncompleted codification and property-compensation consequence. Keep judicial/administrative separation here, but reroute executive/legislative constraints to constitutional government and EVID-SUCC-4F138C1BD35B to tax-reform collection machinery. Scope generic rural enforcement material to court/local coercion rather than importing the whole public-authority dossier. The parent must explicitly retain abolition of venal justice and its replacement by elected judges and free justice on p. 125; compensation is an additional fiscal consequence, not a substitute for institutional reform."
+      },
+      "prior_exact_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 2475,
+        "row_sha256": "c2f0dc1015c6a2728c8a07a74a26787c442e155845dfda26ae81205e3180ef36",
+        "requirement_key": "SUBJ-SUCC-9E6D9535AA17:evidence:EVID-SUCC-8C432DB3ADE6",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 131,
+          "source_page_label": "131",
+          "locator_class": "supporting",
+          "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+          "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+          "source_local_subject_id": "SUCC-C005-S019",
+          "source_chunk_id": "CHUNK-005"
+        },
+        "after": {
+          "document_page": 131,
+          "source_page_label": "131",
+          "locator_class": "supporting",
+          "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+          "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+          "source_local_subject_id": "SUCC-C005-S019",
+          "source_chunk_id": "CHUNK-005"
+        }
+      },
+      "prior_historical_disposition": [
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+            "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+            "bytes": 4971257
+          },
+          "jsonl_line_one_based": 1381,
+          "row_sha256": "0f3a32133fb2f72810d61e2bd399646c25d2afa9cda18b6c87eccc928ecbcdbe",
+          "review_key": "legacy:SUBJ-59856BDB5388:EVID-82589FE9522B",
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "original_claim": {
+            "evidence_id": "EVID-82589FE9522B",
+            "source_evidence_id": "EVID-495F128B7B88",
+            "document_page": 131,
+            "source_page_label": "131",
+            "locator_class": "supporting",
+            "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+            "provenance": {
+              "chunk_id": "CHUNK-005",
+              "local_subject_id": "C005-S083",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+              "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+            }
+          },
+          "original_lineage_pointer": "/rows/622"
+        }
+      ],
+      "frozen_draft_to_v2_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+          "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+          "bytes": 22889770
+        },
+        "pointer": "/populations/parent_qualified_evidence/2139",
+        "row_sha256": "7b7849a1c7aacff616ea77bfe2bdb52125bfcdef3ae509ecd06d369fc059b75e",
+        "record": {
+          "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+          "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+          "disposition": "retained_unchanged",
+          "before_sha256": "d4a6956ac0820ef43933ecbb379c171bb871dc6314f3605c09421a527dc247f4",
+          "final_sha256": "d4a6956ac0820ef43933ecbb379c171bb871dc6314f3605c09421a527dc247f4",
+          "original_item_inspection": {
+            "entity_id": "SUBJ-SUCC-9E6D9535AA17:EVID-SUCC-8C432DB3ADE6",
+            "original_draft_record_sha256": "d4a6956ac0820ef43933ecbb379c171bb871dc6314f3605c09421a527dc247f4",
+            "inspection_bindings": [
+              {
+                "component_path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "inspection_row_sha256": "71647acb68faaccdbfb738c90524bdbd09a91d0a2ee9d36a9ad38d7e169551e8",
+                "jsonl_line_one_based": 161
+              }
+            ]
+          }
+        }
+      },
+      "v2_equals_v3_equals_draft_for_this_evidence": true,
+      "prior_disposition_resolution": "The earlier supported/retained judgments did not resolve this page-level issue. Their evidence values survived unchanged. Preserve those original ledgers; an additive correction must qualify the listed current and historical bindings."
+    },
+    {
+      "finding_id": "PBF-004",
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "evidence_id": "EVID-SUCC-51E510B47B2A",
+      "verdict": "misbound_page",
+      "source_pages_inspected": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "independent_source_basis": "Page 132 contains failed loans, disappointing Patriotic Contribution yields and compensation-driven short-term debt expansion. It does not state that Necker underestimated the revenue shortfall or revised the projected deficit. Page 134 explicitly says falling tax revenue forced the estimate from 80 to 294 million by March, and the miscalculation destroyed his remaining credibility. That is the claim actually summarized here; fiscal-topic similarity cannot substitute for its page binding.",
+      "before_pointer": "/subjects/213/evidence/9",
+      "before_record": {
+        "document_page": 132,
+        "source_page_label": "132",
+        "locator_class": "supporting",
+        "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+        "evidence_id": "EVID-SUCC-51E510B47B2A",
+        "source_local_subject_id": "SUCC-C005-S027",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "before_record_sha256": "0bd7808e873a4d652c67aebe8421fa645571241c2e254004b852af53b88243e6",
+      "proposed_record": {
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+        "evidence_id": "EVID-SUCC-51E510B47B2A",
+        "source_local_subject_id": "SUCC-C005-S027",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "proposed_record_sha256": "cd4173e94eac548c203d79ee56885a6fc52121e05f5545d272fd7f37e44ed33e",
+      "proposed_field_changes": [
+        {
+          "pointer": "/subjects/213/evidence/9/document_page",
+          "field": "document_page",
+          "before": 132,
+          "proposed": 134
+        },
+        {
+          "pointer": "/subjects/213/evidence/9/source_page_label",
+          "field": "source_page_label",
+          "before": "132",
+          "proposed": "134"
+        }
+      ],
+      "prior_initial_review": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "jsonl_line_one_based": 163,
+        "row_sha256": "453542fed669e706736efdc5746daa6accb1e07a15aa4dab16712f1344e2dd6f",
+        "basis": "The essential core on pp.131–132 is faithful: equal direct taxes replace old levies/monopolies/farms, while an assumption of voluntary payment leaves no effective compulsion after years of resistance. This parent already contains the collection paradox raised by the lead; BA8813B30BE0,0724799879F5 andBA31D7187506 preserve it. Copied general coercion/equality dossiers add unrelated militia/court behavior and political franchise.",
+        "proposed_fix": "Keep and sharpen the voluntary-payment assumption in the parent stance. Retire duplicate p.131 claims from Guard and judicial parents in favor of this existing coherent access, without adding redundant evidence. Reroute generic militia/court and franchise records; narrow pp.116/118 equality evidence to fiscal principles or explicitly mark wider context. Careers-open-to-talent is not interchangeable with tax reform. Correct the compound equality/taxation/careers locator to pp. 118–119."
+      },
+      "prior_exact_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 2526,
+        "row_sha256": "cc3dc7c72e0149834384e6376c215647dafdf288bb839820165d846b70f0b1bb",
+        "requirement_key": "SUBJ-SUCC-9998092EF3FD:evidence:EVID-SUCC-51E510B47B2A",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+          "evidence_id": "EVID-SUCC-51E510B47B2A",
+          "source_local_subject_id": "SUCC-C005-S027",
+          "source_chunk_id": "CHUNK-005"
+        },
+        "after": {
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+          "evidence_id": "EVID-SUCC-51E510B47B2A",
+          "source_local_subject_id": "SUCC-C005-S027",
+          "source_chunk_id": "CHUNK-005"
+        }
+      },
+      "prior_historical_disposition": [
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+            "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+            "bytes": 4971257
+          },
+          "jsonl_line_one_based": 1395,
+          "row_sha256": "b3316d19275d535ad5b843f690e16e1a8ea8977884b2e2c1c2affd40516636aa",
+          "review_key": "legacy:SUBJ-B1C602729F9A:EVID-F51DC33F86B8",
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "original_claim": {
+            "evidence_id": "EVID-F51DC33F86B8",
+            "source_evidence_id": "EVID-38EFFC4E9AF7",
+            "document_page": 132,
+            "source_page_label": "132",
+            "locator_class": "supporting",
+            "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+            "provenance": {
+              "chunk_id": "CHUNK-005",
+              "local_subject_id": "C005-S072",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+              "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+            }
+          },
+          "original_lineage_pointer": "/rows/1123"
+        }
+      ],
+      "frozen_draft_to_v2_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+          "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+          "bytes": 22889770
+        },
+        "pointer": "/populations/parent_qualified_evidence/2083",
+        "row_sha256": "d48aa097ce81f00ee2874ff28b8eb1e4a696aa33e763c61f38ccf759c739cc29",
+        "record": {
+          "subject_id": "SUBJ-SUCC-9998092EF3FD",
+          "evidence_id": "EVID-SUCC-51E510B47B2A",
+          "disposition": "retained_unchanged",
+          "before_sha256": "0bd7808e873a4d652c67aebe8421fa645571241c2e254004b852af53b88243e6",
+          "final_sha256": "0bd7808e873a4d652c67aebe8421fa645571241c2e254004b852af53b88243e6",
+          "original_item_inspection": {
+            "entity_id": "SUBJ-SUCC-9998092EF3FD:EVID-SUCC-51E510B47B2A",
+            "original_draft_record_sha256": "0bd7808e873a4d652c67aebe8421fa645571241c2e254004b852af53b88243e6",
+            "inspection_bindings": [
+              {
+                "component_path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "inspection_row_sha256": "453542fed669e706736efdc5746daa6accb1e07a15aa4dab16712f1344e2dd6f",
+                "jsonl_line_one_based": 163
+              }
+            ]
+          }
+        }
+      },
+      "v2_equals_v3_equals_draft_for_this_evidence": true,
+      "prior_disposition_resolution": "The earlier supported/retained judgments did not resolve this page-level issue. Their evidence values survived unchanged. Preserve those original ledgers; an additive correction must qualify the listed current and historical bindings."
+    },
+    {
+      "finding_id": "PBF-005",
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "evidence_id": "EVID-SUCC-470F41497A94",
+      "verdict": "misbound_page",
+      "source_pages_inspected": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "independent_source_basis": "The drastic upward deficit revision caused by falling tax revenue is explicit on 134. The poor one-off levy yield and increasing short-term debt on 132 are distinct mechanisms and quantities. This supporting outcome remains coherent under the tax-resistance parent, but its current page is wrong. The existing 134 shortfall row does not make the 132 binding valid; no new subject or obligation is needed.",
+      "before_pointer": "/subjects/212/evidence/3",
+      "before_record": {
+        "evidence_id": "EVID-SUCC-470F41497A94",
+        "source_evidence_id": "EVID-0E39B316A9CB",
+        "document_page": 132,
+        "source_page_label": "132",
+        "locator_class": "supporting",
+        "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+        "provenance": {
+          "chunk_id": "CHUNK-005",
+          "local_subject_id": "C005-S068",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+          "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+        },
+        "source_local_subject_id": "SUCC-C005-S026",
+        "source_chunk_id": "CHUNK-005",
+        "historical_evidence_identity": {
+          "lineage": "legacy",
+          "subject_id": "SUBJ-6DF3AE004424",
+          "evidence_id": "EVID-1D364125E592"
+        },
+        "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+      },
+      "before_record_sha256": "ecfb34b4c4b94fdc3968815c9d0a8c780b0822de7cf4169f9ac33b4d4136bf30",
+      "proposed_record": {
+        "evidence_id": "EVID-SUCC-470F41497A94",
+        "source_evidence_id": "EVID-0E39B316A9CB",
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+        "provenance": {
+          "chunk_id": "CHUNK-005",
+          "local_subject_id": "C005-S068",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+          "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+        },
+        "source_local_subject_id": "SUCC-C005-S026",
+        "source_chunk_id": "CHUNK-005",
+        "historical_evidence_identity": {
+          "lineage": "legacy",
+          "subject_id": "SUBJ-6DF3AE004424",
+          "evidence_id": "EVID-1D364125E592"
+        },
+        "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+      },
+      "proposed_record_sha256": "7b83564629aa75ddb6de9a2ee70c672ff6b7906561655f2827bee7c67f3208e9",
+      "proposed_field_changes": [
+        {
+          "pointer": "/subjects/212/evidence/3/document_page",
+          "field": "document_page",
+          "before": 132,
+          "proposed": 134
+        },
+        {
+          "pointer": "/subjects/212/evidence/3/source_page_label",
+          "field": "source_page_label",
+          "before": "132",
+          "proposed": "134"
+        }
+      ],
+      "prior_initial_review": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "jsonl_line_one_based": 173,
+        "row_sha256": "681024c1dfcfbdff0c134b1e4bf8722b0751d0a1e18851b4b861c71c8339e5d7",
+        "basis": "Pages 130–132 distinguish the destruction of collection machinery and lost habits of payment from organized political resistance in Picardy; p. 134 gives the continuing revenue shortfall. The parent recognizes Babeuf, but the evidence that allegedly preserves his petition and arrest is replaced by a generic abolition-of-indirect-tax claim. Babeuf’s activity is on p. 131, not p. 130. The retained biography connects loss of his land-agent work after feudal abolition to organized protest, and should be an explicit bounded distinction if required.",
+        "proposed_fix": "Split or span EVID-SUCC-CA92E413F22E across pp. 130–131; restore a p. 131 evidence statement for Babeuf’s employment loss, campaign and arrest, and the sharply reduced regional yield. Repair lineage for old EVID-37351938BDA9/native EVID-0184-002 to that actual claim. Keep replacement tax design under 9998092EF3FD. Include p. 132 in treatment/facet page metadata."
+      },
+      "prior_exact_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 2685,
+        "row_sha256": "37b3e61afe2d1861a1144cab1e4ec3f173771b9d4f173dffaaf969ac5966c40e",
+        "requirement_key": "SUBJ-SUCC-99A2AEA8AD04:evidence:EVID-SUCC-470F41497A94",
+        "disposition": "retained_unchanged",
+        "before": {
+          "evidence_id": "EVID-SUCC-470F41497A94",
+          "source_evidence_id": "EVID-0E39B316A9CB",
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S068",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          },
+          "source_local_subject_id": "SUCC-C005-S026",
+          "source_chunk_id": "CHUNK-005",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-6DF3AE004424",
+            "evidence_id": "EVID-1D364125E592"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        },
+        "after": {
+          "evidence_id": "EVID-SUCC-470F41497A94",
+          "source_evidence_id": "EVID-0E39B316A9CB",
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S068",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          },
+          "source_local_subject_id": "SUCC-C005-S026",
+          "source_chunk_id": "CHUNK-005",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-6DF3AE004424",
+            "evidence_id": "EVID-1D364125E592"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      },
+      "prior_historical_disposition": [
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+            "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+            "bytes": 4971257
+          },
+          "jsonl_line_one_based": 1392,
+          "row_sha256": "13285e0ed8580702014ce695aabb06000146ed71891d338664e858dcca4248f6",
+          "review_key": "legacy:SUBJ-6DF3AE004424:EVID-1D364125E592",
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "original_claim": {
+            "evidence_id": "EVID-1D364125E592",
+            "source_evidence_id": "EVID-0E39B316A9CB",
+            "document_page": 132,
+            "source_page_label": "132",
+            "locator_class": "supporting",
+            "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+            "provenance": {
+              "chunk_id": "CHUNK-005",
+              "local_subject_id": "C005-S068",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+              "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+            }
+          },
+          "original_lineage_pointer": "/rows/2938"
+        }
+      ],
+      "frozen_draft_to_v2_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+          "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+          "bytes": 22889770
+        },
+        "pointer": "/populations/parent_qualified_evidence/2094",
+        "row_sha256": "070e4489fb29b80184bac273edd5c9b8f252d199d9c7f2a07bdd1e25bfcee776",
+        "record": {
+          "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+          "evidence_id": "EVID-SUCC-470F41497A94",
+          "disposition": "retained_unchanged",
+          "before_sha256": "ecfb34b4c4b94fdc3968815c9d0a8c780b0822de7cf4169f9ac33b4d4136bf30",
+          "final_sha256": "ecfb34b4c4b94fdc3968815c9d0a8c780b0822de7cf4169f9ac33b4d4136bf30",
+          "original_item_inspection": {
+            "entity_id": "SUBJ-SUCC-99A2AEA8AD04:EVID-SUCC-470F41497A94",
+            "original_draft_record_sha256": "ecfb34b4c4b94fdc3968815c9d0a8c780b0822de7cf4169f9ac33b4d4136bf30",
+            "inspection_bindings": [
+              {
+                "component_path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "inspection_row_sha256": "681024c1dfcfbdff0c134b1e4bf8722b0751d0a1e18851b4b861c71c8339e5d7",
+                "jsonl_line_one_based": 173
+              }
+            ]
+          }
+        }
+      },
+      "v2_equals_v3_equals_draft_for_this_evidence": true,
+      "prior_disposition_resolution": "The earlier supported/retained judgments did not resolve this page-level issue. Their evidence values survived unchanged. Preserve those original ledgers; an additive correction must qualify the listed current and historical bindings."
+    },
+    {
+      "finding_id": "PBF-006",
+      "subject_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "source_local_subject_id": "C005-S042",
+      "related_evidence_id": "EVID-SUCC-046BDB0CCA2C",
+      "verdict": "missed_dependent_page_metadata_correction",
+      "source_pages_inspected": [
+        132,
+        133
+      ],
+      "independent_source_basis": "The end of 132 explicitly describes press intervention on both sides of the Church-property debate. Page 133 continues with deputies' attitudes, hostile public galleries, the property decision, and competing bank/assignat proposals. It does not supply a newspaper intervention. Public galleries are not evidence of newspaper scrutiny. The same paragraph crosses the page boundary, but the press predicate lies on 132. The existing evidence row, source treatment and required-access-facet page lists already use 132 correctly; only the retained distinction preserves 133.",
+      "before_pointer": "/subjects/201/retained_source_distinctions/0",
+      "before_record": {
+        "source_local_subject_id": "C005-S042",
+        "meaning": "Pamphlets and newspapers became permanent mechanisms of popular scrutiny, anti-veto agitation, radical organization, and attacks on suspect leaders.",
+        "qualification": "The press is treated as a major new political force that broadened mobilization while amplifying suspicion and pressure.",
+        "source_pages": [
+          120,
+          124,
+          126,
+          133,
+          134
+        ]
+      },
+      "before_record_sha256": "a0064c6d30e1532b25468b862f7702d356804a829a54b26997adf8cf3d2a330e",
+      "proposed_record": {
+        "source_local_subject_id": "C005-S042",
+        "meaning": "Pamphlets and newspapers became permanent mechanisms of popular scrutiny, anti-veto agitation, radical organization, and attacks on suspect leaders.",
+        "qualification": "The press is treated as a major new political force that broadened mobilization while amplifying suspicion and pressure.",
+        "source_pages": [
+          120,
+          124,
+          126,
+          132,
+          134
+        ]
+      },
+      "proposed_record_sha256": "591e9388647a59d590fb13144492da585f89251005f1a7b0dbb291ad3c4929dd",
+      "proposed_field_changes": [
+        {
+          "pointer": "/subjects/201/retained_source_distinctions/0/source_pages",
+          "field": "source_pages",
+          "before": [
+            120,
+            124,
+            126,
+            133,
+            134
+          ],
+          "proposed": [
+            120,
+            124,
+            126,
+            132,
+            134
+          ]
+        }
+      ],
+      "correct_existing_evidence": {
+        "document_page": 132,
+        "source_page_label": "132",
+        "locator_class": "supporting",
+        "evidence_summary": "Parisian newspapers intervene vigorously on both sides of the Church-property debate.",
+        "evidence_id": "EVID-SUCC-046BDB0CCA2C",
+        "source_local_subject_id": "SUCC-C005-S013",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "prior_initial_review": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "jsonl_line_one_based": 170,
+        "row_sha256": "5ab1ddbf1399c6323260f8d47259c2658835d82bcc362e56efb14274708be2d7",
+        "basis": "The anti-veto and Marat examples on p. 120 are accurate, but the dossier also requires changing attacks on property franchises (124), Cordeliers newspapers (126), press contention over church property (133), and hostility that isolates Necker (134). Its parent meaning remains a single early Marat intervention and does not express that larger political function. The broader aristocrat accusation on p. 121 is relevant as a language of suspicion, with the source preserving innocent targets. Songs and popular oral celebration on p. 128 do not establish press activity.",
+        "proposed_fix": "Rewrite the parent to describe the press as an independent mobilizing and accusatory force across these controversies, keeping Marat as a particular intervention. Rehome the songs/culture evidence to public celebration or political language rather than claiming newspaper support. Move the Church-property press claim to p. 132."
+      },
+      "prior_exact_distinction_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 2665,
+        "row_sha256": "488c9135dbf589c4f7eb850e90a8256bfc4fb1bcc8f9e08b1ad1c40e43e6a7de",
+        "requirement_key": "SUBJ-SUCC-7B3E1AAE16C8:retained_source_distinctions:C005-S042",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_local_subject_id": "C005-S042",
+          "meaning": "Pamphlets and newspapers became permanent mechanisms of popular scrutiny, anti-veto agitation, radical organization, and attacks on suspect leaders.",
+          "qualification": "The press is treated as a major new political force that broadened mobilization while amplifying suspicion and pressure.",
+          "source_pages": [
+            120,
+            124,
+            126,
+            133,
+            134
+          ]
+        },
+        "after": {
+          "source_local_subject_id": "C005-S042",
+          "meaning": "Pamphlets and newspapers became permanent mechanisms of popular scrutiny, anti-veto agitation, radical organization, and attacks on suspect leaders.",
+          "qualification": "The press is treated as a major new political force that broadened mobilization while amplifying suspicion and pressure.",
+          "source_pages": [
+            120,
+            124,
+            126,
+            133,
+            134
+          ]
+        }
+      },
+      "prior_successful_evidence_repair": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 2652,
+        "row_sha256": "ad1850ffdd3fa5eab5efe3c072fd295a8bdfa66ecf520cfd43199185a0dcf266",
+        "requirement_key": "SUBJ-SUCC-7B3E1AAE16C8:evidence:EVID-SUCC-046BDB0CCA2C",
+        "disposition": "revised_scope_or_claim",
+        "before": {
+          "document_page": 133,
+          "source_page_label": "133",
+          "locator_class": "supporting",
+          "evidence_summary": "Parisian newspapers intervene vigorously on both sides of the Church-property debate.",
+          "evidence_id": "EVID-SUCC-046BDB0CCA2C",
+          "source_local_subject_id": "SUCC-C005-S013",
+          "source_chunk_id": "CHUNK-005"
+        },
+        "after": {
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "Parisian newspapers intervene vigorously on both sides of the Church-property debate.",
+          "evidence_id": "EVID-SUCC-046BDB0CCA2C",
+          "source_local_subject_id": "SUCC-C005-S013",
+          "source_chunk_id": "CHUNK-005"
+        }
+      },
+      "prior_successful_historical_evidence_repair": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/proposed-evidence-lineage-repairs.v1.jsonl",
+          "sha256": "d2496abc66bb16c1a3ee9debca56183c72653b82f874e04760bf3321e16bb495",
+          "bytes": 416820
+        },
+        "jsonl_line_one_based": 72,
+        "row_sha256": "feccd0e12a3b0ef7536b37707d42457635e57749f2a6cf9323273a7a0118d425",
+        "review_key": "legacy:EVID-68284C129DCD"
+      },
+      "prior_historical_subject_disposition": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+          "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+          "bytes": 5138775
+        },
+        "jsonl_line_one_based": 598,
+        "row_sha256": "537d5fb3dcc4a40f4ad00bedab926b6041f09b954fc61216c991fe771140bde9",
+        "review_key": "legacy:SUBJ-7797A861F8DE"
+      },
+      "prior_disposition_resolution": "A sealed correction already identifies 132 for the press evidence; it was not propagated to C005-S042. This report adds the missing dependent metadata correction without rewriting the earlier inspection or its historical before values."
+    }
+  ],
+  "proposed_dependent_metadata_changes": [
+    {
+      "subject_id": "SUBJ-SUCC-C3088DA62479",
+      "local_id": "CHUNK-002-S055",
+      "pointer": "/subjects/116/retained_source_distinctions/3/source_pages",
+      "field": "source_pages",
+      "before": [
+        56,
+        57
+      ],
+      "proposed": [
+        56
+      ],
+      "rationale": "The retained censorship/ministerial-publicity predicate is on 56. The separate contemporary-warning distinction and parent treatment still retain 57; no public-opinion route is lost."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "local_id": "SUCC-C005-S019",
+      "pointer": "/subjects/206/source_treatments/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        131,
+        134
+      ],
+      "proposed": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        132,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "local_id": "FACET-SUCC-C005-S019",
+      "pointer": "/subjects/206/required_access_facets/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        131,
+        134
+      ],
+      "proposed": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        132,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "local_id": "SUCC-C005-S027",
+      "pointer": "/subjects/213/source_treatments/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        116,
+        119,
+        130,
+        131,
+        132
+      ],
+      "proposed": [
+        116,
+        119,
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "local_id": "FACET-SUCC-C005-S027",
+      "pointer": "/subjects/213/required_access_facets/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        116,
+        119,
+        130,
+        131,
+        132
+      ],
+      "proposed": [
+        116,
+        119,
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "local_id": "SUCC-C005-S026",
+      "pointer": "/subjects/212/source_treatments/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        130,
+        131,
+        132,
+        134
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "local_id": "FACET-SUCC-C005-S026",
+      "pointer": "/subjects/212/required_access_facets/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        130,
+        131,
+        132,
+        134
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "local_id": "C005-S083",
+      "pointer": "/subjects/206/retained_source_distinctions/7/source_pages",
+      "field": "source_pages",
+      "before": [
+        117,
+        131,
+        134
+      ],
+      "proposed": [
+        117,
+        132,
+        134
+      ],
+      "rationale": "Preserve the existing institutional/fiscal distinction and its supporting consequence, while correcting the page inherited from the same historical evidence. The unchanged other pages retain the main treatment."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "local_id": "C005-S072",
+      "pointer": "/subjects/213/retained_source_distinctions/4/source_pages",
+      "field": "source_pages",
+      "before": [
+        131,
+        132
+      ],
+      "proposed": [
+        131,
+        134
+      ],
+      "rationale": "Preserve the existing institutional/fiscal distinction and its supporting consequence, while correcting the page inherited from the same historical evidence. The unchanged other pages retain the main treatment."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "local_id": "C005-S068",
+      "pointer": "/subjects/212/retained_source_distinctions/0/source_pages",
+      "field": "source_pages",
+      "before": [
+        130,
+        131,
+        132
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ],
+      "rationale": "Preserve the existing institutional/fiscal distinction and its supporting consequence, while correcting the page inherited from the same historical evidence. The unchanged other pages retain the main treatment."
+    }
+  ],
+  "direct_current_dependencies": [
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-B335A884C13F",
+      "pointer": "/relationships/16",
+      "record_sha256": "467f4bd28c9db4cbc8209dcacfeb8b673ae6028d53c3b41b496440f684894a62",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "relationship_id": "REL-SUCC-B335A884C13F",
+        "source_subject_id": "SUBJ-SUCC-EFACBA8E0CD4",
+        "relationship_type": "supports",
+        "target_subject_id": "SUBJ-SUCC-C3088DA62479",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          45,
+          46,
+          56
+        ],
+        "rationale": "Press growth supplies channels for opinion.",
+        "source_local_subject_id": "SUCC-C002-S002",
+        "source_local_relationship_index": 0
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-38C6F6B928A7",
+      "pointer": "/relationships/18",
+      "record_sha256": "0c2dac9f4a25143ee91fb053d2b96e457e1ced8ffe6904641dcfbff978d29ff2",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "relationship_id": "REL-SUCC-38C6F6B928A7",
+        "source_subject_id": "SUBJ-SUCC-512C64BB12A6",
+        "relationship_type": "qualifies",
+        "target_subject_id": "SUBJ-SUCC-C3088DA62479",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          47,
+          48,
+          56
+        ],
+        "rationale": "Public access remains economically and socially bounded.",
+        "source_local_subject_id": "SUCC-C002-S004",
+        "source_local_relationship_index": 0
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-E7124D7371DB",
+      "pointer": "/relationships/23",
+      "record_sha256": "ab1f96638aab9832f62d8406f638735c7b4719678a651fa5cc8d7f3357042249",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "relationship_id": "REL-SUCC-E7124D7371DB",
+        "source_subject_id": "SUBJ-SUCC-109654B88E5D",
+        "relationship_type": "mobilizes",
+        "target_subject_id": "SUBJ-SUCC-C3088DA62479",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          55,
+          56
+        ],
+        "rationale": "Justice campaigns organize public opinion.",
+        "source_local_subject_id": "SUCC-C002-S014",
+        "source_local_relationship_index": 0
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-ABB3F86CCA53",
+      "pointer": "/relationships/28",
+      "record_sha256": "f58bbfd8ecc40479e0838deb40d76e4ee004a0a6a18427ce89149a2356a24c95",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "relationship_id": "REL-SUCC-ABB3F86CCA53",
+        "source_subject_id": "SUBJ-SUCC-FCEE5A61C84C",
+        "relationship_type": "uses",
+        "target_subject_id": "SUBJ-SUCC-C3088DA62479",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          62
+        ],
+        "rationale": "Necker relies on public confidence with limits.",
+        "source_local_subject_id": "SUCC-C002-S023",
+        "source_local_relationship_index": 0
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-068AD2631067",
+      "pointer": "/relationships/70",
+      "record_sha256": "b0530ae8da9926cbea67a8c6e243c78b078ce72049db48aebde1f2bddf571dd0",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record": {
+        "relationship_id": "REL-SUCC-068AD2631067",
+        "source_subject_id": "SUBJ-SUCC-A5F4F85BCE57",
+        "relationship_type": "constrains_collection_under",
+        "target_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          125,
+          126,
+          131,
+          132
+        ],
+        "rationale": "Decentralized and weak administrative machinery impedes enforcement and collection under the new tax regime; it does not cause the egalitarian tax design.",
+        "source_local_subject_id": "SUCC-C005-S020",
+        "source_local_relationship_index": 0
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages.",
+      "scope_note": "Its 131 reference supplies the direct-tax enforcement failure; 132 concerns the wider fiscal emergency and weak means of checking the one-off levy. It does not assert Necker's upward deficit revision. Do not mechanically replace every 132 citation after correcting the subject evidence."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-94F113005954",
+      "pointer": "/relationships/73",
+      "record_sha256": "343013b4d155ce293e39f35c36f2c598db00ff9f0c2dd0ce2e029f49ca1afb0c",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-99A2AEA8AD04"
+      ],
+      "record": {
+        "relationship_id": "REL-SUCC-94F113005954",
+        "source_subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+        "relationship_type": "aggravates",
+        "target_subject_id": "SUBJ-SUCC-65CB496E4820",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          130,
+          131,
+          132
+        ],
+        "rationale": "Refusal adds to an inherited debt crisis.",
+        "source_local_subject_id": "SUCC-C005-S026",
+        "source_local_relationship_index": 0
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages.",
+      "scope_note": "This broad relation concerns refusal aggravating an inherited fiscal crisis, not the particular 80-to-294 deficit revision. The 131/132 context remains relevant to inherited debt and unsuccessful fiscal remedies; no automatic replacement is warranted."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-2B8517C69BE7",
+      "pointer": "/relationships/423",
+      "record_sha256": "c4c4ffe29140ad7cf6c743202269ce826cfa2f62a5051b160ea363e68ec4cb55",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-7B3E1AAE16C8"
+      ],
+      "record": {
+        "source_subject_id": "SUBJ-SUCC-7B3E1AAE16C8",
+        "target_subject_id": "SUBJ-SUCC-933F54A354BC",
+        "relationship_type": "mobilizes_opposition_to_absolute_veto_within",
+        "evidence_document_pages": [
+          119,
+          120,
+          121
+        ],
+        "rationale": "Journalists and public agitation attack the Monarchiens’ constitutional proposals; the resulting suspensive veto is distinct from the full veto they advocated.",
+        "relationship_id": "REL-SUCC-2B8517C69BE7",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S013",
+        "author_proposal_id": "REL-PROP-C001006-AE49750CFA21"
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-DC7EC6A2552C",
+      "pointer": "/relationships/424",
+      "record_sha256": "0f4b291ab1d11b6cf39ac72d5afb456f5671a6b5aa05757b05b02dba425febc6",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "source_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+        "target_subject_id": "SUBJ-SUCC-9E6D9535AA17",
+        "relationship_type": "limits_eligibility_within",
+        "evidence_document_pages": [
+          124,
+          125
+        ],
+        "rationale": "Tax and property qualifications restrict political participation and eligibility for elective offices; the franchise limits the reach of election, not the reverse.",
+        "relationship_id": "REL-SUCC-DC7EC6A2552C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S018",
+        "author_proposal_id": "REL-PROP-C001006-946EBAF15A69"
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-33091612EED4",
+      "pointer": "/relationships/425",
+      "record_sha256": "684dcefd54a1e29086676cc9bf0506f7c4b3e198fbcd93bfaea006e10df72d43",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record": {
+        "source_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "target_subject_id": "SUBJ-SUCC-65CB496E4820",
+        "relationship_type": "aggravates_financial_crisis_through_collection_failure",
+        "evidence_document_pages": [
+          131,
+          132
+        ],
+        "rationale": "The new direct-tax system’s weak enforcement and late collection aggravate the state’s financial crisis. Fiscal equality itself is not alleged to cause inherited debt.",
+        "relationship_id": "REL-SUCC-33091612EED4",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S027",
+        "author_proposal_id": "REL-PROP-C001006-2B56F1DDABC8"
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages.",
+      "scope_note": "Its 131/132 linkage concerns collection failure aggravating fiscal crisis, not the numerical revision of Necker's projections. The specific 134 evidence correction does not by itself invalidate this broader multi-page relation."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-2202F9DA335C",
+      "pointer": "/relationships/426",
+      "record_sha256": "927871cf8d4d4fdf266f424dbfe22eca8be69776fc92016e06dbaee5e7ea3cbd",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD",
+        "SUBJ-SUCC-99A2AEA8AD04"
+      ],
+      "record": {
+        "source_subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+        "target_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "relationship_type": "pressures_reform_of",
+        "evidence_document_pages": [
+          130,
+          131
+        ],
+        "rationale": "Widespread evasion and resistance help make old indirect taxes and monopolies politically untenable, while reformers also act on egalitarian and economic principles.",
+        "relationship_id": "REL-SUCC-2202F9DA335C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C005-S026",
+        "author_proposal_id": "REL-PROP-C001006-4C626B1D95B2"
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-B527523CD324",
+      "pointer": "/reader_tasks/172",
+      "record_sha256": "2fe1da007a7c53ce6059c1086f9b61c5a9c9fa3867f4489a1ae2d2f1640d7768",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-B527523CD324",
+        "question": "Find how the meaning and claimed authority of public opinion changed.",
+        "subject_ids": [
+          "SUBJ-SUCC-C3088DA62479"
+        ],
+        "source_task_ids": [
+          "SUCC-C002-S015:0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-2B46A17E6931",
+            "question": "What account does Doyle give of how the meaning and claimed authority of public opinion changed?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C3088DA62479"
+            ],
+            "historical_task_id": "TASK-2B46A17E6931",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-7F50CD4D3BD7",
+      "pointer": "/reader_tasks/173",
+      "record_sha256": "eddf56e51f54f8f8fa7604ff42d8a18a546b228bdadfc7f48e7a4e5495652c33",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-7F50CD4D3BD7",
+        "question": "Retrieve why philosophes believed control of opinion could reshape politics.",
+        "subject_ids": [
+          "SUBJ-SUCC-C3088DA62479"
+        ],
+        "source_task_ids": [
+          "SUCC-C002-S015:1"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-A742F1FBA62C",
+            "question": "How does Doyle explain why philosophes believed control of opinion could reshape politics?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C3088DA62479"
+            ],
+            "historical_task_id": "TASK-A742F1FBA62C",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-6391F0BDF782",
+      "pointer": "/reader_tasks/174",
+      "record_sha256": "c39b4cbc964966ff3aa9f2e6fb38f99c6e2ae6fcf6ea1ad0589df0bfa9126a7c",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-6391F0BDF782",
+        "question": "Find the institutional actors who politicized print before the philosophes.",
+        "subject_ids": [
+          "SUBJ-SUCC-C3088DA62479"
+        ],
+        "source_task_ids": [
+          "SUCC-C002-S015:2"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-A5424B3987DA",
+            "question": "What does Doyle show about the institutional actors who politicized print before the philosophes?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C3088DA62479"
+            ],
+            "historical_task_id": "TASK-A5424B3987DA",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-88014BC44F0A",
+      "pointer": "/reader_tasks/175",
+      "record_sha256": "6a57eea4c965dcd31b772bca43e0283b5ebc37d5b4935c61d9ea3f18786cd91a",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-88014BC44F0A",
+        "question": "Retrieve how the monarchy shifted from suppressing public debate to competing within it.",
+        "subject_ids": [
+          "SUBJ-SUCC-C3088DA62479"
+        ],
+        "source_task_ids": [
+          "SUCC-C002-S015:3"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-F18A8EC2F6FD",
+            "question": "What account does Doyle give of how the monarchy shifted from suppressing public debate to competing within it?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C3088DA62479"
+            ],
+            "historical_task_id": "TASK-F18A8EC2F6FD",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-2F6D1A0D8441",
+      "pointer": "/reader_tasks/176",
+      "record_sha256": "077ec72c8b256c729b39ea69701a940b4aaa07de6d9da7d59a9dfd56c3119147",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-2F6D1A0D8441",
+        "question": "Find why public analysis of the constitution appeared politically destabilizing.",
+        "subject_ids": [
+          "SUBJ-SUCC-C3088DA62479"
+        ],
+        "source_task_ids": [
+          "SUCC-C002-S015:4"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-05A91BC885F7",
+            "question": "How does Doyle explain why public analysis of the constitution appeared politically destabilizing?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C3088DA62479"
+            ],
+            "historical_task_id": "TASK-05A91BC885F7",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-A205EFEAF336",
+      "pointer": "/reader_tasks/293",
+      "record_sha256": "0f2a8d522a0a462107e265d548296b9b62baba99fdc79b6bc4ab4b6741744775",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-A205EFEAF336",
+        "question": "Find the chapter’s substantive treatment of Civil and fiscal equality.",
+        "subject_ids": [
+          "SUBJ-SUCC-59FB4D856AE3",
+          "SUBJ-SUCC-6A5ADB894FAD",
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S010:1",
+          "SUCC-C005-S018:0",
+          "SUCC-C005-S027:1"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-DFBDEC7AE189",
+          "TASK-SUCC-A7EE5795C3E6",
+          "TASK-SUCC-99E5BC946C5F"
+        ],
+        "required_access_facets": []
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-3A03F04E995C",
+      "pointer": "/reader_tasks/296",
+      "record_sha256": "8aefc60eec8442a86eac112a5adcd57b51ccc2195b6255e782bd311f326d8419",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-3A03F04E995C",
+        "question": "How did the 1789–1791 settlement divide legislative, executive, and judicial authority, and why did separation of powers weaken the executive and remove administrative power from courts?",
+        "subject_ids": [
+          "SUBJ-SUCC-59FB4D856AE3",
+          "SUBJ-SUCC-1C628235D449",
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S010:4",
+          "SUCC-C005-S017:0",
+          "SUCC-C005-S019:2"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-24E939776956",
+          "TASK-SUCC-1662B174F32E",
+          "TASK-SUCC-774EFEA87FFB"
+        ],
+        "required_access_facets": []
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-688AF1562009",
+      "pointer": "/reader_tasks/303",
+      "record_sha256": "6db2e5ba48d0c953f334778cf0c6065ac5d912246992476ab70d769280787ac7",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-7B3E1AAE16C8"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-688AF1562009",
+        "question": "Find the chapter’s substantive treatment of Revolutionary press and radical political journalism.",
+        "subject_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S013:0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-C886CC681FC9",
+            "question": "How does Doyle treat Revolutionary press and radical political journalism, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7B3E1AAE16C8"
+            ],
+            "historical_task_id": "TASK-C886CC681FC9",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The named lookup remains an explicit facet question; wording is changed from a general request for significance to direct retrieval, without adding another requirement."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-89C978AB6CEE",
+      "pointer": "/reader_tasks/304",
+      "record_sha256": "603e0746cd2632eeb8675adbf46cde8eaa5accd3dd31f31b84e9e4b5f30e761e",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-7B3E1AAE16C8"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-89C978AB6CEE",
+        "question": "Find the chapter’s substantive treatment of Jean-Paul Marat and L'Ami du Peuple.",
+        "subject_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S013:1"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-77F5A8464B24",
+            "question": "How does Doyle treat Jean-Paul Marat and L'Ami du Peuple, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7B3E1AAE16C8"
+            ],
+            "historical_task_id": "TASK-77F5A8464B24",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The named lookup remains an explicit facet question; wording is changed from a general request for significance to direct retrieval, without adding another requirement."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-077FE592CCA7",
+      "pointer": "/reader_tasks/305",
+      "record_sha256": "0d99779b9c3d680e127eb8c52209906afec0db9a84cdd82ea7586265f4a33251",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-7B3E1AAE16C8"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-077FE592CCA7",
+        "question": "How did newspapers cultivate political suspicion and deploy the label of aristocrat?",
+        "subject_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S013:2"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-3E31314C6787",
+            "question": "How did newspapers cultivate political suspicion and deploy the label of aristocrat?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7B3E1AAE16C8"
+            ],
+            "historical_task_id": "TASK-3E31314C6787",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "This retained demand is explicitly stated in the parent question and is answered by the bounded parent targets; copied unrelated historical dossier targets are excluded."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-19927B2A3EEA",
+      "pointer": "/reader_tasks/311",
+      "record_sha256": "2dfd4e0a2db04b760933ae1401bb4e9f777d736395fae242134815e09d3f18fb",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD",
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-19927B2A3EEA",
+        "question": "Why did judicial reform, dependence on local National Guards, and the absence of effective compulsory tax collection produce a crisis of public authority?",
+        "subject_ids": [
+          "SUBJ-SUCC-9E6D9535AA17",
+          "SUBJ-SUCC-2056A5304D29",
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S019:0",
+          "SUCC-C005-S022:2",
+          "SUCC-C005-S027:0"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-B32D7C6516EC",
+          "TASK-SUCC-CF1820A6D338",
+          "TASK-SUCC-F1C6258466A3"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-DFD7C39414D8",
+            "question": "How does Doyle treat Crisis of public authority and coercion, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-2056A5304D29",
+              "SUBJ-SUCC-9998092EF3FD",
+              "SUBJ-SUCC-9E6D9535AA17"
+            ],
+            "historical_task_id": "TASK-DFD7C39414D8",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "This unweighted binding retains the portion stated in this parent question, answered by its explicit subjects. Judicial reconstruction, local Guard dependence and ineffective compulsory tax collection jointly create a crisis of enforcement. The repaired parent now explicitly expresses all three legitimate targets."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-4FFD69F0D9B3",
+      "pointer": "/reader_tasks/312",
+      "record_sha256": "63f280d604788b2e565c850158129c3e607784799f5690d8542fff1e4f15903d",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-4FFD69F0D9B3",
+        "question": "How did abolition of venal offices and judicial fees reconstruct justice, why did compensation enlarge debt and drive assignat issuance, and why did the realized payments leave former officeholders feeling cheated?",
+        "subject_ids": [
+          "SUBJ-SUCC-9E6D9535AA17",
+          "SUBJ-SUCC-5193E3F37320",
+          "SUBJ-SUCC-65CB496E4820",
+          "SUBJ-SUCC-E4C3D945CE3F"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S019:1",
+          "SUCC-C005-S030:0"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-F4555E959D33",
+          "TASK-SUCC-C49410FC6ED1"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-B3A090E120CC",
+            "question": "How does Doyle treat Venality of office and compensation, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-5193E3F37320",
+              "SUBJ-SUCC-9E6D9535AA17",
+              "SUBJ-SUCC-E4C3D945CE3F"
+            ],
+            "historical_task_id": "TASK-B3A090E120CC",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "Institutional abolition and compensation liabilities are retained in the justice and assignat parents. The main question’s realized-loss component is explicitly bound to E4C’s page 408 account of undervalued 1771 assessments, subsequent office-price rises and depreciating payments; recognition of property did not preserve its real value."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-05050DC02C27",
+      "pointer": "/reader_tasks/313",
+      "record_sha256": "d828e513d4982ab9c3ad54172f43fc6f94a40c356a225dbea317032baf2f34b6",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-05050DC02C27",
+        "question": "Find the chapter’s substantive treatment of Election of public officials.",
+        "subject_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S019:3"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-FB5A2632F85F",
+            "question": "How does Doyle treat Election of public officials, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-9E6D9535AA17"
+            ],
+            "historical_task_id": "TASK-FB5A2632F85F",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The named lookup remains an explicit facet question; wording is changed from a general request for significance to direct retrieval, without adding another requirement."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-6C21335BAF60",
+      "pointer": "/reader_tasks/314",
+      "record_sha256": "690b25f9649fc65514b81dcf48d8ad7ab782ae49e15b34605a1081e9569ee1b1",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-6C21335BAF60",
+        "question": "How were courts and territorial administration reconstructed, and what implementation weaknesses resulted?",
+        "subject_ids": [
+          "SUBJ-SUCC-9E6D9535AA17",
+          "SUBJ-SUCC-A5F4F85BCE57"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S019:4",
+          "SUCC-C005-S020:2"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-B21D040E0EFB",
+          "TASK-SUCC-22C75B199D11"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-73E73D3FE2AA",
+            "question": "How were courts and territorial administration reconstructed, and what implementation weaknesses resulted?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-9E6D9535AA17",
+              "SUBJ-SUCC-A5F4F85BCE57"
+            ],
+            "historical_task_id": "TASK-73E73D3FE2AA",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-B5BF6625C79A",
+      "pointer": "/reader_tasks/315",
+      "record_sha256": "5f0b1d93772761a4e3e6ae5a9aeefdd6f26c58c40ee6ba56f6a23d609bfa8971",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-B5BF6625C79A",
+        "question": "Find the chapter’s substantive treatment of Police, administration, and responsibility for public order.",
+        "subject_ids": [
+          "SUBJ-SUCC-9E6D9535AA17",
+          "SUBJ-SUCC-2056A5304D29"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S019:5",
+          "SUCC-C005-S022:3"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-D5CC85D5C030",
+          "TASK-SUCC-63F82AE7A191"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-0EF22D5D42AB",
+            "question": "How does Doyle treat Police, administration, and responsibility for public order, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-2056A5304D29",
+              "SUBJ-SUCC-9E6D9535AA17"
+            ],
+            "historical_task_id": "TASK-0EF22D5D42AB",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "This unweighted binding retains the portion stated in this parent question, answered by its explicit subjects. Courts lack administrative powers while local administrators rely on Guards without a dedicated police structure. Preserve the anti-centralization rationale and vulnerable enforcement design."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-69EFE6209488",
+      "pointer": "/reader_tasks/316",
+      "record_sha256": "61348c3a6d22bade433299d236c470d2e513ee510634cd0353f6c07432f37d49",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-69EFE6209488",
+        "question": "Why did the Assembly require compensation or redemption for venal offices and feudal dues while abolishing tithes outright and nationalizing corporate Church property?",
+        "subject_ids": [
+          "SUBJ-SUCC-9E6D9535AA17",
+          "SUBJ-SUCC-5193E3F37320",
+          "SUBJ-SUCC-9B50C3D29DA1",
+          "SUBJ-SUCC-C24232C058A7"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S019:6",
+          "SUCC-C005-S030:4"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-F6E6AF71A180",
+          "TASK-SUCC-BDC47968142E"
+        ],
+        "required_access_facets": []
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-D48E026A040E",
+      "pointer": "/reader_tasks/325",
+      "record_sha256": "7092ec2030b8eaf26d6a392e41411bc424fdf4dcd90997b816f868ff402a572c",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD",
+        "SUBJ-SUCC-99A2AEA8AD04"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-D48E026A040E",
+        "question": "How did tax resistance, weak compulsory collection, inherited debt, and compensation for abolished offices lead to Church-land nationalization and assignat finance?",
+        "subject_ids": [
+          "SUBJ-SUCC-99A2AEA8AD04",
+          "SUBJ-SUCC-9998092EF3FD",
+          "SUBJ-SUCC-65CB496E4820",
+          "SUBJ-SUCC-C24232C058A7",
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S026:0",
+          "SUCC-C005-S028:0",
+          "SUCC-C005-S029:0",
+          "SUCC-C005-S030:2"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-CA92E413F22E",
+          "TASK-SUCC-F1C4F15EFBC7",
+          "TASK-SUCC-44473D3DA044",
+          "TASK-SUCC-720D3BA7F465"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-1B2999E8A342",
+            "question": "How did tax resistance and inherited debt lead to Church-land nationalization and assignats?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-5193E3F37320",
+              "SUBJ-SUCC-65CB496E4820",
+              "SUBJ-SUCC-99A2AEA8AD04",
+              "SUBJ-SUCC-C24232C058A7"
+            ],
+            "historical_task_id": "TASK-1B2999E8A342",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "This unweighted binding retains the portion stated in this parent question, answered by its explicit subjects. Revenue collapse, inherited debt and compensation obligations drive nationalization and the transformation of land-backed claims into currency. Constitutional reform does not solve the insolvency that started the crisis."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-8CA89FDEC871",
+      "pointer": "/reader_tasks/326",
+      "record_sha256": "01aad69cb4bbf7314ba755aad35e92b2d221f23ef617ef97d3900c5c87becf82",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-99A2AEA8AD04"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-8CA89FDEC871",
+        "question": "Find the chapter’s substantive treatment of Babeuf and the Picardy anti-tax movement.",
+        "subject_ids": [
+          "SUBJ-SUCC-99A2AEA8AD04"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S026:1"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-B91114E70203",
+            "question": "How does Doyle treat Babeuf and the Picardy anti-tax movement, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-99A2AEA8AD04"
+            ],
+            "historical_task_id": "TASK-B91114E70203",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The named lookup remains an explicit facet question; wording is changed from a general request for significance to direct retrieval, without adding another requirement."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-1C80693391C9",
+      "pointer": "/reader_tasks/327",
+      "record_sha256": "0cb2aabc6d3b6a92c896e81dfb8e9f7b95dc64fbb920e1753bdafcab59171d82",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-1C80693391C9",
+        "question": "Find the chapter’s substantive treatment of Abolition of indirect taxes, monopolies, and tax farms.",
+        "subject_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S027:2"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-FE8081005FF3",
+            "question": "How does Doyle treat Abolition of indirect taxes, monopolies, and tax farms, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-9998092EF3FD"
+            ],
+            "historical_task_id": "TASK-FE8081005FF3",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The named lookup remains an explicit facet question; wording is changed from a general request for significance to direct retrieval, without adding another requirement."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-FAA264D1A4DA",
+      "pointer": "/reader_tasks/328",
+      "record_sha256": "3c106de2c8c2dbe585178088b7f3d284a91924e6355497e5b30868ec0e89620b",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-FAA264D1A4DA",
+        "question": "Find the chapter’s substantive treatment of Revolutionary direct-tax system.",
+        "subject_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S027:3"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-4207DFDE43BF",
+            "question": "How does Doyle treat Revolutionary direct-tax system, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-9998092EF3FD"
+            ],
+            "historical_task_id": "TASK-4207DFDE43BF",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The named lookup remains an explicit facet question; wording is changed from a general request for significance to direct retrieval, without adding another requirement."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-6568E9149DE8",
+      "pointer": "/reader_tasks/329",
+      "record_sha256": "b81b1d5393e5d3b9a7e4733e52bb67ae200a2ba8efc65c2d15f613f8f3d3ecc4",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-6568E9149DE8",
+        "question": "Find the chapter’s substantive treatment of Failure of tax-collection machinery.",
+        "subject_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "source_task_ids": [
+          "SUCC-C005-S027:4"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-2AFE2F8F46DF",
+            "question": "How does Doyle treat Failure of tax-collection machinery, and why is it significant?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-9998092EF3FD"
+            ],
+            "historical_task_id": "TASK-2AFE2F8F46DF",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The named lookup remains an explicit facet question; wording is changed from a general request for significance to direct retrieval, without adding another requirement."
+          }
+        ]
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-F2D0FABD33B4",
+      "pointer": "/reader_tasks/585",
+      "record_sha256": "f35acd35322a4cb9b9cf3d0c2618a9fac9eb50cfabcdfa397aa0f384ccdd54f0",
+      "affected_subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-F2D0FABD33B4",
+        "question": "Which rational administrative and legal reforms endured, and how did property-qualified citizenship, women’s exclusion, and stronger state control limit their promise of equal participation?",
+        "subject_ids": [
+          "SUBJ-SUCC-A5F4F85BCE57",
+          "SUBJ-SUCC-9E6D9535AA17",
+          "SUBJ-SUCC-B29051308F1C",
+          "SUBJ-SUCC-6BBDB6F461D1",
+          "SUBJ-SUCC-943145BC4166",
+          "SUBJ-SUCC-6A5ADB894FAD",
+          "SUBJ-SUCC-7CE8C15FFC5B"
+        ],
+        "source_task_ids": [
+          "whole_book_authored:departmentslaw"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": []
+      },
+      "bounded_disposition": "No wording, endpoint, task/facet target or priority change is required by these evidence-page corrections. This is a dependency consistency check, not a new full-source approval of all other claims/pages."
+    }
+  ],
+  "affected_parent_contexts": [
+    {
+      "subject_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "record_sha256": "6bfe673c16381511c6134febc78347c3bc28bf93de54bd9e267cd179a5e779cc",
+      "label": "Revolutionary press and political scrutiny",
+      "priority": "major",
+      "meaning": "Newspapers became independent forces of mobilization and accusatory scrutiny in controversies over the veto, court and national institutions, and Church property. Marat and L’Ami du Peuple made suspicion, purging and popular direct action especially forceful themes. Pamphlets and newspapers became permanent mechanisms of popular scrutiny, anti-veto agitation, radical organization, and attacks on suspect leaders. Marat found a political vocation in a newspaper that interpreted revolutionary politics through plots, purges, and the legitimacy of popular direct action. Revolutionary politics increasingly interpreted disagreement through plots, treason, aristocracy, and threatened popular punishment.",
+      "stance": "Publicity helped sustain pressure beyond representative debate. Marat was a particular intervention within a wider press; political songs and festival culture require separate access and are not newspaper evidence. The press is treated as a major new political force that broadened mobilization while amplifying suspicion and pressure. The author depicts him critically as thriving on suspicion after an earlier career of failure and rejection. The author regards this paranoia as both a deterrent to real opponents and a danger to innocent or merely disliked people.",
+      "source_treatment_ids": [
+        "SUCC-C005-S013"
+      ],
+      "required_access_facet_ids": [
+        "FACET-SUCC-C005-S013"
+      ],
+      "retained_distinction_ids": [
+        "C005-S042",
+        "C005-S043",
+        "C005-S089"
+      ],
+      "inspection_scope": "Complete current record read as context; substantive source reinspection confined to the six named pages and referred predicates. No fresh approval of all other evidence in the parent."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "record_sha256": "2d7802c146fe9bb3df114a11442c73fafa7b8ac8c0e982ba029cf2528959af57",
+      "label": "Revolutionary reform of taxation",
+      "priority": "essential",
+      "meaning": "The Assembly abolished indirect duties, monopolies, tax farms, old direct taxes, and fiscal privileges, replacing them with uniform direct taxes on land, movables, and commercial profits. Tax reform lacked effective compulsory collection machinery after prolonged resistance undermined payment. Fiscal reform abolished privilege and nominally assessed citizens according to capacity. The Assembly dismantled consumption and trade taxes, salt and tobacco monopolies, fiscal jurisdictions, and private tax farming in response to cahiers and economic doctrine. Old direct taxes were replaced by land, movable-property, and commercial-profits taxes without privilege or exemption and nominally apportioned by ability to pay. Revolutionary legislators created no effective coercive apparatus for new direct taxes and underestimated the difficulty of rebuilding payment after prolonged resistance and upheaval.",
+      "stance": "Fiscal equality and proportional assessment did not ensure collection. Legislators assumed freely consenting citizens would pay, dismantling coercive machinery without an effective compulsory replacement; evasion and obstruction exposed that paradox. Equal tax capacity is distinct from political suffrage or eligibility for public office. The abolition is portrayed as equitable and intellectually coherent but unable by itself to restore the culture and machinery of payment. The system embodies fiscal equality but rests on the mistaken assumption that citizens will pay voluntarily without coercive administration. The author explicitly identifies this as an administrative misjudgment familiar to practical bureaucrats but missed by the Assembly.",
+      "source_treatment_ids": [
+        "SUCC-C005-S027"
+      ],
+      "required_access_facet_ids": [
+        "FACET-SUCC-C005-S027"
+      ],
+      "retained_distinction_ids": [
+        "C005-S020",
+        "C005-S029",
+        "C005-S070",
+        "C005-S071",
+        "C005-S072"
+      ],
+      "inspection_scope": "Complete current record read as context; substantive source reinspection confined to the six named pages and referred predicates. No fresh approval of all other evidence in the parent."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "record_sha256": "addcd50fcfa4ab4546221b6274111f816cbc7466666ac16456919b9511b5a592",
+      "label": "Tax evasion and Babeuf's campaign against indirect taxes",
+      "priority": "major",
+      "meaning": "The revolutionary collapse of collection produced massive tax evasion, while Babeuf organized resistance in Picardy into an explicit campaign against indirect taxation. In Picardy the collapse of yield accompanied Babeuf’s loss of employment, petition campaign and arrest; his opposition to indirect taxation gave local resistance an explicit political programme. Destruction of tax facilities, intimidation of collectors, and disrupted habits caused a severe revenue collapse that survived the replacement of unpopular old taxes. François-Noël Babeuf organized petitioning against indirect taxes after losing employment through the abolition of feudalism.",
+      "stance": "The source notes the irony that the Assembly shared much of the protesters' hostility to indirect levies even as revenue collapse endangered the state. Distinguish Babeuf’s specific campaign and costs from general tax evasion, and both from the design of replacement direct taxes. The author treats nonpayment as a mass behavioral and administrative problem, not merely principled opposition to particular levies. The episode is treated as an early link between revolutionary restructuring, popular fiscal protest, and Babeuf's recurring political radicalism.",
+      "source_treatment_ids": [
+        "SUCC-C005-S026"
+      ],
+      "required_access_facet_ids": [
+        "FACET-SUCC-C005-S026"
+      ],
+      "retained_distinction_ids": [
+        "C005-S068",
+        "C005-S069"
+      ],
+      "inspection_scope": "Complete current record read as context; substantive source reinspection confined to the six named pages and referred predicates. No fresh approval of all other evidence in the parent."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "record_sha256": "be03a218e605b9aebad9d382649cd198a8bbb208066fe792128d74abcaa4f3b8",
+      "label": "Elective public office and judicial reform",
+      "priority": "major",
+      "meaning": "The Revolution abolished venal and privileged justice, the parlements and their jurisdictions, replacing them with elected judges and free justice. A hierarchy of justices of the peace, district and criminal courts and a court of cassation accompanied separation of judicial and administrative functions. Courts and local elected authorities lacked reliable enforcement machinery; reliance on municipal administrators and Guards weakened judicial execution. The Revolution abolished sale-based officeholding as incompatible with equality and reconstructed justice, while recognizing many offices as compensable property. Separation of judicial and administrative authority protected against revived despotism but weakened coordination and enforcement. Most public authorities, from administrators and judges to parish priests, were to derive legitimacy through election rather than appointment, purchase, or inherited status. The Assembly eliminated the sovereign courts and old judicial hierarchy as venal, aristocratic, politically obstructive, and incompatible with separated powers. A new hierarchy of justices of the peace, district civil courts, departmental criminal courts, and a national cassation tribunal replaced old-regime courts and introduced juries. Courts were denied administrative authority, while local elected administrators and the National Guard assumed responsibility for order without a dedicated police structure. The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues.",
+      "stance": "Election also transformed public office more broadly, but judicial reconstruction is distinct from executive–legislative rules. Codification remained unfinished. Compensation for abolished offices created a fiscal obligation without negating the institutional abolition of venality. The author connects venality's destruction to both institutional reform and the mounting fiscal burden of compensation. The reform extends national sovereignty downward but still operates through the restricted active-citizen body. The reform is presented as a complete institutional rupture driven by both principle and patriotic distrust. The architecture rationalizes and separates justice but leaves recodification unfinished and enforcement weak. The arrangement is treated as a vulnerable consequence of the separation of powers and distrust of centralized coercion. Compensation shows the property-minded limits of abolition even as it burdens the revolutionary state financially.",
+      "source_treatment_ids": [
+        "SUCC-C005-S019"
+      ],
+      "required_access_facet_ids": [
+        "FACET-SUCC-C005-S019"
+      ],
+      "retained_distinction_ids": [
+        "C005-S020",
+        "C005-S028",
+        "C005-S036",
+        "C005-S053",
+        "C005-S054",
+        "C005-S055",
+        "C005-S056",
+        "C005-S083"
+      ],
+      "inspection_scope": "Complete current record read as context; substantive source reinspection confined to the six named pages and referred predicates. No fresh approval of all other evidence in the parent."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C3088DA62479",
+      "record_sha256": "e051eef56944865c8064349cc443602006e3fcba749785322a06b9da470d407a",
+      "label": "Public opinion as an informed tribunal and political force",
+      "priority": "essential",
+      "meaning": "Public opinion came to mean informed, methodically directed judgment with a claim to final authority, and competing religious, judicial, parliamentary, and governmental actors sought to shape it. Religious combatants and parlements had already developed publicity before philosophes claimed leadership; governments themselves increasingly defended policy in print. During the mid-eighteenth century public opinion came to mean informed collective judgment, imagined as a tribunal whose verdict was final and generally correct. After successful campaigns such as Calas, philosophes believed disciplined publicity could direct collective judgment and thereby influence rulers and society. Jansenists, Jesuits, and parlements had already appealed beyond official institutions through clandestine journals, pamphlets, and public distribution of remonstrances before philosophes claimed the field. The final effort to suppress discussion of religion, administration, and finance failed in the early 1760 s; ministers increasingly explained, refuted, and propagandized their policies rather than relying on silence. Once government and opponents debated state institutions publicly, observers feared that widespread constitutional analysis and loss of deference would eventually produce revolutions.",
+      "stance": "Philosophes did not create publicity politics, but they intensified and theorized it; censorship failed to contain state debate, while official efforts to court opinion further legitimized public scrutiny. Some contemporaries feared that constitutional discussion would dissolve deference and lead to revolution; this is a perceived danger, not a claim of inevitable causation. Present this as a historical change in political language and authority, not as proof that public opinion was unified or reliably rational. Do not credit philosophes with inventing public mobilization or controlling opinion without limits; earlier religious and judicial actors had already used similar methods. Preserve the mixed religious, judicial, and political origins of the public sphere; it was not created solely by secular Enlightenment writers. Do not imply a free press; censorship persisted, but the state could no longer prevent political discussion and therefore entered it. Treat the prediction as a contemporary anxiety and authorial foreshadowing, not as proof of an inevitable linear path to 1789.",
+      "source_treatment_ids": [
+        "SUCC-C002-S015"
+      ],
+      "required_access_facet_ids": [
+        "FACET-SUCC-C002-S015"
+      ],
+      "retained_distinction_ids": [
+        "CHUNK-002-S052",
+        "CHUNK-002-S053",
+        "CHUNK-002-S054",
+        "CHUNK-002-S055",
+        "CHUNK-002-S056"
+      ],
+      "inspection_scope": "Complete current record read as context; substantive source reinspection confined to the six named pages and referred predicates. No fresh approval of all other evidence in the parent."
+    }
+  ],
+  "minimal_handling": {
+    "core": "Rebind four existing evidence rows; qualify one mixed-page summary; correct C005-S042 and the enumerated copied page metadata. Retain stable IDs, summaries except the mixed-page clarification, existing locator classes, parent meanings/stances/labels/access strings/priorities, all relationships/tasks/weights, and source eligibility.",
+    "historical_lineage": "Append exact dispositions for the five historical evidence keys and the C005-S042 historical subject binding, plus the already-correct press-evidence lineage. Preserve all original before records, review outputs, original draft and every frozen v2/v3 byte. The earlier supported decisions and missed dependent propagation are acknowledged, not reinterpreted as correct.",
+    "review_and_release": "These are proposed source corrections only. If selected for release, construct a separate exact revision and independent narrow review under the established preserved source-helper workflow; do not edit frozen v3 or treat this finding report as freeze approval. Root coordinates technical selection.",
+    "access_amendment": "Preserve the newly sealed v3-bound no-delta author proposal unchanged. Its independent reviewer dispatch remains paused. Any later amendment must bind whichever exact corrected source final is actually approved and frozen; no new binding or timestamp is fabricated here.",
+    "no_obligation_count_change": true,
+    "no_population_change": true,
+    "no_new_source_scope_or_candidate_analysis": true
+  },
+  "input_bindings": [
+    {
+      "path": ".source-only/source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "bytes": 715508
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-002.pages.json",
+      "sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5",
+      "bytes": 3690
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "bytes": 741785
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-005.pages.json",
+      "sha256": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf",
+      "bytes": 4002
+    },
+    {
+      "path": ".source-only/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "bytes": 106340
+    },
+    {
+      "path": ".source-only/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "bytes": 7563
+    },
+    {
+      "path": "successor/source/evaluation-policy.v4.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+      "bytes": 9735
+    },
+    {
+      "path": ".source-only/methodology/references/schemas/source-benchmark.schema.json",
+      "sha256": "405d6687b064bdf858f908b70be7e61d9ce3456f151fb23fcb891e8b8d477ae8",
+      "bytes": 4078
+    },
+    {
+      "path": ".source-only/methodology/references/benchmark-review.md",
+      "sha256": "741f67c99bf2aa23f7b49fb88c705bfc0219704e2da02782a5c23afbcdbd40aa",
+      "bytes": 7250
+    },
+    {
+      "path": ".source-only/methodology/references/judgment-policy-v8.md",
+      "sha256": "0df26b5435fedae327ed7128856ef5664550c7bba0b4b5799d294a8f97241e17",
+      "bytes": 3592
+    },
+    {
+      "path": "successor/synthesis/lineage/evidence.json",
+      "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+      "bytes": 9591256
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+      "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+      "bytes": 722569
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+      "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+      "bytes": 7517740
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+      "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+      "bytes": 4971257
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+      "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+      "bytes": 5138775
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/proposed-evidence-lineage-repairs.v1.jsonl",
+      "sha256": "d2496abc66bb16c1a3ee9debca56183c72653b82f874e04760bf3321e16bb495",
+      "bytes": 416820
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+      "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+      "bytes": 22889770
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/source-only-inputs.v1.json",
+      "sha256": "9b30760639bbcbf141603842da8628726a6e13200673e487a549e58a2e7c01ba",
+      "bytes": 70278
+    }
+  ],
+  "protected_frozen_bindings": [
+    {
+      "path": "successor/source/source-benchmark.v3.json",
+      "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+      "bytes": 6740824
+    },
+    {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    {
+      "path": "successor/evaluation-state.json",
+      "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+      "bytes": 15542
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v3.json",
+      "sha256": "abb517647eeced5d45d44ebf0bbbcc51d8ad3b89f6650093bc00d66b5cd01d36",
+      "bytes": 15542
+    },
+    {
+      "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v2.json",
+      "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+      "bytes": 492840
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/typed-freeze-receipt.v1.json",
+      "sha256": "e0138ebbc7bc76841c007f126b52f301d02e45df84ad5274036f675fec844df8",
+      "bytes": 6893
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-byte-assent.v1.json",
+      "sha256": "b15e0db6181fa797baf7565e6f592bf0792ee05dbdf4ef91f15357b5150c10e3",
+      "bytes": 3707
+    }
+  ],
+  "preserved_access_author_bindings": [
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/manifest.v1.json",
+      "sha256": "02a0b0cd8b451f00f0171a9629857254fd9e2bf531ba2e73c81dd02807335796",
+      "bytes": 3668
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/benchmark-access-overlay.v1.json",
+      "sha256": "29620e2cdaf56d25624be5ee21264cb0cdf9d9a8511c6a0444a2176bc56b305d",
+      "bytes": 186350
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/exact-comparison.v1.json",
+      "sha256": "17532164aaf62375f17435cccf3f4f55358c278c2090e3a52cf637f326394614",
+      "bytes": 729412
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "64f6f1b9504e0b7d6ebdb178ffdc79d158115a65159812ecfda9b4a296ad9ca0",
+      "bytes": 17664
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/input-visibility-attestation.v1.json",
+      "sha256": "a28430eb6550b767155f76837d2cf42f4b740f1caf23c2bb8522baa21abe0256",
+      "bytes": 35940
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/mechanical-check.v1.json",
+      "sha256": "e5ec2cbb97e3254bc308c4a249e3e14f13866e366cffecfc22c35ac971154fe8",
+      "bytes": 1314
+    }
+  ],
+  "acknowledged_review_failure": "The original item inspections accepted four erroneous page bindings and the unqualified mixed-page summary; later literal-value reuse and final integration carried them forward. A separately correct press-evidence repair did not propagate into the retained page list. As lead, I accepted the integrated values and own this missed closure. Neither mechanical hash checks nor complete coverage cured these substantive page errors.",
+  "completion_limit": "This report closes only the six referred items and their directly affected metadata/dependency interpretation. It does not establish that no other source errors exist and does not reopen or repeat the whole source review.",
+  "proposal_counts": {
+    "findings": 6,
+    "affected_subjects": 5,
+    "core_field_replacements": 10,
+    "dependent_page_array_replacements": 10,
+    "direct_relationships": 10,
+    "direct_tasks": 22
+  }
+}

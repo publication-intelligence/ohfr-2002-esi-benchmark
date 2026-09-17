@@ -1,0 +1,330 @@
+{
+  "schema_version": "post-freeze-additive-historical-dispositions-v1",
+  "status": "proposed_pending_independent_review",
+  "rows": [
+    {
+      "historical_key": "legacy:SUBJ-AC3BF591EBEB:EVID-736F5728858A",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 371,
+        "row_sha256": "8ef68ffd03fe9a27e7ad365c3522d31d762474bd725055ea2e4ce9b44b90b38c",
+        "review_key": "legacy:SUBJ-AC3BF591EBEB:EVID-736F5728858A",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-736F5728858A",
+          "source_evidence_id": "EVID-DCDC43982799",
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+          "provenance": {
+            "chunk_id": "CHUNK-002",
+            "local_subject_id": "CHUNK-002-S055",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-002.json",
+            "source_artifact_sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053"
+          }
+        },
+        "original_lineage_pointer": "/rows/315"
+      },
+      "finding_id": "PBF-001",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-C3088DA62479",
+      "current_evidence_id": "EVID-SUCC-7A2F098446C6",
+      "proposed_evidence": {
+        "document_page": 56,
+        "source_page_label": "56",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+        "evidence_id": "EVID-SUCC-7A2F098446C6",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      }
+    },
+    {
+      "historical_key": "native:SUBJ-0073:EVID-0073-002",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 367,
+        "row_sha256": "d0edd402b48048bb7c824a3845c9ba5bda013084648879959ea2554382c2c38f",
+        "review_key": "native:SUBJ-0073:EVID-0073-002",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+          "source_chunk_id": "CHUNK-002",
+          "source_local_subject_id": "CHUNK-002-S015",
+          "evidence_id": "EVID-0073-002"
+        },
+        "original_lineage_pointer": "/rows/3381"
+      },
+      "finding_id": "PBF-002",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-C3088DA62479",
+      "current_evidence_id": "EVID-SUCC-EE0D698188B1",
+      "proposed_evidence": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "An anxious contemporary warned that public exchanges about the constitution and the knowledge people were acquiring would eventually bring revolutions.",
+        "evidence_id": "EVID-SUCC-EE0D698188B1",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-59856BDB5388:EVID-82589FE9522B",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1381,
+        "row_sha256": "0f3a32133fb2f72810d61e2bd399646c25d2afa9cda18b6c87eccc928ecbcdbe",
+        "review_key": "legacy:SUBJ-59856BDB5388:EVID-82589FE9522B",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-82589FE9522B",
+          "source_evidence_id": "EVID-495F128B7B88",
+          "document_page": 131,
+          "source_page_label": "131",
+          "locator_class": "supporting",
+          "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S083",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          }
+        },
+        "original_lineage_pointer": "/rows/622"
+      },
+      "finding_id": "PBF-003",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "current_evidence_id": "EVID-SUCC-8C432DB3ADE6",
+      "proposed_evidence": {
+        "document_page": 132,
+        "source_page_label": "132",
+        "locator_class": "supporting",
+        "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+        "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+        "source_local_subject_id": "SUCC-C005-S019",
+        "source_chunk_id": "CHUNK-005"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-B1C602729F9A:EVID-F51DC33F86B8",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1395,
+        "row_sha256": "b3316d19275d535ad5b843f690e16e1a8ea8977884b2e2c1c2affd40516636aa",
+        "review_key": "legacy:SUBJ-B1C602729F9A:EVID-F51DC33F86B8",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-F51DC33F86B8",
+          "source_evidence_id": "EVID-38EFFC4E9AF7",
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S072",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          }
+        },
+        "original_lineage_pointer": "/rows/1123"
+      },
+      "finding_id": "PBF-004",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "current_evidence_id": "EVID-SUCC-51E510B47B2A",
+      "proposed_evidence": {
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+        "evidence_id": "EVID-SUCC-51E510B47B2A",
+        "source_local_subject_id": "SUCC-C005-S027",
+        "source_chunk_id": "CHUNK-005"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-6DF3AE004424:EVID-1D364125E592",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1392,
+        "row_sha256": "13285e0ed8580702014ce695aabb06000146ed71891d338664e858dcca4248f6",
+        "review_key": "legacy:SUBJ-6DF3AE004424:EVID-1D364125E592",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-1D364125E592",
+          "source_evidence_id": "EVID-0E39B316A9CB",
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S068",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          }
+        },
+        "original_lineage_pointer": "/rows/2938"
+      },
+      "finding_id": "PBF-005",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "current_evidence_id": "EVID-SUCC-470F41497A94",
+      "proposed_evidence": {
+        "evidence_id": "EVID-SUCC-470F41497A94",
+        "source_evidence_id": "EVID-0E39B316A9CB",
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+        "provenance": {
+          "chunk_id": "CHUNK-005",
+          "local_subject_id": "C005-S068",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+          "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+        },
+        "source_local_subject_id": "SUCC-C005-S026",
+        "source_chunk_id": "CHUNK-005",
+        "historical_evidence_identity": {
+          "lineage": "legacy",
+          "subject_id": "SUBJ-6DF3AE004424",
+          "evidence_id": "EVID-1D364125E592"
+        },
+        "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-FF945BB01182:EVID-DCE1629C9441",
+      "prior_inspection": {
+        "kind": "historical_evidence",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1233,
+        "row_sha256": "b55df2e1a20424a976a9b9ae9807509c417a5644502114a72cdb737083b7941f",
+        "row": {
+          "review_key": "legacy:SUBJ-FF945BB01182:EVID-DCE1629C9441",
+          "lineage": "legacy",
+          "old_subject_id": "SUBJ-FF945BB01182",
+          "old_evidence_id": "EVID-DCE1629C9441",
+          "review_index": 1233,
+          "original_lineage_pointer": "/rows/2360",
+          "original_before_sha256": "c2039f1feccbb50fd707a7dc4c9ecd8630bc845e65e2ba39c645477ffbd853f2",
+          "original_claim": {
+            "evidence_id": "EVID-DCE1629C9441",
+            "source_evidence_id": "EVID-26429A611FEB",
+            "document_page": 113,
+            "source_page_label": "113",
+            "locator_class": "principal",
+            "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+            "provenance": {
+              "chunk_id": "CHUNK-005",
+              "local_subject_id": "C005-S013",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+              "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+            }
+          },
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+          "literal_reuse_proofs": [
+            {
+              "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+              "evidence_id": "EVID-SUCC-3E891F904D2B",
+              "draft_pointer": "/subjects/193/evidence/5",
+              "matched_four_fields_sha256": "1f1959c168b6765024891c9ec390629908ee4b50d6d02889a54b20fd9fd55c9c",
+              "prior_evidence_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+                "pointer": "/2385",
+                "requirement_key": "SUBJ-SUCC-A7CE991FCCA3:evidence:EVID-SUCC-3E891F904D2B",
+                "row_sha256": "e2bacf61cddbfbb4f91d8e6054940c2156f4f70b9ce646bfb948896e7f668f64"
+              },
+              "prior_parent_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "pointer": "/156",
+                "row_sha256": "794293bfa0dec55cd4889dea5cf94fe035ce1aa3a3e6b997c04d61c3e88e8261"
+              },
+              "actual_integrated_evidence_equals_inspected_value": true
+            }
+          ],
+          "exact_proposed_bindings": [
+            {
+              "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+              "evidence_id": "EVID-SUCC-3E891F904D2B",
+              "binding_status": "current_claim_retained",
+              "evidence_fields": {
+                "document_page": 113,
+                "source_page_label": "113",
+                "locator_class": "principal",
+                "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+                "evidence_id": "EVID-SUCC-3E891F904D2B",
+                "source_local_subject_id": "SUCC-C005-S004",
+                "source_chunk_id": "CHUNK-005"
+              },
+              "evidence_sha256": "6507554fba77bb642c7d51ca38c29bdeff71b441ba3e63b108fe87a545371d87",
+              "actual_parent_main_sha256": "fb6df73582311967528a17d02e317bd6d22e15076771217887b9576d07fd9e78",
+              "parent_review": "exact prior whole-record review reused"
+            }
+          ],
+          "exact_exclusion_bindings": [],
+          "retired_or_unaccepted_author_bindings": [],
+          "required_referral": null,
+          "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+        }
+      },
+      "finding_id": "PBF-007",
+      "disposition": "retain_causal_meaning_at114_with_explicit113_context; do_not_transfer_frequency_from_offers_to_rejection",
+      "current_subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+      "current_evidence_id": "EVID-SUCC-3E891F904D2B",
+      "proposed_evidence": {
+        "document_page": 114,
+        "source_page_label": "114",
+        "locator_class": "principal",
+        "evidence_summary": "Continuing the offers-of-assistance sentence from page 113, the source explains distrust of nobles and clergy through their association with displaced municipalities and the earlier intransigence of their deputies at Versailles.",
+        "evidence_id": "EVID-SUCC-3E891F904D2B",
+        "source_local_subject_id": "SUCC-C005-S004",
+        "source_chunk_id": "CHUNK-005"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-7797A861F8DE",
+      "related_evidence_key": "legacy:SUBJ-7797A861F8DE:EVID-68284C129DCD",
+      "finding_id": "PBF-006",
+      "disposition": "Propagate previously corrected press evidence132 to retained C005-S042 page list; preserve historical before fields."
+    },
+    {
+      "historical_key": "legacy:SUBJ-59856BDB5388",
+      "finding_id": "PBF-003",
+      "disposition": "Both current C005-S083 preservation copies use132 for compensation-driven debt growth; retain117/134 and all substantive distinctions."
+    }
+  ],
+  "original_ledgers_unchanged": true
+}

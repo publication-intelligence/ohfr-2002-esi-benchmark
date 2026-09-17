@@ -1,0 +1,36 @@
+{
+  "schema_version": "post-freeze-source-referral-manifest-v1",
+  "status": "sealed; findings_and_proposals_only; no_freeze_or_approval",
+  "sealed_at": "2026-09-17T06:37:27.441789+00:00",
+  "files": [
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-referral/finding-batch.v1.json",
+      "sha256": "8d9ae13baaeb12b09336cca0fc46d31c9caccafc36fa9181256fef252166f67c",
+      "bytes": 137908
+    }
+  ],
+  "findings": [
+    "PBF-001",
+    "PBF-002",
+    "PBF-003",
+    "PBF-004",
+    "PBF-005",
+    "PBF-006"
+  ],
+  "base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "counts": {
+    "findings": 6,
+    "affected_subjects": 5,
+    "core_field_replacements": 10,
+    "dependent_page_array_replacements": 10,
+    "direct_relationships": 10,
+    "direct_tasks": 22
+  },
+  "preservation_checks_passed": true,
+  "candidate_unseen": true,
+  "source_worker_dispatch": "001 access-proposal dispatch paused at coordinator request; no new reviewer dispatched."
+}
