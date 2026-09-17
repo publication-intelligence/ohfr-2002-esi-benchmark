@@ -6,7 +6,7 @@ This repository contains the frozen, candidate-independent source benchmark for 
 
 Benchmark v3 is an immutable historical release. It completed source-led discovery, whole-book synthesis, and a full independent candidate-blind review before freeze.
 
-**Study reconciliation is pending.** A later, independently reviewed native V8 release covers the same supplied source. A bounded candidate-unexposed comparison and a separate source check found material defects in both unchanged releases and recommended an independently reviewed successor. The complete source-only successor draft is registered and undergoing a distinct item-complete independent review. See [study reconciliation](docs/study-benchmark-reconciliation.md) and [draft PR 17](https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17). Until the reviewed release and shared bindings are complete, the four candidate evaluation PRs and comparative bundle cutover remain on hold.
+**The successor benchmark and common V10 study lock are frozen.** Source-only comparison found material defects in both historical releases. The independently reviewed successor contains 531 subjects, 3,297 evidence rows, 501 relationships and 617 reader tasks. Independent review confirmed that its access requirements need no further amendment. The [common study lock](study-benchmark-lock.v10.json) binds this source proof, the V10 policy and the shared 193,118-word density basis. Fresh four-candidate reevaluation follows release validation and runtime activation. See [study reconciliation](docs/study-benchmark-reconciliation.md), the [V10 sequence](docs/v10-methodology-cutover.md) and [draft PR 17](https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17). The immutable historical v3 contract is preserved below.
 
 | Release fact | Value |
 | --- | --- |
@@ -27,7 +27,7 @@ The supplied study source is the IndexerLabs-distributed special PDF. Its 425 su
 
 The supplied PDF omits the book's front matter and endnotes. Those unavailable regions are outside the benchmark denominator. The repository also excludes the copyrighted source PDF, chapter packet PDFs, and extracted source text; the book must be obtained separately from an authorized source.
 
-The review retains 303 label-only relationships where no single stable subject is coextensive with the access route, plus 94 documented editorial uncertainties. These are nonblocking, explicit limitations rather than missing review work.
+The historical v3 review retains 303 label-only relationships where no single stable subject is coextensive with the access route, plus 94 documented editorial uncertainties. These are nonblocking, explicit limitations rather than missing review work.
 
 ## Contents
 

@@ -1,0 +1,197 @@
+{
+  "schema_version": "ohfr-study-benchmark-lock-v3",
+  "study_id": "ohfr-2002-four-index-comparison",
+  "release": {
+    "release_id": "ohfr-2002-successor-v10-2026-09-17",
+    "benchmark_id": "ohfr-2002-study-source-successor-v1",
+    "version": 2,
+    "benchmark_sha256": "29e2d3cb6fbe99dcab7d218086afede0366fdd195efbea7b98f4dfffb967a354",
+    "benchmark_file_sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "lineage": {
+      "kind": "current_source_freeze",
+      "source_only_state_sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+      "draft_file_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "review_file_sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "checkpoint_artifacts": []
+    }
+  },
+  "benchmark_semantic_sha256": "bfd742cbd06bf79d234091617298cb46604a9f1d71f84424f3c4093441f5f9c1",
+  "source_scope": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f"
+  },
+  "policy_profile": "subject-index-standard-policy-v10",
+  "policy_semantic_sha256": "7fea875a46370351481128234c15825225ac5cdabffb0f0bd22ea7adfb0d2beb",
+  "audit_mode": "full",
+  "rubric_version": "subject-index-rubric-v10",
+  "calculation_profile": "subject-index-dimension-calculation-v9",
+  "density_basis": {
+    "basis_id": "ohfr-2002-uniform-body-caption-v1",
+    "chunks": [
+      {
+        "chunk_id": "CHUNK-001",
+        "indexable_source_words": 19635,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "indexable_source_words": 9922,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "indexable_source_words": 9055,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "indexable_source_words": 11861,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "indexable_source_words": 10208,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "indexable_source_words": 10478,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-007",
+        "indexable_source_words": 6543,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-008",
+        "indexable_source_words": 10803,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-009",
+        "indexable_source_words": 10457,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-010",
+        "indexable_source_words": 12080,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-011",
+        "indexable_source_words": 11612,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-012",
+        "indexable_source_words": 11557,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-013",
+        "indexable_source_words": 9710,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-014",
+        "indexable_source_words": 10719,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-015",
+        "indexable_source_words": 12419,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-016",
+        "indexable_source_words": 10257,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      },
+      {
+        "chunk_id": "CHUNK-017",
+        "indexable_source_words": 15802,
+        "source_artifact": {
+          "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+          "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+        }
+      }
+    ],
+    "measurement_sha256": "43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb"
+  },
+  "source_methodology": {
+    "policy_profile": "subject-index-standard-policy-v8.2",
+    "rubric_version": "subject-index-rubric-v8.2",
+    "calculation_profile": "subject-index-dimension-calculation-v7",
+    "source_policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae",
+    "source_policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
+  },
+  "source_benchmark_semantic_sha256": "bfd742cbd06bf79d234091617298cb46604a9f1d71f84424f3c4093441f5f9c1",
+  "benchmark_access": {
+    "overlay": {
+      "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+      "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b"
+    },
+    "review": {
+      "path": "successor/access-amendment/reviewer/benchmark-access-review.v1.json",
+      "sha256": "78499f5df31659be648e39e9e5ae3056a40a0cc05ede56471cd107f889f4aa8f"
+    },
+    "overlay_sha256": "7578ab4e013f77a6dfa773704459b7314c37a2fc7046099189d7fd9bbeaada3d",
+    "effective_benchmark_semantic_sha256": "bfd742cbd06bf79d234091617298cb46604a9f1d71f84424f3c4093441f5f9c1",
+    "frozen_at": "2026-09-17T05:28:51.020449+00:00"
+  },
+  "lock_sha256": "bb24e1d618584ee8eb5c75eb73aa98de4db3f2845d48a44fc3f81569c591ff9c"
+}

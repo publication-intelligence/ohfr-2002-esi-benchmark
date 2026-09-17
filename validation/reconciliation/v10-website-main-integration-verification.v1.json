@@ -1,0 +1,62 @@
+{
+  "schema_version": "v10-website-main-integration-verification-v1",
+  "recorded_at": "2026-09-17T05:27:41.930193+00:00",
+  "result": "pass",
+  "consumer_commit": "1321edf2d9c0255076802ec3f43fd75bb6d48dfe",
+  "parents": [
+    "f0392222edb489fac7d3d3a67c1303bdbb34b37f",
+    "b960acd7f46ffadaa25a150273dfcbe9b52d014a"
+  ],
+  "owner_receipt_sha256": "60aa60df6c113eca7bbef6e47e8e7913a6c6b9e961383fd869909379bf9f568e",
+  "owner_reported_validation": {
+    "normal_commit_hook": "passed",
+    "hooks_bypassed": false,
+    "frontend_unit": {
+      "suites_passed": 295,
+      "suites_total": 295,
+      "tests_passed": 809,
+      "tests_total": 809,
+      "tests_failed": 0
+    },
+    "frontend_interaction_chromium": {
+      "suites_passed": 23,
+      "suites_total": 23,
+      "tests_passed": 123,
+      "tests_total": 123,
+      "tests_failed": 0
+    },
+    "focused_study_tests": {
+      "files_passed": 8,
+      "tests_passed": 142
+    },
+    "typescript_no_emit": "passed",
+    "biome_scoped": "passed",
+    "git_diff_check": "passed"
+  },
+  "root_checks": {
+    "clean_checkout": true,
+    "exact_merge_parents": true,
+    "no_public_study_data_changed": true
+  },
+  "ci": {
+    "run_id": 35185029167,
+    "url": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35185029167",
+    "head_sha": "1321edf2d9c0255076802ec3f43fd75bb6d48dfe",
+    "status": "completed",
+    "conclusion": "success",
+    "passed_jobs": [
+      "application",
+      "backend-integration (1/2)",
+      "backend-integration (2/2)",
+      "frontend-unit (1/2)",
+      "frontend-unit (2/2)"
+    ],
+    "skipped_unrelated_jobs": [
+      "terraform",
+      "containers"
+    ]
+  },
+  "actual_candidate_results_imported": false,
+  "consumer_pr_merged": false,
+  "deployed": false
+}
