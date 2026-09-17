@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T01:57:02.373182+00:00",
+  "recorded_at": "2026-09-17T02:00:17.149562+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -504,10 +504,20 @@
       "exact_reconstruction_verified": true
     },
     "historical_relationship_parent_referral_integration": {
-      "completed_grouped_parents": 32,
+      "completed_grouped_parents": 83,
       "total_grouped_parents": 83,
-      "verification": "validation/reconciliation/stage3-referral-components-verification.v1.json",
+      "components": 5,
+      "whole_subject_proposals": 50,
+      "unique_subjects": 49,
+      "exact_field_diffs": 102,
+      "verification": "validation/reconciliation/stage4-referral-components-verification.v1.json",
       "final_integrated_value_approval": false
+    },
+    "integration_stage4": {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage4.v1.json",
+      "sha256": "30830f86d5e20d5b7fc319b1b7dcdab687468e0a0fb66d1c461ebb892a3ad096",
+      "status": "provisional_not_final_approval",
+      "exact_reconstruction_verified": true
     }
   },
   "density_proposal": {

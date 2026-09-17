@@ -1,0 +1,3204 @@
+{
+  "schema_version": "lead-integrated-referral-dispositions-v1",
+  "status": "completed_component_not_final_approval",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-closure/relationship-parent-referrals.v1.json",
+      "sha256": "6b51d504c3460e5638fc0efdfbde44eed34874e7914d7024bde30ece07a784a6"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage3.v1.json",
+      "sha256": "7ebf57a6454a6d43ebf90adc5786825eb6aac3cbd241dded59ea4a0b644a0548"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-parent-referral-closure.033-048.v1.json",
+      "sha256": "bb833342de2e35db0306fe7a6352b712be3826f7bd3183d5019d62a50c2a5672"
+    }
+  ],
+  "referral_parent_indices": [
+    64,
+    82
+  ],
+  "rows": [
+    {
+      "referred_subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-42AF38EFD927",
+          "source_pages": [
+            162
+          ],
+          "required_retention": "A9B names Pro Aris et Focis and 792249 distinct Liege, but preserve the concrete connection: Liege supplied insurgents to the Belgian movement. Mere geographical linkage or generic alliance loses this organizational bridge and must not merge the two revolutions."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+          "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction. The invading insurgents included men from Liège, linking the movements organizationally without making their aims identical.",
+          "stance": "Shared rebellion against authority concealed fundamental ideological divergence."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-7922496FA528",
+          "meaning": "Liège opponents of the prince-bishop seized power under French influence before Prussian evacuation and Austrian restoration.",
+          "stance": "The Liège rising was linked to but distinct from the Belgian revolt."
+        }
+      ],
+      "source_grounded_disposition": "The Belgian parent and 162 evidence now identify Liège as a source of insurgents. The separate Liège parent preserves its different political origins and restoration; the organizational connection is not identity of programmes.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-7922496FA528",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-42AF38EFD927",
+          "source_pages": [
+            162
+          ],
+          "required_retention": "A9B names Pro Aris et Focis and 792249 distinct Liege, but preserve the concrete connection: Liege supplied insurgents to the Belgian movement. Mere geographical linkage or generic alliance loses this organizational bridge and must not merge the two revolutions."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+          "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction. The invading insurgents included men from Liège, linking the movements organizationally without making their aims identical.",
+          "stance": "Shared rebellion against authority concealed fundamental ideological divergence."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-7922496FA528",
+          "meaning": "Liège opponents of the prince-bishop seized power under French influence before Prussian evacuation and Austrian restoration.",
+          "stance": "The Liège rising was linked to but distinct from the Belgian revolt."
+        }
+      ],
+      "source_grounded_disposition": "Reuse the one explicit repaired organizational bridge in A9B with the distinct Liège course in 7922. No duplicate generic alliance is needed.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-46CEA9999339",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-464A2A70D9C6",
+          "source_pages": [
+            422,
+            423
+          ],
+          "required_retention": "46CEA should explicitly retain de Maistre’s diagnosis of abstract rationalism and prescription of vigilant Catholic-monarchical-aristocratic restoration as a named example of early uncompromising conservatism. Generic birth of conservative theory loses his distinctive formulation."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-46CEA9999339",
+          "meaning": "The revolutionary assault on property, hierarchy, religion, and monarchy generated a self-conscious conservative theory and a transnational politics of order. De Maistre diagnosed abstract freedom and rationalism as sources of chaos and prescribed restoration of aristocracy, monarchy and above all Catholic religion, guarded vigilantly against renewed subversion.",
+          "stance": "Intransigent restorationism often provoked the revolutions it sought to prevent, while moderate conservatives turned toward reform as prevention."
+        }
+      ],
+      "source_grounded_disposition": "The repaired parent and 422 evidence now retain de Maistre’s named diagnosis and restoration prescription, alongside the later distinction between uncompromising and moderate conservatism.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-52B602102FF3",
+          "source_pages": [
+            200,
+            201
+          ],
+          "required_retention": "CCFD should explicitly preserve France’s 1 February 1793 declarations against both Britain and the Dutch Republic in the same session. Its cumulative British rupture does not alone retain the Dutch declaration or the actor/direction of the formal decision."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+          "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality. France formally declared war on Britain on 1 February 1793, and against the Dutch Republic in the same Convention session.",
+          "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break."
+        }
+      ],
+      "source_grounded_disposition": "The repaired parent and 201 evidence specify the French actor, date and simultaneous declarations against Britain and the Dutch Republic; this supplements, rather than substitutes for, the cumulative rupture explanation.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-38D7478429CE",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-581AD8DB8E13",
+          "source_pages": [
+            399
+          ],
+          "required_retention": "38D should explicitly retain the retreat from education as a declared right to departmental central schools and locally financed primary provision. Generic failed replacement preserves the verdict but not the particular experiment and funding limits."
+        },
+        {
+          "historical_key": "legacy:REL-BC8D61DDEA19",
+          "source_pages": [
+            398,
+            399
+          ],
+          "required_retention": "Full399 reread identifies comprehensive measures only in1802 after destruction and partial Directory schools.38D’s current meaning/stance omits that delayed response; add it alongside the already referred secondary/primary distinction, without claiming immediate full recovery."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-38D7478429CE",
+          "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed. The 1795 constitution abandoned the declared educational right of 1793; departmental central schools and higher schools only partly replaced destroyed institutions, while primary schooling depended on local initiative without public funding. Comprehensive measures came only in 1802, after severe losses rather than as an immediate recovery.",
+          "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy."
+        }
+      ],
+      "source_grounded_disposition": "The repaired parent/evidence distinguish abandoned rights rhetoric, partial central/higher-school provision, unfunded local primary schooling and the delayed comprehensive measures of 1802. No immediate educational recovery is asserted.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-676E88501AB5",
+          "source_pages": [
+            392,
+            393
+          ],
+          "required_retention": "8B341 should explicitly retain the critical reading public and market for ideas undermining confidence in unreformed monarchy before collapse. A regeneration project arising after the crisis is not the same causal claim; preserve the unexpected character of actual state collapse."
+        },
+        {
+          "historical_key": "legacy:REL-B774609557CC",
+          "source_pages": [
+            393
+          ],
+          "required_retention": "8B341’s current intellectual-project meaning lacks the p393 extension through Estates-General and cahier drafting to people beyond the educated public. Add the widening opportunity to imagine remedies and settle grievances, without claiming a predesigned revolutionary replacement."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+          "meaning": "An enlarged educated and critical reading public, with an expanding market for ideas, undermined confidence in a monarchy too little adapted to changing expectations. The rapid state collapse was nevertheless unexpected and unplanned. Once it began, the Estates-General and cahier drafting invited people far beyond the educated elite to imagine remedies for grievances. Enlightened leaders then pursued a rational, just and humane project of national regeneration.",
+          "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress. Criticism did not amount to a predesigned revolutionary replacement; widening participation followed the unexpected opening."
+        }
+      ],
+      "source_grounded_disposition": "The repaired parent preserves the pre-collapse critical public and loss of confidence, unexpected collapse, and later extension of political imagination beyond elites through Estates-General and cahiers.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-ED45439A1452",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-6F4981BB4150",
+          "source_pages": [
+            394,
+            424
+          ],
+          "required_retention": "ED454/251A should explicitly preserve the retrospective distinction between familiar massacre and systematic bureaucratized execution by a government claiming civilization. Generic escalation to Terror retains violence but not the source’s particular horrifying novelty and its lasting political memory."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-ED45439A1452",
+          "meaning": "Resistance to change interacted with patriots' conviction that opponents acted from ignorance or bad faith, normalizing intimidation and escalating repression into Terror.",
+          "stance": "Violence was not simply inherent in reforming intentions, but precedents from 1789 and refusal to recognize legitimate opposition helped produce it."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+          "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre.",
+          "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure."
+        }
+      ],
+      "source_grounded_disposition": "The causal intolerance record remains distinct; repaired 251A and 424 evidence preserve the retrospective novelty of systematic governmental execution versus familiar massacre and its impact on political memory.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-251A2CCA89B2",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-6F4981BB4150",
+          "source_pages": [
+            394,
+            424
+          ],
+          "required_retention": "ED454/251A should explicitly preserve the retrospective distinction between familiar massacre and systematic bureaucratized execution by a government claiming civilization. Generic escalation to Terror retains violence but not the source’s particular horrifying novelty and its lasting political memory."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+          "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre.",
+          "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-ED45439A1452",
+          "meaning": "Resistance to change interacted with patriots' conviction that opponents acted from ignorance or bad faith, normalizing intimidation and escalating repression into Terror.",
+          "stance": "Violence was not simply inherent in reforming intentions, but precedents from 1789 and refusal to recognize legitimate opposition helped produce it."
+        }
+      ],
+      "source_grounded_disposition": "The final-assessment parent now states the particular horrifying novelty, retaining the source’s double judgment and mortality qualifications already present.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-60B96F147FEF",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-7E9AA76FFBA1",
+          "source_pages": [
+            405,
+            424
+          ],
+          "required_retention": "Add p401 for the actual rent mechanism: landlords passed lost feudal/tithe revenues into increased rents, limiting tenant gains and helping sustain resistance in leaseholding regions. 60B/191FA should retain that link rather than only general agricultural inertia or rural discontent."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-60B96F147FEF",
+          "meaning": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and little innovation beyond wider potato cultivation. Landlords replaced lost feudal income with higher rents and were allowed to add the abolished tithe’s equivalent, limiting tenants’ gains and helping explain persistent resistance in leaseholding regions.",
+          "stance": "Agriculture fed more people by 1802 but remained structurally and productively close to its pre-revolutionary condition until the railway era."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+          "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion.",
+          "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy."
+        }
+      ],
+      "source_grounded_disposition": "The repaired agricultural parent and 401 evidence explicitly retain rent/tithe cost transfer and its connection to resistance in leaseholding regions. Broad popular anti-revolution remains a complementary, more varied field.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-7E9AA76FFBA1",
+          "source_pages": [
+            405,
+            424
+          ],
+          "required_retention": "Add p401 for the actual rent mechanism: landlords passed lost feudal/tithe revenues into increased rents, limiting tenant gains and helping sustain resistance in leaseholding regions. 60B/191FA should retain that link rather than only general agricultural inertia or rural discontent."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-60B96F147FEF",
+          "meaning": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and little innovation beyond wider potato cultivation. Landlords replaced lost feudal income with higher rents and were allowed to add the abolished tithe’s equivalent, limiting tenants’ gains and helping explain persistent resistance in leaseholding regions.",
+          "stance": "Agriculture fed more people by 1802 but remained structurally and productively close to its pre-revolutionary condition until the railway era."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+          "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion.",
+          "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy."
+        }
+      ],
+      "source_grounded_disposition": "Use the precise 401 mechanism through repaired 60B rather than importing it solely from 405 or 424, which discuss broader agricultural inertia. Do not make rent increases the explanation of every resistance movement.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-C7C1516A9418",
+          "source_pages": [
+            176,
+            186,
+            187,
+            188,
+            195
+          ],
+          "required_retention": "02EC’s later-divergence wording and5AAF’s generic trial procedure do not explicitly preserve Petion’s support for formal trial against Robespierre’s position on195. Add that concrete alignment to02EC without projecting it backward over his earlier radical popularity."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+          "meaning": "Pétion's election as Paris mayor, conduct during 20 June, suspension and restoration, role in the deposition demand, and later divergence from Robespierre place him at several turning points. His successful motion for a formal trial of Louis placed him against Robespierre’s argument that the king had already been judged by the people on 10 August.",
+          "stance": "His position shifted within the radical camp and cannot be reduced to a consistent Robespierrist alignment."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
+          "meaning": "The Convention rejected royal inviolability and chose a formal trial of Louis before the representatives of the sovereign people. Saint-Just, followed by Robespierre, had argued instead that the people’s victory on 10 August had already judged him, leaving only punishment. Deputies found him guilty, rejected popular appeal and reprieve, and executed him on 21 January 1793. Fear that a provincial rejection of death would provoke civil war helped defeat the proposed referendum.",
+          "stance": "Guilt was virtually uncontested, while punishment and popular ratification divided the Convention; intimidation may have affected close votes but did not erase political agency."
+        }
+      ],
+      "source_grounded_disposition": "The repaired Pétion parent retains his formal-trial alignment against Robespierre without projecting it over his earlier popularity; its existing 195 evidence supplies the act, and the separately repaired trial parent supplies the procedural contrast.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-F7E85272CDFE",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-C82C417FECD7",
+          "source_pages": [
+            385,
+            386
+          ],
+          "required_retention": "F7E’s current pragmatic-religion meaning lacks PiusVI’s captive death, mistaken expectation of institutional extinction and the new conclave’s refutation on385–386. Add that specific misreading/resilience sequence as context for reconciliation."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-F7E85272CDFE",
+          "meaning": "Bonaparte's pragmatic recognition of religion's political power, his conciliatory treatment of Catholic practice, and his use of Church reconciliation to stabilize France. Pius VI’s captive death encouraged a mistaken Parisian expectation that the papacy would disappear; the Venetian conclave and election of Pius VII demonstrated institutional resilience and opened a more promising path to reconciliation.",
+          "stance": "Personally unbelieving but politically realistic, Bonaparte treats religion as a durable source of morality, obedience, and legitimacy rather than as a doctrine to destroy."
+        }
+      ],
+      "source_grounded_disposition": "The repaired religious-policy parent and 385–386 evidence preserve the mistaken extinction expectation, new conclave and pragmatic opening, with actual papal survival distinguished from Parisian assumption.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-C921A8E92E59",
+          "source_pages": [
+            354,
+            355
+          ],
+          "required_retention": "F15’s generic strategic-needs wording should specify Alpine communications between France and occupied Italy, explaining why Italian conquest transformed Switzerland’s importance. Keep Swiss reformers’ collaboration alongside strategic coercion;84B/02AF do not themselves supply the geographic mechanism."
+        },
+        {
+          "historical_key": "native:REL-0196",
+          "source_pages": [
+            354,
+            355
+          ],
+          "required_retention": "F15 should explicitly preserve the French invasion of Berne and exploitation of its resources within the strategic and constitutional intervention. Berne is not merely another name for the whole Helvetic Republic."
+        },
+        {
+          "historical_key": "native:REL-0197",
+          "source_pages": [
+            354,
+            355
+          ],
+          "required_retention": "F15 should retain Ochs and La Harpe seeking centralized reform partly as protection against domination by great powers, while the French-backed project lacked broad cantonal consent. Generic centralization loses that reversal of intended independence."
+        },
+        {
+          "historical_key": "native:REL-0198",
+          "source_pages": [
+            354,
+            355
+          ],
+          "required_retention": "F15 should distinguish Vaud’s liberation from Berne from the imposed centralization of Switzerland as a whole. The local liberation objective does not imply consent to the Helvetic constitutional settlement."
+        },
+        {
+          "historical_key": "native:REL-0199",
+          "source_pages": [
+            354,
+            355
+          ],
+          "required_retention": "This separate native key repeats the Ochs/La Harpe requirement: reformers sought centralization as protection from outside domination, yet depended on French intervention and faced cantonal opposition. Preserve the substantive qualification once in F15 while recording both exact lineage keys."
+        },
+        {
+          "historical_key": "native:REL-0230",
+          "source_pages": [
+            354,
+            355
+          ],
+          "required_retention": "The unresolved Helvetic label is correctly consolidated into F15, but the reformers’ protective-centralization rationale and lack of broad cantonal consent must remain explicit. This is the substantive requirement already identified for native0197/0199."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+          "meaning": "French conquest of northern Italy made Swiss Alpine communications strategically important. Ochs sought a unitary state partly to resist domination by France or Austria, while La Harpe promoted Vaud’s liberation from Berne; these aims were not identical with consent to a Swiss-wide settlement. French intervention against Berne and local resistance produced an imposed Helvetic constitution without national ratification or broad cantonal consent. French forces impounded city treasuries and gained lasting access to the passes, reversing the reformers’ hope of protection from external domination.",
+          "stance": "French strategic needs and Swiss reformers' centralizing plans overrode older cantonal freedoms and local aims. Distinguish Ochs’s protective-centralization rationale, La Harpe’s Vaud campaign, local liberation aims and the eventual imposed state; Berne is a specific intervention, not a synonym for all Switzerland."
+        }
+      ],
+      "source_grounded_disposition": "The repaired parent/evidence distinguish Alpine strategy, Ochs’s protective rationale, La Harpe’s Vaud campaign, intervention in Berne, local aims, lack of broad consent and subsequent extraction. The source attributes the initial great-power-protection argument particularly to Ochs, not identically to every reformer.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-B3CD4CF67D8E",
+      "original_referrals": [
+        {
+          "historical_key": "legacy:REL-F9E550F6D464",
+          "source_pages": [
+            384
+          ],
+          "required_retention": "B3CD explicitly names the Bank and fiscal stabilization but omits384’s break with revolutionary suspicion of banking. Add that contrast to restored financial confidence without making the Bank alone responsible for fiscal recovery."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-B3CD4CF67D8E",
+          "meaning": "The Consulate's establishment of the Bank of France, regular cash payment of state debt, improved tax collection, rising public credit, and balanced budget claim. Establishing the Bank broke with a long legacy of suspicion of banking; it was one element in recovery, alongside debt service and collection reform.",
+          "stance": "Fiscal control visibly improved and became self-reinforcing, although the text explicitly cautions that the foundations of the achievement were not yet secure."
+        }
+      ],
+      "source_grounded_disposition": "The repaired parent and 384 evidence preserve the break with banking suspicion as one part of fiscal recovery, not its sole cause.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "original_referrals": [
+        {
+          "historical_key": "native:REL-0177",
+          "source_pages": [
+            343,
+            344,
+            346
+          ],
+          "required_retention": "F0BD’s current unitary-outcome meaning and3256’s faction names do not explain Federalists defending inherited provincial autonomy. Add that contested alternative toF0BD’s parent contrast on343–344, rather than retain a hollow label-only link."
+        },
+        {
+          "historical_key": "native:REL-0178",
+          "source_pages": [
+            343,
+            344,
+            346
+          ],
+          "required_retention": "F0BD should explicitly pair Federalist provincial autonomy with unitarians’ centralized national constitution. Preserve democratic promise, deadlock and coercion; an eventual unitary outcome alone is not the whole dispute."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+          "meaning": "The prolonged replacement of the Dutch ancien régime by a unitary, representative Batavian constitution. Federalists defended inherited provincial autonomy while unitarians sought a centralized national constitution; their conflict produced deadlock before French-backed purges enabled a unitary outcome.",
+          "stance": "A genuinely democratic project emerged from an existing representative tradition, after deadlock and French-backed coercion. Regular elections and relatively wide internal autonomy distinguish the Batavian case; these do not amount to independent foreign policy. The supplied page344 says “Two years” after conquest while its surrounding chronology runs from 1795 to 1798; do not infer a corrected elapsed interval."
+        }
+      ],
+      "source_grounded_disposition": "The repaired main and 343 evidence articulate provincial autonomy versus unitary constitution; existing stance preserves democratic promise, deadlock, coercion and the printed elapsed-time inconsistency.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-3256F9538F44",
+      "original_referrals": [
+        {
+          "historical_key": "native:REL-0180",
+          "source_pages": [
+            344,
+            346
+          ],
+          "required_retention": "3256’s generic French-backed coups should preserve the Fructidor precedent for resolving Batavian deadlock through purge.48B supplies the French event, but a shared authoritarian method needs explicit connection in3256, not inferred from adjacent names."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-3256F9538F44",
+          "meaning": "French orchestration or approval of Dutch purges and coups to resolve political impasse and curb successive factions. The French Fructidor coup provided an explicit model for breaking Batavian deadlock by purging opponents, followed in January 1798.",
+          "stance": "France first supported a unitary purge and then accepted Daendels’s removal of self-perpetuating radicals. He restored the imprisoned Federalists rather than seizing power, and they held elections. Changing intervention served French control without erasing all domestic autonomy."
+        }
+      ],
+      "source_grounded_disposition": "The repaired main and 344 evidence explicitly connect Fructidor’s purge method to Batavian January 1798, while preserving subsequent Daendels restoration and elections as distinct phases.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "original_referrals": [
+        {
+          "historical_key": "native:REL-0181",
+          "source_pages": [
+            346,
+            347
+          ],
+          "required_retention": "44A’s generic wartime commerce loss should explicitly retain British blockade and colonial losses as distinct from French exactions. The original caused-by clue identifies a material mechanism, not merely an optional heading label."
+        },
+        {
+          "historical_key": "native:REL-0182",
+          "source_pages": [
+            346,
+            347
+          ],
+          "required_retention": "44A’s no-compensating-French-market-access stance preserves the result but should identify discriminatory French tariffs alongside British blockade and occupation costs. Different constraints jointly explain the alliance’s economic price."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-44A8A4E36810",
+          "meaning": "The wartime destruction of Dutch commerce and industry and the domestic fiscal and welfare consequences of French alliance. British blockade and seizure of colonies cut supplies and markets, while occupation demands and discriminatory French tariffs added distinct costs and denied compensating access to France’s enlarged market.",
+          "stance": "Alliance imposed severe costs without compensating access to French markets, producing widespread disillusionment while leaving no practical foreign-policy alternative."
+        }
+      ],
+      "source_grounded_disposition": "The repaired main/evidence distinguish British blockade and colonial losses from occupation demands and discriminatory French tariffs, preserving the joint economic mechanism.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "original_referrals": [
+        {
+          "historical_key": "native:REL-0185",
+          "source_pages": [
+            348,
+            350
+          ],
+          "required_retention": "8EB’s generic destructive exploitation should explicitly retain the Agency for Trade and Extraction directing removal of Belgian resources. The institution is a concrete implementation/access route on348, not a fabricated independent entity."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-8EB370248C8E",
+          "meaning": "French treatment of reconquered Belgium as enemy territory, followed by administrative reorganization and incorporation into France. The Agency for Trade and Extraction coordinated removal of Belgian resources before complaints and concern for longer-term consequences prompted its dissolution in 1795.",
+          "stance": "Annexation ended extraordinary levies and rationalized government, but followed a year of destructive exploitation and committed France to contested natural frontiers."
+        }
+      ],
+      "source_grounded_disposition": "The repaired parent/evidence names the Agency as the implementation route for extraction and its later dissolution. It is retained as a concrete institution within the subject, not a new weighted entity.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    },
+    {
+      "referred_subject_id": "SUBJ-SUCC-63FC319A198D",
+      "original_referrals": [
+        {
+          "historical_key": "native:REL-0192",
+          "source_pages": [
+            351
+          ],
+          "required_retention": "63FC should retain the Congress of Rastadt as the setting for contested Rhineland annexation and provisional incorporation after the Cisrhenan option was abandoned. Bind 7EDE where peace-settlement context is required; an unresolved conference label need not survive."
+        }
+      ],
+      "required_retention_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-63FC319A198D",
+          "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank. After Campo Formio, consent of the Empire was sought at the Congress of Rastadt and remained provisional while departmental administration already treated the territory as French.",
+          "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-7EDE1C0062AD",
+          "meaning": "After Fructidor ended Austrian hopes of exploiting French division, Campo Formio largely confirmed the earlier Leoben preliminaries: Belgium and Italian republics were recognized, Venice partitioned and France’s Rhine claims acknowledged by Austria. Austria could not bind the Holy Roman Empire, so compensatory German redistribution was deferred to Rastadt. The continental settlement left Britain at war and renewed coalition conflict already germinating.",
+          "stance": "Bonaparte largely dictated a settlement that confirmed French continental dominance but left Great Britain at war and future coalition conflict already germinating."
+        }
+      ],
+      "source_grounded_disposition": "The repaired Rhineland parent names Rastadt and preserves provisional diplomatic settlement versus practical administration; Campo Formio supplies separate peace context. No unresolved conference label is left as a substitute for that meaning.",
+      "status": "substantive_referral_disposition_complete; exact_integrated_final_binding_pending"
+    }
+  ],
+  "subjects": [
+    {
+      "label": "Brabant Revolution—causes and contrast with the French Revolution",
+      "priority": "essential",
+      "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction. The invading insurgents included men from Liège, linking the movements organizationally without making their aims identical.",
+      "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "acceptable_access": [
+        "Brabant Revolution—causes and contrast with the French Revolution",
+        "Belgian Revolution of 1789-1790",
+        "Brabant Revolution—relationship to France",
+        "Brabant Revolution",
+        "Belgian Revolution of 1789",
+        "Austrian Netherlands—revolution",
+        "French and Belgian revolutions—comparison",
+        "Pro Aris et Focis",
+        "Belgian insurgency—secret society",
+        "Brabant Revolution—organization"
+      ],
+      "evidence": [
+        {
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "principal",
+          "evidence_summary": "Belgian rebels defended inherited liberties and the Joyous Entry, unlike French reconstruction. Church-funded Pro Aris et Focis and exile leaders organized an invasion drawing insurgents from both the Dutch frontier and Liège.",
+          "evidence_id": "EVID-SUCC-68FA42C86F06",
+          "source_local_subject_id": "SUCC-C007-S007",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The independent Belgian state's conservative structure quickly showed how little the two revolutions had in common.",
+          "evidence_id": "EVID-SUCC-40AAF6322AD3",
+          "source_local_subject_id": "SUCC-C007-S007",
+          "source_chunk_id": "CHUNK-007"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-007"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C007-S007",
+          "label": "Brabant Revolution—causes and contrast with the French Revolution",
+          "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction.",
+          "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+          "acceptable_access": [
+            "Brabant Revolution—causes and contrast with the French Revolution",
+            "Belgian Revolution of 1789-1790",
+            "Brabant Revolution—relationship to France",
+            "Brabant Revolution",
+            "Belgian Revolution of 1789",
+            "Austrian Netherlands—revolution",
+            "French and Belgian revolutions—comparison",
+            "Pro Aris et Focis",
+            "Belgian insurgency—secret society",
+            "Brabant Revolution—organization"
+          ],
+          "document_pages": [
+            162,
+            163
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C007-S007"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C007-S007",
+          "label": "Brabant Revolution—causes and contrast with the French Revolution",
+          "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction.",
+          "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+          "acceptable_access": [
+            "Brabant Revolution—causes and contrast with the French Revolution",
+            "Belgian Revolution of 1789-1790",
+            "Brabant Revolution—relationship to France",
+            "Brabant Revolution",
+            "Belgian Revolution of 1789",
+            "Austrian Netherlands—revolution",
+            "French and Belgian revolutions—comparison",
+            "Pro Aris et Focis",
+            "Belgian insurgency—secret society",
+            "Brabant Revolution—organization"
+          ],
+          "document_pages": [
+            162,
+            163
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Birth of modern conservatism and counter-revolutionary ideology",
+      "priority": "major",
+      "meaning": "The revolutionary assault on property, hierarchy, religion, and monarchy generated a self-conscious conservative theory and a transnational politics of order. De Maistre diagnosed abstract freedom and rationalism as sources of chaos and prescribed restoration of aristocracy, monarchy and above all Catholic religion, guarded vigilantly against renewed subversion.",
+      "stance": "Intransigent restorationism often provoked the revolutions it sought to prevent, while moderate conservatives turned toward reform as prevention.",
+      "subject_id": "SUBJ-SUCC-46CEA9999339",
+      "acceptable_access": [
+        "Conservatism—origins in the French Revolution",
+        "Counter-revolutionary thought",
+        "Maistre, Joseph de",
+        "Right-wing politics",
+        "Burke",
+        "Gentz",
+        "Maistre, Joseph de--Considerations on France",
+        "Moderate conservatism--reform to prevent revolution",
+        "Throne, altar, and property"
+      ],
+      "evidence": [
+        {
+          "document_page": 422,
+          "source_page_label": "422",
+          "locator_class": "principal",
+          "evidence_summary": "Burke, Gentz and de Maistre developed explicit conservative arguments. De Maistre interpreted revolutionary history as a warning against abstract freedom and rationality and urged vigilant restoration of aristocracy, throne and altar.",
+          "evidence_id": "EVID-SUCC-EF676AFFB327",
+          "source_local_subject_id": "SUCC-C017-S037",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Repressive intransigence spread across frontiers but drove blocked reformers toward renewed revolution; moderates favored reform instead.",
+          "evidence_id": "EVID-SUCC-A480F570D449",
+          "source_local_subject_id": "SUCC-C017-S037",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-017"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C017-S037",
+          "label": "Birth of modern conservatism and counter-revolutionary ideology",
+          "meaning": "The revolutionary assault on property, hierarchy, religion, and monarchy generated a self-conscious conservative theory and a transnational politics of order.",
+          "stance": "Intransigent restorationism often provoked the revolutions it sought to prevent, while moderate conservatives turned toward reform as prevention.",
+          "acceptable_access": [
+            "Conservatism—origins in the French Revolution",
+            "Counter-revolutionary thought",
+            "Maistre, Joseph de",
+            "Right-wing politics",
+            "Burke",
+            "Gentz",
+            "Maistre, Joseph de--Considerations on France",
+            "Moderate conservatism--reform to prevent revolution",
+            "Throne, altar, and property"
+          ],
+          "document_pages": [
+            422,
+            423
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C017-S037"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C017-S037",
+          "label": "Birth of modern conservatism and counter-revolutionary ideology",
+          "meaning": "The revolutionary assault on property, hierarchy, religion, and monarchy generated a self-conscious conservative theory and a transnational politics of order.",
+          "stance": "Intransigent restorationism often provoked the revolutions it sought to prevent, while moderate conservatives turned toward reform as prevention.",
+          "acceptable_access": [
+            "Conservatism—origins in the French Revolution",
+            "Counter-revolutionary thought",
+            "Maistre, Joseph de",
+            "Right-wing politics",
+            "Burke",
+            "Gentz",
+            "Maistre, Joseph de--Considerations on France",
+            "Moderate conservatism--reform to prevent revolution",
+            "Throne, altar, and property"
+          ],
+          "document_pages": [
+            422,
+            423
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Great Britain's entry into war with France",
+      "priority": "major",
+      "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality. France formally declared war on Britain on 1 February 1793, and against the Dutch Republic in the same Convention session.",
+      "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+      "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+      "acceptable_access": [
+        "Great Britain's entry into war with France",
+        "Great Britain, entry into French Revolutionary War",
+        "Pitt, William, war with France",
+        "Belgium and the Scheldt, British policy",
+        "Louis XVI, execution and international war",
+        "Britain—Belgium policy",
+        "Scheldt—opening in 1792",
+        "Pitt—entry into war",
+        "Low Countries—British strategy",
+        "Britain—war with France, 1793",
+        "execution of Louis XVI—British reaction",
+        "Anglo-French break",
+        "war declarations—1 February 1793",
+        "Dutch Republic—war with France",
+        "Britain—French declaration of war"
+      ],
+      "evidence": [
+        {
+          "document_page": 200,
+          "source_page_label": "200",
+          "locator_class": "principal",
+          "evidence_summary": "Explains British neutrality, Low Countries policy, the Scheldt crisis, Dutch fears, and fleet mobilization.",
+          "evidence_id": "EVID-SUCC-4BC566ED13A7",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        },
+        {
+          "document_page": 201,
+          "source_page_label": "201",
+          "locator_class": "principal",
+          "evidence_summary": "After public British support and failed secret negotiations, the French Convention unanimously declared war on Britain on 1 February 1793 and on the Dutch Republic in the same session.",
+          "evidence_id": "EVID-SUCC-175EB5E6CCFB",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        },
+        {
+          "document_page": 202,
+          "source_page_label": "202",
+          "locator_class": "supporting",
+          "evidence_summary": "Places British entry within diplomacy creating the wider anti-French coalition.",
+          "evidence_id": "EVID-SUCC-6D9CCF1C340D",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-009"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C009-S006",
+          "label": "Great Britain's entry into war with France",
+          "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality.",
+          "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+          "acceptable_access": [
+            "Great Britain's entry into war with France",
+            "Great Britain, entry into French Revolutionary War",
+            "Pitt, William, war with France",
+            "Belgium and the Scheldt, British policy",
+            "Louis XVI, execution and international war",
+            "Britain—Belgium policy",
+            "Scheldt—opening in 1792",
+            "Pitt—entry into war",
+            "Low Countries—British strategy",
+            "Britain—war with France, 1793",
+            "execution of Louis XVI—British reaction",
+            "Anglo-French break",
+            "war declarations—1 February 1793",
+            "Dutch Republic—war with France",
+            "Britain—French declaration of war"
+          ],
+          "document_pages": [
+            200,
+            201,
+            202
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C009-S006"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C009-S006",
+          "label": "Great Britain's entry into war with France",
+          "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality.",
+          "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+          "acceptable_access": [
+            "Great Britain's entry into war with France",
+            "Great Britain, entry into French Revolutionary War",
+            "Pitt, William, war with France",
+            "Belgium and the Scheldt, British policy",
+            "Louis XVI, execution and international war",
+            "Britain—Belgium policy",
+            "Scheldt—opening in 1792",
+            "Pitt—entry into war",
+            "Low Countries—British strategy",
+            "Britain—war with France, 1793",
+            "execution of Louis XVI—British reaction",
+            "Anglo-French break",
+            "war declarations—1 February 1793",
+            "Dutch Republic—war with France",
+            "Britain—French declaration of war"
+          ],
+          "document_pages": [
+            200,
+            201,
+            202
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Education: revolutionary disruption and decline",
+      "priority": "major",
+      "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed. The 1795 constitution abandoned the declared educational right of 1793; departmental central schools and higher schools only partly replaced destroyed institutions, while primary schooling depended on local initiative without public funding. Comprehensive measures came only in 1802, after severe losses rather than as an immediate recovery.",
+      "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+      "subject_id": "SUBJ-SUCC-38D7478429CE",
+      "acceptable_access": [
+        "Education—effects of the French Revolution",
+        "Schools—revolutionary France",
+        "Literacy—decline",
+        "Education as a right",
+        "Central schools",
+        "Universities--suppression",
+        "Primary schools--funding and teacher shortages"
+      ],
+      "evidence": [
+        {
+          "document_page": 399,
+          "source_page_label": "399",
+          "locator_class": "principal",
+          "evidence_summary": "Lost funding, dismissed or diverted teachers and institutional dissolution created an educational vacuum. The Directory supplied central and higher schools but left primary education unfunded locally; comprehensive measures waited until 1802, and enrolment and literacy declined.",
+          "evidence_id": "EVID-SUCC-AD5D49E53C2D",
+          "source_local_subject_id": "SUCC-C017-S009",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "evidence_id": "EVID-SUCC-CB4FEB471BAB",
+          "source_evidence_id": "EVID-4D65E1C7A2FA",
+          "document_page": 398,
+          "source_page_label": "398",
+          "locator_class": "supporting",
+          "evidence_summary": "The break with clerical control left education as a major social function requiring rational reconstruction.",
+          "provenance": {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S018",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+            "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+          },
+          "source_local_subject_id": "SUCC-C017-S009",
+          "source_chunk_id": "CHUNK-017",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-8F180B970560",
+            "evidence_id": "EVID-8792E26B0636"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-017"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C017-S009",
+          "label": "Education: revolutionary disruption and decline",
+          "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed.",
+          "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+          "acceptable_access": [
+            "Education—effects of the French Revolution",
+            "Schools—revolutionary France",
+            "Literacy—decline",
+            "Education as a right",
+            "Central schools",
+            "Universities--suppression",
+            "Primary schools--funding and teacher shortages"
+          ],
+          "document_pages": [
+            399
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C017-S009"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C017-S009",
+          "label": "Education: revolutionary disruption and decline",
+          "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed.",
+          "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+          "acceptable_access": [
+            "Education—effects of the French Revolution",
+            "Schools—revolutionary France",
+            "Literacy—decline",
+            "Education as a right",
+            "Central schools",
+            "Universities--suppression",
+            "Primary schools--funding and teacher shortages"
+          ],
+          "document_pages": [
+            399
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Enlightenment origins and the project of national regeneration",
+      "priority": "essential",
+      "meaning": "An enlarged educated and critical reading public, with an expanding market for ideas, undermined confidence in a monarchy too little adapted to changing expectations. The rapid state collapse was nevertheless unexpected and unplanned. Once it began, the Estates-General and cahier drafting invited people far beyond the educated elite to imagine remedies for grievances. Enlightened leaders then pursued a rational, just and humane project of national regeneration.",
+      "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress. Criticism did not amount to a predesigned revolutionary replacement; widening participation followed the unexpected opening.",
+      "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "acceptable_access": [
+        "French Revolution—Enlightenment origins",
+        "Enlightenment—French Revolution",
+        "National regeneration",
+        "Estates-General and cahiers--unanticipated political opening",
+        "Jacobin clubs--enlightened regeneration"
+      ],
+      "evidence": [
+        {
+          "document_page": 392,
+          "source_page_label": "392",
+          "locator_class": "principal",
+          "evidence_summary": "Educational growth and critical public opinion supplied the intellectual setting for the collapse of confidence in the old monarchy.",
+          "evidence_id": "EVID-SUCC-4CAD5EE2C641",
+          "source_local_subject_id": "SUCC-C017-S002",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 393,
+          "source_page_label": "393",
+          "locator_class": "principal",
+          "evidence_summary": "Unexpected state collapse opened possibilities rather than fulfilling a prior plan. The Estates-General and cahiers broadened discussion beyond educated elites, while the Assembly and Jacobin clubs pursued enlightened regeneration.",
+          "evidence_id": "EVID-SUCC-774A02DA7F30",
+          "source_local_subject_id": "SUCC-C017-S002",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-017"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C017-S002",
+          "label": "Enlightenment origins and the project of national regeneration",
+          "meaning": "The Revolution began as an intellectual project led by an enlarged educated public seeking rational, just, and humane regeneration after the monarchy's crisis.",
+          "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress.",
+          "acceptable_access": [
+            "French Revolution—Enlightenment origins",
+            "Enlightenment—French Revolution",
+            "National regeneration",
+            "Estates-General and cahiers--unanticipated political opening",
+            "Jacobin clubs--enlightened regeneration"
+          ],
+          "document_pages": [
+            392,
+            393
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C017-S002"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C017-S002",
+          "label": "Enlightenment origins and the project of national regeneration",
+          "meaning": "The Revolution began as an intellectual project led by an enlarged educated public seeking rational, just, and humane regeneration after the monarchy's crisis.",
+          "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress.",
+          "acceptable_access": [
+            "French Revolution—Enlightenment origins",
+            "Enlightenment—French Revolution",
+            "National regeneration",
+            "Estates-General and cahiers--unanticipated political opening",
+            "Jacobin clubs--enlightened regeneration"
+          ],
+          "document_pages": [
+            392,
+            393
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "The French Revolution as modern archetype and cultural tragedy",
+      "priority": "essential",
+      "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre.",
+      "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure.",
+      "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+      "acceptable_access": [
+        "French Revolution—historical significance",
+        "French Revolution—cultural transformation",
+        "French Revolution—tragedy",
+        "Modern revolution—archetype",
+        "Human cost--Revolution and Napoleonic aftermath",
+        "French and foreign deaths",
+        "Ruined lives--beyond mortality counts",
+        "Enlightenment reason--limits and unintended consequences"
+      ],
+      "evidence": [
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter calls it the first modern and archetypal revolution whose influence made the post-1789 European world fundamentally different.",
+          "evidence_id": "EVID-SUCC-5E5A72B85569",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "supporting",
+          "evidence_summary": "Distinctive ideology, popular democracy, mass war and Terror transformed political change. The source distinguishes familiar massacres from the shocking novelty of systematic government execution in a society renowned for humane civilization.",
+          "evidence_id": "EVID-SUCC-F00566767CCC",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 425,
+          "source_page_label": "425",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The conclusion estimates about a million French deaths by 1802, another million under Napoleon and further deaths abroad, alongside uncounted ruined lives. These costs qualify the founders’ courage and idealism within a deliberately tragic cultural assessment.",
+          "evidence_id": "EVID-SUCC-BF0D8B25B1FA",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-017"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C017-S039",
+          "label": "The French Revolution as modern archetype and cultural tragedy",
+          "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad.",
+          "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure.",
+          "acceptable_access": [
+            "French Revolution—historical significance",
+            "French Revolution—cultural transformation",
+            "French Revolution—tragedy",
+            "Modern revolution—archetype",
+            "Human cost--Revolution and Napoleonic aftermath",
+            "French and foreign deaths",
+            "Ruined lives--beyond mortality counts",
+            "Enlightenment reason--limits and unintended consequences"
+          ],
+          "document_pages": [
+            423,
+            424,
+            425
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C017-S039"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C017-S039",
+          "label": "The French Revolution as modern archetype and cultural tragedy",
+          "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad.",
+          "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure.",
+          "acceptable_access": [
+            "French Revolution—historical significance",
+            "French Revolution—cultural transformation",
+            "French Revolution—tragedy",
+            "Modern revolution—archetype",
+            "Human cost--Revolution and Napoleonic aftermath",
+            "French and foreign deaths",
+            "Ruined lives--beyond mortality counts",
+            "Enlightenment reason--limits and unintended consequences"
+          ],
+          "document_pages": [
+            423,
+            424,
+            425
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Agriculture: limited gains and persistent inertia",
+      "priority": "major",
+      "meaning": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and little innovation beyond wider potato cultivation. Landlords replaced lost feudal income with higher rents and were allowed to add the abolished tithe’s equivalent, limiting tenants’ gains and helping explain persistent resistance in leaseholding regions.",
+      "stance": "Agriculture fed more people by 1802 but remained structurally and productively close to its pre-revolutionary condition until the railway era.",
+      "subject_id": "SUBJ-SUCC-60B96F147FEF",
+      "acceptable_access": [
+        "Agriculture—effects of the French Revolution",
+        "Peasant holdings—continuity",
+        "Agricultural productivity",
+        "Tenant peasants--rent increases",
+        "Sharecropping",
+        "Inheritance fragmentation",
+        "Agriculture--livestock and military labour losses"
+      ],
+      "evidence": [
+        {
+          "document_page": 401,
+          "source_page_label": "401",
+          "locator_class": "supporting",
+          "evidence_summary": "Landlords raised rents to replace lost feudal revenue; from December 1790 they could add the abolished tithe’s equivalent. The source links this transfer of burdens to persistent resistance in leaseholding regions.",
+          "evidence_id": "EVID-SUCC-4271475CE321",
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 405,
+          "source_page_label": "405",
+          "locator_class": "principal",
+          "evidence_summary": "Small holdings, sharecropping, livestock losses, conscription, and minimal innovation limited agricultural transformation.",
+          "evidence_id": "EVID-SUCC-8534951B84CC",
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "evidence_id": "EVID-SUCC-5FD54E4C9FDB",
+          "source_evidence_id": "EVID-4DDA9F03F87A",
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "supporting",
+          "evidence_summary": "Agricultural inertia is cited as a structure the Revolution did not materially alter.",
+          "provenance": {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S026",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+            "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+          },
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-496AB8FD5DF5",
+            "evidence_id": "EVID-E776B6423EF8"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-017"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C017-S016",
+          "label": "Agriculture: limited gains and persistent inertia",
+          "meaning": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and little innovation beyond wider potato cultivation.",
+          "stance": "Agriculture fed more people by 1802 but remained structurally and productively close to its pre-revolutionary condition until the railway era.",
+          "acceptable_access": [
+            "Agriculture—effects of the French Revolution",
+            "Peasant holdings—continuity",
+            "Agricultural productivity",
+            "Tenant peasants--rent increases",
+            "Sharecropping",
+            "Inheritance fragmentation",
+            "Agriculture--livestock and military labour losses"
+          ],
+          "document_pages": [
+            401,
+            405
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C017-S016"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C017-S016",
+          "label": "Agriculture: limited gains and persistent inertia",
+          "meaning": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and little innovation beyond wider potato cultivation.",
+          "stance": "Agriculture fed more people by 1802 but remained structurally and productively close to its pre-revolutionary condition until the railway era.",
+          "acceptable_access": [
+            "Agriculture—effects of the French Revolution",
+            "Peasant holdings—continuity",
+            "Agricultural productivity",
+            "Tenant peasants--rent increases",
+            "Sharecropping",
+            "Inheritance fragmentation",
+            "Agriculture--livestock and military labour losses"
+          ],
+          "document_pages": [
+            401,
+            405
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Pétion, mayoralty and radical politics",
+      "priority": "optional",
+      "meaning": "Pétion's election as Paris mayor, conduct during 20 June, suspension and restoration, role in the deposition demand, and later divergence from Robespierre place him at several turning points. His successful motion for a formal trial of Louis placed him against Robespierre’s argument that the king had already been judged by the people on 10 August.",
+      "stance": "His position shifted within the radical camp and cannot be reduced to a consistent Robespierrist alignment.",
+      "subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+      "acceptable_access": [
+        "Pétion, mayoralty and radical politics",
+        "Pétion, Jérôme—mayor of Paris",
+        "Pétion—20 June and 10 August",
+        "Pétion—trial of Louis XVI",
+        "Petion",
+        "Petion, mayor of Paris",
+        "Petion and 20 June"
+      ],
+      "evidence": [
+        {
+          "document_page": 176,
+          "source_page_label": "176",
+          "locator_class": "supporting",
+          "evidence_summary": "Pétion defeats Lafayette decisively to become mayor of Paris.",
+          "evidence_id": "EVID-SUCC-768E43D77C97",
+          "source_local_subject_id": "SUCC-C008-S034",
+          "source_chunk_id": "CHUNK-008"
+        },
+        {
+          "document_page": 186,
+          "source_page_label": "186",
+          "locator_class": "principal",
+          "evidence_summary": "He disperses the 20 June demonstrators, is suspended for failing to prevent the event, and becomes a popular rallying cause.",
+          "evidence_id": "EVID-SUCC-7DF0555AD4FC",
+          "source_local_subject_id": "SUCC-C008-S034",
+          "source_chunk_id": "CHUNK-008"
+        },
+        {
+          "document_page": 187,
+          "source_page_label": "187",
+          "locator_class": "principal",
+          "evidence_summary": "His restoration becomes a demand of federes and a concession around the 14 July festival.",
+          "evidence_id": "EVID-SUCC-31C09223F654",
+          "source_local_subject_id": "SUCC-C008-S034",
+          "source_chunk_id": "CHUNK-008"
+        },
+        {
+          "document_page": 188,
+          "source_page_label": "188",
+          "locator_class": "principal",
+          "evidence_summary": "He presents the demand for the king's deposition in the name of the Paris sections.",
+          "evidence_id": "EVID-SUCC-AEBECA95E5B1",
+          "source_local_subject_id": "SUCC-C008-S034",
+          "source_chunk_id": "CHUNK-008"
+        },
+        {
+          "document_page": 195,
+          "source_page_label": "195",
+          "locator_class": "supporting",
+          "evidence_summary": "Now drifting from Robespierre, he moves that the Convention formally try the king.",
+          "evidence_id": "EVID-SUCC-78E710C09C37",
+          "source_local_subject_id": "SUCC-C008-S034",
+          "source_chunk_id": "CHUNK-008"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-008"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C008-S034",
+          "label": "Pétion, mayoralty and radical politics",
+          "meaning": "Pétion's election as Paris mayor, conduct during 20 June, suspension and restoration, role in the deposition demand, and later divergence from Robespierre place him at several turning points.",
+          "stance": "His position shifted within the radical camp and cannot be reduced to a consistent Robespierrist alignment.",
+          "acceptable_access": [
+            "Pétion, mayoralty and radical politics",
+            "Pétion, Jérôme—mayor of Paris",
+            "Pétion—20 June and 10 August",
+            "Pétion—trial of Louis XVI",
+            "Petion",
+            "Petion, mayor of Paris",
+            "Petion and 20 June"
+          ],
+          "document_pages": [
+            176,
+            186,
+            187,
+            188,
+            195
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C008-S034"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C008-S034",
+          "label": "Pétion, mayoralty and radical politics",
+          "meaning": "Pétion's election as Paris mayor, conduct during 20 June, suspension and restoration, role in the deposition demand, and later divergence from Robespierre place him at several turning points.",
+          "stance": "His position shifted within the radical camp and cannot be reduced to a consistent Robespierrist alignment.",
+          "acceptable_access": [
+            "Pétion, mayoralty and radical politics",
+            "Pétion, Jérôme—mayor of Paris",
+            "Pétion—20 June and 10 August",
+            "Pétion—trial of Louis XVI",
+            "Petion",
+            "Petion, mayor of Paris",
+            "Petion and 20 June"
+          ],
+          "document_pages": [
+            176,
+            186,
+            187,
+            188,
+            195
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Bonaparte's religious policy and the road to reconciliation with Rome",
+      "priority": "major",
+      "meaning": "Bonaparte's pragmatic recognition of religion's political power, his conciliatory treatment of Catholic practice, and his use of Church reconciliation to stabilize France. Pius VI’s captive death encouraged a mistaken Parisian expectation that the papacy would disappear; the Venetian conclave and election of Pius VII demonstrated institutional resilience and opened a more promising path to reconciliation.",
+      "stance": "Personally unbelieving but politically realistic, Bonaparte treats religion as a durable source of morality, obedience, and legitimacy rather than as a doctrine to destroy.",
+      "subject_id": "SUBJ-SUCC-F7E85272CDFE",
+      "acceptable_access": [
+        "Bonaparte, Napoleon -- religious policy",
+        "Catholic Church -- reconciliation with the Consulate",
+        "Religion -- political utility",
+        "Pius VI--death and mistaken predictions of papal extinction",
+        "Catholic revival after 1795",
+        "Bonaparte--Islam in Egypt",
+        "Sunday--restoration and décadi abandonment",
+        "Religion--morality and government"
+      ],
+      "evidence": [
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "principal",
+          "evidence_summary": "Pius VI’s death in French captivity led many in Paris to expect no successor and institutional collapse. Bonaparte, unlike these anticlerical observers, recognized the continuing power and resilience of religion.",
+          "evidence_id": "EVID-SUCC-FBA798BCCC80",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "principal",
+          "evidence_summary": "The Venetian conclave elected the pragmatic Pius VII, refuting expectations that Pius VI would be the last pope. Bonaparte’s restraint, restored Sunday practice and Catholic assurances prepared negotiations.",
+          "evidence_id": "EVID-SUCC-944F35AE5E1D",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Reconciliation is intended to separate religion from counter-revolution and conciliate populations incorporated into France.",
+          "evidence_id": "EVID-SUCC-37D1BFEF6EFA",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "evidence_id": "EVID-SUCC-8F7FAA3A801E",
+          "source_evidence_id": "EVID-DCE9A9D7D87E",
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Restored public worship becomes one of the settlements celebrated as the Revolution's burial.",
+          "provenance": {
+            "chunk_id": "CHUNK-016",
+            "local_subject_id": "CH16-SUBJ-049",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+            "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+          },
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-94BF9A8D280B",
+            "evidence_id": "EVID-3848ECA3AC37"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        },
+        {
+          "evidence_id": "EVID-SUCC-F3CC38D4F7DC",
+          "source_evidence_id": "EVID-616C59C0E484",
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "A solemn Easter mass at Notre-Dame publicly marks the restored Church and the perceived end of revolutionary conflict.",
+          "provenance": {
+            "chunk_id": "CHUNK-016",
+            "local_subject_id": "CH16-SUBJ-057",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+            "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+          },
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-34DA2C4094B4",
+            "evidence_id": "EVID-EEE02367AAE7"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-016"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C016-S028",
+          "label": "Bonaparte's religious policy and the road to reconciliation with Rome",
+          "meaning": "Bonaparte's pragmatic recognition of religion's political power, his conciliatory treatment of Catholic practice, and his use of Church reconciliation to stabilize France.",
+          "stance": "Personally unbelieving but politically realistic, Bonaparte treats religion as a durable source of morality, obedience, and legitimacy rather than as a doctrine to destroy.",
+          "acceptable_access": [
+            "Bonaparte, Napoleon -- religious policy",
+            "Catholic Church -- reconciliation with the Consulate",
+            "Religion -- political utility",
+            "Pius VI--death and mistaken predictions of papal extinction",
+            "Catholic revival after 1795",
+            "Bonaparte--Islam in Egypt",
+            "Sunday--restoration and décadi abandonment",
+            "Religion--morality and government"
+          ],
+          "document_pages": [
+            385,
+            386,
+            387
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C016-S028"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C016-S028",
+          "label": "Bonaparte's religious policy and the road to reconciliation with Rome",
+          "meaning": "Bonaparte's pragmatic recognition of religion's political power, his conciliatory treatment of Catholic practice, and his use of Church reconciliation to stabilize France.",
+          "stance": "Personally unbelieving but politically realistic, Bonaparte treats religion as a durable source of morality, obedience, and legitimacy rather than as a doctrine to destroy.",
+          "acceptable_access": [
+            "Bonaparte, Napoleon -- religious policy",
+            "Catholic Church -- reconciliation with the Consulate",
+            "Religion -- political utility",
+            "Pius VI--death and mistaken predictions of papal extinction",
+            "Catholic revival after 1795",
+            "Bonaparte--Islam in Egypt",
+            "Sunday--restoration and décadi abandonment",
+            "Religion--morality and government"
+          ],
+          "document_pages": [
+            385,
+            386,
+            387
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Helvetic Republic: French intervention and imposed constitution",
+      "priority": "major",
+      "meaning": "French conquest of northern Italy made Swiss Alpine communications strategically important. Ochs sought a unitary state partly to resist domination by France or Austria, while La Harpe promoted Vaud’s liberation from Berne; these aims were not identical with consent to a Swiss-wide settlement. French intervention against Berne and local resistance produced an imposed Helvetic constitution without national ratification or broad cantonal consent. French forces impounded city treasuries and gained lasting access to the passes, reversing the reformers’ hope of protection from external domination.",
+      "stance": "French strategic needs and Swiss reformers' centralizing plans overrode older cantonal freedoms and local aims. Distinguish Ochs’s protective-centralization rationale, La Harpe’s Vaud campaign, local liberation aims and the eventual imposed state; Berne is a specific intervention, not a synonym for all Switzerland.",
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "acceptable_access": [
+        "Helvetic Republic—creation",
+        "Switzerland—French invasion, 1798",
+        "Swiss constitution of 1798",
+        "Alpine passes--French strategic communications",
+        "Ochs, Peter",
+        "La Harpe, Frédéric-César de",
+        "Vaud--emancipation from Berne",
+        "Mulhouse and Geneva--French annexation"
+      ],
+      "evidence": [
+        {
+          "document_page": 354,
+          "source_page_label": "354",
+          "locator_class": "principal",
+          "evidence_summary": "The Alpine routes to occupied Italy transformed Swiss strategic value. Ochs proposed centralization as protection against great powers; La Harpe pursued Vaud’s release from Berne, while local revolts did not generally share a Swiss-wide unitary goal.",
+          "evidence_id": "EVID-SUCC-EBBD37CFC492",
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 355,
+          "source_page_label": "355",
+          "locator_class": "principal",
+          "evidence_summary": "Brune was ordered to occupy Berne; French intervention suppressed resistance and imposed the Helvetic constitution without a ratifying convention. Cantonal refusal required further coercion, and access to Alpine passes entrenched French presence.",
+          "evidence_id": "EVID-SUCC-8304B419D86B",
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "evidence_id": "EVID-SUCC-B16836890975",
+          "source_evidence_id": "EVID-B89FF948822F",
+          "document_page": 355,
+          "source_page_label": "355",
+          "locator_class": "supporting",
+          "evidence_summary": "Despite promises against requisitions, Swiss city treasuries were impounded for French military purposes and war taxes imposed; the centralized client republic’s dependence contradicted hopes of protection from external domination.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S013",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-9A050CC31262",
+            "evidence_id": "EVID-4426332A6035"
+          },
+          "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-015"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C015-S021",
+          "label": "Helvetic Republic: French intervention and imposed constitution",
+          "meaning": "The strategic origins, invasion, creation, and imposed centralized constitution of the Helvetic Republic in 1798.",
+          "stance": "French strategic needs and Swiss reformers' centralizing plans overrode older cantonal freedoms and local aims.",
+          "acceptable_access": [
+            "Helvetic Republic—creation",
+            "Switzerland—French invasion, 1798",
+            "Swiss constitution of 1798",
+            "Alpine passes--French strategic communications",
+            "Ochs, Peter",
+            "La Harpe, Frédéric-César de",
+            "Vaud--emancipation from Berne",
+            "Mulhouse and Geneva--French annexation"
+          ],
+          "document_pages": [
+            354,
+            355
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C015-S021"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C015-S021",
+          "label": "Helvetic Republic: French intervention and imposed constitution",
+          "meaning": "The strategic origins, invasion, creation, and imposed centralized constitution of the Helvetic Republic in 1798.",
+          "stance": "French strategic needs and Swiss reformers' centralizing plans overrode older cantonal freedoms and local aims.",
+          "acceptable_access": [
+            "Helvetic Republic—creation",
+            "Switzerland—French invasion, 1798",
+            "Swiss constitution of 1798",
+            "Alpine passes--French strategic communications",
+            "Ochs, Peter",
+            "La Harpe, Frédéric-César de",
+            "Vaud--emancipation from Berne",
+            "Mulhouse and Geneva--French annexation"
+          ],
+          "document_pages": [
+            354,
+            355
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Financial stabilization and the Bank of France",
+      "priority": "major",
+      "meaning": "The Consulate's establishment of the Bank of France, regular cash payment of state debt, improved tax collection, rising public credit, and balanced budget claim. Establishing the Bank broke with a long legacy of suspicion of banking; it was one element in recovery, alongside debt service and collection reform.",
+      "stance": "Fiscal control visibly improved and became self-reinforcing, although the text explicitly cautions that the foundations of the achievement were not yet secure.",
+      "subject_id": "SUBJ-SUCC-B3CD4CF67D8E",
+      "acceptable_access": [
+        "Bank of France -- foundation",
+        "Public credit -- Consulate",
+        "Tax collection -- reform under Bonaparte",
+        "Balanced budget -- 1802"
+      ],
+      "evidence": [
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "Creation of the Bank of France abandoned a long period of suspicion of banking. Reliable cash debt service, revived collection and the balanced-budget claim reinforced apparent financial control, whose foundations remained uncertain.",
+          "evidence_id": "EVID-SUCC-D2B82637F33F",
+          "source_local_subject_id": "SUCC-C016-S025",
+          "source_chunk_id": "CHUNK-016"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-016"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C016-S025",
+          "label": "Financial stabilization and the Bank of France",
+          "meaning": "The Consulate's establishment of the Bank of France, regular cash payment of state debt, improved tax collection, rising public credit, and balanced budget claim.",
+          "stance": "Fiscal control visibly improved and became self-reinforcing, although the text explicitly cautions that the foundations of the achievement were not yet secure.",
+          "acceptable_access": [
+            "Bank of France -- foundation",
+            "Public credit -- Consulate",
+            "Tax collection -- reform under Bonaparte",
+            "Balanced budget -- 1802"
+          ],
+          "document_pages": [
+            384
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C016-S025"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C016-S025",
+          "label": "Financial stabilization and the Bank of France",
+          "meaning": "The Consulate's establishment of the Bank of France, regular cash payment of state debt, improved tax collection, rising public credit, and balanced budget claim.",
+          "stance": "Fiscal control visibly improved and became self-reinforcing, although the text explicitly cautions that the foundations of the achievement were not yet secure.",
+          "acceptable_access": [
+            "Bank of France -- foundation",
+            "Public credit -- Consulate",
+            "Tax collection -- reform under Bonaparte",
+            "Balanced budget -- 1802"
+          ],
+          "document_pages": [
+            384
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Batavian Republic: constitutional reconstruction, 1795-1798",
+      "priority": "major",
+      "meaning": "The prolonged replacement of the Dutch ancien régime by a unitary, representative Batavian constitution. Federalists defended inherited provincial autonomy while unitarians sought a centralized national constitution; their conflict produced deadlock before French-backed purges enabled a unitary outcome.",
+      "stance": "A genuinely democratic project emerged from an existing representative tradition, after deadlock and French-backed coercion. Regular elections and relatively wide internal autonomy distinguish the Batavian case; these do not amount to independent foreign policy. The supplied page344 says “Two years” after conquest while its surrounding chronology runs from 1795 to 1798; do not infer a corrected elapsed interval.",
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "acceptable_access": [
+        "Batavian Republic—constitution",
+        "Netherlands—unitary state",
+        "Dutch constitutional reform, 1795-1798",
+        "Batavian Constitution of 1798",
+        "Federalists and unitarians--Netherlands",
+        "Guilds and established Church--Dutch constitutional reform",
+        "Batavian Republic--male suffrage and regular elections"
+      ],
+      "evidence": [
+        {
+          "document_page": 343,
+          "source_page_label": "343",
+          "locator_class": "principal",
+          "evidence_summary": "Patriots sought to replace the Union of Utrecht but split between Federalist provincial autonomy and a unitary national state, immobilizing the Convention elected in 1796.",
+          "evidence_id": "EVID-SUCC-877D2B07602C",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 344,
+          "source_page_label": "344",
+          "locator_class": "principal",
+          "evidence_summary": "The rejected 1797 draft, January 1798 purge, and approved 1798 constitution established a unitary republic.",
+          "evidence_id": "EVID-SUCC-7552A25A4687",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "After the June coup and elections, constitutional government functioned with regular elections until 1800.",
+          "evidence_id": "EVID-SUCC-CDEAA28824C3",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-015"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C015-S010",
+          "label": "Batavian Republic: constitutional reconstruction, 1795-1798",
+          "meaning": "The prolonged replacement of the Dutch ancien régime by a unitary, representative Batavian constitution.",
+          "stance": "A genuinely democratic project emerged from an existing representative tradition, after deadlock and French-backed coercion. Regular elections and relatively wide internal autonomy distinguish the Batavian case; these do not amount to independent foreign policy. The supplied page344 says “Two years” after conquest while its surrounding chronology runs from 1795 to 1798; do not infer a corrected elapsed interval.",
+          "acceptable_access": [
+            "Batavian Republic—constitution",
+            "Netherlands—unitary state",
+            "Dutch constitutional reform, 1795-1798",
+            "Batavian Constitution of 1798",
+            "Federalists and unitarians--Netherlands",
+            "Guilds and established Church--Dutch constitutional reform",
+            "Batavian Republic--male suffrage and regular elections"
+          ],
+          "document_pages": [
+            343,
+            344,
+            346
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C015-S010"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C015-S010",
+          "label": "Batavian Republic: constitutional reconstruction, 1795-1798",
+          "meaning": "The prolonged replacement of the Dutch ancien régime by a unitary, representative Batavian constitution.",
+          "stance": "A genuinely democratic project emerged from an existing representative tradition, after deadlock and French-backed coercion. Regular elections and relatively wide internal autonomy distinguish the Batavian case; these do not amount to independent foreign policy. The supplied page344 says “Two years” after conquest while its surrounding chronology runs from 1795 to 1798; do not infer a corrected elapsed interval.",
+          "acceptable_access": [
+            "Batavian Republic—constitution",
+            "Netherlands—unitary state",
+            "Dutch constitutional reform, 1795-1798",
+            "Batavian Constitution of 1798",
+            "Federalists and unitarians--Netherlands",
+            "Guilds and established Church--Dutch constitutional reform",
+            "Batavian Republic--male suffrage and regular elections"
+          ],
+          "document_pages": [
+            343,
+            344,
+            346
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "French intervention and coups in the Batavian Republic",
+      "priority": "major",
+      "meaning": "French orchestration or approval of Dutch purges and coups to resolve political impasse and curb successive factions. The French Fructidor coup provided an explicit model for breaking Batavian deadlock by purging opponents, followed in January 1798.",
+      "stance": "France first supported a unitary purge and then accepted Daendels’s removal of self-perpetuating radicals. He restored the imprisoned Federalists rather than seizing power, and they held elections. Changing intervention served French control without erasing all domestic autonomy.",
+      "subject_id": "SUBJ-SUCC-3256F9538F44",
+      "acceptable_access": [
+        "Batavian Republic—French intervention",
+        "Dutch coups of 1798",
+        "France and Batavian politics",
+        "Daendels, Herman Willem",
+        "Batavian coup of June 1798",
+        "Batavian Directory--self-perpetuation"
+      ],
+      "evidence": [
+        {
+          "document_page": 344,
+          "source_page_label": "344",
+          "locator_class": "principal",
+          "evidence_summary": "Fructidor supplied the model for resolving political impasse: under French orchestration, troops surrounded the Convention and 22 Federalists were expelled on 22 January 1798.",
+          "evidence_id": "EVID-SUCC-4D7150ACDC51",
+          "source_local_subject_id": "SUCC-C015-S011",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "principal",
+          "evidence_summary": "Paris abandoned its radical ambassador and accepted Daendels's June overthrow of the Batavian Directory.",
+          "evidence_id": "EVID-SUCC-9199E65CF4B0",
+          "source_local_subject_id": "SUCC-C015-S011",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-015"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C015-S011",
+          "label": "French intervention and coups in the Batavian Republic",
+          "meaning": "French orchestration or approval of Dutch purges and coups to resolve political impasse and curb successive factions.",
+          "stance": "France first supported a unitary purge and then accepted Daendels’s removal of self-perpetuating radicals. He restored the imprisoned Federalists rather than seizing power, and they held elections. Changing intervention served French control without erasing all domestic autonomy.",
+          "acceptable_access": [
+            "Batavian Republic—French intervention",
+            "Dutch coups of 1798",
+            "France and Batavian politics",
+            "Daendels, Herman Willem",
+            "Batavian coup of June 1798",
+            "Batavian Directory--self-perpetuation"
+          ],
+          "document_pages": [
+            344,
+            346
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C015-S011"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C015-S011",
+          "label": "French intervention and coups in the Batavian Republic",
+          "meaning": "French orchestration or approval of Dutch purges and coups to resolve political impasse and curb successive factions.",
+          "stance": "France first supported a unitary purge and then accepted Daendels’s removal of self-perpetuating radicals. He restored the imprisoned Federalists rather than seizing power, and they held elections. Changing intervention served French control without erasing all domestic autonomy.",
+          "acceptable_access": [
+            "Batavian Republic—French intervention",
+            "Dutch coups of 1798",
+            "France and Batavian politics",
+            "Daendels, Herman Willem",
+            "Batavian coup of June 1798",
+            "Batavian Directory--self-perpetuation"
+          ],
+          "document_pages": [
+            344,
+            346
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Batavian Republic: economic and social costs of alliance with France",
+      "priority": "major",
+      "meaning": "The wartime destruction of Dutch commerce and industry and the domestic fiscal and welfare consequences of French alliance. British blockade and seizure of colonies cut supplies and markets, while occupation demands and discriminatory French tariffs added distinct costs and denied compensating access to France’s enlarged market.",
+      "stance": "Alliance imposed severe costs without compensating access to French markets, producing widespread disillusionment while leaving no practical foreign-policy alternative.",
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "acceptable_access": [
+        "Batavian Republic—economic conditions",
+        "Netherlands—French alliance costs",
+        "Dutch trade under blockade",
+        "Dutch poor relief--collapse",
+        "Dutch neutrality--impracticability",
+        "Prince of Orange--lack of popular restoration movement"
+      ],
+      "evidence": [
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "supporting",
+          "evidence_summary": "Heavier taxation, naval defeat, and invasion framed Dutch disillusionment.",
+          "evidence_id": "EVID-SUCC-28C63DACB433",
+          "source_local_subject_id": "SUCC-C015-S012",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 347,
+          "source_page_label": "347",
+          "locator_class": "principal",
+          "evidence_summary": "British blockade and colonial seizure disrupted Dutch supplies and industry. French occupation demands and tariff barriers separately denied compensating market access, while church-linked poor relief disruption aggravated unemployment and debt; neutrality or Orange restoration offered no credible independent alternative.",
+          "evidence_id": "EVID-SUCC-F0451D51357A",
+          "source_local_subject_id": "SUCC-C015-S012",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-015"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C015-S012",
+          "label": "Batavian Republic: economic and social costs of alliance with France",
+          "meaning": "The wartime destruction of Dutch commerce and industry and the domestic fiscal and welfare consequences of French alliance.",
+          "stance": "Alliance imposed severe costs without compensating access to French markets, producing widespread disillusionment while leaving no practical foreign-policy alternative.",
+          "acceptable_access": [
+            "Batavian Republic—economic conditions",
+            "Netherlands—French alliance costs",
+            "Dutch trade under blockade",
+            "Dutch poor relief--collapse",
+            "Dutch neutrality--impracticability",
+            "Prince of Orange--lack of popular restoration movement"
+          ],
+          "document_pages": [
+            346,
+            347
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C015-S012"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C015-S012",
+          "label": "Batavian Republic: economic and social costs of alliance with France",
+          "meaning": "The wartime destruction of Dutch commerce and industry and the domestic fiscal and welfare consequences of French alliance.",
+          "stance": "Alliance imposed severe costs without compensating access to French markets, producing widespread disillusionment while leaving no practical foreign-policy alternative.",
+          "acceptable_access": [
+            "Batavian Republic—economic conditions",
+            "Netherlands—French alliance costs",
+            "Dutch trade under blockade",
+            "Dutch poor relief--collapse",
+            "Dutch neutrality--impracticability",
+            "Prince of Orange--lack of popular restoration movement"
+          ],
+          "document_pages": [
+            346,
+            347
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Belgium: occupation, exploitation, and annexation, 1794-1795",
+      "priority": "major",
+      "meaning": "French treatment of reconquered Belgium as enemy territory, followed by administrative reorganization and incorporation into France. The Agency for Trade and Extraction coordinated removal of Belgian resources before complaints and concern for longer-term consequences prompted its dissolution in 1795.",
+      "stance": "Annexation ended extraordinary levies and rationalized government, but followed a year of destructive exploitation and committed France to contested natural frontiers.",
+      "subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "acceptable_access": [
+        "Belgium—French occupation and annexation",
+        "Belgian departments",
+        "French annexation of Belgium, 1795",
+        "Agency for Trade and Extraction",
+        "Natural frontiers--Belgium"
+      ],
+      "evidence": [
+        {
+          "document_page": 348,
+          "source_page_label": "348",
+          "locator_class": "principal",
+          "evidence_summary": "France treated reconquered Belgium as enemy territory and used the Agency for Trade and Extraction to coordinate removal of resources. Policy reversed toward nine departments and annexation on 1 October 1795, ending extraordinary levies.",
+          "evidence_id": "EVID-SUCC-970F5E89AFE1",
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 350,
+          "source_page_label": "350",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Later economic recovery is set against six preceding years of rapine and exploitation.",
+          "evidence_id": "EVID-SUCC-69C644CEE89E",
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3E73C926B8BA",
+          "source_evidence_id": "EVID-930DCD535468",
+          "document_page": 348,
+          "source_page_label": "348",
+          "locator_class": "supporting",
+          "evidence_summary": "Belgium moved from enemy occupation and extraction to departmental incorporation into France.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S013",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-9A050CC31262",
+            "evidence_id": "EVID-E995D5F679C4"
+          },
+          "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-015"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C015-S014",
+          "label": "Belgium: occupation, exploitation, and annexation, 1794-1795",
+          "meaning": "French treatment of reconquered Belgium as enemy territory, followed by administrative reorganization and incorporation into France.",
+          "stance": "Annexation ended extraordinary levies and rationalized government, but followed a year of destructive exploitation and committed France to contested natural frontiers.",
+          "acceptable_access": [
+            "Belgium—French occupation and annexation",
+            "Belgian departments",
+            "French annexation of Belgium, 1795",
+            "Agency for Trade and Extraction",
+            "Natural frontiers--Belgium"
+          ],
+          "document_pages": [
+            348,
+            350
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C015-S014"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C015-S014",
+          "label": "Belgium: occupation, exploitation, and annexation, 1794-1795",
+          "meaning": "French treatment of reconquered Belgium as enemy territory, followed by administrative reorganization and incorporation into France.",
+          "stance": "Annexation ended extraordinary levies and rationalized government, but followed a year of destructive exploitation and committed France to contested natural frontiers.",
+          "acceptable_access": [
+            "Belgium—French occupation and annexation",
+            "Belgian departments",
+            "French annexation of Belgium, 1795",
+            "Agency for Trade and Extraction",
+            "Natural frontiers--Belgium"
+          ],
+          "document_pages": [
+            348,
+            350
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "label": "Rhineland: annexation debate and administrative assimilation",
+      "priority": "major",
+      "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank. After Campo Formio, consent of the Empire was sought at the Congress of Rastadt and remained provisional while departmental administration already treated the territory as French.",
+      "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement.",
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "acceptable_access": [
+        "Rhineland—French annexation",
+        "Left bank of the Rhine",
+        "Cis-Rhenan Republic proposal"
+      ],
+      "evidence": [
+        {
+          "document_page": 351,
+          "source_page_label": "351",
+          "locator_class": "principal",
+          "evidence_summary": "The annexation debate, Hoche's sister-republic proposal, Campo Formio, Rastadt, and four-department assimilation are traced.",
+          "evidence_id": "EVID-SUCC-76D157B8BBE7",
+          "source_local_subject_id": "SUCC-C015-S018",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "evidence_id": "EVID-SUCC-177ACCCD53F5",
+          "source_evidence_id": "EVID-6A7FC4325970",
+          "document_page": 351,
+          "source_page_label": "351",
+          "locator_class": "supporting",
+          "evidence_summary": "The Rhineland remained diplomatically provisional while being administered increasingly as French territory.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S013",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S018",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-9A050CC31262",
+            "evidence_id": "EVID-4C939950B4F8"
+          },
+          "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+        },
+        {
+          "evidence_id": "EVID-SUCC-136F6F8CDFE1",
+          "source_evidence_id": "EVID-D0845B37ACB1",
+          "document_page": 352,
+          "source_page_label": "352",
+          "locator_class": "supporting",
+          "evidence_summary": "Unlike Belgium, the Rhineland lacked a native French-speaking population or a substantial Jacobin constituency to support incorporation.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S019",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S018",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-02DADFAF8019",
+            "evidence_id": "EVID-C2AD2EE80339"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-015"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C015-S018",
+          "label": "Rhineland: annexation debate and administrative assimilation",
+          "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank.",
+          "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement.",
+          "acceptable_access": [
+            "Rhineland—French annexation",
+            "Left bank of the Rhine",
+            "Cis-Rhenan Republic proposal"
+          ],
+          "document_pages": [
+            351
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C015-S018"
+      ],
+      "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C015-S018",
+          "label": "Rhineland: annexation debate and administrative assimilation",
+          "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank.",
+          "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement.",
+          "acceptable_access": [
+            "Rhineland—French annexation",
+            "Left bank of the Rhine",
+            "Cis-Rhenan Republic proposal"
+          ],
+          "document_pages": [
+            351
+          ],
+          "independently_weighted": false
+        }
+      ]
+    }
+  ],
+  "field_diffs": [
+    {
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "principal",
+          "evidence_summary": "Belgian rebels defended prescriptive liberties and the Joyous Entry while French patriots rejected privilege and sought a new order.",
+          "evidence_id": "EVID-SUCC-68FA42C86F06",
+          "source_local_subject_id": "SUCC-C007-S007",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The independent Belgian state's conservative structure quickly showed how little the two revolutions had in common.",
+          "evidence_id": "EVID-SUCC-40AAF6322AD3",
+          "source_local_subject_id": "SUCC-C007-S007",
+          "source_chunk_id": "CHUNK-007"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 162,
+          "source_page_label": "162",
+          "locator_class": "principal",
+          "evidence_summary": "Belgian rebels defended inherited liberties and the Joyous Entry, unlike French reconstruction. Church-funded Pro Aris et Focis and exile leaders organized an invasion drawing insurgents from both the Dutch frontier and Liège.",
+          "evidence_id": "EVID-SUCC-68FA42C86F06",
+          "source_local_subject_id": "SUCC-C007-S007",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 163,
+          "source_page_label": "163",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The independent Belgian state's conservative structure quickly showed how little the two revolutions had in common.",
+          "evidence_id": "EVID-SUCC-40AAF6322AD3",
+          "source_local_subject_id": "SUCC-C007-S007",
+          "source_chunk_id": "CHUNK-007"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "field": "meaning",
+      "before": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction.",
+      "after": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction. The invading insurgents included men from Liège, linking the movements organizationally without making their aims identical."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-46CEA9999339",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 422,
+          "source_page_label": "422",
+          "locator_class": "principal",
+          "evidence_summary": "Burke, Gentz, and Maistre formulated defenses of throne, altar, property, and hierarchy against revolutionary ideology.",
+          "evidence_id": "EVID-SUCC-EF676AFFB327",
+          "source_local_subject_id": "SUCC-C017-S037",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Repressive intransigence spread across frontiers but drove blocked reformers toward renewed revolution; moderates favored reform instead.",
+          "evidence_id": "EVID-SUCC-A480F570D449",
+          "source_local_subject_id": "SUCC-C017-S037",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 422,
+          "source_page_label": "422",
+          "locator_class": "principal",
+          "evidence_summary": "Burke, Gentz and de Maistre developed explicit conservative arguments. De Maistre interpreted revolutionary history as a warning against abstract freedom and rationality and urged vigilant restoration of aristocracy, throne and altar.",
+          "evidence_id": "EVID-SUCC-EF676AFFB327",
+          "source_local_subject_id": "SUCC-C017-S037",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Repressive intransigence spread across frontiers but drove blocked reformers toward renewed revolution; moderates favored reform instead.",
+          "evidence_id": "EVID-SUCC-A480F570D449",
+          "source_local_subject_id": "SUCC-C017-S037",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-46CEA9999339",
+      "field": "meaning",
+      "before": "The revolutionary assault on property, hierarchy, religion, and monarchy generated a self-conscious conservative theory and a transnational politics of order.",
+      "after": "The revolutionary assault on property, hierarchy, religion, and monarchy generated a self-conscious conservative theory and a transnational politics of order. De Maistre diagnosed abstract freedom and rationalism as sources of chaos and prescribed restoration of aristocracy, monarchy and above all Catholic religion, guarded vigilantly against renewed subversion."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 200,
+          "source_page_label": "200",
+          "locator_class": "principal",
+          "evidence_summary": "Explains British neutrality, Low Countries policy, the Scheldt crisis, Dutch fears, and fleet mobilization.",
+          "evidence_id": "EVID-SUCC-4BC566ED13A7",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        },
+        {
+          "document_page": 201,
+          "source_page_label": "201",
+          "locator_class": "principal",
+          "evidence_summary": "Shows public support, failed secret negotiations, and France's declarations of war on Britain and the Dutch Republic.",
+          "evidence_id": "EVID-SUCC-175EB5E6CCFB",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        },
+        {
+          "document_page": 202,
+          "source_page_label": "202",
+          "locator_class": "supporting",
+          "evidence_summary": "Places British entry within diplomacy creating the wider anti-French coalition.",
+          "evidence_id": "EVID-SUCC-6D9CCF1C340D",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 200,
+          "source_page_label": "200",
+          "locator_class": "principal",
+          "evidence_summary": "Explains British neutrality, Low Countries policy, the Scheldt crisis, Dutch fears, and fleet mobilization.",
+          "evidence_id": "EVID-SUCC-4BC566ED13A7",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        },
+        {
+          "document_page": 201,
+          "source_page_label": "201",
+          "locator_class": "principal",
+          "evidence_summary": "After public British support and failed secret negotiations, the French Convention unanimously declared war on Britain on 1 February 1793 and on the Dutch Republic in the same session.",
+          "evidence_id": "EVID-SUCC-175EB5E6CCFB",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        },
+        {
+          "document_page": 202,
+          "source_page_label": "202",
+          "locator_class": "supporting",
+          "evidence_summary": "Places British entry within diplomacy creating the wider anti-French coalition.",
+          "evidence_id": "EVID-SUCC-6D9CCF1C340D",
+          "source_local_subject_id": "SUCC-C009-S006",
+          "source_chunk_id": "CHUNK-009"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+      "field": "meaning",
+      "before": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality.",
+      "after": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality. France formally declared war on Britain on 1 February 1793, and against the Dutch Republic in the same Convention session."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-38D7478429CE",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 399,
+          "source_page_label": "399",
+          "locator_class": "principal",
+          "evidence_summary": "Institutional dissolution, confiscation, and inadequate replacement reduced college attendance and basic literacy despite ambitious plans.",
+          "evidence_id": "EVID-SUCC-AD5D49E53C2D",
+          "source_local_subject_id": "SUCC-C017-S009",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "evidence_id": "EVID-SUCC-CB4FEB471BAB",
+          "source_evidence_id": "EVID-4D65E1C7A2FA",
+          "document_page": 398,
+          "source_page_label": "398",
+          "locator_class": "supporting",
+          "evidence_summary": "The break with clerical control left education as a major social function requiring rational reconstruction.",
+          "provenance": {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S018",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+            "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+          },
+          "source_local_subject_id": "SUCC-C017-S009",
+          "source_chunk_id": "CHUNK-017",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-8F180B970560",
+            "evidence_id": "EVID-8792E26B0636"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ],
+      "after": [
+        {
+          "document_page": 399,
+          "source_page_label": "399",
+          "locator_class": "principal",
+          "evidence_summary": "Lost funding, dismissed or diverted teachers and institutional dissolution created an educational vacuum. The Directory supplied central and higher schools but left primary education unfunded locally; comprehensive measures waited until 1802, and enrolment and literacy declined.",
+          "evidence_id": "EVID-SUCC-AD5D49E53C2D",
+          "source_local_subject_id": "SUCC-C017-S009",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "evidence_id": "EVID-SUCC-CB4FEB471BAB",
+          "source_evidence_id": "EVID-4D65E1C7A2FA",
+          "document_page": 398,
+          "source_page_label": "398",
+          "locator_class": "supporting",
+          "evidence_summary": "The break with clerical control left education as a major social function requiring rational reconstruction.",
+          "provenance": {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S018",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+            "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+          },
+          "source_local_subject_id": "SUCC-C017-S009",
+          "source_chunk_id": "CHUNK-017",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-8F180B970560",
+            "evidence_id": "EVID-8792E26B0636"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-38D7478429CE",
+      "field": "meaning",
+      "before": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed.",
+      "after": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed. The 1795 constitution abandoned the declared educational right of 1793; departmental central schools and higher schools only partly replaced destroyed institutions, while primary schooling depended on local initiative without public funding. Comprehensive measures came only in 1802, after severe losses rather than as an immediate recovery."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 392,
+          "source_page_label": "392",
+          "locator_class": "principal",
+          "evidence_summary": "Educational growth and critical public opinion supplied the intellectual setting for the collapse of confidence in the old monarchy.",
+          "evidence_id": "EVID-SUCC-4CAD5EE2C641",
+          "source_local_subject_id": "SUCC-C017-S002",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 393,
+          "source_page_label": "393",
+          "locator_class": "principal",
+          "evidence_summary": "The Estates-General, cahiers, National Assembly, and Jacobin clubs widened a program of enlightened national regeneration.",
+          "evidence_id": "EVID-SUCC-774A02DA7F30",
+          "source_local_subject_id": "SUCC-C017-S002",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 392,
+          "source_page_label": "392",
+          "locator_class": "principal",
+          "evidence_summary": "Educational growth and critical public opinion supplied the intellectual setting for the collapse of confidence in the old monarchy.",
+          "evidence_id": "EVID-SUCC-4CAD5EE2C641",
+          "source_local_subject_id": "SUCC-C017-S002",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 393,
+          "source_page_label": "393",
+          "locator_class": "principal",
+          "evidence_summary": "Unexpected state collapse opened possibilities rather than fulfilling a prior plan. The Estates-General and cahiers broadened discussion beyond educated elites, while the Assembly and Jacobin clubs pursued enlightened regeneration.",
+          "evidence_id": "EVID-SUCC-774A02DA7F30",
+          "source_local_subject_id": "SUCC-C017-S002",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "field": "meaning",
+      "before": "The Revolution began as an intellectual project led by an enlarged educated public seeking rational, just, and humane regeneration after the monarchy's crisis.",
+      "after": "An enlarged educated and critical reading public, with an expanding market for ideas, undermined confidence in a monarchy too little adapted to changing expectations. The rapid state collapse was nevertheless unexpected and unplanned. Once it began, the Estates-General and cahier drafting invited people far beyond the educated elite to imagine remedies for grievances. Enlightened leaders then pursued a rational, just and humane project of national regeneration."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "field": "stance",
+      "before": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress.",
+      "after": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress. Criticism did not amount to a predesigned revolutionary replacement; widening participation followed the unexpected opening."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter calls it the first modern and archetypal revolution whose influence made the post-1789 European world fundamentally different.",
+          "evidence_id": "EVID-SUCC-5E5A72B85569",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "supporting",
+          "evidence_summary": "Distinctive ideology, popular democracy, mass war, and Terror transformed the meaning of political change.",
+          "evidence_id": "EVID-SUCC-F00566767CCC",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 425,
+          "source_page_label": "425",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The conclusion estimates about a million French deaths by 1802, another million under Napoleon and further deaths abroad, alongside uncounted ruined lives. These costs qualify the founders’ courage and idealism within a deliberately tragic cultural assessment.",
+          "evidence_id": "EVID-SUCC-BF0D8B25B1FA",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 423,
+          "source_page_label": "423",
+          "locator_class": "principal",
+          "evidence_summary": "The chapter calls it the first modern and archetypal revolution whose influence made the post-1789 European world fundamentally different.",
+          "evidence_id": "EVID-SUCC-5E5A72B85569",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "supporting",
+          "evidence_summary": "Distinctive ideology, popular democracy, mass war and Terror transformed political change. The source distinguishes familiar massacres from the shocking novelty of systematic government execution in a society renowned for humane civilization.",
+          "evidence_id": "EVID-SUCC-F00566767CCC",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 425,
+          "source_page_label": "425",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The conclusion estimates about a million French deaths by 1802, another million under Napoleon and further deaths abroad, alongside uncounted ruined lives. These costs qualify the founders’ courage and idealism within a deliberately tragic cultural assessment.",
+          "evidence_id": "EVID-SUCC-BF0D8B25B1FA",
+          "source_local_subject_id": "SUCC-C017-S039",
+          "source_chunk_id": "CHUNK-017"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+      "field": "meaning",
+      "before": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad.",
+      "after": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-60B96F147FEF",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 401,
+          "source_page_label": "401",
+          "locator_class": "supporting",
+          "evidence_summary": "Landlords increased rents after losing feudal income, transferring costs to tenants; leaseholding regions often resisted the Revolution.",
+          "evidence_id": "EVID-SUCC-4271475CE321",
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 405,
+          "source_page_label": "405",
+          "locator_class": "principal",
+          "evidence_summary": "Small holdings, sharecropping, livestock losses, conscription, and minimal innovation limited agricultural transformation.",
+          "evidence_id": "EVID-SUCC-8534951B84CC",
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "evidence_id": "EVID-SUCC-5FD54E4C9FDB",
+          "source_evidence_id": "EVID-4DDA9F03F87A",
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "supporting",
+          "evidence_summary": "Agricultural inertia is cited as a structure the Revolution did not materially alter.",
+          "provenance": {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S026",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+            "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+          },
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-496AB8FD5DF5",
+            "evidence_id": "EVID-E776B6423EF8"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ],
+      "after": [
+        {
+          "document_page": 401,
+          "source_page_label": "401",
+          "locator_class": "supporting",
+          "evidence_summary": "Landlords raised rents to replace lost feudal revenue; from December 1790 they could add the abolished tithe’s equivalent. The source links this transfer of burdens to persistent resistance in leaseholding regions.",
+          "evidence_id": "EVID-SUCC-4271475CE321",
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "document_page": 405,
+          "source_page_label": "405",
+          "locator_class": "principal",
+          "evidence_summary": "Small holdings, sharecropping, livestock losses, conscription, and minimal innovation limited agricultural transformation.",
+          "evidence_id": "EVID-SUCC-8534951B84CC",
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017"
+        },
+        {
+          "evidence_id": "EVID-SUCC-5FD54E4C9FDB",
+          "source_evidence_id": "EVID-4DDA9F03F87A",
+          "document_page": 424,
+          "source_page_label": "424",
+          "locator_class": "supporting",
+          "evidence_summary": "Agricultural inertia is cited as a structure the Revolution did not materially alter.",
+          "provenance": {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S026",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+            "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+          },
+          "source_local_subject_id": "SUCC-C017-S016",
+          "source_chunk_id": "CHUNK-017",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-496AB8FD5DF5",
+            "evidence_id": "EVID-E776B6423EF8"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-60B96F147FEF",
+      "field": "meaning",
+      "before": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and little innovation beyond wider potato cultivation.",
+      "after": "Abolition of feudal burdens was offset by rents, taxes, inheritance fragmentation, military pressures, and little innovation beyond wider potato cultivation. Landlords replaced lost feudal income with higher rents and were allowed to add the abolished tithe’s equivalent, limiting tenants’ gains and helping explain persistent resistance in leaseholding regions."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+      "field": "meaning",
+      "before": "Pétion's election as Paris mayor, conduct during 20 June, suspension and restoration, role in the deposition demand, and later divergence from Robespierre place him at several turning points.",
+      "after": "Pétion's election as Paris mayor, conduct during 20 June, suspension and restoration, role in the deposition demand, and later divergence from Robespierre place him at several turning points. His successful motion for a formal trial of Louis placed him against Robespierre’s argument that the king had already been judged by the people on 10 August."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F7E85272CDFE",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "principal",
+          "evidence_summary": "Against late-directory anticlerical assumptions, Bonaparte recognizes the resilience of religion and the Church.",
+          "evidence_id": "EVID-SUCC-FBA798BCCC80",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "principal",
+          "evidence_summary": "His restraint toward the papacy, pragmatic use of religion abroad, restored Sunday practice, and public Catholic assurances prepare negotiations.",
+          "evidence_id": "EVID-SUCC-944F35AE5E1D",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Reconciliation is intended to separate religion from counter-revolution and conciliate populations incorporated into France.",
+          "evidence_id": "EVID-SUCC-37D1BFEF6EFA",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "evidence_id": "EVID-SUCC-8F7FAA3A801E",
+          "source_evidence_id": "EVID-DCE9A9D7D87E",
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Restored public worship becomes one of the settlements celebrated as the Revolution's burial.",
+          "provenance": {
+            "chunk_id": "CHUNK-016",
+            "local_subject_id": "CH16-SUBJ-049",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+            "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+          },
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-94BF9A8D280B",
+            "evidence_id": "EVID-3848ECA3AC37"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        },
+        {
+          "evidence_id": "EVID-SUCC-F3CC38D4F7DC",
+          "source_evidence_id": "EVID-616C59C0E484",
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "A solemn Easter mass at Notre-Dame publicly marks the restored Church and the perceived end of revolutionary conflict.",
+          "provenance": {
+            "chunk_id": "CHUNK-016",
+            "local_subject_id": "CH16-SUBJ-057",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+            "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+          },
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-34DA2C4094B4",
+            "evidence_id": "EVID-EEE02367AAE7"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ],
+      "after": [
+        {
+          "document_page": 385,
+          "source_page_label": "385",
+          "locator_class": "principal",
+          "evidence_summary": "Pius VI’s death in French captivity led many in Paris to expect no successor and institutional collapse. Bonaparte, unlike these anticlerical observers, recognized the continuing power and resilience of religion.",
+          "evidence_id": "EVID-SUCC-FBA798BCCC80",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "document_page": 386,
+          "source_page_label": "386",
+          "locator_class": "principal",
+          "evidence_summary": "The Venetian conclave elected the pragmatic Pius VII, refuting expectations that Pius VI would be the last pope. Bonaparte’s restraint, restored Sunday practice and Catholic assurances prepared negotiations.",
+          "evidence_id": "EVID-SUCC-944F35AE5E1D",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "document_page": 387,
+          "source_page_label": "387",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Reconciliation is intended to separate religion from counter-revolution and conciliate populations incorporated into France.",
+          "evidence_id": "EVID-SUCC-37D1BFEF6EFA",
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016"
+        },
+        {
+          "evidence_id": "EVID-SUCC-8F7FAA3A801E",
+          "source_evidence_id": "EVID-DCE9A9D7D87E",
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Restored public worship becomes one of the settlements celebrated as the Revolution's burial.",
+          "provenance": {
+            "chunk_id": "CHUNK-016",
+            "local_subject_id": "CH16-SUBJ-049",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+            "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+          },
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-94BF9A8D280B",
+            "evidence_id": "EVID-3848ECA3AC37"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        },
+        {
+          "evidence_id": "EVID-SUCC-F3CC38D4F7DC",
+          "source_evidence_id": "EVID-616C59C0E484",
+          "document_page": 390,
+          "source_page_label": "390",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "A solemn Easter mass at Notre-Dame publicly marks the restored Church and the perceived end of revolutionary conflict.",
+          "provenance": {
+            "chunk_id": "CHUNK-016",
+            "local_subject_id": "CH16-SUBJ-057",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+            "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+          },
+          "source_local_subject_id": "SUCC-C016-S028",
+          "source_chunk_id": "CHUNK-016",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-34DA2C4094B4",
+            "evidence_id": "EVID-EEE02367AAE7"
+          },
+          "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F7E85272CDFE",
+      "field": "meaning",
+      "before": "Bonaparte's pragmatic recognition of religion's political power, his conciliatory treatment of Catholic practice, and his use of Church reconciliation to stabilize France.",
+      "after": "Bonaparte's pragmatic recognition of religion's political power, his conciliatory treatment of Catholic practice, and his use of Church reconciliation to stabilize France. Pius VI’s captive death encouraged a mistaken Parisian expectation that the papacy would disappear; the Venetian conclave and election of Pius VII demonstrated institutional resilience and opened a more promising path to reconciliation."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 354,
+          "source_page_label": "354",
+          "locator_class": "principal",
+          "evidence_summary": "French conquest of Italy made Alpine routes strategic and prompted plans for a unitary Swiss republic.",
+          "evidence_id": "EVID-SUCC-EBBD37CFC492",
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 355,
+          "source_page_label": "355",
+          "locator_class": "principal",
+          "evidence_summary": "French intervention, suppression of local resistance, and an unratified centralized constitution created the Helvetic Republic.",
+          "evidence_id": "EVID-SUCC-8304B419D86B",
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "evidence_id": "EVID-SUCC-B16836890975",
+          "source_evidence_id": "EVID-B89FF948822F",
+          "document_page": 355,
+          "source_page_label": "355",
+          "locator_class": "supporting",
+          "evidence_summary": "Switzerland was reorganized as a unitary client republic under an imposed constitution.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S013",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-9A050CC31262",
+            "evidence_id": "EVID-4426332A6035"
+          },
+          "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+        }
+      ],
+      "after": [
+        {
+          "document_page": 354,
+          "source_page_label": "354",
+          "locator_class": "principal",
+          "evidence_summary": "The Alpine routes to occupied Italy transformed Swiss strategic value. Ochs proposed centralization as protection against great powers; La Harpe pursued Vaud’s release from Berne, while local revolts did not generally share a Swiss-wide unitary goal.",
+          "evidence_id": "EVID-SUCC-EBBD37CFC492",
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 355,
+          "source_page_label": "355",
+          "locator_class": "principal",
+          "evidence_summary": "Brune was ordered to occupy Berne; French intervention suppressed resistance and imposed the Helvetic constitution without a ratifying convention. Cantonal refusal required further coercion, and access to Alpine passes entrenched French presence.",
+          "evidence_id": "EVID-SUCC-8304B419D86B",
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "evidence_id": "EVID-SUCC-B16836890975",
+          "source_evidence_id": "EVID-B89FF948822F",
+          "document_page": 355,
+          "source_page_label": "355",
+          "locator_class": "supporting",
+          "evidence_summary": "Despite promises against requisitions, Swiss city treasuries were impounded for French military purposes and war taxes imposed; the centralized client republic’s dependence contradicted hopes of protection from external domination.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S013",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S021",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-9A050CC31262",
+            "evidence_id": "EVID-4426332A6035"
+          },
+          "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "field": "meaning",
+      "before": "The strategic origins, invasion, creation, and imposed centralized constitution of the Helvetic Republic in 1798.",
+      "after": "French conquest of northern Italy made Swiss Alpine communications strategically important. Ochs sought a unitary state partly to resist domination by France or Austria, while La Harpe promoted Vaud’s liberation from Berne; these aims were not identical with consent to a Swiss-wide settlement. French intervention against Berne and local resistance produced an imposed Helvetic constitution without national ratification or broad cantonal consent. French forces impounded city treasuries and gained lasting access to the passes, reversing the reformers’ hope of protection from external domination."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "field": "stance",
+      "before": "French strategic needs and Swiss reformers' centralizing plans overrode older cantonal freedoms and local aims.",
+      "after": "French strategic needs and Swiss reformers' centralizing plans overrode older cantonal freedoms and local aims. Distinguish Ochs’s protective-centralization rationale, La Harpe’s Vaud campaign, local liberation aims and the eventual imposed state; Berne is a specific intervention, not a synonym for all Switzerland."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B3CD4CF67D8E",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "A state bank, reliable debt service, revived tax collection, and a balanced-budget claim create an appearance of responsible financial control.",
+          "evidence_id": "EVID-SUCC-D2B82637F33F",
+          "source_local_subject_id": "SUCC-C016-S025",
+          "source_chunk_id": "CHUNK-016"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 384,
+          "source_page_label": "384",
+          "locator_class": "principal",
+          "evidence_summary": "Creation of the Bank of France abandoned a long period of suspicion of banking. Reliable cash debt service, revived collection and the balanced-budget claim reinforced apparent financial control, whose foundations remained uncertain.",
+          "evidence_id": "EVID-SUCC-D2B82637F33F",
+          "source_local_subject_id": "SUCC-C016-S025",
+          "source_chunk_id": "CHUNK-016"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B3CD4CF67D8E",
+      "field": "meaning",
+      "before": "The Consulate's establishment of the Bank of France, regular cash payment of state debt, improved tax collection, rising public credit, and balanced budget claim.",
+      "after": "The Consulate's establishment of the Bank of France, regular cash payment of state debt, improved tax collection, rising public credit, and balanced budget claim. Establishing the Bank broke with a long legacy of suspicion of banking; it was one element in recovery, alongside debt service and collection reform."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 343,
+          "source_page_label": "343",
+          "locator_class": "principal",
+          "evidence_summary": "Patriots sought to replace the Union of Utrecht but divided over federal and unitary models.",
+          "evidence_id": "EVID-SUCC-877D2B07602C",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 344,
+          "source_page_label": "344",
+          "locator_class": "principal",
+          "evidence_summary": "The rejected 1797 draft, January 1798 purge, and approved 1798 constitution established a unitary republic.",
+          "evidence_id": "EVID-SUCC-7552A25A4687",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "After the June coup and elections, constitutional government functioned with regular elections until 1800.",
+          "evidence_id": "EVID-SUCC-CDEAA28824C3",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 343,
+          "source_page_label": "343",
+          "locator_class": "principal",
+          "evidence_summary": "Patriots sought to replace the Union of Utrecht but split between Federalist provincial autonomy and a unitary national state, immobilizing the Convention elected in 1796.",
+          "evidence_id": "EVID-SUCC-877D2B07602C",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 344,
+          "source_page_label": "344",
+          "locator_class": "principal",
+          "evidence_summary": "The rejected 1797 draft, January 1798 purge, and approved 1798 constitution established a unitary republic.",
+          "evidence_id": "EVID-SUCC-7552A25A4687",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "After the June coup and elections, constitutional government functioned with regular elections until 1800.",
+          "evidence_id": "EVID-SUCC-CDEAA28824C3",
+          "source_local_subject_id": "SUCC-C015-S010",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "field": "meaning",
+      "before": "The prolonged replacement of the Dutch ancien régime by a unitary, representative Batavian constitution.",
+      "after": "The prolonged replacement of the Dutch ancien régime by a unitary, representative Batavian constitution. Federalists defended inherited provincial autonomy while unitarians sought a centralized national constitution; their conflict produced deadlock before French-backed purges enabled a unitary outcome."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3256F9538F44",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 344,
+          "source_page_label": "344",
+          "locator_class": "principal",
+          "evidence_summary": "French-orchestrated troops expelled Federalists on 22 January 1798.",
+          "evidence_id": "EVID-SUCC-4D7150ACDC51",
+          "source_local_subject_id": "SUCC-C015-S011",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "principal",
+          "evidence_summary": "Paris abandoned its radical ambassador and accepted Daendels's June overthrow of the Batavian Directory.",
+          "evidence_id": "EVID-SUCC-9199E65CF4B0",
+          "source_local_subject_id": "SUCC-C015-S011",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 344,
+          "source_page_label": "344",
+          "locator_class": "principal",
+          "evidence_summary": "Fructidor supplied the model for resolving political impasse: under French orchestration, troops surrounded the Convention and 22 Federalists were expelled on 22 January 1798.",
+          "evidence_id": "EVID-SUCC-4D7150ACDC51",
+          "source_local_subject_id": "SUCC-C015-S011",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "principal",
+          "evidence_summary": "Paris abandoned its radical ambassador and accepted Daendels's June overthrow of the Batavian Directory.",
+          "evidence_id": "EVID-SUCC-9199E65CF4B0",
+          "source_local_subject_id": "SUCC-C015-S011",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3256F9538F44",
+      "field": "meaning",
+      "before": "French orchestration or approval of Dutch purges and coups to resolve political impasse and curb successive factions.",
+      "after": "French orchestration or approval of Dutch purges and coups to resolve political impasse and curb successive factions. The French Fructidor coup provided an explicit model for breaking Batavian deadlock by purging opponents, followed in January 1798."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "supporting",
+          "evidence_summary": "Heavier taxation, naval defeat, and invasion framed Dutch disillusionment.",
+          "evidence_id": "EVID-SUCC-28C63DACB433",
+          "source_local_subject_id": "SUCC-C015-S012",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 347,
+          "source_page_label": "347",
+          "locator_class": "principal",
+          "evidence_summary": "Blockade, colonial losses, occupation costs, exclusion from French markets and disrupted church-linked poor relief produced unemployment and debt. Neither neutrality nor Orange restoration offered a credible independent alternative.",
+          "evidence_id": "EVID-SUCC-F0451D51357A",
+          "source_local_subject_id": "SUCC-C015-S012",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 346,
+          "source_page_label": "346",
+          "locator_class": "supporting",
+          "evidence_summary": "Heavier taxation, naval defeat, and invasion framed Dutch disillusionment.",
+          "evidence_id": "EVID-SUCC-28C63DACB433",
+          "source_local_subject_id": "SUCC-C015-S012",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 347,
+          "source_page_label": "347",
+          "locator_class": "principal",
+          "evidence_summary": "British blockade and colonial seizure disrupted Dutch supplies and industry. French occupation demands and tariff barriers separately denied compensating market access, while church-linked poor relief disruption aggravated unemployment and debt; neutrality or Orange restoration offered no credible independent alternative.",
+          "evidence_id": "EVID-SUCC-F0451D51357A",
+          "source_local_subject_id": "SUCC-C015-S012",
+          "source_chunk_id": "CHUNK-015"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "field": "meaning",
+      "before": "The wartime destruction of Dutch commerce and industry and the domestic fiscal and welfare consequences of French alliance.",
+      "after": "The wartime destruction of Dutch commerce and industry and the domestic fiscal and welfare consequences of French alliance. British blockade and seizure of colonies cut supplies and markets, while occupation demands and discriminatory French tariffs added distinct costs and denied compensating access to France’s enlarged market."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 348,
+          "source_page_label": "348",
+          "locator_class": "principal",
+          "evidence_summary": "The page details military extraction, its policy reversal, nine departments, and annexation on 1 October 1795.",
+          "evidence_id": "EVID-SUCC-970F5E89AFE1",
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 350,
+          "source_page_label": "350",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Later economic recovery is set against six preceding years of rapine and exploitation.",
+          "evidence_id": "EVID-SUCC-69C644CEE89E",
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3E73C926B8BA",
+          "source_evidence_id": "EVID-930DCD535468",
+          "document_page": 348,
+          "source_page_label": "348",
+          "locator_class": "supporting",
+          "evidence_summary": "Belgium moved from enemy occupation and extraction to departmental incorporation into France.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S013",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-9A050CC31262",
+            "evidence_id": "EVID-E995D5F679C4"
+          },
+          "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+        }
+      ],
+      "after": [
+        {
+          "document_page": 348,
+          "source_page_label": "348",
+          "locator_class": "principal",
+          "evidence_summary": "France treated reconquered Belgium as enemy territory and used the Agency for Trade and Extraction to coordinate removal of resources. Policy reversed toward nine departments and annexation on 1 October 1795, ending extraordinary levies.",
+          "evidence_id": "EVID-SUCC-970F5E89AFE1",
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "document_page": 350,
+          "source_page_label": "350",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Later economic recovery is set against six preceding years of rapine and exploitation.",
+          "evidence_id": "EVID-SUCC-69C644CEE89E",
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3E73C926B8BA",
+          "source_evidence_id": "EVID-930DCD535468",
+          "document_page": 348,
+          "source_page_label": "348",
+          "locator_class": "supporting",
+          "evidence_summary": "Belgium moved from enemy occupation and extraction to departmental incorporation into France.",
+          "provenance": {
+            "chunk_id": "CHUNK-015",
+            "local_subject_id": "CH15-S013",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+            "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+          },
+          "source_local_subject_id": "SUCC-C015-S014",
+          "source_chunk_id": "CHUNK-015",
+          "historical_evidence_identity": {
+            "lineage": "legacy",
+            "subject_id": "SUBJ-9A050CC31262",
+            "evidence_id": "EVID-E995D5F679C4"
+          },
+          "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8EB370248C8E",
+      "field": "meaning",
+      "before": "French treatment of reconquered Belgium as enemy territory, followed by administrative reorganization and incorporation into France.",
+      "after": "French treatment of reconquered Belgium as enemy territory, followed by administrative reorganization and incorporation into France. The Agency for Trade and Extraction coordinated removal of Belgian resources before complaints and concern for longer-term consequences prompted its dissolution in 1795."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "field": "meaning",
+      "before": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank.",
+      "after": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank. After Campo Formio, consent of the Empire was sought at the Congress of Rastadt and remained provisional while departmental administration already treated the territory as French."
+    }
+  ],
+  "source_basis": "Renewed complete-page inspections of 162, 195, 201, 343–344, 346–348, 350–351, 354–355, 384–386, 392–393, 399, 401 and 422–424, with the earlier complete-source and whole-record inspections. Exact actor, institutional, geographic and causal qualifications are preserved.",
+  "approval_of_integrated_final_bytes": false
+}
