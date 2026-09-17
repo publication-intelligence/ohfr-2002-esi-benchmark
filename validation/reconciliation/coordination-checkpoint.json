@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T01:21:12.067496+00:00",
+  "recorded_at": "2026-09-17T01:29:22.499343+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -61,6 +61,28 @@
       "activated": false,
       "owner_staging_tests_passed": 201,
       "owner_schema_checks_passed": 54
+    },
+    "v9_cutover": {
+      "status": "authorized_dispatched_implementation_and_validation_pending",
+      "source_review_runtime_unchanged": true,
+      "source_freeze_framework": "V8.2",
+      "candidate_evaluation_target": "V9_percentage_native_pending_validated_contract",
+      "preserve_v8": true,
+      "discrete_mapping": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "substantive_semantics_must_remain_invariant": true,
+      "semantic_change_requires_user_review": true,
+      "source_benchmark_content_change_authorized": false,
+      "policy_lock_profile_or_hash_selected": false,
+      "candidate_execution_hold": true,
+      "website_deployment_authorized": false,
+      "decision_document": "docs/v9-methodology-cutover.md"
     }
   },
   "preservation_checks": {
@@ -86,7 +108,10 @@
     "evaluation_pr_merged": false,
     "saved_project_activated": false,
     "website_deployed": false,
-    "audit_transfer_authorized": false
+    "audit_transfer_authorized": false,
+    "candidate_execution_gate": "source_freeze_under_v8_2_then_validated_percentage_native_v9_cutover",
+    "candidate_owners_v9_hold_delivered": 4,
+    "v9_cutover_complete": false
   },
   "limitations": [
     "Bounded comparison supports successor development; it is not whole-book approval.",
@@ -408,8 +433,16 @@
       "exact_whole_replacements_reconstructed": 33,
       "field_diffs_reconstructed": 109,
       "total_single_chapter_subject_rows_encoded": 48,
-      "cross_chapter_subject_rows_encoded": 11,
-      "cross_chapter_subject_rows_remaining": 32,
+      "cross_chapter_subject_rows_encoded": 19,
+      "cross_chapter_subject_rows_remaining": 24,
+      "final_value_approval": false
+    },
+    "lead_crosschapter_012_019_repairs": {
+      "sha256": "f6fd8c95017287f7644859b63ddf1015cf3c1f98cbb16d288acce52324b7b820",
+      "whole_replacements_reconstructed": 9,
+      "owned_subjects": 8,
+      "explicit_external_dependency_subjects": 1,
+      "field_diffs_reconstructed": 29,
       "final_value_approval": false
     }
   },

@@ -1,6 +1,6 @@
 # Four-index reevaluation protocol
 
-The user authorized migration and reevaluation of Published, IndexPDF, IndexerLabs and Indexia against the independently reviewed successor, with commits and relevant PR merges. Execution begins after the actual source freeze, shared policy and density lock, and verified methodology installation are available. This protocol records the study's review procedure; it changes no V8.2 formula, weight, judgment meaning or denominator.
+The user authorized migration and reevaluation of Published, IndexPDF, IndexerLabs and Indexia against the independently reviewed successor, with commits and relevant PR merges. The subsequent [V9 cutover decision](v9-methodology-cutover.md) adds a required execution gate: finish the source freeze under the current V8.2 framework, validate percentage-native V9 with equivalent outcomes, and only then bind the common study lock and run all four candidates under V9. This protocol records the study's substantive review procedure; the representation migration must preserve its judgment meanings, weights and denominators.
 
 ## Inputs and preservation
 
