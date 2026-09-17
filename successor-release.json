@@ -1,0 +1,194 @@
+{
+  "schema_version": "subject-index-successor-release-v3",
+  "release_id": "ohfr-2002-successor-v10-2026-09-17",
+  "methodology_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "artifact_freeze_commit": "191ce37a81878d41ce51e378e9ee61bd1af5c528",
+  "artifacts": {
+    "state": {
+      "path": "successor/evaluation-state.json",
+      "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7"
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678"
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a"
+    },
+    "benchmark": {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c"
+    },
+    "study_lock": {
+      "path": "study-benchmark-lock.v10.json",
+      "sha256": "d64c91f6c44abedee0422edb9d2f998f8c399e9811844f373d2af4a0390d00be"
+    },
+    "page_map": {
+      "path": "successor/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    "chunk_manifest": {
+      "path": "successor/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    "source_policy": {
+      "path": "successor/source/evaluation-policy.v4.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
+    },
+    "policy_template": {
+      "path": "successor/study-policy-template.v10.json",
+      "sha256": "408bd67a3f6300f240a8768e8e2deec51a14c02ef084f3ef1482777fb7994177"
+    },
+    "access_overlay": {
+      "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+      "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b"
+    },
+    "access_review": {
+      "path": "successor/access-amendment/reviewer/benchmark-access-review.v1.json",
+      "sha256": "78499f5df31659be648e39e9e5ae3056a40a0cc05ede56471cd107f889f4aa8f"
+    }
+  },
+  "evidence": [
+    {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886"
+    },
+    {
+      "path": "successor/access-amendment/author/input-visibility-attestation.v1.json",
+      "sha256": "2067c298b1a710c4bec8ad4e10a9b1dac67d75c513fcc4eeae4bcb8314e0f0b3"
+    },
+    {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec"
+    },
+    {
+      "path": "successor/access-amendment/author/manifest.v1.json",
+      "sha256": "24a6a3088a3d5acdf222b6b8cc94d8be9061fb6132dd41253c82eda471f9111d"
+    },
+    {
+      "path": "successor/access-amendment/author/mechanical-check.v1.json",
+      "sha256": "f923880eea3016c613052d1b413b68c5e45a20df0665808beb9d09f37d2fb5a0"
+    },
+    {
+      "path": "successor/access-amendment/final-source-only-handoff.v1.json",
+      "sha256": "6b5ec466afd1e9bd68e928b7060531bbbe8fafde8b3f94a34e8d5cd1282fab42"
+    },
+    {
+      "path": "successor/access-amendment/reviewer-proposal-addendum.v1.json",
+      "sha256": "4520473718337623040552b165dc9a8db1253327c63dffe1c6173de83b42c3bb"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/input-and-visibility-attestation.v1.json",
+      "sha256": "15d5c4583de6f0781d803a2b5c1b4ecf6b4508a195edbede8611ba1668c28c1e"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-findings.v1.json",
+      "sha256": "7f1ea9ad94fd1f0542feba32e77e5ea7f4aafa70a2844bfb5469f5544aba8631"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-inspection-ledger.v1.json",
+      "sha256": "35549f1ffcb8b66933820a076fab31b0adbbd37506973f3dec68601d5cb83ce4"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-manifest.v1.json",
+      "sha256": "e16dc5e48f257795f897391d4447e770d2bcdaaf39b3605aeba3a95751948a0e"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-clause-review.v1.json",
+      "sha256": "95e3875dde60646c79358582171e29ac966764ab9a57bb5d1a4a910b16f2cc0b"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-identity-verification.v1.json",
+      "sha256": "ce6bfe864a3db11117ce41c324a95a459beab126714d4db63131ed18e8b0e373"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-review-manifest.v1.json",
+      "sha256": "ab28a7e2fb282600ca350dcb6f344b82f0f31c66802c9fb31bfe5900f6beb207"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-source-reading-and-reuse.v1.json",
+      "sha256": "b08e981572c3e4f61cd4632f3d43aa94809b25beb1d0317ca10af971c7aceec8"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-value-inspection-ledger.v1.json",
+      "sha256": "9d032802d7222d98ea64140b950b8aa083dfee967d7c0e87cb9bc28adb33f663"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-visibility-and-assent.v1.json",
+      "sha256": "c4d679837caec64f2bb1aac40183835c38b6ddfefb39d6ea665eac8cf8fc939e"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/source-reading-and-reuse.v1.json",
+      "sha256": "85423272cd805ec596dd1a3968b3bd213715a898bab0b2d4619ef51f82911793"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/caption-evidence-class-correction.v1.json",
+      "sha256": "3dd3d4a075a40e8365645a09cf3279b0d1dd3f39f26eb57e923f22906e7d1a79"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+      "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-c11-validation.v1.json",
+      "sha256": "1b804a47618b8da97f5dfa232f324ad12ff33648728e1125bfa908969ebe26ab"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-independent-byte-assent.v1.json",
+      "sha256": "c60f9db869b02dfd88ffdbeeb2a9807608f318db1a2b8e8b09e4b521207c8757"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-metadata-and-status-disposition.v1.json",
+      "sha256": "86c38c54c349eff654aac293a5c8348f3b8c261910e17040a0259df2ff2b52fb"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/typed-freeze-receipt.v1.json",
+      "sha256": "61b93a4119e251d26c57db2939b729978fce1dd9e3300b6ecbeab1a29c726ee6"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v3.json",
+      "sha256": "adb81320deac697201511a04a9b4848a048db2aaa1613a267f492a6ef4a32577"
+    },
+    {
+      "path": "validation/reconciliation/source-review/source-density-measurement.json",
+      "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767"
+    },
+    {
+      "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+      "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+    },
+    {
+      "path": "validation/reconciliation/source-review/source-density-scope-addendum.v2.json",
+      "sha256": "dd23c7699fc4225c09ccc8fc98a301f0b46bb117bb1bed824e0c1870dbe3b7a6"
+    },
+    {
+      "path": "validation/reconciliation/v10-access-final-review-binding-verification.v1.json",
+      "sha256": "62e6de14adaf1367bae50877fea93a0c8a8bb964a12991639834564163dceb31"
+    },
+    {
+      "path": "validation/reconciliation/v10-common-release-selection.v1.json",
+      "sha256": "175432d6e6848425ce4428f5629ed2a7792b3d2c117908aba6a9f26dc3bdf447"
+    }
+  ],
+  "checkpoints": [
+    {
+      "path": "exports/ohfr-2002-successor-v10-2026-09-17.source-proof.zip",
+      "sha256": "c67cc30679e998746fca8c6fc394e925ceacb54493ef3d800b41356b2c3ccec7",
+      "members": {
+        "study-benchmark-lock.v10.json": "study-benchmark-lock.v10.json",
+        "successor/access-amendment/author/benchmark-access-overlay.v1.json": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+        "successor/access-amendment/reviewer/benchmark-access-review.v1.json": "successor/access-amendment/reviewer/benchmark-access-review.v1.json",
+        "successor/evaluation-state.json": "successor/evaluation-state.json",
+        "successor/independent-review/source-benchmark-review.v1.json": "successor/independent-review/source-benchmark-review.v1.json",
+        "successor/source/chunk-manifest.json": "successor/source/chunk-manifest.json",
+        "successor/source/evaluation-policy.v4.json": "successor/source/evaluation-policy.v4.json",
+        "successor/source/page-map.json": "successor/source/page-map.json",
+        "successor/source/source-benchmark.draft.v1.json": "successor/source/source-benchmark.draft.v1.json",
+        "successor/source/source-benchmark.v2.json": "successor/source/source-benchmark.v2.json",
+        "successor/study-policy-template.v10.json": "successor/study-policy-template.v10.json"
+      }
+    }
+  ],
+  "release_sha256": "965b940146c9d8ddb03eb50e7168dbf0227194fea197d3b4b95123d7bce2abee"
+}
