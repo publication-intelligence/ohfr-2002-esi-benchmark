@@ -1,0 +1,2835 @@
+{
+  "schema_version": "independent-legacy-repair-composition-v1",
+  "status": "sealed_scoped_repaired_values; whole_book_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    }
+  ],
+  "group_range": [
+    1,
+    10
+  ],
+  "rows": [
+    {
+      "group_index": 1,
+      "subject_id": "SUBJ-SUCC-A1B30A58C722",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0001",
+        "CORR-007-LEGACY-0002"
+      ],
+      "source_correction_row_sha256s": [
+        "7d2b521d1932afcbcf441d167e40a83327e8eb6a2bfbe4572b81d8e56fc40b06",
+        "d4f87bb463470f5350f9e82647952862e19935663c6bc333f881b034c60382a7"
+      ],
+      "before_record": {
+        "label": "British ascendancy and the widening economic gap with France",
+        "priority": "major",
+        "meaning": "Britain used sea power and war to appropriate markets and assets lost by France and its allies, consolidating nineteenth-century global predominance.",
+        "stance": "British economic superiority was already emerging, but the Revolution widened the gap irrecoverably and made France's enemies major long-term beneficiaries.",
+        "subject_id": "SUBJ-SUCC-A1B30A58C722",
+        "acceptable_access": [
+          "Great Britain—effects of the Revolutionary Wars",
+          "British economic ascendancy",
+          "France—economic rivalry with Britain",
+          "British subsidies and Iberian intervention",
+          "Britain--pre-existing economic lead"
+        ],
+        "evidence": [
+          {
+            "document_page": 414,
+            "source_page_label": "414",
+            "locator_class": "supporting",
+            "evidence_summary": "Austria, Prussia, Britain, and other enemies retained gains while France lost most revolutionary conquests.",
+            "evidence_id": "EVID-SUCC-E267D2403E9D",
+            "source_local_subject_id": "SUCC-C017-S028",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 415,
+            "source_page_label": "415",
+            "locator_class": "principal",
+            "evidence_summary": "British naval and commercial power absorbed markets and resources, widening an existing lead over France.",
+            "evidence_id": "EVID-SUCC-E5FC813DDB4B",
+            "source_local_subject_id": "SUCC-C017-S028",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-47AD846A37E3",
+            "source_evidence_id": "EVID-0B040FC48A80",
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The counterfactual assessment considers British maritime and commercial dominance likely even without the Revolution, with the upheaval chiefly accelerating the trend.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S043",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S028",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-00F648A71B8E",
+              "evidence_id": "EVID-6D86F2E32BB4"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S028",
+            "label": "British ascendancy and the widening economic gap with France",
+            "meaning": "Britain used sea power and war to appropriate markets and assets lost by France and its allies, consolidating nineteenth-century global predominance.",
+            "stance": "British economic superiority was already emerging, but the Revolution widened the gap irrecoverably and made France's enemies major long-term beneficiaries.",
+            "acceptable_access": [
+              "Great Britain—effects of the Revolutionary Wars",
+              "British economic ascendancy",
+              "France—economic rivalry with Britain",
+              "British subsidies and Iberian intervention",
+              "Britain--pre-existing economic lead"
+            ],
+            "document_pages": [
+              414,
+              415
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S028"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S028",
+            "label": "British ascendancy and the widening economic gap with France",
+            "meaning": "Britain used sea power and war to appropriate markets and assets lost by France and its allies, consolidating nineteenth-century global predominance.",
+            "stance": "British economic superiority was already emerging, but the Revolution widened the gap irrecoverably and made France's enemies major long-term beneficiaries.",
+            "acceptable_access": [
+              "Great Britain—effects of the Revolutionary Wars",
+              "British economic ascendancy",
+              "France—economic rivalry with Britain",
+              "British subsidies and Iberian intervention",
+              "Britain--pre-existing economic lead"
+            ],
+            "document_pages": [
+              414,
+              415
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "6dc1525e6f447a463146c781695ef31103ed6ba989f3c0e4c916fa888fb777f6",
+      "proposed_record": {
+        "label": "British ascendancy and the widening economic gap with France",
+        "priority": "major",
+        "meaning": "Britain used sea power and war to appropriate markets and assets lost by France and its allies, consolidating nineteenth-century global predominance. Sea power also enabled Britain to send an army into the Iberian struggle and influence the continental war directly; the commander later imposed Napoleon’s decisive defeat in Belgium. Britain also subsidized France’s continental enemies.",
+        "stance": "British economic superiority was already emerging, but the Revolution widened the gap irrecoverably and made France's enemies major long-term beneficiaries.",
+        "subject_id": "SUBJ-SUCC-A1B30A58C722",
+        "acceptable_access": [
+          "Great Britain—effects of the Revolutionary Wars",
+          "British economic ascendancy",
+          "France—economic rivalry with Britain",
+          "British subsidies and Iberian intervention",
+          "Britain--pre-existing economic lead"
+        ],
+        "evidence": [
+          {
+            "document_page": 414,
+            "source_page_label": "414",
+            "locator_class": "supporting",
+            "evidence_summary": "Austria, Prussia, Britain, and other enemies retained gains while France lost most revolutionary conquests.",
+            "evidence_id": "EVID-SUCC-E267D2403E9D",
+            "source_local_subject_id": "SUCC-C017-S028",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 415,
+            "source_page_label": "415",
+            "locator_class": "principal",
+            "evidence_summary": "Britain appropriated lost French and Dutch markets and resources, widening an existing economic lead. Sea power enabled an army to enter the Iberian struggle and exert direct continental influence; Wellington later defeated Napoleon decisively in Belgium. The sentence continued from 414 also records subsidies to France’s continental enemies.",
+            "evidence_id": "EVID-SUCC-E5FC813DDB4B",
+            "source_local_subject_id": "SUCC-C017-S028",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-47AD846A37E3",
+            "source_evidence_id": "EVID-0B040FC48A80",
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The counterfactual assessment considers British maritime and commercial dominance likely even without the Revolution, with the upheaval chiefly accelerating the trend.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S043",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S028",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-00F648A71B8E",
+              "evidence_id": "EVID-6D86F2E32BB4"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S028",
+            "label": "British ascendancy and the widening economic gap with France",
+            "meaning": "Britain used sea power and war to appropriate markets and assets lost by France and its allies, consolidating nineteenth-century global predominance. Sea power also enabled Britain to send an army into the Iberian struggle and influence the continental war directly; the commander later imposed Napoleon’s decisive defeat in Belgium. Britain also subsidized France’s continental enemies.",
+            "stance": "British economic superiority was already emerging, but the Revolution widened the gap irrecoverably and made France's enemies major long-term beneficiaries.",
+            "acceptable_access": [
+              "Great Britain—effects of the Revolutionary Wars",
+              "British economic ascendancy",
+              "France—economic rivalry with Britain",
+              "British subsidies and Iberian intervention",
+              "Britain--pre-existing economic lead"
+            ],
+            "document_pages": [
+              414,
+              415
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S028"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S028",
+            "label": "British ascendancy and the widening economic gap with France",
+            "meaning": "Britain used sea power and war to appropriate markets and assets lost by France and its allies, consolidating nineteenth-century global predominance. Sea power also enabled Britain to send an army into the Iberian struggle and influence the continental war directly; the commander later imposed Napoleon’s decisive defeat in Belgium. Britain also subsidized France’s continental enemies.",
+            "stance": "British economic superiority was already emerging, but the Revolution widened the gap irrecoverably and made France's enemies major long-term beneficiaries.",
+            "acceptable_access": [
+              "Great Britain—effects of the Revolutionary Wars",
+              "British economic ascendancy",
+              "France—economic rivalry with Britain",
+              "British subsidies and Iberian intervention",
+              "Britain--pre-existing economic lead"
+            ],
+            "document_pages": [
+              414,
+              415
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "64257f0282cb17fc297b2236454dc502a23ea3014b1b14c10cf010c80ee02628",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "414–415 confirms commercial appropriation, subsidies and the distinct Iberian military channel. Both exact proposed fields are supported; nested chapter17 meaning now retains the same mechanism.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 2,
+      "subject_id": "SUBJ-SUCC-87628E298F61",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0003",
+        "CORR-007-LEGACY-0004",
+        "CORR-007-LEGACY-0351"
+      ],
+      "source_correction_row_sha256s": [
+        "58ac09c071e04c39ea01a148c99019ab539e7b6b1c2b02eaec132b9a3caf62f0",
+        "cf7e7fcee868497af44f324abf00f8d0b7fbc003eb41f35555d3c0d0fd1ed1ae",
+        "8c6382024faf9a53f4ca21f01ae7b09eefee04086398a8cb30f6d19dd5fb8d48"
+      ],
+      "before_record": {
+        "label": "Protestant emancipation and religious equality",
+        "priority": "major",
+        "meaning": "The Revolution established Protestant civil and religious equality despite dechristianization, regional conflict, and later Catholic reprisals. Equal rights shifted civic power away from old Catholic elites in southern cities, intensifying confessional resentment. Protestant involvement in Federalism, revolutionary reprisals and Catholic restoration violence show that durable legal equality did not end this competition.",
+        "stance": "The settlement was incomplete and disruptive, but pre-revolutionary Catholic legal dominance could not be restored. Consular salaried establishment also reduced Protestant democratic traditions and left isolated communities underserved.",
+        "subject_id": "SUBJ-SUCC-87628E298F61",
+        "acceptable_access": [
+          "Protestants—emancipation",
+          "Religious equality—Protestants",
+          "Calvinism—Revolutionary France",
+          "Gard and Cévennes--confessional conflict",
+          "White Terror of 1815--Protestants",
+          "Protestant church democracy--state restructuring"
+        ],
+        "evidence": [
+          {
+            "document_page": 410,
+            "source_page_label": "410",
+            "locator_class": "principal",
+            "evidence_summary": "Equal rights displaced Catholic elites in southern civic life and inflamed resentment; Protestant Federalists suffered reprisals and later Catholic restoration violence. Bonaparte confirmed durable legal equality, though salaried establishment curtailed democratic traditions and left isolated communities underserved.",
+            "evidence_id": "EVID-SUCC-2D1A92D70270",
+            "source_local_subject_id": "SUCC-C017-S023",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S023",
+            "label": "Protestant emancipation and religious equality",
+            "meaning": "The Revolution established Protestant civil and religious equality despite dechristianization, regional conflict, and later Catholic reprisals.",
+            "stance": "The settlement was incomplete and disruptive, but pre-revolutionary Catholic legal dominance could not be restored. Consular salaried establishment also reduced Protestant democratic traditions and left isolated communities underserved.",
+            "acceptable_access": [
+              "Protestants—emancipation",
+              "Religious equality—Protestants",
+              "Calvinism—Revolutionary France",
+              "Gard and Cévennes--confessional conflict",
+              "White Terror of 1815--Protestants",
+              "Protestant church democracy--state restructuring"
+            ],
+            "document_pages": [
+              410
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S023"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S023",
+            "label": "Protestant emancipation and religious equality",
+            "meaning": "The Revolution established Protestant civil and religious equality despite dechristianization, regional conflict, and later Catholic reprisals.",
+            "stance": "The settlement was incomplete and disruptive, but pre-revolutionary Catholic legal dominance could not be restored. Consular salaried establishment also reduced Protestant democratic traditions and left isolated communities underserved.",
+            "acceptable_access": [
+              "Protestants—emancipation",
+              "Religious equality—Protestants",
+              "Calvinism—Revolutionary France",
+              "Gard and Cévennes--confessional conflict",
+              "White Terror of 1815--Protestants",
+              "Protestant church democracy--state restructuring"
+            ],
+            "document_pages": [
+              410
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "5b188db3ad1318ccb307b9a754abe72560d07b0bb76ffd6d9b4c16871cdf0753",
+      "proposed_record": {
+        "label": "Protestant emancipation and religious equality",
+        "priority": "major",
+        "meaning": "The Revolution established Protestant civil and religious equality despite dechristianization, regional conflict and later Catholic reprisals. Equal rights shifted civic power away from old Catholic elites in southern cities, intensifying confessional resentment. Gard Protestants participated in Federalist revolt and suffered reprisals; Catholic restoration violence returned in the White Terror of 1815. Durable legal equality did not end this competition.",
+        "stance": "The settlement was incomplete and disruptive, but pre-revolutionary Catholic legal dominance could not be restored. Consular salaried establishment also reduced Protestant democratic traditions and left isolated communities underserved.",
+        "subject_id": "SUBJ-SUCC-87628E298F61",
+        "acceptable_access": [
+          "Protestants—emancipation",
+          "Religious equality—Protestants",
+          "Calvinism—Revolutionary France",
+          "Gard and Cévennes--confessional conflict",
+          "White Terror of 1815--Protestants",
+          "Protestant church democracy--state restructuring",
+          "Federalism—Protestants in the Gard",
+          "Protestant-Catholic conflict—southern France"
+        ],
+        "evidence": [
+          {
+            "document_page": 410,
+            "source_page_label": "410",
+            "locator_class": "principal",
+            "evidence_summary": "Protestant emancipation displaced Catholic civic elites in southern cities. Protestants suffered terror and dechristianization, and 46 were condemned after Gard Federalist involvement. Catholic reprisals revived in 1815, but legal equality remained durable; the source separately says there were no Protestant martyrs. Post-Fructidor restrictions barred traditional open-air worship; Consular salaried establishment curtailed democratic church traditions and left isolated communities underserved, while legal equality remained durable.",
+            "evidence_id": "EVID-SUCC-2D1A92D70270",
+            "source_local_subject_id": "SUCC-C017-S023",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S023",
+            "label": "Protestant emancipation and religious equality",
+            "meaning": "The Revolution established Protestant civil and religious equality despite dechristianization, regional conflict and later Catholic reprisals. Equal rights shifted civic power away from old Catholic elites in southern cities, intensifying confessional resentment. Gard Protestants participated in Federalist revolt and suffered reprisals; Catholic restoration violence returned in the White Terror of 1815. Durable legal equality did not end this competition.",
+            "stance": "The settlement was incomplete and disruptive, but pre-revolutionary Catholic legal dominance could not be restored. Consular salaried establishment also reduced Protestant democratic traditions and left isolated communities underserved.",
+            "acceptable_access": [
+              "Protestants—emancipation",
+              "Religious equality—Protestants",
+              "Calvinism—Revolutionary France",
+              "Gard and Cévennes--confessional conflict",
+              "White Terror of 1815--Protestants",
+              "Protestant church democracy--state restructuring",
+              "Federalism—Protestants in the Gard",
+              "Protestant-Catholic conflict—southern France"
+            ],
+            "document_pages": [
+              410
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S023"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S023",
+            "label": "Protestant emancipation and religious equality",
+            "meaning": "The Revolution established Protestant civil and religious equality despite dechristianization, regional conflict and later Catholic reprisals. Equal rights shifted civic power away from old Catholic elites in southern cities, intensifying confessional resentment. Gard Protestants participated in Federalist revolt and suffered reprisals; Catholic restoration violence returned in the White Terror of 1815. Durable legal equality did not end this competition.",
+            "stance": "The settlement was incomplete and disruptive, but pre-revolutionary Catholic legal dominance could not be restored. Consular salaried establishment also reduced Protestant democratic traditions and left isolated communities underserved.",
+            "acceptable_access": [
+              "Protestants—emancipation",
+              "Religious equality—Protestants",
+              "Calvinism—Revolutionary France",
+              "Gard and Cévennes--confessional conflict",
+              "White Terror of 1815--Protestants",
+              "Protestant church democracy--state restructuring",
+              "Federalism—Protestants in the Gard",
+              "Protestant-Catholic conflict—southern France"
+            ],
+            "document_pages": [
+              410
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "8336408830a3f8f105262e9d421762eb17f77425fd12db5d3f196fcbcefb3105",
+      "fields_changed": [
+        "meaning",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "410 supports all phases but contains the potentially confusing combination of46 condemned after Federalism and no Protestant martyrs. Preserve both as stated, without inventing a reconciliation. Combine the existing civic-power mechanism with the newly explicit Gard/1815 phases and open-air-worship restriction; retain the already reviewed salaried-establishment consequence.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 3,
+      "subject_id": "SUBJ-SUCC-51F0F6F76B36",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0005"
+      ],
+      "source_correction_row_sha256s": [
+        "416b9dc2efb6aa0e1db84ec4e35cce6d31ff0e23c7ca092b38f4c9f857448a14"
+      ],
+      "before_record": {
+        "label": "British maritime and colonial strategy: blockade, Caribbean operations and their limits",
+        "priority": "major",
+        "meaning": "British efforts to exploit colonial instability, occupy French and Dutch possessions, and make the Caribbean a British sphere while France used privateers and revolutionary upheaval. The Cape capture supplied a separate colonial gain, and demands for restitution of allied colonial possessions later obstructed peace. British blockade, Spanish cooperation off the Mediterranean coast and Russian harassment of surviving Baltic trade supplied maritime pressure alongside colonial operations. The later retrospective account records British reinforcement in Saint-Domingue, severe mortality from climate and disease, and withdrawal in1798 with13,000dead.",
+        "stance": "Colonial gains offered Britain commercial and strategic compensation but did not subdue Guadeloupe or Saint-Domingue and did not resolve the continental war. The mortality figure is Doyle’s stated British loss in the Saint-Domingue intervention, distinct from subsequent French losses described on the same page.",
+        "subject_id": "SUBJ-SUCC-51F0F6F76B36",
+        "acceptable_access": [
+          "Caribbean and West Indian strategy in the war",
+          "Caribbean campaigns, French Revolutionary War",
+          "Saint-Domingue, British intervention",
+          "Guadeloupe, republican privateers",
+          "Cape of Good Hope, British conquest",
+          "British blockade of France",
+          "maritime war—First Coalition",
+          "French trade—wartime disruption",
+          "Britain—Caribbean strategy",
+          "Saint-Domingue—British occupation attempt",
+          "Guadeloupe—British campaign",
+          "Cape of Good Hope—capture",
+          "slave revolts—West Indies",
+          "Saint-Domingue—planters and Britain",
+          "Guadeloupe—privateers",
+          "Caribbean—revolutionary warfare",
+          "French Revolutionary Wars—colonial dimension",
+          "Atlantic war",
+          "Caribbean and European diplomacy",
+          "Cape of Good Hope—strategic role",
+          "British intervention in Saint-Domingue—mortality and withdrawal",
+          "Saint-Domingue—British losses,1793–1798"
+        ],
+        "evidence": [
+          {
+            "document_page": 204,
+            "source_page_label": "204",
+            "locator_class": "supporting",
+            "evidence_summary": "British Caribbean ambitions formed one coalition aim; blockade constrained French trade while Russia harassed commerce reaching the Baltic, but Russian land participation was withheld.",
+            "evidence_id": "EVID-SUCC-41F886FC6068",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 210,
+            "source_page_label": "210",
+            "locator_class": "supporting",
+            "evidence_summary": "Spain's colonial cession had little immediate effect because Britain dominated Caribbean waters.",
+            "evidence_id": "EVID-SUCC-0A25409662E4",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 212,
+            "source_page_label": "212",
+            "locator_class": "principal",
+            "evidence_summary": "Details Saint-Domingue, Guadeloupe, slave uprisings, the 1795 expedition, and limited British results including the Cape.",
+            "evidence_id": "EVID-SUCC-C1F51818A88A",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 217,
+            "source_page_label": "217",
+            "locator_class": "principal",
+            "evidence_summary": "Colonial restitution, especially the Cape and allied possessions, became the decisive obstacle to peace.",
+            "evidence_id": "EVID-SUCC-FF18399E4278",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 202,
+            "source_page_label": "202",
+            "locator_class": "supporting",
+            "evidence_summary": "Spain agreed to cooperate in a British blockade of France’s Mediterranean coast after entry into the war.",
+            "evidence_id": "EVID-IR007012-PROP-BLOCKADE202",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 413,
+            "source_page_label": "413",
+            "locator_class": "principal",
+            "evidence_summary": "British forces in Saint-Domingue since1793 were reinforced, suffered devastating climatic and disease mortality, and withdrew in1798 with13,000dead; later French losses are a separate episode.",
+            "evidence_id": "EVID-IR007012-PROP-BRITISH413",
+            "source_local_subject_id": "IR007012-PROP-BRITISH413",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009",
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S027",
+            "label": "British maritime and colonial strategy: blockade, Caribbean operations and their limits",
+            "meaning": "British efforts to exploit colonial instability, occupy French and Dutch possessions, and make the Caribbean a British sphere while France used privateers and revolutionary upheaval. The Cape capture supplied a separate colonial gain, and demands for restitution of allied colonial possessions later obstructed peace. British blockade, Spanish cooperation off the Mediterranean coast and Russian harassment of surviving Baltic trade supplied maritime pressure alongside colonial operations.",
+            "stance": "Colonial gains offered Britain commercial and strategic compensation but did not subdue Guadeloupe or Saint-Domingue and did not resolve the continental war.",
+            "acceptable_access": [
+              "Caribbean and West Indian strategy in the war",
+              "Caribbean campaigns, French Revolutionary War",
+              "Saint-Domingue, British intervention",
+              "Guadeloupe, republican privateers",
+              "Cape of Good Hope, British conquest",
+              "British blockade of France",
+              "maritime war—First Coalition",
+              "French trade—wartime disruption",
+              "Britain—Caribbean strategy",
+              "Saint-Domingue—British occupation attempt",
+              "Guadeloupe—British campaign",
+              "Cape of Good Hope—capture",
+              "slave revolts—West Indies",
+              "Saint-Domingue—planters and Britain",
+              "Guadeloupe—privateers",
+              "Caribbean—revolutionary warfare",
+              "French Revolutionary Wars—colonial dimension",
+              "Atlantic war",
+              "Caribbean and European diplomacy",
+              "Cape of Good Hope—strategic role"
+            ],
+            "document_pages": [
+              202,
+              204,
+              210,
+              212,
+              217
+            ]
+          },
+          {
+            "label": "British Saint-Domingue intervention: mortality and1798 withdrawal",
+            "meaning": "British forces in Saint-Domingue since1793 were reinforced, suffered devastating climatic and disease mortality, and withdrew in1798 with13,000dead; later French losses are a separate episode.",
+            "stance": "British mortality and withdrawal are distinct from the subsequent French expedition; the13,000figure is the source’s stated total.",
+            "acceptable_access": [
+              "British intervention in Saint-Domingue—mortality and withdrawal"
+            ],
+            "document_pages": [
+              413
+            ],
+            "local_subject_id": "IR007012-PROP-BRITISH413"
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S027",
+          "IR007012-PROP-BRITISH413"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S027",
+            "label": "British maritime and colonial strategy: blockade, Caribbean operations and their limits",
+            "meaning": "British efforts to exploit colonial instability, occupy French and Dutch possessions, and make the Caribbean a British sphere while France used privateers and revolutionary upheaval. The Cape capture supplied a separate colonial gain, and demands for restitution of allied colonial possessions later obstructed peace. British blockade, Spanish cooperation off the Mediterranean coast and Russian harassment of surviving Baltic trade supplied maritime pressure alongside colonial operations.",
+            "stance": "Colonial gains offered Britain commercial and strategic compensation but did not subdue Guadeloupe or Saint-Domingue and did not resolve the continental war.",
+            "acceptable_access": [
+              "Caribbean and West Indian strategy in the war",
+              "Caribbean campaigns, French Revolutionary War",
+              "Saint-Domingue, British intervention",
+              "Guadeloupe, republican privateers",
+              "Cape of Good Hope, British conquest",
+              "British blockade of France",
+              "maritime war—First Coalition",
+              "French trade—wartime disruption",
+              "Britain—Caribbean strategy",
+              "Saint-Domingue—British occupation attempt",
+              "Guadeloupe—British campaign",
+              "Cape of Good Hope—capture",
+              "slave revolts—West Indies",
+              "Saint-Domingue—planters and Britain",
+              "Guadeloupe—privateers",
+              "Caribbean—revolutionary warfare",
+              "French Revolutionary Wars—colonial dimension",
+              "Atlantic war",
+              "Caribbean and European diplomacy",
+              "Cape of Good Hope—strategic role"
+            ],
+            "document_pages": [
+              202,
+              204,
+              210,
+              212,
+              217
+            ],
+            "independently_weighted": false
+          },
+          {
+            "label": "British Saint-Domingue intervention: mortality and1798 withdrawal",
+            "meaning": "British forces in Saint-Domingue since1793 were reinforced, suffered devastating climatic and disease mortality, and withdrew in1798 with13,000dead; later French losses are a separate episode.",
+            "stance": "British mortality and withdrawal are distinct from the subsequent French expedition; the13,000figure is the source’s stated total.",
+            "acceptable_access": [
+              "British intervention in Saint-Domingue—mortality and withdrawal"
+            ],
+            "document_pages": [
+              413
+            ],
+            "facet_id": "FACET-IR007012-PROP-BRITISH413",
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "6ab72e562a7b36f5085f369f5ae2e66fa85a3ad7eff156c77fbbe8e37f3e74e4",
+      "proposed_record": {
+        "label": "British maritime and colonial strategy: blockade, Caribbean operations and their limits",
+        "priority": "major",
+        "meaning": "British efforts to exploit colonial instability, occupy French and Dutch possessions, and make the Caribbean a British sphere while France used privateers and revolutionary upheaval. The Cape capture supplied a separate colonial gain, and demands for restitution of allied colonial possessions later obstructed peace. British blockade, Spanish cooperation off the Mediterranean coast and Russian harassment of surviving Baltic trade supplied maritime pressure alongside colonial operations. The later retrospective account records British reinforcement in Saint-Domingue, severe mortality from climate and disease, and withdrawal in1798 with13,000dead.",
+        "stance": "Colonial gains offered Britain commercial and strategic compensation but did not subdue Guadeloupe or Saint-Domingue and did not resolve the continental war. The mortality figure is Doyle’s stated British loss in the Saint-Domingue intervention, distinct from subsequent French losses described on the same page.",
+        "subject_id": "SUBJ-SUCC-51F0F6F76B36",
+        "acceptable_access": [
+          "Caribbean and West Indian strategy in the war",
+          "Caribbean campaigns, French Revolutionary War",
+          "Saint-Domingue, British intervention",
+          "Guadeloupe, republican privateers",
+          "Cape of Good Hope, British conquest",
+          "British blockade of France",
+          "maritime war—First Coalition",
+          "French trade—wartime disruption",
+          "Britain—Caribbean strategy",
+          "Saint-Domingue—British occupation attempt",
+          "Guadeloupe—British campaign",
+          "Cape of Good Hope—capture",
+          "slave revolts—West Indies",
+          "Saint-Domingue—planters and Britain",
+          "Guadeloupe—privateers",
+          "Caribbean—revolutionary warfare",
+          "French Revolutionary Wars—colonial dimension",
+          "Atlantic war",
+          "Caribbean and European diplomacy",
+          "Cape of Good Hope—strategic role",
+          "British intervention in Saint-Domingue—mortality and withdrawal",
+          "Saint-Domingue—British losses,1793–1798"
+        ],
+        "evidence": [
+          {
+            "document_page": 204,
+            "source_page_label": "204",
+            "locator_class": "supporting",
+            "evidence_summary": "British Caribbean ambitions formed one coalition aim; blockade constrained French trade while Russia harassed commerce reaching the Baltic, but Russian land participation was withheld.",
+            "evidence_id": "EVID-SUCC-41F886FC6068",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 210,
+            "source_page_label": "210",
+            "locator_class": "supporting",
+            "evidence_summary": "Spain's colonial cession had little immediate effect because Britain dominated Caribbean waters.",
+            "evidence_id": "EVID-SUCC-0A25409662E4",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 212,
+            "source_page_label": "212",
+            "locator_class": "principal",
+            "evidence_summary": "Saint-Domingue planters requested British protection against slave revolt; Spanish cession increased British occupation ambitions. Uprisings in British islands, republican privateers from Guadeloupe and commercial aims prompted the large 1795 expedition. Britain secured its own islands and captured others but failed to subdue Guadeloupe or Saint-Domingue; the Cape was a separate consolation gain.",
+            "evidence_id": "EVID-SUCC-C1F51818A88A",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 217,
+            "source_page_label": "217",
+            "locator_class": "principal",
+            "evidence_summary": "Colonial restitution, especially the Cape and allied possessions, became the decisive obstacle to peace.",
+            "evidence_id": "EVID-SUCC-FF18399E4278",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 202,
+            "source_page_label": "202",
+            "locator_class": "supporting",
+            "evidence_summary": "Spain agreed to cooperate in a British blockade of France’s Mediterranean coast after entry into the war.",
+            "evidence_id": "EVID-IR007012-PROP-BLOCKADE202",
+            "source_local_subject_id": "SUCC-C009-S027",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 413,
+            "source_page_label": "413",
+            "locator_class": "principal",
+            "evidence_summary": "British forces in Saint-Domingue since1793 were reinforced, suffered devastating climatic and disease mortality, and withdrew in1798 with13,000dead; later French losses are a separate episode.",
+            "evidence_id": "EVID-IR007012-PROP-BRITISH413",
+            "source_local_subject_id": "IR007012-PROP-BRITISH413",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009",
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S027",
+            "label": "British maritime and colonial strategy: blockade, Caribbean operations and their limits",
+            "meaning": "British efforts to exploit colonial instability, occupy French and Dutch possessions, and make the Caribbean a British sphere while France used privateers and revolutionary upheaval. The Cape capture supplied a separate colonial gain, and demands for restitution of allied colonial possessions later obstructed peace. British blockade, Spanish cooperation off the Mediterranean coast and Russian harassment of surviving Baltic trade supplied maritime pressure alongside colonial operations.",
+            "stance": "Colonial gains offered Britain commercial and strategic compensation but did not subdue Guadeloupe or Saint-Domingue and did not resolve the continental war.",
+            "acceptable_access": [
+              "Caribbean and West Indian strategy in the war",
+              "Caribbean campaigns, French Revolutionary War",
+              "Saint-Domingue, British intervention",
+              "Guadeloupe, republican privateers",
+              "Cape of Good Hope, British conquest",
+              "British blockade of France",
+              "maritime war—First Coalition",
+              "French trade—wartime disruption",
+              "Britain—Caribbean strategy",
+              "Saint-Domingue—British occupation attempt",
+              "Guadeloupe—British campaign",
+              "Cape of Good Hope—capture",
+              "slave revolts—West Indies",
+              "Saint-Domingue—planters and Britain",
+              "Guadeloupe—privateers",
+              "Caribbean—revolutionary warfare",
+              "French Revolutionary Wars—colonial dimension",
+              "Atlantic war",
+              "Caribbean and European diplomacy",
+              "Cape of Good Hope—strategic role"
+            ],
+            "document_pages": [
+              202,
+              204,
+              210,
+              212,
+              217
+            ]
+          },
+          {
+            "label": "British Saint-Domingue intervention: mortality and1798 withdrawal",
+            "meaning": "British forces in Saint-Domingue since1793 were reinforced, suffered devastating climatic and disease mortality, and withdrew in1798 with13,000dead; later French losses are a separate episode.",
+            "stance": "British mortality and withdrawal are distinct from the subsequent French expedition; the13,000figure is the source’s stated total.",
+            "acceptable_access": [
+              "British intervention in Saint-Domingue—mortality and withdrawal"
+            ],
+            "document_pages": [
+              413
+            ],
+            "local_subject_id": "IR007012-PROP-BRITISH413"
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S027",
+          "IR007012-PROP-BRITISH413"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S027",
+            "label": "British maritime and colonial strategy: blockade, Caribbean operations and their limits",
+            "meaning": "British efforts to exploit colonial instability, occupy French and Dutch possessions, and make the Caribbean a British sphere while France used privateers and revolutionary upheaval. The Cape capture supplied a separate colonial gain, and demands for restitution of allied colonial possessions later obstructed peace. British blockade, Spanish cooperation off the Mediterranean coast and Russian harassment of surviving Baltic trade supplied maritime pressure alongside colonial operations.",
+            "stance": "Colonial gains offered Britain commercial and strategic compensation but did not subdue Guadeloupe or Saint-Domingue and did not resolve the continental war.",
+            "acceptable_access": [
+              "Caribbean and West Indian strategy in the war",
+              "Caribbean campaigns, French Revolutionary War",
+              "Saint-Domingue, British intervention",
+              "Guadeloupe, republican privateers",
+              "Cape of Good Hope, British conquest",
+              "British blockade of France",
+              "maritime war—First Coalition",
+              "French trade—wartime disruption",
+              "Britain—Caribbean strategy",
+              "Saint-Domingue—British occupation attempt",
+              "Guadeloupe—British campaign",
+              "Cape of Good Hope—capture",
+              "slave revolts—West Indies",
+              "Saint-Domingue—planters and Britain",
+              "Guadeloupe—privateers",
+              "Caribbean—revolutionary warfare",
+              "French Revolutionary Wars—colonial dimension",
+              "Atlantic war",
+              "Caribbean and European diplomacy",
+              "Cape of Good Hope—strategic role"
+            ],
+            "document_pages": [
+              202,
+              204,
+              210,
+              212,
+              217
+            ],
+            "independently_weighted": false
+          },
+          {
+            "label": "British Saint-Domingue intervention: mortality and1798 withdrawal",
+            "meaning": "British forces in Saint-Domingue since1793 were reinforced, suffered devastating climatic and disease mortality, and withdrew in1798 with13,000dead; later French losses are a separate episode.",
+            "stance": "British mortality and withdrawal are distinct from the subsequent French expedition; the13,000figure is the source’s stated total.",
+            "acceptable_access": [
+              "British intervention in Saint-Domingue—mortality and withdrawal"
+            ],
+            "document_pages": [
+              413
+            ],
+            "facet_id": "FACET-IR007012-PROP-BRITISH413",
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "acefbc634ee71031fc5da592d88ea3301f874f065b5f411dd95b52c568a72a60",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "212 confirms the differentiated motivations and outcomes; accept the expanded evidence while preserving the stage8 parent and chapter17 mortality treatment. No conflation of the Cape with the island expedition.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 4,
+      "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0006",
+        "CORR-007-LEGACY-0007"
+      ],
+      "source_correction_row_sha256s": [
+        "41fd034f63a540b1b6dde8ac2ed9f02bec429c837b678bafc3e1ea4afccfb44e",
+        "c39d5f6244d8f0148738b9228bd8fc130c57a764fbbfd788a7de1b0e901d4576"
+      ],
+      "before_record": {
+        "label": "Germinal uprising and its punitive aftermath",
+        "priority": "essential",
+        "meaning": "The 12 Germinal march on the Convention for bread and the Constitution of 1793. March bread riots precede the uncoordinated occupation. After its failure Pichegru receives security command, former committee leaders are sentenced to deportation, ex-Montagnards are arrested and the 10 April disarmament law exposes former activists to reprisals.",
+        "stance": "The action expresses acute subsistence distress but lacks a clear program, coordination, durable institutions, or decisive armed support. The demonstration’s failure and the subsequent wider purge are separate stages; some local counter-terror predates the law.",
+        "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+        "acceptable_access": [
+          "Germinal uprising and its punitive aftermath",
+          "Germinal uprising",
+          "12 Germinal",
+          "Paris food riots, April 1795",
+          "Germinal uprising, repression",
+          "Paris activists, disarmament",
+          "Montagnards, arrest after Germinal",
+          "Paris bread riots, March 1795",
+          "subsistence protests before Germinal",
+          "Paris—insurrection of April 1795",
+          "bread and Constitution of 1793",
+          "Germinal—repression",
+          "Barere—deportation",
+          "Billaud-Varenne—deportation",
+          "Collot d'Herbois—deportation",
+          "Montagnards—arrests after Germinal",
+          "Law of 10 April 1795",
+          "former terrorists—disarmament",
+          "suspects—Thermidorian detention",
+          "counter-terror—legal trigger"
+        ],
+        "evidence": [
+          {
+            "document_page": 290,
+            "source_page_label": "290",
+            "locator_class": "principal",
+            "evidence_summary": "Food petitions and bread riots build toward a march despite emergency grain measures.",
+            "evidence_id": "EVID-SUCC-ABB900C64AEF",
+            "source_local_subject_id": "SUCC-C012-S027",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 291,
+            "source_page_label": "291",
+            "locator_class": "principal",
+            "evidence_summary": "The uncoordinated crowd withdraws; the Convention then sentences committee leaders to deportation and disarms former activists.",
+            "evidence_id": "EVID-SUCC-B0BB8352E963",
+            "source_local_subject_id": "SUCC-C012-S027",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 292,
+            "source_page_label": "292",
+            "locator_class": "principal",
+            "evidence_summary": "Local authorities extend disarmament into mass detention, furnishing targets for vengeance.",
+            "evidence_id": "EVID-SUCC-41446F8EA7B3",
+            "source_local_subject_id": "SUCC-C012-S027",
+            "source_chunk_id": "CHUNK-012"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-012"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C012-S027",
+            "label": "Germinal uprising and its punitive aftermath",
+            "meaning": "The 12 Germinal march on the Convention for bread and the Constitution of 1793. March bread riots precede the uncoordinated occupation. After its failure Pichegru receives security command, former committee leaders are sentenced to deportation, ex-Montagnards are arrested and the 10 April disarmament law exposes former activists to reprisals.",
+            "stance": "The action expresses acute subsistence distress but lacks a clear program, coordination, durable institutions, or decisive armed support. The demonstration’s failure and the subsequent wider purge are separate stages; some local counter-terror predates the law.",
+            "acceptable_access": [
+              "Germinal uprising and its punitive aftermath",
+              "Germinal uprising",
+              "12 Germinal",
+              "Paris food riots, April 1795",
+              "Germinal uprising, repression",
+              "Paris activists, disarmament",
+              "Montagnards, arrest after Germinal",
+              "Paris bread riots, March 1795",
+              "subsistence protests before Germinal",
+              "Paris—insurrection of April 1795",
+              "bread and Constitution of 1793",
+              "Germinal—repression",
+              "Barere—deportation",
+              "Billaud-Varenne—deportation",
+              "Collot d'Herbois—deportation",
+              "Montagnards—arrests after Germinal",
+              "Law of 10 April 1795",
+              "former terrorists—disarmament",
+              "suspects—Thermidorian detention",
+              "counter-terror—legal trigger"
+            ],
+            "document_pages": [
+              290,
+              291,
+              292
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C012-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C012-S027",
+            "label": "Germinal uprising and its punitive aftermath",
+            "meaning": "The 12 Germinal march on the Convention for bread and the Constitution of 1793. March bread riots precede the uncoordinated occupation. After its failure Pichegru receives security command, former committee leaders are sentenced to deportation, ex-Montagnards are arrested and the 10 April disarmament law exposes former activists to reprisals.",
+            "stance": "The action expresses acute subsistence distress but lacks a clear program, coordination, durable institutions, or decisive armed support. The demonstration’s failure and the subsequent wider purge are separate stages; some local counter-terror predates the law.",
+            "acceptable_access": [
+              "Germinal uprising and its punitive aftermath",
+              "Germinal uprising",
+              "12 Germinal",
+              "Paris food riots, April 1795",
+              "Germinal uprising, repression",
+              "Paris activists, disarmament",
+              "Montagnards, arrest after Germinal",
+              "Paris bread riots, March 1795",
+              "subsistence protests before Germinal",
+              "Paris—insurrection of April 1795",
+              "bread and Constitution of 1793",
+              "Germinal—repression",
+              "Barere—deportation",
+              "Billaud-Varenne—deportation",
+              "Collot d'Herbois—deportation",
+              "Montagnards—arrests after Germinal",
+              "Law of 10 April 1795",
+              "former terrorists—disarmament",
+              "suspects—Thermidorian detention",
+              "counter-terror—legal trigger"
+            ],
+            "document_pages": [
+              290,
+              291,
+              292
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "2170d5391681a3ec375bd487ac28027ba112f3ef130a784d87b0c4bde15a15bd",
+      "proposed_record": {
+        "label": "Germinal uprising and its punitive aftermath",
+        "priority": "essential",
+        "meaning": "The 12 Germinal march on the Convention for bread and the Constitution of 1793. March bread riots precede the uncoordinated occupation. After its failure Pichegru receives security command, former committee leaders are sentenced to deportation, ex-Montagnards are arrested and the 10 April disarmament law exposes former activists to reprisals.",
+        "stance": "Bread and the Constitution of 1793 were stated demands, but the action lacked a clearer coordinated programme, durable organization or decisive armed support. The source attributes the organizational weakness to popular institutions destroyed twelve months earlier. The demonstration’s failure and the subsequent wider purge are separate stages; some local counter-terror predates the law.",
+        "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+        "acceptable_access": [
+          "Germinal uprising and its punitive aftermath",
+          "Germinal uprising",
+          "12 Germinal",
+          "Paris food riots, April 1795",
+          "Germinal uprising, repression",
+          "Paris activists, disarmament",
+          "Montagnards, arrest after Germinal",
+          "Paris bread riots, March 1795",
+          "subsistence protests before Germinal",
+          "Paris—insurrection of April 1795",
+          "bread and Constitution of 1793",
+          "Germinal—repression",
+          "Barere—deportation",
+          "Billaud-Varenne—deportation",
+          "Collot d'Herbois—deportation",
+          "Montagnards—arrests after Germinal",
+          "Law of 10 April 1795",
+          "former terrorists—disarmament",
+          "suspects—Thermidorian detention",
+          "counter-terror—legal trigger"
+        ],
+        "evidence": [
+          {
+            "document_page": 290,
+            "source_page_label": "290",
+            "locator_class": "principal",
+            "evidence_summary": "Food petitions and bread riots build toward a march despite emergency grain measures.",
+            "evidence_id": "EVID-SUCC-ABB900C64AEF",
+            "source_local_subject_id": "SUCC-C012-S027",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 291,
+            "source_page_label": "291",
+            "locator_class": "principal",
+            "evidence_summary": "About 10,000 mostly eastern Parisians occupied the Convention demanding bread and the Constitution of 1793, but lacked coordination and a clearer programme after their organizing institutions had been destroyed. Crest deputies urged departure; arrival of western forces preceded withdrawal. Deportations and disarmament followed as a separate punitive phase.",
+            "evidence_id": "EVID-SUCC-B0BB8352E963",
+            "source_local_subject_id": "SUCC-C012-S027",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 292,
+            "source_page_label": "292",
+            "locator_class": "principal",
+            "evidence_summary": "Local authorities extend disarmament into mass detention, furnishing targets for vengeance.",
+            "evidence_id": "EVID-SUCC-41446F8EA7B3",
+            "source_local_subject_id": "SUCC-C012-S027",
+            "source_chunk_id": "CHUNK-012"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-012"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C012-S027",
+            "label": "Germinal uprising and its punitive aftermath",
+            "meaning": "The 12 Germinal march on the Convention for bread and the Constitution of 1793. March bread riots precede the uncoordinated occupation. After its failure Pichegru receives security command, former committee leaders are sentenced to deportation, ex-Montagnards are arrested and the 10 April disarmament law exposes former activists to reprisals.",
+            "stance": "Bread and the Constitution of 1793 were stated demands, but the action lacked a clearer coordinated programme, durable organization or decisive armed support. The source attributes the organizational weakness to popular institutions destroyed twelve months earlier. The demonstration’s failure and the subsequent wider purge are separate stages; some local counter-terror predates the law.",
+            "acceptable_access": [
+              "Germinal uprising and its punitive aftermath",
+              "Germinal uprising",
+              "12 Germinal",
+              "Paris food riots, April 1795",
+              "Germinal uprising, repression",
+              "Paris activists, disarmament",
+              "Montagnards, arrest after Germinal",
+              "Paris bread riots, March 1795",
+              "subsistence protests before Germinal",
+              "Paris—insurrection of April 1795",
+              "bread and Constitution of 1793",
+              "Germinal—repression",
+              "Barere—deportation",
+              "Billaud-Varenne—deportation",
+              "Collot d'Herbois—deportation",
+              "Montagnards—arrests after Germinal",
+              "Law of 10 April 1795",
+              "former terrorists—disarmament",
+              "suspects—Thermidorian detention",
+              "counter-terror—legal trigger"
+            ],
+            "document_pages": [
+              290,
+              291,
+              292
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C012-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C012-S027",
+            "label": "Germinal uprising and its punitive aftermath",
+            "meaning": "The 12 Germinal march on the Convention for bread and the Constitution of 1793. March bread riots precede the uncoordinated occupation. After its failure Pichegru receives security command, former committee leaders are sentenced to deportation, ex-Montagnards are arrested and the 10 April disarmament law exposes former activists to reprisals.",
+            "stance": "Bread and the Constitution of 1793 were stated demands, but the action lacked a clearer coordinated programme, durable organization or decisive armed support. The source attributes the organizational weakness to popular institutions destroyed twelve months earlier. The demonstration’s failure and the subsequent wider purge are separate stages; some local counter-terror predates the law.",
+            "acceptable_access": [
+              "Germinal uprising and its punitive aftermath",
+              "Germinal uprising",
+              "12 Germinal",
+              "Paris food riots, April 1795",
+              "Germinal uprising, repression",
+              "Paris activists, disarmament",
+              "Montagnards, arrest after Germinal",
+              "Paris bread riots, March 1795",
+              "subsistence protests before Germinal",
+              "Paris—insurrection of April 1795",
+              "bread and Constitution of 1793",
+              "Germinal—repression",
+              "Barere—deportation",
+              "Billaud-Varenne—deportation",
+              "Collot d'Herbois—deportation",
+              "Montagnards—arrests after Germinal",
+              "Law of 10 April 1795",
+              "former terrorists—disarmament",
+              "suspects—Thermidorian detention",
+              "counter-terror—legal trigger"
+            ],
+            "document_pages": [
+              290,
+              291,
+              292
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "9d9c5129e4b9b905be9961b008755d82c8782e88e3ad2a35285e91c53bf5f14e",
+      "fields_changed": [
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "291 supplies actual stated demands and a missing organizational mechanism. Rephrase the stance to avoid simultaneously saying there was no programme and ignoring those explicit demands; distinguish the wider punitive aftermath and earlier local counter-terror.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 5,
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0008",
+        "CORR-007-LEGACY-0009",
+        "CORR-007-LEGACY-0010"
+      ],
+      "source_correction_row_sha256s": [
+        "f850dcd933ca8e9e63f1586a6ec99d02a397813b80634a9cca78f4a84fa0354a",
+        "51f10cb4dd4c49df80626497bf09f14429450a56d2c5aa160bee4f210e97411f",
+        "dcb64bddffa7158fcdcd08437e00dc184560bda960f9a5c7093c486642c6fa57"
+      ],
+      "before_record": {
+        "label": "Rhineland: annexation debate and administrative assimilation",
+        "priority": "major",
+        "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank. After Campo Formio, consent of the Empire was sought at the Congress of Rastadt and remained provisional while departmental administration already treated the territory as French.",
+        "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement.",
+        "subject_id": "SUBJ-SUCC-63FC319A198D",
+        "acceptable_access": [
+          "Rhineland—French annexation",
+          "Left bank of the Rhine",
+          "Cis-Rhenan Republic proposal"
+        ],
+        "evidence": [
+          {
+            "document_page": 351,
+            "source_page_label": "351",
+            "locator_class": "principal",
+            "evidence_summary": "The annexation debate, Hoche's sister-republic proposal, Campo Formio, Rastadt, and four-department assimilation are traced.",
+            "evidence_id": "EVID-SUCC-76D157B8BBE7",
+            "source_local_subject_id": "SUCC-C015-S018",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "evidence_id": "EVID-SUCC-177ACCCD53F5",
+            "source_evidence_id": "EVID-6A7FC4325970",
+            "document_page": 351,
+            "source_page_label": "351",
+            "locator_class": "supporting",
+            "evidence_summary": "The Rhineland remained diplomatically provisional while being administered increasingly as French territory.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S013",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S018",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-9A050CC31262",
+              "evidence_id": "EVID-4C939950B4F8"
+            },
+            "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+          },
+          {
+            "evidence_id": "EVID-SUCC-136F6F8CDFE1",
+            "source_evidence_id": "EVID-D0845B37ACB1",
+            "document_page": 352,
+            "source_page_label": "352",
+            "locator_class": "supporting",
+            "evidence_summary": "Unlike Belgium, the Rhineland lacked a native French-speaking population or a substantial Jacobin constituency to support incorporation.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S019",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S018",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-02DADFAF8019",
+              "evidence_id": "EVID-C2AD2EE80339"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S018",
+            "label": "Rhineland: annexation debate and administrative assimilation",
+            "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank.",
+            "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement.",
+            "acceptable_access": [
+              "Rhineland—French annexation",
+              "Left bank of the Rhine",
+              "Cis-Rhenan Republic proposal"
+            ],
+            "document_pages": [
+              351
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S018"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S018",
+            "label": "Rhineland: annexation debate and administrative assimilation",
+            "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank.",
+            "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement.",
+            "acceptable_access": [
+              "Rhineland—French annexation",
+              "Left bank of the Rhine",
+              "Cis-Rhenan Republic proposal"
+            ],
+            "document_pages": [
+              351
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "e545a9ca84d4972c78280745057fabea5238fd721fe4a4ebb7819387727ef8a5",
+      "proposed_record": {
+        "label": "Rhineland: annexation debate and administrative assimilation",
+        "priority": "major",
+        "meaning": "French debate set natural-frontier annexation against using the Rhineland as a bargaining counter for peace. Hoche proposed a Cis-Rhenan client republic partly to rival Bonaparte’s Italian power; the idea died with him, while Carnot’s removal strengthened annexation advocates. Austrian recognition at Campo Formio was followed by coerced provisional imperial consent at Rastadt; four departments created in 1798 brought practical assimilation before final settlement in 1801.",
+        "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement. Local consent was weak: there were few Jacobin collaborators and no native French-speaking population. French strategic and factional choices must not be recast as a popular Rhineland mandate.",
+        "subject_id": "SUBJ-SUCC-63FC319A198D",
+        "acceptable_access": [
+          "Rhineland—French annexation",
+          "Left bank of the Rhine",
+          "Cis-Rhenan Republic proposal",
+          "Congress of Rastadt—Rhineland",
+          "Rhineland—local consent and collaboration",
+          "Hoche—Cis-Rhenan Republic proposal"
+        ],
+        "evidence": [
+          {
+            "document_page": 351,
+            "source_page_label": "351",
+            "locator_class": "principal",
+            "evidence_summary": "Annexation was debated against peace bargaining. Hoche proposed a Cis-Rhenan republic to rival Bonaparte’s Italian client state; his death and Carnot’s removal changed the balance. Austria recognized the left-bank claim at Campo Formio, but imperial consent at Rastadt arrived under threat in December 1798 and remained provisional.",
+            "evidence_id": "EVID-SUCC-76D157B8BBE7",
+            "source_local_subject_id": "SUCC-C015-S018",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "evidence_id": "EVID-SUCC-177ACCCD53F5",
+            "source_evidence_id": "EVID-6A7FC4325970",
+            "document_page": 351,
+            "source_page_label": "351",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Division into four departments in January 1798 made the Rhineland practically French before imperial consent became final after France defeated the Second Coalition in 1801.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S013",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S018",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-9A050CC31262",
+              "evidence_id": "EVID-4C939950B4F8"
+            },
+            "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+          },
+          {
+            "evidence_id": "EVID-SUCC-136F6F8CDFE1",
+            "source_evidence_id": "EVID-D0845B37ACB1",
+            "document_page": 352,
+            "source_page_label": "352",
+            "locator_class": "supporting",
+            "evidence_summary": "Unlike Belgium, the Rhineland lacked a native French-speaking population or a substantial Jacobin constituency to support incorporation.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S019",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S018",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-02DADFAF8019",
+              "evidence_id": "EVID-C2AD2EE80339"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          },
+          {
+            "evidence_id": "EVID-ISR-63FC-RHINELAND-352",
+            "document_page": 352,
+            "source_page_label": "352",
+            "locator_class": "supporting",
+            "evidence_summary": "The Rhineland offered few local Jacobin collaborators, no native French-speaking population and little comprehension of French; its frontier military burdens intensified the gulf between annexation policy and local consent.",
+            "source_chunk_id": "CHUNK-015",
+            "source_local_subject_id": "SUCC-C015-S018"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S018",
+            "label": "Rhineland: annexation debate and administrative assimilation",
+            "meaning": "French debate set natural-frontier annexation against using the Rhineland as a bargaining counter for peace. Hoche proposed a Cis-Rhenan client republic partly to rival Bonaparte’s Italian power; the idea died with him, while Carnot’s removal strengthened annexation advocates. Austrian recognition at Campo Formio was followed by coerced provisional imperial consent at Rastadt; four departments created in 1798 brought practical assimilation before final settlement in 1801.",
+            "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement. Local consent was weak: there were few Jacobin collaborators and no native French-speaking population. French strategic and factional choices must not be recast as a popular Rhineland mandate.",
+            "acceptable_access": [
+              "Rhineland—French annexation",
+              "Left bank of the Rhine",
+              "Cis-Rhenan Republic proposal",
+              "Congress of Rastadt—Rhineland",
+              "Rhineland—local consent and collaboration",
+              "Hoche—Cis-Rhenan Republic proposal"
+            ],
+            "document_pages": [
+              351,
+              352
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S018"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S018",
+            "label": "Rhineland: annexation debate and administrative assimilation",
+            "meaning": "French debate set natural-frontier annexation against using the Rhineland as a bargaining counter for peace. Hoche proposed a Cis-Rhenan client republic partly to rival Bonaparte’s Italian power; the idea died with him, while Carnot’s removal strengthened annexation advocates. Austrian recognition at Campo Formio was followed by coerced provisional imperial consent at Rastadt; four departments created in 1798 brought practical assimilation before final settlement in 1801.",
+            "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement. Local consent was weak: there were few Jacobin collaborators and no native French-speaking population. French strategic and factional choices must not be recast as a popular Rhineland mandate.",
+            "acceptable_access": [
+              "Rhineland—French annexation",
+              "Left bank of the Rhine",
+              "Cis-Rhenan Republic proposal",
+              "Congress of Rastadt—Rhineland",
+              "Rhineland—local consent and collaboration",
+              "Hoche—Cis-Rhenan Republic proposal"
+            ],
+            "document_pages": [
+              351,
+              352
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "3be986e05a99fe82bde5fc1c992cdcd24aeed06f34e16c7bad4d7b593433e7b7",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "351–352 supports the strategic, factional and diplomatic stages. Add separate352 supporting evidence for the newly explicit weak collaboration/native-language qualification; do not attach352 claims only to351 evidence. Preserve the source’s December1798 provisional consent, separately controlled from its conflicting chronology elsewhere.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 6,
+      "subject_id": "SUBJ-SUCC-1671B419419F",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0011",
+        "CORR-007-LEGACY-0012",
+        "CORR-007-LEGACY-0154",
+        "CORR-007-LEGACY-0155"
+      ],
+      "source_correction_row_sha256s": [
+        "f68271587ee7b320c981e8ffaf7e9802691c701f8a37ad13acd5d91df60b5a24",
+        "33130aff8b9e3fbbb3e2b401e91a8156bea09d10079750c541fdda1e59d9cff0",
+        "b3f9d31af4150d6af9bbebfa551d8c4dee670347752287021617e9b5e4c2a6f2",
+        "65c469ec741f7e79e4a1878e109bef5accca0796ff5ba46cec7188f8f68ec46e"
+      ],
+      "before_record": {
+        "label": "Revolutionary and Napoleonic restructuring of European states",
+        "priority": "major",
+        "meaning": "French power destroyed city-republics, secularized German states and transformed Dutch and Swiss institutions. Other changes were indirect: neighbors partitioned Poland while France appeared helpless, and the1798Irish rising precipitated loss of legislative independence. Imperial dissolution followed later Napoleonic victory.",
+        "stance": "Many territorial and constitutional changes outlasted French domination, but France surrendered most direct gains after 1815.",
+        "subject_id": "SUBJ-SUCC-1671B419419F",
+        "acceptable_access": [
+          "Europe—territorial effects of the French Revolution",
+          "Holy Roman Empire—dissolution",
+          "German secularization",
+          "Revolutionary Wars—state restructuring",
+          "Holy Roman Empire--secularization and dissolution",
+          "City republics--destruction",
+          "Ireland--loss of legislative independence",
+          "Natural frontiers--French territorial reversals after 1815"
+        ],
+        "evidence": [
+          {
+            "document_page": 413,
+            "source_page_label": "413",
+            "locator_class": "supporting",
+            "evidence_summary": "The chapter introduces the scarcely recognizable European state landscape created by revolutionary influence.",
+            "evidence_id": "EVID-SUCC-9E18189B51FC",
+            "source_local_subject_id": "SUCC-C017-S027",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 414,
+            "source_page_label": "414",
+            "locator_class": "principal",
+            "evidence_summary": "City-republics, Germany, the Netherlands, Switzerland, Poland, and Ireland underwent durable territorial or constitutional change.",
+            "evidence_id": "EVID-SUCC-BC109082E913",
+            "source_local_subject_id": "SUCC-C017-S027",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S027",
+            "label": "Revolutionary and Napoleonic restructuring of European states",
+            "meaning": "French power destroyed city-republics, secularized German states and transformed Dutch and Swiss institutions. Other changes were indirect: neighbors partitioned Poland while France appeared helpless, and the1798Irish rising precipitated loss of legislative independence. Imperial dissolution followed later Napoleonic victory.",
+            "stance": "Many territorial and constitutional changes outlasted French domination, but France surrendered most direct gains after 1815.",
+            "acceptable_access": [
+              "Europe—territorial effects of the French Revolution",
+              "Holy Roman Empire—dissolution",
+              "German secularization",
+              "Revolutionary Wars—state restructuring",
+              "Holy Roman Empire--secularization and dissolution",
+              "City republics--destruction",
+              "Ireland--loss of legislative independence",
+              "Natural frontiers--French territorial reversals after 1815"
+            ],
+            "document_pages": [
+              413,
+              414
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S027",
+            "label": "Revolutionary and Napoleonic restructuring of European states",
+            "meaning": "French power destroyed city-republics, secularized German states and transformed Dutch and Swiss institutions. Other changes were indirect: neighbors partitioned Poland while France appeared helpless, and the1798Irish rising precipitated loss of legislative independence. Imperial dissolution followed later Napoleonic victory.",
+            "stance": "Many territorial and constitutional changes outlasted French domination, but France surrendered most direct gains after 1815.",
+            "acceptable_access": [
+              "Europe—territorial effects of the French Revolution",
+              "Holy Roman Empire—dissolution",
+              "German secularization",
+              "Revolutionary Wars—state restructuring",
+              "Holy Roman Empire--secularization and dissolution",
+              "City republics--destruction",
+              "Ireland--loss of legislative independence",
+              "Natural frontiers--French territorial reversals after 1815"
+            ],
+            "document_pages": [
+              413,
+              414
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "8d183e5240482708a27d0e3983f5d361fbb3811cd38e917600b7e74bed810dbf",
+      "proposed_record": {
+        "label": "Revolutionary and Napoleonic restructuring of European states",
+        "priority": "major",
+        "meaning": "French power destroyed city-republics, secularized German states and transformed Dutch and Swiss institutions. Other changes were indirect: neighbors partitioned Poland while France appeared helpless, and the 1798 Irish rising precipitated loss of legislative independence. Princes displaced from the Rhine’s left bank received compensation through ecclesiastical territories, secularizing German states before the Empire itself ended in 1806. France later surrendered most expanded frontiers; Austria and Prussia emerged strengthened, while resistance in Russia and Spain exposed limits to French conquest.",
+        "stance": "Many territorial and constitutional changes outlasted French domination, but France surrendered most direct gains after 1815.",
+        "subject_id": "SUBJ-SUCC-1671B419419F",
+        "acceptable_access": [
+          "Europe—territorial effects of the French Revolution",
+          "Holy Roman Empire—dissolution",
+          "German secularization",
+          "Revolutionary Wars—state restructuring",
+          "Holy Roman Empire--secularization and dissolution",
+          "City republics--destruction",
+          "Ireland--loss of legislative independence",
+          "Natural frontiers--French territorial reversals after 1815",
+          "Ecclesiastical principalities—secularization and compensation",
+          "Rhine annexation—German territorial compensation",
+          "European powers—gains from France’s defeat",
+          "France—limits of conquest"
+        ],
+        "evidence": [
+          {
+            "document_page": 413,
+            "source_page_label": "413",
+            "locator_class": "supporting",
+            "evidence_summary": "The chapter introduces the scarcely recognizable European state landscape created by revolutionary influence.",
+            "evidence_id": "EVID-SUCC-9E18189B51FC",
+            "source_local_subject_id": "SUCC-C017-S027",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 414,
+            "source_page_label": "414",
+            "locator_class": "principal",
+            "evidence_summary": "French and indirect revolutionary consequences transformed city-republics, Dutch and Swiss institutions, Poland and Ireland. Princes displaced from the Rhine’s left bank received ecclesiastical territories as compensation after the settlements, secularizing German states before the Empire ended in 1806. France lost most enlarged frontiers; Austria and Prussia emerged stronger, while Russia and Spain demonstrated limits to conquest.",
+            "evidence_id": "EVID-SUCC-BC109082E913",
+            "source_local_subject_id": "SUCC-C017-S027",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S027",
+            "label": "Revolutionary and Napoleonic restructuring of European states",
+            "meaning": "French power destroyed city-republics, secularized German states and transformed Dutch and Swiss institutions. Other changes were indirect: neighbors partitioned Poland while France appeared helpless, and the 1798 Irish rising precipitated loss of legislative independence. Princes displaced from the Rhine’s left bank received compensation through ecclesiastical territories, secularizing German states before the Empire itself ended in 1806. France later surrendered most expanded frontiers; Austria and Prussia emerged strengthened, while resistance in Russia and Spain exposed limits to French conquest.",
+            "stance": "Many territorial and constitutional changes outlasted French domination, but France surrendered most direct gains after 1815.",
+            "acceptable_access": [
+              "Europe—territorial effects of the French Revolution",
+              "Holy Roman Empire—dissolution",
+              "German secularization",
+              "Revolutionary Wars—state restructuring",
+              "Holy Roman Empire--secularization and dissolution",
+              "City republics--destruction",
+              "Ireland--loss of legislative independence",
+              "Natural frontiers--French territorial reversals after 1815",
+              "Ecclesiastical principalities—secularization and compensation",
+              "Rhine annexation—German territorial compensation",
+              "European powers—gains from France’s defeat",
+              "France—limits of conquest"
+            ],
+            "document_pages": [
+              413,
+              414
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S027",
+            "label": "Revolutionary and Napoleonic restructuring of European states",
+            "meaning": "French power destroyed city-republics, secularized German states and transformed Dutch and Swiss institutions. Other changes were indirect: neighbors partitioned Poland while France appeared helpless, and the 1798 Irish rising precipitated loss of legislative independence. Princes displaced from the Rhine’s left bank received compensation through ecclesiastical territories, secularizing German states before the Empire itself ended in 1806. France later surrendered most expanded frontiers; Austria and Prussia emerged strengthened, while resistance in Russia and Spain exposed limits to French conquest.",
+            "stance": "Many territorial and constitutional changes outlasted French domination, but France surrendered most direct gains after 1815.",
+            "acceptable_access": [
+              "Europe—territorial effects of the French Revolution",
+              "Holy Roman Empire—dissolution",
+              "German secularization",
+              "Revolutionary Wars—state restructuring",
+              "Holy Roman Empire--secularization and dissolution",
+              "City republics--destruction",
+              "Ireland--loss of legislative independence",
+              "Natural frontiers--French territorial reversals after 1815",
+              "Ecclesiastical principalities—secularization and compensation",
+              "Rhine annexation—German territorial compensation",
+              "European powers—gains from France’s defeat",
+              "France—limits of conquest"
+            ],
+            "document_pages": [
+              413,
+              414
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "834f27290ec3e89d09c7f910b26aa892517c4fc3599752335f4be0533dd8044b",
+      "fields_changed": [
+        "meaning",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "414 supports both the compensation mechanism and wider beneficiaries/limits. Compose these compatible proposals rather than choosing either repeated field target. Keep indirect Polish/Irish consequences separate from direct French restructuring.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 7,
+      "subject_id": "SUBJ-SUCC-4A15787A5F56",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0013"
+      ],
+      "source_correction_row_sha256s": [
+        "4965087bf27227258c91901036b0fab86c71e28ed8854531426929445bd92906"
+      ],
+      "before_record": {
+        "label": "Danton in the August–September crisis",
+        "priority": "major",
+        "meaning": "Danton connected sectional organization, ministerial power, mass mobilization, and emergency rhetoric while sometimes restraining the Commune's most dangerous arrests.",
+        "stance": "He is shown as a powerful radical organizer and minister, but not reduced to responsibility for the September Massacres.",
+        "subject_id": "SUBJ-SUCC-4A15787A5F56",
+        "acceptable_access": [
+          "Danton in the August–September crisis",
+          "Danton, Georges—1792 insurrection",
+          "Danton—minister of justice",
+          "Danton—September crisis",
+          "Danton",
+          "Danton, justice minister",
+          "Danton and the sections",
+          "Danton and September crisis"
+        ],
+        "evidence": [
+          {
+            "document_page": 187,
+            "source_page_label": "187",
+            "locator_class": "supporting",
+            "evidence_summary": "Danton leads the Théâtre-Français section in opening its assembly beyond active citizens.",
+            "evidence_id": "EVID-SUCC-C3FF2AAACD3A",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 190,
+            "source_page_label": "190",
+            "locator_class": "principal",
+            "evidence_summary": "He becomes justice minister to retain sansculotte support and dominates emergency measures after invasion news.",
+            "evidence_id": "EVID-SUCC-918F6561C68C",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "principal",
+            "evidence_summary": "He blocks proposed arrests by the Commune and responds to invasion with mass volunteering and defiant rhetoric.",
+            "evidence_id": "EVID-SUCC-4EFCDE94D1DC",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 193,
+            "source_page_label": "193",
+            "locator_class": "supporting",
+            "evidence_summary": "His election to the Convention ends his service as minister.",
+            "evidence_id": "EVID-SUCC-B04321FA6910",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S029",
+            "label": "Danton in the August–September crisis",
+            "meaning": "Danton connected sectional organization, ministerial power, mass mobilization, and emergency rhetoric while sometimes restraining the Commune's most dangerous arrests.",
+            "stance": "He is shown as a powerful radical organizer and minister, but not reduced to responsibility for the September Massacres.",
+            "acceptable_access": [
+              "Danton in the August–September crisis",
+              "Danton, Georges—1792 insurrection",
+              "Danton—minister of justice",
+              "Danton—September crisis",
+              "Danton",
+              "Danton, justice minister",
+              "Danton and the sections",
+              "Danton and September crisis"
+            ],
+            "document_pages": [
+              187,
+              190,
+              191,
+              193
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S029"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S029",
+            "label": "Danton in the August–September crisis",
+            "meaning": "Danton connected sectional organization, ministerial power, mass mobilization, and emergency rhetoric while sometimes restraining the Commune's most dangerous arrests.",
+            "stance": "He is shown as a powerful radical organizer and minister, but not reduced to responsibility for the September Massacres.",
+            "acceptable_access": [
+              "Danton in the August–September crisis",
+              "Danton, Georges—1792 insurrection",
+              "Danton—minister of justice",
+              "Danton—September crisis",
+              "Danton",
+              "Danton, justice minister",
+              "Danton and the sections",
+              "Danton and September crisis"
+            ],
+            "document_pages": [
+              187,
+              190,
+              191,
+              193
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "1e19cd280b917ccd43a99d195465c4dd06f1853d5ce79bfe097548aabfb075df",
+      "proposed_record": {
+        "label": "Danton in the August–September crisis",
+        "priority": "major",
+        "meaning": "Danton led the Théâtre-Français section in opening participation beyond active citizens, then connected sectional organization, ministerial power, mass mobilization and emergency rhetoric during the August–September crisis while sometimes restraining the Commune’s most dangerous arrests.",
+        "stance": "He is shown as a powerful radical organizer and minister, but not reduced to responsibility for the September Massacres.",
+        "subject_id": "SUBJ-SUCC-4A15787A5F56",
+        "acceptable_access": [
+          "Danton in the August–September crisis",
+          "Danton, Georges—1792 insurrection",
+          "Danton—minister of justice",
+          "Danton—September crisis",
+          "Danton",
+          "Danton, justice minister",
+          "Danton and the sections",
+          "Danton and September crisis"
+        ],
+        "evidence": [
+          {
+            "document_page": 187,
+            "source_page_label": "187",
+            "locator_class": "supporting",
+            "evidence_summary": "Danton leads the Théâtre-Français section in opening its assembly beyond active citizens.",
+            "evidence_id": "EVID-SUCC-C3FF2AAACD3A",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 190,
+            "source_page_label": "190",
+            "locator_class": "principal",
+            "evidence_summary": "He becomes justice minister to retain sansculotte support and dominates emergency measures after invasion news.",
+            "evidence_id": "EVID-SUCC-918F6561C68C",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "principal",
+            "evidence_summary": "He blocks proposed arrests by the Commune and responds to invasion with mass volunteering and defiant rhetoric.",
+            "evidence_id": "EVID-SUCC-4EFCDE94D1DC",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 193,
+            "source_page_label": "193",
+            "locator_class": "supporting",
+            "evidence_summary": "His election to the Convention ends his service as minister.",
+            "evidence_id": "EVID-SUCC-B04321FA6910",
+            "source_local_subject_id": "SUCC-C008-S029",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S029",
+            "label": "Danton in the August–September crisis",
+            "meaning": "Danton led the Théâtre-Français section in opening participation beyond active citizens, then connected sectional organization, ministerial power, mass mobilization and emergency rhetoric during the August–September crisis while sometimes restraining the Commune’s most dangerous arrests.",
+            "stance": "He is shown as a powerful radical organizer and minister, but not reduced to responsibility for the September Massacres.",
+            "acceptable_access": [
+              "Danton in the August–September crisis",
+              "Danton, Georges—1792 insurrection",
+              "Danton—minister of justice",
+              "Danton—September crisis",
+              "Danton",
+              "Danton, justice minister",
+              "Danton and the sections",
+              "Danton and September crisis"
+            ],
+            "document_pages": [
+              187,
+              190,
+              191,
+              193
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S029"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S029",
+            "label": "Danton in the August–September crisis",
+            "meaning": "Danton led the Théâtre-Français section in opening participation beyond active citizens, then connected sectional organization, ministerial power, mass mobilization and emergency rhetoric during the August–September crisis while sometimes restraining the Commune’s most dangerous arrests.",
+            "stance": "He is shown as a powerful radical organizer and minister, but not reduced to responsibility for the September Massacres.",
+            "acceptable_access": [
+              "Danton in the August–September crisis",
+              "Danton, Georges—1792 insurrection",
+              "Danton—minister of justice",
+              "Danton—September crisis",
+              "Danton",
+              "Danton, justice minister",
+              "Danton and the sections",
+              "Danton and September crisis"
+            ],
+            "document_pages": [
+              187,
+              190,
+              191,
+              193
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "0816db1c76646be598ad084615112f8d9767cf0ba52e1663999093d0fafe1b48",
+      "fields_changed": [
+        "meaning",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "187 explicitly names Danton’s democratization of Théâtre-Français; this gives substance to the existing organizational connection. Later ministerial/restraint meaning and stance remain intact.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 8,
+      "subject_id": "SUBJ-SUCC-B6A0C6B7E4B4",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0014",
+        "CORR-007-LEGACY-0015",
+        "CORR-007-LEGACY-0243",
+        "CORR-007-LEGACY-0244",
+        "CORR-007-LEGACY-0276",
+        "CORR-007-LEGACY-0277",
+        "CORR-007-LEGACY-0352",
+        "CORR-007-LEGACY-0353"
+      ],
+      "source_correction_row_sha256s": [
+        "62b0835871aa33307ada69ebde5d35df2804109b16cd1b1cfb9dbbad0a25a8a4",
+        "8067ad860084e9b6af4d7ddb96b13a997e177a6c09ad37fa974d94e748415865",
+        "3eedbe2488e16703e78d37f387c15a85220759eeb3d3a0b9ee15f2ac6509e3d1",
+        "519a77b79517690d23d16c83a21d94a102dc34fa5749429d6e0ee2aa6af07ae2",
+        "b46358403ba5007abc28eb143c64eaef3e3e2197f61e969c9a99d596cefd32f0",
+        "a80bb3e5a7eaefa74b6b1c0fb9e80827fd6db136c13e15e17846744e8b404a9e",
+        "9e32bf7b43ecdb4cb0d6e1c747ee0d45d71335431737ca73d6e9df5c69fbbaf7",
+        "eda80c1cc0be43a32a50c80bc8e34c22f5e55254e80ed2d96c1b8ae0300d1e22"
+      ],
+      "before_record": {
+        "label": "Natural frontiers and French annexations",
+        "priority": "major",
+        "meaning": "The movement from cautious occupation to claims for the Rhine, Alps, Pyrenees, and Ocean frontiers and annexation of Savoy, Nice, Rhineland territories, and Belgium. Belgian aspirations for renewed independence conflicted with incorporation; Forster and a narrow Mainz collaboration supplied annexation arguments. The 1795 Belgian annexation prolonged war even as Austria and Britain explored terms.",
+        "stance": "Annexation was politically contested and often legitimated through unrepresentative petitions or plebiscites; it widened commitments and helped create new enemies.",
+        "subject_id": "SUBJ-SUCC-B6A0C6B7E4B4",
+        "acceptable_access": [
+          "Natural frontiers and French annexations",
+          "Natural frontiers of France",
+          "French annexations, 1792-1793",
+          "Savoy, Nice, Rhineland, and Belgium, annexation",
+          "Belgian independence aspirations",
+          "Georg Forster",
+          "Mainzer Republic",
+          "Belgium—annexation and peace negotiations"
+        ],
+        "evidence": [
+          {
+            "document_page": 197,
+            "source_page_label": "197",
+            "locator_class": "principal",
+            "evidence_summary": "French troops occupied Savoy and Nice during the post-Valmy advance.",
+            "evidence_id": "EVID-SUCC-07159A8D6C13",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 199,
+            "source_page_label": "199",
+            "locator_class": "principal",
+            "evidence_summary": "Traces local incorporation demands and Parisian caution over the Rhine and Belgium.",
+            "evidence_id": "EVID-SUCC-DE8DB677CF57",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 200,
+            "source_page_label": "200",
+            "locator_class": "principal",
+            "evidence_summary": "Records Brissot's and Danton's natural-frontier claims and the strategic consequences of a French Netherlands.",
+            "evidence_id": "EVID-SUCC-A131087ACED5",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 201,
+            "source_page_label": "201",
+            "locator_class": "principal",
+            "evidence_summary": "Savoy was incorporated following a petition and Nice followed in January 1793. Boycotted Rhineland elections produced a convention petitioning for incorporation, while Belgian annexations followed plebiscites attended by tiny minorities.",
+            "evidence_id": "EVID-SUCC-C52EF4575106",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 210,
+            "source_page_label": "210",
+            "locator_class": "supporting",
+            "evidence_summary": "Peace with Prussia left France a free hand on the Rhine's left bank.",
+            "evidence_id": "EVID-SUCC-FBF2629193AD",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 211,
+            "source_page_label": "211",
+            "locator_class": "principal",
+            "evidence_summary": "France's renewed declaration that Belgium was permanently French caused Austria to reject peace without compensation and kept Britain committed.",
+            "evidence_id": "EVID-SUCC-F47937AFA2CD",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 214,
+            "source_page_label": "214",
+            "locator_class": "supporting",
+            "evidence_summary": "Leoben left the precise meaning of French legal frontiers, especially the Rhine, unresolved.",
+            "evidence_id": "EVID-SUCC-3A0E42C1EEC5",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 215,
+            "source_page_label": "215",
+            "locator_class": "principal",
+            "evidence_summary": "Directors disputed whether securing the Rhine would protect France or perpetuate conflict.",
+            "evidence_id": "EVID-SUCC-341CE651C913",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 217,
+            "source_page_label": "217",
+            "locator_class": "principal",
+            "evidence_summary": "Campo Formio obtained Austrian recognition of the Rhine frontier while leaving imperial compensation unsettled.",
+            "evidence_id": "EVID-SUCC-D5DD4F3CB939",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 218,
+            "source_page_label": "218",
+            "locator_class": "supporting",
+            "evidence_summary": "The Mainz club later served as one example of transnational revolutionary association.",
+            "evidence_id": "EVID-SUCC-B5FD9D475F30",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S005",
+            "label": "Natural frontiers and French annexations",
+            "meaning": "The movement from cautious occupation to claims for the Rhine, Alps, Pyrenees, and Ocean frontiers and annexation of Savoy, Nice, Rhineland territories, and Belgium. Belgian aspirations for renewed independence conflicted with incorporation; Forster and a narrow Mainz collaboration supplied annexation arguments. The 1795 Belgian annexation prolonged war even as Austria and Britain explored terms.",
+            "stance": "Annexation was politically contested and often legitimated through unrepresentative petitions or plebiscites; it widened commitments and helped create new enemies.",
+            "acceptable_access": [
+              "Natural frontiers and French annexations",
+              "Natural frontiers of France",
+              "French annexations, 1792-1793",
+              "Savoy, Nice, Rhineland, and Belgium, annexation",
+              "Belgian independence aspirations",
+              "Georg Forster",
+              "Mainzer Republic",
+              "Belgium—annexation and peace negotiations"
+            ],
+            "document_pages": [
+              197,
+              199,
+              200,
+              201,
+              210,
+              211,
+              214,
+              215,
+              217,
+              218
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S005"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S005",
+            "label": "Natural frontiers and French annexations",
+            "meaning": "The movement from cautious occupation to claims for the Rhine, Alps, Pyrenees, and Ocean frontiers and annexation of Savoy, Nice, Rhineland territories, and Belgium. Belgian aspirations for renewed independence conflicted with incorporation; Forster and a narrow Mainz collaboration supplied annexation arguments. The 1795 Belgian annexation prolonged war even as Austria and Britain explored terms.",
+            "stance": "Annexation was politically contested and often legitimated through unrepresentative petitions or plebiscites; it widened commitments and helped create new enemies.",
+            "acceptable_access": [
+              "Natural frontiers and French annexations",
+              "Natural frontiers of France",
+              "French annexations, 1792-1793",
+              "Savoy, Nice, Rhineland, and Belgium, annexation",
+              "Belgian independence aspirations",
+              "Georg Forster",
+              "Mainzer Republic",
+              "Belgium—annexation and peace negotiations"
+            ],
+            "document_pages": [
+              197,
+              199,
+              200,
+              201,
+              210,
+              211,
+              214,
+              215,
+              217,
+              218
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "30b263646c6f70a9f8009b5a1a61d517cbae6636510db51bded4cdb8395463a3",
+      "proposed_record": {
+        "label": "Natural frontiers and French annexations",
+        "priority": "major",
+        "meaning": "The movement from cautious occupation to claims for the Rhine, Alps, Pyrenees, and Ocean frontiers and annexation of Savoy, Nice, Rhineland territories, and Belgium. Belgian aspirations for renewed independence conflicted with incorporation; Forster and a narrow Mainz collaboration supplied annexation arguments. The 1795 Belgian annexation prolonged war even as Austria and Britain explored terms. Savoy’s incorporation followed the petition of its self-styled Assembly of the Allobroges; this local petition must be distinguished from thin or boycotted votes in other annexed territories. In 1797 Austria formally acknowledged the loss of Belgium, while Britain was prepared to recognize French possession in negotiations that nevertheless failed over other terms.",
+        "stance": "Annexation was politically contested and often legitimated through unrepresentative petitions or plebiscites; it widened commitments and helped create new enemies.",
+        "subject_id": "SUBJ-SUCC-B6A0C6B7E4B4",
+        "acceptable_access": [
+          "Natural frontiers and French annexations",
+          "Natural frontiers of France",
+          "French annexations, 1792-1793",
+          "Savoy, Nice, Rhineland, and Belgium, annexation",
+          "Belgian independence aspirations",
+          "Georg Forster",
+          "Mainzer Republic",
+          "Belgium—annexation and peace negotiations",
+          "Assembly of the Allobroges",
+          "Savoy—French conquest and annexation",
+          "Nice—French annexation"
+        ],
+        "evidence": [
+          {
+            "document_page": 197,
+            "source_page_label": "197",
+            "locator_class": "principal",
+            "evidence_summary": "French troops occupied Savoy and Nice during the post-Valmy advance.",
+            "evidence_id": "EVID-SUCC-07159A8D6C13",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 199,
+            "source_page_label": "199",
+            "locator_class": "principal",
+            "evidence_summary": "Belgian exiles expected French aid to restore the independent state suppressed in 1790, while incorporation petitions and Paris’s caution exposed competing plans. At Mainz Georg Forster argued that a Rhine frontier would incorporate the occupied Rhineland into France.",
+            "evidence_id": "EVID-SUCC-DE8DB677CF57",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 200,
+            "source_page_label": "200",
+            "locator_class": "principal",
+            "evidence_summary": "Dumouriez favored an independent Belgian Convention and imagined a personal principality; Paris increasingly favored incorporation. Brissot and Danton invoked natural frontiers, although a Rhine boundary extended beyond Belgium into Dutch territory and challenged the European balance.",
+            "evidence_id": "EVID-SUCC-A131087ACED5",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 201,
+            "source_page_label": "201",
+            "locator_class": "principal",
+            "evidence_summary": "Savoy was incorporated after a petition from the self-styled Assembly of the Allobroges; Nice followed on 31 January 1793. Widely boycotted Rhine elections produced a small, beleaguered Mainz Convention which petitioned for incorporation under Forster. Belgian votes favored annexation among the tiny minorities who participated, limiting any claim to broad consent.",
+            "evidence_id": "EVID-SUCC-C52EF4575106",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 210,
+            "source_page_label": "210",
+            "locator_class": "supporting",
+            "evidence_summary": "Peace with Prussia left France a free hand on the Rhine's left bank.",
+            "evidence_id": "EVID-SUCC-FBF2629193AD",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 211,
+            "source_page_label": "211",
+            "locator_class": "principal",
+            "evidence_summary": "France's renewed declaration that Belgium was permanently French caused Austria to reject peace without compensation and kept Britain committed.",
+            "evidence_id": "EVID-SUCC-F47937AFA2CD",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 214,
+            "source_page_label": "214",
+            "locator_class": "supporting",
+            "evidence_summary": "Leoben left the precise meaning of French legal frontiers, especially the Rhine, unresolved.",
+            "evidence_id": "EVID-SUCC-3A0E42C1EEC5",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 215,
+            "source_page_label": "215",
+            "locator_class": "principal",
+            "evidence_summary": "Directors disputed whether securing the Rhine would protect France or perpetuate conflict.",
+            "evidence_id": "EVID-SUCC-341CE651C913",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 217,
+            "source_page_label": "217",
+            "locator_class": "principal",
+            "evidence_summary": "Campo Formio obtained Austrian recognition of the Rhine frontier while leaving imperial compensation unsettled. Austria also acknowledged loss of Belgium. Britain was willing to recognize Belgium and other European conquests as French, but talks failed over the demanded restitution of colonial gains.",
+            "evidence_id": "EVID-SUCC-D5DD4F3CB939",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 218,
+            "source_page_label": "218",
+            "locator_class": "supporting",
+            "evidence_summary": "The Mainz club later served as one example of transnational revolutionary association.",
+            "evidence_id": "EVID-SUCC-B5FD9D475F30",
+            "source_local_subject_id": "SUCC-C009-S005",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S005",
+            "label": "Natural frontiers and French annexations",
+            "meaning": "The movement from cautious occupation to claims for the Rhine, Alps, Pyrenees, and Ocean frontiers and annexation of Savoy, Nice, Rhineland territories, and Belgium. Belgian aspirations for renewed independence conflicted with incorporation; Forster and a narrow Mainz collaboration supplied annexation arguments. The 1795 Belgian annexation prolonged war even as Austria and Britain explored terms. Savoy’s incorporation followed the petition of its self-styled Assembly of the Allobroges; this local petition must be distinguished from thin or boycotted votes in other annexed territories. In 1797 Austria formally acknowledged the loss of Belgium, while Britain was prepared to recognize French possession in negotiations that nevertheless failed over other terms.",
+            "stance": "Annexation was politically contested and often legitimated through unrepresentative petitions or plebiscites; it widened commitments and helped create new enemies.",
+            "acceptable_access": [
+              "Natural frontiers and French annexations",
+              "Natural frontiers of France",
+              "French annexations, 1792-1793",
+              "Savoy, Nice, Rhineland, and Belgium, annexation",
+              "Belgian independence aspirations",
+              "Georg Forster",
+              "Mainzer Republic",
+              "Belgium—annexation and peace negotiations",
+              "Assembly of the Allobroges",
+              "Savoy—French conquest and annexation",
+              "Nice—French annexation"
+            ],
+            "document_pages": [
+              197,
+              199,
+              200,
+              201,
+              210,
+              211,
+              214,
+              215,
+              217,
+              218
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S005"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S005",
+            "label": "Natural frontiers and French annexations",
+            "meaning": "The movement from cautious occupation to claims for the Rhine, Alps, Pyrenees, and Ocean frontiers and annexation of Savoy, Nice, Rhineland territories, and Belgium. Belgian aspirations for renewed independence conflicted with incorporation; Forster and a narrow Mainz collaboration supplied annexation arguments. The 1795 Belgian annexation prolonged war even as Austria and Britain explored terms. Savoy’s incorporation followed the petition of its self-styled Assembly of the Allobroges; this local petition must be distinguished from thin or boycotted votes in other annexed territories. In 1797 Austria formally acknowledged the loss of Belgium, while Britain was prepared to recognize French possession in negotiations that nevertheless failed over other terms.",
+            "stance": "Annexation was politically contested and often legitimated through unrepresentative petitions or plebiscites; it widened commitments and helped create new enemies.",
+            "acceptable_access": [
+              "Natural frontiers and French annexations",
+              "Natural frontiers of France",
+              "French annexations, 1792-1793",
+              "Savoy, Nice, Rhineland, and Belgium, annexation",
+              "Belgian independence aspirations",
+              "Georg Forster",
+              "Mainzer Republic",
+              "Belgium—annexation and peace negotiations",
+              "Assembly of the Allobroges",
+              "Savoy—French conquest and annexation",
+              "Nice—French annexation"
+            ],
+            "document_pages": [
+              197,
+              199,
+              200,
+              201,
+              210,
+              211,
+              214,
+              215,
+              217,
+              218
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "402a939e92e1ea814f649a2ae191b0d10f981908ce786f997cc2f1ec18378d04",
+      "fields_changed": [
+        "meaning",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "199–201 and217 distinguish exiles’ independence hopes, Dumouriez’s aim, Forster/Mainz, specific petitions/plebiscites and1797 diplomatic forms. Combine later proposals but retain Nice’s January1793 timing already in stage8. Austria’s formal acknowledgement and Britain’s willingness during failed negotiations remain different.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 9,
+      "subject_id": "SUBJ-SUCC-1635049F80A6",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0016",
+        "CORR-007-LEGACY-0017",
+        "CORR-007-LEGACY-0204"
+      ],
+      "source_correction_row_sha256s": [
+        "c777892528ded2969056ba321f24777c9cade5f69d94cee009fe952fb0cfc0ce",
+        "5e2a5665497eb179ddf9cd5712d316d0c26a5e8b073fddabfa371073edd13523",
+        "0a8a79ab2de737e617313c9b6e27f8d976c6afe02330eca178ebc6b4fe261584"
+      ],
+      "before_record": {
+        "label": "Forced loan and Law of Hostages in 1799: coercion and Consular repeal",
+        "priority": "major",
+        "meaning": "The forced loan placed punitive wartime assessments on the rich as foreign resources became inadequate. The Law of Hostages authorized collective punishment against relatives of émigrés and nobles without proof of responsibility. Their perceived return to Terror politics helped provoke reaction; Bonaparte repealed both measures to reassure property holders and western insurgents.",
+        "stance": "These two civil emergency measures were repealed after Brumaire. This requirement expressly excludes a claim that the Jourdan conscription law was repealed: recruitment belongs to a separate military requirement. Distinguish the hostage law’s arbitrary liability from the loan’s fiscal burden.",
+        "subject_id": "SUBJ-SUCC-1635049F80A6",
+        "acceptable_access": [
+          "Forced loan of 1799",
+          "Law of Hostages",
+          "Emergency civil coercion--Year VII",
+          "Bonaparte--repeal of hostage law and forced loan"
+        ],
+        "evidence": [
+          {
+            "document_page": 371,
+            "source_page_label": "371",
+            "locator_class": "principal",
+            "evidence_summary": "The forced loan on wealthy citizens met urgent domestic war-finance needs when foreign resources were no longer sufficient.",
+            "evidence_id": "EVID-SUCC-A56C68D53D18",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 372,
+            "source_page_label": "372",
+            "locator_class": "principal",
+            "evidence_summary": "The hostage law permitted detention and property penalties against designated relatives without demonstrated responsibility, evoking an extension of Terror.",
+            "evidence_id": "EVID-SUCC-2341980B632A",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 382,
+            "source_page_label": "382",
+            "locator_class": "supporting",
+            "evidence_summary": "Repeal of the hostage law was publicized while the new regime negotiated western pacification.",
+            "evidence_id": "EVID-SUCC-AF68742F6467",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 384,
+            "source_page_label": "384",
+            "locator_class": "principal",
+            "evidence_summary": "The hostage law and forced loan were rapidly abolished; a moderate proportional surtax replaced the loan.",
+            "evidence_id": "EVID-SUCC-F4DF5CA2355F",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S005",
+            "label": "Forced loan and Law of Hostages in 1799: coercion and Consular repeal",
+            "meaning": "The forced loan placed punitive wartime assessments on the rich as foreign resources became inadequate. The Law of Hostages authorized collective punishment against relatives of émigrés and nobles without proof of responsibility. Their perceived return to Terror politics helped provoke reaction; Bonaparte repealed both measures to reassure property holders and western insurgents.",
+            "stance": "These two civil emergency measures were repealed after Brumaire. This requirement expressly excludes a claim that the Jourdan conscription law was repealed: recruitment belongs to a separate military requirement. Distinguish the hostage law’s arbitrary liability from the loan’s fiscal burden.",
+            "acceptable_access": [
+              "Forced loan of 1799",
+              "Law of Hostages",
+              "Emergency civil coercion--Year VII",
+              "Bonaparte--repeal of hostage law and forced loan"
+            ],
+            "document_pages": [
+              371,
+              372,
+              382,
+              384
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S005"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S005",
+            "label": "Forced loan and Law of Hostages in 1799: coercion and Consular repeal",
+            "meaning": "The forced loan placed punitive wartime assessments on the rich as foreign resources became inadequate. The Law of Hostages authorized collective punishment against relatives of émigrés and nobles without proof of responsibility. Their perceived return to Terror politics helped provoke reaction; Bonaparte repealed both measures to reassure property holders and western insurgents.",
+            "stance": "These two civil emergency measures were repealed after Brumaire. This requirement expressly excludes a claim that the Jourdan conscription law was repealed: recruitment belongs to a separate military requirement. Distinguish the hostage law’s arbitrary liability from the loan’s fiscal burden.",
+            "acceptable_access": [
+              "Forced loan of 1799",
+              "Law of Hostages",
+              "Emergency civil coercion--Year VII",
+              "Bonaparte--repeal of hostage law and forced loan"
+            ],
+            "document_pages": [
+              371,
+              372,
+              382,
+              384
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "fd929cf595b99fa1faf54a04226bfb7efa131f9d25f44a6c84f9226ce8bca795",
+      "proposed_record": {
+        "label": "Forced loan and Law of Hostages in 1799: coercion and Consular repeal",
+        "priority": "major",
+        "meaning": "The forced loan placed punitive wartime assessments on the rich as foreign resources became inadequate. The Law of Hostages authorized collective punishment against relatives of émigrés and nobles without proof of responsibility. Their perceived return to Terror politics helped provoke reaction; Bonaparte repealed both measures to reassure property holders and western insurgents.",
+        "stance": "These two civil emergency measures were repealed after Brumaire. This requirement expressly excludes a claim that the Jourdan conscription law was repealed: recruitment belongs to a separate military requirement. Distinguish the hostage law’s arbitrary liability from the loan’s fiscal burden. The source explicitly compares the hostage law with the Law of Suspects and says it gave implementers even wider powers.",
+        "subject_id": "SUBJ-SUCC-1635049F80A6",
+        "acceptable_access": [
+          "Forced loan of 1799",
+          "Law of Hostages",
+          "Emergency civil coercion--Year VII",
+          "Bonaparte--repeal of hostage law and forced loan"
+        ],
+        "evidence": [
+          {
+            "document_page": 371,
+            "source_page_label": "371",
+            "locator_class": "principal",
+            "evidence_summary": "The forced loan on wealthy citizens met urgent domestic war-finance needs when foreign resources were no longer sufficient.",
+            "evidence_id": "EVID-SUCC-A56C68D53D18",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 372,
+            "source_page_label": "372",
+            "locator_class": "principal",
+            "evidence_summary": "The hostage law permitted detention and property penalties against designated relatives without demonstrated responsibility; the source says it recalled the Law of Suspects but granted implementers even wider powers. Alongside punitive forced-loan assessments, it alarmed property holders as an apparent revival of coercive sansculotte/Terror policies.",
+            "evidence_id": "EVID-SUCC-2341980B632A",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 382,
+            "source_page_label": "382",
+            "locator_class": "supporting",
+            "evidence_summary": "Repeal of the hostage law was publicized while the new regime negotiated western pacification.",
+            "evidence_id": "EVID-SUCC-AF68742F6467",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 384,
+            "source_page_label": "384",
+            "locator_class": "principal",
+            "evidence_summary": "The hostage law and forced loan were rapidly abolished; a moderate proportional surtax replaced the loan.",
+            "evidence_id": "EVID-SUCC-F4DF5CA2355F",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 371,
+            "source_page_label": "371",
+            "locator_class": "supporting",
+            "evidence_summary": "After recalling the alarms caused by conscription and the forced loan, the source introduces the 12 July Law of Hostages as an even more ominous measure.",
+            "evidence_id": "EVID-SUCC-041CDA622C4D",
+            "source_local_subject_id": "SUCC-C016-S005",
+            "source_chunk_id": "CHUNK-016",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-08197A0534CC",
+              "evidence_id": "EVID-9A07DB6561A6"
+            }
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S005",
+            "label": "Forced loan and Law of Hostages in 1799: coercion and Consular repeal",
+            "meaning": "The forced loan placed punitive wartime assessments on the rich as foreign resources became inadequate. The Law of Hostages authorized collective punishment against relatives of émigrés and nobles without proof of responsibility. Their perceived return to Terror politics helped provoke reaction; Bonaparte repealed both measures to reassure property holders and western insurgents.",
+            "stance": "These two civil emergency measures were repealed after Brumaire. This requirement expressly excludes a claim that the Jourdan conscription law was repealed: recruitment belongs to a separate military requirement. Distinguish the hostage law’s arbitrary liability from the loan’s fiscal burden. The source explicitly compares the hostage law with the Law of Suspects and says it gave implementers even wider powers.",
+            "acceptable_access": [
+              "Forced loan of 1799",
+              "Law of Hostages",
+              "Emergency civil coercion--Year VII",
+              "Bonaparte--repeal of hostage law and forced loan"
+            ],
+            "document_pages": [
+              371,
+              372,
+              382,
+              384
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S005"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S005",
+            "label": "Forced loan and Law of Hostages in 1799: coercion and Consular repeal",
+            "meaning": "The forced loan placed punitive wartime assessments on the rich as foreign resources became inadequate. The Law of Hostages authorized collective punishment against relatives of émigrés and nobles without proof of responsibility. Their perceived return to Terror politics helped provoke reaction; Bonaparte repealed both measures to reassure property holders and western insurgents.",
+            "stance": "These two civil emergency measures were repealed after Brumaire. This requirement expressly excludes a claim that the Jourdan conscription law was repealed: recruitment belongs to a separate military requirement. Distinguish the hostage law’s arbitrary liability from the loan’s fiscal burden. The source explicitly compares the hostage law with the Law of Suspects and says it gave implementers even wider powers.",
+            "acceptable_access": [
+              "Forced loan of 1799",
+              "Law of Hostages",
+              "Emergency civil coercion--Year VII",
+              "Bonaparte--repeal of hostage law and forced loan"
+            ],
+            "document_pages": [
+              371,
+              372,
+              382,
+              384
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "c2ff9974eff6979bbe33320c77afe8cd18a7fc1f6bf26d8b1ab12c63deb10ca1",
+      "fields_changed": [
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "371–372 supports the separate hostage-law introduction and wider arbitrary powers comparison. Preserve the existing repeal boundary excluding any claim that Jourdan’s law was repealed. Add the independent371 evidence rather than reusing the forced-loan-only row.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 10,
+      "subject_id": "SUBJ-SUCC-8F566C23AFAC",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0018",
+        "CORR-007-LEGACY-0019",
+        "CORR-007-LEGACY-0415",
+        "CORR-007-LEGACY-0416"
+      ],
+      "source_correction_row_sha256s": [
+        "155c0c1ab877d8b5015da168eff5c7f2ee461e2d54c1900c903f0366e20a64ed",
+        "d4cdbd7d0901aa8a86804e9206a171410428b48b4b7399a768f513933156959e",
+        "2e726c956a5936e4e34857a77c54b52dfc569b905d75c187bfd13fdad525c8cf",
+        "1260a7201f495e9a430af635a59297a9e2f6f393a07448dd753c37a955d51e07"
+      ],
+      "before_record": {
+        "label": "Batavian Revolution and French subordination of the Dutch Republic",
+        "priority": "major",
+        "meaning": "The 1795 French invasion, fall of William V, establishment of the Batavian Republic, and punitive Hague settlement.",
+        "stance": "The relatively bloodless political transfer did not yield Dutch autonomy; indemnities, territorial cessions, occupation costs, and alliance exposed French fraternity as conquest and subordination.",
+        "subject_id": "SUBJ-SUCC-8F566C23AFAC",
+        "acceptable_access": [
+          "Batavian Revolution and French subordination of the Dutch Republic",
+          "Batavian Republic, creation",
+          "Dutch Republic, French conquest, 1795",
+          "William V, flight",
+          "Treaty of The Hague, 1795",
+          "Dutch Patriots",
+          "Batavian Legion",
+          "Dutch reading societies",
+          "Patriot movement—Netherlands",
+          "Batavian Revolution",
+          "William V—flight to England",
+          "Dutch Republic—revolution of 1795",
+          "frozen rivers—French invasion",
+          "Batavian Republic—French domination",
+          "Dutch Republic—French occupation",
+          "fraternity—Batavian example",
+          "Batavian indemnity",
+          "French army of occupation—Netherlands",
+          "Dutch navy—French alliance"
+        ],
+        "evidence": [
+          {
+            "document_page": 200,
+            "source_page_label": "200",
+            "locator_class": "principal",
+            "evidence_summary": "Exiled patriots organized a Batavian Legion and encouraged French plans against the Dutch settlement.",
+            "evidence_id": "EVID-SUCC-9D10D632D5BB",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 209,
+            "source_page_label": "209",
+            "locator_class": "principal",
+            "evidence_summary": "Describes frozen defenses, French entry, William V's flight, patriot takeovers, and French dismissal of Dutch autonomy claims.",
+            "evidence_id": "EVID-SUCC-8DA469A1189B",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 210,
+            "source_page_label": "210",
+            "locator_class": "principal",
+            "evidence_summary": "Details indemnities, loans, cessions, occupation, and forced alliance, concluding that French help meant subordination.",
+            "evidence_id": "EVID-SUCC-DE7D6D2EEAE8",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 218,
+            "source_page_label": "218",
+            "locator_class": "supporting",
+            "evidence_summary": "Dutch clubs welcoming French forces appear in the chapter's synthesis of revolutionary networks across Europe.",
+            "evidence_id": "EVID-SUCC-635E989E7F07",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S021",
+            "label": "Batavian Revolution and French subordination of the Dutch Republic",
+            "meaning": "The 1795 French invasion, fall of William V, establishment of the Batavian Republic, and punitive Hague settlement.",
+            "stance": "The relatively bloodless political transfer did not yield Dutch autonomy; indemnities, territorial cessions, occupation costs, and alliance exposed French fraternity as conquest and subordination.",
+            "acceptable_access": [
+              "Batavian Revolution and French subordination of the Dutch Republic",
+              "Batavian Republic, creation",
+              "Dutch Republic, French conquest, 1795",
+              "William V, flight",
+              "Treaty of The Hague, 1795",
+              "Dutch Patriots",
+              "Batavian Legion",
+              "Dutch reading societies",
+              "Patriot movement—Netherlands",
+              "Batavian Revolution",
+              "William V—flight to England",
+              "Dutch Republic—revolution of 1795",
+              "frozen rivers—French invasion",
+              "Batavian Republic—French domination",
+              "Dutch Republic—French occupation",
+              "fraternity—Batavian example",
+              "Batavian indemnity",
+              "French army of occupation—Netherlands",
+              "Dutch navy—French alliance"
+            ],
+            "document_pages": [
+              200,
+              209,
+              210,
+              218
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S021",
+            "label": "Batavian Revolution and French subordination of the Dutch Republic",
+            "meaning": "The 1795 French invasion, fall of William V, establishment of the Batavian Republic, and punitive Hague settlement.",
+            "stance": "The relatively bloodless political transfer did not yield Dutch autonomy; indemnities, territorial cessions, occupation costs, and alliance exposed French fraternity as conquest and subordination.",
+            "acceptable_access": [
+              "Batavian Revolution and French subordination of the Dutch Republic",
+              "Batavian Republic, creation",
+              "Dutch Republic, French conquest, 1795",
+              "William V, flight",
+              "Treaty of The Hague, 1795",
+              "Dutch Patriots",
+              "Batavian Legion",
+              "Dutch reading societies",
+              "Patriot movement—Netherlands",
+              "Batavian Revolution",
+              "William V—flight to England",
+              "Dutch Republic—revolution of 1795",
+              "frozen rivers—French invasion",
+              "Batavian Republic—French domination",
+              "Dutch Republic—French occupation",
+              "fraternity—Batavian example",
+              "Batavian indemnity",
+              "French army of occupation—Netherlands",
+              "Dutch navy—French alliance"
+            ],
+            "document_pages": [
+              200,
+              209,
+              210,
+              218
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "7e3a3eee9603903202c5fa33c9e3c11e68d6c64f31b5f11b64c08e62bdc5b48a",
+      "proposed_record": {
+        "label": "Batavian Revolution and French subordination of the Dutch Republic",
+        "priority": "major",
+        "meaning": "Dutch Patriot exiles organized a Batavian Legion and encouraged French intervention; revived domestic reading societies prepared takeovers as French armies returned. The 1795 invasion, William V’s flight and establishment of the Batavian Republic culminated in the punitive Hague settlement. A severe winter froze defensive waterways, while retreating British depredations discredited the allies and helped the rapid, relatively bloodless transfer.",
+        "stance": "The relatively bloodless political transfer did not yield Dutch autonomy; indemnities, territorial cessions, occupation costs, and alliance exposed French fraternity as conquest and subordination.",
+        "subject_id": "SUBJ-SUCC-8F566C23AFAC",
+        "acceptable_access": [
+          "Batavian Revolution and French subordination of the Dutch Republic",
+          "Batavian Republic, creation",
+          "Dutch Republic, French conquest, 1795",
+          "William V, flight",
+          "Treaty of The Hague, 1795",
+          "Dutch Patriots",
+          "Batavian Legion",
+          "Dutch reading societies",
+          "Patriot movement—Netherlands",
+          "Batavian Revolution",
+          "William V—flight to England",
+          "Dutch Republic—revolution of 1795",
+          "frozen rivers—French invasion",
+          "Batavian Republic—French domination",
+          "Dutch Republic—French occupation",
+          "fraternity—Batavian example",
+          "Batavian indemnity",
+          "French army of occupation—Netherlands",
+          "Dutch navy—French alliance"
+        ],
+        "evidence": [
+          {
+            "document_page": 200,
+            "source_page_label": "200",
+            "locator_class": "principal",
+            "evidence_summary": "Exiled patriots organized a Batavian Legion and encouraged French plans against the Dutch settlement.",
+            "evidence_id": "EVID-SUCC-9D10D632D5BB",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 209,
+            "source_page_label": "209",
+            "locator_class": "principal",
+            "evidence_summary": "Revived Patriot reading societies prepared local takeovers as frozen defenses enabled French entry and William V fled. The resulting Batavian transfer did not secure the autonomy Dutch Patriots expected. Retreating British depredations further discredited the old regime’s allies, reinforcing domestic Patriot action.",
+            "evidence_id": "EVID-SUCC-8DA469A1189B",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 210,
+            "source_page_label": "210",
+            "locator_class": "principal",
+            "evidence_summary": "Details indemnities, loans, cessions, occupation, and forced alliance, concluding that French help meant subordination.",
+            "evidence_id": "EVID-SUCC-DE7D6D2EEAE8",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 218,
+            "source_page_label": "218",
+            "locator_class": "supporting",
+            "evidence_summary": "Dutch clubs welcoming French forces appear in the chapter's synthesis of revolutionary networks across Europe.",
+            "evidence_id": "EVID-SUCC-635E989E7F07",
+            "source_local_subject_id": "SUCC-C009-S021",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S021",
+            "label": "Batavian Revolution and French subordination of the Dutch Republic",
+            "meaning": "Dutch Patriot exiles organized a Batavian Legion and encouraged French intervention; revived domestic reading societies prepared takeovers as French armies returned. The 1795 invasion, William V’s flight and establishment of the Batavian Republic culminated in the punitive Hague settlement. A severe winter froze defensive waterways, while retreating British depredations discredited the allies and helped the rapid, relatively bloodless transfer.",
+            "stance": "The relatively bloodless political transfer did not yield Dutch autonomy; indemnities, territorial cessions, occupation costs, and alliance exposed French fraternity as conquest and subordination.",
+            "acceptable_access": [
+              "Batavian Revolution and French subordination of the Dutch Republic",
+              "Batavian Republic, creation",
+              "Dutch Republic, French conquest, 1795",
+              "William V, flight",
+              "Treaty of The Hague, 1795",
+              "Dutch Patriots",
+              "Batavian Legion",
+              "Dutch reading societies",
+              "Patriot movement—Netherlands",
+              "Batavian Revolution",
+              "William V—flight to England",
+              "Dutch Republic—revolution of 1795",
+              "frozen rivers—French invasion",
+              "Batavian Republic—French domination",
+              "Dutch Republic—French occupation",
+              "fraternity—Batavian example",
+              "Batavian indemnity",
+              "French army of occupation—Netherlands",
+              "Dutch navy—French alliance"
+            ],
+            "document_pages": [
+              200,
+              209,
+              210,
+              218
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S021",
+            "label": "Batavian Revolution and French subordination of the Dutch Republic",
+            "meaning": "Dutch Patriot exiles organized a Batavian Legion and encouraged French intervention; revived domestic reading societies prepared takeovers as French armies returned. The 1795 invasion, William V’s flight and establishment of the Batavian Republic culminated in the punitive Hague settlement. A severe winter froze defensive waterways, while retreating British depredations discredited the allies and helped the rapid, relatively bloodless transfer.",
+            "stance": "The relatively bloodless political transfer did not yield Dutch autonomy; indemnities, territorial cessions, occupation costs, and alliance exposed French fraternity as conquest and subordination.",
+            "acceptable_access": [
+              "Batavian Revolution and French subordination of the Dutch Republic",
+              "Batavian Republic, creation",
+              "Dutch Republic, French conquest, 1795",
+              "William V, flight",
+              "Treaty of The Hague, 1795",
+              "Dutch Patriots",
+              "Batavian Legion",
+              "Dutch reading societies",
+              "Patriot movement—Netherlands",
+              "Batavian Revolution",
+              "William V—flight to England",
+              "Dutch Republic—revolution of 1795",
+              "frozen rivers—French invasion",
+              "Batavian Republic—French domination",
+              "Dutch Republic—French occupation",
+              "fraternity—Batavian example",
+              "Batavian indemnity",
+              "French army of occupation—Netherlands",
+              "Dutch navy—French alliance"
+            ],
+            "document_pages": [
+              200,
+              209,
+              210,
+              218
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "2546661d449d8e94d01c230da1262922bd698e14cfc6692c9d9a46466a20585e",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "200 and209 show exiled and domestic Patriot agency alongside frozen defenses and British depredations. Consolidate the two compatible proposed expansions while keeping the punitive settlement/subordination distinction.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    }
+  ],
+  "actual_full_source_pages_reread_after_draft_access": [
+    187,
+    199,
+    200,
+    201,
+    209,
+    291,
+    351,
+    352,
+    371,
+    372,
+    410,
+    414,
+    415
+  ],
+  "same_active_pass_source_page_reuse": [
+    212,
+    217
+  ],
+  "new_evidence_ids": [
+    "EVID-ISR-63FC-RHINELAND-352",
+    "EVID-SUCC-041CDA622C4D"
+  ],
+  "original_draft_unchanged": true,
+  "whole_book_approval": false
+}

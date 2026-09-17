@@ -1,0 +1,63 @@
+{
+  "schema_version": "independent-component-immutable-manifest-v1",
+  "component": "reviewer-007-012 historical original subjects and evidence",
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v3.json",
+    "sha256": "89c1fe79b3163f04614cac20b3d4f7bb87b6a0cf04a4c79221cd9746960a211f",
+    "bytes": 68866
+  },
+  "status": "sealed_complete_component_no_final_value_or_whole_book_approval",
+  "counts": {
+    "subjects": 407,
+    "evidence": 962,
+    "field_correction_records": 452,
+    "field_correction_parents": 162,
+    "new_evidence": 6
+  },
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61",
+      "bytes": 709222
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/additional-original-field-closure.v1.json",
+      "sha256": "72e558a039a1f38df0467f66d3fed4efc43650c5fe24bca5b4f91c5234f6d643",
+      "bytes": 57754
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/subject-ledger.v1.json",
+      "sha256": "165c145d57f55ea51962241538661ef064de5ac12b4e4c03ad0db13287601c78",
+      "bytes": 4807533
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/evidence-ledger.v1.json",
+      "sha256": "7636010d25fdd0ac01f7fd73efa35b501d3f6da59bad252f12af91d0c926365e",
+      "bytes": 6954542
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/grouped-retention-referrals.v1.json",
+      "sha256": "7516fd439dc1345b8d0ad5ecbbf3ac8c99922d54b74c8449a85d359079e897bc",
+      "bytes": 120387
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/input-bindings.v1.json",
+      "sha256": "453a0a50be623d111bc6b0828ce5d81047fc6faddf839907f5d4ff3f8ee3a54a",
+      "bytes": 13417
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/attestation.v1.json",
+      "sha256": "a75cf2b0bd20d20f6ac5c72a987161e49baf66d444f755bcfceaf90dd301e389",
+      "bytes": 74987
+    }
+  ],
+  "integrity_checks": {
+    "exact_subject_union": true,
+    "exact_parent_qualified_evidence_union": true,
+    "original_before_field_bindings": true,
+    "new_evidence_and_destination_identifiers_validated": true,
+    "input_hashes_verified": true,
+    "private_absolute_paths_absent": true
+  },
+  "scope": "Only files listed in this manifest are final sealed component outputs. Earlier in-progress checkpoints and reservation artifacts remain preserved, but are not substituted for these final ledgers."
+}

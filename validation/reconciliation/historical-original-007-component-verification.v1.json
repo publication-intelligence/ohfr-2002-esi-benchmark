@@ -1,0 +1,27 @@
+{
+  "schema_version": "historical-original-007-component-verification-v1",
+  "recorded_at": "2026-09-17T03:59:21.804871+00:00",
+  "result": "pass",
+  "manifest": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/manifest.v1.json",
+    "sha256": "7151d94141fa8eb2b375517898708278a83c5f6a3af12322c5f59245521384a2"
+  },
+  "sealed_files_verified": 7,
+  "exact_original_subject_keys_and_fields_verified": 407,
+  "exact_parent_qualified_evidence_keys_and_fields_verified": 962,
+  "evidence_only_bindings": 42,
+  "evidence_only_parent_groups": 16,
+  "bound_file_hashes_verified": 294,
+  "baseline_parent_records_verified": 220,
+  "prior_literal_field_reuse_bindings_verified": {
+    "subject": 404,
+    "evidence": 181
+  },
+  "correction_component_previously_verified": "validation/reconciliation/historical-007-correction-component-binding-verification.v1.json",
+  "original_state_and_draft_unchanged": true,
+  "source_reading_counts_are_reviewer_attestations": true,
+  "editorial_approval": false,
+  "final_repaired_value_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

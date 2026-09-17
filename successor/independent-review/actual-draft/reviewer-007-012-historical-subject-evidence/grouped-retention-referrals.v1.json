@@ -1,0 +1,3685 @@
+{
+  "schema_version": "independent-original-key-retention-referrals-v1",
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v3.json",
+    "sha256": "89c1fe79b3163f04614cac20b3d4f7bb87b6a0cf04a4c79221cd9746960a211f",
+    "bytes": 68866
+  },
+  "integration_rules": [
+    "Every correction is a proposed source-grounded requirement against its bound inspection baseline. The records are NOT a sequential patch stream and must never be applied by last-wins overwrite.",
+    "When multiple proposed values address the same field, retain the union of compatible source-supported distinctions and reconcile wording. Preserve all exact historical keys and source qualifications; do not mechanically duplicate prose.",
+    "Later lead stages may already satisfy some requirements. Verify actual composed parent meaning, stance, access, evidence claim and locator before closing a requirement. No repaired whole-record or whole-book approval is asserted here.",
+    "Preserve the original immutable draft, lineage and prior reviewer packets. The lead owns composed-value integration and final review."
+  ],
+  "field_proposal_binding": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+    "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61",
+    "bytes": 709222
+  },
+  "groups": [
+    {
+      "subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+      "label_at_inspection": "Pétion, mayoralty and radical politics",
+      "correction_ids": [
+        "CORR-007-LEGACY-0430"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-C9296127FC65",
+        "legacy:SUBJ-C9296127FC65:EVID-71045E4AE69D"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Keep Pétion’s188 petition separately from his symbolic confinement during the189 sectional/Commune transition. New189 evidence closes the combined old claim."
+      ],
+      "new_evidence_ids": [
+        "EVID-SUCC-915AFFDD84B0"
+      ],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-034398CDB346",
+      "label_at_inspection": "Fouché, religious terror and repression at Lyons",
+      "correction_ids": [
+        "CORR-007-LEGACY-0100",
+        "CORR-007-LEGACY-0101",
+        "CORR-007-LEGACY-0102"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2C36E2AB3BD3"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-056C6DE7868F",
+      "label_at_inspection": "Destruction and Third Partition of Poland",
+      "correction_ids": [
+        "CORR-007-LEGACY-0108",
+        "CORR-007-LEGACY-0272",
+        "CORR-007-LEGACY-0273"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-30CC3BDD4021",
+        "legacy:SUBJ-7D9E69734606"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-AE1D4BB89E10",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0108",
+            "CORR-007-LEGACY-0273"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0790BF160C73",
+      "label_at_inspection": "Bordeaux and the Gironde's resistance to the purge",
+      "correction_ids": [
+        "CORR-007-LEGACY-0093",
+        "CORR-007-LEGACY-0336",
+        "CORR-007-LEGACY-0337",
+        "CORR-007-LEGACY-0338"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2A7D132EDD58",
+        "legacy:SUBJ-9099819FDD07",
+        "legacy:SUBJ-9099819FDD07:EVID-79DB9CE7F3F4"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-7D6B39E9C461",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0093",
+            "CORR-007-LEGACY-0337"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Bordeaux recruitment of about one-third of1,200 belongs on242; the limited march belongs on243. Preserve238 intercity urging, Bourges propaganda and republican leaders rather than royalist identity."
+      ],
+      "new_evidence_ids": [
+        "EVID-SUCC-90EB42DC5283"
+      ],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "label_at_inspection": "Terror, emergence and character of government by terror",
+      "correction_ids": [
+        "CORR-007-LEGACY-0149"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-45960914080F"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0AC74CCFDC8E",
+      "label_at_inspection": "Southern rural violence and defense of anti-feudal gains",
+      "correction_ids": [
+        "CORR-007-LEGACY-0376",
+        "CORR-007-LEGACY-0377"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-A5202C62D52D"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0B38A7EF0244",
+      "label_at_inspection": "Marat’s assassination and revolutionary martyr politics",
+      "correction_ids": [
+        "CORR-007-LEGACY-0082",
+        "CORR-007-LEGACY-0083"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-269004F0BAC3"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+      "label_at_inspection": "French military and political crisis of 1793",
+      "correction_ids": [
+        "CORR-007-LEGACY-0098",
+        "CORR-007-LEGACY-0099",
+        "CORR-007-LEGACY-0113",
+        "CORR-007-LEGACY-0431"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2BAE531980F4",
+        "legacy:SUBJ-317469668957",
+        "legacy:SUBJ-C9E36CAD201F"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-B3D6C2C1181F",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0099",
+            "CORR-007-LEGACY-0431"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+      "label_at_inspection": "Tuscany under French occupation, 1799",
+      "correction_ids": [
+        "CORR-007-LEGACY-0124",
+        "CORR-007-LEGACY-0125"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-39ABFE9D0743"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-10D5B4071C72",
+      "label_at_inspection": "Royalist insurrection around Toulouse, 1799",
+      "correction_ids": [
+        "CORR-007-LEGACY-0269"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-7B23CF1E3FD3"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "label_at_inspection": "Committees of Public Safety and General Security, conflict and anti-Robespierre coalition",
+      "correction_ids": [
+        "CORR-007-LEGACY-0271"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-7D5145B189E5"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-13D741A01D65",
+      "label_at_inspection": "Coup of 18 Brumaire and fall of the Directory",
+      "correction_ids": [
+        "CORR-007-LEGACY-0143",
+        "CORR-007-LEGACY-0144",
+        "CORR-007-LEGACY-0145",
+        "CORR-007-LEGACY-0305"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-4416C0F15521",
+        "legacy:SUBJ-868E8BD8186C"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-21BEB84AD5B0",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0144",
+            "CORR-007-LEGACY-0305"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-151622A0A4C4",
+      "label_at_inspection": "Refractory priests and anti-clerical legislation",
+      "correction_ids": [
+        "CORR-007-LEGACY-0329",
+        "CORR-007-LEGACY-0330",
+        "CORR-007-LEGACY-0331"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-8EE5BE00EBC6"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-162FE9FCA811",
+      "label_at_inspection": "Bonaparte's independent political and diplomatic authority",
+      "correction_ids": [
+        "CORR-007-LEGACY-0085"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-271E6CCAC5C2"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1635049F80A6",
+      "label_at_inspection": "Forced loan and Law of Hostages in 1799: coercion and Consular repeal",
+      "correction_ids": [
+        "CORR-007-LEGACY-0016",
+        "CORR-007-LEGACY-0017",
+        "CORR-007-LEGACY-0204"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-08197A0534CC",
+        "legacy:SUBJ-08197A0534CC:EVID-328CF3CD0BB3",
+        "legacy:SUBJ-08197A0534CC:EVID-9A07DB6561A6",
+        "legacy:SUBJ-64502F355FE1"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-2341980B632A",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0017",
+            "CORR-007-LEGACY-0204"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [
+        "EVID-SUCC-041CDA622C4D"
+      ],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1671B419419F",
+      "label_at_inspection": "Revolutionary and Napoleonic restructuring of European states",
+      "correction_ids": [
+        "CORR-007-LEGACY-0011",
+        "CORR-007-LEGACY-0012",
+        "CORR-007-LEGACY-0154",
+        "CORR-007-LEGACY-0155"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-03E41121C03E",
+        "legacy:SUBJ-03E41121C03E:EVID-410C0C2FC334",
+        "legacy:SUBJ-1B8CF08C21DA",
+        "legacy:SUBJ-487CA460CB42"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0011",
+            "CORR-007-LEGACY-0154"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "acceptable_access",
+          "correction_ids": [
+            "CORR-007-LEGACY-0011",
+            "CORR-007-LEGACY-0154"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-BC109082E913",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0012",
+            "CORR-007-LEGACY-0155"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve the414 German compensation-to-secularization-to1806 sequence along with altered French frontiers and strengthened Austria/Prussia. A later appended meaning must not overwrite the earlier sequence."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-18017BE43CD2",
+      "label_at_inspection": "Road to war and declaration of war, October 1791–April 1792",
+      "correction_ids": [
+        "CORR-007-LEGACY-0130",
+        "CORR-007-LEGACY-0139"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-3AFA4C3AC1F8",
+        "legacy:SUBJ-436C9DE0A283"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+      "label_at_inspection": "Popular anti-revolution and rural resistance",
+      "correction_ids": [
+        "CORR-007-LEGACY-0182",
+        "CORR-007-LEGACY-0183",
+        "CORR-007-LEGACY-0207",
+        "CORR-007-LEGACY-0208",
+        "CORR-007-LEGACY-0312",
+        "CORR-007-LEGACY-0313"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-538EA03B0D17",
+        "legacy:SUBJ-66C679987A1B",
+        "legacy:SUBJ-89EFC5012C55"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-9D762CF00E0F",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0183",
+            "CORR-007-LEGACY-0208",
+            "CORR-007-LEGACY-0313"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0207",
+            "CORR-007-LEGACY-0312"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1A51A7EA164F",
+      "label_at_inspection": "Counterrevolutionary suspicion, repression and surveillance in 1792",
+      "correction_ids": [
+        "CORR-007-LEGACY-0157",
+        "CORR-007-LEGACY-0282",
+        "CORR-007-LEGACY-0283",
+        "CORR-007-LEGACY-0284"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-49CDD433FD82",
+        "legacy:SUBJ-80F7D0D4C3DA"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-32BB1179BD24",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0157",
+            "CORR-007-LEGACY-0283"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1EB98E1BFFEE",
+      "label_at_inspection": "Creation and early leadership of the Committee of Public Safety",
+      "correction_ids": [
+        "CORR-007-LEGACY-0254",
+        "CORR-007-LEGACY-0255"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-79A552863D25"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [
+        "EVID-SUCC-9C2257E9A4A0"
+      ],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-21DA491F60E3",
+      "label_at_inspection": "Jewish emancipation and citizenship",
+      "correction_ids": [
+        "CORR-007-LEGACY-0148"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-45451E093933"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+      "label_at_inspection": "The French Revolution as modern archetype and cultural tragedy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0161",
+        "CORR-007-LEGACY-0162",
+        "CORR-007-LEGACY-0258"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-4C374E2038D8",
+        "legacy:SUBJ-79F8290570D7"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "label_at_inspection": "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+      "correction_ids": [
+        "CORR-007-LEGACY-0126",
+        "CORR-007-LEGACY-0195",
+        "CORR-007-LEGACY-0196"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-39C8C002F5D0",
+        "legacy:SUBJ-52ACFE376ED6",
+        "legacy:SUBJ-5F4107D3BB56",
+        "legacy:SUBJ-6D3C10AA88EF:EVID-0882A030A8EF"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "New249 Bordeaux evidence retains Tallien’s hunger-and-fear explanation of submission. Marseilles surrender and Toulon occupation are not equivalent substitutes."
+      ],
+      "new_evidence_ids": [
+        "EVID-SUCC-2C88BD126EBC"
+      ],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-25B078097C6D",
+      "label_at_inspection": "Accountability and scapegoating after Thermidor: Carrier and governing committees",
+      "correction_ids": [
+        "CORR-007-LEGACY-0057",
+        "CORR-007-LEGACY-0058"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-18F97BFC5C24"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-28E04117C501",
+      "label_at_inspection": "Catholic clergy: dispossession, schism, and dechristianization",
+      "correction_ids": [
+        "CORR-007-LEGACY-0205",
+        "CORR-007-LEGACY-0340",
+        "CORR-007-LEGACY-0341",
+        "CORR-007-LEGACY-0443",
+        "CORR-007-LEGACY-0444"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-5D94BA5B1458:EVID-29EC30048535",
+        "legacy:SUBJ-5D94BA5B1458:EVID-EF4C3E1F1598",
+        "legacy:SUBJ-64765F56297F",
+        "legacy:SUBJ-9335C58336CA"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-2FA0C14F1B68",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0205",
+            "CORR-007-LEGACY-0341",
+            "CORR-007-LEGACY-0444"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-298B26A9D77A",
+      "label_at_inspection": "Mass warfare, conscription, and expanded European states",
+      "correction_ids": [
+        "CORR-007-LEGACY-0163",
+        "CORR-007-LEGACY-0164",
+        "CORR-007-LEGACY-0287",
+        "CORR-007-LEGACY-0288"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-116AFAEE73E0",
+        "legacy:SUBJ-4D75961E4835",
+        "legacy:SUBJ-81D958D7B5D2"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-EC5A34605D85",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0164",
+            "CORR-007-LEGACY-0288"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-29F595EE7C3B",
+      "label_at_inspection": "British financial, naval, and strategic crisis of 1797",
+      "correction_ids": [
+        "CORR-007-LEGACY-0118",
+        "CORR-007-LEGACY-0256",
+        "CORR-007-LEGACY-0262",
+        "CORR-007-LEGACY-0263"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-33412EF47020",
+        "legacy:SUBJ-79E16738EE4D",
+        "legacy:SUBJ-7A329106FB11"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-248051FBB34E",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0118",
+            "CORR-007-LEGACY-0256"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2B71B80300BF",
+      "label_at_inspection": "Poland—national revival and Constitution of 3 May 1791",
+      "correction_ids": [
+        "CORR-007-LEGACY-0219",
+        "CORR-007-LEGACY-0327",
+        "CORR-007-LEGACY-0328",
+        "CORR-007-LEGACY-0360",
+        "CORR-007-LEGACY-0361"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-6D53877CB4B9",
+        "legacy:SUBJ-8EB14BCD5F20",
+        "legacy:SUBJ-9FDE6DAB64C8"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-4103A7E53847",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0219",
+            "CORR-007-LEGACY-0361"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0327",
+            "CORR-007-LEGACY-0360"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2D772631E96A",
+      "label_at_inspection": "Convention of Reichenbach and Austrian restoration in Belgium",
+      "correction_ids": [
+        "CORR-007-LEGACY-0027",
+        "CORR-007-LEGACY-0408",
+        "CORR-007-LEGACY-0409"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0C6ED66FEFDA",
+        "legacy:SUBJ-BFD96E101903"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0027",
+            "CORR-007-LEGACY-0408"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2E5B26D8A9D6",
+      "label_at_inspection": "Barruel's anti-Masonic conspiracy theory",
+      "correction_ids": [
+        "CORR-007-LEGACY-0397",
+        "CORR-007-LEGACY-0398"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-B6609C314EC7"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2FF0879B4083",
+      "label_at_inspection": "German princely hostility and French émigré war organization",
+      "correction_ids": [
+        "CORR-007-LEGACY-0094",
+        "CORR-007-LEGACY-0095",
+        "CORR-007-LEGACY-0129",
+        "CORR-007-LEGACY-0216"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2B33232A5CAB",
+        "legacy:SUBJ-3A079E90BC4C",
+        "legacy:SUBJ-68A74EF1F846"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-C5C9A33FDC1D",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0129",
+            "CORR-007-LEGACY-0216"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-31D23A1391B1",
+      "label_at_inspection": "Amalgame and reorganization of the French army",
+      "correction_ids": [
+        "CORR-007-LEGACY-0322",
+        "CORR-007-LEGACY-0323"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-8CBF3B4ACC2F"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3261B99CDE1E",
+      "label_at_inspection": "Robespierre, opposition to war and turn to insurrection",
+      "correction_ids": [
+        "CORR-007-LEGACY-0086",
+        "CORR-007-LEGACY-0087"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-27C85C7242CF"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-329D40EC5910",
+      "label_at_inspection": "Treaties of Basle and breakup of the First Coalition",
+      "correction_ids": [
+        "CORR-007-LEGACY-0251",
+        "CORR-007-LEGACY-0252",
+        "CORR-007-LEGACY-0257",
+        "CORR-007-LEGACY-0316",
+        "CORR-007-LEGACY-0317"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-79490E12011D",
+        "legacy:SUBJ-79E3E194D49E",
+        "legacy:SUBJ-8BD33A443E4E"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0251",
+            "CORR-007-LEGACY-0316"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-200211DDD76D",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0257",
+            "CORR-007-LEGACY-0317"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-34E281DBB58D",
+      "label_at_inspection": "Military crisis, recovery, and disintegration of the Second Coalition",
+      "correction_ids": [
+        "CORR-007-LEGACY-0393",
+        "CORR-007-LEGACY-0394"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-B2A33E0069F1"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "label_at_inspection": "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+      "correction_ids": [
+        "CORR-007-LEGACY-0040",
+        "CORR-007-LEGACY-0333"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-13CB73955AB0",
+        "legacy:SUBJ-8FC7B75DFCE5"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-38D7478429CE",
+      "label_at_inspection": "Education: revolutionary disruption and decline",
+      "correction_ids": [
+        "CORR-007-LEGACY-0184",
+        "CORR-007-LEGACY-0185"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-5603F55129B6"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-39CA1B8E5293",
+      "label_at_inspection": "Poor relief and hospitals: destruction without replacement",
+      "correction_ids": [
+        "CORR-007-LEGACY-0289",
+        "CORR-007-LEGACY-0290",
+        "CORR-007-LEGACY-0399"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-821A2F36949D",
+        "legacy:SUBJ-BAA104299E2F"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Retain private-alms prohibition and unfunded public promises on399; hospital recovery/numbers belong on400 rather than401’s broad verdict. Preserve income, staff and property losses and partial recovery."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3B80B2B4FB82",
+      "label_at_inspection": "Revolutionary war aims: fraternity, liberation, and exploitation",
+      "correction_ids": [
+        "CORR-007-LEGACY-0067",
+        "CORR-007-LEGACY-0239",
+        "CORR-007-LEGACY-0240",
+        "CORR-007-LEGACY-0241",
+        "CORR-007-LEGACY-0242"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1D77CB1824D5",
+        "legacy:SUBJ-748F4CF91429"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3C56EEDB9FCC",
+      "label_at_inspection": "Fédérés and national revolutionary mobilization",
+      "correction_ids": [
+        "CORR-007-LEGACY-0234",
+        "CORR-007-LEGACY-0235",
+        "CORR-007-LEGACY-0325",
+        "CORR-007-LEGACY-0326",
+        "CORR-007-LEGACY-0401",
+        "CORR-007-LEGACY-0402"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-71A0B8477157",
+        "legacy:SUBJ-8E0874E376E6",
+        "legacy:SUBJ-BC31BFC303A4"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0234",
+            "CORR-007-LEGACY-0325"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-319B2E545F7B",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0235",
+            "CORR-007-LEGACY-0326",
+            "CORR-007-LEGACY-0401"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "label_at_inspection": "Dismantling of the Terror and Revolutionary Government after Thermidor",
+      "correction_ids": [
+        "CORR-007-LEGACY-0020"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0864FF5264A0:EVID-FAC78D3C0FD4"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-40720510D7E5",
+      "label_at_inspection": "Marseilles, Arles, and regional radicalism",
+      "correction_ids": [
+        "CORR-007-LEGACY-0197"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-61BBFFCE4D11"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-415BA63D659A",
+      "label_at_inspection": "Regicide and the irreversible Republican Revolution",
+      "correction_ids": [
+        "CORR-007-LEGACY-0049",
+        "CORR-007-LEGACY-0339"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1741C62FA4C2",
+        "legacy:SUBJ-918913033447"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0049",
+            "CORR-007-LEGACY-0339"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-41C1A762D0B5",
+      "label_at_inspection": "Paine, Thomas—Rights of Man",
+      "correction_ids": [
+        "CORR-007-LEGACY-0375"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-A513146CACAF"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-41EBDED9E240",
+      "label_at_inspection": "Legislative Assembly, political trajectory and loss of authority",
+      "correction_ids": [
+        "CORR-007-LEGACY-0110",
+        "CORR-007-LEGACY-0111",
+        "CORR-007-LEGACY-0378",
+        "CORR-007-LEGACY-0379"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-30E5E9E23FB9",
+        "legacy:SUBJ-A5911959FF7B"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-42A647BF0FDD",
+      "label_at_inspection": "Great Terror: preventive punishment and increased social discrimination",
+      "correction_ids": [
+        "CORR-007-LEGACY-0054"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-18A7D9381CC6"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "label_at_inspection": "Batavian Republic: economic and social costs of alliance with France",
+      "correction_ids": [
+        "CORR-007-LEGACY-0073"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2006BBE039DD"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "label_at_inspection": "Provincial Terror, autonomy, variation, and central control",
+      "correction_ids": [
+        "CORR-007-LEGACY-0060",
+        "CORR-007-LEGACY-0424",
+        "CORR-007-LEGACY-0425",
+        "CORR-007-LEGACY-0426"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1998765FBFF5",
+        "legacy:SUBJ-C49DA047DE68"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Local Revolutionary Armies were real institutions with irregular coercion; institutional disorder is not absence of policy. Frimaire compliance and recalls were delayed, not instantaneous."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-467C949D416F",
+      "label_at_inspection": "Convention reaction and radical containment after 2 June",
+      "correction_ids": [
+        "CORR-007-LEGACY-0307",
+        "CORR-007-LEGACY-0308"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-87871196821C"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-46CEA9999339",
+      "label_at_inspection": "Birth of modern conservatism and counter-revolutionary ideology",
+      "correction_ids": [
+        "CORR-007-LEGACY-0435",
+        "CORR-007-LEGACY-0436"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-CAC1EB858335"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+      "label_at_inspection": "European censorship of French revolutionary influence",
+      "correction_ids": [
+        "CORR-007-LEGACY-0038",
+        "CORR-007-LEGACY-0039"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-120DFE62BCE8"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4A15787A5F56",
+      "label_at_inspection": "Danton in the August–September crisis",
+      "correction_ids": [
+        "CORR-007-LEGACY-0013"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-043E90E88B62"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4DF9C902BF5B",
+      "label_at_inspection": "Food shortages, inflation, assignats, and popular price action",
+      "correction_ids": [
+        "CORR-007-LEGACY-0090",
+        "CORR-007-LEGACY-0091",
+        "CORR-007-LEGACY-0138"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2921D23ACD59",
+        "legacy:SUBJ-41FE7CB42469"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-51F0F6F76B36",
+      "label_at_inspection": "British maritime and colonial strategy: blockade, Caribbean operations and their limits",
+      "correction_ids": [
+        "CORR-007-LEGACY-0005"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0181ACFE05D1:EVID-6D4C3FC54D33"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Retain the lead’s later chapter17 placement of British mortality/withdrawal on413. Chapter9 operations alone do not support a developed human-cost demand; do not import later French losses or re-expand chapter9 scope automatically."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-525A1728F643",
+      "label_at_inspection": "Liberty: ideals, symbols, and contradictions",
+      "correction_ids": [
+        "CORR-007-LEGACY-0071",
+        "CORR-007-LEGACY-0072",
+        "CORR-007-LEGACY-0278",
+        "CORR-007-LEGACY-0279"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1FC06BCBCEC5",
+        "legacy:SUBJ-80143094D755"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0071",
+            "CORR-007-LEGACY-0278"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-49F49AE0E63B",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0072",
+            "CORR-007-LEGACY-0279"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-547228C69DA0",
+      "label_at_inspection": "Great Britain—initial response to the French Revolution",
+      "correction_ids": [
+        "CORR-007-LEGACY-0117"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-33255E30F13D"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-54D178FEEEA6",
+      "label_at_inspection": "Republican calendar and dechristianized time",
+      "correction_ids": [
+        "CORR-007-LEGACY-0418",
+        "CORR-007-LEGACY-0419"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-C22D161AED67"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-55CCA1CC2481",
+      "label_at_inspection": "Elections of 1799 and rejection of directorial control",
+      "correction_ids": [
+        "CORR-007-LEGACY-0342",
+        "CORR-007-LEGACY-0343"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-937EF780F504"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-56FAED657225",
+      "label_at_inspection": "Sanfedist counterrevolution in southern Italy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0165",
+        "CORR-007-LEGACY-0166"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-4E49329C78FB"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5A2C055BC3AC",
+      "label_at_inspection": "Guillotine, introduction and political use",
+      "correction_ids": [
+        "CORR-007-LEGACY-0223",
+        "CORR-007-LEGACY-0224"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-6E7CC77115C6"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
+      "label_at_inspection": "Trial and execution of Louis XVI",
+      "correction_ids": [
+        "CORR-007-LEGACY-0141",
+        "CORR-007-LEGACY-0142",
+        "CORR-007-LEGACY-0212",
+        "CORR-007-LEGACY-0213"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-4402CE1E209C",
+        "legacy:SUBJ-682E7DEC9924"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-BCC014F56CCE",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0142",
+            "CORR-007-LEGACY-0213"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5B53956EB181",
+      "label_at_inspection": "French war logistics, requisitioning, and mass-army tactics",
+      "correction_ids": [
+        "CORR-007-LEGACY-0033",
+        "CORR-007-LEGACY-0297",
+        "CORR-007-LEGACY-0298",
+        "CORR-007-LEGACY-0314",
+        "CORR-007-LEGACY-0315"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0FA6D916DEAD",
+        "legacy:SUBJ-85D6DBE6C93E",
+        "legacy:SUBJ-8AB535F0DB18"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0033",
+            "CORR-007-LEGACY-0314"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-771785C12D27",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0298",
+            "CORR-007-LEGACY-0315"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+      "label_at_inspection": "Saint-Just, revolutionary government and emergency social policy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0088",
+        "CORR-007-LEGACY-0089"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-288C85EB6D05"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5DD90C556A55",
+      "label_at_inspection": "Forced loan and Ventôse decrees: distinct emergency property measures",
+      "correction_ids": [
+        "CORR-007-LEGACY-0097"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2BA489C1D967"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5F07AA578495",
+      "label_at_inspection": "National Convention and establishment of the Republic",
+      "correction_ids": [
+        "CORR-007-LEGACY-0391",
+        "CORR-007-LEGACY-0392"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-B18F46325CCD"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Keep the distinct election, declaration, later calendar and social-profile evidence;193 and194 give inconsistent declaration dating. Do not silently harmonize the dates or turn the calendar into a cause of abolition."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-60B96F147FEF",
+      "label_at_inspection": "Agriculture: limited gains and persistent inertia",
+      "correction_ids": [
+        "CORR-007-LEGACY-0253"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-79499C831BC8"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-625493A707D6",
+      "label_at_inspection": "Legislative opposition and purge in the Year X session",
+      "correction_ids": [
+        "CORR-007-LEGACY-0294"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-8329E7A06B53"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-63FC319A198D",
+      "label_at_inspection": "Rhineland: annexation debate and administrative assimilation",
+      "correction_ids": [
+        "CORR-007-LEGACY-0008",
+        "CORR-007-LEGACY-0009",
+        "CORR-007-LEGACY-0010"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-02DADFAF8019",
+        "legacy:SUBJ-02DADFAF8019:EVID-909F84E809E7",
+        "legacy:SUBJ-02DADFAF8019:EVID-DB0028004F48"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-64736F65518E",
+      "label_at_inspection": "Nantes: Girondin sympathy and defence against the Vendée",
+      "correction_ids": [
+        "CORR-007-LEGACY-0301",
+        "CORR-007-LEGACY-0302"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-86014F356BF1"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "label_at_inspection": "Winter of 1794-1795, famine, and bread-ration crisis",
+      "correction_ids": [
+        "CORR-007-LEGACY-0034",
+        "CORR-007-LEGACY-0035",
+        "CORR-007-LEGACY-0036"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-102C8538D91C"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Replace the inaccurate harvest-failure/poor-harvest claim on286 with indifferent harvest plus transport and milling failures. Preserve the later290 bread-politics, women’s actions and rival royalist interpretations."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6568AD1BCF30",
+      "label_at_inspection": "French hegemony, territorial gains, and client states after the wars",
+      "correction_ids": [
+        "CORR-007-LEGACY-0123",
+        "CORR-007-LEGACY-0210",
+        "CORR-007-LEGACY-0211",
+        "CORR-007-LEGACY-0291",
+        "CORR-007-LEGACY-0292",
+        "CORR-007-LEGACY-0293"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-39A35ED1A2A3",
+        "legacy:SUBJ-6801A2420D45",
+        "legacy:SUBJ-82A853F0DCDB"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0210",
+            "CORR-007-LEGACY-0291"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-EBAC3C11C238",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0211",
+            "CORR-007-LEGACY-0293"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-65D590EBAFE2",
+      "label_at_inspection": "Paris, the provinces, and national sovereignty",
+      "correction_ids": [
+        "CORR-007-LEGACY-0109",
+        "CORR-007-LEGACY-0192",
+        "CORR-007-LEGACY-0372",
+        "CORR-007-LEGACY-0373"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-30DAA1787938",
+        "legacy:SUBJ-5C65F1A91D91",
+        "legacy:SUBJ-A48BAD57F165"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-A7916221D992",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0109",
+            "CORR-007-LEGACY-0373"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-67D4327ABD41",
+      "label_at_inspection": "Feuillants and Jacobins, changing political influence",
+      "correction_ids": [
+        "CORR-007-LEGACY-0150",
+        "CORR-007-LEGACY-0151",
+        "CORR-007-LEGACY-0198",
+        "CORR-007-LEGACY-0199"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-47322724E985",
+        "legacy:SUBJ-61BFEF9BCD04"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0150",
+            "CORR-007-LEGACY-0198"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-5E3493CB8DDC",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0151",
+            "CORR-007-LEGACY-0199"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6A2BFDEA57F6",
+      "label_at_inspection": "Radishchev, Alexander—Journey from St. Petersburg to Moscow and repression",
+      "correction_ids": [
+        "CORR-007-LEGACY-0417"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-C1E2782B867D"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6BBDB6F461D1",
+      "label_at_inspection": "Lasting rational and legal reforms",
+      "correction_ids": [
+        "CORR-007-LEGACY-0050",
+        "CORR-007-LEGACY-0114",
+        "CORR-007-LEGACY-0299",
+        "CORR-007-LEGACY-0300",
+        "CORR-007-LEGACY-0452"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-181CDD8AEB95",
+        "legacy:SUBJ-3208BA1B95EE",
+        "legacy:SUBJ-85F82FD73E2A",
+        "legacy:SUBJ-C89C8EB55F55:EVID-F69A65706C2C",
+        "legacy:SUBJ-E69B5C786F49:EVID-0E2B0853559C"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-D6815D4E1945",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0050",
+            "CORR-007-LEGACY-0114",
+            "CORR-007-LEGACY-0300",
+            "CORR-007-LEGACY-0452"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Retain departmental durability, global metric adoption from April1795, guillotine humane intent/Terror use, and the Civil Code’s earlier drafting/aspiration before First Consular completion."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-71A8FF90E718",
+      "label_at_inspection": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+      "correction_ids": [
+        "CORR-007-LEGACY-0202",
+        "CORR-007-LEGACY-0203",
+        "CORR-007-LEGACY-0295",
+        "CORR-007-LEGACY-0296"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-62F1534164A8",
+        "legacy:SUBJ-848C88EC279D"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-95B3CA508791",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0203",
+            "CORR-007-LEGACY-0296"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "label_at_inspection": "Dechristianization, spread, resistance, and decline",
+      "correction_ids": [
+        "CORR-007-LEGACY-0037",
+        "CORR-007-LEGACY-0045",
+        "CORR-007-LEGACY-0046",
+        "CORR-007-LEGACY-0047",
+        "CORR-007-LEGACY-0104",
+        "CORR-007-LEGACY-0105",
+        "CORR-007-LEGACY-0152",
+        "CORR-007-LEGACY-0153",
+        "CORR-007-LEGACY-0445",
+        "CORR-007-LEGACY-0446"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-11C2590CC8B2",
+        "legacy:SUBJ-15E0F70F93F0",
+        "legacy:SUBJ-2D32AFCACFBB",
+        "legacy:SUBJ-47E515B01DE5",
+        "legacy:SUBJ-5D94BA5B1458:EVID-F072F1A7D7A3"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-1033558EC4B6",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0037",
+            "CORR-007-LEGACY-0046"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-6908CEFA7F61",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0047",
+            "CORR-007-LEGACY-0105",
+            "CORR-007-LEGACY-0446"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0104",
+            "CORR-007-LEGACY-0445"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve21November warning,6December decree and only then the second-week-of-December Brie disturbances. Preserve ongoing closures, coerced renunciation/marriage and the distinct exhaustion of churches, furnishings and incumbents as a limit."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-73959CE24E90",
+      "label_at_inspection": "Equality: abolition of privilege and property-based limits",
+      "correction_ids": [
+        "CORR-007-LEGACY-0065",
+        "CORR-007-LEGACY-0066",
+        "CORR-007-LEGACY-0407"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1CDB7A08C6FE",
+        "legacy:SUBJ-BFB189B966A6"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-528B1EB231E5",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0066",
+            "CORR-007-LEGACY-0407"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "label_at_inspection": "Revolutionary Armies, coercion and dissolution",
+      "correction_ids": [
+        "CORR-007-LEGACY-0121"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-34EABFD13241"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7922496FA528",
+      "label_at_inspection": "Liège Revolution, 1789-1790",
+      "correction_ids": [
+        "CORR-007-LEGACY-0025",
+        "CORR-007-LEGACY-0026"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0B4202108EF8"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7A3B2AE4DD35",
+      "label_at_inspection": "Latin American independence and revolutionary language",
+      "correction_ids": [
+        "CORR-007-LEGACY-0354"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-9C0BE19B738A"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7C338D256927",
+      "label_at_inspection": "Irish Rebellion of 1798",
+      "correction_ids": [
+        "CORR-007-LEGACY-0030"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0E6540B2411B"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7CE8C15FFC5B",
+      "label_at_inspection": "Women: political participation and exclusion from equal rights",
+      "correction_ids": [
+        "CORR-007-LEGACY-0270",
+        "CORR-007-LEGACY-0367",
+        "CORR-007-LEGACY-0368"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-7CA7E20C34AB",
+        "legacy:SUBJ-A39AFA0AC52E"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-968660897FDF",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0270",
+            "CORR-007-LEGACY-0368"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve diverse political/religious roles and the30October1793 ban. Keep Théroigne, Lacombe and de Gouges’s particular acts; do not make de Gouges’s execution a prosecution simply for women’s-rights advocacy."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7E820E02A6A2",
+      "label_at_inspection": "Lafayette, military intervention and political collapse",
+      "correction_ids": [
+        "CORR-007-LEGACY-0386",
+        "CORR-007-LEGACY-0387"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-AEF43A28E4E1"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7F8042CFA7E2",
+      "label_at_inspection": "Economic recovery, investment, and structural continuity",
+      "correction_ids": [
+        "CORR-007-LEGACY-0178",
+        "CORR-007-LEGACY-0179"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-51A22D57BC47"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "label_at_inspection": "Hébert and the Hébertists, rise and destruction",
+      "correction_ids": [
+        "CORR-007-LEGACY-0032",
+        "CORR-007-LEGACY-0134",
+        "CORR-007-LEGACY-0135",
+        "CORR-007-LEGACY-0334",
+        "CORR-007-LEGACY-0335",
+        "CORR-007-LEGACY-0437",
+        "CORR-007-LEGACY-0438",
+        "CORR-007-LEGACY-0439"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0F7FE3A9036A",
+        "legacy:SUBJ-3EE8A34596D1",
+        "legacy:SUBJ-8FF94C6FEAAC",
+        "legacy:SUBJ-CD07785A4B76"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-B1635DFA012A",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0032",
+            "CORR-007-LEGACY-0438"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "stance",
+          "correction_ids": [
+            "CORR-007-LEGACY-0134",
+            "CORR-007-LEGACY-0334"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve actual Batz intrigue and proved financial fraud versus an unproved encompassing foreign plot. Foreign defendants supplied theatrical support, not proof. D4AE252 refers to Ronsin; B163268 identifies Vincent/Ronsin and Collot’s return; C557270 is their pair-specific execution context. Deduplicate repeated foreign-defendant sentences without losing attribution."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-80B9CA82989A",
+      "label_at_inspection": "French exploitation of Italy and rural resistance in Lombardy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0395",
+        "CORR-007-LEGACY-0396"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-B5C8494A0493"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-84898172084C",
+      "label_at_inspection": "Louis XVI and the breakdown of constitutional monarchy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0306"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-877056F6E03A"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "label_at_inspection": "Bonaparte and the political management of occupied Italy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0266",
+        "CORR-007-LEGACY-0267",
+        "CORR-007-LEGACY-0268"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-7B0685BAFA33"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-86D03B0C3585",
+      "label_at_inspection": "Girondins and Montagnards: principles, organization and predominance",
+      "correction_ids": [
+        "CORR-007-LEGACY-0028",
+        "CORR-007-LEGACY-0029",
+        "CORR-007-LEGACY-0140",
+        "CORR-007-LEGACY-0167",
+        "CORR-007-LEGACY-0168",
+        "CORR-007-LEGACY-0171",
+        "CORR-007-LEGACY-0172",
+        "CORR-007-LEGACY-0222",
+        "CORR-007-LEGACY-0264",
+        "CORR-007-LEGACY-0265",
+        "CORR-007-LEGACY-0421",
+        "CORR-007-LEGACY-0422",
+        "CORR-007-LEGACY-0423"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0CF6B5C71FB0",
+        "legacy:SUBJ-3F40CB72AC49",
+        "legacy:SUBJ-43EB5484A701",
+        "legacy:SUBJ-4ECD31565288",
+        "legacy:SUBJ-507D919B383E",
+        "legacy:SUBJ-6DD2E94FDD57",
+        "legacy:SUBJ-7A8327373F19",
+        "legacy:SUBJ-C43548FC2F7A"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-B22DB06A0AAD",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0028",
+            "CORR-007-LEGACY-0140",
+            "CORR-007-LEGACY-0168",
+            "CORR-007-LEGACY-0423"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-AE43D6B7E50A",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0029",
+            "CORR-007-LEGACY-0172"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-B6C2343DED60",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0167",
+            "CORR-007-LEGACY-0265"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0171",
+            "CORR-007-LEGACY-0264"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve general-will hostility to party, divergent Girondin votes/late coordination, Montagnard core versus wider majorities, Jacobin expulsions, market principles and lack of a Girondin government, together with stage7’s king-trial/civil-war fears and changing war positions."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8760C754C67B",
+      "label_at_inspection": "Rhineland: religious policy and passive resistance",
+      "correction_ids": [
+        "CORR-007-LEGACY-0225",
+        "CORR-007-LEGACY-0226",
+        "CORR-007-LEGACY-0410",
+        "CORR-007-LEGACY-0411"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-6EABDD7E176E",
+        "legacy:SUBJ-C01AEAA11520"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-F23942D77EFE",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0226",
+            "CORR-007-LEGACY-0411"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-87628E298F61",
+      "label_at_inspection": "Protestant emancipation and religious equality",
+      "correction_ids": [
+        "CORR-007-LEGACY-0003",
+        "CORR-007-LEGACY-0004",
+        "CORR-007-LEGACY-0351"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-017DEE273492",
+        "legacy:SUBJ-017DEE273492:EVID-D2E495A0514C",
+        "legacy:SUBJ-98EE27324F1F"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-2D1A92D70270",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0004",
+            "CORR-007-LEGACY-0351"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8A3FF7132FF1",
+      "label_at_inspection": "September Massacres",
+      "correction_ids": [
+        "CORR-007-LEGACY-0076",
+        "CORR-007-LEGACY-0077",
+        "CORR-007-LEGACY-0363",
+        "CORR-007-LEGACY-0364"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2298D4FFB2CE",
+        "legacy:SUBJ-A115003AD7DE"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-4D6CAAA2D650",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0077",
+            "CORR-007-LEGACY-0364"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+      "label_at_inspection": "Price, Richard—Revolution Society sermon and French liberty",
+      "correction_ids": [
+        "CORR-007-LEGACY-0131",
+        "CORR-007-LEGACY-0132"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-3C08182FE07C"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "label_at_inspection": "Enlightenment origins and the project of national regeneration",
+      "correction_ids": [
+        "CORR-007-LEGACY-0170",
+        "CORR-007-LEGACY-0380",
+        "CORR-007-LEGACY-0381"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-4F24C7A1CE5A",
+        "legacy:SUBJ-A5E40588A29E"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8E3A7F5371C6",
+      "label_at_inspection": "Commission of Twelve and the insurrections of 31 May–2 June 1793",
+      "correction_ids": [
+        "CORR-007-LEGACY-0063",
+        "CORR-007-LEGACY-0064",
+        "CORR-007-LEGACY-0238",
+        "CORR-007-LEGACY-0280",
+        "CORR-007-LEGACY-0281"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1C54194917B4",
+        "legacy:SUBJ-7429CB8E3D0C",
+        "legacy:SUBJ-8089FE14B450"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0063",
+            "CORR-007-LEGACY-0280"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-88BF93ED3DC0",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0064",
+            "CORR-007-LEGACY-0238"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8F566C23AFAC",
+      "label_at_inspection": "Batavian Revolution and French subordination of the Dutch Republic",
+      "correction_ids": [
+        "CORR-007-LEGACY-0018",
+        "CORR-007-LEGACY-0019",
+        "CORR-007-LEGACY-0415",
+        "CORR-007-LEGACY-0416"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-085FF07BB435",
+        "legacy:SUBJ-085FF07BB435:EVID-4E5223FABF57",
+        "legacy:SUBJ-C1ABCB208A65"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0018",
+            "CORR-007-LEGACY-0415"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-8DA469A1189B",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0019",
+            "CORR-007-LEGACY-0416"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-916802D75925",
+      "label_at_inspection": "Bonaparte's Italian campaign, 1796-1797",
+      "correction_ids": [
+        "CORR-007-LEGACY-0227",
+        "CORR-007-LEGACY-0228"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-6F13F9FA98C5"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-943186368241",
+      "label_at_inspection": "Catherine II—Polish reform, Jacobin fears and strategic diplomacy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0285",
+        "CORR-007-LEGACY-0286"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-81574B45F9DA"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9465F7AFB297",
+      "label_at_inspection": "Thermidor, coup of 9 Thermidor and fall of Robespierre",
+      "correction_ids": [
+        "CORR-007-LEGACY-0347",
+        "CORR-007-LEGACY-0348",
+        "CORR-007-LEGACY-0349",
+        "CORR-007-LEGACY-0350"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-97A0D2EE14B9"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-987993A8C47A",
+      "label_at_inspection": "Demonstration of 20 June 1792",
+      "correction_ids": [
+        "CORR-007-LEGACY-0232",
+        "CORR-007-LEGACY-0233",
+        "CORR-007-LEGACY-0413",
+        "CORR-007-LEGACY-0414"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-71A0B8477157",
+        "legacy:SUBJ-C1335903871D"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-BFA19AD53982",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0233",
+            "CORR-007-LEGACY-0414"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9DC759EBDD0D",
+      "label_at_inspection": "Church and State, separation and restoration of worship",
+      "correction_ids": [
+        "CORR-007-LEGACY-0427"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-C6F73D362BCF"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "September1794 separation and February1795 freedom are distinct. Preserve the strategic western motive, religious guarantees and limited private/self-financed worship without implying full restoration."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9EE66EC07AA3",
+      "label_at_inspection": "Paris sections, sansculottes, and popular sovereignty",
+      "correction_ids": [
+        "CORR-007-LEGACY-0068",
+        "CORR-007-LEGACY-0069",
+        "CORR-007-LEGACY-0070",
+        "CORR-007-LEGACY-0112",
+        "CORR-007-LEGACY-0229",
+        "CORR-007-LEGACY-0236",
+        "CORR-007-LEGACY-0237",
+        "CORR-007-LEGACY-0369",
+        "CORR-007-LEGACY-0370",
+        "CORR-007-LEGACY-0371"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1E1D8A56F292",
+        "legacy:SUBJ-30E5E9E23FB9",
+        "legacy:SUBJ-6FAD2863FB90",
+        "legacy:SUBJ-71A0B8477157",
+        "legacy:SUBJ-A48BAD57F165"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0068",
+            "CORR-007-LEGACY-0229",
+            "CORR-007-LEGACY-0236"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-21C97686D914",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0070",
+            "CORR-007-LEGACY-0112",
+            "CORR-007-LEGACY-0237",
+            "CORR-007-LEGACY-0370"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A055803B2A41",
+      "label_at_inspection": "France in 1802: visible aftermath of the Revolution",
+      "correction_ids": [
+        "CORR-007-LEGACY-0136"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-41358A2F1EBC"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A196529B349B",
+      "label_at_inspection": "Parthenopean Republic, 1799",
+      "correction_ids": [
+        "CORR-007-LEGACY-0383",
+        "CORR-007-LEGACY-0384"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-A87C8708989F"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Lazzaroni fought the French but also lynched nobles and sacked the royal palace; avoid uniform royalism. Retain Championnet’s disobedience, French dependency, withdrawal and collapse, Ruffo restoration and reprisals."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A1B30A58C722",
+      "label_at_inspection": "British ascendancy and the widening economic gap with France",
+      "correction_ids": [
+        "CORR-007-LEGACY-0001",
+        "CORR-007-LEGACY-0002"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-00F648A71B8E",
+        "legacy:SUBJ-00F648A71B8E:EVID-0FD7684C9BBA"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A6EB838468C1",
+      "label_at_inspection": "Ligurian Republic",
+      "correction_ids": [
+        "CORR-007-LEGACY-0048"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-163CA8A5FDF9"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "label_at_inspection": "Burke’s Reflections: inherited order, conspiracy and revolutionary predictions",
+      "correction_ids": [
+        "CORR-007-LEGACY-0180",
+        "CORR-007-LEGACY-0181"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-535EE5EA3C98"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "label_at_inspection": "Cispadane and Cisalpine Republics: formation",
+      "correction_ids": [
+        "CORR-007-LEGACY-0043",
+        "CORR-007-LEGACY-0044"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-151CDDEB6695"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A946B0B96B6D",
+      "label_at_inspection": "Bonaparte's concentration of power as First Consul",
+      "correction_ids": [
+        "CORR-007-LEGACY-0021",
+        "CORR-007-LEGACY-0442"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0A40C73627FD",
+        "legacy:SUBJ-4DAB7B73945A:EVID-EAA496ADC956"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "label_at_inspection": "Brabant Revolution—causes and contrast with the French Revolution",
+      "correction_ids": [
+        "CORR-007-LEGACY-0133"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-3E39BC650D56"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-AF783FF68D90",
+      "label_at_inspection": "Terror, scale, geography, and social composition of victims",
+      "correction_ids": [
+        "CORR-007-LEGACY-0031",
+        "CORR-007-LEGACY-0053",
+        "CORR-007-LEGACY-0156"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0F630DFBE47D",
+        "legacy:SUBJ-186A99795274",
+        "legacy:SUBJ-4914087CB29B"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-E5779B3DBE25",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0031",
+            "CORR-007-LEGACY-0053"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "label_at_inspection": "Sansculottes and Paris Commune, radical pressure and political defeat",
+      "correction_ids": [
+        "CORR-007-LEGACY-0206",
+        "CORR-007-LEGACY-0324",
+        "CORR-007-LEGACY-0420"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-66AC385184B7",
+        "legacy:SUBJ-8D1B46A57590",
+        "legacy:SUBJ-C304BA7CDA8D"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-9BC3E1BB10EE",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0324",
+            "CORR-007-LEGACY-0420"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve achieved demands, fatigue, paid roles, alternative sectional societies, Commune purge and lost autonomy in1794 separately from renewed1795 action and final defeat. Do not date every organizational loss after Prairial."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B29051308F1C",
+      "label_at_inspection": "Prefects, centralization, brigandage, and restoration of law and order",
+      "correction_ids": [
+        "CORR-007-LEGACY-0059",
+        "CORR-007-LEGACY-0247",
+        "CORR-007-LEGACY-0248"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-199067471240",
+        "legacy:SUBJ-7828A4491C70"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "On384 prefects have broader powers than Directory commissioners and recall intendants; do not claim broader powers than intendants. Disorder/subduing it belongs on384, with385 continuing the legality qualification."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B4528BB49F19",
+      "label_at_inspection": "Nantes, Carrier and the noyades",
+      "correction_ids": [
+        "CORR-007-LEGACY-0432"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-CA5DDA01E1B4"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B537E54F3566",
+      "label_at_inspection": "September Days of 4-5 September 1793",
+      "correction_ids": [
+        "CORR-007-LEGACY-0176",
+        "CORR-007-LEGACY-0177"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-51855C9229CA"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B6801A5B2E03",
+      "label_at_inspection": "Popular sovereignty, democracy, and political legitimacy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0303",
+        "CORR-007-LEGACY-0304"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-860E8231099C"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B6A0C6B7E4B4",
+      "label_at_inspection": "Natural frontiers and French annexations",
+      "correction_ids": [
+        "CORR-007-LEGACY-0014",
+        "CORR-007-LEGACY-0015",
+        "CORR-007-LEGACY-0243",
+        "CORR-007-LEGACY-0244",
+        "CORR-007-LEGACY-0276",
+        "CORR-007-LEGACY-0277",
+        "CORR-007-LEGACY-0352",
+        "CORR-007-LEGACY-0353"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-074B3E08CAA3",
+        "legacy:SUBJ-074B3E08CAA3:EVID-D0B48BFDB1EE",
+        "legacy:SUBJ-76CDBCAA158E",
+        "legacy:SUBJ-7FD9DA652D03",
+        "legacy:SUBJ-9922AA14575C"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0014",
+            "CORR-007-LEGACY-0352"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-C52EF4575106",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0015",
+            "CORR-007-LEGACY-0277"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-DE8DB677CF57",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0243",
+            "CORR-007-LEGACY-0276"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BAE3182C598F",
+      "label_at_inspection": "Kosciuszko Insurrection of 1794",
+      "correction_ids": [
+        "CORR-007-LEGACY-0041",
+        "CORR-007-LEGACY-0042",
+        "CORR-007-LEGACY-0061",
+        "CORR-007-LEGACY-0079",
+        "CORR-007-LEGACY-0080",
+        "CORR-007-LEGACY-0081"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-14FE5490DEE5",
+        "legacy:SUBJ-19A94FBD556F",
+        "legacy:SUBJ-24DE44207BAD",
+        "legacy:SUBJ-262D076F33D9"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0041",
+            "CORR-007-LEGACY-0079"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-A7FDC3931BCC",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0042",
+            "CORR-007-LEGACY-0061",
+            "CORR-007-LEGACY-0080"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BB9639326872",
+      "label_at_inspection": "Joseph II—reforms and resistance in the Austrian Netherlands",
+      "correction_ids": [
+        "CORR-007-LEGACY-0209"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-66D9F55CEE66"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BE926DEFD2FF",
+      "label_at_inspection": "United States of Belgium—statists and Vonckists",
+      "correction_ids": [
+        "CORR-007-LEGACY-0051",
+        "CORR-007-LEGACY-0052",
+        "CORR-007-LEGACY-0319",
+        "CORR-007-LEGACY-0320",
+        "CORR-007-LEGACY-0321"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-1866BE569CCB",
+        "legacy:SUBJ-8C256029A9B7"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0051",
+            "CORR-007-LEGACY-0319"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-0E1AD82ED6A0",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0052",
+            "CORR-007-LEGACY-0320"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BEB51695F38C",
+      "label_at_inspection": "Britain's isolation and the maritime-Mediterranean war, 1800-1801",
+      "correction_ids": [
+        "CORR-007-LEGACY-0074",
+        "CORR-007-LEGACY-0075",
+        "CORR-007-LEGACY-0388",
+        "CORR-007-LEGACY-0389"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-218A99F44EB6",
+        "legacy:SUBJ-AF2ED4C64E01"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0074",
+            "CORR-007-LEGACY-0388"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BEBD3DEC1E8D",
+      "label_at_inspection": "Neutralization of royalism and pacification of the chouans",
+      "correction_ids": [
+        "CORR-007-LEGACY-0186",
+        "CORR-007-LEGACY-0187"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2A5CB60E6B9C",
+        "legacy:SUBJ-5932269028C7"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C31553A0D1B9",
+      "label_at_inspection": "Leoben settlement, Venice, and the Italian sister republics",
+      "correction_ids": [
+        "CORR-007-LEGACY-0055",
+        "CORR-007-LEGACY-0056",
+        "CORR-007-LEGACY-0215"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-18DD4E54F98D",
+        "legacy:SUBJ-68A396FDC1E9"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C421B8FB7D43",
+      "label_at_inspection": "Austria and Prussia, diplomacy and invasion of France",
+      "correction_ids": [
+        "CORR-007-LEGACY-0433",
+        "CORR-007-LEGACY-0434"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-CAB0E0E6A10A"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+      "label_at_inspection": "War and ideological polarization across Europe",
+      "correction_ids": [
+        "CORR-007-LEGACY-0022",
+        "CORR-007-LEGACY-0023",
+        "CORR-007-LEGACY-0220",
+        "CORR-007-LEGACY-0221",
+        "CORR-007-LEGACY-0362"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0AD8FB5AC200",
+        "legacy:SUBJ-6D5AB9581B8F",
+        "legacy:SUBJ-A038CCDE96B2"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "stance",
+          "correction_ids": [
+            "CORR-007-LEGACY-0022",
+            "CORR-007-LEGACY-0220"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Retain regicide as acceleration, not sole cause; heterogeneous and weak networks; and continued foreign perception after withdrawal of fraternity. Do not make every broad export copy a mandatory destination."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C81AF981D95D",
+      "label_at_inspection": "Normandy and Brittany: Caen's Central Assembly of Resistance",
+      "correction_ids": [
+        "CORR-007-LEGACY-0358",
+        "CORR-007-LEGACY-0359"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-9EEC0E87F716"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "label_at_inspection": "Lyons, siege and exemplary repression",
+      "correction_ids": [
+        "CORR-007-LEGACY-0084"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-26E1E3A4A1C3"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "label_at_inspection": "Second Coalition and the collapse of French power in 1799",
+      "correction_ids": [
+        "CORR-007-LEGACY-0137"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-41D3BC4FBE74"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Retain stage7’s narrowed collapse of Italian clients; the Dutch regime survived. Preserve French confidence before outnumbered offensives without restoring a universal sister-republic-collapse claim."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "label_at_inspection": "Politically managed trials in Paris: autumn1793 and the Hébertists",
+      "correction_ids": [
+        "CORR-007-LEGACY-0146",
+        "CORR-007-LEGACY-0147",
+        "CORR-007-LEGACY-0217",
+        "CORR-007-LEGACY-0245",
+        "CORR-007-LEGACY-0246"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-448938BF4567",
+        "legacy:SUBJ-6CF0D90199A7",
+        "legacy:SUBJ-781BDBA91F76"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-2D21AEA93472",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0146",
+            "CORR-007-LEGACY-0217"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-5BFACE5A0A78",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0147",
+            "CORR-007-LEGACY-0246"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "The queen’s rescue plot concerns the queen alone; her253 execution is distinct. Preserve truncated Girondin trial after prolonging eloquence,177 Paris executions versus provincial scale, and Robespierre’s obstruction of a mercy roll-call."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C9C4454491D0",
+      "label_at_inspection": "Cisalpine Republic: French control, dependency, and coups",
+      "correction_ids": [
+        "CORR-007-LEGACY-0214"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-683B8F271B15"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C9FC2D29F642",
+      "label_at_inspection": "Peace of Amiens and the end of the revolutionary wars",
+      "correction_ids": [
+        "CORR-007-LEGACY-0428",
+        "CORR-007-LEGACY-0429"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-C6FB2DD12C5B"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Amiens terms require Britain’s Ceylon/Trinidad retention, Cape return and Malta promise; continental recognition was tacit. Keep distinct from preliminary negotiations and do not make Amiens identical to Lunéville."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CB0C8FAE5B09",
+      "label_at_inspection": "British loyalist reaction—Birmingham riots and official repression",
+      "correction_ids": [
+        "CORR-007-LEGACY-0078"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-239317129A85"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "label_at_inspection": "Prairial uprising of 1795",
+      "correction_ids": [
+        "CORR-007-LEGACY-0309",
+        "CORR-007-LEGACY-0310",
+        "CORR-007-LEGACY-0311"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-8840997908A6"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+      "label_at_inspection": "Great Britain's entry into war with France",
+      "correction_ids": [
+        "CORR-007-LEGACY-0103"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2CE967CD931F"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CD9A2A52162E",
+      "label_at_inspection": "Right of resistance, Babeuf, and the modern idea of revolution",
+      "correction_ids": [
+        "CORR-007-LEGACY-0447",
+        "CORR-007-LEGACY-0448"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-6FB57152C401:EVID-D9BBE986FF5C"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CFFCD493828A",
+      "label_at_inspection": "Landowners, bourgeoisie, and the property settlement",
+      "correction_ids": [
+        "CORR-007-LEGACY-0405",
+        "CORR-007-LEGACY-0406"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-BFB189B966A6"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Retain property-driven acceptance of dictatorship and the Notables analogy alongside unequal land gains, continuing noble wealth and limited small-peasant benefit."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+      "label_at_inspection": "Germinal uprising and its punitive aftermath",
+      "correction_ids": [
+        "CORR-007-LEGACY-0006",
+        "CORR-007-LEGACY-0007"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0193A429E7E2",
+        "legacy:SUBJ-0193A429E7E2:EVID-790873B8CF57"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D319BFEA28A1",
+      "label_at_inspection": "Battle of Valmy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0274",
+        "CORR-007-LEGACY-0275",
+        "CORR-007-LEGACY-0385"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-7F5F0CA6DC8D",
+        "legacy:SUBJ-AD516155C29B"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Preserve fewer but superior guns, trained remnants and numerical/patriotic resources. Participant reassurance after the September massacres is attributed and does not justify killings. Keep negotiations and republican conjunction with the193/194 inconsistency qualified."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "label_at_inspection": "Roman Republic, 1798-1799",
+      "correction_ids": [
+        "CORR-007-LEGACY-0390",
+        "CORR-007-LEGACY-0403",
+        "CORR-007-LEGACY-0404"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-AFCD385109E8",
+        "legacy:SUBJ-BCBC5D6F9740"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0390",
+            "CORR-007-LEGACY-0403"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "acceptable_access",
+          "correction_ids": [
+            "CORR-007-LEGACY-0390",
+            "CORR-007-LEGACY-0403"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve362 papal displacement, French command and imposed constitution/narrow support;363 charitable/tourism disruption and religious crowd welcome are separate. The combined Ligurian/Roman old claim requires the Ligurian destination as well."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "label_at_inspection": "Revolutionary universalism, political exiles and Clootz's delegation",
+      "correction_ids": [
+        "CORR-007-LEGACY-0096"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2B9A6E773BA7"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-DACCA6754DFE",
+      "label_at_inspection": "British loyalism, reform opposition, and wartime repression",
+      "correction_ids": [
+        "CORR-007-LEGACY-0062",
+        "CORR-007-LEGACY-0440",
+        "CORR-007-LEGACY-0441"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-19C9A400680E",
+        "legacy:SUBJ-CD4E539A5853"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Retain the source’s sequence: May1794 habeas suspension precedes its December1794 acquittals, then November1795 Two Acts. Preserve jury triumph, the French agent’s judgment and opponents’ Terror label without outside chronological correction."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-DB78F0834F84",
+      "label_at_inspection": "British radical societies—growth under French revolutionary influence",
+      "correction_ids": [
+        "CORR-007-LEGACY-0249",
+        "CORR-007-LEGACY-0250"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-78830C16A72A"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-DF287F758EED",
+      "label_at_inspection": "Émigré return and irreversible revolutionary land transfers",
+      "correction_ids": [
+        "CORR-007-LEGACY-0169"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-4F22EA214B30"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E01B6781D013",
+      "label_at_inspection": "Brissot, the Brissotins, and revolutionary war",
+      "correction_ids": [
+        "CORR-007-LEGACY-0173",
+        "CORR-007-LEGACY-0174"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-509199493B59"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E20FB0D1A107",
+      "label_at_inspection": "Émigrés and counter-revolutionary pressure",
+      "correction_ids": [
+        "CORR-007-LEGACY-0092"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2A2AC9240BCC"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E353D1807798",
+      "label_at_inspection": "Campaigns of 1800: Marengo and Hohenlinden",
+      "correction_ids": [
+        "CORR-007-LEGACY-0400"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-BB558BECAAC6"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E4C3D945CE3F",
+      "label_at_inspection": "Professions and the rise of bureaucracy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0382"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-A71BF60B59EC"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Preserve408 officeholder compensation undervaluation/assignats, qualifications and licensing, wartime staffing reversal and administrative expansion. Split408 professional claims from409 pension claims."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E801BA395EE8",
+      "label_at_inspection": "French recovery and Fleurus as the turning point, 1793-1794",
+      "correction_ids": [
+        "CORR-007-LEGACY-0119",
+        "CORR-007-LEGACY-0122",
+        "CORR-007-LEGACY-0175",
+        "CORR-007-LEGACY-0190",
+        "CORR-007-LEGACY-0191",
+        "CORR-007-LEGACY-0318"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-345E397F8FFE",
+        "legacy:SUBJ-36B5DAE3558C",
+        "legacy:SUBJ-5151BEC12A93",
+        "legacy:SUBJ-8BE291F64C55"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": "EVID-SUCC-17597578E087",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0119",
+            "CORR-007-LEGACY-0122"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-E4EF04A46C3E",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0175",
+            "CORR-007-LEGACY-0190"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [
+        "EVID-SUCC-27E03AD3F014"
+      ],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-EB2C28D684C6",
+      "label_at_inspection": "Belgian Church under French rule",
+      "correction_ids": [
+        "CORR-007-LEGACY-0344"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-94914DE271CA"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+      "label_at_inspection": "French Revolution—internationalization and the approach of war",
+      "correction_ids": [
+        "CORR-007-LEGACY-0188",
+        "CORR-007-LEGACY-0189",
+        "CORR-007-LEGACY-0355"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-59704A89DC09",
+        "legacy:SUBJ-9CC88CADE007"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-ED05A22FC18F",
+      "label_at_inspection": "Insurrection of 10 August 1792 and fall of the monarchy",
+      "correction_ids": [
+        "CORR-007-LEGACY-0106",
+        "CORR-007-LEGACY-0107",
+        "CORR-007-LEGACY-0127",
+        "CORR-007-LEGACY-0128"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-2ED4F51246DD",
+        "legacy:SUBJ-39D4C24B3AA7"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0106",
+            "CORR-007-LEGACY-0127"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "stance",
+          "correction_ids": [
+            "CORR-007-LEGACY-0106",
+            "CORR-007-LEGACY-0127"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-F5005C2BDE24",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0107",
+            "CORR-007-LEGACY-0128"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "label_at_inspection": "Jacobin Club, Gilded Youth, and anti-Jacobin reaction",
+      "correction_ids": [
+        "CORR-007-LEGACY-0332"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-8F236D7FD6BC"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-ED45439A1452",
+      "label_at_inspection": "Resistance, political intolerance, and revolutionary violence",
+      "correction_ids": [
+        "CORR-007-LEGACY-0115",
+        "CORR-007-LEGACY-0116"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-3208BA1B95EE"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-EE60D7547263",
+      "label_at_inspection": "Burke-Paine controversy—polarization and revival of British reform",
+      "correction_ids": [
+        "CORR-007-LEGACY-0218"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-6D258BB86487"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "label_at_inspection": "Helvetic Republic: French intervention and imposed constitution",
+      "correction_ids": [
+        "CORR-007-LEGACY-0365",
+        "CORR-007-LEGACY-0366",
+        "CORR-007-LEGACY-0449"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-7FE85D2E397A:EVID-24BC502F0BC5",
+        "legacy:SUBJ-A30FAC1AC71C"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Stage7 already includes Ochs/La Harpe’s protective and strategic aims, requisition promises, treasury seizure, Ochs’s militia request and the legislature’s refusal/inadequate volunteers. Retain those alongside the proposed Paris constitutional collaboration and perpetual passage/continued-troop treaty requirement. The proposed355 B168 value must NOT overwrite its distinct fiscal/militia claim: rehome the treaty clause to existing constitutional evidence or a precise new row if needed, and correct the old06A064 evidence binding accordingly."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F1FC19003FE5",
+      "label_at_inspection": "Organic Articles, Gallican controls, and episcopal reorganization",
+      "correction_ids": [
+        "CORR-007-LEGACY-0259",
+        "CORR-007-LEGACY-0260",
+        "CORR-007-LEGACY-0261"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-7A14E6486B77"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "label_at_inspection": "Law of 22 Prairial: tribunal procedure and political repercussions",
+      "correction_ids": [
+        "CORR-007-LEGACY-0200",
+        "CORR-007-LEGACY-0201"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-62A63322B066"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F7E85272CDFE",
+      "label_at_inspection": "Bonaparte's religious policy and the road to reconciliation with Rome",
+      "correction_ids": [
+        "CORR-007-LEGACY-0120",
+        "CORR-007-LEGACY-0158",
+        "CORR-007-LEGACY-0159",
+        "CORR-007-LEGACY-0160",
+        "CORR-007-LEGACY-0230",
+        "CORR-007-LEGACY-0231",
+        "CORR-007-LEGACY-0345",
+        "CORR-007-LEGACY-0346",
+        "CORR-007-LEGACY-0450",
+        "CORR-007-LEGACY-0451"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-34DA2C4094B4",
+        "legacy:SUBJ-49EAEA29A16F",
+        "legacy:SUBJ-70FD5425EE65",
+        "legacy:SUBJ-94BF9A8D280B",
+        "legacy:SUBJ-97ED33548D8B:EVID-DCE5A60BDC62"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0120",
+            "CORR-007-LEGACY-0158",
+            "CORR-007-LEGACY-0230",
+            "CORR-007-LEGACY-0345",
+            "CORR-007-LEGACY-0450"
+          ]
+        },
+        {
+          "evidence_id": null,
+          "field": "acceptable_access",
+          "correction_ids": [
+            "CORR-007-LEGACY-0120",
+            "CORR-007-LEGACY-0158"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-FBA798BCCC80",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0159",
+            "CORR-007-LEGACY-0346"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-944F35AE5E1D",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0160",
+            "CORR-007-LEGACY-0231"
+          ]
+        }
+      ],
+      "composition_cautions": [
+        "Preserve Sunday/décadi/Easter practice, instrumental Islam in Egypt, gradual property analogy, false expectations of papal extinction, popular revival and persistent religious division. The387 Fouché/Talleyrand ministerial obstacle is distinct from625493’s later prospective legislative opposition."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "label_at_inspection": "Rhineland under French occupation: exploitation and economic disruption",
+      "correction_ids": [
+        "CORR-007-LEGACY-0412"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-C01AEAA11520"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [
+        "Retain losses from departing courts, dues/tithes maintained for revenue, and rent substitution after tithe abolition. Real priestly resistance belongs with the religious-policy destination; do not call all opposition imaginary."
+      ],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-FA919FE4CE14",
+      "label_at_inspection": "Nobility: loss of privilege and social transformation",
+      "correction_ids": [
+        "CORR-007-LEGACY-0193",
+        "CORR-007-LEGACY-0194",
+        "CORR-007-LEGACY-0356",
+        "CORR-007-LEGACY-0357"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-5C93466C9CE3",
+        "legacy:SUBJ-9E97FDE2B3AF"
+      ],
+      "overlapping_field_requirements": [
+        {
+          "evidence_id": null,
+          "field": "meaning",
+          "correction_ids": [
+            "CORR-007-LEGACY-0193",
+            "CORR-007-LEGACY-0356"
+          ]
+        },
+        {
+          "evidence_id": "EVID-SUCC-B22E134BEFB4",
+          "field": "evidence_summary",
+          "correction_ids": [
+            "CORR-007-LEGACY-0194",
+            "CORR-007-LEGACY-0357"
+          ]
+        }
+      ],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-FC3075CE0927",
+      "label_at_inspection": "Sansculottes, moral economy, and popular tutelage",
+      "correction_ids": [
+        "CORR-007-LEGACY-0024",
+        "CORR-007-LEGACY-0374"
+      ],
+      "historical_keys": [
+        "legacy:SUBJ-0B21B6F34388",
+        "legacy:SUBJ-A48BAD57F165"
+      ],
+      "overlapping_field_requirements": [],
+      "composition_cautions": [],
+      "new_evidence_ids": [],
+      "closure_owner": "independent_lead",
+      "composed_value_approved": false
+    }
+  ],
+  "additional_previously_reported_retention_cautions": [
+    {
+      "subject_id": "SUBJ-SUCC-43C2056DACCC",
+      "composition_caution": "Preserve field-army guardianship and political intervention rather than substituting409 pensions or Bonaparte’s individual career. This is distinct from local Revolutionary Armies."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-60C460F43224",
+      "composition_caution": "Preserve distinct Spanish expulsion by black forces and British disease/withdrawal with13,000 deaths. Toussaint’s autonomy/capture, renewed resistance after May1802 and eventual independence have different actors and phases."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BBD84DC00640",
+      "composition_caution": "Preserve regional/social variation, strategic geography, failed recruitment and republican/royalist differences from eligible prose. The225 map interior remains excluded; caption retrieval cannot supply geography."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-FEC4961768F7",
+      "composition_caution": "Preserve appropriation of the rival programme, elimination of militants and silencing of demands to activate the constitution. Do not infer that suppression alone caused constitutional suspension or prove an encompassing plot."
+    }
+  ],
+  "map_retirement": {
+    "historical_key": "legacy:SUBJ-FAB18CEB9A74:EVID-AFDDAE4BD8CA",
+    "disposition": "Retire ineligible225 map-interior requirement. The optional caption-only9DA route is a different eligible retrieval requirement, not semantic retention of the interior."
+  },
+  "later_integration_boundary": "Stage8 was reported by lead but not inspected in this component. Preserve lead’s888 nested first-gathering versus later-attempt qualification,171-only Gustavus nested access and all later additions while reconciling these baseline proposals."
+}
