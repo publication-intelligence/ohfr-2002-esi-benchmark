@@ -1,0 +1,35 @@
+{
+  "schema_version": "cross-shard-component-verification-v1",
+  "recorded_at": "2026-09-17T02:45:04.057797+00:00",
+  "components": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-original-cross-shard-referral-closure.v1.json",
+      "sha256": "5d9ef75975ef7b14039df9f2e60c576b046e519d01c7afd71a1f96b19afd97ab",
+      "verified_input_files": 3,
+      "replacement_roundtrips": 2,
+      "field_diffs": 14,
+      "exact_original_referrals": 18,
+      "exact_original_referral_multiset_verified": true,
+      "exact_effective_record_bindings": 38,
+      "exact_prior_disposition_reuse": 27,
+      "exact_historical_relationships_and_endpoint_meanings": 8
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-additional-cross-shard-referral-closure.v1.json",
+      "sha256": "6a55f9c4affc8a3593d8acdcae8769b838060f8a222a92fe121f3300a94d1ba2",
+      "verified_input_files": 5,
+      "replacement_roundtrips": 3,
+      "field_diffs": 10,
+      "exact_original_referrals": 21,
+      "exact_original_referral_multiset_verified": true,
+      "exact_effective_record_bindings": 35,
+      "exact_prior_disposition_reuse": 0,
+      "exact_historical_relationships_and_endpoint_meanings": 0
+    }
+  ],
+  "editorial_approval": false,
+  "whole_book_approval": false,
+  "integrated_final_byte_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

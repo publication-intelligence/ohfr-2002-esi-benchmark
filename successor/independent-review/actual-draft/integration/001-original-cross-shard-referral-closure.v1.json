@@ -1,0 +1,2601 @@
+{
+  "schema_version": "independent-cross-shard-referral-closure-v1",
+  "status": "sealed_component; full_final_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage5.v1.json",
+      "sha256": "3e4ecbdfef34303b33c2dcf6a1cd1d4082a91f841b4157ab516dbfec0c598139"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/cross-shard-referrals.v1.json",
+      "sha256": "8faa24ba69d2bea260b9884c7317cc6e8c5e170ba8aeedaa5a8efdc902dece38"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "sha256": "9b51e26aa7694048d6cbcc86d30138ec4153be54274199f346b394b8cece1760"
+    }
+  ],
+  "current_referral_dispositions": [
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-001",
+      "original_referral": {
+        "kind": "evidence_rebinding",
+        "retired_evidence_id": "EVID-SUCC-D5CC85D5C030",
+        "subject_id": "SUBJ-SUCC-1C628235D449",
+        "evidence_ids": [
+          "EVID-SUCC-DCE39CA94E54"
+        ],
+        "claim": "Montesquieu's principle is used to constrain ministers and keep the executive dependent on the legislature.",
+        "source_page": 123,
+        "status": "bound_to_exact_claim"
+      },
+      "disposition": "Exact claim retained at the constitutional-design parent’s page 123 evidence. Separation is an executive constraint, not an Enlightenment biography substitute.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-1C628235D449",
+          "record_sha256": "04b5ac141de9d46948eadd87d2b76664c6ae07a462d635c5e17c8ed0ce5af387",
+          "evidence_ids": [
+            "EVID-SUCC-DCE39CA94E54"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-002",
+      "original_referral": {
+        "kind": "evidence_rebinding",
+        "retired_evidence_id": "EVID-SUCC-8D4F686839F3",
+        "subject_id": "SUBJ-SUCC-1C628235D449",
+        "evidence_ids": [
+          "EVID-SUCC-23A537D105D7"
+        ],
+        "claim": "Deputies bar themselves from government, reinforcing institutional separation.",
+        "source_page": 124,
+        "status": "bound_to_exact_claim"
+      },
+      "disposition": "The page 124 constitutional rule is directly retained; the new context-specific uncertainty separates the page 175 two-year statement from the earlier three-year rule.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-1C628235D449",
+          "record_sha256": "04b5ac141de9d46948eadd87d2b76664c6ae07a462d635c5e17c8ed0ce5af387",
+          "evidence_ids": [
+            "EVID-SUCC-23A537D105D7"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-003",
+      "original_referral": {
+        "kind": "evidence_rebinding",
+        "retired_evidence_id": "EVID-SUCC-87DD399CEBDE",
+        "subject_id": "SUBJ-SUCC-2056A5304D29",
+        "evidence_ids": [
+          "EVID-SUCC-434EB6FFAD20"
+        ],
+        "claim": "Reliance on a politically safer but uncertain National Guard exposes the weakness of revolutionary enforcement.",
+        "source_page": 126,
+        "status": "bound_to_exact_claim"
+      },
+      "disposition": "Page 126 supports the uncertain Guard as the available patriotic force, not general army effectiveness. The Guard parent and named evidence carry this claim.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-2056A5304D29",
+          "record_sha256": "5b65291ea01b887f79133c02306461c6b07f8e29bfd4e2891f82d862dad31693",
+          "evidence_ids": [
+            "EVID-SUCC-434EB6FFAD20"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-004",
+      "original_referral": {
+        "kind": "evidence_rebinding",
+        "retired_evidence_id": "EVID-SUCC-1FDAFA017A36",
+        "subject_id": "SUBJ-SUCC-1C628235D449",
+        "evidence_ids": [
+          "EVID-SUCC-DCE39CA94E54"
+        ],
+        "claim": "Montesquieu's principle is used to constrain ministers and keep the executive dependent on the legislature.",
+        "source_page": 123,
+        "status": "bound_to_exact_claim"
+      },
+      "disposition": "Duplicate incoming retirement of the same Montesquieu application; bind the existing claim without creating another evidence requirement.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-1C628235D449",
+          "record_sha256": "04b5ac141de9d46948eadd87d2b76664c6ae07a462d635c5e17c8ed0ce5af387",
+          "evidence_ids": [
+            "EVID-SUCC-DCE39CA94E54"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-005",
+      "original_referral": {
+        "kind": "evidence_rebinding",
+        "retired_evidence_id": "EVID-SUCC-28BE348AC396",
+        "subject_id": "SUBJ-SUCC-1C628235D449",
+        "evidence_ids": [
+          "EVID-SUCC-23A537D105D7"
+        ],
+        "claim": "Deputies bar themselves from government, reinforcing institutional separation.",
+        "source_page": 124,
+        "status": "bound_to_exact_claim"
+      },
+      "disposition": "Duplicate incoming retirement of the same deputies-to-government exclusion; bind the existing constitutional rule.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-1C628235D449",
+          "record_sha256": "04b5ac141de9d46948eadd87d2b76664c6ae07a462d635c5e17c8ed0ce5af387",
+          "evidence_ids": [
+            "EVID-SUCC-23A537D105D7"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-006",
+      "original_referral": {
+        "kind": "lineage_rebinding",
+        "old_evidence_ids": [
+          "EVID-3DC8D7D02A51",
+          "native:EVID-0209-002:free-coloured-clause"
+        ],
+        "target_subject_id": "SUBJ-SUCC-2AC42802019F",
+        "source_pages": [
+          151
+        ],
+        "requirement": "Free people of colour’s political rights are legally distinct from preservation of slavery. Bind to actual claim-bearing evidence there.",
+        "status": "unresolved_cross_shard"
+      },
+      "disposition": "Page 151 distinguishes enslaved status from free-coloured political claims. Bind the latter to 50680745647E under 2AC; its parent preserves the 1791 parentage limit and later 1792 extension from 412. No slavery-only equivalence.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-2AC42802019F",
+          "record_sha256": "c2578ed23a77656699f1d6c14cf1c043d4c7beaf942e8b43c289d1970bd9d86d",
+          "evidence_ids": [
+            "EVID-SUCC-50680745647E"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-007",
+      "original_referral": {
+        "kind": "lineage_rebinding",
+        "old_evidence_ids": [
+          "EVID-8997DC608F8A"
+        ],
+        "target_subject_id": "SUBJ-SUCC-04E7153E268C",
+        "source_pages": [
+          157
+        ],
+        "requirement": "Émigré princes and foreign diplomatic threats are not preserved by general officer or noble withdrawal.",
+        "status": "unresolved_cross_shard"
+      },
+      "disposition": "Already repaired in the historical S/E integration: 04E’s parent and C1EC55099AFC explicitly retain the princes’ publication and appeal, distinct from officer withdrawal.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-04E7153E268C",
+          "record_sha256": "970decef76f3b7a06184453f788b39c7252499e99e87522d119fe9b70c98a458",
+          "evidence_ids": [
+            "EVID-SUCC-C1EC55099AFC"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-008",
+      "original_referral": {
+        "kind": "scope_rebinding",
+        "target_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "source_pages": [
+          153
+        ],
+        "requirement": "Retain nationwide post-Varennes Guard, vigilance and persecution as a coherent emergency mobilization requirement. Jacobin subject retains only network-specific claims.",
+        "status": "unresolved_cross_shard"
+      },
+      "disposition": "Confirmed gap in 621’s main/nested treatment and evidence. Add the explicitly supported 153 emergency claim; ABA54 remains network-specific. Do not infer that clubs alone organized all committees or attacks.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-6216510D2EE3",
+          "record_sha256": "381c9d135223c7c662f6443156a620395d5e3a4c7f8b6fe6a01e37cd2fade355",
+          "evidence_ids": [
+            "EVID-ISR-VARENNES-153-EMERGENCY"
+          ]
+        }
+      ],
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-009",
+      "original_referral": {
+        "kind": "task_requirement",
+        "from_task_id": "TASK-SUCC-077FE592CCA7",
+        "source_pages": [
+          128
+        ],
+        "requirement": "Political song combined optimism and threats against aristocrats; retain oral political culture outside the newspaper task.",
+        "target_subject_id": "SUBJ-SUCC-8ABFA61625D7",
+        "status": "new_coherent_task_below"
+      },
+      "disposition": "The distinct political-song task 688C retrieves optimistic and threatening oral culture through 8ABF and E653; no newspaper-only substitute.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-688C615B9475",
+        "record_sha256": "8c07c1a0d19e84e346c185a6b690e3b7ac611bb5e29f5d0039cf578f462030e8",
+        "question": "How did popular songs combine revolutionary optimism with threats against aristocrats, and how did this qualify the appearance of national unity?",
+        "subject_ids": [
+          "SUBJ-SUCC-8ABFA61625D7",
+          "SUBJ-SUCC-6F7507052D8F"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-010",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-DCC4DAA8230F",
+        "to_task_id": "TASK-SUCC-CA3CE3FD3C60",
+        "facet": {
+          "facet_id": "legacy:TASK-06DC93A671AA",
+          "question": "How does Doyle compare constitutional and refractory clergy and explain the regional and social pattern of oath-taking?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-26AD2CABDCC5",
+            "SUBJ-SUCC-2EC1BFCD2A04",
+            "SUBJ-SUCC-7BF0734F6369"
+          ],
+          "historical_task_id": "TASK-06DC93A671AA",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The composite question is answered through the exact listed inquiries; retain each component and its target scope rather than projecting the entire question onto every mapped subject."
+        },
+        "status": "unresolved_cross_shard",
+        "proposed_parent_question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+        "proposed_parent_subject_ids": [
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "proposed_facet": {
+          "facet_id": "legacy:TASK-06DC93A671AA",
+          "question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-2EC1BFCD2A04",
+            "SUBJ-SUCC-26AD2CABDCC5",
+            "SUBJ-SUCC-7BF0734F6369"
+          ],
+          "historical_task_id": "TASK-06DC93A671AA",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+        }
+      },
+      "disposition": "The complete oath/regional/social/staffing/papal comparison is explicit in CA3. Later additional-task review also preserves bounded aspects under DCC and 8B; these are narrower questions, not copies requiring the complete comparison in every parent.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-CA3CE3FD3C60",
+        "record_sha256": "dc8008dbc1e1f43dc0205455871fabeb1d1275b5aafeb4b1f12268c4c1bbd42c",
+        "question": "How did the oath divide constitutional and refractory clergy, what explains the regional and social pattern of acceptance and refusal and the staffing of the new Church, and how did papal condemnation provoke retractions?",
+        "subject_ids": [
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-7BF0734F6369"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-011",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-8B413B736948",
+        "to_task_id": "TASK-SUCC-CA3CE3FD3C60",
+        "facet": {
+          "facet_id": "legacy:TASK-06DC93A671AA",
+          "question": "How does Doyle compare constitutional and refractory clergy and explain the regional and social pattern of oath-taking?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-26AD2CABDCC5",
+            "SUBJ-SUCC-2EC1BFCD2A04",
+            "SUBJ-SUCC-7BF0734F6369"
+          ],
+          "historical_task_id": "TASK-06DC93A671AA",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The composite question is answered through the exact listed inquiries; retain each component and its target scope rather than projecting the entire question onto every mapped subject."
+        },
+        "status": "unresolved_cross_shard",
+        "proposed_parent_question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+        "proposed_parent_subject_ids": [
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "proposed_facet": {
+          "facet_id": "legacy:TASK-06DC93A671AA",
+          "question": "How did the compulsory oath divide constitutional and refractory clergy, what regional and social factors shaped acceptance and refusal, and how did papal intervention affect staffing and retractions?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-2EC1BFCD2A04",
+            "SUBJ-SUCC-26AD2CABDCC5",
+            "SUBJ-SUCC-7BF0734F6369"
+          ],
+          "historical_task_id": "TASK-06DC93A671AA",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+        }
+      },
+      "disposition": "Same complete comparison and separate bounded-aspect disposition as current referral 10; preserve the incoming binding as a distinct lineage row, not a second approval.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-CA3CE3FD3C60",
+        "record_sha256": "dc8008dbc1e1f43dc0205455871fabeb1d1275b5aafeb4b1f12268c4c1bbd42c",
+        "question": "How did the oath divide constitutional and refractory clergy, what explains the regional and social pattern of acceptance and refusal and the staffing of the new Church, and how did papal condemnation provoke retractions?",
+        "subject_ids": [
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-26AD2CABDCC5",
+          "SUBJ-SUCC-7BF0734F6369"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-012",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-AEEE0FFC967C",
+        "to_task_id": "TASK-SUCC-A03FF05DCA5B",
+        "facet": {
+          "facet_id": "legacy:TASK-FA9B87A92325",
+          "question": "How does Doyle trace the sequence from early Church reforms through the Civil Constitution, clerical oath, and breach with Rome?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-D990EC541CE5",
+            "SUBJ-SUCC-F066F35B29BE",
+            "SUBJ-SUCC-2EC1BFCD2A04",
+            "SUBJ-SUCC-7BF0734F6369",
+            "SUBJ-SUCC-F3495B619256"
+          ],
+          "historical_task_id": "TASK-FA9B87A92325",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+        },
+        "status": "implemented_in_owned_new_task"
+      },
+      "disposition": "A03’s main question and all five parent subjects explicitly retain the full Church sequence. The earlier narrow-parent copy is unnecessary.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-A03FF05DCA5B",
+        "record_sha256": "0adede12610b4891f89117d704b7427111495ec19573f3acf1998de95d1a7952",
+        "question": "How did early Church dispossession and religious equality lead through the Civil Constitution, clerical oath and breach with Rome, and how did each step change relations between clergy and Revolution?",
+        "subject_ids": [
+          "SUBJ-SUCC-F066F35B29BE",
+          "SUBJ-SUCC-F3495B619256",
+          "SUBJ-SUCC-D990EC541CE5",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-013",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-371278D8D186",
+        "to_task_id": "TASK-SUCC-A03FF05DCA5B",
+        "facet": {
+          "facet_id": "legacy:TASK-FA9B87A92325",
+          "question": "How does Doyle trace the sequence from early Church reforms through the Civil Constitution, clerical oath, and breach with Rome?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-D990EC541CE5",
+            "SUBJ-SUCC-F066F35B29BE",
+            "SUBJ-SUCC-2EC1BFCD2A04",
+            "SUBJ-SUCC-7BF0734F6369",
+            "SUBJ-SUCC-F3495B619256"
+          ],
+          "historical_task_id": "TASK-FA9B87A92325",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+        },
+        "status": "implemented_in_owned_new_task"
+      },
+      "disposition": "Same A03 complete sequence as referral 12; no duplicate independent requirement.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-A03FF05DCA5B",
+        "record_sha256": "0adede12610b4891f89117d704b7427111495ec19573f3acf1998de95d1a7952",
+        "question": "How did early Church dispossession and religious equality lead through the Civil Constitution, clerical oath and breach with Rome, and how did each step change relations between clergy and Revolution?",
+        "subject_ids": [
+          "SUBJ-SUCC-F066F35B29BE",
+          "SUBJ-SUCC-F3495B619256",
+          "SUBJ-SUCC-D990EC541CE5",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-014",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-DEDDF69CB4C6",
+        "to_task_id": "TASK-SUCC-0BA28F1C7165",
+        "facet": {
+          "facet_id": "legacy:TASK-297472D1571A",
+          "question": "How does Doyle connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-936AFF93E708",
+            "SUBJ-SUCC-C918DFC81FAD",
+            "SUBJ-SUCC-C99D07DA5B57",
+            "SUBJ-SUCC-C1C93BC08ECB",
+            "SUBJ-SUCC-49764CEDFDC8",
+            "SUBJ-SUCC-C9D730C2AC1F",
+            "SUBJ-SUCC-B26E579BEEC5",
+            "SUBJ-SUCC-3E7ADBDC503B",
+            "SUBJ-SUCC-C5578768FEE3",
+            "SUBJ-SUCC-A38083855AA9",
+            "SUBJ-SUCC-75B959BD3520",
+            "SUBJ-SUCC-B42BAF6EA994",
+            "SUBJ-SUCC-F7206C895F76",
+            "SUBJ-SUCC-7CE426B45CF3",
+            "SUBJ-SUCC-5FCCBDB023C6"
+          ],
+          "historical_task_id": "TASK-297472D1571A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+        },
+        "status": "unresolved_cross_shard",
+        "proposed_parent_question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+        "proposed_parent_subject_ids": [
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB"
+        ],
+        "proposed_facet": {
+          "facet_id": "legacy:TASK-297472D1571A",
+          "question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+          "required_subject_ids": [
+            "SUBJ-SUCC-49764CEDFDC8",
+            "SUBJ-SUCC-936AFF93E708",
+            "SUBJ-SUCC-F7206C895F76",
+            "SUBJ-SUCC-C918DFC81FAD",
+            "SUBJ-SUCC-C99D07DA5B57",
+            "SUBJ-SUCC-C1C93BC08ECB"
+          ],
+          "historical_task_id": "TASK-297472D1571A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+        }
+      },
+      "disposition": "0BA’s main question and six bounded targets cover the July sequence; contextual old merged dossiers are not additional mandatory targets.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-0BA28F1C7165",
+        "record_sha256": "e191dacd5520f854c877c8f5bbe689a2e6899d6475a096d074dc2a1cac0ea8a8",
+        "question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+        "subject_ids": [
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-015",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-3C20CDA7F858",
+        "to_task_id": "TASK-SUCC-0BA28F1C7165",
+        "facet": {
+          "facet_id": "legacy:TASK-297472D1571A",
+          "question": "How does Doyle connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-936AFF93E708",
+            "SUBJ-SUCC-C918DFC81FAD",
+            "SUBJ-SUCC-C99D07DA5B57",
+            "SUBJ-SUCC-C1C93BC08ECB",
+            "SUBJ-SUCC-49764CEDFDC8",
+            "SUBJ-SUCC-C9D730C2AC1F",
+            "SUBJ-SUCC-B26E579BEEC5",
+            "SUBJ-SUCC-3E7ADBDC503B",
+            "SUBJ-SUCC-C5578768FEE3",
+            "SUBJ-SUCC-A38083855AA9",
+            "SUBJ-SUCC-75B959BD3520",
+            "SUBJ-SUCC-B42BAF6EA994",
+            "SUBJ-SUCC-F7206C895F76",
+            "SUBJ-SUCC-7CE426B45CF3",
+            "SUBJ-SUCC-5FCCBDB023C6"
+          ],
+          "historical_task_id": "TASK-297472D1571A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+        },
+        "status": "unresolved_cross_shard",
+        "proposed_parent_question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+        "proposed_parent_subject_ids": [
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB"
+        ],
+        "proposed_facet": {
+          "facet_id": "legacy:TASK-297472D1571A",
+          "question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+          "required_subject_ids": [
+            "SUBJ-SUCC-49764CEDFDC8",
+            "SUBJ-SUCC-936AFF93E708",
+            "SUBJ-SUCC-F7206C895F76",
+            "SUBJ-SUCC-C918DFC81FAD",
+            "SUBJ-SUCC-C99D07DA5B57",
+            "SUBJ-SUCC-C1C93BC08ECB"
+          ],
+          "historical_task_id": "TASK-297472D1571A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+        }
+      },
+      "disposition": "Same six-part July chain as referral 14. The old broad many-subject projection is retired, not silently unioned.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-0BA28F1C7165",
+        "record_sha256": "e191dacd5520f854c877c8f5bbe689a2e6899d6475a096d074dc2a1cac0ea8a8",
+        "question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+        "subject_ids": [
+          "SUBJ-SUCC-49764CEDFDC8",
+          "SUBJ-SUCC-936AFF93E708",
+          "SUBJ-SUCC-F7206C895F76",
+          "SUBJ-SUCC-C918DFC81FAD",
+          "SUBJ-SUCC-C99D07DA5B57",
+          "SUBJ-SUCC-C1C93BC08ECB"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-016",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-922FC132EFD1",
+        "to_task_id": "TASK-SUCC-239D13E4FC29",
+        "facet": {
+          "facet_id": "legacy:TASK-838A35AF3E6C",
+          "question": "How does Doyle trace the process by which press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-75B959BD3520",
+            "SUBJ-SUCC-36FC305F79B7",
+            "SUBJ-SUCC-3FC7F858D56D",
+            "SUBJ-SUCC-C9D730C2AC1F",
+            "SUBJ-SUCC-2B7B67960E9B",
+            "SUBJ-SUCC-45D9EA9DAAF0",
+            "SUBJ-SUCC-FDBB895E6A69",
+            "SUBJ-SUCC-B42BAF6EA994",
+            "SUBJ-SUCC-C1C93BC08ECB",
+            "SUBJ-SUCC-6F60304562FF",
+            "SUBJ-SUCC-92FF96EC39D9",
+            "SUBJ-SUCC-B003E162E3E1",
+            "SUBJ-SUCC-C918DFC81FAD",
+            "SUBJ-SUCC-7CE426B45CF3",
+            "SUBJ-SUCC-9ABD4A9D46E5"
+          ],
+          "historical_task_id": "TASK-838A35AF3E6C",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+        },
+        "status": "unresolved_cross_shard",
+        "proposed_parent_question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+        "proposed_parent_subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-9ABD4A9D46E5",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-B42BAF6EA994"
+        ],
+        "proposed_facet": {
+          "facet_id": "legacy:TASK-838A35AF3E6C",
+          "question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+          "required_subject_ids": [
+            "SUBJ-SUCC-75B959BD3520",
+            "SUBJ-SUCC-45D9EA9DAAF0",
+            "SUBJ-SUCC-C9D730C2AC1F",
+            "SUBJ-SUCC-9ABD4A9D46E5",
+            "SUBJ-SUCC-B003E162E3E1",
+            "SUBJ-SUCC-92FF96EC39D9",
+            "SUBJ-SUCC-36FC305F79B7",
+            "SUBJ-SUCC-B42BAF6EA994"
+          ],
+          "historical_task_id": "TASK-838A35AF3E6C",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+        }
+      },
+      "disposition": "239D’s main question and eight explicit targets retain the conversion of anti-despotism into anti-privilege mobilization. July’s later coercive collapse remains a distinct inquiry.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-239D13E4FC29",
+        "record_sha256": "ffb8d21ce74b542134d69e3c7c4ec65ae9deccbe11e3158e79738cbd54b04100",
+        "question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+        "subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-9ABD4A9D46E5",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-B42BAF6EA994"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-017",
+      "original_referral": {
+        "kind": "task_facet_rehome",
+        "from_task_id": "TASK-SUCC-885376D2AB47",
+        "to_task_id": "TASK-SUCC-239D13E4FC29",
+        "facet": {
+          "facet_id": "legacy:TASK-838A35AF3E6C",
+          "question": "How does Doyle trace the process by which press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-75B959BD3520",
+            "SUBJ-SUCC-36FC305F79B7",
+            "SUBJ-SUCC-3FC7F858D56D",
+            "SUBJ-SUCC-C9D730C2AC1F",
+            "SUBJ-SUCC-2B7B67960E9B",
+            "SUBJ-SUCC-45D9EA9DAAF0",
+            "SUBJ-SUCC-FDBB895E6A69",
+            "SUBJ-SUCC-B42BAF6EA994",
+            "SUBJ-SUCC-C1C93BC08ECB",
+            "SUBJ-SUCC-6F60304562FF",
+            "SUBJ-SUCC-92FF96EC39D9",
+            "SUBJ-SUCC-B003E162E3E1",
+            "SUBJ-SUCC-C918DFC81FAD",
+            "SUBJ-SUCC-7CE426B45CF3",
+            "SUBJ-SUCC-9ABD4A9D46E5"
+          ],
+          "historical_task_id": "TASK-838A35AF3E6C",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+        },
+        "status": "unresolved_cross_shard",
+        "proposed_parent_question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+        "proposed_parent_subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-9ABD4A9D46E5",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-B42BAF6EA994"
+        ],
+        "proposed_facet": {
+          "facet_id": "legacy:TASK-838A35AF3E6C",
+          "question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+          "required_subject_ids": [
+            "SUBJ-SUCC-75B959BD3520",
+            "SUBJ-SUCC-45D9EA9DAAF0",
+            "SUBJ-SUCC-C9D730C2AC1F",
+            "SUBJ-SUCC-9ABD4A9D46E5",
+            "SUBJ-SUCC-B003E162E3E1",
+            "SUBJ-SUCC-92FF96EC39D9",
+            "SUBJ-SUCC-36FC305F79B7",
+            "SUBJ-SUCC-B42BAF6EA994"
+          ],
+          "historical_task_id": "TASK-838A35AF3E6C",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "These are the bounded targets for the actual main question; unrelated historical dossier projections are removed. Lead implementation and semantic verification remain required."
+        }
+      },
+      "disposition": "Same coherent 239D route as referral 16; duplicated binding is a lineage association, not another weighted task.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-239D13E4FC29",
+        "record_sha256": "ffb8d21ce74b542134d69e3c7c4ec65ae9deccbe11e3158e79738cbd54b04100",
+        "question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+        "subject_ids": [
+          "SUBJ-SUCC-75B959BD3520",
+          "SUBJ-SUCC-45D9EA9DAAF0",
+          "SUBJ-SUCC-C9D730C2AC1F",
+          "SUBJ-SUCC-9ABD4A9D46E5",
+          "SUBJ-SUCC-B003E162E3E1",
+          "SUBJ-SUCC-92FF96EC39D9",
+          "SUBJ-SUCC-36FC305F79B7",
+          "SUBJ-SUCC-B42BAF6EA994"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    },
+    {
+      "referral_id": "ISR-001-ORIGINAL-CURRENT-018",
+      "original_referral": {
+        "kind": "historical_task_rebinding",
+        "historical_task_id": "TASK-2E1CFBBCFEED",
+        "to_task_id": "TASK-SUCC-3A03F04E995C",
+        "source_pages": [
+          119,
+          123,
+          124,
+          125
+        ],
+        "requirement": "Separation of legislative, executive, judicial and administrative functions requires a coherent constitutional inquiry; civil equality or venality abolition alone does not preserve it.",
+        "status": "unresolved_cross_shard"
+      },
+      "disposition": "3A03 explicitly asks constitutional division of legislative, executive and judicial powers and loss of courts’ administrative role, with all three relevant subject parents.",
+      "task_binding": {
+        "task_id": "TASK-SUCC-3A03F04E995C",
+        "record_sha256": "8aefc60eec8442a86eac112a5adcd57b51ccc2195b6255e782bd311f326d8419",
+        "question": "How did the 1789–1791 settlement divide legislative, executive, and judicial authority, and why did separation of powers weaken the executive and remove administrative power from courts?",
+        "subject_ids": [
+          "SUBJ-SUCC-59FB4D856AE3",
+          "SUBJ-SUCC-1C628235D449",
+          "SUBJ-SUCC-9E6D9535AA17"
+        ]
+      },
+      "status": "component_requirement_retained_or_repaired; integrated_final_byte_recheck_pending"
+    }
+  ],
+  "additional_historical_relationship_dispositions": [
+    {
+      "historical_key": "legacy:REL-4A63AA004DF7",
+      "original_record": {
+        "relationship_id": "REL-4A63AA004DF7",
+        "source_subject_id": "SUBJ-A6D7A0FA07E4",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S028",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "original_source_meaning": "The Revolution abolished sale-based officeholding as incompatible with equality and reconstructed justice, while recognizing many offices as compensable property.",
+      "original_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "source_pages": [
+        116,
+        117,
+        125,
+        134
+      ],
+      "independent_disposition": "Retain institutional abolition within August privilege reform; 116–117 and 125 support the part-of relation. Compensation is a separate fiscal consequence explicitly preserved in 9E6D, 65CB and 5193/E4C; it does not undo abolition.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+          "record_sha256": "be03a218e605b9aebad9d382649cd198a8bbb208066fe792128d74abcaa4f3b8"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-8246690A8BF7",
+          "record_sha256": "a50f29394eeff1c96839d6d56bb803eecd3056c012b02e97a81aaa33a95bd2eb"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-65CB496E4820",
+          "record_sha256": "72f5de149da35cf566b401458807ce222f6dcf320561dd02a096e0e51657053c"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-5193E3F37320",
+          "record_sha256": "dcbb5dad758dd9677f7566ef63672bf52eb3bf15ca04be8c4138730fe25e1a41"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    },
+    {
+      "historical_key": "legacy:REL-737E91EA55BE",
+      "original_record": {
+        "relationship_id": "REL-737E91EA55BE",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "worsens"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S083",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-C63462B08260"
+      },
+      "original_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "original_target_meaning": "Inherited debt, collapsing revenue, failed loans, compensation obligations, and growing deficits forced the Assembly toward Church-land nationalization and assignat finance.",
+      "source_pages": [
+        117,
+        131,
+        134
+      ],
+      "independent_disposition": "Retain the substantive debt-worsening mechanism, not mere association. The compensation obligation and 134 assignat expansion are explicit in the finance and justice parents; later real-value loss belongs separately to 5193/E4C.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+          "record_sha256": "be03a218e605b9aebad9d382649cd198a8bbb208066fe792128d74abcaa4f3b8"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-65CB496E4820",
+          "record_sha256": "72f5de149da35cf566b401458807ce222f6dcf320561dd02a096e0e51657053c"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-5193E3F37320",
+          "record_sha256": "dcbb5dad758dd9677f7566ef63672bf52eb3bf15ca04be8c4138730fe25e1a41"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    },
+    {
+      "historical_key": "legacy:REL-F36CE4F6B65D",
+      "original_record": {
+        "relationship_id": "REL-F36CE4F6B65D",
+        "source_subject_id": "SUBJ-2811A9AF5637",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "related"
+        ],
+        "descriptions": [
+          "Women also formed a conspicuous part of later Parisian popular mobilization, though in a different political setting."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-008",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-BBA116A85CC0"
+      },
+      "original_source_meaning": "Catholic crowds stopped inventories of confiscated monastic property and attacked a Protestant-linked militia, producing deaths and Protestant flight.",
+      "original_target_meaning": "Crowds and local activists obstructed nonjuror worship, attacked or threatened religious communities, and associated refractories with conspiracy.",
+      "source_pages": [
+        138
+      ],
+      "independent_disposition": "Reject the inherited refractory-persecution endpoint as a representation of this description. The 138 Montauban action and 148 Paris action support a comparison of women’s agency in different political settings, already explicit in 38F9; C455 retains the regional episode.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-38F9D4ACE8D4",
+          "record_sha256": "57a91bc732aeb22662e64e237d0fbe459557e065a1f581d5425e16bb5ac4f7e6"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C4552AA613C0",
+          "record_sha256": "e79bc53014b82500a01f328b5bda51f890e3b74f8e42f37ecd20c79ebb1dd50b"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    },
+    {
+      "historical_key": "legacy:REL-59F492E39CAB",
+      "original_record": {
+        "relationship_id": "REL-59F492E39CAB",
+        "source_subject_id": "SUBJ-DA96B0CFF40C",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "mobilizes_against"
+        ],
+        "descriptions": [
+          "Midi clubs opposed Catholic counter-revolutionary formations."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-019",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-D3DA6D94D350"
+      },
+      "original_source_meaning": "The Paris Society of the Friends of the Constitution and its provincial affiliates formed a rapidly expanding national political network that debated policy, sustained enthusiasm, pressured authorities, and circulated patriotic information.",
+      "original_target_meaning": "A National Guard federation in the Gard was redirected by defeated Catholic leaders into organized resistance linked to émigré royalists; a second camp failed militarily.",
+      "source_pages": [
+        142,
+        143,
+        153
+      ],
+      "independent_disposition": "Retain the 143 galvanizing effect in ABA54; add the precise local-insurrection and Artois-committee treatment to 8885. Local Catholic power conflict and subsequent émigré coordination are distinct phases, not interchangeable explanations.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-ABA54E187E4B",
+          "record_sha256": "8fdbbbc221d06e17bc6262e7c8ccdb94b4b18d5eda62c64ccfc405fc11a03a2b"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-888503D79595",
+          "record_sha256": "679c96560c9d7e275d341dc848f5bff39b4238cce7d3c3b70d8580e632255015"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C4552AA613C0",
+          "record_sha256": "e79bc53014b82500a01f328b5bda51f890e3b74f8e42f37ecd20c79ebb1dd50b"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    },
+    {
+      "historical_key": "legacy:REL-24959D4089EF",
+      "original_record": {
+        "relationship_id": "REL-24959D4089EF",
+        "source_subject_id": "SUBJ-A8857B12C90E",
+        "type": "contrasts_with",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "distinct_from"
+        ],
+        "descriptions": [
+          "Political rights for free people did not abolish slavery."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-070",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-5EF2BDD9F1CB"
+      },
+      "original_source_meaning": "Free people of color demanded political rights against determined white colonial resistance and violent repression; the Assembly ultimately granted rights regardless of color.",
+      "original_target_meaning": "The Constituent Assembly declined to abolish colonial slavery in March 1790 despite its universal rights language.",
+      "source_pages": [
+        151
+      ],
+      "independent_disposition": "Retain the contrast between political rights for free people of colour and continued enslavement. 2AC and E460 explicitly distinguish these legal populations and the later emancipation sequence.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-2AC42802019F",
+          "record_sha256": "c2578ed23a77656699f1d6c14cf1c043d4c7beaf942e8b43c289d1970bd9d86d"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E460E732EDD9",
+          "record_sha256": "a0547e405ee58ece088381c4fb07c446e1f5aee7ff9caaf4bf1ff9c5d46a9069"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    },
+    {
+      "historical_key": "legacy:REL-B6DC4C5E3979",
+      "original_record": {
+        "relationship_id": "REL-B6DC4C5E3979",
+        "source_subject_id": "SUBJ-5EF2BDD9F1CB",
+        "type": "contrasts_with",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contradicts"
+        ],
+        "descriptions": [
+          "Racial exclusion qualified the Assembly’s universalist legacy."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-069",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-744C7C41CE77"
+      },
+      "original_source_meaning": "The Constituent Assembly declined to abolish colonial slavery in March 1790 despite its universal rights language.",
+      "original_target_meaning": "Louis XVI accepted the completed Constitution amid amnesty and celebration, and the Constituent Assembly ended after dismantling the ancien régime and establishing enduring principles and institutions.",
+      "source_pages": [
+        151
+      ],
+      "independent_disposition": "Preserved slavery limits the universal-rights claim. Retain E460 with the actual Declaration principle in 59FB; reject the old completed-constitution/royal-acceptance endpoint as a sufficient semantic substitute.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-E460E732EDD9",
+          "record_sha256": "a0547e405ee58ece088381c4fb07c446e1f5aee7ff9caaf4bf1ff9c5d46a9069"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-59FB4D856AE3",
+          "record_sha256": "472152faad524bb02fecf72ccafae067cb2ca5499459f0fdce00a7a9dfaa0f36"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    },
+    {
+      "historical_key": "legacy:REL-F901AD713C65",
+      "original_record": {
+        "relationship_id": "REL-F901AD713C65",
+        "source_subject_id": "SUBJ-A8857B12C90E",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "specific_aspect_of"
+        ],
+        "descriptions": [
+          "This is the citizenship branch of the colonial debate."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-070",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-20E4EBF24394"
+      },
+      "original_source_meaning": "Free people of color demanded political rights against determined white colonial resistance and violent repression; the Assembly ultimately granted rights regardless of color.",
+      "original_target_meaning": "The Assembly refused to abolish colonial slavery in 1790, exposing the exclusion of enslaved Black people from the universal language of the Rights of Man.",
+      "source_pages": [
+        151
+      ],
+      "independent_disposition": "Reject the part-of operator that makes free-coloured rights a specific aspect of preserving slavery. Preserve distinct 2AC and E460 routes and their explicit contrast.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-2AC42802019F",
+          "record_sha256": "c2578ed23a77656699f1d6c14cf1c043d4c7beaf942e8b43c289d1970bd9d86d"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E460E732EDD9",
+          "record_sha256": "a0547e405ee58ece088381c4fb07c446e1f5aee7ff9caaf4bf1ff9c5d46a9069"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    },
+    {
+      "historical_key": "legacy:REL-0EE2D070A628",
+      "original_record": {
+        "relationship_id": "REL-0EE2D070A628",
+        "source_subject_id": "SUBJ-BC854EC092B5",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "uses"
+        ],
+        "descriptions": [
+          "The already extensive club network supplied the machinery of vigilance."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-045",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-DA96B0CFF40C"
+      },
+      "original_source_meaning": "The royal flight produced nationwide expectations of Austrian intervention, Guard mobilization, vigilance committees, attacks on refractories, and intense political-club participation.",
+      "original_target_meaning": "The Paris Society of the Friends of the Constitution and its provincial affiliates formed a rapidly expanding national political network that debated policy, sustained enthusiasm, pressured authorities, and circulated patriotic information.",
+      "source_pages": [
+        153
+      ],
+      "independent_disposition": "Retain contemporaneous club participation and nationwide emergency as separate but connected treatments. Page 153 does not establish that the Jacobin network supplied all vigilance machinery; reject that stronger causal reading. 621 now carries the general emergency, ABA54 the clubs’ own response.",
+      "subject_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-6216510D2EE3",
+          "record_sha256": "381c9d135223c7c662f6443156a620395d5e3a4c7f8b6fe6a01e37cd2fade355"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-ABA54E187E4B",
+          "record_sha256": "8fdbbbc221d06e17bc6262e7c8ccdb94b4b18d5eda62c64ccfc405fc11a03a2b"
+        }
+      ],
+      "status": "explicit_component_disposition; final_retained_values_pending"
+    }
+  ],
+  "exact_prior_disposition_reuse": [
+    {
+      "historical_key": "legacy:REL-66D40B0E3B45",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "808db419ac2310d00dba71ad47f368a06b5306e700ac10a68b1c44e85c220cca",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-9511F5F29FA1",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "d91aae14fc7b6bb8415f4fbb91202bb6fada143ba35877225d41f2881c2a69d0",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-38771744E82A",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "dae2e163ca9c7954d0dc9ab2f22e0e750fa2b62e2ba789102f837c17abcd6742",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-D8E6CD5620DE",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "483304e42ea8d1bd54938eba411ada590e64017a4fb7ada79bc9a9e9295a9eff",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-1EBBF6EA4A2A",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "eaabf6ad4d54ca66337b5cff35ef9efe4e20b7adea0f3572a21409bdf492fe6d",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-3065B333B34D",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "d4b4e4f93546270d09520a1d55f84fdbdc1d47006f55fc9eaefc4dcdd2b3a3d7",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-097BEBD11879",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "0ee73e625bf945adbc63ea61a35398c94febc7e5e01585d79af7e62dcc113b46",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-1786C26A3F8E",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "e17170dc5136f2de95e4b97ff581abe68492da059aa897c4c6bfa2993ceb5572",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-4B5E17A01A07",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "e078b7f2a829fc998bd98b4a2b085c2480ee767ac859808949191b58f8d07efd",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-97CDEAF55414",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "75767c683f7f9c8e06ee38525ead8fd627fed331eee889468bcd9266da25e5af",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-BD24CAF20EE4",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "b1072b0f34868a567e03f878d41962427be4abc45c09f367e2cf84ab220b2a2a",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-D27635E715E7",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "1667cabebf2a8505751212fa40a75da539a94c2b8856a7a8b8dc2853233af517",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-30C5B38CC14E",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "44de72a040a8c5dfa875048c621377d5e3c3585be530355bae0b5d8ac6da57ac",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-4A980199C01A",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "ff84ebe8977f06c2f36208a78d2fd48aae119bf1b58b50642471abfa326f3de2",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-BD1BC21539B2",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "3e0a1db620e442c5422647b81a9efb09d47791ee7a5d7d0ae41f074b583569e3",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-F9B86363669D",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "82c32da4254d21668fe6db0519d7fe0680df32ca343790db5ead8c9fafac6b08",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-4CB30CD54EDE",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "50605af4a276f0bef1ca73f5594fa36cae2e0ff15ae83990ee19bdc8fb37b568",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-6C55756B4F00",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "5689ac3085e3c46c77309b838acc17e655764bc3dbcfb22179382854de7e5c6c",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-01B76C79F23C",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "a5061b1eb176318cbcfc37a8e04cf6c25b15a261a28ef370fae989335a3d13fc",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-13D8A951FDA7",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "a4e6ef398443e70ff99263b2d7b1297b1bdf5b8cc5dcb57c5b727997ee7def68",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-40E308B0406F",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "c3778e61d160fe5ebbf59689a4a105caa31c2798ea292baee5fc27b8ca10dc5b",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-4FBF1FE6AC13",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "5d5937020fa78faeaad8f062552cd102b8d5d3aac1a0dfe3983dba2f94d92431",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-2925FCACB9BE",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "19f7b4e2ca199ee11d2142d59d49c91843aedb993924d99a474a804af511e7cd",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-732EB7DA9DDB",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "7374003c48079d1fe244508a40f1c6af58f0b280feb3b1305ee91cf62b059db9",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-DD0F8069AD66",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "635bedf585a2db42b9e9679e4a5377b1bbbcabc13c233f9f36f42743119308df",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-E5F0AA1801C9",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "958f4a6c280ccbc5e8b32a0ffc08920b93c5dd211bc5122487d74a273218a3bc",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    },
+    {
+      "historical_key": "legacy:REL-09204FA1AD53",
+      "prior_component": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "prior_row_sha256": "f8c716bcf683579af33e482440a5b56f360b897d91c78e99bf09acef941285bd",
+      "original_record_equality_verified": true,
+      "disposition": "Reuse exact already inspected original operator and endpoint meanings; no duplicate review or final-value approval claimed."
+    }
+  ],
+  "source_pages_reinspected_this_component": [
+    116,
+    117,
+    123,
+    124,
+    126,
+    131,
+    134,
+    138,
+    142,
+    143,
+    148,
+    151,
+    153
+  ],
+  "prior_source_inspection_reused": "Earlier whole-record and source review for 300/305, source-backed current task owners, and exact 27-key lead historical closure; current target parent/task values inspected here.",
+  "subjects": [
+    {
+      "label": "Flight to Varennes: royal rejection and domestic and European consequences",
+      "priority": "essential",
+      "meaning": "The attempted escape of the royal family toward the frontier failed through delays, recognition and local action. It exposed the king’s rejection of the revolutionary settlement, divided constitutional and republican opinion, accelerated officer emigration, and changed foreign calculations. Expectations of Austrian invasion after the flight produced nationwide National Guard mobilization, permanent vigilance committees and renewed persecution of refractory priests and congregations suspected of collusion with aristocrats and foreigners.",
+      "stance": "Varennes was a major turning point, but LouisXVI’s precise intended political endgame remains uncertain: his declared aim of negotiation at the frontier does not prove either a merely benign negotiation or a settled foreign-backed reconquest plan. Preserve the royal operation’s independence from émigré control and distinguish domestic consequences from foreign rulers’ still-conditional response.",
+      "subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "acceptable_access": [
+        "Varennes, flight to",
+        "Louis XVI—flight to Varennes",
+        "Royal flight, June 1791",
+        "flight to Varennes",
+        "Varennes, 1791",
+        "royal family—attempted escape",
+        "Louis XVI—flight",
+        "Flight to Varennes",
+        "Flight to Varennes—impact on European monarchs and governments",
+        "Varennes, flight to—European reaction",
+        "European monarchs—response to Louis XVI's humiliation",
+        "Flight to Varennes—European reaction",
+        "Varennes—monarchical alarm",
+        "Louis XVI—foreign response to humiliation",
+        "European monarchs—fear of French Revolution",
+        "Varennes",
+        "Flight to Varennes--counter-revolutionary consequences",
+        "Louis XVI--flight",
+        "Louis XVI--hesitation and rescue plans",
+        "King and émigrés--independent strategy",
+        "Varennes—nationwide emergency and vigilance",
+        "Refractory clergy—persecution after Varennes"
+      ],
+      "evidence": [
+        {
+          "document_page": 147,
+          "source_page_label": "147",
+          "locator_class": "supporting",
+          "evidence_summary": "By late 1790 the king was considering escape and viewed Bouillé as a potentially reliable military supporter.",
+          "evidence_id": "EVID-SUCC-87BA01EFDA5F",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 148,
+          "source_page_label": "148",
+          "locator_class": "principal",
+          "evidence_summary": "The obstruction of the Saint-Cloud journey convinced the king that he was a prisoner and accelerated concrete plans to leave.",
+          "evidence_id": "EVID-SUCC-89DFA0D0C6FA",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Fersen and Bouillé organized the route toward Montmédy; delays and local vigilance led to recognition and interception at Varennes.",
+          "evidence_id": "EVID-SUCC-ECE86BE3C88F",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Fersen arranged the route and Bouillé the escorts toward Montmédy; delays and suspicious troop movements undermined secrecy.",
+          "evidence_id": "EVID-SUCC-429881BF79DA",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Recognition at Sainte-Ménehould and Drouet’s warning enabled Varennes to stop the royal party before military rescue.",
+          "evidence_id": "EVID-SUCC-5EB7BB2AC0DD",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "principal",
+          "evidence_summary": "The king's manifesto denounced the revolutionary settlement and made his continued role as head of state politically problematic.",
+          "evidence_id": "EVID-SUCC-4948D5F5E6B0",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "principal",
+          "evidence_summary": "The failure postponed immediate war but made the monarch’s repudiation of the Revolution impossible to ignore.",
+          "evidence_id": "EVID-SUCC-E8E163BA5286",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Like the clerical oath, Varennes is judged a turning point because it compelled political choices most actors had avoided.",
+          "evidence_id": "EVID-SUCC-809C79A79E6D",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 157,
+          "source_page_label": "157",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The June flight made later claims of sincere constitutional acceptance implausible and deepened the monarchist-republican split.",
+          "evidence_id": "EVID-SUCC-D59126825A02",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "supporting",
+          "evidence_summary": "Varennes drove new émigrés to the Rhineland and intensified preparations for war.",
+          "evidence_id": "EVID-SUCC-BBEC2E82E2A8",
+          "source_local_subject_id": "SUCC-C007-S032",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Varennes and the king's indignities did more than intellectual debate to convince monarchs of the dangerous potency of French principles.",
+          "evidence_id": "EVID-SUCC-CCD0268D95EC",
+          "source_local_subject_id": "SUCC-C007-S032",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 299,
+          "source_page_label": "299",
+          "locator_class": "principal",
+          "evidence_summary": "After Favras’s failure the king publicly endorsed the constitution but privately accepted counsel while postponing action.",
+          "evidence_id": "EVID-SUCC-6712E09D1DB6",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "principal",
+          "evidence_summary": "Louis XVI rejected the Lyon abduction plan as too risky while maintaining an independently directed escape project.",
+          "evidence_id": "EVID-SUCC-45969B56B067",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 301,
+          "source_page_label": "301",
+          "locator_class": "principal",
+          "evidence_summary": "Explains how the flight revealed the king's repudiation of the Revolution, strengthened republicanism, and accelerated military emigration.",
+          "evidence_id": "EVID-SUCC-FD4965DF82F0",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Links Varennes directly to émigré militarization and the first serious great-power consideration of intervention.",
+          "evidence_id": "EVID-SUCC-C07B0A25195F",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "evidence_id": "EVID-ISR-VARENNES-153-EMERGENCY",
+          "document_page": 153,
+          "source_page_label": "153",
+          "locator_class": "principal",
+          "evidence_summary": "News of Varennes generated nationwide expectations of Austrian intervention, Guard mobilization, permanent vigilance committees and renewed attacks on refractories and their congregations. The text then distinguishes the clubs’ crowded meetings and divided response.",
+          "source_chunk_id": "CHUNK-006",
+          "source_local_subject_id": "SUCC-C006-S005"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-006",
+        "CHUNK-007",
+        "CHUNK-013"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C006-S005",
+          "label": "Flight to Varennes",
+          "meaning": "The royal family's attempted flight in June 1791, its organization and interception, and the political crisis produced by the king's repudiation of the Revolution. Expectations of Austrian invasion after the flight produced nationwide National Guard mobilization, permanent vigilance committees and renewed persecution of refractory priests and congregations suspected of collusion with aristocrats and foreigners.",
+          "stance": "Varennes was the chapter's second great turning point; Louis XVI's precise intended endgame remains uncertain, but his manifesto fundamentally challenged the revolutionary settlement.",
+          "acceptable_access": [
+            "Varennes, flight to",
+            "Louis XVI—flight to Varennes",
+            "Royal flight, June 1791",
+            "flight to Varennes",
+            "Varennes, 1791",
+            "royal family—attempted escape",
+            "Louis XVI—flight",
+            "Flight to Varennes",
+            "Varennes—nationwide emergency and vigilance",
+            "Refractory clergy—persecution after Varennes"
+          ],
+          "document_pages": [
+            147,
+            148,
+            151,
+            152,
+            153,
+            157
+          ]
+        },
+        {
+          "local_subject_id": "SUCC-C007-S032",
+          "label": "Flight to Varennes—impact on European monarchs and governments",
+          "meaning": "Louis XVI's failed flight and subsequent humiliation transformed foreign rulers' perception of revolutionary danger.",
+          "stance": "Their alarm was exaggerated in hindsight but understandable given the apparent destruction of Europe's most prestigious monarchy.",
+          "acceptable_access": [
+            "Flight to Varennes—impact on European monarchs and governments",
+            "Varennes, flight to—European reaction",
+            "European monarchs—response to Louis XVI's humiliation",
+            "Flight to Varennes—European reaction",
+            "Varennes—monarchical alarm",
+            "Louis XVI—foreign response to humiliation",
+            "European monarchs—fear of French Revolution"
+          ],
+          "document_pages": [
+            171,
+            172
+          ]
+        },
+        {
+          "local_subject_id": "SUCC-C013-S013",
+          "label": "Louis XVI’s escape strategy and Varennes consequences",
+          "meaning": "The king balanced public constitutional avowals with private escape schemes, refusing some royalist plans and setting Varennes timing independently. The failed flight exposed his repudiation of the Revolution and changed republican opinion, officer emigration, and foreign diplomacy.",
+          "stance": "Varennes transformed counter-revolutionary prospects by exposing Louis XVI's rejection of the Revolution, accelerating officer emigration, and prompting greater foreign attention despite the escape's failure.",
+          "acceptable_access": [
+            "Varennes",
+            "Flight to Varennes--counter-revolutionary consequences",
+            "Louis XVI--flight",
+            "Louis XVI--hesitation and rescue plans",
+            "King and émigrés--independent strategy"
+          ],
+          "document_pages": [
+            299,
+            300,
+            301,
+            302
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C006-S005",
+        "SUCC-C007-S032",
+        "SUCC-C013-S013"
+      ],
+      "editorial_rationale": "These are repeated phases or perspectives on the same named requirement. Preserve every distinct source treatment and locator within one weighted unit; do not count chapter repetition as independent importance.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C006-S005",
+          "label": "Flight to Varennes",
+          "meaning": "The royal family's attempted flight in June 1791, its organization and interception, and the political crisis produced by the king's repudiation of the Revolution. Expectations of Austrian invasion after the flight produced nationwide National Guard mobilization, permanent vigilance committees and renewed persecution of refractory priests and congregations suspected of collusion with aristocrats and foreigners.",
+          "stance": "Varennes was the chapter's second great turning point; Louis XVI's precise intended endgame remains uncertain, but his manifesto fundamentally challenged the revolutionary settlement.",
+          "acceptable_access": [
+            "Varennes, flight to",
+            "Louis XVI—flight to Varennes",
+            "Royal flight, June 1791",
+            "flight to Varennes",
+            "Varennes, 1791",
+            "royal family—attempted escape",
+            "Louis XVI—flight",
+            "Flight to Varennes",
+            "Varennes—nationwide emergency and vigilance",
+            "Refractory clergy—persecution after Varennes"
+          ],
+          "document_pages": [
+            147,
+            148,
+            151,
+            152,
+            153,
+            157
+          ],
+          "independently_weighted": false
+        },
+        {
+          "facet_id": "FACET-SUCC-C007-S032",
+          "label": "Flight to Varennes—impact on European monarchs and governments",
+          "meaning": "Louis XVI's failed flight and subsequent humiliation transformed foreign rulers' perception of revolutionary danger.",
+          "stance": "Their alarm was exaggerated in hindsight but understandable given the apparent destruction of Europe's most prestigious monarchy.",
+          "acceptable_access": [
+            "Flight to Varennes—impact on European monarchs and governments",
+            "Varennes, flight to—European reaction",
+            "European monarchs—response to Louis XVI's humiliation",
+            "Flight to Varennes—European reaction",
+            "Varennes—monarchical alarm",
+            "Louis XVI—foreign response to humiliation",
+            "European monarchs—fear of French Revolution"
+          ],
+          "document_pages": [
+            171,
+            172
+          ],
+          "independently_weighted": false
+        },
+        {
+          "facet_id": "FACET-SUCC-C013-S013",
+          "label": "Louis XVI’s escape strategy and Varennes consequences",
+          "meaning": "The king balanced public constitutional avowals with private escape schemes, refusing some royalist plans and setting Varennes timing independently. The failed flight exposed his repudiation of the Revolution and changed republican opinion, officer emigration, and foreign diplomacy.",
+          "stance": "Varennes transformed counter-revolutionary prospects by exposing Louis XVI's rejection of the Revolution, accelerating officer emigration, and prompting greater foreign attention despite the escape's failure.",
+          "acceptable_access": [
+            "Varennes",
+            "Flight to Varennes--counter-revolutionary consequences",
+            "Louis XVI--flight",
+            "Louis XVI--hesitation and rescue plans",
+            "King and émigrés--independent strategy"
+          ],
+          "document_pages": [
+            299,
+            300,
+            301,
+            302
+          ],
+          "independently_weighted": false
+        }
+      ],
+      "retained_source_distinctions": [
+        {
+          "source_local_subject_id": "CHUNK-006-SUBJ-042",
+          "meaning": "Louis XVI and his family attempted to leave Paris for the eastern frontier under arrangements made through Fersen and Bouillé, but delays, public suspicion, and recognition led to their arrest at Varennes.",
+          "qualification": "The author identifies Varennes as the Revolution’s second great turning point, exposing the king’s rejection of the settlement and forcing choices over monarchy, republicanism, and war.",
+          "source_pages": [
+            151,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Jalès camps and Catholic Army of the Midi",
+      "priority": "optional",
+      "meaning": "A patriotic National Guard federation at Jalès in 1790 was redirected by defeated Nîmes Catholic leaders against Protestant civic dominance. Its continuing committee planned further camps and coordination with the Count d’Artois’s agents. The camps inspired hopes of Catholic royalist strength in southern France, but the July 1792 attempt attracted only a few hundred and was crushed.",
+      "stance": "Distinguish the original federation, its redirection into Catholic insurrection and its émigré coordination from the later, poorly supported armed attempt. Large first-camp numbers did not prove equivalent reserves available for a royalist rising.",
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "acceptable_access": [
+        "Jalès camps",
+        "Catholic Army of the Midi",
+        "Midi--counter-revolution",
+        "Jalès—Catholic insurrection",
+        "Artois—Jalès coordination",
+        "Midi—religious and royalist mobilization"
+      ],
+      "evidence": [
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "supporting",
+          "evidence_summary": "Reports the 20,000 armed men at the first Jalès camp and the hopes it generated for southern royalism.",
+          "evidence_id": "EVID-SUCC-3E6745A6FEC4",
+          "source_local_subject_id": "SUCC-C013-S040",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 305,
+          "source_page_label": "305",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Froment's princely backing and the poorly supported, quickly suppressed July 1792 rising.",
+          "evidence_id": "EVID-SUCC-4C2711D535EC",
+          "source_local_subject_id": "SUCC-C013-S040",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "evidence_id": "EVID-ISR-JALES-143-COMMITTEE",
+          "document_page": 143,
+          "source_page_label": "143",
+          "locator_class": "principal",
+          "evidence_summary": "Catholic leaders redirected the initially patriotic Jalès federation into an insurrection against Protestant control; after dispersal a committee planned further camps and coordination with agents of Artois. The movement galvanized southern Jacobin clubs.",
+          "source_chunk_id": "CHUNK-006",
+          "source_local_subject_id": "IR-C006-JALES-143"
+        }
+      ],
+      "chapter_provenance": [
+        "CHUNK-006",
+        "CHUNK-013"
+      ],
+      "source_treatments": [
+        {
+          "local_subject_id": "SUCC-C013-S040",
+          "label": "Jalès camps and Catholic Army of the Midi",
+          "meaning": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+          "stance": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+          "acceptable_access": [
+            "Jalès camps",
+            "Catholic Army of the Midi",
+            "Midi--counter-revolution"
+          ],
+          "document_pages": [
+            300,
+            305
+          ]
+        },
+        {
+          "local_subject_id": "IR-C006-JALES-143",
+          "label": "Jalès federation, religious conflict and émigré coordination",
+          "meaning": "An initially patriotic Guard federation was redirected by Nîmes Catholic leaders into insurrection against Protestant dominance. A continuing committee planned further camps and coordination with Artois’s agents.",
+          "stance": "The movement arose from local confessional and civic conflict; its subsequent royalist organization and foreign contacts should not be projected onto the original federation.",
+          "acceptable_access": [
+            "Jalès—Catholic insurrection",
+            "Artois—Jalès coordination",
+            "Midi—religious and royalist mobilization"
+          ],
+          "document_pages": [
+            143
+          ]
+        }
+      ],
+      "source_local_subject_ids": [
+        "SUCC-C013-S040",
+        "IR-C006-JALES-143"
+      ],
+      "editorial_rationale": "The same named camps have distinct 1790 organizational and 1792 military treatments; the independent repair preserves both within one optional weighted requirement.",
+      "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "required_access_facets": [
+        {
+          "facet_id": "FACET-SUCC-C013-S040",
+          "label": "Jalès camps and Catholic Army of the Midi",
+          "meaning": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+          "stance": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+          "acceptable_access": [
+            "Jalès camps",
+            "Catholic Army of the Midi",
+            "Midi--counter-revolution"
+          ],
+          "document_pages": [
+            300,
+            305
+          ],
+          "independently_weighted": false
+        },
+        {
+          "label": "Jalès federation, religious conflict and émigré coordination",
+          "meaning": "An initially patriotic Guard federation was redirected by Nîmes Catholic leaders into insurrection against Protestant dominance. A continuing committee planned further camps and coordination with Artois’s agents.",
+          "stance": "The movement arose from local confessional and civic conflict; its subsequent royalist organization and foreign contacts should not be projected onto the original federation.",
+          "acceptable_access": [
+            "Jalès—Catholic insurrection",
+            "Artois—Jalès coordination",
+            "Midi—religious and royalist mobilization"
+          ],
+          "document_pages": [
+            143
+          ],
+          "facet_id": "FACET-ISR-JALES-143",
+          "independently_weighted": false
+        }
+      ]
+    }
+  ],
+  "field_diffs": [
+    {
+      "subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "field": "acceptable_access",
+      "before": [
+        "Varennes, flight to",
+        "Louis XVI—flight to Varennes",
+        "Royal flight, June 1791",
+        "flight to Varennes",
+        "Varennes, 1791",
+        "royal family—attempted escape",
+        "Louis XVI—flight",
+        "Flight to Varennes",
+        "Flight to Varennes—impact on European monarchs and governments",
+        "Varennes, flight to—European reaction",
+        "European monarchs—response to Louis XVI's humiliation",
+        "Flight to Varennes—European reaction",
+        "Varennes—monarchical alarm",
+        "Louis XVI—foreign response to humiliation",
+        "European monarchs—fear of French Revolution",
+        "Varennes",
+        "Flight to Varennes--counter-revolutionary consequences",
+        "Louis XVI--flight",
+        "Louis XVI--hesitation and rescue plans",
+        "King and émigrés--independent strategy"
+      ],
+      "after": [
+        "Varennes, flight to",
+        "Louis XVI—flight to Varennes",
+        "Royal flight, June 1791",
+        "flight to Varennes",
+        "Varennes, 1791",
+        "royal family—attempted escape",
+        "Louis XVI—flight",
+        "Flight to Varennes",
+        "Flight to Varennes—impact on European monarchs and governments",
+        "Varennes, flight to—European reaction",
+        "European monarchs—response to Louis XVI's humiliation",
+        "Flight to Varennes—European reaction",
+        "Varennes—monarchical alarm",
+        "Louis XVI—foreign response to humiliation",
+        "European monarchs—fear of French Revolution",
+        "Varennes",
+        "Flight to Varennes--counter-revolutionary consequences",
+        "Louis XVI--flight",
+        "Louis XVI--hesitation and rescue plans",
+        "King and émigrés--independent strategy",
+        "Varennes—nationwide emergency and vigilance",
+        "Refractory clergy—persecution after Varennes"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 147,
+          "source_page_label": "147",
+          "locator_class": "supporting",
+          "evidence_summary": "By late 1790 the king was considering escape and viewed Bouillé as a potentially reliable military supporter.",
+          "evidence_id": "EVID-SUCC-87BA01EFDA5F",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 148,
+          "source_page_label": "148",
+          "locator_class": "principal",
+          "evidence_summary": "The obstruction of the Saint-Cloud journey convinced the king that he was a prisoner and accelerated concrete plans to leave.",
+          "evidence_id": "EVID-SUCC-89DFA0D0C6FA",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Fersen and Bouillé organized the route toward Montmédy; delays and local vigilance led to recognition and interception at Varennes.",
+          "evidence_id": "EVID-SUCC-ECE86BE3C88F",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Fersen arranged the route and Bouillé the escorts toward Montmédy; delays and suspicious troop movements undermined secrecy.",
+          "evidence_id": "EVID-SUCC-429881BF79DA",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Recognition at Sainte-Ménehould and Drouet’s warning enabled Varennes to stop the royal party before military rescue.",
+          "evidence_id": "EVID-SUCC-5EB7BB2AC0DD",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "principal",
+          "evidence_summary": "The king's manifesto denounced the revolutionary settlement and made his continued role as head of state politically problematic.",
+          "evidence_id": "EVID-SUCC-4948D5F5E6B0",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "principal",
+          "evidence_summary": "The failure postponed immediate war but made the monarch’s repudiation of the Revolution impossible to ignore.",
+          "evidence_id": "EVID-SUCC-E8E163BA5286",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Like the clerical oath, Varennes is judged a turning point because it compelled political choices most actors had avoided.",
+          "evidence_id": "EVID-SUCC-809C79A79E6D",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 157,
+          "source_page_label": "157",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The June flight made later claims of sincere constitutional acceptance implausible and deepened the monarchist-republican split.",
+          "evidence_id": "EVID-SUCC-D59126825A02",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "supporting",
+          "evidence_summary": "Varennes drove new émigrés to the Rhineland and intensified preparations for war.",
+          "evidence_id": "EVID-SUCC-BBEC2E82E2A8",
+          "source_local_subject_id": "SUCC-C007-S032",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Varennes and the king's indignities did more than intellectual debate to convince monarchs of the dangerous potency of French principles.",
+          "evidence_id": "EVID-SUCC-CCD0268D95EC",
+          "source_local_subject_id": "SUCC-C007-S032",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 299,
+          "source_page_label": "299",
+          "locator_class": "principal",
+          "evidence_summary": "After Favras’s failure the king publicly endorsed the constitution but privately accepted counsel while postponing action.",
+          "evidence_id": "EVID-SUCC-6712E09D1DB6",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "principal",
+          "evidence_summary": "Louis XVI rejected the Lyon abduction plan as too risky while maintaining an independently directed escape project.",
+          "evidence_id": "EVID-SUCC-45969B56B067",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 301,
+          "source_page_label": "301",
+          "locator_class": "principal",
+          "evidence_summary": "Explains how the flight revealed the king's repudiation of the Revolution, strengthened republicanism, and accelerated military emigration.",
+          "evidence_id": "EVID-SUCC-FD4965DF82F0",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Links Varennes directly to émigré militarization and the first serious great-power consideration of intervention.",
+          "evidence_id": "EVID-SUCC-C07B0A25195F",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 147,
+          "source_page_label": "147",
+          "locator_class": "supporting",
+          "evidence_summary": "By late 1790 the king was considering escape and viewed Bouillé as a potentially reliable military supporter.",
+          "evidence_id": "EVID-SUCC-87BA01EFDA5F",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 148,
+          "source_page_label": "148",
+          "locator_class": "principal",
+          "evidence_summary": "The obstruction of the Saint-Cloud journey convinced the king that he was a prisoner and accelerated concrete plans to leave.",
+          "evidence_id": "EVID-SUCC-89DFA0D0C6FA",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Fersen and Bouillé organized the route toward Montmédy; delays and local vigilance led to recognition and interception at Varennes.",
+          "evidence_id": "EVID-SUCC-ECE86BE3C88F",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Fersen arranged the route and Bouillé the escorts toward Montmédy; delays and suspicious troop movements undermined secrecy.",
+          "evidence_id": "EVID-SUCC-429881BF79DA",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 151,
+          "source_page_label": "151",
+          "locator_class": "principal",
+          "evidence_summary": "Recognition at Sainte-Ménehould and Drouet’s warning enabled Varennes to stop the royal party before military rescue.",
+          "evidence_id": "EVID-SUCC-5EB7BB2AC0DD",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "principal",
+          "evidence_summary": "The king's manifesto denounced the revolutionary settlement and made his continued role as head of state politically problematic.",
+          "evidence_id": "EVID-SUCC-4948D5F5E6B0",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "principal",
+          "evidence_summary": "The failure postponed immediate war but made the monarch’s repudiation of the Revolution impossible to ignore.",
+          "evidence_id": "EVID-SUCC-E8E163BA5286",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 152,
+          "source_page_label": "152",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Like the clerical oath, Varennes is judged a turning point because it compelled political choices most actors had avoided.",
+          "evidence_id": "EVID-SUCC-809C79A79E6D",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 157,
+          "source_page_label": "157",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The June flight made later claims of sincere constitutional acceptance implausible and deepened the monarchist-republican split.",
+          "evidence_id": "EVID-SUCC-D59126825A02",
+          "source_local_subject_id": "SUCC-C006-S005",
+          "source_chunk_id": "CHUNK-006"
+        },
+        {
+          "document_page": 171,
+          "source_page_label": "171",
+          "locator_class": "supporting",
+          "evidence_summary": "Varennes drove new émigrés to the Rhineland and intensified preparations for war.",
+          "evidence_id": "EVID-SUCC-BBEC2E82E2A8",
+          "source_local_subject_id": "SUCC-C007-S032",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 172,
+          "source_page_label": "172",
+          "locator_class": "principal",
+          "evidence_summary": "Varennes and the king's indignities did more than intellectual debate to convince monarchs of the dangerous potency of French principles.",
+          "evidence_id": "EVID-SUCC-CCD0268D95EC",
+          "source_local_subject_id": "SUCC-C007-S032",
+          "source_chunk_id": "CHUNK-007"
+        },
+        {
+          "document_page": 299,
+          "source_page_label": "299",
+          "locator_class": "principal",
+          "evidence_summary": "After Favras’s failure the king publicly endorsed the constitution but privately accepted counsel while postponing action.",
+          "evidence_id": "EVID-SUCC-6712E09D1DB6",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "principal",
+          "evidence_summary": "Louis XVI rejected the Lyon abduction plan as too risky while maintaining an independently directed escape project.",
+          "evidence_id": "EVID-SUCC-45969B56B067",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 301,
+          "source_page_label": "301",
+          "locator_class": "principal",
+          "evidence_summary": "Explains how the flight revealed the king's repudiation of the Revolution, strengthened republicanism, and accelerated military emigration.",
+          "evidence_id": "EVID-SUCC-FD4965DF82F0",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Links Varennes directly to émigré militarization and the first serious great-power consideration of intervention.",
+          "evidence_id": "EVID-SUCC-C07B0A25195F",
+          "source_local_subject_id": "SUCC-C013-S013",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "evidence_id": "EVID-ISR-VARENNES-153-EMERGENCY",
+          "document_page": 153,
+          "source_page_label": "153",
+          "locator_class": "principal",
+          "evidence_summary": "News of Varennes generated nationwide expectations of Austrian intervention, Guard mobilization, permanent vigilance committees and renewed attacks on refractories and their congregations. The text then distinguishes the clubs’ crowded meetings and divided response.",
+          "source_chunk_id": "CHUNK-006",
+          "source_local_subject_id": "SUCC-C006-S005"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "field": "meaning",
+      "before": "The attempted escape of the royal family toward the frontier failed through delays, recognition and local action. It exposed the king’s rejection of the revolutionary settlement, divided constitutional and republican opinion, accelerated officer emigration, and changed foreign calculations.",
+      "after": "The attempted escape of the royal family toward the frontier failed through delays, recognition and local action. It exposed the king’s rejection of the revolutionary settlement, divided constitutional and republican opinion, accelerated officer emigration, and changed foreign calculations. Expectations of Austrian invasion after the flight produced nationwide National Guard mobilization, permanent vigilance committees and renewed persecution of refractory priests and congregations suspected of collusion with aristocrats and foreigners."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "field": "required_access_facets",
+      "before": [
+        {
+          "facet_id": "FACET-SUCC-C006-S005",
+          "label": "Flight to Varennes",
+          "meaning": "The royal family's attempted flight in June 1791, its organization and interception, and the political crisis produced by the king's repudiation of the Revolution.",
+          "stance": "Varennes was the chapter's second great turning point; Louis XVI's precise intended endgame remains uncertain, but his manifesto fundamentally challenged the revolutionary settlement.",
+          "acceptable_access": [
+            "Varennes, flight to",
+            "Louis XVI—flight to Varennes",
+            "Royal flight, June 1791",
+            "flight to Varennes",
+            "Varennes, 1791",
+            "royal family—attempted escape",
+            "Louis XVI—flight",
+            "Flight to Varennes"
+          ],
+          "document_pages": [
+            147,
+            148,
+            151,
+            152,
+            157
+          ],
+          "independently_weighted": false
+        },
+        {
+          "facet_id": "FACET-SUCC-C007-S032",
+          "label": "Flight to Varennes—impact on European monarchs and governments",
+          "meaning": "Louis XVI's failed flight and subsequent humiliation transformed foreign rulers' perception of revolutionary danger.",
+          "stance": "Their alarm was exaggerated in hindsight but understandable given the apparent destruction of Europe's most prestigious monarchy.",
+          "acceptable_access": [
+            "Flight to Varennes—impact on European monarchs and governments",
+            "Varennes, flight to—European reaction",
+            "European monarchs—response to Louis XVI's humiliation",
+            "Flight to Varennes—European reaction",
+            "Varennes—monarchical alarm",
+            "Louis XVI—foreign response to humiliation",
+            "European monarchs—fear of French Revolution"
+          ],
+          "document_pages": [
+            171,
+            172
+          ],
+          "independently_weighted": false
+        },
+        {
+          "facet_id": "FACET-SUCC-C013-S013",
+          "label": "Louis XVI’s escape strategy and Varennes consequences",
+          "meaning": "The king balanced public constitutional avowals with private escape schemes, refusing some royalist plans and setting Varennes timing independently. The failed flight exposed his repudiation of the Revolution and changed republican opinion, officer emigration, and foreign diplomacy.",
+          "stance": "Varennes transformed counter-revolutionary prospects by exposing Louis XVI's rejection of the Revolution, accelerating officer emigration, and prompting greater foreign attention despite the escape's failure.",
+          "acceptable_access": [
+            "Varennes",
+            "Flight to Varennes--counter-revolutionary consequences",
+            "Louis XVI--flight",
+            "Louis XVI--hesitation and rescue plans",
+            "King and émigrés--independent strategy"
+          ],
+          "document_pages": [
+            299,
+            300,
+            301,
+            302
+          ],
+          "independently_weighted": false
+        }
+      ],
+      "after": [
+        {
+          "facet_id": "FACET-SUCC-C006-S005",
+          "label": "Flight to Varennes",
+          "meaning": "The royal family's attempted flight in June 1791, its organization and interception, and the political crisis produced by the king's repudiation of the Revolution. Expectations of Austrian invasion after the flight produced nationwide National Guard mobilization, permanent vigilance committees and renewed persecution of refractory priests and congregations suspected of collusion with aristocrats and foreigners.",
+          "stance": "Varennes was the chapter's second great turning point; Louis XVI's precise intended endgame remains uncertain, but his manifesto fundamentally challenged the revolutionary settlement.",
+          "acceptable_access": [
+            "Varennes, flight to",
+            "Louis XVI—flight to Varennes",
+            "Royal flight, June 1791",
+            "flight to Varennes",
+            "Varennes, 1791",
+            "royal family—attempted escape",
+            "Louis XVI—flight",
+            "Flight to Varennes",
+            "Varennes—nationwide emergency and vigilance",
+            "Refractory clergy—persecution after Varennes"
+          ],
+          "document_pages": [
+            147,
+            148,
+            151,
+            152,
+            153,
+            157
+          ],
+          "independently_weighted": false
+        },
+        {
+          "facet_id": "FACET-SUCC-C007-S032",
+          "label": "Flight to Varennes—impact on European monarchs and governments",
+          "meaning": "Louis XVI's failed flight and subsequent humiliation transformed foreign rulers' perception of revolutionary danger.",
+          "stance": "Their alarm was exaggerated in hindsight but understandable given the apparent destruction of Europe's most prestigious monarchy.",
+          "acceptable_access": [
+            "Flight to Varennes—impact on European monarchs and governments",
+            "Varennes, flight to—European reaction",
+            "European monarchs—response to Louis XVI's humiliation",
+            "Flight to Varennes—European reaction",
+            "Varennes—monarchical alarm",
+            "Louis XVI—foreign response to humiliation",
+            "European monarchs—fear of French Revolution"
+          ],
+          "document_pages": [
+            171,
+            172
+          ],
+          "independently_weighted": false
+        },
+        {
+          "facet_id": "FACET-SUCC-C013-S013",
+          "label": "Louis XVI’s escape strategy and Varennes consequences",
+          "meaning": "The king balanced public constitutional avowals with private escape schemes, refusing some royalist plans and setting Varennes timing independently. The failed flight exposed his repudiation of the Revolution and changed republican opinion, officer emigration, and foreign diplomacy.",
+          "stance": "Varennes transformed counter-revolutionary prospects by exposing Louis XVI's rejection of the Revolution, accelerating officer emigration, and prompting greater foreign attention despite the escape's failure.",
+          "acceptable_access": [
+            "Varennes",
+            "Flight to Varennes--counter-revolutionary consequences",
+            "Louis XVI--flight",
+            "Louis XVI--hesitation and rescue plans",
+            "King and émigrés--independent strategy"
+          ],
+          "document_pages": [
+            299,
+            300,
+            301,
+            302
+          ],
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "field": "source_treatments",
+      "before": [
+        {
+          "local_subject_id": "SUCC-C006-S005",
+          "label": "Flight to Varennes",
+          "meaning": "The royal family's attempted flight in June 1791, its organization and interception, and the political crisis produced by the king's repudiation of the Revolution.",
+          "stance": "Varennes was the chapter's second great turning point; Louis XVI's precise intended endgame remains uncertain, but his manifesto fundamentally challenged the revolutionary settlement.",
+          "acceptable_access": [
+            "Varennes, flight to",
+            "Louis XVI—flight to Varennes",
+            "Royal flight, June 1791",
+            "flight to Varennes",
+            "Varennes, 1791",
+            "royal family—attempted escape",
+            "Louis XVI—flight",
+            "Flight to Varennes"
+          ],
+          "document_pages": [
+            147,
+            148,
+            151,
+            152,
+            157
+          ]
+        },
+        {
+          "local_subject_id": "SUCC-C007-S032",
+          "label": "Flight to Varennes—impact on European monarchs and governments",
+          "meaning": "Louis XVI's failed flight and subsequent humiliation transformed foreign rulers' perception of revolutionary danger.",
+          "stance": "Their alarm was exaggerated in hindsight but understandable given the apparent destruction of Europe's most prestigious monarchy.",
+          "acceptable_access": [
+            "Flight to Varennes—impact on European monarchs and governments",
+            "Varennes, flight to—European reaction",
+            "European monarchs—response to Louis XVI's humiliation",
+            "Flight to Varennes—European reaction",
+            "Varennes—monarchical alarm",
+            "Louis XVI—foreign response to humiliation",
+            "European monarchs—fear of French Revolution"
+          ],
+          "document_pages": [
+            171,
+            172
+          ]
+        },
+        {
+          "local_subject_id": "SUCC-C013-S013",
+          "label": "Louis XVI’s escape strategy and Varennes consequences",
+          "meaning": "The king balanced public constitutional avowals with private escape schemes, refusing some royalist plans and setting Varennes timing independently. The failed flight exposed his repudiation of the Revolution and changed republican opinion, officer emigration, and foreign diplomacy.",
+          "stance": "Varennes transformed counter-revolutionary prospects by exposing Louis XVI's rejection of the Revolution, accelerating officer emigration, and prompting greater foreign attention despite the escape's failure.",
+          "acceptable_access": [
+            "Varennes",
+            "Flight to Varennes--counter-revolutionary consequences",
+            "Louis XVI--flight",
+            "Louis XVI--hesitation and rescue plans",
+            "King and émigrés--independent strategy"
+          ],
+          "document_pages": [
+            299,
+            300,
+            301,
+            302
+          ]
+        }
+      ],
+      "after": [
+        {
+          "local_subject_id": "SUCC-C006-S005",
+          "label": "Flight to Varennes",
+          "meaning": "The royal family's attempted flight in June 1791, its organization and interception, and the political crisis produced by the king's repudiation of the Revolution. Expectations of Austrian invasion after the flight produced nationwide National Guard mobilization, permanent vigilance committees and renewed persecution of refractory priests and congregations suspected of collusion with aristocrats and foreigners.",
+          "stance": "Varennes was the chapter's second great turning point; Louis XVI's precise intended endgame remains uncertain, but his manifesto fundamentally challenged the revolutionary settlement.",
+          "acceptable_access": [
+            "Varennes, flight to",
+            "Louis XVI—flight to Varennes",
+            "Royal flight, June 1791",
+            "flight to Varennes",
+            "Varennes, 1791",
+            "royal family—attempted escape",
+            "Louis XVI—flight",
+            "Flight to Varennes",
+            "Varennes—nationwide emergency and vigilance",
+            "Refractory clergy—persecution after Varennes"
+          ],
+          "document_pages": [
+            147,
+            148,
+            151,
+            152,
+            153,
+            157
+          ]
+        },
+        {
+          "local_subject_id": "SUCC-C007-S032",
+          "label": "Flight to Varennes—impact on European monarchs and governments",
+          "meaning": "Louis XVI's failed flight and subsequent humiliation transformed foreign rulers' perception of revolutionary danger.",
+          "stance": "Their alarm was exaggerated in hindsight but understandable given the apparent destruction of Europe's most prestigious monarchy.",
+          "acceptable_access": [
+            "Flight to Varennes—impact on European monarchs and governments",
+            "Varennes, flight to—European reaction",
+            "European monarchs—response to Louis XVI's humiliation",
+            "Flight to Varennes—European reaction",
+            "Varennes—monarchical alarm",
+            "Louis XVI—foreign response to humiliation",
+            "European monarchs—fear of French Revolution"
+          ],
+          "document_pages": [
+            171,
+            172
+          ]
+        },
+        {
+          "local_subject_id": "SUCC-C013-S013",
+          "label": "Louis XVI’s escape strategy and Varennes consequences",
+          "meaning": "The king balanced public constitutional avowals with private escape schemes, refusing some royalist plans and setting Varennes timing independently. The failed flight exposed his repudiation of the Revolution and changed republican opinion, officer emigration, and foreign diplomacy.",
+          "stance": "Varennes transformed counter-revolutionary prospects by exposing Louis XVI's rejection of the Revolution, accelerating officer emigration, and prompting greater foreign attention despite the escape's failure.",
+          "acceptable_access": [
+            "Varennes",
+            "Flight to Varennes--counter-revolutionary consequences",
+            "Louis XVI--flight",
+            "Louis XVI--hesitation and rescue plans",
+            "King and émigrés--independent strategy"
+          ],
+          "document_pages": [
+            299,
+            300,
+            301,
+            302
+          ]
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "acceptable_access",
+      "before": [
+        "Jalès camps",
+        "Catholic Army of the Midi",
+        "Midi--counter-revolution"
+      ],
+      "after": [
+        "Jalès camps",
+        "Catholic Army of the Midi",
+        "Midi--counter-revolution",
+        "Jalès—Catholic insurrection",
+        "Artois—Jalès coordination",
+        "Midi—religious and royalist mobilization"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "chapter_provenance",
+      "before": [
+        "CHUNK-013"
+      ],
+      "after": [
+        "CHUNK-006",
+        "CHUNK-013"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "editorial_rationale",
+      "before": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+      "after": "The same named camps have distinct 1790 organizational and 1792 military treatments; the independent repair preserves both within one optional weighted requirement."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "evidence",
+      "before": [
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "supporting",
+          "evidence_summary": "Reports the 20,000 armed men at the first Jalès camp and the hopes it generated for southern royalism.",
+          "evidence_id": "EVID-SUCC-3E6745A6FEC4",
+          "source_local_subject_id": "SUCC-C013-S040",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 305,
+          "source_page_label": "305",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Froment's princely backing and the poorly supported, quickly suppressed July 1792 rising.",
+          "evidence_id": "EVID-SUCC-4C2711D535EC",
+          "source_local_subject_id": "SUCC-C013-S040",
+          "source_chunk_id": "CHUNK-013"
+        }
+      ],
+      "after": [
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "supporting",
+          "evidence_summary": "Reports the 20,000 armed men at the first Jalès camp and the hopes it generated for southern royalism.",
+          "evidence_id": "EVID-SUCC-3E6745A6FEC4",
+          "source_local_subject_id": "SUCC-C013-S040",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "document_page": 305,
+          "source_page_label": "305",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Froment's princely backing and the poorly supported, quickly suppressed July 1792 rising.",
+          "evidence_id": "EVID-SUCC-4C2711D535EC",
+          "source_local_subject_id": "SUCC-C013-S040",
+          "source_chunk_id": "CHUNK-013"
+        },
+        {
+          "evidence_id": "EVID-ISR-JALES-143-COMMITTEE",
+          "document_page": 143,
+          "source_page_label": "143",
+          "locator_class": "principal",
+          "evidence_summary": "Catholic leaders redirected the initially patriotic Jalès federation into an insurrection against Protestant control; after dispersal a committee planned further camps and coordination with agents of Artois. The movement galvanized southern Jacobin clubs.",
+          "source_chunk_id": "CHUNK-006",
+          "source_local_subject_id": "IR-C006-JALES-143"
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "meaning",
+      "before": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+      "after": "A patriotic National Guard federation at Jalès in 1790 was redirected by defeated Nîmes Catholic leaders against Protestant civic dominance. Its continuing committee planned further camps and coordination with the Count d’Artois’s agents. The camps inspired hopes of Catholic royalist strength in southern France, but the July 1792 attempt attracted only a few hundred and was crushed."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "required_access_facets",
+      "before": [
+        {
+          "facet_id": "FACET-SUCC-C013-S040",
+          "label": "Jalès camps and Catholic Army of the Midi",
+          "meaning": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+          "stance": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+          "acceptable_access": [
+            "Jalès camps",
+            "Catholic Army of the Midi",
+            "Midi--counter-revolution"
+          ],
+          "document_pages": [
+            300,
+            305
+          ],
+          "independently_weighted": false
+        }
+      ],
+      "after": [
+        {
+          "facet_id": "FACET-SUCC-C013-S040",
+          "label": "Jalès camps and Catholic Army of the Midi",
+          "meaning": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+          "stance": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+          "acceptable_access": [
+            "Jalès camps",
+            "Catholic Army of the Midi",
+            "Midi--counter-revolution"
+          ],
+          "document_pages": [
+            300,
+            305
+          ],
+          "independently_weighted": false
+        },
+        {
+          "label": "Jalès federation, religious conflict and émigré coordination",
+          "meaning": "An initially patriotic Guard federation was redirected by Nîmes Catholic leaders into insurrection against Protestant dominance. A continuing committee planned further camps and coordination with Artois’s agents.",
+          "stance": "The movement arose from local confessional and civic conflict; its subsequent royalist organization and foreign contacts should not be projected onto the original federation.",
+          "acceptable_access": [
+            "Jalès—Catholic insurrection",
+            "Artois—Jalès coordination",
+            "Midi—religious and royalist mobilization"
+          ],
+          "document_pages": [
+            143
+          ],
+          "facet_id": "FACET-ISR-JALES-143",
+          "independently_weighted": false
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "source_local_subject_ids",
+      "before": [
+        "SUCC-C013-S040"
+      ],
+      "after": [
+        "SUCC-C013-S040",
+        "IR-C006-JALES-143"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "source_treatments",
+      "before": [
+        {
+          "local_subject_id": "SUCC-C013-S040",
+          "label": "Jalès camps and Catholic Army of the Midi",
+          "meaning": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+          "stance": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+          "acceptable_access": [
+            "Jalès camps",
+            "Catholic Army of the Midi",
+            "Midi--counter-revolution"
+          ],
+          "document_pages": [
+            300,
+            305
+          ]
+        }
+      ],
+      "after": [
+        {
+          "local_subject_id": "SUCC-C013-S040",
+          "label": "Jalès camps and Catholic Army of the Midi",
+          "meaning": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+          "stance": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+          "acceptable_access": [
+            "Jalès camps",
+            "Catholic Army of the Midi",
+            "Midi--counter-revolution"
+          ],
+          "document_pages": [
+            300,
+            305
+          ]
+        },
+        {
+          "local_subject_id": "IR-C006-JALES-143",
+          "label": "Jalès federation, religious conflict and émigré coordination",
+          "meaning": "An initially patriotic Guard federation was redirected by Nîmes Catholic leaders into insurrection against Protestant dominance. A continuing committee planned further camps and coordination with Artois’s agents.",
+          "stance": "The movement arose from local confessional and civic conflict; its subsequent royalist organization and foreign contacts should not be projected onto the original federation.",
+          "acceptable_access": [
+            "Jalès—Catholic insurrection",
+            "Artois—Jalès coordination",
+            "Midi—religious and royalist mobilization"
+          ],
+          "document_pages": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-888503D79595",
+      "field": "stance",
+      "before": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+      "after": "Distinguish the original federation, its redirection into Catholic insurrection and its émigré coordination from the later, poorly supported armed attempt. Large first-camp numbers did not prove equivalent reserves available for a royalist rising."
+    }
+  ],
+  "whole_book_approval": false
+}
