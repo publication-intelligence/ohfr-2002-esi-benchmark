@@ -1,0 +1,54 @@
+{
+  "schema_version": "v9-release-validator-verification-v1",
+  "recorded_at": "2026-09-17T02:25:44.537566+00:00",
+  "v9_methodology_reviewed_commit": "597e40068805b1d3e1dfc1d125ab3c6ec59366af",
+  "v9_methodology_merge_commit": "a5ae35f9572fe28f7401d2e796e6e6c0a89242f6",
+  "methodology_pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/53",
+  "files": [
+    {
+      "path": "scripts/validate_successor_release.py",
+      "sha256": "391517abebb4187ef36d5d15740199f1aa466e326e944fbbf5e11336a9ac59af"
+    },
+    {
+      "path": "scripts/run_successor_checks.py",
+      "sha256": "262841c3584c43acb610b3c24d126e343c00878f870f854f4072d08c29cea6ad"
+    },
+    {
+      "path": "tests/test_successor_release_v9.py",
+      "sha256": "f7299638efd9286dbff197baced2bc0f90ce59e0224b1ae31ce7265b414eff65"
+    },
+    {
+      "path": "docs/successor-release-validation.md",
+      "sha256": "3035caebe3f0b87d61bcbd3689090add03b28b921ae46dfbe81fe33771556fc1"
+    }
+  ],
+  "checks": {
+    "original_v8_release_tests": {
+      "methodology_commit": "7ed97581c1e82eb13052874b0e82eb429580a7b1",
+      "passed": 15,
+      "log_sha256": "805e5fdc262f4d1dec12bfd0fd7c27e5362201b6d28708883fe66025151d7af9"
+    },
+    "v9_release_tests": {
+      "passed": 10,
+      "log_sha256": "4b27eb6c90786c55491a3577500a7fa3c623b2b5d7bd8735f6ea39379566164f"
+    },
+    "fresh_network_environment_smoke": {
+      "passed": true,
+      "synthetic_fixture_only": true,
+      "tests_passed": 10,
+      "full_release_validation_passed": true,
+      "log_sha256": "159fc31ffb06950ab8b3452cbe5a9cdcaf368d3427a3853cd8b4bde94250bf95"
+    },
+    "methodology_owner_read_only_adapter_review": "no actionable source/policy/provenance or CLI mismatch",
+    "exact_methodology_head_github_checks": [
+      "https://github.com/publication-intelligence/evaluate-subject-index/actions/runs/35173884109/job/105051202441",
+      "https://github.com/publication-intelligence/evaluate-subject-index/actions/runs/35173881267/job/105051193774"
+    ]
+  },
+  "actual_source_release_validated": false,
+  "actual_descriptor_created": false,
+  "actual_study_lock_created": false,
+  "installed_runtime_changed": false,
+  "candidate_migration_or_scoring": false,
+  "v10_execution_selection": "V10 approved; separate implementation and source overlay review required"
+}

@@ -1,8 +1,8 @@
 # Four-index reevaluation protocol
 
-The user authorized migration and reevaluation of Published, IndexPDF, IndexerLabs and Indexia against the independently reviewed successor, with commits and relevant PR merges. The subsequent [V9 cutover decision](v9-methodology-cutover.md) adds a required execution gate: finish the source freeze under the current V8.2 framework, validate percentage-native V9 with equivalent outcomes, and only then bind the common study lock and run all four candidates under V9. This protocol records the study's substantive review procedure; the representation migration must preserve its judgment meanings, weights and denominators.
+The user authorized migration and reevaluation of Published, IndexPDF, IndexerLabs and Indexia against the independently reviewed successor, with commits and relevant PR merges. The [V9 percentage foundation](v9-methodology-cutover.md) is reviewed and merged. The user subsequently selected [V10](v10-methodology-cutover.md) for the actual reevaluation: finish the unchanged V8.2 source freeze, independently review the separate source-grounded access overlay, validate V10, and then bind one common study lock and run all four candidates. V9's representation changes preserve arithmetic; V10's approved semantic changes require their own explicit identities, evidence and migration.
 
-Execution is additionally on hold while the user assesses a possible V10 standards extension before candidate runs. Source freeze and invariant V9 implementation may continue; no new semantic requirements have been adopted. The linked cutover record carries the current sequencing status.
+Execution remains on hold until the selected V10 implementation, overlay, validator and consumer are reviewed. Source review and authorized V10 implementation may proceed. The linked cutover record carries the current sequencing status.
 
 ## Inputs and preservation
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T02:11:34.668313+00:00",
+  "recorded_at": "2026-09-17T02:27:37.276494+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -84,8 +84,15 @@
       "website_deployment_authorized": false,
       "decision_document": "docs/v9-methodology-cutover.md"
     },
-    "v9_implementation_status": "isolated_invariant_runtime_testing_in_progress",
-    "v10_status": "assessment_only_no_semantic_implementation_authorized"
+    "v9_implementation_status": "merged_reviewed_foundation_not_activated",
+    "v10_status": "user_adopted_selected_scope_implementation_authorized_no_activation_yet",
+    "v9_reviewed_commit": "597e40068805b1d3e1dfc1d125ab3c6ec59366af",
+    "v9_merge_commit": "a5ae35f9572fe28f7401d2e796e6e6c0a89242f6",
+    "v9_release_validator_preparation": "validation/reconciliation/v9-release-validator-verification.v1.json",
+    "v10_scope_summary": "docs/v10-methodology-cutover.md",
+    "v10_adoption_source_task": "01a09903-ee81-7122-8cfc-b2c2c7217114",
+    "v10_adoption_turn": "01a0ad2a-18e6-7991-8285-5f779a93e295",
+    "v10_normative_contract_provenance": "validation/reconciliation/v10-adoption-provenance.v1.json"
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -111,12 +118,13 @@
     "saved_project_activated": false,
     "website_deployed": false,
     "audit_transfer_authorized": false,
-    "candidate_execution_gate": "source_freeze_under_v8_2_then_validated_percentage_native_v9_cutover",
+    "candidate_execution_gate": "unchanged_v8_2_source_freeze_then_reviewed_v10_runtime_access_overlay_and_common_lock",
     "candidate_owners_v9_hold_delivered": 4,
     "v9_cutover_complete": false,
-    "methodology_selection_hold": "possible_v10_standards_extension_under_user_assessment_no_semantic_adoption",
+    "methodology_selection_hold": "V10 adopted; implementation, independent overlay and integration review pending",
     "candidate_owners_v10_assessment_hold_delivered": 4,
-    "runtime_activation_and_actual_study_lock_on_hold": true
+    "runtime_activation_and_actual_study_lock_on_hold": true,
+    "candidate_owners_v10_selected_scope_delivered": 4
   },
   "limitations": [
     "Bounded comparison supports successor development; it is not whole-book approval.",

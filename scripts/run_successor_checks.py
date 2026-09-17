@@ -8,7 +8,7 @@ import subprocess
 import sys
 import tempfile
 
-from validate_successor_release import METHODOLOGY_COMMIT, relative_path
+from validate_successor_release import METHODOLOGY_COMMITS, read, relative_path, release_profile
 
 
 def run(command, **kwargs):
@@ -33,7 +33,10 @@ def main():
                 return 0
         if not descriptor.is_file():
             raise ValueError("Selected successor release metadata is missing")
-        if not (root / "tests/test_successor_release.py").is_file():
+        profile = release_profile(read(descriptor))
+        commit = METHODOLOGY_COMMITS[profile]
+        test_name = "test_successor_release_v9.py" if profile == "v9" else "test_successor_release.py"
+        if not (root / "tests" / test_name).is_file():
             raise ValueError("Focused successor tests are missing")
         with tempfile.TemporaryDirectory(prefix="successor-methodology-") as directory:
             temporary = Path(directory)
@@ -41,14 +44,14 @@ def main():
             python = Path(args.python)
             if args.methodology_repo is None:
                 run(["git", "init", "--quiet", method])
-                run(["git", "-C", method, "fetch", "--depth=1", "https://github.com/publication-intelligence/evaluate-subject-index.git", METHODOLOGY_COMMIT])
-                run(["git", "-C", method, "checkout", "--quiet", "--detach", METHODOLOGY_COMMIT])
+                run(["git", "-C", method, "fetch", "--depth=1", "https://github.com/publication-intelligence/evaluate-subject-index.git", commit])
+                run(["git", "-C", method, "checkout", "--quiet", "--detach", commit])
                 run([args.python, "-m", "venv", temporary / "venv"])
                 python = temporary / "venv/bin/python"
                 run([python, "-m", "pip", "install", "--disable-pip-version-check", "-r", method / "requirements.txt"])
             env = {**os.environ, "SUCCESSOR_METHODOLOGY_REPO": str(method), "PYTHONDONTWRITEBYTECODE": "1"}
             run([python, "-m", "pip", "check"], env=env)
-            run([python, "-m", "unittest", "discover", "-s", root / "tests", "-p", "test_successor_release.py", "-v"], env=env)
+            run([python, "-m", "unittest", "discover", "-s", root / "tests", "-p", test_name, "-v"], env=env)
             run([python, root / "scripts/validate_successor_release.py", "--root", root, "--release", args.release, "--methodology-repo", method], env=env)
         return 0
     except (ValueError, OSError, subprocess.CalledProcessError) as exc:

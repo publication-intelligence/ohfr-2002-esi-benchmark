@@ -6,7 +6,9 @@ No workflow edit, Python startup hook or installed skill change is needed. The e
 
 ## Runtime
 
-The default runner explicitly fetches the public methodology repository at commit `7ed97581c1e82eb13052874b0e82eb429580a7b1`, creates a temporary virtual environment, installs that commit's declared requirements, checks dependencies, runs focused synthetic tests and validates the selected release. All imported skill files must exactly match the pinned Git blobs, with no additional skill files (bytecode caches ignored). Temporary checkout and environment are deleted afterward.
+The descriptor version selects an explicitly pinned runtime before any workflow modules are imported. Descriptor v1 retains V8.2 at `7ed97581c1e82eb13052874b0e82eb429580a7b1`. Descriptor v2 selects the separately reviewed V9 commit declared in `scripts/validate_successor_release.py`; an arbitrary commit or mismatched descriptor/profile is rejected. V9 support does not lift the [methodology sequencing hold](v9-methodology-cutover.md).
+
+The default runner fetches the selected public methodology commit, creates a temporary virtual environment, installs that commit's declared requirements, checks dependencies, runs the corresponding focused synthetic suite and validates the selected release. All imported skill files must exactly match the pinned Git blobs, with no additional skill files (bytecode caches ignored). Temporary checkout and environment are deleted afterward.
 
 This needs read-only GitHub access and package-download access, not workflow-write scope or a cross-repository secret. It fails closed if retrieval or dependencies fail. It deliberately uses the methodology's dependency ranges rather than introducing a second package lock; the tests exercise the actual resolved environment. The existing runner Python must support the pinned methodology (tested locally with Python 3.12). No private PDF, extracted source text or actual candidate data is loaded. Source-state references to excluded private inputs need not be hydrated: required public proof registrations are checked explicitly, while the pinned native-lineage validator validates state structure without reading every historical artifact.
 
@@ -34,9 +36,9 @@ PYTHONDONTWRITEBYTECODE=1 /absolute/compatible/python scripts/validate_successor
 
 | Field | Meaning |
 | --- | --- |
-| `schema_version` | `subject-index-successor-release-v1` |
+| `schema_version` | `subject-index-successor-release-v1` for the preserved V8.2 path; `subject-index-successor-release-v2` for the explicit V9 path |
 | `release_id` | Actual selected lock's release ID |
-| `methodology_commit` | The exact pinned commit above |
+| `methodology_commit` | The exact reviewed commit pinned for that descriptor version |
 | `artifact_freeze_commit` | Actual ancestor commit of this benchmark repository containing every bound frozen artifact and supporting evidence file |
 | `artifacts` | Object with exactly the nine roles below, each a binding |
 | `evidence` | Array of additional bindings: density measurement and all required correction provenance; no duplicate paths |
@@ -48,6 +50,8 @@ A binding contains exactly `path` and `sha256`: a nonempty repository-relative P
 The nine artifact roles are `state`, `draft`, `review`, `benchmark`, `study_lock`, `page_map`, `chunk_manifest`, `source_policy`, and `policy_template`. The state is the completed source-only typed freeze; the source policy is the real registered frozen policy, while the template is the separately selected unfrozen common policy. Preserve source-state-relative registered paths when assembling these files. The validator requires each typed registration's exact path and hash, not merely a matching hash elsewhere in the state.
 
 The study lock must use `current_source_freeze`. Its final/draft/review/state identities are validated through pinned `validate_release` and `validate_native_lineage`; temporary screening is recomputed and removed. Canonical policy/map/manifest/final identities, benchmark and template semantic identities, source scope, policy profile/mode, density page ownership, labels and totals are checked with pinned methodology logic. Policy-template schema checking uses an in-memory view with real source-policy identity/freeze wrappers; no new policy or freeze is written or asserted.
+
+For V9, the source state, policy, draft, review and final remain unchanged V8.2 proof. The validator passes the actual `source_policy` file to `validate_native_lineage`, validates the source policy and state under the preserved V8 schemas, and validates the new target template under V9. The lock must carry the exact V8.2 source methodology and policy hashes. Its V9 policy semantics must equal the preserved source policy after only the runtime's enumerated version substitutions. Missing policy, unknown source profiles or fields, rewritten source proof, and fully rebound substantive policy changes fail. Descriptor versioning never authorizes relabeling the source freeze.
 
 All lock density references must also appear in the explicit committed `evidence` bindings (converted from lock-relative paths to repository-relative paths). If a measurement declares `metadata_correction`, bind its original measurement, scope addendum and independent scope disposition too, at the paths named in that provenance. The validator verifies their hashes and whole-object equality to the original after removing only `metadata_correction` and restoring only `protocol.source_role_note`. It does not editorially interpret the corrected note. Source-role interpretation remains with the independent source review.
 
@@ -69,3 +73,12 @@ PYTHONDONTWRITEBYTECODE=1 SUCCESSOR_METHODOLOGY_REPO=/absolute/pinned/methodolog
 ```
 
 Tests reuse the pinned methodology's synthetic current-source-freeze fixture, then build a small temporary Git repository with public JSON proof only. They exercise valid proof, false canonical/semantic hashes, metadata/pin errors, changed-field review mismatch, missing typed registration, rehashed working-tree tampering, policy substitution, density totals and correction provenance, consistent recount falsely labeled metadata-only, unsafe paths, snapshot member corruption/self-reference, and fail-closed dispatch after descriptor deletion. No benchmark repository Git commits or actual source/candidate artifacts are created by these tests.
+
+Run the V9 suite separately, with its exact pinned checkout:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 SUCCESSOR_METHODOLOGY_REPO=/absolute/pinned/v9/methodology/repository \
+  /absolute/compatible/python -m unittest discover -s tests -p test_successor_release_v9.py -v
+```
+
+The V9 fixture is constructed in a default V8 process. Each real validation runs in a fresh process that verifies the selected runtime bytes and selects V9 before imports. The additional cases cover preserved source bytes, source-policy hashes and required role, unknown source provenance, V9 relabeling of source state, semantic drift with all transport hashes rebound, mixed lock/runtime versions, and uncommitted proof tampering. The original V8 suite remains executable against its original pin.

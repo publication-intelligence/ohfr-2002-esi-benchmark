@@ -14,6 +14,9 @@ import zipfile
 
 
 METHODOLOGY_COMMIT = "7ed97581c1e82eb13052874b0e82eb429580a7b1"
+V9_METHODOLOGY_COMMIT = "597e40068805b1d3e1dfc1d125ab3c6ec59366af"
+METHODOLOGY_COMMITS = {"v8": METHODOLOGY_COMMIT, "v9": V9_METHODOLOGY_COMMIT}
+RELEASE_PROFILES = {"subject-index-successor-release-v1": "v8", "subject-index-successor-release-v2": "v9"}
 ROLES = {"state", "draft", "review", "benchmark", "study_lock", "page_map", "chunk_manifest", "source_policy", "policy_template"}
 
 
@@ -69,27 +72,39 @@ def committed_file(root, revision, name):
     require(path.read_bytes() == git(root, "cat-file", "blob", blob), f"Artifact differs from committed freeze bytes: {name}")
 
 
-def load_methodology(root):
+def release_profile(release):
+    profile = RELEASE_PROFILES.get(release.get("schema_version"))
+    require(profile is not None, "Unknown successor release metadata version")
+    require(release.get("methodology_commit") == METHODOLOGY_COMMITS[profile], "Release methodology pin differs")
+    return profile
+
+
+def load_methodology(root, *, profile="v8"):
     """Verify importable code against the reviewed commit before loading it."""
-    require(git(root, "rev-parse", f"{METHODOLOGY_COMMIT}^{{commit}}").decode().strip() == METHODOLOGY_COMMIT, "Pinned methodology commit unavailable")
+    require(profile in METHODOLOGY_COMMITS, "Unknown methodology runtime profile")
+    commit = METHODOLOGY_COMMITS[profile]
+    require(git(root, "rev-parse", f"{commit}^{{commit}}").decode().strip() == commit, "Pinned methodology commit unavailable")
     skill = root / "evaluate-subject-index"
-    expected = set(git(root, "ls-tree", "-r", "--name-only", METHODOLOGY_COMMIT, "--", "evaluate-subject-index").decode().splitlines())
+    expected = set(git(root, "ls-tree", "-r", "--name-only", commit, "--", "evaluate-subject-index").decode().splitlines())
     actual = {p.relative_to(root).as_posix() for p in skill.rglob("*") if p.is_file() and "__pycache__" not in p.parts}
     require(actual == expected, "Methodology checkout has missing or extra skill files")
     for name in sorted(expected):
-        committed_file(root, METHODOLOGY_COMMIT, name)
+        committed_file(root, commit, name)
     sys.path.insert(0, str(skill / "scripts"))
+    if profile == "v9":
+        import runtime_profile
+        runtime_profile.select_v9()
     import study_comparison
     return study_comparison
 
 
-def validate(root, descriptor_path, method):
+def validate(root, descriptor_path, method, *, profile="v8"):
     root = root.resolve()
     descriptor_path = relative_path(root, descriptor_path)
     release = read(descriptor_path)
     require(set(release) == {"schema_version", "release_id", "methodology_commit", "artifact_freeze_commit", "artifacts", "evidence", "checkpoints", "release_sha256"}, "Unexpected or missing release metadata fields")
-    require(release["schema_version"] == "subject-index-successor-release-v1", "Unknown successor release metadata version")
-    require(release["methodology_commit"] == METHODOLOGY_COMMIT, "Release methodology pin differs")
+    require(release_profile(release) == profile, "Release/runtime profile differs")
+    require(getattr(method, "is_v9", lambda: False)() == (profile == "v9"), "Imported methodology profile differs")
     require(release["release_sha256"] == digest({k: v for k, v in release.items() if k != "release_sha256"}), "Release metadata self-hash mismatch")
     freeze = release["artifact_freeze_commit"]
     require(isinstance(freeze, str) and re.fullmatch(r"[a-f0-9]{40}", freeze), "Expected exact artifact freeze commit")
@@ -110,7 +125,8 @@ def validate(root, descriptor_path, method):
     require(lock["release"]["lineage"]["kind"] == "current_source_freeze", "Successor requires current_source_freeze")
     require(release["release_id"] == lock["release"]["release_id"], "Release ID differs from lock")
     method.validate_release(lock, final, sha(files["benchmark"]))
-    method.validate_native_lineage(lock, final, files["state"], files["draft"], files["review"])
+    source_args = {"policy_path": files["source_policy"]} if profile == "v9" else {}
+    method.validate_native_lineage(lock, final, files["state"], files["draft"], files["review"], **source_args)
 
     # No PDF/discovery text needed: verify the explicitly bound public freeze proof.
     from dimension_score_v8_cli import validate_v8_policy
@@ -128,8 +144,9 @@ def validate(root, descriptor_path, method):
         registered = relative_path(files["state"].parent, matches[0]["path"])
         require(registered == files[role] and matches[0]["sha256"] == sha(files[role]), f"Typed source registration path/hash mismatch: {role}")
     source_policy = documents["source_policy"]
-    require(not schema_errors(source_policy, "evaluation-policy-v4.schema.json"), "Invalid source policy")
-    validate_v8_policy(source_policy)
+    preserved_profile = {"profile": "v8"} if profile == "v9" else {}
+    require(not schema_errors(source_policy, "evaluation-policy-v4.schema.json", **preserved_profile), "Invalid source policy")
+    validate_v8_policy(source_policy, **preserved_profile)
     require(source_policy["policy_sha256"] == digest({k: v for k, v in source_policy.items() if k != "policy_sha256"}) == final["policy_sha256"], "Source policy canonical binding differs")
     scope = lock["source_scope"]
     require(all(source_policy["source_scope"][k] == v for k, v in scope.items()), "Source policy scope differs")
@@ -185,7 +202,7 @@ def validate(root, descriptor_path, method):
             for member, artifact in members.items():
                 relative_path(root, member)  # Validate names; never extract.
                 require(hashlib.sha256(archive.read(member)).hexdigest() == by_path[artifact]["sha256"], f"Checkpoint member differs: {member}")
-    return {"ok": True, "release_id": release["release_id"], "artifact_freeze_commit": freeze, "methodology_commit": METHODOLOGY_COMMIT, "frozen_files": len(bindings), "checkpoints": len(checkpoint_paths), "editorial_review_performed": False}
+    return {"ok": True, "release_id": release["release_id"], "artifact_freeze_commit": freeze, "methodology_commit": METHODOLOGY_COMMITS[profile], "runtime_profile": profile, "frozen_files": len(bindings), "checkpoints": len(checkpoint_paths), "editorial_review_performed": False}
 
 
 def main():
@@ -195,8 +212,9 @@ def main():
     parser.add_argument("--methodology-repo", type=Path, required=True)
     args = parser.parse_args()
     try:
-        method = load_methodology(args.methodology_repo.resolve())
-        print(json.dumps(validate(args.root, args.release, method), indent=2))
+        profile = release_profile(read(relative_path(args.root.resolve(), args.release)))
+        method = load_methodology(args.methodology_repo.resolve(), profile=profile)
+        print(json.dumps(validate(args.root, args.release, method, profile=profile), indent=2))
     except (ValueError, KeyError, TypeError, OSError, subprocess.CalledProcessError, zipfile.BadZipFile) as exc:
         print(json.dumps({"ok": False, "error": str(exc)}))
         return 1
