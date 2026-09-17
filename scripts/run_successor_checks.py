@@ -35,7 +35,7 @@ def main():
             raise ValueError("Selected successor release metadata is missing")
         profile = release_profile(read(descriptor))
         commit = METHODOLOGY_COMMITS[profile]
-        test_name = "test_successor_release_v9.py" if profile == "v9" else "test_successor_release.py"
+        test_name = {"v8": "test_successor_release.py", "v9": "test_successor_release_v9.py", "v10": "test_successor_release_v10.py"}[profile]
         if not (root / "tests" / test_name).is_file():
             raise ValueError("Focused successor tests are missing")
         with tempfile.TemporaryDirectory(prefix="successor-methodology-") as directory:

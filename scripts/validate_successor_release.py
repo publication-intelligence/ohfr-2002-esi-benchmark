@@ -15,9 +15,11 @@ import zipfile
 
 METHODOLOGY_COMMIT = "7ed97581c1e82eb13052874b0e82eb429580a7b1"
 V9_METHODOLOGY_COMMIT = "597e40068805b1d3e1dfc1d125ab3c6ec59366af"
-METHODOLOGY_COMMITS = {"v8": METHODOLOGY_COMMIT, "v9": V9_METHODOLOGY_COMMIT}
-RELEASE_PROFILES = {"subject-index-successor-release-v1": "v8", "subject-index-successor-release-v2": "v9"}
+V10_METHODOLOGY_COMMIT = "815bcb66d3319d2f730a9645800b304bcbd4b2e9"
+METHODOLOGY_COMMITS = {"v8": METHODOLOGY_COMMIT, "v9": V9_METHODOLOGY_COMMIT, "v10": V10_METHODOLOGY_COMMIT}
+RELEASE_PROFILES = {"subject-index-successor-release-v1": "v8", "subject-index-successor-release-v2": "v9", "subject-index-successor-release-v3": "v10"}
 ROLES = {"state", "draft", "review", "benchmark", "study_lock", "page_map", "chunk_manifest", "source_policy", "policy_template"}
+ACCESS_ROLES = {"access_overlay", "access_review"}
 
 
 def require(condition, message):
@@ -91,9 +93,9 @@ def load_methodology(root, *, profile="v8"):
     for name in sorted(expected):
         committed_file(root, commit, name)
     sys.path.insert(0, str(skill / "scripts"))
-    if profile == "v9":
+    if profile in {"v9", "v10"}:
         import runtime_profile
-        runtime_profile.select_v9()
+        getattr(runtime_profile, f"select_{profile}")()
     import study_comparison
     return study_comparison
 
@@ -104,12 +106,16 @@ def validate(root, descriptor_path, method, *, profile="v8"):
     release = read(descriptor_path)
     require(set(release) == {"schema_version", "release_id", "methodology_commit", "artifact_freeze_commit", "artifacts", "evidence", "checkpoints", "release_sha256"}, "Unexpected or missing release metadata fields")
     require(release_profile(release) == profile, "Release/runtime profile differs")
-    require(getattr(method, "is_v9", lambda: False)() == (profile == "v9"), "Imported methodology profile differs")
+    if profile == "v10":
+        require(getattr(method, "is_v10", lambda: False)(), "Imported methodology profile differs")
+    else:
+        require(getattr(method, "is_v9", lambda: False)() == (profile == "v9"), "Imported methodology profile differs")
     require(release["release_sha256"] == digest({k: v for k, v in release.items() if k != "release_sha256"}), "Release metadata self-hash mismatch")
     freeze = release["artifact_freeze_commit"]
     require(isinstance(freeze, str) and re.fullmatch(r"[a-f0-9]{40}", freeze), "Expected exact artifact freeze commit")
     git(root, "merge-base", "--is-ancestor", freeze, "HEAD")
-    require(set(release["artifacts"]) == ROLES, "Required successor artifact roles differ")
+    required_roles = ROLES | ACCESS_ROLES if profile == "v10" else ROLES
+    require(set(release["artifacts"]) == required_roles, "Required successor artifact roles differ")
     require(isinstance(release["evidence"], list) and isinstance(release["checkpoints"], list), "Evidence/checkpoints must be arrays")
     bindings = list(release["artifacts"].values()) + release["evidence"]
     paths = [binding["path"] for binding in bindings]
@@ -125,8 +131,15 @@ def validate(root, descriptor_path, method, *, profile="v8"):
     require(lock["release"]["lineage"]["kind"] == "current_source_freeze", "Successor requires current_source_freeze")
     require(release["release_id"] == lock["release"]["release_id"], "Release ID differs from lock")
     method.validate_release(lock, final, sha(files["benchmark"]))
-    source_args = {"policy_path": files["source_policy"]} if profile == "v9" else {}
+    source_args = {"policy_path": files["source_policy"]} if profile in {"v9", "v10"} else {}
     method.validate_native_lineage(lock, final, files["state"], files["draft"], files["review"], **source_args)
+    if profile == "v10":
+        for name, role in (("overlay", "access_overlay"), ("review", "access_review")):
+            binding = lock["benchmark_access"][name]
+            path = relative_path(files["study_lock"].parent, binding["path"])
+            require(path == files[role] and sha(path) == binding["sha256"], "Access proof role differs from study lock")
+        from v10_access import validate_access
+        validate_access(lock, final, files["study_lock"].parent)
 
     # No PDF/discovery text needed: verify the explicitly bound public freeze proof.
     from dimension_score_v8_cli import validate_v8_policy
@@ -144,7 +157,7 @@ def validate(root, descriptor_path, method, *, profile="v8"):
         registered = relative_path(files["state"].parent, matches[0]["path"])
         require(registered == files[role] and matches[0]["sha256"] == sha(files[role]), f"Typed source registration path/hash mismatch: {role}")
     source_policy = documents["source_policy"]
-    preserved_profile = {"profile": "v8"} if profile == "v9" else {}
+    preserved_profile = {"profile": "v8"} if profile in {"v9", "v10"} else {}
     require(not schema_errors(source_policy, "evaluation-policy-v4.schema.json", **preserved_profile), "Invalid source policy")
     validate_v8_policy(source_policy, **preserved_profile)
     require(source_policy["policy_sha256"] == digest({k: v for k, v in source_policy.items() if k != "policy_sha256"}) == final["policy_sha256"], "Source policy canonical binding differs")

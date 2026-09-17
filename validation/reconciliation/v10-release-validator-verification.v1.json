@@ -1,0 +1,56 @@
+{
+  "schema_version": "v10-release-validator-verification-v1",
+  "recorded_at": "2026-09-17T03:36:04.437263+00:00",
+  "v10_methodology_reviewed_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "methodology_pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/54",
+  "files": [
+    {
+      "path": "scripts/validate_successor_release.py",
+      "sha256": "9136510c03e87df6224a6a5422bca9f345382ce96a66cfa69822dfe0186fa20f"
+    },
+    {
+      "path": "scripts/run_successor_checks.py",
+      "sha256": "b0d359a67f3dc7302425bc166802eabcc29215d1fb1ae3028c84ddcbd8a9b167"
+    },
+    {
+      "path": "tests/test_successor_release_v10.py",
+      "sha256": "6480d136ee66560fed6cf6089bdafbfa79b071627253b1f12c76015c297ad1d8"
+    },
+    {
+      "path": "docs/successor-release-validation.md",
+      "sha256": "6f6a1f1d0a2d246db8d2a4543463b94046c32d025ac5a5ba05a4b2cf2b1bb197"
+    }
+  ],
+  "checks": {
+    "coordinator_focused_tests": {
+      "passed": 19,
+      "log_sha256": "deb6cb289e6ef906105376d9fdea32c947fe0909295e35888308b0ea541431ac"
+    },
+    "runtime_owner_independent_adapter_review": {
+      "approved": true,
+      "task_id": "01a0ab12-c226-7962-ad31-c567b88061bf",
+      "tests_passed": 19,
+      "log_sha256": "d102c5694d7413daaed07b244551c56786898d0f58526b5394d399b891442884",
+      "reviewed_files_exact_hashes_matched": true
+    },
+    "fresh_network_environment_smoke": {
+      "passed": true,
+      "synthetic_fixture_only": true,
+      "tests_passed": 19,
+      "full_release_validation_passed": true,
+      "log_sha256": "d8762c36440da121f02b99d06c382779af59dbbe1de7099a05315ab96a3fb0b0"
+    },
+    "consumer_fixture_hashes": {
+      "manifest_sha256": "8e62475b39464369671f6fca1e09759f802e2252de9ae9a871e00d262ac94517",
+      "files_verified": 120,
+      "synthetic_only": true
+    }
+  },
+  "runtime_ci_and_consumer_review_pending": true,
+  "actual_source_release_validated": false,
+  "actual_descriptor_created": false,
+  "actual_study_lock_created": false,
+  "installed_runtime_changed": false,
+  "candidate_migration_or_scoring": false,
+  "editorial_approval": false
+}
