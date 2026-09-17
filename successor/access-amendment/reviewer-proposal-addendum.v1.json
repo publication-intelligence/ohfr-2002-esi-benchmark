@@ -1,0 +1,81 @@
+{
+  "schema_version": "candidate-blind-access-review-proposal-addendum-v1",
+  "recorded_at": "2026-09-17T05:16:18.357949+00:00",
+  "reviewer_assignment": {
+    "path": "successor/access-amendment/reviewer-assignment.v1.json",
+    "sha256": "b42562087c977343af4aa544fadd1b17be122af5519854e0e911ae7b4083966d",
+    "bytes": 36016
+  },
+  "source_packet": {
+    "path": "successor/access-amendment/source-only-inputs.v1.json",
+    "sha256": "efe1d5364822240babcb60d2740695b11d40cbfa275ec4ccdf97c7b1f99cae29",
+    "bytes": 63779
+  },
+  "reviewer_pre_proposal_seal": {
+    "path": "successor/access-amendment/reviewer/pre-proposal-manifest.v1.json",
+    "sha256": "e16dc5e48f257795f897391d4447e770d2bcdaaf39b3605aeba3a95751948a0e",
+    "bytes": 2184
+  },
+  "candidate_content_included": false,
+  "candidate_results_included": false,
+  "files": [
+    {
+      "path": "successor/access-amendment/author/manifest.v1.json",
+      "sha256": "24a6a3088a3d5acdf222b6b8cc94d8be9061fb6132dd41253c82eda471f9111d",
+      "bytes": 2628
+    },
+    {
+      "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+      "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+      "bytes": 186329
+    },
+    {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886",
+      "bytes": 15095
+    },
+    {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec",
+      "bytes": 118951
+    },
+    {
+      "path": "successor/access-amendment/author/input-visibility-attestation.v1.json",
+      "sha256": "2067c298b1a710c4bec8ad4e10a9b1dac67d75c513fcc4eeae4bcb8314e0f0b3",
+      "bytes": 29394
+    },
+    {
+      "path": "successor/access-amendment/author/mechanical-check.v1.json",
+      "sha256": "f923880eea3016c613052d1b413b68c5e45a20df0665808beb9d09f37d2fb5a0",
+      "bytes": 1230
+    },
+    {
+      "path": ".source-only/v10-access-interface-815bcb6/digest-helper.excerpt.v1.json",
+      "sha256": "8de25c4581c03fd8525657aeb54c63c71c9d83f640270cc4a54505a12f15df18",
+      "bytes": 1295
+    }
+  ],
+  "frozen_base": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "frozen_base_review": {
+    "path": "successor/independent-review/source-benchmark-review.v1.json",
+    "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+    "bytes": 469741
+  },
+  "frozen_state": {
+    "path": "successor/evaluation-state.json",
+    "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+    "bytes": 15542
+  },
+  "author_proposal_status": "Complete sealed schema proposal; author proposes zero deltas. This is a proposal, not independent approval.",
+  "review_instructions": [
+    "Verify every newly allowed file hash before exposure. The addendum authorizes exactly the manifest, its five files and the serialization-helper excerpt, in addition to your existing exact source packet and own outputs. Preserve the pre-proposal records and frozen base bytes.",
+    "Independently review the complete proposal and all four clause rationales, including actual finalized baseline access fields and cited evidence. Assess why the preserved complete source review plus focused clause checks is or is not sufficient to support no delta; do not infer adequacy from counts or treat prior pre-proposal sampling as whole-population approval.",
+    "Compare your pre-proposal findings with author reasoning. Inspect concrete previously unexamined cited parent/task fields and targeted source where needed to decide a genuine issue. Record exact whole/field-level inspection, precise evidence or prior-inspection reuse, and any limits truthfully. This task does not require a redundant full-source rediscovery pass.",
+    "Verify exact before/after populations, stable identities, source/policy/base bindings, separate author/reviewer identity, complete delta coverage (possibly empty), and all semantic and scope constraints. The study digest excerpt only defines serialization; it carries no editorial conclusion.",
+    "If supported after actual review, write a separate current-schema benchmark-access-review-v10 artifact binding exact proposal file SHA, overlay SHA and population SHA, plus a detailed clause review and exact-value assent/visibility attestation. If any unresolved blocker remains, issue explicit required corrections instead of a schema approval. Do not alter author files or issue a freeze/activation/lock."
+  ]
+}

@@ -1,0 +1,2759 @@
+{
+  "schema_version": "benchmark-access-author-inspection-ledger-v1",
+  "role": "author",
+  "base": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "subject_inspections": [
+    {
+      "subject_id": "SUBJ-SUCC-04E7153E268C",
+      "label": "Declaration of Pillnitz: conditional diplomacy and inflammatory reception",
+      "base_json_pointer": "/subjects/1",
+      "case_ids": [
+        "ACCESS-AUTH-07"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "f9cba8af47bb4acce1423bb11b7b3fc519076a89156d76347a8930cb71926c4c",
+        "meaning": "7f06ed9882cc5cd10946310142507991f3c63ff3273d236213961b55faa59744",
+        "stance": "149771dfa9854f0f1c86ebeba6dc9d8c11540a4ebfc0dbb304c408a0d76585fa",
+        "acceptable_access": "fa1787d6d4f0e6988299df271b8a3730fc5e0a299c1ad2bac9d0763617b70dae",
+        "required_access_facets": "627c3fd665ca715bd738af8b4f72b32963275ae6f410dd3c2a5a3c1775269d5f"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C006-S022",
+        "FACET-SUCC-C007-S027",
+        "FACET-SUCC-C013-S015"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-BBD90A46B030",
+          "document_page": 152,
+          "summary_sha256": "e06cf59b60b3342ff47182993c53f0e52ba8ba4677de2d73618e9b8440fb24fc"
+        },
+        {
+          "evidence_id": "EVID-SUCC-312C76422FBE",
+          "document_page": 153,
+          "summary_sha256": "85aa2385035a5861b914d606f6bad8d72fc171627bce61fe7bfc5bc6ba05900c"
+        },
+        {
+          "evidence_id": "EVID-SUCC-A59156ADDA91",
+          "document_page": 153,
+          "summary_sha256": "66926aae5197068e9bf0ab436b6fc79ba978ac4c723bace28a071da88d742d33"
+        },
+        {
+          "evidence_id": "EVID-SUCC-61E2F248694B",
+          "document_page": 156,
+          "summary_sha256": "7d350b039db84be72900ea6ee662f0f2aeaef2f08e9cc5f767d6f56dc355246f"
+        },
+        {
+          "evidence_id": "EVID-SUCC-B79A4DAB10F9",
+          "document_page": 156,
+          "summary_sha256": "d2f4e4bf4d3fe796deeb13d6db2e219a3dceeed2c5f31c6c096a5ad854d7fdb6"
+        },
+        {
+          "evidence_id": "EVID-SUCC-9630CFD84A45",
+          "document_page": 156,
+          "summary_sha256": "ee6017af86f6e625152c48df3fdfffe322751a5925edcaab0a21774073796623"
+        },
+        {
+          "evidence_id": "EVID-SUCC-C1EC55099AFC",
+          "document_page": 157,
+          "summary_sha256": "f03f823a08c5a4267f9c17107f39ac766e92cf6c3b1a82ae6706099f34840809"
+        },
+        {
+          "evidence_id": "EVID-SUCC-FF1DD9D31325",
+          "document_page": 157,
+          "summary_sha256": "d67d77471ba762ac2385317baaa1ee242a1aa3c60fcb29f4c5802c756322174b"
+        },
+        {
+          "evidence_id": "EVID-SUCC-6907937DF61A",
+          "document_page": 157,
+          "summary_sha256": "c84bc4e048ab9ec35df8e772ca00160ef539a656249d535113ac68e1d5656ef2"
+        },
+        {
+          "evidence_id": "EVID-SUCC-58CAE9CE216F",
+          "document_page": 171,
+          "summary_sha256": "6aaa3be7fddeec6e39b147250c641e63d126530e90bf5fa2f124da92e9726cf3"
+        },
+        {
+          "evidence_id": "EVID-SUCC-80B8A1F322A1",
+          "document_page": 172,
+          "summary_sha256": "551372ce54cd5a6b398a3260730d7663092fead932121ffe8a3b47b9efea2915"
+        },
+        {
+          "evidence_id": "EVID-SUCC-4441FFF4D519",
+          "document_page": 302,
+          "summary_sha256": "9f3c0cd0910f31ea5d67690212535a382dc2239de1756629ebbe50f5c0934074"
+        },
+        {
+          "evidence_id": "EVID-SUCC-24F2CE93495A",
+          "document_page": 304,
+          "summary_sha256": "9ef9fce441c042669151deffefb31aa5ad7e5862ebf9ef22a19b9303c140fceb"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B4386E288802",
+      "label": "Religion as the popular foundation of counter-revolution",
+      "base_json_pointer": "/subjects/6",
+      "case_ids": [
+        "ACCESS-AUTH-04"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "0aceb5375a2a1cc11a798d0512862cccb50f80d90a1bf6f3871b09370e533528",
+        "meaning": "14601300762640264303c4cf2fa117e8dc49d9938f5a6f198e54cd05b17ae6bb",
+        "stance": "790f25325a266f3dacc5a4e9bb724345cc3cff0274a03b634f8004be942768fe",
+        "acceptable_access": "05028766832d45658e374a0779e32a3815e80b3666872ea53ca1b22de013d2cc",
+        "required_access_facets": "9e74e38e365de40eb8b843bba89ef5aefce509f69d65790b160b271700f8c55f"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C006-S004",
+        "FACET-SUCC-C013-S005"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-172307628112",
+          "document_page": 142,
+          "summary_sha256": "f2dbe13b5ad25df31772364548f961a4e3b3ecacfef927e7da974c23d76eccfe"
+        },
+        {
+          "evidence_id": "EVID-SUCC-5CBD229AAE66",
+          "document_page": 142,
+          "summary_sha256": "e7aa8e06a5d827f27b99c3f0a3c3f2cf9baf72e6d817dd5ead95cd95371a14e5"
+        },
+        {
+          "evidence_id": "EVID-SUCC-D7A185C3A792",
+          "document_page": 142,
+          "summary_sha256": "7392a9cb100fdddeaa78f7ffddf34d30411e18f5038d206ce6768db587c8f6f0"
+        },
+        {
+          "evidence_id": "EVID-SUCC-E8D530B1C75C",
+          "document_page": 146,
+          "summary_sha256": "d96d423152271464588ef4651f82b746d88f41217e9e3b0bce58d44662643f6f"
+        },
+        {
+          "evidence_id": "EVID-SUCC-B70C2F09B978",
+          "document_page": 146,
+          "summary_sha256": "d559bdda35bd373964c63a28c60361a7c2703e49f8bcaff938580fb4a63ab1a0"
+        },
+        {
+          "evidence_id": "EVID-SUCC-FE47B2861B12",
+          "document_page": 147,
+          "summary_sha256": "a98c7f56a371132b1ce9f084e4e20c0f95517bb7986ad2ed3b0381357b81e9a9"
+        },
+        {
+          "evidence_id": "EVID-SUCC-2138BAD866AC",
+          "document_page": 147,
+          "summary_sha256": "1ba6c8b1ea7fab2cb56117cb0f414c5652c573d35961414505785431a07f6b03"
+        },
+        {
+          "evidence_id": "EVID-SUCC-D48FF2EBD705",
+          "document_page": 153,
+          "summary_sha256": "d447951ff767fc247a0863695aa52c9d14eac4ebfcdc40b9792928b7c54f0a30"
+        },
+        {
+          "evidence_id": "EVID-SUCC-F3342B7FBB60",
+          "document_page": 157,
+          "summary_sha256": "0714d6c5d04303708d161f3f237626cb898f3ce3015999c28c1f85b08bac0575"
+        },
+        {
+          "evidence_id": "EVID-SUCC-097918551DA0",
+          "document_page": 157,
+          "summary_sha256": "d7ddd7baf07b2b422e6a5f0d801287bb278fbd53e64d89593cf6e152c55b07af"
+        },
+        {
+          "evidence_id": "EVID-SUCC-DFBB6EAEB527",
+          "document_page": 304,
+          "summary_sha256": "40f0114efa3f2ae6cf18543b6e15757e011997462ba712cb19796382e6165762"
+        },
+        {
+          "evidence_id": "EVID-SUCC-592093718DE2",
+          "document_page": 305,
+          "summary_sha256": "678bbeb041f7d7c4c2d47e0353a6c0c1b6b8900e9bfc11b9caabc541f3892448"
+        },
+        {
+          "evidence_id": "EVID-SUCC-5A551DE1F9E2",
+          "document_page": 308,
+          "summary_sha256": "a0652e17eb1c993b501c961854719806e837c7d3a6be66d6791fa69f1bfe8dd5"
+        },
+        {
+          "evidence_id": "EVID-SUCC-AE01D6F550B4",
+          "document_page": 312,
+          "summary_sha256": "79b21f1ca9bb35f0f026c3ed1dcda33261a46e3943a0f8f46bcb8c2e97d5a484"
+        },
+        {
+          "evidence_id": "EVID-SUCC-C12934EE44BC",
+          "document_page": 300,
+          "summary_sha256": "54b76d6cc9fa966dffea3218a29582296f7da7ce0b9b9ad3766d0d315dd1d5a6"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BBD84DC00640",
+      "label": "Federalist revolt: regional resistance, constitutional claims and limits",
+      "base_json_pointer": "/subjects/14",
+      "case_ids": [
+        "ACCESS-AUTH-07"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "db6e5a891f5bdc14f66ae7f0f8d20453e8e1b81a0e84dad0dce65971078b487d",
+        "meaning": "ada77ce654a5271ead2ff3f214453dd23791703150c2bec840359bb769f0daab",
+        "stance": "9527357ca1e1b704d77f9d55eece7fe3e4ba9b0d4c4676d1834cdb24b35773dd",
+        "acceptable_access": "11263aa6f83652d6c8ea5526f4e00ea53b4ac7c70e5760e04f4abbb700895822",
+        "required_access_facets": "3e98a30e6d1696ed1d94fabf036ebcb78ffe64e04bda1b5517845d30924a2e2f"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C010-S003",
+        "FACET-SUCC-C013-S025"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-59F275B29DB5",
+          "document_page": 221,
+          "summary_sha256": "9758571d104c07be70588d2ae49bbe62ae60fd156a07e44b1d4c2a837031a070"
+        },
+        {
+          "evidence_id": "EVID-SUCC-A5BB1452C893",
+          "document_page": 230,
+          "summary_sha256": "2d090fac292e853dd85e953f3cc7aaf2ca31687699e12bf249f8e2468b08b6ce"
+        },
+        {
+          "evidence_id": "EVID-SUCC-E5F1FB9C979F",
+          "document_page": 230,
+          "summary_sha256": "73c7509ca69263d9057576f611c6a769793fb1b14ddaa4fa744bf87001ce169d"
+        },
+        {
+          "evidence_id": "EVID-SUCC-977F69772B86",
+          "document_page": 231,
+          "summary_sha256": "026b49d8855e3518373129c0fa370dc89974dcf9e26bf1b6c13ba31a4d35b754"
+        },
+        {
+          "evidence_id": "EVID-SUCC-D8906483841A",
+          "document_page": 238,
+          "summary_sha256": "343392b1d83dd987da3de8be07cdf6026a4701a1a207dcb297f4ce1509b57a3f"
+        },
+        {
+          "evidence_id": "EVID-SUCC-BA5E429CF622",
+          "document_page": 239,
+          "summary_sha256": "3a8d07ddef8055b203b5e854f089e57817af5f3ff6841405f057f31b1d6f1a5f"
+        },
+        {
+          "evidence_id": "EVID-SUCC-F0E26444E788",
+          "document_page": 239,
+          "summary_sha256": "273e9c6453694cea963bba49ac6b3ef41b71c2e2907435beb80fadbf6052247a"
+        },
+        {
+          "evidence_id": "EVID-SUCC-4CD5DB6F5C0C",
+          "document_page": 240,
+          "summary_sha256": "059e2b5c978f2b4ede6bab311a15b789737961f0224e8f599b402cb416779698"
+        },
+        {
+          "evidence_id": "EVID-SUCC-EA83E48A6C3B",
+          "document_page": 241,
+          "summary_sha256": "c37fb45a0905c698821e7601c03d32426a275adec05fd0bcaec6a930f9d5ea3a"
+        },
+        {
+          "evidence_id": "EVID-SUCC-79C4DD59AC28",
+          "document_page": 242,
+          "summary_sha256": "ed23460f06b5bcb2e032fed1e2e7891b3cb02505a52afec15d1c893af9979cbb"
+        },
+        {
+          "evidence_id": "EVID-SUCC-022F9BC876FC",
+          "document_page": 242,
+          "summary_sha256": "bc0cc871228b13521f3fffa1fb39b811d6e89ad7cccefcc6b542fc4dac868e65"
+        },
+        {
+          "evidence_id": "EVID-SUCC-B6AA543C7E2E",
+          "document_page": 242,
+          "summary_sha256": "26cb6cf5ff79c068c1351193f848bd554283f939a61ca99016d98312329b7878"
+        },
+        {
+          "evidence_id": "EVID-SUCC-9EA574E08145",
+          "document_page": 243,
+          "summary_sha256": "fc0f5c8e589814c356b322d9bd7b53fa871c487d207856868deca1b56c83321d"
+        },
+        {
+          "evidence_id": "EVID-SUCC-712B1D581F74",
+          "document_page": 308,
+          "summary_sha256": "6466f3912a22dfb807177dd3c3cdb87cd98564a5d5a7230f7e5046165470b66c"
+        },
+        {
+          "evidence_id": "EVID-SUCC-6659496FB170",
+          "document_page": 309,
+          "summary_sha256": "f25dc316c65286fe321f8ffaa09c524564755bafe3a3a63ba868f01b32fd6d25"
+        },
+        {
+          "evidence_id": "EVID-SUCC-4C27ECE114D1",
+          "document_page": 316,
+          "summary_sha256": "d8f7c57f6845ae60fb866c0c8367fa8dfd43c4e392b49f690c4813f734305b7a"
+        },
+        {
+          "evidence_id": "EVID-SUCC-5A42A08E2209",
+          "document_page": 241,
+          "summary_sha256": "02229ceb5f8ea5d38e27daed23a47b78dc55bca66416327561e25ca939ef69bb"
+        },
+        {
+          "evidence_id": "EVID-ISR-JURA-240-DEPARTMENTAL",
+          "document_page": 240,
+          "summary_sha256": "ffd6a1160644ed4efd3b0faf3cf8f011064502c92cc44e317d9cb8ae5e518712"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-81DD3C32CF36",
+      "label": "Levée en masse and Carnot’s organization",
+      "base_json_pointer": "/subjects/42",
+      "case_ids": [
+        "ACCESS-AUTH-08"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "2ad3a42cea91df95803e4774b09fe9f95377311c9fcacc76c6f25262b1f036a0",
+        "meaning": "751bdd6cd9f77a2241e0e5d12a2f8b09896d776a7b0d28280bdc94ec172d770d",
+        "stance": "af4bd08e3888719926c75212d0e6797ef102f3a837fcfba0801fc012136a95d6",
+        "acceptable_access": "dbbfef83c37a5feb62e4dbe17b7ecb2e4833691fedee8c2d602ec9e7ea03e1a8",
+        "required_access_facets": "4015917e8c90eeb98e6e960562f0ad8c0d5d683ad7182e478bbba8af9aaa719b"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C009-S011B",
+        "FACET-SUCC-C011-S031"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-64A935A65CDE",
+          "document_page": 204,
+          "summary_sha256": "98b07561417aba72b51e25cff1e935fb95bc340e53df06e98e17e3583edeeb82"
+        },
+        {
+          "evidence_id": "EVID-SUCC-1D1877A48CD6",
+          "document_page": 204,
+          "summary_sha256": "67bd848b13192f0cbace2d7d1984912b483a998bc605e807f4809532ea0d7ec3"
+        },
+        {
+          "evidence_id": "EVID-SUCC-E56EFC925813",
+          "document_page": 205,
+          "summary_sha256": "c39850ca6c263829b14285b6e124a207dc2f6b79e9a3b193a593e96cb83e6221"
+        },
+        {
+          "evidence_id": "EVID-SUCC-5298007BDE6F",
+          "document_page": 205,
+          "summary_sha256": "3cfcc7e8a5d1f97483b2bf6a0bd35197c66fc560760f935e01a6ca4a130f60e2"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3340A10E370E",
+          "document_page": 206,
+          "summary_sha256": "8c198201ec7b3edb506d632e657c9be887ca87ca93874ded8190892c6d33db78"
+        },
+        {
+          "evidence_id": "EVID-SUCC-CA056FD20981",
+          "document_page": 206,
+          "summary_sha256": "e44be29b1e29d49b625174183430b37795a7acadca32fdd5bac8a93bd68d56d0"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3712DA010BB9",
+          "document_page": 248,
+          "summary_sha256": "bf52ef1517b3c4ea3ad719fb26b446c8969642cfb19249d386fbb92cd2846a38"
+        },
+        {
+          "evidence_id": "EVID-SUCC-7E375D2520D4",
+          "document_page": 250,
+          "summary_sha256": "c9a28a8af87b87434d1fc6d0a7b2402275db6faca210a9b13410c5e2bd1940f5"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2AC42802019F",
+      "label": "Free people of colour: colonial citizenship and successive rights decisions",
+      "base_json_pointer": "/subjects/43",
+      "case_ids": [
+        "ACCESS-AUTH-01"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "9d10abaaff3943e1c63201e34c89e934c72430588d8fd275233048c224678e88",
+        "meaning": "29ca9216e0ed6e5485ac0ef9cf0a9e2778363c401f41832f8999d20710dad567",
+        "stance": "09815429618f5c6448fea63ec296e256ec1626b81739d252f648e65182442936",
+        "acceptable_access": "1d233bef5fb1ecfea4a84b33b9b11fd1c8cb0fe010b72f01a28f3706d2ce4c7b",
+        "required_access_facets": "6eeb5ca010c481c1fa17c56fc69795614eaa9dbd19f037c558451bd27b1588fc"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C006-S019B",
+        "FACET-SUCC-C017-S043"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-305B85115DE8",
+          "document_page": 150,
+          "summary_sha256": "11eae64a0dd6aa73a4e63e22195d8898c30eb553c73cdea521eef765b0008500"
+        },
+        {
+          "evidence_id": "EVID-SUCC-50680745647E",
+          "document_page": 151,
+          "summary_sha256": "e88cdbcc25625b68296fc6c3158dd38a3a48a19bea1ce8f427062e93b039ee3c"
+        },
+        {
+          "evidence_id": "EVID-SUCC-E9673E61EDAF",
+          "document_page": 411,
+          "summary_sha256": "a448490d05242ff5a4f0a1c669674b1448557fb768c9d630527a05fbdc149861"
+        },
+        {
+          "evidence_id": "EVID-SUCC-C6A32509F8D6",
+          "document_page": 412,
+          "summary_sha256": "781356b9d9d09602bc5a39b8d43d06db5c735be26c187ea3dd407441c4e1ca11"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E64A7C4235E5",
+      "label": "Peasantry—mixed livelihoods and communal rights",
+      "base_json_pointer": "/subjects/66",
+      "case_ids": [
+        "ACCESS-AUTH-04"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "398790a39ea647300bae01f5d5f1c51e5cc3b53e6a8acc3e904a248d6ba996a2",
+        "meaning": "ac783b3b69a438ffabffc67e8c14681fb7fb78dbffedb8778910e44c724994fb",
+        "stance": "8a12bfcb690c74cd07873377e989b5d5305666d66698e990e784afbb5f542e40",
+        "acceptable_access": "2a1220fd25ddae2c74e8cf269c1b2af844a2a7fb696f2836756c845af43e9f05",
+        "required_access_facets": "64306806639c3b354d0948aab59e3276500fdea6c6d3fa76c05f6df1945b5a30"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C001-S023"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-FE79A91F953B",
+          "document_page": 16,
+          "summary_sha256": "84a7586d1c2260fad9e96938f22ad958b411c4ee28029c471fb639ecc1af5273"
+        },
+        {
+          "evidence_id": "EVID-SUCC-C707FE9CC389",
+          "document_page": 16,
+          "summary_sha256": "436f55e29a2f6e73942431c270ccf144faba875fa6d9d50b4bb78365a3429ebd"
+        },
+        {
+          "evidence_id": "EVID-SUCC-A041A72D317E",
+          "document_page": 16,
+          "summary_sha256": "d548f9c48946e717794808033f7f4e145a999b1767b4e981ff6d22ee2efe28ed"
+        },
+        {
+          "evidence_id": "EVID-SUCC-E11B6BA6CB1A",
+          "document_page": 17,
+          "summary_sha256": "f69ff816593569b13458b5c4f8e0be0b6e9922f7b75f33a977ae5bfe39a06489"
+        },
+        {
+          "evidence_id": "EVID-SUCC-8761A1F124FF",
+          "document_page": 17,
+          "summary_sha256": "8fbdb33bbb05dbff472dad2c4febbafae3fac6a141d7e200ad77621d82cf88d7"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-96C1B44E5402",
+      "label": "Lettres de cachet, arbitrary arrest, and the fundamental laws",
+      "base_json_pointer": "/subjects/146",
+      "case_ids": [
+        "ACCESS-AUTH-06"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "1fd98de4632dd432b920f76cd56a48affa021ef438cc71f86136f5fa74c1ba4a",
+        "meaning": "d2c1fd3dc336345dba4c0c36b00a488614471e00a92000dccc310cf9445add06",
+        "stance": "54546de3361b6e6135f0a4fac8f2396f8c24b6b3f3b45f9404ee56d5601f8a93",
+        "acceptable_access": "0a3b712447590a0abcc3864b8af4c9f4e78bac45af61342a5e00b74f4470230a",
+        "required_access_facets": "1a91ce152f36fba547500e50f9986d713f6f1fa49e1c6d57d6079cbcd26ec977"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C003-S018"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-637CA4EAD5D1",
+          "document_page": 79,
+          "summary_sha256": "9d1af156351d533ade7f5a46b93758329031a2095c5772211c776277c83ed36e"
+        },
+        {
+          "evidence_id": "EVID-SUCC-F366D19A6BC6",
+          "document_page": 80,
+          "summary_sha256": "843cb5b6349df2f8edc000b98dfbccb4960c2ffcf1ca6c1ae70ed04857c5110c"
+        },
+        {
+          "evidence_id": "EVID-SUCC-6C6780167968",
+          "document_page": 80,
+          "summary_sha256": "903dd0f06b736bb3828b738b7dae372e8f27307ba5e2bb61049ce644ea4fe407"
+        },
+        {
+          "evidence_id": "EVID-SUCC-23ADFAD2C476",
+          "document_page": 80,
+          "summary_sha256": "7c8aae5a7782586691ea036cbaaec7e6c34561209d03e1d9d9e96f84f45a2648"
+        },
+        {
+          "evidence_id": "EVID-SUCC-E92426325D39",
+          "document_page": 81,
+          "summary_sha256": "c588c6a066817e134f282d54b9e713b8b51df980a9c84bdf444a38551287ea47"
+        },
+        {
+          "evidence_id": "EVID-SUCC-9AF183402660",
+          "document_page": 81,
+          "summary_sha256": "3021566232eafd62b6217ec56a02c0c7644ddee254e1af5d032cf320dda8eaa0"
+        },
+        {
+          "evidence_id": "EVID-SUCC-1024C703A13F",
+          "document_page": 81,
+          "summary_sha256": "e09dc13c3ffdc4e671b6529da661275826f39ca978f4035590c4292ef80914a8"
+        },
+        {
+          "evidence_id": "EVID-SUCC-804DC76C045F",
+          "document_page": 81,
+          "summary_sha256": "37de5244662358b67d102a143d5aaaae3f98abfe555f38c1605864c7cd107d26"
+        },
+        {
+          "evidence_id": "EVID-SUCC-76551A72AB2C",
+          "document_page": 82,
+          "summary_sha256": "28fa0972cec5200494e03d81a5ed2c70d031c0ee5062f7294e2500f71e32639b"
+        },
+        {
+          "evidence_id": "EVID-SUCC-954D43B1BFC5",
+          "document_page": 82,
+          "summary_sha256": "b513ea044efe162bf0d0fe42d01ea5708c3ef36576bc68d66f47c363c4d66402"
+        },
+        {
+          "evidence_id": "EVID-SUCC-2C7369064704",
+          "document_page": 82,
+          "summary_sha256": "690ab3cc35b46764c146e935cc124d7e5f7b9147304ea709b8c7b5fa845a0882"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3190651C3B9E",
+          "document_page": 82,
+          "summary_sha256": "9ce30079951f726018c1abfa33f74eb7e57190a2b210f48cdab511273343991e"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-DF242A7BAF78",
+      "label": "Cahiers de doleances",
+      "base_json_pointer": "/subjects/174",
+      "case_ids": [
+        "ACCESS-AUTH-06"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "9a0071e9c0409cbfb24b133fca1bbe44b0ca5c59f8a6ad80b3211d91c8f60250",
+        "meaning": "03c43fc0774b5778669dcb8f71ab9cd38a1551ded776587ff8aac9efd5d2b0e4",
+        "stance": "1712e9fea4979a03d5db1a4f2f48752c6c5751e5c332512260d6e93a9a58acbc",
+        "acceptable_access": "9ced39f2424b336807f59189f94fdd46ed1d24958ac8779e7f1cc092ee449e6f",
+        "required_access_facets": "6ad6c7cb983546ab73441e4b747c8f12b62fb104fa48524319cdd19ee88ba875"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C004-S020"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-86A80248CCB1",
+          "document_page": 96,
+          "summary_sha256": "bc822ca05c2d36e0f11398229e37f9888a0dea1a018bee3424b70a986e2bdf52"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3D88898DAD02",
+          "document_page": 97,
+          "summary_sha256": "a0909ea80e7f4e56d3756d414de1d2173fa1b98776be32d01041051a8dd09b03"
+        },
+        {
+          "evidence_id": "EVID-SUCC-EEA1E37579CC",
+          "document_page": 99,
+          "summary_sha256": "473b34a7b7dc809a65f2334c89bd2f43917eb58c0bdb507a6c274dff81bb2c5f"
+        },
+        {
+          "evidence_id": "EVID-SUCC-F66EC3B8D4EF",
+          "document_page": 100,
+          "summary_sha256": "93a88f9737c56e46cd4eb8081759ca9c36d8722350345269340d98c06e0d9563"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2EC1BFCD2A04",
+      "label": "Clerical oath, jurors, and refractory clergy",
+      "base_json_pointer": "/subjects/220",
+      "case_ids": [
+        "ACCESS-AUTH-06"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "e14c482807918e4c723c5c322f78ac5e4f6141d5b64db08f91e0ed4f593106d6",
+        "meaning": "210da04641250eeeab9fb3dfa8fdf5d0712ae9bd1772cd11335469eb965e6cc3",
+        "stance": "0b2a379eb2471945b780234c06b07cfad6833bb882996243828d15c7b6ec90ba",
+        "acceptable_access": "e0553efb39d99bdb9daee59cb9e519de186313133f10a85a9b6e3a70674bbfe1",
+        "required_access_facets": "756a06c4e4c639ab89c7d0985fa04e3948ed6cbb58fd37564e2670910ee15cc6"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C006-S003"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-CA3CE3FD3C60",
+          "document_page": 143,
+          "summary_sha256": "a69f3c3fc3db4f9a73e0d37a70bd4400854d9d0a9f24d44bb699c593c559ac95"
+        },
+        {
+          "evidence_id": "EVID-SUCC-DCC4DAA8230F",
+          "document_page": 144,
+          "summary_sha256": "4c453515d316f8aebf754b559249c1647b98e5d92cbda05a62622f489d05eee6"
+        },
+        {
+          "evidence_id": "EVID-SUCC-EC4BB3882ACD",
+          "document_page": 145,
+          "summary_sha256": "e3a1fb61fc1aab8ebbed5dbd099d58444e682c540046baffcb7f9b1e9b72f9a4"
+        },
+        {
+          "evidence_id": "EVID-SUCC-9089C68DAF75",
+          "document_page": 146,
+          "summary_sha256": "fe6a886b0beea7e32aa4d0a968d8d8ede720b7ef72f14d89b43f1d52c89238d2"
+        },
+        {
+          "evidence_id": "EVID-SUCC-B3827651C88F",
+          "document_page": 153,
+          "summary_sha256": "05f76a5fd5e6fdf1999978cc0f318d4f6770db3bb1dc3a175d66a0643027dab3"
+        },
+        {
+          "evidence_id": "EVID-SUCC-11FE1FB04F77",
+          "document_page": 157,
+          "summary_sha256": "161bde4cc725cb9342a355f0172bdbd006afb1f1ea58c1fecdbb8871a9952ddf"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-38F9D4ACE8D4",
+      "label": "Women in religious and popular political action",
+      "base_json_pointer": "/subjects/240",
+      "case_ids": [
+        "ACCESS-AUTH-02"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "cddbd7d093cd2cee704f78d16a5a195105f605514f7f642d0403a5db5b5b8a39",
+        "meaning": "410b2ed96f633b8a05054c9a138628348783c9b448a28d20c828bde965fd0804",
+        "stance": "089aaf34aa67ef4ed4c1909458ae2cf7d7a8a70fbf06c14d4fcaf4e8e4149c58",
+        "acceptable_access": "48a3a9f385264b2362d98f27c29ee6a77004d35b1735f38fe47319c7aff20bc6",
+        "required_access_facets": "ea89c6ec289dae975026582a5907ddec07243f0bc82c386d43dacbd2ba94f40c"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C006-S035"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-7AB31871C812",
+          "document_page": 138,
+          "summary_sha256": "1e8d8c85da68d40f9edd02c27cb8dd69a2ea2eb26217458335e10b1b4fc434f7"
+        },
+        {
+          "evidence_id": "EVID-SUCC-4297639AE908",
+          "document_page": 148,
+          "summary_sha256": "f6351d8f48eb17c9e9bd131dc87a6b07540d3291b0a9e7cbbf26df27c0fae8ec"
+        },
+        {
+          "evidence_id": "EVID-SUCC-DF049C8FEE2D",
+          "document_page": 148,
+          "summary_sha256": "d2361db86309a44e34598c8572e2f0c20d50b55cad4f9896e730f8e03ea709b1"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8E42988D62D9",
+      "label": "Saint-Domingue slave uprising and colonial crisis",
+      "base_json_pointer": "/subjects/286",
+      "case_ids": [
+        "ACCESS-AUTH-01"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "711f480af2c7330fee126d86c5f5c9b41097dbb6147e2274db3d8d91258327ae",
+        "meaning": "ce266b50388902c0255977f3c2e9d2a44c4ec0d102e6920478a2b8a265406f86",
+        "stance": "31c774b3d5531d619365b6b029dca3db9df59b7d9cac78b62f46b1a9e89c3ada",
+        "acceptable_access": "63c3389ceccd7e97e4ae09a0aa0ca25191b48735625153a1fb430039053f7ff9",
+        "required_access_facets": "1331936c9010cee3c9e2981b8868499bc76b076b4e45a9fc2f7453c33a47b20b"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C008-S020"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-0570ABC4168B",
+          "document_page": 181,
+          "summary_sha256": "8a27b43ab5d75a432099f7af20d07eae67a4339f2d86fc164db9b8559fe174bd"
+        },
+        {
+          "evidence_id": "EVID-SUCC-90E264487B0D",
+          "document_page": 412,
+          "summary_sha256": "73eea973eedfcc1dbdbe9173017ff2fa92a7a82c6abdb5ccc31047be3ce7023b"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C81AF981D95D",
+      "label": "Normandy and Brittany: Caen's Central Assembly of Resistance",
+      "base_json_pointer": "/subjects/338",
+      "case_ids": [
+        "ACCESS-AUTH-07"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "18b671d57dd06815289e2db8820eac47fed743cbbacb89e50d0aed2c030406a2",
+        "meaning": "e1e825d3343344b2ee882d4871dd66d79a96351093404328a933f369d3b3e388",
+        "stance": "d0348e2c72a0ed6803f9ec1561af8e24a00a91ed586242e771b14a837f2a03c9",
+        "acceptable_access": "29b402c538d38d43cef0a84d8e0f76e88d4e3fcf952ac911ca98916a7b73a75e",
+        "required_access_facets": "dcf861b95cc2e142610f8d4e31045c7b9d709ba3d20fe1286882669f2030d756"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C010-S024"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-829A250017C5",
+          "document_page": 240,
+          "summary_sha256": "91c4541328a9f9729202cf1b1ec976eee35095d8b158cc3920c8edf8c7b2be56"
+        },
+        {
+          "evidence_id": "EVID-SUCC-8BF20B3DAD8E",
+          "document_page": 241,
+          "summary_sha256": "b6859ceb7d9f51f2d3851d070d0e122e984bfbf942839bf5661f3ef7de33d9a6"
+        },
+        {
+          "evidence_id": "EVID-SUCC-4116CF75F732",
+          "document_page": 243,
+          "summary_sha256": "bc754adc1103ffb0fac2eecbf16c3065b1ba19dccba1deda0d1f3b961db73be5"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9DA29F300357",
+      "label": "Resistance to the Revolution,1793–1799: captioned map",
+      "base_json_pointer": "/subjects/345",
+      "case_ids": [
+        "ACCESS-AUTH-09"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "b865a7e4e7a499484388f6eb1f612681e40d162032fe2e0d0714889dc41ed8dd",
+        "meaning": "a3010cb1e638429289830e24330a26bd876e092948246af5ae968e8f3b1c0e57",
+        "stance": "f3027c8776f465dd029050160f9c0fdaadd77205c3e848dc965255e5b245998c",
+        "acceptable_access": "7af2ac8886f6c84bc8b5dcb23236fba9f14ea97f83ad4fa8b7e58128a5d2a322",
+        "required_access_facets": "1519e95149394221cd503eba2f700e2d33849dbdd92581981ee7dcb4e9a31eef"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C010-S040"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-B02B6722BE17",
+          "document_page": 225,
+          "summary_sha256": "e4be1656e94dcd62690ada5d2737eb06330287d70f09341f1b0252c7adba1070"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-54D178FEEEA6",
+      "label": "Republican calendar and dechristianized time",
+      "base_json_pointer": "/subjects/364",
+      "case_ids": [
+        "ACCESS-AUTH-06"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "a7384b77c819e2063967d94d4ae50929852e2f2a78a22ba0b9ede00eaefdb6a9",
+        "meaning": "04b62aa2dfe1e9b6b6f51cd5a1883dd6e8cff2491401b4bc9f1ef6b3e58f4c89",
+        "stance": "197db67b6bd4edf3119742327e09b26ceb3447f804243016dd025d176719e528",
+        "acceptable_access": "2b1f9a3f8062cc9ba979f03220de8ba4cc3748a3ce440164dd782a87d7e35a4f",
+        "required_access_facets": "106af466c4a4367f6b6b259ceb4d689096b84258e60d3971cdf33613057b277a"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C011-S032"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-1B90E74CB7ED",
+          "document_page": 260,
+          "summary_sha256": "7bbeaf34f5623746d7fa34a8262d174f9a2a25d62f4ce4e0b6fd9dbe4a4fb3e6"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4E4FFDBB28E9",
+      "label": "Indies Company scandal and Fabre d'Églantine",
+      "base_json_pointer": "/subjects/365",
+      "case_ids": [
+        "ACCESS-AUTH-07"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "23fb18a0723e02aa32a62f7a8d1d1d4424970dde78d2a429cfad461fb0675f85",
+        "meaning": "42dbb37be6ca6fa5cfdc6fd0272c01a5dcbedcbe5cf9c9052c6e421de3ff7b46",
+        "stance": "4f41e25bd8d31acc24dcb39cb96e72b865b1d5d6cdb619f0d2bb50d2a7d7f2c9",
+        "acceptable_access": "31ba93174b8257bcf46467dfddf346967300635812d734d905fdc8a6cb14e1a4",
+        "required_access_facets": "73a6beb5524be2cdaf93103a9d9ad89de93bea9e3ae310f19ba901e3d760e5b0"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C011-S035"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-75E365F32966",
+          "document_page": 267,
+          "summary_sha256": "ab4fb9305d90b3ff2580f2e9969a3d5850213ad0710f12582b02561cffd60270"
+        },
+        {
+          "evidence_id": "EVID-SUCC-DE73345B2471",
+          "document_page": 268,
+          "summary_sha256": "30485ec412a2c648e219219860bd9b914ec6328dc34e9320b5d8226835ac7c99"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0BEECB354226",
+      "label": "Women in the Germinal and Prairial subsistence protests",
+      "base_json_pointer": "/subjects/386",
+      "case_ids": [
+        "ACCESS-AUTH-02"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "d7607cd152e37c85c760909667c290aba850faadb36f8385c676505826dc6b5f",
+        "meaning": "0c157194d5db44b196669669a765a9193f78f1295307bb54d268dc4cd0a69d9e",
+        "stance": "09ea1760434996faa35f9995824e5a8293d4a40311d5b90a3e52a32dee0481af",
+        "acceptable_access": "501196d3b470f997cabcb9bf831d9e0e8d440c038ce09e310223af813823a1cc",
+        "required_access_facets": "2ca15a94a70d6c7a5a4ede0421cca73ee4b05b6287bfbe08d0eec1cdc129e117"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C012-S033"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-8ED02D699347",
+          "document_page": 290,
+          "summary_sha256": "4f1a825146e2121edb115745542c7e11c1a34cccf007de5328a10b04ae004ddd"
+        },
+        {
+          "evidence_id": "EVID-SUCC-FF91019B2DA5",
+          "document_page": 293,
+          "summary_sha256": "9838ace4c4e7d7dcdb55a1eb67cf6dbf7307a00f67ac17f8447c11904a5d353b"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CB77C5EDB693",
+      "label": "Constitution of the Year III",
+      "base_json_pointer": "/subjects/411",
+      "case_ids": [
+        "ACCESS-AUTH-06"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "cf98c8a2d8b210414fb9624373787244f7a9d095fc77712c616028b4ee45af5e",
+        "meaning": "12779c5e31517d054ed842d84d2b5e5b41752bdc393f70aa293cfde6c6ec8824",
+        "stance": "098711ea09773be2a2d176876292705555e8271f4e46e9a637afc2b655b70572",
+        "acceptable_access": "666fb33bd229268ac828b3362ecfddacf3ee948e97f1c77d40256ebfd574bbd9",
+        "required_access_facets": "804d2f893d23abbbc7b48050ceee150954238d8a6e7069bf89c7fe624771ccb8"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C014-S002"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-6F1A6B787491",
+          "document_page": 318,
+          "summary_sha256": "30e7a45bb19bd5189ea14db4cd5930e972945f1c74385a9e183c29ec0e42ba41"
+        },
+        {
+          "evidence_id": "EVID-SUCC-C62BFCD8D756",
+          "document_page": 319,
+          "summary_sha256": "050093ddf580c66a09b84455b17481d8566ce80e23d2e24dbc54d796df0f33c9"
+        },
+        {
+          "evidence_id": "EVID-SUCC-34CEF1F52D13",
+          "document_page": 336,
+          "summary_sha256": "85b52346e45e710fc9cba0631d40219513491e14ac526b4540cea5ab135c43d0"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+      "label": "Religion, anticlerical policy, and resistance to French rule",
+      "base_json_pointer": "/subjects/436",
+      "case_ids": [
+        "ACCESS-AUTH-05"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "e45b0e10ace7590c14f25198a1171532b9cad871f1828c421720067f6a1196c7",
+        "meaning": "36f03edea9ace6b4f3d07fb7a34aa2d6a5e179aa69be7a4ec787fca04c021be3",
+        "stance": "a220cd8d16ffa5a1ca2caab23a3b0478fede67f94af25289a35611e8f554ab62",
+        "acceptable_access": "f0c13303a173f504559eaa0337b9e6388e7fcea934aca28361c8766881e96f49",
+        "required_access_facets": "8f4000bddc90118e51f57044962ea27cc86b01adc503580dbd09be0983886c47"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C015-S004"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-666BD1638131",
+          "document_page": 349,
+          "summary_sha256": "84e50a0ef696d378040e8a09656d72b8330895ae43052b54336d72abaf734b59"
+        },
+        {
+          "evidence_id": "EVID-SUCC-198419836D02",
+          "document_page": 353,
+          "summary_sha256": "4e6db7e646d5aa2e322a01ae21c607739ad0363a30309487894ee92315c0d742"
+        },
+        {
+          "evidence_id": "EVID-SUCC-C8BC810B7533",
+          "document_page": 356,
+          "summary_sha256": "dd24aa3e6a5531ae4df14f24119931f6a2946566a43fb4f9424b5707623f4d94"
+        },
+        {
+          "evidence_id": "EVID-SUCC-E774392E3245",
+          "document_page": 366,
+          "summary_sha256": "807f99a8c0eda661e4d4a61d85ba1b8af0f471be70ff57c4526a147b5ee13d8c"
+        },
+        {
+          "evidence_id": "EVID-SUCC-8949F435116B",
+          "document_page": 367,
+          "summary_sha256": "642dba18d8e6e2d79cd635d4540626d3bfdf349f61f926fc3e074ae604cba319"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C6F2BF879546",
+      "label": "Italian anti-French revolts: social and religious causes",
+      "base_json_pointer": "/subjects/461",
+      "case_ids": [
+        "ACCESS-AUTH-05"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "5071ac501ec7bf16c94bc99b6fab9ff93694ed6cb1d7a2641cb24efdea122c8a",
+        "meaning": "387dad8dffe102cfba8376a535774a64b137cef2ad5147d9ca492add1a28348e",
+        "stance": "4361770fb61e7c0378ef05e64e5a23176482f40443a34886785d5ae26d85c0e2",
+        "acceptable_access": "023d56ca3eaeebb7a32e5877296a47a3aa447343460ec7edacba337a2f401b28",
+        "required_access_facets": "544bf0d85a07b0863d6d5e370d306966cf18040cc103a48ae051473baa625fbb"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C015-S031"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-F4137DB482A4",
+          "document_page": 366,
+          "summary_sha256": "05b49f38dddbed43a57c297ee76359143329f3b6957eb5b8d8d72f4ced9c84a1"
+        },
+        {
+          "evidence_id": "EVID-SUCC-C56C34FDECEE",
+          "document_page": 367,
+          "summary_sha256": "4fba356112ac4a08e2dd59b6f31115ac75f4bec0c93854441ce357d213fcba53"
+        },
+        {
+          "evidence_id": "EVID-SUCC-2C82C6AF5379",
+          "document_page": 365,
+          "summary_sha256": "fa9531accbfb5638ded5eca36233a725a896e300acafcb52bc0ba1384a159ccb"
+        },
+        {
+          "evidence_id": "EVID-SUCC-04DF2961C43F",
+          "document_page": 368,
+          "summary_sha256": "792ed7fbdca96e29c6326570924bd28b62e85c8a933a5367ac439734e2c16862"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-13D741A01D65",
+      "label": "Coup of 18 Brumaire and fall of the Directory",
+      "base_json_pointer": "/subjects/474",
+      "case_ids": [
+        "ACCESS-AUTH-06"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "bb2655f720a99a909fbf31cedced18b2b2d2ae1356b0d7d92289ec393492a354",
+        "meaning": "7b5552463bc1ddb7ad94ccdcd4dee210d9e224154e5122f13144444aa393e5d4",
+        "stance": "91b74c99ffa6b5043f61992dc8276533bdf9b2c9b0e0b62094b0222905394201",
+        "acceptable_access": "6627808b0ca4e6b9bd6c48c3ffec5c82ff7f83173041256d93cb39f1e6e74d35",
+        "required_access_facets": "0532da7225584bae8bc705c98d102596ead50a330571200e1be6502a2a916012"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C016-S011"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-21BEB84AD5B0",
+          "document_page": 374,
+          "summary_sha256": "94ef1ea5e4e53d672ce5cd2896fc55e083a399ab5741e033c969a7349277bcb9"
+        },
+        {
+          "evidence_id": "EVID-SUCC-3DB81A9CF3BA",
+          "document_page": 375,
+          "summary_sha256": "5dbc429c36277910e236d18aa8eef2def95aba804a465692ed604ddf02b9fcce"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+      "label": "Popular anti-revolution and rural resistance",
+      "base_json_pointer": "/subjects/506",
+      "case_ids": [
+        "ACCESS-AUTH-04"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "03735ccfcb23d5cfd38958bd8e00f09ad6584d3a5b8617a94dc2b21ac4aa656d",
+        "meaning": "dc7a4aeb062dede1fe3d2c76436536a597375257aeb1db609441f8c125d1d501",
+        "stance": "909b087ad81a8c27e88b3759160ad987f664552381749c7581735eff9a416b51",
+        "acceptable_access": "f5d5babe2e51adf23f8bfcc6a575c362af75616748a7673dbf56f28fbb15805d",
+        "required_access_facets": "421b11fb552fc89198a6a60b58fd4072a83f3dc09f823cbd605db68827df3541"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C017-S018"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-9D762CF00E0F",
+          "document_page": 406,
+          "summary_sha256": "96c0276f4c56853ccbb0ce75284ad7a521cbe057c57ce4dc4c476820cd25414e"
+        },
+        {
+          "evidence_id": "EVID-SUCC-87FE93180337",
+          "document_page": 407,
+          "summary_sha256": "1d46d0c6f4d54c98eb716b70b9520dcc386755e59ea1dbd230d16a63e21496ff"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-FC3075CE0927",
+      "label": "Sansculottes, moral economy, and popular tutelage",
+      "base_json_pointer": "/subjects/507",
+      "case_ids": [
+        "ACCESS-AUTH-04"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "ae880bb8cbed3c89c2df9d730f8bcf847e48871d9c5aaf6ce7f8b7f4d9f480a1",
+        "meaning": "fd10d888e0fb70e5e10d56c539d18e9ee32f9dc14f01765ee6ea44e79dc24f14",
+        "stance": "ad57a8d3f85ea9c7250006b37c7d696ccdd43ab06f6effec1030a6736b5c433e",
+        "acceptable_access": "5bf1f10b891449b492f484c79466319b81459429477c97b2c3003c4d1a213e7e",
+        "required_access_facets": "d3d5286b29e494e5718fc3f3f2066dc1099badb4f05173e773336ff241148e01"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C017-S019"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-70FBD6CC1D8D",
+          "document_page": 407,
+          "summary_sha256": "908f4c316e3fbdc48059e3505aaac4e499d9a05ec9bcd065963a1a5dad3c1737"
+        },
+        {
+          "evidence_id": "EVID-SUCC-7778BCC02BAB",
+          "document_page": 418,
+          "summary_sha256": "1a0ae70b4e975fb794c44b9bb3734290bd8cab1b19aa94e653e8a78aa879c050"
+        },
+        {
+          "evidence_id": "EVID-SUCC-444363C0E092",
+          "document_page": 406,
+          "summary_sha256": "8fdb6a6c54302f9132305249092006ddea9bbc008ef817684a05ac1e67c842eb"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-87628E298F61",
+      "label": "Protestant emancipation and religious equality",
+      "base_json_pointer": "/subjects/511",
+      "case_ids": [
+        "ACCESS-AUTH-03"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "5b52618653093c15681ef3dfd6e05fb883ab4cfce0b24b60dd08c5bdb0b1600c",
+        "meaning": "2d8535aa7d60775793cd8e223f7f1c1dbee1ed06e5ce16f0820666b106f3be8c",
+        "stance": "f2fcbaef6f2e077d3ccae2fe04871c8d37dbf7dd737573bdaa557602524f83b1",
+        "acceptable_access": "523281ff8136c55fe48eb39aa529fd39d447f7c4a2d7e0020c9b822f39f65894",
+        "required_access_facets": "99bfe78592ef80362ef16b395cdad462405942fd77f22df76d5c1bb9f002f599"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C017-S023"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-2D1A92D70270",
+          "document_page": 410,
+          "summary_sha256": "e5d0741324c94778552e09309e338ba221931d59f0d1be5ab5d348464f2e943f"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-21DA491F60E3",
+      "label": "Jewish emancipation and citizenship",
+      "base_json_pointer": "/subjects/512",
+      "case_ids": [
+        "ACCESS-AUTH-03"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "340b6e96433d9f53d8e0d29533cf5b497e2cc2fc15e865ad88d168a339e8e40d",
+        "meaning": "5bafbd7dfa104bc4f6811591b860f73ae530de3510470a0aba6f49e85f628ad8",
+        "stance": "e1f58fdc7f678ade0d98dbc34502db6438e52e7fef792266a150a1fafb8414c4",
+        "acceptable_access": "57518b0f1473b1d8c297fd160463ce260d8688ec91ca9b1bd0284b2a07c0e56c",
+        "required_access_facets": "d9ce9d040a78db076879525ad3092bdacdadbda5ea3dd73321acc5ff288055ec"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C017-S024"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-CAC8F912DA71",
+          "document_page": 410,
+          "summary_sha256": "41547398d79c820d144cf3c3aca84dfbce32c462dfef31291d58dea4c1bb4c70"
+        },
+        {
+          "evidence_id": "EVID-SUCC-EBC2F8B6F861",
+          "document_page": 411,
+          "summary_sha256": "11ea48f042245519412ad1c59f07f4d5a8c4e25f4e3d924a6cc832518dd31a4b"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-71A8FF90E718",
+      "label": "Wartime emancipation in Saint-Domingue and colonial abolition,1793–1794",
+      "base_json_pointer": "/subjects/513",
+      "case_ids": [
+        "ACCESS-AUTH-01"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "c801056862b40b29a95de4d7e0b9b80a0cf675c390522be0555d6aa68834172e",
+        "meaning": "c5d835a8f27965dc2de3aa3e584896ea4c884f7160ff6878649e1b57105c3ae4",
+        "stance": "53b63ff9b9e5cbf25aeed73b4b17b564904beec8b6d987f81ddf365b31403550",
+        "acceptable_access": "0e29393c4a0376a2cb465dc1564ba8136b560c8b8d280cbcc325cc3e4122178b",
+        "required_access_facets": "fe09f6339faaaad1d9e4d660d3f2b35090521e1a79f4a1683476809bc5d34b5b"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C017-S025"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-BFF9109E847A",
+          "document_page": 411,
+          "summary_sha256": "e8a060f77a62469c2f4af49e589f9cc167bc09c0bd0d63f96f54be9c8efd6e1b"
+        },
+        {
+          "evidence_id": "EVID-SUCC-95B3CA508791",
+          "document_page": 412,
+          "summary_sha256": "f390d5e30c496fcd7128af622042dbb8d0e57917ee080e7a943c9ef5a2cb53d2"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7CE8C15FFC5B",
+      "label": "Women: political participation and exclusion from equal rights",
+      "base_json_pointer": "/subjects/522",
+      "case_ids": [
+        "ACCESS-AUTH-02"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "61282aa78b942f577baed5e48adba0cd553f7e23640aa41ed43bd6a3b0a01a67",
+        "meaning": "e5685350a3b90703c95c2600b160a2a2bfdf8a2d07913c5004ee8cfef9cc5d6a",
+        "stance": "aeead137649c1448ae5b14de973068571b1b7a8d5581529d1236f86c4b432007",
+        "acceptable_access": "04b7e30c327ad12d146dbfc63e2a171bc6332b6139d2a1d41d1d9a52576ab58d",
+        "required_access_facets": "0f3b8c1c668d408491ad8a9c3025ddb2c52965e471198b79900cf6e0f180ada1"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C017-S034"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-23D6656C9A8F",
+          "document_page": 419,
+          "summary_sha256": "846db9e88b4c03d9af692b5f217d1e52e88eeb4da0391ae655e1c67ead4822ca"
+        },
+        {
+          "evidence_id": "EVID-SUCC-968660897FDF",
+          "document_page": 420,
+          "summary_sha256": "60664c230229e6a88ec0f66250ef3f9e2d93a77ff9f4d764ad8a714b4fc87f03"
+        },
+        {
+          "evidence_id": "EVID-SUCC-1C55713E52F5",
+          "document_page": 421,
+          "summary_sha256": "f5134bd1801251496c17b31801492607983bd5d63c3787efc0caf67d645978e1"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-60C460F43224",
+      "label": "Toussaint L'Ouverture, restored slavery, and Haitian independence",
+      "base_json_pointer": "/subjects/528",
+      "case_ids": [
+        "ACCESS-AUTH-01"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "ee86eee9e2d6f52f99a3e77e37dbc800c1c050050284f440763b5d0e7f8b75b0",
+        "meaning": "07979859e3323783591ded99baea3df22119e9af7818b8eba8046ff631cc9680",
+        "stance": "5559b01ad3d1108f38c4a2e741e170358c55c53bafe2c31356dbf084effd891e",
+        "acceptable_access": "589760bbdbbc66676e42a6fe6af92021bdc7e6a116570a885dd6c5e8f114ad50",
+        "required_access_facets": "c7318ee7dcef4813abfe225189270daa85c6780fd16e9b28e362458ff1325794"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C017-S044"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-07AF165AF1D9",
+          "document_page": 412,
+          "summary_sha256": "cb7a6cc8d4ecf8d2cae9ea73693d2debc599c01d3a54a268d5c7c463a3ba522e"
+        },
+        {
+          "evidence_id": "EVID-SUCC-0746D7A18BD2",
+          "document_page": 413,
+          "summary_sha256": "550ab5aeb0dded5dd2b77e1fb8d6254931d6900bb9672a0f43dfd946d219cade"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E460E732EDD9",
+      "label": "Preservation of colonial slavery in 1790",
+      "base_json_pointer": "/subjects/530",
+      "case_ids": [
+        "ACCESS-AUTH-01"
+      ],
+      "inspection": "targeted amendment access-field inspection; not a repeat of the whole-record source review",
+      "inspected_fields": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets",
+        "evidence[*].evidence_id",
+        "evidence[*].document_page",
+        "evidence[*].evidence_summary"
+      ],
+      "field_value_sha256": {
+        "label": "a4faf73009d2f012df06c7470c70539657d13a1f0bd3c920fd2ab1f5edf6c8e0",
+        "meaning": "6a06d41fbeafbfb3b1e3665a09b46052b4112f3f392bb39cd8154144eb65ec4e",
+        "stance": "01e09e90fc40bbd2151082bdea69e800abd4462c447dbde3633f3407595532eb",
+        "acceptable_access": "7e67c65247ae5baea91a596371e8288a99487d933031115f2d402459fdee396a",
+        "required_access_facets": "724b9667681e02185e6f28aefdf29493a7300e22ca009917cfcb83d7364f8caa"
+      },
+      "inspected_facet_ids": [
+        "FACET-SUCC-C006-S019A"
+      ],
+      "preserved_evidence": [
+        {
+          "evidence_id": "EVID-SUCC-733ECD893813",
+          "document_page": 151,
+          "summary_sha256": "1d3a2f37e3b2becf967734d0c40283d54189d9670583bd571deb53734f08484e"
+        }
+      ],
+      "source_review_reuse": {
+        "path": "successor/independent-review/source-benchmark-review.v1.json",
+        "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+        "basis": "Completed source/evidence and exact final-value review bound to this frozen base. The current pass inspects the access use of those preserved findings."
+      },
+      "disposition": "existing_requirement_adequate_for_assessed_clauses"
+    }
+  ],
+  "task_inspections": [
+    {
+      "task_id": "TASK-SUCC-FE79A91F953B",
+      "base_json_pointer": "/reader_tasks/53",
+      "question": "Retrieve the livelihood strategies of ordinary peasant households.",
+      "subject_ids": [
+        "SUBJ-SUCC-E64A7C4235E5"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "9426f9532b4b066134014f499759948ed8b2a049eeb3666261d9919de946cdd5",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-43DE9274D223"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-C707FE9CC389",
+      "base_json_pointer": "/reader_tasks/54",
+      "question": "Find what communal rights provided and how villages defended them.",
+      "subject_ids": [
+        "SUBJ-SUCC-E64A7C4235E5"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "7b69cd59acb0629662203fe28acda6c598c59eb79c79c35126c51608f005e2e5",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-3F3DB23B3804"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-FB9DA5CD3EE4",
+      "base_json_pointer": "/reader_tasks/238",
+      "question": "Trace the Crown-parlement confrontation through registration disputes, exile, compromise, Royal Session, constitutional declarations, and the May coup.",
+      "subject_ids": [
+        "SUBJ-SUCC-CC2A04C3EAF7",
+        "SUBJ-SUCC-79326CACD8C3",
+        "SUBJ-SUCC-9A8F898AB77D",
+        "SUBJ-SUCC-96C1B44E5402"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "6e173dd4d396612c84cfc9b61727ffe3892ab7edaa0b7052f2569933f8c7761a",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-637CA4EAD5D1",
+      "base_json_pointer": "/reader_tasks/258",
+      "question": "Explain the Parlement's claimed fundamental laws and the opposing royal critique of judicial aristocracy.",
+      "subject_ids": [
+        "SUBJ-SUCC-96C1B44E5402"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "476779396b18fc470d4b3d107e9c7cb883c704e907b02de4f57c8c05d521f1dd",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-D9925C4205B7"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-F366D19A6BC6",
+      "base_json_pointer": "/reader_tasks/259",
+      "question": "How did the Crown characterize parlementary claims?",
+      "subject_ids": [
+        "SUBJ-SUCC-96C1B44E5402"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "4589ddf315b093b01690429b72ba1d337e5bddbc60b68f1bc033d241ff8bc30b",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-23ADFAD2C476",
+      "base_json_pointer": "/reader_tasks/260",
+      "question": "What rights did the Parlement call fundamental?",
+      "subject_ids": [
+        "SUBJ-SUCC-96C1B44E5402"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "76d75abeaac9076e1c53b93c098ad093da715f19385f90df46f2db09541d3e04",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-6186E596476A",
+      "base_json_pointer": "/reader_tasks/337",
+      "question": "How did the clerical oath and religious persecution, Varennes, Champ de Mars repression, and the Feuillants’ failure dissolve the broad revolutionary consensus of 1790?",
+      "subject_ids": [
+        "SUBJ-SUCC-5BF206CEDFE0",
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-6216510D2EE3",
+        "SUBJ-SUCC-1A129D23C345",
+        "SUBJ-SUCC-1AF0A9682A4D",
+        "SUBJ-SUCC-5306306A9030",
+        "SUBJ-SUCC-B4386E288802"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "93ce8bbc92fa61b370e1a96052ac640686fe29d8568665deb18ddb493de0159e",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-CA3CE3FD3C60",
+      "base_json_pointer": "/reader_tasks/339",
+      "question": "How did the oath divide constitutional and refractory clergy, what explains the regional and social pattern of acceptance and refusal and the staffing of the new Church, and how did papal condemnation provoke retractions?",
+      "subject_ids": [
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-26AD2CABDCC5",
+        "SUBJ-SUCC-7BF0734F6369"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "dc8008dbc1e1f43dc0205455871fabeb1d1275b5aafeb4b1f12268c4c1bbd42c",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-DCC4DAA8230F",
+      "base_json_pointer": "/reader_tasks/340",
+      "question": "How do initial refusal, eventual parish-clergy acceptance and subsequent retractions differ in population and timing?",
+      "subject_ids": [
+        "SUBJ-SUCC-2EC1BFCD2A04"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "5fc0c8daa072de2418e585f7ca1abc97ada0a5f02b7be9a37a76748c190571f0",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-172307628112",
+      "base_json_pointer": "/reader_tasks/341",
+      "question": "How did southern sectarian conflict, the clerical oath, and persecution give counter-revolution a popular religious base beyond émigré elites, without making every religious opponent a committed royalist?",
+      "subject_ids": [
+        "SUBJ-SUCC-C4552AA613C0",
+        "SUBJ-SUCC-B4386E288802",
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-1A129D23C345"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "6fc801e5bd05994edde0bfd1174d844a842a821484ee02345d409b89a82bec0f",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-1BEC81E616EF",
+      "base_json_pointer": "/reader_tasks/356",
+      "question": "How did Robespierre’s denunciation of slavery and support for free coloured political rights differ from Barnave’s positions, and which question produced the reported victory?",
+      "subject_ids": [
+        "SUBJ-SUCC-77F58847CF83",
+        "SUBJ-SUCC-2AC42802019F"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "source_pages",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "24ca4c110cac2e05b53e5dbbebbabc5c838f473b2939ebb561fb462a02ebff1a",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-5D8F2405B6D1"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-7AB31871C812",
+      "base_json_pointer": "/reader_tasks/371",
+      "question": "How did women act as political agents in both Catholic resistance at Montauban and anti-refractory mobilization in Paris?",
+      "subject_ids": [
+        "SUBJ-SUCC-38F9D4ACE8D4"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "13cefc20821d2deb07d722361cb9da120ae4ed551880790133ef0cc64cf922ac",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-F505B29D5D65"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-733ECD893813",
+      "base_json_pointer": "/reader_tasks/374",
+      "question": "How did preservation of slavery in 1790 qualify the universal language of rights?",
+      "subject_ids": [
+        "SUBJ-SUCC-E460E732EDD9"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "de7470ba1a3785b46a5b326ca8cd2802dcf830c04679cd39f6d29419f71ba8de",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-128062B0D465",
+        "legacy:TASK-A911FC350F8D"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-305B85115DE8",
+      "base_json_pointer": "/reader_tasks/375",
+      "question": "How did Barnave and the Assembly distinguish preserving slavery from granting limited political rights to free people of colour in Saint-Domingue?",
+      "subject_ids": [
+        "SUBJ-SUCC-2AC42802019F",
+        "SUBJ-SUCC-E460E732EDD9"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "c0632262ee804eff7cd76107735c8d2e8b5a6e93dbb696dded09f0eb18740507",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-128062B0D465"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-3C35CA9579BA",
+      "base_json_pointer": "/reader_tasks/404",
+      "question": "Explain how the Saint-Domingue uprising connected colonial policy, slavery, Bordeaux interests, sugar scarcity, and Parisian price-fixing.",
+      "subject_ids": [
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-4DF9C902BF5B"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages"
+      ],
+      "task_record_sha256": "82d4cd8d10fc3c81a71084098ad5fa45aa81183f9a83590f1b0dbcbdee4d8368",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-4C02B4FE87B6"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-243F183EE4A3",
+      "base_json_pointer": "/reader_tasks/442",
+      "question": "Why was the federalist revolt limited in extent yet strategically significant, and how did recruitment failures restrict it?",
+      "subject_ids": [
+        "SUBJ-SUCC-BBD84DC00640"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages"
+      ],
+      "task_record_sha256": "ef0e8aea22df0b750aac5c10a770ba3f6b288f6d3d7c93723a36a858198f64e5",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-6DBD5F49BFE6"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-2D22932ACF13",
+      "base_json_pointer": "/reader_tasks/452",
+      "question": "Trace dechristianization and the gap between protection of worship and local enforcement.",
+      "subject_ids": [
+        "SUBJ-SUCC-72A1D9C70157",
+        "SUBJ-SUCC-034398CDB346",
+        "SUBJ-SUCC-54D178FEEEA6",
+        "SUBJ-SUCC-6B6553ED0407"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "ce009817c9d647bd466fad64609922b913daf82d26507d8ae560f44cd0aa7091",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-E7721458013C",
+      "base_json_pointer": "/reader_tasks/454",
+      "question": "Reconstruct factional realignment while distinguishing real fraud from fabricated foreign plots.",
+      "subject_ids": [
+        "SUBJ-SUCC-7FD46BD9C318",
+        "SUBJ-SUCC-488D7D90E0DF",
+        "SUBJ-SUCC-4E4FFDBB28E9",
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-35DD2729C31D"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages"
+      ],
+      "task_record_sha256": "c97cd44143aae19b84b085b414e6b1cc6e99e7b28d5edcce1a3e47980b252bd5",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-29637EA07D89",
+        "legacy:TASK-89FF49A4F508",
+        "legacy:TASK-2DC65F6C7A18"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-822FD108A319",
+      "base_json_pointer": "/reader_tasks/471",
+      "question": "How did Germinal and Prairial differ in organization, subsistence and constitutional demands, women’s participation and repressive outcome?",
+      "subject_ids": [
+        "SUBJ-SUCC-D0BE47FBF36D",
+        "SUBJ-SUCC-CC730DB406A0",
+        "SUBJ-SUCC-655205C566BE",
+        "SUBJ-SUCC-0BEECB354226",
+        "SUBJ-SUCC-E57AD92C0E46",
+        "SUBJ-SUCC-9B51E63EF68F"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "e7a484872b2918c3c26a3b07810bae3ddaa92ea9dbd1de65f51991d2e858ac48",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-FC5617CE32B4",
+        "legacy:TASK-1D17908498C0",
+        "legacy:TASK-C404343D53B2",
+        "legacy:TASK-76C9774C786A",
+        "legacy:TASK-BDA491BA543A",
+        "legacy:TASK-44DB0A1C5E1D",
+        "legacy:TASK-BE5877A671A2",
+        "legacy:TASK-E82E3FCF4FB7",
+        "legacy:TASK-6D1DF247FC2B",
+        "legacy:TASK-EF40609B72A3",
+        "legacy:TASK-1BE727E4EDBC",
+        "legacy:TASK-276B5121DFD0",
+        "legacy:TASK-A33C9A538C67",
+        "legacy:TASK-120A7740313B",
+        "legacy:TASK-E481B79C7C89"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-F79534FB3C18",
+      "base_json_pointer": "/reader_tasks/489",
+      "question": "How did the Year III constitution combine civil equality with property qualifications, rights with duties, divided and rotating institutions, and Convention continuity intended to prevent royalist or Jacobin recovery?",
+      "subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-667E4A302677"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "7f90dbd7b36478fc59eb5da53e36ea2a634e727bb544eb8f00f80a1a0cd7191f",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-B5A2D0B22A66",
+      "base_json_pointer": "/reader_tasks/490",
+      "question": "How did ratification and the Two Thirds Law provoke Vendémiaire, and how did its defeat secure Convention continuity, military dependence and the dismantling of Parisian sectional power?",
+      "subject_ids": [
+        "SUBJ-SUCC-667E4A302677",
+        "SUBJ-SUCC-56435A176677",
+        "SUBJ-SUCC-FB5F9C1AFFC2",
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-21A67C9C4D6C",
+        "SUBJ-SUCC-0D8853C263E4"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "1e351001a090ce18699968d5e98d050bede645e38733e945b5222ce8c1629be3",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-9F62FA328B87",
+      "base_json_pointer": "/reader_tasks/493",
+      "question": "How did Babeuf’s social ideal and immediate programme challenge the propertied republic, gain Jacobin allies and lead to a coercive conspiracy after the loss of the mass Parisian journée?",
+      "subject_ids": [
+        "SUBJ-SUCC-032D51EDEC22",
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-3F2B224B895F",
+        "SUBJ-SUCC-FB5F9C1AFFC2",
+        "SUBJ-SUCC-56435A176677"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "89d0da312879405a3fe680ce690e1ac92bef582387ecc38b6cb90cd80b2a2b47",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-C8C8CEB0CCD1",
+      "base_json_pointer": "/reader_tasks/500",
+      "question": "How did the Directory encourage and contain Jacobin journalism, clubs and constitutional circles from 1795 to 1798, then manipulate elections and suppress the Year VI result through Floréal?",
+      "subject_ids": [
+        "SUBJ-SUCC-3F2B224B895F",
+        "SUBJ-SUCC-3CBDC5947289",
+        "SUBJ-SUCC-29CDF2AC918A",
+        "SUBJ-SUCC-F4D91D47A532",
+        "SUBJ-SUCC-CB77C5EDB693"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "2e2f4d8d2c9d577c65dcd8ed19735951e26e1fa57440eeabf0f67ea45f498257",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-46BC20C9AA18",
+      "base_json_pointer": "/reader_tasks/515",
+      "question": "How do Piedmontese, Tuscan, Jewish and divided Jacobin experiences complicate a single religious-royalist account of Italian anti-French resistance?",
+      "subject_ids": [
+        "SUBJ-SUCC-C6F2BF879546",
+        "SUBJ-SUCC-9C234417CEB0",
+        "SUBJ-SUCC-0E9117EAD92A",
+        "SUBJ-SUCC-02AF5D334E8F",
+        "SUBJ-SUCC-431D9939D11B"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "1d27b6878de40c0adc7d4545b7f9377d1b06b2a344b2c7899220fa4ea832246f",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-0AE98216EF95"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-ED6C9FD74E24",
+      "base_json_pointer": "/reader_tasks/520",
+      "question": "How did the 1799 elections and Prairial strengthen Sieyes and revive Jacobins, what did that revival achieve before suppression, and how did Prairial differ from Brumaire in actors and constitutional effect?",
+      "subject_ids": [
+        "SUBJ-SUCC-F45A115730CC",
+        "SUBJ-SUCC-55CCA1CC2481",
+        "SUBJ-SUCC-3F2B224B895F",
+        "SUBJ-SUCC-D25EFF329FF1",
+        "SUBJ-SUCC-13D741A01D65",
+        "SUBJ-SUCC-1635049F80A6",
+        "SUBJ-SUCC-7742B7667FC0"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "09a32f0872b7b26b984deb7f9d4c5d1708da114c6d8abc915afbb90afd46eb61",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-0383E3E68698",
+      "base_json_pointer": "/reader_tasks/523",
+      "question": "How did Prairial and Brumaire differ in actors, methods and constitutional effects, and how did Sieyes and Lucien Bonaparte help overcome the legislative resistance that nearly defeated Brumaire?",
+      "subject_ids": [
+        "SUBJ-SUCC-13D741A01D65",
+        "SUBJ-SUCC-F45A115730CC",
+        "SUBJ-SUCC-D25EFF329FF1"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "50da26edc8b40b0e951d0ffcd43fc327c3c1284db6bdf948557f88ce3a87bbb6",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-89C9B3341F54",
+      "base_json_pointer": "/reader_tasks/538",
+      "question": "How did war and trade disruption, inflation and national-land finance, lost elite demand, land-biased investment and agrarian change make the Revolution economically costly; how did subsistence distress shape popular responses, and which sectors nevertheless benefited?",
+      "subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-97BC997A7082",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-60B96F147FEF",
+        "SUBJ-SUCC-7F8042CFA7E2",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "a3dd337fbca92730e3f002dc98570228af36de16da4d79e5ce84a4f42d40a0b0",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-7E7F688955F0"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-2615667861B8",
+      "base_json_pointer": "/reader_tasks/540",
+      "question": "How did ordinary people’s material experience differ from property owners’ gains, and how do popular anti-revolution and sansculotte demands differ from organized counter-revolution?",
+      "subject_ids": [
+        "SUBJ-SUCC-943145BC4166",
+        "SUBJ-SUCC-191FA6C1BCC9",
+        "SUBJ-SUCC-FC3075CE0927",
+        "SUBJ-SUCC-CFFCD493828A"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "571994f771bd6a163ccd5057003b32270d31e70ff9290e9eb44ea1f4a5722007",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-B3EBF826493A"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-4A89DC3E66D8",
+      "base_json_pointer": "/reader_tasks/542",
+      "question": "How did Protestant and Jewish emancipation change legal status without eliminating prejudice, conflict or state supervision?",
+      "subject_ids": [
+        "SUBJ-SUCC-87628E298F61",
+        "SUBJ-SUCC-21DA491F60E3"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "36f32c8a500819b2b4afc87167137c66909e26853f23ae8c0e9c94792ab0a134",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-A8C8E69D91F8",
+      "base_json_pointer": "/reader_tasks/543",
+      "question": "How did free-coloured rights differ from slave emancipation, and what forced each change?",
+      "subject_ids": [
+        "SUBJ-SUCC-2AC42802019F",
+        "SUBJ-SUCC-71A8FF90E718"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "f5f2800aff3c1a7d160d94839f2613cea1493fb401d857ccb4fe68dfc4b8ca44",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-0E71B4DBE224",
+      "base_json_pointer": "/reader_tasks/544",
+      "question": "Why did black military power prevent restoration of slavery in Saint-Domingue while France restored it elsewhere?",
+      "subject_ids": [
+        "SUBJ-SUCC-60C460F43224",
+        "SUBJ-SUCC-71A8FF90E718"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages"
+      ],
+      "task_record_sha256": "f7988e1b50128765d710d0c1454520812489a171116f456df601b5423d2639b4",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-D68F990957A8",
+      "base_json_pointer": "/reader_tasks/549",
+      "question": "How did women’s varied political and religious agency coexist with deliberate exclusion from equal rights?",
+      "subject_ids": [
+        "SUBJ-SUCC-7CE8C15FFC5B"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "c91ae8a0a8c5de0b3bd7a2986e2d37cab6f04cf7717b716011a5d43841eb6af4",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-20A83FDFD7FB"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-AF8A056BA239",
+      "base_json_pointer": "/reader_tasks/564",
+      "question": "How did colonial ambitions, emancipation and disease shape the Caribbean struggle, including the British intervention and its withdrawal with severe losses? ",
+      "subject_ids": [
+        "SUBJ-SUCC-51F0F6F76B36",
+        "SUBJ-SUCC-71A8FF90E718"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages"
+      ],
+      "task_record_sha256": "762a883493c8e9e61b9144598cb4d5f36180bb0f4f56117bfe607103f7ac07ef",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-C99F45078117"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-7BE6D1223462",
+      "base_json_pointer": "/reader_tasks/575",
+      "question": "How did the rules for choosing and replacing Directors differ from the actual political turnover of the regime?",
+      "subject_ids": [
+        "SUBJ-SUCC-47D99B2DA1D5",
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-F45A115730CC"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "1677ddf90b4237a0f0351b599c072ed6f6acbc8da4f9ba7dca9c44453cb6bff3",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-392398A8EC5B",
+      "base_json_pointer": "/reader_tasks/576",
+      "question": "How did French extraction, religious policy and urban-rural conflict produce Italian resistance, from Lombardy and the sack of Pavia to the Cisalpine and Roman client regimes?",
+      "subject_ids": [
+        "SUBJ-SUCC-80B9CA82989A",
+        "SUBJ-SUCC-C9C4454491D0",
+        "SUBJ-SUCC-C6F2BF879546",
+        "SUBJ-SUCC-D33E439E4979"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "b933aaf5c86be72536d7d081b0af51fe70d62a18c64a2b17e6e2b6b780b3bee8",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-FFC10CBFFB5F"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-A78B15FAA829",
+      "base_json_pointer": "/reader_tasks/580",
+      "question": "How did Haiti’s direct revolutionary independence differ from the more limited influence of French revolutionary language and later imperial disruption on Latin American independence?",
+      "subject_ids": [
+        "SUBJ-SUCC-7A3B2AE4DD35",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages"
+      ],
+      "task_record_sha256": "f88eb7aa9d34e247e322cf716f51e4be8e7044aeab4c43c640105d4fc79b877a",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-20CE5298E380",
+      "base_json_pointer": "/reader_tasks/583",
+      "question": "How did colonial revolt and war move policy from preserving slavery and restricting free people of colour’s rights to emancipation, and why did Saint-Domingue avoid restored slavery and become independent Haiti while slavery returned elsewhere? Distinguish legal populations and successive decisions.",
+      "subject_ids": [
+        "SUBJ-SUCC-E460E732EDD9",
+        "SUBJ-SUCC-2AC42802019F",
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "d5efb6cf828c9edaa7255974d0bec082ac19662a380f20626e9fc37f36653ccf",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-FDC098634296"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-B0506797DF82",
+      "base_json_pointer": "/reader_tasks/584",
+      "question": "How did revolutionary armed force develop from citizen militias and mass mobilization into an army able to sustain, coerce, and replace civilian governments?",
+      "subject_ids": [
+        "SUBJ-SUCC-2056A5304D29",
+        "SUBJ-SUCC-81DD3C32CF36",
+        "SUBJ-SUCC-21A67C9C4D6C",
+        "SUBJ-SUCC-13D741A01D65",
+        "SUBJ-SUCC-43C2056DACCC"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "261e916907440fcc5ed02ac2549be3b1f37d43d2169707c859503750563e949c",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-F2D0FABD33B4",
+      "base_json_pointer": "/reader_tasks/585",
+      "question": "Which rational administrative and legal reforms endured, and how did property-qualified citizenship, women’s exclusion, and stronger state control limit their promise of equal participation?",
+      "subject_ids": [
+        "SUBJ-SUCC-A5F4F85BCE57",
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-B29051308F1C",
+        "SUBJ-SUCC-6BBDB6F461D1",
+        "SUBJ-SUCC-943145BC4166",
+        "SUBJ-SUCC-6A5ADB894FAD",
+        "SUBJ-SUCC-7CE8C15FFC5B"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "f35acd35322a4cb9b9cf3d0c2618a9fac9eb50cfabcdfa397aa0f384ccdd54f0",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-829CD54276C2",
+      "base_json_pointer": "/reader_tasks/587",
+      "question": "How were the cahiers prepared and filtered, what did they demand, and how did the Assembly’s later reforms exceed those instructions?",
+      "subject_ids": [
+        "SUBJ-SUCC-DF242A7BAF78",
+        "SUBJ-SUCC-7222BCC048CF",
+        "SUBJ-SUCC-20E7D6744101"
+      ],
+      "inspection": "whole displayed task record, including facet wording, bindings and rationales",
+      "inspected_fields": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "task_record_sha256": "0ccffc7b829ec254f786786a4f31bf7b1665316e129b16960968e903cd65c124",
+      "inspected_facet_content_ids": [
+        "native:TASK-0133"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-7FC43B3C934E",
+      "base_json_pointer": "/reader_tasks/594",
+      "question": "How did the sansculottes’ social base, moral economy and direct political action conflict with representative sovereignty and Robespierre’s democratic ideal, and how did suppression and later memories of violence shape their legacy?",
+      "subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3",
+        "SUBJ-SUCC-FC3075CE0927",
+        "SUBJ-SUCC-65D590EBAFE2",
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-AF9995D451BE",
+        "SUBJ-SUCC-9B51E63EF68F"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "826860f790bd4960bdc6f533343e18e189ad3feb40bebf3532fdbe7eb8836ae2",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-4B00E34B96C2",
+        "legacy:TASK-1B69EEA8C72D"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-A03FF05DCA5B",
+      "base_json_pointer": "/reader_tasks/597",
+      "question": "How did early Church dispossession, religious equality, the Civil Constitution, the clerical oath and the breach with Rome successively change relations between clergy and Revolution?",
+      "subject_ids": [
+        "SUBJ-SUCC-F066F35B29BE",
+        "SUBJ-SUCC-F3495B619256",
+        "SUBJ-SUCC-D990EC541CE5",
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-7BF0734F6369"
+      ],
+      "inspection": "main question and target IDs only; completed source task/facet review reused",
+      "inspected_fields": [
+        "question",
+        "subject_ids"
+      ],
+      "task_record_sha256": "1ba97516e1b86853b21b91f493e621741886c2baed0a3bd13459bf2924a036c7",
+      "inspected_facet_content_ids": [],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    },
+    {
+      "task_id": "TASK-SUCC-IR1517-97F85AB34332",
+      "base_json_pointer": "/reader_tasks/602",
+      "question": "How did the material and political outcomes for ordinary citizens compare with the gains of landowners, professionals, soldiers, Protestants and Jews, and what qualifications limited those gains?",
+      "subject_ids": [
+        "SUBJ-SUCC-943145BC4166",
+        "SUBJ-SUCC-CFFCD493828A",
+        "SUBJ-SUCC-E4C3D945CE3F",
+        "SUBJ-SUCC-43C2056DACCC",
+        "SUBJ-SUCC-87628E298F61",
+        "SUBJ-SUCC-21DA491F60E3"
+      ],
+      "inspection": "main question and target IDs; every facet question and required-subject binding; other provenance not reassessed",
+      "inspected_fields": [
+        "question",
+        "subject_ids",
+        "required_access_facets[*].facet_id",
+        "required_access_facets[*].question",
+        "required_access_facets[*].required_subject_ids"
+      ],
+      "task_record_sha256": "e7d9125fc7cdb96d98adc62ac3a75f3778b4efb95c431058211938c6bfad5c94",
+      "inspected_facet_content_ids": [
+        "legacy:TASK-A49FF1B4FD5D"
+      ],
+      "disposition": "no_access_delta_proposed",
+      "source_review_reuse": "successor/independent-review/source-benchmark-review.v1.json"
+    }
+  ],
+  "additional_exploratory_field_inspections": {
+    "subject_ids": [
+      "SUBJ-SUCC-1DB77B316BEB",
+      "SUBJ-SUCC-A5981387DB13",
+      "SUBJ-SUCC-CC2A04C3EAF7",
+      "SUBJ-SUCC-936AFF93E708",
+      "SUBJ-SUCC-2B7B67960E9B",
+      "SUBJ-SUCC-9EE66EC07AA3",
+      "SUBJ-SUCC-AF9995D451BE",
+      "SUBJ-SUCC-7EF1051421BC",
+      "SUBJ-SUCC-0CA434153B74",
+      "SUBJ-SUCC-14FFAD55B983",
+      "SUBJ-SUCC-2F18C27A67EA",
+      "SUBJ-SUCC-53E5D400B137",
+      "SUBJ-SUCC-3D8A0053D7DE",
+      "SUBJ-SUCC-ADDF1D28A12D"
+    ],
+    "subject_fields": [
+      "label",
+      "meaning",
+      "stance",
+      "acceptable_access"
+    ],
+    "task_ids": [
+      "TASK-SUCC-01D84050ED33"
+    ],
+    "task_fields": [
+      "question",
+      "subject_ids",
+      "required_access_facets"
+    ],
+    "limit": "These displayed fields informed selection and terminology checks. Their evidence/facets are not counted in the 28 focused subject inspections, and no fresh whole-record assent is claimed."
+  },
+  "label_inventory_scope": "All 531 subject labels were surveyed for selection; this is not a fresh substantive review of all 531 subjects.",
+  "mechanical_population_scope": "All 531 subject IDs/priorities and 617 task IDs/unit weights were bound and compared. Counts and rules are not used as evidence of semantic inspection.",
+  "new_source_page_inspections": [],
+  "coverage_counts": {
+    "targeted_subjects": 28,
+    "targeted_tasks": 43,
+    "additional_exploratory_subjects": 14,
+    "additional_exploratory_tasks": 1,
+    "subject_evidence_bindings": 129,
+    "new_source_pages": 0
+  },
+  "access_rule_inventory": [
+    {
+      "rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+      "parent_count": 408
+    },
+    {
+      "rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+      "parent_count": 122
+    },
+    {
+      "rule": "Accept a clear route to the captioned map/theme on225. Do not require or credit internal map labels, symbols, shaded areas or routes as substantive evidence under this record.",
+      "parent_count": 1
+    }
+  ],
+  "access_rule_reading": "Each distinct rule was read. Clear retrieval of meaning and qualifications is required; enumerated routes are not a closed string-matching vocabulary, and a matching broad name does not satisfy a distinct facet."
+}
