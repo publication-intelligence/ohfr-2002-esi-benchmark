@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-16T23:50:43.257781+00:00",
+  "recorded_at": "2026-09-17T00:08:24.492461+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -267,6 +267,14 @@
       "global_assigned_exact_union": 1664,
       "new_keys_disjoint_from_other_assignments": true,
       "review_complete": false
+    },
+    "completed_lead_historical_relationship_components": {
+      "checkpoint_sha256": "0f21bbbd53e8ea8da622e2e9f4f888eb379b29c7559c83f25f6afb33360eb4dc",
+      "verified_component_files": 19,
+      "personally_dispositioned_keys": 664,
+      "includes_all_lead_unique_keys": 590,
+      "other_owned_overlap_keys_awaiting_reconciliation": 239,
+      "final_repaired_value_review_complete": false
     }
   },
   "density_proposal": {
