@@ -1,0 +1,33 @@
+{
+  "schema_version": "source-freeze-recovery-checkpoint-v1",
+  "recorded_at": "2026-09-17T05:07:06.449775+00:00",
+  "frozen_source_commit": "8e0abb6",
+  "canonical_state_sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+  "archives": [
+    {
+      "path": "/home/john/.codex/evaluation-archives/ohfr-successor-source-freeze-c45d672a/private-complete.zip",
+      "sha256": "aa735cc153e87ac666e702dd8c018e0b5517afe615e0dbcd758aae7f51188f5e",
+      "bytes": 2253251
+    },
+    {
+      "path": "/home/john/.codex/evaluation-archives/ohfr-successor-source-freeze-c45d672a/source-material.zip",
+      "sha256": "c1c4b1b70aea540bdceb33b1b6aa8b2c643e8ab53b2b931864fae45104c85376",
+      "bytes": 11863042
+    }
+  ],
+  "native_checkpoint_registered_artifacts": 24,
+  "native_checkpoint_excluded_count": 0,
+  "supplemental_private_source_files": 35,
+  "supplemental_chunk_pairs": 17,
+  "native_import_verified": true,
+  "restored_state_validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "all_archive_members_matched_exact_original_bytes": true,
+  "raw_source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "preserved_scope": "Native frozen state and24 registered artifacts; separate source-material archive preserves full PDF and17 chunk PDFs/sidecars absent from native registration. Review component history remains bound by the frozen benchmark Git commit.",
+  "source_state_mutated": false,
+  "public_release_descriptor_checkpoint": false
+}
