@@ -1,0 +1,2730 @@
+{
+  "schema_version": "independent-legacy-repair-composition-v1",
+  "status": "sealed_scoped_repaired_values; whole_book_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    }
+  ],
+  "group_range": [
+    51,
+    60
+  ],
+  "rows": [
+    {
+      "group_index": 51,
+      "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0088",
+        "CORR-007-LEGACY-0089"
+      ],
+      "source_correction_row_sha256s": [
+        "17ec7b65a1f2608d71faa90c7030bedd99de0910fd90a16bc8a2e735c401aa6c",
+        "bb2fa496b27a5db37e2d4ee4a20b7cddd0afcb35f039f5382430b036ad616956"
+      ],
+      "before_record": {
+        "label": "Saint-Just, revolutionary government and emergency social policy",
+        "priority": "major",
+        "meaning": "Saint-Just articulated revolutionary government's wartime necessity, proposed the Ventôse confiscations, and supplied the ideological accusation used to destroy the Hébertists.",
+        "stance": "The Ventôse program was not worked through or substantially implemented, and the March conspiracy speech offered no specific evidence against individuals.",
+        "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+        "acceptable_access": [
+          "Saint-Just, revolutionary government and emergency social policy",
+          "Saint-Just, Louis-Antoine > revolutionary government",
+          "Saint-Just, Louis-Antoine > Laws of Ventôse",
+          "Saint-Just, Louis-Antoine > Hébertist prosecution",
+          "Saint-Just—Revolutionary Government",
+          "Saint-Just—Laws of Ventôse",
+          "Saint-Just—factions",
+          "Saint-Just—Hébertists"
+        ],
+        "evidence": [
+          {
+            "document_page": 252,
+            "source_page_label": "252",
+            "locator_class": "principal",
+            "evidence_summary": "Saint-Just argued that emergency revolutionary laws required a revolutionary form of government.",
+            "evidence_id": "EVID-SUCC-A411681704C1",
+            "source_local_subject_id": "SUCC-C011-S029",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 266,
+            "source_page_label": "266",
+            "locator_class": "principal",
+            "evidence_summary": "He introduced sequestration and redistribution decrees that remained largely unrealized.",
+            "evidence_id": "EVID-SUCC-C14BA562AE06",
+            "source_local_subject_id": "SUCC-C011-S029",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "principal",
+            "evidence_summary": "His foreign-faction speech prepared the arrest and political trial of the Hébertists without naming specific evidence.",
+            "evidence_id": "EVID-SUCC-C6A406EC57AC",
+            "source_local_subject_id": "SUCC-C011-S029",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S029",
+            "label": "Saint-Just, revolutionary government and emergency social policy",
+            "meaning": "Saint-Just articulated revolutionary government's wartime necessity, proposed the Ventôse confiscations, and supplied the ideological accusation used to destroy the Hébertists.",
+            "stance": "The Ventôse program was not worked through or substantially implemented, and the March conspiracy speech offered no specific evidence against individuals.",
+            "acceptable_access": [
+              "Saint-Just, revolutionary government and emergency social policy",
+              "Saint-Just, Louis-Antoine > revolutionary government",
+              "Saint-Just, Louis-Antoine > Laws of Ventôse",
+              "Saint-Just, Louis-Antoine > Hébertist prosecution",
+              "Saint-Just—Revolutionary Government",
+              "Saint-Just—Laws of Ventôse",
+              "Saint-Just—factions",
+              "Saint-Just—Hébertists"
+            ],
+            "document_pages": [
+              252,
+              266,
+              270
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S029"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S029",
+            "label": "Saint-Just, revolutionary government and emergency social policy",
+            "meaning": "Saint-Just articulated revolutionary government's wartime necessity, proposed the Ventôse confiscations, and supplied the ideological accusation used to destroy the Hébertists.",
+            "stance": "The Ventôse program was not worked through or substantially implemented, and the March conspiracy speech offered no specific evidence against individuals.",
+            "acceptable_access": [
+              "Saint-Just, revolutionary government and emergency social policy",
+              "Saint-Just, Louis-Antoine > revolutionary government",
+              "Saint-Just, Louis-Antoine > Laws of Ventôse",
+              "Saint-Just, Louis-Antoine > Hébertist prosecution",
+              "Saint-Just—Revolutionary Government",
+              "Saint-Just—Laws of Ventôse",
+              "Saint-Just—factions",
+              "Saint-Just—Hébertists"
+            ],
+            "document_pages": [
+              252,
+              266,
+              270
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "3b4e3fd3b7cbbe1fc0ec9a0bccd72d615e2e867527808be58767fe260318472a",
+      "proposed_record": {
+        "label": "Saint-Just, revolutionary government and emergency social policy",
+        "priority": "major",
+        "meaning": "Saint-Just articulated revolutionary government’s wartime necessity, proposed confiscating enemies’ property for poor patriots through the Ventôse measures, and supplied the ideological accusation used to destroy the Hébertists.",
+        "stance": "The Ventôse program was not worked through or substantially implemented, and the March conspiracy speech offered no specific evidence against individuals.",
+        "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+        "acceptable_access": [
+          "Saint-Just, revolutionary government and emergency social policy",
+          "Saint-Just, Louis-Antoine > revolutionary government",
+          "Saint-Just, Louis-Antoine > Laws of Ventôse",
+          "Saint-Just, Louis-Antoine > Hébertist prosecution",
+          "Saint-Just—Revolutionary Government",
+          "Saint-Just—Laws of Ventôse",
+          "Saint-Just—factions",
+          "Saint-Just—Hébertists"
+        ],
+        "evidence": [
+          {
+            "document_page": 252,
+            "source_page_label": "252",
+            "locator_class": "principal",
+            "evidence_summary": "Saint-Just argued that emergency revolutionary laws required a revolutionary form of government.",
+            "evidence_id": "EVID-SUCC-A411681704C1",
+            "source_local_subject_id": "SUCC-C011-S029",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 266,
+            "source_page_label": "266",
+            "locator_class": "principal",
+            "evidence_summary": "Saint-Just proposed sequestration of enemies’ property and distribution to poor patriots; implementation remained unresolved and the measures won little effective committee commitment.",
+            "evidence_id": "EVID-SUCC-C14BA562AE06",
+            "source_local_subject_id": "SUCC-C011-S029",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "principal",
+            "evidence_summary": "His foreign-faction speech prepared the arrest and political trial of the Hébertists without naming specific evidence.",
+            "evidence_id": "EVID-SUCC-C6A406EC57AC",
+            "source_local_subject_id": "SUCC-C011-S029",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S029",
+            "label": "Saint-Just, revolutionary government and emergency social policy",
+            "meaning": "Saint-Just articulated revolutionary government’s wartime necessity, proposed confiscating enemies’ property for poor patriots through the Ventôse measures, and supplied the ideological accusation used to destroy the Hébertists.",
+            "stance": "The Ventôse program was not worked through or substantially implemented, and the March conspiracy speech offered no specific evidence against individuals.",
+            "acceptable_access": [
+              "Saint-Just, revolutionary government and emergency social policy",
+              "Saint-Just, Louis-Antoine > revolutionary government",
+              "Saint-Just, Louis-Antoine > Laws of Ventôse",
+              "Saint-Just, Louis-Antoine > Hébertist prosecution",
+              "Saint-Just—Revolutionary Government",
+              "Saint-Just—Laws of Ventôse",
+              "Saint-Just—factions",
+              "Saint-Just—Hébertists"
+            ],
+            "document_pages": [
+              252,
+              266,
+              270
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S029"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S029",
+            "label": "Saint-Just, revolutionary government and emergency social policy",
+            "meaning": "Saint-Just articulated revolutionary government’s wartime necessity, proposed confiscating enemies’ property for poor patriots through the Ventôse measures, and supplied the ideological accusation used to destroy the Hébertists.",
+            "stance": "The Ventôse program was not worked through or substantially implemented, and the March conspiracy speech offered no specific evidence against individuals.",
+            "acceptable_access": [
+              "Saint-Just, revolutionary government and emergency social policy",
+              "Saint-Just, Louis-Antoine > revolutionary government",
+              "Saint-Just, Louis-Antoine > Laws of Ventôse",
+              "Saint-Just, Louis-Antoine > Hébertist prosecution",
+              "Saint-Just—Revolutionary Government",
+              "Saint-Just—Laws of Ventôse",
+              "Saint-Just—factions",
+              "Saint-Just—Hébertists"
+            ],
+            "document_pages": [
+              252,
+              266,
+              270
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "7aa67cdc4638b05f4babe9656d96978d861caea9e8f69558929b16853ad72fc5",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "266 explicitly gives sequestration for approved indigent patriots and the lack of worked-out implementation/committee enthusiasm. Preserve the difference between theory, social policy and the March prosecutorial speech already in the parent.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 52,
+      "subject_id": "SUBJ-SUCC-4DF9C902BF5B",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0090",
+        "CORR-007-LEGACY-0091",
+        "CORR-007-LEGACY-0138"
+      ],
+      "source_correction_row_sha256s": [
+        "7b48c369390d0d58718c1a3c3f9bfc31cc77a8c84020ccf39a5d40f55660d9d7",
+        "fe4e9b1d8ec22f241682d04d77d8f4e975036adc5bcf5168d1fc82f7f0a8bde1",
+        "86868995819f4e2eb984b79789efb16af27fbaa108b32864cd81e777a27f60af"
+      ],
+      "before_record": {
+        "label": "Food shortages, inflation, assignats, and popular price action",
+        "priority": "major",
+        "meaning": "Colonial sugar scarcity, grain redistribution, falling currency values, and rising prices produced female-led price fixing, grain riots, attacks on warehouses, and demands for controls on hoarders.",
+        "stance": "Keep distinct mechanisms visible: Saint-Domingue disruption drove sugar scarcity and female price-fixing, capital stockpiling depleted surrounding grain supplies, and currency depreciation raised prices. This local economic-action requirement should not disappear inside a whole-book assignat lifecycle.",
+        "subject_id": "SUBJ-SUCC-4DF9C902BF5B",
+        "acceptable_access": [
+          "Food shortages, inflation, assignats, and popular price action",
+          "Food prices and riots—1791–92",
+          "Assignats—depreciation",
+          "Sugar shortage—Paris",
+          "Grain riots—north-eastern France",
+          "Price controls—popular demands",
+          "women and price-fixing",
+          "popular price control",
+          "coffee and sugar riots",
+          "Paris grain stockpiling",
+          "Étampes grain riot",
+          "Dunkirk grain disturbances"
+        ],
+        "evidence": [
+          {
+            "document_page": 181,
+            "source_page_label": "181",
+            "locator_class": "principal",
+            "evidence_summary": "The Saint-Domingue crisis triples sugar prices and prompts largely female crowds to impose old prices in Paris.",
+            "evidence_id": "EVID-SUCC-D9465ACF938D",
+            "source_local_subject_id": "SUCC-C008-S021",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 182,
+            "source_page_label": "182",
+            "locator_class": "principal",
+            "evidence_summary": "Grain disorders, the Étampes lynching, Dunkirk destruction, and depreciation of the livre and assignats show widening economic crisis.",
+            "evidence_id": "EVID-SUCC-586B100E43E5",
+            "source_local_subject_id": "SUCC-C008-S021",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 185,
+            "source_page_label": "185",
+            "locator_class": "supporting",
+            "evidence_summary": "Spring shortages revive popular societies and give Jacques Roux an audience for controls and attacks on hoarders.",
+            "evidence_id": "EVID-SUCC-0C27C6AE27E7",
+            "source_local_subject_id": "SUCC-C008-S021",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S021",
+            "label": "Food shortages, inflation, assignats, and popular price action",
+            "meaning": "Colonial sugar scarcity, grain redistribution, falling currency values, and rising prices produced female-led price fixing, grain riots, attacks on warehouses, and demands for controls on hoarders.",
+            "stance": "Keep distinct mechanisms visible: Saint-Domingue disruption drove sugar scarcity and female price-fixing, capital stockpiling depleted surrounding grain supplies, and currency depreciation raised prices. This local economic-action requirement should not disappear inside a whole-book assignat lifecycle.",
+            "acceptable_access": [
+              "Food shortages, inflation, assignats, and popular price action",
+              "Food prices and riots—1791–92",
+              "Assignats—depreciation",
+              "Sugar shortage—Paris",
+              "Grain riots—north-eastern France",
+              "Price controls—popular demands",
+              "women and price-fixing",
+              "popular price control",
+              "coffee and sugar riots",
+              "Paris grain stockpiling",
+              "Étampes grain riot",
+              "Dunkirk grain disturbances"
+            ],
+            "document_pages": [
+              181,
+              182,
+              185
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S021",
+            "label": "Food shortages, inflation, assignats, and popular price action",
+            "meaning": "Colonial sugar scarcity, grain redistribution, falling currency values, and rising prices produced female-led price fixing, grain riots, attacks on warehouses, and demands for controls on hoarders.",
+            "stance": "Keep distinct mechanisms visible: Saint-Domingue disruption drove sugar scarcity and female price-fixing, capital stockpiling depleted surrounding grain supplies, and currency depreciation raised prices. This local economic-action requirement should not disappear inside a whole-book assignat lifecycle.",
+            "acceptable_access": [
+              "Food shortages, inflation, assignats, and popular price action",
+              "Food prices and riots—1791–92",
+              "Assignats—depreciation",
+              "Sugar shortage—Paris",
+              "Grain riots—north-eastern France",
+              "Price controls—popular demands",
+              "women and price-fixing",
+              "popular price control",
+              "coffee and sugar riots",
+              "Paris grain stockpiling",
+              "Étampes grain riot",
+              "Dunkirk grain disturbances"
+            ],
+            "document_pages": [
+              181,
+              182,
+              185
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "c8c49074d5b038727261fb45d3d37035f0d74c57a5d25fda49e386c7849bcb94",
+      "proposed_record": {
+        "label": "Food shortages, inflation, assignats, and popular price action",
+        "priority": "major",
+        "meaning": "Colonial sugar scarcity, grain redistribution, falling currency values, and rising prices produced female-led price fixing, grain riots, attacks on warehouses, and demands for controls on hoarders.",
+        "stance": "Keep distinct mechanisms visible: Saint-Domingue disruption drove sugar scarcity and female price-fixing, capital stockpiling depleted surrounding grain supplies, and currency depreciation raised prices. This local economic-action requirement should not disappear inside a whole-book assignat lifecycle.",
+        "subject_id": "SUBJ-SUCC-4DF9C902BF5B",
+        "acceptable_access": [
+          "Food shortages, inflation, assignats, and popular price action",
+          "Food prices and riots—1791–92",
+          "Assignats—depreciation",
+          "Sugar shortage—Paris",
+          "Grain riots—north-eastern France",
+          "Price controls—popular demands",
+          "women and price-fixing",
+          "popular price control",
+          "coffee and sugar riots",
+          "Paris grain stockpiling",
+          "Étampes grain riot",
+          "Dunkirk grain disturbances",
+          "Livre—depreciation, 1791–1792",
+          "Currency depreciation—import prices"
+        ],
+        "evidence": [
+          {
+            "document_page": 181,
+            "source_page_label": "181",
+            "locator_class": "principal",
+            "evidence_summary": "Saint-Domingue disruption tripled sugar prices and prompted largely female crowds to impose old prices. Paris’s early grain stockpiling kept its bread supply relatively secure while depleting reserves across the surrounding region, where winter grain riots followed.",
+            "evidence_id": "EVID-SUCC-D9465ACF938D",
+            "source_local_subject_id": "SUCC-C008-S021",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 182,
+            "source_page_label": "182",
+            "locator_class": "principal",
+            "evidence_summary": "Étampes and Dunkirk grain disturbances accompanied depreciation of both the livre and assignats. Falling exchange and paper values raised prices, especially imports, even where grain was accessible; municipal accusations against hoarders did not explain that entire rise.",
+            "evidence_id": "EVID-SUCC-586B100E43E5",
+            "source_local_subject_id": "SUCC-C008-S021",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 185,
+            "source_page_label": "185",
+            "locator_class": "supporting",
+            "evidence_summary": "Spring shortages revive popular societies and give Jacques Roux an audience for controls and attacks on hoarders.",
+            "evidence_id": "EVID-SUCC-0C27C6AE27E7",
+            "source_local_subject_id": "SUCC-C008-S021",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S021",
+            "label": "Food shortages, inflation, assignats, and popular price action",
+            "meaning": "Colonial sugar scarcity, grain redistribution, falling currency values, and rising prices produced female-led price fixing, grain riots, attacks on warehouses, and demands for controls on hoarders.",
+            "stance": "Keep distinct mechanisms visible: Saint-Domingue disruption drove sugar scarcity and female price-fixing, capital stockpiling depleted surrounding grain supplies, and currency depreciation raised prices. This local economic-action requirement should not disappear inside a whole-book assignat lifecycle.",
+            "acceptable_access": [
+              "Food shortages, inflation, assignats, and popular price action",
+              "Food prices and riots—1791–92",
+              "Assignats—depreciation",
+              "Sugar shortage—Paris",
+              "Grain riots—north-eastern France",
+              "Price controls—popular demands",
+              "women and price-fixing",
+              "popular price control",
+              "coffee and sugar riots",
+              "Paris grain stockpiling",
+              "Étampes grain riot",
+              "Dunkirk grain disturbances",
+              "Livre—depreciation, 1791–1792",
+              "Currency depreciation—import prices"
+            ],
+            "document_pages": [
+              181,
+              182,
+              185
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S021",
+            "label": "Food shortages, inflation, assignats, and popular price action",
+            "meaning": "Colonial sugar scarcity, grain redistribution, falling currency values, and rising prices produced female-led price fixing, grain riots, attacks on warehouses, and demands for controls on hoarders.",
+            "stance": "Keep distinct mechanisms visible: Saint-Domingue disruption drove sugar scarcity and female price-fixing, capital stockpiling depleted surrounding grain supplies, and currency depreciation raised prices. This local economic-action requirement should not disappear inside a whole-book assignat lifecycle.",
+            "acceptable_access": [
+              "Food shortages, inflation, assignats, and popular price action",
+              "Food prices and riots—1791–92",
+              "Assignats—depreciation",
+              "Sugar shortage—Paris",
+              "Grain riots—north-eastern France",
+              "Price controls—popular demands",
+              "women and price-fixing",
+              "popular price control",
+              "coffee and sugar riots",
+              "Paris grain stockpiling",
+              "Étampes grain riot",
+              "Dunkirk grain disturbances",
+              "Livre—depreciation, 1791–1792",
+              "Currency depreciation—import prices"
+            ],
+            "document_pages": [
+              181,
+              182,
+              185
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "d31ae710b0567fe3b5fc6921e68d9fb2bb06808867534b908c9eb4514c752689",
+      "fields_changed": [
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "181–182 distinguishes sugar/coffees scarcity and female price action, Paris stockpiling’s regional consequences, and livre exchange depreciation versus assignat discount. Access remains local to these mechanisms rather than substituting a whole-book paper-money narrative.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 53,
+      "subject_id": "SUBJ-SUCC-E20FB0D1A107",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0092"
+      ],
+      "source_correction_row_sha256s": [
+        "a00f84cff9b745661e42e72236d814511db9389b6a950a7fd0fe0e0acaab50b1"
+      ],
+      "before_record": {
+        "label": "Émigrés and counter-revolutionary pressure",
+        "priority": "major",
+        "meaning": "Growing emigration, armed émigré groups across the frontier, confiscatory legislation, and foreign protection made émigrés a catalyst of confrontation between Assembly, king, and European rulers.",
+        "stance": "The émigrés were politically potent as symbols and pretexts even when their direct military capacity was weak.",
+        "subject_id": "SUBJ-SUCC-E20FB0D1A107",
+        "acceptable_access": [
+          "Émigrés and counter-revolutionary pressure",
+          "Émigrés—legislation against",
+          "Counter-revolution—émigré armies",
+          "Princes, émigré",
+          "emigres",
+          "emigre armies",
+          "emigre decree of November 1791",
+          "emigres and war"
+        ],
+        "evidence": [
+          {
+            "document_page": 175,
+            "source_page_label": "175",
+            "locator_class": "principal",
+            "evidence_summary": "The Assembly confronts accelerating emigration and armed counter-revolutionary organization beyond the frontier.",
+            "evidence_id": "EVID-SUCC-511E573ED9D6",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "principal",
+            "evidence_summary": "The 9 November decree sequesters revenues and threatens absent citizens with capital penalties, but the king vetoes it.",
+            "evidence_id": "EVID-SUCC-1568CD6AC0C6",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 177,
+            "source_page_label": "177",
+            "locator_class": "principal",
+            "evidence_summary": "The Assembly redirects pressure toward German rulers harboring armed emigres.",
+            "evidence_id": "EVID-SUCC-12179C3C5EEB",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "supporting",
+            "evidence_summary": "The Trier ultimatum briefly removes the immediate émigré pretext for war.",
+            "evidence_id": "EVID-SUCC-52CBA7D32B53",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "supporting",
+            "evidence_summary": "The émigré princes are charged with treason as war agitation shifts toward Austria.",
+            "evidence_id": "EVID-SUCC-15D3558679D5",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S014",
+            "label": "Émigrés and counter-revolutionary pressure",
+            "meaning": "Growing emigration, armed émigré groups across the frontier, confiscatory legislation, and foreign protection made émigrés a catalyst of confrontation between Assembly, king, and European rulers.",
+            "stance": "The émigrés were politically potent as symbols and pretexts even when their direct military capacity was weak.",
+            "acceptable_access": [
+              "Émigrés and counter-revolutionary pressure",
+              "Émigrés—legislation against",
+              "Counter-revolution—émigré armies",
+              "Princes, émigré",
+              "emigres",
+              "emigre armies",
+              "emigre decree of November 1791",
+              "emigres and war"
+            ],
+            "document_pages": [
+              175,
+              176,
+              177,
+              178,
+              179
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S014"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S014",
+            "label": "Émigrés and counter-revolutionary pressure",
+            "meaning": "Growing emigration, armed émigré groups across the frontier, confiscatory legislation, and foreign protection made émigrés a catalyst of confrontation between Assembly, king, and European rulers.",
+            "stance": "The émigrés were politically potent as symbols and pretexts even when their direct military capacity was weak.",
+            "acceptable_access": [
+              "Émigrés and counter-revolutionary pressure",
+              "Émigrés—legislation against",
+              "Counter-revolution—émigré armies",
+              "Princes, émigré",
+              "emigres",
+              "emigre armies",
+              "emigre decree of November 1791",
+              "emigres and war"
+            ],
+            "document_pages": [
+              175,
+              176,
+              177,
+              178,
+              179
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "8fcc504e79108e2c37e7274c702d482a1492afc68cff7f8f29a5f8aea510452b",
+      "proposed_record": {
+        "label": "Émigrés and counter-revolutionary pressure",
+        "priority": "major",
+        "meaning": "Growing emigration, armed émigré groups across the frontier, confiscatory legislation, and foreign protection made émigrés a catalyst of confrontation between Assembly, king, and European rulers.",
+        "stance": "The émigrés were politically potent as symbols and pretexts even when their direct military capacity was weak. Robespierre regarded domestic counter-revolutionaries as more dangerous than the émigrés; that attributed judgment differs from their symbolic and diplomatic potency.",
+        "subject_id": "SUBJ-SUCC-E20FB0D1A107",
+        "acceptable_access": [
+          "Émigrés and counter-revolutionary pressure",
+          "Émigrés—legislation against",
+          "Counter-revolution—émigré armies",
+          "Princes, émigré",
+          "emigres",
+          "emigre armies",
+          "emigre decree of November 1791",
+          "emigres and war"
+        ],
+        "evidence": [
+          {
+            "document_page": 175,
+            "source_page_label": "175",
+            "locator_class": "principal",
+            "evidence_summary": "The Assembly confronts accelerating emigration and armed counter-revolutionary organization beyond the frontier.",
+            "evidence_id": "EVID-SUCC-511E573ED9D6",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "principal",
+            "evidence_summary": "The 9 November decree sequesters revenues and threatens absent citizens with capital penalties, but the king vetoes it.",
+            "evidence_id": "EVID-SUCC-1568CD6AC0C6",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 177,
+            "source_page_label": "177",
+            "locator_class": "principal",
+            "evidence_summary": "The Assembly redirects pressure toward German rulers harboring armed emigres.",
+            "evidence_id": "EVID-SUCC-12179C3C5EEB",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "supporting",
+            "evidence_summary": "The Trier ultimatum briefly removes the immediate émigré pretext for war.",
+            "evidence_id": "EVID-SUCC-52CBA7D32B53",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "supporting",
+            "evidence_summary": "The émigré princes are charged with treason as war agitation shifts toward Austria.",
+            "evidence_id": "EVID-SUCC-15D3558679D5",
+            "source_local_subject_id": "SUCC-C008-S014",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S014",
+            "label": "Émigrés and counter-revolutionary pressure",
+            "meaning": "Growing emigration, armed émigré groups across the frontier, confiscatory legislation, and foreign protection made émigrés a catalyst of confrontation between Assembly, king, and European rulers.",
+            "stance": "The émigrés were politically potent as symbols and pretexts even when their direct military capacity was weak. Robespierre regarded domestic counter-revolutionaries as more dangerous than the émigrés; that attributed judgment differs from their symbolic and diplomatic potency.",
+            "acceptable_access": [
+              "Émigrés and counter-revolutionary pressure",
+              "Émigrés—legislation against",
+              "Counter-revolution—émigré armies",
+              "Princes, émigré",
+              "emigres",
+              "emigre armies",
+              "emigre decree of November 1791",
+              "emigres and war"
+            ],
+            "document_pages": [
+              175,
+              176,
+              177,
+              178,
+              179
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S014"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S014",
+            "label": "Émigrés and counter-revolutionary pressure",
+            "meaning": "Growing emigration, armed émigré groups across the frontier, confiscatory legislation, and foreign protection made émigrés a catalyst of confrontation between Assembly, king, and European rulers.",
+            "stance": "The émigrés were politically potent as symbols and pretexts even when their direct military capacity was weak. Robespierre regarded domestic counter-revolutionaries as more dangerous than the émigrés; that attributed judgment differs from their symbolic and diplomatic potency.",
+            "acceptable_access": [
+              "Émigrés and counter-revolutionary pressure",
+              "Émigrés—legislation against",
+              "Counter-revolution—émigré armies",
+              "Princes, émigré",
+              "emigres",
+              "emigre armies",
+              "emigre decree of November 1791",
+              "emigres and war"
+            ],
+            "document_pages": [
+              175,
+              176,
+              177,
+              178,
+              179
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "725d3aa38d5897b474dee18fef715b682ceaf6b10a9949ed7bb5840f3b26faee",
+      "fields_changed": [
+        "stance",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "178 attributes the domestic-versus-emigré threat assessment to Robespierre. Preserve it as an attributed judgment alongside actual symbolic and diplomatic potency.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 54,
+      "subject_id": "SUBJ-SUCC-0790BF160C73",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0093",
+        "CORR-007-LEGACY-0336",
+        "CORR-007-LEGACY-0337",
+        "CORR-007-LEGACY-0338"
+      ],
+      "source_correction_row_sha256s": [
+        "7e91f426065e131da8cac51cdf9972784b282eea7eea72b0c6358d165591168e",
+        "5f0581426bbad32ff753d56f78cd8771725d2e5974f9ae2fb35a793783b1efc0",
+        "1f59032b442eacb62fd8ace1e971070fe2c37f616f45132cff440025e2df59d9",
+        "a7d7a7af4145eade344e288c580c14557bfbc708104409fe768cc829245dbf39"
+      ],
+      "before_record": {
+        "label": "Bordeaux and the Gironde's resistance to the purge",
+        "priority": "major",
+        "meaning": "Bordeaux's Girondin political culture, commercial decline, and response to the purge produced a Popular Commission, intercity propaganda, and plans for a departmental force. The proposed shadow Convention at Bourges sought an alternative national authority but never became effective.",
+        "stance": "The city moved slowly from rhetoric to action and never mobilized the large force it advertised.",
+        "subject_id": "SUBJ-SUCC-0790BF160C73",
+        "acceptable_access": [
+          "Bordeaux and the Gironde's resistance to the purge",
+          "Bordeaux - Federalist resistance of 1793",
+          "Gironde - reaction to the Girondin purge",
+          "Bordeaux, revolt of 1793",
+          "Gironde, Popular Commission",
+          "Bordeaux federalism",
+          "Bourges Convention",
+          "shadow Convention",
+          "alternative national assembly, 1793"
+        ],
+        "evidence": [
+          {
+            "document_page": 233,
+            "source_page_label": "233",
+            "locator_class": "supporting",
+            "evidence_summary": "Girondin speakers raise the possibility of an alternative assembly if Paris destroys Convention freedom.",
+            "evidence_id": "EVID-SUCC-625D78077B9B",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 238,
+            "source_page_label": "238",
+            "locator_class": "principal",
+            "evidence_summary": "Provides the city's economic and political background and creation of a Popular Commission after 2 June.",
+            "evidence_id": "EVID-SUCC-7D6B39E9C461",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 239,
+            "source_page_label": "239",
+            "locator_class": "supporting",
+            "evidence_summary": "Records calls for a Bourges convention and an unrealized departmental army.",
+            "evidence_id": "EVID-SUCC-5C6DFFA42839",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 240,
+            "source_page_label": "240",
+            "locator_class": "supporting",
+            "evidence_summary": "Breton and Norman authorities repeat the Bourges proposal, while other cities hesitate to endorse it.",
+            "evidence_id": "EVID-SUCC-4C984A9562ED",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 242,
+            "source_page_label": "242",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Uses the Bordelais to illustrate republican, property-conscious motives and poor military mobilization.",
+            "evidence_id": "EVID-SUCC-36614811BFB6",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 243,
+            "source_page_label": "243",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The city recruits only a fraction of its target and its force never advances toward Paris.",
+            "evidence_id": "EVID-SUCC-251E5CF0426C",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-010"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C010-S023",
+            "label": "Bordeaux and the Gironde's resistance to the purge",
+            "meaning": "Bordeaux's Girondin political culture, commercial decline, and response to the purge produced a Popular Commission, intercity propaganda, and plans for a departmental force. The proposed shadow Convention at Bourges sought an alternative national authority but never became effective.",
+            "stance": "The city moved slowly from rhetoric to action and never mobilized the large force it advertised.",
+            "acceptable_access": [
+              "Bordeaux and the Gironde's resistance to the purge",
+              "Bordeaux - Federalist resistance of 1793",
+              "Gironde - reaction to the Girondin purge",
+              "Bordeaux, revolt of 1793",
+              "Gironde, Popular Commission",
+              "Bordeaux federalism",
+              "Bourges Convention",
+              "shadow Convention",
+              "alternative national assembly, 1793"
+            ],
+            "document_pages": [
+              233,
+              238,
+              239,
+              240,
+              242,
+              243
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C010-S023"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C010-S023",
+            "label": "Bordeaux and the Gironde's resistance to the purge",
+            "meaning": "Bordeaux's Girondin political culture, commercial decline, and response to the purge produced a Popular Commission, intercity propaganda, and plans for a departmental force. The proposed shadow Convention at Bourges sought an alternative national authority but never became effective.",
+            "stance": "The city moved slowly from rhetoric to action and never mobilized the large force it advertised.",
+            "acceptable_access": [
+              "Bordeaux and the Gironde's resistance to the purge",
+              "Bordeaux - Federalist resistance of 1793",
+              "Gironde - reaction to the Girondin purge",
+              "Bordeaux, revolt of 1793",
+              "Gironde, Popular Commission",
+              "Bordeaux federalism",
+              "Bourges Convention",
+              "shadow Convention",
+              "alternative national assembly, 1793"
+            ],
+            "document_pages": [
+              233,
+              238,
+              239,
+              240,
+              242,
+              243
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "bce0bf891956b241d759a33a7f38a37ca1609a4290569d9c9929b7647a5ea4a1",
+      "proposed_record": {
+        "label": "Bordeaux and the Gironde's resistance to the purge",
+        "priority": "major",
+        "meaning": "Bordeaux's Girondin political culture, commercial decline, and response to the purge produced a Popular Commission, intercity propaganda, and plans for a departmental force. The proposed shadow Convention at Bourges sought an alternative national authority but never became effective. Reports and urgings from other cities helped move hesitant Bordelais beyond verbal protest after 2 June.",
+        "stance": "The city moved slowly from rhetoric to action and never mobilized the large force it advertised. Leaders sought a tranquil republican order rather than royal restoration.",
+        "subject_id": "SUBJ-SUCC-0790BF160C73",
+        "acceptable_access": [
+          "Bordeaux and the Gironde's resistance to the purge",
+          "Bordeaux - Federalist resistance of 1793",
+          "Gironde - reaction to the Girondin purge",
+          "Bordeaux, revolt of 1793",
+          "Gironde, Popular Commission",
+          "Bordeaux federalism",
+          "Bourges Convention",
+          "shadow Convention",
+          "alternative national assembly, 1793"
+        ],
+        "evidence": [
+          {
+            "document_page": 233,
+            "source_page_label": "233",
+            "locator_class": "supporting",
+            "evidence_summary": "Girondin speakers raise the possibility of an alternative assembly if Paris destroys Convention freedom.",
+            "evidence_id": "EVID-SUCC-625D78077B9B",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 238,
+            "source_page_label": "238",
+            "locator_class": "principal",
+            "evidence_summary": "Bordeaux’s commercial and political background led to a Popular Commission after 2 June. Reports and calls for collective action from other cities helped overcome hesitation; the commission circulated anti-Montagnard propaganda and sent emissaries urging resistant departments to unite in electing a shadow Convention at Bourges.",
+            "evidence_id": "EVID-SUCC-7D6B39E9C461",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 239,
+            "source_page_label": "239",
+            "locator_class": "supporting",
+            "evidence_summary": "Records calls for a Bourges convention and an unrealized departmental army.",
+            "evidence_id": "EVID-SUCC-5C6DFFA42839",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 240,
+            "source_page_label": "240",
+            "locator_class": "supporting",
+            "evidence_summary": "Breton and Norman authorities repeat the Bourges proposal, while other cities hesitate to endorse it.",
+            "evidence_id": "EVID-SUCC-4C984A9562ED",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 242,
+            "source_page_label": "242",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Uses the Bordelais to illustrate republican, property-conscious motives and poor military mobilization.",
+            "evidence_id": "EVID-SUCC-36614811BFB6",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 243,
+            "source_page_label": "243",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The Bordelais force marched south rather than toward Paris and encamped only twenty miles up the Garonne, illustrating reluctance to leave home territory.",
+            "evidence_id": "EVID-SUCC-251E5CF0426C",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          },
+          {
+            "document_page": 242,
+            "source_page_label": "242",
+            "locator_class": "supporting",
+            "evidence_summary": "Bordeaux recruited only about a third of its announced 1,200-man departmental force, illustrating reluctance to fight away from home.",
+            "evidence_id": "EVID-SUCC-90EB42DC5283",
+            "source_local_subject_id": "SUCC-C010-S023",
+            "source_chunk_id": "CHUNK-010"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-010"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C010-S023",
+            "label": "Bordeaux and the Gironde's resistance to the purge",
+            "meaning": "Bordeaux's Girondin political culture, commercial decline, and response to the purge produced a Popular Commission, intercity propaganda, and plans for a departmental force. The proposed shadow Convention at Bourges sought an alternative national authority but never became effective. Reports and urgings from other cities helped move hesitant Bordelais beyond verbal protest after 2 June.",
+            "stance": "The city moved slowly from rhetoric to action and never mobilized the large force it advertised. Leaders sought a tranquil republican order rather than royal restoration.",
+            "acceptable_access": [
+              "Bordeaux and the Gironde's resistance to the purge",
+              "Bordeaux - Federalist resistance of 1793",
+              "Gironde - reaction to the Girondin purge",
+              "Bordeaux, revolt of 1793",
+              "Gironde, Popular Commission",
+              "Bordeaux federalism",
+              "Bourges Convention",
+              "shadow Convention",
+              "alternative national assembly, 1793"
+            ],
+            "document_pages": [
+              233,
+              238,
+              239,
+              240,
+              242,
+              243
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C010-S023"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C010-S023",
+            "label": "Bordeaux and the Gironde's resistance to the purge",
+            "meaning": "Bordeaux's Girondin political culture, commercial decline, and response to the purge produced a Popular Commission, intercity propaganda, and plans for a departmental force. The proposed shadow Convention at Bourges sought an alternative national authority but never became effective. Reports and urgings from other cities helped move hesitant Bordelais beyond verbal protest after 2 June.",
+            "stance": "The city moved slowly from rhetoric to action and never mobilized the large force it advertised. Leaders sought a tranquil republican order rather than royal restoration.",
+            "acceptable_access": [
+              "Bordeaux and the Gironde's resistance to the purge",
+              "Bordeaux - Federalist resistance of 1793",
+              "Gironde - reaction to the Girondin purge",
+              "Bordeaux, revolt of 1793",
+              "Gironde, Popular Commission",
+              "Bordeaux federalism",
+              "Bourges Convention",
+              "shadow Convention",
+              "alternative national assembly, 1793"
+            ],
+            "document_pages": [
+              233,
+              238,
+              239,
+              240,
+              242,
+              243
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "62671229dffd13f5366d64d1024f7b1724bdb563ea45dac103f872425bffa514",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "238 and242–243 distinguish external prompting, republican intent, weak recruitment and limited marching. Add separate242 evidence for the recruitment fraction rather than attach it to243. Remove repetition in the two proposed238 sentences while retaining the Bourges route and intercity trigger.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 55,
+      "subject_id": "SUBJ-SUCC-2FF0879B4083",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0094",
+        "CORR-007-LEGACY-0095",
+        "CORR-007-LEGACY-0129",
+        "CORR-007-LEGACY-0216"
+      ],
+      "source_correction_row_sha256s": [
+        "c96c9d35559f6f974392e19c1e6bc6695cc48c4bbc306de903ef1c80814567f6",
+        "84ea35437a4e1350fde65cea00a202ad23f50835f700d412b2e38d4783b5259a",
+        "0f268755868a43e9208cfa34d33eb37d8a9391d3040e1563ecfbf76f0913167e",
+        "a3616f72c18f24218dc82f78b2d977ed4f89bdf5f4fd46b82d634408ad8528f8"
+      ],
+      "before_record": {
+        "label": "German princely hostility and French émigré war organization",
+        "priority": "essential",
+        "meaning": "Loss of treaty-protected rights made German rulers hostile to French reform; their territories hosted royal princes and émigré forces at Koblenz and Mainz. Foreign subsidies sustained preparations, while officer emigration weakened France's army.",
+        "stance": "Émigré belligerence and German material grievances must be distinguished from general popular sympathy or an agreed plan by monarchs to invade. Their disruptive and arrogant conduct alienated local Rhinelanders without producing sympathy for the Revolution.",
+        "subject_id": "SUBJ-SUCC-2FF0879B4083",
+        "acceptable_access": [
+          "German princely hostility and French émigré war organization",
+          "Émigré armies—Koblenz and the Rhineland",
+          "Koblenz—French royalist émigrés",
+          "German princes—rights in France",
+          "Peace of Westphalia—feudal rights",
+          "August 1789 decrees—German rulers",
+          "French Revolution—German territorial grievances",
+          "émigrés—Koblenz and Mainz",
+          "Rhineland—French émigrés",
+          "counterrevolutionary army—émigrés",
+          "Artois, Provence, and Condé—military preparations",
+          "French army—officer emigration",
+          "émigrés—military effects in France",
+          "army disintegration, 1791",
+          "revolutionary war—French unpreparedness"
+        ],
+        "evidence": [
+          {
+            "document_page": 171,
+            "source_page_label": "171",
+            "locator_class": "principal",
+            "evidence_summary": "Artois settled at Koblenz, Provence and post-Varennes émigrés joined him, and Condé organized farther up the Rhine with foreign funds. Their disruptive and arrogant conduct alienated local Rhinelanders without creating sympathy for the Revolution.",
+            "evidence_id": "EVID-SUCC-C5C9A33FDC1D",
+            "source_local_subject_id": "SUCC-C007-S026",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 173,
+            "source_page_label": "173",
+            "locator_class": "supporting",
+            "evidence_summary": "Officer emigration visibly weakened the French army as international tensions rose.",
+            "evidence_id": "EVID-SUCC-FD720EE13262",
+            "source_local_subject_id": "SUCC-C007-S026",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S026",
+            "label": "German princely hostility and French émigré war organization",
+            "meaning": "Loss of treaty-protected rights made German rulers hostile to French reform; their territories hosted royal princes and émigré forces at Koblenz and Mainz. Foreign subsidies sustained preparations, while officer emigration weakened France's army.",
+            "stance": "Émigré belligerence and German material grievances must be distinguished from general popular sympathy or an agreed plan by monarchs to invade. Their disruptive and arrogant conduct alienated local Rhinelanders without producing sympathy for the Revolution.",
+            "acceptable_access": [
+              "German princely hostility and French émigré war organization",
+              "Émigré armies—Koblenz and the Rhineland",
+              "Koblenz—French royalist émigrés",
+              "German princes—rights in France",
+              "Peace of Westphalia—feudal rights",
+              "August 1789 decrees—German rulers",
+              "French Revolution—German territorial grievances",
+              "émigrés—Koblenz and Mainz",
+              "Rhineland—French émigrés",
+              "counterrevolutionary army—émigrés",
+              "Artois, Provence, and Condé—military preparations",
+              "French army—officer emigration",
+              "émigrés—military effects in France",
+              "army disintegration, 1791",
+              "revolutionary war—French unpreparedness"
+            ],
+            "document_pages": [
+              171,
+              173
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S026"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S026",
+            "label": "German princely hostility and French émigré war organization",
+            "meaning": "Loss of treaty-protected rights made German rulers hostile to French reform; their territories hosted royal princes and émigré forces at Koblenz and Mainz. Foreign subsidies sustained preparations, while officer emigration weakened France's army.",
+            "stance": "Émigré belligerence and German material grievances must be distinguished from general popular sympathy or an agreed plan by monarchs to invade. Their disruptive and arrogant conduct alienated local Rhinelanders without producing sympathy for the Revolution.",
+            "acceptable_access": [
+              "German princely hostility and French émigré war organization",
+              "Émigré armies—Koblenz and the Rhineland",
+              "Koblenz—French royalist émigrés",
+              "German princes—rights in France",
+              "Peace of Westphalia—feudal rights",
+              "August 1789 decrees—German rulers",
+              "French Revolution—German territorial grievances",
+              "émigrés—Koblenz and Mainz",
+              "Rhineland—French émigrés",
+              "counterrevolutionary army—émigrés",
+              "Artois, Provence, and Condé—military preparations",
+              "French army—officer emigration",
+              "émigrés—military effects in France",
+              "army disintegration, 1791",
+              "revolutionary war—French unpreparedness"
+            ],
+            "document_pages": [
+              171,
+              173
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "26e5410b7a13dcabc6f2974022ea881d7779edd41ede63a6b2e365abf4e1dded",
+      "proposed_record": {
+        "label": "German princely hostility and French émigré war organization",
+        "priority": "essential",
+        "meaning": "Loss of treaty-protected rights made German rulers hostile to French reform; their territories hosted royal princes and émigré forces at Koblenz and Mainz. Foreign subsidies sustained preparations, while officer emigration weakened France's army.",
+        "stance": "Émigré belligerence and German material grievances must be distinguished from general popular sympathy or an agreed plan by monarchs to invade. Their disruptive and arrogant conduct alienated local Rhinelanders without producing sympathy for the Revolution. Officer losses exposed the gap between foreign revolutionary exiles’ calls for armed liberation and France’s practical ability to wage it.",
+        "subject_id": "SUBJ-SUCC-2FF0879B4083",
+        "acceptable_access": [
+          "German princely hostility and French émigré war organization",
+          "Émigré armies—Koblenz and the Rhineland",
+          "Koblenz—French royalist émigrés",
+          "German princes—rights in France",
+          "Peace of Westphalia—feudal rights",
+          "August 1789 decrees—German rulers",
+          "French Revolution—German territorial grievances",
+          "émigrés—Koblenz and Mainz",
+          "Rhineland—French émigrés",
+          "counterrevolutionary army—émigrés",
+          "Artois, Provence, and Condé—military preparations",
+          "French army—officer emigration",
+          "émigrés—military effects in France",
+          "army disintegration, 1791",
+          "revolutionary war—French unpreparedness"
+        ],
+        "evidence": [
+          {
+            "document_page": 171,
+            "source_page_label": "171",
+            "locator_class": "principal",
+            "evidence_summary": "The abolition of feudal rights guaranteed to German rulers under the Peace of Westphalia brought uncompensated injury and official hostility. Artois settled at Koblenz, joined by Provence and post-Varennes émigrés, while Condé organized further up the Rhine with foreign subsidies. Their disruptive preparations and arrogance alienated ordinary Rhinelanders, but produced more blame for the Revolution rather than sympathy for it.",
+            "evidence_id": "EVID-SUCC-C5C9A33FDC1D",
+            "source_local_subject_id": "SUCC-C007-S026",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 173,
+            "source_page_label": "173",
+            "locator_class": "supporting",
+            "evidence_summary": "French officers departed in their thousands to join royalist émigrés, visibly weakening the army just as foreign revolutionary exiles in France advocated armed liberation. Neither the outgoing Constituent Assembly nor the royal family shared those exiles’ confidence.",
+            "evidence_id": "EVID-SUCC-FD720EE13262",
+            "source_local_subject_id": "SUCC-C007-S026",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S026",
+            "label": "German princely hostility and French émigré war organization",
+            "meaning": "Loss of treaty-protected rights made German rulers hostile to French reform; their territories hosted royal princes and émigré forces at Koblenz and Mainz. Foreign subsidies sustained preparations, while officer emigration weakened France's army.",
+            "stance": "Émigré belligerence and German material grievances must be distinguished from general popular sympathy or an agreed plan by monarchs to invade. Their disruptive and arrogant conduct alienated local Rhinelanders without producing sympathy for the Revolution. Officer losses exposed the gap between foreign revolutionary exiles’ calls for armed liberation and France’s practical ability to wage it.",
+            "acceptable_access": [
+              "German princely hostility and French émigré war organization",
+              "Émigré armies—Koblenz and the Rhineland",
+              "Koblenz—French royalist émigrés",
+              "German princes—rights in France",
+              "Peace of Westphalia—feudal rights",
+              "August 1789 decrees—German rulers",
+              "French Revolution—German territorial grievances",
+              "émigrés—Koblenz and Mainz",
+              "Rhineland—French émigrés",
+              "counterrevolutionary army—émigrés",
+              "Artois, Provence, and Condé—military preparations",
+              "French army—officer emigration",
+              "émigrés—military effects in France",
+              "army disintegration, 1791",
+              "revolutionary war—French unpreparedness"
+            ],
+            "document_pages": [
+              171,
+              173
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S026"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S026",
+            "label": "German princely hostility and French émigré war organization",
+            "meaning": "Loss of treaty-protected rights made German rulers hostile to French reform; their territories hosted royal princes and émigré forces at Koblenz and Mainz. Foreign subsidies sustained preparations, while officer emigration weakened France's army.",
+            "stance": "Émigré belligerence and German material grievances must be distinguished from general popular sympathy or an agreed plan by monarchs to invade. Their disruptive and arrogant conduct alienated local Rhinelanders without producing sympathy for the Revolution. Officer losses exposed the gap between foreign revolutionary exiles’ calls for armed liberation and France’s practical ability to wage it.",
+            "acceptable_access": [
+              "German princely hostility and French émigré war organization",
+              "Émigré armies—Koblenz and the Rhineland",
+              "Koblenz—French royalist émigrés",
+              "German princes—rights in France",
+              "Peace of Westphalia—feudal rights",
+              "August 1789 decrees—German rulers",
+              "French Revolution—German territorial grievances",
+              "émigrés—Koblenz and Mainz",
+              "Rhineland—French émigrés",
+              "counterrevolutionary army—émigrés",
+              "Artois, Provence, and Condé—military preparations",
+              "French army—officer emigration",
+              "émigrés—military effects in France",
+              "army disintegration, 1791",
+              "revolutionary war—French unpreparedness"
+            ],
+            "document_pages": [
+              171,
+              173
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "e90843e4cb5c4a63d7fdb8e394e3a273e236ad6c967e8c3b81d54717da09a912",
+      "fields_changed": [
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "171–173 supports princely material grievances, foreign subsidies, ordinary Rhineland resentment and French officer emigration. Combine the stage8 host-population qualification with the practical-capacity contrast; explicitly distinguish foreign revolutionary exiles urging France to liberate them from French royalist émigrés joined by departing officers.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 56,
+      "subject_id": "SUBJ-SUCC-D93987F3BB44",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0096"
+      ],
+      "source_correction_row_sha256s": [
+        "0a20f4aba8d32d377ce1315a6e43b7603dccfc668d56e9f0bd4b39e855a09164"
+      ],
+      "before_record": {
+        "label": "Revolutionary universalism, political exiles and Clootz's delegation",
+        "priority": "major",
+        "meaning": "French claims of universal liberty attracted Genevan, Dutch and Belgian political exiles. Clootz's delegation combined theatrical display with real refugee hopes; after Varennes exiles urged armed liberation despite weak French military capacity.",
+        "stance": "The source treats universal claims and exile pressure as politically real, while distinguishing them from a realistic or agreed intervention strategy.",
+        "subject_id": "SUBJ-SUCC-D93987F3BB44",
+        "acceptable_access": [
+          "Revolutionary universalism, political exiles and Clootz's delegation",
+          "Anacharsis Clootz—delegation of 19 June 1790",
+          "National Assembly—international delegation",
+          "Geneva—democratic exiles",
+          "Genevan democrats in France",
+          "political exiles—Geneva",
+          "political exiles—revolutionary Europe",
+          "transnational revolutionary networks",
+          "foreign patriots in France",
+          "refugees and revolutionary diffusion",
+          "French Revolution—universal principles",
+          "revolutionary universalism",
+          "armed apostles of liberty",
+          "Anacharsis Clootz—delegation of 1790",
+          "export of revolution",
+          "foreign exiles—armed liberation",
+          "political refugees—appeals to France",
+          "Genevan, Dutch, and Belgian exiles",
+          "export of revolution—exile advocacy"
+        ],
+        "evidence": [
+          {
+            "document_page": 160,
+            "source_page_label": "160",
+            "locator_class": "supporting",
+            "evidence_summary": "Clootz returned to Paris after the Bastille to participate in democratic politics.",
+            "evidence_id": "EVID-SUCC-2C511DC5E98A",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 161,
+            "source_page_label": "161",
+            "locator_class": "principal",
+            "evidence_summary": "Identifies Genevan democrats in France as refugees who expected the new regime to abandon the oligarchy previously upheld by French intervention.",
+            "evidence_id": "EVID-SUCC-2D6EA937EB27",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 172,
+            "source_page_label": "172",
+            "locator_class": "principal",
+            "evidence_summary": "His delegation proclaimed French principles as a trumpet call to enslaved peoples and included genuine exiles from Geneva, Holland, and Belgium.",
+            "evidence_id": "EVID-SUCC-9A0FAA7E454D",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 173,
+            "source_page_label": "173",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Concludes that revolutionary universalism was moving from proclamation toward pressure for armed export.",
+            "evidence_id": "EVID-SUCC-AD18CDE3FF82",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S033",
+            "label": "Revolutionary universalism, political exiles and Clootz's delegation",
+            "meaning": "French claims of universal liberty attracted Genevan, Dutch and Belgian political exiles. Clootz's delegation combined theatrical display with real refugee hopes; after Varennes exiles urged armed liberation despite weak French military capacity.",
+            "stance": "The source treats universal claims and exile pressure as politically real, while distinguishing them from a realistic or agreed intervention strategy.",
+            "acceptable_access": [
+              "Revolutionary universalism, political exiles and Clootz's delegation",
+              "Anacharsis Clootz—delegation of 19 June 1790",
+              "National Assembly—international delegation",
+              "Geneva—democratic exiles",
+              "Genevan democrats in France",
+              "political exiles—Geneva",
+              "political exiles—revolutionary Europe",
+              "transnational revolutionary networks",
+              "foreign patriots in France",
+              "refugees and revolutionary diffusion",
+              "French Revolution—universal principles",
+              "revolutionary universalism",
+              "armed apostles of liberty",
+              "Anacharsis Clootz—delegation of 1790",
+              "export of revolution",
+              "foreign exiles—armed liberation",
+              "political refugees—appeals to France",
+              "Genevan, Dutch, and Belgian exiles",
+              "export of revolution—exile advocacy"
+            ],
+            "document_pages": [
+              160,
+              161,
+              172,
+              173
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S033"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S033",
+            "label": "Revolutionary universalism, political exiles and Clootz's delegation",
+            "meaning": "French claims of universal liberty attracted Genevan, Dutch and Belgian political exiles. Clootz's delegation combined theatrical display with real refugee hopes; after Varennes exiles urged armed liberation despite weak French military capacity.",
+            "stance": "The source treats universal claims and exile pressure as politically real, while distinguishing them from a realistic or agreed intervention strategy.",
+            "acceptable_access": [
+              "Revolutionary universalism, political exiles and Clootz's delegation",
+              "Anacharsis Clootz—delegation of 19 June 1790",
+              "National Assembly—international delegation",
+              "Geneva—democratic exiles",
+              "Genevan democrats in France",
+              "political exiles—Geneva",
+              "political exiles—revolutionary Europe",
+              "transnational revolutionary networks",
+              "foreign patriots in France",
+              "refugees and revolutionary diffusion",
+              "French Revolution—universal principles",
+              "revolutionary universalism",
+              "armed apostles of liberty",
+              "Anacharsis Clootz—delegation of 1790",
+              "export of revolution",
+              "foreign exiles—armed liberation",
+              "political refugees—appeals to France",
+              "Genevan, Dutch, and Belgian exiles",
+              "export of revolution—exile advocacy"
+            ],
+            "document_pages": [
+              160,
+              161,
+              172,
+              173
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "63f1edeb7752f0f411b2432fa617e648bb9c0a4d36c860fd966446ae61918768",
+      "proposed_record": {
+        "label": "Revolutionary universalism, political exiles and Clootz's delegation",
+        "priority": "major",
+        "meaning": "French claims of universal liberty attracted Genevan, Dutch and Belgian political exiles. Clootz's delegation combined theatrical display with real refugee hopes; after Varennes exiles urged armed liberation despite weak French military capacity.",
+        "stance": "The source treats universal claims and exile pressure as politically real, while distinguishing them from a realistic or agreed intervention strategy.",
+        "subject_id": "SUBJ-SUCC-D93987F3BB44",
+        "acceptable_access": [
+          "Revolutionary universalism, political exiles and Clootz's delegation",
+          "Anacharsis Clootz—delegation of 19 June 1790",
+          "National Assembly—international delegation",
+          "Geneva—democratic exiles",
+          "Genevan democrats in France",
+          "political exiles—Geneva",
+          "political exiles—revolutionary Europe",
+          "transnational revolutionary networks",
+          "foreign patriots in France",
+          "refugees and revolutionary diffusion",
+          "French Revolution—universal principles",
+          "revolutionary universalism",
+          "armed apostles of liberty",
+          "Anacharsis Clootz—delegation of 1790",
+          "export of revolution",
+          "foreign exiles—armed liberation",
+          "political refugees—appeals to France",
+          "Genevan, Dutch, and Belgian exiles",
+          "export of revolution—exile advocacy"
+        ],
+        "evidence": [
+          {
+            "document_page": 160,
+            "source_page_label": "160",
+            "locator_class": "supporting",
+            "evidence_summary": "Clootz returned to Paris after the Bastille to participate in democratic politics.",
+            "evidence_id": "EVID-SUCC-2C511DC5E98A",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 161,
+            "source_page_label": "161",
+            "locator_class": "principal",
+            "evidence_summary": "Identifies Genevan democrats in France as refugees who expected the new regime to abandon the oligarchy previously upheld by French intervention.",
+            "evidence_id": "EVID-SUCC-2D6EA937EB27",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 172,
+            "source_page_label": "172",
+            "locator_class": "principal",
+            "evidence_summary": "His delegation proclaimed French principles as a trumpet call to enslaved peoples and included genuine exiles from Geneva, Holland, and Belgium.",
+            "evidence_id": "EVID-SUCC-9A0FAA7E454D",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 173,
+            "source_page_label": "173",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Exiles urged armed liberation after Varennes, but neither the outgoing Constituent Assembly nor the royal family shared their confidence; officer emigration undermined military capacity. The chapter nevertheless concludes that French problems would increasingly be carried to neighboring states.",
+            "evidence_id": "EVID-SUCC-AD18CDE3FF82",
+            "source_local_subject_id": "SUCC-C007-S033",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S033",
+            "label": "Revolutionary universalism, political exiles and Clootz's delegation",
+            "meaning": "French claims of universal liberty attracted Genevan, Dutch and Belgian political exiles. Clootz's delegation combined theatrical display with real refugee hopes; after Varennes exiles urged armed liberation despite weak French military capacity.",
+            "stance": "The source treats universal claims and exile pressure as politically real, while distinguishing them from a realistic or agreed intervention strategy.",
+            "acceptable_access": [
+              "Revolutionary universalism, political exiles and Clootz's delegation",
+              "Anacharsis Clootz—delegation of 19 June 1790",
+              "National Assembly—international delegation",
+              "Geneva—democratic exiles",
+              "Genevan democrats in France",
+              "political exiles—Geneva",
+              "political exiles—revolutionary Europe",
+              "transnational revolutionary networks",
+              "foreign patriots in France",
+              "refugees and revolutionary diffusion",
+              "French Revolution—universal principles",
+              "revolutionary universalism",
+              "armed apostles of liberty",
+              "Anacharsis Clootz—delegation of 1790",
+              "export of revolution",
+              "foreign exiles—armed liberation",
+              "political refugees—appeals to France",
+              "Genevan, Dutch, and Belgian exiles",
+              "export of revolution—exile advocacy"
+            ],
+            "document_pages": [
+              160,
+              161,
+              172,
+              173
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S033"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S033",
+            "label": "Revolutionary universalism, political exiles and Clootz's delegation",
+            "meaning": "French claims of universal liberty attracted Genevan, Dutch and Belgian political exiles. Clootz's delegation combined theatrical display with real refugee hopes; after Varennes exiles urged armed liberation despite weak French military capacity.",
+            "stance": "The source treats universal claims and exile pressure as politically real, while distinguishing them from a realistic or agreed intervention strategy.",
+            "acceptable_access": [
+              "Revolutionary universalism, political exiles and Clootz's delegation",
+              "Anacharsis Clootz—delegation of 19 June 1790",
+              "National Assembly—international delegation",
+              "Geneva—democratic exiles",
+              "Genevan democrats in France",
+              "political exiles—Geneva",
+              "political exiles—revolutionary Europe",
+              "transnational revolutionary networks",
+              "foreign patriots in France",
+              "refugees and revolutionary diffusion",
+              "French Revolution—universal principles",
+              "revolutionary universalism",
+              "armed apostles of liberty",
+              "Anacharsis Clootz—delegation of 1790",
+              "export of revolution",
+              "foreign exiles—armed liberation",
+              "political refugees—appeals to France",
+              "Genevan, Dutch, and Belgian exiles",
+              "export of revolution—exile advocacy"
+            ],
+            "document_pages": [
+              160,
+              161,
+              172,
+              173
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "7173bc16d7b05dba09aac5fc49337c2cc26e16a72124c6f95578991ceb27cae6",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "172–173 supports real exile advocacy, skepticism in the Constituent Assembly and royal family, and the chapter’s concluding export-of-problems interpretation. The latter is not evidence that those actors had agreed on a workable intervention plan.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 57,
+      "subject_id": "SUBJ-SUCC-5DD90C556A55",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0097"
+      ],
+      "source_correction_row_sha256s": [
+        "3c9541b3c3010c63c8a9e5c3ea10f2afe2d635893df6343c65484c2c602e0d40"
+      ],
+      "before_record": {
+        "label": "Forced loan and Ventôse decrees: distinct emergency property measures",
+        "priority": "major",
+        "meaning": "The progressive forced loan retired depreciated assignats and was remembered as class legislation, although uneven implementation and payment in paper softened its burden. The later Ventôse decrees proposed sequestering enemies’ goods for indigent patriots but produced little redistribution through confused administration.",
+        "stance": "Keep the implemented fiscal levy distinct from a largely unrealized redistributive program. Both expressed pressure to act against wealth or enemies, but Ventôse also sought to outbid radical opposition.",
+        "subject_id": "SUBJ-SUCC-5DD90C556A55",
+        "acceptable_access": [
+          "Forced loan and Ventôse decrees: distinct emergency property measures",
+          "forced loan on the rich",
+          "Laws of Ventôse",
+          "property redistribution > Ventôse decrees",
+          "forced loan of 1793",
+          "rich—forced loan",
+          "emergency finance—Terror",
+          "class legislation—1793",
+          "Ventôse decrees",
+          "property redistribution—1794",
+          "indigent patriots",
+          "Saint-Just—social legislation"
+        ],
+        "evidence": [
+          {
+            "document_page": 265,
+            "source_page_label": "265",
+            "locator_class": "principal",
+            "evidence_summary": "The financial context introduces the forced loan as one part of stabilizing the assignat.",
+            "evidence_id": "EVID-SUCC-70FC701758F9",
+            "source_local_subject_id": "SUCC-C011-S016",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 266,
+            "source_page_label": "266",
+            "locator_class": "principal",
+            "evidence_summary": "Loan rates, payment and uneven enforcement are distinguished from the later Ventôse redistribution scheme and its meager implementation.",
+            "evidence_id": "EVID-SUCC-A1450A32EF2E",
+            "source_local_subject_id": "SUCC-C011-S016",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S016",
+            "label": "Forced loan and Ventôse decrees: distinct emergency property measures",
+            "meaning": "The progressive forced loan retired depreciated assignats and was remembered as class legislation, although uneven implementation and payment in paper softened its burden. The later Ventôse decrees proposed sequestering enemies’ goods for indigent patriots but produced little redistribution through confused administration.",
+            "stance": "Keep the implemented fiscal levy distinct from a largely unrealized redistributive program. Both expressed pressure to act against wealth or enemies, but Ventôse also sought to outbid radical opposition.",
+            "acceptable_access": [
+              "Forced loan and Ventôse decrees: distinct emergency property measures",
+              "forced loan on the rich",
+              "Laws of Ventôse",
+              "property redistribution > Ventôse decrees",
+              "forced loan of 1793",
+              "rich—forced loan",
+              "emergency finance—Terror",
+              "class legislation—1793",
+              "Ventôse decrees",
+              "property redistribution—1794",
+              "indigent patriots",
+              "Saint-Just—social legislation"
+            ],
+            "document_pages": [
+              265,
+              266
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S016"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S016",
+            "label": "Forced loan and Ventôse decrees: distinct emergency property measures",
+            "meaning": "The progressive forced loan retired depreciated assignats and was remembered as class legislation, although uneven implementation and payment in paper softened its burden. The later Ventôse decrees proposed sequestering enemies’ goods for indigent patriots but produced little redistribution through confused administration.",
+            "stance": "Keep the implemented fiscal levy distinct from a largely unrealized redistributive program. Both expressed pressure to act against wealth or enemies, but Ventôse also sought to outbid radical opposition.",
+            "acceptable_access": [
+              "Forced loan and Ventôse decrees: distinct emergency property measures",
+              "forced loan on the rich",
+              "Laws of Ventôse",
+              "property redistribution > Ventôse decrees",
+              "forced loan of 1793",
+              "rich—forced loan",
+              "emergency finance—Terror",
+              "class legislation—1793",
+              "Ventôse decrees",
+              "property redistribution—1794",
+              "indigent patriots",
+              "Saint-Just—social legislation"
+            ],
+            "document_pages": [
+              265,
+              266
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "2cda7f926c20f4a851daaea2133eefd8b4257830108a0c896db89ba7dfa6112d",
+      "proposed_record": {
+        "label": "Forced loan and Ventôse decrees: distinct emergency property measures",
+        "priority": "major",
+        "meaning": "The progressive forced loan retired depreciated assignats and was remembered as class legislation, although uneven implementation and payment in paper softened its burden. The later Ventôse decrees proposed sequestering enemies’ goods for indigent patriots but produced little redistribution through confused administration.",
+        "stance": "Keep the implemented fiscal levy distinct from a largely unrealized redistributive program. Both expressed pressure to act against wealth or enemies, but Ventôse also sought to outbid radical opposition.",
+        "subject_id": "SUBJ-SUCC-5DD90C556A55",
+        "acceptable_access": [
+          "Forced loan and Ventôse decrees: distinct emergency property measures",
+          "forced loan on the rich",
+          "Laws of Ventôse",
+          "property redistribution > Ventôse decrees",
+          "forced loan of 1793",
+          "rich—forced loan",
+          "emergency finance—Terror",
+          "class legislation—1793",
+          "Ventôse decrees",
+          "property redistribution—1794",
+          "indigent patriots",
+          "Saint-Just—social legislation"
+        ],
+        "evidence": [
+          {
+            "document_page": 265,
+            "source_page_label": "265",
+            "locator_class": "principal",
+            "evidence_summary": "The financial context introduces the forced loan as one part of stabilizing the assignat.",
+            "evidence_id": "EVID-SUCC-70FC701758F9",
+            "source_local_subject_id": "SUCC-C011-S016",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 266,
+            "source_page_label": "266",
+            "locator_class": "principal",
+            "evidence_summary": "The forced loan’s rates, depreciated-paper payment and uneven enforcement differ from Ventôse redistribution. Watch committees were to list detainees and popular commissions identify enemies whose goods could pass to approved indigent patriots; confused administration and lukewarm governing committees left little implemented.",
+            "evidence_id": "EVID-SUCC-A1450A32EF2E",
+            "source_local_subject_id": "SUCC-C011-S016",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S016",
+            "label": "Forced loan and Ventôse decrees: distinct emergency property measures",
+            "meaning": "The progressive forced loan retired depreciated assignats and was remembered as class legislation, although uneven implementation and payment in paper softened its burden. The later Ventôse decrees proposed sequestering enemies’ goods for indigent patriots but produced little redistribution through confused administration.",
+            "stance": "Keep the implemented fiscal levy distinct from a largely unrealized redistributive program. Both expressed pressure to act against wealth or enemies, but Ventôse also sought to outbid radical opposition.",
+            "acceptable_access": [
+              "Forced loan and Ventôse decrees: distinct emergency property measures",
+              "forced loan on the rich",
+              "Laws of Ventôse",
+              "property redistribution > Ventôse decrees",
+              "forced loan of 1793",
+              "rich—forced loan",
+              "emergency finance—Terror",
+              "class legislation—1793",
+              "Ventôse decrees",
+              "property redistribution—1794",
+              "indigent patriots",
+              "Saint-Just—social legislation"
+            ],
+            "document_pages": [
+              265,
+              266
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S016"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S016",
+            "label": "Forced loan and Ventôse decrees: distinct emergency property measures",
+            "meaning": "The progressive forced loan retired depreciated assignats and was remembered as class legislation, although uneven implementation and payment in paper softened its burden. The later Ventôse decrees proposed sequestering enemies’ goods for indigent patriots but produced little redistribution through confused administration.",
+            "stance": "Keep the implemented fiscal levy distinct from a largely unrealized redistributive program. Both expressed pressure to act against wealth or enemies, but Ventôse also sought to outbid radical opposition.",
+            "acceptable_access": [
+              "Forced loan and Ventôse decrees: distinct emergency property measures",
+              "forced loan on the rich",
+              "Laws of Ventôse",
+              "property redistribution > Ventôse decrees",
+              "forced loan of 1793",
+              "rich—forced loan",
+              "emergency finance—Terror",
+              "class legislation—1793",
+              "Ventôse decrees",
+              "property redistribution—1794",
+              "indigent patriots",
+              "Saint-Just—social legislation"
+            ],
+            "document_pages": [
+              265,
+              266
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "deae4512b76eb64894f962f3810e019be1459d1afb67381b51cc87de77ed3dad",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "266 explicitly specifies watch-committee lists and popular commissions, then chaotic nonimplementation. Retain the distinct implemented forced-loan fiscal mechanism and the political outbidding purpose.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 58,
+      "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0098",
+        "CORR-007-LEGACY-0099",
+        "CORR-007-LEGACY-0113",
+        "CORR-007-LEGACY-0431"
+      ],
+      "source_correction_row_sha256s": [
+        "d36e58cc0831c40556066ad1f2c06a3d1e86733e9179f0c90cfee2c97f4cfb37",
+        "ed11836b9dfdaa878b15be923598c97b2728fb190431932440ee399cb39b0860",
+        "7212b637ef4ea601b902f6b32dbe2773786e8d22d5641e255aa0ea3d507014ae",
+        "5a2f1b13b524a0b582067f2091babf6afc814669a91cfc2066e19bf3c112e8ed"
+      ],
+      "before_record": {
+        "label": "French military and political crisis of 1793",
+        "priority": "major",
+        "meaning": "The sequence of Neerwinden, loss of Belgium and the Rhineland, invasions, sieges, Federalist revolt, and surrender of Toulon amid shrinking French forces. Dumouriez’s real betrayal reinforced suspicions of treason, while the executions of failed commanders such as Custine and Houchard made even patriotic generals fear bold action. Suppression of domestic revolts absorbed much of autumn 1793 and delayed the full effect of national mobilization against foreign enemies.",
+        "stance": "The crisis was severe but partly self-created by overconfidence, demobilization after 1792, expanding commitments, and the growth of internal and external enemies.",
+        "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+        "acceptable_access": [
+          "French military and political crisis of 1793",
+          "France, military crisis of 1793",
+          "French defeats, 1793",
+          "War crisis and political upheaval, 1793",
+          "French military overextension, 1793",
+          "reversal of French fortunes",
+          "war crisis of 1793",
+          "Neerwinden, battle of",
+          "Dumouriez—defeat at Neerwinden",
+          "Austrian counteroffensive, 1793",
+          "Mainz—siege and capitulation, 1793",
+          "Rhineland—French expulsion",
+          "French military losses—German front",
+          "military crisis of 1793",
+          "French defeats—summer 1793",
+          "invasion and internal revolt",
+          "Federalist revolt—war impact",
+          "Vendée revolt—military impact",
+          "internal revolt and foreign war",
+          "French army—demobilization, 1792–1793",
+          "causes of French defeats, 1793",
+          "volunteers—return home"
+        ],
+        "evidence": [
+          {
+            "document_page": 201,
+            "source_page_label": "201",
+            "locator_class": "principal",
+            "evidence_summary": "France adds commitments and enemies while the partition settlement frees opponents for the western front.",
+            "evidence_id": "EVID-SUCC-406CC8133B3E",
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 202,
+            "source_page_label": "202",
+            "locator_class": "principal",
+            "evidence_summary": "Neerwinden, Dumouriez’s defection and loss of the Rhineland reverse the French advance.",
+            "evidence_id": "EVID-SUCC-B3D6C2C1181F",
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 203,
+            "source_page_label": "203",
+            "locator_class": "principal",
+            "evidence_summary": "Reverses, internal revolt, premature volunteer departure and expanding enemies explain the crisis. Dumouriez’s betrayal reinforced suspicions, and executions of failed generals discouraged bold action even by patriotic commanders.",
+            "evidence_id": "EVID-SUCC-6E106B31925E",
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "evidence_id": "EVID-SUCC-78FD706FD48F",
+            "source_evidence_id": "EVID-90A5F8988FC1",
+            "document_page": 206,
+            "source_page_label": "206",
+            "locator_class": "principal",
+            "evidence_summary": "Much of autumn 1793 was spent suppressing domestic revolt before national resources could be fully directed outward.",
+            "provenance": {
+              "chunk_id": "CHUNK-009",
+              "local_subject_id": "CHUNK-009-S033",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-009.json",
+              "source_artifact_sha256": "d1820383c7823e487c32071a8c1b65a5614e0fcb74e89eec88994a8b7177d839"
+            },
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-2BAE531980F4",
+              "evidence_id": "EVID-281335B16A94"
+            },
+            "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S009",
+            "label": "French military and political crisis of 1793",
+            "meaning": "The sequence of Neerwinden, loss of Belgium and the Rhineland, invasions, sieges, Federalist revolt, and surrender of Toulon amid shrinking French forces. Dumouriez’s real betrayal reinforced suspicions of treason, while the executions of failed commanders such as Custine and Houchard made even patriotic generals fear bold action. Suppression of domestic revolts absorbed much of autumn 1793 and delayed the full effect of national mobilization against foreign enemies.",
+            "stance": "The crisis was severe but partly self-created by overconfidence, demobilization after 1792, expanding commitments, and the growth of internal and external enemies.",
+            "acceptable_access": [
+              "French military and political crisis of 1793",
+              "France, military crisis of 1793",
+              "French defeats, 1793",
+              "War crisis and political upheaval, 1793",
+              "French military overextension, 1793",
+              "reversal of French fortunes",
+              "war crisis of 1793",
+              "Neerwinden, battle of",
+              "Dumouriez—defeat at Neerwinden",
+              "Austrian counteroffensive, 1793",
+              "Mainz—siege and capitulation, 1793",
+              "Rhineland—French expulsion",
+              "French military losses—German front",
+              "military crisis of 1793",
+              "French defeats—summer 1793",
+              "invasion and internal revolt",
+              "Federalist revolt—war impact",
+              "Vendée revolt—military impact",
+              "internal revolt and foreign war",
+              "French army—demobilization, 1792–1793",
+              "causes of French defeats, 1793",
+              "volunteers—return home"
+            ],
+            "document_pages": [
+              201,
+              202,
+              203,
+              206
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S009"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S009",
+            "label": "French military and political crisis of 1793",
+            "meaning": "The sequence of Neerwinden, loss of Belgium and the Rhineland, invasions, sieges, Federalist revolt, and surrender of Toulon amid shrinking French forces. Dumouriez’s real betrayal reinforced suspicions of treason, while the executions of failed commanders such as Custine and Houchard made even patriotic generals fear bold action. Suppression of domestic revolts absorbed much of autumn 1793 and delayed the full effect of national mobilization against foreign enemies.",
+            "stance": "The crisis was severe but partly self-created by overconfidence, demobilization after 1792, expanding commitments, and the growth of internal and external enemies.",
+            "acceptable_access": [
+              "French military and political crisis of 1793",
+              "France, military crisis of 1793",
+              "French defeats, 1793",
+              "War crisis and political upheaval, 1793",
+              "French military overextension, 1793",
+              "reversal of French fortunes",
+              "war crisis of 1793",
+              "Neerwinden, battle of",
+              "Dumouriez—defeat at Neerwinden",
+              "Austrian counteroffensive, 1793",
+              "Mainz—siege and capitulation, 1793",
+              "Rhineland—French expulsion",
+              "French military losses—German front",
+              "military crisis of 1793",
+              "French defeats—summer 1793",
+              "invasion and internal revolt",
+              "Federalist revolt—war impact",
+              "Vendée revolt—military impact",
+              "internal revolt and foreign war",
+              "French army—demobilization, 1792–1793",
+              "causes of French defeats, 1793",
+              "volunteers—return home"
+            ],
+            "document_pages": [
+              201,
+              202,
+              203,
+              206
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "09bdae6a5ac8dfb6844c29939a573dc493373897e86b2b36004da8de719388be",
+      "proposed_record": {
+        "label": "French military and political crisis of 1793",
+        "priority": "major",
+        "meaning": "The sequence of Neerwinden, loss of Belgium and the Rhineland, invasions, sieges, Federalist revolt, and surrender of Toulon amid shrinking French forces. Dumouriez’s real betrayal reinforced suspicions of treason, while the executions of failed commanders such as Custine and Houchard made even patriotic generals fear bold action. Suppression of domestic revolts absorbed much of autumn 1793 and delayed the full effect of national mobilization against foreign enemies.",
+        "stance": "The crisis was severe but partly self-created by overconfidence, demobilization after 1792, expanding commitments, and the growth of internal and external enemies.",
+        "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+        "acceptable_access": [
+          "French military and political crisis of 1793",
+          "France, military crisis of 1793",
+          "French defeats, 1793",
+          "War crisis and political upheaval, 1793",
+          "French military overextension, 1793",
+          "reversal of French fortunes",
+          "war crisis of 1793",
+          "Neerwinden, battle of",
+          "Dumouriez—defeat at Neerwinden",
+          "Austrian counteroffensive, 1793",
+          "Mainz—siege and capitulation, 1793",
+          "Rhineland—French expulsion",
+          "French military losses—German front",
+          "military crisis of 1793",
+          "French defeats—summer 1793",
+          "invasion and internal revolt",
+          "Federalist revolt—war impact",
+          "Vendée revolt—military impact",
+          "internal revolt and foreign war",
+          "French army—demobilization, 1792–1793",
+          "causes of French defeats, 1793",
+          "volunteers—return home",
+          "generals—treason accusations",
+          "Custine—execution",
+          "Houchard—execution"
+        ],
+        "evidence": [
+          {
+            "document_page": 201,
+            "source_page_label": "201",
+            "locator_class": "principal",
+            "evidence_summary": "France adds commitments and enemies while the partition settlement frees opponents for the western front.",
+            "evidence_id": "EVID-SUCC-406CC8133B3E",
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 202,
+            "source_page_label": "202",
+            "locator_class": "principal",
+            "evidence_summary": "Neerwinden, Dumouriez’s defection and Rhine losses reversed French advances as the Vendée revolt added a major domestic military emergency.",
+            "evidence_id": "EVID-SUCC-B3D6C2C1181F",
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 203,
+            "source_page_label": "203",
+            "locator_class": "principal",
+            "evidence_summary": "Reverses, internal revolt, premature volunteer departure and expanding enemies explain the crisis. Dumouriez’s betrayal reinforced suspicions, and executions of failed generals discouraged bold action even by patriotic commanders.",
+            "evidence_id": "EVID-SUCC-6E106B31925E",
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "evidence_id": "EVID-SUCC-78FD706FD48F",
+            "source_evidence_id": "EVID-90A5F8988FC1",
+            "document_page": 206,
+            "source_page_label": "206",
+            "locator_class": "principal",
+            "evidence_summary": "Much of autumn 1793 was spent suppressing domestic revolt before national resources could be fully directed outward.",
+            "provenance": {
+              "chunk_id": "CHUNK-009",
+              "local_subject_id": "CHUNK-009-S033",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-009.json",
+              "source_artifact_sha256": "d1820383c7823e487c32071a8c1b65a5614e0fcb74e89eec88994a8b7177d839"
+            },
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-2BAE531980F4",
+              "evidence_id": "EVID-281335B16A94"
+            },
+            "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S009",
+            "label": "French military and political crisis of 1793",
+            "meaning": "The sequence of Neerwinden, loss of Belgium and the Rhineland, invasions, sieges, Federalist revolt, and surrender of Toulon amid shrinking French forces. Dumouriez’s real betrayal reinforced suspicions of treason, while the executions of failed commanders such as Custine and Houchard made even patriotic generals fear bold action. Suppression of domestic revolts absorbed much of autumn 1793 and delayed the full effect of national mobilization against foreign enemies.",
+            "stance": "The crisis was severe but partly self-created by overconfidence, demobilization after 1792, expanding commitments, and the growth of internal and external enemies.",
+            "acceptable_access": [
+              "French military and political crisis of 1793",
+              "France, military crisis of 1793",
+              "French defeats, 1793",
+              "War crisis and political upheaval, 1793",
+              "French military overextension, 1793",
+              "reversal of French fortunes",
+              "war crisis of 1793",
+              "Neerwinden, battle of",
+              "Dumouriez—defeat at Neerwinden",
+              "Austrian counteroffensive, 1793",
+              "Mainz—siege and capitulation, 1793",
+              "Rhineland—French expulsion",
+              "French military losses—German front",
+              "military crisis of 1793",
+              "French defeats—summer 1793",
+              "invasion and internal revolt",
+              "Federalist revolt—war impact",
+              "Vendée revolt—military impact",
+              "internal revolt and foreign war",
+              "French army—demobilization, 1792–1793",
+              "causes of French defeats, 1793",
+              "volunteers—return home",
+              "generals—treason accusations",
+              "Custine—execution",
+              "Houchard—execution"
+            ],
+            "document_pages": [
+              201,
+              202,
+              203,
+              206
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S009"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S009",
+            "label": "French military and political crisis of 1793",
+            "meaning": "The sequence of Neerwinden, loss of Belgium and the Rhineland, invasions, sieges, Federalist revolt, and surrender of Toulon amid shrinking French forces. Dumouriez’s real betrayal reinforced suspicions of treason, while the executions of failed commanders such as Custine and Houchard made even patriotic generals fear bold action. Suppression of domestic revolts absorbed much of autumn 1793 and delayed the full effect of national mobilization against foreign enemies.",
+            "stance": "The crisis was severe but partly self-created by overconfidence, demobilization after 1792, expanding commitments, and the growth of internal and external enemies.",
+            "acceptable_access": [
+              "French military and political crisis of 1793",
+              "France, military crisis of 1793",
+              "French defeats, 1793",
+              "War crisis and political upheaval, 1793",
+              "French military overextension, 1793",
+              "reversal of French fortunes",
+              "war crisis of 1793",
+              "Neerwinden, battle of",
+              "Dumouriez—defeat at Neerwinden",
+              "Austrian counteroffensive, 1793",
+              "Mainz—siege and capitulation, 1793",
+              "Rhineland—French expulsion",
+              "French military losses—German front",
+              "military crisis of 1793",
+              "French defeats—summer 1793",
+              "invasion and internal revolt",
+              "Federalist revolt—war impact",
+              "Vendée revolt—military impact",
+              "internal revolt and foreign war",
+              "French army—demobilization, 1792–1793",
+              "causes of French defeats, 1793",
+              "volunteers—return home",
+              "generals—treason accusations",
+              "Custine—execution",
+              "Houchard—execution"
+            ],
+            "document_pages": [
+              201,
+              202,
+              203,
+              206
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "9dfb738307a0a7f15e68956b08da0e490ae236bd4b2adf5455a86a75ce05d85b",
+      "fields_changed": [
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "The stage8 whole meaning already contains the full0098 domestic-resource-delay requirement and the independently repaired command-inhibition distinction. Retain it rather than replace it with the shorter proposal.202 evidence already supplies Vendée concurrence; reject the redundant repeated sentence in0431 while retaining its substance. Add the named commander access alternatives.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 59,
+      "subject_id": "SUBJ-SUCC-034398CDB346",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0100",
+        "CORR-007-LEGACY-0101",
+        "CORR-007-LEGACY-0102"
+      ],
+      "source_correction_row_sha256s": [
+        "53bc7b7a8ffc286111a6fecd2074a79831dec50c8c70e27b54d6e6f2bc556853",
+        "ac2366f7002ad569b56bc19f0505d5dc929e766f071b34035a7627c814ecd2ea",
+        "c4f369e105a5441c462733195895078c13739e076e84b96c910a91e3a9a2a6ea"
+      ],
+      "before_record": {
+        "label": "Fouché, religious terror and repression at Lyons",
+        "priority": "major",
+        "meaning": "Fouché pioneered an anti-Christian civic program in the Nièvre and then joined Collot in exemplary repression at Lyons.",
+        "stance": "His dechristianization was locally initiated and ideologically sweeping, not originally a Convention-authorized national policy.",
+        "subject_id": "SUBJ-SUCC-034398CDB346",
+        "acceptable_access": [
+          "Fouché, religious terror and repression at Lyons",
+          "Fouché, Joseph > dechristianization in the Nièvre",
+          "Fouché, Joseph > Terror at Lyons",
+          "Fouché—Nièvre",
+          "Nièvre—dechristianization",
+          "civic religion—Fouché",
+          "religious terror"
+        ],
+        "evidence": [
+          {
+            "document_page": 254,
+            "source_page_label": "254",
+            "locator_class": "principal",
+            "evidence_summary": "Fouché and Collot arrived at Lyons determined to carry out exemplary vengeance.",
+            "evidence_id": "EVID-SUCC-8521DCC98168",
+            "source_local_subject_id": "SUCC-C011-S028",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 259,
+            "source_page_label": "259",
+            "locator_class": "principal",
+            "evidence_summary": "In the Nièvre Fouché declared Christianity incompatible with revolution and inaugurated a civic religion.",
+            "evidence_id": "EVID-SUCC-71E6E97569B1",
+            "source_local_subject_id": "SUCC-C011-S028",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 260,
+            "source_page_label": "260",
+            "locator_class": "supporting",
+            "evidence_summary": "His manifesto restricted public worship, attacked clerical celibacy, and supplied a model later carried to Paris.",
+            "evidence_id": "EVID-SUCC-E94433FC360A",
+            "source_local_subject_id": "SUCC-C011-S028",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S028",
+            "label": "Fouché, religious terror and repression at Lyons",
+            "meaning": "Fouché pioneered an anti-Christian civic program in the Nièvre and then joined Collot in exemplary repression at Lyons.",
+            "stance": "His dechristianization was locally initiated and ideologically sweeping, not originally a Convention-authorized national policy.",
+            "acceptable_access": [
+              "Fouché, religious terror and repression at Lyons",
+              "Fouché, Joseph > dechristianization in the Nièvre",
+              "Fouché, Joseph > Terror at Lyons",
+              "Fouché—Nièvre",
+              "Nièvre—dechristianization",
+              "civic religion—Fouché",
+              "religious terror"
+            ],
+            "document_pages": [
+              254,
+              259,
+              260
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S028"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S028",
+            "label": "Fouché, religious terror and repression at Lyons",
+            "meaning": "Fouché pioneered an anti-Christian civic program in the Nièvre and then joined Collot in exemplary repression at Lyons.",
+            "stance": "His dechristianization was locally initiated and ideologically sweeping, not originally a Convention-authorized national policy.",
+            "acceptable_access": [
+              "Fouché, religious terror and repression at Lyons",
+              "Fouché, Joseph > dechristianization in the Nièvre",
+              "Fouché, Joseph > Terror at Lyons",
+              "Fouché—Nièvre",
+              "Nièvre—dechristianization",
+              "civic religion—Fouché",
+              "religious terror"
+            ],
+            "document_pages": [
+              254,
+              259,
+              260
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "24d9211b94fe3be75d2e30481680ae005659a0a468b3ff104351ac7079fbb075",
+      "proposed_record": {
+        "label": "Fouché, religious terror and repression at Lyons",
+        "priority": "major",
+        "meaning": "Fouché pioneered an anti-Christian civic program in the Nièvre and then joined Collot in exemplary repression at Lyons. His experience of clerical resistance in the Vendée informed his conclusion that Christianity could not coexist with revolution; his Nièvre programme restricted public worship, attacked clerical celibacy and replaced religious burial symbols with secular doctrine.",
+        "stance": "His dechristianization was locally initiated and ideologically sweeping, not originally a Convention-authorized national policy.",
+        "subject_id": "SUBJ-SUCC-034398CDB346",
+        "acceptable_access": [
+          "Fouché, religious terror and repression at Lyons",
+          "Fouché, Joseph > dechristianization in the Nièvre",
+          "Fouché, Joseph > Terror at Lyons",
+          "Fouché—Nièvre",
+          "Nièvre—dechristianization",
+          "civic religion—Fouché",
+          "religious terror"
+        ],
+        "evidence": [
+          {
+            "document_page": 254,
+            "source_page_label": "254",
+            "locator_class": "principal",
+            "evidence_summary": "Fouché and Collot arrived at Lyons determined to carry out exemplary vengeance.",
+            "evidence_id": "EVID-SUCC-8521DCC98168",
+            "source_local_subject_id": "SUCC-C011-S028",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 259,
+            "source_page_label": "259",
+            "locator_class": "principal",
+            "evidence_summary": "After observing clerical inspiration of resistance in the Vendée, Fouché declared Christianity incompatible with revolution and transformed the previously quiet Nièvre through a new civic religion.",
+            "evidence_id": "EVID-SUCC-71E6E97569B1",
+            "source_local_subject_id": "SUCC-C011-S028",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 260,
+            "source_page_label": "260",
+            "locator_class": "supporting",
+            "evidence_summary": "Fouché proclaimed universal morality, confined worship to private space, attacked clerical celibacy and replaced religious graveyard symbolism with secular doctrine. Chaumette carried the model toward Paris.",
+            "evidence_id": "EVID-SUCC-E94433FC360A",
+            "source_local_subject_id": "SUCC-C011-S028",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S028",
+            "label": "Fouché, religious terror and repression at Lyons",
+            "meaning": "Fouché pioneered an anti-Christian civic program in the Nièvre and then joined Collot in exemplary repression at Lyons. His experience of clerical resistance in the Vendée informed his conclusion that Christianity could not coexist with revolution; his Nièvre programme restricted public worship, attacked clerical celibacy and replaced religious burial symbols with secular doctrine.",
+            "stance": "His dechristianization was locally initiated and ideologically sweeping, not originally a Convention-authorized national policy.",
+            "acceptable_access": [
+              "Fouché, religious terror and repression at Lyons",
+              "Fouché, Joseph > dechristianization in the Nièvre",
+              "Fouché, Joseph > Terror at Lyons",
+              "Fouché—Nièvre",
+              "Nièvre—dechristianization",
+              "civic religion—Fouché",
+              "religious terror"
+            ],
+            "document_pages": [
+              254,
+              259,
+              260
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S028"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S028",
+            "label": "Fouché, religious terror and repression at Lyons",
+            "meaning": "Fouché pioneered an anti-Christian civic program in the Nièvre and then joined Collot in exemplary repression at Lyons. His experience of clerical resistance in the Vendée informed his conclusion that Christianity could not coexist with revolution; his Nièvre programme restricted public worship, attacked clerical celibacy and replaced religious burial symbols with secular doctrine.",
+            "stance": "His dechristianization was locally initiated and ideologically sweeping, not originally a Convention-authorized national policy.",
+            "acceptable_access": [
+              "Fouché, religious terror and repression at Lyons",
+              "Fouché, Joseph > dechristianization in the Nièvre",
+              "Fouché, Joseph > Terror at Lyons",
+              "Fouché—Nièvre",
+              "Nièvre—dechristianization",
+              "civic religion—Fouché",
+              "religious terror"
+            ],
+            "document_pages": [
+              254,
+              259,
+              260
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "fe28c6fe51087705facc0cec72a59e8ceb48334016d5bba83db452eb77f22fb8",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "259–260 supports Fouché’s Vendée experience, quiet Nièvre setting, civic religion, public/private worship boundary, celibacy attack and Chaumette transmission. These remain local initiative, not a Convention-issued national plan.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 60,
+      "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0103"
+      ],
+      "source_correction_row_sha256s": [
+        "1fb0f6d3ece38a0d6a9dea6a56e9d50fa05df6dc01a37db1fd306fae2303a8c8"
+      ],
+      "before_record": {
+        "label": "Great Britain's entry into war with France",
+        "priority": "major",
+        "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality. France formally declared war on Britain on 1 February 1793, and against the Dutch Republic in the same Convention session.",
+        "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+        "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+        "acceptable_access": [
+          "Great Britain's entry into war with France",
+          "Great Britain, entry into French Revolutionary War",
+          "Pitt, William, war with France",
+          "Belgium and the Scheldt, British policy",
+          "Louis XVI, execution and international war",
+          "Britain—Belgium policy",
+          "Scheldt—opening in 1792",
+          "Pitt—entry into war",
+          "Low Countries—British strategy",
+          "Britain—war with France, 1793",
+          "execution of Louis XVI—British reaction",
+          "Anglo-French break",
+          "war declarations—1 February 1793",
+          "Dutch Republic—war with France",
+          "Britain—French declaration of war"
+        ],
+        "evidence": [
+          {
+            "document_page": 200,
+            "source_page_label": "200",
+            "locator_class": "principal",
+            "evidence_summary": "Explains British neutrality, Low Countries policy, the Scheldt crisis, Dutch fears, and fleet mobilization.",
+            "evidence_id": "EVID-SUCC-4BC566ED13A7",
+            "source_local_subject_id": "SUCC-C009-S006",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 201,
+            "source_page_label": "201",
+            "locator_class": "principal",
+            "evidence_summary": "After public British support and failed secret negotiations, the French Convention unanimously declared war on Britain on 1 February 1793 and on the Dutch Republic in the same session.",
+            "evidence_id": "EVID-SUCC-175EB5E6CCFB",
+            "source_local_subject_id": "SUCC-C009-S006",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 202,
+            "source_page_label": "202",
+            "locator_class": "supporting",
+            "evidence_summary": "Places British entry within diplomacy creating the wider anti-French coalition.",
+            "evidence_id": "EVID-SUCC-6D9CCF1C340D",
+            "source_local_subject_id": "SUCC-C009-S006",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S006",
+            "label": "Great Britain's entry into war with France",
+            "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality.",
+            "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+            "acceptable_access": [
+              "Great Britain's entry into war with France",
+              "Great Britain, entry into French Revolutionary War",
+              "Pitt, William, war with France",
+              "Belgium and the Scheldt, British policy",
+              "Louis XVI, execution and international war",
+              "Britain—Belgium policy",
+              "Scheldt—opening in 1792",
+              "Pitt—entry into war",
+              "Low Countries—British strategy",
+              "Britain—war with France, 1793",
+              "execution of Louis XVI—British reaction",
+              "Anglo-French break",
+              "war declarations—1 February 1793",
+              "Dutch Republic—war with France",
+              "Britain—French declaration of war"
+            ],
+            "document_pages": [
+              200,
+              201,
+              202
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S006"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S006",
+            "label": "Great Britain's entry into war with France",
+            "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI's execution in ending British neutrality.",
+            "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+            "acceptable_access": [
+              "Great Britain's entry into war with France",
+              "Great Britain, entry into French Revolutionary War",
+              "Pitt, William, war with France",
+              "Belgium and the Scheldt, British policy",
+              "Louis XVI, execution and international war",
+              "Britain—Belgium policy",
+              "Scheldt—opening in 1792",
+              "Pitt—entry into war",
+              "Low Countries—British strategy",
+              "Britain—war with France, 1793",
+              "execution of Louis XVI—British reaction",
+              "Anglo-French break",
+              "war declarations—1 February 1793",
+              "Dutch Republic—war with France",
+              "Britain—French declaration of war"
+            ],
+            "document_pages": [
+              200,
+              201,
+              202
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "8cf1968f70b27ad1e516699b92475cf5abe2642a2cf26f301e0b02ac484f5547",
+      "proposed_record": {
+        "label": "Great Britain's entry into war with France",
+        "priority": "major",
+        "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI’s execution ended British neutrality. The Convention unanimously declared war on Britain on 1 February 1793; in the same session it also declared war on the Dutch Republic, amid defiance that widened already excessive commitments.",
+        "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+        "subject_id": "SUBJ-SUCC-CCFD03FFBD3B",
+        "acceptable_access": [
+          "Great Britain's entry into war with France",
+          "Great Britain, entry into French Revolutionary War",
+          "Pitt, William, war with France",
+          "Belgium and the Scheldt, British policy",
+          "Louis XVI, execution and international war",
+          "Britain—Belgium policy",
+          "Scheldt—opening in 1792",
+          "Pitt—entry into war",
+          "Low Countries—British strategy",
+          "Britain—war with France, 1793",
+          "execution of Louis XVI—British reaction",
+          "Anglo-French break",
+          "war declarations—1 February 1793",
+          "Dutch Republic—war with France",
+          "Britain—French declaration of war"
+        ],
+        "evidence": [
+          {
+            "document_page": 200,
+            "source_page_label": "200",
+            "locator_class": "principal",
+            "evidence_summary": "Explains British neutrality, Low Countries policy, the Scheldt crisis, Dutch fears, and fleet mobilization.",
+            "evidence_id": "EVID-SUCC-4BC566ED13A7",
+            "source_local_subject_id": "SUCC-C009-S006",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 201,
+            "source_page_label": "201",
+            "locator_class": "principal",
+            "evidence_summary": "After public British support and failed secret negotiations, the French Convention unanimously declared war on Britain on 1 February 1793 and on the Dutch Republic in the same session.",
+            "evidence_id": "EVID-SUCC-175EB5E6CCFB",
+            "source_local_subject_id": "SUCC-C009-S006",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 202,
+            "source_page_label": "202",
+            "locator_class": "supporting",
+            "evidence_summary": "Places British entry within diplomacy creating the wider anti-French coalition.",
+            "evidence_id": "EVID-SUCC-6D9CCF1C340D",
+            "source_local_subject_id": "SUCC-C009-S006",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S006",
+            "label": "Great Britain's entry into war with France",
+            "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI’s execution ended British neutrality. The Convention unanimously declared war on Britain on 1 February 1793; in the same session it also declared war on the Dutch Republic, amid defiance that widened already excessive commitments.",
+            "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+            "acceptable_access": [
+              "Great Britain's entry into war with France",
+              "Great Britain, entry into French Revolutionary War",
+              "Pitt, William, war with France",
+              "Belgium and the Scheldt, British policy",
+              "Louis XVI, execution and international war",
+              "Britain—Belgium policy",
+              "Scheldt—opening in 1792",
+              "Pitt—entry into war",
+              "Low Countries—British strategy",
+              "Britain—war with France, 1793",
+              "execution of Louis XVI—British reaction",
+              "Anglo-French break",
+              "war declarations—1 February 1793",
+              "Dutch Republic—war with France",
+              "Britain—French declaration of war"
+            ],
+            "document_pages": [
+              200,
+              201,
+              202
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S006"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S006",
+            "label": "Great Britain's entry into war with France",
+            "meaning": "The convergence of French occupation of Belgium, opening of the Scheldt, threats to the Dutch settlement, revolutionary propaganda, and Louis XVI’s execution ended British neutrality. The Convention unanimously declared war on Britain on 1 February 1793; in the same session it also declared war on the Dutch Republic, amid defiance that widened already excessive commitments.",
+            "stance": "The author rejects simple ideological inevitability: Pitt initially expected prolonged peace, while concrete Low Countries interests and the regicide crisis precipitated the break.",
+            "acceptable_access": [
+              "Great Britain's entry into war with France",
+              "Great Britain, entry into French Revolutionary War",
+              "Pitt, William, war with France",
+              "Belgium and the Scheldt, British policy",
+              "Louis XVI, execution and international war",
+              "Britain—Belgium policy",
+              "Scheldt—opening in 1792",
+              "Pitt—entry into war",
+              "Low Countries—British strategy",
+              "Britain—war with France, 1793",
+              "execution of Louis XVI—British reaction",
+              "Anglo-French break",
+              "war declarations—1 February 1793",
+              "Dutch Republic—war with France",
+              "Britain—French declaration of war"
+            ],
+            "document_pages": [
+              200,
+              201,
+              202
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "2928da6051fed8e96c0287e2e98787c0fc6d1ba07812ae98b861d2565a2f8c2c",
+      "fields_changed": [
+        "meaning",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "201 explicitly calls the British war vote unanimous and identifies the Dutch declaration in the same session. State those separately so unanimity is not silently extended to the second vote; retain the parent’s concrete diplomatic triggers and overcommitment qualification.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    }
+  ],
+  "actual_full_source_pages_reread_after_draft_access": [
+    171,
+    173,
+    181,
+    182,
+    201,
+    238,
+    242,
+    243,
+    259,
+    266
+  ],
+  "same_active_pass_source_page_reuse": [
+    172,
+    178,
+    202,
+    203,
+    206,
+    252,
+    260,
+    270
+  ],
+  "new_evidence_ids": [
+    "EVID-SUCC-90EB42DC5283"
+  ],
+  "original_draft_unchanged": true,
+  "whole_book_approval": false
+}

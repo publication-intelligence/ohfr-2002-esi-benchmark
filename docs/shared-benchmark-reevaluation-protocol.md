@@ -2,7 +2,7 @@
 
 The user authorized migration and reevaluation of Published, IndexPDF, IndexerLabs and Indexia against the independently reviewed successor, with commits and relevant PR merges. The [V9 percentage foundation](v9-methodology-cutover.md) is reviewed and merged. The user subsequently selected [V10](v10-methodology-cutover.md) for the actual reevaluation: finish the unchanged V8.2 source freeze, independently review the separate source-grounded benchmark-access amendment, validate V10, and then bind one common study lock and run all four candidates. V9's representation changes preserve arithmetic; V10's approved semantic changes require their own explicit identities, evidence and migration.
 
-Execution remains on hold until the selected V10 implementation, benchmark-access amendment, validator and consumer are reviewed. Source review and authorized V10 implementation may proceed. The linked cutover record carries the current sequencing status.
+The final V10 runtime, source-release validator and website consumer preparation have passed review. Execution remains on hold for the completed source freeze, independently reviewed benchmark-access amendment, common study lock and runtime activation. The linked cutover record carries the current sequencing status.
 
 ## Inputs and preservation
 
@@ -36,7 +36,7 @@ Reassess every current subject, treatment, reader task and relevant relationship
 
 Consolidated requirements retain one parent scoring unit. Their facets are unweighted detail that auditors must consider before assigning the existing parent judgment. A broadly related heading does not demonstrate success on every specific question. Parent task bindings must carry all required subject bindings; partial or unresolved access remains explicit under the established rubric.
 
-Each owner supplies a separate private factual review receipt bound to the final benchmark, candidate and audit bytes. It enumerates `(parent kind, parent ID, facet ID)` and the reviewed scope rules and retained distinctions, with concrete tested candidate paths, evidence references, dispositions and the resulting parent judgment. It must be written from actual review. An expected-ID list, schema pass or copied completion flag is not a review. Unresolved items must be identified honestly. This receipt is study QA evidence; it adds no scored units, deterministic facet aggregation or new generic audit-schema requirement.
+Each owner supplies a separate private factual review receipt under `candidate-access-review-v10.schema.json`, bound to the final benchmark, candidate, study lock, benchmark-access amendment and exact registered missing-audit and structure bytes. It enumerates `(parent kind, parent ID, requirement kind, requirement ID)` for every required facet, scope rule, retained distinction and nonretirement amendment delta, with concrete tested candidate paths, evidence references, dispositions and the resulting parent judgment. It must be written from actual review. An expected-ID list, schema pass or copied completion flag is not a review. Unresolved items remain explicit assessment blockers. Register the receipt after the missing-access audits and before registering its bound structure artifact. This separate V10 receipt adds no scored units or deterministic facet aggregation and does not change the generic V8/V9 audit schemas.
 
 ## Results and integration handoff
 

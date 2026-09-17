@@ -1,0 +1,2709 @@
+{
+  "schema_version": "independent-legacy-repair-composition-v1",
+  "status": "sealed_scoped_repaired_values; whole_book_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    }
+  ],
+  "group_range": [
+    71,
+    80
+  ],
+  "rows": [
+    {
+      "group_index": 71,
+      "subject_id": "SUBJ-SUCC-6568AD1BCF30",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0123",
+        "CORR-007-LEGACY-0210",
+        "CORR-007-LEGACY-0211",
+        "CORR-007-LEGACY-0291",
+        "CORR-007-LEGACY-0292",
+        "CORR-007-LEGACY-0293"
+      ],
+      "source_correction_row_sha256s": [
+        "abde0f308624edd684a86f72394842b8a310d3fe3d9cbd5e25c3fcc7bcd4e5e6",
+        "a26910a0db7b98d8e487b250ea6f12a9a1475df0ddd1d3e3cb2ab52a8e4ec574",
+        "680951158e02d2799836f092d24df6794372397d0bf66ed24bfb97103a5e431e",
+        "19e92d951bec0744028d8567177d1e8016e431d14dd2dc1cc516d051fc9ffcb8",
+        "111e38664d47495cb5d7a8635c3d45ac305df1161c88c574b45d658872088b6b",
+        "56af6f00b4328353ad202dcc49c92f94f1f1ba3028a3df4e296f368339b70d56"
+      ],
+      "before_record": {
+        "label": "French hegemony, territorial gains, and client states after the wars",
+        "priority": "major",
+        "meaning": "France's expanded Rhine and Alpine frontiers, control of client territories from the North Sea to the Adriatic, Louisiana acquisition, and Bonaparte's political appropriation of victory.",
+        "stance": "The outcome is judged strategically glorious and transformative, while its necessity and durability remain open and its later expansion belongs to Napoleon's empire rather than the Revolution proper.",
+        "subject_id": "SUBJ-SUCC-6568AD1BCF30",
+        "acceptable_access": [
+          "French expansion -- 1799-1802",
+          "Client states -- French hegemony",
+          "Louisiana -- cession to France",
+          "Great Nation -- settlement of 1801",
+          "Etruria--Bourbon kingdom",
+          "Naples--Bourbon legitimacy and non-restoration of republic",
+          "Spain--Louisiana cession",
+          "French Revolutionary Wars versus Napoleonic expansion"
+        ],
+        "evidence": [
+          {
+            "document_page": 380,
+            "source_page_label": "380",
+            "locator_class": "supporting",
+            "evidence_summary": "France reorganizes Italian states and acquires Louisiana while isolating Britain.",
+            "evidence_id": "EVID-SUCC-EBAC3C11C238",
+            "source_local_subject_id": "SUCC-C016-S020",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 381,
+            "source_page_label": "381",
+            "locator_class": "principal",
+            "evidence_summary": "The peace settlement confirms expanded frontiers and a belt of client territories, with Bonaparte claiming the principal credit.",
+            "evidence_id": "EVID-SUCC-B002213224A7",
+            "source_local_subject_id": "SUCC-C016-S020",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "evidence_id": "EVID-SUCC-8FA276925606",
+            "source_evidence_id": "EVID-0F6FD426A9E1",
+            "document_page": 379,
+            "source_page_label": "379",
+            "locator_class": "supporting",
+            "evidence_summary": "Luneville preserves annexations and northern Italian client republics while rearranging Tuscany.",
+            "provenance": {
+              "chunk_id": "CHUNK-016",
+              "local_subject_id": "CH16-SUBJ-032",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+              "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+            },
+            "source_local_subject_id": "SUCC-C016-S020",
+            "source_chunk_id": "CHUNK-016",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-82A853F0DCDB",
+              "evidence_id": "EVID-834225098565"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S020",
+            "label": "French hegemony, territorial gains, and client states after the wars",
+            "meaning": "France's expanded Rhine and Alpine frontiers, control of client territories from the North Sea to the Adriatic, Louisiana acquisition, and Bonaparte's political appropriation of victory.",
+            "stance": "The outcome is judged strategically glorious and transformative, while its necessity and durability remain open and its later expansion belongs to Napoleon's empire rather than the Revolution proper.",
+            "acceptable_access": [
+              "French expansion -- 1799-1802",
+              "Client states -- French hegemony",
+              "Louisiana -- cession to France",
+              "Great Nation -- settlement of 1801",
+              "Etruria--Bourbon kingdom",
+              "Naples--Bourbon legitimacy and non-restoration of republic",
+              "Spain--Louisiana cession",
+              "French Revolutionary Wars versus Napoleonic expansion"
+            ],
+            "document_pages": [
+              380,
+              381
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S020"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S020",
+            "label": "French hegemony, territorial gains, and client states after the wars",
+            "meaning": "France's expanded Rhine and Alpine frontiers, control of client territories from the North Sea to the Adriatic, Louisiana acquisition, and Bonaparte's political appropriation of victory.",
+            "stance": "The outcome is judged strategically glorious and transformative, while its necessity and durability remain open and its later expansion belongs to Napoleon's empire rather than the Revolution proper.",
+            "acceptable_access": [
+              "French expansion -- 1799-1802",
+              "Client states -- French hegemony",
+              "Louisiana -- cession to France",
+              "Great Nation -- settlement of 1801",
+              "Etruria--Bourbon kingdom",
+              "Naples--Bourbon legitimacy and non-restoration of republic",
+              "Spain--Louisiana cession",
+              "French Revolutionary Wars versus Napoleonic expansion"
+            ],
+            "document_pages": [
+              380,
+              381
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "e683c08bc046f60d6a1d0c8aeb46cb4e9845517b2014bf1aff6f6c1389e5761e",
+      "proposed_record": {
+        "label": "French hegemony, territorial gains, and client states after the wars",
+        "priority": "major",
+        "meaning": "France's expanded Rhine and Alpine frontiers, control of client territories from the North Sea to the Adriatic, Louisiana acquisition, and Bonaparte's political appropriation of victory. In Naples France recognized Bourbon legitimacy rather than resurrecting the Parthenopean Republic, accepting peace in exchange for territorial concessions and key-port garrisons. Tuscany became the Bourbon kingdom of Etruria, and Spain ceded Louisiana in hope of regaining Italian influence.",
+        "stance": "The outcome is judged strategically glorious and transformative, while its necessity and durability remain open and its later expansion belongs to Napoleon's empire rather than the Revolution proper. The settlement accommodated monarchies as well as republics, subordinating consistent liberation ideology to French strategic control.",
+        "subject_id": "SUBJ-SUCC-6568AD1BCF30",
+        "acceptable_access": [
+          "French expansion -- 1799-1802",
+          "Client states -- French hegemony",
+          "Louisiana -- cession to France",
+          "Great Nation -- settlement of 1801",
+          "Etruria--Bourbon kingdom",
+          "Naples--Bourbon legitimacy and non-restoration of republic",
+          "Spain--Louisiana cession",
+          "French Revolutionary Wars versus Napoleonic expansion"
+        ],
+        "evidence": [
+          {
+            "document_page": 380,
+            "source_page_label": "380",
+            "locator_class": "supporting",
+            "evidence_summary": "The Parthenopean Republic was not restored: the Neapolitan Bourbons received recognition while ceding outlying territory and admitting French garrisons to key ports. Spain ceded Louisiana in the hope of renewed Italian influence. The combined settlements left Britain isolated.",
+            "evidence_id": "EVID-SUCC-EBAC3C11C238",
+            "source_local_subject_id": "SUCC-C016-S020",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 381,
+            "source_page_label": "381",
+            "locator_class": "principal",
+            "evidence_summary": "By 1802 France held Rhine/Alpine frontiers and client territories from the North Sea to the Adriatic, and Bonaparte claimed the credit. Doyle calls the result glorious while leaving its necessity and cost open; the wider chaos after the brief peace is assigned largely to Emperor Napoleon, rather than simply to the Revolution.",
+            "evidence_id": "EVID-SUCC-B002213224A7",
+            "source_local_subject_id": "SUCC-C016-S020",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "evidence_id": "EVID-SUCC-8FA276925606",
+            "source_evidence_id": "EVID-0F6FD426A9E1",
+            "document_page": 379,
+            "source_page_label": "379",
+            "locator_class": "supporting",
+            "evidence_summary": "Luneville preserves annexations and northern Italian client republics while rearranging Tuscany. Tuscany became the kingdom of Etruria under Louis I, a Bourbon connected to the Spanish royal family.",
+            "provenance": {
+              "chunk_id": "CHUNK-016",
+              "local_subject_id": "CH16-SUBJ-032",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+              "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+            },
+            "source_local_subject_id": "SUCC-C016-S020",
+            "source_chunk_id": "CHUNK-016",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-82A853F0DCDB",
+              "evidence_id": "EVID-834225098565"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S020",
+            "label": "French hegemony, territorial gains, and client states after the wars",
+            "meaning": "France's expanded Rhine and Alpine frontiers, control of client territories from the North Sea to the Adriatic, Louisiana acquisition, and Bonaparte's political appropriation of victory. In Naples France recognized Bourbon legitimacy rather than resurrecting the Parthenopean Republic, accepting peace in exchange for territorial concessions and key-port garrisons. Tuscany became the Bourbon kingdom of Etruria, and Spain ceded Louisiana in hope of regaining Italian influence.",
+            "stance": "The outcome is judged strategically glorious and transformative, while its necessity and durability remain open and its later expansion belongs to Napoleon's empire rather than the Revolution proper. The settlement accommodated monarchies as well as republics, subordinating consistent liberation ideology to French strategic control.",
+            "acceptable_access": [
+              "French expansion -- 1799-1802",
+              "Client states -- French hegemony",
+              "Louisiana -- cession to France",
+              "Great Nation -- settlement of 1801",
+              "Etruria--Bourbon kingdom",
+              "Naples--Bourbon legitimacy and non-restoration of republic",
+              "Spain--Louisiana cession",
+              "French Revolutionary Wars versus Napoleonic expansion"
+            ],
+            "document_pages": [
+              380,
+              381
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S020"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S020",
+            "label": "French hegemony, territorial gains, and client states after the wars",
+            "meaning": "France's expanded Rhine and Alpine frontiers, control of client territories from the North Sea to the Adriatic, Louisiana acquisition, and Bonaparte's political appropriation of victory. In Naples France recognized Bourbon legitimacy rather than resurrecting the Parthenopean Republic, accepting peace in exchange for territorial concessions and key-port garrisons. Tuscany became the Bourbon kingdom of Etruria, and Spain ceded Louisiana in hope of regaining Italian influence.",
+            "stance": "The outcome is judged strategically glorious and transformative, while its necessity and durability remain open and its later expansion belongs to Napoleon's empire rather than the Revolution proper. The settlement accommodated monarchies as well as republics, subordinating consistent liberation ideology to French strategic control.",
+            "acceptable_access": [
+              "French expansion -- 1799-1802",
+              "Client states -- French hegemony",
+              "Louisiana -- cession to France",
+              "Great Nation -- settlement of 1801",
+              "Etruria--Bourbon kingdom",
+              "Naples--Bourbon legitimacy and non-restoration of republic",
+              "Spain--Louisiana cession",
+              "French Revolutionary Wars versus Napoleonic expansion"
+            ],
+            "document_pages": [
+              380,
+              381
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "f4fe027db305f22441f0a282085eb9c0c003101cca978a9f55b234415a6d2cba",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "379–381 differentiates Tuscany’s Bourbon kingdom, recognition of Naples instead of republican restoration, Spanish Louisiana bargain and the qualified glorious outcome. Compose the repeated380 field into one account; ideological inconsistency is qualified by strategic control rather than assumed uniform republican export.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 72,
+      "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0124",
+        "CORR-007-LEGACY-0125"
+      ],
+      "source_correction_row_sha256s": [
+        "73f5c7731584df6859f5e8e63fb8e3c6c2abcf1a46037f173add0bf8ba9ff44f",
+        "3bcc16828347b095f24b55781209b4604d2a019a4b24590e2f546fb57c36fbee"
+      ],
+      "before_record": {
+        "label": "Tuscany under French occupation, 1799",
+        "priority": "optional",
+        "meaning": "French occupation of previously neutral Tuscany to obtain resources as war resumed.",
+        "stance": "The occupation was driven by strategic extraction and immediately faced both allied invasion and indigenous resistance.",
+        "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+        "acceptable_access": [
+          "Tuscany—French occupation, 1799",
+          "Ferdinand III of Tuscany—expulsion"
+        ],
+        "evidence": [
+          {
+            "document_page": 366,
+            "source_page_label": "366",
+            "locator_class": "principal",
+            "evidence_summary": "French troops occupied Tuscany for resources and removed the grand duke as internal and external resistance rose.",
+            "evidence_id": "EVID-SUCC-AA106393B16D",
+            "source_local_subject_id": "SUCC-C015-S044",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 367,
+            "source_page_label": "367",
+            "locator_class": "supporting",
+            "evidence_summary": "Florentine Vive Maria resistance drew on long-standing religious and subsistence grievances.",
+            "evidence_id": "EVID-SUCC-B6AAE6C61F53",
+            "source_local_subject_id": "SUCC-C015-S044",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S044",
+            "label": "Tuscany under French occupation, 1799",
+            "meaning": "French occupation of previously neutral Tuscany to obtain resources as war resumed.",
+            "stance": "The occupation was driven by strategic extraction and immediately faced both allied invasion and indigenous resistance.",
+            "acceptable_access": [
+              "Tuscany—French occupation, 1799",
+              "Ferdinand III of Tuscany—expulsion"
+            ],
+            "document_pages": [
+              366,
+              367
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S044"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S044",
+            "label": "Tuscany under French occupation, 1799",
+            "meaning": "French occupation of previously neutral Tuscany to obtain resources as war resumed.",
+            "stance": "The occupation was driven by strategic extraction and immediately faced both allied invasion and indigenous resistance.",
+            "acceptable_access": [
+              "Tuscany—French occupation, 1799",
+              "Ferdinand III of Tuscany—expulsion"
+            ],
+            "document_pages": [
+              366,
+              367
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "75732d52edbe0b33f05f65125dfbbdd59886dd615fe983f35fb4752a0343ca0b",
+      "proposed_record": {
+        "label": "Tuscany under French occupation, 1799",
+        "priority": "optional",
+        "meaning": "French occupation of previously neutral Tuscany to obtain resources as war resumed. In Florence the Vive Maria cry expressed urban resistance as well as religious grievances and resentment of free-trade subsistence policies dating from the 1760s.",
+        "stance": "The occupation was driven by strategic extraction and immediately faced both allied invasion and indigenous resistance. Resistance combined older local conflicts with disruption caused by French occupation; it was not exclusively peasant reaction.",
+        "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+        "acceptable_access": [
+          "Tuscany—French occupation, 1799",
+          "Ferdinand III of Tuscany—expulsion",
+          "Vive Maria—Florence",
+          "Florence—religious and subsistence resistance"
+        ],
+        "evidence": [
+          {
+            "document_page": 366,
+            "source_page_label": "366",
+            "locator_class": "principal",
+            "evidence_summary": "French troops occupied Tuscany for resources and removed the grand duke as internal and external resistance rose.",
+            "evidence_id": "EVID-SUCC-AA106393B16D",
+            "source_local_subject_id": "SUCC-C015-S044",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 367,
+            "source_page_label": "367",
+            "locator_class": "supporting",
+            "evidence_summary": "Florence’s Vive Maria resistance in 1799 reflected urban disruption, older resentment of attacks on the Church, and anger at unreversed free-trade policies raising subsistence costs; anti-French resistance was not confined to peasants.",
+            "evidence_id": "EVID-SUCC-B6AAE6C61F53",
+            "source_local_subject_id": "SUCC-C015-S044",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S044",
+            "label": "Tuscany under French occupation, 1799",
+            "meaning": "French occupation of previously neutral Tuscany to obtain resources as war resumed. In Florence the Vive Maria cry expressed urban resistance as well as religious grievances and resentment of free-trade subsistence policies dating from the 1760s.",
+            "stance": "The occupation was driven by strategic extraction and immediately faced both allied invasion and indigenous resistance. Resistance combined older local conflicts with disruption caused by French occupation; it was not exclusively peasant reaction.",
+            "acceptable_access": [
+              "Tuscany—French occupation, 1799",
+              "Ferdinand III of Tuscany—expulsion",
+              "Vive Maria—Florence",
+              "Florence—religious and subsistence resistance"
+            ],
+            "document_pages": [
+              366,
+              367
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S044"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S044",
+            "label": "Tuscany under French occupation, 1799",
+            "meaning": "French occupation of previously neutral Tuscany to obtain resources as war resumed. In Florence the Vive Maria cry expressed urban resistance as well as religious grievances and resentment of free-trade subsistence policies dating from the 1760s.",
+            "stance": "The occupation was driven by strategic extraction and immediately faced both allied invasion and indigenous resistance. Resistance combined older local conflicts with disruption caused by French occupation; it was not exclusively peasant reaction.",
+            "acceptable_access": [
+              "Tuscany—French occupation, 1799",
+              "Ferdinand III of Tuscany—expulsion",
+              "Vive Maria—Florence",
+              "Florence—religious and subsistence resistance"
+            ],
+            "document_pages": [
+              366,
+              367
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "c5a1281f160982c6a58e0e883fe0f75b4f0655e48070974b4d67d1121c953b92",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "367 explicitly locates urban Vive Maria resistance in Florence and traces religious/free-trade resentments back to earlier decades. This corrects any exclusively peasant or solely occupation-origin explanation.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 73,
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0126",
+        "CORR-007-LEGACY-0195",
+        "CORR-007-LEGACY-0196"
+      ],
+      "source_correction_row_sha256s": [
+        "214ad83420fef954d883ff1cfb42c0fc0a2c0c804b9dabea8f8932f65260b2d8",
+        "ae42f1a1d1d3f975d5e519eddcc54946d9537eef3a4d20cb8f4f7f4b20806691",
+        "1859c6c430268c785d478a681b9cbf1f3069602448e840414e3c6bb950d75d7a"
+      ],
+      "before_record": {
+        "label": "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+        "priority": "major",
+        "meaning": "Military pressure and subsistence crisis ended resistance in Marseilles and Bordeaux, where later tribunals and commissions were markedly less lethal than at Lyons, Toulon, or Nantes. Marseilles’s bread blockade divided resistance before military collapse. Bordeaux moved from early rhetorical resistance to restoration of the Convention’s authority; Tallien’s relative moderation was followed by Jullien’s much more intense late repression. Preserve Sansnom and Bec d’Ambès as symbolic names.",
+        "stance": "Comparative moderation does not mean absence of executions, and Bordeaux became harsher under Jullien in 1794. Provincial defeat did not produce uniform repression: conciliation at Caen and later policy changes contextualize contrasting local outcomes.",
+        "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+        "acceptable_access": [
+          "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+          "Marseilles > federalist defeat and Terror",
+          "Bordeaux > federalist defeat and Terror",
+          "provincial repression > Marseilles and Bordeaux",
+          "Federalist revolt > suppression and reprisals",
+          "Federalism > provincial centers",
+          "provincial revolt > Bordeaux, Marseilles, Lyons, and Toulon",
+          "Federalist revolts—defeat and repression",
+          "provincial revolts, 1793",
+          "Federalism—regional variation",
+          "Bordeaux—Federalist revolt",
+          "Bordeaux—Terror",
+          "Popular Commission of Bordeaux",
+          "Gironde—repression",
+          "Marseilles—Federalist revolt",
+          "Marseilles—surrender",
+          "Marseilles—Revolutionary Tribunal",
+          "Tallien—Bordeaux",
+          "Tallien—Terror",
+          "Tallien—recall",
+          "Bordeaux—Tallien",
+          "Sansnom—Marseilles renaming",
+          "Bec d’Ambès—Gironde renaming"
+        ],
+        "evidence": [
+          {
+            "document_page": 248,
+            "source_page_label": "248",
+            "locator_class": "principal",
+            "evidence_summary": "Resistance collapsed rapidly in Calvados and the Gironde, though Bordeaux anticipated severe retaliation.",
+            "evidence_id": "EVID-SUCC-72EACF886CE9",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 248,
+            "source_page_label": "248",
+            "locator_class": "supporting",
+            "evidence_summary": "The Gironde's Popular Commission dissolved as military threats and food problems intensified.",
+            "evidence_id": "EVID-SUCC-CEC89BCC87DF",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 249,
+            "source_page_label": "249",
+            "locator_class": "principal",
+            "evidence_summary": "Marseilles surrendered after blockade, bread riots, internal fighting, and failed appeals for British-facilitated grain.",
+            "evidence_id": "EVID-SUCC-07CDFD0A4092",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 249,
+            "source_page_label": "249",
+            "locator_class": "principal",
+            "evidence_summary": "Marseilles surrendered while Toulon accepted British occupation and proclaimed Louis XVII.",
+            "evidence_id": "EVID-SUCC-EBE311B277FB",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 253,
+            "source_page_label": "253",
+            "locator_class": "supporting",
+            "evidence_summary": "Lyons' prolonged resistance and links with royalists and foreign enemies prompted exemplary vengeance.",
+            "evidence_id": "EVID-SUCC-4D1980849387",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 255,
+            "source_page_label": "255",
+            "locator_class": "principal",
+            "evidence_summary": "Tribunal statistics show relatively formal and moderate repression in both cities, with later escalation at Bordeaux.",
+            "evidence_id": "EVID-SUCC-76CF4621ABF2",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 255,
+            "source_page_label": "255",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The source compares the scale and procedural character of repression across Toulon, Marseilles, and Bordeaux.",
+            "evidence_id": "EVID-SUCC-DF05792E339A",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 264,
+            "source_page_label": "264",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Central investigation eventually brought his recall as part of breaking representatives' autonomous authority.",
+            "evidence_id": "EVID-SUCC-FEE8CF7E030E",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S021",
+            "label": "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+            "meaning": "Military pressure and subsistence crisis ended resistance in Marseilles and Bordeaux, where later tribunals and commissions were markedly less lethal than at Lyons, Toulon, or Nantes. Marseilles’s bread blockade divided resistance before military collapse. Bordeaux moved from early rhetorical resistance to restoration of the Convention’s authority; Tallien’s relative moderation was followed by Jullien’s much more intense late repression. Preserve Sansnom and Bec d’Ambès as symbolic names.",
+            "stance": "Comparative moderation does not mean absence of executions, and Bordeaux became harsher under Jullien in 1794. Provincial defeat did not produce uniform repression: conciliation at Caen and later policy changes contextualize contrasting local outcomes.",
+            "acceptable_access": [
+              "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+              "Marseilles > federalist defeat and Terror",
+              "Bordeaux > federalist defeat and Terror",
+              "provincial repression > Marseilles and Bordeaux",
+              "Federalist revolt > suppression and reprisals",
+              "Federalism > provincial centers",
+              "provincial revolt > Bordeaux, Marseilles, Lyons, and Toulon",
+              "Federalist revolts—defeat and repression",
+              "provincial revolts, 1793",
+              "Federalism—regional variation",
+              "Bordeaux—Federalist revolt",
+              "Bordeaux—Terror",
+              "Popular Commission of Bordeaux",
+              "Gironde—repression",
+              "Marseilles—Federalist revolt",
+              "Marseilles—surrender",
+              "Marseilles—Revolutionary Tribunal",
+              "Tallien—Bordeaux",
+              "Tallien—Terror",
+              "Tallien—recall",
+              "Bordeaux—Tallien",
+              "Sansnom—Marseilles renaming",
+              "Bec d’Ambès—Gironde renaming"
+            ],
+            "document_pages": [
+              248,
+              249,
+              253,
+              255,
+              264
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S021",
+            "label": "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+            "meaning": "Military pressure and subsistence crisis ended resistance in Marseilles and Bordeaux, where later tribunals and commissions were markedly less lethal than at Lyons, Toulon, or Nantes. Marseilles’s bread blockade divided resistance before military collapse. Bordeaux moved from early rhetorical resistance to restoration of the Convention’s authority; Tallien’s relative moderation was followed by Jullien’s much more intense late repression. Preserve Sansnom and Bec d’Ambès as symbolic names.",
+            "stance": "Comparative moderation does not mean absence of executions, and Bordeaux became harsher under Jullien in 1794. Provincial defeat did not produce uniform repression: conciliation at Caen and later policy changes contextualize contrasting local outcomes.",
+            "acceptable_access": [
+              "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+              "Marseilles > federalist defeat and Terror",
+              "Bordeaux > federalist defeat and Terror",
+              "provincial repression > Marseilles and Bordeaux",
+              "Federalist revolt > suppression and reprisals",
+              "Federalism > provincial centers",
+              "provincial revolt > Bordeaux, Marseilles, Lyons, and Toulon",
+              "Federalist revolts—defeat and repression",
+              "provincial revolts, 1793",
+              "Federalism—regional variation",
+              "Bordeaux—Federalist revolt",
+              "Bordeaux—Terror",
+              "Popular Commission of Bordeaux",
+              "Gironde—repression",
+              "Marseilles—Federalist revolt",
+              "Marseilles—surrender",
+              "Marseilles—Revolutionary Tribunal",
+              "Tallien—Bordeaux",
+              "Tallien—Terror",
+              "Tallien—recall",
+              "Bordeaux—Tallien",
+              "Sansnom—Marseilles renaming",
+              "Bec d’Ambès—Gironde renaming"
+            ],
+            "document_pages": [
+              248,
+              249,
+              253,
+              255,
+              264
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "8663da5ac1d8bed4fbc4f702d72f92ebdfb6bd22703b1484cfb356ad55c0c656",
+      "proposed_record": {
+        "label": "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+        "priority": "major",
+        "meaning": "Military pressure and subsistence crisis ended resistance in Marseilles and Bordeaux, where later tribunals and commissions were markedly less lethal than at Lyons, Toulon, or Nantes. Marseilles’s bread blockade divided resistance before military collapse. Bordeaux moved from early rhetorical resistance to restoration of the Convention’s authority; Tallien’s relative moderation was followed by Jullien’s much more intense late repression. Preserve Sansnom and Bec d’Ambès as symbolic names. Tallien and Ysabeau used fierce rhetoric while producing relatively limited executions; their elite associations, including Tallien’s relationship with Thérèse Cabarrus, fed suspicion of softness and central recall.",
+        "stance": "Comparative moderation does not mean absence of executions, and Bordeaux became harsher under Jullien in 1794. Provincial defeat did not produce uniform repression: conciliation at Caen and later policy changes contextualize contrasting local outcomes.",
+        "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+        "acceptable_access": [
+          "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+          "Marseilles > federalist defeat and Terror",
+          "Bordeaux > federalist defeat and Terror",
+          "provincial repression > Marseilles and Bordeaux",
+          "Federalist revolt > suppression and reprisals",
+          "Federalism > provincial centers",
+          "provincial revolt > Bordeaux, Marseilles, Lyons, and Toulon",
+          "Federalist revolts—defeat and repression",
+          "provincial revolts, 1793",
+          "Federalism—regional variation",
+          "Bordeaux—Federalist revolt",
+          "Bordeaux—Terror",
+          "Popular Commission of Bordeaux",
+          "Gironde—repression",
+          "Marseilles—Federalist revolt",
+          "Marseilles—surrender",
+          "Marseilles—Revolutionary Tribunal",
+          "Tallien—Bordeaux",
+          "Tallien—Terror",
+          "Tallien—recall",
+          "Bordeaux—Tallien",
+          "Sansnom—Marseilles renaming",
+          "Bec d’Ambès—Gironde renaming"
+        ],
+        "evidence": [
+          {
+            "document_page": 248,
+            "source_page_label": "248",
+            "locator_class": "principal",
+            "evidence_summary": "Calvados and Brittany abandoned Federalism quickly after Brécourt. Bordeaux’s Popular Commission dissolved under military and provisioning pressure, but hostile crowds forced arriving representatives to retreat; they did not safely return until 17 October. Its propaganda and seizure of mint funds made its perceived offense more serious than Caen’s or Rennes’s.",
+            "evidence_id": "EVID-SUCC-72EACF886CE9",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 248,
+            "source_page_label": "248",
+            "locator_class": "supporting",
+            "evidence_summary": "The Gironde's Popular Commission dissolved as military threats and food problems intensified.",
+            "evidence_id": "EVID-SUCC-CEC89BCC87DF",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 249,
+            "source_page_label": "249",
+            "locator_class": "principal",
+            "evidence_summary": "Marseilles surrendered after blockade, bread riots, internal fighting, and failed appeals for British-facilitated grain.",
+            "evidence_id": "EVID-SUCC-07CDFD0A4092",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 249,
+            "source_page_label": "249",
+            "locator_class": "principal",
+            "evidence_summary": "Marseilles surrendered while Toulon accepted British occupation and proclaimed Louis XVII.",
+            "evidence_id": "EVID-SUCC-EBE311B277FB",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 253,
+            "source_page_label": "253",
+            "locator_class": "supporting",
+            "evidence_summary": "Lyons' prolonged resistance and links with royalists and foreign enemies prompted exemplary vengeance.",
+            "evidence_id": "EVID-SUCC-4D1980849387",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 255,
+            "source_page_label": "255",
+            "locator_class": "principal",
+            "evidence_summary": "Marseilles’s formal tribunal acquitted nearly half those tried. Bordeaux’s commission acquitted more than it condemned and issued relatively few death sentences despite Tallien and Ysabeau’s fierce language; elite company and Tallien’s Cabarrus relationship fed suspicion. Jullien’s arrival brought sharply increased executions.",
+            "evidence_id": "EVID-SUCC-76CF4621ABF2",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 255,
+            "source_page_label": "255",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The source compares the scale and procedural character of repression across Toulon, Marseilles, and Bordeaux.",
+            "evidence_id": "EVID-SUCC-DF05792E339A",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 264,
+            "source_page_label": "264",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Central investigation eventually brought his recall as part of breaking representatives' autonomous authority.",
+            "evidence_id": "EVID-SUCC-FEE8CF7E030E",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 249,
+            "source_page_label": "249",
+            "locator_class": "supporting",
+            "evidence_summary": "After Jacobin institutions reappeared in Bordeaux, Tallien dismissed apparent sectional unity as face-saving brought about by hunger and fear, qualifying the city’s formal submission.",
+            "evidence_id": "EVID-SUCC-2C88BD126EBC",
+            "source_local_subject_id": "SUCC-C011-S021",
+            "source_chunk_id": "CHUNK-011",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-6D3C10AA88EF",
+              "evidence_id": "EVID-0882A030A8EF"
+            }
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S021",
+            "label": "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+            "meaning": "Military pressure and subsistence crisis ended resistance in Marseilles and Bordeaux, where later tribunals and commissions were markedly less lethal than at Lyons, Toulon, or Nantes. Marseilles’s bread blockade divided resistance before military collapse. Bordeaux moved from early rhetorical resistance to restoration of the Convention’s authority; Tallien’s relative moderation was followed by Jullien’s much more intense late repression. Preserve Sansnom and Bec d’Ambès as symbolic names. Tallien and Ysabeau used fierce rhetoric while producing relatively limited executions; their elite associations, including Tallien’s relationship with Thérèse Cabarrus, fed suspicion of softness and central recall.",
+            "stance": "Comparative moderation does not mean absence of executions, and Bordeaux became harsher under Jullien in 1794. Provincial defeat did not produce uniform repression: conciliation at Caen and later policy changes contextualize contrasting local outcomes.",
+            "acceptable_access": [
+              "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+              "Marseilles > federalist defeat and Terror",
+              "Bordeaux > federalist defeat and Terror",
+              "provincial repression > Marseilles and Bordeaux",
+              "Federalist revolt > suppression and reprisals",
+              "Federalism > provincial centers",
+              "provincial revolt > Bordeaux, Marseilles, Lyons, and Toulon",
+              "Federalist revolts—defeat and repression",
+              "provincial revolts, 1793",
+              "Federalism—regional variation",
+              "Bordeaux—Federalist revolt",
+              "Bordeaux—Terror",
+              "Popular Commission of Bordeaux",
+              "Gironde—repression",
+              "Marseilles—Federalist revolt",
+              "Marseilles—surrender",
+              "Marseilles—Revolutionary Tribunal",
+              "Tallien—Bordeaux",
+              "Tallien—Terror",
+              "Tallien—recall",
+              "Bordeaux—Tallien",
+              "Sansnom—Marseilles renaming",
+              "Bec d’Ambès—Gironde renaming"
+            ],
+            "document_pages": [
+              248,
+              249,
+              253,
+              255,
+              264
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S021",
+            "label": "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+            "meaning": "Military pressure and subsistence crisis ended resistance in Marseilles and Bordeaux, where later tribunals and commissions were markedly less lethal than at Lyons, Toulon, or Nantes. Marseilles’s bread blockade divided resistance before military collapse. Bordeaux moved from early rhetorical resistance to restoration of the Convention’s authority; Tallien’s relative moderation was followed by Jullien’s much more intense late repression. Preserve Sansnom and Bec d’Ambès as symbolic names. Tallien and Ysabeau used fierce rhetoric while producing relatively limited executions; their elite associations, including Tallien’s relationship with Thérèse Cabarrus, fed suspicion of softness and central recall.",
+            "stance": "Comparative moderation does not mean absence of executions, and Bordeaux became harsher under Jullien in 1794. Provincial defeat did not produce uniform repression: conciliation at Caen and later policy changes contextualize contrasting local outcomes.",
+            "acceptable_access": [
+              "Marseilles and Bordeaux, surrender and comparatively moderate repression",
+              "Marseilles > federalist defeat and Terror",
+              "Bordeaux > federalist defeat and Terror",
+              "provincial repression > Marseilles and Bordeaux",
+              "Federalist revolt > suppression and reprisals",
+              "Federalism > provincial centers",
+              "provincial revolt > Bordeaux, Marseilles, Lyons, and Toulon",
+              "Federalist revolts—defeat and repression",
+              "provincial revolts, 1793",
+              "Federalism—regional variation",
+              "Bordeaux—Federalist revolt",
+              "Bordeaux—Terror",
+              "Popular Commission of Bordeaux",
+              "Gironde—repression",
+              "Marseilles—Federalist revolt",
+              "Marseilles—surrender",
+              "Marseilles—Revolutionary Tribunal",
+              "Tallien—Bordeaux",
+              "Tallien—Terror",
+              "Tallien—recall",
+              "Bordeaux—Tallien",
+              "Sansnom—Marseilles renaming",
+              "Bec d’Ambès—Gironde renaming"
+            ],
+            "document_pages": [
+              248,
+              249,
+              253,
+              255,
+              264
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "77c102f7dca2443d53310ff4a591a538fd1af53898255045c54364ad4fcc7530",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "248 distinguishes dissolution from safe representative reentry;249 provides Tallien’s attributed hunger/fear judgment;255 and264 support measured repression, suspicion and central discipline. Add the independent249 supporting record and preserve both earlier submission and later Jullien escalation.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 74,
+      "subject_id": "SUBJ-SUCC-18017BE43CD2",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0130",
+        "CORR-007-LEGACY-0139"
+      ],
+      "source_correction_row_sha256s": [
+        "f7500156589fbf5d684ef61087cd0f033a47c142dcbfb62b1de21fbab6a678c6",
+        "5a1062b0a7b5554a06d4d71d4468e7919a153ed3dafe5a04b9dd59b70228d0c4"
+      ],
+      "before_record": {
+        "label": "Road to war and declaration of war, October 1791–April 1792",
+        "priority": "essential",
+        "meaning": "Pressure against émigré bases, Brissotin claims that war would consolidate the Revolution, royal counter-revolutionary hopes, and Austrian-Prussian diplomacy produced the declaration of war on 20 April 1792. Clootz’s premature promises of imminent liberation helped encourage internationalist and exile enthusiasm for war.",
+        "stance": "War emerged from incompatible expectations and escalating choices rather than a single coherent national purpose; its public defensive pledges were soon broken. Treat these liberation promises as advocates’ expectations, not a narrator guarantee of imminent success.",
+        "subject_id": "SUBJ-SUCC-18017BE43CD2",
+        "acceptable_access": [
+          "Road to war and declaration of war, October 1791–April 1792",
+          "War of 1792—origins",
+          "Declaration of war, 20 April 1792",
+          "French Revolutionary Wars—political origins",
+          "War debate, 1791–92",
+          "Clootz, Anacharsis—war propaganda",
+          "Revolutionary internationalism—1792",
+          "Foreign revolutionaries in Paris",
+          "war of April 1792",
+          "declaration of war, 20 April 1792",
+          "origins of revolutionary war",
+          "France and Austria, war declaration",
+          "war aims, 1792",
+          "royal war aims",
+          "revolutionary war aims",
+          "secret hopes for war",
+          "revolutionary internationalism",
+          "liberation war",
+          "exporting the Revolution",
+          "war of peoples against despots"
+        ],
+        "evidence": [
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "supporting",
+            "evidence_summary": "Brissot links suppression of émigré support abroad to the possibility of war.",
+            "evidence_id": "EVID-SUCC-5C6048F3A6EA",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 177,
+            "source_page_label": "177",
+            "locator_class": "principal",
+            "evidence_summary": "The king, Lafayette, Narbonne, and Brissotins discover different advantages in confrontation.",
+            "evidence_id": "EVID-SUCC-043474BC0777",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "The Trier ultimatum wins broad political support while Brissot and Robespierre define opposing cases for war.",
+            "evidence_id": "EVID-SUCC-568D1F81E8F7",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "Clootz proclaims the imminent liberation of Europe and encourages war fever among foreign exiles.",
+            "evidence_id": "EVID-SUCC-F46A29B27D52",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "principal",
+            "evidence_summary": "Austrian threats and the Prussian alliance intensify demands for direct war against the Habsburg ruler.",
+            "evidence_id": "EVID-SUCC-EF60779ADEFB",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 180,
+            "source_page_label": "180",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "A pro-war ministry removes the final political obstacles, and only seven deputies oppose the declaration.",
+            "evidence_id": "EVID-SUCC-AE7E6DD6C45C",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 193,
+            "source_page_label": "193",
+            "locator_class": "incidental",
+            "evidence_summary": "Clootz later won election to the Convention; this is subsequent biographical context, not evidence for the April1792 war decision.",
+            "evidence_id": "EVID-SUCC-548EE9B92F9A",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "evidence_id": "EVID-SUCC-3420436C00AE",
+            "source_evidence_id": "EVID-406968FCB616",
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "principal",
+            "evidence_summary": "Patriotic enthusiasm and expectations that liberated peoples will imitate France overwhelm caution.",
+            "provenance": {
+              "chunk_id": "CHUNK-008",
+              "local_subject_id": "CHUNK-008-S035",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+              "source_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d"
+            },
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-509199493B59",
+              "evidence_id": "EVID-A22C56E46ECB"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          },
+          {
+            "evidence_id": "EVID-SUCC-04A3C3307F73",
+            "source_evidence_id": "EVID-AA2278EEA694",
+            "document_page": 181,
+            "source_page_label": "181",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "War temporarily directs attention outward, but domestic crises multiply by the time fighting begins.",
+            "provenance": {
+              "chunk_id": "CHUNK-008",
+              "local_subject_id": "CHUNK-008-S035",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+              "source_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d"
+            },
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-509199493B59",
+              "evidence_id": "EVID-F700364A1274"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S003",
+            "label": "Road to war and declaration of war, October 1791–April 1792",
+            "meaning": "Pressure against émigré bases, Brissotin claims that war would consolidate the Revolution, royal counter-revolutionary hopes, and Austrian-Prussian diplomacy produced the declaration of war on 20 April 1792. Clootz’s premature promises of imminent liberation helped encourage internationalist and exile enthusiasm for war.",
+            "stance": "War emerged from incompatible expectations and escalating choices rather than a single coherent national purpose; its public defensive pledges were soon broken. Treat these liberation promises as advocates’ expectations, not a narrator guarantee of imminent success.",
+            "acceptable_access": [
+              "Road to war and declaration of war, October 1791–April 1792",
+              "War of 1792—origins",
+              "Declaration of war, 20 April 1792",
+              "French Revolutionary Wars—political origins",
+              "War debate, 1791–92",
+              "Clootz, Anacharsis—war propaganda",
+              "Revolutionary internationalism—1792",
+              "Foreign revolutionaries in Paris",
+              "war of April 1792",
+              "declaration of war, 20 April 1792",
+              "origins of revolutionary war",
+              "France and Austria, war declaration",
+              "war aims, 1792",
+              "royal war aims",
+              "revolutionary war aims",
+              "secret hopes for war",
+              "revolutionary internationalism",
+              "liberation war",
+              "exporting the Revolution",
+              "war of peoples against despots"
+            ],
+            "document_pages": [
+              176,
+              177,
+              178,
+              179,
+              180,
+              181
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S003"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S003",
+            "label": "Road to war and declaration of war, October 1791–April 1792",
+            "meaning": "Pressure against émigré bases, Brissotin claims that war would consolidate the Revolution, royal counter-revolutionary hopes, and Austrian-Prussian diplomacy produced the declaration of war on 20 April 1792. Clootz’s premature promises of imminent liberation helped encourage internationalist and exile enthusiasm for war.",
+            "stance": "War emerged from incompatible expectations and escalating choices rather than a single coherent national purpose; its public defensive pledges were soon broken. Treat these liberation promises as advocates’ expectations, not a narrator guarantee of imminent success.",
+            "acceptable_access": [
+              "Road to war and declaration of war, October 1791–April 1792",
+              "War of 1792—origins",
+              "Declaration of war, 20 April 1792",
+              "French Revolutionary Wars—political origins",
+              "War debate, 1791–92",
+              "Clootz, Anacharsis—war propaganda",
+              "Revolutionary internationalism—1792",
+              "Foreign revolutionaries in Paris",
+              "war of April 1792",
+              "declaration of war, 20 April 1792",
+              "origins of revolutionary war",
+              "France and Austria, war declaration",
+              "war aims, 1792",
+              "royal war aims",
+              "revolutionary war aims",
+              "secret hopes for war",
+              "revolutionary internationalism",
+              "liberation war",
+              "exporting the Revolution",
+              "war of peoples against despots"
+            ],
+            "document_pages": [
+              176,
+              177,
+              178,
+              179,
+              180,
+              181
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "6915f8397d4ad60f0a2af0fe518dcca704e54fce4ae99dc4c34fda0f5bc0fba7",
+      "proposed_record": {
+        "label": "Road to war and declaration of war, October 1791–April 1792",
+        "priority": "essential",
+        "meaning": "Pressure against émigré bases, Brissotin claims that war would consolidate the Revolution, royal counter-revolutionary hopes, and Austrian-Prussian diplomacy produced the declaration of war on 20 April 1792. Clootz’s premature promises of imminent liberation helped encourage internationalist and exile enthusiasm for war.",
+        "stance": "War emerged from incompatible expectations and escalating choices rather than a single coherent national purpose; its public defensive pledges were soon broken. Treat these liberation promises as advocates’ expectations, not a narrator guarantee of imminent success.",
+        "subject_id": "SUBJ-SUCC-18017BE43CD2",
+        "acceptable_access": [
+          "Road to war and declaration of war, October 1791–April 1792",
+          "War of 1792—origins",
+          "Declaration of war, 20 April 1792",
+          "French Revolutionary Wars—political origins",
+          "War debate, 1791–92",
+          "Clootz, Anacharsis—war propaganda",
+          "Revolutionary internationalism—1792",
+          "Foreign revolutionaries in Paris",
+          "war of April 1792",
+          "declaration of war, 20 April 1792",
+          "origins of revolutionary war",
+          "France and Austria, war declaration",
+          "war aims, 1792",
+          "royal war aims",
+          "revolutionary war aims",
+          "secret hopes for war",
+          "revolutionary internationalism",
+          "liberation war",
+          "exporting the Revolution",
+          "war of peoples against despots"
+        ],
+        "evidence": [
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "supporting",
+            "evidence_summary": "Brissot links suppression of émigré support abroad to the possibility of war.",
+            "evidence_id": "EVID-SUCC-5C6048F3A6EA",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 177,
+            "source_page_label": "177",
+            "locator_class": "principal",
+            "evidence_summary": "The Assembly threatened émigré-protecting German princes with the awakening of their subject peoples. The king hoped confrontation would bring foreign rescue and reverse the Revolution, while Lafayette and Narbonne expected army revival and domestic discipline; Brissotins sought revolutionary advantage.",
+            "evidence_id": "EVID-SUCC-043474BC0777",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "The Trier ultimatum wins broad political support while Brissot and Robespierre define opposing cases for war.",
+            "evidence_id": "EVID-SUCC-568D1F81E8F7",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "Clootz proclaims the imminent liberation of Europe and encourages war fever among foreign exiles.",
+            "evidence_id": "EVID-SUCC-F46A29B27D52",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "principal",
+            "evidence_summary": "Austrian threats and the Prussian alliance intensify demands for direct war against the Habsburg ruler.",
+            "evidence_id": "EVID-SUCC-EF60779ADEFB",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 180,
+            "source_page_label": "180",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "A pro-war ministry removed final obstacles and only seven deputies opposed the 20 April declaration. It promised defensive war, no conquest or attack on other peoples’ liberty, and protection of uninvolved civilians and property. Doyle states that these pledges would all be broken, while supporters already harbored incompatible public and secret hopes.",
+            "evidence_id": "EVID-SUCC-AE7E6DD6C45C",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 193,
+            "source_page_label": "193",
+            "locator_class": "incidental",
+            "evidence_summary": "Clootz later won election to the Convention; this is subsequent biographical context, not evidence for the April1792 war decision.",
+            "evidence_id": "EVID-SUCC-548EE9B92F9A",
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "evidence_id": "EVID-SUCC-3420436C00AE",
+            "source_evidence_id": "EVID-406968FCB616",
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "principal",
+            "evidence_summary": "Patriotic enthusiasm and expectations that liberated peoples will imitate France overwhelm caution.",
+            "provenance": {
+              "chunk_id": "CHUNK-008",
+              "local_subject_id": "CHUNK-008-S035",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+              "source_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d"
+            },
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-509199493B59",
+              "evidence_id": "EVID-A22C56E46ECB"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          },
+          {
+            "evidence_id": "EVID-SUCC-04A3C3307F73",
+            "source_evidence_id": "EVID-AA2278EEA694",
+            "document_page": 181,
+            "source_page_label": "181",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "War temporarily directs attention outward, but domestic crises multiply by the time fighting begins.",
+            "provenance": {
+              "chunk_id": "CHUNK-008",
+              "local_subject_id": "CHUNK-008-S035",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+              "source_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d"
+            },
+            "source_local_subject_id": "SUCC-C008-S003",
+            "source_chunk_id": "CHUNK-008",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-509199493B59",
+              "evidence_id": "EVID-F700364A1274"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S003",
+            "label": "Road to war and declaration of war, October 1791–April 1792",
+            "meaning": "Pressure against émigré bases, Brissotin claims that war would consolidate the Revolution, royal counter-revolutionary hopes, and Austrian-Prussian diplomacy produced the declaration of war on 20 April 1792. Clootz’s premature promises of imminent liberation helped encourage internationalist and exile enthusiasm for war.",
+            "stance": "War emerged from incompatible expectations and escalating choices rather than a single coherent national purpose; its public defensive pledges were soon broken. Treat these liberation promises as advocates’ expectations, not a narrator guarantee of imminent success.",
+            "acceptable_access": [
+              "Road to war and declaration of war, October 1791–April 1792",
+              "War of 1792—origins",
+              "Declaration of war, 20 April 1792",
+              "French Revolutionary Wars—political origins",
+              "War debate, 1791–92",
+              "Clootz, Anacharsis—war propaganda",
+              "Revolutionary internationalism—1792",
+              "Foreign revolutionaries in Paris",
+              "war of April 1792",
+              "declaration of war, 20 April 1792",
+              "origins of revolutionary war",
+              "France and Austria, war declaration",
+              "war aims, 1792",
+              "royal war aims",
+              "revolutionary war aims",
+              "secret hopes for war",
+              "revolutionary internationalism",
+              "liberation war",
+              "exporting the Revolution",
+              "war of peoples against despots"
+            ],
+            "document_pages": [
+              176,
+              177,
+              178,
+              179,
+              180,
+              181
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S003"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S003",
+            "label": "Road to war and declaration of war, October 1791–April 1792",
+            "meaning": "Pressure against émigré bases, Brissotin claims that war would consolidate the Revolution, royal counter-revolutionary hopes, and Austrian-Prussian diplomacy produced the declaration of war on 20 April 1792. Clootz’s premature promises of imminent liberation helped encourage internationalist and exile enthusiasm for war.",
+            "stance": "War emerged from incompatible expectations and escalating choices rather than a single coherent national purpose; its public defensive pledges were soon broken. Treat these liberation promises as advocates’ expectations, not a narrator guarantee of imminent success.",
+            "acceptable_access": [
+              "Road to war and declaration of war, October 1791–April 1792",
+              "War of 1792—origins",
+              "Declaration of war, 20 April 1792",
+              "French Revolutionary Wars—political origins",
+              "War debate, 1791–92",
+              "Clootz, Anacharsis—war propaganda",
+              "Revolutionary internationalism—1792",
+              "Foreign revolutionaries in Paris",
+              "war of April 1792",
+              "declaration of war, 20 April 1792",
+              "origins of revolutionary war",
+              "France and Austria, war declaration",
+              "war aims, 1792",
+              "royal war aims",
+              "revolutionary war aims",
+              "secret hopes for war",
+              "revolutionary internationalism",
+              "liberation war",
+              "exporting the Revolution",
+              "war of peoples against despots"
+            ],
+            "document_pages": [
+              176,
+              177,
+              178,
+              179,
+              180,
+              181
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "b8e7f90dd7c1fdd084a722e79447516701259fe7f365e280a415e767e40c1392",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "177 and180 juxtapose public liberation/defensive pledges with conflicting royal, military and Brissotin aims. The seven dissenters and authorial assertion that pledges were broken are directly supported; no coherent shared purpose is inferred.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 75,
+      "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0131",
+        "CORR-007-LEGACY-0132"
+      ],
+      "source_correction_row_sha256s": [
+        "31de03ff98c1820cd5ec17a7fbcda38fe535c010f5b53ee917442b31307ed86b",
+        "01870d3b52e102498f3cc6508f08eda9279c100b23c6b305c44d3d03b3b2d834"
+      ],
+      "before_record": {
+        "label": "Price, Richard—Revolution Society sermon and French liberty",
+        "priority": "major",
+        "meaning": "Price's 1789 sermon claimed revolutionary France had surpassed Britain in religious and representative liberty and provoked Burke.",
+        "stance": "Price interpreted the October Days as popular liberation; Burke vehemently rejected that reading.",
+        "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+        "acceptable_access": [
+          "Price, Richard—Revolution Society sermon and French liberty",
+          "Price, Richard—French Revolution",
+          "Revolution Society—sermon of 4 November 1789",
+          "British parliamentary reform and French Revolution",
+          "Revolution Society",
+          "Richard Price—sermon of 1789",
+          "Dissenters—political reform"
+        ],
+        "evidence": [
+          {
+            "document_page": 166,
+            "source_page_label": "166",
+            "locator_class": "supporting",
+            "evidence_summary": "Dissenters and the Revolution Society revived British parliamentary-reform aspirations.",
+            "evidence_id": "EVID-SUCC-EAA4C28F0313",
+            "source_local_subject_id": "SUCC-C007-S018",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 167,
+            "source_page_label": "167",
+            "locator_class": "principal",
+            "evidence_summary": "Price celebrated French representative and religious liberty and described the king's submission as emancipation.",
+            "evidence_id": "EVID-SUCC-1A1389CA39AF",
+            "source_local_subject_id": "SUCC-C007-S018",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S018",
+            "label": "Price, Richard—Revolution Society sermon and French liberty",
+            "meaning": "Price's 1789 sermon claimed revolutionary France had surpassed Britain in religious and representative liberty and provoked Burke.",
+            "stance": "Price interpreted the October Days as popular liberation; Burke vehemently rejected that reading.",
+            "acceptable_access": [
+              "Price, Richard—Revolution Society sermon and French liberty",
+              "Price, Richard—French Revolution",
+              "Revolution Society—sermon of 4 November 1789",
+              "British parliamentary reform and French Revolution",
+              "Revolution Society",
+              "Richard Price—sermon of 1789",
+              "Dissenters—political reform"
+            ],
+            "document_pages": [
+              166,
+              167
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S018"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S018",
+            "label": "Price, Richard—Revolution Society sermon and French liberty",
+            "meaning": "Price's 1789 sermon claimed revolutionary France had surpassed Britain in religious and representative liberty and provoked Burke.",
+            "stance": "Price interpreted the October Days as popular liberation; Burke vehemently rejected that reading.",
+            "acceptable_access": [
+              "Price, Richard—Revolution Society sermon and French liberty",
+              "Price, Richard—French Revolution",
+              "Revolution Society—sermon of 4 November 1789",
+              "British parliamentary reform and French Revolution",
+              "Revolution Society",
+              "Richard Price—sermon of 1789",
+              "Dissenters—political reform"
+            ],
+            "document_pages": [
+              166,
+              167
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "9608723342446f3937099661074cc0facffed73cc48557e4ae5e36b98d3d7fa8",
+      "proposed_record": {
+        "label": "Price, Richard—Revolution Society sermon and French liberty",
+        "priority": "major",
+        "meaning": "Price's 1789 sermon claimed revolutionary France had surpassed Britain in religious and representative liberty and provoked Burke. The sermon emerged from renewed dissenting reform agitation for redistributed seats, shorter parliaments and a wider franchise, revived around the 1688 centenary.",
+        "stance": "Price interpreted the October Days as popular liberation; Burke vehemently rejected that reading.",
+        "subject_id": "SUBJ-SUCC-8B2B68A9D7BF",
+        "acceptable_access": [
+          "Price, Richard—Revolution Society sermon and French liberty",
+          "Price, Richard—French Revolution",
+          "Revolution Society—sermon of 4 November 1789",
+          "British parliamentary reform and French Revolution",
+          "Revolution Society",
+          "Richard Price—sermon of 1789",
+          "Dissenters—political reform"
+        ],
+        "evidence": [
+          {
+            "document_page": 166,
+            "source_page_label": "166",
+            "locator_class": "supporting",
+            "evidence_summary": "After reform agitation slackened following Pitt’s failed bill, the 1688 centenary revived demands for redistributed seats, shorter parliaments and a wider franchise; religiously excluded Dissenters sustained the Revolution Society.",
+            "evidence_id": "EVID-SUCC-EAA4C28F0313",
+            "source_local_subject_id": "SUCC-C007-S018",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 167,
+            "source_page_label": "167",
+            "locator_class": "principal",
+            "evidence_summary": "Price celebrated French representative and religious liberty and described the king's submission as emancipation.",
+            "evidence_id": "EVID-SUCC-1A1389CA39AF",
+            "source_local_subject_id": "SUCC-C007-S018",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S018",
+            "label": "Price, Richard—Revolution Society sermon and French liberty",
+            "meaning": "Price's 1789 sermon claimed revolutionary France had surpassed Britain in religious and representative liberty and provoked Burke. The sermon emerged from renewed dissenting reform agitation for redistributed seats, shorter parliaments and a wider franchise, revived around the 1688 centenary.",
+            "stance": "Price interpreted the October Days as popular liberation; Burke vehemently rejected that reading.",
+            "acceptable_access": [
+              "Price, Richard—Revolution Society sermon and French liberty",
+              "Price, Richard—French Revolution",
+              "Revolution Society—sermon of 4 November 1789",
+              "British parliamentary reform and French Revolution",
+              "Revolution Society",
+              "Richard Price—sermon of 1789",
+              "Dissenters—political reform"
+            ],
+            "document_pages": [
+              166,
+              167
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S018"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S018",
+            "label": "Price, Richard—Revolution Society sermon and French liberty",
+            "meaning": "Price's 1789 sermon claimed revolutionary France had surpassed Britain in religious and representative liberty and provoked Burke. The sermon emerged from renewed dissenting reform agitation for redistributed seats, shorter parliaments and a wider franchise, revived around the 1688 centenary.",
+            "stance": "Price interpreted the October Days as popular liberation; Burke vehemently rejected that reading.",
+            "acceptable_access": [
+              "Price, Richard—Revolution Society sermon and French liberty",
+              "Price, Richard—French Revolution",
+              "Revolution Society—sermon of 4 November 1789",
+              "British parliamentary reform and French Revolution",
+              "Revolution Society",
+              "Richard Price—sermon of 1789",
+              "Dissenters—political reform"
+            ],
+            "document_pages": [
+              166,
+              167
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "82f8900846c5c6c37f6f2053da63cc7f88de8a4633f560e1ae702f9725dce815",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "166 makes the Revolution Society’s domestic reform setting substantive: seats, parliamentary terms, franchise and dissenting exclusion. The parent’s Price/Burke disagreement remains intact.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 76,
+      "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0133"
+      ],
+      "source_correction_row_sha256s": [
+        "f0402b9b10a0a2e8066ae622abe88ca48b0685c78ec08917d276a1172b7a75d9"
+      ],
+      "before_record": {
+        "label": "Brabant Revolution—causes and contrast with the French Revolution",
+        "priority": "essential",
+        "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction. The invading insurgents included men from Liège, linking the movements organizationally without making their aims identical.",
+        "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+        "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+        "acceptable_access": [
+          "Brabant Revolution—causes and contrast with the French Revolution",
+          "Belgian Revolution of 1789-1790",
+          "Brabant Revolution—relationship to France",
+          "Brabant Revolution",
+          "Belgian Revolution of 1789",
+          "Austrian Netherlands—revolution",
+          "French and Belgian revolutions—comparison",
+          "Pro Aris et Focis",
+          "Belgian insurgency—secret society",
+          "Brabant Revolution—organization"
+        ],
+        "evidence": [
+          {
+            "document_page": 162,
+            "source_page_label": "162",
+            "locator_class": "principal",
+            "evidence_summary": "Belgian rebels defended inherited liberties and the Joyous Entry, unlike French reconstruction. Church-funded Pro Aris et Focis and exile leaders organized an invasion drawing insurgents from both the Dutch frontier and Liège.",
+            "evidence_id": "EVID-SUCC-68FA42C86F06",
+            "source_local_subject_id": "SUCC-C007-S007",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 163,
+            "source_page_label": "163",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The independent Belgian state's conservative structure quickly showed how little the two revolutions had in common.",
+            "evidence_id": "EVID-SUCC-40AAF6322AD3",
+            "source_local_subject_id": "SUCC-C007-S007",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S007",
+            "label": "Brabant Revolution—causes and contrast with the French Revolution",
+            "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction.",
+            "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+            "acceptable_access": [
+              "Brabant Revolution—causes and contrast with the French Revolution",
+              "Belgian Revolution of 1789-1790",
+              "Brabant Revolution—relationship to France",
+              "Brabant Revolution",
+              "Belgian Revolution of 1789",
+              "Austrian Netherlands—revolution",
+              "French and Belgian revolutions—comparison",
+              "Pro Aris et Focis",
+              "Belgian insurgency—secret society",
+              "Brabant Revolution—organization"
+            ],
+            "document_pages": [
+              162,
+              163
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S007"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S007",
+            "label": "Brabant Revolution—causes and contrast with the French Revolution",
+            "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction.",
+            "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+            "acceptable_access": [
+              "Brabant Revolution—causes and contrast with the French Revolution",
+              "Belgian Revolution of 1789-1790",
+              "Brabant Revolution—relationship to France",
+              "Brabant Revolution",
+              "Belgian Revolution of 1789",
+              "Austrian Netherlands—revolution",
+              "French and Belgian revolutions—comparison",
+              "Pro Aris et Focis",
+              "Belgian insurgency—secret society",
+              "Brabant Revolution—organization"
+            ],
+            "document_pages": [
+              162,
+              163
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "768556b6174b4e5c8d342c107539f70de641036824837ba824efc647ba4e85bf",
+      "proposed_record": {
+        "label": "Brabant Revolution—causes and contrast with the French Revolution",
+        "priority": "essential",
+        "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction. The invading insurgents included men from Liège, linking the movements organizationally without making their aims identical.",
+        "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+        "subject_id": "SUBJ-SUCC-A9B1A32FA733",
+        "acceptable_access": [
+          "Brabant Revolution—causes and contrast with the French Revolution",
+          "Belgian Revolution of 1789-1790",
+          "Brabant Revolution—relationship to France",
+          "Brabant Revolution",
+          "Belgian Revolution of 1789",
+          "Austrian Netherlands—revolution",
+          "French and Belgian revolutions—comparison",
+          "Pro Aris et Focis",
+          "Belgian insurgency—secret society",
+          "Brabant Revolution—organization"
+        ],
+        "evidence": [
+          {
+            "document_page": 162,
+            "source_page_label": "162",
+            "locator_class": "principal",
+            "evidence_summary": "Belgian rebels defended inherited liberties and the Joyous Entry, unlike French rejection of privilege and reconstruction of order. Church-funded Pro Aris et Focis cooperated with exiled leaders in organizing the 1789 invasion, drawing insurgents from both the Dutch frontier and Liège.",
+            "evidence_id": "EVID-SUCC-68FA42C86F06",
+            "source_local_subject_id": "SUCC-C007-S007",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 163,
+            "source_page_label": "163",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The independent Belgian state's conservative structure quickly showed how little the two revolutions had in common.",
+            "evidence_id": "EVID-SUCC-40AAF6322AD3",
+            "source_local_subject_id": "SUCC-C007-S007",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S007",
+            "label": "Brabant Revolution—causes and contrast with the French Revolution",
+            "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction.",
+            "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+            "acceptable_access": [
+              "Brabant Revolution—causes and contrast with the French Revolution",
+              "Belgian Revolution of 1789-1790",
+              "Brabant Revolution—relationship to France",
+              "Brabant Revolution",
+              "Belgian Revolution of 1789",
+              "Austrian Netherlands—revolution",
+              "French and Belgian revolutions—comparison",
+              "Pro Aris et Focis",
+              "Belgian insurgency—secret society",
+              "Brabant Revolution—organization"
+            ],
+            "document_pages": [
+              162,
+              163
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S007"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S007",
+            "label": "Brabant Revolution—causes and contrast with the French Revolution",
+            "meaning": "Belgian resistance defended inherited corporate and ecclesiastical liberties against Joseph II. Church-funded Pro Aris et Focis linked local opposition with an exile-led invasion, yielding a revolution fundamentally different from France's reconstruction.",
+            "stance": "Shared rebellion against authority concealed fundamental ideological divergence.",
+            "acceptable_access": [
+              "Brabant Revolution—causes and contrast with the French Revolution",
+              "Belgian Revolution of 1789-1790",
+              "Brabant Revolution—relationship to France",
+              "Brabant Revolution",
+              "Belgian Revolution of 1789",
+              "Austrian Netherlands—revolution",
+              "French and Belgian revolutions—comparison",
+              "Pro Aris et Focis",
+              "Belgian insurgency—secret society",
+              "Brabant Revolution—organization"
+            ],
+            "document_pages": [
+              162,
+              163
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "71778d280997013c228b0dbb6885deed05b76d14a0790e4f5829971248dd4990",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "162 supports Church funding, Pro Aris et Focis, exiled leadership, defense of inherited liberties and Liège participation. Merge the proposal with the fuller stage8 invasion route instead of dropping the Dutch-frontier/Liège distinction.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 77,
+      "subject_id": "SUBJ-SUCC-A055803B2A41",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0136"
+      ],
+      "source_correction_row_sha256s": [
+        "2a19715449c5f130cecdc03e64b123899c7700b8c80aec809c61c30d9403fc7e"
+      ],
+      "before_record": {
+        "label": "France in 1802: visible aftermath of the Revolution",
+        "priority": "optional",
+        "meaning": "The physical and social landscape encountered in 1802 combined revolutionary ruins and symbols with revived sociability, order, and religious practice. In Paris, fashionable sociability and safer, well-policed streets coexisted with the retreat of public political discussion; military parades and reviews became an almost daily spectacle.",
+        "stance": "The visible aftermath mixed temporary disruption with permanent change and did not straightforwardly embody the reformers' original aims.",
+        "subject_id": "SUBJ-SUCC-A055803B2A41",
+        "acceptable_access": [
+          "French Revolution—aftermath in 1802",
+          "France—conditions in 1802",
+          "Paris—post-revolutionary life",
+          "Consular depoliticization",
+          "Paris--policing and military spectacle",
+          "Peace--reopening civilian travel"
+        ],
+        "evidence": [
+          {
+            "document_page": 391,
+            "source_page_label": "391",
+            "locator_class": "principal",
+            "evidence_summary": "British visitors encounter damaged roads, ruined aristocratic and religious buildings, revolutionary symbols, and resumed worship.",
+            "evidence_id": "EVID-SUCC-461510F55CD4",
+            "source_local_subject_id": "SUCC-C017-S001",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 392,
+            "source_page_label": "392",
+            "locator_class": "principal",
+            "evidence_summary": "Paris appears socially lively and safer, with returning fashionable society, revolutionary sites and relics; public political discussion has receded and military reviews provide frequent spectacle.",
+            "evidence_id": "EVID-SUCC-7FD8CFDFB069",
+            "source_local_subject_id": "SUCC-C017-S001",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-013281959F64",
+            "source_evidence_id": "EVID-E94E8DC790BE",
+            "document_page": 391,
+            "source_page_label": "391",
+            "locator_class": "supporting",
+            "evidence_summary": "Visitors approached Bonaparte as the compelling general who had brought the revolutionary era to a close.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S039",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S001",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-C89C8EB55F55",
+              "evidence_id": "EVID-F41A9E580546"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S001",
+            "label": "France in 1802: visible aftermath of the Revolution",
+            "meaning": "The physical and social landscape encountered in 1802 combined revolutionary ruins and symbols with revived sociability, order, and religious practice.",
+            "stance": "The visible aftermath mixed temporary disruption with permanent change and did not straightforwardly embody the reformers' original aims.",
+            "acceptable_access": [
+              "French Revolution—aftermath in 1802",
+              "France—conditions in 1802",
+              "Paris—post-revolutionary life",
+              "Consular depoliticization",
+              "Paris--policing and military spectacle",
+              "Peace--reopening civilian travel"
+            ],
+            "document_pages": [
+              391,
+              392
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S001"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S001",
+            "label": "France in 1802: visible aftermath of the Revolution",
+            "meaning": "The physical and social landscape encountered in 1802 combined revolutionary ruins and symbols with revived sociability, order, and religious practice.",
+            "stance": "The visible aftermath mixed temporary disruption with permanent change and did not straightforwardly embody the reformers' original aims.",
+            "acceptable_access": [
+              "French Revolution—aftermath in 1802",
+              "France—conditions in 1802",
+              "Paris—post-revolutionary life",
+              "Consular depoliticization",
+              "Paris--policing and military spectacle",
+              "Peace--reopening civilian travel"
+            ],
+            "document_pages": [
+              391,
+              392
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "1f78b9250c00fa17332ac69a9af4cd8aeeee4b57f714274db4a16911941fae66",
+      "proposed_record": {
+        "label": "France in 1802: visible aftermath of the Revolution",
+        "priority": "optional",
+        "meaning": "The physical and social landscape encountered in 1802 combined revolutionary ruins and symbols with revived sociability, order, and religious practice. In Paris, fashionable sociability and safer, well-policed streets coexisted with the retreat of public political discussion; military parades and reviews became an almost daily spectacle.",
+        "stance": "The visible aftermath mixed temporary disruption with permanent change and did not straightforwardly embody the reformers' original aims.",
+        "subject_id": "SUBJ-SUCC-A055803B2A41",
+        "acceptable_access": [
+          "French Revolution—aftermath in 1802",
+          "France—conditions in 1802",
+          "Paris—post-revolutionary life",
+          "Consular depoliticization",
+          "Paris--policing and military spectacle",
+          "Peace--reopening civilian travel"
+        ],
+        "evidence": [
+          {
+            "document_page": 391,
+            "source_page_label": "391",
+            "locator_class": "principal",
+            "evidence_summary": "The peace reopened continental travel, bringing many British visitors to inspect a France chiefly known through wartime reports. They encountered damaged roads, ruined aristocratic and religious buildings, revolutionary symbols and resumed worship.",
+            "evidence_id": "EVID-SUCC-461510F55CD4",
+            "source_local_subject_id": "SUCC-C017-S001",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 392,
+            "source_page_label": "392",
+            "locator_class": "principal",
+            "evidence_summary": "Paris appears socially lively and safer, with returning fashionable society, revolutionary sites and relics; public political discussion has receded and military reviews provide frequent spectacle.",
+            "evidence_id": "EVID-SUCC-7FD8CFDFB069",
+            "source_local_subject_id": "SUCC-C017-S001",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-013281959F64",
+            "source_evidence_id": "EVID-E94E8DC790BE",
+            "document_page": 391,
+            "source_page_label": "391",
+            "locator_class": "supporting",
+            "evidence_summary": "Visitors approached Bonaparte as the compelling general who had brought the revolutionary era to a close.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S039",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S001",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-C89C8EB55F55",
+              "evidence_id": "EVID-F41A9E580546"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S001",
+            "label": "France in 1802: visible aftermath of the Revolution",
+            "meaning": "The physical and social landscape encountered in 1802 combined revolutionary ruins and symbols with revived sociability, order, and religious practice.",
+            "stance": "The visible aftermath mixed temporary disruption with permanent change and did not straightforwardly embody the reformers' original aims.",
+            "acceptable_access": [
+              "French Revolution—aftermath in 1802",
+              "France—conditions in 1802",
+              "Paris—post-revolutionary life",
+              "Consular depoliticization",
+              "Paris--policing and military spectacle",
+              "Peace--reopening civilian travel"
+            ],
+            "document_pages": [
+              391,
+              392
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S001"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S001",
+            "label": "France in 1802: visible aftermath of the Revolution",
+            "meaning": "The physical and social landscape encountered in 1802 combined revolutionary ruins and symbols with revived sociability, order, and religious practice.",
+            "stance": "The visible aftermath mixed temporary disruption with permanent change and did not straightforwardly embody the reformers' original aims.",
+            "acceptable_access": [
+              "French Revolution—aftermath in 1802",
+              "France—conditions in 1802",
+              "Paris—post-revolutionary life",
+              "Consular depoliticization",
+              "Paris--policing and military spectacle",
+              "Peace--reopening civilian travel"
+            ],
+            "document_pages": [
+              391,
+              392
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "c14cdb8f3b1efd8bfcbfba02458f3fb8439ee26d922dedc916c1ff8be9521654",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "391 links reopened travel to British observation of ruins, symbols and resumed worship. The existing392 sociability/order/political-silence parent additions remain untouched.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 78,
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0137"
+      ],
+      "source_correction_row_sha256s": [
+        "c5700de2d7dbea03d3668c9595ca89e008555c54ada4abd9c095b8e99cb7b3ca"
+      ],
+      "before_record": {
+        "label": "Second Coalition and the collapse of French power in 1799",
+        "priority": "major",
+        "meaning": "The interaction of indigenous resistance with coalition warfare drove French armies back in 1799. Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s advance in Italy, where by the end of June French forces were confined to a coastal strip around Genoa and the Italian sister republics collapsed amid revenge and reprisal.",
+        "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+        "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+        "acceptable_access": [
+          "Second Coalition—occupied Europe",
+          "Collapse of the Italian sister republics,1799",
+          "French military defeats, 1799",
+          "Stockach, battle of",
+          "Suvorov--Italian campaign",
+          "French military overextension,1799",
+          "Genoa--French retreat"
+        ],
+        "evidence": [
+          {
+            "document_page": 363,
+            "source_page_label": "363",
+            "locator_class": "supporting",
+            "evidence_summary": "The renewed war determined the fate of the increasingly unstable Italian sister republics.",
+            "evidence_id": "EVID-SUCC-E967D80207FC",
+            "source_local_subject_id": "SUCC-C015-S006",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 368,
+            "source_page_label": "368",
+            "locator_class": "principal",
+            "evidence_summary": "Defeat at Stockach, retreat from Switzerland and Suvorov’s advance drove the French back; by the end of June they were confined around Genoa, and the Italian sister republics collapsed amid revenge and reprisal.",
+            "evidence_id": "EVID-SUCC-44B8B2998640",
+            "source_local_subject_id": "SUCC-C015-S006",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S006",
+            "label": "Second Coalition and the collapse of French power in 1799",
+            "meaning": "The interaction of indigenous resistance with coalition warfare drove French armies back in 1799. Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s advance in Italy, where by the end of June French forces were confined to a coastal strip around Genoa and the Italian sister republics collapsed amid revenge and reprisal.",
+            "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+            "acceptable_access": [
+              "Second Coalition—occupied Europe",
+              "Collapse of the Italian sister republics,1799",
+              "French military defeats, 1799",
+              "Stockach, battle of",
+              "Suvorov--Italian campaign",
+              "French military overextension,1799",
+              "Genoa--French retreat"
+            ],
+            "document_pages": [
+              363,
+              368
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S006"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S006",
+            "label": "Second Coalition and the collapse of French power in 1799",
+            "meaning": "The interaction of indigenous resistance with coalition warfare drove French armies back in 1799. Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s advance in Italy, where by the end of June French forces were confined to a coastal strip around Genoa and the Italian sister republics collapsed amid revenge and reprisal.",
+            "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+            "acceptable_access": [
+              "Second Coalition—occupied Europe",
+              "Collapse of the Italian sister republics,1799",
+              "French military defeats, 1799",
+              "Stockach, battle of",
+              "Suvorov--Italian campaign",
+              "French military overextension,1799",
+              "Genoa--French retreat"
+            ],
+            "document_pages": [
+              363,
+              368
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "d32ce0c67f20c9639cd87e1093c983347056455a49d69610d20421b8841d3365",
+      "proposed_record": {
+        "label": "Second Coalition and the collapse of French power in 1799",
+        "priority": "major",
+        "meaning": "The interaction of indigenous resistance with coalition warfare drove French armies back in 1799. Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s advance in Italy, where by the end of June French forces were confined to a coastal strip around Genoa and the Italian sister republics collapsed amid revenge and reprisal.",
+        "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation. Confidence hardened by years of success helps explain why outnumbered French forces opened these offensives.",
+        "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+        "acceptable_access": [
+          "Second Coalition—occupied Europe",
+          "Collapse of the Italian sister republics,1799",
+          "French military defeats, 1799",
+          "Stockach, battle of",
+          "Suvorov--Italian campaign",
+          "French military overextension,1799",
+          "Genoa--French retreat"
+        ],
+        "evidence": [
+          {
+            "document_page": 363,
+            "source_page_label": "363",
+            "locator_class": "supporting",
+            "evidence_summary": "The renewed war determined the fate of the increasingly unstable Italian sister republics.",
+            "evidence_id": "EVID-SUCC-E967D80207FC",
+            "source_local_subject_id": "SUCC-C015-S006",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 368,
+            "source_page_label": "368",
+            "locator_class": "principal",
+            "evidence_summary": "Defeat at Stockach, retreat from Switzerland and Suvorov’s advance drove the French back; by the end of June they were confined around Genoa, and the Italian sister republics collapsed amid revenge and reprisal.",
+            "evidence_id": "EVID-SUCC-44B8B2998640",
+            "source_local_subject_id": "SUCC-C015-S006",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S006",
+            "label": "Second Coalition and the collapse of French power in 1799",
+            "meaning": "The interaction of indigenous resistance with coalition warfare drove French armies back in 1799. Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s advance in Italy, where by the end of June French forces were confined to a coastal strip around Genoa and the Italian sister republics collapsed amid revenge and reprisal.",
+            "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation. Confidence hardened by years of success helps explain why outnumbered French forces opened these offensives.",
+            "acceptable_access": [
+              "Second Coalition—occupied Europe",
+              "Collapse of the Italian sister republics,1799",
+              "French military defeats, 1799",
+              "Stockach, battle of",
+              "Suvorov--Italian campaign",
+              "French military overextension,1799",
+              "Genoa--French retreat"
+            ],
+            "document_pages": [
+              363,
+              368
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S006"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S006",
+            "label": "Second Coalition and the collapse of French power in 1799",
+            "meaning": "The interaction of indigenous resistance with coalition warfare drove French armies back in 1799. Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s advance in Italy, where by the end of June French forces were confined to a coastal strip around Genoa and the Italian sister republics collapsed amid revenge and reprisal.",
+            "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation. Confidence hardened by years of success helps explain why outnumbered French forces opened these offensives.",
+            "acceptable_access": [
+              "Second Coalition—occupied Europe",
+              "Collapse of the Italian sister republics,1799",
+              "French military defeats, 1799",
+              "Stockach, battle of",
+              "Suvorov--Italian campaign",
+              "French military overextension,1799",
+              "Genoa--French retreat"
+            ],
+            "document_pages": [
+              363,
+              368
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "28a1251086d5d2254742c7361069b2bb9581eba9f13ef97165ded96473291840",
+      "fields_changed": [
+        "stance",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "368 attributes the offensive misjudgment to confidence from repeated success. Append that mechanism to the already corrected stage8 Italian-client scope, preserving different Dutch and Swiss outcomes rather than reverting to an unrestricted client-state-collapse claim.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 79,
+      "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0141",
+        "CORR-007-LEGACY-0142",
+        "CORR-007-LEGACY-0212",
+        "CORR-007-LEGACY-0213"
+      ],
+      "source_correction_row_sha256s": [
+        "0bb66fb88febb29cce8a098ecde57f5653846c27d3d77c3f16aca37211e13c28",
+        "88b305276139a3922ab763334bb4f86570010c496fcb3b5ca6c0a31b20da2e47",
+        "2f1d0bc6bccb83c3a08aaae238426636f80cbb3d419679cdf7d31bf189750958",
+        "426ddc5ba84c322eb477302754b7db2af81567c7b805e0a3af5919a1ba566e51"
+      ],
+      "before_record": {
+        "label": "Trial and execution of Louis XVI",
+        "priority": "essential",
+        "meaning": "The Convention rejected royal inviolability and chose a formal trial of Louis before the representatives of the sovereign people. Saint-Just, followed by Robespierre, had argued instead that the people’s victory on 10 August had already judged him, leaving only punishment. Deputies found him guilty, rejected popular appeal and reprieve, and executed him on 21 January 1793. Fear that a provincial rejection of death would provoke civil war helped defeat the proposed referendum.",
+        "stance": "Guilt was virtually uncontested, while punishment and popular ratification divided the Convention; intimidation may have affected close votes but did not erase political agency.",
+        "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
+        "acceptable_access": [
+          "Trial and execution of Louis XVI",
+          "Louis XVI—trial",
+          "Louis XVI—execution",
+          "Regicide—Convention votes",
+          "Appeal to the people",
+          "Louis XVI, trial",
+          "trial of the king",
+          "Louis Capet, trial",
+          "king's inviolability",
+          "Louis XVI, execution",
+          "regicide",
+          "execution of the king",
+          "Louis XVI, death sentence",
+          "appeal to the people",
+          "referendum on Louis XVI",
+          "Louis XVI, sentence and popular appeal",
+          "sans-culottes and king's trial",
+          "popular pressure on the Convention",
+          "Convention voting under pressure",
+          "Saint-Just",
+          "Saint-Just on Louis XVI",
+          "king already judged"
+        ],
+        "evidence": [
+          {
+            "document_page": 194,
+            "source_page_label": "194",
+            "locator_class": "principal",
+            "evidence_summary": "Against the problem of constitutional inviolability, Saint-Just argued that 10 August had already judged Louis; Robespierre adopted that argument. This radical alternative to ordinary adjudication differed from the Convention’s eventual formal trial.",
+            "evidence_id": "EVID-SUCC-D81553B21BAE",
+            "source_local_subject_id": "SUCC-C008-S010",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 195,
+            "source_page_label": "195",
+            "locator_class": "principal",
+            "evidence_summary": "Pétion’s formal-trial proposal, the indictment and defense precede near-consensus on guilt. Punishment and popular ratification divided deputies; fear that provincial rejection of a death sentence could bring civil war helped defeat the Girondin appeal.",
+            "evidence_id": "EVID-SUCC-B417AA38C634",
+            "source_local_subject_id": "SUCC-C008-S010",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 196,
+            "source_page_label": "196",
+            "locator_class": "principal",
+            "evidence_summary": "Close roll calls settle death and reject reprieve before the king's execution on 21 January.",
+            "evidence_id": "EVID-SUCC-BCC014F56CCE",
+            "source_local_subject_id": "SUCC-C008-S010",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S010",
+            "label": "Trial and execution of Louis XVI",
+            "meaning": "The Convention rejected claims of royal inviolability, tried Louis before the representatives of the sovereign people, found him guilty, rejected an appeal to the people and reprieve, and executed him on 21 January 1793.",
+            "stance": "Guilt was virtually uncontested, while punishment and popular ratification divided the Convention; intimidation may have affected close votes but did not erase political agency.",
+            "acceptable_access": [
+              "Trial and execution of Louis XVI",
+              "Louis XVI—trial",
+              "Louis XVI—execution",
+              "Regicide—Convention votes",
+              "Appeal to the people",
+              "Louis XVI, trial",
+              "trial of the king",
+              "Louis Capet, trial",
+              "king's inviolability",
+              "Louis XVI, execution",
+              "regicide",
+              "execution of the king",
+              "Louis XVI, death sentence",
+              "appeal to the people",
+              "referendum on Louis XVI",
+              "Louis XVI, sentence and popular appeal",
+              "sans-culottes and king's trial",
+              "popular pressure on the Convention",
+              "Convention voting under pressure",
+              "Saint-Just",
+              "Saint-Just on Louis XVI",
+              "king already judged"
+            ],
+            "document_pages": [
+              194,
+              195,
+              196
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S010"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S010",
+            "label": "Trial and execution of Louis XVI",
+            "meaning": "The Convention rejected claims of royal inviolability, tried Louis before the representatives of the sovereign people, found him guilty, rejected an appeal to the people and reprieve, and executed him on 21 January 1793.",
+            "stance": "Guilt was virtually uncontested, while punishment and popular ratification divided the Convention; intimidation may have affected close votes but did not erase political agency.",
+            "acceptable_access": [
+              "Trial and execution of Louis XVI",
+              "Louis XVI—trial",
+              "Louis XVI—execution",
+              "Regicide—Convention votes",
+              "Appeal to the people",
+              "Louis XVI, trial",
+              "trial of the king",
+              "Louis Capet, trial",
+              "king's inviolability",
+              "Louis XVI, execution",
+              "regicide",
+              "execution of the king",
+              "Louis XVI, death sentence",
+              "appeal to the people",
+              "referendum on Louis XVI",
+              "Louis XVI, sentence and popular appeal",
+              "sans-culottes and king's trial",
+              "popular pressure on the Convention",
+              "Convention voting under pressure",
+              "Saint-Just",
+              "Saint-Just on Louis XVI",
+              "king already judged"
+            ],
+            "document_pages": [
+              194,
+              195,
+              196
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "c1902265efd6d5c6f30a7f78a13e753673d18b22221f11030cefcdf92f21ffb2",
+      "proposed_record": {
+        "label": "Trial and execution of Louis XVI",
+        "priority": "essential",
+        "meaning": "The Convention rejected royal inviolability and chose a formal trial of Louis before the representatives of the sovereign people. Saint-Just, followed by Robespierre, had argued instead that the people’s victory on 10 August had already judged him, leaving only punishment. Deputies found him guilty, rejected popular appeal and reprieve, and executed him on 21 January 1793. Fear that a provincial rejection of death would provoke civil war helped defeat the proposed referendum.",
+        "stance": "Guilt was virtually uncontested, while punishment and popular ratification divided the Convention; intimidation may have affected close votes but did not erase political agency. Rumors of attacks on the Temple and Convention may have influenced some death votes; Doyle does not make coercion the sole determinant.",
+        "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
+        "acceptable_access": [
+          "Trial and execution of Louis XVI",
+          "Louis XVI—trial",
+          "Louis XVI—execution",
+          "Regicide—Convention votes",
+          "Appeal to the people",
+          "Louis XVI, trial",
+          "trial of the king",
+          "Louis Capet, trial",
+          "king's inviolability",
+          "Louis XVI, execution",
+          "regicide",
+          "execution of the king",
+          "Louis XVI, death sentence",
+          "appeal to the people",
+          "referendum on Louis XVI",
+          "Louis XVI, sentence and popular appeal",
+          "sans-culottes and king's trial",
+          "popular pressure on the Convention",
+          "Convention voting under pressure",
+          "Saint-Just",
+          "Saint-Just on Louis XVI",
+          "king already judged",
+          "sansculottes—pressure on the king’s trial",
+          "Convention—punishment vote under threat"
+        ],
+        "evidence": [
+          {
+            "document_page": 194,
+            "source_page_label": "194",
+            "locator_class": "principal",
+            "evidence_summary": "Against the problem of constitutional inviolability, Saint-Just argued that 10 August had already judged Louis; Robespierre adopted that argument. This radical alternative to ordinary adjudication differed from the Convention’s eventual formal trial.",
+            "evidence_id": "EVID-SUCC-D81553B21BAE",
+            "source_local_subject_id": "SUCC-C008-S010",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 195,
+            "source_page_label": "195",
+            "locator_class": "principal",
+            "evidence_summary": "Pétion’s formal-trial proposal, the indictment and defense preceded near-consensus on guilt. Punishment and popular ratification divided deputies. Girondins sought popular confirmation, expecting provincial resistance to Paris’s wish for death; fear that this could provoke civil war helped defeat the appeal.",
+            "evidence_id": "EVID-SUCC-B417AA38C634",
+            "source_local_subject_id": "SUCC-C008-S010",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 196,
+            "source_page_label": "196",
+            "locator_class": "principal",
+            "evidence_summary": "The appeal to the people was rejected by 424 votes to 283. Punishment and reprieve then required further divided roll calls amid rumors of attacks on the Temple and Convention, which may have swayed some deputies. The death sentence was carried out on 21 January.",
+            "evidence_id": "EVID-SUCC-BCC014F56CCE",
+            "source_local_subject_id": "SUCC-C008-S010",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S010",
+            "label": "Trial and execution of Louis XVI",
+            "meaning": "The Convention rejected claims of royal inviolability, tried Louis before the representatives of the sovereign people, found him guilty, rejected an appeal to the people and reprieve, and executed him on 21 January 1793.",
+            "stance": "Guilt was virtually uncontested, while punishment and popular ratification divided the Convention; intimidation may have affected close votes but did not erase political agency. Rumors of attacks on the Temple and Convention may have influenced some death votes; Doyle does not make coercion the sole determinant.",
+            "acceptable_access": [
+              "Trial and execution of Louis XVI",
+              "Louis XVI—trial",
+              "Louis XVI—execution",
+              "Regicide—Convention votes",
+              "Appeal to the people",
+              "Louis XVI, trial",
+              "trial of the king",
+              "Louis Capet, trial",
+              "king's inviolability",
+              "Louis XVI, execution",
+              "regicide",
+              "execution of the king",
+              "Louis XVI, death sentence",
+              "appeal to the people",
+              "referendum on Louis XVI",
+              "Louis XVI, sentence and popular appeal",
+              "sans-culottes and king's trial",
+              "popular pressure on the Convention",
+              "Convention voting under pressure",
+              "Saint-Just",
+              "Saint-Just on Louis XVI",
+              "king already judged",
+              "sansculottes—pressure on the king’s trial",
+              "Convention—punishment vote under threat"
+            ],
+            "document_pages": [
+              194,
+              195,
+              196
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S010"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S010",
+            "label": "Trial and execution of Louis XVI",
+            "meaning": "The Convention rejected claims of royal inviolability, tried Louis before the representatives of the sovereign people, found him guilty, rejected an appeal to the people and reprieve, and executed him on 21 January 1793.",
+            "stance": "Guilt was virtually uncontested, while punishment and popular ratification divided the Convention; intimidation may have affected close votes but did not erase political agency. Rumors of attacks on the Temple and Convention may have influenced some death votes; Doyle does not make coercion the sole determinant.",
+            "acceptable_access": [
+              "Trial and execution of Louis XVI",
+              "Louis XVI—trial",
+              "Louis XVI—execution",
+              "Regicide—Convention votes",
+              "Appeal to the people",
+              "Louis XVI, trial",
+              "trial of the king",
+              "Louis Capet, trial",
+              "king's inviolability",
+              "Louis XVI, execution",
+              "regicide",
+              "execution of the king",
+              "Louis XVI, death sentence",
+              "appeal to the people",
+              "referendum on Louis XVI",
+              "Louis XVI, sentence and popular appeal",
+              "sans-culottes and king's trial",
+              "popular pressure on the Convention",
+              "Convention voting under pressure",
+              "Saint-Just",
+              "Saint-Just on Louis XVI",
+              "king already judged",
+              "sansculottes—pressure on the king’s trial",
+              "Convention—punishment vote under threat"
+            ],
+            "document_pages": [
+              194,
+              195,
+              196
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "1049897e2106cf4393f825163434c32f31355755bf7b8c16c54e8350cf4a5d37",
+      "fields_changed": [
+        "stance",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "195–196 supports Pétion’s trial motion, near-unanimity on guilt, different appeal/punishment/reprieve votes and possible intimidation. Preserve the named formal-trial motion while expanding the vote evidence; coercion remains a qualified influence, not the sole explanation.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 80,
+      "subject_id": "SUBJ-SUCC-13D741A01D65",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0143",
+        "CORR-007-LEGACY-0144",
+        "CORR-007-LEGACY-0145",
+        "CORR-007-LEGACY-0305"
+      ],
+      "source_correction_row_sha256s": [
+        "7511dcdf0e5427d84a4bac99074740b2ee7eb386fa19a00a8d257c65339b8c69",
+        "5b3eb65644710c3d6e8533553eec59004eb644fdf59e6b71faad128e08069876",
+        "b4174be4a1a6917b300ef77d2b21f6a4d462f8a92c2203d0567b2805bb92fe41",
+        "1b15a754fd29b5a01b08df4e9cd7750004aa24a76a09bc072808335895a64a4b"
+      ],
+      "before_record": {
+        "label": "Coup of 18 Brumaire and fall of the Directory",
+        "priority": "essential",
+        "meaning": "The November 1799 coup that transferred the Councils to Saint-Cloud, used military force to disperse the Five Hundred, ended the Directory, and installed a provisional Consulate. Lucien Bonaparte, president of the Five Hundred, helped arrange the transfer and, after his brother’s failure in the chamber, persuaded the soldiers that Jacobins had attempted assassination, enabling them to clear the hall.",
+        "stance": "The coup nearly failed in the chambers and succeeded through deception, military coercion, and a compliant remnant of the legislature rather than orderly constitutional consent. The supplied narrative calls the day after9November “18Brumaire” on375, while376 names10November; this review retains the event sequence without silently repairing the calendar equivalence.",
+        "subject_id": "SUBJ-SUCC-13D741A01D65",
+        "acceptable_access": [
+          "Brumaire, coup of",
+          "18 Brumaire",
+          "Directory -- overthrow",
+          "Bonaparte, Napoleon -- coup of Brumaire",
+          "Lucien Bonaparte--military intervention at Saint-Cloud",
+          "Saint-Cloud--dispersal of Five Hundred"
+        ],
+        "evidence": [
+          {
+            "document_page": 374,
+            "source_page_label": "374",
+            "locator_class": "principal",
+            "evidence_summary": "Lucien, president of the Five Hundred, invoked an alleged Jacobin plot to secure transfer of the Councils to Saint-Cloud while conspirators arranged Bonaparte’s military command.",
+            "evidence_id": "EVID-SUCC-21BEB84AD5B0",
+            "source_local_subject_id": "SUCC-C016-S011",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 375,
+            "source_page_label": "375",
+            "locator_class": "principal",
+            "evidence_summary": "After the Directory’s resignation and Bonaparte’s hostile reception, Lucien told troops Jacobins had tried to assassinate his brother. Troops dispersed the Five Hundred and a compliant quorum vested executive power in three provisional Consuls. The supplied page’s Brumaire label remains qualified by the recorded chronology uncertainty.",
+            "evidence_id": "EVID-SUCC-3DB81A9CF3BA",
+            "source_local_subject_id": "SUCC-C016-S011",
+            "source_chunk_id": "CHUNK-016"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S011",
+            "label": "Coup of 18 Brumaire and fall of the Directory",
+            "meaning": "The November 1799 coup that transferred the Councils to Saint-Cloud, used military force to disperse the Five Hundred, ended the Directory, and installed a provisional Consulate.",
+            "stance": "The coup nearly failed in the chambers and succeeded through deception, military coercion, and a compliant remnant of the legislature rather than orderly constitutional consent. The supplied narrative calls the day after9November “18Brumaire” on375, while376 names10November; this review retains the event sequence without silently repairing the calendar equivalence.",
+            "acceptable_access": [
+              "Brumaire, coup of",
+              "18 Brumaire",
+              "Directory -- overthrow",
+              "Bonaparte, Napoleon -- coup of Brumaire",
+              "Lucien Bonaparte--military intervention at Saint-Cloud",
+              "Saint-Cloud--dispersal of Five Hundred"
+            ],
+            "document_pages": [
+              374,
+              375
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S011"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S011",
+            "label": "Coup of 18 Brumaire and fall of the Directory",
+            "meaning": "The November 1799 coup that transferred the Councils to Saint-Cloud, used military force to disperse the Five Hundred, ended the Directory, and installed a provisional Consulate.",
+            "stance": "The coup nearly failed in the chambers and succeeded through deception, military coercion, and a compliant remnant of the legislature rather than orderly constitutional consent. The supplied narrative calls the day after9November “18Brumaire” on375, while376 names10November; this review retains the event sequence without silently repairing the calendar equivalence.",
+            "acceptable_access": [
+              "Brumaire, coup of",
+              "18 Brumaire",
+              "Directory -- overthrow",
+              "Bonaparte, Napoleon -- coup of Brumaire",
+              "Lucien Bonaparte--military intervention at Saint-Cloud",
+              "Saint-Cloud--dispersal of Five Hundred"
+            ],
+            "document_pages": [
+              374,
+              375
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "3d89a96a455503d14bb786296a59340a4ff39266cc8387900f37f06a3aa498aa",
+      "proposed_record": {
+        "label": "Coup of 18 Brumaire and fall of the Directory",
+        "priority": "essential",
+        "meaning": "The November 1799 coup that transferred the Councils to Saint-Cloud, used military force to disperse the Five Hundred, ended the Directory, and installed a provisional Consulate. Lucien Bonaparte, president of the Five Hundred, helped arrange the transfer and, after his brother’s failure in the chamber, persuaded the soldiers that Jacobins had attempted assassination, enabling them to clear the hall.",
+        "stance": "The coup nearly failed in the chambers and succeeded through deception, military coercion, and a compliant remnant of the legislature rather than orderly constitutional consent. The supplied narrative calls the day after 9 November “18 Brumaire” on 375, while 376 names 10 November; this review retains the event sequence without silently repairing the calendar equivalence.",
+        "subject_id": "SUBJ-SUCC-13D741A01D65",
+        "acceptable_access": [
+          "Brumaire, coup of",
+          "18 Brumaire",
+          "Directory -- overthrow",
+          "Bonaparte, Napoleon -- coup of Brumaire",
+          "Lucien Bonaparte--military intervention at Saint-Cloud",
+          "Saint-Cloud--dispersal of Five Hundred"
+        ],
+        "evidence": [
+          {
+            "document_page": 374,
+            "source_page_label": "374",
+            "locator_class": "principal",
+            "evidence_summary": "Lucien Bonaparte, president of the Five Hundred, invoked an alleged Jacobin plot to secure transfer of the Councils to Saint-Cloud, while the conspirators arranged his brother’s metropolitan military command. Sieyès and Bonaparte coordinated with Lucien, Fouché and Talleyrand in preparing the operation.",
+            "evidence_id": "EVID-SUCC-21BEB84AD5B0",
+            "source_local_subject_id": "SUCC-C016-S011",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 375,
+            "source_page_label": "375",
+            "locator_class": "principal",
+            "evidence_summary": "The Directory resigned, some members under pressure, but Bonaparte met resistance in the chambers. After he was driven out of the Five Hundred, Lucien claimed Jacobins had tried to assassinate his brother. Troops cleared the hall and a compliant remnant authorized constitutional revision and three provisional Consuls. The supplied page’s Brumaire label remains qualified by the recorded chronology uncertainty.",
+            "evidence_id": "EVID-SUCC-3DB81A9CF3BA",
+            "source_local_subject_id": "SUCC-C016-S011",
+            "source_chunk_id": "CHUNK-016"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S011",
+            "label": "Coup of 18 Brumaire and fall of the Directory",
+            "meaning": "The November 1799 coup that transferred the Councils to Saint-Cloud, used military force to disperse the Five Hundred, ended the Directory, and installed a provisional Consulate. Lucien Bonaparte, president of the Five Hundred, helped arrange the transfer and, after his brother’s failure in the chamber, persuaded the soldiers that Jacobins had attempted assassination, enabling them to clear the hall.",
+            "stance": "The coup nearly failed in the chambers and succeeded through deception, military coercion, and a compliant remnant of the legislature rather than orderly constitutional consent. The supplied narrative calls the day after 9 November “18 Brumaire” on 375, while 376 names 10 November; this review retains the event sequence without silently repairing the calendar equivalence.",
+            "acceptable_access": [
+              "Brumaire, coup of",
+              "18 Brumaire",
+              "Directory -- overthrow",
+              "Bonaparte, Napoleon -- coup of Brumaire",
+              "Lucien Bonaparte--military intervention at Saint-Cloud",
+              "Saint-Cloud--dispersal of Five Hundred"
+            ],
+            "document_pages": [
+              374,
+              375
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S011"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S011",
+            "label": "Coup of 18 Brumaire and fall of the Directory",
+            "meaning": "The November 1799 coup that transferred the Councils to Saint-Cloud, used military force to disperse the Five Hundred, ended the Directory, and installed a provisional Consulate. Lucien Bonaparte, president of the Five Hundred, helped arrange the transfer and, after his brother’s failure in the chamber, persuaded the soldiers that Jacobins had attempted assassination, enabling them to clear the hall.",
+            "stance": "The coup nearly failed in the chambers and succeeded through deception, military coercion, and a compliant remnant of the legislature rather than orderly constitutional consent. The supplied narrative calls the day after 9 November “18 Brumaire” on 375, while 376 names 10 November; this review retains the event sequence without silently repairing the calendar equivalence.",
+            "acceptable_access": [
+              "Brumaire, coup of",
+              "18 Brumaire",
+              "Directory -- overthrow",
+              "Bonaparte, Napoleon -- coup of Brumaire",
+              "Lucien Bonaparte--military intervention at Saint-Cloud",
+              "Saint-Cloud--dispersal of Five Hundred"
+            ],
+            "document_pages": [
+              374,
+              375
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "5d6565cb0ec4b7bfde072399768496e573181d484620eedc81cb3d8093fd8aaa",
+      "fields_changed": [
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "374–375 supports Lucien’s distinct transfer and troops-address actions, named conspirators, resistance in the chambers and the compliant remnant. The existing meaning already fulfills0143. Preserve the chronology qualification in375 evidence and improve spacing in the stance without changing the recorded source discrepancy.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    }
+  ],
+  "actual_full_source_pages_reread_after_draft_access": [
+    162,
+    166,
+    177,
+    180,
+    248,
+    249,
+    367,
+    368,
+    374,
+    375,
+    379,
+    391
+  ],
+  "same_active_pass_source_page_reuse": [
+    195,
+    196,
+    255,
+    264,
+    380,
+    381
+  ],
+  "new_evidence_ids": [
+    "EVID-SUCC-2C88BD126EBC"
+  ],
+  "original_draft_unchanged": true,
+  "whole_book_approval": false
+}
