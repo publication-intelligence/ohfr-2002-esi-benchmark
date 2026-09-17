@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T01:37:07.243382+00:00",
+  "recorded_at": "2026-09-17T01:42:08.390172+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -433,8 +433,8 @@
       "exact_whole_replacements_reconstructed": 33,
       "field_diffs_reconstructed": 109,
       "total_single_chapter_subject_rows_encoded": 48,
-      "cross_chapter_subject_rows_encoded": 26,
-      "cross_chapter_subject_rows_remaining": 17,
+      "cross_chapter_subject_rows_encoded": 43,
+      "cross_chapter_subject_rows_remaining": 0,
       "final_value_approval": false
     },
     "lead_crosschapter_012_019_repairs": {
@@ -475,8 +475,11 @@
     },
     "lead_subject_repair_encoding_reported": {
       "all_owned_subjects": 91,
-      "last_packet_wording_check_pending": true,
-      "root_verification_of_last_packets_pending": true,
+      "exact_disjoint_review_row_union_verified": true,
+      "last_two_packets_exact_whole_replacements_reconstructed": 18,
+      "last_two_packets_exact_field_diffs_reconstructed": 58,
+      "last_packet_v1_and_v2_preserved": true,
+      "readability_revision_includes_grammar_and_spacing": true,
       "final_value_approval": false
     }
   },

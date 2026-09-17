@@ -1,0 +1,98 @@
+{
+  "schema_version": "lead-repair-component-verification-v1",
+  "recorded_at": "2026-09-17T01:40:53.697655+00:00",
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.027-034.v1.json",
+      "sha256": "217f035c9170c8d5ab8a1b6d6f289932b7f668de6ac6c3dc05480fc56dc28756",
+      "whole_replacements_reconstructed": 8,
+      "field_diffs_reconstructed": 24,
+      "lead_owned_subjects": 8,
+      "explicit_external_subject_ids": []
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.035-043.v2.json",
+      "sha256": "56808ac1641dbde245462ee388dab277d1ffbc14636c48fe46f453604c672010",
+      "whole_replacements_reconstructed": 10,
+      "field_diffs_reconstructed": 34,
+      "lead_owned_subjects": 9,
+      "explicit_external_subject_ids": [
+        "SUBJ-SUCC-DACCA6754DFE"
+      ]
+    }
+  ],
+  "preserved_superseded_file": {
+    "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.035-043.v1.json",
+    "sha256": "6ab864f737a61ce856b6f4e28562a4a77899945f0a4fccbdfb6866d3f075a174"
+  },
+  "v1_v2_strictly_whitespace_only": false,
+  "v1_v2_non_whitespace_changed_value_paths": [
+    "/field_diffs/4/after/0/evidence_summary",
+    "/field_diffs/6/after/3/evidence_summary",
+    "/field_diffs/11/after/2/evidence_summary",
+    "/field_diffs/16/after/0/evidence_summary",
+    "/field_diffs/27/after/0/evidence_summary",
+    "/field_diffs/31/after",
+    "/field_diffs/32/after/0/meaning",
+    "/field_diffs/33/after/0/meaning",
+    "/subjects/1/evidence/0/evidence_summary",
+    "/subjects/2/evidence/3/evidence_summary",
+    "/subjects/4/evidence/2/evidence_summary",
+    "/subjects/6/evidence/0/evidence_summary",
+    "/subjects/8/evidence/0/evidence_summary",
+    "/subjects/9/meaning",
+    "/subjects/9/required_access_facets/0/meaning",
+    "/subjects/9/source_treatments/0/meaning"
+  ],
+  "readability_revision_note": "The revision also expands slash-separated words, adds grammatical articles/verbs, and changes a hyphen. Both versions are bound; root does not attest semantic equivalence or final-value approval.",
+  "v2_additional_metadata_keys": [
+    "supersedes"
+  ],
+  "exact_disjoint_all_lead_owned_subject_review_row_union_verified": 91,
+  "all_encoding_file_bindings": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-chapter013-repairs.v1.json",
+      "sha256": "a13f684a77b0ae19e06fad0ef245a9cbc561eb9d1d309fd181896ca0ab164a29"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-chapter014-repairs.001-013.v1.json",
+      "sha256": "6a51ef96445f067dc3cc28f91dc125da6557a98af5e8da49e8d7095ec5569dc1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-chapter014-repairs.014-026.v1.json",
+      "sha256": "f14f280fb42966b69610f608cff0bb9056f5674b02f1e88ea964da3dfe086dcf"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.001-005.v1.json",
+      "sha256": "658c7ef1f078788160555edd69551c728b40f7fe2bbd7fc17c7d1d948121b1d6"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.006-011.v1.json",
+      "sha256": "b6b17b8d66afc5a43f2621d633a2ebe5b8a527dd15ebac8bd035339a4730335b"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.012-019.v1.json",
+      "sha256": "f6fd8c95017287f7644859b63ddf1015cf3c1f98cbb16d288acce52324b7b820"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.020-024.v1.json",
+      "sha256": "7cc7d51cd1e3e4dbb45ca088ac9691c69dfc4b524c88c1396bc0e20f4d822afc"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.025-026.v1.json",
+      "sha256": "51344d57674652f938b3c57abfb15a631677765b1cc3d751152ce239d6ccd8b2"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.027-034.v1.json",
+      "sha256": "217f035c9170c8d5ab8a1b6d6f289932b7f668de6ac6c3dc05480fc56dc28756"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.035-043.v2.json",
+      "sha256": "56808ac1641dbde245462ee388dab277d1ffbc14636c48fe46f453604c672010"
+    }
+  ],
+  "global_retention_or_final_value_approval": false,
+  "editorial_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}
