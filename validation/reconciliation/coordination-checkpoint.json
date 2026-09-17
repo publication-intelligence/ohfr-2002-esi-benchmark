@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T03:28:20.305737+00:00",
+  "recorded_at": "2026-09-17T03:41:21.756952+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -85,7 +85,7 @@
       "decision_document": "docs/v9-methodology-cutover.md"
     },
     "v9_implementation_status": "merged_reviewed_foundation_not_activated",
-    "v10_status": "implementation_pr54_open_final_gate_and_factual_access_receipt_review_pending",
+    "v10_status": "merged_reviewed_not_activated",
     "v9_reviewed_commit": "597e40068805b1d3e1dfc1d125ab3c6ec59366af",
     "v9_merge_commit": "a5ae35f9572fe28f7401d2e796e6e6c0a89242f6",
     "v9_release_validator_preparation": "validation/reconciliation/v9-release-validator-verification.v1.json",
@@ -94,7 +94,10 @@
     "v10_adoption_turn": "01a0ad2a-18e6-7991-8285-5f779a93e295",
     "v10_normative_contract_provenance": "validation/reconciliation/v10-adoption-provenance.v1.json",
     "v10_preliminary_head": "a6be3c012dc6bec6f306b92173f2a59954481ffc",
-    "v10_preliminary_head_is_final": false
+    "v10_preliminary_head_is_final": false,
+    "v10_reviewed_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+    "v10_merge_commit": "48cae7f2caf41c0fb744a4f76e06a8ff7a8a3aff",
+    "v10_merge_verification": "validation/reconciliation/v10-methodology-merge-checkpoint.v1.json"
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -618,6 +621,13 @@
       "scoped_components": 3,
       "root_bindings_verified": true,
       "final_value_approval": false
+    },
+    "integration_stage8": {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1",
+      "status": "provisional_not_final_approval",
+      "exact_reconstruction_verified": true,
+      "verification": "validation/reconciliation/stage8-integration-verification.v1.json"
     }
   },
   "density_proposal": {

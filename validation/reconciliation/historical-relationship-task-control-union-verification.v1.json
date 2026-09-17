@@ -1,0 +1,37 @@
+{
+  "schema_version": "historical-relationship-task-control-union-verification-v1",
+  "recorded_at": "2026-09-17T03:40:17.917165+00:00",
+  "component": {
+    "path": "successor/independent-review/actual-draft/integration/historical-relationship-task-control-review-union.v1.json",
+    "sha256": "ca8473732851991fea4e4278baf58daf370f513579d0df5c7d87b955a9638e98"
+  },
+  "input_hashes_verified": 36,
+  "qualified_components_hashes_verified": 4,
+  "exact_original_key_sets_and_record_hashes_verified": true,
+  "all_specific_inspection_row_hashes_verified": true,
+  "counts": {
+    "relationships": {
+      "unique_original_keys": 3741,
+      "component_binding_count": 3862,
+      "duplicate_component_bindings_excluded_from_unique_count": 121,
+      "keys_with_overlap": 115
+    },
+    "reader_tasks": {
+      "unique_original_keys": 1664,
+      "component_binding_count": 1677,
+      "duplicate_component_bindings_excluded_from_unique_count": 13,
+      "keys_with_overlap": 12
+    },
+    "controls": {
+      "unique_original_keys": 476,
+      "component_binding_count": 476,
+      "duplicate_component_bindings_excluded_from_unique_count": 0,
+      "keys_with_overlap": 0
+    }
+  },
+  "final_repaired_value_fulfillment": false,
+  "editorial_approval": false,
+  "whole_book_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}
