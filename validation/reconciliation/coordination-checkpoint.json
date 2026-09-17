@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T02:27:37.276494+00:00",
+  "recorded_at": "2026-09-17T02:38:40.395505+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -503,7 +503,7 @@
       "root_verification": "validation/reconciliation/historical-subject-evidence-001-verification.v1.json",
       "whole_subject_proposal_roundtrips": 14,
       "precise_prior_inspection_references_verified": 2697,
-      "foreign_referrals_pending": true
+      "foreign_referrals_pending": false
     },
     "integration_stage3": {
       "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage3.v1.json",
@@ -552,6 +552,22 @@
       "exact_field_diffs": 45,
       "root_verification": "validation/reconciliation/lead-repaired-values-001-verification.v1.json",
       "final_integration_approval": false
+    },
+    "integration_stage5": {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage5.v1.json",
+      "sha256": "3e4ecbdfef34303b33c2dcf6a1cd1d4082a91f841b4157ab516dbfec0c598139",
+      "status": "provisional_not_final_approval",
+      "exact_reconstruction_verified": true,
+      "verification": "validation/reconciliation/stage5-integration-verification.v1.json"
+    },
+    "composed_task_values": {
+      "path": "validation/reconciliation/composed-task-value-verification.v1.json",
+      "reviewed_tasks": 84,
+      "reviewed_facet_bindings": 172,
+      "whole_task_corrections": 11,
+      "field_diffs": 13,
+      "final_parent_dependencies_pending": true,
+      "whole_book_approval": false
     }
   },
   "density_proposal": {
