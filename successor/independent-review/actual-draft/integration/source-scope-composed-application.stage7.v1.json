@@ -1,0 +1,1156 @@
+{
+  "schema_version": "independent-source-scope-composed-application-v1",
+  "status": "sealed_scoped_check; final_benchmark_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage7.v1.json",
+      "sha256": "7a1dddebead4dd25e305f0b9866c3e0b984d9109417eea607601abcefdd5f493"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v3.json",
+      "sha256": "adb81320deac697201511a04a9b4848a048db2aaa1613a267f492a6ef4a32577"
+    }
+  ],
+  "caption_evidence_checks": [
+    {
+      "subject_id": "SUBJ-SUCC-34E9F76FFF90",
+      "subject_sha256": "71bcae792837bf84a31ca94d138da741e3a33750a225338cbab3124a27ffab07",
+      "evidence": {
+        "document_page": 3,
+        "source_page_label": "3",
+        "locator_class": "optional",
+        "evidence_summary": "The eligible caption identifies pre-revolutionary administrative, judicial and fiscal subdivisions as its subject.",
+        "evidence_id": "EVID-SUCC-DA3DE2AEB69B",
+        "source_local_subject_id": "SUCC-C001-S003",
+        "source_chunk_id": "CHUNK-001",
+        "source_region": "eligible_caption_only",
+        "access_obligation": "literal caption topic only; no map-interior or key requirement"
+      },
+      "evidence_sha256": "86066dc321daad71ee5a266996e1dea49d08734f17e1241113e71452eae5608a",
+      "literal_caption": "Map 1. Pre-revolutionary France: principal administrative, judicial, and fiscal subdivisions",
+      "lead_disposition": "Caption topic only; no spatial, key, label or symbol meaning imported. The225 parent is optional and explicitly bounded; the other three rows are optional caption evidence within separately supported prose parents."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A5F4F85BCE57",
+      "subject_sha256": "93ef344569196a72c6c10fe9ca336a28eead94652a667aa57187f80764c32e6d",
+      "evidence": {
+        "document_page": 127,
+        "source_page_label": "127",
+        "locator_class": "optional",
+        "evidence_summary": "The eligible caption identifies the departments of revolutionary France as its subject.",
+        "evidence_id": "EVID-SUCC-E5C0A5BAFD60",
+        "source_local_subject_id": "SUCC-C005-S020",
+        "source_chunk_id": "CHUNK-005",
+        "source_region": "eligible_caption_only",
+        "access_obligation": "literal caption topic only; no map-interior or key requirement"
+      },
+      "evidence_sha256": "16330fdec15d3934ff30ca731fa217d8a47d49e6aeaf90eb17f0c2f7aa3eb67f",
+      "literal_caption": "Map 2. The departments of revolutionary France",
+      "lead_disposition": "Caption topic only; no spatial, key, label or symbol meaning imported. The225 parent is optional and explicitly bounded; the other three rows are optional caption evidence within separately supported prose parents."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8C81E847C92A",
+      "subject_sha256": "6cb89d9421960513d02501bd47c4a03356765a8400672bead8e7a21edcf29336",
+      "evidence": {
+        "document_page": 129,
+        "source_page_label": "129",
+        "locator_class": "optional",
+        "evidence_summary": "The eligible caption identifies revolutionary Paris, its sections and main places and streets as its subject.",
+        "evidence_id": "EVID-SUCC-2326645D48C4",
+        "source_local_subject_id": "SUCC-C005-S021",
+        "source_chunk_id": "CHUNK-005",
+        "source_region": "eligible_caption_only",
+        "access_obligation": "literal caption topic only; no map-interior or key requirement"
+      },
+      "evidence_sha256": "fbcb5e3cb9d5a057bfb5bb1810c4b7d38f44e3711ff4434605f6bcdefec8e9ea",
+      "literal_caption": "Map 3. Revolutionary Paris: the sections and main places and streets mentioned in the text",
+      "lead_disposition": "Caption topic only; no spatial, key, label or symbol meaning imported. The225 parent is optional and explicitly bounded; the other three rows are optional caption evidence within separately supported prose parents."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9DA29F300357",
+      "subject_sha256": "b5f4a65a7ff27f1f8bc43305e892afcefe7763b79cd1cbf9fb927997bdcd2b2d",
+      "evidence": {
+        "document_page": 225,
+        "source_page_label": "225",
+        "locator_class": "principal",
+        "evidence_summary": "The caption identifies the map as Resistance to the Revolution,1793–1799; this evidence supports retrieval of the captioned theme only.",
+        "evidence_id": "EVID-SUCC-B02B6722BE17",
+        "source_local_subject_id": "SUCC-C010-S040",
+        "source_chunk_id": "CHUNK-010"
+      },
+      "evidence_sha256": "ea95cb680494f2b87810313be672d7a03f406b1f07e1b18b3b44eba678fb718e",
+      "literal_caption": "Map 4. Resistance to the Revolution, 1793–1799",
+      "lead_disposition": "Caption topic only; no spatial, key, label or symbol meaning imported. The225 parent is optional and explicitly bounded; the other three rows are optional caption evidence within separately supported prose parents."
+    }
+  ],
+  "nested_page_bindings_checked": [
+    {
+      "subject_id": "SUBJ-SUCC-34E9F76FFF90",
+      "container": "source_treatments",
+      "record": {
+        "local_subject_id": "SUCC-C001-S003",
+        "label": "France—overlapping administrative, judicial, and ecclesiastical divisions",
+        "meaning": "Provinces, generalities, intendancies, parlementary ressorts, archiepiscopal provinces, and dioceses overlapped and generated recurrent jurisdictional conflict. Provinces, generalities, parlementary ressorts, dioceses, and local jurisdictions overlapped because the Crown accumulated and adapted inherited institutions rather than imposing uniform structures. Ancient, unequal provinces and largely honorary governors coexisted with newer, more uniform generalities administered by intendants. The Church divided France into archiepiscopal provinces and dioceses whose boundaries and jurisdictional enclaves followed another nonuniform geography.",
+        "stance": "The pattern was uneven and illogical in appearance, yet historically rooted and central to how the kingdom functioned. Treat fragmentation as historically rooted and partly functional, not merely irrational disorder. Preserve the distinction between provincial identity and operative royal administration. Treat ecclesiastical geography as an additional layer of jurisdictional pluralism.",
+        "acceptable_access": [
+          "France—overlapping administrative, judicial, and ecclesiastical divisions",
+          "France—administrative divisions",
+          "generalities and intendants",
+          "parlements—jurisdictions",
+          "Church—diocesan geography",
+          "administration—overlapping jurisdictions",
+          "Old Regime institutions",
+          "administrative diversity",
+          "jurisdictional conflict",
+          "parlementary ressorts",
+          "provinces",
+          "generalities",
+          "governors",
+          "intendants",
+          "provincial administration",
+          "Church—territorial organization",
+          "dioceses",
+          "archiepiscopal provinces",
+          "Administrative pluralism and overlapping jurisdictions",
+          "Ecclesiastical territorial organization",
+          "Provinces, generalities, governors, and intendants"
+        ],
+        "document_pages": [
+          2,
+          3,
+          4
+        ]
+      },
+      "sha256": "98c9f5d766ebbe5064d2bbc692814a20f5d974320a6ebb5805bca5372c7f8079"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-34E9F76FFF90",
+      "container": "required_access_facets",
+      "record": {
+        "facet_id": "FACET-SUCC-C001-S003",
+        "label": "France—overlapping administrative, judicial, and ecclesiastical divisions",
+        "meaning": "Provinces, generalities, intendancies, parlementary ressorts, archiepiscopal provinces, and dioceses overlapped and generated recurrent jurisdictional conflict. Provinces, generalities, parlementary ressorts, dioceses, and local jurisdictions overlapped because the Crown accumulated and adapted inherited institutions rather than imposing uniform structures. Ancient, unequal provinces and largely honorary governors coexisted with newer, more uniform generalities administered by intendants. The Church divided France into archiepiscopal provinces and dioceses whose boundaries and jurisdictional enclaves followed another nonuniform geography.",
+        "stance": "The pattern was uneven and illogical in appearance, yet historically rooted and central to how the kingdom functioned. Treat fragmentation as historically rooted and partly functional, not merely irrational disorder. Preserve the distinction between provincial identity and operative royal administration. Treat ecclesiastical geography as an additional layer of jurisdictional pluralism.",
+        "acceptable_access": [
+          "France—overlapping administrative, judicial, and ecclesiastical divisions",
+          "France—administrative divisions",
+          "generalities and intendants",
+          "parlements—jurisdictions",
+          "Church—diocesan geography",
+          "administration—overlapping jurisdictions",
+          "Old Regime institutions",
+          "administrative diversity",
+          "jurisdictional conflict",
+          "parlementary ressorts",
+          "provinces",
+          "generalities",
+          "governors",
+          "intendants",
+          "provincial administration",
+          "Church—territorial organization",
+          "dioceses",
+          "archiepiscopal provinces",
+          "Administrative pluralism and overlapping jurisdictions",
+          "Ecclesiastical territorial organization",
+          "Provinces, generalities, governors, and intendants"
+        ],
+        "document_pages": [
+          2,
+          3,
+          4
+        ],
+        "independently_weighted": false
+      },
+      "sha256": "01e447f74894952707b03b300ddab0e1b0560751750bab51cf993dddcb6b07ff"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A5F4F85BCE57",
+      "container": "source_treatments",
+      "record": {
+        "local_subject_id": "SUCC-C005-S020",
+        "label": "Administrative reorganization into departments, districts, and communes",
+        "meaning": "The Assembly replaced historically varied provinces and intendancies with eighty-three departments, districts and elected communes, despite mandates defending particular privileges. This uniform but decentralized elected structure also displaced the improvised authorities of July 1789 in 1790. Fear of anarchy and new opportunities for office drew lawyers, businesspeople, merchants, tradesmen, artisans, and other property holders into political administration. Historic liberties and exemptions of provinces, towns, corporations, and judicial bodies were renounced, clearing the way for uniform national institutions. The Assembly replaced France's diverse provinces and jurisdictions with eighty-three departments subdivided into districts and communes governed by elected bodies. The new state combined uniform territorial structures with near-total dependence on locally elected, often unpaid and inexperienced officials. The 1790 local elections replaced the varied committees and arrangements of July 1789 with standardized mayors, procurators, councils, and urban sections. The eligible caption identifies departments of revolutionary France; it adds no geographical access requirement. Weak local enforcement limited administration more broadly than tax collection alone.",
+        "stance": "Broad property-owning participation and shifting recruitment did not mean universal participation. Officials were often unpaid, and goodwill coexisted with weak administrative capacity. The eligible departmental caption identifies the topic only; geographical boundaries and locations inside the map are excluded. The author depicts broad but socially bounded participation: property owners rally to stabilize revolution, and later hundreds of thousands embrace public roles. The author stresses that many deputies lacked electoral mandates for this destruction of local diversity. The reform embodies both national uniformity and radical decentralization, eliminating old territorial privilege while refusing central appointment. The author treats decentralization as an anti-despotic principle whose practical effect was uneven capacity to implement an unprecedented legislative program. The elections mark both a break with the old regime and a second institutional break with the improvised municipal revolution. Caption topic only; map boundaries, cities and annexations are excluded.",
+        "acceptable_access": [
+          "Administrative reorganization into departments, districts, and communes",
+          "Departments—creation",
+          "Administrative reform—uniformity and decentralization",
+          "Communes—elected government",
+          "Intendants—abolition",
+          "Bourgeoisie—political participation",
+          "Property owners—revolutionary government",
+          "Lawyers and businesspeople—municipal politics",
+          "Provincial privileges—abolition",
+          "Municipal privileges—abolition",
+          "Corporate liberties—August decrees",
+          "Administrative divisions—revolutionary France",
+          "Communes and districts—organization",
+          "Decentralization—revolutionary administration",
+          "Administrative uniformity—departments",
+          "Local officials—implementation capacity",
+          "Municipal elections—1790",
+          "Local government—standardization",
+          "Municipal Revolution—replacement",
+          "France—administrative geography",
+          "Administrative uniformity, decentralization, and implementation weakness",
+          "Departments, districts, and communes",
+          "Municipal elections and the end of interim revolutionary government"
+        ],
+        "document_pages": [
+          113,
+          116,
+          117,
+          125,
+          126,
+          127,
+          135
+        ]
+      },
+      "sha256": "98ec163763ca1e6b4acbbbf9ef7b4284fcd785798cd7e3092c5864206d4e4f08"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A5F4F85BCE57",
+      "container": "required_access_facets",
+      "record": {
+        "facet_id": "FACET-SUCC-C005-S020",
+        "label": "Administrative reorganization into departments, districts, and communes",
+        "meaning": "The Assembly replaced historically varied provinces and intendancies with eighty-three departments, districts and elected communes, despite mandates defending particular privileges. This uniform but decentralized elected structure also displaced the improvised authorities of July 1789 in 1790. Fear of anarchy and new opportunities for office drew lawyers, businesspeople, merchants, tradesmen, artisans, and other property holders into political administration. Historic liberties and exemptions of provinces, towns, corporations, and judicial bodies were renounced, clearing the way for uniform national institutions. The Assembly replaced France's diverse provinces and jurisdictions with eighty-three departments subdivided into districts and communes governed by elected bodies. The new state combined uniform territorial structures with near-total dependence on locally elected, often unpaid and inexperienced officials. The 1790 local elections replaced the varied committees and arrangements of July 1789 with standardized mayors, procurators, councils, and urban sections. The eligible caption identifies departments of revolutionary France; it adds no geographical access requirement. Weak local enforcement limited administration more broadly than tax collection alone.",
+        "stance": "Broad property-owning participation and shifting recruitment did not mean universal participation. Officials were often unpaid, and goodwill coexisted with weak administrative capacity. The eligible departmental caption identifies the topic only; geographical boundaries and locations inside the map are excluded. The author depicts broad but socially bounded participation: property owners rally to stabilize revolution, and later hundreds of thousands embrace public roles. The author stresses that many deputies lacked electoral mandates for this destruction of local diversity. The reform embodies both national uniformity and radical decentralization, eliminating old territorial privilege while refusing central appointment. The author treats decentralization as an anti-despotic principle whose practical effect was uneven capacity to implement an unprecedented legislative program. The elections mark both a break with the old regime and a second institutional break with the improvised municipal revolution. Caption topic only; map boundaries, cities and annexations are excluded.",
+        "acceptable_access": [
+          "Administrative reorganization into departments, districts, and communes",
+          "Departments—creation",
+          "Administrative reform—uniformity and decentralization",
+          "Communes—elected government",
+          "Intendants—abolition",
+          "Bourgeoisie—political participation",
+          "Property owners—revolutionary government",
+          "Lawyers and businesspeople—municipal politics",
+          "Provincial privileges—abolition",
+          "Municipal privileges—abolition",
+          "Corporate liberties—August decrees",
+          "Administrative divisions—revolutionary France",
+          "Communes and districts—organization",
+          "Decentralization—revolutionary administration",
+          "Administrative uniformity—departments",
+          "Local officials—implementation capacity",
+          "Municipal elections—1790",
+          "Local government—standardization",
+          "Municipal Revolution—replacement",
+          "France—administrative geography",
+          "Administrative uniformity, decentralization, and implementation weakness",
+          "Departments, districts, and communes",
+          "Municipal elections and the end of interim revolutionary government"
+        ],
+        "document_pages": [
+          113,
+          116,
+          117,
+          125,
+          126,
+          127,
+          135
+        ],
+        "independently_weighted": false
+      },
+      "sha256": "43400d21e17242c6431c1cd422dee600d23556e9dd62e158cc58f9f97ca5e060"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8C81E847C92A",
+      "container": "source_treatments",
+      "record": {
+        "local_subject_id": "SUCC-C005-S021",
+        "label": "Paris sections and Cordeliers organization",
+        "meaning": "Replacing Paris’s sixty districts with forty-eight sections was intended to weaken local radicalism, but Danton’s organization survived. A press-backed local political machine could sustain influence and national ambition despite institutional reorganization. The redivision of Paris into forty-eight electoral sections was intended to weaken radical districts but instead provided enduring bases for popular intervention. Danton's local political machine linked district organization and radical newspapers and successfully transferred its influence into the new sectional system.",
+        "stance": "Preserve intended containment and actual organizational continuity. The eligible Paris caption identifies sections and main places and streets only; locations, numbered keys and other map interiors impose no access requirement. The legislators' attempt at control is portrayed as unsuccessful because activists adapted the new structure to continued national influence. The author emphasizes Danton's ambition, opportunism, and organizational ingenuity rather than treating section radicalism as spontaneous alone.",
+        "acceptable_access": [
+          "Paris sections and Cordeliers organization",
+          "Danton, Georges-Jacques—Cordeliers district",
+          "Cordeliers district—political organization",
+          "Paris sections—political role",
+          "Paris sections—creation and politics",
+          "Electoral districts—Paris",
+          "Sections of revolutionary Paris",
+          "Danton, Georges-Jacques—Cordeliers",
+          "Cordeliers district—political machine",
+          "Théâtre-Français section—Danton",
+          "Danton, the Cordeliers district, and the Théâtre-Français section",
+          "Paris sections as political institutions",
+          "Danton, the Cordeliers district, and Paris sectional politics"
+        ],
+        "document_pages": [
+          126,
+          129
+        ]
+      },
+      "sha256": "d3bec1a05e11fc9a680710cf8c5facace061f6da8d5011fe68a3fc80230705a9"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8C81E847C92A",
+      "container": "required_access_facets",
+      "record": {
+        "facet_id": "FACET-SUCC-C005-S021",
+        "label": "Paris sections and Cordeliers organization",
+        "meaning": "Replacing Paris’s sixty districts with forty-eight sections was intended to weaken local radicalism, but Danton’s organization survived. A press-backed local political machine could sustain influence and national ambition despite institutional reorganization. The redivision of Paris into forty-eight electoral sections was intended to weaken radical districts but instead provided enduring bases for popular intervention. Danton's local political machine linked district organization and radical newspapers and successfully transferred its influence into the new sectional system.",
+        "stance": "Preserve intended containment and actual organizational continuity. The eligible Paris caption identifies sections and main places and streets only; locations, numbered keys and other map interiors impose no access requirement. The legislators' attempt at control is portrayed as unsuccessful because activists adapted the new structure to continued national influence. The author emphasizes Danton's ambition, opportunism, and organizational ingenuity rather than treating section radicalism as spontaneous alone.",
+        "acceptable_access": [
+          "Paris sections and Cordeliers organization",
+          "Danton, Georges-Jacques—Cordeliers district",
+          "Cordeliers district—political organization",
+          "Paris sections—political role",
+          "Paris sections—creation and politics",
+          "Electoral districts—Paris",
+          "Sections of revolutionary Paris",
+          "Danton, Georges-Jacques—Cordeliers",
+          "Cordeliers district—political machine",
+          "Théâtre-Français section—Danton",
+          "Danton, the Cordeliers district, and the Théâtre-Français section",
+          "Paris sections as political institutions",
+          "Danton, the Cordeliers district, and Paris sectional politics"
+        ],
+        "document_pages": [
+          126,
+          129
+        ],
+        "independently_weighted": false
+      },
+      "sha256": "dc02496181ab2773c03eb228b3c345051b5f06170637655b66346d3bae02df55"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9DA29F300357",
+      "container": "source_treatments",
+      "record": {
+        "local_subject_id": "SUCC-C010-S040",
+        "label": "Resistance to the Revolution,1793–1799: captioned map",
+        "meaning": "The eligible caption identifies a map concerning resistance to the Revolution over1793–1799. This optional access route asks only for retrieval of that captioned map/theme.",
+        "stance": "The caption does not establish spatial extent, specific centers, named regions, routes, chronology within the period, common aims or comparative severity. Such claims require eligible prose support elsewhere.",
+        "acceptable_access": [
+          "Resistance to the Revolution,1793–1799—map",
+          "Map4—Resistance to the Revolution,1793–1799"
+        ],
+        "document_pages": [
+          225
+        ]
+      },
+      "sha256": "8a8a83e033aab9634e2def9309163fd45ab9991b295cef576ca138d3f2217488"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9DA29F300357",
+      "container": "required_access_facets",
+      "record": {
+        "facet_id": "FACET-SUCC-C010-S040",
+        "label": "Resistance to the Revolution,1793–1799: captioned map",
+        "meaning": "The eligible caption identifies a map concerning resistance to the Revolution over1793–1799. This optional access route asks only for retrieval of that captioned map/theme.",
+        "stance": "The caption does not establish spatial extent, specific centers, named regions, routes, chronology within the period, common aims or comparative severity. Such claims require eligible prose support elsewhere.",
+        "acceptable_access": [
+          "Resistance to the Revolution,1793–1799—map",
+          "Map4—Resistance to the Revolution,1793–1799"
+        ],
+        "document_pages": [
+          225
+        ],
+        "independently_weighted": false
+      },
+      "sha256": "fc95fc97e013e16c16079cb076cf06b8726f91fa9b89327a9e9aa7b43c164fe3"
+    }
+  ],
+  "auxiliary_scope_fields_checked": [
+    {
+      "field": "scope_constraint",
+      "exact_value": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-237B1940AA33",
+          "record_sha256": "676bdcc80f6fa387b466bbabf42e6c9c53d2735a7248aea465d065754bbe5853"
+        },
+        {
+          "entity_id": "EXCL-SUCC-84A754F66BE3",
+          "record_sha256": "40d6e960ddca0aa60aeb297adab213596a50f32d8cd4ae483ebd060c5332d8d8"
+        },
+        {
+          "entity_id": "EXCL-SUCC-74528D015A30",
+          "record_sha256": "da24c9843cb9715f4367731166365fefaac691af4f31bb337e76f2d609d62604"
+        },
+        {
+          "entity_id": "EXCL-SUCC-4BB1F8E9406F",
+          "record_sha256": "93673d4250018449c2a53d59f0b625626e158acc52913294eb4fcb1409411dfe"
+        },
+        {
+          "entity_id": "EXCL-SUCC-0F57BDE802E2",
+          "record_sha256": "5e785f7c3b2a4aeff8b0b2122b1415aa0d5d02e6459c785781e77787bd3de7b4"
+        },
+        {
+          "entity_id": "EXCL-SUCC-6A3DF10A861E",
+          "record_sha256": "a00c1d29a542be1c272a9d89519a9ac7d0d97e8ff4a4ac3bc979eb1a5ed0a7ad"
+        },
+        {
+          "entity_id": "EXCL-SUCC-50ED81A92D9B",
+          "record_sha256": "ab6a58173d3c0d09f6318b8ea5eefd9042fa58a2a5835d487b5999bb51a56389"
+        },
+        {
+          "entity_id": "EXCL-SUCC-FCDFB6E2976E",
+          "record_sha256": "5d4d6c72f46434581cccbe4e54a0d3a4ef4a25e0c67f9d97d55202af2bcedad0"
+        },
+        {
+          "entity_id": "EXCL-SUCC-EDAC74E08DA1",
+          "record_sha256": "9ee43653455df3db417f8447d12283dacae293e1131b9da86876b55d4b55abee"
+        },
+        {
+          "entity_id": "EXCL-SUCC-E0509B4C0FE5",
+          "record_sha256": "bdadc6291474c32bd1b6734b098b4386daa76dcf54d8f891c51f436db3981650"
+        },
+        {
+          "entity_id": "EXCL-SUCC-DFBE45D092F7",
+          "record_sha256": "2d5a183d25792432389bc37ff5cae0d2aa4cc5b0a9422453f11a70b5dea85b2b"
+        },
+        {
+          "entity_id": "EXCL-SUCC-3847E94B482A",
+          "record_sha256": "e696d2b1e6f632e75323a484d5bc1ae439bd6446b28713f88aeed75402cf7802"
+        },
+        {
+          "entity_id": "EXCL-SUCC-5E6CE07128E9",
+          "record_sha256": "803ccc70fbeb5308c795c87fc288e0f90e3fcef30ffc2379cdbe5e9dfbc92b7f"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F9CCEA5C898C",
+          "record_sha256": "be021045263d8c7ccd02e52c284066c37850fa8f1d340384c8770589d238b616"
+        },
+        {
+          "entity_id": "EXCL-SUCC-37F767587D1B",
+          "record_sha256": "721371d37abcbe722ab3d238383184d4865983025da863ad3768bc946c6a969a"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B0D6C97208B9",
+          "record_sha256": "2cfb23947563d062c2be6bcdfe23ec79ed200e7f6cfb9402adae5cde1dd33fdb"
+        },
+        {
+          "entity_id": "EXCL-SUCC-95C1A6FC3A3E",
+          "record_sha256": "739d6e71e1eaac46172994e27be2880102c950b4fbaa6a8434f86f539e8ecd35"
+        },
+        {
+          "entity_id": "EXCL-SUCC-58E18AAAE812",
+          "record_sha256": "a773323fab5f6ad485c9654718addd18fe270a23395303443cd2b48a1c2b1cf8"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D8795218202C",
+          "record_sha256": "6926a94057a6caedc3eb332a2abfa3a14bebb2d3b903e66fe22e27020dee3178"
+        },
+        {
+          "entity_id": "EXCL-SUCC-9242B12E0B5E",
+          "record_sha256": "249db2737509309b5222138554b3d463e380acb9618b520770e28a8eda9ad2a2"
+        },
+        {
+          "entity_id": "EXCL-SUCC-ECFF29D76664",
+          "record_sha256": "5e9fb953a54889c2e5d7a45ffa51f319a14589eefbc17cb88153860e747c8db7"
+        },
+        {
+          "entity_id": "EXCL-SUCC-189C78575975",
+          "record_sha256": "62be6058704a7416a9e910a68a729ea82a9194d8254c3dfe67923df5db6cacbe"
+        },
+        {
+          "entity_id": "EXCL-SUCC-60A0AEB9FB5F",
+          "record_sha256": "f10cbf2c293837bb6f41b7cc185af4f2d321142ed644a9a496235f5b64def653"
+        },
+        {
+          "entity_id": "EXCL-SUCC-BAA1C395E88C",
+          "record_sha256": "cbc42a312f58fe5edddd8727ec90edcee579d00fa8ed8beb8ec35ebe4d49da1a"
+        },
+        {
+          "entity_id": "EXCL-SUCC-47985C76C5A7",
+          "record_sha256": "0aadd12e0464e26f4d87d5306a88e7bbafa96c755d72aa7d331a24ef67163033"
+        },
+        {
+          "entity_id": "EXCL-SUCC-8608E296AB84",
+          "record_sha256": "98413fa6eff7f3893b7097fbe0a9da77a77c24cbbb337ec50e6097e1b782a90f"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F925AC1F2EAB",
+          "record_sha256": "5dcabee3c8dc511feae99f342184baae3d4d5e66e9993a8e796010b94098814a"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F6A2AE57F8B5",
+          "record_sha256": "2dd06749e2fdb760d5242f1755513d414d6441189dfc1875ce7465c449008b6a"
+        },
+        {
+          "entity_id": "EXCL-SUCC-1B14AB94AC81",
+          "record_sha256": "311913ad0bc174af1cb4d602c4737d02593e365e80da2d8973adfd2b695f45d8"
+        },
+        {
+          "entity_id": "EXCL-SUCC-FC4D43EC8062",
+          "record_sha256": "8a3295cb278abd4a4dd635a8a4860bce92520a6afc459fe46229d9bf86700bbc"
+        },
+        {
+          "entity_id": "EXCL-SUCC-844FF5AB07EA",
+          "record_sha256": "e5652bbbfe8140f0a646d5ca8335f1eeb1883d108203dd71d77caa60f6a4b1c1"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B59A90CEC5C6",
+          "record_sha256": "2e46f3ecd54c6ff1a1a90a8c4c4ea82124d77ef2f6cf56989750d9f18d0da95a"
+        },
+        {
+          "entity_id": "EXCL-SUCC-DD4C5F3A520D",
+          "record_sha256": "851e8f8ab298b1b66ba161e67c728d5426b8f98cb0192948efe8da54a88fd3ff"
+        },
+        {
+          "entity_id": "EXCL-SUCC-2DE75D308697",
+          "record_sha256": "58339ef504eb998e1787f018e5e370f355e60a4686529eebf45ed5d2a2c6a48a"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B1A30DD0E9FF",
+          "record_sha256": "0bf8a08236517043ab4c6d02a5f49ab0d90a728504a2a9201df62c2c53f88f35"
+        },
+        {
+          "entity_id": "EXCL-SUCC-BA5FB6F083A3",
+          "record_sha256": "a6187a7018e6bb1ce1cea7a2acd407ef46895e11fbb9a5e66a41d09b216a0032"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D80E824E7530",
+          "record_sha256": "561a39d0149cdd22f7f19c7441fc0a30b9512cdf4876758f5147a749374a91ec"
+        },
+        {
+          "entity_id": "EXCL-SUCC-CA69906D5842",
+          "record_sha256": "cd47742ec26bef9bc2dc0a18eeaf3e7bc95d0ca8600711b8bff4762a7f5190cb"
+        },
+        {
+          "entity_id": "EXCL-SUCC-682BFF452C3A",
+          "record_sha256": "b6c842d1637b310732cc3fc874de20c4f5a961cecff90200fdcd926dbd91202c"
+        },
+        {
+          "entity_id": "EXCL-SUCC-4D4F21CF3F17",
+          "record_sha256": "5ea5cc016534fab2fd62bb0eb8af5ac775582c65813f2ffc484756dedded9446"
+        },
+        {
+          "entity_id": "EXCL-SUCC-0FB95D5C2B77",
+          "record_sha256": "36f123f5774322bb50f1f9b48e56c8ada26c56f38d62e5e7dffb658238aa47ce"
+        },
+        {
+          "entity_id": "EXCL-SUCC-3BA77F6E49CB",
+          "record_sha256": "5bfd76eea8230b70b5bd518c492e9909c1b80a7b35ea0ac94ad5f960d40e4af6"
+        },
+        {
+          "entity_id": "EXCL-SUCC-69C929EF7E0B",
+          "record_sha256": "51ec2984498ba0b0dcf700b0d246dd3b81387420738468e45e826333d3e7ad34"
+        },
+        {
+          "entity_id": "EXCL-SUCC-17BAD2C471C8",
+          "record_sha256": "f07ba0fdb30619078ddeda4df95c44c126129023b577793437386aa4c419e466"
+        },
+        {
+          "entity_id": "EXCL-SUCC-A5D2CF7C30ED",
+          "record_sha256": "e7fbdf756c339757d7af65e20a05f860fafbdcb8738223918dc453bbd0b4a202"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D9EE0A637788",
+          "record_sha256": "b7c1acc649667a4c29fec8339271333e9dfe43ee089bd3805e9eb68ac3ca92e0"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D271FE45FA49",
+          "record_sha256": "c423c67ac73533d7e42db0a1c9e6db684860a2116b60a2634fc762ba46602c58"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B73758B9C063",
+          "record_sha256": "fb6cd3a8463fcc936bc20e7bcd398ed0095488b6317c2662d16e787ec56ed435"
+        },
+        {
+          "entity_id": "EXCL-SUCC-E28DFC98524E",
+          "record_sha256": "7bb4ed936ed0418e8b72f00b08f0bc925acd390a8a1a06ea75218fe1aa54df87"
+        },
+        {
+          "entity_id": "EXCL-SUCC-30677BCE4A11",
+          "record_sha256": "482e95c09d33067ef8938162d606cf0dde94bcd9de6996683eba047af2f6cdb5"
+        },
+        {
+          "entity_id": "EXCL-SUCC-7D1BE8EB26AE",
+          "record_sha256": "0cb37f087833b394f1c15652ec1db9f869af6628988073a266327251e683257d"
+        },
+        {
+          "entity_id": "EXCL-SUCC-BC27A4020508",
+          "record_sha256": "b9ce435c1d1443ebcb3948b9c1141f50a9a1ace8ee7da1d38d5207e7b1b327eb"
+        },
+        {
+          "entity_id": "EXCL-SUCC-DF9911AC16A3",
+          "record_sha256": "ae88339c96dfd5bebb651db4963dc1fcde889e745cdc30a4a748163cc64c60b4"
+        },
+        {
+          "entity_id": "EXCL-SUCC-1E8D2086F8C1",
+          "record_sha256": "f31a11cc63e6da1dcaad2d4f5690a1fea645253db786a6604215ad8439c9625c"
+        },
+        {
+          "entity_id": "EXCL-SUCC-4F498C90F1FD",
+          "record_sha256": "9e9940d997965d51d62ffe8743bb31584c028524caaefd2a9460f4eb89bcd904"
+        },
+        {
+          "entity_id": "EXCL-SUCC-A5720CCB4841",
+          "record_sha256": "95dff6a10939e4c6c6c7a4baf965f7a7622efe70989d205b30ec7fdd0531f2f7"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F20ADF0FCC63",
+          "record_sha256": "240c4aa58fd2bb9a5c962fe43ae33ac94185c22e7bfdbd1653ba5d68eeac2f80"
+        },
+        {
+          "entity_id": "EXCL-SUCC-E197B32A9918",
+          "record_sha256": "86cc14ef35b7e442679ac13c8f46610e464c85c5bcd1b7332d60e393bf7a43fe"
+        },
+        {
+          "entity_id": "EXCL-SUCC-8E8B6A365D0C",
+          "record_sha256": "58f5f9e7992b82a57d8d6a0101625b3def35befa7c0e20b31db4793e6e6a9a2d"
+        },
+        {
+          "entity_id": "EXCL-SUCC-876DACE66D7E",
+          "record_sha256": "3e939608c2a03ee0d67e71bff827c27fb08e270b9cc26f556a65d6350a3e1878"
+        },
+        {
+          "entity_id": "EXCL-SUCC-C9E211F05510",
+          "record_sha256": "b20265a6691c352ceb9960461fdd26ed571f5306fcfd7b1d46db53b79eac0c63"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F68B6E4729CB",
+          "record_sha256": "c5d31bb6318ca3d0ad1e8b38be707aef2bd3454d5e2eaf018658dadf5cfa3604"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F45FAEFC480F",
+          "record_sha256": "04c4a9eb50b63e1acab2d0e5712e15594886e9c475e197d28a19c0d17b666a09"
+        },
+        {
+          "entity_id": "EXCL-SUCC-0DD7350BF51F",
+          "record_sha256": "d6e27beee184651c3feb961edcd4d84c9b81985128f3839015b9000e1e0fc394"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F3BF829836F4",
+          "record_sha256": "26db9aff3255a12d958512853ff41338089e00ec0ece3c1d729fc580d2cade2e"
+        },
+        {
+          "entity_id": "EXCL-SUCC-557A4DD62DC1",
+          "record_sha256": "7188c7b422749e070d98a396cf0a5cf94dedd8a0f39307731fcbfa6db432d33f"
+        },
+        {
+          "entity_id": "EXCL-SUCC-3C65FBC51E10",
+          "record_sha256": "20f0594bb954bdf75fdcc94b8d408539f7f9a807591b0aed16f07c3e34d370cd"
+        },
+        {
+          "entity_id": "EXCL-SUCC-3F331E0C6326",
+          "record_sha256": "b2631218a8295ca56b425ed52aaac11dbb82e55b58d518dc257e2054753c3fef"
+        },
+        {
+          "entity_id": "EXCL-SUCC-0A69B19A40CF",
+          "record_sha256": "85d46090cfe06bed6d03a90d6ef6fee47ab293096a2ea49e3f302323a60a3027"
+        },
+        {
+          "entity_id": "EXCL-SUCC-593117C490A6",
+          "record_sha256": "3a9249cf577919a5e936afbbcdd5d8bdda66cdbd36152c89e5630849592b1f76"
+        },
+        {
+          "entity_id": "EXCL-SUCC-9848C0E1A85C",
+          "record_sha256": "31b1709e711b6370fc28bf736c3ad56b4695f0dc8e1da1d51e0d8e872bf6f863"
+        },
+        {
+          "entity_id": "EXCL-SUCC-C7E3EFA21C59",
+          "record_sha256": "abf1fe587e9a6b6ec041c9d63b0f03f049b0b217092cf85552b5883e02a0b074"
+        },
+        {
+          "entity_id": "EXCL-SUCC-90315DE78E3A",
+          "record_sha256": "eedb4a3afe332fa53f4ffb080e7af4cdf34a44198d486f533ca7f5b7cb41d026"
+        },
+        {
+          "entity_id": "EXCL-SUCC-96918A17E06F",
+          "record_sha256": "b2abc8e3017ac756f622244231f92a416d910180acda0f87fde4ca88b987c2fb"
+        },
+        {
+          "entity_id": "EXCL-SUCC-8979B6DBD34F",
+          "record_sha256": "c6a861c835207cfaf02b528ee15edb45cb4d100b9b35603f9f6ae5745ce9d912"
+        },
+        {
+          "entity_id": "EXCL-SUCC-4032CA726AE0",
+          "record_sha256": "52264d53dbaf0e555acca0bf7c43b736ed5e6b3563d0f16191a73b6cf7fb2597"
+        },
+        {
+          "entity_id": "EXCL-SUCC-4EF18D857CC6",
+          "record_sha256": "caf66dd8322792f10db3773a2cd633249b3e2dda11455a71b14501df075ae7b6"
+        },
+        {
+          "entity_id": "EXCL-SUCC-22AFB9669326",
+          "record_sha256": "ba8b0141b106b564caac0352ce9fc2de84b2a174b2b1e57cff95dd6e55291c3e"
+        },
+        {
+          "entity_id": "EXCL-SUCC-E98BEEA1CACC",
+          "record_sha256": "c50ef4e14cf599e815ec266968b9f1de78ab4d67feacf114ccb30d8e790b8c11"
+        },
+        {
+          "entity_id": "EXCL-SUCC-45632465ABC6",
+          "record_sha256": "70f9dc1b857330ad5610827d1ea5f5abc4af5025125b452aa4dd3d87c050a8c6"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B7017B547AA8",
+          "record_sha256": "e3bd35d7a3b2ec157ed03e5014969825a9ae7acf0256b8801b5712dd521d48a0"
+        },
+        {
+          "entity_id": "EXCL-SUCC-0D19C26B7631",
+          "record_sha256": "ea76dcf92e4ee848f5b3e4fba05be261b111845128a69c0a8307eab162bc11e6"
+        },
+        {
+          "entity_id": "EXCL-SUCC-FB0184B178EF",
+          "record_sha256": "1f4e2ddcfa62d5d2c2ab214748e597a9d95b33de662fb0a8e3304444a59d0b53"
+        },
+        {
+          "entity_id": "EXCL-SUCC-91C33B045B87",
+          "record_sha256": "b77eb9b70cad11e4d999a9d7d2cc56b7effdf53b626fbb45a43efeb2b422d800"
+        },
+        {
+          "entity_id": "EXCL-SUCC-852715A6751B",
+          "record_sha256": "0dca46495a5871014a2a8c521d23e2083fb49598160c7bfc9f4962e77e1f6e89"
+        },
+        {
+          "entity_id": "EXCL-SUCC-015B19301C63",
+          "record_sha256": "d05c6e0b50b49593dd4db78b028121ae4b150a38fa7d3c1156337e4b68f77b79"
+        },
+        {
+          "entity_id": "EXCL-SUCC-A5D7AA2E4465",
+          "record_sha256": "1e78a68d8814374b953a112354679c6aaa9047d814f1737e41e348a2419cfbc5"
+        },
+        {
+          "entity_id": "EXCL-SUCC-3132895B9506",
+          "record_sha256": "83317a8401387760b3959e86d6fc46995eef465fdde1edb5f3565c36a756ff7e"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D3B8E42F3FC6",
+          "record_sha256": "6b92dd5645aa9a3e73c011fb72e46d591ebdadecf6ed891ac5c04e7d2e30f645"
+        },
+        {
+          "entity_id": "EXCL-SUCC-C920EFA57222",
+          "record_sha256": "04a95b308ab8c3393574d50c25f6e7e0b71cf49772a7a4c019e0981b33874085"
+        },
+        {
+          "entity_id": "EXCL-SUCC-9E6788F62161",
+          "record_sha256": "63e0d46fca3f627315690b3ffa54e263378fb586d5c37e5aaf26249fc0ee50fe"
+        },
+        {
+          "entity_id": "EXCL-SUCC-2E16FD7D6626",
+          "record_sha256": "4dd4ee1eb7ed85ac7960e57d9270dde28481e272ff3da52cf4d4f8f7e6ed929e"
+        },
+        {
+          "entity_id": "EXCL-SUCC-21E97F1BED31",
+          "record_sha256": "b4a6cad96a52cad3196620a22134aff090b1576a1eb2a485564a41803d0d2791"
+        },
+        {
+          "entity_id": "EXCL-SUCC-8335DE21C9EE",
+          "record_sha256": "631506206ff88edf393be25adc4811189cfe58bb675732828d48c3fa9544e074"
+        },
+        {
+          "entity_id": "EXCL-SUCC-20D5B005D61B",
+          "record_sha256": "26349ca4eb8d1a4d021237b351ac3310590b1664613535bd98fa84ceaad7af82"
+        },
+        {
+          "entity_id": "EXCL-SUCC-956A27C87C5A",
+          "record_sha256": "026269d4e44774dc553dfe5d7fea109a6a35d24b0efb00aab0b190951014e895"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D6414DAEAA5B",
+          "record_sha256": "ddac1738e11556bf1089a2c823e907a398193edff41224ed6335594585bdf772"
+        },
+        {
+          "entity_id": "EXCL-SUCC-86D6D3DAC583",
+          "record_sha256": "cb2c91595498cc997ed6373fbeb60fbbc6b3486dccab09c4cc17e9c30980f48e"
+        },
+        {
+          "entity_id": "EXCL-SUCC-08AA2807907B",
+          "record_sha256": "2bdc4c7489b2bf268512d066ac1fc0e49b98501a507a84c7c62fe873df0ba2bf"
+        },
+        {
+          "entity_id": "EXCL-SUCC-64E9DAD3DB6E",
+          "record_sha256": "13141498691246b2edfbc27c1c757e319ff611ab6570dc9035722293db554413"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D1AC5C85ED76",
+          "record_sha256": "e3110e6a13db0132b5c0ebd22871a2b001fa786d10eb9d93edd1e08ff09be806"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B439B3210D19",
+          "record_sha256": "74c4374784b04ef4ae4e4b0f83e5b82221fb8b91b5747e764cdde02bfaf2e08b"
+        },
+        {
+          "entity_id": "EXCL-SUCC-ADDA7E0A9537",
+          "record_sha256": "a59cf79ed7dafade11a36423585df6cb1451cb74a2d5603f193a0587e22014d4"
+        },
+        {
+          "entity_id": "EXCL-SUCC-9C040B4DD6BD",
+          "record_sha256": "0bfd36a295574c84d71d1523d116740ea56c09b6d392c556a0add2922c8e46ea"
+        },
+        {
+          "entity_id": "EXCL-SUCC-DFF84524C592",
+          "record_sha256": "6f6ac79acc4b54d2924cc57c353ab6aa6d2207803318bf0ce2a539b5f5423c55"
+        },
+        {
+          "entity_id": "EXCL-SUCC-9A154BA172A8",
+          "record_sha256": "2ce32fe37b02322fb9105310b776d62ea6e41b997f61806ce460fa08d54fd959"
+        },
+        {
+          "entity_id": "EXCL-SUCC-02194E3FDA29",
+          "record_sha256": "4070654fba9dc317475cb520f06da903c2d2593ad6743eb25b791235cf03cfe9"
+        },
+        {
+          "entity_id": "EXCL-SUCC-0B23653F8AB2",
+          "record_sha256": "8ffb1ef47be9550f1bdaca8d29f538ab30ddfc6a5161eb15ff71cdaf84a5935e"
+        },
+        {
+          "entity_id": "EXCL-SUCC-9A1D79156030",
+          "record_sha256": "7cf3637b42fe63a20a791f42ef25fa12ec63aba7a45d3571ff1bbcc9f3fff4a7"
+        },
+        {
+          "entity_id": "EXCL-SUCC-EF68C771B643",
+          "record_sha256": "3bf9c1e191f24333773ee47af3004d748fc9768031e460d4a12fef2dd4316914"
+        },
+        {
+          "entity_id": "EXCL-SUCC-63D9449CE64E",
+          "record_sha256": "bd59cf9693d1c543596c34d252bb64366d6759ed2a1e1d9e452bc1d1df65f6b8"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B6B550569713",
+          "record_sha256": "d6d85b923d4b29f4b799bd0d8a980a5788ec74551dc11175482ea69444ab50ed"
+        },
+        {
+          "entity_id": "EXCL-SUCC-ABE7BF7A4C95",
+          "record_sha256": "6185a6756cf9e7bdf3ed819c41b4d17386a85290d4c3a63fca79747ae0215faa"
+        },
+        {
+          "entity_id": "EXCL-SUCC-A6919BE74F08",
+          "record_sha256": "0a8716fe01d8b62cae9a23f83e85bbc2108568db3c1c61245857faa127cb060c"
+        },
+        {
+          "entity_id": "EXCL-SUCC-DA84C4A1248A",
+          "record_sha256": "06b495fa2167ddccf06436394739b55bd1485657b329c8abc1ea7961fc8e37b5"
+        },
+        {
+          "entity_id": "EXCL-SUCC-2D2D14247D66",
+          "record_sha256": "4d711d54a3331ef0fee00520a34cc15d97fb05f3aa5befe0eea637f7c9f90ef3"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D0BE14142450",
+          "record_sha256": "29f7cc9fb0246d2613aba317967e30e8debfdb67a768f10e8d525cbe86cfe455"
+        },
+        {
+          "entity_id": "EXCL-SUCC-E8F17C69BCD3",
+          "record_sha256": "a9f58f0d436f557956d7626cda056b97afac30bf8749fd81704c62143b79de08"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D23F783C491D",
+          "record_sha256": "e940d1cc350fea9dd25420384788be28d36190616d203abc39485594f689c73c"
+        },
+        {
+          "entity_id": "EXCL-SUCC-2EABF659B2D7",
+          "record_sha256": "b7e3efc0a229ee2575beefa34ce37fb81fe40fa536695a15455f6c4fcc360f08"
+        },
+        {
+          "entity_id": "EXCL-SUCC-49FE027AF0E9",
+          "record_sha256": "77e9ccf008eefc440926ed2370d52623cd55caf5c7e24c8966362a2fb357dec8"
+        },
+        {
+          "entity_id": "EXCL-SUCC-81C9BF407315",
+          "record_sha256": "f9c528a422c439b99fc5c172d4438a22fd812291edb9818e89307dce57c2c627"
+        },
+        {
+          "entity_id": "EXCL-SUCC-38524961568E",
+          "record_sha256": "686d858cde6d0002746c95a2becd2a65d5f99737c00fbfd933f66e6b18f2cf42"
+        },
+        {
+          "entity_id": "EXCL-SUCC-57DFE60AB737",
+          "record_sha256": "95148274ce3f0e5580802c72bd4e105b5dba62179cf9e6f52df23b0e6b34a72a"
+        },
+        {
+          "entity_id": "EXCL-SUCC-164CAD5F6786",
+          "record_sha256": "83582c1e4a1d7699076f2da786f8fd227d98aece7ac03d340c2f3570aecdad8f"
+        },
+        {
+          "entity_id": "EXCL-SUCC-434AAF45D8E3",
+          "record_sha256": "f8c5531da01ff885f19741d541f4507b92c031db431136f00a45cf01c861be56"
+        },
+        {
+          "entity_id": "EXCL-SUCC-956BA7825454",
+          "record_sha256": "2d6c835ce6cae724e48cf033abf5246e6eb0ce011569ca89175cf0d122548a44"
+        },
+        {
+          "entity_id": "EXCL-SUCC-0F9FE496D0B0",
+          "record_sha256": "f88760f4ec5cbebc1c70ab95d31dcffa3e3497d4616f309b34a02fb63778de82"
+        },
+        {
+          "entity_id": "EXCL-SUCC-AB6ACD5845EB",
+          "record_sha256": "5807cbda8f8690b6dede7f5a0d0fd93870e56b9e73bb483654919ff4556cc530"
+        },
+        {
+          "entity_id": "EXCL-SUCC-6EEF3401E2E3",
+          "record_sha256": "ee001cf1aa7caf6e239bdf7b47ae6ec58a6c4d611cc9846bd1e3b4e5fb7a16d5"
+        },
+        {
+          "entity_id": "EXCL-SUCC-9C84F8A51A6E",
+          "record_sha256": "93908d7e87255014fc6546130c08c638c33369e70ef4d687b0eadeee5d140277"
+        },
+        {
+          "entity_id": "EXCL-SUCC-CB6FFBA4B084",
+          "record_sha256": "d2ead6bbdff249aefa2cb7d4ca3fb8e102648c59c52b0cd627ad752cd69350df"
+        },
+        {
+          "entity_id": "EXCL-SUCC-D79BFD00EB88",
+          "record_sha256": "2ff476f05f33eb43bc6b547389ba7138a83f26600cbf7ca46bb265371c48e4e7"
+        },
+        {
+          "entity_id": "EXCL-SUCC-A185471809FF",
+          "record_sha256": "ecb3f5d20cdb268447da59badf8e3930049d33a88eee06f581638eb8b7d4205e"
+        },
+        {
+          "entity_id": "EXCL-SUCC-F9E1FEBC56E3",
+          "record_sha256": "55e2c7644c7a657042c840f6a8ba978a57096388465c7ff0bf1488bdd0a993a6"
+        },
+        {
+          "entity_id": "EXCL-SUCC-37041069DE71",
+          "record_sha256": "7aadd15634e80e5ab2dd0733c5a7fae08fa6c76a570c2dec56892678a1da39f7"
+        },
+        {
+          "entity_id": "EXCL-SUCC-204B5422A8C0",
+          "record_sha256": "2eccb37c331cf47ceba672875c5e8d53b8e538e0e470a9d2aca998d21dabd10f"
+        },
+        {
+          "entity_id": "EXCL-SUCC-63786375A983",
+          "record_sha256": "bfddeae183c984c0078c36b2a1c32569814f65f74e7e9b94b53d7e63e1c5a0a7"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B3065AE9B340",
+          "record_sha256": "2604b0041cc4813f2257266f25c6363e14590bf2d28e3ff5978aebf14c8c2058"
+        },
+        {
+          "entity_id": "EXCL-SUCC-794D74B1A5D0",
+          "record_sha256": "4c27f91547be07f55e9797c9dfce9269d977eb6ed5f6a8765c8af887ef061ae5"
+        },
+        {
+          "entity_id": "EXCL-SUCC-FC1C63C6E880",
+          "record_sha256": "4538bdebaed75ba30e1263726de11f622162b2ccc67ef1b5567f609dd4a9c732"
+        },
+        {
+          "entity_id": "EXCL-SUCC-530AA3AAC7C9",
+          "record_sha256": "a726e8d904fe6079413d3718ae670b876bc9dc8667d4322a59cfb0e827df7f62"
+        },
+        {
+          "entity_id": "EXCL-SUCC-12A5B0984EF7",
+          "record_sha256": "dc195b3a71912d01508e97506b8578a33f0af7ce691ac20e5d5c82c73ec39bbf"
+        },
+        {
+          "entity_id": "EXCL-SUCC-19B4175F545B",
+          "record_sha256": "59a6f29b78b972172af7d55bb846dd77fa8722aa97fe48b9fed32da87dda39d5"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "meaning",
+      "exact_value": "A map legend enumerates the forty-eight Paris sections and places referenced in the book.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-9065E09911A1",
+          "record_sha256": "d5ba8d68606100bf93575090acf126d78e4e02733cb18785ab5d885813464ef0"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "rationale",
+      "exact_value": "The numbered map key and graphic interior are excluded source regions under the frozen policy. The substantive caption remains eligible and does not authorize requirements derived from listed names or plotted geography.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-9065E09911A1",
+          "record_sha256": "d5ba8d68606100bf93575090acf126d78e4e02733cb18785ab5d885813464ef0"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "scope_constraint",
+      "exact_value": "Excludes the map interior and numbered key on supplied page 129 as semantic source evidence. The literal substantive caption remains eligible under the mixed-page rule. Prose-density exclusions are measurement facts, not the authority for this semantic decision.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-9065E09911A1",
+          "record_sha256": "d5ba8d68606100bf93575090acf126d78e4e02733cb18785ab5d885813464ef0"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "reason",
+      "exact_value": "Map interiors, numbered keys and source credits on these supplied pages are excluded as semantic evidence under the frozen source policy and independent source-scope-disposition.v3. The exact literal substantive captions remain eligible; prose-density counting is not semantic authority.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-49F58EB46B7A",
+          "record_sha256": "f0dd9ea283840f21563d030b5d5fce942e264b9dab2f4f0488d0588708bf658b"
+        },
+        {
+          "entity_id": "EXCL-SUCC-2852F2FEE377",
+          "record_sha256": "21e0ca63634932a055b5e2d17bd229ac9c33ccc47c2e173dc3bcbcfb2a66fd2e"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "scope_constraint",
+      "exact_value": "Only the identified graphic interior/key/credit regions are excluded. Literal substantive captions and any eligible prose on mixed pages remain in source scope.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-49F58EB46B7A",
+          "record_sha256": "f0dd9ea283840f21563d030b5d5fce942e264b9dab2f4f0488d0588708bf658b"
+        },
+        {
+          "entity_id": "EXCL-SUCC-2852F2FEE377",
+          "record_sha256": "21e0ca63634932a055b5e2d17bd229ac9c33ccc47c2e173dc3bcbcfb2a66fd2e"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "item",
+      "exact_value": "graph internals and ignored regions",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-54ABDDFE4FC6",
+          "record_sha256": "f625660ceb3fc66b563901c35911ff8d64f0db6561379b4fe5d833de2700c9e8"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "reason",
+      "exact_value": "The page 225 map interior, legend, symbols, regions, labels and routes are excluded semantic source regions under the frozen policy and rendered source-scope-disposition.v3. The literal caption remains eligible; independent prose elsewhere can support geographic arguments.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-54ABDDFE4FC6",
+          "record_sha256": "f625660ceb3fc66b563901c35911ff8d64f0db6561379b4fe5d833de2700c9e8"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B772E8E18513",
+          "record_sha256": "9f6e13053461d3263cae7225a7ab8639a14b827d0002dd726f37cb0c4f016526"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "scope_constraint",
+      "exact_value": "Excludes graphic interior/key/credit semantics only. The literal caption, Resistance to the Revolution, 1793–1799, remains eligible without importing geographic details from the map.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-54ABDDFE4FC6",
+          "record_sha256": "f625660ceb3fc66b563901c35911ff8d64f0db6561379b4fe5d833de2700c9e8"
+        },
+        {
+          "entity_id": "EXCL-SUCC-B772E8E18513",
+          "record_sha256": "9f6e13053461d3263cae7225a7ab8639a14b827d0002dd726f37cb0c4f016526"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "scope",
+      "exact_value": "Map 5 interior, key, symbols, shading, labels and credits on supplied page 345",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-4DC30C3A9DCA",
+          "record_sha256": "3a01d7925f9b5b608f0af7d6eb9460dd72ac15b25008019885c77bfd7d9a5c04"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "reason",
+      "exact_value": "These graphic regions are excluded as semantic evidence under the frozen policy and rendered source-scope-disposition.v3. Only the literal substantive caption, The expansion of revolutionary France, remains eligible from the map page; substantive territorial distinctions must be supported by independently eligible prose.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-4DC30C3A9DCA",
+          "record_sha256": "3a01d7925f9b5b608f0af7d6eb9460dd72ac15b25008019885c77bfd7d9a5c04"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "scope_constraint",
+      "exact_value": "The graphic interior/key/credit are excluded. Caption-only support cannot import inferred geographic, chronological or legal distinctions from map symbols. Density counting is a separate measurement convention.",
+      "bound_records": [
+        {
+          "entity_id": "EXCL-SUCC-4DC30C3A9DCA",
+          "record_sha256": "3a01d7925f9b5b608f0af7d6eb9460dd72ac15b25008019885c77bfd7d9a5c04"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "issue",
+      "exact_value": "Map 1 as evidence",
+      "bound_records": [
+        {
+          "entity_id": "UNC-SUCC-B3CA10800A78",
+          "record_sha256": "6e108a96f7016b39539ba655b21869a968982003c7ccc6aa0a110d73462c198e"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "handling",
+      "exact_value": "Map 1 on supplied page 3 has eligible literal caption wording only. Its interior, key, cartographic labels and credits are excluded semantic regions under the frozen policy and independently rendered source-scope-disposition.v3. Territorial/jurisdictional claims require eligible prose, irrespective of density counting.",
+      "bound_records": [
+        {
+          "entity_id": "UNC-SUCC-B3CA10800A78",
+          "record_sha256": "6e108a96f7016b39539ba655b21869a968982003c7ccc6aa0a110d73462c198e"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    },
+    {
+      "field": "handling",
+      "exact_value": "Only the literal substantive captions on127 and129 are eligible from those maps. Interior department labels, numbered section names and explanatory keys are excluded semantic graphic regions under frozen policy and rendered source-scope-disposition.v3. Independent prose can support administrative or sectional requirements; density counting does not decide eligibility.",
+      "bound_records": [
+        {
+          "entity_id": "UNC-SUCC-970297ED3CE9",
+          "record_sha256": "71a21b4ebb92c7791df8e01b56d57ed365e62067252dc1101d32bb15a01c9730"
+        }
+      ],
+      "lead_disposition": "Consistent with caption-only eligibility and graphic-interior/key exclusion; density is explicitly separate where mentioned."
+    }
+  ],
+  "relationship_map_page_anchors": [],
+  "map225_parent_tasks": [],
+  "federalist_extent_task": {
+    "record": {
+      "task_id": "TASK-SUCC-243F183EE4A3",
+      "question": "Why was the federalist revolt limited in extent yet strategically significant, and how did recruitment failures restrict it?",
+      "subject_ids": [
+        "SUBJ-SUCC-BBD84DC00640"
+      ],
+      "source_task_ids": [
+        "SUCC-C010-TASK-013"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-6DBD5F49BFE6",
+          "question": "How extensive was the federalist revolt, and why did it still matter?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-BBD84DC00640"
+          ],
+          "historical_task_id": "TASK-6DBD5F49BFE6",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "Eligible prose supports limited but strategic extent; map interiors cannot supply the answer."
+        }
+      ],
+      "source_pages": [
+        241,
+        242,
+        243
+      ]
+    },
+    "sha256": "ef0e8aea22df0b750aac5c10a770ba3f6b288f6d3d7c93723a36a858198f64e5",
+    "lead_disposition": "Whole question and any facets must use eligible Federalist prose; the excluded geographic map interpretation is not a dependency."
+  },
+  "counts": {
+    "caption_evidence_rows": 4,
+    "nested_records": 8,
+    "auxiliary_distinct_fields": 15,
+    "auxiliary_field_bindings": 162,
+    "map_relationship_anchors": 0,
+    "map225_task_dependencies": 0
+  },
+  "scope_limits": "Exact application of the previously rendered five-page source-scope disposition to stage7. No new rendering/source-first claim, no revised source policy and no whole-record/whole-book approval implied. Later compositions must preserve these constraints.",
+  "whole_book_approval": false
+}

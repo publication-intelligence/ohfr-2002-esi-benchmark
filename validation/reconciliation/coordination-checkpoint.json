@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T02:51:58.625155+00:00",
+  "recorded_at": "2026-09-17T03:28:20.305737+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -85,14 +85,16 @@
       "decision_document": "docs/v9-methodology-cutover.md"
     },
     "v9_implementation_status": "merged_reviewed_foundation_not_activated",
-    "v10_status": "user_adopted_selected_scope_implementation_authorized_no_activation_yet",
+    "v10_status": "implementation_pr54_open_final_gate_and_factual_access_receipt_review_pending",
     "v9_reviewed_commit": "597e40068805b1d3e1dfc1d125ab3c6ec59366af",
     "v9_merge_commit": "a5ae35f9572fe28f7401d2e796e6e6c0a89242f6",
     "v9_release_validator_preparation": "validation/reconciliation/v9-release-validator-verification.v1.json",
     "v10_scope_summary": "docs/v10-methodology-cutover.md",
     "v10_adoption_source_task": "01a09903-ee81-7122-8cfc-b2c2c7217114",
     "v10_adoption_turn": "01a0ad2a-18e6-7991-8285-5f779a93e295",
-    "v10_normative_contract_provenance": "validation/reconciliation/v10-adoption-provenance.v1.json"
+    "v10_normative_contract_provenance": "validation/reconciliation/v10-adoption-provenance.v1.json",
+    "v10_preliminary_head": "a6be3c012dc6bec6f306b92173f2a59954481ffc",
+    "v10_preliminary_head_is_final": false
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -583,6 +585,39 @@
       "exact_reconstruction_verified": true,
       "verification": "validation/reconciliation/stage6-integration-verification.v1.json",
       "parent_qualified_task_facet_identity_explicit": true
+    },
+    "integration_stage7": {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage7.v1.json",
+      "sha256": "7a1dddebead4dd25e305f0b9866c3e0b984d9109417eea607601abcefdd5f493",
+      "status": "provisional_not_final_approval",
+      "exact_reconstruction_verified": true,
+      "changed_subjects": 37,
+      "verification": "validation/reconciliation/stage7-integration-verification.v1.json"
+    },
+    "native_original_subject_evidence_001_completed": {
+      "manifest_sha256": "9f0ecefcab682a6320320a1f62a7ec0b5f8ac1c779ea172544534a2d854cdf97",
+      "exact_subjects": 275,
+      "exact_parent_qualified_evidence": 650,
+      "whole_proposal_roundtrips": 34,
+      "field_diffs": 142,
+      "verification": "validation/reconciliation/native-original-subject-evidence-001-verification.v1.json",
+      "final_integrated_value_approval": false
+    },
+    "legacy_tail_transfer": {
+      "activation_sha256": "1d46355aacc1b3cbf21f36092c407adcaebdda7abdee7eb4dae1a1269ca44a63",
+      "effective": true,
+      "retained_007_subjects": 407,
+      "retained_007_evidence": 962,
+      "transferred_001_subjects": 100,
+      "transferred_001_evidence": 212,
+      "source_allowlists_unchanged": true,
+      "review_complete": false
+    },
+    "lead_source_first_retention_checks": {
+      "exact_findings_checked": 106,
+      "scoped_components": 3,
+      "root_bindings_verified": true,
+      "final_value_approval": false
     }
   },
   "density_proposal": {
@@ -609,7 +644,7 @@
   },
   "reconciliation_pr": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17",
   "website_consumer": {
-    "status": "reviewed_pushed_ci_green_actual_bundle_browser_qa_pending",
+    "status": "v10_consumer_review_in_progress_final_runtime_fixture_and_actual_data_pending",
     "owner": "Published_evaluation_task",
     "scope": [
       "display_producer_benchmark_identity",
@@ -652,7 +687,9 @@
     "public_requirement_display": "Reviewed safe optional details with English/Spanish interface text; authored prose remains producer data and no facet scores are invented.",
     "historical_green_ci_head": "ca6b958c267a14cced52111e6a32e0bbf6f35471",
     "historical_green_ci_run": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35153272172",
-    "coordinator_requirement_followup_tests_passed": 69
+    "coordinator_requirement_followup_tests_passed": 69,
+    "v10_reviewed_partial_head": "26cb3e224281c1a8c2735b02ceb3e5bba69cb7c3",
+    "pending_followup": "Exact V8.2 source methodology, candidate-specific factual review identity, final V10 fixture pin"
   },
   "authorization": {
     "recorded_at": "2026-09-16T21:14:40.118131+00:00",
