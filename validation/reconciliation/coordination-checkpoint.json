@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T02:00:17.149562+00:00",
+  "recorded_at": "2026-09-17T02:11:34.668313+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -518,6 +518,32 @@
       "sha256": "30830f86d5e20d5b7fc319b1b7dcdab687468e0a0fb66d1c461ebb892a3ad096",
       "status": "provisional_not_final_approval",
       "exact_reconstruction_verified": true
+    },
+    "native_original_subject_evidence_transfer": {
+      "receipt": "successor/independent-review/actual-draft/native-original-subject-evidence-transfer.receipt.v1.json",
+      "sha256": "2e759fd83fe0111c276056d16e461c070104835c49a42a03b99255d023d00c99",
+      "root_verification": "validation/reconciliation/native-original-subject-evidence-transfer-verification.v1.json",
+      "subject_partition": {
+        "001_native": 275,
+        "007_legacy": 507
+      },
+      "evidence_partition": {
+        "001_native": 650,
+        "007_legacy": 1174
+      },
+      "effective": true,
+      "prior_assignments_preserved": true
+    },
+    "lead_repaired_values_001_independent_check": {
+      "manifest": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/manifest.v2.json",
+      "sha256": "59c619d2e9363c402caa712d03402ce53b9b9ce2ae109882ff51cb08adc19bca",
+      "subjects": 22,
+      "evidence": 95,
+      "whole_corrections": 12,
+      "retained": 10,
+      "exact_field_diffs": 45,
+      "root_verification": "validation/reconciliation/lead-repaired-values-001-verification.v1.json",
+      "final_integration_approval": false
     }
   },
   "density_proposal": {

@@ -1,0 +1,102 @@
+{
+  "schema_version": "independent-bounded-value-check-manifest-v1",
+  "status": "sealed_component_complete_not_whole_book_approval",
+  "assignment_path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values.assignment.v1.json",
+  "assignment_sha256": "cb4101384a75b670f4249fbba0da449d602ac1c39580a205a4d75970c63a8976",
+  "counts": {
+    "subjects": 22,
+    "evidence": 95,
+    "source_treatments": 22,
+    "unweighted_facets": 22,
+    "whole_replacements": 12,
+    "retained_unchanged": 10,
+    "fully_reread_pages": 44,
+    "new_source_pages": 0
+  },
+  "authoritative_files": {
+    "subjects": "subject-dispositions.v2.jsonl",
+    "evidence": "evidence-dispositions.v1.jsonl",
+    "proposals": "proposed-records.v2.json",
+    "diffs": "exact-field-diffs.v2.jsonl",
+    "validation": "validation.v2.json",
+    "source_coverage": "source-coverage.v1.json",
+    "referrals": "referrals.v1.json",
+    "attestation": "attestation.v1.json",
+    "inputs": "input-verification.v1.json"
+  },
+  "supersedes": "manifest.v1.json",
+  "supersession_scope": "Final wording clarification only; all v1 files remain byte-for-byte preserved. No source reading or inspected ID count changes.",
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/attestation.v1.json",
+      "sha256": "e3585d67ea3814476e6c6f0c1f06a75ab8426ad13694269be5be85fc0036486a",
+      "bytes": 2278
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/evidence-dispositions.v1.jsonl",
+      "sha256": "d51b102f33feed85a109bcda6ac368e0ce7e9c47b5c9870ee36d519a620b1b92",
+      "bytes": 88785
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/exact-field-diffs.v1.jsonl",
+      "sha256": "d3053b2dea289a845064ba866ea2b81b1beef4979b4dc6cb8cd1de92face527c",
+      "bytes": 25435
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/exact-field-diffs.v2.jsonl",
+      "sha256": "ba22d28d76a56e651b6148a8ee54fb4a460133700e5ccced241166881104966f",
+      "bytes": 25246
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/input-verification.v1.json",
+      "sha256": "b8550a272781fc860309582090f5589dbce67ba7ebb2bedea45bd0a80378ff31",
+      "bytes": 1147
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/manifest.v1.json",
+      "sha256": "e4c5819bcd49e3b8f51e4c80d65e0a9a77a748a73d2337cc4a8b521ccef5ed4e",
+      "bytes": 2783
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/proposed-records.v1.json",
+      "sha256": "35678bd109019a5296952befd7c68bcf2588a2123cb5f611151f2ef7dcf3a22e",
+      "bytes": 104435
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/proposed-records.v2.json",
+      "sha256": "2aa4a6978176ace07da2c3960258f780d91ad594742671f6e2780b13fdd630ca",
+      "bytes": 104246
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/referrals.v1.json",
+      "sha256": "0840bd396dd9f688768546e3ab73106529a00c23e31c7aaa32241eec03a5b0cf",
+      "bytes": 1309
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/source-coverage.v1.json",
+      "sha256": "d0b7c86d047354cf9b99598aeeb67a396b0bd39e9a899530d2f66ee9c40332c4",
+      "bytes": 24442
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/subject-dispositions.v1.jsonl",
+      "sha256": "4776ab8bd3e2c24bfb1e9e4ce00f7e08d92aaf2c7055b80f30040a07af056571",
+      "bytes": 38873
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/subject-dispositions.v2.jsonl",
+      "sha256": "7be36bc0e3906f2c3fd0dfaa2941f1273ec303c5a7c5b7636c251b61e7f2f50d",
+      "bytes": 38873
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/validation.v1.json",
+      "sha256": "b05892ab39cc1c3ecbc965fc76800388ea57e1adfd5e9dc09634ac8db4e0166b",
+      "bytes": 494
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/validation.v2.json",
+      "sha256": "430bdef6baf930933d0eb829c7251a5dea956e1a9c1f2887257d7884f4b4444d",
+      "bytes": 845
+    }
+  ],
+  "whole_book_approval": false
+}

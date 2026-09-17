@@ -1,0 +1,70 @@
+{
+  "schema_version": "exact-original-key-transfer-receipt-v1",
+  "status": "mechanical partition verified; editorial work pending; root authorization requested",
+  "original_assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v1.json",
+    "sha256": "4da8653ee42de47087261b1f99a3ae5098235280c742abb8bb028b97e28635c5"
+  },
+  "reservation": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/proposed-untouched-native-transfer.v1.json",
+    "sha256": "c9b85f93da202bb6044a186d66f54e8a9681f41579a66f849b33fbb0bac90950"
+  },
+  "amended_assignments": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v2.json",
+      "sha256": "9f25e5365a3bdc062afc3bd02f469759ccbc6ed49f579a071042e238018d8dcd",
+      "counts": {
+        "subjects": 507,
+        "evidence_bindings": 1174
+      }
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.native-historical-subject-evidence.assignment.v1.json",
+      "sha256": "d0633514c48539ff95f2c82b892e1ceddac27ebc023ec635455417c088087d67",
+      "counts": {
+        "subjects": 275,
+        "evidence_bindings": 650
+      }
+    }
+  ],
+  "old_counts": {
+    "subjects": 782,
+    "evidence_bindings": 1824
+  },
+  "evidence_only_parent_groups": [
+    {
+      "original_parent_key": "native:SUBJ-0297",
+      "evidence_keys": [
+        "native:SUBJ-0297:EVID-0297-001",
+        "native:SUBJ-0297:EVID-0297-002",
+        "native:SUBJ-0297:EVID-0297-003"
+      ]
+    },
+    {
+      "original_parent_key": "native:SUBJ-0415",
+      "evidence_keys": [
+        "native:SUBJ-0415:EVID-0415-002"
+      ]
+    },
+    {
+      "original_parent_key": "native:SUBJ-0572",
+      "evidence_keys": [
+        "native:SUBJ-0572:EVID-0572-002"
+      ]
+    },
+    {
+      "original_parent_key": "native:SUBJ-0624",
+      "evidence_keys": [
+        "native:SUBJ-0624:EVID-0624-001"
+      ]
+    }
+  ],
+  "invariants": [
+    "No old subject split",
+    "No already dispositioned original key transferred per reserving reviewer attestation",
+    "Disjoint and exhaustive subject/evidence union",
+    "Prior assignments and sealed outputs unchanged",
+    "Current benchmark entity ownership and final approval responsibility unchanged"
+  ],
+  "candidate_unseen": true
+}
