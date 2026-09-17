@@ -1,0 +1,262 @@
+{
+  "removals": [
+    {
+      "record_id": "TASK-SUCC-18AD39382AD9",
+      "reason": "Mirabeau hoped to stabilize the revolutionary monarchy and shares some escape tactics with royalists without sharing their restoration objective. His advice is covered by the coherent Mirabeau task 55; Varennes consequences are separate.",
+      "replacement_task_ids": [
+        "TASK-SUCC-AE25E8E28270"
+      ],
+      "original_record": {
+        "task_id": "TASK-SUCC-18AD39382AD9",
+        "question": "What distinguishes Mirabeau’s paid royal advice from counter-revolution?",
+        "subject_ids": [
+          "SUBJ-SUCC-6216510D2EE3",
+          "SUBJ-SUCC-3ABA24F75F80"
+        ],
+        "source_task_ids": [
+          "SUCC-C013-T013"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-8427BDC5C9BE",
+            "question": "What did Varennes change for royalists, republicans, officers, and foreign powers?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-6216510D2EE3",
+              "SUBJ-SUCC-3ABA24F75F80",
+              "SUBJ-SUCC-1D98349B5A7B",
+              "SUBJ-SUCC-04E7153E268C"
+            ],
+            "historical_task_id": "TASK-8427BDC5C9BE",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The question and original target scopes were read against the full-source treatments. Preserve its specific retrieval demand in the listed successor requirements; historical merged endpoints outside this task’s chapter argument are contextual rather than automatically required."
+          }
+        ]
+      }
+    }
+  ],
+  "additions": [
+    {
+      "record": {
+        "task_id": "TASK-SUCC-98D12F9E3BB5",
+        "question": "Why did Vergennes and Louis XVI intervene against Britain in America, and how did the outcome vindicate Turgot’s warnings about cost and Britain’s enduring power?",
+        "subject_ids": [
+          "SUBJ-SUCC-4673E7D7B0BD",
+          "SUBJ-SUCC-4BD86B38620A"
+        ],
+        "source_task_ids": [
+          "ISR-C01-HIST:anglo-french-rivalry",
+          "legacy:TASK-1F4B2BF812EB",
+          "native:TASK-0086",
+          "native:TASK-0095"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-1F4B2BF812EB",
+            "question": "Why did Vergennes and Louis XVI intervene against Britain in America, and how did the outcome vindicate Turgot’s warnings about cost and Britain’s enduring power?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-4673E7D7B0BD",
+              "SUBJ-SUCC-4BD86B38620A"
+            ],
+            "historical_task_id": "TASK-1F4B2BF812EB",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Anti-British rivalry and revenge are actual motives, qualified by Britain’s surviving strength. None of the four author destinations directly asks that motivation; preserve it in the new coherent cause-and-outcome task."
+          },
+          {
+            "facet_id": "native:TASK-0086",
+            "question": "Why did Vergennes and Louis XVI intervene against Britain in America, and how did the outcome vindicate Turgot’s warnings about cost and Britain’s enduring power?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-4673E7D7B0BD",
+              "SUBJ-SUCC-4BD86B38620A"
+            ],
+            "historical_task_id": "TASK-0086",
+            "historical_lineage": "native",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Cost, financing and domestic consequences preserve the core war argument; the Dutch crisis is a later consequence route, not a mandatory part of the original 66–68 treatment."
+          },
+          {
+            "facet_id": "native:TASK-0095",
+            "question": "Why did Vergennes and Louis XVI intervene against Britain in America, and how did the outcome vindicate Turgot’s warnings about cost and Britain’s enduring power?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-4673E7D7B0BD",
+              "SUBJ-SUCC-4BD86B38620A"
+            ],
+            "historical_task_id": "TASK-0095",
+            "historical_lineage": "native",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Both Turgot’s fiscal and strategic doubts are substantive. The new motive-and-outcome question states them explicitly, alongside the existing fiscal-process route."
+          }
+        ]
+      },
+      "source_pages": [
+        66,
+        67,
+        68
+      ],
+      "source_grounded_reason": "The war-cost and later Dutch-crisis questions do not directly ask about the anti-British motive or Turgot’s strategic doubt; this coherent cause-and-outcome inquiry does."
+    },
+    {
+      "record": {
+        "task_id": "TASK-SUCC-BB989406A49A",
+        "question": "How did Necker’s Protestant exclusion from the royal council limit the political authority he sought through public financial confidence and contribute to his resignation?",
+        "subject_ids": [
+          "SUBJ-SUCC-7E3399C22F9E"
+        ],
+        "source_task_ids": [
+          "ISR-C01-HIST:necker-council-barrier",
+          "legacy:TASK-47D10E506DCD"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-47D10E506DCD",
+            "question": "How did Necker’s Protestant exclusion from the royal council limit the political authority he sought through public financial confidence and contribute to his resignation?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7E3399C22F9E"
+            ],
+            "historical_task_id": "TASK-47D10E506DCD",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Protestant exclusion is a specific institutional limit on Necker’s authority and contributes to resignation. General ministerial comparison or later recall alone does not preserve that precise question."
+          }
+        ]
+      },
+      "source_pages": [
+        67
+      ],
+      "source_grounded_reason": "The original specific institutional barrier is useful and cannot be declared preserved merely by mapping to August 1788 recall or general war finance."
+    },
+    {
+      "record": {
+        "task_id": "TASK-SUCC-F70401BC3704",
+        "question": "How did expiry of the wartime third vingtième and efforts to prolong the two existing levies connect debt-service needs to disputes over fiscal consent?",
+        "subject_ids": [
+          "SUBJ-SUCC-A5AA75EEABBF",
+          "SUBJ-SUCC-CC2A04C3EAF7"
+        ],
+        "source_task_ids": [
+          "ISR-C01-HIST:vingtieme-expiry-prolongation",
+          "legacy:TASK-BE62805023D0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-BE62805023D0",
+            "question": "How did expiry of the wartime third vingtième and efforts to prolong the two existing levies connect debt-service needs to disputes over fiscal consent?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-A5AA75EEABBF",
+              "SUBJ-SUCC-CC2A04C3EAF7"
+            ],
+            "historical_task_id": "TASK-BE62805023D0",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Expiry and prolongation of different vingtièmes connect debt service and disputed fiscal consent. The seven broad author destinations do not make that precise distinction explicit; rebind to the new focused process question."
+          }
+        ]
+      },
+      "source_pages": [
+        68,
+        69,
+        75,
+        78,
+        80
+      ],
+      "source_grounded_reason": "The source distinguishes separate levies and phases; the specific fiscal-consent mechanism merits a coherent inquiry rather than attachment to every structural-finance task."
+    },
+    {
+      "record": {
+        "task_id": "TASK-SUCC-64F12025200D",
+        "question": "How did assignat depreciation reduce the state’s return from national-land sales while enriching purchasers and securing beneficiaries of the revolutionary property settlement?",
+        "subject_ids": [
+          "SUBJ-SUCC-5193E3F37320",
+          "SUBJ-SUCC-CFFCD493828A"
+        ],
+        "source_task_ids": [
+          "ISR-C01-HIST:national-land-fiscal-sacrifice",
+          "legacy:TASK-C3485CA2E0CE",
+          "native:TASK-0612"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-C3485CA2E0CE",
+            "question": "How did assignat depreciation reduce the state’s return from national-land sales while enriching purchasers and securing beneficiaries of the revolutionary property settlement?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-5193E3F37320",
+              "SUBJ-SUCC-CFFCD493828A"
+            ],
+            "historical_task_id": "TASK-C3485CA2E0CE",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Depreciated paper reduces the real fiscal proceeds of national lands while enabling cheap acquisition and durable beneficiaries. Remove the John Law-memory association and preserve the fiscal-versus-distributive mechanism through a new coherent question, alongside the existing material-experience comparison."
+          },
+          {
+            "facet_id": "native:TASK-0612",
+            "question": "How did assignat depreciation reduce the state’s return from national-land sales while enriching purchasers and securing beneficiaries of the revolutionary property settlement?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-5193E3F37320",
+              "SUBJ-SUCC-CFFCD493828A"
+            ],
+            "historical_task_id": "TASK-0612",
+            "historical_lineage": "native",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Policy-driven overissue damages land-sale returns, credit, wages and employment before war intensifies it. Replace the unrelated John Law-memory destination with the explicit economic-setback inquiry and the new fiscal-sacrifice question."
+          }
+        ]
+      },
+      "source_pages": [
+        403,
+        407,
+        408
+      ],
+      "source_grounded_reason": "Depreciating paper sacrifices public fiscal returns while redistributing property; later property security consolidates beneficiaries. The bank-memory question is not an adequate route."
+    },
+    {
+      "record": {
+        "task_id": "TASK-SUCC-D7E3E7DE14BE",
+        "question": "How did émigré courts reproduce status divisions and political suspicion while genuine dynastic loyalty led many participants to accept danger and loss of rank?",
+        "subject_ids": [
+          "SUBJ-SUCC-7593EEA0BB95"
+        ],
+        "source_task_ids": [
+          "ISR-C01-HIST:emigre-status-and-loyalty",
+          "legacy:TASK-9874F9545DA5",
+          "native:TASK-0451"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-9874F9545DA5",
+            "question": "How did émigré courts reproduce status divisions and political suspicion while genuine dynastic loyalty led many participants to accept danger and loss of rank?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7593EEA0BB95"
+            ],
+            "historical_task_id": "TASK-9874F9545DA5",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. Court hierarchy and suspicion alienate some participants, but sincere loyalty motivates risk and reduced status. Restore this substantive balancing judgment through a new coherent question; early plot failure alone cannot carry it."
+          },
+          {
+            "facet_id": "native:TASK-0451",
+            "question": "How did émigré courts reproduce status divisions and political suspicion while genuine dynastic loyalty led many participants to accept danger and loss of rank?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7593EEA0BB95"
+            ],
+            "historical_task_id": "TASK-0451",
+            "historical_lineage": "native",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "New coherent parent restores this useful source demand. The movement’s genuine commitment coexists with failed early plots, military dependence and unrealistic assumptions. Early Lyons/Jalès access alone is too narrow; retain later military development and the new status-and-loyalty question."
+          }
+        ]
+      },
+      "source_pages": [
+        303,
+        304
+      ],
+      "source_grounded_reason": "The source balances satire of hierarchy with sincere sacrifice. The early Lyons/Jalès failure question does not express this social and motivational distinction; lead parent retention remains required."
+    }
+  ]
+}

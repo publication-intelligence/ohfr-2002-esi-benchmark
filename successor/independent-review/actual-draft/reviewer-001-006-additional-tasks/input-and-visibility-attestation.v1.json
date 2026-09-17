@@ -1,0 +1,94 @@
+{
+  "schema_version": "independent-additional-task-attestation-v1",
+  "reviewer": "reviewer-001-006",
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "verified_input_catalogs_and_assignments": [
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49"
+    },
+    {
+      "path": ".source-only/independent-review-draft-addendum.v1.json",
+      "sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.assignment.v2.json",
+      "sha256": "df2cdd91693af398723f01f74a1b5663c06d8f38af941243f289761469d52a30"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.historical-task-closure.assignment.v1.json",
+      "sha256": "89c74b2e0943aada99967722575b27f2befdaa5597c9f31952b286010411b614"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead-dependency-inputs.for-reviewer-001-tasks.v1.json",
+      "sha256": "a13a0f05cfbb98e83e79e05e7ad0fa7b2d9932772f19f0f50f636b34558e14c9"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v3.json",
+      "sha256": "adb81320deac697201511a04a9b4848a048db2aaa1613a267f492a6ef4a32577"
+    },
+    {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678"
+    }
+  ],
+  "authorized_allowlisted_file_hashes_reverified": 294,
+  "hash_verification_is_not_content_review": true,
+  "visibility": {
+    "candidate_index_content_seen": false,
+    "candidate_results_seen": false,
+    "candidate_repositories_read": false,
+    "root_docs_or_validation_read": false,
+    "task_histories_or_app_threads_read": false,
+    "unlisted_sibling_outputs_read": false,
+    "actual_successor_draft_seen": true,
+    "source_only_author_lineage_and_old_benchmarks_seen": true,
+    "source_only_dependency_proposals_seen": true,
+    "prior_own_outputs_reused": true,
+    "administrative_source_names_do_not_establish_candidate_content_exposure": true
+  },
+  "substantive_work": {
+    "whole_current_tasks": 87,
+    "every_original_facet_binding": 185,
+    "historical_original_task_keys": 728,
+    "historical_original_questions_and_full_linked_meanings_stances_inspected": true,
+    "unique_old_target_scopes": 929,
+    "transferred_dependency_subjects_meanings_and_stances_inspected_for_task_answerability": 153,
+    "dependency_whole_entity_review_claim": false,
+    "original336_tasks_not_recounted": true,
+    "original515_old_lineage_mentions_were_association_only_and_not_used_as_certificates": true,
+    "historical_reading_reused_identical_scope_only_after_full_first_read": true,
+    "new_post_draft_full_source_pages": 128,
+    "prior_source_first_pages1_to158_reused_without_new_count": true,
+    "source_first_entity_review_not_inferred_from_page_reading": true,
+    "main_question_and_target_scope_checked_for_every_original_facet": true,
+    "new_historical_destinations_individually_authored_not_label_or_page_matching": true,
+    "author_dispositions_not_copied_as_verdicts": true,
+    "final_follow_up_check": "Inspected every newly rehomed binding and every retained facet whose wording differs from its parent. Corrected European-powers scope, monetary endpoints, famine memory/mobilization, ministerial exclusion timing, colonial causal chain, compensation and Quiberon consequences; removed a logistical-flight destination from the Varennes-consequences requirement."
+  },
+  "restricted_work_directory": ".source-only/independent-review-work/actual-draft/reviewer-001-006-additional-tasks",
+  "public_output_directory": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks",
+  "prior_packets_byte_preserved": [
+    {
+      "path": "successor/independent-review/reviewer-001-006/output-receipt.json",
+      "sha256": "c31cc0e70ffd8c03e77fc8982a836fcfe3ad900c246a0a797bf51d86063f0dd0",
+      "all_manifest_bound_files_unchanged": true,
+      "bound_file_count": 10
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006/output-receipt.json",
+      "sha256": "0b95c1d203b9363efaeea6cddde755cd81ccbf3fe1193b4594489a432d595b00",
+      "all_manifest_bound_files_unchanged": true,
+      "bound_file_count": 9
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/output-manifest.v1.json",
+      "sha256": "b16d8f786fef2d41051b1443a0472f35fa95a91da2f685a7c397d491863088e5",
+      "all_manifest_bound_files_unchanged": true,
+      "bound_file_count": 12
+    }
+  ],
+  "outcome": "Assigned current-task/facet and historical-original semantic review complete; exact proposals and referrals supplied. Integration, dependent subject repairs and whole-book closure remain with parent. No approval or freeze.",
+  "approval": false
+}

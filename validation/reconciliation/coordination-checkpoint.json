@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T00:51:55.198817+00:00",
+  "recorded_at": "2026-09-17T00:55:12.219768+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -324,6 +324,36 @@
       "duplicate_component_bindings_not_double_counted": 121,
       "original_key_union_verified": true,
       "integration_and_repaired_value_approval": false
+    },
+    "completed_additional_task_packet": {
+      "manifest_sha256": "7a251313aff4ebbebcc175a89b1a94ec1d50b909755a8d9c76fd4d85b029bb12",
+      "bound_files_verified": 13,
+      "exact_current_task_ids": 87,
+      "exact_original_facet_bindings": 185,
+      "exact_historical_original_records": 728,
+      "original_target_scope_hashes_verified": 929,
+      "field_diff_reconstruction_verified": 147,
+      "additional_tasks": 5,
+      "additional_rehomed_bindings": 11,
+      "prior_bound_files_unchanged": 31,
+      "integration_and_final_approval": false
+    },
+    "completed_lead_uncertainty_components": {
+      "receipt_sha256": "d7c5b613d399a1db78f29ab893db7189ba2fb83098db3b55464bfe7d35b90e66",
+      "bound_files_verified": 6,
+      "exact_original_records": 151,
+      "proposed_retained": 141,
+      "proposed_removed": 10,
+      "field_diff_sets_verified": true,
+      "final_value_approval": false
+    },
+    "historical_auxiliary_closure_assignment": {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.historical-auxiliary.assignment.v1.json",
+      "sha256": "eb65bf2fd71c70a3f1116f4360c8e26401b84955bf520233d22907344fdb7e8d",
+      "input_files_verified": 19,
+      "exact_original_control_keys_verified": 476,
+      "original_empty_mappings_explicitly_included": 22,
+      "review_complete": false
     }
   },
   "density_proposal": {

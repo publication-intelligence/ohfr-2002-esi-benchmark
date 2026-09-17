@@ -1,0 +1,109 @@
+{
+  "schema_version": "independent-additional-task-output-manifest-v1",
+  "reviewer": "reviewer-001-006-additional-tasks",
+  "status": "immutable_completed_bounded_review_proposals_with_explicit_integration_referrals",
+  "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+  "assignment_v2_sha256": "df2cdd91693af398723f01f74a1b5663c06d8f38af941243f289761469d52a30",
+  "historical_closure_assignment_sha256": "89c74b2e0943aada99967722575b27f2befdaa5597c9f31952b286010411b614",
+  "counts": {
+    "reviewed_current_tasks": 87,
+    "whole_replacements": 85,
+    "unchanged_current_tasks": 1,
+    "whole_removals": 1,
+    "new_coherent_tasks": 5,
+    "original_facet_bindings_dispositioned": 185,
+    "new_rehomed_bindings_into_owned_tasks": 11,
+    "historical_originals_inspected_and_dispositioned": 728,
+    "field_diffs": 147,
+    "new_post_draft_full_page_count": 128
+  },
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/HANDOFF.md",
+      "sha256": "b574ea64e4aecb5c1e6b0759231bcf115293cda86741259425fa21a8cb5003e8",
+      "bytes": 3871
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/proposed-records.v1.json",
+      "sha256": "482b47d8aa1b87c3dbaf438d476ef538005d7dfffbf9c89ab3839769e04ed993",
+      "bytes": 167161
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/current-task-review.v1.jsonl",
+      "sha256": "c9f66fe4f1c0346e26b913e23d1beee87e82f3554c603409f038db7b628afc72",
+      "bytes": 69669
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/original-facet-binding-dispositions.v1.jsonl",
+      "sha256": "1675d86bee2ad8465b3845b0c9944f64fc33e0ddcde59ae725e3b4d79dd4becb",
+      "bytes": 412259
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/additional-rehomed-bindings.v1.json",
+      "sha256": "dd175b213f6690b394fc8e3d353fe91a430e2a21c31afad80a1023749a105949",
+      "bytes": 21246
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/exact-field-diffs.v1.jsonl",
+      "sha256": "db41b2ce649623fce26de305e10b4acc64573256c06c6a52c9137a4431465ad3",
+      "bytes": 274748
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/removals-and-additions.v1.json",
+      "sha256": "5c0bf1c99b5252fd1fac90362273d5286add01a4134b65f8eb1e189fed41b97b",
+      "bytes": 13758
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/historical-task-dispositions.v1.jsonl",
+      "sha256": "e1a0502be7021667613b18a7ce319742cf5359c5ad333bd7f81c1db615b33531",
+      "bytes": 1932083
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/cross-shard-referrals.v1.json",
+      "sha256": "379a4e3d4e70e89f0215580ae132e0807488775aae852c2c745a6bb34c79d92e",
+      "bytes": 31361
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/source-page-coverage.v1.json",
+      "sha256": "454e9bd7f007f8efa8560f130ee4828366f4a59d96606a8f86bbc7f0da5e63c1",
+      "bytes": 9698
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/validation.v1.json",
+      "sha256": "160fe7d6162782d6efc280bef55ff1c40a0676835914c33456d33d7783f2222b",
+      "bytes": 1705
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/input-and-visibility-attestation.v1.json",
+      "sha256": "823e7c0bc84abef96a8a9adec06474ea95561c4006207c2a1dbf8347d35c1119",
+      "bytes": 5048
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/retained-source-uncertainties.v1.json",
+      "sha256": "197895ce32a91bc5d8dc7c005d965d93f396c84c7eb1449ca612e5e602b141ba",
+      "bytes": 1558
+    }
+  ],
+  "approval": false,
+  "prior_packets_unchanged": [
+    {
+      "path": "successor/independent-review/reviewer-001-006/output-receipt.json",
+      "sha256": "c31cc0e70ffd8c03e77fc8982a836fcfe3ad900c246a0a797bf51d86063f0dd0",
+      "all_manifest_bound_files_unchanged": true,
+      "bound_file_count": 10
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006/output-receipt.json",
+      "sha256": "0b95c1d203b9363efaeea6cddde755cd81ccbf3fe1193b4594489a432d595b00",
+      "all_manifest_bound_files_unchanged": true,
+      "bound_file_count": 9
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/output-manifest.v1.json",
+      "sha256": "b16d8f786fef2d41051b1443a0472f35fa95a91da2f685a7c397d491863088e5",
+      "all_manifest_bound_files_unchanged": true,
+      "bound_file_count": 12
+    }
+  ],
+  "excluded_intermediate_artifacts": "Preserved component/checkpoint files are superseded for integration by these final manifest-bound records."
+}
