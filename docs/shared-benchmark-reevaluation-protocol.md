@@ -2,7 +2,7 @@
 
 The user authorized migration and reevaluation of Published, IndexPDF, IndexerLabs and Indexia against the independently reviewed successor, with commits and relevant PR merges. The [V9 percentage foundation](v9-methodology-cutover.md) is reviewed and merged. The user subsequently selected [V10](v10-methodology-cutover.md) for the actual reevaluation: finish the unchanged V8.2 source freeze, independently review the separate source-grounded benchmark-access amendment, validate V10, and then bind one common study lock and run all four candidates. V9's representation changes preserve arithmetic; V10's approved semantic changes require their own explicit identities, evidence and migration.
 
-The final V10 runtime, source-release validator and website consumer preparation have passed review. Execution remains on hold for the completed source freeze, independently reviewed benchmark-access amendment, common study lock and runtime activation. The linked cutover record carries the current sequencing status.
+The final V10 runtime, source-release validator and website consumer preparation have passed review. The independently reviewed base source benchmark is frozen. Execution remains on hold for the independently reviewed benchmark-access amendment, common study lock and runtime activation. The linked cutover record carries the current sequencing status.
 
 ## Inputs and preservation
 

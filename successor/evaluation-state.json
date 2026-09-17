@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-study-source-successor-v1",
   "created_at": "2026-09-16T19:51:37Z",
-  "updated_at": "2026-09-16T21:26:16Z",
+  "updated_at": "2026-09-17T04:57:18Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "William Doyle, 2002; supplied 425-page source",
@@ -83,14 +83,18 @@
       ]
     },
     "benchmark_review": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-17T04:57:18Z",
+      "notes": [
+        "Validated independent candidate-blind review ledger."
+      ]
     },
     "benchmark_freeze": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-17T04:57:18Z",
+      "notes": [
+        "Validated and registered the approved final benchmark atomically with review."
+      ]
     },
     "candidate_normalization": {
       "status": "not_started",
@@ -129,6 +133,19 @@
     }
   },
   "artifacts": [
+    {
+      "artifact_id": "ART-62D2059E5160",
+      "stage": "benchmark_review",
+      "artifact_type": "source_benchmark_review",
+      "path": "independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T04:57:18Z"
+    },
     {
       "artifact_id": "ART-493F1BBD1F10",
       "stage": "chunk_definition",
@@ -180,6 +197,19 @@
       "frozen": false,
       "recorded_at": "2026-09-16T21:26:16Z",
       "schema_version": "source-subject-benchmark-draft-v1"
+    },
+    {
+      "artifact_id": "ART-4EF9A9063922",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T04:57:18Z"
     },
     {
       "artifact_id": "ART-8A0ADDBF61D4",

@@ -1,0 +1,56 @@
+{
+  "schema_version": "source-final-technical-freeze-clearance-v1",
+  "result": "pass",
+  "recorded_at": "2026-09-17T04:56:53.739926+00:00",
+  "bindings": [
+    {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c"
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-independent-byte-assent.v1.json",
+      "sha256": "c60f9db869b02dfd88ffdbeeb2a9807608f318db1a2b8e8b09e4b521207c8757"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+      "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-c11-validation.v1.json",
+      "sha256": "1b804a47618b8da97f5dfa232f324ad12ff33648728e1125bfa908969ebe26ab"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-metadata-and-status-disposition.v1.json",
+      "sha256": "86c38c54c349eff654aac293a5c8348f3b8c261910e17040a0259df2ff2b52fb"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/caption-evidence-class-correction.v1.json",
+      "sha256": "3dd3d4a075a40e8365645a09cf3279b0d1dd3f39f26eb57e923f22906e7d1a79"
+    }
+  ],
+  "recomputed_final_canonical_sha256": "29e2d3cb6fbe99dcab7d218086afede0366fdd195efbea7b98f4dfffb967a354",
+  "pinned_c11_validate_final_data_errors": [],
+  "exact_stage10_derivative_verified": true,
+  "complete_crosswalk_populations_verified": {
+    "subjects": 531,
+    "relationships": 502,
+    "reader_tasks": 619,
+    "exclusions": 248,
+    "uncertainties": 157,
+    "parent_qualified_evidence": 3412,
+    "subjects_required_access_facets": 597,
+    "reader_tasks_required_access_facets": 1213,
+    "subjects_source_treatments": 597
+  },
+  "additional_file_bindings_verified": 33,
+  "canonical_state_and_original_draft_unchanged": true,
+  "typed_freeze_clearance": true,
+  "clearance_scope": "Technical integrity only; independent editorial approval is supplied by the bound source reviewer assent.",
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false,
+  "root_editorial_approval": false
+}

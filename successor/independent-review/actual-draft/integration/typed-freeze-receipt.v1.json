@@ -1,0 +1,120 @@
+{
+  "schema_version": "independent-typed-freeze-receipt-v1",
+  "recorded_at": "2026-09-17T04:57:18.727670+00:00",
+  "runtime_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "authorization": "Root technical registration clearance following completed independent source review and sealed exact-value assent.",
+  "command": [
+    "python3",
+    "/home/john/.codex/skills/evaluate-subject-index/scripts/benchmark_review_cli.py",
+    "freeze",
+    "--state",
+    "successor/evaluation-state.json",
+    "--draft",
+    "successor/source/source-benchmark.draft.v1.json",
+    "--inventory",
+    "successor/validation/source-benchmark-review-inventory.json",
+    "--review",
+    "successor/independent-review/source-benchmark-review.v1.json",
+    "--final",
+    "successor/source/source-benchmark.v2.json"
+  ],
+  "returncode": 0,
+  "output": {
+    "command": "freeze",
+    "ok": true,
+    "evaluation_id": "ohfr-2002-study-source-successor-v1",
+    "version": 2,
+    "benchmark_sha256": "29e2d3cb6fbe99dcab7d218086afede0366fdd195efbea7b98f4dfffb967a354",
+    "artifacts_registered": [
+      "independent-review/source-benchmark-review.v1.json",
+      "source/source-benchmark.v2.json"
+    ],
+    "artifacts_written": [
+      "/home/john/.codex/worktrees/2920/ohfr-2002-esi-benchmark/successor/evaluation-state.json"
+    ],
+    "next_actions": [
+      {
+        "stage": "candidate_normalization",
+        "command": "normalize-index",
+        "status": "not_started",
+        "available": true,
+        "unmet_dependencies": [],
+        "required_inputs": [
+          "candidate index",
+          "page map"
+        ],
+        "completion_test": "A current V8 candidate normalization artifact is registered."
+      }
+    ],
+    "warnings": []
+  },
+  "before": {
+    "state": {
+      "path": "successor/evaluation-state.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    "inventory": {
+      "path": "successor/validation/source-benchmark-review-inventory.json",
+      "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+      "bytes": 54837
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    "final": {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    "assent": {
+      "path": "successor/independent-review/actual-draft/integration/final-independent-byte-assent.v1.json",
+      "sha256": "c60f9db869b02dfd88ffdbeeb2a9807608f318db1a2b8e8b09e4b521207c8757",
+      "bytes": 1865
+    }
+  },
+  "after": {
+    "state": {
+      "path": "successor/evaluation-state.json",
+      "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+      "bytes": 15542
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    "inventory": {
+      "path": "successor/validation/source-benchmark-review-inventory.json",
+      "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+      "bytes": 54837
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    "final": {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    "assent": {
+      "path": "successor/independent-review/actual-draft/integration/final-independent-byte-assent.v1.json",
+      "sha256": "c60f9db869b02dfd88ffdbeeb2a9807608f318db1a2b8e8b09e4b521207c8757",
+      "bytes": 1865
+    }
+  },
+  "review_and_final_bytes_unchanged": true,
+  "original_draft_bytes_unchanged": true,
+  "candidate_unseen": true,
+  "c11_status": "Typed review/freezing completed; no further c11 work is pending. Source reviewers are quiescent for this frozen base.",
+  "scope": "This receipt records source benchmark registration only. It neither evaluates candidates nor applies a later methodological access amendment."
+}

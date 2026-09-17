@@ -1,0 +1,60 @@
+{
+  "schema_version": "source-typed-freeze-verification-v1",
+  "result": "pass",
+  "recorded_at": "2026-09-17T04:58:06.649011+00:00",
+  "receipt": {
+    "path": "successor/independent-review/actual-draft/integration/typed-freeze-receipt.v1.json",
+    "sha256": "61b93a4119e251d26c57db2939b729978fce1dd9e3300b6ecbeab1a29c726ee6"
+  },
+  "before_state": {
+    "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e"
+  },
+  "frozen_state": {
+    "path": "successor/evaluation-state.json",
+    "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7"
+  },
+  "only_changed_stages": [
+    "benchmark_review",
+    "benchmark_freeze"
+  ],
+  "prior_registrations_preserved": 22,
+  "new_frozen_registrations": [
+    {
+      "artifact_id": "ART-62D2059E5160",
+      "stage": "benchmark_review",
+      "artifact_type": "source_benchmark_review",
+      "path": "independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T04:57:18Z"
+    },
+    {
+      "artifact_id": "ART-4EF9A9063922",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T04:57:18Z"
+    }
+  ],
+  "read_only_state_cli_validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "review_final_draft_and_assent_unchanged": true,
+  "source_only_candidate_absent": true,
+  "source_reviewer_reports_c11_quiescent": true,
+  "coordinator_candidate_unexposed": false,
+  "root_editorial_approval": false
+}
