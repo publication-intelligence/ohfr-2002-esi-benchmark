@@ -1,0 +1,31 @@
+{
+  "schema_version": "stage10-integration-verification-v1",
+  "result": "pass",
+  "recorded_at": "2026-09-17T04:44:48.403634+00:00",
+  "benchmark": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage10.v1.json",
+    "sha256": "b78991f9370eb8a6ec500880d124b61aacfdccc5873ffe9f3a59de5dcfeace85"
+  },
+  "derivation": {
+    "path": "successor/independent-review/actual-draft/integration/integration-stage10.inputs.v1.json",
+    "sha256": "e3bf405bf479885ea5010999901d42f7bc0ffc5c71d6a334cb84b5d1f4db7849"
+  },
+  "tail_independent_review": {
+    "path": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json",
+    "sha256": "8137e97d9610fb41d057a67fa16b5497dc2dc3559b18cb2598e43174fece403e"
+  },
+  "overlap_closure": {
+    "path": "successor/independent-review/actual-draft/integration/001-111-146-value-and-tail-overlap-closure.v1.json",
+    "sha256": "fa398c22d4516acae6d45f3f005ece8f81116a51f687b6ad5f26018334c48c54"
+  },
+  "exact_ordered_record_applications": 79,
+  "exact_changed_entities": 77,
+  "tail_parent_bindings": 41,
+  "closure_repaired_records": 25,
+  "referral_closures": 10,
+  "all_other_benchmark_fields_unchanged": true,
+  "editorial_approval": false,
+  "final_byte_assent_pending": true,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

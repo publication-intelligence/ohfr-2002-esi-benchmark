@@ -1,0 +1,1828 @@
+{
+  "schema_version": "independent-integration-derivation-v1",
+  "status": "provisional_pending_final_byte_assent",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage9.v1.json",
+      "sha256": "3bc8b4289d286c01d6d8b4c20556a24eb64484002e55ac9c2e29c0c44c70e87c",
+      "bytes": 6701183
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json",
+      "sha256": "448ca59ad5a90f1c8a802804606491f2fcd69434c385ea386c162d51b7b78182",
+      "bytes": 430579
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json",
+      "sha256": "8137e97d9610fb41d057a67fa16b5497dc2dc3559b18cb2598e43174fece403e",
+      "bytes": 743233
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repaired-values-007-groups-111-146/manifest.v1.json",
+      "sha256": "fc21de57f168554b6c70675a47e9af097e7342183e96c2b0bab5b22b3fb8c0d8",
+      "bytes": 9834
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repaired-values-007-groups-111-146/exact-whole-replacements.v1.json",
+      "sha256": "ff6470fa4481b07369fc4242ea97c49797ae68e695b87f226b6df5c6e87103bd",
+      "bytes": 145483
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repaired-values-007-groups-111-146/dependency-and-overlap-referrals.v1.json",
+      "sha256": "ffbd994519581ca1d4dd417387a331f71fb4c09eb09cce70129e86124d28dd82",
+      "bytes": 21214
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/manifest.v1.json",
+      "sha256": "c78531e4f896378e890aee83a212f9395a6d4ba47a22fa3d339ac75521db5cbe",
+      "bytes": 6150
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/explicit-evidence-binding-composition.v1.json",
+      "sha256": "a866d0b417da048cd678c2ffcd1084583a674407db576984e0783efe08e9a3b0",
+      "bytes": 52600
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-111-146-value-and-tail-overlap-closure.v1.json",
+      "sha256": "fa398c22d4516acae6d45f3f005ece8f81116a51f687b6ad5f26018334c48c54",
+      "bytes": 259458
+    }
+  ],
+  "ordered_applications": [
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-5F07AA578495",
+      "before_sha256": "b6bb4ccba927883cc276f358a61f044847ae314a588f239ff94bf7bedca65717",
+      "after_sha256": "9ceb88e5294f92bec10c6a328d7efac120b8dea02da74fc8a13ae27334db0a1c",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-69AF11C8E08F",
+      "before_sha256": "602b749d1f6edd7e83f48e64d2c3235eaecfdf4b169b5c573afb9e5b80f50935",
+      "after_sha256": "c374a2e4ecf682e9dfa162bb7d24d209640c3836a01bea2a3eebffe6f0cfc2f6",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-ED257E703CC3",
+      "before_sha256": "267d0808cda4c076abc972b421aace3aef5d05fd451951d439c28e440b24b8bb",
+      "after_sha256": "59c04030d0270b993aa8085e068a7173cf86b18e738925c7546430989c5138b8",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-6CA0CC1A6D47",
+      "before_sha256": "bd00459720ee1fbe4d25125ef67f53132b15e03384a859885a0681d0a3563934",
+      "after_sha256": "7ce0881ead072325a0b68ad9772762a3c499fa21db06d9ff324dacf1af948973",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-81D9B80EB36F",
+      "before_sha256": "a3d916fb250deafe9c1e71fb4e71188d621004ec6a38b54dd24274eed385bbb0",
+      "after_sha256": "47d85a9e35d724ed304aa22306a6002d71f5529475d607434ef59f7a8a9b72a6",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-B82E0832B8C7",
+      "before_sha256": "b2fc503783c39cae71ae431e868a6dc922fceb0c27a47e8090ebb7ff70baf33e",
+      "after_sha256": "336373f26eb33eb8e0e8131d74d3b509d47b6ac0dadcc967d288db1ea1a1dba1",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-012626CC7650",
+      "before_sha256": "0dcb8fcfa4d11cfe3287975ba3264ef909d769b039cbccf94f772c9bef295dda",
+      "after_sha256": "739f74d516e5fde48e3634275e33e59570d2fa98ac5f4a125a24bb6f4360c232",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-6E64AE097C31",
+      "before_sha256": "30e1768122c4e563b40dfb5a75834a7218073cf8bd7f71ec8a7f66a640d2af61",
+      "after_sha256": "d414d2da7fd7ad076ebe08cfc82cc63642f4feb95c17a99eef55a3f1d547734d",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-DF9153551991",
+      "before_sha256": "c4c96aabf086677c7bde1ce961b063bffe18a9d83b6e264034fbeb2f2796222a",
+      "after_sha256": "1695726ed82380995660eae660bb66531d3888fb69d8d39af6db9dfcb2b8ccfd",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-5164ECF66F67",
+      "before_sha256": "48945a1e9b9b8a2717cd06a0aaccde4764ebb4c485f12a370cb79a2bc38092ef",
+      "after_sha256": "b4fd3b65540ff04f65b8bc064e5a695ba42e8203cf76b8b018a8fdd76567aceb",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-D42722963013",
+      "before_sha256": "baba0198f81323ab4b8413ef3b578663edf243c98decb34525f038b962d20c02",
+      "after_sha256": "05cc984421b36830891811773ec3e581c086bdb8aba1f4b43c30ab2990d5107b",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-B18399A46518",
+      "before_sha256": "511eaf0e26768ea2ac50a3d092d42203d32088e2d9511666dd57ad38a55f5fbc",
+      "after_sha256": "e092196f588e3ddf89407984ed12c0e68daff8ee30535dd14849d3df0038539a",
+      "fields_changed": [
+        "question"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-156949ABB44D",
+      "before_sha256": "085f972b5ec49cb9e77c17d78d2bf2a207fb2f7b91fc0c0c7dcde94df52810b2",
+      "after_sha256": "cc5eb4b1c684991a991e3b364b8a2780996eafba5ad46c96dd0cfdbcda36fa1a",
+      "fields_changed": [
+        "question"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A314B3102640",
+      "before_sha256": "75e81a56460dd0fc2d4b3dfb01010c0c8e55b83be63ca0b116106b187f1acd17",
+      "after_sha256": "359da0dba0b2e51bd9a4df1203d53ae3e119ba5e2a4806e13527e692f499ae9c",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-7C338D256927",
+      "before_sha256": "a114d39223293f84a6643a8fa0c8877a6889e45e35789afe2ec17a1a63f068c8",
+      "after_sha256": "99e36da170f4224a1619643d7256bae742302d16b152a86315ed7af74183a2c7",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-525A1728F643",
+      "before_sha256": "9e5f0c893637c19215f715f3657728614a2deaf69af823f59957f1157a6b8f3b",
+      "after_sha256": "e7c6bc86b28c85d6785a4be04d883b4e30b574d4cb27bb29a93340476d26e1c6",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-38E8081905D0",
+      "before_sha256": "c4157d1a5adfbb5bf8b5a08f92595d976bf97f49695188667d5c7dd2e1daeec2",
+      "after_sha256": "688d976d1a5e6a4db802e95422634b3853f0a72b0d52f4d50ca81a85276c9f9b",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "before_sha256": "4e619ecdc9f2323cb025aeb592e39d64d3416f3d520b26b2e8b2b6e12468827d",
+      "after_sha256": "33663ba7f4f5e3074f80ae84dc3d6059eaf08bfcfeb0556880a9a763b67cd331",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-1EBCC35F6918",
+      "before_sha256": "a1ddf183caa3788fc3056ea14784e36ccade60b279ffeac37f6a779685ee4246",
+      "after_sha256": "7656383c995ea0046e35255814f7fdce56af60318001da9effdd7560c5e7dc5e",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-58F7F001857D",
+      "before_sha256": "7d569bd72ac572700bb7c9a641a3fd1d838cc250bba6d32e95b7ddc7f3e0fb2e",
+      "after_sha256": "ca6c5f0bdf7d60e73e701316afcb408d3491fe35835ab8df273ecade87eedbb4",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-C31553A0D1B9",
+      "before_sha256": "5eb81954a05490d075e36d8ca882ac528d4db3cf9630fd32c59ada08f88e0ae0",
+      "after_sha256": "71c297c13b10a9c6aab24414b364c9b72c97380fc15af840c72a512783e4a1dc",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-0D87BD18FE77",
+      "before_sha256": "9dfb738307a0a7f15e68956b08da0e490ae236bd4b2adf5455a86a75ce05d85b",
+      "after_sha256": "567d44dec0ca306cf04935bfe34d9bac062f2939be9db4ebf28bb0e78cf27ce8",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-7A343F73BC1F",
+      "before_sha256": "6d2d40df0724e59aee4d49a4b69a19399620a7649307574a0a1caa6a41812b63",
+      "after_sha256": "a8369c8cda01b0a4d56415c6d7ae397ea8b6ab452c37f47c7962d518899c095c",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-02AF5D334E8F",
+      "before_sha256": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c",
+      "after_sha256": "c797c4c1a4806bbe011382ec3d0393fd00e129c2279f79805b8fd63a29cb916e",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-E801BA395EE8",
+      "before_sha256": "a9dce65c04bd4c0306881d0c9695cf794f75291e3f58fbb686400bbd7bb201e5",
+      "after_sha256": "307ffc4fe7fe39d37646947dd0bc12043915811c17d574aea02f0c8ab3bc82b8",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-65D590EBAFE2",
+      "before_sha256": "f5c747da8514a4ee0ad60b181048a100fe67335a0d74f8196c4e09287f4d9488",
+      "after_sha256": "ba53d5691abd71ba137e68040c971479e4b46063b8bb8a415ec6d1ebbac63e11",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-298B26A9D77A",
+      "before_sha256": "0874bb33cce861fd6382066debe3041ac18a97fb2d13a73feb23d958c1e7ad63",
+      "after_sha256": "0711bbf2d99407ab76ea815ecb95ff1d6e285bbaa5e17f4ea49a5a0592b715aa",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-2E5B26D8A9D6",
+      "before_sha256": "5200e0c29435168b03a2643e4e8b2506d2857f74719314bafa8c7c39e766a02b",
+      "after_sha256": "513d80243209dfe52b6c37b7a0e876317c44be0dc583a1f044b356121db67e21",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-C8838C6F47C7",
+      "before_sha256": "055e988c430a845957766fb1610378b8a624aa164d655ae6b04671ac57f61b56",
+      "after_sha256": "3652093b2aa0620d0e939e177dec2dd2cf2220629c57f6e5fa60d4f2e24bc718",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-E57561515D9B",
+      "before_sha256": "02c86ea250230b4612fbed2b6d6c5c5373347ddd4c078dfc09bc75f2c22b5b54",
+      "after_sha256": "482cf68e491c3b6d34438e5208ab9c8987ba6751fb94483b4dd0bac439bc62e7",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-13AF8F136719",
+      "before_sha256": "c892b7d37be49f3bafb68f170718455c298d53e91fb029ff1187fa0d5a7ab338",
+      "after_sha256": "c54d40e06d8c48cdd1e2d0f1f4892aa50c13848a8f2a6ed9c3303a5f57098050",
+      "fields_changed": [
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A946B0B96B6D",
+      "before_sha256": "23b0124d111d54f2a6df94d2cddbce75c4388ecb66411aada95dea3ab56bc7fa",
+      "after_sha256": "18a8e65004b54faf848b58740d3f24aba452b1b138f1a2f20b16ee8cf188abbb",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-39CA1B8E5293",
+      "before_sha256": "e8819224c3d422ee9d25b61b9043ce09aaecc075d983b717b55dd3fbc649b2b8",
+      "after_sha256": "760a2366470fc3cb49321af981ab25e840937807cfb5f5cc5ffe53d8895e93fa",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-28E04117C501",
+      "before_sha256": "6819e0953ddf49fc055d6995fb93fc2031bc6a5d92ba3f4d611eaf882bc4d8e2",
+      "after_sha256": "86297586ae60bf368e4ab7729535d889f2865be64264f14c843baf80cf9a6fe8",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-C7DF46AA6436",
+      "before_sha256": "c5c716556eabfc4ab009882a38cb3ef4e1e859df797f854441d095091f537c34",
+      "after_sha256": "b3ada4a8875717a969cb3767e293d0e65e12fe0e5e30af045b8941b024f2dca6",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-D25EFF329FF1",
+      "before_sha256": "595b23547e98928d6e9bdaabdad47bb74b1fe41336aec8a9e607aed4f8f006a3",
+      "after_sha256": "7f5f55d55ba97d2ac876087586a46f8472d1b3b01909ae2c64e4691ffcc84d09",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-CD9A2A52162E",
+      "before_sha256": "81b6420322f8681344665097febfd88997566c68941d9ab32bccde98366d9593",
+      "after_sha256": "2011c9f437b288830b396d08127af91d543135e18d8175e19b5222b1aa4a6817",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-F7A0D2DCF841",
+      "before_sha256": "54adc91d1bb73a029d95befbc2ef0ad0c5506acc5c30730be39eb1b5cb8d4cdc",
+      "after_sha256": "1f42cf220105cec4f681c6ab3bacca4be653037e3465d829c14bbbf75ecf5dd9",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-8A3FF7132FF1",
+      "before_sha256": "cc5bf58dc4a64687ffa295612bc92b0f04e68599734a39b8862c6401080ca7ed",
+      "after_sha256": "dec61903f36b4fe1b0a1095bb979ed0748b0a49a90c0f3d6540d9153aa34ae34",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A09DB8EABD5C",
+      "before_sha256": "584360049f904cfdbd3fbf567da96e0a18a5175105999ad6d9ea9db7175806c3",
+      "after_sha256": "9efd8f07a42dfc827eb1aec8f46980237bcb721c11282fa681ff64294a759f7c",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-5D069D724C33",
+      "before_sha256": "01c7c1595552517e8c3d381f18680b590b1187d6f09b33d574f99b242f41a831",
+      "after_sha256": "56e13fa0948556cb1950df9a76120ba5b99d04841e4ad42ad1b925b61290c698",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-85C459BB83CE",
+      "before_sha256": "48e1d6a0da9e72b0f2ab9be51e43341f5c55c52426c7ed3db9c0891154d508c3",
+      "after_sha256": "b5ac3c48c7986e53f79adebfe46c2be2f42cf0c132e48286bdf6ad27f2910b78",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-431D9939D11B",
+      "before_sha256": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+      "after_sha256": "c054f0ebad874af1658e7a70b5a30fc4d2baf1cd816312129121a4d3a0f2ef5f",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-84B2C8434BA6",
+      "before_sha256": "8399b6670bf37d66a493f21e3cb2931b4e33c4e29445a6924f912b87f04ac32f",
+      "after_sha256": "6e03b50b24efffef0ce147ee7efde2023f1b188f0b62da25c674577e52651b35",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-6568AD1BCF30",
+      "before_sha256": "3f363a7cb9597123425d8c8df5873f591c650d4aaeb45a0766f543045a1516e8",
+      "after_sha256": "50be00b08bdaf884ba91fcd68b133efe92c1e7f7a0e0db7fffcea4a845e03408",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-9601697A1247",
+      "before_sha256": "cc8bb6eb7f41cb931055796064f61af29078cc8dac46b5f80c431cf6f876d26c",
+      "after_sha256": "a90ab045d1156963a982babb4ddf724f26cd4d4b59327b31955d8ba671944ca9",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-44A8A4E36810",
+      "before_sha256": "04a79bf67f8040409b8dea7b16dd0a4345dc3340d9a4f073988d1acf52367236",
+      "after_sha256": "477904540ab3c7bcdf23cc2f019a1208a62fa040ffe7dc9036e20325b0f2f3c5",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-CC730DB406A0",
+      "before_sha256": "65774e7d2166ca784b98955bce888b64651318d06c9bb8c18a80f42ffcdb35b3",
+      "after_sha256": "75cc5e437e9208ef0f0c08f7dd2d3f6260a1b8dc135c726385ce10c170e8c247",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "before_sha256": "c6439eb3073d51e6fb57dfe399de78a985b324960eb39f4211a44cefe5216529",
+      "after_sha256": "9d0adf27738c51f1eed8d25aad609e457be57c78da59dd9134d001d1b1d14efa",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-9EE30DCC1721",
+      "before_sha256": "1932ab6074534fdce289e1d06408f257cf51fac03f447694118655893a363f57",
+      "after_sha256": "a9989373772a77a6692ebf59175d97966193fece75c5d9a3400ac9b08a49c442",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "required_access_facets",
+        "priority",
+        "acceptable_access",
+        "label",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-F8A938B3B147",
+      "before_sha256": "05d8da05d237bd2b0545e0460659f707929e91f0cd8aeb898cd5682056701a20",
+      "after_sha256": "25e6dbaa42491ea6aec4a705748364ce35d6555657535cbcd3b1c35cdc9b21ff",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-43C2056DACCC",
+      "before_sha256": "956a090d3aa03470072c469ac36a14f2d5847b43021c3775fa320f3ff0ee550b",
+      "after_sha256": "2f360ca3afa5a35210d29529866874e90ddefabad7928ba9f790fdf3735fe396",
+      "fields_changed": [
+        "stance",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-5AAF2CE28F56",
+      "before_sha256": "3bc7635465817dcf67883576bf523a823780c720dd94d4ec73b44cb8fcf4a488",
+      "after_sha256": "6f278a70430fa8017df81379479828ee90d2bb6734ab1ec5eb2106cc506d7684",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "evidence"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-D319BFEA28A1",
+      "before_sha256": "6c6ac9690c7e81dee37d20a366bf82f8f6dd9b26830fa2be6aa756a4798bdee1",
+      "after_sha256": "37d509115e18717b71425cfed8bae28a247524c082c12a590f914953595d0d0b",
+      "fields_changed": [
+        "evidence"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-84898172084C",
+      "before_sha256": "fdb3d7d6b578653091faa136daf2e248a47141092e127cf1f4957ee5b229ae05",
+      "after_sha256": "a6f65a5ab0ed113a32bf65e3b46194635a540805b904ff217478efb0caf093c6",
+      "fields_changed": [
+        "evidence"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-CC730DB406A0",
+      "before_sha256": "75cc5e437e9208ef0f0c08f7dd2d3f6260a1b8dc135c726385ce10c170e8c247",
+      "after_sha256": "fbde5408a14b1477da03e286341d947d8969563c9c559917275a905130aba4b2",
+      "fields_changed": [
+        "evidence"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-31D23A1391B1",
+      "before_sha256": "161244e0c611a2492d8eec81e047d386080238902054d81b8aa1db86065e224f",
+      "after_sha256": "56813665f17e563fff0ec806d2428bed730a3c0df630b55f2390ef6b9c9015a4",
+      "fields_changed": [
+        "evidence"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-F3E18B9ED763",
+      "before_sha256": "ad89a8b6cb62919d2083a3ac1e366907824ff262a5fcaea3ac876c679ca14d32",
+      "after_sha256": "9903de9dcb2e01f890205565c59607088574b5e783205319315370966be26609",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-29EC1D192DCD",
+      "before_sha256": "df95c943de45e8d2871768381d9005284d33c78dbc6eaa7db6c7b1130feadb8f",
+      "after_sha256": "222f81f4a3555f0d2ab01f105d7747c050677a5ba30f9ae9d7639b6905466332",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-A017156CC2E2",
+      "before_sha256": "3583bda0a470e55124d73fba211c5a1a153ae4688f138fe1fb724a953b36eaba",
+      "after_sha256": "c2dac64b36f645a2aa9020d4f257571e470654aae2ec43309eb5b05cd6925550",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-408DA4CFBD7F",
+      "before_sha256": "3c10f36b59e7076b9ffaf4bdf0a731c3dbeb933f2e5147d0d4d2be9c79469e59",
+      "after_sha256": "fc5900ce9221f27fe171324ed42780d9805960b4c61353da27f316870c8c4d4e",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-C8F622C9D46F",
+      "before_sha256": "e1f0d37cff89e1cd209efb0badce96c661dcd15a2bead43d28ca66c5f3d0861b",
+      "after_sha256": "862e949eff85d7cbdecf316f8bab76828610247fcf6abc690f16b92a206569db",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-68C4CB54AB75",
+      "before_sha256": "849d259370c15c62ba9e7112d2b8a522aadb6c5c76f889dbd53b8ec9f4a32f5e",
+      "after_sha256": "cac30beab88254b1ea8a7bb8ba87aa0aa50f4374db34dd7a1fb87eb8c5a75a08",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-0A2BEDCCE8A1",
+      "before_sha256": "7a65ff0176d428c227a34e8d5f64897704392d330849f0e9244cfd7c060a9292",
+      "after_sha256": "df33dae08c67e2d1c848ce205de7cd844fe2be7eef4393e582b0423945cf0215",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-905C25B1D344",
+      "before_sha256": "fe16a018121a156cb735239075857fc27ef0fd4fa76db6e7e13b60a2487191fd",
+      "after_sha256": "85dad68d3ddab8bfd826d47fe386cb14c1024b1e167ab51d77388e69718bdcc6",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-886CE61D5EA7",
+      "before_sha256": "4edef4a73f8afc7d50f71e0fdcae7f87a64a8379a4b48dbc78caa94218a022df",
+      "after_sha256": "7f353391b3b58dd0aa104643a8c80bbb2563bb0683276c59ef00970ecb68b2f9",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-C6AD93770039",
+      "before_sha256": "4efdc196c22e3168e49334104c4367cf297e5713321ad92b9f97cc6006ae2707",
+      "after_sha256": "877c772a711030868840386f0a0ced4552d23724eb808a11b06c841e366da895",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-7B203B40DA85",
+      "before_sha256": "90c6ac73f337e395f4248bd1804b99d69bad0dbdffca7a9ec16cabee4dd629b6",
+      "after_sha256": "16c4d83a3df81e25381684fbc9c97c5b0817cb3624c9d4d366f3309be821d959",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-CC0436A0AACC",
+      "before_sha256": "0b648e7debbdc88542ebb7b76201e46f93cb0cbbbbd12d95d3cd794db0107fe9",
+      "after_sha256": "cd56bf61ec619a5bcbf65a60b4bf310b543a5686110952942d0177422334bfe5",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-89C4B6C1BD91",
+      "before_sha256": "ff81019f73ca0619e9127e927760b2cb4da78cb55c5b20d90622cb00bef09ec2",
+      "after_sha256": "ab11fdb5b9942741eaff7e1d0fbfb7aee5860f75547302b8d56c9e3af40ba7c9",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-55F4C717D4A6",
+      "before_sha256": "f7c0f817a8cbf8f09c6ce73203cb96b0fb8098441cf82ce1fada7f1e7e54586a",
+      "after_sha256": "4810dfea094a14c4c14e9397378ba488ebfedc49214c027d717f127507664e9d",
+      "fields_changed": [
+        "evidence_document_pages"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-PROP-D2ADD0F53EF9",
+      "before_sha256": "d568979291a1a770c3809fa5eebf4977fc8057575d8c69c2432af4d6d1604541",
+      "after_sha256": "46bee2a3aae46994a2e822464bb1961f17a7cc9b11b1bdf2c02194cd01466ceb",
+      "fields_changed": [
+        "rationale",
+        "relationship_type"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-822FD108A319",
+      "before_sha256": "1ca6011351ca109a76d2142dcf682927e130006f86688d012087c413f6175e44",
+      "after_sha256": "e7a484872b2918c3c26a3b07810bae3ddaa92ea9dbd1de65f51991d2e858ac48",
+      "fields_changed": [
+        "subject_ids",
+        "required_access_facets"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-F29B1815E8D2",
+      "before_sha256": "e17c7cd9719f27f73634acefb6c045ff16a7ed4269369cbd0ee734865d98b033",
+      "after_sha256": "3411c94d59430bf2a380fecf638f3fffb89a33f1a07623c76a754bfa34746c92",
+      "fields_changed": [
+        "subject_ids",
+        "required_access_facets"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-IRDEP-008",
+      "before_sha256": "dc22e086ee7e3ca19832ec20599d0de5f993ce474d5756ff8c32a3e70867325f",
+      "after_sha256": "c3ab1d8cf51e0da3a3437bbc313ba76871bebae1e9ed1746f959355018a376da",
+      "fields_changed": [
+        "question",
+        "source_pages",
+        "subject_ids",
+        "required_access_facets"
+      ],
+      "source": "001_exact_value_review_reconciled_here"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-1471EC30563C",
+      "before_sha256": "1f907cf21f614e8dd1678ddfe11effe3a9cb948be8fdc253b321da6abbace198",
+      "after_sha256": "765bece785a999b4c4c5ded9f0fe77c49209d99d81727eaaf32693cfe619419f",
+      "fields_changed": [
+        "source_pages"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-B445EC8059DB",
+      "before_sha256": "2db176a0711d055e6f69752a9e2fa4d79adbd48e12aec5448c6aab0f8f45fcbd",
+      "after_sha256": "c8000455105b889ee6c38a3b69ff2d64e1593a2f82562806642ffb6099c89e54",
+      "fields_changed": [
+        "question"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-B18399A46518",
+      "before_sha256": "e092196f588e3ddf89407984ed12c0e68daff8ee30535dd14849d3df0038539a",
+      "after_sha256": "8d19aaac8dd7618ca0caa01e08cf65cb975c48dc8ccc07c5ded142688f51a220",
+      "fields_changed": [
+        "question"
+      ],
+      "source": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json"
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-9B51E63EF68F",
+      "before_sha256": "029b0af391c307fde5dfe1dba5182574fbb29737466562043a688f9b067247ff",
+      "after_sha256": "37577e28261d05dcbb19f46ae24a966e5dc1055b545bf2a074c0d07ac5274b5d",
+      "fields_changed": [
+        "evidence"
+      ],
+      "source": "REF-ISR-CV111146-DEP-001"
+    }
+  ],
+  "overlap_resolutions": [
+    {
+      "entity_id": "TASK-SUCC-B18399A46518",
+      "selected_from": "successor/independent-review/actual-draft/integration/tail-composed-values.lead-review.v1.json",
+      "superseded_proposal": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json",
+      "reason": "Both repairs require military recovery as the immediate opportunity. Select the tail formulation explicitly naming Sieyes’s opportunity and Bonaparte alliance, while retaining military crisis and allied division; all three subject links remain coherent."
+    },
+    {
+      "entity_id": "REL-SUCC-69AF11C8E08F",
+      "selected_from": "successor/independent-review/actual-draft/integration/007-composed-values-147-162.lead-review.v1.json",
+      "superseded_proposal": "successor/independent-review/actual-draft/reviewer-001-006-repaired-values-007-groups-111-146/proposed-records.v1.json",
+      "reason": "Only the lead wording assigns the meeting statement to193 rather than194."
+    },
+    {
+      "entity_id": "SUBJ-SUCC-CC730DB406A0",
+      "selected_from": "tail main/stance plus001294 evidence",
+      "reason": "Both requirements are compatible; prevent duplicated chronological text while retaining every exact distinction."
+    }
+  ],
+  "whole_changes_from_stage9": [
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "before_sha256": "c6439eb3073d51e6fb57dfe399de78a985b324960eb39f4211a44cefe5216529",
+      "after_sha256": "9d0adf27738c51f1eed8d25aad609e457be57c78da59dd9134d001d1b1d14efa",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-9601697A1247",
+      "before_sha256": "cc8bb6eb7f41cb931055796064f61af29078cc8dac46b5f80c431cf6f876d26c",
+      "after_sha256": "a90ab045d1156963a982babb4ddf724f26cd4d4b59327b31955d8ba671944ca9",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-84898172084C",
+      "before_sha256": "fdb3d7d6b578653091faa136daf2e248a47141092e127cf1f4957ee5b229ae05",
+      "after_sha256": "a6f65a5ab0ed113a32bf65e3b46194635a540805b904ff217478efb0caf093c6",
+      "fields_changed": [
+        "evidence"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-8A3FF7132FF1",
+      "before_sha256": "cc5bf58dc4a64687ffa295612bc92b0f04e68599734a39b8862c6401080ca7ed",
+      "after_sha256": "dec61903f36b4fe1b0a1095bb979ed0748b0a49a90c0f3d6540d9153aa34ae34",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-D319BFEA28A1",
+      "before_sha256": "6c6ac9690c7e81dee37d20a366bf82f8f6dd9b26830fa2be6aa756a4798bdee1",
+      "after_sha256": "37d509115e18717b71425cfed8bae28a247524c082c12a590f914953595d0d0b",
+      "fields_changed": [
+        "evidence"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-5F07AA578495",
+      "before_sha256": "b6bb4ccba927883cc276f358a61f044847ae314a588f239ff94bf7bedca65717",
+      "after_sha256": "9ceb88e5294f92bec10c6a328d7efac120b8dea02da74fc8a13ae27334db0a1c",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-5AAF2CE28F56",
+      "before_sha256": "3bc7635465817dcf67883576bf523a823780c720dd94d4ec73b44cb8fcf4a488",
+      "after_sha256": "6f278a70430fa8017df81379479828ee90d2bb6734ab1ec5eb2106cc506d7684",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-9EE30DCC1721",
+      "before_sha256": "1932ab6074534fdce289e1d06408f257cf51fac03f447694118655893a363f57",
+      "after_sha256": "a9989373772a77a6692ebf59175d97966193fece75c5d9a3400ac9b08a49c442",
+      "fields_changed": [
+        "acceptable_access",
+        "evidence",
+        "label",
+        "meaning",
+        "priority",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-85C459BB83CE",
+      "before_sha256": "48e1d6a0da9e72b0f2ab9be51e43341f5c55c52426c7ed3db9c0891154d508c3",
+      "after_sha256": "b5ac3c48c7986e53f79adebfe46c2be2f42cf0c132e48286bdf6ad27f2910b78",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-0D87BD18FE77",
+      "before_sha256": "9dfb738307a0a7f15e68956b08da0e490ae236bd4b2adf5455a86a75ce05d85b",
+      "after_sha256": "567d44dec0ca306cf04935bfe34d9bac062f2939be9db4ebf28bb0e78cf27ce8",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-31D23A1391B1",
+      "before_sha256": "161244e0c611a2492d8eec81e047d386080238902054d81b8aa1db86065e224f",
+      "after_sha256": "56813665f17e563fff0ec806d2428bed730a3c0df630b55f2390ef6b9c9015a4",
+      "fields_changed": [
+        "evidence"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-E801BA395EE8",
+      "before_sha256": "a9dce65c04bd4c0306881d0c9695cf794f75291e3f58fbb686400bbd7bb201e5",
+      "after_sha256": "307ffc4fe7fe39d37646947dd0bc12043915811c17d574aea02f0c8ab3bc82b8",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A09DB8EABD5C",
+      "before_sha256": "584360049f904cfdbd3fbf567da96e0a18a5175105999ad6d9ea9db7175806c3",
+      "after_sha256": "9efd8f07a42dfc827eb1aec8f46980237bcb721c11282fa681ff64294a759f7c",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-C31553A0D1B9",
+      "before_sha256": "5eb81954a05490d075e36d8ca882ac528d4db3cf9630fd32c59ada08f88e0ae0",
+      "after_sha256": "71c297c13b10a9c6aab24414b364c9b72c97380fc15af840c72a512783e4a1dc",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-C7DF46AA6436",
+      "before_sha256": "c5c716556eabfc4ab009882a38cb3ef4e1e859df797f854441d095091f537c34",
+      "after_sha256": "b3ada4a8875717a969cb3767e293d0e65e12fe0e5e30af045b8941b024f2dca6",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-2E5B26D8A9D6",
+      "before_sha256": "5200e0c29435168b03a2643e4e8b2506d2857f74719314bafa8c7c39e766a02b",
+      "after_sha256": "513d80243209dfe52b6c37b7a0e876317c44be0dc583a1f044b356121db67e21",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-65D590EBAFE2",
+      "before_sha256": "f5c747da8514a4ee0ad60b181048a100fe67335a0d74f8196c4e09287f4d9488",
+      "after_sha256": "ba53d5691abd71ba137e68040c971479e4b46063b8bb8a415ec6d1ebbac63e11",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A314B3102640",
+      "before_sha256": "75e81a56460dd0fc2d4b3dfb01010c0c8e55b83be63ca0b116106b187f1acd17",
+      "after_sha256": "359da0dba0b2e51bd9a4df1203d53ae3e119ba5e2a4806e13527e692f499ae9c",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-1EBCC35F6918",
+      "before_sha256": "a1ddf183caa3788fc3056ea14784e36ccade60b279ffeac37f6a779685ee4246",
+      "after_sha256": "7656383c995ea0046e35255814f7fdce56af60318001da9effdd7560c5e7dc5e",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-7A343F73BC1F",
+      "before_sha256": "6d2d40df0724e59aee4d49a4b69a19399620a7649307574a0a1caa6a41812b63",
+      "after_sha256": "a8369c8cda01b0a4d56415c6d7ae397ea8b6ab452c37f47c7962d518899c095c",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-C8838C6F47C7",
+      "before_sha256": "055e988c430a845957766fb1610378b8a624aa164d655ae6b04671ac57f61b56",
+      "after_sha256": "3652093b2aa0620d0e939e177dec2dd2cf2220629c57f6e5fa60d4f2e24bc718",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-13AF8F136719",
+      "before_sha256": "c892b7d37be49f3bafb68f170718455c298d53e91fb029ff1187fa0d5a7ab338",
+      "after_sha256": "c54d40e06d8c48cdd1e2d0f1f4892aa50c13848a8f2a6ed9c3303a5f57098050",
+      "fields_changed": [
+        "evidence"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-CC730DB406A0",
+      "before_sha256": "65774e7d2166ca784b98955bce888b64651318d06c9bb8c18a80f42ffcdb35b3",
+      "after_sha256": "fbde5408a14b1477da03e286341d947d8969563c9c559917275a905130aba4b2",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-9B51E63EF68F",
+      "before_sha256": "029b0af391c307fde5dfe1dba5182574fbb29737466562043a688f9b067247ff",
+      "after_sha256": "37577e28261d05dcbb19f46ae24a966e5dc1055b545bf2a074c0d07ac5274b5d",
+      "fields_changed": [
+        "evidence"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-7C338D256927",
+      "before_sha256": "a114d39223293f84a6643a8fa0c8877a6889e45e35789afe2ec17a1a63f068c8",
+      "after_sha256": "99e36da170f4224a1619643d7256bae742302d16b152a86315ed7af74183a2c7",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "before_sha256": "4e619ecdc9f2323cb025aeb592e39d64d3416f3d520b26b2e8b2b6e12468827d",
+      "after_sha256": "33663ba7f4f5e3074f80ae84dc3d6059eaf08bfcfeb0556880a9a763b67cd331",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-44A8A4E36810",
+      "before_sha256": "04a79bf67f8040409b8dea7b16dd0a4345dc3340d9a4f073988d1acf52367236",
+      "after_sha256": "477904540ab3c7bcdf23cc2f019a1208a62fa040ffe7dc9036e20325b0f2f3c5",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-38E8081905D0",
+      "before_sha256": "c4157d1a5adfbb5bf8b5a08f92595d976bf97f49695188667d5c7dd2e1daeec2",
+      "after_sha256": "688d976d1a5e6a4db802e95422634b3853f0a72b0d52f4d50ca81a85276c9f9b",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-F8A938B3B147",
+      "before_sha256": "05d8da05d237bd2b0545e0460659f707929e91f0cd8aeb898cd5682056701a20",
+      "after_sha256": "25e6dbaa42491ea6aec4a705748364ce35d6555657535cbcd3b1c35cdc9b21ff",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-E57561515D9B",
+      "before_sha256": "02c86ea250230b4612fbed2b6d6c5c5373347ddd4c078dfc09bc75f2c22b5b54",
+      "after_sha256": "482cf68e491c3b6d34438e5208ab9c8987ba6751fb94483b4dd0bac439bc62e7",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-02AF5D334E8F",
+      "before_sha256": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c",
+      "after_sha256": "c797c4c1a4806bbe011382ec3d0393fd00e129c2279f79805b8fd63a29cb916e",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-431D9939D11B",
+      "before_sha256": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+      "after_sha256": "c054f0ebad874af1658e7a70b5a30fc4d2baf1cd816312129121a4d3a0f2ef5f",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-84B2C8434BA6",
+      "before_sha256": "8399b6670bf37d66a493f21e3cb2931b4e33c4e29445a6924f912b87f04ac32f",
+      "after_sha256": "6e03b50b24efffef0ce147ee7efde2023f1b188f0b62da25c674577e52651b35",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-D25EFF329FF1",
+      "before_sha256": "595b23547e98928d6e9bdaabdad47bb74b1fe41336aec8a9e607aed4f8f006a3",
+      "after_sha256": "7f5f55d55ba97d2ac876087586a46f8472d1b3b01909ae2c64e4691ffcc84d09",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-A946B0B96B6D",
+      "before_sha256": "23b0124d111d54f2a6df94d2cddbce75c4388ecb66411aada95dea3ab56bc7fa",
+      "after_sha256": "18a8e65004b54faf848b58740d3f24aba452b1b138f1a2f20b16ee8cf188abbb",
+      "fields_changed": [
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-6568AD1BCF30",
+      "before_sha256": "3f363a7cb9597123425d8c8df5873f591c650d4aaeb45a0766f543045a1516e8",
+      "after_sha256": "50be00b08bdaf884ba91fcd68b133efe92c1e7f7a0e0db7fffcea4a845e03408",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-5D069D724C33",
+      "before_sha256": "01c7c1595552517e8c3d381f18680b590b1187d6f09b33d574f99b242f41a831",
+      "after_sha256": "56e13fa0948556cb1950df9a76120ba5b99d04841e4ad42ad1b925b61290c698",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-28E04117C501",
+      "before_sha256": "6819e0953ddf49fc055d6995fb93fc2031bc6a5d92ba3f4d611eaf882bc4d8e2",
+      "after_sha256": "86297586ae60bf368e4ab7729535d889f2865be64264f14c843baf80cf9a6fe8",
+      "fields_changed": [
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-39CA1B8E5293",
+      "before_sha256": "e8819224c3d422ee9d25b61b9043ce09aaecc075d983b717b55dd3fbc649b2b8",
+      "after_sha256": "760a2366470fc3cb49321af981ab25e840937807cfb5f5cc5ffe53d8895e93fa",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-43C2056DACCC",
+      "before_sha256": "956a090d3aa03470072c469ac36a14f2d5847b43021c3775fa320f3ff0ee550b",
+      "after_sha256": "2f360ca3afa5a35210d29529866874e90ddefabad7928ba9f790fdf3735fe396",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-298B26A9D77A",
+      "before_sha256": "0874bb33cce861fd6382066debe3041ac18a97fb2d13a73feb23d958c1e7ad63",
+      "after_sha256": "0711bbf2d99407ab76ea815ecb95ff1d6e285bbaa5e17f4ea49a5a0592b715aa",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-58F7F001857D",
+      "before_sha256": "7d569bd72ac572700bb7c9a641a3fd1d838cc250bba6d32e95b7ddc7f3e0fb2e",
+      "after_sha256": "ca6c5f0bdf7d60e73e701316afcb408d3491fe35835ab8df273ecade87eedbb4",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-525A1728F643",
+      "before_sha256": "9e5f0c893637c19215f715f3657728614a2deaf69af823f59957f1157a6b8f3b",
+      "after_sha256": "e7c6bc86b28c85d6785a4be04d883b4e30b574d4cb27bb29a93340476d26e1c6",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-CD9A2A52162E",
+      "before_sha256": "81b6420322f8681344665097febfd88997566c68941d9ab32bccde98366d9593",
+      "after_sha256": "2011c9f437b288830b396d08127af91d543135e18d8175e19b5222b1aa4a6817",
+      "fields_changed": [
+        "evidence",
+        "meaning",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "subjects",
+      "entity_id": "SUBJ-SUCC-F7A0D2DCF841",
+      "before_sha256": "54adc91d1bb73a029d95befbc2ef0ad0c5506acc5c30730be39eb1b5cb8d4cdc",
+      "after_sha256": "1f42cf220105cec4f681c6ab3bacca4be653037e3465d829c14bbbf75ecf5dd9",
+      "fields_changed": [
+        "evidence",
+        "required_access_facets",
+        "source_treatments",
+        "stance"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-69AF11C8E08F",
+      "before_sha256": "602b749d1f6edd7e83f48e64d2c3235eaecfdf4b169b5c573afb9e5b80f50935",
+      "after_sha256": "c374a2e4ecf682e9dfa162bb7d24d209640c3836a01bea2a3eebffe6f0cfc2f6",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-F3E18B9ED763",
+      "before_sha256": "ad89a8b6cb62919d2083a3ac1e366907824ff262a5fcaea3ac876c679ca14d32",
+      "after_sha256": "9903de9dcb2e01f890205565c59607088574b5e783205319315370966be26609",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-29EC1D192DCD",
+      "before_sha256": "df95c943de45e8d2871768381d9005284d33c78dbc6eaa7db6c7b1130feadb8f",
+      "after_sha256": "222f81f4a3555f0d2ab01f105d7747c050677a5ba30f9ae9d7639b6905466332",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-ED257E703CC3",
+      "before_sha256": "267d0808cda4c076abc972b421aace3aef5d05fd451951d439c28e440b24b8bb",
+      "after_sha256": "59c04030d0270b993aa8085e068a7173cf86b18e738925c7546430989c5138b8",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-A017156CC2E2",
+      "before_sha256": "3583bda0a470e55124d73fba211c5a1a153ae4688f138fe1fb724a953b36eaba",
+      "after_sha256": "c2dac64b36f645a2aa9020d4f257571e470654aae2ec43309eb5b05cd6925550",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-6CA0CC1A6D47",
+      "before_sha256": "bd00459720ee1fbe4d25125ef67f53132b15e03384a859885a0681d0a3563934",
+      "after_sha256": "7ce0881ead072325a0b68ad9772762a3c499fa21db06d9ff324dacf1af948973",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-408DA4CFBD7F",
+      "before_sha256": "3c10f36b59e7076b9ffaf4bdf0a731c3dbeb933f2e5147d0d4d2be9c79469e59",
+      "after_sha256": "fc5900ce9221f27fe171324ed42780d9805960b4c61353da27f316870c8c4d4e",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-C8F622C9D46F",
+      "before_sha256": "e1f0d37cff89e1cd209efb0badce96c661dcd15a2bead43d28ca66c5f3d0861b",
+      "after_sha256": "862e949eff85d7cbdecf316f8bab76828610247fcf6abc690f16b92a206569db",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-68C4CB54AB75",
+      "before_sha256": "849d259370c15c62ba9e7112d2b8a522aadb6c5c76f889dbd53b8ec9f4a32f5e",
+      "after_sha256": "cac30beab88254b1ea8a7bb8ba87aa0aa50f4374db34dd7a1fb87eb8c5a75a08",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-0A2BEDCCE8A1",
+      "before_sha256": "7a65ff0176d428c227a34e8d5f64897704392d330849f0e9244cfd7c060a9292",
+      "after_sha256": "df33dae08c67e2d1c848ce205de7cd844fe2be7eef4393e582b0423945cf0215",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-81D9B80EB36F",
+      "before_sha256": "a3d916fb250deafe9c1e71fb4e71188d621004ec6a38b54dd24274eed385bbb0",
+      "after_sha256": "47d85a9e35d724ed304aa22306a6002d71f5529475d607434ef59f7a8a9b72a6",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-B82E0832B8C7",
+      "before_sha256": "b2fc503783c39cae71ae431e868a6dc922fceb0c27a47e8090ebb7ff70baf33e",
+      "after_sha256": "336373f26eb33eb8e0e8131d74d3b509d47b6ac0dadcc967d288db1ea1a1dba1",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-012626CC7650",
+      "before_sha256": "0dcb8fcfa4d11cfe3287975ba3264ef909d769b039cbccf94f772c9bef295dda",
+      "after_sha256": "739f74d516e5fde48e3634275e33e59570d2fa98ac5f4a125a24bb6f4360c232",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-6E64AE097C31",
+      "before_sha256": "30e1768122c4e563b40dfb5a75834a7218073cf8bd7f71ec8a7f66a640d2af61",
+      "after_sha256": "d414d2da7fd7ad076ebe08cfc82cc63642f4feb95c17a99eef55a3f1d547734d",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-DF9153551991",
+      "before_sha256": "c4c96aabf086677c7bde1ce961b063bffe18a9d83b6e264034fbeb2f2796222a",
+      "after_sha256": "1695726ed82380995660eae660bb66531d3888fb69d8d39af6db9dfcb2b8ccfd",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-905C25B1D344",
+      "before_sha256": "fe16a018121a156cb735239075857fc27ef0fd4fa76db6e7e13b60a2487191fd",
+      "after_sha256": "85dad68d3ddab8bfd826d47fe386cb14c1024b1e167ab51d77388e69718bdcc6",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-886CE61D5EA7",
+      "before_sha256": "4edef4a73f8afc7d50f71e0fdcae7f87a64a8379a4b48dbc78caa94218a022df",
+      "after_sha256": "7f353391b3b58dd0aa104643a8c80bbb2563bb0683276c59ef00970ecb68b2f9",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-C6AD93770039",
+      "before_sha256": "4efdc196c22e3168e49334104c4367cf297e5713321ad92b9f97cc6006ae2707",
+      "after_sha256": "877c772a711030868840386f0a0ced4552d23724eb808a11b06c841e366da895",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-5164ECF66F67",
+      "before_sha256": "48945a1e9b9b8a2717cd06a0aaccde4764ebb4c485f12a370cb79a2bc38092ef",
+      "after_sha256": "b4fd3b65540ff04f65b8bc064e5a695ba42e8203cf76b8b018a8fdd76567aceb",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-7B203B40DA85",
+      "before_sha256": "90c6ac73f337e395f4248bd1804b99d69bad0dbdffca7a9ec16cabee4dd629b6",
+      "after_sha256": "16c4d83a3df81e25381684fbc9c97c5b0817cb3624c9d4d366f3309be821d959",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-CC0436A0AACC",
+      "before_sha256": "0b648e7debbdc88542ebb7b76201e46f93cb0cbbbbd12d95d3cd794db0107fe9",
+      "after_sha256": "cd56bf61ec619a5bcbf65a60b4bf310b543a5686110952942d0177422334bfe5",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-89C4B6C1BD91",
+      "before_sha256": "ff81019f73ca0619e9127e927760b2cb4da78cb55c5b20d90622cb00bef09ec2",
+      "after_sha256": "ab11fdb5b9942741eaff7e1d0fbfb7aee5860f75547302b8d56c9e3af40ba7c9",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-D42722963013",
+      "before_sha256": "baba0198f81323ab4b8413ef3b578663edf243c98decb34525f038b962d20c02",
+      "after_sha256": "05cc984421b36830891811773ec3e581c086bdb8aba1f4b43c30ab2990d5107b",
+      "fields_changed": [
+        "rationale"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-55F4C717D4A6",
+      "before_sha256": "f7c0f817a8cbf8f09c6ce73203cb96b0fb8098441cf82ce1fada7f1e7e54586a",
+      "after_sha256": "4810dfea094a14c4c14e9397378ba488ebfedc49214c027d717f127507664e9d",
+      "fields_changed": [
+        "evidence_document_pages"
+      ]
+    },
+    {
+      "kind": "relationships",
+      "entity_id": "REL-SUCC-PROP-D2ADD0F53EF9",
+      "before_sha256": "d568979291a1a770c3809fa5eebf4977fc8057575d8c69c2432af4d6d1604541",
+      "after_sha256": "46bee2a3aae46994a2e822464bb1961f17a7cc9b11b1bdf2c02194cd01466ceb",
+      "fields_changed": [
+        "rationale",
+        "relationship_type"
+      ]
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-1471EC30563C",
+      "before_sha256": "1f907cf21f614e8dd1678ddfe11effe3a9cb948be8fdc253b321da6abbace198",
+      "after_sha256": "765bece785a999b4c4c5ded9f0fe77c49209d99d81727eaaf32693cfe619419f",
+      "fields_changed": [
+        "source_pages"
+      ]
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-822FD108A319",
+      "before_sha256": "1ca6011351ca109a76d2142dcf682927e130006f86688d012087c413f6175e44",
+      "after_sha256": "e7a484872b2918c3c26a3b07810bae3ddaa92ea9dbd1de65f51991d2e858ac48",
+      "fields_changed": [
+        "required_access_facets",
+        "subject_ids"
+      ]
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-B445EC8059DB",
+      "before_sha256": "2db176a0711d055e6f69752a9e2fa4d79adbd48e12aec5448c6aab0f8f45fcbd",
+      "after_sha256": "c8000455105b889ee6c38a3b69ff2d64e1593a2f82562806642ffb6099c89e54",
+      "fields_changed": [
+        "question"
+      ]
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-B18399A46518",
+      "before_sha256": "511eaf0e26768ea2ac50a3d092d42203d32088e2d9511666dd57ad38a55f5fbc",
+      "after_sha256": "8d19aaac8dd7618ca0caa01e08cf65cb975c48dc8ccc07c5ded142688f51a220",
+      "fields_changed": [
+        "question"
+      ]
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-156949ABB44D",
+      "before_sha256": "085f972b5ec49cb9e77c17d78d2bf2a207fb2f7b91fc0c0c7dcde94df52810b2",
+      "after_sha256": "cc5eb4b1c684991a991e3b364b8a2780996eafba5ad46c96dd0cfdbcda36fa1a",
+      "fields_changed": [
+        "question"
+      ]
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-F29B1815E8D2",
+      "before_sha256": "e17c7cd9719f27f73634acefb6c045ff16a7ed4269369cbd0ee734865d98b033",
+      "after_sha256": "3411c94d59430bf2a380fecf638f3fffb89a33f1a07623c76a754bfa34746c92",
+      "fields_changed": [
+        "required_access_facets",
+        "subject_ids"
+      ]
+    },
+    {
+      "kind": "reader_tasks",
+      "entity_id": "TASK-SUCC-IRDEP-008",
+      "before_sha256": "dc22e086ee7e3ca19832ec20599d0de5f993ce474d5756ff8c32a3e70867325f",
+      "after_sha256": "c3ab1d8cf51e0da3a3437bbc313ba76871bebae1e9ed1746f959355018a376da",
+      "fields_changed": [
+        "question",
+        "required_access_facets",
+        "source_pages",
+        "subject_ids"
+      ]
+    }
+  ],
+  "output": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage10.v1.json",
+    "sha256": "b78991f9370eb8a6ec500880d124b61aacfdccc5873ffe9f3a59de5dcfeace85",
+    "bytes": 6737410
+  },
+  "retired_unintegrated_evidence_proposals": [
+    {
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "proposed_evidence_id": "EVID-ISR-001-LSE-033-356",
+      "final_evidence_id": "EVID-SUCC-6A3D6B83D8D8",
+      "disposition": "consolidated_same_parent_page_class_with_specific_claims_preserved",
+      "source_page": 356
+    }
+  ],
+  "counts": {
+    "subjects": 531,
+    "relationships": 501,
+    "reader_tasks": 617,
+    "exclusions": 226,
+    "uncertainties": 147
+  },
+  "facet_parent_membership_passed": true,
+  "canonical_state_and_draft_unchanged": true
+}
