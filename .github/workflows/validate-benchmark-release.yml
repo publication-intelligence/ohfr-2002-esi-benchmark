@@ -2,9 +2,6 @@ name: Validate frozen benchmark release
 
 on:
   pull_request:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: read
