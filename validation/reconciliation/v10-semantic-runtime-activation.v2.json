@@ -1,0 +1,32 @@
+{
+  "schema_version": "ohfr-v10-semantic-runtime-activation-v2",
+  "recorded_at": "2026-09-17T12:51:46.398549+00:00",
+  "result": "pass",
+  "methodology_pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/58",
+  "merged_commit": "b9f633e6ce81bcb4cf5090d4b0c3caed1e382fb9",
+  "active_runtime": "/home/john/.codex/skills/evaluate-subject-index",
+  "backup_runtime": "/home/john/.codex/runtime-backups/v10-202b6cf-before-ca70f16",
+  "previous_runtime_commit": "202b6cfd098eba751881482293e75b17d9add255",
+  "successor_runtime_commit": "ca70f16b5f982b46f93d7468e8dc87bb0825ee70",
+  "runtime_payload_sha256": "b0a85a58bf3eb673894d6d6490752e8dfaa25f7800c1035576607462a2560138",
+  "previous_installation_receipt_sha256": "1358bca093892a7cf520b85ad7561f5370ef7ef8dedfd8218a7cceff65ff8425",
+  "installed_receipt_sha256": "d967f53bcd9b8b793c243a3b40229b5f9722bc4acd97c50896db3e2f2953e581",
+  "compatibility_file": "validation/reconciliation/v10-semantic-execution-compatibility.r2.v2.json",
+  "compatibility_file_sha256": "75663cdc7e495f3bdfa769e4ba3d18b75184f7cb02dc7d99d7b37bca8a4b68bf",
+  "compatibility_sha256": "353150879fc8fb496a01d312ba0e8c34282b8a96b4fa5403f19fbd0ef647f5b8",
+  "verification": {
+    "verified_files": 203,
+    "payload_verification": "pass",
+    "semantic_cli_help_probe": "pass",
+    "github_pr_58_ci": {
+      "deterministic_tests_passed": 265,
+      "semantic_tests_passed": 20
+    },
+    "focused_schema_and_semantic_runtime_tests_passed": 16
+  },
+  "scope": {
+    "benchmark_source_or_rules_changed": false,
+    "runtime_schema_propagation_only": true,
+    "candidate_factual_judgments_changed": false
+  }
+}
