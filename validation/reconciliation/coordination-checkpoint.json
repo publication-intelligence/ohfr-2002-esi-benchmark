@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T02:38:40.395505+00:00",
+  "recorded_at": "2026-09-17T02:51:58.625155+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -63,10 +63,10 @@
       "owner_schema_checks_passed": 54
     },
     "v9_cutover": {
-      "status": "authorized_dispatched_implementation_and_validation_pending",
+      "status": "historical_preparation_superseded_by_selected_v10",
       "source_review_runtime_unchanged": true,
       "source_freeze_framework": "V8.2",
-      "candidate_evaluation_target": "V9_percentage_native_pending_validated_contract",
+      "candidate_evaluation_target": "V10_after_reviewed_runtime_and_overlay",
       "preserve_v8": true,
       "discrete_mapping": [
         0,
@@ -568,6 +568,21 @@
       "field_diffs": 13,
       "final_parent_dependencies_pending": true,
       "whole_book_approval": false
+    },
+    "integration_stage6": {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage6.v1.json",
+      "sha256": "ec761c1fc78568cda525116939e9010157ce45830a1f10c911f193689c0a61b9",
+      "status": "provisional_not_final_approval",
+      "counts": {
+        "subjects": 531,
+        "relationships": 501,
+        "reader_tasks": 617,
+        "exclusions": 226,
+        "uncertainties": 147
+      },
+      "exact_reconstruction_verified": true,
+      "verification": "validation/reconciliation/stage6-integration-verification.v1.json",
+      "parent_qualified_task_facet_identity_explicit": true
     }
   },
   "density_proposal": {
