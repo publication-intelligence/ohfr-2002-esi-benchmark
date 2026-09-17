@@ -1,0 +1,32 @@
+{
+  "schema_version": "v10-access-author-binding-verification-v1",
+  "recorded_at": "2026-09-17T05:17:04.655965+00:00",
+  "result": "pass",
+  "manifest": {
+    "path": "successor/access-amendment/author/manifest.v1.json",
+    "sha256": "24a6a3088a3d5acdf222b6b8cc94d8be9061fb6132dd41253c82eda471f9111d"
+  },
+  "amendment": {
+    "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+    "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+    "overlay_sha256": "7578ab4e013f77a6dfa773704459b7314c37a2fc7046099189d7fd9bbeaada3d"
+  },
+  "native_v10_apply_overlay_passed": true,
+  "effective_benchmark_exactly_equals_base": true,
+  "effective_benchmark_semantic_sha256": "bfd742cbd06bf79d234091617298cb46604a9f1d71f84424f3c4093441f5f9c1",
+  "before_after_populations_exact": {
+    "subjects": 531,
+    "reader_tasks": 617
+  },
+  "subject_access_field_bindings": 28,
+  "source_evidence_bindings": 129,
+  "task_record_and_declared_facet_subset_bindings": 43,
+  "task_scope_note": "The author explicitly distinguishes direct facet-content inspection from main-question/target-only checks with completed source-review reuse; no full fresh task-facet coverage is inferred.",
+  "access_scope_rule_population_verified": 531,
+  "clause_and_case_identity_sets_verified": true,
+  "bound_files_verified": 131,
+  "independent_review_pending": true,
+  "amendment_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

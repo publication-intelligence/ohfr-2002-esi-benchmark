@@ -1,0 +1,290 @@
+{
+  "schema_version": "independent-additional-fallback-review-v1",
+  "status": "sealed_scoped_component; final_benchmark_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage7.v1.json",
+      "sha256": "7a1dddebead4dd25e305f0b9866c3e0b984d9109417eea607601abcefdd5f493"
+    },
+    {
+      "path": ".source-only/source/source.pdf",
+      "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+    }
+  ],
+  "screen_context": {
+    "original_registered_draft_fallback_count": 6,
+    "stage7_fallback_count": 8,
+    "additional_task_ids": [
+      "TASK-SUCC-A03FF05DCA5B",
+      "TASK-SUCC-688C615B9475"
+    ],
+    "purpose": "Close only the two newly detected current tasks; the six original fallback decisions are preserved."
+  },
+  "actual_source_pages_reread_after_draft_access": [
+    128,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    157
+  ],
+  "source_first_claim": false,
+  "rows": [
+    {
+      "task_id": "TASK-SUCC-A03FF05DCA5B",
+      "before_record": {
+        "task_id": "TASK-SUCC-A03FF05DCA5B",
+        "question": "How did early Church dispossession and religious equality lead through the Civil Constitution, clerical oath and breach with Rome, and how did each step change relations between clergy and Revolution?",
+        "subject_ids": [
+          "SUBJ-SUCC-F066F35B29BE",
+          "SUBJ-SUCC-F3495B619256",
+          "SUBJ-SUCC-D990EC541CE5",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "source_task_ids": [],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-FA9B87A92325",
+            "question": "How did early Church dispossession and religious equality lead through the Civil Constitution, clerical oath and breach with Rome, and how did each step change relations between clergy and Revolution?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-F066F35B29BE",
+              "SUBJ-SUCC-F3495B619256",
+              "SUBJ-SUCC-D990EC541CE5",
+              "SUBJ-SUCC-2EC1BFCD2A04",
+              "SUBJ-SUCC-7BF0734F6369"
+            ],
+            "historical_task_id": "TASK-FA9B87A92325",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The complete Church sequence is stated in the parent question and all five parent targets."
+          }
+        ],
+        "editorial_rationale": "Independent source-grounded repair creates one coherent reader demand with explicit main-field bindings."
+      },
+      "before_sha256": "0adede12610b4891f89117d704b7427111495ec19573f3acf1998de95d1a7952",
+      "proposed_record": {
+        "task_id": "TASK-SUCC-A03FF05DCA5B",
+        "question": "How did early Church dispossession, religious equality, the Civil Constitution, the clerical oath and the breach with Rome successively change relations between clergy and Revolution?",
+        "subject_ids": [
+          "SUBJ-SUCC-F066F35B29BE",
+          "SUBJ-SUCC-F3495B619256",
+          "SUBJ-SUCC-D990EC541CE5",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-7BF0734F6369"
+        ],
+        "source_task_ids": [],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-FA9B87A92325",
+            "question": "How did early Church dispossession, religious equality, the Civil Constitution, the clerical oath and the breach with Rome successively change relations between clergy and Revolution?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-F066F35B29BE",
+              "SUBJ-SUCC-F3495B619256",
+              "SUBJ-SUCC-D990EC541CE5",
+              "SUBJ-SUCC-2EC1BFCD2A04",
+              "SUBJ-SUCC-7BF0734F6369"
+            ],
+            "historical_task_id": "TASK-FA9B87A92325",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The complete Church sequence is stated in the parent question and all five parent targets."
+          }
+        ],
+        "editorial_rationale": "Independent source-grounded repair creates one coherent reader demand with explicit main-field bindings."
+      },
+      "proposed_sha256": "1ba97516e1b86853b21b91f493e621741886c2baed0a3bd13459bf2924a036c7",
+      "fields_changed": [
+        "question",
+        "required_access_facets"
+      ],
+      "disposition": "approve_scoped_task_with_exact_wording_revision_pending_final_composition",
+      "substantive_reason": "The five bound subjects supply the cumulative material, civic, institutional, oath and papal dimensions. Complete pages136–146 and157 were reread after draft access. The source distinguishes the original clerical welcome, differential material effects, defensible administrative reforms, unilateral appointment/papal provisions, a coercive public choice and the eventual breach. The question is useful and answerable; change 'lead through' to 'successively change' so it does not imply that religious equality mechanically caused every later policy. The sole retained historical facet receives the same correction; its five required parents remain exactly the main binding.",
+      "parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-F066F35B29BE",
+          "record_sha256": "fba8722926a2120d0646412ba29b01bcfece8a5e292a775d3e69d2f56ce5973c",
+          "meaning": "Initially cooperative clergy confronted cumulative loss of revenues, feudal rights, property and autonomy. Utility-based suppression closed most monasteries and convents while retaining functional exceptions and prohibiting new binding vows. State dependence raised minimum salaries for some priests but brought cuts or uncertain payment for others; inventories and sales turned reform into local loyalty tests. Clerical deputies initially helped transform the Estates-General while expecting reform, not destruction of the clergy’s corporate status or autonomy. The abolition of tithes, dues, pluralism, and papal payments, followed by nationalization of Church property, removed the clergy’s independent material base and made it dependent on state salaries. The Assembly dissolved most regular religious houses and prohibited new vows, retaining only institutions serving education or charity. The nation seized ecclesiastical estates, inventoried them, and prepared their sale while taking responsibility for charitable and educational functions. After taking ecclesiastical property, the nation promised salaries to clergy and assumed responsibility for education and charity, making the Church materially dependent on the state.",
+          "stance": "Individual precedents did not remove alarm at the cumulative destruction of corporate independence. Early goodwill was not consent to that outcome, and material effects differed across the clergy. The author rejects hindsight: early clerical cooperation did not constitute consent to the far-reaching ecclesiastical settlement that followed. The author presents these measures as a sequence of losses that turned much clerical enthusiasm into a sense of dispossession despite promised income and public functions. The author explains the policy through Enlightenment utility and recent reform precedent while stressing that Catholics perceived it as another element of a hostile pattern. The author treats confiscation as both a fiscal and constitutional transformation whose local enforcement helped polarize religion. The author notes that salary reform benefited poorly paid priests but reduced other incomes and created uncertainty over when payment would begin.",
+          "relevant_evidence_ids": [
+            "EVID-SUCC-AEEE0FFC967C",
+            "EVID-SUCC-3E20C763DCDC",
+            "EVID-SUCC-B960ECD87422",
+            "EVID-SUCC-7A6C1F544196",
+            "EVID-SUCC-DE5CF2C9A672",
+            "EVID-SUCC-E339293E8057",
+            "EVID-SUCC-25E03DC47E07",
+            "EVID-SUCC-FC9427E6548D",
+            "EVID-SUCC-4A13535FD069",
+            "EVID-SUCC-B51A8D135E36",
+            "EVID-SUCC-4A8D691166CD",
+            "EVID-SUCC-EA810509146C",
+            "EVID-SUCC-A7FCCE4C0D10",
+            "EVID-SUCC-5B185A8A66B9",
+            "EVID-SUCC-54E6BBE484AB",
+            "EVID-SUCC-FCDC2E438873"
+          ],
+          "relevant_evidence_sha256": "8647fb114697e4c51583bd9b01c347bfb6a103dbbbc736cc5a241cf1997bd90f",
+          "inspection_scope": "Parent meaning/stance and task-relevant evidence considered here; existing whole-subject inspections remain separately bound, not newly claimed by this scoped task review."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-F3495B619256",
+          "record_sha256": "63236f0948c100b0ca84a712571429407af58e356057ab1de2bc4fc38b5f2c18",
+          "meaning": "Revolutionary rights policy refused Catholic monopoly or state-religion status while extending public office and civil rights beyond Catholics.",
+          "stance": "Separate the Assembly’s rejection of established Catholic monopoly from subsequent popular coercion against refractory worship; formal pluralism did not guarantee equal practical freedom. Dom Gerle’s failed motion is retained as access and evidence, not a separate biographical requirement.",
+          "relevant_evidence_ids": [
+            "EVID-SUCC-371278D8D186",
+            "EVID-SUCC-7E32B1A17A1B",
+            "EVID-SUCC-3F7526F78148",
+            "EVID-SUCC-A338A67ACBC7"
+          ],
+          "relevant_evidence_sha256": "254649f17d890c5052d38b404e4611f846c4c599915ad2a5f7f9a36faac6a670",
+          "inspection_scope": "Parent meaning/stance and task-relevant evidence considered here; existing whole-subject inspections remain separately bound, not newly claimed by this scoped task review."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-D990EC541CE5",
+          "record_sha256": "6c16433edf93eabad5eea5d073404a220cb9d86134d25300ae86995a33e299f0",
+          "meaning": "The Assembly's comprehensive reorganization of the French Church, including diocesan rationalization, elected clergy, residence rules, salaried ministry, and reduced papal authority. Diocesan rationalization followed departmental organization; election extended to clergy, residence and salaries altered careers, and papal spiritual communion was nominally retained while confirmation became notification. Later ordinary-law status meant the general constitutional oath did not itself require acceptance of the Civil Constitution. The July 1790 settlement reconstructed the French Church as a salaried, territorially rationalized, electorally staffed national institution subordinated in temporal organization to the revolutionary state. A lay-dominated Assembly committee pursued a leaner Church modeled rhetorically on early-Christian discipline and denied the Pope authority over France’s temporal religious organization. The Assembly wound up the Concordat without replacement and rejected episcopal requests for a national council to consent to reform. The Civil Constitution reduced dioceses and parishes, abolished nonpastoral benefices, imposed residence and service requirements, and established public salary scales. Bishops and parish priests were to be elected through secular citizen assemblies, while episcopal advisory councils echoed Richerist calls for less hierarchical Church government. The Civil Constitution prohibited ordinary ties to foreign bishops and reduced papal confirmation of French bishops to notification, while French clerics sought a papal response that might preserve communion. Bishops who opposed the Civil Constitution defended ecclesiastical consultation, while local authorities enforced the law through expulsions, dissolutions, elections, dismissal, and salary suspension. The committee that designed comprehensive Church reform acquired a stronger lay majority when clerical members resisted the breadth of proposed change. Richerist traditions favored election and priestly synods as checks on episcopal hierarchy, influencing advisory councils in the Civil Constitution.",
+          "stance": "Distinguish administrative reconstruction from doctrinal claims, nominal communion from reduced jurisdiction, and the specific clerical oath from the constitutional oath. These institutional distinctions mattered to contested legitimacy and resistance. The author sees many administrative reforms as defensible and acceptable, but identifies unilateral state action, lay election, and papal displacement as the provisions that made schism likely. The author notes that only a minority were freethinking anti-clericals; most reformers understood themselves as sincere Catholics, which makes the ensuing conflict more than a simple secular assault. The author treats rejection of ecclesiastical consultation as a crucial procedural error: it left no French Church authority capable of offsetting a papal condemnation. The author distinguishes these practical reforms from the appointment and papal questions, judging much of the rationalization reasonable and potentially acceptable to most clergy. The author stresses that clerical reform traditions did not entail election by lay bodies that might include non-Catholics or unbelievers. The author treats schism as foreseeable but not initially desired by most French clergy or even by the temporizing Pope. The author distinguishes the bishops’ restrained constitutional argument from the insurrectionary meaning attributed to it by patriots. The author distinguishes a small freethinking minority from the larger group of sincere Catholic reformers, preventing the committee from being reduced to simple anti-religious intent. The author limits the analogy: Richerists did not advocate unrestricted lay election by religiously mixed citizen bodies.",
+          "relevant_evidence_ids": [
+            "EVID-SUCC-19915AF9B0BF",
+            "EVID-SUCC-0816B0E1CCEF",
+            "EVID-SUCC-62C1386F1326",
+            "EVID-SUCC-A66D38C74014",
+            "EVID-SUCC-5465B5D8C723",
+            "EVID-SUCC-2B512959B34C",
+            "EVID-SUCC-4E93FE6A853D",
+            "EVID-SUCC-49DB0078B01D",
+            "EVID-SUCC-BD410FBE27F4",
+            "EVID-SUCC-A9C0A7426E7E",
+            "EVID-SUCC-8D6153C8F488",
+            "EVID-SUCC-55A6EA82EEBF",
+            "EVID-SUCC-1FECEE828C45",
+            "EVID-SUCC-D3E9111796B3",
+            "EVID-SUCC-CFBBA2D7C321",
+            "EVID-SUCC-BDC218CD305F",
+            "EVID-SUCC-868AE5CE4DF2",
+            "EVID-SUCC-B1C7C31867AE",
+            "EVID-SUCC-F2CDCDF6B314",
+            "EVID-SUCC-E0375917E904",
+            "EVID-SUCC-D331BCB58041",
+            "EVID-SUCC-E599FAEBE26D",
+            "EVID-SUCC-F63BC9D9A9AA",
+            "EVID-SUCC-986F177DE528"
+          ],
+          "relevant_evidence_sha256": "524abc86133bcc05abec8fe7309f387ab1ee249292bb36f379119514cc47e68d",
+          "inspection_scope": "Parent meaning/stance and task-relevant evidence considered here; existing whole-subject inspections remain separately bound, not newly claimed by this scoped task review."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-2EC1BFCD2A04",
+          "record_sha256": "ed7a0d2b3e848ce36eb49d4f201ba852e089eaf63a34e6f274748f7aa1b33e2d",
+          "meaning": "The compulsory oath imposed on beneficed clergy, the division between constitutional priests and nonjurors, and the regional and social pattern of acceptance and refusal. The oath became a kind of opinion poll on the Revolution: local origins and parish solidarity helped western priests refuse, alongside economic incentives and official pressure elsewhere. Contrasting regional patterns and the final national synthesis remain part of the requirement. Beneficed clergy were required publicly to swear fidelity to nation, king, law, and the Assembly’s constitution, with refusal bringing replacement under the Civil Constitution. Oath-taking varied sharply by region according to clerical economy, cultural distance, earlier anti-episcopal activism, local political pressure, and ties between parish priests and communities. A priest’s oath or refusal frequently expressed parish opinion on the Revolution far beyond ecclesiastical organization; the overall result indicated a large constituency that believed change had gone far enough. Nonjurors rejected the oath and often retained strong parish support, becoming a large, geographically concentrated body whose worship and political loyalty were contested. The oath defined rival constitutional and refractory camps.",
+          "stance": "The oath is judged the Constituent Assembly’s gravest error because it compelled public choice and legitimized organized dissent. Distinguish roughly half initially refusing, about 54 percent of parish clergy ultimately swearing, and later retractions among constitutionals; local solidarity and pressure matter alongside income. Distinguish complying episcopal deputies in the Assembly from the later national episcopal count. Regional examples derive from prose, and collective solidarity should not be reduced to individual career calculation. The author calls the oath one of the Revolution’s great turning points and the Constituent Assembly’s gravest error because it compelled public choice, legitimized dissent, and divided roughly half the clergy. The author rejects a single material explanation and gives exceptional importance to lay pressure and local solidarity. The author treats the oath as a proxy for wider political consent, not merely a test of clerical doctrine or income. The author rejects the Assembly’s expectation of a tiny episcopal faction and shows refractories as central to popular opposition and counter-revolution.",
+          "relevant_evidence_ids": [
+            "EVID-SUCC-CA3CE3FD3C60",
+            "EVID-SUCC-DCC4DAA8230F",
+            "EVID-SUCC-EC4BB3882ACD",
+            "EVID-SUCC-9089C68DAF75"
+          ],
+          "relevant_evidence_sha256": "76d7dc91ea715f843984fe35dba8496a5883896060fa8d4f1485b6bb5d910ce3",
+          "inspection_scope": "Parent meaning/stance and task-relevant evidence considered here; existing whole-subject inspections remain separately bound, not newly claimed by this scoped task review."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-7BF0734F6369",
+          "record_sha256": "d24624ece25d89a6342ca979b32481d78e1a64b15f145db0c4f7bbc2636af60a",
+          "meaning": "Papal resistance to revolutionary religious policy, delayed public intervention over the Civil Constitution, and the final breach with France.",
+          "stance": "Pius VI privately warned against schism and publicly delayed. The 1791 letters stopped short of a simple formal condemnation, yet publication and political response completed the rupture; distinguish their dates from their later public circulation.",
+          "relevant_evidence_ids": [
+            "EVID-SUCC-C2DBE9754441",
+            "EVID-SUCC-65B7FC1649E5",
+            "EVID-SUCC-235991F8C23A",
+            "EVID-SUCC-A7377FECECC2",
+            "EVID-SUCC-55E06E4CA608",
+            "EVID-SUCC-AD2A1B4ACDD1",
+            "EVID-SUCC-EB0D9A706F01",
+            "EVID-SUCC-BAB1B8EE6154"
+          ],
+          "relevant_evidence_sha256": "7a3077a7956d770a9f7419b58e1a8f0874c948aba424ef5636f3ede2b0afd9f4",
+          "inspection_scope": "Parent meaning/stance and task-relevant evidence considered here; existing whole-subject inspections remain separately bound, not newly claimed by this scoped task review."
+        }
+      ],
+      "fallback_detection": "The deterministic screen detects empty source_task_ids; fallback_generated=false does not exempt this authored repair from independent fallback review.",
+      "main_facet_binding_coherence": true
+    },
+    {
+      "task_id": "TASK-SUCC-688C615B9475",
+      "before_record": {
+        "task_id": "TASK-SUCC-688C615B9475",
+        "question": "How did popular songs combine revolutionary optimism with threats against aristocrats, and how did this qualify the appearance of national unity?",
+        "subject_ids": [
+          "SUBJ-SUCC-8ABFA61625D7",
+          "SUBJ-SUCC-6F7507052D8F"
+        ],
+        "source_task_ids": [],
+        "fallback_generated": false,
+        "required_access_facets": [],
+        "editorial_rationale": "Independent source-grounded repair creates one coherent reader demand with explicit main-field bindings."
+      },
+      "before_sha256": "8c07c1a0d19e84e346c185a6b690e3b7ac611bb5e29f5d0039cf578f462030e8",
+      "proposed_record": {
+        "task_id": "TASK-SUCC-688C615B9475",
+        "question": "How did the anti-aristocratic threat added to the optimistic song Ça ira qualify the appearance of national unity?",
+        "subject_ids": [
+          "SUBJ-SUCC-8ABFA61625D7",
+          "SUBJ-SUCC-6F7507052D8F"
+        ],
+        "source_task_ids": [],
+        "fallback_generated": false,
+        "required_access_facets": [],
+        "editorial_rationale": "Independent source-grounded repair creates one coherent reader demand with explicit main-field bindings."
+      },
+      "proposed_sha256": "a45cf9cb07329edc68b826435ae5d7fed2f5ea867dfb3fe41862b92f944c8915",
+      "fields_changed": [
+        "question"
+      ],
+      "disposition": "approve_scoped_task_with_exact_wording_revision_pending_final_composition",
+      "substantive_reason": "Complete page128 was reread after draft access. Optimism at the Federation and genuine consensus coexist with noble withdrawal and the subsequent addition of an anti-aristocratic threat to Ça ira. The two bound parents explicitly support that contrast and noble alienation. The revised question specifies the one song developed by this passage and the sequence of the added threat; it does not treat threats as proof that enthusiasm was false or every noble hostile.",
+      "parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-8ABFA61625D7",
+          "record_sha256": "330469283e41e57f864d0776f396ce6c09128c42f5d6d1a5b448912b62a503e8",
+          "meaning": "The 14 July 1790 federation assembled National Guards, king, and a mass public to renew oaths and celebrate the Revolution's achievements. Regional National Guard rallies culminated in the national ceremony of 14 July 1790, publicly affirming constitutional loyalty and unity. Popular songs joined revolutionary optimism to threats against aristocrats, qualifying the apparent national unity displayed by federations.",
+          "stance": "The celebration is treated as genuine enthusiasm and perhaps the high point of consensus, not proof that emerging conflicts had disappeared. The festival is treated as a genuine high point of revolutionary consensus, not merely official spectacle, even though divisions were already visible.",
+          "relevant_evidence_ids": [
+            "EVID-SUCC-C2FC9CB0C73C",
+            "EVID-SUCC-4FAF44AB38A4",
+            "EVID-SUCC-5E1584315236"
+          ],
+          "relevant_evidence_sha256": "649880451403205f91e6cf120d04e056992e5b82ad835b5f35529cdc610cfe76",
+          "inspection_scope": "Parent meaning/stance and task-relevant evidence considered here; existing whole-subject inspections remain separately bound, not newly claimed by this scoped task review."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-6F7507052D8F",
+          "record_sha256": "fe84dff2c81af81b504621fb090736e1c25d036dc136d38a90d42fe8f3dc2356",
+          "meaning": "Court defeat in July and royal relocation in October prompted early noble departures; abolition of nobility and its symbols in June 1790 deepened alienation. Many nobles abandoned Assembly seats or elections while rural attacks and resistance undermined remaining seigneurial rights. Successive departures by courtiers, nobles, and officers register elite rejection of revolutionary change and the perceived defeat of the royal cause. Many nobles withdrew from revolutionary institutions and emigrated, while the Assembly abolished noble status, titles, orders, and heraldic distinctions.",
+          "stance": "Keep the successive causes and dates distinct. Patriotic nobles continued legislative work, and neither all nobles nor all emigrants had identical motives or conduct. Emigration is treated as a revealing political choice by opponents who believed the Revolution had become irreversible. The author distinguishes a large pattern of noble alienation from the conspicuous minority of patriotic nobles who shaped legislation.",
+          "relevant_evidence_ids": [
+            "EVID-SUCC-86F7071C04BD",
+            "EVID-SUCC-8A02922B9B1D",
+            "EVID-SUCC-0B60B21D2347"
+          ],
+          "relevant_evidence_sha256": "6ccedd0f8adc5edbbabb8c3da9e192a88a2f6d27134043ac270971b35a8e2ca3",
+          "inspection_scope": "Parent meaning/stance and task-relevant evidence considered here; existing whole-subject inspections remain separately bound, not newly claimed by this scoped task review."
+        }
+      ],
+      "fallback_detection": "The deterministic screen detects empty source_task_ids; fallback_generated=false does not exempt this authored repair from independent fallback review.",
+      "main_facet_binding_coherence": true
+    }
+  ],
+  "candidate_or_results_seen": false,
+  "whole_book_approval": false
+}

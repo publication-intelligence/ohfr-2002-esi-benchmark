@@ -1,0 +1,32 @@
+{
+  "schema_version": "independent-review-partition-amendment-v1",
+  "reason": "Lead ownership of all explicit six-item fallback screening queue; no editorial verdict",
+  "moves": [
+    {
+      "task_id": "TASK-SUCC-PROP-84AA1A064536",
+      "from": "reviewer-007-012",
+      "to": "lead"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-64DC48AB3844",
+      "from": "reviewer-007-012",
+      "to": "lead"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-0A1D8790304E",
+      "from": "reviewer-007-012",
+      "to": "lead"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-3BE9ACD9FB2D",
+      "from": "reviewer-007-012",
+      "to": "lead"
+    }
+  ],
+  "validation": {
+    "task_ids_exhaustive_and_disjoint": true,
+    "task_count": 599,
+    "all_six_screened_fallback_tasks_lead_owned": true
+  },
+  "other_assignments_unchanged": true
+}

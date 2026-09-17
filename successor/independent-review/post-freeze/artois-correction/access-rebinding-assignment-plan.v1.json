@@ -1,0 +1,166 @@
+{
+  "schema_version": "planned-source-correction-access-rebinding-assignment-v1",
+  "status": "plan_only_inactive_until_actual_v3_source_freeze_and_root_release",
+  "recorded_at": "2026-09-17T06:02:45.444354+00:00",
+  "candidate_content_or_results_included": false,
+  "existing_exact_inputs": [
+    {
+      "path": ".source-only/v10-access-interface-815bcb6/interface-inputs.v1.json",
+      "sha256": "04a5fa3ca218f83a7577a35ed78669f0cdfcaf2e769e4629671ee1fd17443d9f",
+      "bytes": 2390
+    },
+    {
+      "path": ".source-only/v10-access-interface-815bcb6/digest-helper.excerpt.v1.json",
+      "sha256": "8de25c4581c03fd8525657aeb54c63c71c9d83f640270cc4a54505a12f15df18",
+      "bytes": 1295
+    },
+    {
+      "path": "successor/access-amendment/source-only-inputs.v1.json",
+      "sha256": "efe1d5364822240babcb60d2740695b11d40cbfa275ec4ccdf97c7b1f99cae29",
+      "bytes": 63779
+    },
+    {
+      "path": "successor/access-amendment/author/manifest.v1.json",
+      "sha256": "24a6a3088a3d5acdf222b6b8cc94d8be9061fb6132dd41253c82eda471f9111d",
+      "bytes": 2628
+    },
+    {
+      "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+      "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+      "bytes": 186329
+    },
+    {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886",
+      "bytes": 15095
+    },
+    {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec",
+      "bytes": 118951
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-review-manifest.v1.json",
+      "sha256": "ab28a7e2fb282600ca350dcb6f344b82f0f31c66802c9fb31bfe5900f6beb207",
+      "bytes": 2917
+    },
+    {
+      "path": "successor/access-amendment/reviewer/benchmark-access-review.v1.json",
+      "sha256": "78499f5df31659be648e39e9e5ae3056a40a0cc05ede56471cd107f889f4aa8f",
+      "bytes": 1517
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-clause-review.v1.json",
+      "sha256": "95e3875dde60646c79358582171e29ac966764ab9a57bb5d1a4a910b16f2cc0b",
+      "bytes": 12908
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-visibility-and-assent.v1.json",
+      "sha256": "c4d679837caec64f2bb1aac40183835c38b6ddfefb39d6ea665eac8cf8fc939e",
+      "bytes": 2900
+    },
+    {
+      "path": "successor/access-amendment/final-source-only-handoff.v1.json",
+      "sha256": "6b5ec466afd1e9bd68e928b7060531bbbe8fafde8b3f94a34e8d5cd1282fab42",
+      "bytes": 7319
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-authorization-and-duplicate-distinction.referral.v1.json",
+      "sha256": "252fb041b0136193c231b6bdd471c32a1dfbb5c361f7619d28225fbae96688b9",
+      "bytes": 20105
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/proposal-manifest.v2.json",
+      "sha256": "ce71d24770fcb8669d11d0e328640b29cbc47bddbfe74245d89a961800f70f52",
+      "bytes": 2662
+    },
+    {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    {
+      "path": "successor/source/evaluation-policy.v4.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+      "bytes": 9735
+    }
+  ],
+  "required_future_inputs_not_yet_bound": [
+    {
+      "path": "successor/source/source-benchmark.v3.json",
+      "role": "Actual independently approved/frozen corrected final; bind exact file and canonical benchmark hashes after freeze"
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v2.json",
+      "role": "Actual independent correction review; bind exact file hash after freeze"
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v3.json",
+      "role": "Actual newly frozen source state; bind its post-freeze hash, never current pre-freeze bytes as if frozen"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-byte-assent.v1.json",
+      "role": "Actual exact corrected-final/review assent"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/manifest.v1.json",
+      "role": "Actual independent narrow source-correction completion manifest (use its actual final filename if different)"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/typed-freeze-receipt.v1.json",
+      "role": "Actual source correction registration receipt; bind actual filename/hash"
+    }
+  ],
+  "assignments": [
+    {
+      "agent_id": "/root/successor_review_007_012",
+      "role": "author",
+      "output_directory": "successor/access-amendment/source-correction-v3/author",
+      "scope": "Verify exact post-freezev3 identity and whole subject/task/access-content equality to previously approvedv2. Acknowledge one retired unsupported Artois authorization relation and preservation of qualified princely-network access. Reassess only whether this narrow correction affects the four approved clauses, reusing the exact prior source/author/access reasoning for unchanged values. If warranted, author a NEW zero-delta schema proposal with new identity and actual post-freeze preparation timestamp bound to corrected final/review; do not mutate prior amendment or assert approval."
+    },
+    {
+      "agent_id": "/root/successor_independent_review/source_review_001_006",
+      "role": "independent_reviewer",
+      "output_directory": "successor/access-amendment/source-correction-v3/reviewer",
+      "scope": "After exact authored proposal addendum, independently verify every new binding, populations, full access-content equality, one-edge qualification and declared prior-review reuse. Reuse prior four-clause reasoning explicitly without a fresh broad access/source pass. Approve only exact completed proposal bytes after genuine narrow review; bind a new current-schema review and actual review timestamp. Preserve previous review and all source proof."
+    }
+  ],
+  "expected_unchanged_scope": {
+    "subject_count": 531,
+    "reader_task_count": 617,
+    "subject_evidence_rows": 3297,
+    "subject_access_facets": 597,
+    "task_access_facets": 980,
+    "source_pages": [
+      1,
+      425
+    ],
+    "policy_map_manifest_scope_priorities_and_weights": "unchanged; verify exact values after actual freeze",
+    "relationship_delta_to_acknowledge": [
+      "retired REL-SUCC-8AD7BFC51F21"
+    ]
+  },
+  "minimum_new_review_questions": [
+    "Does every subject/task/access field and evidence row remain exactly equal to the prior approved access base?",
+    "Does the one-edge retirement remove only unsupported personal authorization, while preserving the independently supported network and comparison routes?",
+    "Do the new amendment/review bind actual v3 final, independent review and frozen source state without rewriting any original proof or inventing a fresh discovery chronology?"
+  ],
+  "release_sequence": [
+    "Wait for genuine independentv3source approval, normal typedc11freeze and root post-state verification.",
+    "Only then produce the exact source-only input packet and activate author007; it must bind actual resulting hashes and prior reasoning manifests.",
+    "After author seals a complete proposal, supply its exact-file addendum to independent reviewer001.",
+    "After independent review and exact-byte assent, return handoff to root for separate technical amendment freeze/lock mechanics."
+  ],
+  "prohibited_actions": [
+    "No new base hashes or approval timestamps inferred before v3freeze.",
+    "No candidate, audit, score, result, path, app/task-history or unrelated root documentation exposure.",
+    "No fresh source discovery or broad access review quota; no changes to priorities, weights, source scope or duplicated retained distinctions.",
+    "No original source or amendment file mutation; no runtime activation, lock selection or amendment freeze by this plan."
+  ],
+  "author_and_reviewer_not_yet_dispatched_for_this_step": true
+}

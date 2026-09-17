@@ -1,0 +1,22 @@
+{
+  "schema_version": "v10-semantic-uncertainty-addendum-review-v1",
+  "recorded_at": "2026-09-17T05:56:36.007263+00:00",
+  "status": "approved_for_isolated_implementation_and_joint_review_not_activated",
+  "contract_owner_task": "01a09903-ee81-7122-8cfc-b2c2c7217114",
+  "parent_contract_sha256": "f812eae0d09b60a4c1e74b1b6b9e6dd5850e088f9f9bb583152e9559f6ee07a9",
+  "addenda": [
+    {
+      "path": "docs/v10-semantic-uncertainty-addendum-v1.md",
+      "sha256": "e0f0e91a23274a94e292409b17df53d1b403bd0a52b26e6e7ae84809430c5f76"
+    },
+    {
+      "path": "docs/v10-semantic-uncertainty-addendum-v2.md",
+      "sha256": "fea2a5b87f9e063d28135895fdb7d3637dfe4d2edd294fb7a50fd3aff7009277"
+    }
+  ],
+  "coordinator_review": "Exact v2 clarifications preserve known axes, jointly consistent uncertainty states, validity/assessment/readiness precedence and physical-only small-denominator exception; strict identical retained-distinction canonicalization preserves source bytes and multiplicity.",
+  "active_runtime_changed": false,
+  "source_or_common_lock_changed": false,
+  "candidate_evidence_changed": false,
+  "runtime_and_consumer_review_required": true
+}

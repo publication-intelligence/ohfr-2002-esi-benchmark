@@ -1,0 +1,56 @@
+{
+  "status": "assigned_record_review_complete_revision_required",
+  "reviewer": "reviewer-001-006",
+  "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+  "counts": {
+    "subjects": 202,
+    "relationships": 134,
+    "reader_tasks": 336,
+    "source_first_findings": 181,
+    "evidence": 1840,
+    "subject_facets": 211,
+    "task_facets": 327
+  },
+  "verdict_counts": {
+    "subjects": {
+      "faithful": 86,
+      "revise": 115,
+      "faithful_with_lineage_repair": 1
+    },
+    "relationships": {
+      "faithful": 107,
+      "revise": 8,
+      "revise_lineage": 17,
+      "revise_scope": 1,
+      "revise_locator": 1
+    },
+    "tasks": {
+      "faithful": 204,
+      "revise_targets": 7,
+      "revise_facet_attachment": 3,
+      "depends_on_subject_fix": 39,
+      "revise_scope_and_targets": 2,
+      "revision_required": 80,
+      "retire_excluded_source": 1
+    },
+    "source_findings": {
+      "faithful": 82,
+      "defer": 16,
+      "lost": 83
+    }
+  },
+  "coverage_artifact": "coverage-and-validation.json",
+  "pending_assigned_records": [],
+  "pending_external_actions": [
+    "Lead disposition of16 source-first referrals, global policy controls and uncertainties.",
+    "Author/editor implementation and independent verification of proposed revisions; current draft is not approved."
+  ],
+  "approval": false,
+  "canonical_state_changed": false,
+  "review_ledger_sha256": {
+    "subject-review.jsonl": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+    "relationship-review.jsonl": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+    "task-review.jsonl": "3768957f9ef75d0c9f37503f36991f0307ed39d4d7abe2d2239117cc3c947b97",
+    "source-finding-reconciliation.jsonl": "ee4947b9b2f72b515f453a8c9eff34ac0f2e6eb0dbf47f5dd845a69d6e175454"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "benchmark-access-author-mechanical-check-v1",
+  "scope": "Author-side schema, exact input identities, population, stable references and no-delta preservation checks; no editorial approval or runtime/lock validation.",
+  "checks": {
+    "overlay_schema": true,
+    "self_hash": true,
+    "all_123_packet_bindings_unchanged": true,
+    "assignment_populations_exact": true,
+    "before_after_populations_identical": true,
+    "zero_delta_no_mutation": true,
+    "case_subject_and_task_ids_resolve": true,
+    "base_task_facet_bindings_subset_parent": true
+  },
+  "counts": {
+    "targeted_subjects": 28,
+    "targeted_tasks": 43,
+    "additional_exploratory_subjects": 14,
+    "additional_exploratory_tasks": 1,
+    "subject_evidence_bindings": 129,
+    "new_source_pages": 0
+  },
+  "base_file_sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+  "overlay_file_sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+  "overlay_sha256": "7578ab4e013f77a6dfa773704459b7314c37a2fc7046099189d7fd9bbeaada3d",
+  "hash_serialization": "SHA-256 over UTF-8 JSON, sorted keys, ensure_ascii=False, separators comma and colon; excludes overlay_sha256 for its self-hash."
+}

@@ -1,0 +1,2707 @@
+{
+  "schema_version": "independent-legacy-repair-composition-v1",
+  "status": "sealed_scoped_repaired_values; whole_book_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    }
+  ],
+  "group_range": [
+    81,
+    90
+  ],
+  "rows": [
+    {
+      "group_index": 81,
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0146",
+        "CORR-007-LEGACY-0147",
+        "CORR-007-LEGACY-0217",
+        "CORR-007-LEGACY-0245",
+        "CORR-007-LEGACY-0246"
+      ],
+      "source_correction_row_sha256s": [
+        "e083aeeb9259b8f8359c4688458f11a1d4a5cd5861fe7a674f0747c77fa990f1",
+        "96bf6f183d52a1b018971d5572d1ccef8d1b2ac3cd29d07df49ee8d49e9064df",
+        "168f193d5136722ad1cab82087fa20ca3cb4271e0ff10e4ad9f48d81f814e58c",
+        "c5e091ca413db22c8c4149767e32ec3191d319824d3d8efd54347d1f0d915dfe",
+        "f38ef6be11d07d28f17b87ab2a10efd78900d040a1c03fe274086915f8f88b0e"
+      ],
+      "before_record": {
+        "label": "Politically managed trials in Paris: autumn1793 and the Hébertists",
+        "priority": "major",
+        "meaning": "The trials and executions of Marie-Antoinette, leading Girondins, and other prominent figures gave the Terror famous public victims while masking its predominantly provincial toll. The queen’s rescue plot made further postponement difficult; leading Girondins faced an accelerated show trial, while Robespierre resisted prosecuting all protesting deputies. The later Hébertist trial again subordinated defense to the desired result. The fugitive Girondins had varied fates outside the Paris show trial: some were executed at Bordeaux, while Pétion, Buzot and Roland committed suicide.",
+        "stance": "Treat the trials as politically managed and symbolically prominent, not numerically representative of the Terror's victims. Famous Parisian victims disproportionately shaped memory; they do not represent the Terror’s typical geography or social composition.",
+        "subject_id": "SUBJ-SUCC-C946EBBA6629",
+        "acceptable_access": [
+          "Political trials and executions in Paris, autumn 1793",
+          "Revolutionary Tribunal > political trials of 1793",
+          "Terror > famous victims",
+          "Paris > executions, autumn 1793",
+          "Revolutionary Tribunal",
+          "political trials—Terror",
+          "show trials—Paris",
+          "Fouquier-Tinville",
+          "Terror—famous victims",
+          "Paris executions—public visibility",
+          "provincial victims—relative invisibility",
+          "Marie-Antoinette—trial",
+          "Marie-Antoinette—execution",
+          "queen—Terror",
+          "Girondins—trial",
+          "Girondins—executions",
+          "Girondin fugitives—deaths",
+          "Brissot—execution",
+          "Vergniaud—execution"
+        ],
+        "evidence": [
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "supporting",
+            "evidence_summary": "Danton successfully proposed dividing the tribunal to increase its rate of adjudication.",
+            "evidence_id": "EVID-SUCC-69A2255A4604",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 252,
+            "source_page_label": "252",
+            "locator_class": "principal",
+            "evidence_summary": "Popular demands and an attempted rescue made the trials of Marie-Antoinette and the Girondins inevitable despite Robespierre's delaying efforts.",
+            "evidence_id": "EVID-SUCC-2D21AEA93472",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 253,
+            "source_page_label": "253",
+            "locator_class": "principal",
+            "evidence_summary": "The accelerated Paris Girondin trial is distinguished from provincial executions and suicides among fugitives; Robespierre blocked trial of all protesting deputies. Famous Paris victims obscured the much greater provincial toll.",
+            "evidence_id": "EVID-SUCC-5BFACE5A0A78",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "principal",
+            "evidence_summary": "The Committee ordered the prosecutor to secure Hébertist convictions through a transparently political case.",
+            "evidence_id": "EVID-SUCC-E6B4A5F32338",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S022",
+            "label": "Politically managed trials in Paris: autumn1793 and the Hébertists",
+            "meaning": "The trials and executions of Marie-Antoinette, leading Girondins, and other prominent figures gave the Terror famous public victims while masking its predominantly provincial toll. The queen’s rescue plot made further postponement difficult; leading Girondins faced an accelerated show trial, while Robespierre resisted prosecuting all protesting deputies. The later Hébertist trial again subordinated defense to the desired result.",
+            "stance": "Treat the trials as politically managed and symbolically prominent, not numerically representative of the Terror's victims. Famous Parisian victims disproportionately shaped memory; they do not represent the Terror’s typical geography or social composition.",
+            "acceptable_access": [
+              "Political trials and executions in Paris, autumn 1793",
+              "Revolutionary Tribunal > political trials of 1793",
+              "Terror > famous victims",
+              "Paris > executions, autumn 1793",
+              "Revolutionary Tribunal",
+              "political trials—Terror",
+              "show trials—Paris",
+              "Fouquier-Tinville",
+              "Terror—famous victims",
+              "Paris executions—public visibility",
+              "provincial victims—relative invisibility",
+              "Marie-Antoinette—trial",
+              "Marie-Antoinette—execution",
+              "queen—Terror",
+              "Girondins—trial",
+              "Girondins—executions",
+              "Girondin fugitives—deaths",
+              "Brissot—execution",
+              "Vergniaud—execution"
+            ],
+            "document_pages": [
+              251,
+              252,
+              253,
+              270
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S022"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S022",
+            "label": "Politically managed trials in Paris: autumn1793 and the Hébertists",
+            "meaning": "The trials and executions of Marie-Antoinette, leading Girondins, and other prominent figures gave the Terror famous public victims while masking its predominantly provincial toll. The queen’s rescue plot made further postponement difficult; leading Girondins faced an accelerated show trial, while Robespierre resisted prosecuting all protesting deputies. The later Hébertist trial again subordinated defense to the desired result.",
+            "stance": "Treat the trials as politically managed and symbolically prominent, not numerically representative of the Terror's victims. Famous Parisian victims disproportionately shaped memory; they do not represent the Terror’s typical geography or social composition.",
+            "acceptable_access": [
+              "Political trials and executions in Paris, autumn 1793",
+              "Revolutionary Tribunal > political trials of 1793",
+              "Terror > famous victims",
+              "Paris > executions, autumn 1793",
+              "Revolutionary Tribunal",
+              "political trials—Terror",
+              "show trials—Paris",
+              "Fouquier-Tinville",
+              "Terror—famous victims",
+              "Paris executions—public visibility",
+              "provincial victims—relative invisibility",
+              "Marie-Antoinette—trial",
+              "Marie-Antoinette—execution",
+              "queen—Terror",
+              "Girondins—trial",
+              "Girondins—executions",
+              "Girondin fugitives—deaths",
+              "Brissot—execution",
+              "Vergniaud—execution"
+            ],
+            "document_pages": [
+              251,
+              252,
+              253,
+              270
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "aca94333b2f627025e3b86aa453afe2ce515be9523f5127f2e15ee213d1f224d",
+      "proposed_record": {
+        "label": "Politically managed trials in Paris: autumn1793 and the Hébertists",
+        "priority": "major",
+        "meaning": "The trials and executions of Marie-Antoinette, leading Girondins, and other prominent figures gave the Terror famous public victims while masking its predominantly provincial toll. The queen’s rescue plot made further postponement difficult; leading Girondins faced an accelerated show trial, while Robespierre resisted prosecuting all protesting deputies. The later Hébertist trial again subordinated defense to the desired result. The fugitive Girondins had varied fates outside the Paris show trial: some were executed at Bordeaux, while Pétion, Buzot and Roland committed suicide. Danton’s proposal to divide the tribunal increased adjudicative throughput; the Girondin defense was then curtailed because its eloquence threatened to prolong a politically predetermined trial.",
+        "stance": "Treat the trials as politically managed and symbolically prominent, not numerically representative of the Terror's victims. Famous Parisian victims disproportionately shaped memory; they do not represent the Terror’s typical geography or social composition. Increased judicial throughput is distinct from manipulation of particular political proceedings; the latter does not describe every tribunal case.",
+        "subject_id": "SUBJ-SUCC-C946EBBA6629",
+        "acceptable_access": [
+          "Political trials and executions in Paris, autumn 1793",
+          "Revolutionary Tribunal > political trials of 1793",
+          "Terror > famous victims",
+          "Paris > executions, autumn 1793",
+          "Revolutionary Tribunal",
+          "political trials—Terror",
+          "show trials—Paris",
+          "Fouquier-Tinville",
+          "Terror—famous victims",
+          "Paris executions—public visibility",
+          "provincial victims—relative invisibility",
+          "Marie-Antoinette—trial",
+          "Marie-Antoinette—execution",
+          "queen—Terror",
+          "Girondins—trial",
+          "Girondins—executions",
+          "Girondin fugitives—deaths",
+          "Brissot—execution",
+          "Vergniaud—execution"
+        ],
+        "evidence": [
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "supporting",
+            "evidence_summary": "Danton successfully proposed dividing the tribunal to increase its rate of adjudication.",
+            "evidence_id": "EVID-SUCC-69A2255A4604",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 252,
+            "source_page_label": "252",
+            "locator_class": "principal",
+            "evidence_summary": "Sections demanded trials of the detained Girondins and Marie-Antoinette, whose acquittal was politically inconceivable. Robespierre delayed them, but discovery of a plot to rescue the queen made her prosecution unavoidable; both were sent for trial on 3 October. Robespierre also prevented Billaud-Varenne’s proposed roll-call to identify supporters of mercy.",
+            "evidence_id": "EVID-SUCC-2D21AEA93472",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 253,
+            "source_page_label": "253",
+            "locator_class": "principal",
+            "evidence_summary": "Marie-Antoinette’s conspicuous execution helped define public memory of Terror. The accelerated Girondin show trial in Paris differed from provincial executions and suicides among fugitives; Robespierre blocked trial of all protesting deputies. These famous victims obscured the much greater provincial toll: 177 people were executed in Paris between October and the end of 1793. Defense eloquence threatened to prolong the Girondin proceeding, prompting deliberate procedural acceleration toward the foreordained result.",
+            "evidence_id": "EVID-SUCC-5BFACE5A0A78",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "principal",
+            "evidence_summary": "The Committee ordered the prosecutor to secure Hébertist convictions through a transparently political case.",
+            "evidence_id": "EVID-SUCC-E6B4A5F32338",
+            "source_local_subject_id": "SUCC-C011-S022",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S022",
+            "label": "Politically managed trials in Paris: autumn1793 and the Hébertists",
+            "meaning": "The trials and executions of Marie-Antoinette, leading Girondins, and other prominent figures gave the Terror famous public victims while masking its predominantly provincial toll. The queen’s rescue plot made further postponement difficult; leading Girondins faced an accelerated show trial, while Robespierre resisted prosecuting all protesting deputies. The later Hébertist trial again subordinated defense to the desired result. The fugitive Girondins had varied fates outside the Paris show trial: some were executed at Bordeaux, while Pétion, Buzot and Roland committed suicide. Danton’s proposal to divide the tribunal increased adjudicative throughput; the Girondin defense was then curtailed because its eloquence threatened to prolong a politically predetermined trial.",
+            "stance": "Treat the trials as politically managed and symbolically prominent, not numerically representative of the Terror's victims. Famous Parisian victims disproportionately shaped memory; they do not represent the Terror’s typical geography or social composition. Increased judicial throughput is distinct from manipulation of particular political proceedings; the latter does not describe every tribunal case.",
+            "acceptable_access": [
+              "Political trials and executions in Paris, autumn 1793",
+              "Revolutionary Tribunal > political trials of 1793",
+              "Terror > famous victims",
+              "Paris > executions, autumn 1793",
+              "Revolutionary Tribunal",
+              "political trials—Terror",
+              "show trials—Paris",
+              "Fouquier-Tinville",
+              "Terror—famous victims",
+              "Paris executions—public visibility",
+              "provincial victims—relative invisibility",
+              "Marie-Antoinette—trial",
+              "Marie-Antoinette—execution",
+              "queen—Terror",
+              "Girondins—trial",
+              "Girondins—executions",
+              "Girondin fugitives—deaths",
+              "Brissot—execution",
+              "Vergniaud—execution"
+            ],
+            "document_pages": [
+              251,
+              252,
+              253,
+              270
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S022"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S022",
+            "label": "Politically managed trials in Paris: autumn1793 and the Hébertists",
+            "meaning": "The trials and executions of Marie-Antoinette, leading Girondins, and other prominent figures gave the Terror famous public victims while masking its predominantly provincial toll. The queen’s rescue plot made further postponement difficult; leading Girondins faced an accelerated show trial, while Robespierre resisted prosecuting all protesting deputies. The later Hébertist trial again subordinated defense to the desired result. The fugitive Girondins had varied fates outside the Paris show trial: some were executed at Bordeaux, while Pétion, Buzot and Roland committed suicide. Danton’s proposal to divide the tribunal increased adjudicative throughput; the Girondin defense was then curtailed because its eloquence threatened to prolong a politically predetermined trial.",
+            "stance": "Treat the trials as politically managed and symbolically prominent, not numerically representative of the Terror's victims. Famous Parisian victims disproportionately shaped memory; they do not represent the Terror’s typical geography or social composition. Increased judicial throughput is distinct from manipulation of particular political proceedings; the latter does not describe every tribunal case.",
+            "acceptable_access": [
+              "Political trials and executions in Paris, autumn 1793",
+              "Revolutionary Tribunal > political trials of 1793",
+              "Terror > famous victims",
+              "Paris > executions, autumn 1793",
+              "Revolutionary Tribunal",
+              "political trials—Terror",
+              "show trials—Paris",
+              "Fouquier-Tinville",
+              "Terror—famous victims",
+              "Paris executions—public visibility",
+              "provincial victims—relative invisibility",
+              "Marie-Antoinette—trial",
+              "Marie-Antoinette—execution",
+              "queen—Terror",
+              "Girondins—trial",
+              "Girondins—executions",
+              "Girondin fugitives—deaths",
+              "Brissot—execution",
+              "Vergniaud—execution"
+            ],
+            "document_pages": [
+              251,
+              252,
+              253,
+              270
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "14a8f681c6458d7a5ec88c82a5f0f765157b919303ad29ab54bc48506efa34a4",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "251–253 distinguishes tribunal throughput from the politically predetermined Girondin proceeding, queen-specific rescue plot, blocked mercy roll-call and blocked prosecution of protest signers. Preserve the stage8 fugitive fates and restore the queen’s visibility.253’s177 Paris executions cover October through year-end, not an unqualified annual total; the composed evidence states the exact interval.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 82,
+      "subject_id": "SUBJ-SUCC-21DA491F60E3",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0148"
+      ],
+      "source_correction_row_sha256s": [
+        "8b81b84a0d8f8a5983723e3073d6d294435ef20ff228e6d76f65f73e6894c016"
+      ],
+      "before_record": {
+        "label": "Jewish emancipation and citizenship",
+        "priority": "major",
+        "meaning": "Jewish citizenship arrived in stages: the January1790 decree excluded the unassimilated Alsatian Ashkenazim, who obtained full citizenship in September1791. Religious persecution, continued prejudice and later state supervision qualified this legal emancipation.",
+        "stance": "Emancipation was neither immediate nor socially complete, but it permanently ended the older marginal legal status.",
+        "subject_id": "SUBJ-SUCC-21DA491F60E3",
+        "acceptable_access": [
+          "Jews—emancipation in France",
+          "Jewish citizenship—French Revolution",
+          "Religious equality—Jews",
+          "Alsatian Jews--national belonging and assimilation",
+          "Jewish immigration--persistent prejudice",
+          "Napoleonic regulation--Jewish communities"
+        ],
+        "evidence": [
+          {
+            "document_page": 410,
+            "source_page_label": "410",
+            "locator_class": "supporting",
+            "evidence_summary": "Earlier reforms and debate framed Jewish claims as a possible extension of Protestant emancipation.",
+            "evidence_id": "EVID-SUCC-CAC8F912DA71",
+            "source_local_subject_id": "SUCC-C017-S024",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 411,
+            "source_page_label": "411",
+            "locator_class": "principal",
+            "evidence_summary": "Full citizenship arrived in September 1791 despite opposition; persecution and prejudice persisted without restoring legal marginality.",
+            "evidence_id": "EVID-SUCC-EBC2F8B6F861",
+            "source_local_subject_id": "SUCC-C017-S024",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S024",
+            "label": "Jewish emancipation and citizenship",
+            "meaning": "Jewish citizenship arrived in stages: the January1790 decree excluded the unassimilated Alsatian Ashkenazim, who obtained full citizenship in September1791. Religious persecution, continued prejudice and later state supervision qualified this legal emancipation.",
+            "stance": "Emancipation was neither immediate nor socially complete, but it permanently ended the older marginal legal status.",
+            "acceptable_access": [
+              "Jews—emancipation in France",
+              "Jewish citizenship—French Revolution",
+              "Religious equality—Jews",
+              "Alsatian Jews--national belonging and assimilation",
+              "Jewish immigration--persistent prejudice",
+              "Napoleonic regulation--Jewish communities"
+            ],
+            "document_pages": [
+              410,
+              411
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S024"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S024",
+            "label": "Jewish emancipation and citizenship",
+            "meaning": "Jewish citizenship arrived in stages: the January1790 decree excluded the unassimilated Alsatian Ashkenazim, who obtained full citizenship in September1791. Religious persecution, continued prejudice and later state supervision qualified this legal emancipation.",
+            "stance": "Emancipation was neither immediate nor socially complete, but it permanently ended the older marginal legal status.",
+            "acceptable_access": [
+              "Jews—emancipation in France",
+              "Jewish citizenship—French Revolution",
+              "Religious equality—Jews",
+              "Alsatian Jews--national belonging and assimilation",
+              "Jewish immigration--persistent prejudice",
+              "Napoleonic regulation--Jewish communities"
+            ],
+            "document_pages": [
+              410,
+              411
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "a92be738e721abdc05d973b3412208df5d668b08d027978880d43437dfea0bac",
+      "proposed_record": {
+        "label": "Jewish emancipation and citizenship",
+        "priority": "major",
+        "meaning": "Jewish citizenship arrived in stages: the January1790 decree excluded the unassimilated Alsatian Ashkenazim, who obtained full citizenship in September1791. Religious persecution, continued prejudice and later state supervision qualified this legal emancipation.",
+        "stance": "Emancipation was neither immediate nor socially complete, but it permanently ended the older marginal legal status.",
+        "subject_id": "SUBJ-SUCC-21DA491F60E3",
+        "acceptable_access": [
+          "Jews—emancipation in France",
+          "Jewish citizenship—French Revolution",
+          "Religious equality—Jews",
+          "Alsatian Jews--national belonging and assimilation",
+          "Jewish immigration--persistent prejudice",
+          "Napoleonic regulation--Jewish communities"
+        ],
+        "evidence": [
+          {
+            "document_page": 410,
+            "source_page_label": "410",
+            "locator_class": "supporting",
+            "evidence_summary": "Earlier reforms and debate framed Jewish claims as a possible extension of Protestant emancipation.",
+            "evidence_id": "EVID-SUCC-CAC8F912DA71",
+            "source_local_subject_id": "SUCC-C017-S024",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 411,
+            "source_page_label": "411",
+            "locator_class": "principal",
+            "evidence_summary": "Doubts about the national belonging of Yiddish-speaking Alsatian Jews excluded them from the January 1790 decree; full citizenship came in September 1791. Religious persecution and hostility intensified by later immigration did not restore their old legal marginality, and Napoleon later imposed closer state supervision while consolidating citizenship.",
+            "evidence_id": "EVID-SUCC-EBC2F8B6F861",
+            "source_local_subject_id": "SUCC-C017-S024",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S024",
+            "label": "Jewish emancipation and citizenship",
+            "meaning": "Jewish citizenship arrived in stages: the January1790 decree excluded the unassimilated Alsatian Ashkenazim, who obtained full citizenship in September1791. Religious persecution, continued prejudice and later state supervision qualified this legal emancipation.",
+            "stance": "Emancipation was neither immediate nor socially complete, but it permanently ended the older marginal legal status.",
+            "acceptable_access": [
+              "Jews—emancipation in France",
+              "Jewish citizenship—French Revolution",
+              "Religious equality—Jews",
+              "Alsatian Jews--national belonging and assimilation",
+              "Jewish immigration--persistent prejudice",
+              "Napoleonic regulation--Jewish communities"
+            ],
+            "document_pages": [
+              410,
+              411
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S024"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S024",
+            "label": "Jewish emancipation and citizenship",
+            "meaning": "Jewish citizenship arrived in stages: the January1790 decree excluded the unassimilated Alsatian Ashkenazim, who obtained full citizenship in September1791. Religious persecution, continued prejudice and later state supervision qualified this legal emancipation.",
+            "stance": "Emancipation was neither immediate nor socially complete, but it permanently ended the older marginal legal status.",
+            "acceptable_access": [
+              "Jews—emancipation in France",
+              "Jewish citizenship—French Revolution",
+              "Religious equality—Jews",
+              "Alsatian Jews--national belonging and assimilation",
+              "Jewish immigration--persistent prejudice",
+              "Napoleonic regulation--Jewish communities"
+            ],
+            "document_pages": [
+              410,
+              411
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "dfe0941368236e17c8ceb5b5dfc2d9bacd43014285e54c20a238d3686756215b",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "411 supports staged citizenship, continuing religious persecution/prejudice and later supervision without restoration of old marginality. The evidence preserves the distinction between legal and social outcomes.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 83,
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0149"
+      ],
+      "source_correction_row_sha256s": [
+        "c6aa5c95cabe0154265cadaa4c80a544eb9f58f915562557711d597e20e34c0f"
+      ],
+      "before_record": {
+        "label": "Terror, emergence and character of government by terror",
+        "priority": "essential",
+        "meaning": "The Terror developed as an improvised response to military, political, subsistence, and administrative crises rather than as a fully designed system, and then became a self-reinforcing basis of government. Victory eased the emergency and encouraged demands for moderation, but denunciation, institutions and factional interests made the system self-perpetuating. Government control after the popular purges did not end terror. Control within Paris remained contested: the source describes Hanriot’s confirmation as Guard commander only after massive electoral gerrymandering against a former Champ de Mars shooter.",
+        "stance": "Treat the system as contingent and uneven: radical pressure helped initiate it, nobody fully controlled it, and the source rejects a simple intentional master plan. Distinguish contingent origins from the later agency of officials who centralized and intensified violence.",
+        "subject_id": "SUBJ-SUCC-0853ED267EBF",
+        "acceptable_access": [
+          "Terror, emergence and character of government by terror",
+          "Terror > origins and emergency conditions",
+          "government by terror > emergence and character",
+          "Revolutionary Government > relationship to the Terror",
+          "Jacobin Republic—crisis of July 1793",
+          "Republic—military and internal crisis",
+          "Revolutionary crisis, 1793",
+          "Terror—origins",
+          "Terror—agency",
+          "Terror—self-perpetuation",
+          "government by terror—historical interpretation",
+          "Republican victories—moderation",
+          "Terror—declining emergency",
+          "military recovery—political effects",
+          "indulgence—conditions",
+          "Hanriot—disputed election as Guard commander"
+        ],
+        "evidence": [
+          {
+            "document_page": 247,
+            "source_page_label": "247",
+            "locator_class": "principal",
+            "evidence_summary": "Military and provincial crises coincided with unstable control of Paris sections; Hanriot’s confirmation as Guard commander required massive electoral gerrymandering. The chapter presents this contested authority as part of the perceived absence of effective government.",
+            "evidence_id": "EVID-SUCC-8871609445AF",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "The September demonstrations drove the Convention toward radical emergency measures and made Terror the declared order of the day.",
+            "evidence_id": "EVID-SUCC-F48F4511FDC6",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 258,
+            "source_page_label": "258",
+            "locator_class": "supporting",
+            "evidence_summary": "The autumn Terror is characterized as anarchic, uncoordinated, and weakly subject to central direction.",
+            "evidence_id": "EVID-SUCC-0B90D42519BC",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 266,
+            "source_page_label": "266",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "A deputy's retrospective claim that terror arose through circumstances frames the system as uncontrolled even by those benefiting from it.",
+            "evidence_id": "EVID-SUCC-D1F3450D98E3",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 267,
+            "source_page_label": "267",
+            "locator_class": "supporting",
+            "evidence_summary": "Military and political recovery encouraged demands for moderation, but denunciation made restraint personally dangerous.",
+            "evidence_id": "EVID-SUCC-E189ED8A6925",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 271,
+            "source_page_label": "271",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Removing popular radical leaders did not end terror; government control prepared a still harsher phase.",
+            "evidence_id": "EVID-SUCC-048E739997EA",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S001",
+            "label": "Terror, emergence and character of government by terror",
+            "meaning": "The Terror developed as an improvised response to military, political, subsistence, and administrative crises rather than as a fully designed system, and then became a self-reinforcing basis of government. Victory eased the emergency and encouraged demands for moderation, but denunciation, institutions and factional interests made the system self-perpetuating. Government control after the popular purges did not end terror. Control within Paris remained contested: the source describes Hanriot’s confirmation as Guard commander only after massive electoral gerrymandering against a former Champ de Mars shooter.",
+            "stance": "Treat the system as contingent and uneven: radical pressure helped initiate it, nobody fully controlled it, and the source rejects a simple intentional master plan. Distinguish contingent origins from the later agency of officials who centralized and intensified violence.",
+            "acceptable_access": [
+              "Terror, emergence and character of government by terror",
+              "Terror > origins and emergency conditions",
+              "government by terror > emergence and character",
+              "Revolutionary Government > relationship to the Terror",
+              "Jacobin Republic—crisis of July 1793",
+              "Republic—military and internal crisis",
+              "Revolutionary crisis, 1793",
+              "Terror—origins",
+              "Terror—agency",
+              "Terror—self-perpetuation",
+              "government by terror—historical interpretation",
+              "Republican victories—moderation",
+              "Terror—declining emergency",
+              "military recovery—political effects",
+              "indulgence—conditions",
+              "Hanriot—disputed election as Guard commander"
+            ],
+            "document_pages": [
+              247,
+              251,
+              258,
+              266,
+              267,
+              271
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S001"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S001",
+            "label": "Terror, emergence and character of government by terror",
+            "meaning": "The Terror developed as an improvised response to military, political, subsistence, and administrative crises rather than as a fully designed system, and then became a self-reinforcing basis of government. Victory eased the emergency and encouraged demands for moderation, but denunciation, institutions and factional interests made the system self-perpetuating. Government control after the popular purges did not end terror. Control within Paris remained contested: the source describes Hanriot’s confirmation as Guard commander only after massive electoral gerrymandering against a former Champ de Mars shooter.",
+            "stance": "Treat the system as contingent and uneven: radical pressure helped initiate it, nobody fully controlled it, and the source rejects a simple intentional master plan. Distinguish contingent origins from the later agency of officials who centralized and intensified violence.",
+            "acceptable_access": [
+              "Terror, emergence and character of government by terror",
+              "Terror > origins and emergency conditions",
+              "government by terror > emergence and character",
+              "Revolutionary Government > relationship to the Terror",
+              "Jacobin Republic—crisis of July 1793",
+              "Republic—military and internal crisis",
+              "Revolutionary crisis, 1793",
+              "Terror—origins",
+              "Terror—agency",
+              "Terror—self-perpetuation",
+              "government by terror—historical interpretation",
+              "Republican victories—moderation",
+              "Terror—declining emergency",
+              "military recovery—political effects",
+              "indulgence—conditions",
+              "Hanriot—disputed election as Guard commander"
+            ],
+            "document_pages": [
+              247,
+              251,
+              258,
+              266,
+              267,
+              271
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "c8b8d65db5c4e84f6791134e6ced1fdd297fad528b41eeead69375bd30794074",
+      "proposed_record": {
+        "label": "Terror, emergence and character of government by terror",
+        "priority": "essential",
+        "meaning": "The Terror developed as an improvised response to military, political, subsistence, and administrative crises rather than as a fully designed system, and then became a self-reinforcing basis of government. Victory eased the emergency and encouraged demands for moderation, but denunciation, institutions and factional interests made the system self-perpetuating. Government control after the popular purges did not end terror. Control within Paris remained contested: the source describes Hanriot’s confirmation as Guard commander only after massive electoral gerrymandering against a former Champ de Mars shooter.",
+        "stance": "Treat the system as contingent and uneven: radical pressure helped initiate it, nobody fully controlled it, and the source rejects a simple intentional master plan. Distinguish contingent origins from the later agency of officials who centralized and intensified violence.",
+        "subject_id": "SUBJ-SUCC-0853ED267EBF",
+        "acceptable_access": [
+          "Terror, emergence and character of government by terror",
+          "Terror > origins and emergency conditions",
+          "government by terror > emergence and character",
+          "Revolutionary Government > relationship to the Terror",
+          "Jacobin Republic—crisis of July 1793",
+          "Republic—military and internal crisis",
+          "Revolutionary crisis, 1793",
+          "Terror—origins",
+          "Terror—agency",
+          "Terror—self-perpetuation",
+          "government by terror—historical interpretation",
+          "Republican victories—moderation",
+          "Terror—declining emergency",
+          "military recovery—political effects",
+          "indulgence—conditions",
+          "Hanriot—disputed election as Guard commander"
+        ],
+        "evidence": [
+          {
+            "document_page": 247,
+            "source_page_label": "247",
+            "locator_class": "principal",
+            "evidence_summary": "Military and provincial crises coincided with unstable control of Paris sections; Hanriot’s confirmation as Guard commander required massive electoral gerrymandering. The chapter presents this contested authority as part of the perceived absence of effective government.",
+            "evidence_id": "EVID-SUCC-8871609445AF",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "The September demonstrations drove the Convention toward radical emergency measures and made Terror the declared order of the day.",
+            "evidence_id": "EVID-SUCC-F48F4511FDC6",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 258,
+            "source_page_label": "258",
+            "locator_class": "supporting",
+            "evidence_summary": "The autumn Terror is characterized as anarchic, uncoordinated, and weakly subject to central direction.",
+            "evidence_id": "EVID-SUCC-0B90D42519BC",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 266,
+            "source_page_label": "266",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "A deputy’s retrospective claim that Terror established itself through circumstances frames its difficult control and termination. As Austrian defeats and recovery of Federalist centers eased the emergency, demands for moderation became possible, though critics risked becoming victims themselves.",
+            "evidence_id": "EVID-SUCC-D1F3450D98E3",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 267,
+            "source_page_label": "267",
+            "locator_class": "supporting",
+            "evidence_summary": "Military and political recovery encouraged demands for moderation, but denunciation made restraint personally dangerous.",
+            "evidence_id": "EVID-SUCC-E189ED8A6925",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 271,
+            "source_page_label": "271",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Removing popular radical leaders did not end terror; government control prepared a still harsher phase.",
+            "evidence_id": "EVID-SUCC-048E739997EA",
+            "source_local_subject_id": "SUCC-C011-S001",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S001",
+            "label": "Terror, emergence and character of government by terror",
+            "meaning": "The Terror developed as an improvised response to military, political, subsistence, and administrative crises rather than as a fully designed system, and then became a self-reinforcing basis of government. Victory eased the emergency and encouraged demands for moderation, but denunciation, institutions and factional interests made the system self-perpetuating. Government control after the popular purges did not end terror. Control within Paris remained contested: the source describes Hanriot’s confirmation as Guard commander only after massive electoral gerrymandering against a former Champ de Mars shooter.",
+            "stance": "Treat the system as contingent and uneven: radical pressure helped initiate it, nobody fully controlled it, and the source rejects a simple intentional master plan. Distinguish contingent origins from the later agency of officials who centralized and intensified violence.",
+            "acceptable_access": [
+              "Terror, emergence and character of government by terror",
+              "Terror > origins and emergency conditions",
+              "government by terror > emergence and character",
+              "Revolutionary Government > relationship to the Terror",
+              "Jacobin Republic—crisis of July 1793",
+              "Republic—military and internal crisis",
+              "Revolutionary crisis, 1793",
+              "Terror—origins",
+              "Terror—agency",
+              "Terror—self-perpetuation",
+              "government by terror—historical interpretation",
+              "Republican victories—moderation",
+              "Terror—declining emergency",
+              "military recovery—political effects",
+              "indulgence—conditions",
+              "Hanriot—disputed election as Guard commander"
+            ],
+            "document_pages": [
+              247,
+              251,
+              258,
+              266,
+              267,
+              271
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S001"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S001",
+            "label": "Terror, emergence and character of government by terror",
+            "meaning": "The Terror developed as an improvised response to military, political, subsistence, and administrative crises rather than as a fully designed system, and then became a self-reinforcing basis of government. Victory eased the emergency and encouraged demands for moderation, but denunciation, institutions and factional interests made the system self-perpetuating. Government control after the popular purges did not end terror. Control within Paris remained contested: the source describes Hanriot’s confirmation as Guard commander only after massive electoral gerrymandering against a former Champ de Mars shooter.",
+            "stance": "Treat the system as contingent and uneven: radical pressure helped initiate it, nobody fully controlled it, and the source rejects a simple intentional master plan. Distinguish contingent origins from the later agency of officials who centralized and intensified violence.",
+            "acceptable_access": [
+              "Terror, emergence and character of government by terror",
+              "Terror > origins and emergency conditions",
+              "government by terror > emergence and character",
+              "Revolutionary Government > relationship to the Terror",
+              "Jacobin Republic—crisis of July 1793",
+              "Republic—military and internal crisis",
+              "Revolutionary crisis, 1793",
+              "Terror—origins",
+              "Terror—agency",
+              "Terror—self-perpetuation",
+              "government by terror—historical interpretation",
+              "Republican victories—moderation",
+              "Terror—declining emergency",
+              "military recovery—political effects",
+              "indulgence—conditions",
+              "Hanriot—disputed election as Guard commander"
+            ],
+            "document_pages": [
+              247,
+              251,
+              258,
+              266,
+              267,
+              271
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "368548fcb966bc58bbbc54b929c71909d814a1364715640dc60e0deddd29f4b8",
+      "fields_changed": [
+        "evidence"
+      ],
+      "lead_source_and_composition_disposition": "266’s retrospective quotation is attributed and its relief-of-emergency passage crosses into267. The revised evidence retains Austrian/Federalist developments actually on266 without moving the subsequent Vendée conclusion onto that page.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 84,
+      "subject_id": "SUBJ-SUCC-67D4327ABD41",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0150",
+        "CORR-007-LEGACY-0151",
+        "CORR-007-LEGACY-0198",
+        "CORR-007-LEGACY-0199"
+      ],
+      "source_correction_row_sha256s": [
+        "023d44143bd958be8fb539047b39a8423ec44c043b6a4895c8e86ecfef7b007a",
+        "70f563cfe6048f164e69810d373959d284d9000016396b38eeca99e9f7457e17",
+        "7ce5e04edc550c3ffa060b78da611bad7acc5e4714d03723104bcde6818408dc",
+        "0857bd2c4c77b9aaf97105abb0846004fffbc6fee8a4a7e4db291c52d516fe4b"
+      ],
+      "before_record": {
+        "label": "Feuillants and Jacobins, changing political influence",
+        "priority": "major",
+        "meaning": "The initially larger Feuillant affiliation declined because private, cautious politics offered little public influence, while the Jacobins became the arena where prominent figures and new deputies shaped national debate.",
+        "stance": "Public political practice and reputation, not initial membership totals, explain the Jacobins' ascendancy and Feuillant collapse.",
+        "subject_id": "SUBJ-SUCC-67D4327ABD41",
+        "acceptable_access": [
+          "Feuillants and Jacobins, changing political influence",
+          "Feuillants—decline",
+          "Jacobin Club—ascendancy",
+          "Political clubs—1791–92",
+          "Feuillants",
+          "Feuillant Club",
+          "constitutional monarchists",
+          "Jacobin Club",
+          "Jacobins",
+          "Jacobin radicalization"
+        ],
+        "evidence": [
+          {
+            "document_page": 175,
+            "source_page_label": "175",
+            "locator_class": "principal",
+            "evidence_summary": "The Feuillants begin with more affiliated deputies but exclude spectators and lack visible leadership.",
+            "evidence_id": "EVID-SUCC-5E3493CB8DDC",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "principal",
+            "evidence_summary": "Feuillant membership melts away while nationally important debate and political apprenticeship concentrate at the Jacobins.",
+            "evidence_id": "EVID-SUCC-0346EA72B121",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "Nightly debate pits Brissot's war program against Robespierre's objections.",
+            "evidence_id": "EVID-SUCC-C343FF733117",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "supporting",
+            "evidence_summary": "Feuillant leaders and Robespierre oppose the increasingly dominant pro-war course from different positions.",
+            "evidence_id": "EVID-SUCC-2F9990DC85E2",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 185,
+            "source_page_label": "185",
+            "locator_class": "supporting",
+            "evidence_summary": "Replacement ministers are dismissed as weak Feuillant figures associated with Lafayette.",
+            "evidence_id": "EVID-SUCC-888864914865",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 188,
+            "source_page_label": "188",
+            "locator_class": "principal",
+            "evidence_summary": "The club increasingly supports overthrow by insurrection, with Robespierre joining the call for direct action.",
+            "evidence_id": "EVID-SUCC-243DB5F2E0CC",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 192,
+            "source_page_label": "192",
+            "locator_class": "supporting",
+            "evidence_summary": "The massacres become material for factional accusation within Jacobin politics.",
+            "evidence_id": "EVID-SUCC-2D5F999F331D",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S015",
+            "label": "Feuillants and Jacobins, changing political influence",
+            "meaning": "The initially larger Feuillant affiliation declined because private, cautious politics offered little public influence, while the Jacobins became the arena where prominent figures and new deputies shaped national debate.",
+            "stance": "Public political practice and reputation, not initial membership totals, explain the Jacobins' ascendancy and Feuillant collapse.",
+            "acceptable_access": [
+              "Feuillants and Jacobins, changing political influence",
+              "Feuillants—decline",
+              "Jacobin Club—ascendancy",
+              "Political clubs—1791–92",
+              "Feuillants",
+              "Feuillant Club",
+              "constitutional monarchists",
+              "Jacobin Club",
+              "Jacobins",
+              "Jacobin radicalization"
+            ],
+            "document_pages": [
+              175,
+              176,
+              178,
+              179,
+              185,
+              188,
+              192
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S015"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S015",
+            "label": "Feuillants and Jacobins, changing political influence",
+            "meaning": "The initially larger Feuillant affiliation declined because private, cautious politics offered little public influence, while the Jacobins became the arena where prominent figures and new deputies shaped national debate.",
+            "stance": "Public political practice and reputation, not initial membership totals, explain the Jacobins' ascendancy and Feuillant collapse.",
+            "acceptable_access": [
+              "Feuillants and Jacobins, changing political influence",
+              "Feuillants—decline",
+              "Jacobin Club—ascendancy",
+              "Political clubs—1791–92",
+              "Feuillants",
+              "Feuillant Club",
+              "constitutional monarchists",
+              "Jacobin Club",
+              "Jacobins",
+              "Jacobin radicalization"
+            ],
+            "document_pages": [
+              175,
+              176,
+              178,
+              179,
+              185,
+              188,
+              192
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "4f925482aeeada35b86b65c2776fbe6a0e990c9451f8c75406e093af75c56777",
+      "proposed_record": {
+        "label": "Feuillants and Jacobins, changing political influence",
+        "priority": "major",
+        "meaning": "The initially larger Feuillant affiliation declined because private, cautious politics offered little public influence, while the Jacobins became the arena where prominent figures and new deputies shaped national debate. The club then divided over Brissot’s war advocacy and Robespierre’s objections, increasingly supported insurrection against monarchy, and became a forum for accusations over the September massacres. Feuillant leaders initially advised royal reconciliation; subsequent antiwar caution and association with weak Lafayette-linked ministries compounded their organizational decline.",
+        "stance": "Public political practice and reputation, not initial membership totals, explain the Jacobins' ascendancy and Feuillant collapse. Ascendancy did not imply political unanimity; the war controversy and subsequent shifts must remain distinct.",
+        "subject_id": "SUBJ-SUCC-67D4327ABD41",
+        "acceptable_access": [
+          "Feuillants and Jacobins, changing political influence",
+          "Feuillants—decline",
+          "Jacobin Club—ascendancy",
+          "Political clubs—1791–92",
+          "Feuillants",
+          "Feuillant Club",
+          "constitutional monarchists",
+          "Jacobin Club",
+          "Jacobins",
+          "Jacobin radicalization"
+        ],
+        "evidence": [
+          {
+            "document_page": 175,
+            "source_page_label": "175",
+            "locator_class": "principal",
+            "evidence_summary": "Feuillants initially had more affiliated deputies but excluded spectators and lacked visible leaders. Ambitious deputies preferred the Jacobins’ public sessions for applause, political experience and contact with prominent politicians. Feuillant leaders privately encouraged royal reconciliation and hoped to influence policy despite exclusion from office.",
+            "evidence_id": "EVID-SUCC-5E3493CB8DDC",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "principal",
+            "evidence_summary": "Feuillant membership melts away while nationally important debate and political apprenticeship concentrate at the Jacobins.",
+            "evidence_id": "EVID-SUCC-0346EA72B121",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "Nightly debate pits Brissot's war program against Robespierre's objections.",
+            "evidence_id": "EVID-SUCC-C343FF733117",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 179,
+            "source_page_label": "179",
+            "locator_class": "supporting",
+            "evidence_summary": "Feuillant leaders and Robespierre oppose the increasingly dominant pro-war course from different positions.",
+            "evidence_id": "EVID-SUCC-2F9990DC85E2",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 185,
+            "source_page_label": "185",
+            "locator_class": "supporting",
+            "evidence_summary": "Replacement ministers are dismissed as weak Feuillant figures associated with Lafayette.",
+            "evidence_id": "EVID-SUCC-888864914865",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 188,
+            "source_page_label": "188",
+            "locator_class": "principal",
+            "evidence_summary": "The club increasingly supports overthrow by insurrection, with Robespierre joining the call for direct action.",
+            "evidence_id": "EVID-SUCC-243DB5F2E0CC",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 192,
+            "source_page_label": "192",
+            "locator_class": "supporting",
+            "evidence_summary": "The massacres become material for factional accusation within Jacobin politics.",
+            "evidence_id": "EVID-SUCC-2D5F999F331D",
+            "source_local_subject_id": "SUCC-C008-S015",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S015",
+            "label": "Feuillants and Jacobins, changing political influence",
+            "meaning": "The initially larger Feuillant affiliation declined because private, cautious politics offered little public influence, while the Jacobins became the arena where prominent figures and new deputies shaped national debate. The club then divided over Brissot’s war advocacy and Robespierre’s objections, increasingly supported insurrection against monarchy, and became a forum for accusations over the September massacres. Feuillant leaders initially advised royal reconciliation; subsequent antiwar caution and association with weak Lafayette-linked ministries compounded their organizational decline.",
+            "stance": "Public political practice and reputation, not initial membership totals, explain the Jacobins' ascendancy and Feuillant collapse. Ascendancy did not imply political unanimity; the war controversy and subsequent shifts must remain distinct.",
+            "acceptable_access": [
+              "Feuillants and Jacobins, changing political influence",
+              "Feuillants—decline",
+              "Jacobin Club—ascendancy",
+              "Political clubs—1791–92",
+              "Feuillants",
+              "Feuillant Club",
+              "constitutional monarchists",
+              "Jacobin Club",
+              "Jacobins",
+              "Jacobin radicalization"
+            ],
+            "document_pages": [
+              175,
+              176,
+              178,
+              179,
+              185,
+              188,
+              192
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S015"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S015",
+            "label": "Feuillants and Jacobins, changing political influence",
+            "meaning": "The initially larger Feuillant affiliation declined because private, cautious politics offered little public influence, while the Jacobins became the arena where prominent figures and new deputies shaped national debate. The club then divided over Brissot’s war advocacy and Robespierre’s objections, increasingly supported insurrection against monarchy, and became a forum for accusations over the September massacres. Feuillant leaders initially advised royal reconciliation; subsequent antiwar caution and association with weak Lafayette-linked ministries compounded their organizational decline.",
+            "stance": "Public political practice and reputation, not initial membership totals, explain the Jacobins' ascendancy and Feuillant collapse. Ascendancy did not imply political unanimity; the war controversy and subsequent shifts must remain distinct.",
+            "acceptable_access": [
+              "Feuillants and Jacobins, changing political influence",
+              "Feuillants—decline",
+              "Jacobin Club—ascendancy",
+              "Political clubs—1791–92",
+              "Feuillants",
+              "Feuillant Club",
+              "constitutional monarchists",
+              "Jacobin Club",
+              "Jacobins",
+              "Jacobin radicalization"
+            ],
+            "document_pages": [
+              175,
+              176,
+              178,
+              179,
+              185,
+              188,
+              192
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "a526f209ed2ac8dbc0024a28c61e9176c8e73d07e30be6207b8e63065ac8c5dd",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "175,179,185,188 and192 support organizational and political phases. Private royal advice is distinguished from absence of visible public leadership, and Jacobin ascendancy is distinguished from unanimity on war and insurrection.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 85,
+      "subject_id": "SUBJ-SUCC-1A51A7EA164F",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0157",
+        "CORR-007-LEGACY-0282",
+        "CORR-007-LEGACY-0283",
+        "CORR-007-LEGACY-0284"
+      ],
+      "source_correction_row_sha256s": [
+        "db415810f4aee09dc783676ba44ffa024b4c3fa88c25e55662a95c801f0d6311",
+        "c00d7a3b4d9da0f063e63f418bb62a4a79aee48671ad65da11beb48af479ffbc",
+        "61b05cffe307f57d6f58a21f97e91b7668b1b80a15157f161ff8c06358c52d42",
+        "7bc39d0a29a724184953fd17c8124ce565e28246235447b8965c3fe62d15cc1d"
+      ],
+      "before_record": {
+        "label": "Counterrevolutionary suspicion, repression and surveillance in 1792",
+        "priority": "major",
+        "meaning": "War and internal-enemy fears expanded surveillance and repression after 10 August through political justice, clerical deportation, passports, certificates of civism, searches and mass arrests. Longwy news on 26 August led to domiciliary searches on 30–31 August. The special tribunal’s slow proceedings fed demands for direct action; Verdun-related news on 2 September intensified panic before improvised prison tribunals and massacres.",
+        "stance": "Genuine military danger and politically powerful suspicions must be distinguished from proof of betrayal; the post-August measures provide the principal institutional treatment. Distinguish the statutory special tribunal from the later makeshift prison courts, and Longwy’s earlier search-and-arrest trigger from the later Verdun panic.",
+        "subject_id": "SUBJ-SUCC-1A51A7EA164F",
+        "acceptable_access": [
+          "Counterrevolutionary suspicion, repression and surveillance in 1792",
+          "Political repression—after 10 August",
+          "Domiciliary visits",
+          "Certificates of civism",
+          "Revolutionary Tribunal of 17 August",
+          "Surveillance committees",
+          "counter-revolution",
+          "internal enemies",
+          "enemy within",
+          "counter-revolutionary suspicion",
+          "Longwy, fall of",
+          "Verdun, siege",
+          "Prussian invasion panic",
+          "road to Paris, 1792 invasion",
+          "political surveillance",
+          "certificates of civism",
+          "passports after 10 August",
+          "sectional surveillance committees",
+          "domiciliary visits",
+          "house searches, August 1792",
+          "mass arrests in Paris",
+          "Paris prisons, overcrowding"
+        ],
+        "evidence": [
+          {
+            "document_page": 174,
+            "source_page_label": "174",
+            "locator_class": "supporting",
+            "evidence_summary": "Local political experience teaches new deputies to identify refractory clergy as domestic enemies.",
+            "evidence_id": "EVID-SUCC-5725171D22B6",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "supporting",
+            "evidence_summary": "Royal veto is interpreted through a broad alleged palace-emigre-foreign conspiracy.",
+            "evidence_id": "EVID-SUCC-5A61BB8DFE7D",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 182,
+            "source_page_label": "182",
+            "locator_class": "principal",
+            "evidence_summary": "Southern rumor turns an accidental-looking disaster into evidence of a coordinated counter-revolutionary plot.",
+            "evidence_id": "EVID-SUCC-D8543366D229",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 184,
+            "source_page_label": "184",
+            "locator_class": "principal",
+            "evidence_summary": "Military defeat prompts surveillance, disbandment, deportation, and claims that betrayal is everywhere.",
+            "evidence_id": "EVID-SUCC-F809CD9257E0",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 190,
+            "source_page_label": "190",
+            "locator_class": "principal",
+            "evidence_summary": "The special tribunal worked slowly while deportation law, arrests, passports and civic certificates expanded coercion. Longwy news on 26 August prompted Danton’s demand for domiciliary visits on 30–31 August and thousands of arrests.",
+            "evidence_id": "EVID-SUCC-32BB1179BD24",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Impatience with the 17 August tribunal and fear of prison breakout fed direct-action demands. Verdun-related news arrived on 2 September, followed by attacks and improvised prison tribunals; it could not have caused the earlier domiciliary visits.",
+            "evidence_id": "EVID-SUCC-10EEF36314B6",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 192,
+            "source_page_label": "192",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Most massacre victims prove not to be politically dangerous despite perpetrators' belief in a prison conspiracy.",
+            "evidence_id": "EVID-SUCC-19AE515A12E1",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S030",
+            "label": "Counterrevolutionary suspicion, repression and surveillance in 1792",
+            "meaning": "War and internal-enemy fears expanded surveillance and repression, culminating after 10 August in political justice, clerical deportation, passports and certificates of civism, searches and mass arrests. Longwy and Verdun made imprisoned suspects appear dangerous, without establishing the alleged conspiracies.",
+            "stance": "Genuine military danger and politically powerful suspicions must be distinguished from proof of betrayal; the post-August measures provide the principal institutional treatment.",
+            "acceptable_access": [
+              "Counterrevolutionary suspicion, repression and surveillance in 1792",
+              "Political repression—after 10 August",
+              "Domiciliary visits",
+              "Certificates of civism",
+              "Revolutionary Tribunal of 17 August",
+              "Surveillance committees",
+              "counter-revolution",
+              "internal enemies",
+              "enemy within",
+              "counter-revolutionary suspicion",
+              "Longwy, fall of",
+              "Verdun, siege",
+              "Prussian invasion panic",
+              "road to Paris, 1792 invasion",
+              "political surveillance",
+              "certificates of civism",
+              "passports after 10 August",
+              "sectional surveillance committees",
+              "domiciliary visits",
+              "house searches, August 1792",
+              "mass arrests in Paris",
+              "Paris prisons, overcrowding"
+            ],
+            "document_pages": [
+              174,
+              176,
+              182,
+              184,
+              190,
+              191,
+              192
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S030"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S030",
+            "label": "Counterrevolutionary suspicion, repression and surveillance in 1792",
+            "meaning": "War and internal-enemy fears expanded surveillance and repression, culminating after 10 August in political justice, clerical deportation, passports and certificates of civism, searches and mass arrests. Longwy and Verdun made imprisoned suspects appear dangerous, without establishing the alleged conspiracies.",
+            "stance": "Genuine military danger and politically powerful suspicions must be distinguished from proof of betrayal; the post-August measures provide the principal institutional treatment.",
+            "acceptable_access": [
+              "Counterrevolutionary suspicion, repression and surveillance in 1792",
+              "Political repression—after 10 August",
+              "Domiciliary visits",
+              "Certificates of civism",
+              "Revolutionary Tribunal of 17 August",
+              "Surveillance committees",
+              "counter-revolution",
+              "internal enemies",
+              "enemy within",
+              "counter-revolutionary suspicion",
+              "Longwy, fall of",
+              "Verdun, siege",
+              "Prussian invasion panic",
+              "road to Paris, 1792 invasion",
+              "political surveillance",
+              "certificates of civism",
+              "passports after 10 August",
+              "sectional surveillance committees",
+              "domiciliary visits",
+              "house searches, August 1792",
+              "mass arrests in Paris",
+              "Paris prisons, overcrowding"
+            ],
+            "document_pages": [
+              174,
+              176,
+              182,
+              184,
+              190,
+              191,
+              192
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "956709a650438f49b18a3a8478e9c3dbc82e46a51d347ae0a6a62ecf68e8e77d",
+      "proposed_record": {
+        "label": "Counterrevolutionary suspicion, repression and surveillance in 1792",
+        "priority": "major",
+        "meaning": "War and internal-enemy fears expanded surveillance and repression after 10 August through political justice, clerical deportation, passports, certificates of civism, searches and mass arrests. Longwy news on 26 August led to domiciliary searches on 30–31 August. The special tribunal’s slow proceedings fed demands for direct action; Verdun-related news on 2 September intensified panic before improvised prison tribunals and massacres. The reported Prussian advance past Verdun left no fortress apparently protecting Paris; neither this military danger nor the crowded prisons established the alleged counter-revolutionary prison conspiracy.",
+        "stance": "Genuine military danger and politically powerful suspicions must be distinguished from proof of betrayal; the post-August measures provide the principal institutional treatment. Distinguish the statutory special tribunal from the later makeshift prison courts, and Longwy’s earlier search-and-arrest trigger from the later Verdun panic.",
+        "subject_id": "SUBJ-SUCC-1A51A7EA164F",
+        "acceptable_access": [
+          "Counterrevolutionary suspicion, repression and surveillance in 1792",
+          "Political repression—after 10 August",
+          "Domiciliary visits",
+          "Certificates of civism",
+          "Revolutionary Tribunal of 17 August",
+          "Surveillance committees",
+          "counter-revolution",
+          "internal enemies",
+          "enemy within",
+          "counter-revolutionary suspicion",
+          "Longwy, fall of",
+          "Verdun, siege",
+          "Prussian invasion panic",
+          "road to Paris, 1792 invasion",
+          "political surveillance",
+          "certificates of civism",
+          "passports after 10 August",
+          "sectional surveillance committees",
+          "domiciliary visits",
+          "house searches, August 1792",
+          "mass arrests in Paris",
+          "Paris prisons, overcrowding"
+        ],
+        "evidence": [
+          {
+            "document_page": 174,
+            "source_page_label": "174",
+            "locator_class": "supporting",
+            "evidence_summary": "Local political experience teaches new deputies to identify refractory clergy as domestic enemies.",
+            "evidence_id": "EVID-SUCC-5725171D22B6",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "supporting",
+            "evidence_summary": "Royal veto is interpreted through a broad alleged palace-emigre-foreign conspiracy.",
+            "evidence_id": "EVID-SUCC-5A61BB8DFE7D",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 182,
+            "source_page_label": "182",
+            "locator_class": "principal",
+            "evidence_summary": "Southern rumor turns an accidental-looking disaster into evidence of a coordinated counter-revolutionary plot.",
+            "evidence_id": "EVID-SUCC-D8543366D229",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 184,
+            "source_page_label": "184",
+            "locator_class": "principal",
+            "evidence_summary": "Military defeat prompts surveillance, disbandment, deportation, and claims that betrayal is everywhere.",
+            "evidence_id": "EVID-SUCC-F809CD9257E0",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 190,
+            "source_page_label": "190",
+            "locator_class": "principal",
+            "evidence_summary": "The special tribunal worked slowly while clerical deportation, arrests, passports and civic certificates expanded coercion. News on 26 August of Longwy’s fall with little resistance intensified treason suspicions and prompted Danton’s demand for domiciliary visits on 30–31 August, adding roughly 3,000 prisoners to already crowded jails without proving their guilt.",
+            "evidence_id": "EVID-SUCC-32BB1179BD24",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Impatience with the 17 August tribunal and fear of a counter-revolutionary prison breakout fed direct-action demands. News on 2 September that the Prussians had passed Verdun left Paris apparently unprotected and triggered panic before the first killings and improvised prison tribunals. This later news could not have caused the earlier domiciliary visits.",
+            "evidence_id": "EVID-SUCC-10EEF36314B6",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 192,
+            "source_page_label": "192",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Most massacre victims prove not to be politically dangerous despite perpetrators' belief in a prison conspiracy.",
+            "evidence_id": "EVID-SUCC-19AE515A12E1",
+            "source_local_subject_id": "SUCC-C008-S030",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S030",
+            "label": "Counterrevolutionary suspicion, repression and surveillance in 1792",
+            "meaning": "War and internal-enemy fears expanded surveillance and repression after 10 August through political justice, clerical deportation, passports, certificates of civism, searches and mass arrests. Longwy news on 26 August led to domiciliary searches on 30–31 August. The special tribunal’s slow proceedings fed demands for direct action; Verdun-related news on 2 September intensified panic before improvised prison tribunals and massacres. The reported Prussian advance past Verdun left no fortress apparently protecting Paris; neither this military danger nor the crowded prisons established the alleged counter-revolutionary prison conspiracy.",
+            "stance": "Genuine military danger and politically powerful suspicions must be distinguished from proof of betrayal; the post-August measures provide the principal institutional treatment. Distinguish the statutory special tribunal from the later makeshift prison courts, and Longwy’s earlier search-and-arrest trigger from the later Verdun panic.",
+            "acceptable_access": [
+              "Counterrevolutionary suspicion, repression and surveillance in 1792",
+              "Political repression—after 10 August",
+              "Domiciliary visits",
+              "Certificates of civism",
+              "Revolutionary Tribunal of 17 August",
+              "Surveillance committees",
+              "counter-revolution",
+              "internal enemies",
+              "enemy within",
+              "counter-revolutionary suspicion",
+              "Longwy, fall of",
+              "Verdun, siege",
+              "Prussian invasion panic",
+              "road to Paris, 1792 invasion",
+              "political surveillance",
+              "certificates of civism",
+              "passports after 10 August",
+              "sectional surveillance committees",
+              "domiciliary visits",
+              "house searches, August 1792",
+              "mass arrests in Paris",
+              "Paris prisons, overcrowding"
+            ],
+            "document_pages": [
+              174,
+              176,
+              182,
+              184,
+              190,
+              191,
+              192
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S030"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S030",
+            "label": "Counterrevolutionary suspicion, repression and surveillance in 1792",
+            "meaning": "War and internal-enemy fears expanded surveillance and repression after 10 August through political justice, clerical deportation, passports, certificates of civism, searches and mass arrests. Longwy news on 26 August led to domiciliary searches on 30–31 August. The special tribunal’s slow proceedings fed demands for direct action; Verdun-related news on 2 September intensified panic before improvised prison tribunals and massacres. The reported Prussian advance past Verdun left no fortress apparently protecting Paris; neither this military danger nor the crowded prisons established the alleged counter-revolutionary prison conspiracy.",
+            "stance": "Genuine military danger and politically powerful suspicions must be distinguished from proof of betrayal; the post-August measures provide the principal institutional treatment. Distinguish the statutory special tribunal from the later makeshift prison courts, and Longwy’s earlier search-and-arrest trigger from the later Verdun panic.",
+            "acceptable_access": [
+              "Counterrevolutionary suspicion, repression and surveillance in 1792",
+              "Political repression—after 10 August",
+              "Domiciliary visits",
+              "Certificates of civism",
+              "Revolutionary Tribunal of 17 August",
+              "Surveillance committees",
+              "counter-revolution",
+              "internal enemies",
+              "enemy within",
+              "counter-revolutionary suspicion",
+              "Longwy, fall of",
+              "Verdun, siege",
+              "Prussian invasion panic",
+              "road to Paris, 1792 invasion",
+              "political surveillance",
+              "certificates of civism",
+              "passports after 10 August",
+              "sectional surveillance committees",
+              "domiciliary visits",
+              "house searches, August 1792",
+              "mass arrests in Paris",
+              "Paris prisons, overcrowding"
+            ],
+            "document_pages": [
+              174,
+              176,
+              182,
+              184,
+              190,
+              191,
+              192
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "70dc695d67da410841ca1ea23f1b6164f390bf89127701e935e606d425718916",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "190–191 supports the existing exact chronology. Preserve Longwy’s26 August news and30–31 August searches, slow legal tribunal and later2 September Verdun panic while adding the3,000 prisoners and explicit lack-of-guilt-proof qualification. The shorter0282 proposal cannot replace these already repaired distinctions.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 86,
+      "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0161",
+        "CORR-007-LEGACY-0162",
+        "CORR-007-LEGACY-0258"
+      ],
+      "source_correction_row_sha256s": [
+        "df4b1f475ce8932d0d7b1f5beb465dcfcd76c0bb9694a8e874b73d986cc11714",
+        "d1bbe11f19addb1ec8bbc0227376373b74261c590e88bebf58485af55eae9303",
+        "f16f435a381088a2b794812ab1e38257b858bbb6d0bb2de1eceb02df41afde0a"
+      ],
+      "before_record": {
+        "label": "The French Revolution as modern archetype and cultural tragedy",
+        "priority": "essential",
+        "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre.",
+        "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure.",
+        "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+        "acceptable_access": [
+          "French Revolution—historical significance",
+          "French Revolution—cultural transformation",
+          "French Revolution—tragedy",
+          "Modern revolution—archetype",
+          "Human cost--Revolution and Napoleonic aftermath",
+          "French and foreign deaths",
+          "Ruined lives--beyond mortality counts",
+          "Enlightenment reason--limits and unintended consequences"
+        ],
+        "evidence": [
+          {
+            "document_page": 423,
+            "source_page_label": "423",
+            "locator_class": "principal",
+            "evidence_summary": "The chapter calls it the first modern and archetypal revolution whose influence made the post-1789 European world fundamentally different.",
+            "evidence_id": "EVID-SUCC-5E5A72B85569",
+            "source_local_subject_id": "SUCC-C017-S039",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "supporting",
+            "evidence_summary": "Distinctive ideology, popular democracy, mass war and Terror transformed political change. The source distinguishes familiar massacres from the shocking novelty of systematic government execution in a society renowned for humane civilization.",
+            "evidence_id": "EVID-SUCC-F00566767CCC",
+            "source_local_subject_id": "SUCC-C017-S039",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 425,
+            "source_page_label": "425",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The conclusion estimates about a million French deaths by 1802, another million under Napoleon and further deaths abroad, alongside uncounted ruined lives. These costs qualify the founders’ courage and idealism within a deliberately tragic cultural assessment.",
+            "evidence_id": "EVID-SUCC-BF0D8B25B1FA",
+            "source_local_subject_id": "SUCC-C017-S039",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S039",
+            "label": "The French Revolution as modern archetype and cultural tragedy",
+            "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad.",
+            "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure.",
+            "acceptable_access": [
+              "French Revolution—historical significance",
+              "French Revolution—cultural transformation",
+              "French Revolution—tragedy",
+              "Modern revolution—archetype",
+              "Human cost--Revolution and Napoleonic aftermath",
+              "French and foreign deaths",
+              "Ruined lives--beyond mortality counts",
+              "Enlightenment reason--limits and unintended consequences"
+            ],
+            "document_pages": [
+              423,
+              424,
+              425
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S039"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S039",
+            "label": "The French Revolution as modern archetype and cultural tragedy",
+            "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad.",
+            "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure.",
+            "acceptable_access": [
+              "French Revolution—historical significance",
+              "French Revolution—cultural transformation",
+              "French Revolution—tragedy",
+              "Modern revolution—archetype",
+              "Human cost--Revolution and Napoleonic aftermath",
+              "French and foreign deaths",
+              "Ruined lives--beyond mortality counts",
+              "Enlightenment reason--limits and unintended consequences"
+            ],
+            "document_pages": [
+              423,
+              424,
+              425
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "c5d460f0dd76fe100b9afedb320c202ab1ac2a0f57f04a8ce7aba2e721816db8",
+      "proposed_record": {
+        "label": "The French Revolution as modern archetype and cultural tragedy",
+        "priority": "essential",
+        "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre. Its founders failed to see that reason and benevolent intention alone could not safely replace accumulated institutional experience; the generation living through the next twenty-six years bore the costs of resulting mistakes.",
+        "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure. Its claim to modern revolutionary primacy remains strong even after 1917, but many developments attributed to it continued trends already visible before 1789.",
+        "subject_id": "SUBJ-SUCC-251A2CCA89B2",
+        "acceptable_access": [
+          "French Revolution—historical significance",
+          "French Revolution—cultural transformation",
+          "French Revolution—tragedy",
+          "Modern revolution—archetype",
+          "Human cost--Revolution and Napoleonic aftermath",
+          "French and foreign deaths",
+          "Ruined lives--beyond mortality counts",
+          "Enlightenment reason--limits and unintended consequences"
+        ],
+        "evidence": [
+          {
+            "document_page": 423,
+            "source_page_label": "423",
+            "locator_class": "principal",
+            "evidence_summary": "The chapter calls it the first modern and archetypal revolution whose influence made the post-1789 European world fundamentally different.",
+            "evidence_id": "EVID-SUCC-5E5A72B85569",
+            "source_local_subject_id": "SUCC-C017-S039",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "supporting",
+            "evidence_summary": "Distinctive ideology, popular democracy, mass war and Terror transformed political change. The source distinguishes familiar massacres from the shocking novelty of systematic government execution in a society renowned for humane civilization.",
+            "evidence_id": "EVID-SUCC-F00566767CCC",
+            "source_local_subject_id": "SUCC-C017-S039",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 425,
+            "source_page_label": "425",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The Revolution’s cultural transformation embodied rare courage and Enlightenment idealism, but reason and good intention proved insufficient when accumulated experience was discarded. Doyle estimates about a million French deaths by 1802, another million under Napoleon and further deaths abroad, alongside uncounted ruined lives: an inspiring yet appalling tragedy.",
+            "evidence_id": "EVID-SUCC-BF0D8B25B1FA",
+            "source_local_subject_id": "SUCC-C017-S039",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S039",
+            "label": "The French Revolution as modern archetype and cultural tragedy",
+            "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre. Its founders failed to see that reason and benevolent intention alone could not safely replace accumulated institutional experience; the generation living through the next twenty-six years bore the costs of resulting mistakes.",
+            "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure. Its claim to modern revolutionary primacy remains strong even after 1917, but many developments attributed to it continued trends already visible before 1789.",
+            "acceptable_access": [
+              "French Revolution—historical significance",
+              "French Revolution—cultural transformation",
+              "French Revolution—tragedy",
+              "Modern revolution—archetype",
+              "Human cost--Revolution and Napoleonic aftermath",
+              "French and foreign deaths",
+              "Ruined lives--beyond mortality counts",
+              "Enlightenment reason--limits and unintended consequences"
+            ],
+            "document_pages": [
+              423,
+              424,
+              425
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S039"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S039",
+            "label": "The French Revolution as modern archetype and cultural tragedy",
+            "meaning": "The Revolution became a model of deliberate political transformation and altered political culture, memory and imagined human agency. The author’s final assessment weighs courage and Enlightenment idealism against institutional destruction, mass death, and ruined lives in France and abroad. Its horrifying novelty included systematic governmental execution over months in a country celebrated for civilization and humane Enlightenment, distinct from the already familiar phenomenon of massacre. Its founders failed to see that reason and benevolent intention alone could not safely replace accumulated institutional experience; the generation living through the next twenty-six years bore the costs of resulting mistakes.",
+            "stance": "Preserve the double judgment: inspiring and ennobling yet appalling and tragic. Aggregate mortality and nonfatal suffering are central to the verdict. The closing figures are the author’s broad estimates, not an independent verified demographic calculation, and the argument does not reduce the Revolution to either triumph or failure. Its claim to modern revolutionary primacy remains strong even after 1917, but many developments attributed to it continued trends already visible before 1789.",
+            "acceptable_access": [
+              "French Revolution—historical significance",
+              "French Revolution—cultural transformation",
+              "French Revolution—tragedy",
+              "Modern revolution—archetype",
+              "Human cost--Revolution and Napoleonic aftermath",
+              "French and foreign deaths",
+              "Ruined lives--beyond mortality counts",
+              "Enlightenment reason--limits and unintended consequences"
+            ],
+            "document_pages": [
+              423,
+              424,
+              425
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "097d48b0400426ae5d07a31f39ac1e8c93fd1149dd9c2bdd6265852ffa5953f3",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "423–425 supports modern primacy alongside structural continuity, the specific novelty of systematic execution and the final reason/intention/accumulated-experience judgment. Combine both parent additions and retain the author-attributed broad mortality estimates rather than treating them as independently established counts.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 87,
+      "subject_id": "SUBJ-SUCC-298B26A9D77A",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0163",
+        "CORR-007-LEGACY-0164",
+        "CORR-007-LEGACY-0287",
+        "CORR-007-LEGACY-0288"
+      ],
+      "source_correction_row_sha256s": [
+        "582da3dd7623bbab1b46358c95ffcbf4d97f5af5ddbb1de93fb468dc827b5aac",
+        "2eb811ef24b5b4fa73254997f836b7c8b1a814c8e50d81b5e067dd54dce0aa99",
+        "e63b38a7e56290ed03e182942b577eaab21bcb5ca133b526db64e3b8850bffdf",
+        "c3e8c005fea9c788212a9a5334e8efae956b3d301cba2e878432533ab9bdaa49"
+      ],
+      "before_record": {
+        "label": "Mass warfare, conscription, and expanded European states",
+        "priority": "essential",
+        "meaning": "Revolutionary mobilization turned war into an affair of nations and compelled rival governments to enlarge armies, taxation, policing, finance, and coercive capacity.",
+        "stance": "National mobilization forced rival states to enlarge coercion, finance and recruitment. Resistance persisted across Europe, but fear of France often legitimized burdens abroad more than within France. Clausewitz supplies a theory of removed limits; this is not a claim that every state instantly developed identical institutions.",
+        "subject_id": "SUBJ-SUCC-298B26A9D77A",
+        "acceptable_access": [
+          "Mass warfare—French Revolutionary origins",
+          "Conscription—European spread",
+          "State power—wartime expansion",
+          "Nation in arms",
+          "Clausewitz--nation in arms",
+          "Landwehr and Landsturm",
+          "Militia and press gangs",
+          "Income tax--wartime expansion",
+          "Police, spies and informers",
+          "Paper finance--European wars"
+        ],
+        "evidence": [
+          {
+            "document_page": 415,
+            "source_page_label": "415",
+            "locator_class": "principal",
+            "evidence_summary": "France mobilized national resources on a scale that forced other monarchies into mass warfare.",
+            "evidence_id": "EVID-SUCC-20E4FC791DB1",
+            "source_local_subject_id": "SUCC-C017-S029",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 416,
+            "source_page_label": "416",
+            "locator_class": "principal",
+            "evidence_summary": "Conscription, militias, police, spies, taxation, and paper money expanded across states fighting France.",
+            "evidence_id": "EVID-SUCC-EC5A34605D85",
+            "source_local_subject_id": "SUCC-C017-S029",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Arming the people and the emergencies of war revolutionized both the Revolution and the established European pattern of warfare.",
+            "evidence_id": "EVID-SUCC-DAA6653A693C",
+            "source_local_subject_id": "SUCC-C017-S029",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S029",
+            "label": "Mass warfare, conscription, and expanded European states",
+            "meaning": "Revolutionary mobilization turned war into an affair of nations and compelled rival governments to enlarge armies, taxation, policing, finance, and coercive capacity.",
+            "stance": "National mobilization forced rival states to enlarge coercion, finance and recruitment. Resistance persisted across Europe, but fear of France often legitimized burdens abroad more than within France. Clausewitz supplies a theory of removed limits; this is not a claim that every state instantly developed identical institutions.",
+            "acceptable_access": [
+              "Mass warfare—French Revolutionary origins",
+              "Conscription—European spread",
+              "State power—wartime expansion",
+              "Nation in arms",
+              "Clausewitz--nation in arms",
+              "Landwehr and Landsturm",
+              "Militia and press gangs",
+              "Income tax--wartime expansion",
+              "Police, spies and informers",
+              "Paper finance--European wars"
+            ],
+            "document_pages": [
+              415,
+              416,
+              424
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S029"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S029",
+            "label": "Mass warfare, conscription, and expanded European states",
+            "meaning": "Revolutionary mobilization turned war into an affair of nations and compelled rival governments to enlarge armies, taxation, policing, finance, and coercive capacity.",
+            "stance": "National mobilization forced rival states to enlarge coercion, finance and recruitment. Resistance persisted across Europe, but fear of France often legitimized burdens abroad more than within France. Clausewitz supplies a theory of removed limits; this is not a claim that every state instantly developed identical institutions.",
+            "acceptable_access": [
+              "Mass warfare—French Revolutionary origins",
+              "Conscription—European spread",
+              "State power—wartime expansion",
+              "Nation in arms",
+              "Clausewitz--nation in arms",
+              "Landwehr and Landsturm",
+              "Militia and press gangs",
+              "Income tax--wartime expansion",
+              "Police, spies and informers",
+              "Paper finance--European wars"
+            ],
+            "document_pages": [
+              415,
+              416,
+              424
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "47319b4081614af1ae4cdef6106d549793a810f3e6eb9155af7f5272195b5d7a",
+      "proposed_record": {
+        "label": "Mass warfare, conscription, and expanded European states",
+        "priority": "essential",
+        "meaning": "Revolutionary mobilization turned war into an affair of nations and compelled rival governments to enlarge armies, taxation, policing, finance, and coercive capacity. New income levies and depreciating paper currencies helped finance war, while fear of Jacobin exploitation of grievances expanded police and informer networks.",
+        "stance": "National mobilization forced rival states to enlarge coercion, finance and recruitment. Resistance persisted across Europe, but fear of France often legitimized burdens abroad more than within France. Clausewitz supplies a theory of removed limits; this is not a claim that every state instantly developed identical institutions.",
+        "subject_id": "SUBJ-SUCC-298B26A9D77A",
+        "acceptable_access": [
+          "Mass warfare—French Revolutionary origins",
+          "Conscription—European spread",
+          "State power—wartime expansion",
+          "Nation in arms",
+          "Clausewitz--nation in arms",
+          "Landwehr and Landsturm",
+          "Militia and press gangs",
+          "Income tax--wartime expansion",
+          "Police, spies and informers",
+          "Paper finance--European wars"
+        ],
+        "evidence": [
+          {
+            "document_page": 415,
+            "source_page_label": "415",
+            "locator_class": "principal",
+            "evidence_summary": "France’s mobilization forced opposing monarchies toward mass war. Drawing on 1792–1815, Clausewitz argued that popular participation brought the nation’s full weight into conflict and removed earlier definite limits on resources and effort.",
+            "evidence_id": "EVID-SUCC-20E4FC791DB1",
+            "source_local_subject_id": "SUCC-C017-S029",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 416,
+            "source_page_label": "416",
+            "locator_class": "principal",
+            "evidence_summary": "Clausewitz’s argument concludes that popular participation arose both from internal revolutionary effects and French threats. Governments organized the resulting effort through conscription, militias, police and informers, heavier taxation and paper finance, while fear of France often limited resistance to those burdens. Britain introduced income tax in 1799, Austria followed, and Austrian Bankozettel also depreciated; fear of Jacobin exploitation of grievances spurred surveillance.",
+            "evidence_id": "EVID-SUCC-EC5A34605D85",
+            "source_local_subject_id": "SUCC-C017-S029",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Arming the people and the emergencies of war revolutionized both the Revolution and the established European pattern of warfare.",
+            "evidence_id": "EVID-SUCC-DAA6653A693C",
+            "source_local_subject_id": "SUCC-C017-S029",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S029",
+            "label": "Mass warfare, conscription, and expanded European states",
+            "meaning": "Revolutionary mobilization turned war into an affair of nations and compelled rival governments to enlarge armies, taxation, policing, finance, and coercive capacity. New income levies and depreciating paper currencies helped finance war, while fear of Jacobin exploitation of grievances expanded police and informer networks.",
+            "stance": "National mobilization forced rival states to enlarge coercion, finance and recruitment. Resistance persisted across Europe, but fear of France often legitimized burdens abroad more than within France. Clausewitz supplies a theory of removed limits; this is not a claim that every state instantly developed identical institutions.",
+            "acceptable_access": [
+              "Mass warfare—French Revolutionary origins",
+              "Conscription—European spread",
+              "State power—wartime expansion",
+              "Nation in arms",
+              "Clausewitz--nation in arms",
+              "Landwehr and Landsturm",
+              "Militia and press gangs",
+              "Income tax--wartime expansion",
+              "Police, spies and informers",
+              "Paper finance--European wars"
+            ],
+            "document_pages": [
+              415,
+              416,
+              424
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S029"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S029",
+            "label": "Mass warfare, conscription, and expanded European states",
+            "meaning": "Revolutionary mobilization turned war into an affair of nations and compelled rival governments to enlarge armies, taxation, policing, finance, and coercive capacity. New income levies and depreciating paper currencies helped finance war, while fear of Jacobin exploitation of grievances expanded police and informer networks.",
+            "stance": "National mobilization forced rival states to enlarge coercion, finance and recruitment. Resistance persisted across Europe, but fear of France often legitimized burdens abroad more than within France. Clausewitz supplies a theory of removed limits; this is not a claim that every state instantly developed identical institutions.",
+            "acceptable_access": [
+              "Mass warfare—French Revolutionary origins",
+              "Conscription—European spread",
+              "State power—wartime expansion",
+              "Nation in arms",
+              "Clausewitz--nation in arms",
+              "Landwehr and Landsturm",
+              "Militia and press gangs",
+              "Income tax--wartime expansion",
+              "Police, spies and informers",
+              "Paper finance--European wars"
+            ],
+            "document_pages": [
+              415,
+              416,
+              424
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "0874bb33cce861fd6382066debe3041ac18a97fb2d13a73feb23d958c1e7ad63",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "415–416 distinguishes Clausewitz’s theoretical passage across the page boundary from specific fiscal/police mechanisms. Retain differences of timing, persistent resistance and comparative fear rather than implying identical states or no opposition.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 88,
+      "subject_id": "SUBJ-SUCC-56FAED657225",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0165",
+        "CORR-007-LEGACY-0166"
+      ],
+      "source_correction_row_sha256s": [
+        "46386dad6737c2e120044f51772f09585578b09e1baa005b2b6c980e36e92c0d",
+        "9108e14614942143128bcf4756d7d0f7470bbe799dd6a5b7e09edf5954abe840"
+      ],
+      "before_record": {
+        "label": "Sanfedist counterrevolution in southern Italy",
+        "priority": "major",
+        "meaning": "Cardinal Ruffo's Christian Army of the Holy Faith and its peasant-based reconquest of southern Italy and Naples.",
+        "stance": "Ruffo mobilized poverty, religion, taxes, feudal burdens and hostility to towns, even abolishing burdens before the Jacobins did. The locally driven movement produced uncontrolled plunder; distinguish this from the restored court’s deliberate reprisals, which Ruffo questioned.",
+        "subject_id": "SUBJ-SUCC-56FAED657225",
+        "acceptable_access": [
+          "Sanfedists",
+          "Christian Army of the Holy Faith",
+          "Cardinal Ruffo—counterrevolution",
+          "Ruffo--abolition of feudal burdens",
+          "Sanfedists--town-country antagonism"
+        ],
+        "evidence": [
+          {
+            "document_page": 364,
+            "source_page_label": "364",
+            "locator_class": "principal",
+            "evidence_summary": "Ruffo raised a royalist force in Calabria that rapidly expanded through southern Italy.",
+            "evidence_id": "EVID-SUCC-703744C6F7F1",
+            "source_local_subject_id": "SUCC-C015-S030",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 365,
+            "source_page_label": "365",
+            "locator_class": "principal",
+            "evidence_summary": "The movement exploited poverty, feudal burdens, town-country conflict, and religion before taking Naples amid disorder.",
+            "evidence_id": "EVID-SUCC-63B9D260A990",
+            "source_local_subject_id": "SUCC-C015-S030",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S030",
+            "label": "Sanfedist counterrevolution in southern Italy",
+            "meaning": "Cardinal Ruffo's Christian Army of the Holy Faith and its peasant-based reconquest of southern Italy and Naples.",
+            "stance": "Ruffo mobilized poverty, religion, taxes, feudal burdens and hostility to towns, even abolishing burdens before the Jacobins did. The locally driven movement produced uncontrolled plunder; distinguish this from the restored court’s deliberate reprisals, which Ruffo questioned.",
+            "acceptable_access": [
+              "Sanfedists",
+              "Christian Army of the Holy Faith",
+              "Cardinal Ruffo—counterrevolution",
+              "Ruffo--abolition of feudal burdens",
+              "Sanfedists--town-country antagonism"
+            ],
+            "document_pages": [
+              364,
+              365
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S030"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S030",
+            "label": "Sanfedist counterrevolution in southern Italy",
+            "meaning": "Cardinal Ruffo's Christian Army of the Holy Faith and its peasant-based reconquest of southern Italy and Naples.",
+            "stance": "Ruffo mobilized poverty, religion, taxes, feudal burdens and hostility to towns, even abolishing burdens before the Jacobins did. The locally driven movement produced uncontrolled plunder; distinguish this from the restored court’s deliberate reprisals, which Ruffo questioned.",
+            "acceptable_access": [
+              "Sanfedists",
+              "Christian Army of the Holy Faith",
+              "Cardinal Ruffo—counterrevolution",
+              "Ruffo--abolition of feudal burdens",
+              "Sanfedists--town-country antagonism"
+            ],
+            "document_pages": [
+              364,
+              365
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "979998c9140eb99ff703e93765838c564bc704dec0b8d62b96d36a9057b903ad",
+      "proposed_record": {
+        "label": "Sanfedist counterrevolution in southern Italy",
+        "priority": "major",
+        "meaning": "Cardinal Ruffo's Christian Army of the Holy Faith and its peasant-based reconquest of southern Italy and Naples.",
+        "stance": "Ruffo mobilized poverty, religion, taxes, feudal burdens and hostility to towns, even abolishing burdens before the Jacobins did. The locally driven movement produced uncontrolled plunder; distinguish this from the restored court’s deliberate reprisals, which Ruffo questioned. The underlying local revolt might in other circumstances have turned against the Bourbon state itself; royalist and religious labels did not erase autonomous grievances.",
+        "subject_id": "SUBJ-SUCC-56FAED657225",
+        "acceptable_access": [
+          "Sanfedists",
+          "Christian Army of the Holy Faith",
+          "Cardinal Ruffo—counterrevolution",
+          "Ruffo--abolition of feudal burdens",
+          "Sanfedists--town-country antagonism"
+        ],
+        "evidence": [
+          {
+            "document_page": 364,
+            "source_page_label": "364",
+            "locator_class": "principal",
+            "evidence_summary": "Ruffo raised a royalist force in Calabria that rapidly expanded through southern Italy.",
+            "evidence_id": "EVID-SUCC-703744C6F7F1",
+            "source_local_subject_id": "SUCC-C015-S030",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 365,
+            "source_page_label": "365",
+            "locator_class": "principal",
+            "evidence_summary": "Ruffo mobilized poverty, religious and town-country hostility, proclaiming feudal burdens abolished before Neapolitan Jacobins acted. Local vendettas and plunder accompanied the advance on Naples; the royalist army’s disorder appalled Ruffo and exceeded his control.",
+            "evidence_id": "EVID-SUCC-63B9D260A990",
+            "source_local_subject_id": "SUCC-C015-S030",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S030",
+            "label": "Sanfedist counterrevolution in southern Italy",
+            "meaning": "Cardinal Ruffo's Christian Army of the Holy Faith and its peasant-based reconquest of southern Italy and Naples.",
+            "stance": "Ruffo mobilized poverty, religion, taxes, feudal burdens and hostility to towns, even abolishing burdens before the Jacobins did. The locally driven movement produced uncontrolled plunder; distinguish this from the restored court’s deliberate reprisals, which Ruffo questioned. The underlying local revolt might in other circumstances have turned against the Bourbon state itself; royalist and religious labels did not erase autonomous grievances.",
+            "acceptable_access": [
+              "Sanfedists",
+              "Christian Army of the Holy Faith",
+              "Cardinal Ruffo—counterrevolution",
+              "Ruffo--abolition of feudal burdens",
+              "Sanfedists--town-country antagonism"
+            ],
+            "document_pages": [
+              364,
+              365
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S030"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S030",
+            "label": "Sanfedist counterrevolution in southern Italy",
+            "meaning": "Cardinal Ruffo's Christian Army of the Holy Faith and its peasant-based reconquest of southern Italy and Naples.",
+            "stance": "Ruffo mobilized poverty, religion, taxes, feudal burdens and hostility to towns, even abolishing burdens before the Jacobins did. The locally driven movement produced uncontrolled plunder; distinguish this from the restored court’s deliberate reprisals, which Ruffo questioned. The underlying local revolt might in other circumstances have turned against the Bourbon state itself; royalist and religious labels did not erase autonomous grievances.",
+            "acceptable_access": [
+              "Sanfedists",
+              "Christian Army of the Holy Faith",
+              "Cardinal Ruffo—counterrevolution",
+              "Ruffo--abolition of feudal burdens",
+              "Sanfedists--town-country antagonism"
+            ],
+            "document_pages": [
+              364,
+              365
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "6e49519bde9d44d7aa9a5202d80fd37b891d2865079a12e79a60c0eb76ae0caa",
+      "fields_changed": [
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "365 explicitly presents Sanfedism as locally driven grievance that might have opposed the Bourbons, then distinguishes disorder beyond Ruffo’s control from subsequent court reprisals. The added qualification does not erase its actual royalist/religious mobilization.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 89,
+      "subject_id": "SUBJ-SUCC-DF287F758EED",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0169"
+      ],
+      "source_correction_row_sha256s": [
+        "2a0e6af601eeebd43e767d1e8b871a25f161748514f44cb096224964c5f687e4"
+      ],
+      "before_record": {
+        "label": "Émigré return and irreversible revolutionary land transfers",
+        "priority": "major",
+        "meaning": "The Consulate's conditional reconciliation of emigres while irrevocably protecting purchasers of confiscated emigre and Church property.",
+        "stance": "Personal reconciliation did not restore old ownership: purchasers of confiscated émigré and Church lands remained protected. Papal acceptance of non-return was practical and did not concede the legality of confiscation or abandon the Avignon claim.",
+        "subject_id": "SUBJ-SUCC-DF287F758EED",
+        "acceptable_access": [
+          "Emigres -- return and amnesty",
+          "National lands -- security of title",
+          "Property settlement -- Consulate",
+          "Church lands--non-restitution",
+          "Avignon--papal reservation"
+        ],
+        "evidence": [
+          {
+            "document_page": 383,
+            "source_page_label": "383",
+            "locator_class": "principal",
+            "evidence_summary": "The emigre list closes and amnesty broadens, while the constitution guarantees that alienated emigre property remains vested in the Republic.",
+            "evidence_id": "EVID-SUCC-EA7D06904DCC",
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 385,
+            "source_page_label": "385",
+            "locator_class": "supporting",
+            "evidence_summary": "Later legal and religious settlements further remove doubt about revolutionary land titles.",
+            "evidence_id": "EVID-SUCC-52C807B67275",
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 387,
+            "source_page_label": "387",
+            "locator_class": "principal",
+            "evidence_summary": "Non-return of alienated Church lands was a precondition of negotiation; the Pope accepted the fact while retaining objections to legality.",
+            "evidence_id": "EVID-SUCC-271EE2B43724",
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "evidence_id": "EVID-SUCC-275DD3537D04",
+            "source_evidence_id": "EVID-D79D90313A81",
+            "document_page": 369,
+            "source_page_label": "369",
+            "locator_class": "supporting",
+            "evidence_summary": "Peasant ownership of national land helps explain continuing preference for the new social order.",
+            "provenance": {
+              "chunk_id": "CHUNK-016",
+              "local_subject_id": "CH16-SUBJ-048",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+              "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+            },
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-9DC52E3F8CBA",
+              "evidence_id": "EVID-FC7BDDD90033"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S022",
+            "label": "Émigré return and irreversible revolutionary land transfers",
+            "meaning": "The Consulate's conditional reconciliation of emigres while irrevocably protecting purchasers of confiscated emigre and Church property.",
+            "stance": "Personal reconciliation did not restore old ownership: purchasers of confiscated émigré and Church lands remained protected. Papal acceptance of non-return was practical and did not concede the legality of confiscation or abandon the Avignon claim.",
+            "acceptable_access": [
+              "Emigres -- return and amnesty",
+              "National lands -- security of title",
+              "Property settlement -- Consulate",
+              "Church lands--non-restitution",
+              "Avignon--papal reservation"
+            ],
+            "document_pages": [
+              383,
+              385,
+              387
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S022"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S022",
+            "label": "Émigré return and irreversible revolutionary land transfers",
+            "meaning": "The Consulate's conditional reconciliation of emigres while irrevocably protecting purchasers of confiscated emigre and Church property.",
+            "stance": "Personal reconciliation did not restore old ownership: purchasers of confiscated émigré and Church lands remained protected. Papal acceptance of non-return was practical and did not concede the legality of confiscation or abandon the Avignon claim.",
+            "acceptable_access": [
+              "Emigres -- return and amnesty",
+              "National lands -- security of title",
+              "Property settlement -- Consulate",
+              "Church lands--non-restitution",
+              "Avignon--papal reservation"
+            ],
+            "document_pages": [
+              383,
+              385,
+              387
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "20d2232fd47a22ef67544526aac4df9d45a3e83624f4d327f0ca0757a104d6dd",
+      "proposed_record": {
+        "label": "Émigré return and irreversible revolutionary land transfers",
+        "priority": "major",
+        "meaning": "The Consulate's conditional reconciliation of emigres while irrevocably protecting purchasers of confiscated emigre and Church property.",
+        "stance": "Personal reconciliation did not restore old ownership: purchasers of confiscated émigré and Church lands remained protected. Papal acceptance of non-return was practical and did not concede the legality of confiscation or abandon the Avignon claim. This clear protection reassured purchasers and attracted potential royalists more effectively than Louis XVIII’s position had done.",
+        "subject_id": "SUBJ-SUCC-DF287F758EED",
+        "acceptable_access": [
+          "Emigres -- return and amnesty",
+          "National lands -- security of title",
+          "Property settlement -- Consulate",
+          "Church lands--non-restitution",
+          "Avignon--papal reservation"
+        ],
+        "evidence": [
+          {
+            "document_page": 383,
+            "source_page_label": "383",
+            "locator_class": "principal",
+            "evidence_summary": "The emigre list closes and amnesty broadens, while the constitution guarantees that alienated emigre property remains vested in the Republic.",
+            "evidence_id": "EVID-SUCC-EA7D06904DCC",
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 385,
+            "source_page_label": "385",
+            "locator_class": "supporting",
+            "evidence_summary": "Later legal and religious settlements further remove doubt about revolutionary land titles.",
+            "evidence_id": "EVID-SUCC-52C807B67275",
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 387,
+            "source_page_label": "387",
+            "locator_class": "principal",
+            "evidence_summary": "Non-return of alienated Church lands was a precondition of negotiation; the Pope accepted the fact while retaining objections to legality.",
+            "evidence_id": "EVID-SUCC-271EE2B43724",
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "evidence_id": "EVID-SUCC-275DD3537D04",
+            "source_evidence_id": "EVID-D79D90313A81",
+            "document_page": 369,
+            "source_page_label": "369",
+            "locator_class": "supporting",
+            "evidence_summary": "Peasant ownership of national land helps explain continuing preference for the new social order.",
+            "provenance": {
+              "chunk_id": "CHUNK-016",
+              "local_subject_id": "CH16-SUBJ-048",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+              "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+            },
+            "source_local_subject_id": "SUCC-C016-S022",
+            "source_chunk_id": "CHUNK-016",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-9DC52E3F8CBA",
+              "evidence_id": "EVID-FC7BDDD90033"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S022",
+            "label": "Émigré return and irreversible revolutionary land transfers",
+            "meaning": "The Consulate's conditional reconciliation of emigres while irrevocably protecting purchasers of confiscated emigre and Church property.",
+            "stance": "Personal reconciliation did not restore old ownership: purchasers of confiscated émigré and Church lands remained protected. Papal acceptance of non-return was practical and did not concede the legality of confiscation or abandon the Avignon claim. This clear protection reassured purchasers and attracted potential royalists more effectively than Louis XVIII’s position had done.",
+            "acceptable_access": [
+              "Emigres -- return and amnesty",
+              "National lands -- security of title",
+              "Property settlement -- Consulate",
+              "Church lands--non-restitution",
+              "Avignon--papal reservation"
+            ],
+            "document_pages": [
+              383,
+              385,
+              387
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S022"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S022",
+            "label": "Émigré return and irreversible revolutionary land transfers",
+            "meaning": "The Consulate's conditional reconciliation of emigres while irrevocably protecting purchasers of confiscated emigre and Church property.",
+            "stance": "Personal reconciliation did not restore old ownership: purchasers of confiscated émigré and Church lands remained protected. Papal acceptance of non-return was practical and did not concede the legality of confiscation or abandon the Avignon claim. This clear protection reassured purchasers and attracted potential royalists more effectively than Louis XVIII’s position had done.",
+            "acceptable_access": [
+              "Emigres -- return and amnesty",
+              "National lands -- security of title",
+              "Property settlement -- Consulate",
+              "Church lands--non-restitution",
+              "Avignon--papal reservation"
+            ],
+            "document_pages": [
+              383,
+              385,
+              387
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "b1655960053a41a5e41dc2fe836210102dff73a7cf46b55361e462b0051f4cdb",
+      "fields_changed": [
+        "stance",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "383 and the continuation into384 explain purchaser reassurance and attraction of potential royalists;387 preserves papal practical acceptance without legal concession. Retain the current no-restitution/legal-status distinction and add the political consequence.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 90,
+      "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0170",
+        "CORR-007-LEGACY-0380",
+        "CORR-007-LEGACY-0381"
+      ],
+      "source_correction_row_sha256s": [
+        "c60843d5d8227713c6fa7b847b1e12d7d56d2fe87a392460221807df85962daa",
+        "c5d615dd3ecab3fe7a943028b5d0ec9911f6f8faec83cb470094e5e69bd92479",
+        "bc4c1a58f9f1aa332612ec245993e7690e1275a372bcfdffac5efaf4095a2786"
+      ],
+      "before_record": {
+        "label": "Enlightenment origins and the project of national regeneration",
+        "priority": "essential",
+        "meaning": "An enlarged educated and critical reading public, with an expanding market for ideas, undermined confidence in a monarchy too little adapted to changing expectations. The rapid state collapse was nevertheless unexpected and unplanned. Once it began, the Estates-General and cahier drafting invited people far beyond the educated elite to imagine remedies for grievances. Enlightened leaders then pursued a rational, just and humane project of national regeneration.",
+        "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress. Criticism did not amount to a predesigned revolutionary replacement; widening participation followed the unexpected opening.",
+        "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+        "acceptable_access": [
+          "French Revolution—Enlightenment origins",
+          "Enlightenment—French Revolution",
+          "National regeneration",
+          "Estates-General and cahiers--unanticipated political opening",
+          "Jacobin clubs--enlightened regeneration"
+        ],
+        "evidence": [
+          {
+            "document_page": 392,
+            "source_page_label": "392",
+            "locator_class": "principal",
+            "evidence_summary": "Educational growth and critical public opinion supplied the intellectual setting for the collapse of confidence in the old monarchy.",
+            "evidence_id": "EVID-SUCC-4CAD5EE2C641",
+            "source_local_subject_id": "SUCC-C017-S002",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 393,
+            "source_page_label": "393",
+            "locator_class": "principal",
+            "evidence_summary": "Unexpected state collapse opened possibilities rather than fulfilling a prior plan. The Estates-General and cahiers broadened discussion beyond educated elites, while the Assembly and Jacobin clubs pursued enlightened regeneration.",
+            "evidence_id": "EVID-SUCC-774A02DA7F30",
+            "source_local_subject_id": "SUCC-C017-S002",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S002",
+            "label": "Enlightenment origins and the project of national regeneration",
+            "meaning": "The Revolution began as an intellectual project led by an enlarged educated public seeking rational, just, and humane regeneration after the monarchy's crisis.",
+            "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress.",
+            "acceptable_access": [
+              "French Revolution—Enlightenment origins",
+              "Enlightenment—French Revolution",
+              "National regeneration",
+              "Estates-General and cahiers--unanticipated political opening",
+              "Jacobin clubs--enlightened regeneration"
+            ],
+            "document_pages": [
+              392,
+              393
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S002"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S002",
+            "label": "Enlightenment origins and the project of national regeneration",
+            "meaning": "The Revolution began as an intellectual project led by an enlarged educated public seeking rational, just, and humane regeneration after the monarchy's crisis.",
+            "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress.",
+            "acceptable_access": [
+              "French Revolution—Enlightenment origins",
+              "Enlightenment—French Revolution",
+              "National regeneration",
+              "Estates-General and cahiers--unanticipated political opening",
+              "Jacobin clubs--enlightened regeneration"
+            ],
+            "document_pages": [
+              392,
+              393
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "4f107bc83bb12da2064fc11a23f2935e70cfc484a741e8d8a8ad36b3f607bb8c",
+      "proposed_record": {
+        "label": "Enlightenment origins and the project of national regeneration",
+        "priority": "essential",
+        "meaning": "An enlarged educated and critical reading public, with an expanding market for ideas, undermined confidence in a monarchy too little adapted to changing expectations. The rapid state collapse was nevertheless unexpected and unplanned. Once it began, the Estates-General and cahier drafting invited people far beyond the educated elite to imagine remedies for grievances. Enlightened leaders then pursued a rational, just and humane project of national regeneration.",
+        "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress. Criticism did not amount to a predesigned revolutionary replacement; widening participation followed the unexpected opening. That early enlightened inspiration survived among a dwindling minority as the revolutionary years went on; the early clubs’ aims should not be projected unchanged across the decade.",
+        "subject_id": "SUBJ-SUCC-8B341BCAF68F",
+        "acceptable_access": [
+          "French Revolution—Enlightenment origins",
+          "Enlightenment—French Revolution",
+          "National regeneration",
+          "Estates-General and cahiers--unanticipated political opening",
+          "Jacobin clubs--enlightened regeneration",
+          "Cahiers—political expectations",
+          "Estates-General—nationwide political possibility"
+        ],
+        "evidence": [
+          {
+            "document_page": 392,
+            "source_page_label": "392",
+            "locator_class": "principal",
+            "evidence_summary": "Educational growth and critical public opinion supplied the intellectual setting for the collapse of confidence in the old monarchy.",
+            "evidence_id": "EVID-SUCC-4CAD5EE2C641",
+            "source_local_subject_id": "SUCC-C017-S002",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 393,
+            "source_page_label": "393",
+            "locator_class": "principal",
+            "evidence_summary": "The Estates-General, cahiers, National Assembly, and Jacobin clubs widened a program of enlightened national regeneration. Unexpected royal collapse and the cahiers invited the whole country, beyond the educated elite, to consider remedies and alternatives for which nobody had prepared.",
+            "evidence_id": "EVID-SUCC-774A02DA7F30",
+            "source_local_subject_id": "SUCC-C017-S002",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S002",
+            "label": "Enlightenment origins and the project of national regeneration",
+            "meaning": "An enlarged educated and critical reading public, with an expanding market for ideas, undermined confidence in a monarchy too little adapted to changing expectations. The rapid state collapse was nevertheless unexpected and unplanned. Once it began, the Estates-General and cahier drafting invited people far beyond the educated elite to imagine remedies for grievances. Enlightened leaders then pursued a rational, just and humane project of national regeneration.",
+            "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress. Criticism did not amount to a predesigned revolutionary replacement; widening participation followed the unexpected opening. That early enlightened inspiration survived among a dwindling minority as the revolutionary years went on; the early clubs’ aims should not be projected unchanged across the decade.",
+            "acceptable_access": [
+              "French Revolution—Enlightenment origins",
+              "Enlightenment—French Revolution",
+              "National regeneration",
+              "Estates-General and cahiers--unanticipated political opening",
+              "Jacobin clubs--enlightened regeneration",
+              "Cahiers—political expectations",
+              "Estates-General—nationwide political possibility"
+            ],
+            "document_pages": [
+              392,
+              393
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S002"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S002",
+            "label": "Enlightenment origins and the project of national regeneration",
+            "meaning": "An enlarged educated and critical reading public, with an expanding market for ideas, undermined confidence in a monarchy too little adapted to changing expectations. The rapid state collapse was nevertheless unexpected and unplanned. Once it began, the Estates-General and cahier drafting invited people far beyond the educated elite to imagine remedies for grievances. Enlightened leaders then pursued a rational, just and humane project of national regeneration.",
+            "stance": "Its opening impetus was more intellectual than social or economic, and its leaders sincerely understood themselves as agents of Enlightenment progress. Criticism did not amount to a predesigned revolutionary replacement; widening participation followed the unexpected opening. That early enlightened inspiration survived among a dwindling minority as the revolutionary years went on; the early clubs’ aims should not be projected unchanged across the decade.",
+            "acceptable_access": [
+              "French Revolution—Enlightenment origins",
+              "Enlightenment—French Revolution",
+              "National regeneration",
+              "Estates-General and cahiers--unanticipated political opening",
+              "Jacobin clubs--enlightened regeneration",
+              "Cahiers—political expectations",
+              "Estates-General—nationwide political possibility"
+            ],
+            "document_pages": [
+              392,
+              393
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "56d26a5a9e8abf892587213fe34396ded21ce75f1fa6b12c8462f2ad3d1c6277",
+      "fields_changed": [
+        "stance",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "393 supports both wider popular possibility and sincere enlightened regeneration, while saying the inspiration survived among a dwindling minority as years passed. Preserve the already repaired expanding-reading-public and unexpected-opening meaning; do not replace it with the narrower0380 summary or infer a new causal explanation for declining idealism.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    }
+  ],
+  "actual_full_source_pages_reread_after_draft_access": [
+    175,
+    185,
+    251,
+    252,
+    253,
+    365,
+    383,
+    411,
+    415,
+    416,
+    423,
+    425
+  ],
+  "same_active_pass_source_page_reuse": [
+    178,
+    179,
+    188,
+    190,
+    191,
+    192,
+    266,
+    384,
+    387,
+    393,
+    424
+  ],
+  "new_evidence_ids": [],
+  "original_draft_unchanged": true,
+  "whole_book_approval": false
+}

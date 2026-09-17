@@ -1,0 +1,918 @@
+{
+  "schema_version": "independent-cross-shard-historical-closure-v1",
+  "source_referral_file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/cross-shard-referrals.v1.json",
+  "source_referral_sha256": "8faa24ba69d2bea260b9884c7317cc6e8c5e170ba8aeedaa5a8efdc902dece38",
+  "scope": "All 27 later-page historical relationship referrals, original operators and endpoint meanings, reviewed against source. The source was already inspected in the independent source-first pass; listed rereads occurred after draft exposure.",
+  "pages_reinspected_for_this_closure": [
+    185,
+    186,
+    187,
+    288,
+    318,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    408,
+    409,
+    419,
+    421,
+    424
+  ],
+  "current_parent_meaning_and_stance_reinspected": true,
+  "rows": [
+    {
+      "historical_key": "legacy:REL-66D40B0E3B45",
+      "original_record": {
+        "relationship_id": "REL-66D40B0E3B45",
+        "source_subject_id": "SUBJ-FB5835208AEC",
+        "type": "implements",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "organizes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S028",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-C1335903871D"
+      },
+      "original_source_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "original_target_meaning": "An armed mass entered the Tuileries to demand restoration of ministers and an end to royal obstruction but failed to intimidate Louis XVI.",
+      "inherited_source_pages": [
+        185,
+        186
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3",
+        "SUBJ-SUCC-987993A8C47A"
+      ],
+      "independent_lead_disposition": "Full 185–187 supports Cordeliers coordination of east-end sections for the 20 June demonstration. Preserve this concrete organizing link in 9EE and 987; the early Cordeliers treatment alone is insufficient. Immediate failure and subsequent organizational lessons remain distinct.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-9511F5F29FA1",
+      "original_record": {
+        "relationship_id": "REL-9511F5F29FA1",
+        "source_subject_id": "SUBJ-FB5835208AEC",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contributes_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S028",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-1E1D8A56F292"
+      },
+      "original_source_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "original_target_meaning": "Neighborhood organizations revived under economic and military pressure, broadened participation, coordinated petitions and armed action, formed a central committee, and seized municipal power.",
+      "inherited_source_pages": [
+        185,
+        186
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3"
+      ],
+      "independent_lead_disposition": "Full 185–187 supports Cordeliers contribution within a wider revival caused by economic pressure and war. 9EE must retain that specific coordinating centre without making it sole creator of sectional mobilization or projecting every August institution back to June.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-38771744E82A",
+      "original_record": {
+        "relationship_id": "REL-38771744E82A",
+        "source_subject_id": "SUBJ-C1335903871D",
+        "type": "implemented_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "organized_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-008",
+            "local_subject_id": "CHUNK-008-S062",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FB5835208AEC"
+      },
+      "original_source_meaning": "An armed mass entered the Tuileries to demand restoration of ministers and an end to royal obstruction but failed to intimidate Louis XVI.",
+      "original_target_meaning": "The Cordeliers fostered popular societies and republican mobilization after Varennes and later served as a coordinating center for sectional action, including the 20 June 1792 demonstration.",
+      "inherited_source_pages": [
+        186,
+        187
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-987993A8C47A",
+        "SUBJ-SUCC-9EE66EC07AA3"
+      ],
+      "independent_lead_disposition": "The reverse organized-by link is supported by 186. It may be internalized as the same explicit Cordeliers/sectional coordination in 987 and 9EE; there is no separate need for a duplicated reverse edge.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-D8E6CD5620DE",
+      "original_record": {
+        "relationship_id": "REL-D8E6CD5620DE",
+        "source_subject_id": "SUBJ-C5B56D9B6F0B",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "ends"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-012",
+            "local_subject_id": "CHUNK-012-S040",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-DCE698874E49"
+      },
+      "original_source_meaning": "The Convention ended state payment and recognition of all cults, thereby abandoning both the constitutional Church and official sponsorship of the Supreme Being.",
+      "original_target_meaning": "Whole-book synthesis: The July 1790 settlement reconstructed the French Church as a salaried, territorially rationalized, electorally staffed national institution subordinated in temporal organization to the revolutionary state. The Civil Constitution's oath divided clergy into constitutional and refractory camps, exposed refusers to deprivation, exile, massacre, or execution, and left both sides with wounds the Concordat could not fully heal.",
+      "inherited_source_pages": [
+        288
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-9DC759EBDD0D",
+        "SUBJ-SUCC-28E04117C501",
+        "SUBJ-SUCC-0848F7E708D9"
+      ],
+      "independent_lead_disposition": "Full 288 supports ending state recognition/funding of the constitutional Church and Supreme Being, not ending Catholic religion or its schism. 9DC carries the precise September separation and February worship sequence; 28E/0848 retain later consequences and settlement separately.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-1EBBF6EA4A2A",
+      "original_record": {
+        "relationship_id": "REL-1EBBF6EA4A2A",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "distinction"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-014",
+            "local_subject_id": "CHUNK-014-S003",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "Babeuf's egalitarian programme",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        318
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "independent_lead_disposition": "318 contrasts civil equality with absolute equality in Boissy’s attributed defence of property rule. It does not itself develop Babeuf’s programme: retain that comparison only with 032D’s 324–326 and 421 support, alongside CB77/73959, or retire the unsupported page-specific linkage.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-3065B333B34D",
+      "original_record": {
+        "relationship_id": "REL-3065B333B34D",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "distinction"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-014",
+            "local_subject_id": "CHUNK-014-S003",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-452A2157F44B"
+      },
+      "original_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "original_target_meaning": "The drafters argue that property gives citizens education, independence, attachment to law, and a durable interest in public order.",
+      "inherited_source_pages": [
+        318
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "independent_lead_disposition": "CB77/73959 must retain the difference between equal civil status and property-based political competence. Full 318 gives the drafters’ justification, not Doyle’s endorsement that property objectively makes people best qualified.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-097BEBD11879",
+      "original_record": {
+        "relationship_id": "REL-097BEBD11879",
+        "source_subject_id": "SUBJ-5C93466C9CE3",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "advances"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S011",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-148DFDDAEB81"
+      },
+      "original_source_meaning": "The Revolution removed noble corporate representation, fiscal and feudal privileges, venal ennoblement, legal recognition of nobility, and automatic deference, making equality and talent-based advancement durable norms.",
+      "original_target_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "inherited_source_pages": [
+        394,
+        395
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "independent_lead_disposition": "FA919/73959 preserve removal of hereditary privilege advancing legal equality while material/political inequalities remain. CB77 is the particular 1795 institutional limit, not the whole later social transformation.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-1786C26A3F8E",
+      "original_record": {
+        "relationship_id": "REL-1786C26A3F8E",
+        "source_subject_id": "SUBJ-487B3DBB76B2",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contributes_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S010",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "original_source_meaning": "Whole-book synthesis: Duport's largely noble reform society organized publicity against 1614 and privilege and promoted double representation and head voting. An organized intellectual circle exploited tensions within the educated elite to build support for a single legislature and helped turn a constitutional dispute into broad hostility toward nobles.",
+      "original_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "inherited_source_pages": [
+        394
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "independent_lead_disposition": "Full 394 supports the Society of Thirty exploiting elite tensions and driving anti-noble rhetoric toward universal surrender of privilege. FA919 must retain the mechanism and nobles’ initial reform willingness; avoid retroactively making all nobles irreconcilable before the campaign.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-4B5E17A01A07",
+      "original_record": {
+        "relationship_id": "REL-4B5E17A01A07",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "partially_reversed_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_label": "Napoleonic nobility",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        395,
+        396
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "independent_lead_disposition": "FA919 must retain partial property recovery and imperial elite continuity alongside irreversible loss of legal privilege and automatic deference. Napoleonic ennoblement did not simply reverse every revolutionary loss or restore the old corporate order.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-97CDEAF55414",
+      "original_record": {
+        "relationship_id": "REL-97CDEAF55414",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "contributes_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "feeds"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-77F81074B10E"
+      },
+      "original_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "original_target_meaning": "The category of internal enemies expanded from nonjurors and royalist plotters to foreigners, guards, ministers, prisoners, criminals, and other presumed conspirators.",
+      "inherited_source_pages": [
+        395,
+        396
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-1A51A7EA164F"
+      ],
+      "independent_lead_disposition": "Full 395–396 supports suspicion, imprisonment and persecution of nobles across later phases. Retain this in FA919; 1A51 is specifically 1792 and must not absorb all Terror/1797 persecution or imply every suspicion was proven treason.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-BD24CAF20EE4",
+      "original_record": {
+        "relationship_id": "REL-BD24CAF20EE4",
+        "source_subject_id": "SUBJ-DA71DBE1FE5A",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "part_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S070",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "original_source_meaning": "Ending purchasable office and ennoblement closed the old route by which new wealth entered the nobility, turning a previously open elite into a hereditary identity even as the law ceased to recognize it.",
+      "original_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "inherited_source_pages": [
+        395
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14",
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "independent_lead_disposition": "FA919/E4C must preserve the paradox that ending purchased ennoblement closed entry to the surviving hereditary social group even as law ceased to recognize nobility. A generic abolition-of-privilege parent alone does not retain this counterintuitive consequence.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-D27635E715E7",
+      "original_record": {
+        "relationship_id": "REL-D27635E715E7",
+        "source_subject_id": "SUBJ-7D163AC4CAC9",
+        "type": "caused_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "consequence_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S012",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-FF2C47900447"
+      },
+      "original_source_meaning": "Whole-book synthesis: The Assembly imposed return deadlines, taxation, and official lists on émigrés, while Varennes and a reordered military oath accelerated the departure of nobles and thousands of officers and deepened mutiny. Thousands of nobles emigrated, lost property, faced suspicion or execution, and endured political displacement; yet many recovered land and wealth, and old elites remained prominent under the Empire.",
+      "original_target_meaning": "The destruction of legal, fiscal, corporate, provincial, and officeholding privilege became the central social principle of the August settlement.",
+      "inherited_source_pages": [
+        395,
+        396
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "independent_lead_disposition": "FA919 must retain loss of privilege contributing to emigration, trauma and political displacement, with persecution, war and individual decisions as additional causes. Do not reduce the full noble experience to an automatic result of the August decrees.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-30C5B38CC14E",
+      "original_record": {
+        "relationship_id": "REL-30C5B38CC14E",
+        "source_subject_id": "SUBJ-DCE698874E49",
+        "type": "related_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "partially_resolved_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S015",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "Concordat",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "Whole-book synthesis: The July 1790 settlement reconstructed the French Church as a salaried, territorially rationalized, electorally staffed national institution subordinated in temporal organization to the revolutionary state. The Civil Constitution's oath divided clergy into constitutional and refractory camps, exposed refusers to deprivation, exile, massacre, or execution, and left both sides with wounds the Concordat could not fully heal.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        397,
+        398
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-28E04117C501",
+        "SUBJ-SUCC-0848F7E708D9"
+      ],
+      "independent_lead_disposition": "Full 397–398 supports partial institutional settlement by the Concordat alongside unhealed schism and memories of persecution. Bind 28E and 0848; retain papal gains and continuing division without implying restoration of the entire Gallican or monastic system.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-4A980199C01A",
+      "original_record": {
+        "relationship_id": "REL-4A980199C01A",
+        "source_subject_id": "SUBJ-E5774A6ACD0C",
+        "type": "part_of",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S074",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-ABCE0B740A17"
+      },
+      "original_source_meaning": "Revolutionary law declared support for needy citizens a public obligation, created a national register, and prohibited private alms and begging on the assumption that the state would provide.",
+      "original_target_meaning": "Urban monasteries, hospitals, poorhouses, and private charity attracted migrants but became increasingly inadequate as claims grew and resources eroded.",
+      "inherited_source_pages": [
+        399,
+        400
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-39CA1B8E5293"
+      ],
+      "independent_lead_disposition": "Reject component-of as a simple continuity claim: full 399–400 contrasts ambitious public-right promises with destruction of the inherited charitable structure and inadequate replacement. 39CA must retain rights, registration, alms/begging prohibitions, wartime failure and partial later local recovery.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-BD1BC21539B2",
+      "original_record": {
+        "relationship_id": "REL-BD1BC21539B2",
+        "source_subject_id": "SUBJ-54BA40D54EA6",
+        "type": "contributes_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "shapes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S020",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "anti-feudal legislation",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "Bread prices and supply fears repeatedly converted subsistence insecurity into popular price-setting, political mobilization, and pressure on governments from the old regime through the Revolution.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        401
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "independent_lead_disposition": "Full 401 explicitly links peasant harvest fears to August concessions becoming anti-feudal ideology. Preserve that mechanism in D67 with the relevant anti-feudal treatment; FC307’s urban moral economy is related but not a substitute for the peasant path.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-F9B86363669D",
+      "original_record": {
+        "relationship_id": "REL-F9B86363669D",
+        "source_subject_id": "SUBJ-54BA40D54EA6",
+        "type": "contributes_to",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "shapes"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S020",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "sansculotte moral economy",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "Bread prices and supply fears repeatedly converted subsistence insecurity into popular price-setting, political mobilization, and pressure on governments from the old regime through the Revolution.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        401
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "independent_lead_disposition": "Full 401 supports cheap bread as a criterion of revolutionary fidelity and popular pressure constraining assemblies through 1795, with later governments still pragmatically provisioning Paris. D67/FC307 must preserve this causal argument, not just generic hunger.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-4CB30CD54EDE",
+      "original_record": {
+        "relationship_id": "REL-4CB30CD54EDE",
+        "source_subject_id": "SUBJ-DC01DAC8A1A8",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "linked_to"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S023",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_subject_id": "SUBJ-D6CEF25EA2F9"
+      },
+      "original_source_meaning": "Whole-book synthesis: A reduced but exceptionally valuable colonial empire generated rapid overseas-trade growth through tropical commodities and re-export networks centered on major ports. The Saint-Domingue crisis, war with Britain, blockade, embargoes, and maritime insecurity permanently displaced France's leading pre-revolutionary commercial sector and devastated major ports.",
+      "original_target_meaning": "Whole-book synthesis: The August 1791 uprising grew into the largest and only successful slave rebellion, embedded in a fast-moving colonial civil war and plantation expansion. Enslaved people rose amid violent conflict among whites and free people of colour, creating the military crisis that forced metropolitan policy toward emancipation.",
+      "inherited_source_pages": [
+        403,
+        404
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224"
+      ],
+      "independent_lead_disposition": "Full 403–404 links the Saint-Domingue rebellion and colonial civil war to disrupted trade before Britain’s blockade compounded it. AADC/8E429 preserve this distinct antecedent; later emancipation and Haiti are not interchangeable evidence for the 1791 commercial shock.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-6C55756B4F00",
+      "original_record": {
+        "relationship_id": "REL-6C55756B4F00",
+        "source_subject_id": "SUBJ-DC01DAC8A1A8",
+        "type": "caused_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "consequence_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S023",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-A6FF2C8D7900"
+      },
+      "original_source_meaning": "Whole-book synthesis: A reduced but exceptionally valuable colonial empire generated rapid overseas-trade growth through tropical commodities and re-export networks centered on major ports. The Saint-Domingue crisis, war with Britain, blockade, embargoes, and maritime insecurity permanently displaced France's leading pre-revolutionary commercial sector and devastated major ports.",
+      "original_target_meaning": "The chapter treats the war as a process that transformed the French Revolution, the French state and army, and political alignments across Europe.",
+      "inherited_source_pages": [
+        403,
+        404
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-AEC1E9A933E9",
+        "SUBJ-SUCC-007488A999B1",
+        "SUBJ-SUCC-C7DF46AA6436"
+      ],
+      "independent_lead_disposition": "AADC must retain war and blockade causing commercial collapse and continental reorientation, alongside colonial civil war and French embargoes. AEC1, 007488 and C7DF concern other war consequences and do not themselves satisfy the economic claim.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-01B76C79F23C",
+      "original_record": {
+        "relationship_id": "REL-01B76C79F23C",
+        "source_subject_id": "SUBJ-5F74ACED6A87",
+        "type": "qualifies",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "qualified_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-51A22D57BC47"
+      },
+      "original_source_meaning": "Old Regime internal customs, tolls, tariffs, and nonuniform measures obstructed exchange; revolutionary reform removed these internal barriers as part of national economic unification.",
+      "original_target_meaning": "The Revolution delayed French growth for roughly a generation; institutional simplification did not release enterprise, while insecurity, national-land sales, and abolition of venal office reinforced bourgeois preference for land over productive investment.",
+      "inherited_source_pages": [
+        405
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "independent_lead_disposition": "Correct the normalized direction: the failure of simplification to release growth qualifies expectations about removing internal barriers. 7F804 must retain both real reforms and the source’s limited-results argument; do not infer that barriers were not abolished.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-13D8A951FDA7",
+      "original_record": {
+        "relationship_id": "REL-13D8A951FDA7",
+        "source_subject_id": "SUBJ-F8282C0D5793",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "rationalizing economic reforms",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "Revolutionary economic liberalization abolished guilds and, through the Le Chapelier Law, prohibited worker coalitions as well as corporate privilege.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        405
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "independent_lead_disposition": "7F804 may internalize guild abolition and Le Chapelier among rationalizing reforms, while retaining restrictions on workers and failure to release growth. The 1791 law’s actual early treatment remains distinct from this later economic assessment.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-40E308B0406F",
+      "original_record": {
+        "relationship_id": "REL-40E308B0406F",
+        "source_subject_id": "SUBJ-5F74ACED6A87",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "rationalizing economic reforms",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "Old Regime internal customs, tolls, tariffs, and nonuniform measures obstructed exchange; revolutionary reform removed these internal barriers as part of national economic unification.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        405
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "independent_lead_disposition": "7F804 can internalize abolition of internal customs and standardization as preconditions for progress. Preserve their limited immediate effect alongside continued land-oriented investment; no independent abstract rationalization node is needed.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-4FBF1FE6AC13",
+      "original_record": {
+        "relationship_id": "REL-4FBF1FE6AC13",
+        "source_subject_id": "SUBJ-F8282C0D5793",
+        "type": "qualifies",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "qualified_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S078",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-51A22D57BC47"
+      },
+      "original_source_meaning": "Revolutionary economic liberalization abolished guilds and, through the Le Chapelier Law, prohibited worker coalitions as well as corporate privilege.",
+      "original_target_meaning": "The Revolution delayed French growth for roughly a generation; institutional simplification did not release enterprise, while insecurity, national-land sales, and abolition of venal office reinforced bourgeois preference for land over productive investment.",
+      "inherited_source_pages": [
+        405
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-7F8042CFA7E2"
+      ],
+      "independent_lead_disposition": "Correct qualified-by direction as with the internal-barriers row. 7F804 must retain institutional liberalization without promised entrepreneurial release, and distinguish elimination of guild restrictions from the restriction of labour organization.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-2925FCACB9BE",
+      "original_record": {
+        "relationship_id": "REL-2925FCACB9BE",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "affected_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S082",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-2921D23ACD59"
+      },
+      "original_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "original_target_meaning": "Falling exchange value of both monetary instruments raised prices, especially for imports, and intensified popular accusations against merchants and hoarders.",
+      "inherited_source_pages": [
+        408
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-E4C3D945CE3F",
+        "SUBJ-SUCC-4DF9C902BF5B"
+      ],
+      "independent_lead_disposition": "Full 408 supports understated 1771 valuations and depreciating assignats diminishing compensation’s real value. E4C/5193 carry this; 4DF9’s 1792 food-price action is the wrong parent for officeholder losses. Do not label all compensation nominally unpaid.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-732EB7DA9DDB",
+      "original_record": {
+        "relationship_id": "REL-732EB7DA9DDB",
+        "source_subject_id": "SUBJ-AC3E316FBFE3",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "benefits"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S031",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-F93C5DA22925"
+      },
+      "original_source_meaning": "Abolition of venal office and corporate barriers opened professions but also removed training and validation, creating disorder that Napoleonic licensing and bureaucracy later corrected.",
+      "original_target_meaning": "The bourgeoisie expanded faster than the population and controlled much commercial, industrial, landed, office, and financial wealth, forming most of the secure urban elite.",
+      "inherited_source_pages": [
+        408
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "independent_lead_disposition": "E4C must preserve bourgeois professional opportunity together with early deregulation, weakened standards and later licensing. The old general bourgeois wealth profile is context, not proof that every professional immediately gained.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-DD0F8069AD66",
+      "original_record": {
+        "relationship_id": "REL-DD0F8069AD66",
+        "source_subject_id": "SUBJ-A71BF60B59EC",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "benefits"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S032",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-F93C5DA22925"
+      },
+      "original_source_meaning": "War reversed early decentralizing aspirations, multiplied administrators and central personnel, and created stable bourgeois careers with qualifications, promotion structures, and pensions.",
+      "original_target_meaning": "The bourgeoisie expanded faster than the population and controlled much commercial, industrial, landed, office, and financial wealth, forming most of the secure urban elite.",
+      "inherited_source_pages": [
+        408,
+        409,
+        424
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "independent_lead_disposition": "Full 408–409 supports wartime administrative expansion and later stabilized careers, entry rules and pensions benefiting bourgeois recruits. E4C carries that mechanism; 424 is a wider war-transformation argument and does not itself supply administrative employment facts.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-E5F0AA1801C9",
+      "original_record": {
+        "relationship_id": "REL-E5F0AA1801C9",
+        "source_subject_id": "SUBJ-59856BDB5388",
+        "type": "part_of",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "component_of"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S082",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_label": "professional transformation",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "Whole-book synthesis: The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues. Former officeholders received compensation based on old, understated tax valuations and largely in depreciating assignats, leaving them feeling dispossessed by the reform that opened careers.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        408
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "independent_lead_disposition": "E4C/5193 can internalize compensation within professional transformation, retaining both the early debt/assignat consequence and later officeholders’ real losses with distinct pages. Retire only the abstract component label.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    },
+    {
+      "historical_key": "legacy:REL-09204FA1AD53",
+      "original_record": {
+        "relationship_id": "REL-09204FA1AD53",
+        "source_subject_id": "SUBJ-148DFDDAEB81",
+        "type": "constrains",
+        "resolution_status": "label_only",
+        "source_relationship_types": [
+          "constrained_by"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-017",
+            "local_subject_id": "CHUNK-017-S050",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_label": "property rights and Notable rule",
+        "candidate_subject_ids": []
+      },
+      "original_source_meaning": "The Revolution destroyed hereditary legal privilege and advanced equal law and opportunity, but protected unequal property, restricted effective political power, and excluded women and other groups from full equality.",
+      "original_target_meaning": null,
+      "inherited_source_pages": [
+        419,
+        421
+      ],
+      "inherited_proposed_subject_ids": [
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-73959CE24E90"
+      ],
+      "independent_lead_disposition": "Correct constrained-by direction: property rights and Notable rule limit practical equality. 73959 with CB77 must preserve legal gains, restricted secondary voting, the unused 1793 constitution, consular continuity and exclusion by sex; full 419–421 does not support equality constraining property rule.",
+      "status": "later_source_editorial_referral_resolved; exact_final_retention_or_repair_pending"
+    }
+  ],
+  "qualification": "This closes the referral’s missing later-source disposition, not approval of exact integrated repaired values. Overlap with other historical ledgers must be referenced by key rather than double counted.",
+  "approval": false
+}

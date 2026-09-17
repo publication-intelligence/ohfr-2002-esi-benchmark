@@ -4,7 +4,9 @@ This repository contains the frozen, candidate-independent source benchmark for 
 
 ## Frozen benchmark release
 
-Benchmark v3 is final. It completed source-led discovery, whole-book synthesis, and a full independent candidate-blind review before freeze.
+Benchmark v3 is an immutable historical release. It completed source-led discovery, whole-book synthesis, and a full independent candidate-blind review before freeze.
+
+**The successor benchmark and common V10 study lock are frozen.** Source-only comparison found material defects in both historical releases. The independently reviewed successor contains 531 subjects, 3,297 evidence rows, 501 relationships and 617 reader tasks. Independent review confirmed that its access requirements need no further amendment. The [common study lock](study-benchmark-lock.v10.json) binds this source proof, the V10 policy and the shared 193,118-word density basis. The [successor release descriptor](successor-release.json) pins artifact-freeze commit `191ce37a81878d41ce51e378e9ee61bd1af5c528`, 41 frozen proof files and a portable source-proof snapshot; pinned runtime validation passes. The reviewed runtime is activated and fresh reevaluation of all four indexes is underway. [Execution corrections](docs/v10-execution-corrections.md) are being reviewed for inspected semantic uncertainty, one identical repeated access distinction and one unsupported relationship dependency before final results. See [study reconciliation](docs/study-benchmark-reconciliation.md), the [V10 sequence](docs/v10-methodology-cutover.md) and [draft PR 17](https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/pull/17). The immutable historical v3 contract is preserved below.
 
 | Release fact | Value |
 | --- | --- |
@@ -17,7 +19,7 @@ Benchmark v3 is final. It completed source-led discovery, whole-book synthesis, 
 | Reader tasks | 1,026 |
 | Independent review | Full, completed, candidate blindness preserved |
 
-The machine-readable release bindings are in [`benchmark-release.v3.json`](benchmark-release.v3.json). Commits after the artifact freeze may improve documentation, control metadata, checkpoints, or validation automation, but they do not redefine benchmark v3. Candidate repositories must continue to pin the artifact freeze commit above.
+The machine-readable release bindings are in [`benchmark-release.v3.json`](benchmark-release.v3.json). Commits after the artifact freeze may improve documentation, control metadata, checkpoints, or validation automation, but they do not redefine benchmark v3. Evaluations reusing v3 must continue to pin the artifact freeze commit above.
 
 ## Source scope and limitations
 
@@ -25,7 +27,7 @@ The supplied study source is the IndexerLabs-distributed special PDF. Its 425 su
 
 The supplied PDF omits the book's front matter and endnotes. Those unavailable regions are outside the benchmark denominator. The repository also excludes the copyrighted source PDF, chapter packet PDFs, and extracted source text; the book must be obtained separately from an authorized source.
 
-The review retains 303 label-only relationships where no single stable subject is coextensive with the access route, plus 94 documented editorial uncertainties. These are nonblocking, explicit limitations rather than missing review work.
+The historical v3 review retains 303 label-only relationships where no single stable subject is coextensive with the access route, plus 94 documented editorial uncertainties. These are nonblocking, explicit limitations rather than missing review work.
 
 ## Contents
 
@@ -42,7 +44,7 @@ The review retains 303 label-only relationships where no single stable subject i
 
 ## Reuse in candidate repositories
 
-Every candidate evaluation must:
+The historical v3 reuse contract is preserved below. It governs reuse of v3; it does not preselect the outcome of the current study reconciliation. An evaluation reusing v3 must:
 
 1. pin benchmark repository commit `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab` as its immutable benchmark artifact reference;
 2. bind `source/source-benchmark.v3.json` to canonical SHA-256 `b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3` and file SHA-256 `34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27`;
@@ -62,6 +64,8 @@ The independent review found systemic defects in benchmark v2 and triggered a te
 ## Automated validation
 
 Pull requests and pushes to `main` run [`scripts/validate_benchmark_release.py`](scripts/validate_benchmark_release.py). The check verifies the release hashes, frozen counts, independent-review status, cleared control gate, checkpoint integrity, and byte-for-byte identity of benchmark v3 with the artifact freeze commit.
+
+Successor release validation is separate: after every historical v3 check passes, the validator explicitly dispatches the [pinned successor checks](docs/successor-release-validation.md) if a successor release descriptor has been selected. Until then, CI remains historical-v3-only. The workflow and immutable v3 enforcement remain unchanged.
 
 ## Rights
 

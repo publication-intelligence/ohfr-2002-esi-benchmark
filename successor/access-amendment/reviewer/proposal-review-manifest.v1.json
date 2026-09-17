@@ -1,0 +1,74 @@
+{
+  "schema_version": "v10-independent-access-review-manifest-v1",
+  "status": "sealed_independent_approval_of_exact_proposal",
+  "sealed_at": "2026-09-17T05:24:36.439510+00:00",
+  "addendum": {
+    "path": "successor/access-amendment/reviewer-proposal-addendum.v1.json",
+    "sha256": "4520473718337623040552b165dc9a8db1253327c63dffe1c6173de83b42c3bb",
+    "bytes": 4705
+  },
+  "pre_proposal_manifest": {
+    "path": "successor/access-amendment/reviewer/pre-proposal-manifest.v1.json",
+    "sha256": "e16dc5e48f257795f897391d4447e770d2bcdaaf39b3605aeba3a95751948a0e",
+    "bytes": 2184
+  },
+  "author_manifest": {
+    "path": "successor/access-amendment/author/manifest.v1.json",
+    "sha256": "24a6a3088a3d5acdf222b6b8cc94d8be9061fb6132dd41253c82eda471f9111d",
+    "bytes": 2628
+  },
+  "overlay": {
+    "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+    "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+    "bytes": 186329
+  },
+  "overlay_sha256": "7578ab4e013f77a6dfa773704459b7314c37a2fc7046099189d7fd9bbeaada3d",
+  "population_sha256": "6f8cbe9f994101437bf29ba94c9d898a9b60c19c9943d8235d47968afba03e8b",
+  "files": [
+    {
+      "path": "successor/access-amendment/reviewer/proposal-clause-review.v1.json",
+      "sha256": "95e3875dde60646c79358582171e29ac966764ab9a57bb5d1a4a910b16f2cc0b",
+      "bytes": 12908
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-value-inspection-ledger.v1.json",
+      "sha256": "9d032802d7222d98ea64140b950b8aa083dfee967d7c0e87cb9bc28adb33f663",
+      "bytes": 33091
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-source-reading-and-reuse.v1.json",
+      "sha256": "b08e981572c3e4f61cd4632f3d43aa94809b25beb1d0317ca10af971c7aceec8",
+      "bytes": 4400
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-identity-verification.v1.json",
+      "sha256": "ce6bfe864a3db11117ce41c324a95a459beab126714d4db63131ed18e8b0e373",
+      "bytes": 1395
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-visibility-and-assent.v1.json",
+      "sha256": "c4d679837caec64f2bb1aac40183835c38b6ddfefb39d6ea665eac8cf8fc939e",
+      "bytes": 2900
+    },
+    {
+      "path": "successor/access-amendment/reviewer/benchmark-access-review.v1.json",
+      "sha256": "78499f5df31659be648e39e9e5ae3056a40a0cc05ede56471cd107f889f4aa8f",
+      "bytes": 1517
+    }
+  ],
+  "counts": {
+    "new_subject_access_structures": 12,
+    "new_task_access_structures": 12,
+    "new_task_facets": 40,
+    "additional_target_field_contexts": 23,
+    "new_full_source_pages": 8,
+    "author_cases_independently_assessed": 9,
+    "clauses_independently_assessed": 4,
+    "delta_count": 0,
+    "subjects_unchanged": 531,
+    "reader_tasks_unchanged": 617
+  },
+  "candidate_seen": false,
+  "source_scope_unchanged": true,
+  "no_runtime_activation_lock_or_freeze": true
+}

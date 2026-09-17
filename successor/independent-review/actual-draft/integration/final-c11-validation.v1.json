@@ -1,0 +1,43 @@
+{
+  "schema_version": "independent-final-validation-v1",
+  "ok": true,
+  "runtime_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "review": {
+    "path": "successor/independent-review/source-benchmark-review.v1.json",
+    "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+    "bytes": 469741
+  },
+  "final": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "draft": {
+    "path": "successor/source/source-benchmark.draft.v1.json",
+    "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+    "bytes": 6170297
+  },
+  "inventory": {
+    "path": "successor/validation/source-benchmark-review-inventory.json",
+    "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+    "bytes": 54837
+  },
+  "errors": [],
+  "facet_parent_membership_passed": true,
+  "final_canonical_hash_recomputed": true,
+  "state_unchanged": {
+    "path": "successor/evaluation-state.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "counts": {
+    "subjects": 531,
+    "relationships": 501,
+    "reader_tasks": 617,
+    "exclusions": 226,
+    "uncertainties": 147
+  },
+  "evidence_count": 3297,
+  "approved_change_entries": 901,
+  "typed_freeze_performed": false
+}

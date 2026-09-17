@@ -1,0 +1,65 @@
+{
+  "schema_version": "independent-read-only-c11-source-correction-validation-v1",
+  "interpreter": "/tmp/evaluate-subject-index-gate-venv/bin/python",
+  "helper": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "final": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "review": {
+    "path": "successor/independent-review/source-benchmark-review.v2.json",
+    "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+    "bytes": 492840
+  },
+  "state": {
+    "path": "successor/evaluation-state.source-correction-v3.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "calls": [
+    {
+      "function": "benchmark_review_cli.final_benchmark_structure_errors",
+      "errors": []
+    },
+    {
+      "function": "benchmark_review_cli.validate_final_data",
+      "errors": [],
+      "includes_validate_review_data": true
+    },
+    {
+      "function": "state_cli.validate_state",
+      "check_files": false,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "actual_original_draft_to_final_approved_changes_count": 901,
+  "exact_match": true,
+  "approved_change_delta_from_v2": [
+    {
+      "entity_id": "REL-SUCC-8AD7BFC51F21",
+      "prior_v2_approved_change": {
+        "entity_type": "relationship",
+        "entity_id": "REL-SUCC-8AD7BFC51F21",
+        "action": "update",
+        "fields": [
+          "rationale"
+        ]
+      },
+      "v3_approved_change": {
+        "entity_type": "relationship",
+        "entity_id": "REL-SUCC-8AD7BFC51F21",
+        "action": "remove"
+      }
+    }
+  ],
+  "schema_root_override": false,
+  "state_or_runtime_written": false,
+  "typed_freeze_performed": false,
+  "limits": "State artifact existence/hash validation beyond exact allowed inputs is deferred to root; no unlisted source-state artifact was opened by this check."
+}

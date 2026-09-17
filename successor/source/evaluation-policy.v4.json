@@ -1,0 +1,254 @@
+{
+  "schema_version": "subject-index-evaluation-policy-v4",
+  "policy_id": "ohfr-2002-study-source-successor-v1-policy-v8.2",
+  "policy_profile": {
+    "id": "subject-index-standard-policy-v8.2",
+    "consequence_policy_reference": "consequence-policy-v8.2.md"
+  },
+  "source_scope": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "included": [
+      "preparation-approved indexable content",
+      "substantive body, chapter, and part text",
+      "substantive block quotations",
+      "substantive inspectable notes, footnotes, and endnotes",
+      "substantive captions and table text",
+      "eligible text whose role remains unknown",
+      "main text on supplied source pages 1-425"
+    ],
+    "excluded": [
+      "front or back matter designated nonindexable",
+      "bibliographies and source lists",
+      "publisher and candidate indexes",
+      "contents pages and navigation lists",
+      "running furniture and page numbers",
+      "proof or production material",
+      "graph internals and ignored regions",
+      "material unavailable in the supplied source",
+      "front matter, endnotes, and other matter absent from the supplied 425-page source"
+    ],
+    "availability": {
+      "status": "partial_source_supplied",
+      "available_document_page_span": [
+        1,
+        425
+      ],
+      "unavailable_material": [
+        "front matter before source page 1",
+        "endnotes and other matter after source page 425"
+      ],
+      "note": "The exact 425-page source bytes used by the existing evaluation are available; omitted matter is not inferred or substituted."
+    },
+    "mixed_page_rule": "Evaluate eligible regions and ignore excluded regions on the same page.",
+    "word_count_basis": "indexable source words only"
+  },
+  "audience": {
+    "label": "scholarly",
+    "basis": "user_supplied",
+    "confidence": "high",
+    "rationale": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+  },
+  "audit_design": {
+    "mode": "full",
+    "candidate_blindness": "required",
+    "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+    "uninspectable_locator_rate_tolerance": 0.01
+  },
+  "content_policies": {
+    "scope_compliance": {
+      "rule_reference": "standard-policy-v8.md#locator-utility",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "substantive_coverage": {
+      "rule_reference": "standard-policy-v8.md#locator-utility",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "editorial_selectivity": {
+      "rule_reference": "standard-policy-v8.md#locator-utility",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "conceptual_stance_fidelity": {
+      "rule_reference": "standard-policy-v8.md#locator-utility",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "heading_access_architecture": {
+      "rule_reference": "standard-policy-v8.md#locator-strings-and-ranges",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "locator_quality": {
+      "rule_reference": "standard-policy-v8.md#locator-utility",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "compound_heading_scope": {
+      "rule_reference": "standard-policy-v8.md#locator-utility",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "cross_references": {
+      "rule_reference": "standard-policy-v8.md#locator-utility",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "whole_index_coherence": {
+      "rule_reference": "standard-policy-v8.md#locator-strings-and-ranges",
+      "profile": "subject-index-standard-policy-v8.2"
+    },
+    "mechanical_validity": {
+      "rule_reference": "standard-policy-v8.md#locator-strings-and-ranges",
+      "profile": "subject-index-standard-policy-v8.2"
+    }
+  },
+  "stage_application": {
+    "source_subject_discovery": [
+      "scope_compliance",
+      "substantive_coverage",
+      "editorial_selectivity",
+      "conceptual_stance_fidelity",
+      "locator_quality"
+    ],
+    "benchmark_freeze": [
+      "substantive_coverage",
+      "conceptual_stance_fidelity",
+      "heading_access_architecture",
+      "whole_index_coherence"
+    ],
+    "locator_audit": [
+      "scope_compliance",
+      "editorial_selectivity",
+      "conceptual_stance_fidelity",
+      "locator_quality",
+      "compound_heading_scope"
+    ],
+    "missing_access_audit": [
+      "substantive_coverage",
+      "conceptual_stance_fidelity",
+      "heading_access_architecture",
+      "locator_quality",
+      "cross_references"
+    ],
+    "structure_audit": [
+      "scope_compliance",
+      "editorial_selectivity",
+      "conceptual_stance_fidelity",
+      "heading_access_architecture",
+      "compound_heading_scope",
+      "cross_references",
+      "whole_index_coherence",
+      "mechanical_validity"
+    ],
+    "deterministic_validation": [
+      "scope_compliance",
+      "heading_access_architecture",
+      "locator_quality",
+      "cross_references",
+      "mechanical_validity"
+    ]
+  },
+  "density_profile": {
+    "status": "scored",
+    "measurement_level": "chapter_or_approved_intellectual_unit",
+    "aggregation": "indexable_source_word_weighted_mean",
+    "rounding": "none_dimension_and_contribution; overall_nearest_0.01",
+    "metrics": [
+      {
+        "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+        "unit": "locator-bearing complete heading paths per 1,000 indexable source words",
+        "scored": true,
+        "weight": 0.5,
+        "target": 8.0,
+        "ideal_min": 6.0,
+        "ideal_max": 10.0,
+        "acceptable_min": 4.0,
+        "acceptable_max": 12.0,
+        "provenance": "subject-index-standard-policy-v8.2"
+      },
+      {
+        "metric_id": "locator_occurrences_per_1000_source_words",
+        "unit": "expanded locator occurrences per 1,000 indexable source words",
+        "scored": true,
+        "weight": 0.5,
+        "target": 20.0,
+        "ideal_min": 15.0,
+        "ideal_max": 25.0,
+        "acceptable_min": 10.0,
+        "acceptable_max": 30.0,
+        "provenance": "subject-index-standard-policy-v8.2"
+      }
+    ],
+    "short_unit_rule": "Treat an unstable short unit as descriptive or combine it with a declared adjacent unit.",
+    "rationale": "Permissive calibration for finished-index scale and distribution; never a subject-discovery quota or hard ceiling.",
+    "maximum_score_contribution": 5
+  },
+  "critical_gates": [
+    {
+      "gate_id": "GATE-WRONG-LOCATOR",
+      "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-BROKEN-REFERENCE",
+      "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-SCOPE-LOCATOR",
+      "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+      "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-CENTRAL-OMISSION",
+      "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-STANCE",
+      "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-COMPOUND",
+      "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-GROUNDING",
+      "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-STRUCTURE",
+      "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+      "standard": true
+    }
+  ],
+  "deviations": [],
+  "freeze": {
+    "frozen_at": "2026-09-16T19:52:45Z",
+    "candidate_seen": false
+  },
+  "policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae"
+}

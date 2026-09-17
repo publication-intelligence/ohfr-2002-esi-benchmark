@@ -1,0 +1,41 @@
+{
+  "chunk_id": "CHUNK-003",
+  "status": "complete_local_proposal_pending_parent_synthesis",
+  "owned_pages_reviewed": 20,
+  "legacy_active_records_mapped": 84,
+  "native_records_mapped": 31,
+  "historical_records_mapped": 0,
+  "candidate_unexposed": true,
+  "indexable_source_words": 9055,
+  "final_entity_inventory_counts": {
+    "legacy": {
+      "subject_ids": 84,
+      "owned_evidence_ids": 275,
+      "relationship_ids": 156,
+      "task_ids": 82,
+      "exclusion_ids": 6,
+      "uncertainty_ids": 5
+    },
+    "native": {
+      "subject_ids": 28,
+      "owned_evidence_ids": 87,
+      "relationship_ids": 12,
+      "task_ids": 28,
+      "exclusion_ids": 9,
+      "uncertainty_ids": 4
+    }
+  },
+  "external_and_unimported_graph_adjudication": "parent_pending_explicit_rows",
+  "validation": {
+    "current_source_subject_chunk_schema": "passed",
+    "all_mapping_targets_exist": true,
+    "all_evidence_pages_owned": true,
+    "density_page_sum_matches_chunk": true,
+    "all_final_owned_subjects_have_mapping": true,
+    "all_final_owned_evidence_has_replacement_reference": true
+  },
+  "proposed_records": 31,
+  "proposed_nonexcluded_records": 28,
+  "proposed_local_edges": 16,
+  "artifact_sha256": "d7a0680bf2586582d7f38f827ef52ce1cc62dae39233d6b758f5f1501f03e2c3"
+}

@@ -1,0 +1,1115 @@
+{
+  "schema_version": "source-benchmark-comparison-decision-v1",
+  "status": "source_only_comparison_complete_with_bounded_coverage",
+  "recommendation": "create_versioned_independently_reviewed_successor",
+  "recommendation_scope": "Choose source-only reconciliation as the next action; neither full legacy retention nor unchanged native study-wide adoption is endorsed. No final successor contents or freeze are approved.",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "candidate_unexposed_attestation": {
+    "candidate_indexes_opened": false,
+    "candidate_audits_opened": false,
+    "candidate_results_opened": false,
+    "candidate_names_used_in_judgments": false,
+    "candidate_derived_quantities_used": false,
+    "permitted_inputs": "The exact source-only allowlist, explicit native freeze addendum, methodology/skill instructions, and review-team outputs.",
+    "metadata_limit": "Inherited administrative identifiers were incidentally visible inside allowlisted lineage files. This is a claim of candidate-content/outcome blindness, not literal absence of all historical identity strings.",
+    "delegation": "Two fresh contexts reviewed disjoint chunks1–6 and7–12; principal reviewed13–17 and historical lineage, and personally rechecked decisive pp151/275."
+  },
+  "source_coverage": {
+    "source_pages_semantically_inspected": [
+      3,
+      19,
+      20,
+      21,
+      22,
+      23,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      116,
+      117,
+      118,
+      119,
+      120,
+      123,
+      124,
+      127,
+      129,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      181,
+      182,
+      183,
+      204,
+      205,
+      206,
+      224,
+      225,
+      226,
+      236,
+      237,
+      258,
+      259,
+      260,
+      262,
+      263,
+      264,
+      275,
+      276,
+      277,
+      289,
+      290,
+      297,
+      298,
+      303,
+      307,
+      308,
+      310,
+      314,
+      316,
+      317,
+      318,
+      319,
+      322,
+      323,
+      324,
+      325,
+      326,
+      330,
+      331,
+      333,
+      334,
+      337,
+      340,
+      343,
+      344,
+      345,
+      346,
+      347,
+      350,
+      354,
+      355,
+      358,
+      367,
+      368,
+      371,
+      372,
+      375,
+      376,
+      377,
+      378,
+      384,
+      388,
+      389,
+      390,
+      395,
+      398,
+      399,
+      405,
+      406,
+      411,
+      412,
+      413,
+      419,
+      420,
+      421,
+      423,
+      424,
+      425
+    ],
+    "count": 128,
+    "total": 425,
+    "prose_pages": 123,
+    "visual_map_pages": [
+      3,
+      127,
+      129,
+      225,
+      345
+    ],
+    "unreviewed_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      121,
+      122,
+      125,
+      126,
+      128,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      261,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      299,
+      300,
+      301,
+      302,
+      304,
+      305,
+      306,
+      309,
+      311,
+      312,
+      313,
+      315,
+      320,
+      321,
+      327,
+      328,
+      329,
+      332,
+      335,
+      336,
+      338,
+      339,
+      341,
+      342,
+      348,
+      349,
+      351,
+      352,
+      353,
+      356,
+      357,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      369,
+      370,
+      373,
+      374,
+      379,
+      380,
+      381,
+      382,
+      383,
+      385,
+      386,
+      387,
+      391,
+      392,
+      393,
+      394,
+      396,
+      397,
+      400,
+      401,
+      402,
+      403,
+      404,
+      407,
+      408,
+      409,
+      410,
+      414,
+      415,
+      416,
+      417,
+      418,
+      422
+    ],
+    "omission_review": "Bounded source-first probes across all17 chapters. This establishes specific coverage/access issues, not exhaustive absence of omitted subjects.",
+    "measurement_coverage": "425-page mechanical extraction/counting is separate from128-page semantic inspection."
+  },
+  "entity_coverage_summary": [
+    {
+      "lineage": "legacy",
+      "entity_type": "subjects",
+      "total_inventoried": 1366,
+      "bounded_source_comparison": 142,
+      "partial_not_adjudicated": 0,
+      "unreviewed": 1224,
+      "full_editorial_approvals": 0
+    },
+    {
+      "lineage": "legacy",
+      "entity_type": "relationships",
+      "total_inventoried": 3460,
+      "bounded_source_comparison": 16,
+      "partial_not_adjudicated": 0,
+      "unreviewed": 3444,
+      "full_editorial_approvals": 0
+    },
+    {
+      "lineage": "legacy",
+      "entity_type": "reader_tasks",
+      "total_inventoried": 1026,
+      "bounded_source_comparison": 12,
+      "partial_not_adjudicated": 5,
+      "unreviewed": 1009,
+      "full_editorial_approvals": 0
+    },
+    {
+      "lineage": "legacy",
+      "entity_type": "uncertainties",
+      "total_inventoried": 94,
+      "bounded_source_comparison": 2,
+      "partial_not_adjudicated": 0,
+      "unreviewed": 92,
+      "full_editorial_approvals": 0
+    },
+    {
+      "lineage": "native",
+      "entity_type": "subjects",
+      "total_inventoried": 638,
+      "bounded_source_comparison": 91,
+      "partial_not_adjudicated": 0,
+      "unreviewed": 547,
+      "full_editorial_approvals": 0
+    },
+    {
+      "lineage": "native",
+      "entity_type": "relationships",
+      "total_inventoried": 281,
+      "bounded_source_comparison": 5,
+      "partial_not_adjudicated": 0,
+      "unreviewed": 276,
+      "full_editorial_approvals": 0
+    },
+    {
+      "lineage": "native",
+      "entity_type": "reader_tasks",
+      "total_inventoried": 638,
+      "bounded_source_comparison": 14,
+      "partial_not_adjudicated": 0,
+      "unreviewed": 624,
+      "full_editorial_approvals": 0
+    },
+    {
+      "lineage": "native",
+      "entity_type": "uncertainties",
+      "total_inventoried": 75,
+      "bounded_source_comparison": 2,
+      "partial_not_adjudicated": 0,
+      "unreviewed": 73,
+      "full_editorial_approvals": 0
+    }
+  ],
+  "semantic_group_count": 78,
+  "decisive_rechecks": [
+    {
+      "source_pages": [
+        151
+      ],
+      "legacy_subject_ids": [
+        "SUBJ-20E4EBF24394",
+        "SUBJ-5EF2BDD9F1CB",
+        "SUBJ-A8857B12C90E"
+      ],
+      "legacy_relationship_ids": [
+        "REL-40DAB00EC7B6",
+        "REL-F901AD713C65",
+        "REL-A189108B8550",
+        "REL-728B1FB47A0B"
+      ],
+      "principal_confirmation": "Confirmed exact duplicate scope, stale free-coloured-rights evidence and incompatible incident relationships."
+    },
+    {
+      "source_pages": [
+        275
+      ],
+      "native_subject_ids": [
+        "SUBJ-0448"
+      ],
+      "native_evidence_ids": [
+        "EVID-0448-002"
+      ],
+      "legacy_relationship_ids": [
+        "REL-B0C022DE2900"
+      ],
+      "principal_confirmation": "Confirmed loss of the phase-specific qualified social-discrimination interpretation in native and inverse causal-edge error in legacy."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F-001006-01",
+      "lineage": "legacy",
+      "severity": "high",
+      "kind": "duplicate_and_stale_split",
+      "entity_ids": [
+        "SUBJ-20E4EBF24394",
+        "SUBJ-5EF2BDD9F1CB",
+        "SUBJ-A8857B12C90E"
+      ],
+      "document_pages": [
+        151
+      ],
+      "finding": "The first two subjects now assert the same preservation-of-slavery decision. The narrowed SUBJ-20E4EBF24394 still includes free-colored rights evidence from its compound discovery record CHUNK-006-SUBJ-041. CHUNK-006-SUBJ-069 independently supplies the duplicated slavery subject.",
+      "recommendation": "Merge/reconcile the slavery records; keep free-colored citizenship distinct in meaning even if using one umbrella.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-02",
+      "lineage": "legacy",
+      "severity": "high",
+      "kind": "relationship_semantics",
+      "entity_ids": [
+        "REL-40DAB00EC7B6",
+        "REL-F901AD713C65",
+        "REL-A189108B8550",
+        "REL-728B1FB47A0B"
+      ],
+      "document_pages": [
+        151
+      ],
+      "finding": "Post-narrowing edges imply Robespierre's rise supports preservation of slavery, place free-colored political rights under preservation of slavery, treat one duplicate as part of the other, and contrast Barnave with a decision he recommended. These are inconsistent with the source passage and the final node meanings.",
+      "recommendation": "Re-adjudicate all edges incident to SUBJ-20E4EBF24394 after fixing its identity. Do not repair labels without checking endpoints and relation types.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-03",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "meaning_overreach",
+      "entity_ids": [
+        "SUBJ-0208"
+      ],
+      "document_pages": [
+        151
+      ],
+      "finding": "Anticolonial positions implies a broader opposition to colonial rule than the cited passage establishes. The inspected evidence concerns slavery and political rights of free people of color.",
+      "recommendation": "Use the narrower source-supported description: anti-slavery and support for political rights regardless of color.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-04",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "missing_explicit_distinction",
+      "entity_ids": [
+        "SUBJ-0061"
+      ],
+      "document_pages": [
+        46
+      ],
+      "finding": "Flexible censorship is represented, but the source's explicit paradox that public condemnation advertised books is absent from this meaning, stance and acceptable access; legacy SUBJ-721D8227847E preserves it.",
+      "recommendation": "Add the publicity paradox and a book-condemnation route within the existing unit.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-05",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "access_weakness",
+      "entity_ids": [
+        "SUBJ-0089",
+        "SUBJ-0106"
+      ],
+      "document_pages": [
+        71,
+        72,
+        74
+      ],
+      "finding": "The permanent audit dispute is in evidence but has no direct financial-accountability/audit access route; legacy SUBJ-3E437C3A371B and SUBJ-A2EE5C9776B0 make this retrieval possible.",
+      "recommendation": "Add a permanent-audit or financial-transparency route, preserving the distinction between tax consent and oversight of royal accounts.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-06",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "access_weakness",
+      "entity_ids": [
+        "SUBJ-0027",
+        "SUBJ-0028"
+      ],
+      "document_pages": [
+        20
+      ],
+      "finding": "The factory/work-discipline contrast is acknowledged only as supporting evidence within guild/unrest units; no explicit factory or work-discipline route preserves the independently useful source distinction.",
+      "recommendation": "Add an alias and treatment clause for exceptional factory scale/discipline; a separate subject is an editorial option.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-07",
+      "lineage": "both",
+      "severity": "medium",
+      "kind": "priority_and_dependency_review",
+      "entity_ids": [
+        "SUBJ-C78EA2AE8ED3",
+        "SUBJ-0169",
+        "SUBJ-0170",
+        "SUBJ-419FB0B5E7C6",
+        "SUBJ-0171"
+      ],
+      "document_pages": [
+        118,
+        119,
+        120
+      ],
+      "finding": "The Declaration is split into two essential native units while the essential legacy veto unit becomes part of one native major unit. Both source treatments are substantive. These changes can shift weighting without changing semantic coverage.",
+      "recommendation": "Review priority and dependency at whole-book scale; do not score the split/merge as a simple gain/loss.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-08",
+      "lineage": "native",
+      "severity": "low",
+      "kind": "task_specificity",
+      "entity_ids": [
+        "TASK-0089",
+        "TASK-0193",
+        "TASK-0208",
+        "TASK-0209"
+      ],
+      "document_pages": [
+        71,
+        72,
+        74,
+        144,
+        145,
+        146,
+        150,
+        151
+      ],
+      "finding": "The four inspected tasks share one general causes/consequences/qualifications template. They are answerable, but do not name the decisive contrasts that the source and legacy task formulations make explicit.",
+      "recommendation": "Rewrite representative questions around qualified Notables support, oath geography/lay pressure, tactical versus long-run office exclusion, and slavery versus free-colored rights. Retain candidate-unexposed provenance; templating alone does not prove exposure.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-09",
+      "lineage": "legacy",
+      "severity": "low",
+      "kind": "priority_uncertainty",
+      "entity_ids": [
+        "SUBJ-220425BEB2C4"
+      ],
+      "document_pages": [
+        44
+      ],
+      "finding": "The separately major cultural-backlash subject is supported by a brief, explicitly limited countercurrent. Native retains the nuance in its cultural-prestige stance. Separate major weight is not established by this packet.",
+      "recommendation": "Consider optional status or an alias under cultural influence, pending whole-book review.",
+      "confidence": "moderate",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-001006-10",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "word_count_scope",
+      "entity_ids": [
+        "CHUNK-001"
+      ],
+      "document_pages": [
+        3
+      ],
+      "finding": "The native CHUNK-001 count explicitly subtracts every extracted token on the non-prose map page. Visual inspection confirms a substantive caption, which the native source-scope policy includes. Thus its stated count method drops eligible caption text. This does not establish an exact corrected total.",
+      "recommendation": "Recount through an explicit region ledger that retains the substantive caption and excludes the source credit/cartographic internals under an agreed rule.",
+      "confidence": "high",
+      "source_report": "chunks-001-006.json"
+    },
+    {
+      "finding_id": "F-01",
+      "severity": "high",
+      "lineage": "native",
+      "category": "meaning_and_evidence_defect",
+      "subject_ids": [
+        "SUBJ-0448"
+      ],
+      "evidence_ids": [
+        "EVID-0448-002"
+      ],
+      "discovery_ids": [
+        "CHUNK-012-S039"
+      ],
+      "pages": [
+        275
+      ],
+      "finding": "The execution-profile stance/evidence substitutes a general anti-class-war proposition for the source's specific, qualified inference that the June–July phase moved closer to social discrimination. The evidence summary also introduces discrimination against lower classes as a target account absent from this passage.",
+      "recommended_action": "Rewrite the stance and synthesis evidence around the changed phase, preserving that many victims may also have engaged in subversive activity. Use legacy SUBJ-04661509BFF9/UNC-0790C024035C as a source-checked formulation, then independently reverify.",
+      "confidence": "high",
+      "source_report": "chunks-007-012.json"
+    },
+    {
+      "finding_id": "F-02",
+      "severity": "high",
+      "lineage": "legacy",
+      "category": "relationship_direction_defect",
+      "relationship_ids": [
+        "REL-B0C022DE2900"
+      ],
+      "subject_ids": [
+        "SUBJ-04661509BFF9",
+        "SUBJ-62A63322B066"
+      ],
+      "discovery_ids": [
+        "CHUNK-012-S010"
+      ],
+      "pages": [
+        275
+      ],
+      "finding": "The discovery relationship says the Great Terror is enabled_by the Prairial law. The final relationship retains Great Terror as source and the law as target but normalizes type to enables, reversing the causal direction. A second final edge REL-E772A101C09E correctly has the law cause the Great Terror, making the inconsistency concrete.",
+      "recommended_action": "Keep the endpoint order and type enabled_by, or reverse endpoints for enables. Audit inverse-relation normalization separately without treating the entire graph as invalid.",
+      "confidence": "high",
+      "source_report": "chunks-007-012.json"
+    },
+    {
+      "finding_id": "F-03",
+      "severity": "high",
+      "lineage": "legacy",
+      "category": "reader_task_routing_defect",
+      "task_ids": [
+        "TASK-9D06A030D5FC"
+      ],
+      "subject_ids": [
+        "SUBJ-52293E6B8B37",
+        "SUBJ-58E22A879214",
+        "SUBJ-6F86281308DE",
+        "SUBJ-AA951EA01A68",
+        "SUBJ-C6F73D362BCF"
+      ],
+      "discovery_ids": [
+        "TASK-CHUNK-012-12"
+      ],
+      "pages": [
+        289,
+        290
+      ],
+      "finding": "The western-pacification task acquires section-suppression, Dantonist-purge and centralization subjects, which do not answer the task on the inspected pages. It omits the directly relevant final treaty record SUBJ-904B87A15C7D and British-plan record SUBJ-9B94BFBE1018. Discovery task routes correctly named western insurgency, Hoche, agreements and British plans.",
+      "recommended_action": "Resolve from the original route meanings to treaty, western-insurgency, conciliation and British-plan subjects; remove unrelated targets. Recheck any automated local-to-final mapping used for other tasks.",
+      "confidence": "high",
+      "source_report": "chunks-007-012.json"
+    },
+    {
+      "finding_id": "F-04",
+      "severity": "medium",
+      "lineage": "native",
+      "category": "synthesis_boundary_and_access",
+      "subject_ids": [
+        "SUBJ-0188",
+        "SUBJ-0272"
+      ],
+      "task_ids": [
+        "TASK-0188"
+      ],
+      "discovery_ids": [
+        "CH008-S021"
+      ],
+      "pages": [
+        181,
+        182
+      ],
+      "finding": "Food/price-action discovery becomes part of an Assignats lifecycle subject. Text and evidence remain, including sugar/grain access, but the specific female popular-price-fixing reader route is absent and the source's explicit colonial-scarcity-to-price-action connection has no incident final relationship to SUBJ-0188 except a different financial-basis link.",
+      "recommended_action": "Retain a food/price-action component and a women/price-fixing task or route; add the source-grounded colonial-crisis relationship. Splitting is one option, not mandatory.",
+      "confidence": "high_for_record_contents_medium_for_retrieval_impact",
+      "source_report": "chunks-007-012.json"
+    },
+    {
+      "finding_id": "F-05",
+      "severity": "medium",
+      "lineage": "legacy",
+      "category": "uncertainty_preservation",
+      "subject_ids": [
+        "SUBJ-02504E738D18"
+      ],
+      "pages": [
+        182,
+        183
+      ],
+      "finding": "The legacy meaning presents peasant defensive motivation more categorically than the author's explicitly tentative inference. Native SUBJ-0273 preserves that uncertainty in both stance and synthesis evidence.",
+      "recommended_action": "Qualify the legacy interpretation as the source's suggested explanation and preserve competing uncertainty rather than stating motives as settled.",
+      "confidence": "high",
+      "source_report": "chunks-007-012.json"
+    },
+    {
+      "finding_id": "F-06",
+      "severity": "medium",
+      "lineage": "both",
+      "category": "density_provenance_noncomparability",
+      "pages": [
+        225
+      ],
+      "finding": "Declared counts mix whitespace and unspecified lexical/Unicode tokenization, different chapter-title treatment, note-callout treatment and map-label inclusion. Similar totals do not establish common denominators.",
+      "recommended_action": "Use the reproducible common measurement protocol below before density comparisons. Retain all historical counts as provenance; do not use them to select a benchmark.",
+      "confidence": "high",
+      "source_report": "chunks-007-012.json"
+    },
+    {
+      "finding_id": "F-013017-01",
+      "lineage": "native",
+      "severity": "high",
+      "kind": "overbroad_relationship_scope",
+      "entity_ids": [
+        "REL-0244",
+        "SUBJ-0572",
+        "SUBJ-0591"
+      ],
+      "source_pages": [
+        371,
+        372,
+        384
+      ],
+      "finding": "REL-0244 applies repealed_under to a compound subject containing conscription, the forced loan and Law of Hostages. The source identifies repeal of the latter two; it continues to discuss conscription as an operative cause of banditry. The whole composite cannot safely serve as an unqualified repeal antecedent.",
+      "action": "Scope the edge to the two repealed measures, or use separately justified component nodes. Do not infer wholesale repeal of conscription.",
+      "source_report": "chunks-013-017.json"
+    },
+    {
+      "finding_id": "F-013017-02",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "unacknowledged_source_uncertainty",
+      "entity_ids": [
+        "SUBJ-0598"
+      ],
+      "source_pages": [
+        389,
+        390
+      ],
+      "finding": "The 1802 date is a reasonable internal-chronology inference, but the record silently resolves an explicit source inconsistency. Legacy UNC-E6DC0EA51B05 records both alternatives.",
+      "action": "Preserve the discrepancy and mark the inferred date before any external correction.",
+      "source_report": "chunks-013-017.json"
+    },
+    {
+      "finding_id": "F-013017-03",
+      "lineage": "both",
+      "severity": "medium",
+      "kind": "priority_and_overlap",
+      "entity_ids": [
+        "SUBJ-AFA7274427C9",
+        "SUBJ-FB81C1F98593",
+        "SUBJ-0504",
+        "SUBJ-AEAAA36263B2",
+        "SUBJ-0457",
+        "SUBJ-E56D5576F925",
+        "SUBJ-0633"
+      ],
+      "source_pages": [
+        308,
+        322,
+        323,
+        324,
+        419,
+        420,
+        421
+      ],
+      "finding": "Some priority changes are changes in where analytical weight is placed, not differences in substantive treatment. Separate legacy illustrations can overlap their umbrella requirement; some native reductions of priority affect explicit limits of the central equality argument.",
+      "action": "Use a whole-book priority rationale and declared overlap rules; do not use label count, frequency, or page count as a quota.",
+      "source_report": "chunks-013-017.json"
+    },
+    {
+      "finding_id": "F-013017-04",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "lost_explicit_access",
+      "entity_ids": [
+        "SUBJ-0624",
+        "SUBJ-0638"
+      ],
+      "source_pages": [
+        411,
+        412,
+        413,
+        423,
+        424,
+        425
+      ],
+      "finding": "Consolidation retains broad treatment but weakens explicit access to free-coloured citizenship, geographically different restoration outcomes, and aggregate human cost.",
+      "action": "Restore the demonstrated access and qualification inside coherent units before considering additional standalone requirements.",
+      "source_report": "chunks-013-017.json"
+    },
+    {
+      "finding_id": "F-013017-05",
+      "lineage": "both",
+      "severity": "medium",
+      "kind": "reader_task_specificity",
+      "entity_ids": [
+        "TASK-0497",
+        "TASK-0579",
+        "TASK-0624",
+        "TASK-0638",
+        "TASK-AD9645DB1283",
+        "TASK-710BE903C33E"
+      ],
+      "source_pages": [
+        331,
+        375,
+        376,
+        377,
+        411,
+        412,
+        413,
+        425
+      ],
+      "finding": "The inspected native tasks all use a general argument-and-qualification template. They are answerable but do not independently test distinctive contrasts. Some legacy questions supply those contrasts; other legacy questions are equally generic. Task count and fallback flags do not establish editorial quality.",
+      "action": "Independently write or adjudicate source-answerable tasks for constitutional accommodation, colonial outcome differences, and the human-cost verdict; verify all linked subject IDs.",
+      "source_report": "chunks-013-017.json"
+    }
+  ],
+  "successor_design_proposal": {
+    "starting_scaffold": "Native v2 organizing units, explicitly provisional wherever not source-adjudicated. This is an editorial drafting convenience supported by tested integrated units, not an adoption or superiority claim for unreviewed content.",
+    "preserve_from_native": [
+      "Integrated event-and-interpretation units where source distinctions and access survive",
+      "Explicit uncertainty where tested",
+      "Local coherent distinctions between political rights and slavery"
+    ],
+    "incorporate_from_legacy": [
+      "Verified phase-specific Great Terror qualification",
+      "Source-grounded financial audit, censorship-publicity, factory-discipline, human-cost and other component access",
+      "Specific source-answerable reader questions after repairing their mappings",
+      "Recorded source-date and causal uncertainty"
+    ],
+    "mandatory_corrections": [
+      "Reconcile slavery-preservation duplicate and every affected incident edge if legacy components are reused",
+      "Correct native Great Terror stance/evidence and overbroad anticolonial language",
+      "Repair reversed relation direction and wrong task mappings",
+      "Scope compound-subject relationships to the actual supported components",
+      "Restore geographical/status distinctions in colonial rights and slavery outcomes",
+      "Resolve priorities and overlap through source reasoning, without count quotas"
+    ],
+    "granularity_rule": "Do not union rows. Prefer the smallest coherent retrieval requirement preserving a materially distinct source argument; retain component aliases/evidence when a separate weighted subject would duplicate the same reader need. Split only where different reader purposes or source qualifications require it.",
+    "pending_whole_book_work": [
+      "Review every unreviewed source page and entity, with all cross-chapter groups and all relationship/task dependencies",
+      "Conduct a fresh complete source-first omission pass",
+      "Draft exact stable-ID changes and field-level ledger",
+      "Independently review the actual revised draft in a separate candidate-unexposed context, then validate and freeze only if approved",
+      "Rebind/reperform downstream candidate work only after a separate authorized compatibility or migration decision"
+    ],
+    "requires_user_preference_to_begin": false,
+    "user_decision_boundary": "No substantive scholarly priority/granularity choice in the present findings requires user arbitration before drafting; normal source-grounded editorial review can resolve them. Study-wide adoption still requires completion of the review/freeze process."
+  },
+  "independent_targeted_check": {
+    "artifact": "independent-decision-check.json",
+    "sha256": "5a87cba37d61ee1b58a397eed88d024b0115e7ec0f5ca9c019ece53cb4ea8f72",
+    "status": "bounded_independent_check_complete",
+    "full_successor_review": false,
+    "nuance": "Native not-class-alone caveat is not itself a formal contradiction; the lost phase-change inference and unsupported lower-class counterargument are the material defect.",
+    "additional_incident_findings": [
+      {
+        "relationship_id": "REL-40DAB00EC7B6",
+        "from": "SUBJ-8C9C716904DC",
+        "type": "supports",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "stale_endpoint_after_narrowing",
+        "reason": "The source describes Robespierre opposing slavery and supporting political equality; the final target denotes preserving slavery."
+      },
+      {
+        "relationship_id": "REL-F901AD713C65",
+        "from": "SUBJ-A8857B12C90E",
+        "type": "part_of",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "stale_endpoint_after_narrowing",
+        "reason": "The citizenship issue was a component of the former compound colonial subject, not a component of the final slavery-preservation decision."
+      },
+      {
+        "relationship_id": "REL-A189108B8550",
+        "from": "SUBJ-5EF2BDD9F1CB",
+        "type": "part_of",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "collapsed_distinction_after_narrowing",
+        "reason": "Both endpoints now denote the same 1790 refusal of abolition; the former component-to-umbrella distinction no longer exists."
+      },
+      {
+        "relationship_id": "REL-728B1FB47A0B",
+        "from": "SUBJ-61FFE953CB63",
+        "type": "contrasts_with",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "stale_endpoint_after_narrowing",
+        "reason": "The inherited contrast concerns Barnave and Robespierre. The final target instead denotes the preservation decision recommended by Barnave’s committee."
+      },
+      {
+        "relationship_id": "REL-028476B899D6",
+        "from": "SUBJ-20E4EBF24394",
+        "type": "supports",
+        "to": "SUBJ-8C9C716904DC",
+        "verdict": "additional_stale_endpoint_confirmed",
+        "reason": "The inherited causal description concerns a rights-debate victory increasing Robespierre’s standing; the final source node denotes preservation of slavery."
+      },
+      {
+        "relationship_id": "REL-16B98BBC3184",
+        "from": "SUBJ-20E4EBF24394",
+        "type": "evidence_for",
+        "to": "SUBJ-744C7C41CE77",
+        "verdict": "locally_supported",
+        "reason": "Preserving slavery supplies an example of the exclusions qualifying the Assembly’s rights legacy; narrowing does not destroy this relation."
+      },
+      {
+        "relationship_id": "REL-CAB4FAA85E16",
+        "from": "SUBJ-744C7C41CE77",
+        "type": "constrains",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "additional_direction_mismatch",
+        "reason": "The preserved source relation is limited_by and its description makes colonial exclusion the qualification on the rights legacy. The final constrains type with unchanged endpoints reverses that direction. Re-adjudication is warranted; this is not needed for the principal withholding decision."
+      }
+    ],
+    "additional_context_pages_read": [
+      150,
+      151,
+      152,
+      274,
+      275,
+      276
+    ]
+  },
+  "changes_made": {
+    "legacy_freeze_changed": false,
+    "native_freeze_changed": false,
+    "successor_created_or_registered": false,
+    "compatibility_approval_authored": false,
+    "audit_transfer_approved": false
+  },
+  "artifacts": [
+    "semantic-crosswalk.json",
+    "entity-review-coverage.json",
+    "lineage-review.json",
+    "source-density-measurement.json",
+    "source-density-protocol-review.json",
+    "chunks-001-006.json",
+    "chunks-007-012.json",
+    "chunks-013-017.json"
+  ]
+}

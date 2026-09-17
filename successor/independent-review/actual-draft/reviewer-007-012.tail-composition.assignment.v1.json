@@ -1,0 +1,610 @@
+{
+  "schema_version": "independent-tail-composition-assignment-v1",
+  "status": "prepared_awaiting_root_mechanical_activation",
+  "worker": "/root/successor_review_007_012",
+  "inputs": [
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+      "bytes": 19774
+    },
+    {
+      "path": ".source-only/independent-review-draft-addendum.v1.json",
+      "sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760",
+      "bytes": 26163
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage9.v1.json",
+      "sha256": "3bc8b4289d286c01d6d8b4c20556a24eb64484002e55ac9c2e29c0c44c70e87c",
+      "bytes": 6701183
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/integration-stage9.inputs.v1.json",
+      "sha256": "593d7fc9b8d2d7ebb506de62893ed40613f501f473af30c25eef30485ab1507a",
+      "bytes": 84404
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage6.v1.json",
+      "sha256": "ec761c1fc78568cda525116939e9010157ce45830a1f10c911f193689c0a61b9",
+      "bytes": 6541806
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/manifest.v1.json",
+      "sha256": "e740d4dbed40ddbd02780efba6ef20c69b8f9973e0f9e5be8a5bd4cb907f93ac",
+      "bytes": 6846
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/proposed-records.v2.json",
+      "sha256": "493a95c5917750650e0a5fb7500953a2c347ea820f41277c12b65f17e4ad3c63",
+      "bytes": 511869
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/correction-referrals.v2.json",
+      "sha256": "8730bba854510a956b92feafc1e42069f14429852d4deebd7535168ec9b9600c",
+      "bytes": 70960
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/exact-field-diffs.v2.jsonl",
+      "sha256": "f8f18e621d38ef2f04657bc9d8ad79da4a23e98c818a9988febd384aa73ebd71",
+      "bytes": 178953
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-subject-ledger.v2.jsonl",
+      "sha256": "b24060f41e5f8e310f6368535777c0eb49b34e2aa0b31be4e8f00e8c97874d2e",
+      "bytes": 259948
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+      "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+      "bytes": 698912
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/later-proposed-context.v1.json",
+      "sha256": "7cc8623379f3b460a55c5295470987a66ac3606b922994febb410b61e71bf17f",
+      "bytes": 1267
+    }
+  ],
+  "authorized_scope": {
+    "subject_ids": [
+      "SUBJ-SUCC-A314B3102640",
+      "SUBJ-SUCC-7C338D256927",
+      "SUBJ-SUCC-525A1728F643",
+      "SUBJ-SUCC-38E8081905D0",
+      "SUBJ-SUCC-F0BD6A05AAAD",
+      "SUBJ-SUCC-1EBCC35F6918",
+      "SUBJ-SUCC-58F7F001857D",
+      "SUBJ-SUCC-C31553A0D1B9",
+      "SUBJ-SUCC-0D87BD18FE77",
+      "SUBJ-SUCC-7A343F73BC1F",
+      "SUBJ-SUCC-02AF5D334E8F",
+      "SUBJ-SUCC-E801BA395EE8",
+      "SUBJ-SUCC-65D590EBAFE2",
+      "SUBJ-SUCC-298B26A9D77A",
+      "SUBJ-SUCC-2E5B26D8A9D6",
+      "SUBJ-SUCC-C8838C6F47C7",
+      "SUBJ-SUCC-E57561515D9B",
+      "SUBJ-SUCC-13AF8F136719",
+      "SUBJ-SUCC-A946B0B96B6D",
+      "SUBJ-SUCC-1A51A7EA164F",
+      "SUBJ-SUCC-39CA1B8E5293",
+      "SUBJ-SUCC-28E04117C501",
+      "SUBJ-SUCC-C7DF46AA6436",
+      "SUBJ-SUCC-D25EFF329FF1",
+      "SUBJ-SUCC-CD9A2A52162E",
+      "SUBJ-SUCC-F7A0D2DCF841",
+      "SUBJ-SUCC-8A3FF7132FF1",
+      "SUBJ-SUCC-A09DB8EABD5C",
+      "SUBJ-SUCC-5D069D724C33",
+      "SUBJ-SUCC-85C459BB83CE",
+      "SUBJ-SUCC-431D9939D11B",
+      "SUBJ-SUCC-84B2C8434BA6",
+      "SUBJ-SUCC-6568AD1BCF30",
+      "SUBJ-SUCC-9601697A1247",
+      "SUBJ-SUCC-44A8A4E36810",
+      "SUBJ-SUCC-CC730DB406A0",
+      "SUBJ-SUCC-A7A6CD1D7787",
+      "SUBJ-SUCC-9EE30DCC1721",
+      "SUBJ-SUCC-F8A938B3B147",
+      "SUBJ-SUCC-43C2056DACCC",
+      "SUBJ-SUCC-5AAF2CE28F56"
+    ],
+    "referral_ids": [
+      "REF-ISR-001-LSE-001",
+      "REF-ISR-001-LSE-002",
+      "REF-ISR-001-LSE-003",
+      "REF-ISR-001-LSE-004",
+      "REF-ISR-001-LSE-005",
+      "REF-ISR-001-LSE-006",
+      "REF-ISR-001-LSE-007",
+      "REF-ISR-001-LSE-008",
+      "REF-ISR-001-LSE-009",
+      "REF-ISR-001-LSE-010",
+      "REF-ISR-001-LSE-011",
+      "REF-ISR-001-LSE-012",
+      "REF-ISR-001-LSE-013",
+      "REF-ISR-001-LSE-014",
+      "REF-ISR-001-LSE-015",
+      "REF-ISR-001-LSE-016",
+      "REF-ISR-001-LSE-017",
+      "REF-ISR-001-LSE-018",
+      "REF-ISR-001-LSE-019",
+      "REF-ISR-001-LSE-020",
+      "REF-ISR-001-LSE-021",
+      "REF-ISR-001-LSE-022",
+      "REF-ISR-001-LSE-023",
+      "REF-ISR-001-LSE-024",
+      "REF-ISR-001-LSE-025",
+      "REF-ISR-001-LSE-026",
+      "REF-ISR-001-LSE-027",
+      "REF-ISR-001-LSE-028",
+      "REF-ISR-001-LSE-029",
+      "REF-ISR-001-LSE-030",
+      "REF-ISR-001-LSE-031",
+      "REF-ISR-001-LSE-032",
+      "REF-ISR-001-LSE-033",
+      "REF-ISR-001-LSE-034",
+      "REF-ISR-001-LSE-035",
+      "REF-ISR-001-LSE-036",
+      "REF-ISR-001-LSE-037",
+      "REF-ISR-001-LSE-038",
+      "REF-ISR-001-LSE-039",
+      "REF-ISR-001-LSE-040",
+      "REF-ISR-001-LSE-041",
+      "REF-ISR-001-LSE-042",
+      "REF-ISR-001-LSE-043"
+    ],
+    "historical_key_ownership_unchanged": true
+  },
+  "stage9_parent_bindings": [
+    {
+      "subject_id": "SUBJ-SUCC-A314B3102640",
+      "stage9_record_sha256": "75e81a56460dd0fc2d4b3dfb01010c0c8e55b83be63ca0b116106b187f1acd17",
+      "tail_proposed_record_sha256": "231227500ef5d9a1bd495787cfc94ec3ccc0d04e13ace0c0b111e34acee8811c",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7C338D256927",
+      "stage9_record_sha256": "a114d39223293f84a6643a8fa0c8877a6889e45e35789afe2ec17a1a63f068c8",
+      "tail_proposed_record_sha256": "ff539c4c3cef85408cc729033ecb5b82bdcd9a23f74f493db2abb623af8e5fff",
+      "overlaps_007_composition": true,
+      "composition_group_index": 18
+    },
+    {
+      "subject_id": "SUBJ-SUCC-525A1728F643",
+      "stage9_record_sha256": "9e5f0c893637c19215f715f3657728614a2deaf69af823f59957f1157a6b8f3b",
+      "tail_proposed_record_sha256": "b43ffe2af4c02419c4bc1359f6a4a33d17155c29eaa52d161ee0dd3bcd05b733",
+      "overlaps_007_composition": true,
+      "composition_group_index": 42
+    },
+    {
+      "subject_id": "SUBJ-SUCC-38E8081905D0",
+      "stage9_record_sha256": "c4157d1a5adfbb5bf8b5a08f92595d976bf97f49695188667d5c7dd2e1daeec2",
+      "tail_proposed_record_sha256": "688d976d1a5e6a4db802e95422634b3853f0a72b0d52f4d50ca81a85276c9f9b",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+      "stage9_record_sha256": "4e619ecdc9f2323cb025aeb592e39d64d3416f3d520b26b2e8b2b6e12468827d",
+      "tail_proposed_record_sha256": "33663ba7f4f5e3074f80ae84dc3d6059eaf08bfcfeb0556880a9a763b67cd331",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1EBCC35F6918",
+      "stage9_record_sha256": "a1ddf183caa3788fc3056ea14784e36ccade60b279ffeac37f6a779685ee4246",
+      "tail_proposed_record_sha256": "7656383c995ea0046e35255814f7fdce56af60318001da9effdd7560c5e7dc5e",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-58F7F001857D",
+      "stage9_record_sha256": "7d569bd72ac572700bb7c9a641a3fd1d838cc250bba6d32e95b7ddc7f3e0fb2e",
+      "tail_proposed_record_sha256": "ca6c5f0bdf7d60e73e701316afcb408d3491fe35835ab8df273ecade87eedbb4",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C31553A0D1B9",
+      "stage9_record_sha256": "5eb81954a05490d075e36d8ca882ac528d4db3cf9630fd32c59ada08f88e0ae0",
+      "tail_proposed_record_sha256": "55bd714ec5239f2ca5810f5ee31d3050d33aa12c1ad999d1433e259196f010e1",
+      "overlaps_007_composition": true,
+      "composition_group_index": 33
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+      "stage9_record_sha256": "9dfb738307a0a7f15e68956b08da0e490ae236bd4b2adf5455a86a75ce05d85b",
+      "tail_proposed_record_sha256": "345f2d2e84513f59a985e8fa796d653755829a9eed463068a7d24e8e754c1b5f",
+      "overlaps_007_composition": true,
+      "composition_group_index": 58
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7A343F73BC1F",
+      "stage9_record_sha256": "6d2d40df0724e59aee4d49a4b69a19399620a7649307574a0a1caa6a41812b63",
+      "tail_proposed_record_sha256": "a8369c8cda01b0a4d56415c6d7ae397ea8b6ab452c37f47c7962d518899c095c",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+      "stage9_record_sha256": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c",
+      "tail_proposed_record_sha256": "c797c4c1a4806bbe011382ec3d0393fd00e129c2279f79805b8fd63a29cb916e",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E801BA395EE8",
+      "stage9_record_sha256": "a9dce65c04bd4c0306881d0c9695cf794f75291e3f58fbb686400bbd7bb201e5",
+      "tail_proposed_record_sha256": "7a3527ec15201216cf6c6518b27033e5ff770294974e7858656eac15bf6fbcfa",
+      "overlaps_007_composition": true,
+      "composition_group_index": 68
+    },
+    {
+      "subject_id": "SUBJ-SUCC-65D590EBAFE2",
+      "stage9_record_sha256": "f5c747da8514a4ee0ad60b181048a100fe67335a0d74f8196c4e09287f4d9488",
+      "tail_proposed_record_sha256": "696d382aa2d7a2736e2e1c9cd4b1b246aa0b57e45453f39dab87904e3706c047",
+      "overlaps_007_composition": true,
+      "composition_group_index": 63
+    },
+    {
+      "subject_id": "SUBJ-SUCC-298B26A9D77A",
+      "stage9_record_sha256": "0874bb33cce861fd6382066debe3041ac18a97fb2d13a73feb23d958c1e7ad63",
+      "tail_proposed_record_sha256": "1ce332e634665a0f4be3d7482861afbcb4fd9a7c98cae2c54a9ed894cfaaa776",
+      "overlaps_007_composition": true,
+      "composition_group_index": 87
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2E5B26D8A9D6",
+      "stage9_record_sha256": "5200e0c29435168b03a2643e4e8b2506d2857f74719314bafa8c7c39e766a02b",
+      "tail_proposed_record_sha256": "8301f363f56e1af9c94ccba33fede7a0df0b33a58ebbe84505d0a1b47b3bcc61",
+      "overlaps_007_composition": true,
+      "composition_group_index": 150
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "stage9_record_sha256": "055e988c430a845957766fb1610378b8a624aa164d655ae6b04671ac57f61b56",
+      "tail_proposed_record_sha256": "ad904d6e321a69c53586a613f609ef60cad74d9790afd89c917d376477f0ab8d",
+      "overlaps_007_composition": true,
+      "composition_group_index": 48
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E57561515D9B",
+      "stage9_record_sha256": "02c86ea250230b4612fbed2b6d6c5c5373347ddd4c078dfc09bc75f2c22b5b54",
+      "tail_proposed_record_sha256": "687d4f1bafcc758dac0f51001309932532aa66c9dd0a0be3e7f6d55a51f411f6",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "stage9_record_sha256": "c892b7d37be49f3bafb68f170718455c298d53e91fb029ff1187fa0d5a7ab338",
+      "tail_proposed_record_sha256": "bf72913a950518960b184270002e4537dfefbea34b214cd396edc21685da2540",
+      "overlaps_007_composition": true,
+      "composition_group_index": 122
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A946B0B96B6D",
+      "stage9_record_sha256": "23b0124d111d54f2a6df94d2cddbce75c4388ecb66411aada95dea3ab56bc7fa",
+      "tail_proposed_record_sha256": "1699374331a778063adb9529a0790b197a6abc5f26d0c887d6e50b6d9b971bd5",
+      "overlaps_007_composition": true,
+      "composition_group_index": 12
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1A51A7EA164F",
+      "stage9_record_sha256": "70dc695d67da410841ca1ea23f1b6164f390bf89127701e935e606d425718916",
+      "tail_proposed_record_sha256": "8aa023baee6a3cfee7048ae28d90bdbbe4fadd4f97c3ce9fcc6e62a6c68a71ed",
+      "overlaps_007_composition": true,
+      "composition_group_index": 85
+    },
+    {
+      "subject_id": "SUBJ-SUCC-39CA1B8E5293",
+      "stage9_record_sha256": "e8819224c3d422ee9d25b61b9043ce09aaecc075d983b717b55dd3fbc649b2b8",
+      "tail_proposed_record_sha256": "9822046c3b3b19b4d91688ccac7aa6abfa088da1dc9101d32ae45db6b64003f0",
+      "overlaps_007_composition": true,
+      "composition_group_index": 125
+    },
+    {
+      "subject_id": "SUBJ-SUCC-28E04117C501",
+      "stage9_record_sha256": "6819e0953ddf49fc055d6995fb93fc2031bc6a5d92ba3f4d611eaf882bc4d8e2",
+      "tail_proposed_record_sha256": "e629b24df2d94062fe004ce3696ae1bf0fc95f2e5347c0ffe075639d23f75931",
+      "overlaps_007_composition": true,
+      "composition_group_index": 103
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+      "stage9_record_sha256": "c5c716556eabfc4ab009882a38cb3ef4e1e859df797f854441d095091f537c34",
+      "tail_proposed_record_sha256": "1963bca43a1c351b5716c1437304d06c5fca3d604964bb2f2e4bf82e6527ac46",
+      "overlaps_007_composition": true,
+      "composition_group_index": 13
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D25EFF329FF1",
+      "stage9_record_sha256": "595b23547e98928d6e9bdaabdad47bb74b1fe41336aec8a9e607aed4f8f006a3",
+      "tail_proposed_record_sha256": "7f5f55d55ba97d2ac876087586a46f8472d1b3b01909ae2c64e4691ffcc84d09",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CD9A2A52162E",
+      "stage9_record_sha256": "81b6420322f8681344665097febfd88997566c68941d9ab32bccde98366d9593",
+      "tail_proposed_record_sha256": "e23f0102c79e2169b7b0a9a769b0ddea6a7fc86ef8d24c4fad64bcbbef9eb0db",
+      "overlaps_007_composition": true,
+      "composition_group_index": 162
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F7A0D2DCF841",
+      "stage9_record_sha256": "54adc91d1bb73a029d95befbc2ef0ad0c5506acc5c30730be39eb1b5cb8d4cdc",
+      "tail_proposed_record_sha256": "c4a873c263e10d6cfae16b88a56479c8871308275f06802c7b5ff694dca3278e",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8A3FF7132FF1",
+      "stage9_record_sha256": "cc5bf58dc4a64687ffa295612bc92b0f04e68599734a39b8862c6401080ca7ed",
+      "tail_proposed_record_sha256": "a19cf9a7d4d08bd489155ec3fa1399d0b4c5e834c5a5b75af2057f71a6b76883",
+      "overlaps_007_composition": true,
+      "composition_group_index": 45
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A09DB8EABD5C",
+      "stage9_record_sha256": "584360049f904cfdbd3fbf567da96e0a18a5175105999ad6d9ea9db7175806c3",
+      "tail_proposed_record_sha256": "9efd8f07a42dfc827eb1aec8f46980237bcb721c11282fa681ff64294a759f7c",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5D069D724C33",
+      "stage9_record_sha256": "01c7c1595552517e8c3d381f18680b590b1187d6f09b33d574f99b242f41a831",
+      "tail_proposed_record_sha256": "56e13fa0948556cb1950df9a76120ba5b99d04841e4ad42ad1b925b61290c698",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-85C459BB83CE",
+      "stage9_record_sha256": "48e1d6a0da9e72b0f2ab9be51e43341f5c55c52426c7ed3db9c0891154d508c3",
+      "tail_proposed_record_sha256": "3726bb77631cbf34f630db4e17499e5473800b7b7e5a96689404c91439c78b41",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-431D9939D11B",
+      "stage9_record_sha256": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+      "tail_proposed_record_sha256": "c054f0ebad874af1658e7a70b5a30fc4d2baf1cd816312129121a4d3a0f2ef5f",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "stage9_record_sha256": "8399b6670bf37d66a493f21e3cb2931b4e33c4e29445a6924f912b87f04ac32f",
+      "tail_proposed_record_sha256": "868b35c3215a7869f4b2969e64469e7ecd3091fd42b3424f8f29a4351522fc83",
+      "overlaps_007_composition": true,
+      "composition_group_index": 119
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6568AD1BCF30",
+      "stage9_record_sha256": "3f363a7cb9597123425d8c8df5873f591c650d4aaeb45a0766f543045a1516e8",
+      "tail_proposed_record_sha256": "880e79095f33fc65adf615ba5b912916db177188a16a2eb8972e03683d9c4e06",
+      "overlaps_007_composition": true,
+      "composition_group_index": 71
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9601697A1247",
+      "stage9_record_sha256": "cc8bb6eb7f41cb931055796064f61af29078cc8dac46b5f80c431cf6f876d26c",
+      "tail_proposed_record_sha256": "fe6b4957d822a384bc3f7eccfecc9e97ee6028251815038f0d698270a26a89a5",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-44A8A4E36810",
+      "stage9_record_sha256": "04a79bf67f8040409b8dea7b16dd0a4345dc3340d9a4f073988d1acf52367236",
+      "tail_proposed_record_sha256": "d318c9c0f5a5c7950250e149b9dc5833f56194d8b95851591b878f92d724133b",
+      "overlaps_007_composition": true,
+      "composition_group_index": 43
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "stage9_record_sha256": "65774e7d2166ca784b98955bce888b64651318d06c9bb8c18a80f42ffcdb35b3",
+      "tail_proposed_record_sha256": "e765fbe243df867d8b354558d5fd9764c7d5af58ca052649769bcc40cdeea1a3",
+      "overlaps_007_composition": true,
+      "composition_group_index": 131
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "stage9_record_sha256": "c6439eb3073d51e6fb57dfe399de78a985b324960eb39f4211a44cefe5216529",
+      "tail_proposed_record_sha256": "9db31a96e9c374e06d7ed2bdc133bc21f5bebe21217e53681203305f642ab608",
+      "overlaps_007_composition": true,
+      "composition_group_index": 94
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9EE30DCC1721",
+      "stage9_record_sha256": "1932ab6074534fdce289e1d06408f257cf51fac03f447694118655893a363f57",
+      "tail_proposed_record_sha256": "eafe3f57c6938f0b38cb2e2000e3918c29b661041cc3af9e7aa16d325f3849ef",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "stage9_record_sha256": "05d8da05d237bd2b0545e0460659f707929e91f0cd8aeb898cd5682056701a20",
+      "tail_proposed_record_sha256": "c3d60d4b97ef32f77d4062c2a1e937edeee905a80a249d824f5af867cb912997",
+      "overlaps_007_composition": true,
+      "composition_group_index": 153
+    },
+    {
+      "subject_id": "SUBJ-SUCC-43C2056DACCC",
+      "stage9_record_sha256": "956a090d3aa03470072c469ac36a14f2d5847b43021c3775fa320f3ff0ee550b",
+      "tail_proposed_record_sha256": "12c41a3ad327fbdc6b428dcea3a5e4daa81a0532a299ba42bf3ef0fb82e7587d",
+      "overlaps_007_composition": false,
+      "composition_group_index": null
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
+      "stage9_record_sha256": "3bc7635465817dcf67883576bf523a823780c720dd94d4ec73b44cb8fcf4a488",
+      "tail_proposed_record_sha256": "4b725cb75e95cbb41c88a852184e0f793827b41a1a1a2db230eaba841eb6a8af",
+      "overlaps_007_composition": true,
+      "composition_group_index": 79
+    }
+  ],
+  "instructions": [
+    "Verify every explicitly listed input hash before use; original source/draft packets remain the only source authority. No candidate data, histories, unrelated root documents or validation are allowed.",
+    "Compose each whole tail proposal and every exact referral against stage9, preserving its fuller compatible existing meanings, stances, priority, aliases, evidence and nested source/access facets. Tail baseline is stage6; do not replace whole records blindly or apply last-wins field streams.",
+    "Inspect only necessary eligible source passages or reuse exact previously inspected passages with precise pointers. Record actual new post-draft pages; do not claim a fresh source-first pass.",
+    "Explicitly disposition the proposed9EE30DCC1721 priority increase on source grounds. Preserve chronology/source conflicts and the caption-only semantic boundary.",
+    "Provide complete stage9 before and composed after records with exact nested field differences and per-referral dispositions, including already fulfilled and rejected portions. Bind every added/rebound evidence identity and parent/facet page scope.",
+    "Check affected relationship/task requirements for consistency with composed parents; refer any required dependent corrections with exact IDs and source reasons. This is bounded composition, not whole-book or final independent approval.",
+    "Seal output under reviewer-007-012-tail-composition/ without mutating stage9, tail/component files, canonical draft or state. Lead independently reinspects final proposed values before integration and signoff."
+  ],
+  "dependencies_for_consistency": {
+    "relationship_ids": [
+      "REL-SUCC-261F485CBE09",
+      "REL-SUCC-911D455E87FD",
+      "REL-SUCC-F1E0067F2901",
+      "REL-SUCC-1AFEB611E706",
+      "REL-SUCC-EBD00959C3F8",
+      "REL-SUCC-86C73528FDE3",
+      "REL-SUCC-BF73B24C07AE",
+      "REL-SUCC-AC0483E6A552",
+      "REL-SUCC-8CD6198D7237",
+      "REL-SUCC-C9964D9DBD2C",
+      "REL-SUCC-5FD593D17215",
+      "REL-SUCC-07B3900D4C77",
+      "REL-SUCC-98745149375F",
+      "REL-SUCC-3A4DA3656B93",
+      "REL-SUCC-E85A401B6F18",
+      "REL-SUCC-399BDE114352",
+      "REL-SUCC-781FAD6F2211",
+      "REL-SUCC-592B57CB0DBF",
+      "REL-SUCC-CA66E03E61C9",
+      "REL-SUCC-4C739E7EE536",
+      "REL-SUCC-55DA17359313",
+      "REL-SUCC-849D0B73D501",
+      "REL-SUCC-91307B3EE111",
+      "REL-SUCC-63B96B2D7540",
+      "REL-SUCC-9F0528805A27",
+      "REL-SUCC-AE26323C1419",
+      "REL-SUCC-F3E18B9ED763",
+      "REL-SUCC-FB7BBD2E5C69",
+      "REL-SUCC-156E1F0E2469",
+      "REL-SUCC-5873BE197987",
+      "REL-SUCC-D05BE4D781BC",
+      "REL-SUCC-EC4E2A7894E3",
+      "REL-SUCC-B92BBB988A40",
+      "REL-SUCC-87EFE0AD7A41",
+      "REL-SUCC-DDB6301DBA9E",
+      "REL-SUCC-0113363E1467",
+      "REL-SUCC-CD345A7CD06B",
+      "REL-SUCC-204B9B404369",
+      "REL-SUCC-ED257E703CC3",
+      "REL-SUCC-A017156CC2E2",
+      "REL-SUCC-EC0B2360E1A4",
+      "REL-SUCC-F1C2D6FA7CB9",
+      "REL-SUCC-4712E73C16F4",
+      "REL-SUCC-C8F622C9D46F",
+      "REL-SUCC-68C4CB54AB75",
+      "REL-SUCC-CC49B760E2D9",
+      "REL-SUCC-FC47C369760D",
+      "REL-SUCC-B2EC68DE541F",
+      "REL-SUCC-19E05AAB947C",
+      "REL-SUCC-632029CA6638",
+      "REL-SUCC-DF9153551991",
+      "REL-SUCC-E749709861CD",
+      "REL-SUCC-2BB215F226B8",
+      "REL-SUCC-DDCDD4AB4FAB",
+      "REL-SUCC-4EA161FB5915",
+      "REL-SUCC-0D6B852C754B",
+      "REL-SUCC-905C25B1D344",
+      "REL-SUCC-216D63AF4034",
+      "REL-SUCC-2D53FB3EF19A",
+      "REL-SUCC-886CE61D5EA7",
+      "REL-SUCC-32CFEF792AB7",
+      "REL-SUCC-6541042FEDAF",
+      "REL-SUCC-B1A089468725",
+      "REL-SUCC-5DF656D88CEF",
+      "REL-SUCC-CC0436A0AACC",
+      "REL-SUCC-2A974B3B13AF",
+      "REL-SUCC-8774BBB04EDC",
+      "REL-SUCC-D42722963013",
+      "REL-SUCC-25BD3A886219",
+      "REL-SUCC-B0C7FFC415E3",
+      "REL-SUCC-PROP-86893195121E",
+      "REL-SUCC-PROP-C8E357FA6257",
+      "REL-SUCC-IRDEP-004"
+    ],
+    "task_ids": [
+      "TASK-SUCC-52D7F9CA7D03",
+      "TASK-SUCC-2FB29124BC91",
+      "TASK-SUCC-98D4266A8C0B",
+      "TASK-SUCC-1471EC30563C",
+      "TASK-SUCC-BCB36D027F42",
+      "TASK-SUCC-B150812C78C8",
+      "TASK-SUCC-87D2EFD88D7F",
+      "TASK-SUCC-B2E87458853C",
+      "TASK-SUCC-9D11E7DDD2F6",
+      "TASK-SUCC-595E1FB400B1",
+      "TASK-SUCC-452F3701522A",
+      "TASK-SUCC-EA0E9E5C3E7A",
+      "TASK-SUCC-71AE1760236C",
+      "TASK-SUCC-A59F3B972CE6",
+      "TASK-SUCC-CF51D3EFB830",
+      "TASK-SUCC-C8BB84DBCA99",
+      "TASK-SUCC-FBA2747433AC",
+      "TASK-SUCC-21DABE156CF6",
+      "TASK-SUCC-D0B0F445D41D",
+      "TASK-SUCC-BFB631F3A6EC",
+      "TASK-SUCC-A0A0F5D0C445",
+      "TASK-SUCC-19998DB30765",
+      "TASK-SUCC-9D29A0E502F1",
+      "TASK-SUCC-3D7AADE20759",
+      "TASK-SUCC-D08507913B4C",
+      "TASK-SUCC-822FD108A319",
+      "TASK-SUCC-81AEFB30D474",
+      "TASK-SUCC-B445EC8059DB",
+      "TASK-SUCC-020B95F67B8A",
+      "TASK-SUCC-0B7EB66185E6",
+      "TASK-SUCC-2C646441C390",
+      "TASK-SUCC-EF3D358DA16E",
+      "TASK-SUCC-EFF63D1CF8B3",
+      "TASK-SUCC-4023DF544FEE",
+      "TASK-SUCC-4A6551565346",
+      "TASK-SUCC-46BC20C9AA18",
+      "TASK-SUCC-1E08D89E2A75",
+      "TASK-SUCC-ED6C9FD74E24",
+      "TASK-SUCC-28D1A1042F1A",
+      "TASK-SUCC-B18399A46518",
+      "TASK-SUCC-0383E3E68698",
+      "TASK-SUCC-EDD8CC087EC5",
+      "TASK-SUCC-AB5C452B96ED",
+      "TASK-SUCC-1F7CB721EF0D",
+      "TASK-SUCC-355439E563E7",
+      "TASK-SUCC-FFA057FF2AFE",
+      "TASK-SUCC-CA3859C6B312",
+      "TASK-SUCC-FD15A9B103F7",
+      "TASK-SUCC-4AA2A8700E8D",
+      "TASK-SUCC-3482C454384A",
+      "TASK-SUCC-1DD4B301FE39",
+      "TASK-SUCC-660DBA5A3937",
+      "TASK-SUCC-56312D984A49",
+      "TASK-SUCC-8D911AF3BE14",
+      "TASK-SUCC-DD98F26F6973",
+      "TASK-SUCC-F29B1815E8D2",
+      "TASK-SUCC-A4CABA6ABC86",
+      "TASK-SUCC-0A22D7480687",
+      "TASK-SUCC-A4A6BB7106DF",
+      "TASK-SUCC-0D6FF1B259FB",
+      "TASK-SUCC-02DE73E37BB4",
+      "TASK-SUCC-69A8E0793321",
+      "TASK-SUCC-9A9BBCB8C6E8",
+      "TASK-SUCC-B0506797DF82",
+      "TASK-SUCC-PROP-64DC48AB3844",
+      "TASK-SUCC-PROP-7FC43B3C934E",
+      "TASK-SUCC-PROP-3BE9ACD9FB2D",
+      "TASK-SUCC-IR1517-945AA80643D6",
+      "TASK-SUCC-IR1517-97F85AB34332",
+      "TASK-SUCC-IR1517-DD3C2DC8D25F",
+      "TASK-SUCC-IRDEP-001",
+      "TASK-SUCC-IRDEP-004",
+      "TASK-SUCC-IRDEP-006"
+    ]
+  },
+  "whole_book_approval_authority_retained_by": "/root/successor_independent_review",
+  "output_directory": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition"
+}

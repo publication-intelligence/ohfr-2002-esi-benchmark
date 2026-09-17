@@ -1,0 +1,38 @@
+{
+  "schema_version": "independent-scoped-repair-composition-activation-v1",
+  "recorded_at": "2026-09-17T03:59:49.330060+00:00",
+  "status": "effective",
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.composed-repairs-111-162.assignment.v1.json",
+    "sha256": "e83be2bc947a9ad98e4e3ca1867885bbd20fa447c1e9daeb1a641e2605d33fa9"
+  },
+  "completed_original_component": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/manifest.v1.json",
+    "sha256": "7151d94141fa8eb2b375517898708278a83c5f6a3af12322c5f59245521384a2"
+  },
+  "administrative_mechanical_verification": {
+    "path": "validation/reconciliation/historical-original-007-component-verification.v1.json",
+    "sha256": "46b6abd87ac7e7ebbde9de63f0a7f119398780951e0c273ab14efcc7e2479982"
+  },
+  "prior_assignment_integrity_verification": {
+    "path": "validation/reconciliation/007-composed-repair-assignment-verification.v1.json",
+    "sha256": "dcd4890888cca82455337951e9d789c8afbeb7a153a61a5bb58be13d171e3226"
+  },
+  "authorized_groups": [
+    111,
+    162
+  ],
+  "assigned_parents": 52,
+  "assigned_correction_rows": 108,
+  "historical_key_ownership_changed": false,
+  "lead_retained_groups": [
+    1,
+    110
+  ],
+  "source_boundary": "Only the exact assignment inputs and its existing fixed source-only allowlists are editorial inputs. Administrative verification files attest integrity only and do not add any source or candidate input.",
+  "work_authorized": "Compose explicit proposed whole records as specified; lead independently reviews exact outputs.",
+  "editorial_approval": false,
+  "whole_book_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

@@ -1,0 +1,54 @@
+{
+  "status": "runtime_and_synthetic_consumer_review_passed",
+  "runtime_commit": "b00c846748e1296b70634bf11b9268de61674912",
+  "runtime_payload_sha256": "f71c6a68581ec6ba86ccef56e2b97462ddbacedc2945b7aad21bcb37e4288c11",
+  "fixture_manifest_sha256": "e6621342c053d0417d15f34e445c87bd249ad5f98051b8b770711403132966ba",
+  "verified_native_files": 144,
+  "native_outcomes": {
+    "native-first": {
+      "score": 94.25,
+      "readiness": "ready",
+      "authority": "authoritative"
+    },
+    "native-second": {
+      "score": 94.25,
+      "readiness": "ready",
+      "authority": "authoritative"
+    },
+    "native-semantic": {
+      "score": null,
+      "readiness": "indeterminate",
+      "authority": "indeterminate"
+    },
+    "native-gated-semantic": {
+      "score": null,
+      "readiness": "not_ready",
+      "authority": "indeterminate"
+    },
+    "native-known-nonkeep": {
+      "score": 62.25,
+      "readiness": "not_ready",
+      "authority": "indeterminate"
+    }
+  },
+  "consumer_commit": "401c3ee3c82585dacb432871910bdffb3be65062",
+  "consumer_review_sha256": "8af6eeea894a5e80e64477aae81d14027fc52a0c7a0b4b9d97409dad4827dbd9",
+  "independent_final_oracle": {
+    "admissible_semantic_patterns": 23,
+    "contexts": 115,
+    "resolved_legacy_scenarios": 795,
+    "result": "passed"
+  },
+  "root_native_semantic_tests": {
+    "passed": 23,
+    "seconds": 35.141
+  },
+  "activation_performed": false,
+  "actual_release_adoption_approved": false,
+  "remaining": [
+    "final selected source release and common lock",
+    "actual common compatibility approval",
+    "reviewed installation payload and receipt",
+    "quiescent candidate cutover"
+  ]
+}

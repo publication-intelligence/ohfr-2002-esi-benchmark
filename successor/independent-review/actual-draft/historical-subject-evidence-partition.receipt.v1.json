@@ -1,0 +1,26 @@
+{
+  "schema_version": "exact-review-complement-partition-v1",
+  "assignment_files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.historical-subject-evidence.assignment.v1.json",
+      "sha256": "139ecc8749a44f66ba3e4ef0636490304613e3bd1048b0034e1d1bef8c7cc568",
+      "counts": {
+        "subjects": 724,
+        "evidence_bindings": 1663
+      }
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v1.json",
+      "sha256": "4da8653ee42de47087261b1f99a3ae5098235280c742abb8bb028b97e28635c5",
+      "counts": {
+        "subjects": 782,
+        "evidence_bindings": 1824
+      }
+    }
+  ],
+  "rule": "Whole original subject assigned by earliest evidence page:1\u2013158to001,159\u2013425to007. Evidence follows its original parent, including80evidence-onlykeys for already-dispositioned old subjects. No current entity ownership changes.",
+  "source": "mechanical-original-review-complement.v1.json",
+  "disjoint": true,
+  "exhaustive_complement": true,
+  "editorial_approval": false
+}

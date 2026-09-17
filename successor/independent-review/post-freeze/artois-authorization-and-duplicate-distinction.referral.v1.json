@@ -1,0 +1,384 @@
+{
+  "schema_version": "post-freeze-source-only-consistency-referral-v1",
+  "recorded_at": "2026-09-17T05:54:26.848946+00:00",
+  "reviewer_id": "/root/successor_independent_review",
+  "status": "read_only_findings_and_unapplied_minimal_correction_proposal",
+  "visibility": {
+    "trigger": "Coordinator post-freeze source-only consistency referral during benchmark application; exact source records only were supplied.",
+    "candidate_content_seen": false,
+    "candidate_paths_judgments_or_results_seen": false,
+    "fresh_source_first_discovery_claimed": false,
+    "source_state_or_frozen_artifacts_edited": false,
+    "runtime_activated_or_used": false,
+    "source_reinspection": "Full approved CHUNK-013 PDF page11 / document305 inspected after freeze; prior source review records reused as explicitly bound below."
+  },
+  "inputs": [
+    {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-013.pdf",
+      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
+      "bytes": 699046
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-013.pages.json",
+      "sha256": "9851fef1e66228487ec0e40b0e3815cd7545f32a5cb17fa160d077fe700db264",
+      "bytes": 3612
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/relationship-ledger.v1.json",
+      "sha256": "eaa434cbe07fbfb112b7beb3d46b8e7fd60385e2f4252ab934e57baf13052067",
+      "bytes": 125200
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/historical-relationship-ledger.v1.json",
+      "sha256": "289315df75c2a37d8288445af0d78e77b4487febef9f8fd050c34536163128d2",
+      "bytes": 847187
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/evidence-dispositions.v1.jsonl",
+      "sha256": "d51b102f33feed85a109bcda6ac368e0ce7e9c47b5c9870ee36d519a620b1b92",
+      "bytes": 88785
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/proposed-records.v1.json",
+      "sha256": "24caad23ab87653bff3329e06bb3b4591d84c973f12de61baf2674f2043ec41c",
+      "bytes": 380000
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/proposed-records.v2.json",
+      "sha256": "2aa4a6978176ace07da2c3960258f780d91ad594742671f6e2780b13fdd630ca",
+      "bytes": 104246
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/manifest.v2.json",
+      "sha256": "59c619d2e9363c402caa712d03402ce53b9b9ce2ae109882ff51cb08adc19bca",
+      "bytes": 4597
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-bounded-repaired-values.integration-receipt.v1.json",
+      "sha256": "f2b28e5b79c8184df727b95cf64704f20b63178e46ca0508cde7ea3a4bd14e1b",
+      "bytes": 138234
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+      "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+      "bytes": 22889770
+    },
+    {
+      "path": "successor/synthesis/lineage/relationships.json",
+      "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+      "bytes": 14812114
+    },
+    {
+      "path": "successor/synthesis/lineage/evidence.json",
+      "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+      "bytes": 9591256
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.006-011.v1.json",
+      "sha256": "b6b17b8d66afc5a43f2621d633a2ebe5b8a527dd15ebac8bd035339a4730335b",
+      "bytes": 261607
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "POSTFREEZE-IR-001",
+      "decision": "actual_missed_relationship_dependency_correction",
+      "relationship_id": "REL-SUCC-8AD7BFC51F21",
+      "frozen_relationship": {
+        "relationship_id": "REL-SUCC-8AD7BFC51F21",
+        "source_subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+        "relationship_type": "authorizes",
+        "target_subject_id": "SUBJ-SUCC-2CAD9C10478B",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          305
+        ],
+        "rationale": "Artois authorized La Rouërie’s Breton organization, whose plans nevertheless depended on local networks and were overtaken by events.",
+        "source_local_subject_id": "SUCC-C013-S012",
+        "source_local_relationship_index": 1
+      },
+      "frozen_relationship_value_sha256": "902542a6c66a1b4807b8f690a8baeb443f56ab129a2a378cc3d69312f19aa782",
+      "source": {
+        "source_pdf_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "chunk_id": "CHUNK-013",
+        "chunk_pdf_page": 11,
+        "document_page": 305,
+        "source_page_label": "305",
+        "source_extract": {
+          "path": ".source-only/independent-review-work/post-freeze/artois-p305/page305.txt",
+          "sha256": "3cf9c503735e87ecd5ee0825ed830f493de48bb5509c32accb8e8f33e2fbddf2",
+          "bytes": 3093
+        },
+        "short_literal_clauses": [
+          "the princes had promising contacts in other regions",
+          "La Rouërie was encouraged"
+        ],
+        "paraphrase": "Froment obtained princely support at Koblenz. The discussion then turns to the princes’ regional contacts and La Rouërie’s appearance at Koblenz, his Breton association, encouragement, reporting, recruitment problems and accumulated arms. It does not name Artois as the individual authorizer of either project. Artois is individually named later on the page for his confidence about the coming war, a separate claim."
+      },
+      "sealed_provenance": [
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/relationship-ledger.v1.json",
+            "sha256": "eaa434cbe07fbfb112b7beb3d46b8e7fd60385e2f4252ab934e57baf13052067",
+            "bytes": 125200
+          },
+          "pointer": "/rows/45",
+          "row_sha256": "7bf51d333440430a2b355e242f0ccb07aa99ab3d743b2199a4c660dfec503db0",
+          "fact": "The dependency reviewer revised only the rationale and explicitly retained Artois-authorizes-La Rouërie."
+        },
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/historical-relationship-ledger.v1.json",
+            "sha256": "289315df75c2a37d8288445af0d78e77b4487febef9f8fd050c34536163128d2",
+            "bytes": 847187
+          },
+          "pointer": "/rows/108",
+          "row_sha256": "79418eae35895abff36cfe11c61a423af9057689199eec62e2444ee0522a104e",
+          "fact": "The corresponding legacy authorized_by mapping was retained with the same stronger personal-authorization claim."
+        },
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/evidence-dispositions.v1.jsonl",
+            "sha256": "d51b102f33feed85a109bcda6ac368e0ce7e9c47b5c9870ee36d519a620b1b92",
+            "bytes": 88785
+          },
+          "pointer": "JSONL line7",
+          "row_sha256": "b5f7e5f494c6fbf38baf69736cd1d2629fb449e03b1a0ecf416f0069187847e4",
+          "fact": "ISR-001-LRV-E007 explicitly rejected two individually identified Artois authorizations on305 and proposed the network-context qualification."
+        },
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values/proposed-records.v2.json",
+            "sha256": "2aa4a6978176ace07da2c3960258f780d91ad594742671f6e2780b13fdd630ca",
+            "bytes": 104246
+          },
+          "pointer": "/subjects/0/record/evidence/6",
+          "fact": "The correct qualified evidence replacement was sealed."
+        },
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/integration/001-bounded-repaired-values.integration-receipt.v1.json",
+            "sha256": "f2b28e5b79c8184df727b95cf64704f20b63178e46ca0508cde7ea3a4bd14e1b",
+            "bytes": 138234
+          },
+          "pointer": "/subjects/0/evidence/6",
+          "fact": "Lead integration accepted that exact evidence replacement, but did not propagate its scope limit to the existing relationship."
+        },
+        {
+          "file": {
+            "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+            "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+            "bytes": 22889770
+          },
+          "pointer": "/populations/relationships/247",
+          "row_sha256": "2bd01de2b20722b42dae2b8e516695d2b2717fb38c5b03521fc13ccc95f2d48c",
+          "fact": "The final crosswalk records only the earlier rationale change; the final relationship still retains the unsupported individual grantor."
+        }
+      ],
+      "resolution_assessment": "No sealed reviewed relationship clarification found resolves the contradiction. The subject evidence was corrected, but its restriction does not silently override an explicit relationship operator and rationale. This is a missed dependency repair in the reviewed final integration, for which the lead approval did not catch the inconsistency; it is not a new source-first discovery or a candidate-derived source claim.",
+      "minimal_unapplied_proposal": {
+        "operation": "retire_relationship",
+        "relationship_id": "REL-SUCC-8AD7BFC51F21",
+        "before_record_sha256": "902542a6c66a1b4807b8f690a8baeb443f56ab129a2a378cc3d69312f19aa782",
+        "replacement_record": null,
+        "replacement_relationship_ids": [],
+        "reason": "The supplied passage warrants princely encouragement/network context, not a named Artois authorization. Retiring this unsupported edge preserves all supported access already stated by the target parent and the corrected source evidence. Replacing it with a newly invented personal relation or merely softening its rationale would retain unwarranted individual agency.",
+        "subjects_evidence_tasks_priorities_scope_change": false,
+        "if_adopted_relationship_count": {
+          "before": 501,
+          "after": 500
+        },
+        "scope_note": "This is an unapplied source correction proposal. It must not be silently installed in frozen bytes. A relationship correction falls outside the four-clause subject/task-only V10 access-amendment delta interface; any adoption requires the ordinary versioned source-correction and dependent-proof procedure chosen by the coordinator."
+      },
+      "complete_direct_dependencies": {
+        "endpoint_subjects": [
+          {
+            "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+            "record_sha256": "46e642e252691130237cebda3c85501589627d6ebcb051ee661b238622279e30",
+            "source_local_subject_ids": [
+              "SUCC-C013-S012"
+            ],
+            "facet_ids": [
+              "FACET-SUCC-C013-S012"
+            ],
+            "all_evidence_ids": [
+              "EVID-SUCC-F8229A71113E",
+              "EVID-SUCC-1726C49ACAE3",
+              "EVID-SUCC-E0200688D426",
+              "EVID-SUCC-7B88585C4016",
+              "EVID-SUCC-4CE905765591",
+              "EVID-SUCC-06647CF037D1",
+              "EVID-SUCC-89246D51BD6C",
+              "EVID-SUCC-06E0F9F7EAA7",
+              "EVID-SUCC-4D7F2B730B7C"
+            ],
+            "disposition": "retain unchanged; supported parent scope does not assert the disputed individual authorization"
+          },
+          {
+            "subject_id": "SUBJ-SUCC-2CAD9C10478B",
+            "record_sha256": "f0ea93b3b20c1c6731fe5dbd685fc07fd1e6184e7b70ca323d302583ff678b1e",
+            "source_local_subject_ids": [
+              "SUCC-C013-S043"
+            ],
+            "facet_ids": [
+              "FACET-SUCC-C013-S043"
+            ],
+            "all_evidence_ids": [
+              "EVID-SUCC-C6EADF2D2AD2"
+            ],
+            "disposition": "retain unchanged; supported parent scope does not assert the disputed individual authorization"
+          }
+        ],
+        "specific_evidence_to_retain": [
+          "EVID-SUCC-89246D51BD6C",
+          "EVID-SUCC-C6EADF2D2AD2"
+        ],
+        "dependent_tasks": [
+          {
+            "task_id": "TASK-SUCC-7570FD1DEF57",
+            "record_sha256": "01afa8c07036af0d2b78932b21331c3d9cfda65087cdaf8c764091b4985ee184",
+            "whole_record": {
+              "task_id": "TASK-SUCC-7570FD1DEF57",
+              "question": "How did Artois, Calonne, La Rouërie and conservative Assembly spokesmen organize resistance, and why did court leadership, Breton networks and parliamentary obstruction differ in resources and tactics?",
+              "subject_ids": [
+                "SUBJ-SUCC-8EBFEFD6F582",
+                "SUBJ-SUCC-AB9E2AC4F876",
+                "SUBJ-SUCC-2CAD9C10478B",
+                "SUBJ-SUCC-DE8ADB718815",
+                "SUBJ-SUCC-67735238DEAA"
+              ],
+              "source_task_ids": [
+                "whole_book_authored:royalnetworks"
+              ],
+              "fallback_generated": false,
+              "required_access_facets": [],
+              "source_pages": [
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                305,
+                307,
+                312,
+                313,
+                314
+              ]
+            },
+            "disposition": "retain unchanged; comparison of court leadership, Breton networks and parliamentary obstruction does not require Artois personally to have authorized La Rouërie"
+          }
+        ],
+        "other_endpoint_relationship_ids": [
+          "REL-SUCC-016962036E04",
+          "REL-SUCC-AE0A065C5C42"
+        ],
+        "other_relationship_scope": "These concern Turin organization298 and Puisaye appointment312, not the disputed305 authorization; no amendment is proposed or new full source review claimed for them. There are no other final relationships incident to the two endpoints.",
+        "historical_relationship_keys": [
+          "legacy:REL-100E2B727434"
+        ],
+        "historical_relationship_before": {
+          "relationship_id": "REL-100E2B727434",
+          "source_subject_id": "SUBJ-649715FCD0B8",
+          "type": "related_to",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "authorized_by"
+          ],
+          "descriptions": [
+            "Artois"
+          ],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-013",
+              "local_subject_id": "CHUNK-013-SUBJ-028",
+              "local_relationship_index": 2
+            }
+          ],
+          "target_subject_id": "SUBJ-C532A48A9329"
+        },
+        "historical_mapping_addendum_proposed": {
+          "old_key": "legacy:REL-100E2B727434",
+          "disposition": "retire_unsubstantiated_individual_authorization",
+          "successor_relationship_ids": [],
+          "retained_successor_subject_ids": [
+            "SUBJ-SUCC-8EBFEFD6F582",
+            "SUBJ-SUCC-2CAD9C10478B"
+          ],
+          "reason": "Retain the source-supported subjects and network context, but do not carry the old authorized_by operator through an Artois authorizes edge."
+        },
+        "historical_evidence_key_retained_with_existing_qualification": "legacy:SUBJ-C532A48A9329:EVID-F88C1B3C9238",
+        "historical_source_evidence_id": "EVID-30ECCB318724"
+      },
+      "dependency_search": "Read all frozen relationships incident to either endpoint and every reader task binding either endpoint; one such task, with no nested facets. Checked full frozen-family strings for Artois plus La Rouërie and for explicit Artois authorization; no additional positive named-authorization claim exists outside this edge. Matched exact current relationship ID through approved review, repair, crosswalk and historical mapping files; no later scoped replacement was present."
+    },
+    {
+      "finding_id": "POSTFREEZE-IR-002",
+      "decision": "one_identical_unweighted_retained_distinction_serialized_twice",
+      "parent_subject_id": "SUBJ-SUCC-2056A5304D29",
+      "parent_record_sha256": "5b65291ea01b887f79133c02306461c6b07f8e29bfd4e2891f82d862dad31693",
+      "field": "retained_source_distinctions",
+      "source_local_subject_id": "C005-S004",
+      "array_indices_zero_based": [
+        0,
+        9
+      ],
+      "identical_value_sha256": "e215033a789fbafa5ad2d3c31c6f0449d991780c7a79707aab3a162178f1b330",
+      "identical_value": {
+        "source_local_subject_id": "C005-S004",
+        "meaning": "Citizens' militias became the Revolution's trusted coercive arm, were standardized as the National Guard, and later served both public-order and federative functions.",
+        "qualification": "The Guard is indispensable but politically and socially unstable: it can contain crowds, obey them, include rural rioters, and exclude poorer citizens.",
+        "source_pages": [
+          112,
+          113,
+          122,
+          126,
+          128,
+          130
+        ]
+      },
+      "present_identically_in_original_draft": true,
+      "draft_parent_record_sha256": "414e3e8b2b034167e7521d5dacaef5321e22016bb83ca6bcd1a16969d8a2c3af",
+      "editorial_interpretation": "These two values express one parent-qualified retained source distinction about the National Guard’s indispensable but unstable coercive and federative role. The source identity, complete meaning, qualification and ordered page list are exactly equal. Their repeated preservation does not create a second editorial obligation, a second weighting unit or a new subject/facet identity.",
+      "provenance": "Both complete values already occur at indices0 and9 in the immutable draft, and remain equal through the inspected integration base/stage2/stage3 and final record. The lead National Guard repair retains this source content; it does not state two separately warranted obligations.",
+      "bounded_runtime_implication": "A strictly equal-complete-value projection of this same parent-qualified key to one requirement would preserve the intended editorial obligation while retaining both original occurrences as provenance. This statement does not approve merging conflicting duplicates, different parents, different identifiers or merely similar meanings, and does not implement or authorize a runtime change.",
+      "source_changes_proposed": [],
+      "new_ids_proposed": [],
+      "new_source_page_review_claimed": false
+    }
+  ],
+  "preservation": {
+    "original_draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    "frozen_final": {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    "canonical_review": {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    "all_existing_files_unchanged_by_this_review": true,
+    "only_new_outputs": "This report and the restricted p305 extraction; no frozen benchmark, review, source state, amendment or runtime bytes modified."
+  }
+}

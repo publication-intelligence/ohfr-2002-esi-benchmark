@@ -1,0 +1,25 @@
+{
+  "schema_version": "original-subject-evidence-transfer-verification-v1",
+  "recorded_at": "2026-09-17T02:05:58.314039+00:00",
+  "transfer_receipt": {
+    "path": "successor/independent-review/actual-draft/native-original-subject-evidence-transfer.receipt.v1.json",
+    "sha256": "2e759fd83fe0111c276056d16e461c070104835c49a42a03b99255d023d00c99"
+  },
+  "exact_disjoint_exhaustive_original_subject_partition": [
+    507,
+    275
+  ],
+  "exact_disjoint_exhaustive_original_evidence_partition": [
+    1174,
+    650
+  ],
+  "all_amended_assignment_input_hashes_verified": true,
+  "evidence_only_parent_groups": 4,
+  "evidence_only_bindings": 6,
+  "reservation_matches_transferred_keys": true,
+  "untouched_claim_basis": "reserving reviewer attestation; coordinator does not infer editorial history from absence of rows",
+  "effective_scope": "001 may start after sealing bounded22-record check;007 retains all legacy keys and completed work",
+  "editorial_approval": false,
+  "candidate_information_used": false,
+  "coordinator_candidate_unexposed": false
+}

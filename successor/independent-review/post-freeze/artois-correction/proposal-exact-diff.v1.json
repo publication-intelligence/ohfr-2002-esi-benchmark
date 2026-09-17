@@ -1,0 +1,54 @@
+{
+  "schema_version": "source-correction-proposal-exact-diff-v1",
+  "base": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/artois-correction/proposed-source-benchmark.v3.json",
+    "sha256": "5a3f59090b5c8e12668f761d228e5759e5a5cb19ee78e3555906c86912473919",
+    "bytes": 6740477
+  },
+  "removed_relationship": {
+    "relationship_id": "REL-SUCC-8AD7BFC51F21",
+    "source_subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+    "relationship_type": "authorizes",
+    "target_subject_id": "SUBJ-SUCC-2CAD9C10478B",
+    "resolution_status": "resolved",
+    "evidence_document_pages": [
+      305
+    ],
+    "rationale": "Artois authorized La Rouërie’s Breton organization, whose plans nevertheless depended on local networks and were overtaken by events.",
+    "source_local_subject_id": "SUCC-C013-S012",
+    "source_local_relationship_index": 1
+  },
+  "removed_relationship_value_sha256": "902542a6c66a1b4807b8f690a8baeb443f56ab129a2a378cc3d69312f19aa782",
+  "removed_relationship_ids": [
+    "REL-SUCC-8AD7BFC51F21"
+  ],
+  "added_or_updated_relationship_ids": [],
+  "unchanged_collections": {
+    "subjects": true,
+    "reader_tasks": true,
+    "exclusions": true,
+    "uncertainties": true
+  },
+  "unchanged_remaining_relationships": 500,
+  "changed_top_level_fields": [
+    "benchmark_sha256",
+    "freeze",
+    "independent_review_provenance",
+    "relationships",
+    "status",
+    "version"
+  ],
+  "wrapper_changes": {
+    "version": "2 to3",
+    "status": "Explicit unapproved proposal status; no new approval claimed",
+    "independent_review_provenance": "New review path and additive post-freeze provenance retaining exact prior proof",
+    "freeze": "Explicit pending review/registration; final frozen_at omitted until independent approval",
+    "benchmark_sha256": "Recomputed canonical identity"
+  },
+  "allowed_independent_finalization": "After source/diff approval, the reviewer may copy the approved proposal to the new final path and change only status, freeze metadata and the resulting canonical self-hash. The exact whole-final values and wrapper finalization must be rechecked/attested; no extra source content change is authorized."
+}

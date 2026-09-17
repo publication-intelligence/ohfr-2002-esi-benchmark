@@ -1,0 +1,28 @@
+{
+  "whole_book_approval": false,
+  "referrals": [
+    {
+      "referral_id": "REF-ISR-001-LRV-001",
+      "kind": "source_chronology_disagreement_for_lead_auxiliary_control",
+      "subject_ids": [
+        "SUBJ-SUCC-DA4B4AC3345E"
+      ],
+      "evidence_ids": [
+        "EVID-SUCC-C4AE173F43D5",
+        "EVID-SUCC-887839108832"
+      ],
+      "document_pages": [
+        333,
+        338
+      ],
+      "finding": "The source gives19 May1798 for the Toulon sailing on333 and17 May on338. The supplied evidence correctly says only May1798; preserve this limited precision and record the disagreement in the lead-owned uncertainty control.",
+      "current_control_check": "Targeted inspection of stage3 uncertainty strings found no Egypt/sailing/17 May/19 May entry; this is not a recertification of all current controls.",
+      "proposed_action": "Add or bind an exact uncertainty record preserving both source dates; do not select a day using external history.",
+      "fulfillment_presumed": false
+    }
+  ],
+  "integration_dependencies": [
+    "Lead must apply or disposition the12 exact whole replacements before relying on corrected values.",
+    "Unchanged records are affirmed only in this bounded22-record component; no judgment on all integration bytes or whole-book approval is implied."
+  ]
+}

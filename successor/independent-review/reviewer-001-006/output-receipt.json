@@ -1,0 +1,66 @@
+{
+  "schema_version": "independent-source-first-output-receipt-v1",
+  "bindings": {
+    "source_id": "OHFR-2002-SOURCE",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "source_page_basis": "one-based document pages and identical printed numeric labels",
+    "packet_sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+    "policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae"
+  },
+  "artifact_role": "File identity receipt, not a second canonical evaluation state",
+  "files": [
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-001.source-first-notes.json",
+      "sha256": "f952fc4b0f1aec5e3e2ce7baa906a82534cc744702e0691f6ccf1923ecef4862"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-002.source-first-notes.json",
+      "sha256": "73655a51c3277348cb127a13a801a6429ea6f789394723b657f06541d9010408"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-003.source-first-notes.json",
+      "sha256": "651b992378d4834df906ffb8fb2495c4748c04fdcf1bfb01c475fdd732367f50"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-004.source-first-notes.json",
+      "sha256": "241788bb32cd85da79948c6f2a94ddd73846afa5323b3eed5da375df78b0ba48"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-005.source-first-notes.json",
+      "sha256": "71325b2bf473b65486f93b6aa31046de0d062c260137739bbf40d45ded01ddfc"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/CHUNK-006.source-first-notes.json",
+      "sha256": "8427ed673bf965c314b513dcb3c603f4c01445c73b2c7652d3fa6555409a60c2"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/source-first-attestation.json",
+      "sha256": "a75ed92835c81082f9e78a8c2960552fa313718825f5baf2e952b527761610e0"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/page-coverage.json",
+      "sha256": "dcf14d95635003ca67dc6a512379b80beba39d2a3ed22b15452a2968395d0362"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/reader-route-notes.json",
+      "sha256": "b17899276b3b2150c21909aade4e7456587f5965a333e7d16543fcdd6d2cb3b5"
+    },
+    {
+      "path": "successor/independent-review/reviewer-001-006/HANDOFF.md",
+      "sha256": "590fc2eb460dda0e3797aeab26a94622e422de9e625c6d2d0648a99eae52c8ac"
+    }
+  ],
+  "validation": {
+    "exact_owned_page_coverage": true,
+    "owned_page_count": 158,
+    "unique_finding_ids": 181,
+    "all_reader_routes_resolve": true,
+    "sidecar_map_manifest_ownership_matches": true,
+    "candidate_and_draft_unexposed": true,
+    "entity_review_complete": false
+  }
+}

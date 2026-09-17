@@ -1,0 +1,725 @@
+{
+  "schema_version": "independent-scoped-repair-composition-assignment-v1",
+  "status": "prepared_not_effective_until_root_dispatch_after_original_packet_seal",
+  "reviewer": "reviewer-007-012",
+  "work_type": "Compose explicit proposed whole records; no final or whole-book approval",
+  "inputs": [
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49"
+    },
+    {
+      "path": ".source-only/independent-review-draft-addendum.v1.json",
+      "sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-base.v1.json",
+      "sha256": "2ac81eda1994ee929e80f9cb063220f05925460c770313eafb9704bd7773c97c"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.025-026.v1.json",
+      "sha256": "51344d57674652f938b3c57abfb15a631677765b1cc3d751152ce239d6ccd8b2"
+    }
+  ],
+  "existing_source_boundary": "Original109 source packet and146 draft addendum remain additive, fixed, candidate-unexposed. Read only their exact files, the explicitly bound composition inputs, pinnedc11 methodology and own authorized outputs. No candidate, root document/validation or task-history exposure.",
+  "group_order": "First occurrence of subject_id in immutable452correction records, one-based.",
+  "groups": [
+    {
+      "group_index": 111,
+      "subject_id": "SUBJ-SUCC-916802D75925",
+      "correction_ids": [
+        "CORR-007-LEGACY-0227",
+        "CORR-007-LEGACY-0228"
+      ],
+      "correction_row_sha256s": [
+        "658eba7ad319e57811761b9af1169290a7957e004c4bd5dfda20d21e9bccb44c",
+        "5651f8ccef3deec41d7dad859371a794661744367d31eff97634b5d0e4e94c5f"
+      ]
+    },
+    {
+      "group_index": 112,
+      "subject_id": "SUBJ-SUCC-987993A8C47A",
+      "correction_ids": [
+        "CORR-007-LEGACY-0232",
+        "CORR-007-LEGACY-0233",
+        "CORR-007-LEGACY-0413",
+        "CORR-007-LEGACY-0414"
+      ],
+      "correction_row_sha256s": [
+        "7d86f9eb6c6adf96ce128b7577ca3f7a6e48a338b26bc1f3eb2e06ba4e5e1286",
+        "6df79875f036ef85ed370749caa6c13c76794d5e8bee8d0f16f21fd923a74ab0",
+        "b7bb147946b0ec181c5b5aa82682e73891fc7f1430f33d5d64c3936e615547c7",
+        "591b8c085a6dd7519d1541743cd93d7fd861595389c242c829604f2c150ce9bd"
+      ]
+    },
+    {
+      "group_index": 113,
+      "subject_id": "SUBJ-SUCC-3C56EEDB9FCC",
+      "correction_ids": [
+        "CORR-007-LEGACY-0234",
+        "CORR-007-LEGACY-0235",
+        "CORR-007-LEGACY-0325",
+        "CORR-007-LEGACY-0326",
+        "CORR-007-LEGACY-0401",
+        "CORR-007-LEGACY-0402"
+      ],
+      "correction_row_sha256s": [
+        "f3e78ec25ecd4973384fa6972ee3d41376ac6023636b8170d42c1281ca4e73e9",
+        "db65e578cac24737744fc87d306ec019873094bbaf928874d167282027faf827",
+        "8c3c2e31bf675776ec9cfe48996d1abd8fd95e6979fc1a2cd5518f40677fcf6c",
+        "870d72bb28bc2a75599bece48fbf4a1f2eba4374761ce7483cad19cf08a90894",
+        "1d8587ca2c4508880bf44046597a770ee8fdd495f79c60bffba2cad3d6709d5e",
+        "014547556e5e057ab161258ff3238ad7b5c3d32e3ead7a92fefd1eca4f957f05"
+      ]
+    },
+    {
+      "group_index": 114,
+      "subject_id": "SUBJ-SUCC-DB78F0834F84",
+      "correction_ids": [
+        "CORR-007-LEGACY-0249",
+        "CORR-007-LEGACY-0250"
+      ],
+      "correction_row_sha256s": [
+        "14d73d4dc04461d4fc79c23c5e43a5aa9c29ecc63a47217b872b197e2bd1a793",
+        "c0e041cb5261e5677c8340cca3652e006fee96bed873c15e07a8bb0d93610992"
+      ]
+    },
+    {
+      "group_index": 115,
+      "subject_id": "SUBJ-SUCC-329D40EC5910",
+      "correction_ids": [
+        "CORR-007-LEGACY-0251",
+        "CORR-007-LEGACY-0252",
+        "CORR-007-LEGACY-0257",
+        "CORR-007-LEGACY-0316",
+        "CORR-007-LEGACY-0317"
+      ],
+      "correction_row_sha256s": [
+        "047ab08f7aeb2ef92473aa10dbeba2f726b8e2c7e553cd06d13ac9fb6e4b0239",
+        "6ada7c9002030a523ed9e931fe9549d8526b878df55f50696521ab9905f16a31",
+        "729512eb61b88b7fc2be632368e1218fef53403b5d8712305ad138269c9ade16",
+        "e9cee2956cafb7a11065c706bcd42e37d02b0a3c3bf30876cf40192b34eabee5",
+        "0322cf81daeee916017138fc12eb43004a18a37e0c4d0f342972d7b784fffa36"
+      ]
+    },
+    {
+      "group_index": 116,
+      "subject_id": "SUBJ-SUCC-60B96F147FEF",
+      "correction_ids": [
+        "CORR-007-LEGACY-0253"
+      ],
+      "correction_row_sha256s": [
+        "1f9cfb7541c025cb6f37eb60254ad8ae5c6ff6beaf86b13c7d407cb158adecac"
+      ]
+    },
+    {
+      "group_index": 117,
+      "subject_id": "SUBJ-SUCC-1EB98E1BFFEE",
+      "correction_ids": [
+        "CORR-007-LEGACY-0254",
+        "CORR-007-LEGACY-0255"
+      ],
+      "correction_row_sha256s": [
+        "e00be9eea733c8de279f00b8ec96cf4c302bec94a3b876ef01bd9c9aa601c049",
+        "e06a799aa4866cd9f4bf86dde6a914ce2f32b8bd6cf87f3a854e1172a40c00a0"
+      ]
+    },
+    {
+      "group_index": 118,
+      "subject_id": "SUBJ-SUCC-F1FC19003FE5",
+      "correction_ids": [
+        "CORR-007-LEGACY-0259",
+        "CORR-007-LEGACY-0260",
+        "CORR-007-LEGACY-0261"
+      ],
+      "correction_row_sha256s": [
+        "eb8cd209a37d96bcc88ba3abf5fb7c0aa64f46be2428948728f83fddbf7d57a3",
+        "959796ede2972ed5bd4a4bd2dc60cc8ff26bfea467e555847f99cc07c4e5b641",
+        "d8ade6c472a0b9b0c3233bb4f2e24f54775f9750e539c73461428d2d269292fc"
+      ]
+    },
+    {
+      "group_index": 119,
+      "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+      "correction_ids": [
+        "CORR-007-LEGACY-0266",
+        "CORR-007-LEGACY-0267",
+        "CORR-007-LEGACY-0268"
+      ],
+      "correction_row_sha256s": [
+        "75c0f53b779927d91582afaba39a5c82a8270ca8ecefab9f949eb9e0be2b8163",
+        "8fb25814f8ad08c3af8a1a2e287d385a2f736fc3b3709d331bce8c891ed178a7",
+        "8aba9ec52a4ce05ddfd38f51bb51793fbf5511a5e4f4d85c6aa9545e07d3ccc7"
+      ]
+    },
+    {
+      "group_index": 120,
+      "subject_id": "SUBJ-SUCC-10D5B4071C72",
+      "correction_ids": [
+        "CORR-007-LEGACY-0269"
+      ],
+      "correction_row_sha256s": [
+        "e049047414047e7f6bb0353d213d0b918607306e58a3077c327ecb3b4783e614"
+      ]
+    },
+    {
+      "group_index": 121,
+      "subject_id": "SUBJ-SUCC-7CE8C15FFC5B",
+      "correction_ids": [
+        "CORR-007-LEGACY-0270",
+        "CORR-007-LEGACY-0367",
+        "CORR-007-LEGACY-0368"
+      ],
+      "correction_row_sha256s": [
+        "653126b18190edbd3baa7f1eaf56683045c7711df4995e5511458ba81736f345",
+        "b07815ed32e4b93e3a1b4d30346d59aa6f7c7175594e3d40467f31fcd1cf2314",
+        "74d0ec8d5b13c1b14dfc4b2742d4d3c07032633a1c2b9d54c6093119343d574c"
+      ]
+    },
+    {
+      "group_index": 122,
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "correction_ids": [
+        "CORR-007-LEGACY-0271"
+      ],
+      "correction_row_sha256s": [
+        "0f68aa5529f6ab2e28303ee7c0f3c693285b6a38b40f1e13b0b14e1f11aecae4"
+      ]
+    },
+    {
+      "group_index": 123,
+      "subject_id": "SUBJ-SUCC-D319BFEA28A1",
+      "correction_ids": [
+        "CORR-007-LEGACY-0274",
+        "CORR-007-LEGACY-0275",
+        "CORR-007-LEGACY-0385"
+      ],
+      "correction_row_sha256s": [
+        "09cca9cc0a68d177f4431bc6ac4655af7e9eb231c7476a05b65ac747dc279061",
+        "04b93cf02544379f8e875a04b0dd65d0fcf6c0ee9ee20e062e0964f32dc76d74",
+        "570db1a9a40e5f81b98464994d89b9709c108a92c461c021d6c573acaa16c041"
+      ]
+    },
+    {
+      "group_index": 124,
+      "subject_id": "SUBJ-SUCC-943186368241",
+      "correction_ids": [
+        "CORR-007-LEGACY-0285",
+        "CORR-007-LEGACY-0286"
+      ],
+      "correction_row_sha256s": [
+        "afea244ebe199bf69ba7303dce9d71cdce51d876d3c10a60d3bd487542b1c4d5",
+        "127ab2ce43737d250a6cb2a79549c51cb6b99a28d1cda26c8927fafc29316ab5"
+      ]
+    },
+    {
+      "group_index": 125,
+      "subject_id": "SUBJ-SUCC-39CA1B8E5293",
+      "correction_ids": [
+        "CORR-007-LEGACY-0289",
+        "CORR-007-LEGACY-0290",
+        "CORR-007-LEGACY-0399"
+      ],
+      "correction_row_sha256s": [
+        "b8d9a4bd19c9f0945a60d6f6f7ffb7d721506af1fca3d16d14d8f9af1dbf0c65",
+        "48b5b77282992fea200bde25fcc0fc7e924ac74ebaf2e2517bafc76250f0cd24",
+        "64e5874e7c4bea69c4eb164242cb50717e770835cc4f9db7dffb34152a6eb145"
+      ]
+    },
+    {
+      "group_index": 126,
+      "subject_id": "SUBJ-SUCC-625493A707D6",
+      "correction_ids": [
+        "CORR-007-LEGACY-0294"
+      ],
+      "correction_row_sha256s": [
+        "2cdc81418257cee0277a3de38768d52a92383f51c2d29d7d02e235a3aa1f9ee1"
+      ]
+    },
+    {
+      "group_index": 127,
+      "subject_id": "SUBJ-SUCC-64736F65518E",
+      "correction_ids": [
+        "CORR-007-LEGACY-0301",
+        "CORR-007-LEGACY-0302"
+      ],
+      "correction_row_sha256s": [
+        "8952d42bd574b3fb63405c7f11279d0d4f190ce29f655f117f21857c06a21da5",
+        "3cbdeb401fe98ac7cbeef78db153001df3526e9b164ec477b8180767a6000f67"
+      ]
+    },
+    {
+      "group_index": 128,
+      "subject_id": "SUBJ-SUCC-B6801A5B2E03",
+      "correction_ids": [
+        "CORR-007-LEGACY-0303",
+        "CORR-007-LEGACY-0304"
+      ],
+      "correction_row_sha256s": [
+        "397c223d1db9e5d670e3f19cb2bc15c05186f804eb419a48f14ed693af862ebb",
+        "3de005a24f37ced55002add255d22a83c2971fbf1b45f79ea902dabf832d0b8a"
+      ]
+    },
+    {
+      "group_index": 129,
+      "subject_id": "SUBJ-SUCC-84898172084C",
+      "correction_ids": [
+        "CORR-007-LEGACY-0306"
+      ],
+      "correction_row_sha256s": [
+        "7ec55b4c19884e7dca3bccf2f015c1427615a3c4b0745c11c30d8dee473c0d6f"
+      ]
+    },
+    {
+      "group_index": 130,
+      "subject_id": "SUBJ-SUCC-467C949D416F",
+      "correction_ids": [
+        "CORR-007-LEGACY-0307",
+        "CORR-007-LEGACY-0308"
+      ],
+      "correction_row_sha256s": [
+        "d545b224f4a6ce8a83117f4cbb9a4b9f5f9cd590f333bf6bfbc26766c4bf7fdd",
+        "4e4b8398f56aa8cf347be53c2b700627e4fb0fd1c408f8b6368a1b07cf53834f"
+      ]
+    },
+    {
+      "group_index": 131,
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "correction_ids": [
+        "CORR-007-LEGACY-0309",
+        "CORR-007-LEGACY-0310",
+        "CORR-007-LEGACY-0311"
+      ],
+      "correction_row_sha256s": [
+        "392b0266b6e22ea324ace37e12c42506ec8630183f4fc643a6135bb85305e0eb",
+        "3187f0de5e9d6706c706862994ade3bfd0fd876e376c04110f37f135f901e96c",
+        "6bc136f34842b9016b3a0e3b15de06a344d510a77cd8a6404459e8407426a73d"
+      ]
+    },
+    {
+      "group_index": 132,
+      "subject_id": "SUBJ-SUCC-31D23A1391B1",
+      "correction_ids": [
+        "CORR-007-LEGACY-0322",
+        "CORR-007-LEGACY-0323"
+      ],
+      "correction_row_sha256s": [
+        "cbc72f53adda625d4cd16bce84306f104e375625c4625f26d7d6aae2aad3eac3",
+        "6a025730fa47ae4e77934f91c99e726f8421850f1eec2fb8f5db36173c0124ac"
+      ]
+    },
+    {
+      "group_index": 133,
+      "subject_id": "SUBJ-SUCC-151622A0A4C4",
+      "correction_ids": [
+        "CORR-007-LEGACY-0329",
+        "CORR-007-LEGACY-0330",
+        "CORR-007-LEGACY-0331"
+      ],
+      "correction_row_sha256s": [
+        "a93d1b2e036d02c441252455c5a455045c858aeda62666823568f32b61b9b6f6",
+        "f5da978f87c9ed79b689db3b30643182f6ffdb81bc9558995b9f0c8d47c1caa2",
+        "6b3f3a870dcee72c33c407ba869f077d842bcd36d38164594d25250e34cece79"
+      ]
+    },
+    {
+      "group_index": 134,
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "correction_ids": [
+        "CORR-007-LEGACY-0332"
+      ],
+      "correction_row_sha256s": [
+        "a8c46c725f8c66039dacda76866608e66097a4d8562e4ee3d63810b0c43bb38a"
+      ]
+    },
+    {
+      "group_index": 135,
+      "subject_id": "SUBJ-SUCC-55CCA1CC2481",
+      "correction_ids": [
+        "CORR-007-LEGACY-0342",
+        "CORR-007-LEGACY-0343"
+      ],
+      "correction_row_sha256s": [
+        "4d63682a1e3652e1381ba6307b894150bc2673c07c3b46ad7d4f036aecc35ece",
+        "7d4b7bec9cc9f78c726fa1a4f87bb79b4adf7cd301c44d8e539380d7e2abaf9e"
+      ]
+    },
+    {
+      "group_index": 136,
+      "subject_id": "SUBJ-SUCC-EB2C28D684C6",
+      "correction_ids": [
+        "CORR-007-LEGACY-0344"
+      ],
+      "correction_row_sha256s": [
+        "4e818caa99be925be867f5b2c03ca4c43351b0ed82a180b5f0bfee0408b9bd6c"
+      ]
+    },
+    {
+      "group_index": 137,
+      "subject_id": "SUBJ-SUCC-9465F7AFB297",
+      "correction_ids": [
+        "CORR-007-LEGACY-0347",
+        "CORR-007-LEGACY-0348",
+        "CORR-007-LEGACY-0349",
+        "CORR-007-LEGACY-0350"
+      ],
+      "correction_row_sha256s": [
+        "c69f3fe67b2d28af35cd93bced628725c6be9ff1603654a24ca74f0d7aecf170",
+        "11b9727f19705820a50e61b9e396221e6c8a925f240f870cba2d517ff481b611",
+        "cd4e63c08876ac071f7048996df184a80bc30ae13e4b7036d3ff3b59a43886f1",
+        "87aa176cdec83633925f97ec6d06af89452b93e8602e63785aed85c024588367"
+      ]
+    },
+    {
+      "group_index": 138,
+      "subject_id": "SUBJ-SUCC-7A3B2AE4DD35",
+      "correction_ids": [
+        "CORR-007-LEGACY-0354"
+      ],
+      "correction_row_sha256s": [
+        "ac5402e6bce30de420f5fbd437d3d291aa046eb13486bfaae46cb6894995a15d"
+      ]
+    },
+    {
+      "group_index": 139,
+      "subject_id": "SUBJ-SUCC-C81AF981D95D",
+      "correction_ids": [
+        "CORR-007-LEGACY-0358",
+        "CORR-007-LEGACY-0359"
+      ],
+      "correction_row_sha256s": [
+        "0737e8734df02caa7a062fb182422e7728475609318fce1712a3261697f9d5df",
+        "433d91a1b533b1ce20f9f1293c159545de229165f876700f68395b5fbee62833"
+      ]
+    },
+    {
+      "group_index": 140,
+      "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+      "correction_ids": [
+        "CORR-007-LEGACY-0365",
+        "CORR-007-LEGACY-0366",
+        "CORR-007-LEGACY-0449"
+      ],
+      "correction_row_sha256s": [
+        "705b9e40578e061776f5313917e619e678ef0f342bae9a70f30b9acc83684848",
+        "5130b235dee1fbbee6cf6056476db0ae4acf0e98a63bf23f141851d53447e91a",
+        "3fc493facc377a9be1f10638a432ac28d115c9ca9a2e22eb75c74c290c43648b"
+      ]
+    },
+    {
+      "group_index": 141,
+      "subject_id": "SUBJ-SUCC-41C1A762D0B5",
+      "correction_ids": [
+        "CORR-007-LEGACY-0375"
+      ],
+      "correction_row_sha256s": [
+        "89a31d28c476f7e29931c1c42964e5dba9d2c52865629439183f3194e20931ae"
+      ]
+    },
+    {
+      "group_index": 142,
+      "subject_id": "SUBJ-SUCC-0AC74CCFDC8E",
+      "correction_ids": [
+        "CORR-007-LEGACY-0376",
+        "CORR-007-LEGACY-0377"
+      ],
+      "correction_row_sha256s": [
+        "2e88ceae32747383b4fddbf28766523964a3875335542e91b948f2e446c8d0cf",
+        "093acc8dc2f0f4a61bdbadc073d1c05da0b490a24f237275fe194d1277dd8c6f"
+      ]
+    },
+    {
+      "group_index": 143,
+      "subject_id": "SUBJ-SUCC-E4C3D945CE3F",
+      "correction_ids": [
+        "CORR-007-LEGACY-0382"
+      ],
+      "correction_row_sha256s": [
+        "ccf5715cf809451681fa64a6bba9ffcf9946b695cddc8e3d030a6eb5878bda2b"
+      ]
+    },
+    {
+      "group_index": 144,
+      "subject_id": "SUBJ-SUCC-A196529B349B",
+      "correction_ids": [
+        "CORR-007-LEGACY-0383",
+        "CORR-007-LEGACY-0384"
+      ],
+      "correction_row_sha256s": [
+        "f9c910c8245b16ccb161dd3a0fbc9da141244fd050dee7a1479bedc25a98d7e9",
+        "02de4732e8a516469e8755ac4e071cb6822fd3e147bcf3f1392822d4151e4851"
+      ]
+    },
+    {
+      "group_index": 145,
+      "subject_id": "SUBJ-SUCC-7E820E02A6A2",
+      "correction_ids": [
+        "CORR-007-LEGACY-0386",
+        "CORR-007-LEGACY-0387"
+      ],
+      "correction_row_sha256s": [
+        "4ffa3ab1a2c0def2856718fea24162925a8ad76d124b9729c78576aef237fa85",
+        "0e7dc66807e056bea0a7207fead633b8539b09f7f9c67ffdc28fa4923f66634c"
+      ]
+    },
+    {
+      "group_index": 146,
+      "subject_id": "SUBJ-SUCC-D33E439E4979",
+      "correction_ids": [
+        "CORR-007-LEGACY-0390",
+        "CORR-007-LEGACY-0403",
+        "CORR-007-LEGACY-0404"
+      ],
+      "correction_row_sha256s": [
+        "b7f5502b45446064b2751b24497868378b1fea93f92480415b6a8618a3b2ef3b",
+        "d911aca8bc137d54231cea8e75a384f70f0716b65f19951547fc3b6da6460c3f",
+        "ad0feaae8b409de1c4b9e461be3df479d7e8f5f6d78e418c33da3a9bba9d31f2"
+      ]
+    },
+    {
+      "group_index": 147,
+      "subject_id": "SUBJ-SUCC-5F07AA578495",
+      "correction_ids": [
+        "CORR-007-LEGACY-0391",
+        "CORR-007-LEGACY-0392"
+      ],
+      "correction_row_sha256s": [
+        "8c17bb472ab69b676447118b4e61f1441dc7679ea5c18577d733a4c8fab4156c",
+        "e9ea237946213f81d116620db84c47f3c0aaf99c11f031d30c307db630de9ede"
+      ]
+    },
+    {
+      "group_index": 148,
+      "subject_id": "SUBJ-SUCC-34E281DBB58D",
+      "correction_ids": [
+        "CORR-007-LEGACY-0393",
+        "CORR-007-LEGACY-0394"
+      ],
+      "correction_row_sha256s": [
+        "1a6020dc662975574cf4086c36c1125140c4d8c880c42b35a8b4e32f50ffb8ac",
+        "818f364fe492fd09be28113d4065e21a490b59eacba609e8df2070bffc018c09"
+      ]
+    },
+    {
+      "group_index": 149,
+      "subject_id": "SUBJ-SUCC-80B9CA82989A",
+      "correction_ids": [
+        "CORR-007-LEGACY-0395",
+        "CORR-007-LEGACY-0396"
+      ],
+      "correction_row_sha256s": [
+        "88e9eaabdd3a6e656f97fc43be94edeed28d7c7148199f94666d6315adfec8d6",
+        "9f574b17cec831053974cc5d6091058ed88bcfbb5d65e29f2f505531c61eb939"
+      ]
+    },
+    {
+      "group_index": 150,
+      "subject_id": "SUBJ-SUCC-2E5B26D8A9D6",
+      "correction_ids": [
+        "CORR-007-LEGACY-0397",
+        "CORR-007-LEGACY-0398"
+      ],
+      "correction_row_sha256s": [
+        "ddf9e9829e471bf1f4ad4b57f981ad1140cb766a8aa254a33fc9acca55e60cc6",
+        "3a13642c357e5b914d8eaf9e2e6b5e8a1f39b8b18792a54da73b75e1d4d44355"
+      ]
+    },
+    {
+      "group_index": 151,
+      "subject_id": "SUBJ-SUCC-E353D1807798",
+      "correction_ids": [
+        "CORR-007-LEGACY-0400"
+      ],
+      "correction_row_sha256s": [
+        "f47e1ba3cddd45b3ce9f4521c55709d3f099dde93caf84dd83e477eb6216f7f3"
+      ]
+    },
+    {
+      "group_index": 152,
+      "subject_id": "SUBJ-SUCC-CFFCD493828A",
+      "correction_ids": [
+        "CORR-007-LEGACY-0405",
+        "CORR-007-LEGACY-0406"
+      ],
+      "correction_row_sha256s": [
+        "5d83880045ee7157e699d3bdef310277c911a17d659f1346ad63c178b80f6c6e",
+        "1aa7b1da29c0d8685d2a6445131d6c940cdea83802fdde7c0963b8f0959cd3ef"
+      ]
+    },
+    {
+      "group_index": 153,
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "correction_ids": [
+        "CORR-007-LEGACY-0412"
+      ],
+      "correction_row_sha256s": [
+        "6496552655d84fc24ba778c1d53cd46e8857f5ff8ed0340f89744e6f8deaf623"
+      ]
+    },
+    {
+      "group_index": 154,
+      "subject_id": "SUBJ-SUCC-6A2BFDEA57F6",
+      "correction_ids": [
+        "CORR-007-LEGACY-0417"
+      ],
+      "correction_row_sha256s": [
+        "38abb272390cd199033124de78d000cd0a44b14b3cbac4d80e21f7850a6e91f0"
+      ]
+    },
+    {
+      "group_index": 155,
+      "subject_id": "SUBJ-SUCC-54D178FEEEA6",
+      "correction_ids": [
+        "CORR-007-LEGACY-0418",
+        "CORR-007-LEGACY-0419"
+      ],
+      "correction_row_sha256s": [
+        "61b78afaec98345537e6c3e80a11706b5588f6ca003c92557b2be4db2d345ea0",
+        "cedcd55bca4e2285903ca6ab513b91feb66b604c85562cef55b5da76f159e06a"
+      ]
+    },
+    {
+      "group_index": 156,
+      "subject_id": "SUBJ-SUCC-9DC759EBDD0D",
+      "correction_ids": [
+        "CORR-007-LEGACY-0427"
+      ],
+      "correction_row_sha256s": [
+        "690675a8527573dbc414e76095ce12217046ec93684643ce387ceced792cc3ca"
+      ]
+    },
+    {
+      "group_index": 157,
+      "subject_id": "SUBJ-SUCC-C9FC2D29F642",
+      "correction_ids": [
+        "CORR-007-LEGACY-0428",
+        "CORR-007-LEGACY-0429"
+      ],
+      "correction_row_sha256s": [
+        "e3a1da240b07d3bc2c03a9feefc8aabb173a1f6977a52394a858348cdf133d5f",
+        "e69e70bf98fef8943cf90e45d9c6f3e8d20c6b064378bf372c8f593eec3033da"
+      ]
+    },
+    {
+      "group_index": 158,
+      "subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+      "correction_ids": [
+        "CORR-007-LEGACY-0430"
+      ],
+      "correction_row_sha256s": [
+        "5a0268668e88eecd5d3117301ea2ed3555ed2163b2050ffb7878fde06d15b4d3"
+      ]
+    },
+    {
+      "group_index": 159,
+      "subject_id": "SUBJ-SUCC-B4528BB49F19",
+      "correction_ids": [
+        "CORR-007-LEGACY-0432"
+      ],
+      "correction_row_sha256s": [
+        "6e75d35f544fe0178569d649f16c1fbe047888d9952dac3ab2ccb5c06f61278f"
+      ]
+    },
+    {
+      "group_index": 160,
+      "subject_id": "SUBJ-SUCC-C421B8FB7D43",
+      "correction_ids": [
+        "CORR-007-LEGACY-0433",
+        "CORR-007-LEGACY-0434"
+      ],
+      "correction_row_sha256s": [
+        "fa34143fcc4c713008e80cbb4369fd85f3b371f0882d94580ebfa2ac00c77c14",
+        "ad51429b2103ae175f0aeef35d1f051e7ef02ba7f4283cdf5f39f0722088107d"
+      ]
+    },
+    {
+      "group_index": 161,
+      "subject_id": "SUBJ-SUCC-46CEA9999339",
+      "correction_ids": [
+        "CORR-007-LEGACY-0435",
+        "CORR-007-LEGACY-0436"
+      ],
+      "correction_row_sha256s": [
+        "29e63eb60c364800349dda64378836121c64cd7c53bf19421fc5770eb6af6a02",
+        "0383aba54bfc02b2ff7f2587feaa9845a5debbb32aad0603df08d01fc094d852"
+      ]
+    },
+    {
+      "group_index": 162,
+      "subject_id": "SUBJ-SUCC-CD9A2A52162E",
+      "correction_ids": [
+        "CORR-007-LEGACY-0447",
+        "CORR-007-LEGACY-0448"
+      ],
+      "correction_row_sha256s": [
+        "fd43e0dfc10a7b889be1a490f111a6ac80799987a55bfdf0f035cd63e6ae8851",
+        "17a70a7e4cf60f600fd63c00e35b3fe8629c5ea95017ed48aec59a966e583de3"
+      ]
+    }
+  ],
+  "additional_new_evidence_proposals": [
+    {
+      "subject_id": "SUBJ-SUCC-1EB98E1BFFEE",
+      "record": {
+        "document_page": 227,
+        "source_page_label": "227",
+        "locator_class": "supporting",
+        "evidence_summary": "Danton and other leading Montagnards lost standing through last-minute attempts to strike deals preventing Dumouriez’s defection; Girondins were harmed by their earlier association with him.",
+        "evidence_id": "EVID-SUCC-9C2257E9A4A0",
+        "source_local_subject_id": "SUCC-C010-S017",
+        "source_chunk_id": "CHUNK-010"
+      },
+      "historical_keys": [
+        "legacy:SUBJ-79A552863D25"
+      ],
+      "rationale": "Original whole-subject meaning includes this 227 mechanism but its evidence list and mapped parent omit the location.",
+      "status": "proposed_pending_integration"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-02ECAB94AC3F",
+      "record": {
+        "document_page": 189,
+        "source_page_label": "189",
+        "locator_class": "supporting",
+        "evidence_summary": "The sectional central committee symbolically confined Pétion as it proclaimed the insurrectionary Commune and ordered the march on the Tuileries.",
+        "evidence_id": "EVID-SUCC-915AFFDD84B0",
+        "source_local_subject_id": "SUCC-C008-S034",
+        "source_chunk_id": "CHUNK-008",
+        "historical_evidence_identity": {
+          "lineage": "legacy",
+          "subject_id": "SUBJ-C9296127FC65",
+          "evidence_id": "EVID-71045E4AE69D"
+        }
+      },
+      "historical_keys": [
+        "legacy:SUBJ-C9296127FC65:EVID-71045E4AE69D"
+      ],
+      "rationale": "Split the old combined 188 claim at its actual 189 continuation.",
+      "status": "proposed_pending_integration"
+    }
+  ],
+  "output_directory": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162",
+  "requirements": [
+    "Inspect every listed requirement and the entire stage8 parent before proposing exact whole-record replacements.",
+    "Compare every proposed field with its declared historical inspection baseline and stage8; preserve compatible already-retained distinctions, with explicit reasons for rejected/rebound claims. Never apply last-wins to repeated fields.",
+    "Reconcile subject meaning/stance/access with source treatments and unweighted required_access_facets. Keep different chapter treatments scoped; do not blindly copy a cross-chapter parent to each child.",
+    "Preserve valid source evidence and page boundaries; source inconsistencies must be qualified, not externally corrected. If a retained added claim needs a new page/evidence binding, propose it explicitly.",
+    "Use exact before/after records and per-field/nested diffs against stage8, enumerating every452component correctionID assigned here and any new evidence.",
+    "Do not write any benchmark snapshot, canonical review or state. Lead independently reviews composed values and owns final source signoff. Preserve the original407/962 packet and every earlier sealed byte."
+  ],
+  "counts": {
+    "subjects": 52,
+    "correction_records": 108,
+    "new_evidence_proposals": 2
+  },
+  "historical_assignment_ownership_changed": false,
+  "whole_book_approval": false
+}

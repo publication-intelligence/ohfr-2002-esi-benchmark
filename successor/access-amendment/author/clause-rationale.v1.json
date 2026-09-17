@@ -1,0 +1,286 @@
+{
+  "schema_version": "benchmark-access-author-rationale-v1",
+  "role": "author",
+  "status": "sealed_proposal_pending_independent_review",
+  "decision": "propose_no_delta",
+  "overlay": {
+    "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+    "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+    "bytes": 186329
+  },
+  "scope": "Only IPDF-GOV-02, IPDF-ANA-06, IPDF-VOC-01 and IPDF-VOC-02; source scope, discovery, evidence and source judgments are preserved.",
+  "audience": {
+    "label": "scholarly",
+    "basis": "user_supplied",
+    "confidence": "high",
+    "rationale": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+  },
+  "assessment_basis": "Use of completed source-first and exact final-value review, followed by targeted inspection of finalized access fields and reader questions. This is not a new whole-book source-first or whole-record review.",
+  "clause_assessments": [
+    {
+      "clause_id": "IPDF-GOV-02",
+      "decision": "no_delta",
+      "reason": "The frozen scholarly audience is explicit. Existing questions support retrieval, explanation, comparison and source criticism, with coherent main demands and named target subjects. Cases 01–09 show specific reader needs already covered rather than relying on a generic book-level question. No distinct source-supported reader obligation was found that needs an additional parent or unweighted facet.",
+      "case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-02",
+        "ACCESS-AUTH-03",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-05",
+        "ACCESS-AUTH-06",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08",
+        "ACCESS-AUTH-09"
+      ]
+    },
+    {
+      "clause_id": "IPDF-ANA-06",
+      "decision": "no_delta",
+      "reason": "The completed representation review is reused and the present cases test likely erasure points: women’s diverse agency, distinct colonial legal populations, religious communities, ordinary households, popular resistance and minority violence in Italy. Their material source treatment already has explicit access without inventing equal coverage, uniformly virtuous actors or an unsupported stand-alone population history.",
+      "case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-02",
+        "ACCESS-AUTH-03",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-05",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08"
+      ]
+    },
+    {
+      "clause_id": "IPDF-VOC-01",
+      "decision": "no_delta",
+      "reason": "The final parent/facet values expressly preserve attribution, contested labels, uncertainty, chronology and negation. Examples distinguish claimed constitutional law, conditional diplomacy, alleged plots, possible payment, different emancipation phases and the failure to restore slavery in Saint-Domingue. Existing plain-language routes make these source-faithful requirements intelligible to the stipulated scholarly reader.",
+      "case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-02",
+        "ACCESS-AUTH-03",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-05",
+        "ACCESS-AUTH-06",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08",
+        "ACCESS-AUTH-09"
+      ]
+    },
+    {
+      "clause_id": "IPDF-VOC-02",
+      "decision": "no_delta",
+      "reason": "Existing accepted routes cover meaningful lexical alternatives, accents, personal/topic access, translated specialist vocabulary, calendar variants and temporally qualified place/state names. The base access policy accepts a clear route that retrieves the required meaning; it does not require verbatim matching to a closed alias list. A valid equivalent route still must reach the right source treatment. Enumerating every imaginable spelling, abbreviation or later name would not by itself add a missing source-supported obligation, and blanket equivalence could erase the temporal or political distinctions in Cases 01, 06 and 07.",
+      "case_ids": [
+        "ACCESS-AUTH-01",
+        "ACCESS-AUTH-04",
+        "ACCESS-AUTH-06",
+        "ACCESS-AUTH-07",
+        "ACCESS-AUTH-08"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "ACCESS-AUTH-01",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-ANA-06",
+        "IPDF-VOC-01",
+        "IPDF-VOC-02"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-2AC42802019F",
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224",
+        "SUBJ-SUCC-E460E732EDD9"
+      ],
+      "task_ids": [
+        "TASK-SUCC-305B85115DE8",
+        "TASK-SUCC-A8C8E69D91F8",
+        "TASK-SUCC-20CE5298E380"
+      ],
+      "assessment": "Colonial access already separates preservation of slavery in 1790, restricted then expanded free-coloured citizenship, the 1791 uprising, local and metropolitan emancipation in 1793–1794, attempted restoration and Haitian independence. Enslaved agency and formerly enslaved soldiers are explicit; free people of colour are not merged into the enslaved population. Saint-Domingue and Haiti are access routes whose temporal and political meanings are qualified by the parent, facet and comparative task. Spanish expulsion, British withdrawal after disease losses, Toussaint’s autonomy and capture, renewed resistance and independence retain distinct actors and phases. The existing task asks the reader to distinguish legal populations and successive decisions; a new omnibus parent or identity label would add no missing requirement.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-02",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-ANA-06",
+        "IPDF-VOC-01"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-38F9D4ACE8D4",
+        "SUBJ-SUCC-0BEECB354226",
+        "SUBJ-SUCC-7CE8C15FFC5B"
+      ],
+      "task_ids": [
+        "TASK-SUCC-7AB31871C812",
+        "TASK-SUCC-822FD108A319",
+        "TASK-SUCC-D68F990957A8"
+      ],
+      "assessment": "Women already have explicit agency routes for Catholic resistance and revolutionary mobilization, subsistence protest, clubs, political writing and exclusion from equal rights. Named access to de Gouges, Lacombe and Théroigne is preserved without making their roles identical. The 1793 organization ban and later property restrictions remain distinct. The text does not infer that de Gouges was executed simply for women’s-rights advocacy. The tasks make divergent political and religious agency and the limits of equality express demands, rather than leaving women as incidental crowd members or a hidden facet.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-03",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-ANA-06",
+        "IPDF-VOC-01"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-87628E298F61",
+        "SUBJ-SUCC-21DA491F60E3"
+      ],
+      "task_ids": [
+        "TASK-SUCC-4A89DC3E66D8"
+      ],
+      "assessment": "Protestant and Jewish emancipation have separate parent access and a coherent comparison task. The records retain legal progress alongside prejudice, regional conflict and state supervision. Jewish citizenship is explicitly staged in January 1790 and September 1791; the description of Alsatian exclusion is explained by the preserved evidence’s contemporary doubts about national belonging, not presented as a normative test of deserving citizenship. Protestant civic gains, internal church democracy and local disadvantage are retained without manufacturing a uniformly emancipated or uniformly persecuted community.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-04",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-ANA-06",
+        "IPDF-VOC-01",
+        "IPDF-VOC-02"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-E64A7C4235E5",
+        "SUBJ-SUCC-FC3075CE0927",
+        "SUBJ-SUCC-191FA6C1BCC9",
+        "SUBJ-SUCC-B4386E288802"
+      ],
+      "task_ids": [
+        "TASK-SUCC-FE79A91F953B",
+        "TASK-SUCC-C707FE9CC389",
+        "TASK-SUCC-2615667861B8",
+        "TASK-SUCC-172307628112"
+      ],
+      "assessment": "Peasant households, communal rights, local religious loyalty and popular resistance are represented as developed subjects rather than only as official institutions’ objects. Plain routes include household economy, commons, village resistance, conscription evasion and community autonomy. The book’s distinction between popular anti-revolution and organized counter-revolution, and its interpretation of the sansculotte moral economy relative to property-centred revolutionary aims, are stated with source attribution and limits. Religious opposition is not equated with a uniform Bourbon programme or passive obedience to priests. Adding a balancing category would duplicate or distort the source’s existing distinctions.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-05",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-ANA-06",
+        "IPDF-VOC-01"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-65EB9D04AEF8",
+        "SUBJ-SUCC-C6F2BF879546"
+      ],
+      "task_ids": [
+        "TASK-SUCC-46BC20C9AA18",
+        "TASK-SUCC-392398A8EC5B"
+      ],
+      "assessment": "The occupied-European and Italian access requirements include religious, social, urban-rural and local motives. Anti-Jewish violence has explicit minority access within the Italian backlash parent and is named in the comparative reader task. It is not swallowed by a broad royalist label, nor inflated into an unsupported general history of Italian Jews. Regional and divided Jacobin experiences qualify a single reactionary narrative.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-06",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-VOC-01",
+        "IPDF-VOC-02"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-DF242A7BAF78",
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-96C1B44E5402",
+        "SUBJ-SUCC-54D178FEEEA6",
+        "SUBJ-SUCC-CB77C5EDB693",
+        "SUBJ-SUCC-13D741A01D65"
+      ],
+      "task_ids": [
+        "TASK-SUCC-829CD54276C2",
+        "TASK-SUCC-637CA4EAD5D1",
+        "TASK-SUCC-DCC4DAA8230F",
+        "TASK-SUCC-F79534FB3C18",
+        "TASK-SUCC-0383E3E68698"
+      ],
+      "assessment": "Specialist vocabulary already has intelligible alternatives and bounded meanings: cahiers/grievance lists, refractory clergy/nonjurors/oath refusal, lettres de cachet/arbitrary arrest, republican/revolutionary calendar, and Year III/Constitution of 1795. Brumaire has event, institutional and personal access routes, while its printed date inconsistency stays qualified rather than becoming a falsely exact calendar equivalence. The scholarly audience is the frozen user-supplied configuration. Source-critical questions about filtered cahiers, competing constitutional claims and distinct oath statistics suit that audience. Adding every conceivable spelling or modern label is not necessary to permit an already valid equivalent route.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-07",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-ANA-06",
+        "IPDF-VOC-01",
+        "IPDF-VOC-02"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-04E7153E268C",
+        "SUBJ-SUCC-BBD84DC00640",
+        "SUBJ-SUCC-C81AF981D95D",
+        "SUBJ-SUCC-4E4FFDBB28E9"
+      ],
+      "task_ids": [
+        "TASK-SUCC-243F183EE4A3",
+        "TASK-SUCC-E7721458013C"
+      ],
+      "assessment": "Pillnitz separates intention, conditional commitment and inflammatory reception. Federalist is explicitly a contested label with republican, local and later royalist distinctions, not evidence that all opponents sought dismemberment or restoration. The Caen route qualifies possible English payment to Wimpffen. The Indies Company/Batz route distinguishes real fraud and intrigue from an unproved encompassing foreign conspiracy. The linked tasks demand these explanatory distinctions. Replacing the historical vocabulary with generic neutral labels would remove useful reader access and flatten the source’s contested categories.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-08",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-ANA-06",
+        "IPDF-VOC-01",
+        "IPDF-VOC-02"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-81DD3C32CF36"
+      ],
+      "task_ids": [],
+      "assessment": "Levée en masse already accepts accented and unaccented forms, national mobilization, mass conscription and Carnot routes. Its scope preserves differentiated duties for women, children, older men and military-age men. It distinguishes nominal strength from trained forces and the decree from radical universal-enlistment hopes; Carnot is not credited as the sole cause of victory. There is no missing translation or erased participating group requiring a new facet.",
+      "decision": "no_delta"
+    },
+    {
+      "case_id": "ACCESS-AUTH-09",
+      "clause_ids": [
+        "IPDF-GOV-02",
+        "IPDF-VOC-01"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-9DA29F300357"
+      ],
+      "task_ids": [
+        "TASK-SUCC-243F183EE4A3"
+      ],
+      "assessment": "The map-caption access route retrieves only the literal theme Resistance to the Revolution, 1793–1799. It does not require extent, named places, symbols or map-internal geography. The separate Federalist extent task uses eligible prose on 241–243. A broader geographic access amendment would violate the frozen inclusion boundary rather than remedy a lookup gap.",
+      "decision": "no_delta"
+    }
+  ],
+  "population_accounting": {
+    "before_subjects": 531,
+    "after_subjects": 531,
+    "before_tasks": 617,
+    "after_tasks": 617,
+    "added_ids": [],
+    "updated_ids": [],
+    "retired_ids": [],
+    "new_facets": [],
+    "changed_evidence_ids": [],
+    "new_source_evidence_ids": [],
+    "preserved_subject_evidence_bindings": 3297,
+    "priority_counts": {
+      "essential": 151,
+      "major": 326,
+      "optional": 54
+    },
+    "weight_treatment": "No parent, priority or unit weight changes; all existing unweighted facets remain unchanged.",
+    "before_after_population_sha256": "6f8cbe9f994101437bf29ba94c9d898a9b60c19c9943d8235d47968afba03e8b"
+  },
+  "field_changes": [],
+  "source_preservation": "No source file, benchmark, review, state, historical proof, priority, weighting rule, formula, gate, map or inclusion policy is changed. All 3297 subject-evidence bindings remain in the base unchanged.",
+  "limits": "This author conclusion proposes zero changes; it does not approve or freeze the V10 amendment, select a lock, activate a runtime, or assess any candidate. An independent reviewer must assess these exact proposal bytes.",
+  "inspection_ledger": {
+    "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+    "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec",
+    "bytes": 118951
+  }
+}

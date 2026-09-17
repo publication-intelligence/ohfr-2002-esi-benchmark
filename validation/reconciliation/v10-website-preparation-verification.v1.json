@@ -1,0 +1,45 @@
+{
+  "schema_version": "v10-website-preparation-verification-v1",
+  "recorded_at": "2026-09-17T04:01:23.523733+00:00",
+  "scope": "Website consumer compatibility before actual candidate data import.",
+  "consumer_commit": "f0392222edb489fac7d3d3a67c1303bdbb34b37f",
+  "consumer_pr": "https://github.com/publication-intelligence/publication-intelligence/pull/5",
+  "owner_receipt_sha256": "8c0a31667e8627ffde6f3f4cb84288c319bcdcfaea6999f01d917274f00fd947",
+  "producer_runtime_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "producer_manifest_sha256": "8e62475b39464369671f6fca1e09759f802e2252de9ae9a871e00d262ac94517",
+  "producer_files_previously_root_verified": 120,
+  "copied_consumer_fixture_files_previously_root_verified": 23,
+  "root_focused_consumer_tests_passed": 39,
+  "root_test_log_sha256": "5823a7cacc89055bb17ae3ee147f220912cc3b63f00dee72c5fbc567c9416567",
+  "root_resealed_source_profile_tamper_probe": "Valid final V10 identity accepted; resealed V8.1 source methodology rejected with unsupported V10 frozen source methodology.",
+  "owner_reported_validation": {
+    "focused_study_tests_passed": 139,
+    "normal_commit_hook_exit_code": 0,
+    "normal_commit_hook_tasks_passed": 9,
+    "frontend_unit_tests_passed": 806,
+    "chromium_interaction_tests_passed": 123,
+    "typecheck": "passed",
+    "lint": "passed",
+    "public_dataset_changes_in_followup": false
+  },
+  "ci": {
+    "run_url": "https://github.com/publication-intelligence/publication-intelligence/actions/runs/35179349104",
+    "head_sha": "f0392222edb489fac7d3d3a67c1303bdbb34b37f",
+    "status": "completed",
+    "conclusion": "success",
+    "passed_jobs": [
+      "application",
+      "backend-integration (1/2)",
+      "backend-integration (2/2)",
+      "frontend-unit (1/2)",
+      "frontend-unit (2/2)"
+    ],
+    "skipped_unrelated_jobs": [
+      "terraform",
+      "containers"
+    ]
+  },
+  "actual_candidate_results_imported": false,
+  "consumer_pr_merged": false,
+  "deployed": false
+}

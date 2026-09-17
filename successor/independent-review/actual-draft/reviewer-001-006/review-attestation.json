@@ -1,0 +1,58 @@
+{
+  "schema_version": "independent-actual-draft-visibility-attestation-v1",
+  "reviewer": "reviewer-001-006",
+  "status": "assigned_review_complete_revisions_required",
+  "source_first_stage_preserved": true,
+  "candidate_content_seen": false,
+  "candidate_results_seen": false,
+  "actual_benchmark_draft_seen": true,
+  "draft_first_seen_after_source_first_notes_durable": true,
+  "source_first_scope": {
+    "chunks": [
+      "CHUNK-001",
+      "CHUNK-002",
+      "CHUNK-003",
+      "CHUNK-004",
+      "CHUNK-005",
+      "CHUNK-006"
+    ],
+    "printed_pages": "1–158",
+    "full_owned_page_reading_completed_before_draft": true,
+    "layout_visual_checks": [
+      3,
+      127,
+      129
+    ]
+  },
+  "actual_review_scope": {
+    "whole_subjects": 202,
+    "evidence_records": 1840,
+    "subject_facets": 211,
+    "relationships": 134,
+    "reader_tasks": 336,
+    "task_facets": 327,
+    "source_first_findings": 181
+  },
+  "method": "Source-first notes preceded draft exposure. Actual review inspected whole parent records, evidence, source treatments, retained distinctions, access routes, source-only lineage and actual old records; source pages were consulted for claims, boundaries and discrepancies. Semantic decisions were authored after inspection. ID/count/hash checks establish coverage and identity only, not approval. Author mappings and closure claims were not accepted as independent review.",
+  "field_scope": "All present subject fields were considered, including priority and access_scope_rule. This draft has no separate alias field; synonyms and alternative routes are in acceptable_access. Required facets are unweighted extensions and do not rescue parent omissions or create independent scoring denominators.",
+  "visibility_boundary": "Only exact authorized source-only packets/addendum, the separately authorized assignment, installed evaluate-subject-index/PDF instructions and necessary runtime documentation, and this reviewer’s own outputs were read. Candidate repositories, candidate outputs, root documentation/validation, task histories, sibling review files and unrelated material were not read. Coordination messages from the lead were used as referrals to verify, not as evidence of approval. Administrative supplier filenames, if encountered, do not expose an index candidate.",
+  "input_bindings": {
+    "packet_sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+    "addendum_sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760",
+    "assignment_sha256": "77fb18262a820e09c6450fc36cab5eb8f8aea2e348d92f55a221dc25907d9277",
+    "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "map_canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "manifest_canonical_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f"
+  },
+  "hash_validation": "All109 original and146 addendum files were verified before use and again at handoff. The original draft and all phase-one receipt files retain their original hashes.",
+  "public_output_policy": "Public records contain review paraphrases, record identifiers and references. Extracted source text/images remain only in authorized restricted reviewer directories.",
+  "not_claimed": [
+    "Independent whole-record review of lead-owned cross-chapter entities or global controls.",
+    "Approval of the present draft, implementation of proposed changes, candidate evaluation or freezing.",
+    "Approval inferred from page coverage, exact identifiers, author dispositions or historical count preservation."
+  ],
+  "remaining": "No assigned current record or source-first finding is pending. Lead referrals and implementation/re-review of revisions remain.",
+  "canonical_or_historical_state_edited": false
+}

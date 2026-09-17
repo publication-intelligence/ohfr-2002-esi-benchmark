@@ -1,0 +1,41 @@
+{
+  "schema_version": "methodology-merge-checkpoint-v1",
+  "recorded_at": "2026-09-16T20:44:42.649562+00:00",
+  "repository": "publication-intelligence/evaluate-subject-index",
+  "pull_request": "https://github.com/publication-intelligence/evaluate-subject-index/pull/51",
+  "merged_at": "2026-09-16T20:43:32Z",
+  "reviewed_head": "ae87f5e1a91dec5237fadbf2d38b792009a87376",
+  "reviewed_base": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "merge_commit": "77e5c8b9274c75200b31cf14e730ac1398b06128",
+  "verified_remote_main": "77e5c8b9274c75200b31cf14e730ac1398b06128",
+  "merge_parents": [
+    "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "ae87f5e1a91dec5237fadbf2d38b792009a87376"
+  ],
+  "merge_tree": "4fa401a584f80684c94016a6a309f647c0c7f642",
+  "merge_tree_equals_reviewed_head": true,
+  "validation": {
+    "methodology_tests": 201,
+    "utility_tests": 20,
+    "focused_study_tests": 21,
+    "exact_head_ci": "passed",
+    "check_urls": [
+      "https://github.com/publication-intelligence/evaluate-subject-index/actions/runs/35147493064/job/104967157322",
+      "https://github.com/publication-intelligence/evaluate-subject-index/actions/runs/35147489601/job/104967146597"
+    ]
+  },
+  "installed_runtime": {
+    "merged_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+    "verified_file_count": 111,
+    "unchanged": true
+  },
+  "holds": {
+    "installation": true,
+    "candidate_rebinding": true,
+    "candidate_migration_dispatch": true,
+    "website_deployment": true
+  },
+  "coordinator_task": "01a0aba8-d3df-7150-aecb-74df5ee61c09",
+  "checkpoint_sha256": "977b12a96f24f3cefd1156a294414e2f8b393fd60a974ed04b1841ebfae786d0"
+}

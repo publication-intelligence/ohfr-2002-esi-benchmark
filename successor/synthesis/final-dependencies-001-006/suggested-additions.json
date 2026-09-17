@@ -1,0 +1,1835 @@
+{
+  "status": "source-grounded_proposals_only",
+  "base_input_sha256": {
+    "successor/synthesis/integrated-working.json": "bf71acaef85eac5256bab4073d12ce048295a0fa3b402204400a09167dbec368",
+    "successor/synthesis/integration-mapping.json": "78c73c6cbb33ccef9f600bb3c76d6cda271a8225d0c30cf84c10370ec8cc19c3",
+    ".source-only/legacy/source/source-benchmark.v3.json": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    ".source-only/native/source/source-benchmark.v2.json": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
+  },
+  "relationship_additions": [
+    {
+      "proposal_id": "REL-PROP-C001006-CF0337537C4E",
+      "source_subject_id": "SUBJ-SUCC-7F399445D1A7",
+      "target_subject_id": "SUBJ-SUCC-107FFF6D0A82",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        12,
+        14,
+        15
+      ],
+      "rationale": "Agricultural downturn and real-wage pressure deepen household insecurity; the relation concerns demand and livelihoods, not a claim that population caused individual crop failures.",
+      "source_label": "Agriculture under Louis XVI—harvest instability and rural crisis",
+      "target_label": "Poverty—scale, causes, and demographic pressure",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C001-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C001-S020"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-4C8D40BC128E",
+      "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+      "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+      "relationship_type": "conflicts_with",
+      "evidence_document_pages": [
+        11,
+        12,
+        19
+      ],
+      "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+      "source_label": "Commercial farming—Paris basin and gros fermiers",
+      "target_label": "Peasantry—mixed livelihoods and communal rights",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C001-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C001-S023"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-00E1414E6DFC",
+      "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+      "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+      "relationship_type": "contrasts_with",
+      "evidence_document_pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+      "source_label": "French navy—professional competence, conscription, and expansion",
+      "target_label": "French army—reform, organization, and social separation",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C001-S040"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C001-S038"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-F5B4EEF242DB",
+      "source_subject_id": "SUBJ-SUCC-107FFF6D0A82",
+      "target_subject_id": "SUBJ-SUCC-4CBE3903C47A",
+      "relationship_type": "heightens_vulnerability_to",
+      "evidence_document_pages": [
+        14,
+        20,
+        21
+      ],
+      "rationale": "Poor households’ expenditure on grain makes price rises dangerous and subsistence protest intelligible; precarious wages do not cause crop failure.",
+      "source_label": "Poverty—scale, causes, and demographic pressure",
+      "target_label": "Bread prices, grain policy, and the Flour War",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C001-S020"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C001-S029"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-9428E650877F",
+      "source_subject_id": "SUBJ-SUCC-817E099CC28B",
+      "target_subject_id": "SUBJ-SUCC-00A7DA235523",
+      "relationship_type": "circulates",
+      "evidence_document_pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "rationale": "Legal, clandestine and foreign book supply circulates the works and criticism associated with Enlightenment; censorship persists and circulation does not equate to universal assent.",
+      "source_label": "Book production, censorship, and the cross-border book trade",
+      "target_label": "The Enlightenment as a program of rational criticism and practical improvement",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S003"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S007"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-E2E3516386FE",
+      "source_subject_id": "SUBJ-SUCC-32717CAF10C8",
+      "target_subject_id": "SUBJ-SUCC-B72813B66EC2",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "rationale": "Defeat encourages inquiry into institutions and the postwar search for improvement; failed reform and subsequent conflicts deepen the later confidence crisis. Defeat is one contributor, not a sufficient cause.",
+      "source_label": "The Seven Years War as a catalyst for public inquiry and reform debate",
+      "target_label": "Collapse of confidence in monarchy and the search for checks on despotism",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S019"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-DDBC2FCC70BD",
+      "source_subject_id": "SUBJ-SUCC-32717CAF10C8",
+      "target_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+      "relationship_type": "encourages_reform_debate_about",
+      "evidence_document_pages": [
+        56,
+        57
+      ],
+      "rationale": "The postwar inquest makes economic improvement a ministerial priority and helps give Physiocratic ideas an audience.",
+      "source_label": "The Seven Years War as a catalyst for public inquiry and reform debate",
+      "target_label": "Physiocracy and the natural economic order",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S017"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-1026E5CBA2F9",
+      "source_subject_id": "SUBJ-SUCC-6ED183AAA09B",
+      "target_subject_id": "SUBJ-SUCC-EFACBA8E0CD4",
+      "relationship_type": "sustains_a_clandestine_strand_of",
+      "evidence_document_pages": [
+        45,
+        53,
+        54
+      ],
+      "rationale": "The longstanding Jansenist conflict supplies the Nouvelles ecclésiastiques example within the expanding press; it does not explain all journalism.",
+      "source_label": "Religious conflict, Jansenism, and changing Catholic piety",
+      "target_label": "Expansion of the French-language periodical press",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S012"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S002"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-06AF13B1704F",
+      "source_subject_id": "SUBJ-SUCC-6ED183AAA09B",
+      "target_subject_id": "SUBJ-SUCC-00A7DA235523",
+      "relationship_type": "helps_define_opposition_within",
+      "evidence_document_pages": [
+        51,
+        53,
+        54,
+        55
+      ],
+      "rationale": "Religious prosecutions and attacks help cohere the philosophes’ sense of common cause despite doctrinal differences; changing orthodox piety remains a separate facet.",
+      "source_label": "Religious conflict, Jansenism, and changing Catholic piety",
+      "target_label": "The Enlightenment as a program of rational criticism and practical improvement",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S012"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S007"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-AD024823E975",
+      "source_subject_id": "SUBJ-SUCC-6ED183AAA09B",
+      "target_subject_id": "SUBJ-SUCC-3D8A0053D7DE",
+      "relationship_type": "provides_context_for",
+      "evidence_document_pages": [
+        53,
+        54,
+        55
+      ],
+      "rationale": "Prolonged intra-Catholic conflict and changes in piety accompany declining acceptance of persecution. The source does not establish a single sufficient cause of toleration.",
+      "source_label": "Religious conflict, Jansenism, and changing Catholic piety",
+      "target_label": "Decline of persecution and movement toward Protestant toleration",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S012"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S013"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-ADFDEF6A8E43",
+      "source_subject_id": "SUBJ-SUCC-5972B59F1599",
+      "target_subject_id": "SUBJ-SUCC-109654B88E5D",
+      "relationship_type": "participates_in_reform_campaigns_within",
+      "evidence_document_pages": [
+        55,
+        65
+      ],
+      "rationale": "Some philanthropic lodges, including the Nine Sisters, engage in campaigns against judicial injustice; this is not institutional support for every literary society.",
+      "source_label": "Freemasonry, elite sociability, equality, and suspicion",
+      "target_label": "Miscarriages of justice, torture, and criminal-law reform",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S026"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S014"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-8404A4625D75",
+      "source_subject_id": "SUBJ-SUCC-72BFF2A0B28C",
+      "target_subject_id": "SUBJ-SUCC-D656CB5829D8",
+      "relationship_type": "informs_search_for",
+      "evidence_document_pages": [
+        51,
+        59,
+        60,
+        61
+      ],
+      "rationale": "The argument for intermediary bodies and checks on despotism informs interest in accountable provincial representation, without making Necker’s programme a direct transcription of Montesquieu.",
+      "source_label": "Montesquieu on despotism, intermediary powers, and separation of powers",
+      "target_label": "Provincial representation and Necker's provincial administrations",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S009"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S022"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-9FC6E4912F40",
+      "source_subject_id": "SUBJ-SUCC-B72813B66EC2",
+      "target_subject_id": "SUBJ-SUCC-D656CB5829D8",
+      "relationship_type": "prompts_search_for",
+      "evidence_document_pages": [
+        59,
+        60,
+        61
+      ],
+      "rationale": "Restored parlements fail to settle the confidence crisis, and representative provincial institutions become an alternative protection against administrative despotism.",
+      "source_label": "Collapse of confidence in monarchy and the search for checks on despotism",
+      "target_label": "Provincial representation and Necker's provincial administrations",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S019"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S022"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-18D2DE89E2D0",
+      "source_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+      "target_subject_id": "SUBJ-SUCC-C1C7F6F7A3BE",
+      "relationship_type": "shapes_reform_context_of",
+      "evidence_document_pages": [
+        57,
+        58,
+        60
+      ],
+      "rationale": "State-led economic rationalization underlies enlightened administrative ambitions; arbitrary and unaccountable implementation creates opposition. This is contextual influence, not a claim that every intendant adopted the doctrine.",
+      "source_label": "Physiocracy and the natural economic order",
+      "target_label": "Intendants and the conflict between enlightened administration and accountability",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S017"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S021"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-34357327C7D7",
+      "source_subject_id": "SUBJ-SUCC-2D34B3F763DB",
+      "target_subject_id": "SUBJ-SUCC-85F40786F221",
+      "relationship_type": "informs_french_reception_of",
+      "evidence_document_pages": [
+        52,
+        53,
+        63,
+        64
+      ],
+      "rationale": "French observers read American political language through ideas of liberty and popular authority familiar from French discussion, including Rousseau; this does not assert that Rousseau caused the American Revolution.",
+      "source_label": "Rousseau's critique of progress, natural goodness, and legitimate authority",
+      "target_label": "The American Revolution as a French model of liberty and institutional regeneration",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C002-S011"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S024"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-49A47596B054",
+      "source_subject_id": "SUBJ-SUCC-7F399445D1A7",
+      "target_subject_id": "SUBJ-SUCC-0383CF37560D",
+      "relationship_type": "contributes_to_scarcity_context_of",
+      "evidence_document_pages": [
+        12,
+        57,
+        58
+      ],
+      "rationale": "Harvest fluctuation makes experiments in grain freedom politically vulnerable; distinguish shortage and subsistence unrest from the policy theory and conspiracy explanation.",
+      "source_label": "Agriculture under Louis XVI—harvest instability and rural crisis",
+      "target_label": "Grain-trade liberalization, scarcity, and the famine-pact controversy",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C001-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S018"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-D905DAE6B020",
+      "source_subject_id": "SUBJ-SUCC-4BD86B38620A",
+      "target_subject_id": "SUBJ-SUCC-7E3399C22F9E",
+      "relationship_type": "contrasts_with",
+      "evidence_document_pages": [
+        66,
+        67,
+        68
+      ],
+      "rationale": "Turgot warned against financing American intervention; Necker financed war through borrowing and cultivated public confidence. Compare fiscal strategies, not a personal quarrel.",
+      "source_label": "Turgot's warning against American intervention",
+      "target_label": "Necker's loan finance, Compte rendu, and public credit",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S010"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-26F2DB400102",
+      "source_subject_id": "SUBJ-SUCC-0DA4A1C4E112",
+      "target_subject_id": "SUBJ-SUCC-A5AA75EEABBF",
+      "relationship_type": "responds_to",
+      "evidence_document_pages": [
+        68,
+        69,
+        70
+      ],
+      "rationale": "Calonne’s coordinated tax, provincial and commercial programme addresses structural fiscal weakness; it was proposed and contested, not implemented by the Notables.",
+      "source_label": "Calonne's Plan for the Improvement of the Finances",
+      "target_label": "Monarchical financial crisis: debt service, anticipations, and public credit",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S003"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S002"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-CEB8FF02DBCA",
+      "source_subject_id": "SUBJ-SUCC-7E3399C22F9E",
+      "target_subject_id": "SUBJ-SUCC-4006B19862D2",
+      "relationship_type": "undermines_confidence_in",
+      "evidence_document_pages": [
+        69,
+        70,
+        71
+      ],
+      "rationale": "Necker’s published account of financial administration and reputation sharpen doubts about Calonne’s management; limit the claim to reputation and the accounting controversy.",
+      "source_label": "Necker's loan finance, Compte rendu, and public credit",
+      "target_label": "Calonne's borrowing, spending, loss of confidence, and dismissal",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S011"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S012"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-DE2F52DCF5C6",
+      "source_subject_id": "SUBJ-SUCC-9A8F898AB77D",
+      "target_subject_id": "SUBJ-SUCC-71B17F79525C",
+      "relationship_type": "seeks_authorization_for",
+      "evidence_document_pages": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "rationale": "The November 1787 Royal Session seeks registration of Brienne’s staged loan programme; a contested registration attempt is not successful implementation of the entire recovery plan.",
+      "source_label": "Royal Session of 19 November 1787 and the rupture over despotism",
+      "target_label": "Brienne's ministry and five-year financial recovery plan",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S017"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S016"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-7DE740282FFE",
+      "source_subject_id": "SUBJ-SUCC-27DFBAFAABE0",
+      "target_subject_id": "SUBJ-SUCC-A5AA75EEABBF",
+      "relationship_type": "is_demanded_as_remedy_for",
+      "evidence_document_pages": [
+        71,
+        72,
+        74,
+        75,
+        77,
+        83,
+        84
+      ],
+      "rationale": "Calls for the Estates-General increasingly make national consent the answer to taxation and credit problems, while the timing and political purpose of the demand change.",
+      "source_label": "Estates-General: emergence as the demanded constitutional remedy",
+      "target_label": "Monarchical financial crisis: debt service, anticipations, and public credit",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S007"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S002"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-CDE93626A795",
+      "source_subject_id": "SUBJ-SUCC-79326CACD8C3",
+      "target_subject_id": "SUBJ-SUCC-E36C9512FC50",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "rationale": "The failure to enforce the May judicial settlement disrupts justice and tax collection and helps close the treasury’s remaining credit channels; retain debt and harvest damage as additional pressures.",
+      "source_label": "May 1788 judicial coup and nationwide resistance",
+      "target_label": "Bankruptcy and collapse of the Old Regime, August 1788",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S008"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S009"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-61CE5B364852",
+      "source_subject_id": "SUBJ-SUCC-2FEF2FC2A91D",
+      "target_subject_id": "SUBJ-SUCC-27DFBAFAABE0",
+      "relationship_type": "reinforces_demand_for",
+      "evidence_document_pages": [
+        81,
+        82,
+        83,
+        84
+      ],
+      "rationale": "Clerical, noble, provincial and popular resistance presses for representation; the groups’ motives differ and cannot be reduced to one revolutionary ideology.",
+      "source_label": "Provincial, noble, clerical, and popular revolt in 1788",
+      "target_label": "Estates-General: emergence as the demanded constitutional remedy",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S020"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S007"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-3972FB444C99",
+      "source_subject_id": "SUBJ-SUCC-E36C9512FC50",
+      "target_subject_id": "SUBJ-SUCC-7E3399C22F9E",
+      "relationship_type": "prompts_recall_of_financier_within",
+      "evidence_document_pages": [
+        84,
+        85
+      ],
+      "rationale": "Treasury collapse leads to Necker’s recall because his public credit appears the only immediate remedy. It does not cause the Compte rendu published seven years earlier.",
+      "source_label": "Bankruptcy and collapse of the Old Regime, August 1788",
+      "target_label": "Necker's loan finance, Compte rendu, and public credit",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S009"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-CBC622AC98BA",
+      "source_subject_id": "SUBJ-SUCC-40DBC004643F",
+      "target_subject_id": "SUBJ-SUCC-E36C9512FC50",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        83,
+        84
+      ],
+      "rationale": "The July hailstorm undermines tax and credit expectations already weakened by debt, anticipations and political resistance.",
+      "source_label": "Hailstorm of 13 July 1788 as a fiscal shock",
+      "target_label": "Bankruptcy and collapse of the Old Regime, August 1788",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S023"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S009"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-009CBC838CCD",
+      "source_subject_id": "SUBJ-SUCC-71B17F79525C",
+      "target_subject_id": "SUBJ-SUCC-E36C9512FC50",
+      "relationship_type": "contributes_through_failed_treasury_restructuring_to",
+      "evidence_document_pages": [
+        83,
+        84
+      ],
+      "rationale": "Treasury centralization threatens established financiers, whose refusal of final advances contributes to collapse; this is a particular administrative mechanism, not a claim that every element of Brienne’s plan failed identically.",
+      "source_label": "Brienne's ministry and five-year financial recovery plan",
+      "target_label": "Bankruptcy and collapse of the Old Regime, August 1788",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C003-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C003-S009"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-AB78F6C48CDA",
+      "source_subject_id": "SUBJ-SUCC-92FF96EC39D9",
+      "target_subject_id": "SUBJ-SUCC-C9D730C2AC1F",
+      "relationship_type": "articulates",
+      "evidence_document_pages": [
+        93,
+        94
+      ],
+      "rationale": "Sieyes gives the third estate’s claim to embody the nation an influential anti-privilege formulation; the pamphlet is an intervention in an existing mobilization.",
+      "source_label": "Sieyes, Emmanuel-Joseph: nation, privilege, and sovereignty",
+      "target_label": "Third estate as nation and attack on privilege",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-5CD9D3C97745",
+      "source_subject_id": "SUBJ-SUCC-92FF96EC39D9",
+      "target_subject_id": "SUBJ-SUCC-1E3F43DBAD08",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        102,
+        103,
+        104
+      ],
+      "rationale": "Sieyes’s final appeal and roll call help turn verification deadlock into a claim of national representation; preserve the deputies’ collective action and broader constitutional setting.",
+      "source_label": "Sieyes, Emmanuel-Joseph: nation, privilege, and sovereignty",
+      "target_label": "Formation of the National Assembly and the Tennis Court Oath",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S034",
+        "SUCC-C004-S035",
+        "SUCC-C004-S037"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-780F22474E01",
+      "source_subject_id": "SUBJ-SUCC-F0E37CAD434D",
+      "target_subject_id": "SUBJ-SUCC-C9D730C2AC1F",
+      "relationship_type": "intensifies_conflict_over",
+      "evidence_document_pages": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "rationale": "Insistence on the 1614 order-based form turns a procedural and constitutional dispute into confrontation over privilege; it does not create the social orders.",
+      "source_label": "Estates-General: forms of 1614 versus representation by head",
+      "target_label": "Third estate as nation and attack on privilege",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S007"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-4242E78DA566",
+      "source_subject_id": "SUBJ-SUCC-3FC7F858D56D",
+      "target_subject_id": "SUBJ-SUCC-1AA4E445D945",
+      "relationship_type": "contrasts_with",
+      "evidence_document_pages": [
+        91,
+        92
+      ],
+      "rationale": "The second Notables oppose doubling; the royal Result grants doubled third-estate representation while leaving voting procedure unresolved.",
+      "source_label": "Second Assembly of Notables, 1788",
+      "target_label": "Result of the King's Council of State, 27 December 1788",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S012"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S013"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-00A864D00F8B",
+      "source_subject_id": "SUBJ-SUCC-75B959BD3520",
+      "target_subject_id": "SUBJ-SUCC-C9D730C2AC1F",
+      "relationship_type": "amplifies",
+      "evidence_document_pages": [
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "rationale": "Pamphlets and petitions enlarge anti-privilege mobilization and national claims; print is a means of publicity rather than a sufficient cause of social conflict.",
+      "source_label": "Political press, pamphleteering, and public opinion",
+      "target_label": "Third estate as nation and attack on privilege",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S009"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-D05125C767F6",
+      "source_subject_id": "SUBJ-SUCC-1AA4E445D945",
+      "target_subject_id": "SUBJ-SUCC-625C5AF207F1",
+      "relationship_type": "leaves_unresolved",
+      "evidence_document_pages": [
+        92,
+        101,
+        102,
+        103
+      ],
+      "rationale": "Doubling the third estate without deciding voting procedure leaves the verification dispute capable of becoming a struggle over separate orders and national authority.",
+      "source_label": "Result of the King's Council of State, 27 December 1788",
+      "target_label": "Verification of powers and deadlock among the orders",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S030"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-B8D701839A0F",
+      "source_subject_id": "SUBJ-SUCC-A38083855AA9",
+      "target_subject_id": "SUBJ-SUCC-625C5AF207F1",
+      "relationship_type": "fails_to_resolve",
+      "evidence_document_pages": [
+        101,
+        102
+      ],
+      "rationale": "Necker’s equivocation at the opening offers no authoritative decision on the central procedural issue, leaving deputies to contest verification.",
+      "source_label": "Necker, Jacques: return, popularity, and political strategy",
+      "target_label": "Verification of powers and deadlock among the orders",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S005"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S030"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-B3AB1F889F31",
+      "source_subject_id": "SUBJ-SUCC-AD1724EBE928",
+      "target_subject_id": "SUBJ-SUCC-DF242A7BAF78",
+      "relationship_type": "requires_preparation_of",
+      "evidence_document_pages": [
+        96,
+        97,
+        99,
+        100
+      ],
+      "rationale": "Electoral assemblies prepare grievance lists alongside choosing deputies; electoral mobilization and cahier drafting are interlocking stages, not an abstract one-way cause of democratization.",
+      "source_label": "Elections of 1789: rules, mobilization and composition of the orders",
+      "target_label": "Cahiers de doleances",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S018",
+        "SUCC-C004-S019",
+        "SUCC-C004-S021",
+        "SUCC-C004-S022",
+        "SUCC-C004-S026",
+        "SUCC-C004-S027",
+        "SUCC-C004-S028"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S020"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-1E8FF45B051B",
+      "source_subject_id": "SUBJ-SUCC-36FC305F79B7",
+      "target_subject_id": "SUBJ-SUCC-625C5AF207F1",
+      "relationship_type": "provides_procedural_resources_for",
+      "evidence_document_pages": [
+        95,
+        96,
+        102,
+        103
+      ],
+      "rationale": "Legal training equips leading third-estate deputies for the procedural dispute over verification and national legitimacy; it does not make their political outcome automatic.",
+      "source_label": "Lawyers as third-estate political leaders",
+      "target_label": "Verification of powers and deadlock among the orders",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S017"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S030"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-11DDD2981D42",
+      "source_subject_id": "SUBJ-SUCC-936AFF93E708",
+      "target_subject_id": "SUBJ-SUCC-C5578768FEE3",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        86,
+        87,
+        88,
+        97,
+        98
+      ],
+      "rationale": "Economic distress, high bread prices and shortages contribute to food disturbances during electoral mobilization; particular disturbances have local triggers.",
+      "source_label": "Economic and subsistence crisis, 1788-1789",
+      "target_label": "Popular food disturbances before May 1789",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S001"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S023"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-8DD37C066FED",
+      "source_subject_id": "SUBJ-SUCC-3E7ADBDC503B",
+      "target_subject_id": "SUBJ-SUCC-522782B090A1",
+      "relationship_type": "shapes_supply_context_of",
+      "evidence_document_pages": [
+        86,
+        87,
+        88,
+        97,
+        121,
+        122
+      ],
+      "rationale": "Government procurement and contested trade rules form part of the supply context; do not flatten policy shifts and harvest shortage into a single cause of all bread politics.",
+      "source_label": "Grain trade policy and bread supply",
+      "target_label": "Bread scarcity and popular mobilization in 1789",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S002"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S014"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-D512598070A0",
+      "source_subject_id": "SUBJ-SUCC-5FCCBDB023C6",
+      "target_subject_id": "SUBJ-SUCC-1DB77B316BEB",
+      "relationship_type": "participates_in_resistance_to",
+      "evidence_document_pages": [
+        103,
+        104,
+        106,
+        107
+      ],
+      "rationale": "Mirabeau’s journalism and defiant intervention support the Assembly’s resistance to royal commands; the refusal is collective and its success also depends on the king abandoning coercion.",
+      "source_label": "Mirabeau: journalism and leadership in the National Assembly",
+      "target_label": "Royal Session of23 June 1789: reform offer and failed counteroffensive",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S032"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S036",
+        "SUCC-C013-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-B79E7769376D",
+      "source_subject_id": "SUBJ-SUCC-4304E8CB2BD3",
+      "target_subject_id": "SUBJ-SUCC-1DB77B316BEB",
+      "relationship_type": "supports_resistance_to",
+      "evidence_document_pages": [
+        104,
+        105,
+        106,
+        107
+      ],
+      "rationale": "Spectators and outside demonstrations sustain deputies resisting the Royal Session; this supplements the already authored crowd-to-Assembly formation relationship.",
+      "source_label": "Spectators and popular pressure on the Assembly",
+      "target_label": "Royal Session of23 June 1789: reform offer and failed counteroffensive",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S031"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S036",
+        "SUCC-C013-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-BA77B1FCB07D",
+      "source_subject_id": "SUBJ-SUCC-1DB77B316BEB",
+      "target_subject_id": "SUBJ-SUCC-7CE426B45CF3",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        106,
+        107,
+        108
+      ],
+      "rationale": "Failed dispersal and subsequent union of the orders defeat the royal constitutional strategy; effective coercive authority collapses later in July, not immediately in every sphere.",
+      "source_label": "Royal Session of23 June 1789: reform offer and failed counteroffensive",
+      "target_label": "Collapse of royal authority and revolutionary sovereignty",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S036",
+        "SUCC-C013-S011"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S043"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-8F934BB932FF",
+      "source_subject_id": "SUBJ-SUCC-49764CEDFDC8",
+      "target_subject_id": "SUBJ-SUCC-F7206C895F76",
+      "relationship_type": "provokes_defensive_organization_within",
+      "evidence_document_pages": [
+        108,
+        109
+      ],
+      "rationale": "Troop concentration and Necker’s dismissal intensify fear of coercion and help prompt Paris electors’ militia preparations; the militia does not cause the earlier troop concentration.",
+      "source_label": "Court counteroffensive, troop concentration, and Necker's dismissal",
+      "target_label": "Citizens' militias before the Bastille",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S040"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S025"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-ECB04221E3D1",
+      "source_subject_id": "SUBJ-SUCC-C918DFC81FAD",
+      "target_subject_id": "SUBJ-SUCC-F7206C895F76",
+      "relationship_type": "prompts_response_within",
+      "evidence_document_pages": [
+        97,
+        98,
+        108,
+        109
+      ],
+      "rationale": "Citizens organize militias in response to weak policing and disorder as well as court threat; the relation is not militia creation causing the prior breakdown of enforcement.",
+      "source_label": "Popular mobilization and breakdown of policing, June 1789",
+      "target_label": "Citizens' militias before the Bastille",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C004-S038"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C004-S025"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-C11256BE21D5",
+      "source_subject_id": "SUBJ-SUCC-522782B090A1",
+      "target_subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+      "relationship_type": "contributes_to",
+      "evidence_document_pages": [
+        113,
+        114
+      ],
+      "rationale": "Scarcity and disorder contribute to provincial seizure and reconstitution of municipal power; Paris’s example, collapsing royal authority and local political motives also matter.",
+      "source_label": "Bread scarcity and popular mobilization in 1789",
+      "target_label": "Municipal revolution in provincial towns",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C005-S014"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S004"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-409C71B856C5",
+      "source_subject_id": "SUBJ-SUCC-6916B131C643",
+      "target_subject_id": "SUBJ-SUCC-8246690A8BF7",
+      "relationship_type": "prompts_response_in",
+      "evidence_document_pages": [
+        114,
+        115,
+        116
+      ],
+      "rationale": "Direct action against seigneurial rights pressures the Assembly toward the night of renunciations; distinguish this pressure from the deputies’ legal qualifications and the continuing rural campaign.",
+      "source_label": "Peasant direct action against feudalism",
+      "target_label": "Night of 4 August and renunciation of privilege",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C005-S006"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S007"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-AE49750CFA21",
+      "source_subject_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "target_subject_id": "SUBJ-SUCC-933F54A354BC",
+      "relationship_type": "mobilizes_opposition_to_absolute_veto_within",
+      "evidence_document_pages": [
+        119,
+        120,
+        121
+      ],
+      "rationale": "Journalists and public agitation attack the Monarchiens’ constitutional proposals; the resulting suspensive veto is distinct from the full veto they advocated.",
+      "source_label": "Revolutionary press and political scrutiny",
+      "target_label": "Monarchiens, bicameralism, and the suspensive veto",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C005-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S012"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-946EBAF15A69",
+      "source_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+      "target_subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "relationship_type": "limits_eligibility_within",
+      "evidence_document_pages": [
+        124,
+        125
+      ],
+      "rationale": "Tax and property qualifications restrict political participation and eligibility for elective offices; the franchise limits the reach of election, not the reverse.",
+      "source_label": "Active citizenship and restricted political suffrage",
+      "target_label": "Elective public office and judicial reform",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C005-S018"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S019"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-2B56F1DDABC8",
+      "source_subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "target_subject_id": "SUBJ-SUCC-65CB496E4820",
+      "relationship_type": "aggravates_financial_crisis_through_collection_failure",
+      "evidence_document_pages": [
+        131,
+        132
+      ],
+      "rationale": "The new direct-tax system’s weak enforcement and late collection aggravate the state’s financial crisis. Fiscal equality itself is not alleged to cause inherited debt.",
+      "source_label": "Revolutionary reform of taxation",
+      "target_label": "National debt, Necker, and the Patriotic Contribution",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C005-S027"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S028"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-4C626B1D95B2",
+      "source_subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "target_subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "relationship_type": "pressures_reform_of",
+      "evidence_document_pages": [
+        130,
+        131
+      ],
+      "rationale": "Widespread evasion and resistance help make old indirect taxes and monopolies politically untenable, while reformers also act on egalitarian and economic principles.",
+      "source_label": "Tax evasion and Babeuf's campaign against indirect taxes",
+      "target_label": "Revolutionary reform of taxation",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C005-S026"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S027"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-C11251CF3A68",
+      "source_subject_id": "SUBJ-SUCC-F538F5819691",
+      "target_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+      "relationship_type": "contrasts_participation_with_exclusion_in",
+      "evidence_document_pages": [
+        121,
+        122,
+        123,
+        124
+      ],
+      "rationale": "Women act prominently in the October mobilization but remain excluded from the formal political franchise; retain this difference between popular intervention and legal citizenship.",
+      "source_label": "October Days and transfer of king and Assembly to Paris",
+      "target_label": "Active citizenship and restricted political suffrage",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C005-S015"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S018"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-63E6D9D4624A",
+      "source_subject_id": "SUBJ-SUCC-D990EC541CE5",
+      "target_subject_id": "SUBJ-SUCC-5BF206CEDFE0",
+      "relationship_type": "contributes_to_breakdown_of",
+      "evidence_document_pages": [
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "rationale": "State reorganization of the Church and the subsequent oath divide the earlier revolutionary coalition; distinguish the legal constitution from the later oath and regional reactions.",
+      "source_label": "Civil Constitution of the Clergy",
+      "target_label": "Revolutionary consensus, breakdown in 1790-1791",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S002"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S001"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-60AFC0E3C15B",
+      "source_subject_id": "SUBJ-SUCC-2EC1BFCD2A04",
+      "target_subject_id": "SUBJ-SUCC-5BF206CEDFE0",
+      "relationship_type": "makes_division_public_within",
+      "evidence_document_pages": [
+        141,
+        142,
+        143
+      ],
+      "rationale": "The oath operates as a public test of allegiance and reveals, as well as deepens, the breach in consensus; an opinion-poll metaphor is not a separate causal mechanism.",
+      "source_label": "Clerical oath, jurors, and refractory clergy",
+      "target_label": "Revolutionary consensus, breakdown in 1790-1791",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S003"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S001"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-C62BFB861A88",
+      "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "target_subject_id": "SUBJ-SUCC-5BF206CEDFE0",
+      "relationship_type": "contributes_to_breakdown_of",
+      "evidence_document_pages": [
+        151,
+        152,
+        153
+      ],
+      "rationale": "The failed flight and royal declaration expose repudiation of the Revolution and force another national choice; this compounds a religious and political breach already underway.",
+      "source_label": "Flight to Varennes: royal rejection and domestic and European consequences",
+      "target_label": "Revolutionary consensus, breakdown in 1790-1791",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S005",
+        "SUCC-C007-S032",
+        "SUCC-C013-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S001"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-F6624ED1B863",
+      "source_subject_id": "SUBJ-SUCC-F066F35B29BE",
+      "target_subject_id": "SUBJ-SUCC-D990EC541CE5",
+      "relationship_type": "creates_conditions_for",
+      "evidence_document_pages": [
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "rationale": "Dispossession and loss of independent clerical resources place the Church increasingly in state dependence and make salaried reorganization possible; they do not alone cause every later schism.",
+      "source_label": "Church dispossession and suppression of religious institutions",
+      "target_label": "Civil Constitution of the Clergy",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S007"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S002"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-D1B8CDA7539A",
+      "source_subject_id": "SUBJ-SUCC-7BF0734F6369",
+      "target_subject_id": "SUBJ-SUCC-D990EC541CE5",
+      "relationship_type": "condemns",
+      "evidence_document_pages": [
+        140,
+        145,
+        146
+      ],
+      "rationale": "Papal condemnation rejects the ecclesiastical settlement; distinguish delayed private opposition from publication and resulting oath withdrawals.",
+      "source_label": "Pius VI and the rupture with revolutionary France",
+      "target_label": "Civil Constitution of the Clergy",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S010"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S002"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-4295D27F07A0",
+      "source_subject_id": "SUBJ-SUCC-42910A6904FC",
+      "target_subject_id": "SUBJ-SUCC-7BF0734F6369",
+      "relationship_type": "aggravates_territorial_dispute_within",
+      "evidence_document_pages": [
+        138,
+        139,
+        145,
+        146
+      ],
+      "rationale": "Conflict over Avignon and the Comtat adds a territorial grievance to the ecclesiastical breach with Pius VI; the quarrels cannot be collapsed into a single doctrinal issue.",
+      "source_label": "Avignon and the Comtat Venaissin, annexation conflict",
+      "target_label": "Pius VI and the rupture with revolutionary France",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S009"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S010"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-C6D7DBCB5777",
+      "source_subject_id": "SUBJ-SUCC-7BF0734F6369",
+      "target_subject_id": "SUBJ-SUCC-1A129D23C345",
+      "relationship_type": "intensifies_hostility_toward_refractories_within",
+      "evidence_document_pages": [
+        145,
+        146,
+        148
+      ],
+      "rationale": "Publication of the papal break and oath withdrawals intensify suspicion of refractory worshippers; popular persecution is not simply execution of papal policy.",
+      "source_label": "Pius VI and the rupture with revolutionary France",
+      "target_label": "Refractory worship, popular persecution, and religious liberty",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S010"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S015"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-B4C0CB3071BB",
+      "source_subject_id": "SUBJ-SUCC-1A129D23C345",
+      "target_subject_id": "SUBJ-SUCC-B4386E288802",
+      "relationship_type": "strengthens",
+      "evidence_document_pages": [
+        146,
+        147,
+        148
+      ],
+      "rationale": "Harassment of refractory worship and conflict over religious liberty strengthen popular religious opposition to the Revolution; do not invert the old reinforced_by relation.",
+      "source_label": "Refractory worship, popular persecution, and religious liberty",
+      "target_label": "Religion as the popular foundation of counter-revolution",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S015"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S004",
+        "SUCC-C013-S005"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-B9BED55B643C",
+      "source_subject_id": "SUBJ-SUCC-C4552AA613C0",
+      "target_subject_id": "SUBJ-SUCC-B4386E288802",
+      "relationship_type": "provides_regional_instance_of",
+      "evidence_document_pages": [
+        138,
+        139,
+        143,
+        147
+      ],
+      "rationale": "Catholic royalist mobilization around Montauban, Nîmes and Jalès supplies a southern instance of religious counter-revolution. It must not be subsumed geographically under the Vendée or western France.",
+      "source_label": "Montauban, Nîmes and Catholic royalist mobilization in the south",
+      "target_label": "Religion as the popular foundation of counter-revolution",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S008",
+        "SUCC-C013-S021"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S004",
+        "SUCC-C013-S005"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-EA858DA67FF4",
+      "source_subject_id": "SUBJ-SUCC-F066F35B29BE",
+      "target_subject_id": "SUBJ-SUCC-C4552AA613C0",
+      "relationship_type": "helps_trigger_conflict_through_inventories_within",
+      "evidence_document_pages": [
+        138
+      ],
+      "rationale": "Monastic inventories are a specific trigger in the Montauban conflict; the relationship is not an undifferentiated assertion that all Church-land sales caused the riot.",
+      "source_label": "Church dispossession and suppression of religious institutions",
+      "target_label": "Montauban, Nîmes and Catholic royalist mobilization in the south",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S007"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S008",
+        "SUCC-C013-S021"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-C39AD519B0B8",
+      "source_subject_id": "SUBJ-SUCC-F3495B619256",
+      "target_subject_id": "SUBJ-SUCC-C4552AA613C0",
+      "relationship_type": "changes_power_context_of",
+      "evidence_document_pages": [
+        138,
+        139
+      ],
+      "rationale": "Religious equality alters the local political position of Protestants and intersects with Catholic reaction in the southern towns; equality as principle is distinct from the violent reaction.",
+      "source_label": "Religious equality and rejection of Catholic monopoly",
+      "target_label": "Montauban, Nîmes and Catholic royalist mobilization in the south",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S036"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S008",
+        "SUCC-C013-S021"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-980AF886B6DD",
+      "source_subject_id": "SUBJ-SUCC-44E68A442988",
+      "target_subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "relationship_type": "motivates",
+      "evidence_document_pages": [
+        144,
+        145,
+        148,
+        149,
+        151,
+        152
+      ],
+      "rationale": "The king’s religious and political alienation helps motivate escape; route planning, the Saint-Cloud confrontation and distrust are distinct contributing circumstances.",
+      "source_label": "Louis XVI, religious alienation and rejection of the Revolution",
+      "target_label": "Flight to Varennes: royal rejection and domestic and European consequences",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S014"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S005",
+        "SUCC-C007-S032",
+        "SUCC-C013-S013"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-EE04323F2D26",
+      "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "target_subject_id": "SUBJ-SUCC-ABA54E187E4B",
+      "relationship_type": "mobilizes_vigilance_within",
+      "evidence_document_pages": [
+        152,
+        153
+      ],
+      "rationale": "The flight activates the Jacobin network’s emergency vigilance and defense of the Revolution; subsequent club division is a different consequence.",
+      "source_label": "Flight to Varennes: royal rejection and domestic and European consequences",
+      "target_label": "Jacobin clubs, expansion and political functions",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S005",
+        "SUCC-C007-S032",
+        "SUCC-C013-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S011"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-69E4670A4564",
+      "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "target_subject_id": "SUBJ-SUCC-533DDAFD9F99",
+      "relationship_type": "stimulates_republican_petitioning_within",
+      "evidence_document_pages": [
+        152,
+        153
+      ],
+      "rationale": "Flight and repudiation sharpen republican demands and petition organization by Cordeliers and Social Circle activists; they did not organize the later massacre.",
+      "source_label": "Flight to Varennes: royal rejection and domestic and European consequences",
+      "target_label": "Cordeliers Club and Social Circle",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S005",
+        "SUCC-C007-S032",
+        "SUCC-C013-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S025"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-4D9FB52B1E09",
+      "source_subject_id": "SUBJ-SUCC-533DDAFD9F99",
+      "target_subject_id": "SUBJ-SUCC-866593B802EE",
+      "relationship_type": "opposes_restoration_without_national_consent_within",
+      "evidence_document_pages": [
+        153
+      ],
+      "rationale": "Republican petitioning challenges the Assembly’s preservation of monarchy and exposes divisions among former patriots; retain the precise dispute over restoration and national consent.",
+      "source_label": "Cordeliers Club and Social Circle",
+      "target_label": "Monarchy, republicanism, and the post-Varennes split",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S025"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S006"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-B0CA351823E7",
+      "source_subject_id": "SUBJ-SUCC-866593B802EE",
+      "target_subject_id": "SUBJ-SUCC-1C628235D449",
+      "relationship_type": "enables_completion_of",
+      "evidence_document_pages": [
+        153,
+        154,
+        155
+      ],
+      "rationale": "The Assembly’s kidnapping fiction and preservation of the crown allow moderates to complete a monarchical settlement; this is not the Constitution causing the earlier Varennes response.",
+      "source_label": "Monarchy, republicanism, and the post-Varennes split",
+      "target_label": "Constitution of 1791: executive limits and the completed settlement",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S006"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S017",
+        "SUCC-C006-S021"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-8818858653B3",
+      "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "target_subject_id": "SUBJ-SUCC-04E7153E268C",
+      "relationship_type": "intensifies_intervention_context_of",
+      "evidence_document_pages": [
+        152,
+        155,
+        156
+      ],
+      "rationale": "Varennes heightens expectations and fears of foreign rescue that shape reception of later diplomacy. Pillnitz did not cause the earlier flight.",
+      "source_label": "Flight to Varennes: royal rejection and domestic and European consequences",
+      "target_label": "Declaration of Pillnitz: conditional diplomacy and inflammatory reception",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S005",
+        "SUCC-C007-S032",
+        "SUCC-C013-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S022",
+        "SUCC-C007-S027",
+        "SUCC-C013-S015"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-C861D1AF2D98",
+      "source_subject_id": "SUBJ-SUCC-44E68A442988",
+      "target_subject_id": "SUBJ-SUCC-1C628235D449",
+      "relationship_type": "undermines_credibility_of_acceptance_within",
+      "evidence_document_pages": [
+        152,
+        157,
+        158
+      ],
+      "rationale": "The king’s repudiation and continuing alienation make later constitutional acceptance suspect; the manifesto undermines confidence in the settlement, not vice versa.",
+      "source_label": "Louis XVI, religious alienation and rejection of the Revolution",
+      "target_label": "Constitution of 1791: executive limits and the completed settlement",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S014"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S017",
+        "SUCC-C006-S021"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-3EB9F049D075",
+      "source_subject_id": "SUBJ-SUCC-5306306A9030",
+      "target_subject_id": "SUBJ-SUCC-77F58847CF83",
+      "relationship_type": "opens_political_space_for",
+      "evidence_document_pages": [
+        149,
+        150,
+        151
+      ],
+      "rationale": "The leaders’ move toward moderation and the fragmentation of earlier radical coalitions leave space for Robespierre’s distinct opposition and rise.",
+      "source_label": "Barnave-Duport-Lameth triumvirate and Feuillant moderation",
+      "target_label": "Robespierre, political rise in 1791",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S017"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S018"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-7117A5237ED9",
+      "source_subject_id": "SUBJ-SUCC-65FAC461622C",
+      "target_subject_id": "SUBJ-SUCC-1AF0A9682A4D",
+      "relationship_type": "continues_repression_after",
+      "evidence_document_pages": [
+        154,
+        155
+      ],
+      "rationale": "The August press restriction belongs to the restrictive aftermath of Champ de Mars; it does not cause the shooting or retrospectively authorize it.",
+      "source_label": "Freedom of the press, restriction in August 1791",
+      "target_label": "Champ de Mars massacre",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S029"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S020"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-E53040325B2B",
+      "source_subject_id": "SUBJ-SUCC-26AD2CABDCC5",
+      "target_subject_id": "SUBJ-SUCC-2EC1BFCD2A04",
+      "relationship_type": "contrasts_constitutional_and_refractory_positions_within",
+      "evidence_document_pages": [
+        142,
+        143,
+        145
+      ],
+      "rationale": "Election and staffing of the Constitutional Church contrast with refusal and rival authority among refractories, with substantial regional variation.",
+      "source_label": "Constitutional Church, elections and clerical careers",
+      "target_label": "Clerical oath, jurors, and refractory clergy",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S024"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S003"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-44E2619AAA27",
+      "source_subject_id": "SUBJ-SUCC-76B1DD749C59",
+      "target_subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "relationship_type": "provides_military_support_for_escape_planning_within",
+      "evidence_document_pages": [
+        147,
+        151,
+        152
+      ],
+      "rationale": "The king’s confidence in Bouillé provides a military component of escape planning; army mutiny as a whole is not a cause of the king’s religious convictions.",
+      "source_label": "Army mutinies, Nancy, and General Bouillé",
+      "target_label": "Flight to Varennes: royal rejection and domestic and European consequences",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S013"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S005",
+        "SUCC-C007-S032",
+        "SUCC-C013-S013"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-6CA5F0E22B94",
+      "source_subject_id": "SUBJ-SUCC-8A61B94A809A",
+      "target_subject_id": "SUBJ-SUCC-04E7153E268C",
+      "relationship_type": "heightens_fear_of_intervention_within",
+      "evidence_document_pages": [
+        155,
+        156
+      ],
+      "rationale": "Loss of officers makes the army’s weakness and foreign intervention more alarming; it does not cause the diplomatic Declaration itself.",
+      "source_label": "Emigration and the collapse of the officer corps",
+      "target_label": "Declaration of Pillnitz: conditional diplomacy and inflammatory reception",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S023"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S022",
+        "SUCC-C007-S027",
+        "SUCC-C013-S015"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-200DA4C611CC",
+      "source_subject_id": "SUBJ-SUCC-8A61B94A809A",
+      "target_subject_id": "SUBJ-SUCC-76B1DD749C59",
+      "relationship_type": "aggravates_later_military_disorganization_within",
+      "evidence_document_pages": [
+        147,
+        156
+      ],
+      "rationale": "Officer emigration worsens military leadership and cohesion later in 1791; it must not be projected backward as the cause of the earlier Nancy mutiny.",
+      "source_label": "Emigration and the collapse of the officer corps",
+      "target_label": "Army mutinies, Nancy, and General Bouillé",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S023"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S013"
+      ]
+    },
+    {
+      "proposal_id": "REL-PROP-C001006-31746BADD9F2",
+      "source_subject_id": "SUBJ-SUCC-578402719E99",
+      "target_subject_id": "SUBJ-SUCC-1C628235D449",
+      "relationship_type": "supports_final_revision_of",
+      "evidence_document_pages": [
+        150,
+        154,
+        155
+      ],
+      "rationale": "Lafayette collaborates with constitutional moderates in the final settlement; this does not erase conflict with radical crowds or transform his entire political career into support for one constitution.",
+      "source_label": "Lafayette, Paris order, and the Day of Daggers",
+      "target_label": "Constitution of 1791: executive limits and the completed settlement",
+      "status": "proposed_source_grounded_not_approved",
+      "source_local_subject_ids": [
+        "SUCC-C006-S027"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S017",
+        "SUCC-C006-S021"
+      ]
+    }
+  ],
+  "relationship_amendments": [
+    {
+      "relationship_id": "REL-SUCC-2275550925BC",
+      "original": {
+        "relationship_id": "REL-SUCC-2275550925BC",
+        "source_subject_id": "SUBJ-SUCC-533DDAFD9F99",
+        "relationship_type": "organizes",
+        "target_subject_id": "SUBJ-SUCC-1AF0A9682A4D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          153,
+          154
+        ],
+        "rationale": "Petitioning campaign leads to confrontation under martial law.",
+        "source_local_subject_id": "SUCC-C006-S025",
+        "source_local_relationship_index": 0
+      },
+      "proposed_relationship_type": "organizes_petition_preceding",
+      "proposed_evidence_document_pages": [
+        153,
+        154
+      ],
+      "proposed_rationale": "Cordeliers and Social Circle activists organize the petition preceding Champ de Mars; Lafayette and the National Guard implement the shooting. Petition organizers must not be labeled organizers of the massacre.",
+      "disposition": "correct_operator_or_scope",
+      "status": "proposal_only",
+      "source_local_subject_ids": [
+        "SUCC-C006-S025"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S020"
+      ]
+    },
+    {
+      "relationship_id": "REL-SUCC-6A0966104C0F",
+      "original": {
+        "relationship_id": "REL-SUCC-6A0966104C0F",
+        "source_subject_id": "SUBJ-SUCC-59FB4D856AE3",
+        "relationship_type": "qualifies",
+        "target_subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          119,
+          124,
+          125
+        ],
+        "rationale": "Universal civil principles coexist with restricted political franchise.",
+        "source_local_subject_id": "SUCC-C005-S010",
+        "source_local_relationship_index": 0
+      },
+      "proposed_relationship_type": "contrasts_with",
+      "proposed_evidence_document_pages": [
+        118,
+        119,
+        124,
+        125
+      ],
+      "proposed_rationale": "The Declaration’s civil equality and rights language contrast with restricted political citizenship. Preserve the civil/political distinction; this is not a claim that equality of taxation itself confers the franchise.",
+      "disposition": "correct_operator_or_scope",
+      "status": "proposal_only",
+      "source_local_subject_ids": [
+        "SUCC-C005-S010"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S018"
+      ]
+    },
+    {
+      "relationship_id": "REL-SUCC-B5304BD4CEA3",
+      "original": {
+        "relationship_id": "REL-SUCC-B5304BD4CEA3",
+        "source_subject_id": "SUBJ-SUCC-7BF0734F6369",
+        "relationship_type": "completes",
+        "target_subject_id": "SUBJ-SUCC-B4386E288802",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          146
+        ],
+        "rationale": "Publication of papal opposition completes the breach.",
+        "source_local_subject_id": "SUCC-C006-S010",
+        "source_local_relationship_index": 0
+      },
+      "proposed_relationship_type": "contributes_to",
+      "proposed_evidence_document_pages": [
+        145,
+        146
+      ],
+      "proposed_rationale": "Papal condemnation and its publication complete the religious breach and contribute to religious counter-revolution. The source does not say Pius VI completes counter-revolution as a whole.",
+      "disposition": "correct_operator_or_scope",
+      "status": "proposal_only",
+      "source_local_subject_ids": [
+        "SUCC-C006-S010"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S004",
+        "SUCC-C013-S005"
+      ]
+    },
+    {
+      "relationship_id": "REL-SUCC-068AD2631067",
+      "original": {
+        "relationship_id": "REL-SUCC-068AD2631067",
+        "source_subject_id": "SUBJ-SUCC-A5F4F85BCE57",
+        "relationship_type": "contributes_to",
+        "target_subject_id": "SUBJ-SUCC-9998092EF3FD",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          125,
+          126,
+          131
+        ],
+        "rationale": "Administrative reconstruction leaves enforcement and collection weak.",
+        "source_local_subject_id": "SUCC-C005-S020",
+        "source_local_relationship_index": 0
+      },
+      "proposed_relationship_type": "constrains_collection_under",
+      "proposed_evidence_document_pages": [
+        125,
+        126,
+        131,
+        132
+      ],
+      "proposed_rationale": "Decentralized and weak administrative machinery impedes enforcement and collection under the new tax regime; it does not cause the egalitarian tax design.",
+      "disposition": "correct_operator_or_scope",
+      "status": "proposal_only",
+      "source_local_subject_ids": [
+        "SUCC-C005-S020"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C005-S027"
+      ]
+    },
+    {
+      "relationship_id": "REL-SUCC-804AC85EE1BF",
+      "original": {
+        "relationship_id": "REL-SUCC-804AC85EE1BF",
+        "source_subject_id": "SUBJ-SUCC-ED1B4EDF9C32",
+        "relationship_type": "advocates",
+        "target_subject_id": "SUBJ-SUCC-109654B88E5D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          55
+        ],
+        "rationale": "Voltaire promotes humane judicial reform.",
+        "source_local_subject_id": "SUCC-C002-S008",
+        "source_local_relationship_index": 0
+      },
+      "proposed_relationship_type": "campaigns_for_reform_within",
+      "proposed_evidence_document_pages": [
+        55,
+        56
+      ],
+      "proposed_rationale": "Voltaire campaigns against injustice and for judicial reform; a composite target containing miscarriages of justice must not make the edge read as advocacy of miscarriages or torture.",
+      "disposition": "correct_operator_or_scope",
+      "status": "proposal_only",
+      "source_local_subject_ids": [
+        "SUCC-C002-S008"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C002-S014"
+      ]
+    },
+    {
+      "relationship_id": "REL-SUCC-26F1ABA8FCC4",
+      "original": {
+        "relationship_id": "REL-SUCC-26F1ABA8FCC4",
+        "source_subject_id": "SUBJ-SUCC-7F399445D1A7",
+        "relationship_type": "contributes_to",
+        "target_subject_id": "SUBJ-SUCC-A8F9C4659D2F",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          12,
+          13
+        ],
+        "rationale": "Harvests alter purchasing power for manufactures.",
+        "source_local_subject_id": "SUCC-C001-S016",
+        "source_local_relationship_index": 0
+      },
+      "proposed_relationship_type": "affects_demand_in",
+      "proposed_evidence_document_pages": [
+        12,
+        13
+      ],
+      "proposed_rationale": "Harvest fluctuation affects rural purchasing power and therefore industrial demand, not the existence or growth of rural industry in every respect.",
+      "disposition": "correct_operator_or_scope",
+      "status": "proposal_only",
+      "source_local_subject_ids": [
+        "SUCC-C001-S016"
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C001-S017"
+      ]
+    }
+  ],
+  "task_additions": [],
+  "task_amendments": [
+    {
+      "task_id": "TASK-SUCC-1BEC81E616EF",
+      "original_question": "How did his support for abolition and free coloured political rights differ from Barnave’s positions?",
+      "proposed_question": "How did Robespierre’s denunciation of slavery and support for free coloured political rights differ from Barnave’s positions, and which question produced the reported victory?",
+      "source_pages": [
+        151
+      ],
+      "target_local_subject_ids": [
+        "SUCC-C006-S018",
+        "SUCC-C006-S019B"
+      ],
+      "rationale": "The source reports denunciation of slavery and a political-rights victory. Explicit wording avoids implying that slavery was abolished in 1791; preserved slavery remains the separate S019A requirement."
+    }
+  ],
+  "colonial_rebinding": {
+    "mapping_sha256_observed": "9a4749b0cd6b28ca0449e0385141393f5d288f6e9180e31ea2e6561e2d5d466d",
+    "benchmark_sha256_observed": "b055c1c5bb98247f6590db70a05d0e9a7c4dc895ef13ec39c44b18bac247f71f",
+    "change": "Coordinator split old SUCC-C006-S019 into A retained slavery and B free coloured rights; B merges with chapter17. The seven specific p151 corrections include local facet bindings. Other changes after the primary snapshot have not been adjudicated here.",
+    "bindings": {
+      "SUCC-C006-S019A": "SUBJ-SUCC-E460E732EDD9",
+      "SUCC-C006-S019B": "SUBJ-SUCC-2AC42802019F"
+    }
+  }
+}

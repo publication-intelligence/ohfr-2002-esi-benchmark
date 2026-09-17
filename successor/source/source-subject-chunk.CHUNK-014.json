@@ -1,0 +1,2311 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "chunk": {
+    "chunk_id": "CHUNK-014",
+    "chapter_labels": [
+      "14. The Directory, 1795-1799",
+      "Chapter 14"
+    ],
+    "owned_document_pages": [
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340
+    ],
+    "context_document_pages": [
+      316,
+      317,
+      341,
+      342
+    ]
+  },
+  "exclusions": [
+    {
+      "exclusion_id": "SUCC-CHUNK-014-X001",
+      "category": "running_furniture_and_navigation",
+      "document_pages": [
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340
+      ],
+      "reason": "Running headers, printed page numbers, and the standalone chapter-title block are non-substantive navigation rather than subject evidence."
+    },
+    {
+      "exclusion_id": "SUCC-CHUNK-014-X002",
+      "category": "context_only_pages",
+      "document_pages": [
+        316,
+        317,
+        341,
+        342
+      ],
+      "reason": "Context pages remain owned by adjacent chapters; exact current inspection coverage is separately enumerated."
+    },
+    {
+      "exclusion_id": "SUCC-CHUNK-014-X003",
+      "category": "citation_and_attribution_only",
+      "document_pages": [
+        318,
+        319,
+        322,
+        324,
+        325,
+        327,
+        335,
+        338
+      ],
+      "reason": "Footnote markers and authors or observers used only to attribute a quotation were not promoted to subjects unless the passage independently treated that person."
+    },
+    {
+      "exclusion_id": "SUCC-CHUNK-014-X004",
+      "category": "isolated_named_entity_clutter",
+      "document_pages": [
+        323,
+        325,
+        327,
+        328,
+        329,
+        330,
+        332,
+        338,
+        339
+      ],
+      "reason": "Briefly named journalists, local informants, minor agents, ships, places, and commanders were retained as evidence under larger treatments rather than each becoming a standalone subject."
+    },
+    {
+      "exclusion_id": "SUCC-CHUNK-014-X005",
+      "category": "subordinate_battle_and_campaign_details",
+      "document_pages": [
+        332,
+        338,
+        339
+      ],
+      "reason": "Camperdown, Malta, Alexandria, the Pyramids, Corfu, and minor Italian movements are subordinate evidence for the Egyptian expedition, French expansion, and coalition formation; they do not all warrant separate benchmark subjects in this chapter."
+    },
+    {
+      "exclusion_id": "SUCC-CHUNK-014-X006",
+      "category": "counterfactual_or_rhetorical_formulation",
+      "document_pages": [
+        331,
+        337,
+        340
+      ],
+      "reason": "Counterfactual possibilities and the chapter's rhetorical statement that the Revolution came full circle were captured in subject stance, not converted into asserted factual headings."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "SUCC-CHUNK-014-U001",
+      "topic": "Political composition of the Vendémiaire insurgents",
+      "document_pages": [
+        321,
+        322
+      ],
+      "uncertainty": "The source labels the rising a turning point and notes conservative and propertied participation, but explicitly says it is far from certain that most participants were royalists.",
+      "handling": "Accept access through Vendémiaire or Parisian sectional insurrection; a heading asserting an exclusively or predominantly royalist uprising would require stance adjudication."
+    },
+    {
+      "uncertainty_id": "SUCC-CHUNK-014-U002",
+      "topic": "Necessity of the Fructidor coup",
+      "document_pages": [
+        331
+      ],
+      "uncertainty": "Pichegru's treason and some restoration planning are established, but the author considers it improbable that a royalist majority or imminent restoration required the broad coup.",
+      "handling": "Preserve the distinction between thwarting particular royalist agents and saving France from an otherwise certain restoration."
+    },
+    {
+      "uncertainty_id": "SUCC-CHUNK-014-U003",
+      "topic": "Character of the constitutional circles",
+      "document_pages": [
+        335,
+        336
+      ],
+      "uncertainty": "The circles were not uniformly Jacobin, yet many participants had Jacobin, democratic, Terror, or dechristianizing associations and some advocated wider suffrage.",
+      "handling": "Use a qualified heading such as constitutional circles or neo-Jacobin revival; do not collapse every circle into a single extremist organization."
+    },
+    {
+      "uncertainty_id": "SUCC-CHUNK-014-U004",
+      "topic": "Potential parliamentary opposition after Floréal",
+      "document_pages": [
+        337
+      ],
+      "uncertainty": "The source reports a historiographical view that an unpurged legislature might have produced viable opposition while also emphasizing distrust generated by Jacobin records.",
+      "handling": "Record the counterfactual as a debated interpretation, not as an established outcome or as proof that all purged deputies were constitutional moderates."
+    }
+  ],
+  "evaluation_id": "ohfr-2002-study-source-successor-v1",
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 23,
+    "reviewed_owned_pages": 23,
+    "reviewed_owned_document_pages": [
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340
+    ],
+    "reused_complete_source_pages": [
+      318,
+      319,
+      322,
+      323,
+      324,
+      325,
+      326,
+      330,
+      331,
+      333,
+      334,
+      337,
+      340
+    ],
+    "new_complete_source_pages": [
+      320,
+      321,
+      327,
+      328,
+      329,
+      332,
+      335,
+      336,
+      338,
+      339
+    ],
+    "indexable_source_words": 10719,
+    "measurement_id": "ohfr-2002-source-prose-words-v1",
+    "complete": true
+  },
+  "subjects": [
+    {
+      "local_subject_id": "SUCC-C014-S001",
+      "label": "Directory, political character and instability, 1795-1799",
+      "priority": "essential",
+      "meaning": "The Directory as a property-based republican middle way that sought stability between Jacobinism and royalism but repeatedly overrode constitutional government and became dependent on military power.",
+      "stance": "The regime alternately cultivated and repressed left and right, seeking a propertied republican middle way. Its coups expressed failure to trust its constitution; fiscal reconstruction alienated its intended supporters. Renewed war, religious coercion, and conscription recalled earlier revolutionary conflicts without making the Directory identical to the Year II.",
+      "acceptable_access": [
+        "Directory",
+        "Directory, political character",
+        "Directory, instability and authoritarianism",
+        "Directory--political pendulum",
+        "Directory--propertied social base and alienation",
+        "Second Directory--electoral authoritarianism",
+        "Directory--return to coercive dynamics"
+      ],
+      "relationships": [],
+      "evidence": [
+        {
+          "document_page": 318,
+          "source_page_label": "318",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention frames the new regime as a stable republican settlement designed to block both terrorism and royalism."
+        },
+        {
+          "document_page": 321,
+          "source_page_label": "321",
+          "locator_class": "principal",
+          "evidence_summary": "The founding regime alternately restrained Jacobins or royalists according to which threat appeared greater."
+        },
+        {
+          "document_page": 322,
+          "source_page_label": "322",
+          "locator_class": "supporting",
+          "evidence_summary": "The regime begins by dismantling autonomous Parisian political machinery and relying on the army."
+        },
+        {
+          "document_page": 331,
+          "source_page_label": "331",
+          "locator_class": "principal",
+          "evidence_summary": "Fructidor is judged to have destroyed the constitution's first real test and inaugurated a regime willing to set aside inconvenient results."
+        },
+        {
+          "document_page": 334,
+          "source_page_label": "334",
+          "locator_class": "supporting",
+          "evidence_summary": "Fiscal recovery and bankruptcy alienated the propertied groups on which the regime sought to rely."
+        },
+        {
+          "document_page": 337,
+          "source_page_label": "337",
+          "locator_class": "supporting",
+          "evidence_summary": "Floréal perpetuates executive control by denying the electorate's choices for a second time in a year."
+        },
+        {
+          "document_page": 340,
+          "source_page_label": "340",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The chapter concludes that the Directory brought the Revolution full circle without a stable or durable settlement."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S001",
+          "CHUNK-014-S024"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S019",
+          "CHUNK-014-S062",
+          "CHUNK-014-S081",
+          "CHUNK-014-S095",
+          "CHUNK-014-S111",
+          "CHUNK-014-S127"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S002",
+      "label": "Constitution of the Year III",
+      "priority": "essential",
+      "meaning": "The Year III constitution replaced the unused 1793 design with civil rights balanced by duties and a property-based account of political competence. Taxpayer primary voters chose a narrower property-qualified electoral college; bicameral Councils, a five-member rotating executive, separation of powers, and an exceptionally slow amendment process were designed to preserve 1789 and block both political extremes.",
+      "stance": "Civil equality was accepted while social or absolute equality was rejected. Distinguish primary voting from the restricted body choosing deputies. These were substantive choices about power, not merely procedural details; the Second Directory retained the restricted franchise despite tactical reliance on the left.",
+      "acceptable_access": [
+        "Constitution of 1795",
+        "Constitution of the Year III",
+        "Directory, constitution",
+        "Declaration of Rights and Duties",
+        "Civil equality versus absolute equality",
+        "Property--political competence",
+        "Council of Five Hundred",
+        "Council of Elders",
+        "Directory--five Directors and rotation",
+        "Separation of powers--Year III",
+        "Constitution--nine-year amendment process",
+        "Suffrage--two-stage elections and property qualification"
+      ],
+      "evidence": [
+        {
+          "document_page": 318,
+          "source_page_label": "318",
+          "locator_class": "principal",
+          "evidence_summary": "Boissy d'Anglas rejects the 1793 constitution and grounds political competence in education and property."
+        },
+        {
+          "document_page": 319,
+          "source_page_label": "319",
+          "locator_class": "principal",
+          "evidence_summary": "Rights were balanced by duties and social entitlements omitted. Taxpaying men participated at primary level, but property restricted the electoral colleges; the Five Hundred, Elders, rotating Directory and slow amendment procedure divided authority."
+        },
+        {
+          "document_page": 336,
+          "source_page_label": "336",
+          "locator_class": "supporting",
+          "evidence_summary": "The executive refused to widen the franchise and continued to seek support among substantial property holders."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S002",
+          "CHUNK-014-S013",
+          "CHUNK-014-S024"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S001",
+          "CHUNK-014-S002",
+          "CHUNK-014-S003",
+          "CHUNK-014-S004",
+          "CHUNK-014-S005",
+          "CHUNK-014-S006",
+          "CHUNK-014-S007",
+          "CHUNK-014-S008",
+          "CHUNK-014-S009",
+          "CHUNK-014-S010",
+          "CHUNK-014-S012",
+          "CHUNK-014-S105"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S003",
+      "label": "Vendémiaire uprising, 1795",
+      "priority": "major",
+      "meaning": "The Paris sectional insurrection against the Two Thirds Law, its military defeat under Barras with Bonaparte's advice, and its constitutional consequences.",
+      "stance": "Treated as a more important turning point than the formal inauguration of the Directory because it ended Parisian coercion of national representatives and established military force as decisive in domestic politics; the text cautions that most participants were not demonstrably royalist.",
+      "acceptable_access": [
+        "Vendémiaire uprising",
+        "Insurrection of 13 Vendémiaire",
+        "Paris, Vendémiaire uprising"
+      ],
+      "evidence": [
+        {
+          "document_page": 320,
+          "source_page_label": "320",
+          "locator_class": "principal",
+          "evidence_summary": "Parisian sections organize against disputed ratification and the Two Thirds Law, culminating in armed insurrection."
+        },
+        {
+          "document_page": 321,
+          "source_page_label": "321",
+          "locator_class": "principal",
+          "evidence_summary": "Barras and Bonaparte direct an outnumbered Convention force whose cannon defeat the insurgents after prolonged fighting."
+        },
+        {
+          "document_page": 322,
+          "source_page_label": "322",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Limited repression, uncertain royalist composition, abolition of sectional assemblies, and creation of a centrally controlled guard define the aftermath."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "enables_demobilization_of",
+          "target_local_subject_id": "SUCC-C014-S014",
+          "evidence_document_pages": [
+            322
+          ]
+        },
+        {
+          "type": "strengthens",
+          "target_local_subject_id": "SUCC-C014-S004",
+          "evidence_document_pages": [
+            321,
+            322
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S003"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S013",
+          "CHUNK-014-S014",
+          "CHUNK-014-S015",
+          "CHUNK-014-S016",
+          "CHUNK-014-S020"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S004",
+      "label": "Army and political power under the Directory",
+      "priority": "essential",
+      "meaning": "The growing use of soldiers and successful generals as the regime's indispensable instruments of domestic order, electoral control, and survival.",
+      "stance": "The chapter emphasizes that military dependence was foundational, deepened through repression and coups, and ultimately undermined civilian constitutional authority.",
+      "acceptable_access": [
+        "Army, political role under Directory",
+        "Directory, dependence on army",
+        "Military intervention in politics"
+      ],
+      "evidence": [
+        {
+          "document_page": 321,
+          "source_page_label": "321",
+          "locator_class": "principal",
+          "evidence_summary": "Army cannon suppresses Vendémiaire, the first such use against capital unrest since 1789."
+        },
+        {
+          "document_page": 322,
+          "source_page_label": "322",
+          "locator_class": "principal",
+          "evidence_summary": "The army is identified as the supreme instrument of government at home and abroad."
+        },
+        {
+          "document_page": 326,
+          "source_page_label": "326",
+          "locator_class": "supporting",
+          "evidence_summary": "Dissolution of the suspect Police Legion pushes the government toward still greater dependence on the army."
+        },
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "principal",
+          "evidence_summary": "Generals and armies openly take sides as troops are moved toward Paris during the executive-legislative crisis."
+        },
+        {
+          "document_page": 331,
+          "source_page_label": "331",
+          "locator_class": "principal",
+          "evidence_summary": "Augereau's troops seize Paris and supervise the legislature during Fructidor."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S004"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S016",
+          "CHUNK-014-S022",
+          "CHUNK-014-S049",
+          "CHUNK-014-S074",
+          "CHUNK-014-S075",
+          "CHUNK-014-S128"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S005",
+      "label": "Subsistence crisis and popular resentment under the Directory",
+      "priority": "major",
+      "meaning": "Bad harvests, cold, blockade, military requisitions, rationing, and depreciating currency combined in the hunger of1795–1796. Visible speculative enrichment and shrinking rations made social criticism persuasive and encouraged favorable popular memories of Robespierre.",
+      "stance": "Preserve the interacting causes of deprivation. Hunger and anger made radical language attractive without proving that every sufferer accepted Babeuf’s communism or that favorable memories of Robespierre were the narrator’s verdict.",
+      "acceptable_access": [
+        "Directory, economic crisis",
+        "France, monetary crisis, 1795-1798",
+        "Economic conditions under the Directory",
+        "Famine and rationing,1795–1796",
+        "Popular discontent--hunger and profiteering",
+        "Women--provision queues",
+        "Robespierre--popular social memory"
+      ],
+      "evidence": [
+        {
+          "document_page": 322,
+          "source_page_label": "322",
+          "locator_class": "principal",
+          "evidence_summary": "Poor harvests, blockade, army requisitions, rationing, severe cold, and assignat collapse produce hunger and extreme prices."
+        },
+        {
+          "document_page": 324,
+          "source_page_label": "324",
+          "locator_class": "supporting",
+          "evidence_summary": "Speculation amid monetary collapse intensifies resentment among people enduring a second lean year."
+        },
+        {
+          "document_page": 325,
+          "source_page_label": "325",
+          "locator_class": "principal",
+          "evidence_summary": "Women in provision queues voiced anger at prolonged hunger and favorable social memories of Robespierre; these are evidence of distress and political memory."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "encourages_mobilization_of",
+          "target_local_subject_id": "SUCC-C014-S018",
+          "evidence_document_pages": [
+            324,
+            325
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S005"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S023",
+          "CHUNK-014-S024",
+          "CHUNK-014-S031",
+          "CHUNK-014-S033",
+          "CHUNK-014-S041"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S006",
+      "label": "Babeuf and the Conspiracy of Equals",
+      "priority": "essential",
+      "meaning": "Babeuf interpreted the Revolution as class conflict and advocated state-administered common ownership and equal distribution. His Tribun du peuple and radical network joined a more broadly attractive demand for the1793 constitution to a clandestine coup promising bread, land redistribution and punishment of rulers. Planned police and army subversion failed; betrayal, repression and the Vendôme trial ended the conspiracy.",
+      "stance": "Attribute the class-war theory to Babeuf. The source calls him the first active modern exponent of full communism, but distinguishes that ultimate goal from the constitutional demand’s wider appeal. The conspiracy was organized, divided from other Jacobins at first, and coercive; do not equate every supporter with every leader’s violent proposal or treat military defection as achieved.",
+      "acceptable_access": [
+        "Babeuf, Gracchus",
+        "Conspiracy of Equals",
+        "Equals, conspiracy",
+        "Communism--Babeuf",
+        "Constitution of1793--Equals",
+        "Tribun du peuple",
+        "Buonarroti--Conspiracy of Equals",
+        "Insurrectionary Act--bread,land,and punishment",
+        "Ventôse laws--Equals programme",
+        "Police Legion--planned subversion and dissolution",
+        "Vendôme trial",
+        "Equals--coercive aims"
+      ],
+      "evidence": [
+        {
+          "document_page": 324,
+          "source_page_label": "324",
+          "locator_class": "principal",
+          "evidence_summary": "Babeuf defines the Revolution as class war and advocates abolition of property, common ownership, equal distribution, and the 1793 constitution."
+        },
+        {
+          "document_page": 325,
+          "source_page_label": "325",
+          "locator_class": "principal",
+          "evidence_summary": "Clubs closed and the sectional machinery of mass insurrection was gone. Babeuf’s circle turned to a secret committee and planned subversion of police and troops; relations with other Jacobins had been contentious."
+        },
+        {
+          "document_page": 326,
+          "source_page_label": "326",
+          "locator_class": "principal",
+          "evidence_summary": "The programme coupled the1793 constitution with free bread, redistribution under Ventôse, and punishment of rulers. Premature mutiny, delay and betrayal allowed arrests; the suspect Police Legion was dissolved and subscriber lists guided repression."
+        },
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Babeuf is convicted and executed in May 1797, becoming a Jacobin martyr while most co-defendants are acquitted."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_property_programme_with",
+          "target_local_subject_id": "SUCC-C014-S002",
+          "evidence_document_pages": [
+            318,
+            324
+          ]
+        },
+        {
+          "type": "followed_by_failed_attempt_at",
+          "target_local_subject_id": "SUCC-C014-S032",
+          "evidence_document_pages": [
+            326,
+            327
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S006"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S036",
+          "CHUNK-014-S037",
+          "CHUNK-014-S038",
+          "CHUNK-014-S039",
+          "CHUNK-014-S040",
+          "CHUNK-014-S043",
+          "CHUNK-014-S044",
+          "CHUNK-014-S045",
+          "CHUNK-014-S046",
+          "CHUNK-014-S047",
+          "CHUNK-014-S048",
+          "CHUNK-014-S049",
+          "CHUNK-014-S050"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S007",
+      "label": "Elections of the Year V, 1797",
+      "priority": "major",
+      "meaning": "The 1797 elections that rejected former Convention members, Jacobins, and directorial candidates while returning a large and politically diverse royalist bloc.",
+      "stance": "The result is presented as a clear electoral defeat for the Directory despite broad abstention, but not as the creation of a unified royalist party or an established restoration majority.",
+      "acceptable_access": [
+        "Elections of 1797",
+        "Elections of the Year V",
+        "Directory, electoral defeat, 1797"
+      ],
+      "evidence": [
+        {
+          "document_page": 329,
+          "source_page_label": "329",
+          "locator_class": "principal",
+          "evidence_summary": "Only eleven retiring deputies return; 228 political newcomers and 182 royalists are elected amid widespread nonparticipation."
+        },
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "supporting",
+          "evidence_summary": "The new majority divides over peace, religion, finance, and relations with the executive, producing a mounting constitutional crisis."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "precipitates",
+          "target_local_subject_id": "SUCC-C014-S020",
+          "evidence_document_pages": [
+            329,
+            330
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S007"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S064",
+          "CHUNK-014-S066",
+          "CHUNK-014-S067",
+          "CHUNK-014-S068"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S008",
+      "label": "Coup of Fructidor, 1797",
+      "priority": "essential",
+      "meaning": "The military-backed purge of Directors, deputies, and newspapers on 17-18 Fructidor, followed by annulment of election results and creation of the Second Directory.",
+      "stance": "The chapter doubts that the coup saved France from imminent restoration and judges that it destroyed the constitution before its first genuine test, legitimizing future electoral manipulation.",
+      "acceptable_access": [
+        "Coup of Fructidor",
+        "Fructidor, coup of",
+        "Directory, Fructidor coup"
+      ],
+      "evidence": [
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "supporting",
+          "evidence_summary": "The triumvirs assemble troops and prepare confrontation with the Councils while generals openly support the Republic."
+        },
+        {
+          "document_page": 331,
+          "source_page_label": "331",
+          "locator_class": "principal",
+          "evidence_summary": "Troops seize Paris; Carnot, Barthélemy, Pichegru, deputies, and newspapers are targeted; 49 departmental results are annulled."
+        },
+        {
+          "document_page": 331,
+          "source_page_label": "331",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The author argues a moderate working majority was plausible and that Fructidor proclaimed the regime's lack of confidence in its own system."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "leads_to",
+          "target_local_subject_id": "SUCC-C014-S021",
+          "evidence_document_pages": [
+            334
+          ]
+        },
+        {
+          "type": "enables_concentrated_peace_policy_in",
+          "target_local_subject_id": "SUCC-C014-S030",
+          "evidence_document_pages": [
+            332
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S008"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S075",
+          "CHUNK-014-S076",
+          "CHUNK-014-S077",
+          "CHUNK-014-S078",
+          "CHUNK-014-S079",
+          "CHUNK-014-S080"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S009",
+      "label": "Elections of the Year VI and coup of Floréal, 1798",
+      "priority": "major",
+      "meaning": "The neo-Jacobin electoral revival, systematic government interference, divided electoral assemblies, and the Law of 22 Floréal's purge of elected deputies.",
+      "stance": "Floréal is treated as a less spectacular and less decisive coup than Fructidor, but as a second denial of electoral choice that maintained directorial control and foreclosed a potentially viable parliamentary opposition.",
+      "acceptable_access": [
+        "Coup of Floréal",
+        "Elections of 1798",
+        "Law of 22 Floréal"
+      ],
+      "evidence": [
+        {
+          "document_page": 336,
+          "source_page_label": "336",
+          "locator_class": "principal",
+          "evidence_summary": "Official candidates, monitored departments, engineered electoral splits, and unexpectedly strong Jacobin results precede legislative scrutiny."
+        },
+        {
+          "document_page": 337,
+          "source_page_label": "337",
+          "locator_class": "principal",
+          "evidence_summary": "The law purges 127 deputies, quashes eight departmental results, and removes 86 identifiable Jacobin winners."
+        },
+        {
+          "document_page": 337,
+          "source_page_label": "337",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The coup preserves executive control while again denying the electorate's representatives and may have displaced a constitutional opposition."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S009"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S081",
+          "CHUNK-014-S106",
+          "CHUNK-014-S107",
+          "CHUNK-014-S108",
+          "CHUNK-014-S109"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S010",
+      "label": "Egyptian expedition and Battle of the Nile, 1798",
+      "priority": "major",
+      "meaning": "The Directory's strategic and political reasons for approving Bonaparte's Egyptian expedition, its initial conquests, and Nelson's destruction of the French fleet.",
+      "stance": "The project appeared cheaper and potentially decisive against Britain while removing a troubling general, but naval defeat nullified the lightning campaign, isolated the army, and catalyzed a new coalition.",
+      "acceptable_access": [
+        "Egyptian expedition",
+        "Bonaparte, expedition to Egypt",
+        "Battle of the Nile",
+        "Malta--French seizure",
+        "British India--Egyptian strategy",
+        "Nelson--Battle of the Nile",
+        "Army of England--abandoned invasion option"
+      ],
+      "evidence": [
+        {
+          "document_page": 332,
+          "source_page_label": "332",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte and Talleyrand propose striking British wealth through Egypt; the Directors welcome both the plan and the general's absence."
+        },
+        {
+          "document_page": 333,
+          "source_page_label": "333",
+          "locator_class": "supporting",
+          "evidence_summary": "A fleet carrying 35,000 troops sails from Toulon in May 1798."
+        },
+        {
+          "document_page": 338,
+          "source_page_label": "338",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte takes Malta, Alexandria, and Cairo after victory at the Pyramids."
+        },
+        {
+          "document_page": 339,
+          "source_page_label": "339",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Nelson destroys the fleet at the Nile, cuts off the French army, and supplies the impulse for a new coalition."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "catalyzes",
+          "target_local_subject_id": "SUCC-C014-S011",
+          "evidence_document_pages": [
+            339
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S010"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S084",
+          "CHUNK-014-S085",
+          "CHUNK-014-S086",
+          "CHUNK-014-S117",
+          "CHUNK-014-S118"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S011",
+      "label": "Second Coalition against France",
+      "priority": "major",
+      "meaning": "The convergence of Ottoman, Russian, Neapolitan, Austrian, and other resistance to French expansion in 1798-1799 and the renewal of continental war.",
+      "stance": "A multi-causal coalition: French expansion, Egyptian aggression, Nelson’s victory, Russian grievances and Austrian alarm converged. Ottoman entry was politically consequential despite limited immediate military weight; the Rastadt murders marked the collapse of peace rather than single-handedly causing war.",
+      "acceptable_access": [
+        "Second Coalition",
+        "War of the Second Coalition",
+        "France, coalition war renewed, 1798-1799",
+        "PaulI--Russia’s intervention",
+        "Ottoman declaration of war",
+        "Neapolitan invasion of Rome",
+        "Rastadt murders",
+        "Austria--renewal of war"
+      ],
+      "evidence": [
+        {
+          "document_page": 338,
+          "source_page_label": "338",
+          "locator_class": "supporting",
+          "evidence_summary": "French expansion in Switzerland, Italy, Rome, and Egypt alarms Austria and other European powers."
+        },
+        {
+          "document_page": 339,
+          "source_page_label": "339",
+          "locator_class": "principal",
+          "evidence_summary": "Ottoman war, Russian intervention, Neapolitan action, and Russian transit through Austria form the coalition's network."
+        },
+        {
+          "document_page": 340,
+          "source_page_label": "340",
+          "locator_class": "principal",
+          "evidence_summary": "Austria's nonresponse to a French ultimatum leads to war and formal participation in the second anti-French coalition."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "requires_recruitment_under",
+          "target_local_subject_id": "SUCC-C014-S028",
+          "evidence_document_pages": [
+            340
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S011"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S119",
+          "CHUNK-014-S120",
+          "CHUNK-014-S121",
+          "CHUNK-014-S122",
+          "CHUNK-014-S124"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S012",
+      "label": "Two Thirds Law",
+      "priority": "major",
+      "meaning": "The Convention's requirement that two-thirds of the first Councils come from its own membership, together with ratification controversy and political backlash.",
+      "stance": "Presented as a continuity device born of constitutional anxiety but widely unpopular, electorally confused, and the immediate cause of the Vendémiaire confrontation.",
+      "acceptable_access": [
+        "Two Thirds Law",
+        "Law of Two Thirds",
+        "Convention, continuity decree"
+      ],
+      "evidence": [
+        {
+          "document_page": 319,
+          "source_page_label": "319",
+          "locator_class": "principal",
+          "evidence_summary": "The Convention reserves two-thirds of the first Councils for its own members to preserve continuity."
+        },
+        {
+          "document_page": 320,
+          "source_page_label": "320",
+          "locator_class": "principal",
+          "evidence_summary": "The law draws weak and confused ratification, strong Parisian rejection, accusations of ballot-rigging, and sectional resistance."
+        },
+        {
+          "document_page": 321,
+          "source_page_label": "321",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Vendémiaire's defeat ensures the law operates and prolongs Thermidorian control until 1797."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "provokes",
+          "target_local_subject_id": "SUCC-C014-S003",
+          "evidence_document_pages": [
+            320
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S012"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S011",
+          "CHUNK-014-S012",
+          "CHUNK-014-S017"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S014",
+      "label": "Paris sections and National Guard, abolition after Vendémiaire",
+      "priority": "major",
+      "meaning": "The post-Vendémiaire destruction of sectional assemblies and their National Guard, replacing locally controlled insurrectionary machinery with a centralized Parisian Guard.",
+      "stance": "Treated as the regime's most consequential response to the uprising because it ended a mechanism used by both sansculottes and conservatives to pressure government.",
+      "acceptable_access": [
+        "Paris sections, abolition",
+        "National Guard, Paris, abolition",
+        "Parisian Guard"
+      ],
+      "evidence": [
+        {
+          "document_page": 322,
+          "source_page_label": "322",
+          "locator_class": "principal",
+          "evidence_summary": "Sectional assemblies and their National Guard are abolished on 10 October and replaced by a centrally controlled guard."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "forces_conspiratorial_tactics_on",
+          "target_local_subject_id": "SUCC-C014-S006",
+          "evidence_document_pages": [
+            325
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S014"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S021",
+          "CHUNK-014-S043"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S015",
+      "label": "Assignats and territorial mandates, collapse",
+      "priority": "major",
+      "meaning": "Assignat depreciation, failed emergency levies and a rejected land-bank proposal led to the symbolic end of printing. Territorial mandates repeated the paper-money failure, enabling national-land speculation before demonetization. Return to scarce specie then produced deflation, high interest, debt pressure and barter.",
+      "stance": "Distinguish inflationary collapse from the later deflationary crisis. Burning printing plates was symbolic, not a cure; mandates were a failed successor rather than stable money, and the end of paper did not restore normal finance.",
+      "acceptable_access": [
+        "Assignats, collapse",
+        "Territorial mandates",
+        "Paper money, end of revolutionary experiment",
+        "War rate and forced loan,1795",
+        "Ramel--proposed land bank",
+        "Assignat printing plates--destruction",
+        "Mandats territoriaux",
+        "National property--speculation",
+        "Deflation and specie scarcity",
+        "Barter after paper money"
+      ],
+      "evidence": [
+        {
+          "document_page": 322,
+          "source_page_label": "322",
+          "locator_class": "supporting",
+          "evidence_summary": "Assignats fall to one percent of face value as prices and shortages become catastrophic."
+        },
+        {
+          "document_page": 323,
+          "source_page_label": "323",
+          "locator_class": "principal",
+          "evidence_summary": "Printing ends after failed fiscal measures; the proposed land bank is rejected and territorial mandates are issued on unrealistic land valuations."
+        },
+        {
+          "document_page": 324,
+          "source_page_label": "324",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Mandates lose legal-tender status within four months and are demonetized in February 1797, ending the paper-money experiment."
+        },
+        {
+          "document_page": 333,
+          "source_page_label": "333",
+          "locator_class": "principal",
+          "evidence_summary": "Scarce coin as sole tender brought falling prices, high interest, crushing debts and barter; paper money’s disappearance created a different monetary crisis."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to_hardship_in",
+          "target_local_subject_id": "SUCC-C014-S005",
+          "evidence_document_pages": [
+            322,
+            324
+          ]
+        },
+        {
+          "type": "intensifies_fiscal_pressure_behind",
+          "target_local_subject_id": "SUCC-C014-S016",
+          "evidence_document_pages": [
+            333
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S015"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S025",
+          "CHUNK-014-S026",
+          "CHUNK-014-S027",
+          "CHUNK-014-S028",
+          "CHUNK-014-S029",
+          "CHUNK-014-S030",
+          "CHUNK-014-S031",
+          "CHUNK-014-S032",
+          "CHUNK-014-S087"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S016",
+      "label": "Two Thirds Bankruptcy and state-debt settlement, 1797",
+      "priority": "major",
+      "meaning": "Ramel's post-Fructidor repudiation of two-thirds of the state debt, consolidation of the remainder, and the measure's financial and symbolic consequences.",
+      "stance": "The default is treated both as an admission of revolutionary failure that devastated creditors and as a decisive fiscal relief that enabled reconstruction.",
+      "acceptable_access": [
+        "Two Thirds Bankruptcy",
+        "French state bankruptcy, 1797",
+        "National debt, Directory settlement",
+        "National debt--revolutionary commitment abandoned",
+        "Creditors--losses from bankruptcy",
+        "Consolidated third",
+        "Emergency asset sales--fiscal crisis"
+      ],
+      "evidence": [
+        {
+          "document_page": 333,
+          "source_page_label": "333",
+          "locator_class": "principal",
+          "evidence_summary": "After Fructidor the government renounces two-thirds of the debt and consolidates one-third, abandoning a long-held revolutionary principle."
+        },
+        {
+          "document_page": 334,
+          "source_page_label": "334",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Creditors' paper collapses in value, but the settlement removes a large annual burden and opens the way to durable reconstruction."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "enables",
+          "target_local_subject_id": "SUCC-C014-S017",
+          "evidence_document_pages": [
+            333,
+            334
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S016"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S088",
+          "CHUNK-014-S090",
+          "CHUNK-014-S091",
+          "CHUNK-014-S092"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S017",
+      "label": "Tax administration and indirect taxes under the Directory",
+      "priority": "major",
+      "meaning": "Creation of a centralized direct-tax collection apparatus and restoration of indirect levies on tobacco, traffic, legal documents, doors, and windows.",
+      "stance": "Presented as effective state rebuilding through methods and taxes reminiscent of the old regime, producing slow results and increased hostility among propertied citizens.",
+      "acceptable_access": [
+        "Directory, taxation",
+        "Agency for Direct Contributions",
+        "Indirect taxes, restoration",
+        "Doors and windows tax",
+        "Indirect taxes--revolutionary reversal",
+        "Directorial commissioners--fiscal collection",
+        "Property holders--fiscal alienation"
+      ],
+      "evidence": [
+        {
+          "document_page": 334,
+          "source_page_label": "334",
+          "locator_class": "principal",
+          "evidence_summary": "The Agency for Direct Contributions centralizes local recovery, uses coercive collection, and is followed by restored indirect taxation in 1798."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S017"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S093",
+          "CHUNK-014-S094",
+          "CHUNK-014-S095"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S018",
+      "label": "Jacobins under the Directory: revival, controlled mobilization, and repression",
+      "priority": "major",
+      "meaning": "In1795–1796 official indulgence and subsidies aided the press and Pantheon Club before closures and purges forced radicals underground. After Fructidor the constitutional circles rallied anti-royalists, then again faced restriction when demands for democracy and wider suffrage escaped government control.",
+      "stance": "The two cycles illustrate tactical use without empowerment of the left. Neither Jacobins nor constitutional circles were a uniform organization; distinguish Babouvist conspiracy, broad republican mobilization, and later parliamentary ambitions.",
+      "acceptable_access": [
+        "Jacobins under the Directory",
+        "Pantheon Club",
+        "Directory, Jacobin policy, 1795-1796",
+        "Constitutional circles",
+        "Neo-Jacobins,1797–1798",
+        "Rue du Bac Club",
+        "Jacobin press--subsidies and suppression"
+      ],
+      "evidence": [
+        {
+          "document_page": 324,
+          "source_page_label": "324",
+          "locator_class": "principal",
+          "evidence_summary": "Amnesty, press subsidies, renewed meetings, and the thousand-member Pantheon Club mark rapid Jacobin recovery."
+        },
+        {
+          "document_page": 325,
+          "source_page_label": "325",
+          "locator_class": "principal",
+          "evidence_summary": "The government closes clubs and a theatre, purges suspects, and criminalizes advocacy of the 1793 constitution."
+        },
+        {
+          "document_page": 335,
+          "source_page_label": "335",
+          "locator_class": "principal",
+          "evidence_summary": "Post-Fructidor clubs and constitutional circles formed across departments as intended republican rallying points, drawing many veterans of the revolutionary left."
+        },
+        {
+          "document_page": 336,
+          "source_page_label": "336",
+          "locator_class": "principal",
+          "evidence_summary": "Social and democratic demands and calls to widen suffrage led to closures; circles nevertheless helped defeat official candidates in the elections."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "initially_enabled_by",
+          "target_local_subject_id": "SUCC-C014-S001",
+          "evidence_document_pages": [
+            324
+          ]
+        },
+        {
+          "type": "helps_generate_electoral_challenge_in",
+          "target_local_subject_id": "SUCC-C014-S009",
+          "evidence_document_pages": [
+            335,
+            336
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S018",
+          "CHUNK-014-S023"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S019",
+          "CHUNK-014-S034",
+          "CHUNK-014-S035",
+          "CHUNK-014-S040",
+          "CHUNK-014-S042",
+          "CHUNK-014-S052",
+          "CHUNK-014-S103",
+          "CHUNK-014-S104"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S019",
+      "label": "Royalist organization and electoral strategy, 1796-1797",
+      "priority": "major",
+      "meaning": "The turn from failed rebellion toward elections through the Clichy Club, right-wing press, Philanthropic Institutes, British support, and competing monarchist tendencies.",
+      "stance": "Royalist cooperation was electoral and provisional: absolutists, constitutionalists and Orléanists did not share one settlement. Some institutes received British money, but a violent inner circle’s failed plot was not the whole movement. Blankenburg offered ambiguity, not clear acceptance of constitutional monarchy.",
+      "acceptable_access": [
+        "Royalists, electoral strategy",
+        "Clichy Club",
+        "Philanthropic Institute",
+        "Orléanism--Louis-Philippe",
+        "Absolutists and constitutional royalists",
+        "Blankenburg declaration",
+        "Brottier plot",
+        "British funding--royalist networks"
+      ],
+      "evidence": [
+        {
+          "document_page": 327,
+          "source_page_label": "327",
+          "locator_class": "principal",
+          "evidence_summary": "With rebellion failing, royalists focus on the 1797 elections through Clichy and a well-funded press."
+        },
+        {
+          "document_page": 328,
+          "source_page_label": "328",
+          "locator_class": "principal",
+          "evidence_summary": "Clichy and the Philanthropic Institutes linked incompatible royalist factions in electioneering; some British funds and a violent inner circle coexisted with constitutional tactics. Brottier’s attempted military subversion was exposed."
+        },
+        {
+          "document_page": 329,
+          "source_page_label": "329",
+          "locator_class": "supporting",
+          "evidence_summary": "Louis XVIII's ambiguous Blankenburg declaration seeks to reassure propertied voters without clearly repudiating Verona."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "helps_organize",
+          "target_local_subject_id": "SUCC-C014-S007",
+          "evidence_document_pages": [
+            327,
+            328,
+            329
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S019"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S053",
+          "CHUNK-014-S055",
+          "CHUNK-014-S056",
+          "CHUNK-014-S057",
+          "CHUNK-014-S058",
+          "CHUNK-014-S059",
+          "CHUNK-014-S060",
+          "CHUNK-014-S061",
+          "CHUNK-014-S065",
+          "CHUNK-014-S068"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S020",
+      "label": "Executive-legislative conflict, 1797",
+      "priority": "major",
+      "meaning": "The confrontation between a divided Directory and the post-election Councils over peace, ministers, finance, refractory clergy, and military influence.",
+      "stance": "The text presents a real possibility of cooperation with a moderate majority, but fear of royalist triumph and generals' hostility drove escalation toward Fructidor.",
+      "acceptable_access": [
+        "Directory and Councils, conflict",
+        "Constitutional crisis of 1797",
+        "Executive-legislative relations under Directory",
+        "Carnot and Barthélemy--constitutional accommodation",
+        "Triumvirs--Barras,Reubell,La Revellière",
+        "Peace policy--domestic constitutional conflict"
+      ],
+      "evidence": [
+        {
+          "document_page": 329,
+          "source_page_label": "329",
+          "locator_class": "supporting",
+          "evidence_summary": "The new electoral majority destroys the Directors' stable legislative base but remains politically heterogeneous."
+        },
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "principal",
+          "evidence_summary": "Peace policy, ministerial changes, financial powers, clerical legislation, and troops around Paris intensify conflict."
+        },
+        {
+          "document_page": 331,
+          "source_page_label": "331",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The military coup resolves the conflict by purging the Councils rather than testing constitutional accommodation."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "resolved_by_coup_in",
+          "target_local_subject_id": "SUCC-C014-S008",
+          "evidence_document_pages": [
+            330,
+            331
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S020"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S069",
+          "CHUNK-014-S070",
+          "CHUNK-014-S072",
+          "CHUNK-014-S073"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S021",
+      "label": "Directorial Terror after Fructidor",
+      "priority": "major",
+      "meaning": "The months-long post-coup repression of émigrés, nobles, royalists, refractory clergy, and opposition institutions.",
+      "stance": "Broad anti-royalist and anti-Catholic repression, described as Directorial Terror, did not duplicate the Year II’s scale or institutions. Preserve the difference between draconian legal liability and uneven implementation, especially the anti-noble citizenship law.",
+      "acceptable_access": [
+        "Directorial Terror",
+        "Fructidor, repression after",
+        "Directory, political repression",
+        "Émigrés--post-Fructidor executions",
+        "Nobility--citizenship deprivation",
+        "Directorial Terror--uneven enforcement"
+      ],
+      "evidence": [
+        {
+          "document_page": 334,
+          "source_page_label": "334",
+          "locator_class": "principal",
+          "evidence_summary": "Émigré laws revive, returnees face death, and nobles are stripped of citizenship by category."
+        },
+        {
+          "document_page": 335,
+          "source_page_label": "335",
+          "locator_class": "supporting",
+          "evidence_summary": "Clerical deportation, anti-Catholic policy, and selective mobilization of Jacobins extend the post-coup campaign."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "includes_clerical_campaign_in",
+          "target_local_subject_id": "SUCC-C014-S022",
+          "evidence_document_pages": [
+            334,
+            335
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S021"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S096",
+          "CHUNK-014-S097",
+          "CHUNK-014-S098"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S022",
+      "label": "Refractory priests and clerical deportation after Fructidor",
+      "priority": "major",
+      "meaning": "Reactivation of laws against nonjuror clergy, the oath of hatred for royalty, and deportations to Ré, Oléron, and Guiana.",
+      "stance": "The repression is presented as a severe blow to the religious revival, but mass enforcement was constrained in annexed Belgium and actual transport to Guiana was limited.",
+      "acceptable_access": [
+        "Refractory clergy under Directory",
+        "Clerical deportations after Fructidor",
+        "Oath of hatred for royalty",
+        "Belgian clergy--limits on deportation",
+        "Ré and Oléron--clerical internment",
+        "Guiana--clerical deportation"
+      ],
+      "evidence": [
+        {
+          "document_page": 334,
+          "source_page_label": "334",
+          "locator_class": "principal",
+          "evidence_summary": "Refusal of the new anti-royalist oath makes priests liable to summary deportation as returned clergy face renewed persecution."
+        },
+        {
+          "document_page": 335,
+          "source_page_label": "335",
+          "locator_class": "principal",
+          "evidence_summary": "Ten thousand refuse the oath; 1,400 are sent to island depots, only about 230 reach Guiana, and many elderly or ill detainees die."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S022"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S099",
+          "CHUNK-014-S100"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S025",
+      "label": "Great Nation ideology and French expansionism",
+      "priority": "major",
+      "meaning": "The Directory's post-victory belief in French superiority, natural frontiers, and entitlement to reorganize neighboring states.",
+      "stance": "The chapter characterizes this outlook as arrogant and identifies it as the regime's most fateful foreign-policy mistake because it converted deference into resistance.",
+      "acceptable_access": [
+        "Great Nation",
+        "French expansionism under Directory",
+        "Natural frontiers of France",
+        "Congress of Rastadt",
+        "Rhine--natural frontier",
+        "German ecclesiastical states--secularization"
+      ],
+      "evidence": [
+        {
+          "document_page": 337,
+          "source_page_label": "337",
+          "locator_class": "principal",
+          "evidence_summary": "The French increasingly style themselves the Great Nation and claim exceptional freedom of action after continental victory."
+        },
+        {
+          "document_page": 338,
+          "source_page_label": "338",
+          "locator_class": "principal",
+          "evidence_summary": "Rastadt concessions, Rhine annexation, secularization, and interventions in Switzerland and Italy display expansionist power."
+        },
+        {
+          "document_page": 339,
+          "source_page_label": "339",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Expansion and the Egyptian invasion alarm multiple powers and help create a renewed coalition."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "SUCC-C014-S011",
+          "evidence_document_pages": [
+            338,
+            339
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S025"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S111",
+          "CHUNK-014-S112",
+          "CHUNK-014-S113"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S026",
+      "label": "Sister republics under the Directory",
+      "priority": "major",
+      "meaning": "French creation or sponsorship of the Helvetic, Roman, and Parthenopean republics as instruments and consequences of expansion.",
+      "stance": "The republics are presented as imposed, dependent, and often unstable; the Directory did not uniformly welcome every new puppet regime, but their creation deepened international alarm.",
+      "acceptable_access": [
+        "Sister republics",
+        "Helvetic, Roman, and Parthenopean republics",
+        "French satellite republics",
+        "Helvetic Republic--Alpine passes",
+        "Roman Republic--PiusVI captivity",
+        "Parthenopean Republic--Championnet"
+      ],
+      "evidence": [
+        {
+          "document_page": 338,
+          "source_page_label": "338",
+          "locator_class": "principal",
+          "evidence_summary": "French-backed coups create the Helvetic and Roman republics, accompanied by military access and papal captivity."
+        },
+        {
+          "document_page": 339,
+          "source_page_label": "339",
+          "locator_class": "principal",
+          "evidence_summary": "Championnet proclaims the Parthenopean Republic despite the Directory's reluctance to assume another rootless puppet state."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "SUCC-C014-S011",
+          "evidence_document_pages": [
+            338,
+            339
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S026"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S114",
+          "CHUNK-014-S115",
+          "CHUNK-014-S116",
+          "CHUNK-014-S122",
+          "CHUNK-014-S123"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S027",
+      "label": "Bonaparte and the Directory",
+      "priority": "major",
+      "meaning": "Bonaparte's rising political importance as Vendémiaire artillery adviser, victorious general, provider of intelligence, supporter of Fructidor, and commander dispatched to Egypt.",
+      "stance": "The Directory needs his military power but fears his autonomy and prestige; sending him to Egypt serves both strategic hopes and the political wish to remove him from France.",
+      "acceptable_access": [
+        "Bonaparte, Napoleon, and Directory",
+        "Napoleon Bonaparte, political role, 1795-1798",
+        "Directory and Bonaparte"
+      ],
+      "evidence": [
+        {
+          "document_page": 321,
+          "source_page_label": "321",
+          "locator_class": "supporting",
+          "evidence_summary": "Bonaparte advises Barras during the military defeat of Vendémiaire."
+        },
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "principal",
+          "evidence_summary": "He supplies evidence of Pichegru's treason, opposes surrender of conquests, threatens intervention, and dispatches Augereau."
+        },
+        {
+          "document_page": 332,
+          "source_page_label": "332",
+          "locator_class": "principal",
+          "evidence_summary": "His prestige, policy independence, and presence in France unnerve the Directors as he proposes Egypt."
+        },
+        {
+          "document_page": 333,
+          "source_page_label": "333",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The Directory embraces an expedition that may defeat Britain or remove a politically dangerous general."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "militarily_assists",
+          "target_local_subject_id": "SUCC-C014-S008",
+          "evidence_document_pages": [
+            330,
+            331
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S027"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S015",
+          "CHUNK-014-S074",
+          "CHUNK-014-S076",
+          "CHUNK-014-S086"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S028",
+      "label": "Jourdan Law and conscription, 1798",
+      "priority": "major",
+      "meaning": "The law making citizens available for national defense and authorizing annual drafts of men aged twenty to twenty-five when volunteers were insufficient.",
+      "stance": "Presented as a necessary response to depleted armies and renewed coalition war, but also as a return to coercive revolutionary patterns associated with the Vendée and civil conflict.",
+      "acceptable_access": [
+        "Jourdan Law",
+        "Conscription Law of 1798",
+        "Military conscription under Directory",
+        "Annual military classes",
+        "Army manpower--renewed recruitment"
+      ],
+      "evidence": [
+        {
+          "document_page": 340,
+          "source_page_label": "340",
+          "locator_class": "principal",
+          "evidence_summary": "With the army reduced to 270,000, the law revives the levée en masse principle and creates annual classes subject to draft."
+        },
+        {
+          "document_page": 340,
+          "source_page_label": "340",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The text links renewed conscription to the earlier Vendée uprising and to the Revolution's return to coercion and instability."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S028"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S125",
+          "CHUNK-014-S126"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S029",
+      "label": "Electoral abstention and political disengagement under the Directory",
+      "priority": "major",
+      "meaning": "Persistent low participation, limited protest against annulled results, and the social conditions that made electoral manipulation easier.",
+      "stance": "Low participation and weak protest facilitated manipulation, but were not positive consent to coups. Restored local autonomy and satisfaction with peace and victory also muted national resistance.",
+      "acceptable_access": [
+        "Electoral abstention under Directory",
+        "Political disengagement, 1795-1798",
+        "Directory elections, turnout"
+      ],
+      "evidence": [
+        {
+          "document_page": 329,
+          "source_page_label": "329",
+          "locator_class": "principal",
+          "evidence_summary": "Most qualified citizens abstain in 1797 even though the participating electors deliver a clear anti-Directory verdict."
+        },
+        {
+          "document_page": 337,
+          "source_page_label": "337",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Little protest follows two coups because the electorate is largely disengaged, local autonomy has partly returned, and peace with victory is popular."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "limits_resistance_to",
+          "target_local_subject_id": "SUCC-C014-S009",
+          "evidence_document_pages": [
+            337
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S029"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S067",
+          "CHUNK-014-S110"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S030",
+      "label": "Peace of Campo Formio and failed peace with Britain",
+      "priority": "major",
+      "meaning": "The Second Directory's rapid settlement with Austria after Fructidor and collapse of negotiations with Britain, followed by concentration on war against the island power.",
+      "stance": "Fructidor ends foreign hopes of extracting concessions from a divided France; Austria accepts terms, while deliberately severe French demands drive Britain from negotiations.",
+      "acceptable_access": [
+        "Campo Formio, peace of",
+        "Franco-British peace negotiations, 1797",
+        "Directory, peace policy after Fructidor"
+      ],
+      "evidence": [
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "supporting",
+          "evidence_summary": "Peace terms and the treatment of conquests are central issues dividing Directors, Councils, royalists, and generals."
+        },
+        {
+          "document_page": 332,
+          "source_page_label": "332",
+          "locator_class": "principal",
+          "evidence_summary": "Austria signs Campo Formio within six weeks of Fructidor, while British talks break down after France offers surrender-like terms."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S030"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S070",
+          "CHUNK-014-S082",
+          "CHUNK-014-S083"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S031",
+      "label": "War finance and exploitation of conquered territories",
+      "priority": "major",
+      "meaning": "The Directory's use of indemnities and plunder from allied or conquered territories to finance the state during the specie crisis.",
+      "stance": "The text treats foreign extraction as the government's main short-term source of funds and further evidence of dependence on successful generals, but still insufficient to solve the fiscal crisis.",
+      "acceptable_access": [
+        "Directory, war finance",
+        "Conquered territories, French fiscal exploitation",
+        "Indemnities and plunder under Directory"
+      ],
+      "evidence": [
+        {
+          "document_page": 333,
+          "source_page_label": "333",
+          "locator_class": "principal",
+          "evidence_summary": "Batavian payments and large sums taken from Germany and Italy become the chief source of coin, underscoring dependence on generals."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "reinforces_dependence_on",
+          "target_local_subject_id": "SUCC-C014-S004",
+          "evidence_document_pages": [
+            333
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S031"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S089"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S032",
+      "label": "Grenelle affair, 1796",
+      "priority": "optional",
+      "meaning": "The failed Jacobin attempt to induce troops at Grenelle to defect and the subsequent military killings and executions.",
+      "stance": "A secondary episode demonstrating both continuing Jacobin faith in military subversion and the authorities' successful use of informers and soldiers.",
+      "acceptable_access": [
+        "Grenelle affair",
+        "Grenelle camp, Jacobin rising",
+        "Jacobins, attempted military subversion"
+      ],
+      "evidence": [
+        {
+          "document_page": 327,
+          "source_page_label": "327",
+          "locator_class": "principal",
+          "evidence_summary": "Several hundred Jacobins march to Grenelle expecting a regiment to defect, but informed troops attack and military trials yield further executions."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S032"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S051",
+          "CHUNK-014-S052"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S033",
+      "label": "White Terror and local royalism in the south-east",
+      "priority": "optional",
+      "meaning": "Continuing anti-Jacobin violence in the south-east and émigré hopes of converting local vendettas into a coherent royalist movement.",
+      "stance": "The chapter is skeptical: local violence remained fragmented, personal, and without common aims or effective organization.",
+      "acceptable_access": [
+        "White Terror, south-eastern France",
+        "Royalism in southern France",
+        "Counter-revolution, local vendettas"
+      ],
+      "evidence": [
+        {
+          "document_page": 327,
+          "source_page_label": "327",
+          "locator_class": "principal",
+          "evidence_summary": "Violence continues, but Mallet du Pan and a local observer describe agitation as vague and dominated by private factional passions."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S033"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S054"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S034",
+      "label": "Theophilanthropy and republican religious policy",
+      "priority": "major",
+      "meaning": "Official support for Theophilanthropy, constitutional Catholic survival, and efforts to privilege décadi over Sunday observance.",
+      "stance": "Theophilanthropy receives prominent churches and elite sponsorship after Fructidor but never secures broad popular support or displaces Sunday worship.",
+      "acceptable_access": [
+        "Theophilanthropy",
+        "Republican religious cults under Directory",
+        "Décadi and Sunday observance",
+        "Constitutional Church--survival under Grégoire",
+        "Sunday and décadi--popular observance"
+      ],
+      "evidence": [
+        {
+          "document_page": 335,
+          "source_page_label": "335",
+          "locator_class": "principal",
+          "evidence_summary": "La Revellière promotes urban republican deism in former churches, while constitutional Catholicism persists and popular Sunday observance resists replacement."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S034"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S101",
+          "CHUNK-014-S102"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S035",
+      "label": "Pichegru's royalist treason",
+      "priority": "optional",
+      "meaning": "General Pichegru's secret contacts with Louis XVIII's agents and the use of evidence against him to justify Fructidor.",
+      "stance": "His treason was real and politically useful to the Directory, but it did not prove that the entire elected majority constituted an imminent restoration conspiracy.",
+      "acceptable_access": [
+        "Pichegru, Charles, royalist contacts",
+        "Pichegru treason",
+        "Fructidor, Pichegru"
+      ],
+      "evidence": [
+        {
+          "document_page": 329,
+          "source_page_label": "329",
+          "locator_class": "supporting",
+          "evidence_summary": "Pichegru is identified as a royalist deputy with prolonged contacts aimed at possible military restoration."
+        },
+        {
+          "document_page": 330,
+          "source_page_label": "330",
+          "locator_class": "principal",
+          "evidence_summary": "Bonaparte's evidence of Pichegru's treason heightens directorial fear during the constitutional crisis."
+        },
+        {
+          "document_page": 331,
+          "source_page_label": "331",
+          "locator_class": "supporting",
+          "evidence_summary": "The coup arrests Pichegru and publicizes his treason while purging a much broader set of opponents."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "used_to_justify_but_not_prove_necessity_of",
+          "target_local_subject_id": "SUCC-C014-S008",
+          "evidence_document_pages": [
+            330,
+            331
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S035"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S071"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S036",
+      "label": "Directors, composition and turnover",
+      "priority": "optional",
+      "meaning": "Selection and replacement of the five Directors from the regime's inauguration through the post-Fructidor and post-Floréal reshuffles.",
+      "stance": "Personnel choices reveal republican credentials, military prestige, factional alignment, and anti-clericalism more than stable collective administrative ability.",
+      "acceptable_access": [
+        "Directory, membership",
+        "Directors, appointments and turnover",
+        "Barras, Carnot, Reubell, La Revellière-Lépeaux, Letourneur"
+      ],
+      "evidence": [
+        {
+          "document_page": 321,
+          "source_page_label": "321",
+          "locator_class": "principal",
+          "evidence_summary": "Barras, Carnot, La Revellière-Lépeaux, Reubell, and Letourneur become the initial Directors after Sieyès refuses."
+        },
+        {
+          "document_page": 329,
+          "source_page_label": "329",
+          "locator_class": "supporting",
+          "evidence_summary": "Barthélemy replaces Letourneur after the Year V elections."
+        },
+        {
+          "document_page": 331,
+          "source_page_label": "331",
+          "locator_class": "supporting",
+          "evidence_summary": "Fructidor removes Carnot and Barthélemy and installs François de Neufchâteau and Merlin de Douai."
+        },
+        {
+          "document_page": 337,
+          "source_page_label": "337",
+          "locator_class": "supporting",
+          "evidence_summary": "Treilhard replaces François de Neufchâteau after Floréal, reinforcing anti-clerical solidarity."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S036"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S018",
+          "CHUNK-014-S069"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S037",
+      "label": "Directorial commissioners and official electioneering",
+      "priority": "major",
+      "meaning": "The centrally appointed departmental commissioners and other local officials used to reshape administrations, direct electoral influence, and later collect taxes.",
+      "stance": "The network linked local government to Paris and enabled increasingly systematic interference, while also supplying the machinery for later fiscal centralization.",
+      "acceptable_access": [
+        "Directorial commissioners",
+        "Directory, local administration",
+        "Government electioneering under Directory",
+        "Departmental administrations--central surveillance",
+        "Electoral oath--monarchists and anarchists",
+        "Émigrés--voting restrictions"
+      ],
+      "evidence": [
+        {
+          "document_page": 328,
+          "source_page_label": "328",
+          "locator_class": "principal",
+          "evidence_summary": "Commissioners supervise elected departmental administrations and are instructed to promote middle-of-the-road republican candidates."
+        },
+        {
+          "document_page": 329,
+          "source_page_label": "329",
+          "locator_class": "supporting",
+          "evidence_summary": "An anti-extremist electoral oath and restrictions on émigré voting supplemented official electioneering."
+        },
+        {
+          "document_page": 334,
+          "source_page_label": "334",
+          "locator_class": "supporting",
+          "evidence_summary": "The same centralized local network is used by the new Agency for Direct Contributions."
+        },
+        {
+          "document_page": 336,
+          "source_page_label": "336",
+          "locator_class": "supporting",
+          "evidence_summary": "Government officials monitor departments and encourage rival electoral assemblies to create grounds for deciding disputed results."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "implements_electioneering_in",
+          "target_local_subject_id": "SUCC-C014-S007",
+          "evidence_document_pages": [
+            328,
+            329
+          ]
+        },
+        {
+          "type": "implements_electoral_manipulation_in",
+          "target_local_subject_id": "SUCC-C014-S009",
+          "evidence_document_pages": [
+            336
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S037"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-014-S063",
+          "CHUNK-014-S064"
+        ],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S038",
+      "label": "Wolfe Tone as observer of French monetary conditions",
+      "priority": "exclude_by_default",
+      "meaning": "Wolfe Tone's brief observation that coin was refused as presumptively counterfeit in Normandy in 1796.",
+      "stance": "Useful evidence for the monetary crisis but not independent treatment of Tone's life, politics, or Irish activity within the owned pages.",
+      "acceptable_access": [
+        "Economic and monetary crisis under the Directory"
+      ],
+      "evidence": [
+        {
+          "document_page": 323,
+          "source_page_label": "323",
+          "locator_class": "incidental",
+          "evidence_summary": "Tone appears only as a witness to the disappearance and distrust of specie."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S038"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S039",
+      "label": "Anonymous popular witnesses to hardship",
+      "priority": "exclude_by_default",
+      "meaning": "Quoted market women, a Parisian diarist, and women in food or wine queues used to convey prices, hunger, and popular anger.",
+      "stance": "Their statements are vivid source evidence for economic hardship and political resentment, not sustained biographical subjects.",
+      "acceptable_access": [
+        "Economic and monetary crisis under the Directory",
+        "Popular discontent under the Directory"
+      ],
+      "evidence": [
+        {
+          "document_page": 319,
+          "source_page_label": "319",
+          "locator_class": "incidental",
+          "evidence_summary": "A police report quotes market women preferring action on prices to an official festival."
+        },
+        {
+          "document_page": 322,
+          "source_page_label": "322",
+          "locator_class": "incidental",
+          "evidence_summary": "An unnamed diarist describes extreme prices, hunger, cold, and despair."
+        },
+        {
+          "document_page": 325,
+          "source_page_label": "325",
+          "locator_class": "incidental",
+          "evidence_summary": "Women queueing for provisions compare hunger under the Directory with repression under Robespierre."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S039"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C014-S040",
+      "label": "Dreux royalist riot, 3 October 1795",
+      "priority": "exclude_by_default",
+      "meaning": "A brief royalist disturbance west of Paris immediately preceding the Vendémiaire mobilization.",
+      "stance": "The episode functions only as a trigger for sectional coordination in Paris and receives no sustained independent treatment.",
+      "acceptable_access": [
+        "Vendémiaire uprising"
+      ],
+      "evidence": [
+        {
+          "document_page": 320,
+          "source_page_label": "320",
+          "locator_class": "incidental",
+          "evidence_summary": "News of the dispersed riot prompts a call for Paris sections to coordinate, but the riot itself is only briefly noted."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CHUNK-014-S040"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "Full owned pages and both local record sets reviewed; exact historical final identity reconciliation remains a separate whole-book pass."
+      }
+    }
+  ],
+  "reader_tasks": [
+    {
+      "task_id": "SUCC-C014-T001",
+      "question": "How did the Year III constitution combine civil equality with propertied political rule?",
+      "subject_ids": [
+        "SUCC-C014-S002"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T002",
+      "question": "Why did the Two Thirds Law provoke Vendémiaire and what changed after its defeat?",
+      "subject_ids": [
+        "SUCC-C014-S012",
+        "SUCC-C014-S003",
+        "SUCC-C014-S014"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T003",
+      "question": "How did dependence on the army grow across the Directory’s political crises?",
+      "subject_ids": [
+        "SUCC-C014-S004",
+        "SUCC-C014-S006",
+        "SUCC-C014-S008",
+        "SUCC-C014-S027",
+        "SUCC-C014-S031"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T004",
+      "question": "How did subsistence distress and speculative fortunes encourage renewed radical politics?",
+      "subject_ids": [
+        "SUCC-C014-S005",
+        "SUCC-C014-S015",
+        "SUCC-C014-S018"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T005",
+      "question": "How did Babeuf’s communist goal differ from the conspiracy’s immediate constitutional,bread,and land programme?",
+      "subject_ids": [
+        "SUCC-C014-S006",
+        "SUCC-C014-S002"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T006",
+      "question": "Why did the Equals and the later Grenelle attempt fail?",
+      "subject_ids": [
+        "SUCC-C014-S006",
+        "SUCC-C014-S032"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T007",
+      "question": "How did incompatible royalist factions cooperate in the1797 elections?",
+      "subject_ids": [
+        "SUCC-C014-S019",
+        "SUCC-C014-S007"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T008",
+      "question": "Why does the author question the necessity of Fructidor despite Pichegru’s treason?",
+      "subject_ids": [
+        "SUCC-C014-S008",
+        "SUCC-C014-S020",
+        "SUCC-C014-S035"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T009",
+      "question": "What changed financially when failed paper money gave way to scarce specie?",
+      "subject_ids": [
+        "SUCC-C014-S015",
+        "SUCC-C014-S016"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T010",
+      "question": "How did bankruptcy and renewed taxation rebuild the state while alienating its supporters?",
+      "subject_ids": [
+        "SUCC-C014-S016",
+        "SUCC-C014-S017",
+        "SUCC-C014-S001"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T011",
+      "question": "How did post-Fructidor religious policy combine persecution with unsuccessful replacement cults?",
+      "subject_ids": [
+        "SUCC-C014-S021",
+        "SUCC-C014-S022",
+        "SUCC-C014-S034"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T012",
+      "question": "How did neo-Jacobin mobilization and official manipulation culminate in Floréal?",
+      "subject_ids": [
+        "SUCC-C014-S018",
+        "SUCC-C014-S037",
+        "SUCC-C014-S009"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T013",
+      "question": "Why did limited protest against the Directory’s coups not prove popular approval?",
+      "subject_ids": [
+        "SUCC-C014-S029",
+        "SUCC-C014-S001"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T014",
+      "question": "How did the Egyptian expedition’s strategic promise become an impulse for the Second Coalition?",
+      "subject_ids": [
+        "SUCC-C014-S010",
+        "SUCC-C014-S011",
+        "SUCC-C014-S025",
+        "SUCC-C014-S026"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    },
+    {
+      "task_id": "SUCC-C014-T015",
+      "question": "How did renewed military needs revive conscription and older revolutionary conflicts?",
+      "subject_ids": [
+        "SUCC-C014-S028",
+        "SUCC-C014-S011",
+        "SUCC-C014-S001"
+      ],
+      "source_basis": "Source-specific task after complete chapter review."
+    }
+  ],
+  "provenance": {
+    "reviewer": "source_comparison",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "candidate_unseen_in_this_context": true,
+    "historical_discovery_reused": true,
+    "actual_work": "Complete23 owned pages,40native and128legacy local semantic/evidence/access/relationship records, exclusions/uncertainties and final subject meaning/stance/priority deltas plus chapter-owned final relationship types inspected. Cross-chapter final identities and tasks remain separately queued."
+  },
+  "discovery_assessment": {
+    "density_used_as_subject_quota": false,
+    "whole_source_omission_pass_complete_for_owned_pages": true,
+    "independent_review_status": "pending_actual_draft"
+  }
+}

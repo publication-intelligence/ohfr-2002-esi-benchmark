@@ -1,0 +1,60 @@
+{
+  "schema_version": "source-post-freeze-correction-plan-v1",
+  "status": "proposal_sealed; root_scope_check_then_independent_review_pending",
+  "correction_id": "SOURCE-CORR-PAGE-BINDINGS-56-57-113-114-131-134",
+  "base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.json",
+    "sha256": "e898e82b740400cfb84c0c61e9733647197ac504b1370eb31e4727b63d9390df",
+    "bytes": 6742566
+  },
+  "new_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "new_state_initialized_from": {
+    "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "paths": {
+    "original_registered_draft": "successor/source/source-benchmark.draft.v1.json",
+    "temporary_inventory": "successor/validation/source-benchmark-review-inventory.json",
+    "planned_final": "successor/source/source-benchmark.v4.json",
+    "planned_independent_review": "successor/independent-review/source-benchmark-review.v3.json",
+    "planned_assent": "successor/independent-review/post-freeze/page-binding-correction/reviewer/exact-final-byte-assent.v1.json"
+  },
+  "scope": {
+    "changed_subjects": 7,
+    "content_field_replacements": 24,
+    "direct_relationships": 17,
+    "direct_reader_tasks": 35,
+    "direct_task_facet_bindings": 50
+  },
+  "whole_final_diff": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v1.json",
+    "sha256": "212c726bfcc886f100608c9e44d6eccaad894fcc56a4e8102118830cb16597c0",
+    "bytes": 20756
+  },
+  "methodology": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "chronology": [
+    "Original v2/v3 freezes and the unreviewed new v3-bound access author proposal remain immutable.",
+    "Root checks the exact sealed proposal and reviewer packet before dispatch.",
+    "001 independently rereads named complete pages, adjudicates every new evidence/page-field value and affected whole-record dependency, and verifies all other final values equal the prior approved v3. Earlier complete source-first and full review are explicitly reused, not newly claimed.",
+    "After genuine independent approval only, reviewer writes NEW finalv4/current-schema reviewv3 with exact original-draft-to-final approved_changes and exact-final-byte assent. Preserve proposal and historical approvals.",
+    "Read-only preserved-c11 validation precedes root technical clearance; no freeze by the reviewer.",
+    "After clearance only, lead may run normal preserved-c11 freeze on NEW source-correction-v4 state.",
+    "A later distinct access amendment/review must bind the actually approved new frozen source; do not activate or mutate the sealed v3-bound author proposal."
+  ],
+  "candidate_unseen": true,
+  "typed_freeze_performed": false
+}

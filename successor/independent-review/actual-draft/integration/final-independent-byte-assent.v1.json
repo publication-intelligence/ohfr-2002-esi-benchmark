@@ -1,0 +1,29 @@
+{
+  "schema_version": "independent-final-byte-assent-v1",
+  "decision": "approve_exact_revised_benchmark_for_typed_freeze",
+  "review": {
+    "path": "successor/independent-review/source-benchmark-review.v1.json",
+    "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+    "bytes": 469741
+  },
+  "final": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "final_canonical_sha256": "29e2d3cb6fbe99dcab7d218086afede0366fdd195efbea7b98f4dfffb967a354",
+  "crosswalk": {
+    "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+    "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+    "bytes": 22889770
+  },
+  "validation": {
+    "path": "successor/independent-review/actual-draft/integration/final-c11-validation.v1.json",
+    "sha256": "1b804a47618b8da97f5dfa232f324ad12ff33648728e1125bfa908969ebe26ab",
+    "bytes": 1404
+  },
+  "assent": "I independently approve these exact final and canonical review bytes. Completed source-first, current whole-record, historical exact-key, auxiliary, cross-chapter, fallback, relationship and task/facet review is bound by the canonical review. Every substantive repair was actually reviewed and reconciled into the final values; all identified blocking corrections are closed. Neither administrative coverage nor a field-name-only CLI comparison substitutes for this approval.",
+  "limits": "Source conflicts and estimates remain expressly qualified; unavailable frontmatter/endnotes and excluded graphical regions are outside scope. This approves the source benchmark only, with no candidate assessment or methodological amendment.",
+  "candidate_unseen": true,
+  "canonical_registration_pending": true
+}

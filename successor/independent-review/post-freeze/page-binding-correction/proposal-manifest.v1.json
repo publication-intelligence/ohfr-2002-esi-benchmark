@@ -1,0 +1,82 @@
+{
+  "schema_version": "post-freeze-source-correction-proposal-manifest-v1",
+  "status": "sealed_author_proposal; independent_review_and_root_technical_clearance_pending",
+  "sealed_at": "2026-09-17T06:45:09.876454+00:00",
+  "files": [
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-source-findings.v1.json",
+      "sha256": "a4e1ec5dca4e7941bacb62ffc65d1e6a9775a7c9a5f0ea7a2b5e1fd0fa826000",
+      "bytes": 19398
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v1.json",
+      "sha256": "a629f3505ce0436f64dc3a820022cb87758d5635e0b4134527efd47995f188ca",
+      "bytes": 399898
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v1.json",
+      "sha256": "916e5e009f373ead1254563427f6793375c206d0cc9f77db8ef56fb2d23feff8",
+      "bytes": 267915
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.json",
+      "sha256": "e898e82b740400cfb84c0c61e9733647197ac504b1370eb31e4727b63d9390df",
+      "bytes": 6742566
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v1.json",
+      "sha256": "212c726bfcc886f100608c9e44d6eccaad894fcc56a4e8102118830cb16597c0",
+      "bytes": 20756
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v1.json",
+      "sha256": "ec5e083ec39d7703c4900034d0263652787b905477c2d8e0957be3db313e6f98",
+      "bytes": 17199
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v1.json",
+      "sha256": "cea0357cb1d4801f49bacda9a63ea954642146fe752509ae08a708aed06bc0b6",
+      "bytes": 1632
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v1.json",
+      "sha256": "ce48f1e17a7c7fefcaafe73d05902632caa0d8bf5b7fe2a61bbd358dc6425856",
+      "bytes": 3318
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v1.json",
+      "sha256": "b5d4435e6244b2f5165798056f930861bf8b122588e35fcd0861434d737d3aaa",
+      "bytes": 15929
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    }
+  ],
+  "scope": {
+    "changed_subjects": 7,
+    "content_field_replacements": 24,
+    "direct_relationships": 17,
+    "direct_reader_tasks": 35,
+    "direct_task_facet_bindings": 50
+  },
+  "source_pages": [
+    56,
+    57,
+    113,
+    114,
+    131,
+    132,
+    133,
+    134
+  ],
+  "page_opportunity_counts": {
+    "before": 2080,
+    "proposed": 2079
+  },
+  "candidate_unseen": true,
+  "all_older_frozen_and_proposal_bytes_preserved": true,
+  "reviewer_dispatched": false,
+  "typed_freeze_performed": false
+}

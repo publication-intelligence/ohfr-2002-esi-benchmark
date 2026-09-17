@@ -1,0 +1,33 @@
+{
+  "schema_version": "legacy-tail-transfer-verification-v1",
+  "recorded_at": "2026-09-17T03:05:12.254898+00:00",
+  "transfer_receipt": {
+    "path": "successor/independent-review/actual-draft/legacy-tail-original-subject-evidence-transfer.receipt.v1.json",
+    "sha256": "9c4862abbe70597dc89d057be522144202da3ca20123b0f823539e6746c70534"
+  },
+  "exact_disjoint_exhaustive_subject_partition": [
+    407,
+    100
+  ],
+  "exact_disjoint_exhaustive_evidence_partition": [
+    962,
+    212
+  ],
+  "transferred_original_subject_indices_zero_based": [
+    407,
+    506
+  ],
+  "all_evidence_follows_transferred_subjects": true,
+  "transferred_evidence_only_groups": 0,
+  "assignment_input_hashes_verified": [
+    20,
+    37
+  ],
+  "reservation_matches_transferred_keys": true,
+  "untouched_claim_basis": "reserving reviewer attestation; coordinator does not infer editorial reading from missing rows",
+  "activation_condition": "Prior 001 native 275-subject/650-evidence component must seal and be verified before this assignment becomes effective.",
+  "effective": false,
+  "editorial_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

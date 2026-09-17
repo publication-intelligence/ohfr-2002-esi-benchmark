@@ -1,0 +1,2640 @@
+{
+  "schema_version": "independent-legacy-repair-composition-v1",
+  "status": "sealed_scoped_repaired_values; whole_book_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    }
+  ],
+  "group_range": [
+    91,
+    100
+  ],
+  "rows": [
+    {
+      "group_index": 91,
+      "subject_id": "SUBJ-SUCC-E01B6781D013",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0173",
+        "CORR-007-LEGACY-0174"
+      ],
+      "source_correction_row_sha256s": [
+        "f6ee6cf5b3fb1fb81dfed3c5ab3d99b864ab7dc2456d25fb7cc11d162964e5a6",
+        "efdb35e88c232cb0b39bed689ff18dece3307c02350b98bad8a66352cb7f7302"
+      ],
+      "before_record": {
+        "label": "Brissot, the Brissotins, and revolutionary war",
+        "priority": "major",
+        "meaning": "Brissot and allied Bordeaux deputies made war the proposed solution to émigré threats, domestic division, and revolutionary legitimacy, formed the pro-war ministry, and later became identified as the Gironde.",
+        "stance": "Their optimistic war rhetoric helped produce a conflict for which France was unprepared, and their tactical use of popular pressure later exposed them to radical suspicion.",
+        "subject_id": "SUBJ-SUCC-E01B6781D013",
+        "acceptable_access": [
+          "Brissot, the Brissotins, and revolutionary war",
+          "Brissot, Jacques-Pierre—war policy",
+          "Brissotins—war advocacy",
+          "Gironde—origins",
+          "Girondins—war and popular movement",
+          "Brissotins",
+          "Girondins",
+          "Brissot and the Gironde",
+          "Bordeaux deputies",
+          "war as panacea",
+          "regenerative war",
+          "war and national unity",
+          "war and assignats"
+        ],
+        "evidence": [
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "principal",
+            "evidence_summary": "Brissot proposes attacking the foreign protectors of émigrés if confiscatory pressure fails.",
+            "evidence_id": "EVID-SUCC-AE8EE88069BE",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "Brissot and the Bordeaux group portray war as national regeneration and a test of royal loyalty.",
+            "evidence_id": "EVID-SUCC-7FA61D85A925",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 180,
+            "source_page_label": "180",
+            "locator_class": "principal",
+            "evidence_summary": "The March ministry consists largely of Brissot's pro-war nominees and clears the way for war.",
+            "evidence_id": "EVID-SUCC-0732E247B881",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 188,
+            "source_page_label": "188",
+            "locator_class": "principal",
+            "evidence_summary": "The Gironde recoils from total overthrow after earlier hoping popular pressure would restore its ministers.",
+            "evidence_id": "EVID-SUCC-706C0B3BD284",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "principal",
+            "evidence_summary": "Conflict with the Commune and Robespierre fixes the label 'faction of the Gironde.'",
+            "evidence_id": "EVID-SUCC-A9EEA39CA8DB",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "evidence_id": "EVID-SUCC-26BBD829E04A",
+            "source_evidence_id": "EVID-7796C04C0CCB",
+            "document_page": 184,
+            "source_page_label": "184",
+            "locator_class": "supporting",
+            "evidence_summary": "Early reverses lead the war party to accuse king, generals, and palace plotters.",
+            "provenance": {
+              "chunk_id": "CHUNK-008",
+              "local_subject_id": "CHUNK-008-S018",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+              "source_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d"
+            },
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-C9ED4E5D0C4A",
+              "evidence_id": "EVID-5FEA57CFEC12"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          },
+          {
+            "document_page": 189,
+            "source_page_label": "189",
+            "locator_class": "supporting",
+            "evidence_summary": "The Gironde recoils from total overthrow after earlier hoping popular pressure would restore its ministers.",
+            "source_chunk_id": "CHUNK-008",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "evidence_id": "EVID-SUCC-9120E795C76C",
+            "historical_evidence_identity": {
+              "lineage": "native",
+              "subject_id": "SUBJ-0268",
+              "evidence_id": "EVID-0268-004"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S016",
+            "label": "Brissot, the Brissotins, and revolutionary war",
+            "meaning": "Brissot and allied Bordeaux deputies made war the proposed solution to émigré threats, domestic division, and revolutionary legitimacy, formed the pro-war ministry, and later became identified as the Gironde.",
+            "stance": "Their optimistic war rhetoric helped produce a conflict for which France was unprepared, and their tactical use of popular pressure later exposed them to radical suspicion.",
+            "acceptable_access": [
+              "Brissot, the Brissotins, and revolutionary war",
+              "Brissot, Jacques-Pierre—war policy",
+              "Brissotins—war advocacy",
+              "Gironde—origins",
+              "Girondins—war and popular movement",
+              "Brissotins",
+              "Girondins",
+              "Brissot and the Gironde",
+              "Bordeaux deputies",
+              "war as panacea",
+              "regenerative war",
+              "war and national unity",
+              "war and assignats"
+            ],
+            "document_pages": [
+              176,
+              178,
+              180,
+              184,
+              188,
+              189,
+              191
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S016"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S016",
+            "label": "Brissot, the Brissotins, and revolutionary war",
+            "meaning": "Brissot and allied Bordeaux deputies made war the proposed solution to émigré threats, domestic division, and revolutionary legitimacy, formed the pro-war ministry, and later became identified as the Gironde.",
+            "stance": "Their optimistic war rhetoric helped produce a conflict for which France was unprepared, and their tactical use of popular pressure later exposed them to radical suspicion.",
+            "acceptable_access": [
+              "Brissot, the Brissotins, and revolutionary war",
+              "Brissot, Jacques-Pierre—war policy",
+              "Brissotins—war advocacy",
+              "Gironde—origins",
+              "Girondins—war and popular movement",
+              "Brissotins",
+              "Girondins",
+              "Brissot and the Gironde",
+              "Bordeaux deputies",
+              "war as panacea",
+              "regenerative war",
+              "war and national unity",
+              "war and assignats"
+            ],
+            "document_pages": [
+              176,
+              178,
+              180,
+              184,
+              188,
+              189,
+              191
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "fd789a7bd6d3a2779f5746748f2a7439595a3dad7a41d6f247a71637765119d6",
+      "proposed_record": {
+        "label": "Brissot, the Brissotins, and revolutionary war",
+        "priority": "major",
+        "meaning": "Brissot and allied Bordeaux deputies made war the proposed solution to émigré threats, domestic division, and revolutionary legitimacy, formed the pro-war ministry, and later became identified as the Gironde. Their projected benefits included restored national honor, exposure of traitors and even recovery of assignat value, expectations whose breadth exceeded military and political reality.",
+        "stance": "Their optimistic war rhetoric helped produce a conflict for which France was unprepared, and their tactical use of popular pressure later exposed them to radical suspicion.",
+        "subject_id": "SUBJ-SUCC-E01B6781D013",
+        "acceptable_access": [
+          "Brissot, the Brissotins, and revolutionary war",
+          "Brissot, Jacques-Pierre—war policy",
+          "Brissotins—war advocacy",
+          "Gironde—origins",
+          "Girondins—war and popular movement",
+          "Brissotins",
+          "Girondins",
+          "Brissot and the Gironde",
+          "Bordeaux deputies",
+          "war as panacea",
+          "regenerative war",
+          "war and national unity",
+          "war and assignats"
+        ],
+        "evidence": [
+          {
+            "document_page": 176,
+            "source_page_label": "176",
+            "locator_class": "principal",
+            "evidence_summary": "Brissot proposes attacking the foreign protectors of émigrés if confiscatory pressure fails.",
+            "evidence_id": "EVID-SUCC-AE8EE88069BE",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 178,
+            "source_page_label": "178",
+            "locator_class": "principal",
+            "evidence_summary": "Brissot and the Bordeaux deputies portrayed war as national regeneration, restored honor and a test exposing royal/other disloyalty; Brissot even claimed it would restore assignat value.",
+            "evidence_id": "EVID-SUCC-7FA61D85A925",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 180,
+            "source_page_label": "180",
+            "locator_class": "principal",
+            "evidence_summary": "The March ministry consists largely of Brissot's pro-war nominees and clears the way for war.",
+            "evidence_id": "EVID-SUCC-0732E247B881",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 188,
+            "source_page_label": "188",
+            "locator_class": "principal",
+            "evidence_summary": "The Gironde recoils from total overthrow after earlier hoping popular pressure would restore its ministers.",
+            "evidence_id": "EVID-SUCC-706C0B3BD284",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 191,
+            "source_page_label": "191",
+            "locator_class": "principal",
+            "evidence_summary": "Conflict with the Commune and Robespierre fixes the label 'faction of the Gironde.'",
+            "evidence_id": "EVID-SUCC-A9EEA39CA8DB",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "evidence_id": "EVID-SUCC-26BBD829E04A",
+            "source_evidence_id": "EVID-7796C04C0CCB",
+            "document_page": 184,
+            "source_page_label": "184",
+            "locator_class": "supporting",
+            "evidence_summary": "Early reverses lead the war party to accuse king, generals, and palace plotters.",
+            "provenance": {
+              "chunk_id": "CHUNK-008",
+              "local_subject_id": "CHUNK-008-S018",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+              "source_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d"
+            },
+            "source_local_subject_id": "SUCC-C008-S016",
+            "source_chunk_id": "CHUNK-008",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-C9ED4E5D0C4A",
+              "evidence_id": "EVID-5FEA57CFEC12"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          },
+          {
+            "document_page": 189,
+            "source_page_label": "189",
+            "locator_class": "supporting",
+            "evidence_summary": "The Gironde recoils from total overthrow after earlier hoping popular pressure would restore its ministers.",
+            "source_chunk_id": "CHUNK-008",
+            "source_local_subject_id": "SUCC-C008-S016",
+            "evidence_id": "EVID-SUCC-9120E795C76C",
+            "historical_evidence_identity": {
+              "lineage": "native",
+              "subject_id": "SUBJ-0268",
+              "evidence_id": "EVID-0268-004"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S016",
+            "label": "Brissot, the Brissotins, and revolutionary war",
+            "meaning": "Brissot and allied Bordeaux deputies made war the proposed solution to émigré threats, domestic division, and revolutionary legitimacy, formed the pro-war ministry, and later became identified as the Gironde. Their projected benefits included restored national honor, exposure of traitors and even recovery of assignat value, expectations whose breadth exceeded military and political reality.",
+            "stance": "Their optimistic war rhetoric helped produce a conflict for which France was unprepared, and their tactical use of popular pressure later exposed them to radical suspicion.",
+            "acceptable_access": [
+              "Brissot, the Brissotins, and revolutionary war",
+              "Brissot, Jacques-Pierre—war policy",
+              "Brissotins—war advocacy",
+              "Gironde—origins",
+              "Girondins—war and popular movement",
+              "Brissotins",
+              "Girondins",
+              "Brissot and the Gironde",
+              "Bordeaux deputies",
+              "war as panacea",
+              "regenerative war",
+              "war and national unity",
+              "war and assignats"
+            ],
+            "document_pages": [
+              176,
+              178,
+              180,
+              184,
+              188,
+              189,
+              191
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S016"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S016",
+            "label": "Brissot, the Brissotins, and revolutionary war",
+            "meaning": "Brissot and allied Bordeaux deputies made war the proposed solution to émigré threats, domestic division, and revolutionary legitimacy, formed the pro-war ministry, and later became identified as the Gironde. Their projected benefits included restored national honor, exposure of traitors and even recovery of assignat value, expectations whose breadth exceeded military and political reality.",
+            "stance": "Their optimistic war rhetoric helped produce a conflict for which France was unprepared, and their tactical use of popular pressure later exposed them to radical suspicion.",
+            "acceptable_access": [
+              "Brissot, the Brissotins, and revolutionary war",
+              "Brissot, Jacques-Pierre—war policy",
+              "Brissotins—war advocacy",
+              "Gironde—origins",
+              "Girondins—war and popular movement",
+              "Brissotins",
+              "Girondins",
+              "Brissot and the Gironde",
+              "Bordeaux deputies",
+              "war as panacea",
+              "regenerative war",
+              "war and national unity",
+              "war and assignats"
+            ],
+            "document_pages": [
+              176,
+              178,
+              180,
+              184,
+              188,
+              189,
+              191
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "a5fafc2c3ec756f5e638470aec7cebc2c6e274a6739a0361daca771910d518a4",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "178 expressly includes assignat recovery among Brissot’s attributed extravagant promises; the later Gironde and ministry stages remain intact.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 92,
+      "subject_id": "SUBJ-SUCC-B537E54F3566",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0176",
+        "CORR-007-LEGACY-0177"
+      ],
+      "source_correction_row_sha256s": [
+        "a011b0f507e274502e7b28be3e00f271471f2e8e80faec1dba4990fa3761f7df",
+        "81cd31446857362328865161b246d7e52cd7649b16877c0b28f1edb6b432cb0c"
+      ],
+      "before_record": {
+        "label": "September Days of 4-5 September 1793",
+        "priority": "major",
+        "meaning": "A subsistence and wage demonstration was organized into a march on the Convention that secured a package of coercive, military, judicial, and participatory measures.",
+        "stance": "The demonstration appears to have begun spontaneously but was redirected by Hébert, Chaumette, the Commune, and clubs.",
+        "subject_id": "SUBJ-SUCC-B537E54F3566",
+        "acceptable_access": [
+          "September Days of 4-5 September 1793",
+          "September Days, 4-5 September 1793",
+          "popular demonstrations > September 1793",
+          "Terror > order of the day",
+          "September Days, 1793",
+          "5 September 1793 demonstration",
+          "Convention—popular coercion",
+          "Terror—order of the day"
+        ],
+        "evidence": [
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "The two-day mobilization forced immediate votes and prompted the declaration that Terror was the order of the day.",
+            "evidence_id": "EVID-SUCC-46F08ABE15B1",
+            "source_local_subject_id": "SUCC-C011-S017",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "supporting",
+            "evidence_summary": "The source later contrasts the opportunistic September success with the failed effort to organize a broad March insurrection.",
+            "evidence_id": "EVID-SUCC-800372456690",
+            "source_local_subject_id": "SUCC-C011-S017",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S017",
+            "label": "September Days of 4-5 September 1793",
+            "meaning": "A subsistence and wage demonstration was organized into a march on the Convention that secured a package of coercive, military, judicial, and participatory measures.",
+            "stance": "The demonstration appears to have begun spontaneously but was redirected by Hébert, Chaumette, the Commune, and clubs.",
+            "acceptable_access": [
+              "September Days of 4-5 September 1793",
+              "September Days, 4-5 September 1793",
+              "popular demonstrations > September 1793",
+              "Terror > order of the day",
+              "September Days, 1793",
+              "5 September 1793 demonstration",
+              "Convention—popular coercion",
+              "Terror—order of the day"
+            ],
+            "document_pages": [
+              251,
+              270
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S017"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S017",
+            "label": "September Days of 4-5 September 1793",
+            "meaning": "A subsistence and wage demonstration was organized into a march on the Convention that secured a package of coercive, military, judicial, and participatory measures.",
+            "stance": "The demonstration appears to have begun spontaneously but was redirected by Hébert, Chaumette, the Commune, and clubs.",
+            "acceptable_access": [
+              "September Days of 4-5 September 1793",
+              "September Days, 4-5 September 1793",
+              "popular demonstrations > September 1793",
+              "Terror > order of the day",
+              "September Days, 1793",
+              "5 September 1793 demonstration",
+              "Convention—popular coercion",
+              "Terror—order of the day"
+            ],
+            "document_pages": [
+              251,
+              270
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "b4ae300637e89deece7dc412c3bcc03f188c310d66252bd2eb02be67a94fb504",
+      "proposed_record": {
+        "label": "September Days of 4-5 September 1793",
+        "priority": "major",
+        "meaning": "A subsistence and wage protest, apparently spontaneous at first, was organized into a march on the Convention demanding Revolutionary Armies, faster justice, arms and paid sectional participation. The Convention accepted immediate measures, prompting Barère to observe that Terror was the order of the day.",
+        "stance": "The demonstration appears to have begun spontaneously but was redirected by Hébert, Chaumette, the Commune, and clubs.",
+        "subject_id": "SUBJ-SUCC-B537E54F3566",
+        "acceptable_access": [
+          "September Days of 4-5 September 1793",
+          "September Days, 4-5 September 1793",
+          "popular demonstrations > September 1793",
+          "Terror > order of the day",
+          "September Days, 1793",
+          "5 September 1793 demonstration",
+          "Convention—popular coercion",
+          "Terror—order of the day"
+        ],
+        "evidence": [
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "Commune leaders closed workplaces and mobilized thousands, turning wage and bread grievances into demands for Revolutionary Armies, arms, accelerated justice and paid sectional meetings. The Convention accepted immediate measures amid enthusiasm; Barère described Terror as the order of the day.",
+            "evidence_id": "EVID-SUCC-46F08ABE15B1",
+            "source_local_subject_id": "SUCC-C011-S017",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 270,
+            "source_page_label": "270",
+            "locator_class": "supporting",
+            "evidence_summary": "The source later contrasts the opportunistic September success with the failed effort to organize a broad March insurrection.",
+            "evidence_id": "EVID-SUCC-800372456690",
+            "source_local_subject_id": "SUCC-C011-S017",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S017",
+            "label": "September Days of 4-5 September 1793",
+            "meaning": "A subsistence and wage protest, apparently spontaneous at first, was organized into a march on the Convention demanding Revolutionary Armies, faster justice, arms and paid sectional participation. The Convention accepted immediate measures, prompting Barère to observe that Terror was the order of the day.",
+            "stance": "The demonstration appears to have begun spontaneously but was redirected by Hébert, Chaumette, the Commune, and clubs.",
+            "acceptable_access": [
+              "September Days of 4-5 September 1793",
+              "September Days, 4-5 September 1793",
+              "popular demonstrations > September 1793",
+              "Terror > order of the day",
+              "September Days, 1793",
+              "5 September 1793 demonstration",
+              "Convention—popular coercion",
+              "Terror—order of the day"
+            ],
+            "document_pages": [
+              251,
+              270
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S017"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S017",
+            "label": "September Days of 4-5 September 1793",
+            "meaning": "A subsistence and wage protest, apparently spontaneous at first, was organized into a march on the Convention demanding Revolutionary Armies, faster justice, arms and paid sectional participation. The Convention accepted immediate measures, prompting Barère to observe that Terror was the order of the day.",
+            "stance": "The demonstration appears to have begun spontaneously but was redirected by Hébert, Chaumette, the Commune, and clubs.",
+            "acceptable_access": [
+              "September Days of 4-5 September 1793",
+              "September Days, 4-5 September 1793",
+              "popular demonstrations > September 1793",
+              "Terror > order of the day",
+              "September Days, 1793",
+              "5 September 1793 demonstration",
+              "Convention—popular coercion",
+              "Terror—order of the day"
+            ],
+            "document_pages": [
+              251,
+              270
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "1c84b84072e3c0a2410c1366797231ee36f830e7a7981cd842e178ec52f1bcf3",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "251 supports the concrete package but attributes the observation that Terror was the order of the day to Barère. Replace the proposed formal Convention-declaration implication with that precise attribution, retaining spontaneous origins and subsequent organized redirection.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 93,
+      "subject_id": "SUBJ-SUCC-7F8042CFA7E2",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0178",
+        "CORR-007-LEGACY-0179"
+      ],
+      "source_correction_row_sha256s": [
+        "5b9adc7c5e6234e9e463294d422ccd3342d37007399a0cb19762f58ea828dbc2",
+        "3f267a8670f78606209be5a5a7e2bb608761170f002319043b732353b18da778"
+      ],
+      "before_record": {
+        "label": "Economic recovery, investment, and structural continuity",
+        "priority": "major",
+        "meaning": "Recovery eventually occurred, but conservative investment in land, weak entrepreneurship, and older economic structures persisted or were reinforced. Internal customs and corporate barriers were removed, but these legal preconditions did not overcome uncertainty, land-oriented investment and weak productive enterprise.",
+        "stance": "Administrative preconditions for progress did not themselves release growth; the Revolution often altered timing rather than the direction of long-standing trends.",
+        "subject_id": "SUBJ-SUCC-7F8042CFA7E2",
+        "acceptable_access": [
+          "French economy—structural continuity",
+          "Investment—land preference",
+          "Economic modernization—limits",
+          "Internal customs barriers--abolition",
+          "Guild abolition",
+          "Le Chapelier Law--labour organization",
+          "Venal-office abolition--land investment"
+        ],
+        "evidence": [
+          {
+            "document_page": 405,
+            "source_page_label": "405",
+            "locator_class": "principal",
+            "evidence_summary": "Internal barriers and guilds disappeared, but uncertainty and national-land sales reinforced investment in land rather than enterprise.",
+            "evidence_id": "EVID-SUCC-13B4D6CBCE1E",
+            "source_local_subject_id": "SUCC-C017-S015",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Conservative investment, agricultural inertia, and unentrepreneurial business persisted, suggesting acceleration or retardation rather than wholesale redirection.",
+            "evidence_id": "EVID-SUCC-13DFF5114CE8",
+            "source_local_subject_id": "SUCC-C017-S015",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-D8B2E67281B7",
+            "source_evidence_id": "EVID-5F6F86763601",
+            "document_page": 404,
+            "source_page_label": "404",
+            "locator_class": "principal",
+            "evidence_summary": "Recovery in silk and overseas trade took decades, supporting the judgment that revolutionary disruption postponed expansion.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S025",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S015",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-51A22D57BC47",
+              "evidence_id": "EVID-34E0710BFD4A"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S015",
+            "label": "Economic recovery, investment, and structural continuity",
+            "meaning": "Recovery eventually occurred, but conservative investment in land, weak entrepreneurship, and older economic structures persisted or were reinforced.",
+            "stance": "Administrative preconditions for progress did not themselves release growth; the Revolution often altered timing rather than the direction of long-standing trends.",
+            "acceptable_access": [
+              "French economy—structural continuity",
+              "Investment—land preference",
+              "Economic modernization—limits",
+              "Internal customs barriers--abolition",
+              "Guild abolition",
+              "Le Chapelier Law--labour organization",
+              "Venal-office abolition--land investment"
+            ],
+            "document_pages": [
+              405,
+              424
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S015"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S015",
+            "label": "Economic recovery, investment, and structural continuity",
+            "meaning": "Recovery eventually occurred, but conservative investment in land, weak entrepreneurship, and older economic structures persisted or were reinforced.",
+            "stance": "Administrative preconditions for progress did not themselves release growth; the Revolution often altered timing rather than the direction of long-standing trends.",
+            "acceptable_access": [
+              "French economy—structural continuity",
+              "Investment—land preference",
+              "Economic modernization—limits",
+              "Internal customs barriers--abolition",
+              "Guild abolition",
+              "Le Chapelier Law--labour organization",
+              "Venal-office abolition--land investment"
+            ],
+            "document_pages": [
+              405,
+              424
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "ac5c6098ddd285e1bfbf96af0bc2878091c1b4219bc052924b9a09f724628afc",
+      "proposed_record": {
+        "label": "Economic recovery, investment, and structural continuity",
+        "priority": "major",
+        "meaning": "Recovery eventually occurred, but conservative investment in land, weak entrepreneurship, and older economic structures persisted or were reinforced. Internal customs and corporate barriers were removed, but these legal preconditions did not overcome uncertainty, land-oriented investment and weak productive enterprise. Insecurity, bargain national-land sales and abolition of venal office as an alternative investment reinforced the established preference for land; recovery in major sectors took decades.",
+        "stance": "Administrative preconditions for progress did not themselves release growth; the Revolution often altered timing rather than the direction of long-standing trends.",
+        "subject_id": "SUBJ-SUCC-7F8042CFA7E2",
+        "acceptable_access": [
+          "French economy—structural continuity",
+          "Investment—land preference",
+          "Economic modernization—limits",
+          "Internal customs barriers--abolition",
+          "Guild abolition",
+          "Le Chapelier Law--labour organization",
+          "Venal-office abolition--land investment"
+        ],
+        "evidence": [
+          {
+            "document_page": 405,
+            "source_page_label": "405",
+            "locator_class": "principal",
+            "evidence_summary": "Customs barriers and guild restrictions disappeared and measures were standardized, but these preconditions did not release enterprise. Uncertainty, removal of venal office as an alternative investment, and bargain national-land sales reinforced preference for land over commercial enterprise.",
+            "evidence_id": "EVID-SUCC-13B4D6CBCE1E",
+            "source_local_subject_id": "SUCC-C017-S015",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 424,
+            "source_page_label": "424",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Conservative investment, agricultural inertia, and unentrepreneurial business persisted, suggesting acceleration or retardation rather than wholesale redirection.",
+            "evidence_id": "EVID-SUCC-13DFF5114CE8",
+            "source_local_subject_id": "SUCC-C017-S015",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-D8B2E67281B7",
+            "source_evidence_id": "EVID-5F6F86763601",
+            "document_page": 404,
+            "source_page_label": "404",
+            "locator_class": "principal",
+            "evidence_summary": "Recovery in silk and overseas trade took decades, supporting the judgment that revolutionary disruption postponed expansion.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S025",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S015",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-51A22D57BC47",
+              "evidence_id": "EVID-34E0710BFD4A"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S015",
+            "label": "Economic recovery, investment, and structural continuity",
+            "meaning": "Recovery eventually occurred, but conservative investment in land, weak entrepreneurship, and older economic structures persisted or were reinforced. Internal customs and corporate barriers were removed, but these legal preconditions did not overcome uncertainty, land-oriented investment and weak productive enterprise. Insecurity, bargain national-land sales and abolition of venal office as an alternative investment reinforced the established preference for land; recovery in major sectors took decades.",
+            "stance": "Administrative preconditions for progress did not themselves release growth; the Revolution often altered timing rather than the direction of long-standing trends.",
+            "acceptable_access": [
+              "French economy—structural continuity",
+              "Investment—land preference",
+              "Economic modernization—limits",
+              "Internal customs barriers--abolition",
+              "Guild abolition",
+              "Le Chapelier Law--labour organization",
+              "Venal-office abolition--land investment"
+            ],
+            "document_pages": [
+              405,
+              424
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S015"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S015",
+            "label": "Economic recovery, investment, and structural continuity",
+            "meaning": "Recovery eventually occurred, but conservative investment in land, weak entrepreneurship, and older economic structures persisted or were reinforced. Internal customs and corporate barriers were removed, but these legal preconditions did not overcome uncertainty, land-oriented investment and weak productive enterprise. Insecurity, bargain national-land sales and abolition of venal office as an alternative investment reinforced the established preference for land; recovery in major sectors took decades.",
+            "stance": "Administrative preconditions for progress did not themselves release growth; the Revolution often altered timing rather than the direction of long-standing trends.",
+            "acceptable_access": [
+              "French economy—structural continuity",
+              "Investment—land preference",
+              "Economic modernization—limits",
+              "Internal customs barriers--abolition",
+              "Guild abolition",
+              "Le Chapelier Law--labour organization",
+              "Venal-office abolition--land investment"
+            ],
+            "document_pages": [
+              405,
+              424
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "c33f0b803cd8c77f5bd72e3ffb57ece9e26fdf8e95a1181b3151b6bc446643ae",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "405 names abolition of venal office as removal of an alternative investment. Combine this with stage8’s legal preconditions versus actual enterprise distinction; neither mechanism supplants the other.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 94,
+      "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0180",
+        "CORR-007-LEGACY-0181"
+      ],
+      "source_correction_row_sha256s": [
+        "87aed2d129ceef66b22c26cf4fca990ba23f82a1bf4a25dd18c2a666d9546c1e",
+        "16e9eb0138a1b51133298929fab45d259b1803cc0789f6544c261366d39f1646"
+      ],
+      "before_record": {
+        "label": "Burke’s Reflections: inherited order, conspiracy and revolutionary predictions",
+        "priority": "essential",
+        "meaning": "Burke opposed abstract rights and sudden constitutional reconstruction through an account of inherited institutions, property and social order. He attributed revolutionary destruction to intellectual and financial conspirators and predicted military domination. His criticism linked confiscation of Church land, paper currency and ecclesiastical reconstruction to the destruction of inherited order.",
+        "stance": "Burke’s arguments are influential polemic attributed to him, not Doyle’s endorsement of either the old regime or a French conspiracy. The source records his predictions of provincial disintegration, currency collapse and military rule without here explicitly adjudicating their later accuracy.",
+        "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+        "acceptable_access": [
+          "Burke, Edmund—Reflections on the Revolution in France",
+          "Reflections on the Revolution in France",
+          "Burke, Edmund—critique of the French Revolution",
+          "Burke, Edmund—Reflections",
+          "French Revolution—Burke's interpretation",
+          "tradition and revolution—Burke",
+          "Burke—property and Church",
+          "Burke—assignats",
+          "Reflections—church nationalization",
+          "Reflections—social composition of Assembly",
+          "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+          "French Revolution—Burke's conspiracy theory",
+          "Burke, Edmund—predictions of military dictatorship",
+          "Burke—conspiracy theory",
+          "philosophic conspiracy and French Revolution",
+          "moneyed interest—Burke",
+          "Illuminati—Burke's use",
+          "Burke—predictions for France",
+          "military dictatorship—Burke's forecast",
+          "Reflections—anarchy and bankruptcy",
+          "popular general—Burke"
+        ],
+        "evidence": [
+          {
+            "document_page": 166,
+            "source_page_label": "166",
+            "locator_class": "supporting",
+            "evidence_summary": "The pamphlet appeared in November 1790 as a forceful guide for uncertain European opinion.",
+            "evidence_id": "EVID-SUCC-B017F5C77998",
+            "source_local_subject_id": "SUCC-C007-S017",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 167,
+            "source_page_label": "167",
+            "locator_class": "principal",
+            "evidence_summary": "Burke contrasted the preservation of English liberty in 1688 with France's rejection of inherited civil order.",
+            "evidence_id": "EVID-SUCC-68929A46A2F3",
+            "source_local_subject_id": "SUCC-C007-S017",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 168,
+            "source_page_label": "168",
+            "locator_class": "principal",
+            "evidence_summary": "He condemned church-land confiscation and assignats and predicted religious destruction, anarchy, and eventual military mastery.",
+            "evidence_id": "EVID-SUCC-E73FA68E697F",
+            "source_local_subject_id": "SUCC-C007-S017",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 168,
+            "source_page_label": "168",
+            "locator_class": "principal",
+            "evidence_summary": "Burke blamed moneyed interests and a philosophic literary cabal, then predicted provincial rupture, currency collapse, and a commanding general.",
+            "evidence_id": "EVID-SUCC-4204BB1A9567",
+            "source_local_subject_id": "SUCC-C007-S019",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S017",
+            "label": "Burke, Edmund—Reflections on the Revolution in France",
+            "meaning": "Burke's 1790 pamphlet offered the most influential early conservative interpretation of the Revolution.",
+            "stance": "It defended inherited institutions and property while condemning French rupture, expropriation, paper money, and church policy.",
+            "acceptable_access": [
+              "Burke, Edmund—Reflections on the Revolution in France",
+              "Reflections on the Revolution in France",
+              "Burke, Edmund—critique of the French Revolution",
+              "Burke, Edmund—Reflections",
+              "French Revolution—Burke's interpretation",
+              "tradition and revolution—Burke",
+              "Burke—property and Church",
+              "Burke—assignats",
+              "Reflections—church nationalization",
+              "Reflections—social composition of Assembly"
+            ],
+            "document_pages": [
+              166,
+              167,
+              168
+            ]
+          },
+          {
+            "local_subject_id": "SUCC-C007-S019",
+            "label": "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+            "meaning": "Burke explained the Revolution through an alliance of moneyed interests and Enlightenment philosophers and forecast political and financial collapse.",
+            "stance": "Doyle attributes these predictions and the conspiracy explanation to Burke; their inclusion does not establish the alleged conspiracy or explicitly adjudicate the predictions’ accuracy here.",
+            "acceptable_access": [
+              "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+              "French Revolution—Burke's conspiracy theory",
+              "Burke, Edmund—predictions of military dictatorship",
+              "Burke—conspiracy theory",
+              "philosophic conspiracy and French Revolution",
+              "moneyed interest—Burke",
+              "Illuminati—Burke's use",
+              "Burke—predictions for France",
+              "military dictatorship—Burke's forecast",
+              "Reflections—anarchy and bankruptcy",
+              "popular general—Burke"
+            ],
+            "document_pages": [
+              168
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S017",
+          "SUCC-C007-S019"
+        ],
+        "editorial_rationale": "The conspiracy explanation and predictions are components of Reflections, not a second separately weighted Burke requirement. The Burke–Paine controversy remains a distinct comparative reception question.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S017",
+            "label": "Burke, Edmund—Reflections on the Revolution in France",
+            "meaning": "Burke's 1790 pamphlet offered the most influential early conservative interpretation of the Revolution.",
+            "stance": "It defended inherited institutions and property while condemning French rupture, expropriation, paper money, and church policy.",
+            "acceptable_access": [
+              "Burke, Edmund—Reflections on the Revolution in France",
+              "Reflections on the Revolution in France",
+              "Burke, Edmund—critique of the French Revolution",
+              "Burke, Edmund—Reflections",
+              "French Revolution—Burke's interpretation",
+              "tradition and revolution—Burke",
+              "Burke—property and Church",
+              "Burke—assignats",
+              "Reflections—church nationalization",
+              "Reflections—social composition of Assembly"
+            ],
+            "document_pages": [
+              166,
+              167,
+              168
+            ],
+            "independently_weighted": false
+          },
+          {
+            "facet_id": "FACET-SUCC-C007-S019",
+            "label": "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+            "meaning": "Burke explained the Revolution through an alliance of moneyed interests and Enlightenment philosophers and forecast political and financial collapse.",
+            "stance": "Doyle attributes these predictions and the conspiracy explanation to Burke; their inclusion does not establish the alleged conspiracy or explicitly adjudicate the predictions’ accuracy here.",
+            "acceptable_access": [
+              "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+              "French Revolution—Burke's conspiracy theory",
+              "Burke, Edmund—predictions of military dictatorship",
+              "Burke—conspiracy theory",
+              "philosophic conspiracy and French Revolution",
+              "moneyed interest—Burke",
+              "Illuminati—Burke's use",
+              "Burke—predictions for France",
+              "military dictatorship—Burke's forecast",
+              "Reflections—anarchy and bankruptcy",
+              "popular general—Burke"
+            ],
+            "document_pages": [
+              168
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "963c23c780ffd9c2370944c8123cb3d28184a0afd7b3778e9060960698b509ed",
+      "proposed_record": {
+        "label": "Burke’s Reflections: inherited order, conspiracy and revolutionary predictions",
+        "priority": "essential",
+        "meaning": "Burke opposed abstract rights and sudden constitutional reconstruction through an account of inherited institutions, property and social order. He attributed revolutionary destruction to intellectual and financial conspirators and predicted military domination. His criticism linked confiscation of Church land, paper currency and ecclesiastical reconstruction to the destruction of inherited order. His French conspiracy interpretation drew authority from published Bavarian Illuminati documents, extending an existing explanatory pattern to France.",
+        "stance": "Burke’s arguments are influential polemic attributed to him, not Doyle’s endorsement of either the old regime or a French conspiracy. The source records his predictions of provincial disintegration, currency collapse and military rule without here explicitly adjudicating their later accuracy.",
+        "subject_id": "SUBJ-SUCC-A7A6CD1D7787",
+        "acceptable_access": [
+          "Burke, Edmund—Reflections on the Revolution in France",
+          "Reflections on the Revolution in France",
+          "Burke, Edmund—critique of the French Revolution",
+          "Burke, Edmund—Reflections",
+          "French Revolution—Burke's interpretation",
+          "tradition and revolution—Burke",
+          "Burke—property and Church",
+          "Burke—assignats",
+          "Reflections—church nationalization",
+          "Reflections—social composition of Assembly",
+          "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+          "French Revolution—Burke's conspiracy theory",
+          "Burke, Edmund—predictions of military dictatorship",
+          "Burke—conspiracy theory",
+          "philosophic conspiracy and French Revolution",
+          "moneyed interest—Burke",
+          "Illuminati—Burke's use",
+          "Burke—predictions for France",
+          "military dictatorship—Burke's forecast",
+          "Reflections—anarchy and bankruptcy",
+          "popular general—Burke"
+        ],
+        "evidence": [
+          {
+            "document_page": 166,
+            "source_page_label": "166",
+            "locator_class": "supporting",
+            "evidence_summary": "The pamphlet appeared in November 1790 as a forceful guide for uncertain European opinion.",
+            "evidence_id": "EVID-SUCC-B017F5C77998",
+            "source_local_subject_id": "SUCC-C007-S017",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 167,
+            "source_page_label": "167",
+            "locator_class": "principal",
+            "evidence_summary": "Burke contrasted the preservation of English liberty in 1688 with France's rejection of inherited civil order.",
+            "evidence_id": "EVID-SUCC-68929A46A2F3",
+            "source_local_subject_id": "SUCC-C007-S017",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 168,
+            "source_page_label": "168",
+            "locator_class": "principal",
+            "evidence_summary": "He condemned church-land confiscation and assignats and predicted religious destruction, anarchy, and eventual military mastery.",
+            "evidence_id": "EVID-SUCC-E73FA68E697F",
+            "source_local_subject_id": "SUCC-C007-S017",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 168,
+            "source_page_label": "168",
+            "locator_class": "principal",
+            "evidence_summary": "Burke blamed resentful moneyed interests and an anti-Christian philosophic cabal, drawing on published evidence of the Bavarian Illuminati to lend authority to his French conspiracy interpretation. He also predicted provincial rupture, currency collapse and military mastery.",
+            "evidence_id": "EVID-SUCC-4204BB1A9567",
+            "source_local_subject_id": "SUCC-C007-S019",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S017",
+            "label": "Burke, Edmund—Reflections on the Revolution in France",
+            "meaning": "Burke's 1790 pamphlet offered the most influential early conservative interpretation of the Revolution.",
+            "stance": "It defended inherited institutions and property while condemning French rupture, expropriation, paper money, and church policy.",
+            "acceptable_access": [
+              "Burke, Edmund—Reflections on the Revolution in France",
+              "Reflections on the Revolution in France",
+              "Burke, Edmund—critique of the French Revolution",
+              "Burke, Edmund—Reflections",
+              "French Revolution—Burke's interpretation",
+              "tradition and revolution—Burke",
+              "Burke—property and Church",
+              "Burke—assignats",
+              "Reflections—church nationalization",
+              "Reflections—social composition of Assembly"
+            ],
+            "document_pages": [
+              166,
+              167,
+              168
+            ]
+          },
+          {
+            "local_subject_id": "SUCC-C007-S019",
+            "label": "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+            "meaning": "Burke explained the Revolution through an alliance of moneyed interests and Enlightenment philosophers and forecast political and financial collapse. His French extrapolation drew authority from published documents establishing the Bavarian Illuminati plot, without establishing a corresponding French conspiracy.",
+            "stance": "Doyle attributes these predictions and the conspiracy explanation to Burke; their inclusion does not establish the alleged conspiracy or explicitly adjudicate the predictions’ accuracy here.",
+            "acceptable_access": [
+              "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+              "French Revolution—Burke's conspiracy theory",
+              "Burke, Edmund—predictions of military dictatorship",
+              "Burke—conspiracy theory",
+              "philosophic conspiracy and French Revolution",
+              "moneyed interest—Burke",
+              "Illuminati—Burke's use",
+              "Burke—predictions for France",
+              "military dictatorship—Burke's forecast",
+              "Reflections—anarchy and bankruptcy",
+              "popular general—Burke"
+            ],
+            "document_pages": [
+              168
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S017",
+          "SUCC-C007-S019"
+        ],
+        "editorial_rationale": "The conspiracy explanation and predictions are components of Reflections, not a second separately weighted Burke requirement. The Burke–Paine controversy remains a distinct comparative reception question.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S017",
+            "label": "Burke, Edmund—Reflections on the Revolution in France",
+            "meaning": "Burke's 1790 pamphlet offered the most influential early conservative interpretation of the Revolution.",
+            "stance": "It defended inherited institutions and property while condemning French rupture, expropriation, paper money, and church policy.",
+            "acceptable_access": [
+              "Burke, Edmund—Reflections on the Revolution in France",
+              "Reflections on the Revolution in France",
+              "Burke, Edmund—critique of the French Revolution",
+              "Burke, Edmund—Reflections",
+              "French Revolution—Burke's interpretation",
+              "tradition and revolution—Burke",
+              "Burke—property and Church",
+              "Burke—assignats",
+              "Reflections—church nationalization",
+              "Reflections—social composition of Assembly"
+            ],
+            "document_pages": [
+              166,
+              167,
+              168
+            ],
+            "independently_weighted": false
+          },
+          {
+            "facet_id": "FACET-SUCC-C007-S019",
+            "label": "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+            "meaning": "Burke explained the Revolution through an alliance of moneyed interests and Enlightenment philosophers and forecast political and financial collapse. His French extrapolation drew authority from published documents establishing the Bavarian Illuminati plot, without establishing a corresponding French conspiracy.",
+            "stance": "Doyle attributes these predictions and the conspiracy explanation to Burke; their inclusion does not establish the alleged conspiracy or explicitly adjudicate the predictions’ accuracy here.",
+            "acceptable_access": [
+              "Burke, Edmund—conspiracy theory and predictions for revolutionary France",
+              "French Revolution—Burke's conspiracy theory",
+              "Burke, Edmund—predictions of military dictatorship",
+              "Burke—conspiracy theory",
+              "philosophic conspiracy and French Revolution",
+              "moneyed interest—Burke",
+              "Illuminati—Burke's use",
+              "Burke—predictions for France",
+              "military dictatorship—Burke's forecast",
+              "Reflections—anarchy and bankruptcy",
+              "popular general—Burke"
+            ],
+            "document_pages": [
+              168
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "c6439eb3073d51e6fb57dfe399de78a985b324960eb39f4211a44cefe5216529",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "168 supports the Bavarian documentary precedent and attributed predictions. Keep the existing Church-property, paper-currency and ecclesiastical critique and distinguish Burke’s French extrapolation from the demonstrated Bavarian plot.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 95,
+      "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0182",
+        "CORR-007-LEGACY-0183",
+        "CORR-007-LEGACY-0207",
+        "CORR-007-LEGACY-0208",
+        "CORR-007-LEGACY-0312",
+        "CORR-007-LEGACY-0313"
+      ],
+      "source_correction_row_sha256s": [
+        "64058dddf518f84295538fe1c8604b3e64506b94633f8d3e46ed580713625c16",
+        "c67cccd087914e3c8950c82a85da5608392e7196a7d1ad8da0caccf24b58acfb",
+        "b1eafae29541168da6ded0ccba84baa887331f7eb4189c900005b24ac9e2ddcc",
+        "6b2f0b4974a42f106676c513c49ba5b1e51f865a44fab18e47c12e76a00d9bc0",
+        "f5c35e8556737e5b1271bded1869bae34e0af52d908d32c3e8c4f0b3173a6053",
+        "37e63855c5105365b6f57fa0dc5b7d82414e5145ebdf66d6a6c4ce2e0a49763c"
+      ],
+      "before_record": {
+        "label": "Popular anti-revolution and rural resistance",
+        "priority": "major",
+        "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion.",
+        "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy. Doyle judges this anti-revolutionary resistance more broadly popular than the sansculotte movement usually given that description.",
+        "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+        "acceptable_access": [
+          "Anti-revolution—popular movement",
+          "Popular resistance—French Revolution",
+          "Conscription—evasion",
+          "Vendée and chouannerie",
+          "Insoumis",
+          "Deserters and rural banditry--social protest",
+          "Community autonomy versus restoration",
+          "Popular anti-revolution versus organized counter-revolution"
+        ],
+        "evidence": [
+          {
+            "document_page": 406,
+            "source_page_label": "406",
+            "locator_class": "principal",
+            "evidence_summary": "Regional rebellions, peasant and worker emigration, Terror victims, draft evasion and rural crime indicate mass popular resistance. Doyle explicitly judges anti-revolution more broadly popular than the sansculotte movement.",
+            "evidence_id": "EVID-SUCC-9D762CF00E0F",
+            "source_local_subject_id": "SUCC-C017-S018",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 407,
+            "source_page_label": "407",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Sansculotte mistrust of wealthy urban patriots and defense of community expectations paralleled peasant antagonism; both ended with few material gains.",
+            "evidence_id": "EVID-SUCC-87FE93180337",
+            "source_local_subject_id": "SUCC-C017-S018",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S018",
+            "label": "Popular anti-revolution and rural resistance",
+            "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion.",
+            "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy. Doyle judges this anti-revolutionary resistance more broadly popular than the sansculotte movement usually given that description.",
+            "acceptable_access": [
+              "Anti-revolution—popular movement",
+              "Popular resistance—French Revolution",
+              "Conscription—evasion",
+              "Vendée and chouannerie",
+              "Insoumis",
+              "Deserters and rural banditry--social protest",
+              "Community autonomy versus restoration",
+              "Popular anti-revolution versus organized counter-revolution"
+            ],
+            "document_pages": [
+              406,
+              407
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S018"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S018",
+            "label": "Popular anti-revolution and rural resistance",
+            "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion.",
+            "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy. Doyle judges this anti-revolutionary resistance more broadly popular than the sansculotte movement usually given that description.",
+            "acceptable_access": [
+              "Anti-revolution—popular movement",
+              "Popular resistance—French Revolution",
+              "Conscription—evasion",
+              "Vendée and chouannerie",
+              "Insoumis",
+              "Deserters and rural banditry--social protest",
+              "Community autonomy versus restoration",
+              "Popular anti-revolution versus organized counter-revolution"
+            ],
+            "document_pages": [
+              406,
+              407
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "405ccdc30b2ac936c99bbd350de896963583ffedb6553826ddb0ca523b2097e9",
+      "proposed_record": {
+        "label": "Popular anti-revolution and rural resistance",
+        "priority": "major",
+        "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion. In the west, religious policy damaged village bonds while predominantly tenant peasants gained relatively little from feudal abolition. Renewed levies and systematic conscription drove mass evasion and armed rural bands; their criminal label could obscure a form of social protest against intrusive government.",
+        "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy. Doyle judges this anti-revolutionary resistance more broadly popular than the sansculotte movement usually given that description.",
+        "subject_id": "SUBJ-SUCC-191FA6C1BCC9",
+        "acceptable_access": [
+          "Anti-revolution—popular movement",
+          "Popular resistance—French Revolution",
+          "Conscription—evasion",
+          "Vendée and chouannerie",
+          "Insoumis",
+          "Deserters and rural banditry--social protest",
+          "Community autonomy versus restoration",
+          "Popular anti-revolution versus organized counter-revolution"
+        ],
+        "evidence": [
+          {
+            "document_page": 406,
+            "source_page_label": "406",
+            "locator_class": "principal",
+            "evidence_summary": "Rebellions, worker/peasant emigration and Terror victims, draft evasion and rural crime indicate broad resistance to upheaval and intrusive government. Doyle distinguishes this quest for stability/autonomy from organized restoration and calls it more socially extensive than the sansculotte movement. Western resistance especially reflected religious disruption of village bonds and the limited benefit of abolished dues to tenants. Renewed military levies and systematic conscription helped produce deserter bands and rural crime, interpreted here as a classic form of protest rather than solely ordinary criminality.",
+            "evidence_id": "EVID-SUCC-9D762CF00E0F",
+            "source_local_subject_id": "SUCC-C017-S018",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 407,
+            "source_page_label": "407",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Sansculotte mistrust of wealthy urban patriots and defense of community expectations paralleled peasant antagonism; both ended with few material gains.",
+            "evidence_id": "EVID-SUCC-87FE93180337",
+            "source_local_subject_id": "SUCC-C017-S018",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S018",
+            "label": "Popular anti-revolution and rural resistance",
+            "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion. In the west, religious policy damaged village bonds while predominantly tenant peasants gained relatively little from feudal abolition. Renewed levies and systematic conscription drove mass evasion and armed rural bands; their criminal label could obscure a form of social protest against intrusive government.",
+            "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy. Doyle judges this anti-revolutionary resistance more broadly popular than the sansculotte movement usually given that description.",
+            "acceptable_access": [
+              "Anti-revolution—popular movement",
+              "Popular resistance—French Revolution",
+              "Conscription—evasion",
+              "Vendée and chouannerie",
+              "Insoumis",
+              "Deserters and rural banditry--social protest",
+              "Community autonomy versus restoration",
+              "Popular anti-revolution versus organized counter-revolution"
+            ],
+            "document_pages": [
+              406,
+              407
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S018"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S018",
+            "label": "Popular anti-revolution and rural resistance",
+            "meaning": "Vendée, chouannerie, southern unrest, emigration, resistance to conscription, and rural banditry expressed a broad popular rejection of revolutionary intrusion. In the west, religious policy damaged village bonds while predominantly tenant peasants gained relatively little from feudal abolition. Renewed levies and systematic conscription drove mass evasion and armed rural bands; their criminal label could obscure a form of social protest against intrusive government.",
+            "stance": "Much resistance was anti-revolutionary rather than programmatically counter-revolutionary: ordinary people chiefly sought stability and local autonomy. Doyle judges this anti-revolutionary resistance more broadly popular than the sansculotte movement usually given that description.",
+            "acceptable_access": [
+              "Anti-revolution—popular movement",
+              "Popular resistance—French Revolution",
+              "Conscription—evasion",
+              "Vendée and chouannerie",
+              "Insoumis",
+              "Deserters and rural banditry--social protest",
+              "Community autonomy versus restoration",
+              "Popular anti-revolution versus organized counter-revolution"
+            ],
+            "document_pages": [
+              406,
+              407
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "effbdd34d45a39b83b30dc363fcf8708dfc39fcf0388e370cba66a7bbaa69f52",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "406 supports regionally specific religious/tenancy conditions, conscription-evasion bands and the interpretation of broad anti-revolution. Combine all layers while retaining the stage8 attributed comparison, without making every resistant person a restoration activist.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 96,
+      "subject_id": "SUBJ-SUCC-38D7478429CE",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0184",
+        "CORR-007-LEGACY-0185"
+      ],
+      "source_correction_row_sha256s": [
+        "f433376503dbacf88053c0a3497912485bac6c8227f58d9238dda99a8504920a",
+        "3c4b454cdf216ea156e397b1dbed0f4bcc5812f2585e1b18eddd5c553f1a22f6"
+      ],
+      "before_record": {
+        "label": "Education: revolutionary disruption and decline",
+        "priority": "major",
+        "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed. The 1795 constitution abandoned the declared educational right of 1793; departmental central schools and higher schools only partly replaced destroyed institutions, while primary schooling depended on local initiative without public funding. Comprehensive measures came only in 1802, after severe losses rather than as an immediate recovery.",
+        "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+        "subject_id": "SUBJ-SUCC-38D7478429CE",
+        "acceptable_access": [
+          "Education—effects of the French Revolution",
+          "Schools—revolutionary France",
+          "Literacy—decline",
+          "Education as a right",
+          "Central schools",
+          "Universities--suppression",
+          "Primary schools--funding and teacher shortages"
+        ],
+        "evidence": [
+          {
+            "document_page": 399,
+            "source_page_label": "399",
+            "locator_class": "principal",
+            "evidence_summary": "Lost funding, dismissed or diverted teachers and institutional dissolution created an educational vacuum. The Directory supplied central and higher schools but left primary education unfunded locally; comprehensive measures waited until 1802, and enrolment and literacy declined.",
+            "evidence_id": "EVID-SUCC-AD5D49E53C2D",
+            "source_local_subject_id": "SUCC-C017-S009",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-CB4FEB471BAB",
+            "source_evidence_id": "EVID-4D65E1C7A2FA",
+            "document_page": 398,
+            "source_page_label": "398",
+            "locator_class": "supporting",
+            "evidence_summary": "The break with clerical control left education as a major social function requiring rational reconstruction.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S018",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S009",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-8F180B970560",
+              "evidence_id": "EVID-8792E26B0636"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S009",
+            "label": "Education: revolutionary disruption and decline",
+            "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed.",
+            "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+            "acceptable_access": [
+              "Education—effects of the French Revolution",
+              "Schools—revolutionary France",
+              "Literacy—decline",
+              "Education as a right",
+              "Central schools",
+              "Universities--suppression",
+              "Primary schools--funding and teacher shortages"
+            ],
+            "document_pages": [
+              399
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S009"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S009",
+            "label": "Education: revolutionary disruption and decline",
+            "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed.",
+            "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+            "acceptable_access": [
+              "Education—effects of the French Revolution",
+              "Schools—revolutionary France",
+              "Literacy—decline",
+              "Education as a right",
+              "Central schools",
+              "Universities--suppression",
+              "Primary schools--funding and teacher shortages"
+            ],
+            "document_pages": [
+              399
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "6d0e561576a1e16e6fd9e6f7ed92fb84eecd66e9d02a21ee574b731689511b1a",
+      "proposed_record": {
+        "label": "Education: revolutionary disruption and decline",
+        "priority": "major",
+        "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed. The 1795 constitution abandoned the declared educational right of 1793; departmental central schools and higher schools only partly replaced destroyed institutions, while primary schooling depended on local initiative without public funding. Comprehensive measures came only in 1802, after severe losses rather than as an immediate recovery.",
+        "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+        "subject_id": "SUBJ-SUCC-38D7478429CE",
+        "acceptable_access": [
+          "Education—effects of the French Revolution",
+          "Schools—revolutionary France",
+          "Literacy—decline",
+          "Education as a right",
+          "Central schools",
+          "Universities--suppression",
+          "Primary schools--funding and teacher shortages"
+        ],
+        "evidence": [
+          {
+            "document_page": 399,
+            "source_page_label": "399",
+            "locator_class": "principal",
+            "evidence_summary": "Dissolution, loss of clerical teachers and confiscated revenues dismantled existing education. The 1793 constitutional right was not repeated in 1795: departmental central and Paris higher schools replaced old institutions, while primary education received no public financial provision. Teacher shortages and lower enrolment/literacy exposed the gap. Comprehensive measures to fill the vacuum came only in 1802.",
+            "evidence_id": "EVID-SUCC-AD5D49E53C2D",
+            "source_local_subject_id": "SUCC-C017-S009",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-CB4FEB471BAB",
+            "source_evidence_id": "EVID-4D65E1C7A2FA",
+            "document_page": 398,
+            "source_page_label": "398",
+            "locator_class": "supporting",
+            "evidence_summary": "The break with clerical control left education as a major social function requiring rational reconstruction.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S018",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S009",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-8F180B970560",
+              "evidence_id": "EVID-8792E26B0636"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S009",
+            "label": "Education: revolutionary disruption and decline",
+            "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed. The 1795 constitution abandoned the declared educational right of 1793; departmental central schools and higher schools only partly replaced destroyed institutions, while primary schooling depended on local initiative without public funding. Comprehensive measures came only in 1802, after severe losses rather than as an immediate recovery.",
+            "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+            "acceptable_access": [
+              "Education—effects of the French Revolution",
+              "Schools—revolutionary France",
+              "Literacy—decline",
+              "Education as a right",
+              "Central schools",
+              "Universities--suppression",
+              "Primary schools--funding and teacher shortages"
+            ],
+            "document_pages": [
+              399
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S009"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S009",
+            "label": "Education: revolutionary disruption and decline",
+            "meaning": "Revolutionary schemes for rational public education failed to replace the clerical institutions and revenues that were destroyed. The 1795 constitution abandoned the declared educational right of 1793; departmental central schools and higher schools only partly replaced destroyed institutions, while primary schooling depended on local initiative without public funding. Comprehensive measures came only in 1802, after severe losses rather than as an immediate recovery.",
+            "stance": "Despite declaring education a right, the Revolution created an educational vacuum, teacher shortages, falling enrolment, and lower literacy.",
+            "acceptable_access": [
+              "Education—effects of the French Revolution",
+              "Schools—revolutionary France",
+              "Literacy—decline",
+              "Education as a right",
+              "Central schools",
+              "Universities--suppression",
+              "Primary schools--funding and teacher shortages"
+            ],
+            "document_pages": [
+              399
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "076f251346a08559175dfd94bdc86df61804b6c9a9c9fdb0c8816747ff61a25c",
+      "fields_changed": [
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "399 supports the constitutional contrast and institutional/funding distinctions. Retain the fuller stage8 meaning and its1802 comprehensive-measures endpoint, adding explicit constitutional detail to the evidence.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 97,
+      "subject_id": "SUBJ-SUCC-BEBD3DEC1E8D",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0186",
+        "CORR-007-LEGACY-0187"
+      ],
+      "source_correction_row_sha256s": [
+        "7ea85c5888ca4f595ce5318166e3f4e3cf4cf2a61a7a2ff9dadc0459199c2d21",
+        "655eaea3b216e620e458fe8308ef336a70079f1cc5b344413a77660dca1bd376"
+      ],
+      "before_record": {
+        "label": "Neutralization of royalism and pacification of the chouans",
+        "priority": "major",
+        "meaning": "Bonaparte's tactical encouragement and eventual rejection of Bourbon restoration hopes, paired with conciliation and military suppression of western royalist insurgents. Most chouan leaders accepted terms by spring 1800, while Cadoudal continued plotting with Britain and other holdouts faced pursuit; religious concessions and the repeal of the hostage law supported pacification.",
+        "stance": "He exploited royalist expectations until military success secured his position, then denied restoration while combining religious concessions and amnesty with ruthless coercion.",
+        "subject_id": "SUBJ-SUCC-BEBD3DEC1E8D",
+        "acceptable_access": [
+          "Royalism -- Bonaparte's policy",
+          "Louis XVIII -- correspondence with Bonaparte",
+          "Chouans -- pacification",
+          "Cadoudal, Georges -- opposition to the Consulate",
+          "General Monck analogy",
+          "Religious concessions--western pacification"
+        ],
+        "evidence": [
+          {
+            "document_page": 382,
+            "source_page_label": "382",
+            "locator_class": "principal",
+            "evidence_summary": "Bonaparte kept restoration hopes alive while offering religious reassurance and repeal of the hostage law. Most chouan leaders made peace by spring 1800, but Cadoudal continued British-linked plotting and remaining holdouts faced coercion. After military victory secured his position, Bonaparte rejected Louis XVIII’s overture.",
+            "evidence_id": "EVID-SUCC-01013736EAAC",
+            "source_local_subject_id": "SUCC-C016-S021",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 383,
+            "source_page_label": "383",
+            "locator_class": "supporting",
+            "evidence_summary": "Amnesty and selective tolerance draw former armed opponents back while royalist conspiracy continues through Cadoudal.",
+            "evidence_id": "EVID-SUCC-EF01DCDCBFC2",
+            "source_local_subject_id": "SUCC-C016-S021",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "evidence_id": "EVID-SUCC-EA75EEFA080D",
+            "source_evidence_id": "EVID-9E156AB06F23",
+            "document_page": 381,
+            "source_page_label": "381",
+            "locator_class": "supporting",
+            "evidence_summary": "The chapter recalls prewar polarization over kingship and the contentious creation of the Republic as the background to later restoration hopes.",
+            "provenance": {
+              "chunk_id": "CHUNK-016",
+              "local_subject_id": "CH16-SUBJ-038",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+              "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+            },
+            "source_local_subject_id": "SUCC-C016-S021",
+            "source_chunk_id": "CHUNK-016",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-2A5CB60E6B9C",
+              "evidence_id": "EVID-316D64C53D65"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S021",
+            "label": "Neutralization of royalism and pacification of the chouans",
+            "meaning": "Bonaparte's tactical encouragement and eventual rejection of Bourbon restoration hopes, paired with conciliation and military suppression of western royalist insurgents. Most chouan leaders accepted terms by spring 1800, while Cadoudal continued plotting with Britain and other holdouts faced pursuit; religious concessions and the repeal of the hostage law supported pacification.",
+            "stance": "He exploited royalist expectations until military success secured his position, then denied restoration while combining religious concessions and amnesty with ruthless coercion.",
+            "acceptable_access": [
+              "Royalism -- Bonaparte's policy",
+              "Louis XVIII -- correspondence with Bonaparte",
+              "Chouans -- pacification",
+              "Cadoudal, Georges -- opposition to the Consulate",
+              "General Monck analogy",
+              "Religious concessions--western pacification"
+            ],
+            "document_pages": [
+              381,
+              382,
+              383
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S021",
+            "label": "Neutralization of royalism and pacification of the chouans",
+            "meaning": "Bonaparte's tactical encouragement and eventual rejection of Bourbon restoration hopes, paired with conciliation and military suppression of western royalist insurgents. Most chouan leaders accepted terms by spring 1800, while Cadoudal continued plotting with Britain and other holdouts faced pursuit; religious concessions and the repeal of the hostage law supported pacification.",
+            "stance": "He exploited royalist expectations until military success secured his position, then denied restoration while combining religious concessions and amnesty with ruthless coercion.",
+            "acceptable_access": [
+              "Royalism -- Bonaparte's policy",
+              "Louis XVIII -- correspondence with Bonaparte",
+              "Chouans -- pacification",
+              "Cadoudal, Georges -- opposition to the Consulate",
+              "General Monck analogy",
+              "Religious concessions--western pacification"
+            ],
+            "document_pages": [
+              381,
+              382,
+              383
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "b12c6e29bc41a003b1ef81b181fa7bc5e111b901ecda25b351ee1bc60065efa0",
+      "proposed_record": {
+        "label": "Neutralization of royalism and pacification of the chouans",
+        "priority": "major",
+        "meaning": "Bonaparte's tactical encouragement and eventual rejection of Bourbon restoration hopes, paired with conciliation and military suppression of western royalist insurgents. Most chouan leaders accepted terms by spring 1800, while Cadoudal continued plotting with Britain and other holdouts faced pursuit; religious concessions and the repeal of the hostage law supported pacification. Guarantees of worship and direct personal appeals to chouan leaders were part of that bargain.",
+        "stance": "He exploited royalist expectations until military success secured his position, then denied restoration while combining religious concessions and amnesty with ruthless coercion.",
+        "subject_id": "SUBJ-SUCC-BEBD3DEC1E8D",
+        "acceptable_access": [
+          "Royalism -- Bonaparte's policy",
+          "Louis XVIII -- correspondence with Bonaparte",
+          "Chouans -- pacification",
+          "Cadoudal, Georges -- opposition to the Consulate",
+          "General Monck analogy",
+          "Religious concessions--western pacification"
+        ],
+        "evidence": [
+          {
+            "document_page": 382,
+            "source_page_label": "382",
+            "locator_class": "principal",
+            "evidence_summary": "Bonaparte kept restoration hopes alive while offering guarantees of worship, hostage-law repeal and personal overtures. Most chouan leaders made peace by spring 1800, but Cadoudal continued British-linked plotting and remaining holdouts faced coercion. Pacification freed western garrison troops for the Marengo campaign; after that victory secured his position, Bonaparte explicitly rejected Louis XVIII’s return.",
+            "evidence_id": "EVID-SUCC-01013736EAAC",
+            "source_local_subject_id": "SUCC-C016-S021",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "document_page": 383,
+            "source_page_label": "383",
+            "locator_class": "supporting",
+            "evidence_summary": "Amnesty and selective tolerance draw former armed opponents back while royalist conspiracy continues through Cadoudal.",
+            "evidence_id": "EVID-SUCC-EF01DCDCBFC2",
+            "source_local_subject_id": "SUCC-C016-S021",
+            "source_chunk_id": "CHUNK-016"
+          },
+          {
+            "evidence_id": "EVID-SUCC-EA75EEFA080D",
+            "source_evidence_id": "EVID-9E156AB06F23",
+            "document_page": 381,
+            "source_page_label": "381",
+            "locator_class": "supporting",
+            "evidence_summary": "The chapter recalls prewar polarization over kingship and the contentious creation of the Republic as the background to later restoration hopes.",
+            "provenance": {
+              "chunk_id": "CHUNK-016",
+              "local_subject_id": "CH16-SUBJ-038",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+              "source_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b"
+            },
+            "source_local_subject_id": "SUCC-C016-S021",
+            "source_chunk_id": "CHUNK-016",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-2A5CB60E6B9C",
+              "evidence_id": "EVID-316D64C53D65"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-016"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C016-S021",
+            "label": "Neutralization of royalism and pacification of the chouans",
+            "meaning": "Bonaparte's tactical encouragement and eventual rejection of Bourbon restoration hopes, paired with conciliation and military suppression of western royalist insurgents. Most chouan leaders accepted terms by spring 1800, while Cadoudal continued plotting with Britain and other holdouts faced pursuit; religious concessions and the repeal of the hostage law supported pacification. Guarantees of worship and direct personal appeals to chouan leaders were part of that bargain.",
+            "stance": "He exploited royalist expectations until military success secured his position, then denied restoration while combining religious concessions and amnesty with ruthless coercion.",
+            "acceptable_access": [
+              "Royalism -- Bonaparte's policy",
+              "Louis XVIII -- correspondence with Bonaparte",
+              "Chouans -- pacification",
+              "Cadoudal, Georges -- opposition to the Consulate",
+              "General Monck analogy",
+              "Religious concessions--western pacification"
+            ],
+            "document_pages": [
+              381,
+              382,
+              383
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C016-S021"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C016-S021",
+            "label": "Neutralization of royalism and pacification of the chouans",
+            "meaning": "Bonaparte's tactical encouragement and eventual rejection of Bourbon restoration hopes, paired with conciliation and military suppression of western royalist insurgents. Most chouan leaders accepted terms by spring 1800, while Cadoudal continued plotting with Britain and other holdouts faced pursuit; religious concessions and the repeal of the hostage law supported pacification. Guarantees of worship and direct personal appeals to chouan leaders were part of that bargain.",
+            "stance": "He exploited royalist expectations until military success secured his position, then denied restoration while combining religious concessions and amnesty with ruthless coercion.",
+            "acceptable_access": [
+              "Royalism -- Bonaparte's policy",
+              "Louis XVIII -- correspondence with Bonaparte",
+              "Chouans -- pacification",
+              "Cadoudal, Georges -- opposition to the Consulate",
+              "General Monck analogy",
+              "Religious concessions--western pacification"
+            ],
+            "document_pages": [
+              381,
+              382,
+              383
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "639b47cfdf66a7c71f224363bd684d77b6d2d10918b698516a145337de6890ab",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "382 supports worship/hostage concessions and direct personal appeals, freeing garrison troops and the later dynastic refusal. Preserve Cadoudal’s continuing British-linked plotting and the spring1800 qualification.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 98,
+      "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0188",
+        "CORR-007-LEGACY-0189",
+        "CORR-007-LEGACY-0355"
+      ],
+      "source_correction_row_sha256s": [
+        "58bab04be2b955faa1780716a6e1898e8c2ea3c7f6c804e03cd0d8166fd62134",
+        "683c112139588421f294cd2b46ba38913046ff5820604766b587d6aea90b7ea8",
+        "722294b7d7c20dd756f9b730b80a101823e4b97b1456014753f3d29a9e587f32"
+      ],
+      "before_record": {
+        "label": "French Revolution—internationalization and the approach of war",
+        "priority": "essential",
+        "meaning": "Universal claims, exile politics, émigré mobilization, and revolutionary defiance ended Europe's ability to observe France from a distance. The annexation of Avignon was a concrete, low-cost gesture of defiance because it required no troops despite France’s military weakness; it illustrated the approaching end of European detachment rather than alone causing war.",
+        "stance": "The chapter concludes that French revolutionaries would increasingly externalize domestic problems, even though immediate foreign intervention remained weak.",
+        "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+        "acceptable_access": [
+          "French Revolution—internationalization and the approach of war",
+          "Revolutionary war—origins in 1790-1791",
+          "French Revolution—export of revolutionary principles",
+          "Europe and France—end of diplomatic detachment",
+          "foreign plot against the Revolution—early fears",
+          "counterrevolution—international conspiracy fears",
+          "Austria—troop passage through France",
+          "French invasion fears, 1790",
+          "Avignon—annexation by France",
+          "French foreign policy—Avignon",
+          "Constituent Assembly—final foreign-policy gesture",
+          "Europe and the French Revolution—end of detachment",
+          "origins of revolutionary war",
+          "internationalization of the French Revolution",
+          "export of revolution—approach to war"
+        ],
+        "evidence": [
+          {
+            "document_page": 165,
+            "source_page_label": "165",
+            "locator_class": "supporting",
+            "evidence_summary": "French fears of an international plot first emerged around Austrian troop movements, although no such coalition then existed.",
+            "evidence_id": "EVID-SUCC-D85D740F0695",
+            "source_local_subject_id": "SUCC-C007-S034",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 172,
+            "source_page_label": "172",
+            "locator_class": "supporting",
+            "evidence_summary": "Exiles urged France to challenge European despots in the name of universal revolutionary principles.",
+            "evidence_id": "EVID-SUCC-0A09D6930CF0",
+            "source_local_subject_id": "SUCC-C007-S034",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 173,
+            "source_page_label": "173",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Avignon’s annexation required no troops and supplied a cheap final gesture of defiance despite military weakness. The chapter concludes that European detachment was ending and revolutionaries would increasingly transfer their problems to neighboring states.",
+            "evidence_id": "EVID-SUCC-534066BB0ED1",
+            "source_local_subject_id": "SUCC-C007-S034",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S034",
+            "label": "French Revolution—internationalization and the approach of war",
+            "meaning": "Universal claims, exile politics, émigré mobilization, and revolutionary defiance ended Europe's ability to observe France from a distance.",
+            "stance": "The chapter concludes that French revolutionaries would increasingly externalize domestic problems, even though immediate foreign intervention remained weak.",
+            "acceptable_access": [
+              "French Revolution—internationalization and the approach of war",
+              "Revolutionary war—origins in 1790-1791",
+              "French Revolution—export of revolutionary principles",
+              "Europe and France—end of diplomatic detachment",
+              "foreign plot against the Revolution—early fears",
+              "counterrevolution—international conspiracy fears",
+              "Austria—troop passage through France",
+              "French invasion fears, 1790",
+              "Avignon—annexation by France",
+              "French foreign policy—Avignon",
+              "Constituent Assembly—final foreign-policy gesture",
+              "Europe and the French Revolution—end of detachment",
+              "origins of revolutionary war",
+              "internationalization of the French Revolution",
+              "export of revolution—approach to war"
+            ],
+            "document_pages": [
+              165,
+              172,
+              173
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S034"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S034",
+            "label": "French Revolution—internationalization and the approach of war",
+            "meaning": "Universal claims, exile politics, émigré mobilization, and revolutionary defiance ended Europe's ability to observe France from a distance.",
+            "stance": "The chapter concludes that French revolutionaries would increasingly externalize domestic problems, even though immediate foreign intervention remained weak.",
+            "acceptable_access": [
+              "French Revolution—internationalization and the approach of war",
+              "Revolutionary war—origins in 1790-1791",
+              "French Revolution—export of revolutionary principles",
+              "Europe and France—end of diplomatic detachment",
+              "foreign plot against the Revolution—early fears",
+              "counterrevolution—international conspiracy fears",
+              "Austria—troop passage through France",
+              "French invasion fears, 1790",
+              "Avignon—annexation by France",
+              "French foreign policy—Avignon",
+              "Constituent Assembly—final foreign-policy gesture",
+              "Europe and the French Revolution—end of detachment",
+              "origins of revolutionary war",
+              "internationalization of the French Revolution",
+              "export of revolution—approach to war"
+            ],
+            "document_pages": [
+              165,
+              172,
+              173
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "43770317c79f28d9b06db3f1ddaf5306c7696c62b3270290b679322e177a8954",
+      "proposed_record": {
+        "label": "French Revolution—internationalization and the approach of war",
+        "priority": "essential",
+        "meaning": "Universal claims, exile politics, émigré mobilization, and revolutionary defiance ended Europe's ability to observe France from a distance. The annexation of Avignon was a concrete, low-cost gesture of defiance because it required no troops despite France’s military weakness; it illustrated the approaching end of European detachment rather than alone causing war.",
+        "stance": "The chapter concludes that French revolutionaries would increasingly externalize domestic problems, even though immediate foreign intervention remained weak. Early fears generated by Austrian troop-passage requests in 1790 were mistaken: royal wishes did not constitute a great-power plan, and continental rulers were focused on Poland.",
+        "subject_id": "SUBJ-SUCC-EC754A2F9F6B",
+        "acceptable_access": [
+          "French Revolution—internationalization and the approach of war",
+          "Revolutionary war—origins in 1790-1791",
+          "French Revolution—export of revolutionary principles",
+          "Europe and France—end of diplomatic detachment",
+          "foreign plot against the Revolution—early fears",
+          "counterrevolution—international conspiracy fears",
+          "Austria—troop passage through France",
+          "French invasion fears, 1790",
+          "Avignon—annexation by France",
+          "French foreign policy—Avignon",
+          "Constituent Assembly—final foreign-policy gesture",
+          "Europe and the French Revolution—end of detachment",
+          "origins of revolutionary war",
+          "internationalization of the French Revolution",
+          "export of revolution—approach to war"
+        ],
+        "evidence": [
+          {
+            "document_page": 165,
+            "source_page_label": "165",
+            "locator_class": "supporting",
+            "evidence_summary": "French fears of an international plot first emerged around Austrian troop movements, although no such coalition then existed.",
+            "evidence_id": "EVID-SUCC-D85D740F0695",
+            "source_local_subject_id": "SUCC-C007-S034",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 172,
+            "source_page_label": "172",
+            "locator_class": "supporting",
+            "evidence_summary": "Exiles urged France to challenge European despots in the name of universal revolutionary principles.",
+            "evidence_id": "EVID-SUCC-0A09D6930CF0",
+            "source_local_subject_id": "SUCC-C007-S034",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 173,
+            "source_page_label": "173",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Avignon’s annexation required no troops and supplied a cheap final gesture of defiance despite military weakness. The chapter concludes that European detachment was ending and revolutionaries would increasingly transfer their problems to neighboring states.",
+            "evidence_id": "EVID-SUCC-534066BB0ED1",
+            "source_local_subject_id": "SUCC-C007-S034",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S034",
+            "label": "French Revolution—internationalization and the approach of war",
+            "meaning": "Universal claims, exile politics, émigré mobilization, and revolutionary defiance ended Europe's ability to observe France from a distance. The annexation of Avignon was a concrete, low-cost gesture of defiance because it required no troops despite France’s military weakness; it illustrated the approaching end of European detachment rather than alone causing war.",
+            "stance": "The chapter concludes that French revolutionaries would increasingly externalize domestic problems, even though immediate foreign intervention remained weak. Early fears generated by Austrian troop-passage requests in 1790 were mistaken: royal wishes did not constitute a great-power plan, and continental rulers were focused on Poland.",
+            "acceptable_access": [
+              "French Revolution—internationalization and the approach of war",
+              "Revolutionary war—origins in 1790-1791",
+              "French Revolution—export of revolutionary principles",
+              "Europe and France—end of diplomatic detachment",
+              "foreign plot against the Revolution—early fears",
+              "counterrevolution—international conspiracy fears",
+              "Austria—troop passage through France",
+              "French invasion fears, 1790",
+              "Avignon—annexation by France",
+              "French foreign policy—Avignon",
+              "Constituent Assembly—final foreign-policy gesture",
+              "Europe and the French Revolution—end of detachment",
+              "origins of revolutionary war",
+              "internationalization of the French Revolution",
+              "export of revolution—approach to war"
+            ],
+            "document_pages": [
+              165,
+              172,
+              173
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S034"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S034",
+            "label": "French Revolution—internationalization and the approach of war",
+            "meaning": "Universal claims, exile politics, émigré mobilization, and revolutionary defiance ended Europe's ability to observe France from a distance. The annexation of Avignon was a concrete, low-cost gesture of defiance because it required no troops despite France’s military weakness; it illustrated the approaching end of European detachment rather than alone causing war.",
+            "stance": "The chapter concludes that French revolutionaries would increasingly externalize domestic problems, even though immediate foreign intervention remained weak. Early fears generated by Austrian troop-passage requests in 1790 were mistaken: royal wishes did not constitute a great-power plan, and continental rulers were focused on Poland.",
+            "acceptable_access": [
+              "French Revolution—internationalization and the approach of war",
+              "Revolutionary war—origins in 1790-1791",
+              "French Revolution—export of revolutionary principles",
+              "Europe and France—end of diplomatic detachment",
+              "foreign plot against the Revolution—early fears",
+              "counterrevolution—international conspiracy fears",
+              "Austria—troop passage through France",
+              "French invasion fears, 1790",
+              "Avignon—annexation by France",
+              "French foreign policy—Avignon",
+              "Constituent Assembly—final foreign-policy gesture",
+              "Europe and the French Revolution—end of detachment",
+              "origins of revolutionary war",
+              "internationalization of the French Revolution",
+              "export of revolution—approach to war"
+            ],
+            "document_pages": [
+              165,
+              172,
+              173
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "c17f1a5639e3e18a44cfadcfd4bfe94b07cef7290913ebf2e08c71950578d403",
+      "fields_changed": [
+        "stance",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "165 places mistaken international-plot fears before Varennes and distinguishes royal wishes from actual great-power priorities.173’s already fuller Avignon wording remains; nested single-chapter requirements now express both retained qualifications.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 99,
+      "subject_id": "SUBJ-SUCC-FA919FE4CE14",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0193",
+        "CORR-007-LEGACY-0194",
+        "CORR-007-LEGACY-0356",
+        "CORR-007-LEGACY-0357"
+      ],
+      "source_correction_row_sha256s": [
+        "8d66d0bec04f2b1ccdf6a928874b50493103d74ecb89ef3f02e9f08e82ee0019",
+        "b27c3c6e41fa28d008121a436f628cd8ef581cff04e80e9e6b0ddd4513eca420",
+        "1d38657e3d29b5e4628da3840b5f06efec4e3ca24d478b11381d669a46569a30",
+        "5d93fa859cdea6e1dc3a35ffe9f727fe68c5915402e70016ffe85c9feda01054"
+      ],
+      "before_record": {
+        "label": "Nobility: loss of privilege and social transformation",
+        "priority": "major",
+        "meaning": "The Revolution ended noble corporate status, feudal and fiscal privilege, venal ennoblement and automatic deference. Emigration, confiscation, execution and failed return caused trauma, but property recovery and later elite continuity limit any claim of total material destruction. Napoleon created a new nobility and incorporated surviving old nobles who could demonstrate landed wealth, an accommodation distinct from restoring their former corporate privileges or undoing emigrant losses. The Society of Thirty deliberately exploited divisions within the educated elite to mobilize support for an undivided legislature, helping convert a reform-minded order into a presumed enemy. Suspicion and imprisonment, followed in 1797 by civil-rights deprivation and threatened mass deportation on grounds of noble status, deepened the experience of persecution.",
+        "stance": "Many nobles had supported reform before polemic cast aristocracy as a universal enemy. Nobles lost public monopoly and presumed social subordination more decisively than wealth; ending purchased ennoblement paradoxically made surviving social nobility more caste-like.",
+        "subject_id": "SUBJ-SUCC-FA919FE4CE14",
+        "acceptable_access": [
+          "Nobility—effects of the Revolution",
+          "Aristocracy—abolition of privilege",
+          "Feudalism—abolition",
+          "Aristocracy--political label",
+          "Society of Thirty--anti-noble mobilization",
+          "Venal office--end of ennoblement",
+          "Noble emigration--confiscation and recovery",
+          "Nobility--psychological versus material losses"
+        ],
+        "evidence": [
+          {
+            "document_page": 394,
+            "source_page_label": "394",
+            "locator_class": "supporting",
+            "evidence_summary": "The largely reform-minded nobility is cast as an enemy through anti-noble rhetoric and representation conflict; the Society of Thirty deliberately exploits elite tensions to mobilize support for an undivided legislature.",
+            "evidence_id": "EVID-SUCC-B22E134BEFB4",
+            "source_local_subject_id": "SUCC-C017-S005",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 395,
+            "source_page_label": "395",
+            "locator_class": "principal",
+            "evidence_summary": "Nobles lost political, fiscal, feudal and heraldic privileges, and ending venal ennoblement made social nobility more caste-like. Many recovered property and remained large owners; Napoleon incorporated wealthy old nobles into his new nobility without restoring the former corporate order.",
+            "evidence_id": "EVID-SUCC-D4B5613FA785",
+            "source_local_subject_id": "SUCC-C017-S005",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 396,
+            "source_page_label": "396",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Exile, Quiberon, suspicion, imprisonment and executions deepened noble hostility. In 1797 nobles lost civil rights and nearly faced mass deportation merely for their status. Psychological displacement and loss of automatic deference proved more enduring than material losses.",
+            "evidence_id": "EVID-SUCC-122FCE73B3A5",
+            "source_local_subject_id": "SUCC-C017-S005",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S005",
+            "label": "Nobility: loss of privilege and social transformation",
+            "meaning": "The Revolution ended noble corporate status, feudal and fiscal privilege, venal ennoblement and automatic deference. Emigration, confiscation, execution and failed return caused trauma, but property recovery and later elite continuity limit any claim of total material destruction. Suspicion and imprisonment, followed in 1797 by civil-rights deprivation and threatened mass deportation on grounds of noble status, deepened the experience of persecution.",
+            "stance": "Many nobles had supported reform before polemic cast aristocracy as a universal enemy. Nobles lost public monopoly and presumed social subordination more decisively than wealth; ending purchased ennoblement paradoxically made surviving social nobility more caste-like.",
+            "acceptable_access": [
+              "Nobility—effects of the Revolution",
+              "Aristocracy—abolition of privilege",
+              "Feudalism—abolition",
+              "Aristocracy--political label",
+              "Society of Thirty--anti-noble mobilization",
+              "Venal office--end of ennoblement",
+              "Noble emigration--confiscation and recovery",
+              "Nobility--psychological versus material losses"
+            ],
+            "document_pages": [
+              394,
+              395,
+              396
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S005"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S005",
+            "label": "Nobility: loss of privilege and social transformation",
+            "meaning": "The Revolution ended noble corporate status, feudal and fiscal privilege, venal ennoblement and automatic deference. Emigration, confiscation, execution and failed return caused trauma, but property recovery and later elite continuity limit any claim of total material destruction. Suspicion and imprisonment, followed in 1797 by civil-rights deprivation and threatened mass deportation on grounds of noble status, deepened the experience of persecution.",
+            "stance": "Many nobles had supported reform before polemic cast aristocracy as a universal enemy. Nobles lost public monopoly and presumed social subordination more decisively than wealth; ending purchased ennoblement paradoxically made surviving social nobility more caste-like.",
+            "acceptable_access": [
+              "Nobility—effects of the Revolution",
+              "Aristocracy—abolition of privilege",
+              "Feudalism—abolition",
+              "Aristocracy--political label",
+              "Society of Thirty--anti-noble mobilization",
+              "Venal office--end of ennoblement",
+              "Noble emigration--confiscation and recovery",
+              "Nobility--psychological versus material losses"
+            ],
+            "document_pages": [
+              394,
+              395,
+              396
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "02514262f3d2319f0f0045383b9f47894fa4ddb7e2fccade50875a484b2269d9",
+      "proposed_record": {
+        "label": "Nobility: loss of privilege and social transformation",
+        "priority": "major",
+        "meaning": "The Revolution ended noble corporate status, feudal and fiscal privilege, venal ennoblement and automatic deference. Emigration, confiscation, execution and failed return caused trauma, but property recovery and later elite continuity limit any claim of total material destruction. Napoleon created a new nobility and incorporated surviving old nobles who could demonstrate landed wealth, an accommodation distinct from restoring their former corporate privileges or undoing emigrant losses. The Society of Thirty deliberately exploited divisions within the educated elite to mobilize support for an undivided legislature, helping convert a reform-minded order into a presumed enemy. Suspicion and imprisonment, followed in 1797 by civil-rights deprivation and threatened mass deportation on grounds of noble status, deepened the experience of persecution. Equality and careers open to talent challenged birth-based privilege as legitimate standards of advancement. Revolutionary rhetoric extended aristocracy into a general condemnation of opponents, obscuring the reformism expressed in many noble cahiers.",
+        "stance": "Many nobles had supported reform before polemic cast aristocracy as a universal enemy. Nobles lost public monopoly and presumed social subordination more decisively than wealth; ending purchased ennoblement paradoxically made surviving social nobility more caste-like.",
+        "subject_id": "SUBJ-SUCC-FA919FE4CE14",
+        "acceptable_access": [
+          "Nobility—effects of the Revolution",
+          "Aristocracy—abolition of privilege",
+          "Feudalism—abolition",
+          "Aristocracy--political label",
+          "Society of Thirty--anti-noble mobilization",
+          "Venal office--end of ennoblement",
+          "Noble emigration--confiscation and recovery",
+          "Nobility--psychological versus material losses",
+          "Careers open to talent—noble privilege",
+          "Inherited status—abolition of legal privilege"
+        ],
+        "evidence": [
+          {
+            "document_page": 394,
+            "source_page_label": "394",
+            "locator_class": "supporting",
+            "evidence_summary": "Anti-noble rhetoric and disputes over separate representation transformed a reform-minded order into presumed enemies. The Society of Thirty deliberately exploited elite tensions to mobilize support for an undivided legislature. Aristocracy became a general term of abuse for opponents despite noble cahiers’ willingness to surrender privileges; equality against birth-based privilege became a driving aspiration, and Napoleon celebrated careers opened to talent.",
+            "evidence_id": "EVID-SUCC-B22E134BEFB4",
+            "source_local_subject_id": "SUCC-C017-S005",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 395,
+            "source_page_label": "395",
+            "locator_class": "principal",
+            "evidence_summary": "Nobles lost political, fiscal, feudal and heraldic privileges, and ending venal ennoblement made social nobility more caste-like. Many recovered property and remained large owners; Napoleon incorporated wealthy old nobles into his new nobility without restoring the former corporate order.",
+            "evidence_id": "EVID-SUCC-D4B5613FA785",
+            "source_local_subject_id": "SUCC-C017-S005",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 396,
+            "source_page_label": "396",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Exile, Quiberon, suspicion, imprisonment and executions deepened noble hostility. In 1797 nobles lost civil rights and nearly faced mass deportation merely for their status. Psychological displacement and loss of automatic deference proved more enduring than material losses.",
+            "evidence_id": "EVID-SUCC-122FCE73B3A5",
+            "source_local_subject_id": "SUCC-C017-S005",
+            "source_chunk_id": "CHUNK-017"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S005",
+            "label": "Nobility: loss of privilege and social transformation",
+            "meaning": "The Revolution ended noble corporate status, feudal and fiscal privilege, venal ennoblement and automatic deference. Emigration, confiscation, execution and failed return caused trauma, but property recovery and later elite continuity limit any claim of total material destruction. Napoleon created a new nobility and incorporated surviving old nobles who could demonstrate landed wealth, an accommodation distinct from restoring their former corporate privileges or undoing emigrant losses. The Society of Thirty deliberately exploited divisions within the educated elite to mobilize support for an undivided legislature, helping convert a reform-minded order into a presumed enemy. Suspicion and imprisonment, followed in 1797 by civil-rights deprivation and threatened mass deportation on grounds of noble status, deepened the experience of persecution. Equality and careers open to talent challenged birth-based privilege as legitimate standards of advancement. Revolutionary rhetoric extended aristocracy into a general condemnation of opponents, obscuring the reformism expressed in many noble cahiers.",
+            "stance": "Many nobles had supported reform before polemic cast aristocracy as a universal enemy. Nobles lost public monopoly and presumed social subordination more decisively than wealth; ending purchased ennoblement paradoxically made surviving social nobility more caste-like.",
+            "acceptable_access": [
+              "Nobility—effects of the Revolution",
+              "Aristocracy—abolition of privilege",
+              "Feudalism—abolition",
+              "Aristocracy--political label",
+              "Society of Thirty--anti-noble mobilization",
+              "Venal office--end of ennoblement",
+              "Noble emigration--confiscation and recovery",
+              "Nobility--psychological versus material losses",
+              "Careers open to talent—noble privilege",
+              "Inherited status—abolition of legal privilege"
+            ],
+            "document_pages": [
+              394,
+              395,
+              396
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S005"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S005",
+            "label": "Nobility: loss of privilege and social transformation",
+            "meaning": "The Revolution ended noble corporate status, feudal and fiscal privilege, venal ennoblement and automatic deference. Emigration, confiscation, execution and failed return caused trauma, but property recovery and later elite continuity limit any claim of total material destruction. Napoleon created a new nobility and incorporated surviving old nobles who could demonstrate landed wealth, an accommodation distinct from restoring their former corporate privileges or undoing emigrant losses. The Society of Thirty deliberately exploited divisions within the educated elite to mobilize support for an undivided legislature, helping convert a reform-minded order into a presumed enemy. Suspicion and imprisonment, followed in 1797 by civil-rights deprivation and threatened mass deportation on grounds of noble status, deepened the experience of persecution. Equality and careers open to talent challenged birth-based privilege as legitimate standards of advancement. Revolutionary rhetoric extended aristocracy into a general condemnation of opponents, obscuring the reformism expressed in many noble cahiers.",
+            "stance": "Many nobles had supported reform before polemic cast aristocracy as a universal enemy. Nobles lost public monopoly and presumed social subordination more decisively than wealth; ending purchased ennoblement paradoxically made surviving social nobility more caste-like.",
+            "acceptable_access": [
+              "Nobility—effects of the Revolution",
+              "Aristocracy—abolition of privilege",
+              "Feudalism—abolition",
+              "Aristocracy--political label",
+              "Society of Thirty--anti-noble mobilization",
+              "Venal office--end of ennoblement",
+              "Noble emigration--confiscation and recovery",
+              "Nobility--psychological versus material losses",
+              "Careers open to talent—noble privilege",
+              "Inherited status—abolition of legal privilege"
+            ],
+            "document_pages": [
+              394,
+              395,
+              396
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "6d0ddebf04a0dc37e45fb2adee9d676c0e850c96bfbcaea30d3484bea5040535",
+      "fields_changed": [
+        "meaning",
+        "acceptable_access",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "394 distinguishes reform-minded noble cahiers from the expanding political insult and equality/talent ideals. Add these without deleting stage8’s Society of Thirty, Napoleonic accommodation, social continuity and persecution distinctions.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 100,
+      "subject_id": "SUBJ-SUCC-40720510D7E5",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0197"
+      ],
+      "source_correction_row_sha256s": [
+        "351771a41097f8cee7044d9cf035466d7ddc4da5d576cfe66190d74f01a7a3bf"
+      ],
+      "before_record": {
+        "label": "Marseilles, Arles, and regional radicalism",
+        "priority": "optional",
+        "meaning": "Marseilles asserted regional primacy through armed intervention at Aix, Arles, and Avignon, helping polarize the south and destroy the Chiffon counter-revolutionary center.",
+        "stance": "Local rivalry and revolutionary alignment reinforced one another; Parisian absorption in war enabled the intervention.",
+        "subject_id": "SUBJ-SUCC-40720510D7E5",
+        "acceptable_access": [
+          "Marseilles, Arles, and regional radicalism",
+          "Marseilles—regional intervention",
+          "Arles—counter-revolution",
+          "Chiffon",
+          "Bouches-du-Rhône—political conflict",
+          "Marseilles",
+          "Marseillais intervention",
+          "Marseilles federes",
+          "Marseilles and southern radicalism",
+          "Arles",
+          "counter-revolution in Arles",
+          "siege of Arles"
+        ],
+        "evidence": [
+          {
+            "document_page": 182,
+            "source_page_label": "182",
+            "locator_class": "principal",
+            "evidence_summary": "Marseillais forces intervene at Avignon, Aix, and Arles and expel the Chiffon leaders.",
+            "evidence_id": "EVID-SUCC-0E5923CFFC04",
+            "source_local_subject_id": "SUCC-C008-S033",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 183,
+            "source_page_label": "183",
+            "locator_class": "supporting",
+            "evidence_summary": "The regional confrontation forms the background to wider rural anti-feudal violence.",
+            "evidence_id": "EVID-SUCC-4EEBB1CFC9E1",
+            "source_local_subject_id": "SUCC-C008-S033",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 187,
+            "source_page_label": "187",
+            "locator_class": "principal",
+            "evidence_summary": "Its delayed contingent enters Paris singing the Rhine Army hymn and becomes central to federe politics.",
+            "evidence_id": "EVID-SUCC-E374150A0388",
+            "source_local_subject_id": "SUCC-C008-S033",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S033",
+            "label": "Marseilles, Arles, and regional radicalism",
+            "meaning": "Marseilles asserted regional primacy through armed intervention at Aix, Arles, and Avignon, helping polarize the south and destroy the Chiffon counter-revolutionary center.",
+            "stance": "Local rivalry and revolutionary alignment reinforced one another; Parisian absorption in war enabled the intervention.",
+            "acceptable_access": [
+              "Marseilles, Arles, and regional radicalism",
+              "Marseilles—regional intervention",
+              "Arles—counter-revolution",
+              "Chiffon",
+              "Bouches-du-Rhône—political conflict",
+              "Marseilles",
+              "Marseillais intervention",
+              "Marseilles federes",
+              "Marseilles and southern radicalism",
+              "Arles",
+              "counter-revolution in Arles",
+              "siege of Arles"
+            ],
+            "document_pages": [
+              182,
+              183,
+              187
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S033"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S033",
+            "label": "Marseilles, Arles, and regional radicalism",
+            "meaning": "Marseilles asserted regional primacy through armed intervention at Aix, Arles, and Avignon, helping polarize the south and destroy the Chiffon counter-revolutionary center.",
+            "stance": "Local rivalry and revolutionary alignment reinforced one another; Parisian absorption in war enabled the intervention.",
+            "acceptable_access": [
+              "Marseilles, Arles, and regional radicalism",
+              "Marseilles—regional intervention",
+              "Arles—counter-revolution",
+              "Chiffon",
+              "Bouches-du-Rhône—political conflict",
+              "Marseilles",
+              "Marseillais intervention",
+              "Marseilles federes",
+              "Marseilles and southern radicalism",
+              "Arles",
+              "counter-revolution in Arles",
+              "siege of Arles"
+            ],
+            "document_pages": [
+              182,
+              183,
+              187
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "b00ca91875bc47ff9cb9f1e21acd13c01e2e9e18b96f5f59ba1af059348f2049",
+      "proposed_record": {
+        "label": "Marseilles, Arles, and regional radicalism",
+        "priority": "optional",
+        "meaning": "Marseilles asserted regional primacy through armed intervention at Aix, Arles, and Avignon, helping polarize the south and destroy the Chiffon counter-revolutionary center. Its later contingent entered Paris singing the Rhine Army hymn and became influential in fédéré politics.",
+        "stance": "Local rivalry and revolutionary alignment reinforced one another; Parisian absorption in war enabled the intervention.",
+        "subject_id": "SUBJ-SUCC-40720510D7E5",
+        "acceptable_access": [
+          "Marseilles, Arles, and regional radicalism",
+          "Marseilles—regional intervention",
+          "Arles—counter-revolution",
+          "Chiffon",
+          "Bouches-du-Rhône—political conflict",
+          "Marseilles",
+          "Marseillais intervention",
+          "Marseilles federes",
+          "Marseilles and southern radicalism",
+          "Arles",
+          "counter-revolution in Arles",
+          "siege of Arles"
+        ],
+        "evidence": [
+          {
+            "document_page": 182,
+            "source_page_label": "182",
+            "locator_class": "principal",
+            "evidence_summary": "Marseillais forces intervene at Avignon, Aix, and Arles and expel the Chiffon leaders.",
+            "evidence_id": "EVID-SUCC-0E5923CFFC04",
+            "source_local_subject_id": "SUCC-C008-S033",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 183,
+            "source_page_label": "183",
+            "locator_class": "supporting",
+            "evidence_summary": "The regional confrontation forms the background to wider rural anti-feudal violence.",
+            "evidence_id": "EVID-SUCC-4EEBB1CFC9E1",
+            "source_local_subject_id": "SUCC-C008-S033",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 187,
+            "source_page_label": "187",
+            "locator_class": "principal",
+            "evidence_summary": "Its delayed contingent enters Paris singing the Rhine Army hymn and becomes central to federe politics.",
+            "evidence_id": "EVID-SUCC-E374150A0388",
+            "source_local_subject_id": "SUCC-C008-S033",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S033",
+            "label": "Marseilles, Arles, and regional radicalism",
+            "meaning": "Marseilles asserted regional primacy through armed intervention at Aix, Arles, and Avignon, helping polarize the south and destroy the Chiffon counter-revolutionary center. Its later contingent entered Paris singing the Rhine Army hymn and became influential in fédéré politics.",
+            "stance": "Local rivalry and revolutionary alignment reinforced one another; Parisian absorption in war enabled the intervention.",
+            "acceptable_access": [
+              "Marseilles, Arles, and regional radicalism",
+              "Marseilles—regional intervention",
+              "Arles—counter-revolution",
+              "Chiffon",
+              "Bouches-du-Rhône—political conflict",
+              "Marseilles",
+              "Marseillais intervention",
+              "Marseilles federes",
+              "Marseilles and southern radicalism",
+              "Arles",
+              "counter-revolution in Arles",
+              "siege of Arles"
+            ],
+            "document_pages": [
+              182,
+              183,
+              187
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S033"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S033",
+            "label": "Marseilles, Arles, and regional radicalism",
+            "meaning": "Marseilles asserted regional primacy through armed intervention at Aix, Arles, and Avignon, helping polarize the south and destroy the Chiffon counter-revolutionary center. Its later contingent entered Paris singing the Rhine Army hymn and became influential in fédéré politics.",
+            "stance": "Local rivalry and revolutionary alignment reinforced one another; Parisian absorption in war enabled the intervention.",
+            "acceptable_access": [
+              "Marseilles, Arles, and regional radicalism",
+              "Marseilles—regional intervention",
+              "Arles—counter-revolution",
+              "Chiffon",
+              "Bouches-du-Rhône—political conflict",
+              "Marseilles",
+              "Marseillais intervention",
+              "Marseilles federes",
+              "Marseilles and southern radicalism",
+              "Arles",
+              "counter-revolution in Arles",
+              "siege of Arles"
+            ],
+            "document_pages": [
+              182,
+              183,
+              187
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "b549294c28bbe1fef190704ed661b3193329d8ed4ea2753e48fe42aae0772ae3",
+      "fields_changed": [
+        "meaning",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "187 supplies the already evidenced Marseilles national contribution; make it explicit in the parent and chapter facet without replacing the182–183 regional-rivalry mechanism.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    }
+  ],
+  "actual_full_source_pages_reread_after_draft_access": [
+    165,
+    168,
+    187,
+    382,
+    394,
+    399,
+    405,
+    406
+  ],
+  "same_active_pass_source_page_reuse": [
+    173,
+    178,
+    251
+  ],
+  "new_evidence_ids": [],
+  "original_draft_unchanged": true,
+  "whole_book_approval": false
+}

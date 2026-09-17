@@ -1,0 +1,3685 @@
+{
+  "schema_version": "lead-composed-task-value-review-v1",
+  "status": "all84whole_task_values_and_facets_inspected; final_benchmark_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage5.v1.json",
+      "sha256": "3e4ecbdfef34303b33c2dcf6a1cd1d4082a91f841b4157ab516dbfec0c598139"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/historical-task-supplement.composition.v2.json",
+      "sha256": "d4d4f9dfa621e67ad6ba3b282d52876ca3161ce2df9a13dff04ed4e1ee7cb143"
+    }
+  ],
+  "reviewed_task_ids": [
+    "TASK-SUCC-484CF51EF217",
+    "TASK-SUCC-1B78ABC2930F",
+    "TASK-SUCC-BA5C4B99F1F4",
+    "TASK-SUCC-6FC57A4331D4",
+    "TASK-SUCC-A7F8FD662096",
+    "TASK-SUCC-35FCABD4D3B4",
+    "TASK-SUCC-52D7F9CA7D03",
+    "TASK-SUCC-37B729CD3DBA",
+    "TASK-SUCC-2B35B78D8C85",
+    "TASK-SUCC-26EEC4FEB06D",
+    "TASK-SUCC-795BC57C3B83",
+    "TASK-SUCC-2FE97156EE0C",
+    "TASK-SUCC-117274FCF0D6",
+    "TASK-SUCC-98D4266A8C0B",
+    "TASK-SUCC-66E576C37591",
+    "TASK-SUCC-04D17F8EDAF5",
+    "TASK-SUCC-F06A637D3C36",
+    "TASK-SUCC-BCB36D027F42",
+    "TASK-SUCC-B150812C78C8",
+    "TASK-SUCC-87D2EFD88D7F",
+    "TASK-SUCC-8CB5814EF9CA",
+    "TASK-SUCC-B2E87458853C",
+    "TASK-SUCC-9D11E7DDD2F6",
+    "TASK-SUCC-452F3701522A",
+    "TASK-SUCC-82D8298A6454",
+    "TASK-SUCC-EA0E9E5C3E7A",
+    "TASK-SUCC-02B1555F63E5",
+    "TASK-SUCC-2F38A83B9C13",
+    "TASK-SUCC-CF51D3EFB830",
+    "TASK-SUCC-C8BB84DBCA99",
+    "TASK-SUCC-A52E10115A59",
+    "TASK-SUCC-0187D45B17D6",
+    "TASK-SUCC-F5821BB98AAE",
+    "TASK-SUCC-BFB631F3A6EC",
+    "TASK-SUCC-35B22D0DBF2A",
+    "TASK-SUCC-3D7AADE20759",
+    "TASK-SUCC-2D22932ACF13",
+    "TASK-SUCC-BFFA25053632",
+    "TASK-SUCC-DB9A6CD1161B",
+    "TASK-SUCC-F9402BF176EE",
+    "TASK-SUCC-6AFB143F39DE",
+    "TASK-SUCC-0D804F998A7B",
+    "TASK-SUCC-8012C36B851D",
+    "TASK-SUCC-CD100AF00FE3",
+    "TASK-SUCC-81AEFB30D474",
+    "TASK-SUCC-020B95F67B8A",
+    "TASK-SUCC-0B7EB66185E6",
+    "TASK-SUCC-2C646441C390",
+    "TASK-SUCC-EF3D358DA16E",
+    "TASK-SUCC-4023DF544FEE",
+    "TASK-SUCC-4A6551565346",
+    "TASK-SUCC-982A60537FFC",
+    "TASK-SUCC-46BC20C9AA18",
+    "TASK-SUCC-1E08D89E2A75",
+    "TASK-SUCC-0383E3E68698",
+    "TASK-SUCC-EDD8CC087EC5",
+    "TASK-SUCC-46DFDC090C28",
+    "TASK-SUCC-156949ABB44D",
+    "TASK-SUCC-1F7CB721EF0D",
+    "TASK-SUCC-355439E563E7",
+    "TASK-SUCC-CA3859C6B312",
+    "TASK-SUCC-C0B2BA19E432",
+    "TASK-SUCC-FD15A9B103F7",
+    "TASK-SUCC-4AA2A8700E8D",
+    "TASK-SUCC-89C9B3341F54",
+    "TASK-SUCC-2615667861B8",
+    "TASK-SUCC-3482C454384A",
+    "TASK-SUCC-660DBA5A3937",
+    "TASK-SUCC-D68F990957A8",
+    "TASK-SUCC-56312D984A49",
+    "TASK-SUCC-DD98F26F6973",
+    "TASK-SUCC-A4CABA6ABC86",
+    "TASK-SUCC-E282BC248567",
+    "TASK-SUCC-A4A6BB7106DF",
+    "TASK-SUCC-0D6FF1B259FB",
+    "TASK-SUCC-2FA34F275E03",
+    "TASK-SUCC-6F5D9399E324",
+    "TASK-SUCC-69A8E0793321",
+    "TASK-SUCC-938237356A08",
+    "TASK-SUCC-20CE5298E380",
+    "TASK-SUCC-829CD54276C2",
+    "TASK-SUCC-IR1517-945AA80643D6",
+    "TASK-SUCC-IR1517-97F85AB34332",
+    "TASK-SUCC-IR1517-DD3C2DC8D25F"
+  ],
+  "reviewed_original_facet_binding_count": 172,
+  "task_dispositions": [
+    {
+      "review_id": "LEAD-COMPOSED-TASK-001",
+      "task_id": "TASK-SUCC-484CF51EF217",
+      "before_record_sha256": "859e023717784c955cf5a56589ceeae20a2bade5ce32a0040a1f0f66a9505273",
+      "reviewed_record_sha256": "859e023717784c955cf5a56589ceeae20a2bade5ce32a0040a1f0f66a9505273",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-FCF6DDE3CB24"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-4006B19862D2"
+      ],
+      "source_grounded_judgment": "Calonne’s credit policy and post-dismissal accusations, quashed proceedings and exile remain distinct, all within the single personal-policy treatment.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-4006B19862D2": "5ad4375e2a03dfe037c79ee8f02babf40f94381cd423f4fb896cf4778e4b0e29"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-002",
+      "task_id": "TASK-SUCC-1B78ABC2930F",
+      "before_record_sha256": "1cb7dfa2ae9911d26934893b45d5b6c138d7857732f9f36e50f11d6206d6c30f",
+      "reviewed_record_sha256": "1cb7dfa2ae9911d26934893b45d5b6c138d7857732f9f36e50f11d6206d6c30f",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-AA59F9ED7091"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-DEFD34B1AF1D",
+        "SUBJ-SUCC-B5130832E828"
+      ],
+      "source_grounded_judgment": "Initial surprise is compatible with prior European upheaval; the expanded question retains changing reception rather than a permanently uniform enthusiasm.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-DEFD34B1AF1D": "fe29f3733abb4709f2f683f7dfbc4cbc5537020abe271fb180a9c32c773e4ac2",
+        "SUBJ-SUCC-B5130832E828": "bd7ae7e853733e0097d4603c5f9168f58d15551492bb84d2948e04c378dbb7d0"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-003",
+      "task_id": "TASK-SUCC-BA5C4B99F1F4",
+      "before_record_sha256": "f08e5d51c96a56285e4d8722fe5d93517740957034b0a4dc3fcd9b2c022f698e",
+      "reviewed_record_sha256": "f08e5d51c96a56285e4d8722fe5d93517740957034b0a4dc3fcd9b2c022f698e",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-C7A212FFD11C"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-B5130832E828",
+        "SUBJ-SUCC-870D1F0BA7C8",
+        "SUBJ-SUCC-429A6AF013A7"
+      ],
+      "source_grounded_judgment": "The three parents distinguish material weakness, ideological restraint and the concrete Nootka alliance test.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-B5130832E828": "bd7ae7e853733e0097d4603c5f9168f58d15551492bb84d2948e04c378dbb7d0",
+        "SUBJ-SUCC-870D1F0BA7C8": "11e5b2782a8dd52eb7498f6201392962c4790197ac39372bfb96415f97f0b7a9",
+        "SUBJ-SUCC-429A6AF013A7": "40196585cfd238c602fe28e1a79d40c74a1cb44adec64a6d975f90de1758d545"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-004",
+      "task_id": "TASK-SUCC-6FC57A4331D4",
+      "before_record_sha256": "fe9558e27f47e7b4216849b73948b0f60de377e43f1bee07f713bd703f0a9ea2",
+      "reviewed_record_sha256": "fe9558e27f47e7b4216849b73948b0f60de377e43f1bee07f713bd703f0a9ea2",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-6AC029FEAE28"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-A9B1A32FA733",
+        "SUBJ-SUCC-7922496FA528",
+        "SUBJ-SUCC-BE926DEFD2FF",
+        "SUBJ-SUCC-BB9639326872"
+      ],
+      "source_grounded_judgment": "The question attributes fundamental difference to Brabant and leaves Liège’s distinct and more French-influenced trajectory intact.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-A9B1A32FA733": "768556b6174b4e5c8d342c107539f70de641036824837ba824efc647ba4e85bf",
+        "SUBJ-SUCC-7922496FA528": "d4517249f81f613aa1a877a854e89f0d9d1d2648506ef6843bf987420d6da4f9",
+        "SUBJ-SUCC-BE926DEFD2FF": "47209a0e327f383a97e146bf4500304ca330a2fd9bdc68e71f3f5c8cbb339aad",
+        "SUBJ-SUCC-BB9639326872": "f84a5e3ea97f5a4d59ddedda805d5661faa3b63d76205a01d3b9ce16b546751b"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-005",
+      "task_id": "TASK-SUCC-A7F8FD662096",
+      "before_record_sha256": "8ebc5df52a771af80c8e73efaab873bd27fca3d52c4dc1f35fccd0028291897d",
+      "reviewed_record_sha256": "8ebc5df52a771af80c8e73efaab873bd27fca3d52c4dc1f35fccd0028291897d",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-B17E89C1606D"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-BE926DEFD2FF",
+        "SUBJ-SUCC-2D772631E96A"
+      ],
+      "source_grounded_judgment": "Statist–Vonckist division and Leopold’s restoration strategy are complementary causes, not an exclusive internal-conflict explanation.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-BE926DEFD2FF": "47209a0e327f383a97e146bf4500304ca330a2fd9bdc68e71f3f5c8cbb339aad",
+        "SUBJ-SUCC-2D772631E96A": "d8c7139e9660100105653d544e6211484defc7c540f8febfc79b9ec41f1b91d1"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-006",
+      "task_id": "TASK-SUCC-35FCABD4D3B4",
+      "before_record_sha256": "c2ecff6571477a04c3bacc7ece24d7a28e94485235e715dc3391564da2ccf485",
+      "reviewed_record_sha256": "c2ecff6571477a04c3bacc7ece24d7a28e94485235e715dc3391564da2ccf485",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-240E4B8FD891"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-2B71B80300BF",
+        "SUBJ-SUCC-943186368241"
+      ],
+      "source_grounded_judgment": "Polish constitutional reform and Catherine’s strategic labeling remain distinct from an endorsement that the programme was Jacobin.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-2B71B80300BF": "5d520691468930ef98774db0ad7a9ee1f96ccbf9c256fcb9f13ea957dbfb04d8",
+        "SUBJ-SUCC-943186368241": "2a89795425a1cfc58c96ba5c8d110d35de98237a45c5e644fc234c6d9d53c16f"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-007",
+      "task_id": "TASK-SUCC-52D7F9CA7D03",
+      "before_record_sha256": "e7bf40d5306f55b108d4a6e1c9144e0db5c13f20d22a0554dabdb206ee00ae77",
+      "reviewed_record_sha256": "e7bf40d5306f55b108d4a6e1c9144e0db5c13f20d22a0554dabdb206ee00ae77",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-0CAFB1EF89FA"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-A7A6CD1D7787"
+      ],
+      "source_grounded_judgment": "Arguments and predictions remain attributed to Burke; the task does not demand agreement with their truth.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-A7A6CD1D7787": "772354d211e27a640921aad399ad833be6d28cbc25f6d85410e54100310f74e0"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-008",
+      "task_id": "TASK-SUCC-37B729CD3DBA",
+      "before_record_sha256": "2760c2f76456a5f76bd1b1b495ff28817c3a40fa9948c56353ac3b1ff02e16ec",
+      "reviewed_record_sha256": "2760c2f76456a5f76bd1b1b495ff28817c3a40fa9948c56353ac3b1ff02e16ec",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-3872BDFDA986"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-41C1A762D0B5",
+        "SUBJ-SUCC-EE60D7547263",
+        "SUBJ-SUCC-DB78F0834F84",
+        "SUBJ-SUCC-CB0C8FAE5B09",
+        "SUBJ-SUCC-8B2B68A9D7BF"
+      ],
+      "source_grounded_judgment": "Price, Burke, Paine, organizational growth and loyalist reaction are explicitly related without attributing the entire process to one writer.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-41C1A762D0B5": "7c81df81c3ea70340b7258f8435bec0daac4e8b45054c143585c272da69677a1",
+        "SUBJ-SUCC-EE60D7547263": "5b046ea0fa950c993169e50068d60f8ae6d9020e709e05f57a34436a186a7bcb",
+        "SUBJ-SUCC-DB78F0834F84": "154be9fba4b0094216f2c54f793f7a0e415f6fd9953f3b94402831cddf3843a7",
+        "SUBJ-SUCC-CB0C8FAE5B09": "fe52d4960068007322d90edbe3ef02fa05693c47a4a68fcee4d985ce1e4c53f0",
+        "SUBJ-SUCC-8B2B68A9D7BF": "9608723342446f3937099661074cc0facffed73cc48557e4ae5e36b98d3d7fa8"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-009",
+      "task_id": "TASK-SUCC-2B35B78D8C85",
+      "before_record_sha256": "2f5aec1c385a78e83545473ee54c92de1a1ba6a93dba4a981a04da8edd209eff",
+      "reviewed_record_sha256": "2f5aec1c385a78e83545473ee54c92de1a1ba6a93dba4a981a04da8edd209eff",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-7DA92BC3F1E8"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-DEFD34B1AF1D",
+        "SUBJ-SUCC-6847B08053FB",
+        "SUBJ-SUCC-2FF0879B4083"
+      ],
+      "source_grounded_judgment": "German reception is a qualified comparison of traction; the task does not erase divergent support or claim unanimity.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-DEFD34B1AF1D": "fe29f3733abb4709f2f683f7dfbc4cbc5537020abe271fb180a9c32c773e4ac2",
+        "SUBJ-SUCC-6847B08053FB": "59e831addfc80a0dbd28e0c3fb15c74a9fa32e87752317793f1a306b2894dd53",
+        "SUBJ-SUCC-2FF0879B4083": "0fd32bc248314973c03df3ba421eb0ac83209da49e3fffa6fc2b68fcfb8c2bfb"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-010",
+      "task_id": "TASK-SUCC-26EEC4FEB06D",
+      "before_record_sha256": "ddbc6540d6d134f021df67e6cd8e941b858fd5bb2c75858b5098b6ea2e62a610",
+      "reviewed_record_sha256": "ddbc6540d6d134f021df67e6cd8e941b858fd5bb2c75858b5098b6ea2e62a610",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-0E5A96A33C6C"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-47FEF473DEB5",
+        "SUBJ-SUCC-6A2BFDEA57F6"
+      ],
+      "source_grounded_judgment": "Country-specific censorship and the Radishchev case support comparison of containment without assuming identical revolutionary threats.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-47FEF473DEB5": "92d28759145c7b673cab83e36fd4f3cd8b7e004daba752e6421e7ca8f6efe933",
+        "SUBJ-SUCC-6A2BFDEA57F6": "348c6318ae21970e09eeb3be735a3aa48e4c719ecd310cdeff96b48cd68e4f07"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-011",
+      "task_id": "TASK-SUCC-795BC57C3B83",
+      "before_record_sha256": "ed036d6faf536935ce934d9e7e2dab4f3f52c5ec23534a79818ba7e765a420a5",
+      "reviewed_record_sha256": "ed036d6faf536935ce934d9e7e2dab4f3f52c5ec23534a79818ba7e765a420a5",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-F35DEE6CB425"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-84898172084C",
+        "SUBJ-SUCC-987993A8C47A",
+        "SUBJ-SUCC-ED05A22FC18F"
+      ],
+      "source_grounded_judgment": "Accommodation, June confrontation and August suspension form the stated process; suspension remains distinct from later republican abolition.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-84898172084C": "cb4464648e4ed1396f895fb0f93e16f5f4e981cc71238993220023705f3d4523",
+        "SUBJ-SUCC-987993A8C47A": "03c83bc8786fcbf513e87c564febb0df3603415965a156552e5bf753a12f846b",
+        "SUBJ-SUCC-ED05A22FC18F": "c7c93984f91aa590872e0840f209eccb330fdbad163fd2fd283db5559efa03e3"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-012",
+      "task_id": "TASK-SUCC-2FE97156EE0C",
+      "before_record_sha256": "b2e689c10f89276e3706819f007a424de7017ae61411a3eef613e019a2abd651",
+      "reviewed_record_sha256": "b2e689c10f89276e3706819f007a424de7017ae61411a3eef613e019a2abd651",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "native:TASK-0292",
+        "legacy:TASK-736B3E035C5D"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-E01B6781D013",
+        "SUBJ-SUCC-18017BE43CD2",
+        "SUBJ-SUCC-7C920322211D",
+        "SUBJ-SUCC-7E820E02A6A2"
+      ],
+      "source_grounded_judgment": "Internationalist advocates are now explicit alongside Brissotin, royal and general motives; Clootz’s role has an178 parent repair.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-E01B6781D013": "fd789a7bd6d3a2779f5746748f2a7439595a3dad7a41d6f247a71637765119d6",
+        "SUBJ-SUCC-18017BE43CD2": "6915f8397d4ad60f0a2af0fe518dcca704e54fce4ae99dc4c34fda0f5bc0fba7",
+        "SUBJ-SUCC-7C920322211D": "a1ff0e9bc69dcaf6e4ee59d584d420d000fbd5f533d761b777795952e71c3a67",
+        "SUBJ-SUCC-7E820E02A6A2": "ff840e039c8a15bbd7d9a3ad847d5539a99f45f1cf0cd9c18bb39b96a3e62c83"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-013",
+      "task_id": "TASK-SUCC-117274FCF0D6",
+      "before_record_sha256": "2345b880d7c0890eb77f7962c88396f4e8819a0d125ff4641b3708c288b70a27",
+      "reviewed_record_sha256": "2345b880d7c0890eb77f7962c88396f4e8819a0d125ff4641b3708c288b70a27",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-1C1A09816BF7"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-E01B6781D013",
+        "SUBJ-SUCC-3261B99CDE1E"
+      ],
+      "source_grounded_judgment": "The paired war debate retains regenerative claims and Robespierre’s opposing risks without importing his later political phases.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-E01B6781D013": "fd789a7bd6d3a2779f5746748f2a7439595a3dad7a41d6f247a71637765119d6",
+        "SUBJ-SUCC-3261B99CDE1E": "bf73ad6391c2e23370a370a7bf27c5024c0f24cf56cc856823a9d8e9b91abe2f"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-014",
+      "task_id": "TASK-SUCC-98D4266A8C0B",
+      "before_record_sha256": "c4dcdca3204d371672fe22d3ed19520077043becab9b162a03c1de1dedac5c3f",
+      "reviewed_record_sha256": "c4dcdca3204d371672fe22d3ed19520077043becab9b162a03c1de1dedac5c3f",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-4FA6BEDB5BA0"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-84898172084C",
+        "SUBJ-SUCC-151622A0A4C4",
+        "SUBJ-SUCC-1A51A7EA164F"
+      ],
+      "source_grounded_judgment": "Priest legislation, veto and later deportation are separate stages; nonjuring is not automatically a proved conspiracy.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-84898172084C": "cb4464648e4ed1396f895fb0f93e16f5f4e981cc71238993220023705f3d4523",
+        "SUBJ-SUCC-151622A0A4C4": "461869790404466b4db582a7a2f039663bb30a0a1cff89b7fc958eeacf03bb2f",
+        "SUBJ-SUCC-1A51A7EA164F": "956709a650438f49b18a3a8478e9c3dbc82e46a51d347ae0a6a62ecf68e8e77d"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-015",
+      "task_id": "TASK-SUCC-66E576C37591",
+      "before_record_sha256": "7da1f560eaf6cf15ae811621faabe01bc819a7b51f87bfcaa1f6bc3ef84d400e",
+      "reviewed_record_sha256": "7da1f560eaf6cf15ae811621faabe01bc819a7b51f87bfcaa1f6bc3ef84d400e",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-E2196F2F36F0"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-4DF9C902BF5B",
+        "SUBJ-SUCC-9EE66EC07AA3"
+      ],
+      "source_grounded_judgment": "Currency, provision scarcity and grain/sugar action connect to organization through the two relevant parent treatments.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-4DF9C902BF5B": "c8c49074d5b038727261fb45d3d37035f0d74c57a5d25fda49e386c7849bcb94",
+        "SUBJ-SUCC-9EE66EC07AA3": "cdbc30c8b21038f104b133c71333b2f0953daac06832f0c51e0a17c7c66d8ef1"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-016",
+      "task_id": "TASK-SUCC-04D17F8EDAF5",
+      "before_record_sha256": "9c6f5cfac4ab9de1f4f4b0716000af982358160a99f57085b0a34af5ac13388c",
+      "reviewed_record_sha256": "9c6f5cfac4ab9de1f4f4b0716000af982358160a99f57085b0a34af5ac13388c",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-AFEE1D6C03D2"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-90327630B4F3",
+        "SUBJ-SUCC-40720510D7E5",
+        "SUBJ-SUCC-0AC74CCFDC8E"
+      ],
+      "source_grounded_judgment": "Southern political violence and qualified rural defense of gains retain different local mechanisms; earlier Avignon context is not recast as spring1792.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-90327630B4F3": "20707a3fcea94c08a4031a3ec6c932359d6f02babe3b67b2dcd88303e46a5ccb",
+        "SUBJ-SUCC-40720510D7E5": "b00ca91875bc47ff9cb9f1e21acd13c01e2e9e18b96f5f59ba1af059348f2049",
+        "SUBJ-SUCC-0AC74CCFDC8E": "2be5a2515bc3a7f46b252f2b176b8fb6aac6fe245c95093e0436762804862523"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-017",
+      "task_id": "TASK-SUCC-F06A637D3C36",
+      "before_record_sha256": "2e676c02cc3b3087c0b3cfe60fc754f5e2a4cb7167a6e2fe14d063763ff49e48",
+      "reviewed_record_sha256": "2e676c02cc3b3087c0b3cfe60fc754f5e2a4cb7167a6e2fe14d063763ff49e48",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-99556828B5B9"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3",
+        "SUBJ-SUCC-3C56EEDB9FCC",
+        "SUBJ-SUCC-987993A8C47A",
+        "SUBJ-SUCC-ED05A22FC18F"
+      ],
+      "source_grounded_judgment": "Societies, Cordelier coordination, June action, fédérés and democratized sections supply organization, not merely event succession.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-9EE66EC07AA3": "cdbc30c8b21038f104b133c71333b2f0953daac06832f0c51e0a17c7c66d8ef1",
+        "SUBJ-SUCC-3C56EEDB9FCC": "c50f9588c1180ff00dac20c7c16aae0592a1befab093b0d67e3894bf933e75c5",
+        "SUBJ-SUCC-987993A8C47A": "03c83bc8786fcbf513e87c564febb0df3603415965a156552e5bf753a12f846b",
+        "SUBJ-SUCC-ED05A22FC18F": "c7c93984f91aa590872e0840f209eccb330fdbad163fd2fd283db5559efa03e3"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-018",
+      "task_id": "TASK-SUCC-BCB36D027F42",
+      "before_record_sha256": "12acc9c20430cd902e84f7733a79bd4eff2557f23aa0f3393bb836f6be9098c6",
+      "reviewed_record_sha256": "12acc9c20430cd902e84f7733a79bd4eff2557f23aa0f3393bb836f6be9098c6",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-07FD4CF4DFBA"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-41EBDED9E240",
+        "SUBJ-SUCC-ED05A22FC18F",
+        "SUBJ-SUCC-A48AEBB81ADA",
+        "SUBJ-SUCC-1A51A7EA164F"
+      ],
+      "source_grounded_judgment": "Assembly composition and conflicts now appear in the main question before its contested practical subordination to the Commune.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-41EBDED9E240": "7f8369cc8a3500fd35af6eb17f75ad144a56e89f362b3a6d9e1beeb8b92fa431",
+        "SUBJ-SUCC-ED05A22FC18F": "c7c93984f91aa590872e0840f209eccb330fdbad163fd2fd283db5559efa03e3",
+        "SUBJ-SUCC-A48AEBB81ADA": "20d13becb53982cd64ff1d38ae9a50a21769e22792edf6ed987dc6c9a8a0c29f",
+        "SUBJ-SUCC-1A51A7EA164F": "956709a650438f49b18a3a8478e9c3dbc82e46a51d347ae0a6a62ecf68e8e77d"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-019",
+      "task_id": "TASK-SUCC-B150812C78C8",
+      "before_record_sha256": "426a25caaa760300e0995e0cf2e05d5e1ce54908f241465b386066fe7518af03",
+      "reviewed_record_sha256": "a7f50e73d651ade1126ea5b05efa0575123d0f6a997c5346cffb79cf1029cc0f",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-2CDB97B1513B"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-4A316B580039",
+        "SUBJ-SUCC-1A51A7EA164F",
+        "SUBJ-SUCC-A48AEBB81ADA",
+        "SUBJ-SUCC-8A3FF7132FF1"
+      ],
+      "source_grounded_judgment": "The task preserves actors, causes, victims, scale and afterlife. Correct the facet’s ambiguous Danton restraint phrase to failure to intervene.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-4A316B580039": "efd250d0884131482d6d23debe8beb062694675fefeef9ad19cc8e6864c65eae",
+        "SUBJ-SUCC-1A51A7EA164F": "956709a650438f49b18a3a8478e9c3dbc82e46a51d347ae0a6a62ecf68e8e77d",
+        "SUBJ-SUCC-A48AEBB81ADA": "20d13becb53982cd64ff1d38ae9a50a21769e22792edf6ed987dc6c9a8a0c29f",
+        "SUBJ-SUCC-8A3FF7132FF1": "871bbfb6c6c79a29959b14dd5908b5b5cf1a811f680875e4f782a0953da58652"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-020",
+      "task_id": "TASK-SUCC-87D2EFD88D7F",
+      "before_record_sha256": "b5a74dfd7fc2217734155912ac18e12db532432d70a9b31c633242a85fe2d3ae",
+      "reviewed_record_sha256": "b5a74dfd7fc2217734155912ac18e12db532432d70a9b31c633242a85fe2d3ae",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-C462D101C004"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-9EE30DCC1721",
+        "SUBJ-SUCC-1A51A7EA164F",
+        "SUBJ-SUCC-D319BFEA28A1"
+      ],
+      "source_grounded_judgment": "Invasion panic and volunteering remain linked without making Verdun cause the earlier August searches or endorsing actual widespread conspiracy.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-9EE30DCC1721": "1932ab6074534fdce289e1d06408f257cf51fac03f447694118655893a363f57",
+        "SUBJ-SUCC-1A51A7EA164F": "956709a650438f49b18a3a8478e9c3dbc82e46a51d347ae0a6a62ecf68e8e77d",
+        "SUBJ-SUCC-D319BFEA28A1": "7a8d310b2cb3c82c42a10c6290e49a83d7ee6b5a835e6c29d1bdde92e4f21343"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-021",
+      "task_id": "TASK-SUCC-8CB5814EF9CA",
+      "before_record_sha256": "ca89e0c8dde04d32a0c18450494d3c573504372d42bb7b56b22deee19a79d806",
+      "reviewed_record_sha256": "7851428eff397d3d3e0ca9ab791799f881cc12633f926a3269c8ed1cd7c0d4fb",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-88C56979D73B"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3",
+        "SUBJ-SUCC-5F07AA578495"
+      ],
+      "source_grounded_judgment": "The main question includes republican establishment through5F07; revise the stale rationale implying that the abolition demand was dropped.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-9EE66EC07AA3": "cdbc30c8b21038f104b133c71333b2f0953daac06832f0c51e0a17c7c66d8ef1",
+        "SUBJ-SUCC-5F07AA578495": "ac41a16f9d50e167906510cb4af736de83b579b989f45eee11ac8a40ca082b80"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-022",
+      "task_id": "TASK-SUCC-B2E87458853C",
+      "before_record_sha256": "d35a9d0b64c72503238467e963871832da8704f9e9fe739d133bfd6ff4402a6b",
+      "reviewed_record_sha256": "d35a9d0b64c72503238467e963871832da8704f9e9fe739d133bfd6ff4402a6b",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-4B5E2AA104A4"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-A007860D08F5",
+        "SUBJ-SUCC-5AAF2CE28F56",
+        "SUBJ-SUCC-E01B6781D013",
+        "SUBJ-SUCC-3261B99CDE1E",
+        "SUBJ-SUCC-4A316B580039"
+      ],
+      "source_grounded_judgment": "War controversy, insurrection and trial deepen an emerging division without treating the groupings as mature modern parties.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-A007860D08F5": "b00157b82238677606795e1360c62dc87b056c306ef0ea707ec4086dd2a0bad0",
+        "SUBJ-SUCC-5AAF2CE28F56": "c1902265efd6d5c6f30a7f78a13e753673d18b22221f11030cefcdf92f21ffb2",
+        "SUBJ-SUCC-E01B6781D013": "fd789a7bd6d3a2779f5746748f2a7439595a3dad7a41d6f247a71637765119d6",
+        "SUBJ-SUCC-3261B99CDE1E": "bf73ad6391c2e23370a370a7bf27c5024c0f24cf56cc856823a9d8e9b91abe2f",
+        "SUBJ-SUCC-4A316B580039": "efd250d0884131482d6d23debe8beb062694675fefeef9ad19cc8e6864c65eae"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-023",
+      "task_id": "TASK-SUCC-9D11E7DDD2F6",
+      "before_record_sha256": "46bfeed7c86ec6b2eaebcb87d8974dc748a7248c4d3b67b62b89b4e7b459eb69",
+      "reviewed_record_sha256": "46bfeed7c86ec6b2eaebcb87d8974dc748a7248c4d3b67b62b89b4e7b459eb69",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-C8AAE32D7D17"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-5AAF2CE28F56",
+        "SUBJ-SUCC-415BA63D659A"
+      ],
+      "source_grounded_judgment": "Legal arguments and four roll calls remain attributed and distinct from the execution’s political consequences.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-5AAF2CE28F56": "c1902265efd6d5c6f30a7f78a13e753673d18b22221f11030cefcdf92f21ffb2",
+        "SUBJ-SUCC-415BA63D659A": "d034a46a0b59470490c6be76ffe2afb07432abddd5c42d859151045b77b3f430"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-024",
+      "task_id": "TASK-SUCC-452F3701522A",
+      "before_record_sha256": "d51cd4cdbe4e45520d20013cbf4d11b3ed3d71eace2d3869feb3b5f0241e37d6",
+      "reviewed_record_sha256": "9c454e02f7c2f682fd79539a4befd053c468c0f6446353115887f426526c40c9",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-E6C1610F5354",
+        "legacy:TASK-EC78160BAB08",
+        "legacy:TASK-17BCBA61E980",
+        "legacy:TASK-91340776C5E6",
+        "legacy:TASK-840A4AA6B0A1",
+        "legacy:TASK-29C5ADECB62B",
+        "legacy:TASK-1BB2F97138FA",
+        "legacy:TASK-1BB32570489E",
+        "legacy:TASK-3DB76DD9E227",
+        "legacy:TASK-E670D057D070",
+        "legacy:TASK-4CE0B4DD2310",
+        "legacy:TASK-DC97B3C50788"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-3B80B2B4FB82",
+        "SUBJ-SUCC-B6A0C6B7E4B4",
+        "SUBJ-SUCC-8F566C23AFAC",
+        "SUBJ-SUCC-C31553A0D1B9",
+        "SUBJ-SUCC-329D40EC5910",
+        "SUBJ-SUCC-F8A938B3B147",
+        "SUBJ-SUCC-7EDE1C0062AD"
+      ],
+      "source_grounded_judgment": "Expose local consent/coercion and changing foreign perceptions in the main question so those retained annexation facets are answerable at parent level.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-3B80B2B4FB82": "928db859c1eaca9ea33699fcf101c28bdfa77e34b9c3f0ab431b8484658bc049",
+        "SUBJ-SUCC-B6A0C6B7E4B4": "42aedc1871b4ff87f4f591fc103e73167c287b440abcf5c1247118b2d4aa3e19",
+        "SUBJ-SUCC-8F566C23AFAC": "7e3a3eee9603903202c5fa33c9e3c11e68d6c64f31b5f11b64c08e62bdc5b48a",
+        "SUBJ-SUCC-C31553A0D1B9": "2ab7b89a56447258a47556e1cf6233f0b145987ac0cf274eaec8a618ead092fc",
+        "SUBJ-SUCC-329D40EC5910": "78e5ab58592bb04a83bc7b77139817fbfe9aceeffb748a0e0f3b4c2aa03a967f",
+        "SUBJ-SUCC-F8A938B3B147": "4dc3bec20e222e0fca86b9f9136934f85484bcb678241799567340aea128cba8",
+        "SUBJ-SUCC-7EDE1C0062AD": "1eef539b79978b15389442fdf983a2753779fe3ba851954b1e3c7001c80ffd12"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-025",
+      "task_id": "TASK-SUCC-82D8298A6454",
+      "before_record_sha256": "682769343e539fe40a344e2c6da3adbd87d1f7d26060dbf363648ed94a5f7828",
+      "reviewed_record_sha256": "d9f3a059e9b352dcb7415e498b19a35d42a305a557b4651035b7b5475464b651",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-1BF26C41F56A",
+        "legacy:TASK-695F9C68B6C0",
+        "legacy:TASK-23D441662681",
+        "legacy:TASK-E424962A84B8",
+        "legacy:TASK-13243D91895A",
+        "legacy:TASK-6D1227CA2682",
+        "legacy:TASK-BEF3F2219D3C",
+        "legacy:TASK-5B159044D588",
+        "legacy:TASK-178A1F2599A3",
+        "legacy:TASK-D9575FA74C7A"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-E1A9AD724C4E",
+        "SUBJ-SUCC-7F74654DA992",
+        "SUBJ-SUCC-BAE3182C598F",
+        "SUBJ-SUCC-056C6DE7868F"
+      ],
+      "source_grounded_judgment": "Expose Polish military and human consequences in the main question, including Praga; preserve1792 versus1794 sequences and French survival as a separate outcome.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-E1A9AD724C4E": "4c74e8e875493a25c5ce6f8f6727d2e96f06649dc2da97a99641b266140b3623",
+        "SUBJ-SUCC-7F74654DA992": "4c2871de799e06eb7078b4108999572abe3b005e301ce9381d1b099d22a0a008",
+        "SUBJ-SUCC-BAE3182C598F": "103856a0a72faf64ff5b6fd1ade28a006ec9954eb3836e9d7df5dc5a9484a396",
+        "SUBJ-SUCC-056C6DE7868F": "360be743993b4774d7a2941b2a231f33842e71e432ded99de43b3ef8871594db"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-026",
+      "task_id": "TASK-SUCC-EA0E9E5C3E7A",
+      "before_record_sha256": "dcc0d962225e36f1b13a9d38576f9b700267d79f6643dc5ee3c6181df1a4c900",
+      "reviewed_record_sha256": "3fb6b0db3075ec36bd798303332021858cf78c22c0f9f50c440574411a7b59be",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-B433F83DA54A",
+        "legacy:TASK-3CEAABEAEB86",
+        "legacy:TASK-429DF985A4B5",
+        "legacy:TASK-A6E21F9D957A"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-E801BA395EE8"
+      ],
+      "source_grounded_judgment": "Expose Tourcoing comparison and Belgian consequences in the main question rather than leaving them implicit under a generic decisive-turning-point inquiry.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-E801BA395EE8": "03c2b44058472c79ca295c60d19905ff39ae7fef1e3a26e51200f4781a502af2"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-027",
+      "task_id": "TASK-SUCC-02B1555F63E5",
+      "before_record_sha256": "4143174d105672e76ecf4f56a9d37f0cce86cfe1e54eadd37bc773f12d107085",
+      "reviewed_record_sha256": "4143174d105672e76ecf4f56a9d37f0cce86cfe1e54eadd37bc773f12d107085",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-F2019CFD5B19",
+        "legacy:TASK-247A5A54D12B",
+        "legacy:TASK-B31ED98FDEC4",
+        "legacy:TASK-3545F40ADE7D",
+        "legacy:TASK-B7053CA1F3E8"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-BAE3182C598F",
+        "SUBJ-SUCC-3B80B2B4FB82"
+      ],
+      "source_grounded_judgment": "The uprising’s sequence, social limits, French influence and absence of material aid belong together; influence is not French direction.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-BAE3182C598F": "103856a0a72faf64ff5b6fd1ade28a006ec9954eb3836e9d7df5dc5a9484a396",
+        "SUBJ-SUCC-3B80B2B4FB82": "928db859c1eaca9ea33699fcf101c28bdfa77e34b9c3f0ab431b8484658bc049"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-028",
+      "task_id": "TASK-SUCC-2F38A83B9C13",
+      "before_record_sha256": "ffae49a65109af833a96b74728d80662d89b6468b17f31513acae612da18482e",
+      "reviewed_record_sha256": "ffae49a65109af833a96b74728d80662d89b6468b17f31513acae612da18482e",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-796A10FE86C3",
+        "legacy:TASK-680ACFBC715C",
+        "legacy:TASK-CB9739F9E5F4",
+        "legacy:TASK-2ED3302ED365",
+        "legacy:TASK-29CCE8B2E471"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-8F566C23AFAC",
+        "SUBJ-SUCC-3B80B2B4FB82"
+      ],
+      "source_grounded_judgment": "Dutch Patriot mobilization and formal obligations are explicit; alliance language does not establish equal practical sovereignty.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-8F566C23AFAC": "7e3a3eee9603903202c5fa33c9e3c11e68d6c64f31b5f11b64c08e62bdc5b48a",
+        "SUBJ-SUCC-3B80B2B4FB82": "928db859c1eaca9ea33699fcf101c28bdfa77e34b9c3f0ab431b8484658bc049"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-029",
+      "task_id": "TASK-SUCC-CF51D3EFB830",
+      "before_record_sha256": "3ca898ee027b23a7dbcac86f71ea4f953ceb5e94aa1b6e7fc74d3c3f3adcfe0d",
+      "reviewed_record_sha256": "3ca898ee027b23a7dbcac86f71ea4f953ceb5e94aa1b6e7fc74d3c3f3adcfe0d",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-D2928A650549",
+        "legacy:TASK-D7537DE30464",
+        "legacy:TASK-FFDDAFB97F5F",
+        "legacy:TASK-A80540BBD589",
+        "legacy:TASK-09F0A882CF74"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-C7DF46AA6436",
+        "SUBJ-SUCC-2E5B26D8A9D6",
+        "SUBJ-SUCC-E1A9AD724C4E"
+      ],
+      "source_grounded_judgment": "Regicide, coalition-building, varied clubs and the imagined unitary plot are now separate explicit demands in the question.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-C7DF46AA6436": "fd176c839887433e8c3de97be324079925d4482b029d487447eecf93397d0079",
+        "SUBJ-SUCC-2E5B26D8A9D6": "252fd011f88d351b07ccf6620ceffacb260d0f7127426abaf38dbd40e0bf3730",
+        "SUBJ-SUCC-E1A9AD724C4E": "4c74e8e875493a25c5ce6f8f6727d2e96f06649dc2da97a99641b266140b3623"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-030",
+      "task_id": "TASK-SUCC-C8BB84DBCA99",
+      "before_record_sha256": "64836b0fe675f789258555409d5c9373a12df50d54293f96bbf0aa1d677a3409",
+      "reviewed_record_sha256": "72fbbf192dc6f1030cc17a095bca557de0b793dcfff6105b3f6704cf90480b66",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-F85DFF28059A",
+        "legacy:TASK-ADF3C1EA2F39",
+        "legacy:TASK-B7A97E5FEA3A"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-2E5B26D8A9D6",
+        "SUBJ-SUCC-AEC1E9A933E9"
+      ],
+      "source_grounded_judgment": "Expose argument, persuasion, uneven English/continental reception and authorial rejection together; none establishes a real unified conspiracy.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-2E5B26D8A9D6": "252fd011f88d351b07ccf6620ceffacb260d0f7127426abaf38dbd40e0bf3730",
+        "SUBJ-SUCC-AEC1E9A933E9": "39f52130c2bdaf083bc1494a65bd4222752c2748e2dc79d464e1ddc9b013a4c6"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-031",
+      "task_id": "TASK-SUCC-A52E10115A59",
+      "before_record_sha256": "7ca2f9571d3ba21fd5a486251ac72a895d906dbb5baa1024e9f693ffea894e5c",
+      "reviewed_record_sha256": "7ca2f9571d3ba21fd5a486251ac72a895d906dbb5baa1024e9f693ffea894e5c",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-5D8930852342",
+        "legacy:TASK-077DA604E29C",
+        "legacy:TASK-AA8AABB5EDCE",
+        "legacy:TASK-FEE31AE602B3"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-86D03B0C3585"
+      ],
+      "source_grounded_judgment": "Organization, principles and changing war policy are all explicit; the source’s anti-party political culture qualifies modern party terminology.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-86D03B0C3585": "ff4396f09e99c0a49865186d4f1522674ff2a6fbcb5ce63ecfc0f423d346e63f"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-032",
+      "task_id": "TASK-SUCC-0187D45B17D6",
+      "before_record_sha256": "6344e52d3036720dfeeea20fbb54a61ec7451e8fc2e42dbe2e2e5ba9f35b8fd9",
+      "reviewed_record_sha256": "6344e52d3036720dfeeea20fbb54a61ec7451e8fc2e42dbe2e2e5ba9f35b8fd9",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-54B8E13C6D32"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-86D03B0C3585"
+      ],
+      "source_grounded_judgment": "The trial-related question keeps appeal, clemency and recrimination; the distinct September-memory comparison remains separately routed.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-86D03B0C3585": "ff4396f09e99c0a49865186d4f1522674ff2a6fbcb5ce63ecfc0f423d346e63f"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-033",
+      "task_id": "TASK-SUCC-F5821BB98AAE",
+      "before_record_sha256": "43f9aef5a0c5429cd17407b6dfbb64f29a2b7471083b1cb3448b9928122e06c7",
+      "reviewed_record_sha256": "43f9aef5a0c5429cd17407b6dfbb64f29a2b7471083b1cb3448b9928122e06c7",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-0A87FFE1518B",
+        "legacy:TASK-4E75732CE2E5"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-8E3A7F5371C6"
+      ],
+      "source_grounded_judgment": "The two insurrections and Commission of Twelve’s counterproductive measures retain a causal sequence with different outcomes.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-8E3A7F5371C6": "626878064a4736204545d113d5f355958a39adcc584cbf7597bc28e1c5e8e722"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-034",
+      "task_id": "TASK-SUCC-BFB631F3A6EC",
+      "before_record_sha256": "6e31134250e81bd595cf1353a95cc9426d834ec3185771575003d754337d95ec",
+      "reviewed_record_sha256": "6e31134250e81bd595cf1353a95cc9426d834ec3185771575003d754337d95ec",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-6586AB1E2025"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-86D03B0C3585",
+        "SUBJ-SUCC-65D590EBAFE2"
+      ],
+      "source_grounded_judgment": "An assault on representation cannot be reduced to replacement of a modern governing party; two parent arguments support the comparison.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-86D03B0C3585": "ff4396f09e99c0a49865186d4f1522674ff2a6fbcb5ce63ecfc0f423d346e63f",
+        "SUBJ-SUCC-65D590EBAFE2": "2b891cd65ef2d6deb8813e598db00be9887b6306fc2441e048ce3ea89c82f3c7"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-035",
+      "task_id": "TASK-SUCC-35B22D0DBF2A",
+      "before_record_sha256": "5372b4e5b3f6ed9a3e14034ec137479b40c4b446e730777a4166a9fc712139c1",
+      "reviewed_record_sha256": "5372b4e5b3f6ed9a3e14034ec137479b40c4b446e730777a4166a9fc712139c1",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-D9811986B970"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-AF783FF68D90",
+        "SUBJ-SUCC-C946EBBA6629"
+      ],
+      "source_grounded_judgment": "Parisian visibility and broader death distributions remain distinguishable, with judicial, custody, extrajudicial and Vendéan-war denominators kept apart.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-AF783FF68D90": "8f83357cf3dc9be5e7c05819d6a292ff411fc1660bd12bc662b3f2714d87ce78",
+        "SUBJ-SUCC-C946EBBA6629": "aca94333b2f627025e3b86aa453afe2ce515be9523f5127f2e15ee213d1f224d"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-036",
+      "task_id": "TASK-SUCC-3D7AADE20759",
+      "before_record_sha256": "f7074042d4061931f54e756c1ad420c70b0bc0e188e7f066996df6de11453cc6",
+      "reviewed_record_sha256": "f7074042d4061931f54e756c1ad420c70b0bc0e188e7f066996df6de11453cc6",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-2318CA9D0CB6",
+        "legacy:TASK-3FF8ABEA667A"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-7A343F73BC1F"
+      ],
+      "source_grounded_judgment": "Suspects law, watch committees, civisme certification and General Security’s detention decisions are coherent aspects of administrative suspicion.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-7A343F73BC1F": "6d2d40df0724e59aee4d49a4b69a19399620a7649307574a0a1caa6a41812b63"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-037",
+      "task_id": "TASK-SUCC-2D22932ACF13",
+      "before_record_sha256": "ce009817c9d647bd466fad64609922b913daf82d26507d8ae560f44cd0aa7091",
+      "reviewed_record_sha256": "ce009817c9d647bd466fad64609922b913daf82d26507d8ae560f44cd0aa7091",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-BE9F90A787DA"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-72A1D9C70157",
+        "SUBJ-SUCC-034398CDB346",
+        "SUBJ-SUCC-54D178FEEEA6",
+        "SUBJ-SUCC-6B6553ED0407"
+      ],
+      "source_grounded_judgment": "Dechristianization’s spread and the worship-protection gap remain coherent; the pending72A chronology repair must keep the Brie rising after the decree.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-72A1D9C70157": "48fb80d9ee9a0a61f42edc0b771f07f4c505bd9ebca613e6a49825dcb1912eef",
+        "SUBJ-SUCC-034398CDB346": "24d9211b94fe3be75d2e30481680ae005659a0a468b3ff104351ac7079fbb075",
+        "SUBJ-SUCC-54D178FEEEA6": "4c1feb7e529f53230ab5d10b62154908a9bad0906e99a274abc42c5fa99b828c",
+        "SUBJ-SUCC-6B6553ED0407": "7a7a361b931c20c1d78234a8478b6cdf70566775086ae8704a4cef3b3117352e"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-038",
+      "task_id": "TASK-SUCC-BFFA25053632",
+      "before_record_sha256": "32b9b6b37e51078fc6eefcd062333ddea3098538eda4924a495e039083170c1c",
+      "reviewed_record_sha256": "32b9b6b37e51078fc6eefcd062333ddea3098538eda4924a495e039083170c1c",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-54E280B4665B"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-AF9995D451BE",
+        "SUBJ-SUCC-7FD46BD9C318"
+      ],
+      "source_grounded_judgment": "Failure to defend Hébert is distinguished from prior participation; employment, fatigue and fulfilled demands explain changed support.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-AF9995D451BE": "5725bdc6af59adb0145d85a0c19d7e6fb8beb7dcb402f25643ea598aa14b7d4e",
+        "SUBJ-SUCC-7FD46BD9C318": "4fbb16fb6e3e9a5225e136a7715cb975e9252f853b1bd1c913cc22784001553a"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-039",
+      "task_id": "TASK-SUCC-DB9A6CD1161B",
+      "before_record_sha256": "1d281f9d454848645965dca1e96e1e9d770befb2dc4d0082af5dc926d588f155",
+      "reviewed_record_sha256": "1d281f9d454848645965dca1e96e1e9d770befb2dc4d0082af5dc926d588f155",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [],
+      "subject_ids": [
+        "SUBJ-SUCC-6B6553ED0407",
+        "SUBJ-SUCC-AF9995D451BE"
+      ],
+      "source_grounded_judgment": "Chaumette’s earlier radicalism, guarded insurrectionary behavior and later guilt-by-silence execution are distinct parts of one trajectory.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-6B6553ED0407": "7a7a361b931c20c1d78234a8478b6cdf70566775086ae8704a4cef3b3117352e",
+        "SUBJ-SUCC-AF9995D451BE": "5725bdc6af59adb0145d85a0c19d7e6fb8beb7dcb402f25643ea598aa14b7d4e"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-040",
+      "task_id": "TASK-SUCC-F9402BF176EE",
+      "before_record_sha256": "cf1cfe21dca9d7d4abad0e8570242a933894fbe804324cbdd310f5bca9ba959d",
+      "reviewed_record_sha256": "cf1cfe21dca9d7d4abad0e8570242a933894fbe804324cbdd310f5bca9ba959d",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-297AD9AEAFE3",
+        "legacy:TASK-C43D1B9C0D60",
+        "legacy:TASK-370C16683B5F",
+        "legacy:TASK-A661E1AC724F",
+        "legacy:TASK-AA0ED81122B3"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-3CA26E8D160A",
+        "SUBJ-SUCC-9465F7AFB297"
+      ],
+      "source_grounded_judgment": "Thermidor’s institutional meaning includes personnel continuity, reduced executions and phased dismantling; it is not the end of all repression.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-3CA26E8D160A": "c224d169b48accdb06e7fce5b444d88df7e4d6f83df479e8c2112db19aa96d2b",
+        "SUBJ-SUCC-9465F7AFB297": "f2de85655c8ad7779c24ff86763a49e305706c96a1dc4a6afa72627192b69c7b"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-041",
+      "task_id": "TASK-SUCC-6AFB143F39DE",
+      "before_record_sha256": "da8393828b9603639bc38fd4f8949340c955b5a108a0af356386dcfc8c69f936",
+      "reviewed_record_sha256": "da8393828b9603639bc38fd4f8949340c955b5a108a0af356386dcfc8c69f936",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-EBE0235FEBFE",
+        "legacy:TASK-464B23C5A66B",
+        "legacy:TASK-7FA629512BE6",
+        "legacy:TASK-3FCA4D424E98",
+        "legacy:TASK-4B1C74B33F36",
+        "legacy:TASK-11077F4E08A8"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-F539754012D5",
+        "SUBJ-SUCC-ED09FB8A7BAE",
+        "SUBJ-SUCC-7EF3772773F2"
+      ],
+      "source_grounded_judgment": "Prisoner releases, street groups and press politics form a coherent comparison, including changing Muscadin identities and the restored pamphlet route.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-F539754012D5": "4d979da3bcc8d84046026c4766916abc6987cb790431f44650d1f9cf949859cd",
+        "SUBJ-SUCC-ED09FB8A7BAE": "96144621a283ff8545fc3cbb80335af17b67db205ee3e4c6c13519954bc24ecf",
+        "SUBJ-SUCC-7EF3772773F2": "fd8015a8a8fffe10c11403cf48a8f0dff29e1ac7bcea9273ae2ab5180911fbe4"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-042",
+      "task_id": "TASK-SUCC-0D804F998A7B",
+      "before_record_sha256": "b44e7d32b80b40491a23422e25232f9d88bff6f9dd42c90526695f00442ca963",
+      "reviewed_record_sha256": "b44e7d32b80b40491a23422e25232f9d88bff6f9dd42c90526695f00442ca963",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-0666C84526DE",
+        "legacy:TASK-A2AAD06DCB5F",
+        "legacy:TASK-5CF3FD2E4D37"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-ED09FB8A7BAE"
+      ],
+      "source_grounded_judgment": "Dismantling includes official action, street pressure and delegitimizing language; it does not assert the first hostile use anywhere.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-ED09FB8A7BAE": "96144621a283ff8545fc3cbb80335af17b67db205ee3e4c6c13519954bc24ecf"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-043",
+      "task_id": "TASK-SUCC-8012C36B851D",
+      "before_record_sha256": "bd26dde48899eb741f5fcee4bf40fca006db817698af6e787c418a21a8764d07",
+      "reviewed_record_sha256": "bd26dde48899eb741f5fcee4bf40fca006db817698af6e787c418a21a8764d07",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-EC3E2C9EA71D",
+        "legacy:TASK-4AD8AF3AA98D",
+        "legacy:TASK-E6C32E27BF22",
+        "legacy:TASK-37B56218FCA3",
+        "legacy:TASK-BC69188E9408",
+        "legacy:TASK-D32BC3E1BE58"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-25B078097C6D",
+        "SUBJ-SUCC-3CA26E8D160A",
+        "SUBJ-SUCC-D0BE47FBF36D"
+      ],
+      "source_grounded_judgment": "Actual atrocities, selective prosecution and protection of the Convention’s collective responsibility remain analytically distinct.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-25B078097C6D": "d71e514c5b1090b444c5c3ea1cff4c83de26be646818dd950e0dc30f10cb04a0",
+        "SUBJ-SUCC-3CA26E8D160A": "c224d169b48accdb06e7fce5b444d88df7e4d6f83df479e8c2112db19aa96d2b",
+        "SUBJ-SUCC-D0BE47FBF36D": "2170d5391681a3ec375bd487ac28027ba112f3ef130a784d87b0c4bde15a15bd"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-044",
+      "task_id": "TASK-SUCC-CD100AF00FE3",
+      "before_record_sha256": "0c63ac23000f209910e098ef846052a310811b6f26756d0f3299b000d6675581",
+      "reviewed_record_sha256": "0c63ac23000f209910e098ef846052a310811b6f26756d0f3299b000d6675581",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-055C9E615903",
+        "legacy:TASK-7F4634F67618",
+        "legacy:TASK-A7D324695596",
+        "legacy:TASK-0449CA211D82",
+        "legacy:TASK-1FCD82575EDC"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-9DC759EBDD0D",
+        "SUBJ-SUCC-260AA907209B",
+        "SUBJ-SUCC-72A1D9C70157"
+      ],
+      "source_grounded_judgment": "Three religious policies and the constitutional Church’s position are explicitly compared; conditional worship is not unrestricted restoration.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-9DC759EBDD0D": "5bf03ac811a376da13e6f5852aa49c6cccfab0702e9ced202045bb9b9470f301",
+        "SUBJ-SUCC-260AA907209B": "16e13bef049672a4f78b67fdcc247a295c75f59389300a8f8cd595c0970793d0",
+        "SUBJ-SUCC-72A1D9C70157": "48fb80d9ee9a0a61f42edc0b771f07f4c505bd9ebca613e6a49825dcb1912eef"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-045",
+      "task_id": "TASK-SUCC-81AEFB30D474",
+      "before_record_sha256": "843063c2512c19d3b715fb467b0e533d497e146a5f838679e220016553a9a6c2",
+      "reviewed_record_sha256": "b8beef2c64d0e6cf7002c48281b2f646ad883e9808e1c4eb42f2772d5bbb7503",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-47E4E599C7A7",
+        "legacy:TASK-68CB44EBBAEE",
+        "legacy:TASK-3B99321ED179",
+        "legacy:TASK-359566270808",
+        "legacy:TASK-02455F7032C6",
+        "legacy:TASK-D2D0D6509129"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-9B51E63EF68F",
+        "SUBJ-SUCC-CC730DB406A0"
+      ],
+      "source_grounded_judgment": "Correct main scope and two facet rationales:276/291 concern earlier organizational erosion;295 supplies the final Prairial destruction. Both remain in9B51.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-9B51E63EF68F": "029b0af391c307fde5dfe1dba5182574fbb29737466562043a688f9b067247ff",
+        "SUBJ-SUCC-CC730DB406A0": "d4d36198c3460f950f818fdfdc2e783ff6af923d732dad85fa9e158516e8de77"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-046",
+      "task_id": "TASK-SUCC-020B95F67B8A",
+      "before_record_sha256": "f8441b1bd6688cea42cbf67fc02c907b8646ad8c6b133cb9afe5b4dad469ac79",
+      "reviewed_record_sha256": "f8441b1bd6688cea42cbf67fc02c907b8646ad8c6b133cb9afe5b4dad469ac79",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-AFCC7BF84D57"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-F0BD6A05AAAD",
+        "SUBJ-SUCC-3256F9538F44"
+      ],
+      "source_grounded_judgment": "Dutch constitutional deadlock and French interventions form one constitutional question, separate from the economic-cost inquiry.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-F0BD6A05AAAD": "4e619ecdc9f2323cb025aeb592e39d64d3416f3d520b26b2e8b2b6e12468827d",
+        "SUBJ-SUCC-3256F9538F44": "404414eb56efe33c04db44b141386831498b63279b641b49d743bec3b622c84b"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-047",
+      "task_id": "TASK-SUCC-0B7EB66185E6",
+      "before_record_sha256": "725c78da5e408ada8e72f7f1d5a5f2b5c4ca85e7e58cfd7edbce8be5d68c039a",
+      "reviewed_record_sha256": "725c78da5e408ada8e72f7f1d5a5f2b5c4ca85e7e58cfd7edbce8be5d68c039a",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-D20C4B17C0BF"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-44A8A4E36810",
+        "SUBJ-SUCC-50777206BE7A",
+        "SUBJ-SUCC-F0BD6A05AAAD"
+      ],
+      "source_grounded_judgment": "Dutch trade, industry, welfare and autonomy now appear alongside the lack of a viable alternative; the parent set is coherent.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-44A8A4E36810": "1232bc4f5f00fe508b76bf7e67eac8e644affeb7b8ebea705d1a15215ffcf9a1",
+        "SUBJ-SUCC-50777206BE7A": "8d4315502b581c9b02f216ea0400cd8fbe64df793693c832e6fbc05cc47d84bf",
+        "SUBJ-SUCC-F0BD6A05AAAD": "4e619ecdc9f2323cb025aeb592e39d64d3416f3d520b26b2e8b2b6e12468827d"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-048",
+      "task_id": "TASK-SUCC-2C646441C390",
+      "before_record_sha256": "c188fa332fc4d092b5a14b586e81a97792e2c81f76dedd72fecb73bcb088fc7f",
+      "reviewed_record_sha256": "c188fa332fc4d092b5a14b586e81a97792e2c81f76dedd72fecb73bcb088fc7f",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-71B2C1DD086A"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-8EB370248C8E",
+        "SUBJ-SUCC-EB2C28D684C6",
+        "SUBJ-SUCC-6A33E492BFCC",
+        "SUBJ-SUCC-38E8081905D0"
+      ],
+      "source_grounded_judgment": "Belgian extraction, annexation, religion, conscription and divergent urban/rural responses are explicit and retain persistent resistance.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-8EB370248C8E": "3beeb516200ab4257a4d73e943327f8f0dd6f8b78da4af92966ada6c004e2515",
+        "SUBJ-SUCC-EB2C28D684C6": "fefd4f20bed7d2e7fb66ded6e7d6672141d99d33250d4ae5b592d6171123d3b0",
+        "SUBJ-SUCC-6A33E492BFCC": "9e1331db3e6bb34d9c580bfe44f149b78590b06d555b6b8757bce173bb3eb6ab",
+        "SUBJ-SUCC-38E8081905D0": "c4157d1a5adfbb5bf8b5a08f92595d976bf97f49695188667d5c7dd2e1daeec2"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-049",
+      "task_id": "TASK-SUCC-EF3D358DA16E",
+      "before_record_sha256": "b8acf64d5af87eb2b61ab08c05ce1fa5327cb3da34dbcc712c1ec3e3bb652813",
+      "reviewed_record_sha256": "b8acf64d5af87eb2b61ab08c05ce1fa5327cb3da34dbcc712c1ec3e3bb652813",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-9160874A618E"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-63FC319A198D",
+        "SUBJ-SUCC-F8A938B3B147",
+        "SUBJ-SUCC-8760C754C67B",
+        "SUBJ-SUCC-6A33E492BFCC"
+      ],
+      "source_grounded_judgment": "Rhineland occupation and passive resistance are compared with the named Belgian uprising without treating lesser revolt as consent.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-63FC319A198D": "e545a9ca84d4972c78280745057fabea5238fd721fe4a4ebb7819387727ef8a5",
+        "SUBJ-SUCC-F8A938B3B147": "4dc3bec20e222e0fca86b9f9136934f85484bcb678241799567340aea128cba8",
+        "SUBJ-SUCC-8760C754C67B": "e0b568c1d8c35c93fa550cb313166757d59568a1dc92b9a4781ef97b2056559d",
+        "SUBJ-SUCC-6A33E492BFCC": "9e1331db3e6bb34d9c580bfe44f149b78590b06d555b6b8757bce173bb3eb6ab"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-050",
+      "task_id": "TASK-SUCC-4023DF544FEE",
+      "before_record_sha256": "aed925a2dffc1ebbb58deb4a32ed812fb47434d60ae8983eaae9031cf21526d9",
+      "reviewed_record_sha256": "aed925a2dffc1ebbb58deb4a32ed812fb47434d60ae8983eaae9031cf21526d9",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-75B5A8BCFAEE"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-02AF5D334E8F",
+        "SUBJ-SUCC-431D9939D11B",
+        "SUBJ-SUCC-84B2C8434BA6"
+      ],
+      "source_grounded_judgment": "Patriot social base, divisions and national aspirations explain variable French use and suppression; Italian agency is retained.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-02AF5D334E8F": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c",
+        "SUBJ-SUCC-431D9939D11B": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+        "SUBJ-SUCC-84B2C8434BA6": "03b99440ff47a794ce6a6eed6f9d17815e7ff2350b674b7ac466ecc59d0a89a0"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-051",
+      "task_id": "TASK-SUCC-4A6551565346",
+      "before_record_sha256": "d5883ad83251ec5e4cfef254965e343e4d027ef3336d5995fbe1cd77b7ab2940",
+      "reviewed_record_sha256": "d5883ad83251ec5e4cfef254965e343e4d027ef3336d5995fbe1cd77b7ab2940",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-72DABC40F7FF"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-A91A3B09441B",
+        "SUBJ-SUCC-C9C4454491D0",
+        "SUBJ-SUCC-84B2C8434BA6",
+        "SUBJ-SUCC-02AF5D334E8F"
+      ],
+      "source_grounded_judgment": "Cispadane/Cisalpine formation and later dependency stay distinct; policy after Bonaparte’s departure must not all be attributed to him.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-A91A3B09441B": "969cd4665af77ad3cd84e19757a553c34082c779cd498903e086d69ca15fa09b",
+        "SUBJ-SUCC-C9C4454491D0": "71be7e776be18880a7b4d17dc910f4e52c51e8bac2fe9275fa764f9ae12f2c97",
+        "SUBJ-SUCC-84B2C8434BA6": "03b99440ff47a794ce6a6eed6f9d17815e7ff2350b674b7ac466ecc59d0a89a0",
+        "SUBJ-SUCC-02AF5D334E8F": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-052",
+      "task_id": "TASK-SUCC-982A60537FFC",
+      "before_record_sha256": "2c80562e6f77f42abaef4bef8fc889de01eaedcb637c5a5af689eb880630bdb5",
+      "reviewed_record_sha256": "2c80562e6f77f42abaef4bef8fc889de01eaedcb637c5a5af689eb880630bdb5",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-C02E732D3C88"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-A91A3B09441B",
+        "SUBJ-SUCC-C9C4454491D0",
+        "SUBJ-SUCC-A6EB838468C1",
+        "SUBJ-SUCC-D33E439E4979"
+      ],
+      "source_grounded_judgment": "The whole four-republic constitutional comparison now has all four parents and is separated from narrower formation tasks.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-A91A3B09441B": "969cd4665af77ad3cd84e19757a553c34082c779cd498903e086d69ca15fa09b",
+        "SUBJ-SUCC-C9C4454491D0": "71be7e776be18880a7b4d17dc910f4e52c51e8bac2fe9275fa764f9ae12f2c97",
+        "SUBJ-SUCC-A6EB838468C1": "e53e79a030c6a1fadc4460ee4d481a5e1d7f79e1eb282027c26ac68fb0ede601",
+        "SUBJ-SUCC-D33E439E4979": "e11031f8ce9d470d0284076115573ae7f32dfaa72d504469094dff2efd4cc301"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-053",
+      "task_id": "TASK-SUCC-46BC20C9AA18",
+      "before_record_sha256": "1d27b6878de40c0adc7d4545b7f9377d1b06b2a344b2c7899220fa4ea832246f",
+      "reviewed_record_sha256": "1d27b6878de40c0adc7d4545b7f9377d1b06b2a344b2c7899220fa4ea832246f",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-0AE98216EF95"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-C6F2BF879546",
+        "SUBJ-SUCC-9C234417CEB0",
+        "SUBJ-SUCC-0E9117EAD92A",
+        "SUBJ-SUCC-02AF5D334E8F",
+        "SUBJ-SUCC-431D9939D11B"
+      ],
+      "source_grounded_judgment": "Piedmontese, Tuscan, Jewish and divided Jacobin experiences explicitly complicate a uniform royalist account.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-C6F2BF879546": "4270f8a599893f49da7a696d80fe4be2dc856f1e9fcdcbcdbf013f1284731b78",
+        "SUBJ-SUCC-9C234417CEB0": "8792e419d42d902aa6a81b7c2e7ee748d71e7e9d9a06914f7199aa12d5633f23",
+        "SUBJ-SUCC-0E9117EAD92A": "75732d52edbe0b33f05f65125dfbbdd59886dd615fe983f35fb4752a0343ca0b",
+        "SUBJ-SUCC-02AF5D334E8F": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c",
+        "SUBJ-SUCC-431D9939D11B": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-054",
+      "task_id": "TASK-SUCC-1E08D89E2A75",
+      "before_record_sha256": "bf7d0a0781562a570322a8cc500bd60044134735cc37e95cbc3e453c96719182",
+      "reviewed_record_sha256": "bf7d0a0781562a570322a8cc500bd60044134735cc37e95cbc3e453c96719182",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-48BEF1E277AA",
+        "legacy:TASK-8E3621B3AC9B"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-0BE8A4FDFA78",
+        "SUBJ-SUCC-5D069D724C33",
+        "SUBJ-SUCC-55CCA1CC2481"
+      ],
+      "source_grounded_judgment": "Peasant disengagement and propertied reconciliation can coexist with attachment to gains; neither proves approval of every authoritarian measure.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-0BE8A4FDFA78": "eca2d617b2e9352a912c3cdb53eaf307cfc722f86f86d4b7b63766597bfbb1cc",
+        "SUBJ-SUCC-5D069D724C33": "01c7c1595552517e8c3d381f18680b590b1187d6f09b33d574f99b242f41a831",
+        "SUBJ-SUCC-55CCA1CC2481": "a08bb518c314bfae1695ab5a77fb623920707542c81a1e755262b6dca57e2969"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-055",
+      "task_id": "TASK-SUCC-0383E3E68698",
+      "before_record_sha256": "50da26edc8b40b0e951d0ffcd43fc327c3c1284db6bdf948557f88ce3a87bbb6",
+      "reviewed_record_sha256": "50da26edc8b40b0e951d0ffcd43fc327c3c1284db6bdf948557f88ce3a87bbb6",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-0BD78028B7E5",
+        "legacy:TASK-41A05BB68B2E",
+        "legacy:TASK-F6AD956665BF"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-13D741A01D65",
+        "SUBJ-SUCC-F45A115730CC",
+        "SUBJ-SUCC-D25EFF329FF1"
+      ],
+      "source_grounded_judgment": "Prairial and Brumaire differ in actors and constitutional effects; Sieyès and Lucien are explicit, with Brumaire’s near failure retained.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-13D741A01D65": "3d89a96a455503d14bb786296a59340a4ff39266cc8387900f37f06a3aa498aa",
+        "SUBJ-SUCC-F45A115730CC": "b886962e961bb14ad0a799a99ec7151888c746c17678fc0256e0059f9325fff6",
+        "SUBJ-SUCC-D25EFF329FF1": "595b23547e98928d6e9bdaabdad47bb74b1fe41336aec8a9e607aed4f8f006a3"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-056",
+      "task_id": "TASK-SUCC-EDD8CC087EC5",
+      "before_record_sha256": "4a9589a46f12c3c7bb9d7ae106ac4cb9819abb1deff8b52625004d0e6472f825",
+      "reviewed_record_sha256": "4a9589a46f12c3c7bb9d7ae106ac4cb9819abb1deff8b52625004d0e6472f825",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-45CD31129500",
+        "legacy:TASK-E9788A305FCB",
+        "legacy:TASK-1C4A0D73570F"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-7EF1051421BC",
+        "SUBJ-SUCC-A946B0B96B6D",
+        "SUBJ-SUCC-D25EFF329FF1",
+        "SUBJ-SUCC-625493A707D6"
+      ],
+      "source_grounded_judgment": "YearVIII institutions, manipulated assent and later purges expose the limits of representation without conflating constitutional language with control.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-7EF1051421BC": "1fb81bbb74c122f041b0c4d51d2238ea39dfab03558b25f722d0f6986fc1ff14",
+        "SUBJ-SUCC-A946B0B96B6D": "ef5353b0bb24ca9356b47b21f5c55e0d42731f3e45a88cb62e45f5184e679eef",
+        "SUBJ-SUCC-D25EFF329FF1": "595b23547e98928d6e9bdaabdad47bb74b1fe41336aec8a9e607aed4f8f006a3",
+        "SUBJ-SUCC-625493A707D6": "c9991e3588e2b6ee521c70d5ab31571bc536414f5c89ae44fc6e061242685505"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-057",
+      "task_id": "TASK-SUCC-46DFDC090C28",
+      "before_record_sha256": "968d9ceea7ae4b93fb7481cfaf46054ba329247eff2924e1b1112f120d4ba6e5",
+      "reviewed_record_sha256": "968d9ceea7ae4b93fb7481cfaf46054ba329247eff2924e1b1112f120d4ba6e5",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-6F6A9AC27433"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-E353D1807798",
+        "SUBJ-SUCC-29A3325A5A18"
+      ],
+      "source_grounded_judgment": "Military decisiveness, political credit and the path to Lunéville distinguish Hohenlinden from Marengo.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-E353D1807798": "2c00e3751446503d43309e4e1d28645e857929769e34b9a8e3af464b4003596c",
+        "SUBJ-SUCC-29A3325A5A18": "00a7a2c0ffe906561330c474854b2c1298bd0caa87e784dbabc9314ce4fa4550"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-058",
+      "task_id": "TASK-SUCC-156949ABB44D",
+      "before_record_sha256": "cd2e63f1d9612dc04f46cd7febeb091652155072af8285cd4a49883712426002",
+      "reviewed_record_sha256": "085f972b5ec49cb9e77c17d78d2bf2a207fb2f7b91fc0c0c7dcde94df52810b2",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-37CA63DAA8D6"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-BEB51695F38C",
+        "SUBJ-SUCC-C9FC2D29F642"
+      ],
+      "source_grounded_judgment": "Expose Amiens terms and unstable significance in the main question; maritime success did not give Britain every objective.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-BEB51695F38C": "d96d58025a72f02c79668ed93e83e611bb176e39950a9904ba56de319c95d24b",
+        "SUBJ-SUCC-C9FC2D29F642": "78d81da438371b5883285d2ed26a452541f29b9b667d7ce1ad2fafca350f9c59"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-059",
+      "task_id": "TASK-SUCC-1F7CB721EF0D",
+      "before_record_sha256": "14fcd2a6a46f99825c896f013cebdb5fce400da0ad8972cd0231d1898b9400d5",
+      "reviewed_record_sha256": "14fcd2a6a46f99825c896f013cebdb5fce400da0ad8972cd0231d1898b9400d5",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-9CD4AF894E1D",
+        "legacy:TASK-ABE236FAF55C",
+        "legacy:TASK-09D3229043C4"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-BEBD3DEC1E8D",
+        "SUBJ-SUCC-DF287F758EED",
+        "SUBJ-SUCC-5D069D724C33"
+      ],
+      "source_grounded_judgment": "Conditional reconciliation preserves property transfers and the rejection of Bourbon restoration, not return of confiscated estates.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-BEBD3DEC1E8D": "ccdb4982249ce1d69a4b00efab4a0d038b3fcfd9bbc32ef44e9669d6a705adc7",
+        "SUBJ-SUCC-DF287F758EED": "20d2232fd47a22ef67544526aac4df9d45a3e83624f4d327f0ca0757a104d6dd",
+        "SUBJ-SUCC-5D069D724C33": "01c7c1595552517e8c3d381f18680b590b1187d6f09b33d574f99b242f41a831"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-060",
+      "task_id": "TASK-SUCC-355439E563E7",
+      "before_record_sha256": "9e1ad1b354799751480e8f2716f18c6989e04e24c72fac8cf18c3ae9a0c12c18",
+      "reviewed_record_sha256": "9e1ad1b354799751480e8f2716f18c6989e04e24c72fac8cf18c3ae9a0c12c18",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-94579E01FF37",
+        "legacy:TASK-D9563EE4489E"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-00F4B720221C",
+        "SUBJ-SUCC-5D069D724C33"
+      ],
+      "source_grounded_judgment": "True royalist authorship, police knowledge and chosen Jacobin repression remain distinct from an honest identification error.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-00F4B720221C": "305f1259b20a5f9b61809adc69f8bb3eadd0f482ab6d8107606074487aa94fb9",
+        "SUBJ-SUCC-5D069D724C33": "01c7c1595552517e8c3d381f18680b590b1187d6f09b33d574f99b242f41a831"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-061",
+      "task_id": "TASK-SUCC-CA3859C6B312",
+      "before_record_sha256": "40ae6e80c5a6b61b6c4d349326a6974a5a5e11dc0bc24717ae62751600dfcc4a",
+      "reviewed_record_sha256": "40ae6e80c5a6b61b6c4d349326a6974a5a5e11dc0bc24717ae62751600dfcc4a",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-5F1F6ED94E26",
+        "legacy:TASK-B80BB971284F",
+        "legacy:TASK-8BB63BA02BEC",
+        "legacy:TASK-83F362BF0440",
+        "legacy:TASK-1787BC0947A7"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-0BE8A4FDFA78",
+        "SUBJ-SUCC-C9FC2D29F642",
+        "SUBJ-SUCC-5D069D724C33",
+        "SUBJ-SUCC-0848F7E708D9",
+        "SUBJ-SUCC-625493A707D6",
+        "SUBJ-SUCC-A946B0B96B6D",
+        "SUBJ-SUCC-00F4B720221C",
+        "SUBJ-SUCC-DF287F758EED",
+        "SUBJ-SUCC-6568AD1BCF30"
+      ],
+      "source_grounded_judgment": "The broad ending-by1802 synthesis explicitly asks consolidation, sacrificed representation, reconciliation and the distinction from later war.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-0BE8A4FDFA78": "eca2d617b2e9352a912c3cdb53eaf307cfc722f86f86d4b7b63766597bfbb1cc",
+        "SUBJ-SUCC-C9FC2D29F642": "78d81da438371b5883285d2ed26a452541f29b9b667d7ce1ad2fafca350f9c59",
+        "SUBJ-SUCC-5D069D724C33": "01c7c1595552517e8c3d381f18680b590b1187d6f09b33d574f99b242f41a831",
+        "SUBJ-SUCC-0848F7E708D9": "382f1be63dcddb8f628f6c5ee9cfdf703879178ba24dd5d4ea16183b93fb62e5",
+        "SUBJ-SUCC-625493A707D6": "c9991e3588e2b6ee521c70d5ab31571bc536414f5c89ae44fc6e061242685505",
+        "SUBJ-SUCC-A946B0B96B6D": "ef5353b0bb24ca9356b47b21f5c55e0d42731f3e45a88cb62e45f5184e679eef",
+        "SUBJ-SUCC-00F4B720221C": "305f1259b20a5f9b61809adc69f8bb3eadd0f482ab6d8107606074487aa94fb9",
+        "SUBJ-SUCC-DF287F758EED": "20d2232fd47a22ef67544526aac4df9d45a3e83624f4d327f0ca0757a104d6dd",
+        "SUBJ-SUCC-6568AD1BCF30": "e683c08bc046f60d6a1d0c8aeb46cb4e9845517b2014bf1aff6f6c1389e5761e"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-062",
+      "task_id": "TASK-SUCC-C0B2BA19E432",
+      "before_record_sha256": "64da5058fb46df4a9f1be442a8fdad92fb6f520315153bc007c8e7365517b4ed",
+      "reviewed_record_sha256": "64da5058fb46df4a9f1be442a8fdad92fb6f520315153bc007c8e7365517b4ed",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-B15439BD0CC9"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-8B341BCAF68F",
+        "SUBJ-SUCC-6BBDB6F461D1",
+        "SUBJ-SUCC-ED45439A1452",
+        "SUBJ-SUCC-251A2CCA89B2"
+      ],
+      "source_grounded_judgment": "Administrative, legal and metric persistence is explicitly balanced against intolerance and violence, preserving durable improvements and their limits.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-8B341BCAF68F": "4f107bc83bb12da2064fc11a23f2935e70cfc484a741e8d8a8ad36b3f607bb8c",
+        "SUBJ-SUCC-6BBDB6F461D1": "ff21ce85d85ef6ce4aec53eaf2f2f61a6f0f55b4ddb99eefd3dd239745d6ef4c",
+        "SUBJ-SUCC-ED45439A1452": "4f50b6383fdad5b43aee7f6cfbf7f10b7f48db37ac2ddf8ac24578eba4215302",
+        "SUBJ-SUCC-251A2CCA89B2": "c5d460f0dd76fe100b9afedb320c202ab1ac2a0f57f04a8ce7aba2e721816db8"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-063",
+      "task_id": "TASK-SUCC-FD15A9B103F7",
+      "before_record_sha256": "d017d8616aa7d4af38c3f934520d2f8cafabc3e2c1f8d8e58b4f5150f37b0eca",
+      "reviewed_record_sha256": "d017d8616aa7d4af38c3f934520d2f8cafabc3e2c1f8d8e58b4f5150f37b0eca",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-B121889A00DA",
+        "legacy:TASK-7A5133C752A6"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-28E04117C501",
+        "SUBJ-SUCC-0848F7E708D9",
+        "SUBJ-SUCC-FA919FE4CE14"
+      ],
+      "source_grounded_judgment": "Noble/clerical transformation and Concordat concessions form a coherent comparison; the unsupported poor-relief obligation remains removed.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-28E04117C501": "711a8fdd4e3784a2ffbabb39b6579a5215ccdfaa0bee1b4675d72a5d58ce0358",
+        "SUBJ-SUCC-0848F7E708D9": "382f1be63dcddb8f628f6c5ee9cfdf703879178ba24dd5d4ea16183b93fb62e5",
+        "SUBJ-SUCC-FA919FE4CE14": "bd995e8a09f1189f533acfd81ef6bee630de853a6da974b7f6096c982243ccc0"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-064",
+      "task_id": "TASK-SUCC-4AA2A8700E8D",
+      "before_record_sha256": "e9f2bc2d98aec5994c2669fd1cdc153a631b7dc3eb1c422e8319ca49c955e557",
+      "reviewed_record_sha256": "e9f2bc2d98aec5994c2669fd1cdc153a631b7dc3eb1c422e8319ca49c955e557",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-7ABB9930E2DA"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-38D7478429CE",
+        "SUBJ-SUCC-39CA1B8E5293"
+      ],
+      "source_grounded_judgment": "Educational and welfare failures concern replacement and funding, qualified by partial survival and recovery.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-38D7478429CE": "6d0e561576a1e16e6fd9e6f7ed92fb84eecd66e9d02a21ee574b731689511b1a",
+        "SUBJ-SUCC-39CA1B8E5293": "bb21539e3863b4ee4ba1a88e80b69271a112e51e5aea4abde178b78906426ecc"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-065",
+      "task_id": "TASK-SUCC-89C9B3341F54",
+      "before_record_sha256": "c79812a28a1f446dcc05a3aa0f8f6bcdaecb368a38610e7b1f57a584b5d8ccb5",
+      "reviewed_record_sha256": "a3dd337fbca92730e3f002dc98570228af36de16da4d79e5ce84a4f42d40a0b0",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-7E7F688955F0"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-97BC997A7082",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-60B96F147FEF",
+        "SUBJ-SUCC-7F8042CFA7E2",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "source_grounded_judgment": "Expose national-land finance as well as investment and inflation so fiscal sacrifice is not hidden beneath a generic economic-disaster label.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-D67AE46E6D98": "61e35d490a45309fa9f908c314913824e6cc2f73ab7c8e475d4731338aceafcb",
+        "SUBJ-SUCC-97BC997A7082": "fa164911df0532ed4e09f531f4327ec678e2d1c28feadc22df1242460d6e2ef9",
+        "SUBJ-SUCC-5193E3F37320": "dcbb5dad758dd9677f7566ef63672bf52eb3bf15ca04be8c4138730fe25e1a41",
+        "SUBJ-SUCC-AADC5C41A986": "c24e00bc11ee766aa401a5ae2dce5ef2c26e1ff559659d33120b884a73405ff5",
+        "SUBJ-SUCC-60B96F147FEF": "fc2142c0ecb4b8c52856230a8292d7010251405f9a666cf5fc6bd3333578dbca",
+        "SUBJ-SUCC-7F8042CFA7E2": "ac5c6098ddd285e1bfbf96af0bc2878091c1b4219bc052924b9a09f724628afc",
+        "SUBJ-SUCC-FC3075CE0927": "e8d21094908e470c7317d4dabbb358a8c5d093c1182d540ef73aa97a984bd54d"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-066",
+      "task_id": "TASK-SUCC-2615667861B8",
+      "before_record_sha256": "571994f771bd6a163ccd5057003b32270d31e70ff9290e9eb44ea1f4a5722007",
+      "reviewed_record_sha256": "571994f771bd6a163ccd5057003b32270d31e70ff9290e9eb44ea1f4a5722007",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-B3EBF826493A"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-943145BC4166",
+        "SUBJ-SUCC-191FA6C1BCC9",
+        "SUBJ-SUCC-FC3075CE0927",
+        "SUBJ-SUCC-CFFCD493828A"
+      ],
+      "source_grounded_judgment": "Ordinary material experience, property gains and popular versus organized counter-revolution are explicitly distinguished.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-943145BC4166": "197719061d73962cbafa31ab7138955e9764283d93469eb97d4b92c8b7012b8a",
+        "SUBJ-SUCC-191FA6C1BCC9": "af4e7cd3953ffcedc42877971b946c5ee0f06a860b8ff70392ca23f0542d463a",
+        "SUBJ-SUCC-FC3075CE0927": "e8d21094908e470c7317d4dabbb358a8c5d093c1182d540ef73aa97a984bd54d",
+        "SUBJ-SUCC-CFFCD493828A": "43b2ec6d64a65421ec87720aaeecca1a551cafdf011dd329c2b38fe259c27805"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-067",
+      "task_id": "TASK-SUCC-3482C454384A",
+      "before_record_sha256": "18760b409126a6534f86afec3c30ffadc3c137d58b8db0c3cf7f9f7082b58a7c",
+      "reviewed_record_sha256": "18760b409126a6534f86afec3c30ffadc3c137d58b8db0c3cf7f9f7082b58a7c",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [],
+      "subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F",
+        "SUBJ-SUCC-43C2056DACCC",
+        "SUBJ-SUCC-298B26A9D77A",
+        "SUBJ-SUCC-251A2CCA89B2"
+      ],
+      "source_grounded_judgment": "Professional and military opportunity coexist with coercive state growth and mortality; the army’s guardianship claim is explicit.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-E4C3D945CE3F": "df4fff6bba3aee8da285f0e359d4373275e048c146ed7aa2caf19ccd9345a42e",
+        "SUBJ-SUCC-43C2056DACCC": "956a090d3aa03470072c469ac36a14f2d5847b43021c3775fa320f3ff0ee550b",
+        "SUBJ-SUCC-298B26A9D77A": "47319b4081614af1ae4cdef6106d549793a810f3e6eb9155af7f5272195b5d7a",
+        "SUBJ-SUCC-251A2CCA89B2": "c5d460f0dd76fe100b9afedb320c202ab1ac2a0f57f04a8ce7aba2e721816db8"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-068",
+      "task_id": "TASK-SUCC-660DBA5A3937",
+      "before_record_sha256": "791ea4d788dd9d41e10c42c89216669d38b8e6ed27ca37b5900eef70efbdf0f9",
+      "reviewed_record_sha256": "791ea4d788dd9d41e10c42c89216669d38b8e6ed27ca37b5900eef70efbdf0f9",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-B6BCF8F8F903"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-B6801A5B2E03",
+        "SUBJ-SUCC-525A1728F643",
+        "SUBJ-SUCC-73959CE24E90",
+        "SUBJ-SUCC-CD9A2A52162E"
+      ],
+      "source_grounded_judgment": "The four rights/model requirements are named in the parent question and qualified by property, coercion and authoritarian limits.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-B6801A5B2E03": "42cdc42eeb108c24ecbc230db9742f5cc31d675dc9209bfa6f05bb4ed91d62e9",
+        "SUBJ-SUCC-525A1728F643": "d38813c79d5b47ca6e2ee043b2570c3168fda1927735b7e0af429478d83c77d0",
+        "SUBJ-SUCC-73959CE24E90": "3741832d4eaadac752e863fb630b665379aecf23129f6b9532d8f7b048541ec4",
+        "SUBJ-SUCC-CD9A2A52162E": "8bac45507ba3764e4f49d15e141f2990325f31d353b41ca644412130f0e2c08c"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-069",
+      "task_id": "TASK-SUCC-D68F990957A8",
+      "before_record_sha256": "c91ae8a0a8c5de0b3bd7a2986e2d37cab6f04cf7717b716011a5d43841eb6af4",
+      "reviewed_record_sha256": "c91ae8a0a8c5de0b3bd7a2986e2d37cab6f04cf7717b716011a5d43841eb6af4",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-20A83FDFD7FB"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-7CE8C15FFC5B"
+      ],
+      "source_grounded_judgment": "Diverse political and religious agency is distinct from equal-rights exclusion; deGouges is not reduced to a single cause of execution.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-7CE8C15FFC5B": "6fafc33460673f183ab2908ede37c2acf402f548a2cacc2fa3ab955057e47df2"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-070",
+      "task_id": "TASK-SUCC-56312D984A49",
+      "before_record_sha256": "2b1b461e6106c163c446936e2a3417821f32829e3b30046a232d31b857568541",
+      "reviewed_record_sha256": "2b1b461e6106c163c446936e2a3417821f32829e3b30046a232d31b857568541",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-947D396475E1"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-CD9A2A52162E",
+        "SUBJ-SUCC-F7A0D2DCF841",
+        "SUBJ-SUCC-46CEA9999339"
+      ],
+      "source_grounded_judgment": "Revolutionary models, resistance, Left/Right and conservative responses retain differing traditions without equating Babeuf with later Marxism.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-CD9A2A52162E": "8bac45507ba3764e4f49d15e141f2990325f31d353b41ca644412130f0e2c08c",
+        "SUBJ-SUCC-F7A0D2DCF841": "54adc91d1bb73a029d95befbc2ef0ad0c5506acc5c30730be39eb1b5cb8d4cdc",
+        "SUBJ-SUCC-46CEA9999339": "b33bdaabdb3c4a875a43de89e2b2f325a68b4aa409a32e7854ec22e322da5090"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-071",
+      "task_id": "TASK-SUCC-DD98F26F6973",
+      "before_record_sha256": "7039fe3bce9358c6464f2c67722d383ab3bf031839c4b32640b6cdf260d714ca",
+      "reviewed_record_sha256": "7039fe3bce9358c6464f2c67722d383ab3bf031839c4b32640b6cdf260d714ca",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-C53BA475E84B"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-251A2CCA89B2",
+        "SUBJ-SUCC-43C2056DACCC",
+        "SUBJ-SUCC-B6801A5B2E03",
+        "SUBJ-SUCC-525A1728F643",
+        "SUBJ-SUCC-73959CE24E90",
+        "SUBJ-SUCC-CD9A2A52162E"
+      ],
+      "source_grounded_judgment": "The final evaluative comparison explicitly connects rights and models to military mortality and wider suffering.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-251A2CCA89B2": "c5d460f0dd76fe100b9afedb320c202ab1ac2a0f57f04a8ce7aba2e721816db8",
+        "SUBJ-SUCC-43C2056DACCC": "956a090d3aa03470072c469ac36a14f2d5847b43021c3775fa320f3ff0ee550b",
+        "SUBJ-SUCC-B6801A5B2E03": "42cdc42eeb108c24ecbc230db9742f5cc31d675dc9209bfa6f05bb4ed91d62e9",
+        "SUBJ-SUCC-525A1728F643": "d38813c79d5b47ca6e2ee043b2570c3168fda1927735b7e0af429478d83c77d0",
+        "SUBJ-SUCC-73959CE24E90": "3741832d4eaadac752e863fb630b665379aecf23129f6b9532d8f7b048541ec4",
+        "SUBJ-SUCC-CD9A2A52162E": "8bac45507ba3764e4f49d15e141f2990325f31d353b41ca644412130f0e2c08c"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-072",
+      "task_id": "TASK-SUCC-A4CABA6ABC86",
+      "before_record_sha256": "35354a94d930869eb87f2907372555adac8c6b37f4d7035e6f1227c1d8c24028",
+      "reviewed_record_sha256": "35354a94d930869eb87f2907372555adac8c6b37f4d7035e6f1227c1d8c24028",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-BA9BF74AA11B"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-2DA10285B986",
+        "SUBJ-SUCC-2E5B26D8A9D6"
+      ],
+      "source_grounded_judgment": "The real Bavarian precedent and unsupported French conspiracy inference remain distinguishable; overlapping membership is not organizational proof.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-2DA10285B986": "43c470f15b071231b4508c7ff27051cff5d5ad955e7d5082f8caa94a5af0f8d6",
+        "SUBJ-SUCC-2E5B26D8A9D6": "252fd011f88d351b07ccf6620ceffacb260d0f7127426abaf38dbd40e0bf3730"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-073",
+      "task_id": "TASK-SUCC-E282BC248567",
+      "before_record_sha256": "a050e34f7d11845606b580c135f87afa108e455579d8dce7571d41b12a0e35d2",
+      "reviewed_record_sha256": "a050e34f7d11845606b580c135f87afa108e455579d8dce7571d41b12a0e35d2",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-F2D56505DA4D",
+        "legacy:TASK-82D730A5FBD3",
+        "legacy:TASK-65E5C24F36D7"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-007488A999B1",
+        "SUBJ-SUCC-D4E9EDBB3757",
+        "SUBJ-SUCC-3B80B2B4FB82"
+      ],
+      "source_grounded_judgment": "Post-Valmy advance, changed liberation practice and1793 Rhineland reversal form a supported rise-and-reversal sequence using eligible prose.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-007488A999B1": "fefcea2ab68dbff2523a26a9960cc1299400b4fc63dd5d6c081cec034cc2b75c",
+        "SUBJ-SUCC-D4E9EDBB3757": "b24a3c44d512420f4b67ea4ced9e31b7fc8d27e9b2dd56c7f81ad2e93d9b3a29",
+        "SUBJ-SUCC-3B80B2B4FB82": "928db859c1eaca9ea33699fcf101c28bdfa77e34b9c3f0ab431b8484658bc049"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-074",
+      "task_id": "TASK-SUCC-A4A6BB7106DF",
+      "before_record_sha256": "fc25c18650b548e32cb9aaa658f154e8063fdba6b54eb9a44903ba071a85ad18",
+      "reviewed_record_sha256": "fc25c18650b548e32cb9aaa658f154e8063fdba6b54eb9a44903ba071a85ad18",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-6595BAA881A4"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-A09DB8EABD5C"
+      ],
+      "source_grounded_judgment": "Tactical naval defeat and grain-delivery strategic success are compatible; no overall French naval superiority is claimed.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-A09DB8EABD5C": "584360049f904cfdbd3fbf567da96e0a18a5175105999ad6d9ea9db7175806c3"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-075",
+      "task_id": "TASK-SUCC-0D6FF1B259FB",
+      "before_record_sha256": "9dc4c0327fada152f68628f5454a67c4357d806bbb537ae7da34a6123cfe9494",
+      "reviewed_record_sha256": "5ea13d85c4578deebd6a1426af590a1534719fd63cf21eabff879bf6f729fab8",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-E668B982E0DD",
+        "legacy:TASK-BF46854546A6"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-80944F567E89",
+        "SUBJ-SUCC-C7DF46AA6436"
+      ],
+      "source_grounded_judgment": "Clarify that political limits belong to the distinct conspiracies, and expose domestic reform roots and official reaction in the main question.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-80944F567E89": "cf75babdd4556a909ed59076f03424d72e40b98b5886170c7f69cbbe7f4e2767",
+        "SUBJ-SUCC-C7DF46AA6436": "fd176c839887433e8c3de97be324079925d4482b029d487447eecf93397d0079"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-076",
+      "task_id": "TASK-SUCC-2FA34F275E03",
+      "before_record_sha256": "60c31585fc112de2cf3b94d79076c6ecd8cc9eca95fbc559f5c4ce1dc6341bb7",
+      "reviewed_record_sha256": "60c31585fc112de2cf3b94d79076c6ecd8cc9eca95fbc559f5c4ce1dc6341bb7",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-1203B755EDDC",
+        "legacy:TASK-4F69467791FD",
+        "legacy:TASK-1120E836FFD4"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-0B38A7EF0244",
+        "SUBJ-SUCC-BE019F6D22CE"
+      ],
+      "source_grounded_judgment": "Marat’s declining active influence, posthumous martyr status and Thermidorian repudiation are sequential rather than evidence of continuous ascent.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-0B38A7EF0244": "a1c2d23890f1d80b03cc165a2a7713d175f6192e127ff808a9446446fa34c9d4",
+        "SUBJ-SUCC-BE019F6D22CE": "9acf88348198417000cd126a9a9622bdf4db0a365339d19624093f5def76f2d4"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-077",
+      "task_id": "TASK-SUCC-6F5D9399E324",
+      "before_record_sha256": "32a7e4531e31a84fb81299502806de29902f1d81e554c9e692817183f03b0b52",
+      "reviewed_record_sha256": "32a7e4531e31a84fb81299502806de29902f1d81e554c9e692817183f03b0b52",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-C3A19E9E54A1",
+        "legacy:TASK-A43FF6727CC1",
+        "legacy:TASK-B8D7B614B873",
+        "legacy:TASK-600A9A234260"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-7F47E72FC411",
+        "SUBJ-SUCC-4DE3CD0B6897",
+        "SUBJ-SUCC-3CA26E8D160A"
+      ],
+      "source_grounded_judgment": "Girondin rehabilitation, émigré return and Federalist readmission have distinct stages and legal histories despite a shared rightward opening.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-7F47E72FC411": "796492dcf9c3ad31fa45c407704a1cfa99aa2d9e112734ad5526818ab79e7a5f",
+        "SUBJ-SUCC-4DE3CD0B6897": "400d217b2105d8bd699d98ecd4775d48e61c1654e7cb62e3ad89084ba49364d4",
+        "SUBJ-SUCC-3CA26E8D160A": "c224d169b48accdb06e7fce5b444d88df7e4d6f83df479e8c2112db19aa96d2b"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-078",
+      "task_id": "TASK-SUCC-69A8E0793321",
+      "before_record_sha256": "044912ed6a46f00893f7990d19aeb561855c2702a46e20a306e2220061589aad",
+      "reviewed_record_sha256": "044912ed6a46f00893f7990d19aeb561855c2702a46e20a306e2220061589aad",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-E0EB307EF5BA",
+        "legacy:TASK-D0753E3552F4"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-F2315DAA8A43",
+        "SUBJ-SUCC-42A647BF0FDD",
+        "SUBJ-SUCC-F3A79D2249F5",
+        "SUBJ-SUCC-E801BA395EE8"
+      ],
+      "source_grounded_judgment": "Victory weakens emergency justification while coercion continues; it is neither an immediate end of Terror nor a sufficient cause of Thermidor.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-F2315DAA8A43": "3e55a44eeec139d78641725c2c2090f493dbef9b43e2b46137d0e44ca8e334ad",
+        "SUBJ-SUCC-42A647BF0FDD": "bf358adb988ee9f6678271da6a11892bc08ff825ca5994f2464ce5fcf9e1e3ff",
+        "SUBJ-SUCC-F3A79D2249F5": "e9b2a137fb05c7b4dee62a6d8feef037ac1270f03cf6337c2f1910790674a4df",
+        "SUBJ-SUCC-E801BA395EE8": "03c2b44058472c79ca295c60d19905ff39ae7fef1e3a26e51200f4781a502af2"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-079",
+      "task_id": "TASK-SUCC-938237356A08",
+      "before_record_sha256": "409faa5a684a869055f7ef908cc13b19e4da4048e35b95020a5beca10ad3a7d4",
+      "reviewed_record_sha256": "409faa5a684a869055f7ef908cc13b19e4da4048e35b95020a5beca10ad3a7d4",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-FA90C79B9FED"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-10D5B4071C72"
+      ],
+      "source_grounded_judgment": "Toulouse scale and local failure remain focused; coalition recovery is not silently added to the local rising.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-10D5B4071C72": "7e4a957632793c301473c56d3352950ddbaf88257a928a730692a0b88e4bb7e8"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-080",
+      "task_id": "TASK-SUCC-20CE5298E380",
+      "before_record_sha256": "4a40812778c12bb6f526ff65df32cc0a7b51869d19cdae378c94f8a64357d5b8",
+      "reviewed_record_sha256": "d5efb6cf828c9edaa7255974d0bec082ac19662a380f20626e9fc37f36653ccf",
+      "disposition": "accept_task_values_with_exact_corrections",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-FDC098634296"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-E460E732EDD9",
+        "SUBJ-SUCC-2AC42802019F",
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224"
+      ],
+      "source_grounded_judgment": "Correct the main and facet chronology: slavery’s restoration elsewhere preceded Haiti’s independence; ask why Saint-Domingue avoided restoration and became independent.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-E460E732EDD9": "a0547e405ee58ece088381c4fb07c446e1f5aee7ff9caaf4bf1ff9c5d46a9069",
+        "SUBJ-SUCC-2AC42802019F": "c2578ed23a77656699f1d6c14cf1c043d4c7beaf942e8b43c289d1970bd9d86d",
+        "SUBJ-SUCC-8E42988D62D9": "e7a188c77c7639d92ac0fd02e8b5ff394953a1e424423397bd65de67475bc0d6",
+        "SUBJ-SUCC-71A8FF90E718": "d1602087bac1e186492bfd3c4760c3c80e80ea8af90bbe851db53a2218ec0c47",
+        "SUBJ-SUCC-60C460F43224": "f57886ac0462d6da20993b43359fc6f0e816dc7db3a1885abfd81bd3779c908f"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-081",
+      "task_id": "TASK-SUCC-829CD54276C2",
+      "before_record_sha256": "0ccffc7b829ec254f786786a4f31bf7b1665316e129b16960968e903cd65c124",
+      "reviewed_record_sha256": "0ccffc7b829ec254f786786a4f31bf7b1665316e129b16960968e903cd65c124",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets"
+      ],
+      "facet_ids_inspected": [
+        "native:TASK-0133"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-DF242A7BAF78",
+        "SUBJ-SUCC-7222BCC048CF",
+        "SUBJ-SUCC-20E7D6744101"
+      ],
+      "source_grounded_judgment": "Cahier preparation/filtering, demands and later reforms beyond instructions are all explicit, with representative authority supplying the link.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-DF242A7BAF78": "af17f0eb1cd3675dfb9058d335a13848d67d4171ed253902fe72a6bb44cc1ecb",
+        "SUBJ-SUCC-7222BCC048CF": "04f90bdd83e9a395f3cad25178f1d5a38ef40bfd7d6a60266536342ea68d2ffb",
+        "SUBJ-SUCC-20E7D6744101": "5dc99b88becf6814040954893f0320f51f228f955f0b763b4645093c1824981e"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-082",
+      "task_id": "TASK-SUCC-IR1517-945AA80643D6",
+      "before_record_sha256": "7e35c1cb50ebbcb891ee1cae9e2c6d57d45708b0f87cc39bd7910d7637b590cc",
+      "reviewed_record_sha256": "7e35c1cb50ebbcb891ee1cae9e2c6d57d45708b0f87cc39bd7910d7637b590cc",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages",
+        "proposal_status"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-CEF2CDA40CB1"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-34E281DBB58D",
+        "SUBJ-SUCC-E353D1807798",
+        "SUBJ-SUCC-29A3325A5A18",
+        "SUBJ-SUCC-BEB51695F38C",
+        "SUBJ-SUCC-C9FC2D29F642",
+        "SUBJ-SUCC-6568AD1BCF30"
+      ],
+      "source_grounded_judgment": "The whole Austria/Britain peace-and-retained-gains comparison has coherent military, diplomatic and settlement parents.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-34E281DBB58D": "88f51f8bb16b672e0ccaa35095910c343bd40ac1364c5a59585530fa9a8b2456",
+        "SUBJ-SUCC-E353D1807798": "2c00e3751446503d43309e4e1d28645e857929769e34b9a8e3af464b4003596c",
+        "SUBJ-SUCC-29A3325A5A18": "00a7a2c0ffe906561330c474854b2c1298bd0caa87e784dbabc9314ce4fa4550",
+        "SUBJ-SUCC-BEB51695F38C": "d96d58025a72f02c79668ed93e83e611bb176e39950a9904ba56de319c95d24b",
+        "SUBJ-SUCC-C9FC2D29F642": "78d81da438371b5883285d2ed26a452541f29b9b667d7ce1ad2fafca350f9c59",
+        "SUBJ-SUCC-6568AD1BCF30": "e683c08bc046f60d6a1d0c8aeb46cb4e9845517b2014bf1aff6f6c1389e5761e"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-083",
+      "task_id": "TASK-SUCC-IR1517-97F85AB34332",
+      "before_record_sha256": "e7d9125fc7cdb96d98adc62ac3a75f3778b4efb95c431058211938c6bfad5c94",
+      "reviewed_record_sha256": "e7d9125fc7cdb96d98adc62ac3a75f3778b4efb95c431058211938c6bfad5c94",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages",
+        "proposal_status"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-A49FF1B4FD5D"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-943145BC4166",
+        "SUBJ-SUCC-CFFCD493828A",
+        "SUBJ-SUCC-E4C3D945CE3F",
+        "SUBJ-SUCC-43C2056DACCC",
+        "SUBJ-SUCC-87628E298F61",
+        "SUBJ-SUCC-21DA491F60E3"
+      ],
+      "source_grounded_judgment": "The material/political comparison includes ordinary citizens and six beneficiary groups with explicit qualifications, not uniform gains.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-943145BC4166": "197719061d73962cbafa31ab7138955e9764283d93469eb97d4b92c8b7012b8a",
+        "SUBJ-SUCC-CFFCD493828A": "43b2ec6d64a65421ec87720aaeecca1a551cafdf011dd329c2b38fe259c27805",
+        "SUBJ-SUCC-E4C3D945CE3F": "df4fff6bba3aee8da285f0e359d4373275e048c146ed7aa2caf19ccd9345a42e",
+        "SUBJ-SUCC-43C2056DACCC": "956a090d3aa03470072c469ac36a14f2d5847b43021c3775fa320f3ff0ee550b",
+        "SUBJ-SUCC-87628E298F61": "5b188db3ad1318ccb307b9a754abe72560d07b0bb76ffd6d9b4c16871cdf0753",
+        "SUBJ-SUCC-21DA491F60E3": "a92be738e721abdc05d973b3412208df5d668b08d027978880d43437dfea0bac"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    },
+    {
+      "review_id": "LEAD-COMPOSED-TASK-084",
+      "task_id": "TASK-SUCC-IR1517-DD3C2DC8D25F",
+      "before_record_sha256": "29b0df3a3497c2dcd57869a221900fd81b9597d17e51bd3a1b303114117a80ea",
+      "reviewed_record_sha256": "29b0df3a3497c2dcd57869a221900fd81b9597d17e51bd3a1b303114117a80ea",
+      "disposition": "retain_exact_composed_task_values",
+      "fields_inspected": [
+        "task_id",
+        "question",
+        "subject_ids",
+        "source_task_ids",
+        "fallback_generated",
+        "required_access_facets",
+        "source_pages",
+        "proposal_status"
+      ],
+      "facet_ids_inspected": [
+        "legacy:TASK-F100ABA662D6"
+      ],
+      "subject_ids": [
+        "SUBJ-SUCC-1671B419419F",
+        "SUBJ-SUCC-A1B30A58C722",
+        "SUBJ-SUCC-298B26A9D77A",
+        "SUBJ-SUCC-58F7F001857D"
+      ],
+      "source_grounded_judgment": "European states, warfare, capacity and nationalism are compared with French losses and British strength; later Napoleonic effects are acknowledged.",
+      "subject_dependency_hashes_at_stage5": {
+        "SUBJ-SUCC-1671B419419F": "8d183e5240482708a27d0e3983f5d361fbb3811cd38e917600b7e74bed810dbf",
+        "SUBJ-SUCC-A1B30A58C722": "6dc1525e6f447a463146c781695ef31103ed6ba989f3c0e4c916fa888fb777f6",
+        "SUBJ-SUCC-298B26A9D77A": "47319b4081614af1ae4cdef6106d549793a810f3e6eb9155af7f5272195b5d7a",
+        "SUBJ-SUCC-58F7F001857D": "7d569bd72ac572700bb7c9a641a3fd1d838cc250bba6d32e95b7ddc7f3e0fb2e"
+      },
+      "remaining_dependency_condition": "Exact final subject/evidence repairs and historical routing union must be fulfilled before whole-book approval; these task-value judgments do not certify unfinished parent repair work."
+    }
+  ],
+  "reader_task_replacements": [
+    {
+      "task_id": "TASK-SUCC-B150812C78C8",
+      "question": "Reconstruct the causes, actors, victims, scale, and political afterlife of the September Massacres without treating most victims as genuine counter-revolutionaries.",
+      "subject_ids": [
+        "SUBJ-SUCC-4A316B580039",
+        "SUBJ-SUCC-1A51A7EA164F",
+        "SUBJ-SUCC-A48AEBB81ADA",
+        "SUBJ-SUCC-8A3FF7132FF1"
+      ],
+      "source_task_ids": [
+        "SUCC-C008-TASK-011"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-2CDB97B1513B",
+          "question": "How does Doyle reconstruct the causes, actors, victims, scale, and political afterlife of the September Massacres without treating most victims as genuine counter-revolutionaries?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-4A316B580039",
+            "SUBJ-SUCC-1A51A7EA164F",
+            "SUBJ-SUCC-A48AEBB81ADA",
+            "SUBJ-SUCC-8A3FF7132FF1"
+          ],
+          "historical_task_id": "TASK-2CDB97B1513B",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "B150’s question and four parent routes preserve panic, detention, Commune involvement and victim composition. Longwy, searches and Verdun must stay correctly ordered; Danton’s failure to intervene and the Commune’s later coordination do not establish a single prior official massacre plan. Most victims were not actual counterrevolutionaries."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-8CB5814EF9CA",
+      "question": "How was the Convention elected, who served in it, how did it establish the Republic, and why did personnel continuity remain high despite broad male suffrage?",
+      "subject_ids": [
+        "SUBJ-SUCC-9EE66EC07AA3",
+        "SUBJ-SUCC-5F07AA578495"
+      ],
+      "source_task_ids": [
+        "SUCC-C008-TASK-013"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-88C56979D73B",
+          "question": "What description does Doyle give of how the Convention was elected, who served in it, and why political continuity remained high despite broad male suffrage?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9EE66EC07AA3",
+            "SUBJ-SUCC-5F07AA578495"
+          ],
+          "historical_task_id": "TASK-88C56979D73B",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The two parent subjects retain broadened male eligibility, low participation, election mechanisms and personnel continuity. The5F07 parent also supplies the Republic’s establishment now explicit in the main question; a separate calendar subject is not required for this demand."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-452F3701522A",
+      "question": "How did French war aims move from fraternity and liberation to annexation, occupation finance and sister republics? Compare local support and coercion, changes in policy and foreign perceptions, and the effects of military outcomes and the settlements at Basle, Leoben and Campo Formio.",
+      "subject_ids": [
+        "SUBJ-SUCC-3B80B2B4FB82",
+        "SUBJ-SUCC-B6A0C6B7E4B4",
+        "SUBJ-SUCC-8F566C23AFAC",
+        "SUBJ-SUCC-C31553A0D1B9",
+        "SUBJ-SUCC-329D40EC5910",
+        "SUBJ-SUCC-F8A938B3B147",
+        "SUBJ-SUCC-7EDE1C0062AD"
+      ],
+      "source_task_ids": [
+        "SUCC-C009-TASK-002"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-E6C1610F5354",
+          "question": "Why, in Doyle's assessment, were French claims of liberation increasingly perceived as conquest?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82"
+          ],
+          "historical_task_id": "TASK-E6C1610F5354",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "3B80 explicitly distinguishes liberation rhetoric from imposed administration and extraction, within452F’s policy-evolution question. The repaired parent retains Danton’s turn and persistent foreign perceptions rather than requiring an unchanging expansionist programme."
+        },
+        {
+          "facet_id": "legacy:TASK-EC78160BAB08",
+          "question": "How does Doyle compare Danton's expansionist rhetoric in victory with his conciliatory policy in defeat?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82"
+          ],
+          "historical_task_id": "TASK-EC78160BAB08",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The proposed3B80 meaning explicitly contrasts Danton’s expansion in victory with conciliation in crisis. The facet fits the policy-evolution question and must not project Danton’s personal agency into the later1794 Polish non-assistance decision."
+        },
+        {
+          "facet_id": "legacy:TASK-17BCBA61E980",
+          "question": "How does Doyle compare the mechanisms by which France shifted war costs onto occupied territories?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82"
+          ],
+          "historical_task_id": "TASK-17BCBA61E980",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "3B80’s occupation-finance requirement fits452F. The answer must distinguish requisitions, compulsory finance and annexation’s fiscal implications; it cannot substitute rhetoric alone for the mechanisms asked about."
+        },
+        {
+          "facet_id": "legacy:TASK-91340776C5E6",
+          "question": "How does Doyle distinguish Belgian independence projects from French plans to annex Belgium?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-B6A0C6B7E4B4"
+          ],
+          "historical_task_id": "TASK-91340776C5E6",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "B6A’s proposed meaning explicitly distinguishes Belgian independence aspirations from French annexation.452F supplies the coherent policy question; lead’s Dumouriez200 supplement preserves the separate personal/constitutional project without treating exile collaboration alone as complete evidence."
+        },
+        {
+          "facet_id": "legacy:TASK-840A4AA6B0A1",
+          "question": "How does Doyle distinguish French policy changes from the more durable foreign perception of forced revolution?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82"
+          ],
+          "historical_task_id": "TASK-840A4AA6B0A1",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The old mapping to clubs omits the precise change of French policy. Follow the already proposed move to452F and3B80, whose meaning retains withdrawal of the fraternity pledge alongside persistent foreign perceptions."
+        },
+        {
+          "facet_id": "legacy:TASK-29C5ADECB62B",
+          "question": "What is Doyle's evaluation of how representative the annexation votes in occupied territories were?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-B6A0C6B7E4B4"
+          ],
+          "historical_task_id": "TASK-29C5ADECB62B",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "B6A’s proposed stance explicitly retains narrow petitions and unrepresentative plebiscites. This fits452F’s annexation process without treating every occupied territory’s consent mechanism as identical."
+        },
+        {
+          "facet_id": "legacy:TASK-1BB2F97138FA",
+          "question": "How does Doyle explain the fiscal consequences of Prussia's withdrawal for the Rhineland?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82",
+            "SUBJ-SUCC-329D40EC5910",
+            "SUBJ-SUCC-F8A938B3B147"
+          ],
+          "historical_task_id": "TASK-1BB2F97138FA",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "3B80’s generic occupation-finance requirement does not by itself retain Prussian withdrawal and Rhineland consequences. Add329D and F8A to this facet and to452F’s parent subject_ids; extend the main question to ask how military outcomes and peace settlements enabled these practices. Earlier extraction preceded Basle, so do not assert that withdrawal originated all exactions."
+        },
+        {
+          "facet_id": "legacy:TASK-1BB32570489E",
+          "question": "How does Doyle explain the political and fiscal program imposed under the decree of 15 December?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82"
+          ],
+          "historical_task_id": "TASK-1BB32570489E",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "3B80 explicitly retains the December decree’s social revolution and compulsory occupation support.452F’s broader policy evolution must preserve these administrative and fiscal means, not merely the abstract contradiction between liberation and conquest."
+        },
+        {
+          "facet_id": "legacy:TASK-3DB76DD9E227",
+          "question": "How does Doyle explain who supported the Mainzer annexation project and how broad that support was?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-B6A0C6B7E4B4"
+          ],
+          "historical_task_id": "TASK-3DB76DD9E227",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "B6A explicitly retains Forster and narrow Mainz collaboration.452F’s annexation question coherently asks about that support, provided a few collaborators are not presented as representative popular consent."
+        },
+        {
+          "facet_id": "legacy:TASK-E670D057D070",
+          "question": "What account does Doyle give of how Savoy and Nice passed from military occupation to annexation?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-B6A0C6B7E4B4"
+          ],
+          "historical_task_id": "TASK-E670D057D070",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "B6A retains Savoy and Nice moving from occupation into annexation under natural-frontier claims.452F coherently captures the policy change; petitions and consent remain qualified rather than treated as uniform popular authorization."
+        },
+        {
+          "facet_id": "legacy:TASK-4CE0B4DD2310",
+          "question": "How does Doyle trace the adoption, withdrawal, and long afterlife of the fraternity decree?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82"
+          ],
+          "historical_task_id": "TASK-4CE0B4DD2310",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "3B80 explicitly retains adoption, withdrawal and enduring foreign perceptions of the fraternity pledge.452F’s evolution question fits all three phases; formal repeal did not instantly reverse expectations abroad."
+        },
+        {
+          "facet_id": "legacy:TASK-DC97B3C50788",
+          "question": "How does Doyle trace the evolution of French war aims from fraternity and liberation to annexation, occupation finance, and sister republics?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-3B80B2B4FB82",
+            "SUBJ-SUCC-B6A0C6B7E4B4",
+            "SUBJ-SUCC-8F566C23AFAC",
+            "SUBJ-SUCC-C31553A0D1B9",
+            "SUBJ-SUCC-7EDE1C0062AD"
+          ],
+          "historical_task_id": "TASK-DC97B3C50788",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "452F coherently preserves the stated policy evolution, but the old Campo Formio target is not fully represented by C315’s Leoben treatment. Add7EDE to this facet and the parent binding, and include peace settlements explicitly alongside the Basle/Rhineland correction recorded for1BB2F97138FA. Keep Batavian and Italian constitutional forms distinct."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-82D8298A6454",
+      "question": "How did the First Coalition’s organization and competing ambitions shape responses to Polish reform and revolt, what were the military and human consequences for Poland, and how did these conflicts contribute to French survival?",
+      "subject_ids": [
+        "SUBJ-SUCC-E1A9AD724C4E",
+        "SUBJ-SUCC-7F74654DA992",
+        "SUBJ-SUCC-BAE3182C598F",
+        "SUBJ-SUCC-056C6DE7868F"
+      ],
+      "source_task_ids": [
+        "SUCC-C009-TASK-004"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-1BF26C41F56A",
+          "question": "What is Doyle's assessment of how coalition disunity and competing ambitions in Poland enabled French survival?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E1A9AD724C4E",
+            "SUBJ-SUCC-7F74654DA992",
+            "SUBJ-SUCC-BAE3182C598F",
+            "SUBJ-SUCC-056C6DE7868F"
+          ],
+          "historical_task_id": "TASK-1BF26C41F56A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The expanded82D question coherently includes coalition organization, Polish reform and revolt, suppression and French survival. All four parent bindings fit. Praga and partition belong within the Polish outcome rather than being silently required by the old narrow French-survival wording."
+        },
+        {
+          "facet_id": "legacy:TASK-695F9C68B6C0",
+          "question": "What is Doyle's assessment of how events in Poland changed the balance of the war in western Europe?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-BAE3182C598F"
+          ],
+          "historical_task_id": "TASK-695F9C68B6C0",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "BAE explicitly retains the1794 rising diverting France’s enemies. This facet is sound for that phase; earlier1792 constitutional war and the Second Partition remain separate7F746 facets in the same expanded parent task."
+        },
+        {
+          "facet_id": "legacy:TASK-23D441662681",
+          "question": "What is Doyle's assessment of how the label of Jacobinism shaped the partitioning powers' response?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-056C6DE7868F"
+          ],
+          "historical_task_id": "TASK-23D441662681",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "056C retains monarchies interpreting Polish revolt as Jacobinism alongside territorial ambitions. The broader repaired question permits this explanation without endorsing the rulers’ characterization as an objective identity."
+        },
+        {
+          "facet_id": "legacy:TASK-E424962A84B8",
+          "question": "What account does Doyle give of how suppression of the rising led to Poland's elimination and affected western diplomacy?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-056C6DE7868F"
+          ],
+          "historical_task_id": "TASK-E424962A84B8",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "056C covers suppression, Praga, final partition and diplomatic diversion.82D’s expanded question explicitly includes Poland’s destruction, so this outcome is no longer hidden beneath a question solely about French survival."
+        },
+        {
+          "facet_id": "legacy:TASK-13243D91895A",
+          "question": "What account does Doyle give of how the constitutional conflict in Poland became an international war in 1792?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-7F74654DA992"
+          ],
+          "historical_task_id": "TASK-13243D91895A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "7F746 retains constitutional conflict, Targowica and Russian intervention before the completed Second Partition.82D’s expanded reform-and-revolt scope fits; the1794 uprising must not replace the1792 campaign."
+        },
+        {
+          "facet_id": "legacy:TASK-6D1227CA2682",
+          "question": "How does Doyle explain the military sequence and human consequences of the defeat at Praga?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-056C6DE7868F"
+          ],
+          "historical_task_id": "TASK-6D1227CA2682",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "056C retains defeat, massacre at Praga and the uprising’s destruction.82D’s expanded Polish-outcome wording permits military sequence and human consequences as coherent requirements rather than an unrelated casualty facet beneath French survival."
+        },
+        {
+          "facet_id": "legacy:TASK-BEF3F2219D3C",
+          "question": "How does Doyle explain why the First Coalition failed to exploit the French crisis decisively?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E1A9AD724C4E"
+          ],
+          "historical_task_id": "TASK-BEF3F2219D3C",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "E1A supplies divided strategy, diplomatic structure and competing priorities.82D’s expanded question coherently preserves these alongside Poland without reducing coalition failure exclusively to one eastern event."
+        },
+        {
+          "facet_id": "legacy:TASK-5B159044D588",
+          "question": "What does Doyle identify concerning the members, diplomatic mechanisms, and structural weaknesses of the First Coalition?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E1A9AD724C4E"
+          ],
+          "historical_task_id": "TASK-5B159044D588",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "E1A supplies coalition members, diplomatic mechanisms and structural weakness.82D’s expanded organization wording makes these scored requirements explicit rather than only an incidental preface to Polish rivalry."
+        },
+        {
+          "facet_id": "legacy:TASK-178A1F2599A3",
+          "question": "What account does Doyle give of how the Second Partition altered military pressure on France?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-7F74654DA992"
+          ],
+          "historical_task_id": "TASK-178A1F2599A3",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "7F746 fits eastern diversion and the Second Partition within82D. Explain earlier Russian intervention and Prussian ambitions before the completed1793 settlement; do not make that completed partition cause the1792 French victories retroactively."
+        },
+        {
+          "facet_id": "legacy:TASK-D9575FA74C7A",
+          "question": "How does Doyle trace the process by which rivalry over Poland weakened coalition operations against France?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E1A9AD724C4E"
+          ],
+          "historical_task_id": "TASK-D9575FA74C7A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "E1A retains rivalry diverting attention and resources from concerted action against France.82D’s expanded question fits the causal process without claiming Polish affairs were the only reason coalition operations failed."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-EA0E9E5C3E7A",
+      "question": "Why does the author distinguish Tourcoing’s defensive importance from Fleurus’s decisive continental consequences, including Austria’s loss of Belgium?",
+      "subject_ids": [
+        "SUBJ-SUCC-E801BA395EE8"
+      ],
+      "source_task_ids": [
+        "SUCC-C009-TASK-006"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-B433F83DA54A",
+          "question": "How does Doyle distinguish the defensive importance of Tourcoing from the larger significance of Fleurus?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E801BA395EE8"
+          ],
+          "historical_task_id": "TASK-B433F83DA54A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "E801 retains Tourcoing’s defensive significance and Fleurus’s broader continental consequences. Explaining Fleurus as the turning point coherently includes that comparison; it must not erase Tourcoing or assign identical strategic effects to both."
+        },
+        {
+          "facet_id": "legacy:TASK-3CEAABEAEB86",
+          "question": "How does Doyle explain why Fleurus is treated as the decisive continental turning point?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E801BA395EE8"
+          ],
+          "historical_task_id": "TASK-3CEAABEAEB86",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "E801 preserves Fleurus and the recovery of Belgium with lasting strategic consequences. Toulon, Britain’s entry and the entire later Batavian settlement are not substitute targets for this stated turning-point demand."
+        },
+        {
+          "facet_id": "legacy:TASK-429DF985A4B5",
+          "question": "Why does Doyle treat Fleurus as the decisive turning point?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E801BA395EE8"
+          ],
+          "historical_task_id": "TASK-429DF985A4B5",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "E801 and EA0E directly preserve the author’s continental turning-point judgment, including consequences beyond the battle. Decisive continental significance does not imply immediate universal peace or naval supremacy."
+        },
+        {
+          "facet_id": "legacy:TASK-A6E21F9D957A",
+          "question": "How does Doyle trace the recovery of Belgium and Austria's changing valuation of it?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E801BA395EE8"
+          ],
+          "historical_task_id": "TASK-A6E21F9D957A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "E801’s actual proposed parent already retains recovery of Belgium and Austria’s changing willingness to retain it. EA0E’s turning-point question fits; no additional parent is needed merely to repeat that consequence."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-C8BB84DBCA99",
+      "question": "Why did Barruel’s conspiracy argument persuade opponents of the Revolution, how did its reception and institutional effects differ between England and continental Europe, and why does the author reject its causal explanation?",
+      "subject_ids": [
+        "SUBJ-SUCC-2E5B26D8A9D6",
+        "SUBJ-SUCC-AEC1E9A933E9"
+      ],
+      "source_task_ids": [
+        "SUCC-C009-TASK-014"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-F85DFF28059A",
+          "question": "How does Doyle compare the reception and institutional effects of Barruel's claims in England and continental Europe?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-2E5B26D8A9D6"
+          ],
+          "historical_task_id": "TASK-F85DFF28059A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "C8BB’s historical-influence question can coherently include different English and continental institutional effects. Retention depends on2E5 explicitly preserving uneven anti-Masonic repression and the English exception already referred in relationship closure; generic circulation of Barruel alone is insufficient."
+        },
+        {
+          "facet_id": "legacy:TASK-ADF3C1EA2F39",
+          "question": "How does Doyle distinguish Barruel's historical influence from his own rejection of conspiratorial causation?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-2E5B26D8A9D6",
+            "SUBJ-SUCC-AEC1E9A933E9"
+          ],
+          "historical_task_id": "TASK-ADF3C1EA2F39",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "2E5 supplies Barruel’s impact and AEC the author’s rejection of conspiracy as an adequate explanation. Removing unrelated Dutch, Polish and Basle bindings is justified; repeated mapping prose does not add a new substantive requirement."
+        },
+        {
+          "facet_id": "legacy:TASK-B7A97E5FEA3A",
+          "question": "What causal argument does Barruel make, and why does Doyle think readers found it persuasive?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-2E5B26D8A9D6"
+          ],
+          "historical_task_id": "TASK-B7A97E5FEA3A",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "2E5 retains Barruel’s argument and the attraction of a unified explanatory plot to opponents. C8BB contrasts historical influence with AEC’s authorial rejection, so persuasion is not treated as proof."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-81AEFB30D474",
+      "question": "How did the loss of sectional and popular organization in 1794 weaken later mobilization, and how did repression after Prairial in 1795 finally destroy the remaining organized sansculotte movement?",
+      "subject_ids": [
+        "SUBJ-SUCC-9B51E63EF68F",
+        "SUBJ-SUCC-CC730DB406A0"
+      ],
+      "source_task_ids": [
+        "SUCC-C012-TASK-015"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-47E4E599C7A7",
+          "question": "What does Doyle show about fate of the Crest after Prairial?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-47E4E599C7A7",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the Crest’s fate within81AE’s wider destruction of organized popular politics. Deputies’ trials and deaths differ from mass arrests and sectional disarmament; the parent comparison must preserve those mechanisms."
+        },
+        {
+          "facet_id": "legacy:TASK-68CB44EBBAEE",
+          "question": "What does Doyle show about fate of the sectional societies?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-68CB44EBBAEE",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The original target concerns incorporation of sections and dissolution of popular societies in1794, with weakness of later mobilization explained on276/291. The repaired9B51 parent retains those exact earlier treatments alongside final Prairial repression. The main question now explicitly asks both phases; do not relocate the earlier society suppression to after Prairial."
+        },
+        {
+          "facet_id": "legacy:TASK-3B99321ED179",
+          "question": "How did repression after Prairial end the sansculottes as an organized political force?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F",
+            "SUBJ-SUCC-CC730DB406A0"
+          ],
+          "historical_task_id": "TASK-3B99321ED179",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 and CC730 retain the defeat, arrests, disarmament and institutional suppression after Prairial. This is the end of effective organized sansculotte intervention, not the disappearance of popular poverty or revolutionary memory."
+        },
+        {
+          "facet_id": "legacy:TASK-359566270808",
+          "question": "What does Doyle show about scale of arrests after Prairial?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-359566270808",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the scale of arrests after Prairial and the destruction of organized capacity. Arrests, disarmament and executions require their own categories; the task does not authorize combining them into a single death total."
+        },
+        {
+          "facet_id": "legacy:TASK-02455F7032C6",
+          "question": "When and why, according to Doyle, did the sansculottes cease to be a political force?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-02455F7032C6",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the suppression following Prairial as the decisive loss of organized sansculotte power.81AE’s wording usefully qualifies the old generic political-force question without erasing continuing discontent."
+        },
+        {
+          "facet_id": "legacy:TASK-D2D0D6509129",
+          "question": "Why, according to Doyle, did sansculotte organization collapse?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-D2D0D6509129",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The original target concerns incorporation of sections and dissolution of popular societies in1794, with weakness of later mobilization explained on276/291. The repaired9B51 parent retains those exact earlier treatments alongside final Prairial repression. The main question now explicitly asks both phases; do not relocate the earlier society suppression to after Prairial."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-156949ABB44D",
+      "question": "Why did Britain accept the terms of Amiens despite maritime success, how favorable were those terms to France, and what limited the peace’s stability?",
+      "subject_ids": [
+        "SUBJ-SUCC-BEB51695F38C",
+        "SUBJ-SUCC-C9FC2D29F642"
+      ],
+      "source_task_ids": [
+        "SUCC-C016-T009"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-37CA63DAA8D6",
+          "question": "What were the terms and significance of the Peace of Amiens?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-C9FC2D29F642"
+          ],
+          "historical_task_id": "TASK-37CA63DAA8D6",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "Amiens terms and significance fit the British peace question’s explicit paradox of favorable-to-France peace despite naval success. Keep concrete terms, reopening and instability distinct from an assumption of permanent reconciliation."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-89C9B3341F54",
+      "question": "How did war and trade disruption, inflation and national-land finance, lost elite demand, land-biased investment and agrarian change make the Revolution economically costly; how did subsistence distress shape popular responses, and which sectors nevertheless benefited?",
+      "subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-97BC997A7082",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-60B96F147FEF",
+        "SUBJ-SUCC-7F8042CFA7E2",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "source_task_ids": [
+        "SUCC-C017-T005"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-7E7F688955F0",
+          "question": "What mechanisms made the Revolution an economic disaster, and which sectors nevertheless benefited?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-AADC5C41A986",
+            "SUBJ-SUCC-60B96F147FEF",
+            "SUBJ-SUCC-7F8042CFA7E2",
+            "SUBJ-SUCC-D67AE46E6D98",
+            "SUBJ-SUCC-FC3075CE0927",
+            "SUBJ-SUCC-97BC997A7082",
+            "SUBJ-SUCC-5193E3F37320"
+          ],
+          "historical_task_id": "TASK-7E7F688955F0",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "Refer the complete economic mechanisms-and-winners comparison to lead-owned 89C9, expanding its main question to include war and trade disruption, inflation, lost elite demand, land-biased investment and agrarian change, popular subsistence responses and sectors that benefited. Retain all seven substantive requirements in its parent set. Retire the copied broad facet in 2A6B and the lead fallback PROP-7FC43B3C934E; their narrower agrarian and sansculotte comparisons do not answer the whole economic comparison. Final whole-question review remains lead-owned."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-0D6FF1B259FB",
+      "question": "How did the distinct Viennese and Hungarian conspiracies, rooted in domestic reform, provoke official reaction despite their limited political reach?",
+      "subject_ids": [
+        "SUBJ-SUCC-80944F567E89",
+        "SUBJ-SUCC-C7DF46AA6436"
+      ],
+      "source_task_ids": [
+        "whole_book_authored:jacobinrepressionabroad"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-E668B982E0DD",
+          "question": "How does Doyle distinguish the Viennese and Hungarian plots and assess their actual scope?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-80944F567E89"
+          ],
+          "historical_task_id": "TASK-E668B982E0DD",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "80944 supplies the distinct Viennese and Hungarian plots and their limited reach; C7DF gives broader reception context. Retain their domestic reform roots and resulting reaction rather than treating the conspiracy label as proof of a coordinated French operation."
+        },
+        {
+          "facet_id": "legacy:TASK-BF46854546A6",
+          "question": "How does Doyle explain why the Habsburg conspiracies produced reaction despite their reformist domestic roots?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-80944F567E89"
+          ],
+          "historical_task_id": "TASK-BF46854546A6",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "80944 must retain authorities abandoning Josephine and Leopoldine reform despite conspirators’ domestic reform roots. The question about response and limits fits, but generic repression of alleged Jacobins alone would lose the original contrast."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-20CE5298E380",
+      "question": "How did colonial revolt and war move policy from preserving slavery and restricting free people of colour’s rights to emancipation, and why did Saint-Domingue avoid restored slavery and become independent Haiti while slavery returned elsewhere? Distinguish legal populations and successive decisions.",
+      "subject_ids": [
+        "SUBJ-SUCC-E460E732EDD9",
+        "SUBJ-SUCC-2AC42802019F",
+        "SUBJ-SUCC-8E42988D62D9",
+        "SUBJ-SUCC-71A8FF90E718",
+        "SUBJ-SUCC-60C460F43224"
+      ],
+      "source_task_ids": [
+        "whole_book_authored:colonialpopulations"
+      ],
+      "fallback_generated": false,
+      "required_access_facets": [
+        {
+          "facet_id": "legacy:TASK-FDC098634296",
+          "question": "How did colonial revolt and war move policy from preserving slavery and restricting free people of colour’s rights to emancipation, and why did Saint-Domingue avoid restored slavery and become independent Haiti while slavery returned elsewhere? Distinguish legal populations and successive decisions.",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E460E732EDD9",
+            "SUBJ-SUCC-2AC42802019F",
+            "SUBJ-SUCC-8E42988D62D9",
+            "SUBJ-SUCC-71A8FF90E718",
+            "SUBJ-SUCC-60C460F43224"
+          ],
+          "historical_task_id": "TASK-FDC098634296",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "All five parents preserve successive legal populations, restricted rights, rebellion, emancipation, attempted restoration and independence. Slavery was restored elsewhere in1802; it was not re-established in Saint-Domingue, which became Haiti in1804. The question does not imply Haitian independence predated that restoration."
+        }
+      ]
+    }
+  ],
+  "field_diffs": [
+    {
+      "task_id": "TASK-SUCC-B150812C78C8",
+      "field": "required_access_facets",
+      "before": [
+        {
+          "facet_id": "legacy:TASK-2CDB97B1513B",
+          "question": "How does Doyle reconstruct the causes, actors, victims, scale, and political afterlife of the September Massacres without treating most victims as genuine counter-revolutionaries?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-4A316B580039",
+            "SUBJ-SUCC-1A51A7EA164F",
+            "SUBJ-SUCC-A48AEBB81ADA",
+            "SUBJ-SUCC-8A3FF7132FF1"
+          ],
+          "historical_task_id": "TASK-2CDB97B1513B",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "B150’s question and four parent routes preserve panic, detention, Commune involvement and victim composition. Longwy, searches and Verdun must stay correctly ordered; Danton’s restraint and the Commune’s later coordination do not establish a single prior official massacre plan. Most victims were not actual counterrevolutionaries."
+        }
+      ],
+      "after": [
+        {
+          "facet_id": "legacy:TASK-2CDB97B1513B",
+          "question": "How does Doyle reconstruct the causes, actors, victims, scale, and political afterlife of the September Massacres without treating most victims as genuine counter-revolutionaries?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-4A316B580039",
+            "SUBJ-SUCC-1A51A7EA164F",
+            "SUBJ-SUCC-A48AEBB81ADA",
+            "SUBJ-SUCC-8A3FF7132FF1"
+          ],
+          "historical_task_id": "TASK-2CDB97B1513B",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "B150’s question and four parent routes preserve panic, detention, Commune involvement and victim composition. Longwy, searches and Verdun must stay correctly ordered; Danton’s failure to intervene and the Commune’s later coordination do not establish a single prior official massacre plan. Most victims were not actual counterrevolutionaries."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-8CB5814EF9CA",
+      "field": "required_access_facets",
+      "before": [
+        {
+          "facet_id": "legacy:TASK-88C56979D73B",
+          "question": "What description does Doyle give of how the Convention was elected, who served in it, and why political continuity remained high despite broad male suffrage?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9EE66EC07AA3",
+            "SUBJ-SUCC-5F07AA578495"
+          ],
+          "historical_task_id": "TASK-88C56979D73B",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9EE66 and5F07 retain widening male eligibility, low participation, election mechanisms and continuity in the Convention’s personnel. Dropping the old calendar and abolition bindings keeps the task focused without losing its stated demand."
+        }
+      ],
+      "after": [
+        {
+          "facet_id": "legacy:TASK-88C56979D73B",
+          "question": "What description does Doyle give of how the Convention was elected, who served in it, and why political continuity remained high despite broad male suffrage?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9EE66EC07AA3",
+            "SUBJ-SUCC-5F07AA578495"
+          ],
+          "historical_task_id": "TASK-88C56979D73B",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The two parent subjects retain broadened male eligibility, low participation, election mechanisms and personnel continuity. The5F07 parent also supplies the Republic’s establishment now explicit in the main question; a separate calendar subject is not required for this demand."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-452F3701522A",
+      "field": "question",
+      "before": "How did French war aims evolve from fraternity and liberation to annexation, occupation finance and sister republics, and how did military outcomes and the settlements at Basle, Leoben and Campo Formio shape that evolution?",
+      "after": "How did French war aims move from fraternity and liberation to annexation, occupation finance and sister republics? Compare local support and coercion, changes in policy and foreign perceptions, and the effects of military outcomes and the settlements at Basle, Leoben and Campo Formio."
+    },
+    {
+      "task_id": "TASK-SUCC-82D8298A6454",
+      "field": "question",
+      "before": "How did the First Coalition’s organization, competing ambitions and responses to Polish reform and revolt contribute both to Poland’s destruction and to French survival?",
+      "after": "How did the First Coalition’s organization and competing ambitions shape responses to Polish reform and revolt, what were the military and human consequences for Poland, and how did these conflicts contribute to French survival?"
+    },
+    {
+      "task_id": "TASK-SUCC-EA0E9E5C3E7A",
+      "field": "question",
+      "before": "Explain why Fleurus is treated as the decisive continental turning point.",
+      "after": "Why does the author distinguish Tourcoing’s defensive importance from Fleurus’s decisive continental consequences, including Austria’s loss of Belgium?"
+    },
+    {
+      "task_id": "TASK-SUCC-C8BB84DBCA99",
+      "field": "question",
+      "before": "Distinguish Barruel's historical influence from the author's rejection of conspiratorial causation.",
+      "after": "Why did Barruel’s conspiracy argument persuade opponents of the Revolution, how did its reception and institutional effects differ between England and continental Europe, and why does the author reject its causal explanation?"
+    },
+    {
+      "task_id": "TASK-SUCC-81AEFB30D474",
+      "field": "question",
+      "before": "How did repression after Prairial end the sansculottes as an organized political force?",
+      "after": "How did the loss of sectional and popular organization in 1794 weaken later mobilization, and how did repression after Prairial in 1795 finally destroy the remaining organized sansculotte movement?"
+    },
+    {
+      "task_id": "TASK-SUCC-81AEFB30D474",
+      "field": "required_access_facets",
+      "before": [
+        {
+          "facet_id": "legacy:TASK-47E4E599C7A7",
+          "question": "What does Doyle show about fate of the Crest after Prairial?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-47E4E599C7A7",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the Crest’s fate within81AE’s wider destruction of organized popular politics. Deputies’ trials and deaths differ from mass arrests and sectional disarmament; the parent comparison must preserve those mechanisms."
+        },
+        {
+          "facet_id": "legacy:TASK-68CB44EBBAEE",
+          "question": "What does Doyle show about fate of the sectional societies?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-68CB44EBBAEE",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains dismantled sections and societies, with CC730 the political defeat after Prairial. Organizational suppression explains lost capacity without claiming all popular beliefs or grievances vanished."
+        },
+        {
+          "facet_id": "legacy:TASK-3B99321ED179",
+          "question": "How did repression after Prairial end the sansculottes as an organized political force?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F",
+            "SUBJ-SUCC-CC730DB406A0"
+          ],
+          "historical_task_id": "TASK-3B99321ED179",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 and CC730 retain the defeat, arrests, disarmament and institutional suppression after Prairial. This is the end of effective organized sansculotte intervention, not the disappearance of popular poverty or revolutionary memory."
+        },
+        {
+          "facet_id": "legacy:TASK-359566270808",
+          "question": "What does Doyle show about scale of arrests after Prairial?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-359566270808",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the scale of arrests after Prairial and the destruction of organized capacity. Arrests, disarmament and executions require their own categories; the task does not authorize combining them into a single death total."
+        },
+        {
+          "facet_id": "legacy:TASK-02455F7032C6",
+          "question": "When and why, according to Doyle, did the sansculottes cease to be a political force?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-02455F7032C6",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the suppression following Prairial as the decisive loss of organized sansculotte power.81AE’s wording usefully qualifies the old generic political-force question without erasing continuing discontent."
+        },
+        {
+          "facet_id": "legacy:TASK-D2D0D6509129",
+          "question": "Why, according to Doyle, did sansculotte organization collapse?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-D2D0D6509129",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the suppression of sectional societies and militant capacity after Prairial.81AE’s main question captures why organization collapsed, with prior exhaustion as context rather than a substitute for coercive dismantling."
+        }
+      ],
+      "after": [
+        {
+          "facet_id": "legacy:TASK-47E4E599C7A7",
+          "question": "What does Doyle show about fate of the Crest after Prairial?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-47E4E599C7A7",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the Crest’s fate within81AE’s wider destruction of organized popular politics. Deputies’ trials and deaths differ from mass arrests and sectional disarmament; the parent comparison must preserve those mechanisms."
+        },
+        {
+          "facet_id": "legacy:TASK-68CB44EBBAEE",
+          "question": "What does Doyle show about fate of the sectional societies?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-68CB44EBBAEE",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The original target concerns incorporation of sections and dissolution of popular societies in1794, with weakness of later mobilization explained on276/291. The repaired9B51 parent retains those exact earlier treatments alongside final Prairial repression. The main question now explicitly asks both phases; do not relocate the earlier society suppression to after Prairial."
+        },
+        {
+          "facet_id": "legacy:TASK-3B99321ED179",
+          "question": "How did repression after Prairial end the sansculottes as an organized political force?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F",
+            "SUBJ-SUCC-CC730DB406A0"
+          ],
+          "historical_task_id": "TASK-3B99321ED179",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 and CC730 retain the defeat, arrests, disarmament and institutional suppression after Prairial. This is the end of effective organized sansculotte intervention, not the disappearance of popular poverty or revolutionary memory."
+        },
+        {
+          "facet_id": "legacy:TASK-359566270808",
+          "question": "What does Doyle show about scale of arrests after Prairial?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-359566270808",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the scale of arrests after Prairial and the destruction of organized capacity. Arrests, disarmament and executions require their own categories; the task does not authorize combining them into a single death total."
+        },
+        {
+          "facet_id": "legacy:TASK-02455F7032C6",
+          "question": "When and why, according to Doyle, did the sansculottes cease to be a political force?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-02455F7032C6",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "9B51 retains the suppression following Prairial as the decisive loss of organized sansculotte power.81AE’s wording usefully qualifies the old generic political-force question without erasing continuing discontent."
+        },
+        {
+          "facet_id": "legacy:TASK-D2D0D6509129",
+          "question": "Why, according to Doyle, did sansculotte organization collapse?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9B51E63EF68F"
+          ],
+          "historical_task_id": "TASK-D2D0D6509129",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The original target concerns incorporation of sections and dissolution of popular societies in1794, with weakness of later mobilization explained on276/291. The repaired9B51 parent retains those exact earlier treatments alongside final Prairial repression. The main question now explicitly asks both phases; do not relocate the earlier society suppression to after Prairial."
+        }
+      ]
+    },
+    {
+      "task_id": "TASK-SUCC-156949ABB44D",
+      "field": "question",
+      "before": "Why did Britain accept a peace so favorable to France despite maritime success?",
+      "after": "Why did Britain accept the terms of Amiens despite maritime success, how favorable were those terms to France, and what limited the peace’s stability?"
+    },
+    {
+      "task_id": "TASK-SUCC-89C9B3341F54",
+      "field": "question",
+      "before": "How did war and trade disruption, inflation, lost elite demand, land-biased investment and agrarian change make the Revolution economically costly; how did subsistence distress shape popular responses, and which sectors nevertheless benefited?",
+      "after": "How did war and trade disruption, inflation and national-land finance, lost elite demand, land-biased investment and agrarian change make the Revolution economically costly; how did subsistence distress shape popular responses, and which sectors nevertheless benefited?"
+    },
+    {
+      "task_id": "TASK-SUCC-0D6FF1B259FB",
+      "field": "question",
+      "before": "How did Austrian and Hungarian authorities respond to Jacobin conspiracies, and what were their political limits?",
+      "after": "How did the distinct Viennese and Hungarian conspiracies, rooted in domestic reform, provoke official reaction despite their limited political reach?"
+    },
+    {
+      "task_id": "TASK-SUCC-20CE5298E380",
+      "field": "question",
+      "before": "How did colonial revolt and war move policy from preserving slavery and limiting free people of colour’s rights to emancipation, and why did Haiti remain independent when slavery returned elsewhere? Distinguish the affected legal populations and successive decisions.",
+      "after": "How did colonial revolt and war move policy from preserving slavery and restricting free people of colour’s rights to emancipation, and why did Saint-Domingue avoid restored slavery and become independent Haiti while slavery returned elsewhere? Distinguish legal populations and successive decisions."
+    },
+    {
+      "task_id": "TASK-SUCC-20CE5298E380",
+      "field": "required_access_facets",
+      "before": [
+        {
+          "facet_id": "legacy:TASK-FDC098634296",
+          "question": "How did colonial revolt and war move policy from preserving slavery and limiting free people of colour’s rights to emancipation, and why did Haiti remain independent when slavery returned elsewhere? Distinguish the affected legal populations and successive decisions.",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E460E732EDD9",
+            "SUBJ-SUCC-2AC42802019F",
+            "SUBJ-SUCC-8E42988D62D9",
+            "SUBJ-SUCC-71A8FF90E718",
+            "SUBJ-SUCC-60C460F43224"
+          ],
+          "historical_task_id": "TASK-FDC098634296",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "This colonial-populations parent expressly asks the supported sequence from preserved slavery and restricted free-coloured rights through revolt, emancipation and Haiti. Keep all five coherent parent requirements, distinguishing legal populations and successive decisions. The narrower three-target historical proposal is a valid core but does not replace the parent’s already reviewed earlier phases. Unrelated papacy, women, guillotine and general property requirements are removed from this colonial demand."
+        }
+      ],
+      "after": [
+        {
+          "facet_id": "legacy:TASK-FDC098634296",
+          "question": "How did colonial revolt and war move policy from preserving slavery and restricting free people of colour’s rights to emancipation, and why did Saint-Domingue avoid restored slavery and become independent Haiti while slavery returned elsewhere? Distinguish legal populations and successive decisions.",
+          "required_subject_ids": [
+            "SUBJ-SUCC-E460E732EDD9",
+            "SUBJ-SUCC-2AC42802019F",
+            "SUBJ-SUCC-8E42988D62D9",
+            "SUBJ-SUCC-71A8FF90E718",
+            "SUBJ-SUCC-60C460F43224"
+          ],
+          "historical_task_id": "TASK-FDC098634296",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "All five parents preserve successive legal populations, restricted rights, rebellion, emancipation, attempted restoration and independence. Slavery was restored elsewhere in1802; it was not re-established in Saint-Domingue, which became Haiti in1804. The question does not imply Haitian independence predated that restoration."
+        }
+      ]
+    }
+  ],
+  "source_reuse_basis": "Exact whole-record source reviews by the independent team plus lead source-first, parent-referral and companion-repair inspections. Every current composed task field and all attached facet values were read in six consecutive14-task batches, with additional old-target inspection for the276/291 versus295 chronology. No source page reading was treated as automatic task approval.",
+  "whole_book_approval": false
+}

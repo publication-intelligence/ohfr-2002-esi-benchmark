@@ -1,0 +1,160 @@
+{
+  "schema_version": "source-only-final-dependency-review-1",
+  "status": "proposed_reconciliation_not_freeze_or_approval",
+  "ownership": "Every final legacy/native relationship with minimum original provenance chapter CHUNK-001–006; tasks whose old target-subject provenance is wholly within chapters 1–6.",
+  "candidate_unexposed_attestation": {
+    "candidate_material_read": false,
+    "candidate_names_or_scores_read": false,
+    "task_or_thread_tools_used": false,
+    "inputs": "Only original source allowlist/addendum, owned source material and methodology, source-only team synthesis outputs and own workfiles.",
+    "no_candidate_inference": "Choices use source meaning, scope, chronology and reader access; no index counts, incumbent status or candidate performance."
+  },
+  "source_review_provenance": {
+    "owned_pages": 158,
+    "owned_page_ranges": [
+      [
+        1,
+        43
+      ],
+      [
+        44,
+        65
+      ],
+      [
+        66,
+        85
+      ],
+      [
+        86,
+        111
+      ],
+      [
+        112,
+        135
+      ],
+      [
+        136,
+        158
+      ]
+    ],
+    "previous_synthesis_review_reused": {
+      "prior_bounded_pages": 43,
+      "additional_full_synthesis_pages": 115
+    },
+    "fresh_pages_reexamined_in_final_dependency_pass": [
+      51,
+      52,
+      53,
+      94,
+      95,
+      96,
+      97,
+      98,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ],
+    "fresh_final_edge_semantic_inspection": 1470,
+    "previous_review_artifacts": [
+      "validation/reconciliation/source-review/chunks-001-006.json",
+      "successor/synthesis/chunks-001-006/checkpoint.json"
+    ],
+    "claim_limit": "Full owned-page review belongs to the earlier synthesis pass. This pass inspects final edge/task meanings and selectively rereads fourteen source pages; it does not claim all 158 pages were freshly read again."
+  },
+  "input_sha256": {
+    "successor/synthesis/integrated-working.json": "bf71acaef85eac5256bab4073d12ce048295a0fa3b402204400a09167dbec368",
+    "successor/synthesis/integration-mapping.json": "78c73c6cbb33ccef9f600bb3c76d6cda271a8225d0c30cf84c10370ec8cc19c3",
+    ".source-only/legacy/source/source-benchmark.v3.json": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    ".source-only/native/source/source-benchmark.v2.json": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
+  },
+  "post_snapshot_integration_notice": {
+    "mapping_sha256_observed": "9a4749b0cd6b28ca0449e0385141393f5d288f6e9180e31ea2e6561e2d5d466d",
+    "benchmark_sha256_observed": "b055c1c5bb98247f6590db70a05d0e9a7c4dc895ef13ec39c44b18bac247f71f",
+    "change": "Coordinator split old SUCC-C006-S019 into A retained slavery and B free coloured rights; B merges with chapter17. The seven specific p151 corrections include local facet bindings. Other changes after the primary snapshot have not been adjudicated here.",
+    "bindings": {
+      "SUCC-C006-S019A": "SUBJ-SUCC-E460E732EDD9",
+      "SUCC-C006-S019B": "SUBJ-SUCC-2AC42802019F"
+    }
+  },
+  "counts": {
+    "old_relationships_by_lineage": {
+      "legacy": 1387,
+      "native": 83
+    },
+    "old_relationships_by_disposition": {
+      "internalized_in_coherent_requirement": 548,
+      "retired_redundant_or_nonspecific_link": 476,
+      "superseded_by_proposed_necessary_edge": 138,
+      "superseded_by_authored_edge": 235,
+      "corrected_semantic_defect": 73
+    },
+    "old_relationships_by_owner": {
+      "legacy": {
+        "CHUNK-005": 202,
+        "CHUNK-002": 213,
+        "CHUNK-006": 205,
+        "CHUNK-004": 372,
+        "CHUNK-001": 246,
+        "CHUNK-003": 149
+      },
+      "native": {
+        "CHUNK-001": 13,
+        "CHUNK-002": 35,
+        "CHUNK-003": 12,
+        "CHUNK-004": 2,
+        "CHUNK-005": 5,
+        "CHUNK-006": 16
+      }
+    },
+    "old_tasks_by_lineage": {
+      "legacy": 365,
+      "native": 214
+    },
+    "old_tasks_by_disposition": {
+      "decomposed_into_specific_questions": 5,
+      "superseded_by_equivalent_specific_question": 277,
+      "superseded_by_named_facet_question": 48,
+      "retired_generic_template": 249
+    },
+    "authored_snapshot_edges_inspected": 98,
+    "authored_edge_amendments": 6,
+    "necessary_edge_proposals": 74,
+    "task_wording_amendments": 1,
+    "new_task_proposals": 0
+  },
+  "unreviewed_scope": [
+    "Final relationships whose minimum original chapter is 7–17.",
+    "Old reader tasks whose subject provenance includes chapters 7–17, even if an individual question also mentions an owned topic.",
+    "New integrated additions after the hashed primary snapshot, except the expressly recorded colonial split notice.",
+    "Later source pages used by cross-chapter endpoint merges; their earlier meaning was read from the source-only integration but those later PDF pages were not read in this shard."
+  ],
+  "uncertainty": [
+    "Nonspecific old associations do not justify stronger graph claims. Retire them with retained facet/evidence access instead of inventing causal certainty.",
+    "The source leaves Robespierre’s early-1791 republican commitment uncertain; the specific uncertainty question remains.",
+    "Colonial incident edges must be rebound to A or B at integration; original composite snapshot IDs are historical references, not live-endpoint approval."
+  ],
+  "writes": "Only this review directory and own private workfiles were written. No canonical integration, chapter task repair, original release, freeze or successor registration was changed.",
+  "source_pdf_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "owned_source_packet_sha256": {
+    ".source-only/source/chunks/CHUNK-001.pages.json": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1",
+    ".source-only/source/chunks/CHUNK-001.pdf": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+    ".source-only/source/chunks/CHUNK-002.pages.json": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5",
+    ".source-only/source/chunks/CHUNK-002.pdf": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+    ".source-only/source/chunks/CHUNK-003.pages.json": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272",
+    ".source-only/source/chunks/CHUNK-003.pdf": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+    ".source-only/source/chunks/CHUNK-004.pages.json": "1353e5061e5cc9988be43e54fe912a2c5b4b2e6bd2e069edb529786a0fde01a8",
+    ".source-only/source/chunks/CHUNK-004.pdf": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
+    ".source-only/source/chunks/CHUNK-005.pages.json": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf",
+    ".source-only/source/chunks/CHUNK-005.pdf": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+    ".source-only/source/chunks/CHUNK-006.pages.json": "b87631df54474bc7167f0eb7b4dd1e187cb75da7fe5a09d7697c2e798a66f154",
+    ".source-only/source/chunks/CHUNK-006.pdf": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306"
+  },
+  "source_only_control_sha256": {
+    ".source-only/input-allowlist.json": "a977c0270f13d0d4a39881da80ceb99911621ed6ad061de50613755dc128922e",
+    ".source-only/input-addendum-native-freeze.json": "4e847fbb81888cca2f39923d9ef7b10f3d223ce7a9a3ff868a15ec06662a5eb9"
+  },
+  "exact_outside_shard_inventory_reference": "outside-shard-inventory.json"
+}

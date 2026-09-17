@@ -1,0 +1,958 @@
+{
+  "schema_version": "post-freeze-additive-evidence-page-finding-v1",
+  "status": "sealed_source_finding_and_proposal_only; independent_review_pending",
+  "recorded_at": "2026-09-17T07:02:46.866895+00:00",
+  "finding_id": "PBF-010",
+  "origin": "An additional source-only coordinator referral arrived after proposal v2 seal during benchmark application. It was tested as a hypothesis against complete source57/58 and the whole current parent, prior review and dependencies. No candidate information supplied or inspected. The separate public-opinion referral duplicates an existing sealed finding and creates no additional change.",
+  "prior_sealed_proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v2.json",
+    "sha256": "2f780af16d6c80a8d169fa4757c5b0dedb3a9c1b9c4c9bfcba41944df913e16f",
+    "bytes": 3731
+  },
+  "frozen_base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "source_files": [
+    {
+      "path": ".source-only/source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "bytes": 715508
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-002.pages.json",
+      "sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5",
+      "bytes": 3690
+    }
+  ],
+  "actual_source_inspection": [
+    {
+      "document_page": 57,
+      "source_page_label": "57",
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 16,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/physiocracy-page-binding/page57.txt",
+        "sha256": "df9d6b75b5839b3f95c22332e0a73e5280765b4b1cdde152dccadad98c825489",
+        "bytes": 2959
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/physiocracy-page-binding/page57.png",
+        "sha256": "093bfd85254274aa858bf9f9d3e219fbc23e27efee0404cea94012f165e19eb9",
+        "bytes": 341563
+      }
+    },
+    {
+      "document_page": 58,
+      "source_page_label": "58",
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 17,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/physiocracy-page-binding/page58.txt",
+        "sha256": "f8aeb3f4a46b84b93ac0e62472aa85f64705408ba43a5cdad3386d3123630211",
+        "bytes": 3040
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/physiocracy-page-binding/page58.png",
+        "sha256": "127b2dbcc5ca88e8752edc51677e37f37ac3ce6d5e30c42cc2bb324435537bfc",
+        "bytes": 349663
+      }
+    }
+  ],
+  "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+  "evidence_id": "EVID-SUCC-0B6249083880",
+  "before_evidence": {
+    "document_page": 58,
+    "source_page_label": "58",
+    "locator_class": "supporting",
+    "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+    "evidence_id": "EVID-SUCC-0B6249083880",
+    "source_local_subject_id": "SUCC-C002-S017",
+    "source_chunk_id": "CHUNK-002"
+  },
+  "before_evidence_sha256": "b5fd71f297f6ae138f2a17c939911bf6793408477e197795db601c46dfc773c6",
+  "proposed_evidence": {
+    "document_page": 57,
+    "source_page_label": "57",
+    "locator_class": "supporting",
+    "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+    "evidence_id": "EVID-SUCC-0B6249083880",
+    "source_local_subject_id": "SUCC-C002-S017",
+    "source_chunk_id": "CHUNK-002"
+  },
+  "proposed_evidence_sha256": "f31d9df93b984253b7c357d9122fb0ea88aaf0649971e22d681f46c31a97bb34",
+  "conclusion": "The exact broad enumeration of customary/collective, feudal, fiscal, internal-trade, corporate and privileged obstacles is wholly on57, after the natural-order and legal-despotism/fiscal paragraphs.58 opens by selecting one obstacle, the centrally organized grain trade, for application and then follows its reforms, harvest crisis and political consequences. The narrative continues, but58 does not contain the claimed enumeration. Correct the individual evidence row to57; retain its ID, summary and supporting class.",
+  "dependent_metadata_decision": "The sole retained CHUNK-002-S060 distinction states the general strong-state removal of obstacles and enlarged royal tax capacity; its complete direct support is57. Narrow its page list to57. The broader source treatment and main facet retain57/58 because the separate DFD36F1F6BBF grain-application evidence is valid58. No global58 replacement, parent meaning/stance/access/priority change or evidence deletion.",
+  "before_whole_parent": {
+    "label": "Physiocracy and the natural economic order",
+    "priority": "major",
+    "meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+    "stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+    "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+    "acceptable_access": [
+      "Physiocracy",
+      "Quesnay—economic thought",
+      "Economists—natural order",
+      "Agriculture—source of wealth",
+      "Quesnay, François",
+      "natural economic order",
+      "agriculture—productive sector",
+      "Tableau économique",
+      "Physiocracy—legal despotism",
+      "economic freedom—state intervention",
+      "guilds and privileges—reform",
+      "poor peasant poor kingdom",
+      "Physiocracy—natural economic order, agriculture, and productive wealth",
+      "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+      "Physiocracy and the natural economic order"
+    ],
+    "evidence": [
+      {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "principal",
+        "evidence_summary": "Quesnay and collaborators identified agriculture as uniquely productive and called for removal of artificial burdens under strong governmental action.",
+        "evidence_id": "EVID-SUCC-9B38A6C902D7",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "principal",
+        "evidence_summary": "Quesnay's natural order, the productive status of agriculture, principal authors, and the name Physiocracy are explained.",
+        "evidence_id": "EVID-SUCC-1ED05A0875F4",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "principal",
+        "evidence_summary": "Free markets, legal despotism, ministerial attraction, and fiscal logic are laid out.",
+        "evidence_id": "EVID-SUCC-191C0E3EDC48",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 58,
+        "source_page_label": "58",
+        "locator_class": "supporting",
+        "evidence_summary": "Grain controls became the most immediate field for applying claims that freedom would create abundance.",
+        "evidence_id": "EVID-SUCC-DFD36F1F6BBF",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 58,
+        "source_page_label": "58",
+        "locator_class": "supporting",
+        "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+        "evidence_id": "EVID-SUCC-0B6249083880",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      }
+    ],
+    "chapter_provenance": [
+      "CHUNK-002"
+    ],
+    "source_treatments": [
+      {
+        "local_subject_id": "SUCC-C002-S017",
+        "label": "Physiocracy and the natural economic order",
+        "meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "acceptable_access": [
+          "Physiocracy",
+          "Quesnay—economic thought",
+          "Economists—natural order",
+          "Agriculture—source of wealth",
+          "Quesnay, François",
+          "natural economic order",
+          "agriculture—productive sector",
+          "Tableau économique",
+          "Physiocracy—legal despotism",
+          "economic freedom—state intervention",
+          "guilds and privileges—reform",
+          "poor peasant poor kingdom",
+          "Physiocracy—natural economic order, agriculture, and productive wealth",
+          "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+          "Physiocracy and the natural economic order"
+        ],
+        "document_pages": [
+          57,
+          58
+        ]
+      }
+    ],
+    "source_local_subject_ids": [
+      "SUCC-C002-S017"
+    ],
+    "editorial_rationale": "Whole-record source repair implements the independent review; parent fields explicitly state retained substantive distinctions. Scoped historical portions and retired or rebound requirements are recorded in the repair dispositions.",
+    "access_scope_rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+    "required_access_facets": [
+      {
+        "facet_id": "FACET-SUCC-C002-S017",
+        "label": "Physiocracy and the natural economic order",
+        "meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "acceptable_access": [
+          "Physiocracy",
+          "Quesnay—economic thought",
+          "Economists—natural order",
+          "Agriculture—source of wealth",
+          "Quesnay, François",
+          "natural economic order",
+          "agriculture—productive sector",
+          "Tableau économique",
+          "Physiocracy—legal despotism",
+          "economic freedom—state intervention",
+          "guilds and privileges—reform",
+          "poor peasant poor kingdom",
+          "Physiocracy—natural economic order, agriculture, and productive wealth",
+          "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+          "Physiocracy and the natural economic order"
+        ],
+        "document_pages": [
+          57,
+          58
+        ],
+        "independently_weighted": false
+      }
+    ],
+    "retained_source_distinctions": [
+      {
+        "source_local_subject_id": "CHUNK-002-S059",
+        "meaning": "Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth.",
+        "qualification": "Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism.",
+        "source_pages": [
+          57
+        ]
+      },
+      {
+        "source_local_subject_id": "CHUNK-002-S060",
+        "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "qualification": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "source_pages": [
+          57,
+          58
+        ]
+      }
+    ]
+  },
+  "before_whole_parent_sha256": "d8f5d6317da2ec50da6b8bb3a4680264bbbd902f9d7b65f3d01ea635272a66ca",
+  "proposed_whole_parent": {
+    "label": "Physiocracy and the natural economic order",
+    "priority": "major",
+    "meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+    "stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+    "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+    "acceptable_access": [
+      "Physiocracy",
+      "Quesnay—economic thought",
+      "Economists—natural order",
+      "Agriculture—source of wealth",
+      "Quesnay, François",
+      "natural economic order",
+      "agriculture—productive sector",
+      "Tableau économique",
+      "Physiocracy—legal despotism",
+      "economic freedom—state intervention",
+      "guilds and privileges—reform",
+      "poor peasant poor kingdom",
+      "Physiocracy—natural economic order, agriculture, and productive wealth",
+      "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+      "Physiocracy and the natural economic order"
+    ],
+    "evidence": [
+      {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "principal",
+        "evidence_summary": "Quesnay and collaborators identified agriculture as uniquely productive and called for removal of artificial burdens under strong governmental action.",
+        "evidence_id": "EVID-SUCC-9B38A6C902D7",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "principal",
+        "evidence_summary": "Quesnay's natural order, the productive status of agriculture, principal authors, and the name Physiocracy are explained.",
+        "evidence_id": "EVID-SUCC-1ED05A0875F4",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "principal",
+        "evidence_summary": "Free markets, legal despotism, ministerial attraction, and fiscal logic are laid out.",
+        "evidence_id": "EVID-SUCC-191C0E3EDC48",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 58,
+        "source_page_label": "58",
+        "locator_class": "supporting",
+        "evidence_summary": "Grain controls became the most immediate field for applying claims that freedom would create abundance.",
+        "evidence_id": "EVID-SUCC-DFD36F1F6BBF",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "supporting",
+        "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+        "evidence_id": "EVID-SUCC-0B6249083880",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      }
+    ],
+    "chapter_provenance": [
+      "CHUNK-002"
+    ],
+    "source_treatments": [
+      {
+        "local_subject_id": "SUCC-C002-S017",
+        "label": "Physiocracy and the natural economic order",
+        "meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "acceptable_access": [
+          "Physiocracy",
+          "Quesnay—economic thought",
+          "Economists—natural order",
+          "Agriculture—source of wealth",
+          "Quesnay, François",
+          "natural economic order",
+          "agriculture—productive sector",
+          "Tableau économique",
+          "Physiocracy—legal despotism",
+          "economic freedom—state intervention",
+          "guilds and privileges—reform",
+          "poor peasant poor kingdom",
+          "Physiocracy—natural economic order, agriculture, and productive wealth",
+          "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+          "Physiocracy and the natural economic order"
+        ],
+        "document_pages": [
+          57,
+          58
+        ]
+      }
+    ],
+    "source_local_subject_ids": [
+      "SUCC-C002-S017"
+    ],
+    "editorial_rationale": "Whole-record source repair implements the independent review; parent fields explicitly state retained substantive distinctions. Scoped historical portions and retired or rebound requirements are recorded in the repair dispositions.",
+    "access_scope_rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+    "required_access_facets": [
+      {
+        "facet_id": "FACET-SUCC-C002-S017",
+        "label": "Physiocracy and the natural economic order",
+        "meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "acceptable_access": [
+          "Physiocracy",
+          "Quesnay—economic thought",
+          "Economists—natural order",
+          "Agriculture—source of wealth",
+          "Quesnay, François",
+          "natural economic order",
+          "agriculture—productive sector",
+          "Tableau économique",
+          "Physiocracy—legal despotism",
+          "economic freedom—state intervention",
+          "guilds and privileges—reform",
+          "poor peasant poor kingdom",
+          "Physiocracy—natural economic order, agriculture, and productive wealth",
+          "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+          "Physiocracy and the natural economic order"
+        ],
+        "document_pages": [
+          57,
+          58
+        ],
+        "independently_weighted": false
+      }
+    ],
+    "retained_source_distinctions": [
+      {
+        "source_local_subject_id": "CHUNK-002-S059",
+        "meaning": "Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth.",
+        "qualification": "Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism.",
+        "source_pages": [
+          57
+        ]
+      },
+      {
+        "source_local_subject_id": "CHUNK-002-S060",
+        "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "qualification": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "source_pages": [
+          57
+        ]
+      }
+    ]
+  },
+  "proposed_whole_parent_sha256": "6c11610399df767221140c16eedbe892a5dec5a92e12610b9aadd3925b236f82",
+  "exact_content_changes": [
+    {
+      "pointer": "/subjects/118/evidence/4/document_page",
+      "before": 58,
+      "proposed": 57,
+      "finding_id": "PBF-010"
+    },
+    {
+      "pointer": "/subjects/118/evidence/4/source_page_label",
+      "before": "58",
+      "proposed": "57",
+      "finding_id": "PBF-010"
+    },
+    {
+      "pointer": "/subjects/118/retained_source_distinctions/1/source_pages",
+      "before": [
+        57,
+        58
+      ],
+      "proposed": [
+        57
+      ],
+      "finding_id": "PBF-010-dependent-metadata"
+    }
+  ],
+  "all_same_retained_distinction_occurrences": [
+    {
+      "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+      "pointer": "/subjects/118/retained_source_distinctions/1",
+      "before_sha256": "f62f363b35e49b247db320187c5f4a9f905065b7050af5d99e0391b02b906063",
+      "proposed_sha256": "aace05bf664a69b8b4b6ec62b37be633289a463d1b67de7e8bcb1b545936dafe",
+      "before_source_pages": [
+        57,
+        58
+      ],
+      "proposed_source_pages": [
+        57
+      ]
+    }
+  ],
+  "all_exact_evidence_id_occurrences": [
+    {
+      "evidence_id": "EVID-SUCC-0B6249083880",
+      "pointer": "/subjects/118/evidence/4/evidence_id",
+      "value": "EVID-SUCC-0B6249083880"
+    }
+  ],
+  "all_direct_dependencies": [
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-EEB4AA771571",
+      "pointer": "/relationships/24",
+      "record_sha256": "427d3cb677b3074eedd090ebb16d590a1c4acd9b7994cd848a39974dc00cc3f5",
+      "subject_dependencies": [
+        "SUBJ-SUCC-6F86A8D885F6"
+      ],
+      "record": {
+        "relationship_id": "REL-SUCC-EEB4AA771571",
+        "source_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+        "relationship_type": "applied_in",
+        "target_subject_id": "SUBJ-SUCC-0383CF37560D",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          57,
+          58
+        ],
+        "rationale": "Grain freedom tests agrarian doctrine.",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_local_relationship_index": 0
+      },
+      "disposition": "retain_unchanged_for_this_correction",
+      "basis": "This evidence correction does not change Physiocratic theory, the state-power paradox or the grain application. The linked questions/facets and scoped relationships remain supported. Relationship arrays include genuine broader application/context, not a claim that the obstacle list is on58; unchanged material outside57–58 reuses prior full source review."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-4F9108A9AFC4",
+      "pointer": "/relationships/385",
+      "record_sha256": "adaccc60ba9464b221808e09530b965b7799dcb4a9571e53aed86702efd529a3",
+      "subject_dependencies": [
+        "SUBJ-SUCC-6F86A8D885F6"
+      ],
+      "record": {
+        "source_subject_id": "SUBJ-SUCC-32717CAF10C8",
+        "target_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+        "relationship_type": "encourages_reform_debate_about",
+        "evidence_document_pages": [
+          56,
+          57
+        ],
+        "rationale": "The postwar inquest makes economic improvement a ministerial priority and helps give Physiocratic ideas an audience.",
+        "relationship_id": "REL-SUCC-4F9108A9AFC4",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S016",
+        "author_proposal_id": "REL-PROP-C001006-DDBC2FCC70BD"
+      },
+      "disposition": "retain_unchanged_for_this_correction",
+      "basis": "This evidence correction does not change Physiocratic theory, the state-power paradox or the grain application. The linked questions/facets and scoped relationships remain supported. Relationship arrays include genuine broader application/context, not a claim that the obstacle list is on58; unchanged material outside57–58 reuses prior full source review."
+    },
+    {
+      "collection": "relationships",
+      "entity_id": "REL-SUCC-D12B3E40A6FB",
+      "pointer": "/relationships/392",
+      "record_sha256": "88b310e18cfdb0e280bcf5f55c5a4f037dd16eaf03e33ec776cf31993429cb10",
+      "subject_dependencies": [
+        "SUBJ-SUCC-6F86A8D885F6"
+      ],
+      "record": {
+        "source_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+        "target_subject_id": "SUBJ-SUCC-C1C7F6F7A3BE",
+        "relationship_type": "shapes_reform_context_of",
+        "evidence_document_pages": [
+          57,
+          58,
+          60
+        ],
+        "rationale": "State-led economic rationalization underlies enlightened administrative ambitions; arbitrary and unaccountable implementation creates opposition. This is contextual influence, not a claim that every intendant adopted the doctrine.",
+        "relationship_id": "REL-SUCC-D12B3E40A6FB",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "author_proposal_id": "REL-PROP-C001006-18D2DE89E2D0"
+      },
+      "disposition": "retain_unchanged_for_this_correction",
+      "basis": "This evidence correction does not change Physiocratic theory, the state-power paradox or the grain application. The linked questions/facets and scoped relationships remain supported. Relationship arrays include genuine broader application/context, not a claim that the obstacle list is on58; unchanged material outside57–58 reuses prior full source review."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-9B38A6C902D7",
+      "pointer": "/reader_tasks/179",
+      "record_sha256": "2cf5a805aee62a5d2580f0db4852b8c06b831bf1f04d85088fbb35644effd258",
+      "subject_dependencies": [
+        "SUBJ-SUCC-6F86A8D885F6"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-9B38A6C902D7",
+        "question": "Retrieve the central theory of wealth advanced by the Physiocrats.",
+        "subject_ids": [
+          "SUBJ-SUCC-6F86A8D885F6"
+        ],
+        "source_task_ids": [
+          "SUCC-C002-S017:0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-2A17D71E898C",
+            "question": "What does Doyle show about the central theory of wealth advanced by the Physiocrats?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-6F86A8D885F6"
+            ],
+            "historical_task_id": "TASK-2A17D71E898C",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_this_correction",
+      "basis": "This evidence correction does not change Physiocratic theory, the state-power paradox or the grain application. The linked questions/facets and scoped relationships remain supported. Relationship arrays include genuine broader application/context, not a claim that the obstacle list is on58; unchanged material outside57–58 reuses prior full source review."
+    },
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-1ED05A0875F4",
+      "pointer": "/reader_tasks/180",
+      "record_sha256": "f4063721340c9c8c04393411d5477ab0688102847e9c0ff027bbdb7147b132f1",
+      "subject_dependencies": [
+        "SUBJ-SUCC-6F86A8D885F6"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-1ED05A0875F4",
+        "question": "Find why Physiocratic liberalization implied unusually strong governmental action.",
+        "subject_ids": [
+          "SUBJ-SUCC-6F86A8D885F6"
+        ],
+        "source_task_ids": [
+          "SUCC-C002-S017:1"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-ADE0CCD49B94",
+            "question": "How does Doyle explain why Physiocratic liberalization implied unusually strong governmental action?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-6F86A8D885F6"
+            ],
+            "historical_task_id": "TASK-ADE0CCD49B94",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_this_correction",
+      "basis": "This evidence correction does not change Physiocratic theory, the state-power paradox or the grain application. The linked questions/facets and scoped relationships remain supported. Relationship arrays include genuine broader application/context, not a claim that the obstacle list is on58; unchanged material outside57–58 reuses prior full source review."
+    }
+  ],
+  "prior_review_records": [
+    {
+      "kind": "initial_subject_review",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 74,
+      "row_sha256": "ae1e7d39b7f0342b53d389c331572feb3a894d5553b51293bd612596785c12b7",
+      "row": {
+        "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+        "label": "Physiocracy and the natural economic order",
+        "verdict": "revise",
+        "source_pages": [
+          57,
+          58
+        ],
+        "basis": "Pages 57–58 support a specifically agrarian natural-order doctrine and the paradox of strong interventionist government clearing barriers for economic freedom and taxable prosperity. The parent says agriculture was the source of wealth, but the source and retained distinction make the exclusionary claim that it alone was genuinely productive.",
+        "proposed_fix": "State that Physiocrats regarded agriculture as the sole genuinely productive source, preserving the contrast with generic market liberalism. Keep legal despotism, coercive reform means and ministerial fiscal attraction distinct. The evidence and major priority otherwise fit.",
+        "fields_inspected": [
+          "label",
+          "meaning",
+          "stance",
+          "priority",
+          "acceptable_access",
+          "access_scope_rule",
+          "editorial_rationale",
+          "source_treatments",
+          "required_access_facets",
+          "retained_source_distinctions",
+          "evidence"
+        ],
+        "source_treatment_ids": [
+          "SUCC-C002-S017"
+        ],
+        "required_access_facet_ids": [
+          "FACET-SUCC-C002-S017"
+        ],
+        "retained_distinction_ids": [
+          "CHUNK-002-S059",
+          "CHUNK-002-S060"
+        ],
+        "evidence_reviews": [
+          {
+            "evidence_id": "EVID-SUCC-9B38A6C902D7",
+            "page": "57",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-1ED05A0875F4",
+            "page": "57",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-191C0E3EDC48",
+            "page": "57",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-DFD36F1F6BBF",
+            "page": "58",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-0B6249083880",
+            "page": "58",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          }
+        ],
+        "subject_lineage_inspected": true,
+        "evidence_lineage_audit_status": "exact_old_records_and_author_mapping_fields_checked; substantive_deltas_inspected; same_claim_text_reuses_inspected_evidence",
+        "review_status": "whole_subject_initial_verdict_complete; cross_entity_and_source_first_reconciliation_pending",
+        "facet_reviews": [
+          {
+            "facet_id": "FACET-SUCC-C002-S017",
+            "verdict": "revise",
+            "basis": "The facet exactly repeats the inspected parent meaning, stance and acceptable access; the authored subject disposition and fixes apply to this facet.",
+            "source_pages": [
+              57,
+              58
+            ],
+            "independently_weighted": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "specific_repair_disposition",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 886,
+      "row_sha256": "423f47ddb86d43e1e6a1cffee11837be116e40c749c0be14a27e2137df149e63",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-6F86A8D885F6:evidence:EVID-SUCC-0B6249083880",
+        "record_id": "SUBJ-SUCC-6F86A8D885F6",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-0B6249083880",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 58,
+          "source_page_label": "58",
+          "locator_class": "supporting",
+          "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+          "evidence_id": "EVID-SUCC-0B6249083880",
+          "source_local_subject_id": "SUCC-C002-S017",
+          "source_chunk_id": "CHUNK-002"
+        },
+        "after": {
+          "document_page": 58,
+          "source_page_label": "58",
+          "locator_class": "supporting",
+          "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+          "evidence_id": "EVID-SUCC-0B6249083880",
+          "source_local_subject_id": "SUCC-C002-S017",
+          "source_chunk_id": "CHUNK-002"
+        },
+        "independent_basis": "Pages 57–58 support a specifically agrarian natural-order doctrine and the paradox of strong interventionist government clearing barriers for economic freedom and taxable prosperity. The parent says agriculture was the source of wealth, but the source and retained distinction make the exclusionary claim that it alone was genuinely productive.",
+        "repair_intent": "State that Physiocrats regarded agriculture as the sole genuinely productive source, preserving the contrast with generic market liberalism. Keep legal despotism, coercive reform means and ministerial fiscal attraction distinct. The evidence and major priority otherwise fit."
+      }
+    },
+    {
+      "kind": "specific_repair_disposition",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 894,
+      "row_sha256": "346c95fd124d3b67d9ba84f8fcf41a27769b23d793d556d264c0099f132d4037",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-6F86A8D885F6:retained_source_distinctions:CHUNK-002-S060",
+        "record_id": "SUBJ-SUCC-6F86A8D885F6",
+        "requirement_type": "retained_source_distinctions",
+        "stable_item_id": "CHUNK-002-S060",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_local_subject_id": "CHUNK-002-S060",
+          "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+          "qualification": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+          "source_pages": [
+            57,
+            58
+          ]
+        },
+        "after": {
+          "source_local_subject_id": "CHUNK-002-S060",
+          "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+          "qualification": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+          "source_pages": [
+            57,
+            58
+          ]
+        },
+        "independent_basis": "Pages 57–58 support a specifically agrarian natural-order doctrine and the paradox of strong interventionist government clearing barriers for economic freedom and taxable prosperity. The parent says agriculture was the source of wealth, but the source and retained distinction make the exclusionary claim that it alone was genuinely productive.",
+        "repair_intent": "State that Physiocrats regarded agriculture as the sole genuinely productive source, preserving the contrast with generic market liberalism. Keep legal despotism, coercive reform means and ministerial fiscal attraction distinct. The evidence and major priority otherwise fit."
+      }
+    },
+    {
+      "kind": "historical_evidence_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 384,
+      "row_sha256": "48f9dd4ada696e73beaf46736b46b34ad2c62f2ee33cff26ee207d0f816cb7ac",
+      "row": {
+        "review_key": "legacy:SUBJ-DEFC7BAEFE7B:EVID-58B81A332BD2",
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-DEFC7BAEFE7B",
+        "old_evidence_id": "EVID-58B81A332BD2",
+        "review_index": 384,
+        "original_lineage_pointer": "/rows/2208",
+        "original_before_sha256": "eb93ba4ce67bf8dc4043b3bdaccae98ff7c486516b2d18239a80f5f1edb3fff9",
+        "original_claim": {
+          "evidence_id": "EVID-58B81A332BD2",
+          "source_evidence_id": "EVID-B0858BA46298",
+          "document_page": 58,
+          "source_page_label": "58",
+          "locator_class": "supporting",
+          "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+          "provenance": {
+            "chunk_id": "CHUNK-002",
+            "local_subject_id": "CHUNK-002-S060",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-002.json",
+            "source_artifact_sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053"
+          }
+        },
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+        "literal_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+            "evidence_id": "EVID-SUCC-0B6249083880",
+            "draft_pointer": "/subjects/118/evidence/4",
+            "matched_four_fields_sha256": "4e320294bb669cfc515e0f840cc6f73bed588128c131ae740318cec2dd438036",
+            "prior_evidence_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/885",
+              "requirement_key": "SUBJ-SUCC-6F86A8D885F6:evidence:EVID-SUCC-0B6249083880",
+              "row_sha256": "423f47ddb86d43e1e6a1cffee11837be116e40c749c0be14a27e2137df149e63"
+            },
+            "prior_parent_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/73",
+              "row_sha256": "ae1e7d39b7f0342b53d389c331572feb3a894d5553b51293bd612596785c12b7"
+            },
+            "actual_integrated_evidence_equals_inspected_value": true
+          }
+        ],
+        "exact_proposed_bindings": [
+          {
+            "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+            "evidence_id": "EVID-SUCC-0B6249083880",
+            "binding_status": "current_claim_retained",
+            "evidence_fields": {
+              "document_page": 58,
+              "source_page_label": "58",
+              "locator_class": "supporting",
+              "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+              "evidence_id": "EVID-SUCC-0B6249083880",
+              "source_local_subject_id": "SUCC-C002-S017",
+              "source_chunk_id": "CHUNK-002"
+            },
+            "evidence_sha256": "b5fd71f297f6ae138f2a17c939911bf6793408477e197795db601c46dfc773c6",
+            "actual_parent_main_sha256": "f226ca0ab43802551cda269e82d9fde32186c37b519ce7cfa68af851ed08ed52",
+            "parent_review": "exact prior whole-record review reused"
+          }
+        ],
+        "exact_exclusion_bindings": [],
+        "retired_or_unaccepted_author_bindings": [],
+        "required_referral": null,
+        "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+      }
+    },
+    {
+      "kind": "historical_subject_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+        "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+        "bytes": 5138775
+      },
+      "line_one_based": 254,
+      "row_sha256": "c503affce5285b60266397a4255e0654bdc83fcbf71a20221d1e2d3004e87ef1",
+      "row": {
+        "review_key": "legacy:SUBJ-DEFC7BAEFE7B",
+        "review_index": 254,
+        "original_lineage_pointer": "/rows/941",
+        "original_before_sha256": "d18b0b968570401e93acbef9c10063303e552cf9c54be034c03394eb9dfa36fe",
+        "original_before_fields": {
+          "label": "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+          "priority": "major",
+          "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+          "stance": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+          "acceptable_access": [
+            "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+            "Physiocracy—legal despotism",
+            "economic freedom—state intervention",
+            "guilds and privileges—reform",
+            "poor peasant poor kingdom"
+          ]
+        },
+        "source_pages": [
+          57,
+          58
+        ],
+        "disposition": "retain_by_exact_prior_substantive_inspection",
+        "independent_basis": "Reuse the exact prior inspected meaning/stance and its recorded source-grounded repair disposition, shown below. The current integrated record exactly equals the sealed reviewed value. Historical priority and access are reconciled to the coherent current parent rather than preserved as extra weighted units.",
+        "prior_source_grounded_parent_judgments": [
+          {
+            "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+            "basis": "Pages 57–58 support a specifically agrarian natural-order doctrine and the paradox of strong interventionist government clearing barriers for economic freedom and taxable prosperity. The parent says agriculture was the source of wealth, but the source and retained distinction make the exclusionary claim that it alone was genuinely productive.",
+            "proposed_fix": "State that Physiocrats regarded agriculture as the sole genuinely productive source, preserving the contrast with generic market liberalism. Keep legal despotism, coercive reform means and ministerial fiscal attraction distinct. The evidence and major priority otherwise fit."
+          }
+        ],
+        "literal_meaning_stance_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+            "draft_meaning_pointer": "/subjects/118/retained_source_distinctions/1/meaning",
+            "draft_stance_pointer": "/subjects/118/retained_source_distinctions/1/qualification",
+            "matched_fields_sha256": "4f5969b86232015e54f4c9bc42de29fea6fcd43f5560a83bea0f1d4c9fd0c94b",
+            "prior_whole_record_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/73",
+              "row_sha256": "ae1e7d39b7f0342b53d389c331572feb3a894d5553b51293bd612596785c12b7"
+            },
+            "prior_specific_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/893",
+              "requirement_key": "SUBJ-SUCC-6F86A8D885F6:retained_source_distinctions:CHUNK-002-S060",
+              "row_sha256": "346c95fd124d3b67d9ba84f8fcf41a27769b23d793d556d264c0099f132d4037"
+            },
+            "prior_specific_verdict": "retained_unchanged",
+            "prior_specific_binding": null,
+            "integrated_subject_equals_prior_completed_whole_proposal_or_unchanged_draft": true
+          }
+        ],
+        "exact_destination_scopes": [
+          {
+            "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+            "label": "Physiocracy and the natural economic order",
+            "priority": "major",
+            "current_record_sha256": "d8f5d6317da2ec50da6b8bb3a4680264bbbd902f9d7b65f3d01ea635272a66ca",
+            "prior_main_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/884",
+              "requirement_key": "SUBJ-SUCC-6F86A8D885F6:parent",
+              "row_sha256": "11eaee08f3df8ebe08e3f92b1956b9becec3d130a93fa123fa1eac6ad497bd90"
+            },
+            "current_main_meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+            "current_main_stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+            "scope": "Use only this coherent parent’s actual temporal/causal scope; no wholesale replication of a broad historical unit under every destination."
+          }
+        ],
+        "retired_author_subject_bindings": [],
+        "priority_disposition": {
+          "old": "major",
+          "current": {
+            "SUBJ-SUCC-6F86A8D885F6": "major"
+          },
+          "judgment": "Retain the source-supported coherent-parent priority justified in the cited prior judgment. Local old optional/major units may form subordinate demands within a larger weighted parent; neither merger nor original count creates a new denominator. Explicit exclusion/retirement dispositions override weighting."
+        },
+        "access_disposition": {
+          "old_routes_literal_in_final_parent": [
+            "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+            "Physiocracy—legal despotism",
+            "economic freedom—state intervention",
+            "guilds and privileges—reform",
+            "poor peasant poor kingdom"
+          ],
+          "remaining_wording_reviewed_for_semantic_route": [],
+          "judgment": "Compound old labels and typographic variants are not mandatory literal headings. Preserve their specific named, temporal and conceptual routes through the actual repaired main meanings/access above. Narrowed claims follow the exact prior repair; graph-derived routes are retired. Named cross-chapter/remaining obligations are explicit referrals."
+        },
+        "required_referral": null,
+        "closure_scope": "Exact historical subject fields reviewed or reused with precise prior inspection proof. Evidence-key closure is separately enumerated. Final integrated values and cross-owner fulfillment are not approved here."
+      }
+    }
+  ],
+  "prior_review_interpretation": "The initial evidence judgment called58 supported; the repair disposition retained it, and the historical exact-value reuse repeated it. They do not constitute a valid page-specific qualification. This was missed in the prior independent and integrated closure. Preserve all old records and add the corrected binding explicitly.",
+  "page_coalescing_interpretation": "The parent already has principal57 evidence and distinct supporting58 grain evidence. Moving this supporting row to57 preserves both parent-page slots and all five evidence IDs; it creates an additional57/supporting class group while the58/supporting group remains. The overall earlier2080-to2079 parent-page change is unaffected.",
+  "visibility_attestation": {
+    "candidate_unseen": true,
+    "no_root_docs_validation_or_app_history_read": true,
+    "source_reinspection_is_targeted_post_freeze": true,
+    "no_new_whole_book_source_first_claim": true,
+    "all_frozen_and_proposal_v1_v2_bytes_preserved": true,
+    "reviewer_dispatch_held": true
+  }
+}

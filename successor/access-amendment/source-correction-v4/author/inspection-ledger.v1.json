@@ -1,0 +1,1401 @@
+{
+  "schema_version": "source-correction-access-author-inspection-ledger-v1",
+  "role": "author",
+  "base": {
+    "path": "successor/source/source-benchmark.v4.json",
+    "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+    "bytes": 6749669
+  },
+  "source_review_reuse": {
+    "path": "successor/independent-review/source-benchmark-review.v3.json",
+    "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+    "bytes": 473259
+  },
+  "scope": "Narrow access-impact review after draft and corrected-base exposure; not a new whole-book or source-first pass.",
+  "changed_subject_access_assessments": [
+    {
+      "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+      "label": "Society of Thirty",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "b57446cce69872ed6d9113f3425a879665bf93b17e8164e4b69182a19771619c",
+      "assessment": "Page 100 completes the account of Duport among elected robins. Named Duport and Society of Thirty routes remain clear, with elite catalysis distinguished from control of the movement.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5193E3F37320",
+      "label": "Assignats: land-backed origins, paper currency, inflation and redistribution",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "c685bd169e8144a41ecedf1f2ec0238d061602867ec9d55799b23f80a81abcab",
+      "assessment": "The office-compensation distinction now points to page 132. Its fiscal mechanism and assignat routes remain explicit; no added monetary or compensation demand is needed.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+      "label": "Active citizenship and restricted political suffrage",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "a61ec548df0b5d63e1cf9132525fab8bcac870ea55d717196cb3fb5bee954ad5",
+      "assessment": "The same page 126/128 separation preserves the tension between popular action and property-limited participation. Explicit routes for women, passive citizens, electors and deputies remain unchanged.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+      "label": "Physiocracy and the natural economic order",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "6c11610399df767221140c16eedbe892a5dec5a92e12610b9aadd3925b236f82",
+      "assessment": "Moving legal-despotism support to page 57 preserves the explicit paradox of strong government as the means to economic freedom. Existing doctrine and explanation tasks remain sufficient.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "label": "Revolutionary Armies, coercion and dissolution",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "b6fdb983dc6d1b5c888f2958ebf7c5b6a9587f05f1c0b7cf0517b256d7e7e18f",
+      "assessment": "The revised summaries distinguish page 263 abolition of unofficial bodies from page 264 retention of one central force and delayed provincial winding-up. Existing autonomy/subordination questions allow that uneven sequence.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "label": "Revolutionary press and political scrutiny",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "77167c49468ed8d96039eadaeceb263038d9af295c1a0bee01f7b8f24bda9da3",
+      "assessment": "The revised retained page sets separate journalism and suspicion from unsupported later-page claims. The existing press, Marat and aristocrat-label tasks preserve those distinct inquiries.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "label": "Hébert and the Hébertists, rise and destruction",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "f3d9d23bfe0ba0becafed32adc6534b2eb60d8ef11ab2f7de30c7a068f2f81be",
+      "assessment": "The corrected summaries identify Chaumette and Hébert at page 249 and the Père Duchesne circulation claim at 250. Existing named journal, actor and factional questions preserve agency and distinguish actual activity from fabricated conspiracy.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8C547916DFE5",
+      "label": "Paris as self-appointed guardian of the Revolution",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "ca55b680538d8b061735e9501712138313409cd8e6ccef60a4747d217e628b10",
+      "assessment": "The corrected evidence separates page 126 municipal authorization to fire after dispersal orders from page 128 narrowing of Guard membership. The task already asks about both dependence on popular action and subsequent policing, without merging their enactment dates.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "label": "Revolutionary reform of taxation",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "68eec3181dd63f3a2dabfcc5bb76d9d9d646a9740452be0b73cd95fcb84b202f",
+      "assessment": "Moving enforcement-failure support to page 134 leaves fiscal equality and absent collection machinery explicit. No new synonym or task is needed to preserve the difference between equal assessment and political suffrage.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "label": "Tax evasion and Babeuf's campaign against indirect taxes",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "68a12cb8e4fa6a3cd64c02bc290df9462c3e8e88c9047661e0831ef4f49f7770",
+      "assessment": "Page 134 supports the collection failure previously put on 132. Babeuf/Picardy protest remains a separate named route from general tax evasion and the replacement tax system.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "label": "Elective public office and judicial reform",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "00db71bb4c06d595088aea0059efb6836b95186d15df9da3990b56561bb0dc44",
+      "assessment": "The office-compensation passage moves to page 132 while electoral and judicial reconstruction remain distinct. The existing compensation and judicial/public-authority tasks still retrieve the intended claims.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+      "label": "Municipal revolution in provincial towns",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "34effe60f86a5f72b1f94b3489357aaee1099b82bb2bc9101b4a1abaec4df25b",
+      "assessment": "Page 114 completes the exclusion-of-privileged-orders sentence begun on 113. Municipal, property-owner, noble and clergy routes retain the social distinction without requiring a new group or claiming uniform exclusion everywhere.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C1C93BC08ECB",
+      "label": "Paris uprising and the storming of the Bastille,12–14 July 1789",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "5aafe4eaa59bed80f7452eeafa05e4d990b09bf829b1d55ed34a3376f8be97e6",
+      "assessment": "The Bastille facet is narrowed to July pages 107/109/110/111. The parent already distinguishes antecedent print and mobilization from the uprising, and the causal task binds the antecedent subjects separately. This removes unsupported page opportunities without erasing the Bastille route.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C3088DA62479",
+      "label": "Public opinion as an informed tribunal and political force",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "3d2e8aedb054c075fe4a10f937b57c11dfb778e7a6724abe7d4015c78049b79a",
+      "assessment": "Corrected page support distinguishes contemporary anxiety about constitutional discussion from the separate censorship and government-publicity account. Dedicated tasks already retrieve both; the warning is not treated as inevitable causation.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C5578768FEE3",
+      "label": "Popular food disturbances before May 1789",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "fa3f73a2f3df2c3c31bfd33d23c9fac57c5b9f5d2f83b84c9cc3f2787824a332",
+      "assessment": "The pre-May disturbance distinction loses the later July page 109. The parent and task already limit the inquiry to the election-period food disorders and distinguish the later recurrence.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+      "label": "Day of Tiles at Grenoble",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "e616a3055e3a61ebd9e5540990d7de067f441db20b7660a1d307aedefcb7198d",
+      "assessment": "The corrected parent, stance and evidence do not assign the reported casualties specifically to tiles. The existing local-event task asks how resistance defeated the May Edicts without asserting a uniform ideology or a cause for every casualty.",
+      "decision": "no_additional_access_delta"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F066F35B29BE",
+      "label": "Church dispossession and suppression of religious institutions",
+      "fields_inspected": [
+        "changed source/evidence/facet/distinction values",
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "access_scope_rule"
+      ],
+      "record_sha256": "8589941943a3009b40081fd00f2e168ed4c49dbc8a8aea6639fa162a962804c0",
+      "assessment": "The corrected early phase is inventory and preparation for sale, not completed nationwide sales. Church-land sale routes remain useful for this process, but retrieval must satisfy the corrected parent and evidence. The sequential Church task does not assert an earlier completed sale.",
+      "decision": "no_additional_access_delta"
+    }
+  ],
+  "additional_endpoint_access_contexts": [
+    {
+      "subject_id": "SUBJ-SUCC-6216510D2EE3",
+      "record_sha256": "381c9d135223c7c662f6443156a620395d5e3a4c7f8b6fe6a01e37cd2fade355",
+      "fields_inspected": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets"
+      ],
+      "evidence_inspected": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-ABA54E187E4B",
+      "record_sha256": "8fdbbbc221d06e17bc6262e7c8ccdb94b4b18d5eda62c64ccfc405fc11a03a2b",
+      "fields_inspected": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets"
+      ],
+      "evidence_inspected": false
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1DB77B316BEB",
+      "record_sha256": "5e383f7ac1fd31091684d9320932fa958a57106658f89dd3a49c8de57fc06c96",
+      "fields_inspected": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets"
+      ],
+      "evidence_inspected": true
+    },
+    {
+      "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+      "record_sha256": "cd3684ba6a87b681a5b5d95e43494988523cff8eef7f6705faaf35c7069478ed",
+      "fields_inspected": [
+        "label",
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "required_access_facets"
+      ],
+      "evidence_inspected": true
+    }
+  ],
+  "task_access_checks": [
+    {
+      "task_id": "TASK-IR007012-PROP-002",
+      "question": "How did Hébert’s journalism, clubs and attempted insurrections shape popular mobilization from March 1793 to March 1794, and where did that mobilization fail?",
+      "subject_ids": [
+        "SUBJ-SUCC-F053F1242069",
+        "SUBJ-SUCC-7FD46BD9C318"
+      ],
+      "record_sha256": "86aec5f804e25b9ca3a7cb16b500a2bf4ed7806129c0f455eace552cecda7b80",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-010AB543242D",
+      "question": "How did religious controversy and the Jalès alarm expand Jacobin activity, and how did Varennes turn mobilization and deposition demands into a division over monarchy?",
+      "subject_ids": [
+        "SUBJ-SUCC-ABA54E187E4B"
+      ],
+      "record_sha256": "c59a3bf52174bbae767f7daee6c8c2c115ea22e97abca2dfe85f151d405205ee",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-05050DC02C27",
+      "question": "Find the chapter’s substantive treatment of Election of public officials.",
+      "subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record_sha256": "d828e513d4982ab9c3ad54172f43fc6f94a40c356a225dbea317032baf2f34b6",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-059C6795CA49",
+      "question": "How did urban and rural popular action prompt the August decrees and shape their subsequent implementation?",
+      "subject_ids": [
+        "SUBJ-SUCC-A7CE991FCCA3",
+        "SUBJ-SUCC-6916B131C643",
+        "SUBJ-SUCC-8246690A8BF7",
+        "SUBJ-SUCC-9B50C3D29DA1",
+        "SUBJ-SUCC-230D8EB4B84C"
+      ],
+      "record_sha256": "9952f0bb1d81b6d531bb62fbdac5e2804da2c6263a78fec68e042cb9e1bfe0d0",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-077FE592CCA7",
+      "question": "How did newspapers cultivate political suspicion and deploy the label of aristocrat?",
+      "subject_ids": [
+        "SUBJ-SUCC-7B3E1AAE16C8"
+      ],
+      "record_sha256": "0d99779b9c3d680e127eb8c52209906afec0db9a84cdd82ea7586265f4a33251",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-0BA28F1C7165",
+      "question": "Connect troop movements, Necker's dismissal, bread scarcity, militia formation, French Guards' defection, and the Bastille.",
+      "subject_ids": [
+        "SUBJ-SUCC-49764CEDFDC8",
+        "SUBJ-SUCC-936AFF93E708",
+        "SUBJ-SUCC-F7206C895F76",
+        "SUBJ-SUCC-C918DFC81FAD",
+        "SUBJ-SUCC-C99D07DA5B57",
+        "SUBJ-SUCC-C1C93BC08ECB"
+      ],
+      "record_sha256": "e191dacd5520f854c877c8f5bbe689a2e6899d6475a096d074dc2a1cac0ea8a8",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-16915FF3B572",
+      "question": "Explain Saint-Just’s different roles in revolutionary government, social decrees and factional prosecution.",
+      "subject_ids": [
+        "SUBJ-SUCC-5D6AEE98EDA3",
+        "SUBJ-SUCC-CC141AF36901",
+        "SUBJ-SUCC-5DD90C556A55",
+        "SUBJ-SUCC-7FD46BD9C318"
+      ],
+      "record_sha256": "ebc5f5b258ea6c93021dbba60a50d2971071ce3fba4e478c1762d225da5da16c",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-19927B2A3EEA",
+      "question": "Why did judicial reform, dependence on local National Guards, and the absence of effective compulsory tax collection produce a crisis of public authority?",
+      "subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-2056A5304D29",
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record_sha256": "2dfd4e0a2db04b760933ae1401bb4e9f777d736395fae242134815e09d3f18fb",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-1B2FAF3D196A",
+      "question": "Find the chapter’s substantive treatment of Urban riot and revolutionary order.",
+      "subject_ids": [
+        "SUBJ-SUCC-A7CE991FCCA3"
+      ],
+      "record_sha256": "7146e2c1f42e2de94ae0ddd8ebde43c11d4586aa5f950dae43a785f4f5871e26",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-1C80693391C9",
+      "question": "Find the chapter’s substantive treatment of Abolition of indirect taxes, monopolies, and tax farms.",
+      "subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record_sha256": "0cb2aabc6d3b6a92c896e81dfb8e9f7b95dc64fbb920e1753bdafcab59171d82",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-1ED05A0875F4",
+      "question": "Find why Physiocratic liberalization implied unusually strong governmental action.",
+      "subject_ids": [
+        "SUBJ-SUCC-6F86A8D885F6"
+      ],
+      "record_sha256": "f4063721340c9c8c04393411d5477ab0688102847e9c0ff027bbdb7147b132f1",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-239D13E4FC29",
+      "question": "Trace how press freedom, clubs, pamphlets, petitions, and provincial conflicts converted anti-despotism into anti-privilege mobilization.",
+      "subject_ids": [
+        "SUBJ-SUCC-75B959BD3520",
+        "SUBJ-SUCC-45D9EA9DAAF0",
+        "SUBJ-SUCC-C9D730C2AC1F",
+        "SUBJ-SUCC-9ABD4A9D46E5",
+        "SUBJ-SUCC-B003E162E3E1",
+        "SUBJ-SUCC-92FF96EC39D9",
+        "SUBJ-SUCC-36FC305F79B7",
+        "SUBJ-SUCC-B42BAF6EA994"
+      ],
+      "record_sha256": "ffb8d21ce74b542134d69e3c7c4ec65ae9deccbe11e3158e79738cbd54b04100",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-2B9624D86FB6",
+      "question": "How did popular action in July and October 1789 sustain the Revolution while the Assembly restricted political citizenship and authorized the National Guard to police crowds?",
+      "subject_ids": [
+        "SUBJ-SUCC-F538F5819691",
+        "SUBJ-SUCC-8C547916DFE5",
+        "SUBJ-SUCC-6A5ADB894FAD",
+        "SUBJ-SUCC-2056A5304D29",
+        "SUBJ-SUCC-C1C93BC08ECB",
+        "SUBJ-SUCC-C918DFC81FAD",
+        "SUBJ-SUCC-7CE426B45CF3"
+      ],
+      "record_sha256": "fdded9b129eaa548a4e365e7671901e4e4b8667548f2c84e2442dcf56df5e402",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-2D3236B315D6",
+      "question": "How did the memory of John Law’s collapse and distrust of financiers favor national-land assignats and later obstruct a land-backed bank?",
+      "subject_ids": [
+        "SUBJ-SUCC-5193E3F37320"
+      ],
+      "record_sha256": "e8643455ecb78e04570a84a249b56cfee140795270f22a6169ab19befb8e3d57",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-2F6D1A0D8441",
+      "question": "Find why public analysis of the constitution appeared politically destabilizing.",
+      "subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record_sha256": "077ec72c8b256c729b39ea69701a940b4aaa07de6d9da7d59a9dfd56c3119147",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-2FB29124BC91",
+      "question": "How did universalist principles, exile advocacy, and Varennes internationalize the Revolution and move it toward war, despite the European powers’ divided interests and delayed intervention?",
+      "subject_ids": [
+        "SUBJ-SUCC-6216510D2EE3",
+        "SUBJ-SUCC-D93987F3BB44",
+        "SUBJ-SUCC-2FF0879B4083",
+        "SUBJ-SUCC-EC754A2F9F6B",
+        "SUBJ-SUCC-9601697A1247"
+      ],
+      "record_sha256": "a7b9ed568f11b8362b057585bcf4d9a1853bac399f4756700f6e88b73dbb590d",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-3300A648B86D",
+      "question": "Find the chapter’s substantive treatment of Property owners and bourgeois participation in revolutionary government.",
+      "subject_ids": [
+        "SUBJ-SUCC-A7CE991FCCA3",
+        "SUBJ-SUCC-A5F4F85BCE57"
+      ],
+      "record_sha256": "1beffed968cbc9020907ca1b46916290e3422a7dcae9d345718b5bfb7bc35e4d",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-3A03F04E995C",
+      "question": "How did the 1789–1791 settlement divide legislative, executive, and judicial authority, and why did separation of powers weaken the executive and remove administrative power from courts?",
+      "subject_ids": [
+        "SUBJ-SUCC-59FB4D856AE3",
+        "SUBJ-SUCC-1C628235D449",
+        "SUBJ-SUCC-9E6D9535AA17"
+      ],
+      "record_sha256": "8aefc60eec8442a86eac112a5adcd57b51ccc2195b6255e782bd311f326d8419",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-3A26DDBBA720",
+      "question": "How did wartime scarcity, paper-money collapse, and mandate-driven property speculation sustain urban hardship, reshape popular memory of the Terror, and reopen political space for the radical left?",
+      "subject_ids": [
+        "SUBJ-SUCC-4E18928F30A5",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-F6EDFC76AB9A",
+        "SUBJ-SUCC-3F2B224B895F"
+      ],
+      "record_sha256": "ab1ad7f15dd588709306fe68f193dd93a7ec3be8195ae054c147958350986401",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-3C20CDA7F858",
+      "question": "Why did food disturbances and the Réveillon riots erupt before the Estates-General convened, and how did fear and rumor shape popular action?",
+      "subject_ids": [
+        "SUBJ-SUCC-C5578768FEE3",
+        "SUBJ-SUCC-B26E579BEEC5",
+        "SUBJ-SUCC-936AFF93E708"
+      ],
+      "record_sha256": "50d6cc53b0fb67d432df889fb9df1a9c7aeab92e2e0c0cd07d4da067579169f9",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-40CD8B171C55",
+      "question": "What did the Declaration establish, and where did its principles remain qualified or contradictory?",
+      "subject_ids": [
+        "SUBJ-SUCC-59FB4D856AE3",
+        "SUBJ-SUCC-6A5ADB894FAD"
+      ],
+      "record_sha256": "dac6e8317969fabd2e5317829c5608306402b5e49634c56d91850b099070f105",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-4374EAFE3872",
+      "question": "How did revolutionary finance move from assignats through territorial mandates, the Two-Thirds default, tax reconstruction, and the Bank of France, and what limited the resulting stabilization?",
+      "subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-F6EDFC76AB9A",
+        "SUBJ-SUCC-FF3E183F205B",
+        "SUBJ-SUCC-B3198138AEB7",
+        "SUBJ-SUCC-B3CD4CF67D8E"
+      ],
+      "record_sha256": "68aa63a5b626fbf52301a2d42034af045d02c8f1b7b30165b4d0c94cad01ec5a",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-4BF875F67917",
+      "question": "Why did the Assembly retain the monarchy and describe the Varennes flight as kidnapping despite the king’s declaration repudiating the revolutionary settlement?",
+      "subject_ids": [
+        "SUBJ-SUCC-866593B802EE",
+        "SUBJ-SUCC-44E68A442988",
+        "SUBJ-SUCC-6216510D2EE3"
+      ],
+      "record_sha256": "a8f03a5c5bf6fc1e63057b0bf58787579a4d28c03f85e6483089f80b303ff26c",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-4FFD69F0D9B3",
+      "question": "How did abolition of venal offices and judicial fees reconstruct justice, why did compensation enlarge debt and drive assignat issuance, and why did the realized payments leave former officeholders feeling cheated?",
+      "subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-65CB496E4820",
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ],
+      "record_sha256": "63f280d604788b2e565c850158129c3e607784799f5690d8542fff1e4f15903d",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-51A692AC1AF3",
+      "question": "Find the chapter’s substantive treatment of Revolutionary committees and citizens' militias.",
+      "subject_ids": [
+        "SUBJ-SUCC-A7CE991FCCA3"
+      ],
+      "record_sha256": "5806c9766d79a5f1b29bd6e865d5e993a2d22e8d889114adcdce817060d57461",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-53BA47A35C91",
+      "question": "How did European enthusiasm, hostility, and polarized debate develop between the Bastille and Varennes, and why should these responses not be treated as a uniform change of opinion?",
+      "subject_ids": [
+        "SUBJ-SUCC-DEFD34B1AF1D",
+        "SUBJ-SUCC-547228C69DA0",
+        "SUBJ-SUCC-6216510D2EE3"
+      ],
+      "record_sha256": "d80136f64370500bfd58959f467b35d9bf4bd7d9796964aabc7ce7208c86c092",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-6186E596476A",
+      "question": "How did the clerical oath and religious persecution, Varennes, Champ de Mars repression, and the Feuillants’ failure dissolve the broad revolutionary consensus of 1790?",
+      "subject_ids": [
+        "SUBJ-SUCC-5BF206CEDFE0",
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-6216510D2EE3",
+        "SUBJ-SUCC-1A129D23C345",
+        "SUBJ-SUCC-1AF0A9682A4D",
+        "SUBJ-SUCC-5306306A9030",
+        "SUBJ-SUCC-B4386E288802"
+      ],
+      "record_sha256": "93ce8bbc92fa61b370e1a96052ac640686fe29d8568665deb18ddb493de0159e",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-6391F0BDF782",
+      "question": "Find the institutional actors who politicized print before the philosophes.",
+      "subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record_sha256": "c39b4cbc964966ff3aa9f2e6fb38f99c6e2ae6fcf6ea1ad0589df0bfa9126a7c",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-64F12025200D",
+      "question": "How did assignat depreciation reduce the state’s return from national-land sales while enriching purchasers and securing beneficiaries of the revolutionary property settlement?",
+      "subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-CFFCD493828A"
+      ],
+      "record_sha256": "366dac63e650ce732f9fb835e3359265398b9ffc710738e4488e0c1cd14cb3e1",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-6568E9149DE8",
+      "question": "Find the chapter’s substantive treatment of Failure of tax-collection machinery.",
+      "subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record_sha256": "b81b1d5393e5d3b9a7e4733e52bb67ae200a2ba8efc65c2d15f613f8f3d3ecc4",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-67A6A2F65F15",
+      "question": "How did representatives on mission and revolutionary armies gain and then lose autonomous power, and why did subordination have uneven effects on repression?",
+      "subject_ids": [
+        "SUBJ-SUCC-CC141AF36901",
+        "SUBJ-SUCC-45B1958906B7",
+        "SUBJ-SUCC-7754A8D39F3E",
+        "SUBJ-SUCC-30CDC3924594"
+      ],
+      "record_sha256": "3ac8c03ab83f0ff303083cb9df558feb53c15415602527a1ea5e80a9f5bd11fa",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-688AF1562009",
+      "question": "Find the chapter’s substantive treatment of Revolutionary press and radical political journalism.",
+      "subject_ids": [
+        "SUBJ-SUCC-7B3E1AAE16C8"
+      ],
+      "record_sha256": "6db2e5ba48d0c953f334778cf0c6065ac5d912246992476ab70d769280787ac7",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-69EFE6209488",
+      "question": "Why did the Assembly require compensation or redemption for venal offices and feudal dues while abolishing tithes outright and nationalizing corporate Church property?",
+      "subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-9B50C3D29DA1",
+        "SUBJ-SUCC-C24232C058A7"
+      ],
+      "record_sha256": "61348c3a6d22bade433299d236c470d2e513ee510634cd0353f6c07432f37d49",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-6C21335BAF60",
+      "question": "How were courts and territorial administration reconstructed, and what implementation weaknesses resulted?",
+      "subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-A5F4F85BCE57"
+      ],
+      "record_sha256": "690b25f9649fc65514b81dcf48d8ad7ab782ae49e15b34605a1081e9569ee1b1",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-74A035B98503",
+      "question": "Why was the Maximum abolished, how did liberalization, fiscal weakness, harvest and winter disruption, military demand and inflation produce the famine of 1794–1795, and how did shrinking Paris bread rations change popular memories and mobilization?",
+      "subject_ids": [
+        "SUBJ-SUCC-8A64FF09886C",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-655205C566BE"
+      ],
+      "record_sha256": "34c63ba5d2e17557f436db32ac656e5f1fe1a1100b6692db04d915117c64f263",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-792251ACBC5C",
+      "question": "How did the Constitution of 1791 limit executive power and political participation?",
+      "subject_ids": [
+        "SUBJ-SUCC-933F54A354BC",
+        "SUBJ-SUCC-1C628235D449",
+        "SUBJ-SUCC-6A5ADB894FAD"
+      ],
+      "record_sha256": "17a927730114cf38fce546ec0404afcecb86ca730770a4168d3560b8a2807d6e",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-7F50CD4D3BD7",
+      "question": "Retrieve why philosophes believed control of opinion could reshape politics.",
+      "subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record_sha256": "eddf56e51f54f8f8fa7604ff42d8a18a546b228bdadfc7f48e7a4e5495652c33",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-87BA01EFDA5F",
+      "question": "How did delays, escorts and local vigilance defeat the royal flight, and what remains uncertain about the king’s intended action after Montmédy?",
+      "subject_ids": [
+        "SUBJ-SUCC-6216510D2EE3"
+      ],
+      "record_sha256": "89ea7a6f0191ef10e4dfa733d3f07c21d56c705904e5d74d6ed16e9dad89d7ef",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-88014BC44F0A",
+      "question": "Retrieve how the monarchy shifted from suppressing public debate to competing within it.",
+      "subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record_sha256": "6a57eea4c965dcd31b772bca43e0283b5ebc37d5b4935c61d9ea3f18786cd91a",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-89C978AB6CEE",
+      "question": "Find the chapter’s substantive treatment of Jean-Paul Marat and L'Ami du Peuple.",
+      "subject_ids": [
+        "SUBJ-SUCC-7B3E1AAE16C8"
+      ],
+      "record_sha256": "603e0746cd2632eeb8675adbf46cde8eaa5accd3dd31f31b84e9e4b5f30e761e",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-89C9B3341F54",
+      "question": "How did war and trade disruption, inflation and national-land finance, lost elite demand, land-biased investment and agrarian change make the Revolution economically costly; how did subsistence distress shape popular responses, and which sectors nevertheless benefited?",
+      "subject_ids": [
+        "SUBJ-SUCC-D67AE46E6D98",
+        "SUBJ-SUCC-97BC997A7082",
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-AADC5C41A986",
+        "SUBJ-SUCC-60B96F147FEF",
+        "SUBJ-SUCC-7F8042CFA7E2",
+        "SUBJ-SUCC-FC3075CE0927"
+      ],
+      "record_sha256": "a3dd337fbca92730e3f002dc98570228af36de16da4d79e5ce84a4f42d40a0b0",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-8CA89FDEC871",
+      "question": "Find the chapter’s substantive treatment of Babeuf and the Picardy anti-tax movement.",
+      "subject_ids": [
+        "SUBJ-SUCC-99A2AEA8AD04"
+      ],
+      "record_sha256": "01aad69cb4bbf7314ba755aad35e92b2d221f23ef617ef97d3900c5c87becf82",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-94EDE94B8AE6",
+      "question": "How did national lands and the Extraordinary Fund underpin the creation of assignats and their transition from debt instruments toward paper currency?",
+      "subject_ids": [
+        "SUBJ-SUCC-5193E3F37320"
+      ],
+      "record_sha256": "f6624ef0027ce058c12614c802f477cc9ca38a5d3705b182f3960d4d722666e0",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-9B38A6C902D7",
+      "question": "Retrieve the central theory of wealth advanced by the Physiocrats.",
+      "subject_ids": [
+        "SUBJ-SUCC-6F86A8D885F6"
+      ],
+      "record_sha256": "2cf5a805aee62a5d2580f0db4852b8c06b831bf1f04d85088fbb35644effd258",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-A03FF05DCA5B",
+      "question": "How did early Church dispossession, religious equality, the Civil Constitution, the clerical oath and the breach with Rome successively change relations between clergy and Revolution?",
+      "subject_ids": [
+        "SUBJ-SUCC-F066F35B29BE",
+        "SUBJ-SUCC-F3495B619256",
+        "SUBJ-SUCC-D990EC541CE5",
+        "SUBJ-SUCC-2EC1BFCD2A04",
+        "SUBJ-SUCC-7BF0734F6369"
+      ],
+      "record_sha256": "1ba97516e1b86853b21b91f493e621741886c2baed0a3bd13459bf2924a036c7",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-A205EFEAF336",
+      "question": "Find the chapter’s substantive treatment of Civil and fiscal equality.",
+      "subject_ids": [
+        "SUBJ-SUCC-59FB4D856AE3",
+        "SUBJ-SUCC-6A5ADB894FAD",
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record_sha256": "0f2a8d522a0a462107e265d548296b9b62baba99fdc79b6bc4ab4b6741744775",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-AEEE0FFC967C",
+      "question": "How did lost revenues, property and religious institutions turn clerical reform expectations into material dependence and distrust?",
+      "subject_ids": [
+        "SUBJ-SUCC-F066F35B29BE"
+      ],
+      "record_sha256": "bbd6a68f6fd2b912f14c244dab205b3dbadd9adb356827cd4f5732c4d1bab409",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-AF050782E454",
+      "question": "How did the early Committee of Public Safety and local emergency improvisation develop into central revolutionary government, and what did Frimaire change in authority and implementation?",
+      "subject_ids": [
+        "SUBJ-SUCC-CC141AF36901",
+        "SUBJ-SUCC-45B1958906B7",
+        "SUBJ-SUCC-7754A8D39F3E",
+        "SUBJ-SUCC-1EB98E1BFFEE"
+      ],
+      "record_sha256": "2e86fb74897638c500da8928eba6a1a2d9fc19d0757f02dee4db08243e5bfa31",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-AF15DF937E15",
+      "question": "How did émigré organization and military ambitions change after Varennes and Valmy?",
+      "subject_ids": [
+        "SUBJ-SUCC-7593EEA0BB95",
+        "SUBJ-SUCC-6216510D2EE3",
+        "SUBJ-SUCC-C47971AD0857"
+      ],
+      "record_sha256": "b4af5ca85296326879ab296457042aeb0fa98e8ead2e715561e3e698ea9264af",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-B527523CD324",
+      "question": "Find how the meaning and claimed authority of public opinion changed.",
+      "subject_ids": [
+        "SUBJ-SUCC-C3088DA62479"
+      ],
+      "record_sha256": "2fe1da007a7c53ce6059c1086f9b61c5a9c9fa3867f4489a1ae2d2f1640d7768",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-B5BF6625C79A",
+      "question": "Find the chapter’s substantive treatment of Police, administration, and responsibility for public order.",
+      "subject_ids": [
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-2056A5304D29"
+      ],
+      "record_sha256": "5f0b1d93772761a4e3e6ae5a9aeefdd6f26c58c40ee6ba56f6a23d609bfa8971",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-B9CB770CB965",
+      "question": "How did assignat depreciation disable public payments and revenue, why did emergency levies and a bank fail, and how did the formal end of assignat production, the design and failure of territorial mandates, and final demonetization lead to specie scarcity, deflation and barter?",
+      "subject_ids": [
+        "SUBJ-SUCC-5193E3F37320",
+        "SUBJ-SUCC-F6EDFC76AB9A"
+      ],
+      "record_sha256": "141e92b96fe550b0c93f0919f727de386c7a7ee224c3bbd6f14a072dd61fef40",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-BFFA25053632",
+      "question": "Explain popular failure to defend Hébert and the absorption of militant participation into government.",
+      "subject_ids": [
+        "SUBJ-SUCC-AF9995D451BE",
+        "SUBJ-SUCC-7FD46BD9C318"
+      ],
+      "record_sha256": "32b9b6b37e51078fc6eefcd062333ddea3098538eda4924a495e039083170c1c",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-C3EE4912A04F",
+      "question": "How did Varennes turn demands for deposition into republican agitation among the Cordeliers and Social Circle, divide the Jacobins and Feuillants over monarchy, and culminate in the Champ de Mars confrontation?",
+      "subject_ids": [
+        "SUBJ-SUCC-866593B802EE",
+        "SUBJ-SUCC-533DDAFD9F99",
+        "SUBJ-SUCC-ABA54E187E4B",
+        "SUBJ-SUCC-5306306A9030",
+        "SUBJ-SUCC-1AF0A9682A4D"
+      ],
+      "record_sha256": "efe26dabc896e9a26db1da473ae9f43a09b5349dfb991f5895aaf2071ace6349",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-C4CD70878B52",
+      "question": "Find the chapter’s substantive treatment of Privileged orders excluded from local power.",
+      "subject_ids": [
+        "SUBJ-SUCC-A7CE991FCCA3"
+      ],
+      "record_sha256": "a3ec2a182f1a3786ab21b67e6ea9d1af9f8ee6eceae8753b466459caa5aeb986",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-D48E026A040E",
+      "question": "How did tax resistance, weak compulsory collection, inherited debt, and compensation for abolished offices lead to Church-land nationalization and assignat finance?",
+      "subject_ids": [
+        "SUBJ-SUCC-99A2AEA8AD04",
+        "SUBJ-SUCC-9998092EF3FD",
+        "SUBJ-SUCC-65CB496E4820",
+        "SUBJ-SUCC-C24232C058A7",
+        "SUBJ-SUCC-5193E3F37320"
+      ],
+      "record_sha256": "7092ec2030b8eaf26d6a392e41411bc424fdf4dcd90997b816f868ff402a572c",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-DA535ADA7DEC",
+      "question": "Identify the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology.",
+      "subject_ids": [
+        "SUBJ-SUCC-C830423C46F8",
+        "SUBJ-SUCC-2FEF2FC2A91D",
+        "SUBJ-SUCC-E5CD9F2A376A"
+      ],
+      "record_sha256": "9eaa3dfcd104d962df35b8ad8d3c0df56e0e3b4878bee445fd4282bdca6499a7",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-E7721458013C",
+      "question": "Reconstruct factional realignment while distinguishing real fraud from fabricated foreign plots.",
+      "subject_ids": [
+        "SUBJ-SUCC-7FD46BD9C318",
+        "SUBJ-SUCC-488D7D90E0DF",
+        "SUBJ-SUCC-4E4FFDBB28E9",
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-35DD2729C31D"
+      ],
+      "record_sha256": "c97cd44143aae19b84b085b414e6b1cc6e99e7b28d5edcce1a3e47980b252bd5",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-F2D0FABD33B4",
+      "question": "Which rational administrative and legal reforms endured, and how did property-qualified citizenship, women’s exclusion, and stronger state control limit their promise of equal participation?",
+      "subject_ids": [
+        "SUBJ-SUCC-A5F4F85BCE57",
+        "SUBJ-SUCC-9E6D9535AA17",
+        "SUBJ-SUCC-B29051308F1C",
+        "SUBJ-SUCC-6BBDB6F461D1",
+        "SUBJ-SUCC-943145BC4166",
+        "SUBJ-SUCC-6A5ADB894FAD",
+        "SUBJ-SUCC-7CE8C15FFC5B"
+      ],
+      "record_sha256": "f35acd35322a4cb9b9cf3d0c2618a9fac9eb50cfabcdfa397aa0f384ccdd54f0",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-F986A07060C6",
+      "question": "Why did the princes’ restoration programmes conflict with constitutional royalism?",
+      "subject_ids": [
+        "SUBJ-SUCC-67735238DEAA",
+        "SUBJ-SUCC-33CF41F89E1A",
+        "SUBJ-SUCC-1D98349B5A7B"
+      ],
+      "record_sha256": "81e1b66d6e9644c2ce113c5358381f37018466a7c3a726c1a5486f4d66197956",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-FAA264D1A4DA",
+      "question": "Find the chapter’s substantive treatment of Revolutionary direct-tax system.",
+      "subject_ids": [
+        "SUBJ-SUCC-9998092EF3FD"
+      ],
+      "record_sha256": "3c106de2c8c2dbe585178088b7f3d284a91924e6355497e5b30868ec0e89620b",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    },
+    {
+      "task_id": "TASK-SUCC-FFDF0BF2DEA8",
+      "question": "Find the chapter’s substantive treatment of Women and passive citizens excluded from political power.",
+      "subject_ids": [
+        "SUBJ-SUCC-6A5ADB894FAD"
+      ],
+      "record_sha256": "2e0cabbd4ef9dc195b3a92c075dc39a5be5083ab87ffd6a6b3c57c8ac556f768",
+      "fields_inspected": [
+        "main question",
+        "parent subject IDs",
+        "all facet question texts"
+      ],
+      "additional_scope": "F986 complete whole task including qualification rationale; first agency-context tasks also included facet required subject IDs. Other complete facet bindings are compared mechanically, not newly claimed as full historical-lineage review.",
+      "decision": "Existing demand remains coherent with the corrected V4 source meanings; no additional access delta."
+    }
+  ],
+  "changed_relationships_reviewed": [
+    "REL-SUCC-0EC046BA86DD",
+    "REL-SUCC-6346B62FAB7C",
+    "REL-SUCC-99785B6A720B",
+    "REL-SUCC-E1D4C447CDC2",
+    "REL-SUCC-F20FE071F595"
+  ],
+  "relationship_assessment": "Four changes correct page support without creating new actor or reader demands. F20FE071F595 corrects institutional agency: Jacobin clubs fill with anxious patriots, while local authorities organize vigilance committees. Varennes and Jacobin parents preserve that distinction; task 010AB543242D asks about club growth, mobilization and monarchy division without attributing the committees to clubs.",
+  "uncertainty_assessment": "The added page 303 control preserves the literal 13/23 June discrepancy. The Royal Session and restoration programmes remain identifiable through event and programme routes, and F986 already qualifies inconsistent dating. Do not demand an invented separate programme or a date-error heading.",
+  "raw_source_pages_newly_inspected": [],
+  "source_discovery_performed": false,
+  "prior_reasoning_reused": {
+    "rationale": {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886",
+      "bytes": 15095
+    },
+    "ledger": {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec",
+      "bytes": 118951
+    },
+    "case_count": 9,
+    "source_review_corrections_supersede_prior_support_where_specified": true
+  },
+  "coverage": {
+    "new_changed_subject_access_contexts": 17,
+    "additional_endpoint_contexts": 4,
+    "new_task_question_scope_checks": 62,
+    "changed_relationship_whole_values_read": 5,
+    "added_uncertainty_read": 1,
+    "mechanical_subject_record_comparisons": 531,
+    "mechanical_task_record_comparisons": 617,
+    "new_source_pages": 0
+  }
+}

@@ -1,0 +1,2438 @@
+{
+  "schema_version": "independent-source-page-coverage-v1",
+  "bindings": {
+    "source_id": "OHFR-2002-SOURCE",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "source_page_basis": "one-based document pages and identical printed numeric labels",
+    "packet_sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+    "policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae"
+  },
+  "owned_page_count": 158,
+  "context_only_pages_counted": 0,
+  "duplicate_owned_pages": [],
+  "unread_owned_pages": [],
+  "pages": [
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 1,
+      "document_page": 1,
+      "source_page_label": "1",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-001"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 2,
+      "document_page": 2,
+      "source_page_label": "2",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-001",
+        "ISR-C01-002"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 3,
+      "document_page": 3,
+      "source_page_label": "3",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction plus full-page rendered image",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": "Caption read; graphic internals scoped out. Page 129 section key treated as navigational.",
+      "finding_ids": [
+        "ISR-C01-002",
+        "ISR-C01-003"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 4,
+      "document_page": 4,
+      "source_page_label": "4",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-002",
+        "ISR-C01-004"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 5,
+      "document_page": 5,
+      "source_page_label": "5",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-005",
+        "ISR-C01-006"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 6,
+      "document_page": 6,
+      "source_page_label": "6",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-006",
+        "ISR-C01-007",
+        "ISR-C01-008"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 7,
+      "document_page": 7,
+      "source_page_label": "7",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-008",
+        "ISR-C01-009",
+        "ISR-C01-010"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 8,
+      "document_page": 8,
+      "source_page_label": "8",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-008",
+        "ISR-C01-010",
+        "ISR-C01-011",
+        "ISR-C01-012"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 9,
+      "document_page": 9,
+      "source_page_label": "9",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-012",
+        "ISR-C01-013"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 10,
+      "document_page": 10,
+      "source_page_label": "10",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-013"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 11,
+      "document_page": 11,
+      "source_page_label": "11",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-013",
+        "ISR-C01-014"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 12,
+      "document_page": 12,
+      "source_page_label": "12",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-014",
+        "ISR-C01-015"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 13,
+      "document_page": 13,
+      "source_page_label": "13",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-015",
+        "ISR-C01-016"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 14,
+      "document_page": 14,
+      "source_page_label": "14",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-015",
+        "ISR-C01-016",
+        "ISR-C01-017"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 15,
+      "document_page": 15,
+      "source_page_label": "15",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-017",
+        "ISR-C01-018"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 16,
+      "document_page": 16,
+      "source_page_label": "16",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-017",
+        "ISR-C01-019"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 17,
+      "document_page": 17,
+      "source_page_label": "17",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-019",
+        "ISR-C01-020"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 18,
+      "document_page": 18,
+      "source_page_label": "18",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-020",
+        "ISR-C01-021"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 19,
+      "document_page": 19,
+      "source_page_label": "19",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-021",
+        "ISR-C01-022"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 20,
+      "document_page": 20,
+      "source_page_label": "20",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-022",
+        "ISR-C01-023"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 21,
+      "document_page": 21,
+      "source_page_label": "21",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-023",
+        "ISR-C01-024"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 22,
+      "document_page": 22,
+      "source_page_label": "22",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-024",
+        "ISR-C01-025"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 23,
+      "document_page": 23,
+      "source_page_label": "23",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-025"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 24,
+      "document_page": 24,
+      "source_page_label": "24",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-025",
+        "ISR-C01-026"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 25,
+      "document_page": 25,
+      "source_page_label": "25",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-026",
+        "ISR-C01-027"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 26,
+      "document_page": 26,
+      "source_page_label": "26",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-026",
+        "ISR-C01-027",
+        "ISR-C01-028",
+        "ISR-C01-029"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 27,
+      "document_page": 27,
+      "source_page_label": "27",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-028",
+        "ISR-C01-029"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 28,
+      "document_page": 28,
+      "source_page_label": "28",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-028",
+        "ISR-C01-029",
+        "ISR-C01-030"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 29,
+      "document_page": 29,
+      "source_page_label": "29",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-029",
+        "ISR-C01-030"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 30,
+      "document_page": 30,
+      "source_page_label": "30",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-029",
+        "ISR-C01-030",
+        "ISR-C01-031",
+        "ISR-C01-032"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 31,
+      "document_page": 31,
+      "source_page_label": "31",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-029",
+        "ISR-C01-032",
+        "ISR-C01-033"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 32,
+      "document_page": 32,
+      "source_page_label": "32",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-033",
+        "ISR-C01-034"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 33,
+      "document_page": 33,
+      "source_page_label": "33",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-034"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 34,
+      "document_page": 34,
+      "source_page_label": "34",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-034",
+        "ISR-C01-035"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 35,
+      "document_page": 35,
+      "source_page_label": "35",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-035",
+        "ISR-C01-036"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 36,
+      "document_page": 36,
+      "source_page_label": "36",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-036",
+        "ISR-C01-037",
+        "ISR-C01-038"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 37,
+      "document_page": 37,
+      "source_page_label": "37",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-038",
+        "ISR-C01-039"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 38,
+      "document_page": 38,
+      "source_page_label": "38",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-039",
+        "ISR-C01-040"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 39,
+      "document_page": 39,
+      "source_page_label": "39",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-039",
+        "ISR-C01-040",
+        "ISR-C01-041"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 40,
+      "document_page": 40,
+      "source_page_label": "40",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-040",
+        "ISR-C01-041",
+        "ISR-C01-042"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 41,
+      "document_page": 41,
+      "source_page_label": "41",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-042",
+        "ISR-C01-043"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 42,
+      "document_page": 42,
+      "source_page_label": "42",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-043",
+        "ISR-C01-044"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 43,
+      "document_page": 43,
+      "source_page_label": "43",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C01-043",
+        "ISR-C01-044"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 3,
+      "document_page": 44,
+      "source_page_label": "44",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-001"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 4,
+      "document_page": 45,
+      "source_page_label": "45",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-001",
+        "ISR-C02-002",
+        "ISR-C02-003"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 5,
+      "document_page": 46,
+      "source_page_label": "46",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-002",
+        "ISR-C02-004"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 6,
+      "document_page": 47,
+      "source_page_label": "47",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-004",
+        "ISR-C02-005"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 7,
+      "document_page": 48,
+      "source_page_label": "48",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-005",
+        "ISR-C02-006"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 8,
+      "document_page": 49,
+      "source_page_label": "49",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-006",
+        "ISR-C02-007"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 9,
+      "document_page": 50,
+      "source_page_label": "50",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-007",
+        "ISR-C02-008"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 10,
+      "document_page": 51,
+      "source_page_label": "51",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-008",
+        "ISR-C02-009"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 11,
+      "document_page": 52,
+      "source_page_label": "52",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-009",
+        "ISR-C02-010"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 12,
+      "document_page": 53,
+      "source_page_label": "53",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-010",
+        "ISR-C02-011",
+        "ISR-C02-012",
+        "ISR-C02-013"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 13,
+      "document_page": 54,
+      "source_page_label": "54",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-012",
+        "ISR-C02-013",
+        "ISR-C02-014"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 14,
+      "document_page": 55,
+      "source_page_label": "55",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-014",
+        "ISR-C02-015"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 15,
+      "document_page": 56,
+      "source_page_label": "56",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-015",
+        "ISR-C02-016"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 16,
+      "document_page": 57,
+      "source_page_label": "57",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-016",
+        "ISR-C02-017",
+        "ISR-C02-018"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 17,
+      "document_page": 58,
+      "source_page_label": "58",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-017",
+        "ISR-C02-018",
+        "ISR-C02-019"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 18,
+      "document_page": 59,
+      "source_page_label": "59",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-018",
+        "ISR-C02-020",
+        "ISR-C02-021"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 19,
+      "document_page": 60,
+      "source_page_label": "60",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-020",
+        "ISR-C02-021",
+        "ISR-C02-022"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 20,
+      "document_page": 61,
+      "source_page_label": "61",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-022"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 21,
+      "document_page": 62,
+      "source_page_label": "62",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-022",
+        "ISR-C02-023"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 22,
+      "document_page": 63,
+      "source_page_label": "63",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-024"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 23,
+      "document_page": 64,
+      "source_page_label": "64",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-024",
+        "ISR-C02-025"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "chunk_pdf_page": 24,
+      "document_page": 65,
+      "source_page_label": "65",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C02-025"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 3,
+      "document_page": 66,
+      "source_page_label": "66",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-001"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 4,
+      "document_page": 67,
+      "source_page_label": "67",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-001",
+        "ISR-C03-002",
+        "ISR-C03-003"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 5,
+      "document_page": 68,
+      "source_page_label": "68",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-001",
+        "ISR-C03-003",
+        "ISR-C03-004"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 6,
+      "document_page": 69,
+      "source_page_label": "69",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-004",
+        "ISR-C03-005",
+        "ISR-C03-006"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 7,
+      "document_page": 70,
+      "source_page_label": "70",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-006",
+        "ISR-C03-007"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 8,
+      "document_page": 71,
+      "source_page_label": "71",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-007",
+        "ISR-C03-008",
+        "ISR-C03-009"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 9,
+      "document_page": 72,
+      "source_page_label": "72",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-008",
+        "ISR-C03-009",
+        "ISR-C03-010"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 10,
+      "document_page": 73,
+      "source_page_label": "73",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-010",
+        "ISR-C03-011"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 11,
+      "document_page": 74,
+      "source_page_label": "74",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-011",
+        "ISR-C03-012"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 12,
+      "document_page": 75,
+      "source_page_label": "75",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-012",
+        "ISR-C03-013"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 13,
+      "document_page": 76,
+      "source_page_label": "76",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-013",
+        "ISR-C03-014",
+        "ISR-C03-015"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 14,
+      "document_page": 77,
+      "source_page_label": "77",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-013",
+        "ISR-C03-014",
+        "ISR-C03-015"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 15,
+      "document_page": 78,
+      "source_page_label": "78",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-013",
+        "ISR-C03-015",
+        "ISR-C03-016"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 16,
+      "document_page": 79,
+      "source_page_label": "79",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-016",
+        "ISR-C03-017",
+        "ISR-C03-018"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 17,
+      "document_page": 80,
+      "source_page_label": "80",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-017",
+        "ISR-C03-018",
+        "ISR-C03-019"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 18,
+      "document_page": 81,
+      "source_page_label": "81",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-019",
+        "ISR-C03-020"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 19,
+      "document_page": 82,
+      "source_page_label": "82",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-020",
+        "ISR-C03-021"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 20,
+      "document_page": 83,
+      "source_page_label": "83",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-021",
+        "ISR-C03-022"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 21,
+      "document_page": 84,
+      "source_page_label": "84",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-022",
+        "ISR-C03-023",
+        "ISR-C03-024"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 22,
+      "document_page": 85,
+      "source_page_label": "85",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C03-024",
+        "ISR-C03-025"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 3,
+      "document_page": 86,
+      "source_page_label": "86",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-001"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 4,
+      "document_page": 87,
+      "source_page_label": "87",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-001",
+        "ISR-C04-002"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 5,
+      "document_page": 88,
+      "source_page_label": "88",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-002",
+        "ISR-C04-003",
+        "ISR-C04-004"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 6,
+      "document_page": 89,
+      "source_page_label": "89",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-003",
+        "ISR-C04-004",
+        "ISR-C04-005"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 7,
+      "document_page": 90,
+      "source_page_label": "90",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-003",
+        "ISR-C04-005",
+        "ISR-C04-006"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 8,
+      "document_page": 91,
+      "source_page_label": "91",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-005",
+        "ISR-C04-006",
+        "ISR-C04-007"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 9,
+      "document_page": 92,
+      "source_page_label": "92",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-007",
+        "ISR-C04-008"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 10,
+      "document_page": 93,
+      "source_page_label": "93",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-008"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 11,
+      "document_page": 94,
+      "source_page_label": "94",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-008",
+        "ISR-C04-009",
+        "ISR-C04-010"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 12,
+      "document_page": 95,
+      "source_page_label": "95",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-010",
+        "ISR-C04-011"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 13,
+      "document_page": 96,
+      "source_page_label": "96",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-011",
+        "ISR-C04-012",
+        "ISR-C04-013"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 14,
+      "document_page": 97,
+      "source_page_label": "97",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-012",
+        "ISR-C04-013",
+        "ISR-C04-014"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 15,
+      "document_page": 98,
+      "source_page_label": "98",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-014",
+        "ISR-C04-015"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 16,
+      "document_page": 99,
+      "source_page_label": "99",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-014",
+        "ISR-C04-015",
+        "ISR-C04-016",
+        "ISR-C04-017"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 17,
+      "document_page": 100,
+      "source_page_label": "100",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-014",
+        "ISR-C04-017"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 18,
+      "document_page": 101,
+      "source_page_label": "101",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-014",
+        "ISR-C04-018"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 19,
+      "document_page": 102,
+      "source_page_label": "102",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-018",
+        "ISR-C04-019"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 20,
+      "document_page": 103,
+      "source_page_label": "103",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-019",
+        "ISR-C04-020"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 21,
+      "document_page": 104,
+      "source_page_label": "104",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-020",
+        "ISR-C04-021"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 22,
+      "document_page": 105,
+      "source_page_label": "105",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-021",
+        "ISR-C04-022"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 23,
+      "document_page": 106,
+      "source_page_label": "106",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-022",
+        "ISR-C04-023"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 24,
+      "document_page": 107,
+      "source_page_label": "107",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-023",
+        "ISR-C04-024"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 25,
+      "document_page": 108,
+      "source_page_label": "108",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-024",
+        "ISR-C04-025"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 26,
+      "document_page": 109,
+      "source_page_label": "109",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-025",
+        "ISR-C04-026"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 27,
+      "document_page": 110,
+      "source_page_label": "110",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-027",
+        "ISR-C04-028"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "chunk_pdf_page": 28,
+      "document_page": 111,
+      "source_page_label": "111",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C04-028"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 3,
+      "document_page": 112,
+      "source_page_label": "112",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-001",
+        "ISR-C05-002"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 4,
+      "document_page": 113,
+      "source_page_label": "113",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-001",
+        "ISR-C05-002",
+        "ISR-C05-003"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 5,
+      "document_page": 114,
+      "source_page_label": "114",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-003",
+        "ISR-C05-004"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 6,
+      "document_page": 115,
+      "source_page_label": "115",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-004",
+        "ISR-C05-005",
+        "ISR-C05-006"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 7,
+      "document_page": 116,
+      "source_page_label": "116",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-006"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 8,
+      "document_page": 117,
+      "source_page_label": "117",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-006",
+        "ISR-C05-007",
+        "ISR-C05-008"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 9,
+      "document_page": 118,
+      "source_page_label": "118",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-007",
+        "ISR-C05-008",
+        "ISR-C05-009",
+        "ISR-C05-010"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 10,
+      "document_page": 119,
+      "source_page_label": "119",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-009",
+        "ISR-C05-010",
+        "ISR-C05-011"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 11,
+      "document_page": 120,
+      "source_page_label": "120",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-011",
+        "ISR-C05-012"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 12,
+      "document_page": 121,
+      "source_page_label": "121",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-012",
+        "ISR-C05-013"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 13,
+      "document_page": 122,
+      "source_page_label": "122",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-013",
+        "ISR-C05-014"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 14,
+      "document_page": 123,
+      "source_page_label": "123",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-013",
+        "ISR-C05-014",
+        "ISR-C05-015"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 15,
+      "document_page": 124,
+      "source_page_label": "124",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-015",
+        "ISR-C05-016"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 16,
+      "document_page": 125,
+      "source_page_label": "125",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-016",
+        "ISR-C05-017",
+        "ISR-C05-018"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 17,
+      "document_page": 126,
+      "source_page_label": "126",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-018",
+        "ISR-C05-019",
+        "ISR-C05-020"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 18,
+      "document_page": 127,
+      "source_page_label": "127",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction plus full-page rendered image",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": "Caption read; graphic internals scoped out. Page 129 section key treated as navigational.",
+      "finding_ids": [
+        "ISR-C05-018"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 19,
+      "document_page": 128,
+      "source_page_label": "128",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-020",
+        "ISR-C05-021",
+        "ISR-C05-022"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 20,
+      "document_page": 129,
+      "source_page_label": "129",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction plus full-page rendered image",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": "Caption read; graphic internals scoped out. Page 129 section key treated as navigational.",
+      "finding_ids": [
+        "ISR-C05-019"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 21,
+      "document_page": 130,
+      "source_page_label": "130",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-022",
+        "ISR-C05-023"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 22,
+      "document_page": 131,
+      "source_page_label": "131",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-023",
+        "ISR-C05-024"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 23,
+      "document_page": 132,
+      "source_page_label": "132",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-024",
+        "ISR-C05-025"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 24,
+      "document_page": 133,
+      "source_page_label": "133",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-025",
+        "ISR-C05-026"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 25,
+      "document_page": 134,
+      "source_page_label": "134",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-026",
+        "ISR-C05-027",
+        "ISR-C05-028"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 26,
+      "document_page": 135,
+      "source_page_label": "135",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C05-028"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 3,
+      "document_page": 136,
+      "source_page_label": "136",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-001"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 4,
+      "document_page": 137,
+      "source_page_label": "137",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-001",
+        "ISR-C06-002"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 5,
+      "document_page": 138,
+      "source_page_label": "138",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-003"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 6,
+      "document_page": 139,
+      "source_page_label": "139",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-004",
+        "ISR-C06-005"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 7,
+      "document_page": 140,
+      "source_page_label": "140",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-004",
+        "ISR-C06-005",
+        "ISR-C06-006"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 8,
+      "document_page": 141,
+      "source_page_label": "141",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-006",
+        "ISR-C06-007",
+        "ISR-C06-008"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 9,
+      "document_page": 142,
+      "source_page_label": "142",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-008",
+        "ISR-C06-009",
+        "ISR-C06-010"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 10,
+      "document_page": 143,
+      "source_page_label": "143",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-009",
+        "ISR-C06-010",
+        "ISR-C06-011"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 11,
+      "document_page": 144,
+      "source_page_label": "144",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-011",
+        "ISR-C06-012"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 12,
+      "document_page": 145,
+      "source_page_label": "145",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-012",
+        "ISR-C06-013",
+        "ISR-C06-014"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 13,
+      "document_page": 146,
+      "source_page_label": "146",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-012",
+        "ISR-C06-014",
+        "ISR-C06-015",
+        "ISR-C06-016"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 14,
+      "document_page": 147,
+      "source_page_label": "147",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-016",
+        "ISR-C06-017",
+        "ISR-C06-018"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 15,
+      "document_page": 148,
+      "source_page_label": "148",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-018",
+        "ISR-C06-019"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 16,
+      "document_page": 149,
+      "source_page_label": "149",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-019",
+        "ISR-C06-020",
+        "ISR-C06-021"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 17,
+      "document_page": 150,
+      "source_page_label": "150",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-021",
+        "ISR-C06-022",
+        "ISR-C06-023"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 18,
+      "document_page": 151,
+      "source_page_label": "151",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-022",
+        "ISR-C06-023",
+        "ISR-C06-024"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 19,
+      "document_page": 152,
+      "source_page_label": "152",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-024",
+        "ISR-C06-025",
+        "ISR-C06-026"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 20,
+      "document_page": 153,
+      "source_page_label": "153",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-025",
+        "ISR-C06-026"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 21,
+      "document_page": 154,
+      "source_page_label": "154",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-026",
+        "ISR-C06-027",
+        "ISR-C06-028"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 22,
+      "document_page": 155,
+      "source_page_label": "155",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-028",
+        "ISR-C06-029"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 23,
+      "document_page": 156,
+      "source_page_label": "156",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-029",
+        "ISR-C06-030",
+        "ISR-C06-031"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 24,
+      "document_page": 157,
+      "source_page_label": "157",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-030",
+        "ISR-C06-031"
+      ]
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "chunk_pdf_page": 25,
+      "document_page": 158,
+      "source_page_label": "158",
+      "ownership": "owned",
+      "full_page_reading_status": "complete",
+      "inspection_method": "full-page text extraction",
+      "eligible_text_reviewed": true,
+      "visual_scope_note": null,
+      "finding_ids": [
+        "ISR-C06-031"
+      ]
+    }
+  ]
+}

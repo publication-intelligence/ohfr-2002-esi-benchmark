@@ -1,0 +1,102 @@
+{
+  "schema_version": "independent-source-visual-followup-v1",
+  "bindings": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae",
+    "policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "original_packet_sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+    "phase1_addendum_sha256": "756db14e10f2829e6671058dc0e46bae92d095792576a69edc8c5b6a1f0ab9be"
+  },
+  "status": "completed_source_only_no_draft_review",
+  "reviewer": "independent-review-lead",
+  "previous_artifacts_unchanged": true,
+  "candidate_seen": false,
+  "draft_seen": false,
+  "external_historical_sources_used": false,
+  "checks": [
+    {
+      "check_id": "ISR-VIS-333-338",
+      "source_pages": [
+        333,
+        338
+      ],
+      "related_prior_uncertainty": "ISR-U014-01",
+      "observation": "The rendered opening of p333 prints19 May for sailing; rendered p338 prints17 May. Both dates are genuine supplied-page text.",
+      "disposition": "Confirmed internal date discrepancy; preserve and link both page contexts if the draft uses an exact departure date."
+    },
+    {
+      "check_id": "ISR-VIS-366",
+      "source_pages": [
+        366,
+        367
+      ],
+      "rendered_pages": [
+        366
+      ],
+      "related_prior_uncertainty": "ISR-U015-01",
+      "observation": "p366 visibly prints February1798 for the referendum after describing December1798 occupation. Previously read p367 places impending annexation in February1799.",
+      "disposition": "Confirmed printed year and internal sequence discrepancy; do not silently amend source evidence."
+    },
+    {
+      "check_id": "ISR-VIS-375",
+      "source_pages": [
+        374,
+        375,
+        376
+      ],
+      "rendered_pages": [
+        375
+      ],
+      "related_prior_uncertainty": "ISR-U016-01",
+      "observation": "p375 visibly calls the Saint-Cloud next day18 Brumaire. Previously read p374 begins the coup on9 November and p376 dates the Elders speech10 November.",
+      "disposition": "Printed date/sequence tension retained. No external calendar harmonization introduced."
+    },
+    {
+      "check_id": "ISR-VIS-389",
+      "source_pages": [
+        389,
+        390
+      ],
+      "rendered_pages": [
+        389
+      ],
+      "related_prior_uncertainty": "ISR-U016-02",
+      "observation": "p389 visibly prints January1801 for the legislative purge, then narrates the November YearX(1801–2) session and measures preparing for Concordat enactment. p390 continues into April1802.",
+      "disposition": "Confirmed internal year/sequence discrepancy; preserve pending any exact-draft use."
+    },
+    {
+      "check_id": "ISR-VIS-338-CROSSCHAPTER",
+      "source_pages": [
+        338,
+        351,
+        355
+      ],
+      "rendered_pages": [
+        338
+      ],
+      "related_prior_uncertainty": null,
+      "observation": "Rendered p338 says Rhine concessions by April1798 and summarizes a January1798 Swiss overthrow/Helvetic replacement. Previously read p351 says imperial consent was obtained in December1798, while p355 details the Helvetic proclamation on22 March. These may mix stages or compress distinct events.",
+      "disposition": "New cross-chapter chronology/scope checks, not externally adjudicated errors. Preserve milestones separately; examine exact draft wording before deciding whether any correction is required."
+    }
+  ],
+  "rendered_pages_visually_inspected_this_followup": [
+    333,
+    338,
+    366,
+    375,
+    389
+  ],
+  "cumulative_lead_rendered_pages_visually_inspected": [
+    303,
+    313,
+    333,
+    338,
+    345,
+    366,
+    375,
+    389
+  ]
+}

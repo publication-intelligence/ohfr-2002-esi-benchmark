@@ -1,0 +1,70 @@
+{
+  "schema_version": "source-post-freeze-correction-plan-v4",
+  "status": "proposal_sealed; root_scope_check_then_independent_review_pending",
+  "correction_id": "SOURCE-CORR-V4-ELEVEN-FINDINGS",
+  "base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v4.json",
+    "sha256": "a866af3d040d1fa6eceab292aebd26d9cc2338a0154d0f7cb19c0989c664b146",
+    "bytes": 6744355
+  },
+  "new_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "new_state_initialized_from": {
+    "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "paths": {
+    "original_registered_draft": "successor/source/source-benchmark.draft.v1.json",
+    "temporary_inventory": "successor/validation/source-benchmark-review-inventory.json",
+    "planned_final": "successor/source/source-benchmark.v4.json",
+    "planned_independent_review": "successor/independent-review/source-benchmark-review.v3.json",
+    "planned_assent": "successor/independent-review/post-freeze/page-binding-correction/reviewer/exact-final-byte-assent.v1.json"
+  },
+  "scope": {
+    "changed_subjects": 9,
+    "content_field_replacements": 38,
+    "direct_relationships": 20,
+    "direct_reader_tasks": 38,
+    "direct_task_facet_bindings": 53,
+    "changed_relationships": 2,
+    "additional_endpoint_subjects": 4,
+    "additional_linked_tasks": 10,
+    "additional_task_facets": 10
+  },
+  "whole_final_diff": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v4.json",
+    "sha256": "90c741fe8d5aa22703eb48ed1fc28b8c8d65b9411140c72cbf68db5f49ab90b1",
+    "bytes": 49963
+  },
+  "methodology": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "chronology": [
+    "Original v2/v3 freezes and the unreviewed new v3-bound access author proposal remain immutable.",
+    "V1–v3 remain sealed and not selected. V4 preserves the ten prior proposed findings and adds one bounded Day of Tiles causal-qualification correction. The reviewer's completed prior exact checks are reusable without rereading or claiming new coverage; finalization waits for its exact new delta inspection.",
+    "Root checks the exact sealed proposal and reviewer packet before dispatch.",
+    "001 completes independent review of the latest exact proposal: preserve its actual prior18-page/ten-finding review and inspect only the additional whole Day of Tiles subject, its nine changed fields, full82–84 source context and sole task/facet. Bind the aggregate exact whole-final diff and actual final bytes. No repeated full-book review is claimed.",
+    "After genuine independent approval only, reviewer writes NEW finalv4/current-schema reviewv3 with exact original-draft-to-final approved_changes and exact-final-byte assent. Preserve proposal and historical approvals.",
+    "Read-only preserved-c11 validation precedes root technical clearance; no freeze by the reviewer.",
+    "After clearance only, lead may run normal preserved-c11 freeze on NEW source-correction-v4 state.",
+    "A later distinct access amendment/review must bind the actually approved new frozen source; do not activate or mutate the sealed v3-bound author proposal."
+  ],
+  "candidate_unseen": true,
+  "typed_freeze_performed": false,
+  "supersedes_for_selection_only": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v3.json",
+    "sha256": "627e2484c9d0a8651bbcdad3d083cca471f8919683fb2c81ad175bf6987376a6",
+    "bytes": 3971
+  }
+}

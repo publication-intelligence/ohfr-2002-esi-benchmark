@@ -1,0 +1,111 @@
+{
+  "schema_version": "post-freeze-source-correction-typed-freeze-receipt-v1",
+  "recorded_at": "2026-09-17T11:19:15.309622+00:00",
+  "correction_id": "SOURCE-CORR-PAGE-BINDINGS-V4-TWENTY-FOUR-FINDINGS",
+  "status": "typed_freeze_completed_on_new_source_state",
+  "runtime_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "runtime_path": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66",
+  "authorization": "Root technical clearance explicitly granted for exact final cf6ab230 and review 7fcead45 on the new source-correction-v4 state only, after independent exact-value assent and full source-state validation.",
+  "command": [
+    "/tmp/evaluate-subject-index-gate-venv/bin/python",
+    "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66/scripts/benchmark_review_cli.py",
+    "freeze",
+    "--state",
+    "successor/evaluation-state.source-correction-v4.json",
+    "--draft",
+    "successor/source/source-benchmark.draft.v1.json",
+    "--inventory",
+    "successor/validation/source-benchmark-review-inventory.json",
+    "--review",
+    "successor/independent-review/source-benchmark-review.v3.json",
+    "--final",
+    "successor/source/source-benchmark.v4.json"
+  ],
+  "returncode": 0,
+  "output": {
+    "command": "freeze",
+    "ok": true,
+    "evaluation_id": "ohfr-2002-study-source-successor-v1",
+    "version": 4,
+    "benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+    "artifacts_registered": [
+      "independent-review/source-benchmark-review.v3.json",
+      "source/source-benchmark.v4.json"
+    ],
+    "artifacts_written": [
+      "/home/john/.codex/worktrees/2920/ohfr-2002-esi-benchmark/successor/evaluation-state.source-correction-v4.json"
+    ],
+    "warnings": []
+  },
+  "before": {
+    "state": {
+      "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    "inventory": {
+      "path": "successor/validation/source-benchmark-review-inventory.json",
+      "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+      "bytes": 54837
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v3.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+      "bytes": 473259
+    },
+    "final": {
+      "path": "successor/source/source-benchmark.v4.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+      "bytes": 6749669
+    }
+  },
+  "after": {
+    "state": {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb",
+      "bytes": 15542
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    "inventory": {
+      "path": "successor/validation/source-benchmark-review-inventory.json",
+      "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+      "bytes": 54837
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v3.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+      "bytes": 473259
+    },
+    "final": {
+      "path": "successor/source/source-benchmark.v4.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+      "bytes": 6749669
+    }
+  },
+  "independent_manifest": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/manifest.v1.json",
+    "sha256": "73cc367404aee6e42bbf3e55d35e8c1b26564718fa0c9cf0c6749bd1a6adfffa",
+    "bytes": 42936
+  },
+  "exact_byte_assent": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/exact-final-byte-assent.v1.json",
+    "sha256": "8846d2c2b9090156c68c3f16977db96f6691754bf8f83758c03313c1615f8466",
+    "bytes": 4451
+  },
+  "prior_and_new_final_review_bytes_unchanged": true,
+  "original_source_states_unchanged": true,
+  "only_state_written": "successor/evaluation-state.source-correction-v4.json",
+  "source_correction_scope": "Twenty-four independently reviewed source/page-binding findings affecting 17 subjects, 16 evidence rows, five relationships and one uncertainty; stable IDs and candidate access population remain unchanged.",
+  "candidate_content_paths_judgments_results_seen": false,
+  "installed_runtime_access_or_reactivation": false,
+  "no_v10_amendment_or_lock_action": true
+}

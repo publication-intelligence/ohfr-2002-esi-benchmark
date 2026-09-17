@@ -228,6 +228,15 @@ def main() -> int:
         require(state_checkpoint.get("sha256") == checkpoint_sha, "State final-release checkpoint SHA-256 mismatch")
         validate_checkpoint(ROOT / checkpoint_path, checkpoint_sha, state)
 
+        # Historical v3 checks above remain mandatory and unchanged.
+        # Preserve the first successor proof when selecting its reviewed correction.
+        for release_path in ("successor-release.json", "successor-release.corrected.v1.json"):
+            successor = subprocess.run([
+                sys.executable, str(ROOT / "scripts/run_successor_checks.py"),
+                "--root", str(ROOT), "--release", release_path, "--if-selected",
+            ], check=False)
+            require(successor.returncode == 0, f"Selected successor validation failed: {release_path}")
+
         print(
             json.dumps(
                 {

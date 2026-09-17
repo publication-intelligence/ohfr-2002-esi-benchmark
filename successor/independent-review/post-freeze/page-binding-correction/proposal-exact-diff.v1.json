@@ -1,0 +1,661 @@
+{
+  "schema_version": "post-freeze-exact-source-diff-v1",
+  "base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.json",
+    "sha256": "e898e82b740400cfb84c0c61e9733647197ac504b1370eb31e4727b63d9390df",
+    "bytes": 6742566
+  },
+  "all_changes": [
+    {
+      "pointer": "/benchmark_sha256",
+      "before": "2dc940cc93d172d70d7371e382e93192aceb16d58832ec280c4f62dcff9ffbeb",
+      "proposed": "200085eb8fcc91a73d8da73e9996e5b34689bb841cb562bde459be6a6f727ad0"
+    },
+    {
+      "pointer": "/freeze/frozen_at",
+      "action": "remove",
+      "before": "2026-09-17T06:10:38.948774+00:00"
+    },
+    {
+      "pointer": "/freeze/frozen_at_basis",
+      "action": "remove",
+      "before": "Immutable approved-final byte seal time. Typed state registration has not occurred and awaits root technical clearance."
+    },
+    {
+      "pointer": "/freeze/independent_review_complete",
+      "before": true,
+      "proposed": false
+    },
+    {
+      "pointer": "/freeze/new_source_reinspection_document_pages",
+      "action": "remove",
+      "before": [
+        305
+      ]
+    },
+    {
+      "pointer": "/freeze/prior_full_review_reused_for_unchanged_values",
+      "action": "remove",
+      "before": true
+    },
+    {
+      "pointer": "/freeze/registration",
+      "before": "Independently approved source correction. Normal preserved-c11 typed freeze on the separately authorized new source-state file remains pending root technical clearance; no source-state mutation is performed by this review.",
+      "proposed": "Unapproved post-freeze page-binding correction proposal. No new freeze or approval timestamp exists. Independent exact-value review and root technical clearance are required before normal preserved-c11 registration on the new source state."
+    },
+    {
+      "pointer": "/freeze/typed_freeze_performed",
+      "action": "remove",
+      "before": false
+    },
+    {
+      "pointer": "/independent_review_provenance/post_freeze_page_binding_correction",
+      "action": "add",
+      "proposed": {
+        "correction_id": "SOURCE-CORR-PAGE-BINDINGS-56-57-113-114-131-134",
+        "origin": "Post-freeze source-only coordinator referrals during benchmark application, independently checked as hypotheses. No candidate facts, judgments, data or results supplied.",
+        "prior_benchmark": {
+          "path": "successor/source/source-benchmark.v3.json",
+          "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+          "bytes": 6740824
+        },
+        "prior_review": {
+          "path": "successor/independent-review/source-benchmark-review.v2.json",
+          "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+          "bytes": 492840
+        },
+        "six_item_report": {
+          "path": "successor/independent-review/post-freeze/page-binding-referral/finding-batch.v1.json",
+          "sha256": "8d9ae13baaeb12b09336cca0fc46d31c9caccafc36fa9181256fef252166f67c",
+          "bytes": 137908
+        },
+        "additive_finding": {
+          "path": "successor/independent-review/post-freeze/page-binding-correction/additive-source-findings.v1.json",
+          "sha256": "a4e1ec5dca4e7941bacb62ffc65d1e6a9775a7c9a5f0ea7a2b5e1fd0fa826000",
+          "bytes": 19398
+        },
+        "complete_dependency_closure": {
+          "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v1.json",
+          "sha256": "a629f3505ce0436f64dc3a820022cb87758d5635e0b4134527efd47995f188ca",
+          "bytes": 399898
+        },
+        "scope": "Six existing evidence rows and same-claim page metadata in seven parents; all stable IDs, priorities, meanings, stances, access strings, relationships and tasks retained. Exact prior full source approval reused for unchanged values; new independent bounded approval pending.",
+        "chronology": "The original Artois v3 correction and its actual freeze remain preserved. This is a new unapproved v4 proposal, not a new source-first pass or reset of candidate visibility."
+      }
+    },
+    {
+      "pointer": "/independent_review_provenance/review_path",
+      "before": "successor/independent-review/source-benchmark-review.v2.json",
+      "proposed": "successor/independent-review/source-benchmark-review.v3.json"
+    },
+    {
+      "pointer": "/status",
+      "before": "independently_approved",
+      "proposed": "source_correction_proposal_pending_independent_review"
+    },
+    {
+      "pointer": "/subjects/25/retained_source_distinctions/4/source_pages/1",
+      "before": 131,
+      "proposed": 132
+    },
+    {
+      "pointer": "/subjects/116/evidence/5/evidence_summary",
+      "before": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+      "proposed": "An anxious contemporary warned that public exchanges about the constitution and the knowledge people were acquiring would eventually bring revolutions."
+    },
+    {
+      "pointer": "/subjects/116/evidence/6/document_page",
+      "before": 57,
+      "proposed": 56
+    },
+    {
+      "pointer": "/subjects/116/evidence/6/source_page_label",
+      "before": "57",
+      "proposed": "56"
+    },
+    {
+      "pointer": "/subjects/116/retained_source_distinctions/3/source_pages",
+      "before": [
+        56,
+        57
+      ],
+      "proposed": [
+        56
+      ]
+    },
+    {
+      "pointer": "/subjects/193/evidence/5/document_page",
+      "before": 113,
+      "proposed": 114
+    },
+    {
+      "pointer": "/subjects/193/evidence/5/evidence_summary",
+      "before": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+      "proposed": "Continuing the offers-of-assistance sentence from page 113, the source explains distrust of nobles and clergy through their association with displaced municipalities and the earlier intransigence of their deputies at Versailles."
+    },
+    {
+      "pointer": "/subjects/193/evidence/5/source_page_label",
+      "before": "113",
+      "proposed": "114"
+    },
+    {
+      "pointer": "/subjects/201/retained_source_distinctions/0/source_pages/3",
+      "before": 133,
+      "proposed": 132
+    },
+    {
+      "pointer": "/subjects/206/evidence/18/document_page",
+      "before": 131,
+      "proposed": 132
+    },
+    {
+      "pointer": "/subjects/206/evidence/18/source_page_label",
+      "before": "131",
+      "proposed": "132"
+    },
+    {
+      "pointer": "/subjects/206/required_access_facets/0/document_pages/8",
+      "before": 131,
+      "proposed": 132
+    },
+    {
+      "pointer": "/subjects/206/retained_source_distinctions/7/source_pages/1",
+      "before": 131,
+      "proposed": 132
+    },
+    {
+      "pointer": "/subjects/206/source_treatments/0/document_pages/8",
+      "before": 131,
+      "proposed": 132
+    },
+    {
+      "pointer": "/subjects/212/evidence/3/document_page",
+      "before": 132,
+      "proposed": 134
+    },
+    {
+      "pointer": "/subjects/212/evidence/3/source_page_label",
+      "before": "132",
+      "proposed": "134"
+    },
+    {
+      "pointer": "/subjects/212/required_access_facets/0/document_pages",
+      "before": [
+        130,
+        131,
+        132,
+        134
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ]
+    },
+    {
+      "pointer": "/subjects/212/retained_source_distinctions/0/source_pages/2",
+      "before": 132,
+      "proposed": 134
+    },
+    {
+      "pointer": "/subjects/212/source_treatments/0/document_pages",
+      "before": [
+        130,
+        131,
+        132,
+        134
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ]
+    },
+    {
+      "pointer": "/subjects/213/evidence/9/document_page",
+      "before": 132,
+      "proposed": 134
+    },
+    {
+      "pointer": "/subjects/213/evidence/9/source_page_label",
+      "before": "132",
+      "proposed": "134"
+    },
+    {
+      "pointer": "/subjects/213/required_access_facets/0/document_pages/4",
+      "before": 132,
+      "proposed": 134
+    },
+    {
+      "pointer": "/subjects/213/retained_source_distinctions/4/source_pages/1",
+      "before": 132,
+      "proposed": 134
+    },
+    {
+      "pointer": "/subjects/213/source_treatments/0/document_pages/4",
+      "before": 132,
+      "proposed": 134
+    },
+    {
+      "pointer": "/version",
+      "before": 3,
+      "proposed": 4
+    }
+  ],
+  "content_changes": [
+    {
+      "pointer": "/subjects/116/evidence/6/document_page",
+      "field": "document_page",
+      "before": 57,
+      "proposed": 56,
+      "finding_id": "PBF-001"
+    },
+    {
+      "pointer": "/subjects/116/evidence/6/source_page_label",
+      "field": "source_page_label",
+      "before": "57",
+      "proposed": "56",
+      "finding_id": "PBF-001"
+    },
+    {
+      "pointer": "/subjects/116/evidence/5/evidence_summary",
+      "field": "evidence_summary",
+      "before": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+      "proposed": "An anxious contemporary warned that public exchanges about the constitution and the knowledge people were acquiring would eventually bring revolutions.",
+      "finding_id": "PBF-002"
+    },
+    {
+      "pointer": "/subjects/206/evidence/18/document_page",
+      "field": "document_page",
+      "before": 131,
+      "proposed": 132,
+      "finding_id": "PBF-003"
+    },
+    {
+      "pointer": "/subjects/206/evidence/18/source_page_label",
+      "field": "source_page_label",
+      "before": "131",
+      "proposed": "132",
+      "finding_id": "PBF-003"
+    },
+    {
+      "pointer": "/subjects/213/evidence/9/document_page",
+      "field": "document_page",
+      "before": 132,
+      "proposed": 134,
+      "finding_id": "PBF-004"
+    },
+    {
+      "pointer": "/subjects/213/evidence/9/source_page_label",
+      "field": "source_page_label",
+      "before": "132",
+      "proposed": "134",
+      "finding_id": "PBF-004"
+    },
+    {
+      "pointer": "/subjects/212/evidence/3/document_page",
+      "field": "document_page",
+      "before": 132,
+      "proposed": 134,
+      "finding_id": "PBF-005"
+    },
+    {
+      "pointer": "/subjects/212/evidence/3/source_page_label",
+      "field": "source_page_label",
+      "before": "132",
+      "proposed": "134",
+      "finding_id": "PBF-005"
+    },
+    {
+      "pointer": "/subjects/201/retained_source_distinctions/0/source_pages",
+      "field": "source_pages",
+      "before": [
+        120,
+        124,
+        126,
+        133,
+        134
+      ],
+      "proposed": [
+        120,
+        124,
+        126,
+        132,
+        134
+      ],
+      "finding_id": "PBF-006"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C3088DA62479",
+      "local_id": "CHUNK-002-S055",
+      "pointer": "/subjects/116/retained_source_distinctions/3/source_pages",
+      "field": "source_pages",
+      "before": [
+        56,
+        57
+      ],
+      "proposed": [
+        56
+      ],
+      "rationale": "The retained censorship/ministerial-publicity predicate is on 56. The separate contemporary-warning distinction and parent treatment still retain 57; no public-opinion route is lost.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "local_id": "SUCC-C005-S019",
+      "pointer": "/subjects/206/source_treatments/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        131,
+        134
+      ],
+      "proposed": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        132,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "local_id": "FACET-SUCC-C005-S019",
+      "pointer": "/subjects/206/required_access_facets/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        131,
+        134
+      ],
+      "proposed": [
+        115,
+        116,
+        117,
+        119,
+        124,
+        125,
+        126,
+        130,
+        132,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "local_id": "SUCC-C005-S027",
+      "pointer": "/subjects/213/source_treatments/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        116,
+        119,
+        130,
+        131,
+        132
+      ],
+      "proposed": [
+        116,
+        119,
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "local_id": "FACET-SUCC-C005-S027",
+      "pointer": "/subjects/213/required_access_facets/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        116,
+        119,
+        130,
+        131,
+        132
+      ],
+      "proposed": [
+        116,
+        119,
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "local_id": "SUCC-C005-S026",
+      "pointer": "/subjects/212/source_treatments/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        130,
+        131,
+        132,
+        134
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "local_id": "FACET-SUCC-C005-S026",
+      "pointer": "/subjects/212/required_access_facets/0/document_pages",
+      "field": "document_pages",
+      "before": [
+        130,
+        131,
+        132,
+        134
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ],
+      "rationale": "Synchronize the copied treatment/facet page set with the corrected supporting evidence. Other listed pages remain untouched; this does not introduce a new meaning or weighted unit.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "local_id": "C005-S083",
+      "pointer": "/subjects/206/retained_source_distinctions/7/source_pages",
+      "field": "source_pages",
+      "before": [
+        117,
+        131,
+        134
+      ],
+      "proposed": [
+        117,
+        132,
+        134
+      ],
+      "rationale": "Preserve the existing institutional/fiscal distinction and its supporting consequence, while correcting the page inherited from the same historical evidence. The unchanged other pages retain the main treatment.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "local_id": "C005-S072",
+      "pointer": "/subjects/213/retained_source_distinctions/4/source_pages",
+      "field": "source_pages",
+      "before": [
+        131,
+        132
+      ],
+      "proposed": [
+        131,
+        134
+      ],
+      "rationale": "Preserve the existing institutional/fiscal distinction and its supporting consequence, while correcting the page inherited from the same historical evidence. The unchanged other pages retain the main treatment.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "local_id": "C005-S068",
+      "pointer": "/subjects/212/retained_source_distinctions/0/source_pages",
+      "field": "source_pages",
+      "before": [
+        130,
+        131,
+        132
+      ],
+      "proposed": [
+        130,
+        131,
+        134
+      ],
+      "rationale": "Preserve the existing institutional/fiscal distinction and its supporting consequence, while correcting the page inherited from the same historical evidence. The unchanged other pages retain the main treatment.",
+      "finding_id": "dependent_same_claim_metadata"
+    },
+    {
+      "pointer": "/subjects/25/retained_source_distinctions/4/source_pages",
+      "before": [
+        117,
+        131,
+        134
+      ],
+      "proposed": [
+        117,
+        132,
+        134
+      ],
+      "finding_id": "PBF-003-dependent-copy",
+      "subject_id": "SUBJ-SUCC-5193E3F37320",
+      "local_id": "C005-S083",
+      "rationale": "Same preserved compensation distinction also appears under assignats. Its explicit evidence C49410FC6ED1 already correctly uses132, as do its source-treatment and facet page sets. Correct only this copied retained array; preserve all assignat meanings and evidence."
+    },
+    {
+      "pointer": "/subjects/193/evidence/5/document_page",
+      "before": 113,
+      "proposed": 114,
+      "finding_id": "PBF-007"
+    },
+    {
+      "pointer": "/subjects/193/evidence/5/source_page_label",
+      "before": "113",
+      "proposed": "114",
+      "finding_id": "PBF-007"
+    },
+    {
+      "pointer": "/subjects/193/evidence/5/evidence_summary",
+      "before": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+      "proposed": "Continuing the offers-of-assistance sentence from page 113, the source explains distrust of nobles and clergy through their association with displaced municipalities and the earlier intransigence of their deputies at Versailles.",
+      "finding_id": "PBF-007"
+    }
+  ],
+  "c11_semantic_changes": [
+    {
+      "entity_type": "subject",
+      "entity_id": "SUBJ-SUCC-5193E3F37320",
+      "action": "update",
+      "fields": [
+        "retained_source_distinctions"
+      ]
+    },
+    {
+      "entity_type": "subject",
+      "entity_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "action": "update",
+      "fields": [
+        "retained_source_distinctions"
+      ]
+    },
+    {
+      "entity_type": "subject",
+      "entity_id": "SUBJ-SUCC-9998092EF3FD",
+      "action": "update",
+      "fields": [
+        "evidence",
+        "required_access_facets",
+        "retained_source_distinctions",
+        "source_treatments"
+      ]
+    },
+    {
+      "entity_type": "subject",
+      "entity_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "action": "update",
+      "fields": [
+        "evidence",
+        "required_access_facets",
+        "retained_source_distinctions",
+        "source_treatments"
+      ]
+    },
+    {
+      "entity_type": "subject",
+      "entity_id": "SUBJ-SUCC-9E6D9535AA17",
+      "action": "update",
+      "fields": [
+        "evidence",
+        "required_access_facets",
+        "retained_source_distinctions",
+        "source_treatments"
+      ]
+    },
+    {
+      "entity_type": "subject",
+      "entity_id": "SUBJ-SUCC-A7CE991FCCA3",
+      "action": "update",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "entity_type": "subject",
+      "entity_id": "SUBJ-SUCC-C3088DA62479",
+      "action": "update",
+      "fields": [
+        "evidence",
+        "retained_source_distinctions"
+      ]
+    },
+    {
+      "entity_type": "benchmark",
+      "entity_id": "ohfr-2002-study-source-successor-v1",
+      "action": "update",
+      "fields": [
+        "independent_review_provenance",
+        "status"
+      ]
+    }
+  ],
+  "canonical_hash_recomputes": true,
+  "all_stable_id_populations_and_order_preserved": true
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "ohfr-successor-v10-r2-release-validation-v1",
+  "validated_at": "2026-09-17T11:50:44.396612+00:00",
+  "result": "pass",
+  "release_id": "ohfr-2002-successor-v10-2026-09-17-r2",
+  "artifact_freeze_commit": "f1823e1191375242f10c6040df3cfb27f8de317c",
+  "source_validation_runtime_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "semantic_execution_runtime_commit": "202b6cfd098eba751881482293e75b17d9add255",
+  "focused_tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "release_validator": {
+    "frozen_files": 154,
+    "checkpoints": 1,
+    "editorial_review_performed": false
+  },
+  "artifacts": {
+    "successor-release.corrected.v1.json": "6723d64081ac52f2895fc506138f379720667533e1b6af700560e76604db2f1d",
+    "exports/ohfr-2002-successor-v10-2026-09-17-r2.source-proof.zip": "4a7679ce8310d11d7156f90bc12b923fc338f4f1b008ec4332dac060746f5351",
+    "validation/reconciliation/v10-semantic-execution-compatibility.r2.v1.json": "c87c4a5920d21f8f9becdf71e07152323f8ea915c912280c2780fa2a39d72be2"
+  }
+}

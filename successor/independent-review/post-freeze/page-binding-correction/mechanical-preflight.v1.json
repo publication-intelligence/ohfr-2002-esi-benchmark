@@ -1,0 +1,40 @@
+{
+  "schema_version": "post-freeze-source-proposal-mechanical-preflight-v1",
+  "status": "read_only_preflight_pass; independent_source_review_pending",
+  "recorded_at": "2026-09-17T06:45:09.426496+00:00",
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.json",
+    "sha256": "e898e82b740400cfb84c0c61e9733647197ac504b1370eb31e4727b63d9390df",
+    "bytes": 6742566
+  },
+  "new_source_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "initialized_from": {
+    "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "helper_access": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "native_schema_loader_unchanged": true,
+  "state_validation_with_files": {
+    "errors": [],
+    "warnings": []
+  },
+  "canonical_hash_pass": true,
+  "all_substantive_changes_bound": true,
+  "deliberately_pending_final_wrapper": {
+    "only_final_schema_error": [
+      "freeze: 'frozen_at' is a required property"
+    ],
+    "reason": "No frozen_at or approval metadata is manufactured for the proposal. Only a separate independent approval may finalize the new final wrapper."
+  },
+  "no_installed_runtime_access_or_activation": true,
+  "typed_freeze_run": false
+}

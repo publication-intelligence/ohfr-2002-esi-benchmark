@@ -1,0 +1,228 @@
+{
+  "base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v5.json",
+    "sha256": "1e9cba67c9c02a67e7d090ddf193bd65064a82dba4278160307841c6b036b28f",
+    "bytes": 6746035
+  },
+  "author_comparison": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v5.json",
+    "sha256": "285e1eee03d4817a330dae00eb7ac1b8c54949be31b279a811da94ce6ce8ae19",
+    "bytes": 1690576
+  },
+  "all_four_exact_membership_maps_equal_independent_recomputation": true,
+  "counts": {
+    "subject_pages_before": 2080,
+    "subject_pages_after": 2079,
+    "subject_page_classes_before": 2393,
+    "subject_page_classes_after": 2395
+  },
+  "removed_subject_pages": [
+    [
+      "SUBJ-SUCC-45D9EA9DAAF0",
+      99
+    ],
+    [
+      "SUBJ-SUCC-9998092EF3FD",
+      132
+    ],
+    [
+      "SUBJ-SUCC-99A2AEA8AD04",
+      132
+    ],
+    [
+      "SUBJ-SUCC-9E6D9535AA17",
+      131
+    ]
+  ],
+  "added_subject_pages": [
+    [
+      "SUBJ-SUCC-45D9EA9DAAF0",
+      100
+    ],
+    [
+      "SUBJ-SUCC-9998092EF3FD",
+      134
+    ],
+    [
+      "SUBJ-SUCC-9E6D9535AA17",
+      132
+    ]
+  ],
+  "removed_subject_page_classes": [
+    [
+      "SUBJ-SUCC-45D9EA9DAAF0",
+      99,
+      "supporting"
+    ],
+    [
+      "SUBJ-SUCC-9998092EF3FD",
+      132,
+      "supporting"
+    ],
+    [
+      "SUBJ-SUCC-99A2AEA8AD04",
+      132,
+      "supporting"
+    ],
+    [
+      "SUBJ-SUCC-9E6D9535AA17",
+      131,
+      "supporting"
+    ]
+  ],
+  "added_subject_page_classes": [
+    [
+      "SUBJ-SUCC-45D9EA9DAAF0",
+      100,
+      "supporting"
+    ],
+    [
+      "SUBJ-SUCC-6F86A8D885F6",
+      57,
+      "supporting"
+    ],
+    [
+      "SUBJ-SUCC-9998092EF3FD",
+      134,
+      "supporting"
+    ],
+    [
+      "SUBJ-SUCC-9E6D9535AA17",
+      132,
+      "supporting"
+    ],
+    [
+      "SUBJ-SUCC-A7CE991FCCA3",
+      114,
+      "principal"
+    ],
+    [
+      "SUBJ-SUCC-C3088DA62479",
+      56,
+      "synthesis_or_conclusion"
+    ]
+  ],
+  "changed_common_page_memberships": [
+    {
+      "key": [
+        "SUBJ-SUCC-6F86A8D885F6",
+        57
+      ],
+      "before": [
+        "EVID-SUCC-191C0E3EDC48",
+        "EVID-SUCC-1ED05A0875F4",
+        "EVID-SUCC-9B38A6C902D7"
+      ],
+      "proposed": [
+        "EVID-SUCC-0B6249083880",
+        "EVID-SUCC-191C0E3EDC48",
+        "EVID-SUCC-1ED05A0875F4",
+        "EVID-SUCC-9B38A6C902D7"
+      ]
+    },
+    {
+      "key": [
+        "SUBJ-SUCC-6F86A8D885F6",
+        58
+      ],
+      "before": [
+        "EVID-SUCC-0B6249083880",
+        "EVID-SUCC-DFD36F1F6BBF"
+      ],
+      "proposed": [
+        "EVID-SUCC-DFD36F1F6BBF"
+      ]
+    },
+    {
+      "key": [
+        "SUBJ-SUCC-99A2AEA8AD04",
+        134
+      ],
+      "before": [
+        "EVID-SUCC-63A900E42FF5"
+      ],
+      "proposed": [
+        "EVID-SUCC-470F41497A94",
+        "EVID-SUCC-63A900E42FF5"
+      ]
+    },
+    {
+      "key": [
+        "SUBJ-SUCC-A7CE991FCCA3",
+        113
+      ],
+      "before": [
+        "EVID-SUCC-1B2FAF3D196A",
+        "EVID-SUCC-3E891F904D2B",
+        "EVID-SUCC-420FEB6C4B90",
+        "EVID-SUCC-51A692AC1AF3",
+        "EVID-SUCC-8AD790A59588",
+        "EVID-SUCC-C4CD70878B52"
+      ],
+      "proposed": [
+        "EVID-SUCC-1B2FAF3D196A",
+        "EVID-SUCC-420FEB6C4B90",
+        "EVID-SUCC-51A692AC1AF3",
+        "EVID-SUCC-8AD790A59588",
+        "EVID-SUCC-C4CD70878B52"
+      ]
+    },
+    {
+      "key": [
+        "SUBJ-SUCC-A7CE991FCCA3",
+        114
+      ],
+      "before": [
+        "EVID-SUCC-BE4A108286DB",
+        "EVID-SUCC-EB09033F9318"
+      ],
+      "proposed": [
+        "EVID-SUCC-3E891F904D2B",
+        "EVID-SUCC-BE4A108286DB",
+        "EVID-SUCC-EB09033F9318"
+      ]
+    },
+    {
+      "key": [
+        "SUBJ-SUCC-C3088DA62479",
+        56
+      ],
+      "before": [
+        "EVID-SUCC-2F6D1A0D8441",
+        "EVID-SUCC-6391F0BDF782",
+        "EVID-SUCC-7F50CD4D3BD7",
+        "EVID-SUCC-88014BC44F0A",
+        "EVID-SUCC-B527523CD324"
+      ],
+      "proposed": [
+        "EVID-SUCC-2F6D1A0D8441",
+        "EVID-SUCC-6391F0BDF782",
+        "EVID-SUCC-7A2F098446C6",
+        "EVID-SUCC-7F50CD4D3BD7",
+        "EVID-SUCC-88014BC44F0A",
+        "EVID-SUCC-B527523CD324"
+      ]
+    },
+    {
+      "key": [
+        "SUBJ-SUCC-C3088DA62479",
+        57
+      ],
+      "before": [
+        "EVID-SUCC-11B38C454C00",
+        "EVID-SUCC-7A2F098446C6",
+        "EVID-SUCC-EE0D698188B1"
+      ],
+      "proposed": [
+        "EVID-SUCC-11B38C454C00",
+        "EVID-SUCC-EE0D698188B1"
+      ]
+    }
+  ],
+  "independent_interpretation": "The earlier fiscal coalescing removes one net subject/page slot. Duport replaces99 with100 without changing totals; this still changes exact opportunities. Hébert249/250 and Revolutionary Armies263/264 preserve existing slots and distribute their predicates correctly. Page-class changes retain every evidence ID and locator class. The new uncertainty is non-weighted. No candidate scoring inference is made."
+}

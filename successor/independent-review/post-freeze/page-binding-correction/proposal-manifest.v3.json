@@ -1,0 +1,111 @@
+{
+  "schema_version": "post-freeze-source-correction-proposal-manifest-v3",
+  "status": "sealed_author_proposal; independent_review_and_root_technical_clearance_pending",
+  "sealed_at": "2026-09-17T07:02:48.102035+00:00",
+  "files": [
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/physiocracy-page-finding.v1.json",
+      "sha256": "4ebc54b5cf1ad6c42858cd31f4863d2e212e70680f9dfef28a7537e6ece91db5",
+      "bytes": 56229
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/relationship-page-findings.v1.json",
+      "sha256": "2092a8866913dc721d27951edba887a35247a1f451865f2779827514d2062e02",
+      "bytes": 113453
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-source-findings.v1.json",
+      "sha256": "a4e1ec5dca4e7941bacb62ffc65d1e6a9775a7c9a5f0ea7a2b5e1fd0fa826000",
+      "bytes": 19398
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v3.json",
+      "sha256": "a256e8f18abce47d2cecb2f4c0a93102eed5e3642e110ccf3f51c1f09626efc2",
+      "bytes": 495514
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v3.json",
+      "sha256": "d1327ad14565f42635896797f60e02d41e59a962d574eb2c0271cca230f9934f",
+      "bytes": 270521
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v3.json",
+      "sha256": "4ef81ae5e3434100726f92800115ca02dc5dc824b61137f27337abbeb72749fe",
+      "bytes": 42425
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v3.json",
+      "sha256": "42926549a34ea093883cdc538b63ce9c843a3f9bef5d5a9ec55e8de9c5e02baa",
+      "bytes": 6743502
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v3.json",
+      "sha256": "2bcdb8702bb4afd00ea2cd69cdcf703f14051bba38e7066fa1661d194398d628",
+      "bytes": 28889
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v3.json",
+      "sha256": "9a7c07276c37e75f6e40346653d98bdfe63ec5258c18eab1d5061ae50465142e",
+      "bytes": 3299
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v3.json",
+      "sha256": "627e2484c9d0a8651bbcdad3d083cca471f8919683fb2c81ad175bf6987376a6",
+      "bytes": 3971
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v3.json",
+      "sha256": "c121a5b64e994596ec8cfaa1bfa6f1fbf2583142a92097c50e81b178cb9d7a46",
+      "bytes": 23356
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    }
+  ],
+  "prior_sealed_manifest_not_selected": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v2.json",
+    "sha256": "2f780af16d6c80a8d169fa4757c5b0dedb3a9c1b9c4c9bfcba41944df913e16f",
+    "bytes": 3731
+  },
+  "scope": {
+    "changed_subjects": 8,
+    "content_field_replacements": 29,
+    "direct_relationships": 20,
+    "direct_reader_tasks": 37,
+    "direct_task_facet_bindings": 52,
+    "changed_relationships": 2,
+    "additional_endpoint_subjects": 4,
+    "additional_linked_tasks": 10,
+    "additional_task_facets": 10
+  },
+  "source_pages": [
+    11,
+    12,
+    16,
+    17,
+    19,
+    30,
+    31,
+    32,
+    33,
+    56,
+    57,
+    58,
+    113,
+    114,
+    131,
+    132,
+    133,
+    134
+  ],
+  "page_opportunity_counts": {
+    "before": 2080,
+    "proposed": 2079
+  },
+  "candidate_unseen": true,
+  "all_older_frozen_and_proposal_bytes_preserved": true,
+  "reviewer_dispatched": false,
+  "typed_freeze_performed": false
+}

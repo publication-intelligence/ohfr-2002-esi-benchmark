@@ -1,0 +1,49 @@
+{
+  "schema_version": "four-candidate-v10-interface-readiness-v1",
+  "recorded_at": "2026-09-17T04:06:07.857978+00:00",
+  "methodology_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "candidates": [
+    {
+      "candidate": "Published",
+      "owner_plan_artifact": "v10-access-review-execution-addendum.v1.private.md",
+      "plan_file_sha256": "269853b99fec78f3fb19c53458cc46cda12766a21102fcd6e76e1080a8823cbd",
+      "owner_interface_readiness": "ready; no concrete incompatibility reported",
+      "root_plan_file_hash_verified": true
+    },
+    {
+      "candidate": "IndexPDF",
+      "owner_plan_artifact": "indexpdf-v10-execution-plan-addendum-a73482f72e80f809d2faa13b4b35f8bc7c02dfc60090f80d0c160b3f4970b36d.json",
+      "plan_file_sha256": "a73482f72e80f809d2faa13b4b35f8bc7c02dfc60090f80d0c160b3f4970b36d",
+      "owner_interface_readiness": "ready; no concrete incompatibility reported",
+      "root_plan_file_hash_verified": true
+    },
+    {
+      "candidate": "IndexerLabs",
+      "owner_plan_artifact": "plan-adjustment.json",
+      "plan_file_sha256": "4ffeb0e15c1ee6146335bec8296bb4062fec4d18c585060afcc305c697e57577",
+      "owner_interface_readiness": "ready; no concrete incompatibility reported",
+      "root_plan_file_hash_verified": true
+    },
+    {
+      "candidate": "Indexia",
+      "owner_plan_artifact": "v10-access-review-plan-ee9785f7abb16ed80a5f51680416d88a0f3360ad074e1207b330cd3c6f186b01.json",
+      "plan_file_sha256": "ee9785f7abb16ed80a5f51680416d88a0f3360ad074e1207b330cd3c6f186b01",
+      "owner_interface_readiness": "ready; no concrete incompatibility reported",
+      "root_plan_file_hash_verified": true
+    }
+  ],
+  "shared_sequence": [
+    "Complete and register fresh missing-access audits against actual common source and amendment",
+    "Prepare final structure bytes while structure registration remains not_started",
+    "Author factual exact parent-qualified requirement receipt from actual review and register through v10_cli.py access-review",
+    "Register exact receipt-bound structure bytes",
+    "Validate registered inputs, score and report through supported V10 workflow"
+  ],
+  "scope": "Interface preparation only; no new candidate inspection, receipt authoring, canonical mutation, migration, scoring or actual-data import authorized by this readiness record. Existing user authorization continues through coordinated execution dispatch.",
+  "execution_prerequisites_pending": [
+    "final independent V8.2 source freeze",
+    "independent candidate-blind V10 benchmark-access amendment",
+    "common reviewed study lock and source release",
+    "runtime activation after source-review quiescence"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "source-post-freeze-correction-plan-v1",
+  "status": "proposal_sealed_independent_review_and_technical_clearance_pending",
+  "correction_id": "SOURCE-CORR-ARTOIS-305",
+  "base": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/artois-correction/proposed-source-benchmark.v3.json",
+    "sha256": "5a3f59090b5c8e12668f761d228e5759e5a5cb19ee78e3555906c86912473919",
+    "bytes": 6740477
+  },
+  "exact_diff": {
+    "path": "successor/independent-review/post-freeze/artois-correction/proposal-exact-diff.v1.json",
+    "sha256": "78485807b490dc43148023d1166afa7a9aa8f9a5e1663f631c3886250357e000",
+    "bytes": 2338
+  },
+  "additive_legacy_disposition": {
+    "path": "successor/independent-review/post-freeze/artois-correction/proposed-legacy-disposition.v1.json",
+    "sha256": "69a8497fdee4498e088506d7a1b7ee3863db4dd1ca25b33abac8ba4335dc69d5",
+    "bytes": 1456
+  },
+  "new_state": {
+    "path": "successor/evaluation-state.source-correction-v3.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "new_state_initialized_from": {
+    "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "canonical_source_state_unchanged": {
+    "path": "successor/evaluation-state.json",
+    "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+    "bytes": 15542
+  },
+  "paths": {
+    "original_registered_draft": "successor/source/source-benchmark.draft.v1.json",
+    "temporary_existing_inventory": "successor/validation/source-benchmark-review-inventory.json",
+    "planned_final": "successor/source/source-benchmark.v3.json",
+    "planned_independent_review": "successor/independent-review/source-benchmark-review.v2.json",
+    "planned_exact_byte_assent": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-byte-assent.v1.json"
+  },
+  "methodology": {
+    "runtime": "preserved c11 backup only; no installed runtime reads/reactivation",
+    "helper_addendum": {
+      "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v1.json",
+      "sha256": "1e6d35659805df914442a1261147dbddbb671704990da9374c500ccdb9cd4e0b",
+      "bytes": 1720
+    },
+    "schema_source": "Exact already allowlisted .source-only/methodology/references/schemas copies; source-only schema loader override in process if necessary to avoid eager access to unrelated backup schemas."
+  },
+  "chronology": [
+    "Preserve all v2 proof, original draft/policy/page map/manifest and prior source-state bytes.",
+    "Lead authors one-edge retirement proposal and explicit legacy disposition; proposal is not approved or frozen.",
+    "Existing candidate-unseen001 independently reconnects p305, checks entire v2-to-proposal/final diff and dependency scope, and verifies exact reusable prior full review. No new full-source reading claim.",
+    "Only after substantive approval, reviewer finalizes new final/status metadata, recomputes original-draft-to-final approved_changes, authors current-schema reviewv2 and independent exact-byte assent. Prior full-review completion and fresh-context provenance are explicitly inherited and qualified, not falsely claimed as new work.",
+    "Run read-only preserved c11 validate_review/final/state checks against the new source-state filename; preserve validations and exact hashes.",
+    "Return exact final/review/assent/new-state hashes to root; no typed freeze before root technical clearance.",
+    "After clearance only, invoke normal preserved-c11 typed freeze on the NEW source-state filename. Preserve original canonical state and all prior artifacts. Root separately handles downstream method/access rebinding and application consequences outside source review."
+  ],
+  "scope_limit": "Only the unsupported relation is substantively retired. The National Guard duplicate interpretation is documented in the referral but this plan changes no duplicated value, subject, evidence, task, priority, weight or scope.",
+  "candidate_blindness": "preserved; post-freeze application-trigger provenance explicit; no candidate details received",
+  "typed_freeze_performed": false
+}

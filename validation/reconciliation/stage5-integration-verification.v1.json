@@ -1,0 +1,48 @@
+{
+  "schema_version": "stage5-integration-verification-v1",
+  "recorded_at": "2026-09-17T02:31:07.223827+00:00",
+  "inputs": {
+    "path": "successor/independent-review/actual-draft/integration/integration-stage5.inputs.v1.json",
+    "sha256": "ed7910337b0029555213aa3af6a79743595ae6b4f9f628ac6b0d1a3790eaca24"
+  },
+  "exact_stage5_reconstruction": true,
+  "component_counts": {
+    "001-historical-subject-evidence-integration.v1.json": {
+      "subjects": 21,
+      "tasks": 0,
+      "relationships": 0
+    },
+    "001-bounded-repaired-values.integration-receipt.v1.json": {
+      "subjects": 12,
+      "tasks": 0,
+      "relationships": 0
+    },
+    "auxiliary-referral-closure.v1.json": {
+      "subjects": 10,
+      "tasks": 0,
+      "relationships": 0
+    },
+    "007-historical-task-companion-repairs.v1.json": {
+      "subjects": 4,
+      "tasks": 0,
+      "relationships": 1
+    },
+    "historical-task-supplement.composition.v2.json": {
+      "subjects": 0,
+      "tasks": 84,
+      "relationships": 0
+    }
+  },
+  "disjoint_subject_replacement_roundtrips": 47,
+  "subject_field_diffs_verified": 110,
+  "relationship_replacement_roundtrips": 1,
+  "task_replacements": 84,
+  "task_facet_parent_bindings_valid": true,
+  "exact_control_before_records_and_replacements": 6,
+  "new_unique_uncertainties": 4,
+  "original_state_and_draft_unchanged": true,
+  "editorial_approval": false,
+  "whole_book_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

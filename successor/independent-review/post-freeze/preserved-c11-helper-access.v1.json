@@ -1,0 +1,33 @@
+{
+  "schema_version": "post-freeze-source-helper-access-addendum-v1",
+  "purpose": "Read-only supported c11 source review/state helper inspection and later explicitly authorized typed freeze on a new source-state file. No runtime reactivation or candidate data access.",
+  "preserved_runtime_path": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66",
+  "installation_receipt": {
+    "path": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66/installation-receipt.json",
+    "sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204"
+  },
+  "allowed_entrypoints": [
+    "benchmark_review_cli.py",
+    "state_cli.py"
+  ],
+  "allowed_python_import_closure": [
+    {
+      "path": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66/scripts/state_cli.py",
+      "sha256": "76a02b8a11debd5f14d5981d042700bb6effce2cf267e9b831a35fcb7d1651d4",
+      "bytes": 26764
+    },
+    {
+      "path": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66/scripts/schema_validation.py",
+      "sha256": "be7d5982fde7874c12edecacb70e9f3f585043a4f9f57eab8eed530de3fc9262",
+      "bytes": 3510
+    },
+    {
+      "path": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66/scripts/benchmark_review_cli.py",
+      "sha256": "e5f858ec3ff2c4125ba7e00261cc17fd7ee274ec399a1fd4cdbc4f02e4b75078",
+      "bytes": 75730
+    }
+  ],
+  "schemas": "Only previously supplied c11 source/state/review schemas and any exact schema required by these source-only operations. No candidate artifacts or example fixtures.",
+  "interpreter": "/tmp/evaluate-subject-index-gate-venv/bin/python",
+  "mutation_limit": "No frozen file changes. No typed freeze until root separately clears exact proposed bytes."
+}

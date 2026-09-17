@@ -1,0 +1,40 @@
+{
+  "reviewer": "reviewer-001-006",
+  "candidate_content_seen": false,
+  "candidate_results_seen": false,
+  "administrative_source_filename_seen": true,
+  "actual_candidate_content_exposure_from_filename": false,
+  "scope": "Concrete repairs to exact assigned 202 subjects, 134 relationships and 336 tasks; additional no-successor historical relationships were inspected independently.",
+  "inputs": [
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+      "file_count": 109,
+      "all_hashes_verified": true
+    },
+    {
+      "path": ".source-only/independent-review-draft-addendum.v1.json",
+      "sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760",
+      "file_count": 146,
+      "all_hashes_verified": true
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v3.json",
+      "sha256": "adb81320deac697201511a04a9b4848a048db2aaa1613a267f492a6ef4a32577"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.assignment.v1.json",
+      "sha256": "77fb18262a820e09c6450fc36cab5eb8f8aea2e348d92f55a221dc25907d9277"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006/output-receipt.json",
+      "sha256": "0b95c1d203b9363efaeea6cddde755cd81ccbf3fe1193b4594489a432d595b00"
+    }
+  ],
+  "prior_source_review": "All owned pages 1–158 and every assigned draft record were inspected in finalized earlier phases; repair phase reuses those judgments, rechecks changed claims and rereads uncertain eligible pages.",
+  "additional_historical_review": "All 1,038 exact old records were matched to frozen old books. Endpoint identities, source clue types, descriptions and page scopes were inspected; prior endpoint/source review was reused. Twenty-seven later-page requirements are referrals rather than claimed fulfilled. Author dispositions were not used to choose verdicts.",
+  "read_boundary": "Only authorized input packets and their files, exact assignment, exact lead scope file, installed methodology/runtime/docs, and own outputs/work files. No candidate, root validation/docs, sibling review files, app/task history or unrelated files.",
+  "write_boundary": "Public repair artifacts only in this repairs directory; helper scripts and source work only in own restricted repairs work directory.",
+  "preservation": "No canonical draft/state/final/review or finalized shard artifact edited.",
+  "approval": "No whole-book approval, freeze or candidate evaluation implied."
+}

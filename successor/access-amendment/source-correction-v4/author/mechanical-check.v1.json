@@ -1,0 +1,42 @@
+{
+  "schema_version": "source-correction-access-author-mechanical-check-v1",
+  "status": "pass",
+  "checked_at": "2026-09-17T11:31:27.025642+00:00",
+  "schema": {
+    "path": ".source-only/v10-access-interface-815bcb6/references/schemas/benchmark-access-overlay-v10.schema.json",
+    "sha256": "038fce5c2a42ed215784b3f32994f99fabe1c90e4fa4fd8c56c909f29f7a0874",
+    "bytes": 7781
+  },
+  "digest_helper": {
+    "path": ".source-only/v10-access-interface-815bcb6/digest-helper.excerpt.v1.json",
+    "sha256": "8de25c4581c03fd8525657aeb54c63c71c9d83f640270cc4a54505a12f15df18",
+    "bytes": 1295
+  },
+  "overlay": {
+    "path": "successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json",
+    "sha256": "e9cd56beedbf880a3afff16f1a1e7a320c34b924e59d1ef01bdaafee827c6a90",
+    "bytes": 186350
+  },
+  "checks": {
+    "exact_four_new_input_hashes": true,
+    "prior_packet_158_hashes": true,
+    "prior_author_files_and_manifest_unchanged": true,
+    "v4_canonical_and_file_identities_distinguished": true,
+    "review_final_binding_exact": true,
+    "actual_frozen_state_and_receipt_bindings_exact": true,
+    "prepared_after_actual_freeze_receipt": true,
+    "json_schema_and_date_time_format": true,
+    "overlay_digest_excludes_only_self_hash": true,
+    "all_531_subject_population_weights_exact": true,
+    "all_617_task_population_weights_exact": true,
+    "all_617_whole_task_records_equal_v3_v4": true,
+    "all_navigation_fields_and_weights_equal": true,
+    "all_980_task_facet_bindings_inside_parent": true,
+    "all_17_subject_changes_and_16_evidence_changes_disclosed": true,
+    "all_5_relationship_changes_and_1_added_uncertainty_disclosed": true,
+    "source_opportunity_changes_disclosed": true,
+    "zero_additional_delta": true,
+    "all_new_input_bytes_preserved_after_writes": true
+  },
+  "limits": "These are local standard-library/jsonschema checks of the authorized interface. They do not constitute installed-runtime validation, editorial approval or freeze."
+}

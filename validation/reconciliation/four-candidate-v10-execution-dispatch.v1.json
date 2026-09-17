@@ -1,0 +1,44 @@
+{
+  "schema_version": "four-candidate-v10-execution-dispatch-v1",
+  "recorded_at": "2026-09-17T05:39:07.267969+00:00",
+  "status": "dispatched_to_all_four_existing_owners",
+  "release_id": "ohfr-2002-successor-v10-2026-09-17",
+  "artifact_freeze_commit": "191ce37a81878d41ce51e378e9ee61bd1af5c528",
+  "validated_descriptor_commit": "a90734a1c01703ca0e2c206c18961f4528ce7380",
+  "descriptor_file_sha256": "188902b77a2432944f9be1bdb24d8eb6610f34f33044212f8d2a6f632660f5fe",
+  "lock_sha256": "bb24e1d618584ee8eb5c75eb73aa98de4db3f2845d48a44fc3f81569c591ff9c",
+  "installed_runtime_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "active_installation_receipt_sha256": "a5a9f3014dd2b1eec3818c3e61c0eefb7dc01dcde1185c8313cd1da0f12fae5d",
+  "candidate_execution_hold_released": true,
+  "candidates": [
+    {
+      "candidate": "Published",
+      "owner_task": "01a0aaf9-30c3-7462-b507-9d7851e230c2",
+      "verified_pre_migration_state_sha256": "ad0231e3053c4e674ea94f58ab89fb7152af0319b94e3a0e7dc04c7717354a5e",
+      "verified_pre_migration_commit": "d4b17c5bf15da2448959436cfb82c05285a1a763"
+    },
+    {
+      "candidate": "IndexPDF",
+      "owner_task": "01a0aaf9-6090-7462-915b-c5167277dbb0",
+      "verified_pre_migration_state_sha256": "577f66ae217afa3486398620ddab17f28db6036cfed3cef643147c9b2844e8f8",
+      "verified_pre_migration_commit": "15fbcceae798964338327c2cad893db196ac6983"
+    },
+    {
+      "candidate": "IndexerLabs",
+      "owner_task": "01a0aaf9-4a80-7d12-981a-c10dfd92b9ea",
+      "verified_pre_migration_state_sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+      "verified_pre_migration_commit": "443289183f2f83f1d8e00084d585812a644af9d7"
+    },
+    {
+      "candidate": "Indexia",
+      "owner_task": "01a0aaf9-7393-7e80-8c61-6aa773820718",
+      "verified_pre_migration_state_sha256": "60605d32663803b99ce4c3f67365bd6ed55879a5610da74f1478f19b65ae7cec",
+      "verified_pre_migration_commit": "372dabbf3c77253afc06475f6d46f8b7d2460c23"
+    }
+  ],
+  "required_protocol": "docs/shared-benchmark-reevaluation-protocol.md",
+  "audit_transfer_authorized": false,
+  "website_actual_data_imported": false,
+  "deployment_authorized": false,
+  "benchmark_pr_status": "PR17 ready; exact descriptor commit CI passed; ordinary merge blocked by required GitHub review. Admin override rejected by automatic approval review; explicit user permission requested, no override performed. Frozen pushed bytes remain authorized inputs for reevaluation."
+}

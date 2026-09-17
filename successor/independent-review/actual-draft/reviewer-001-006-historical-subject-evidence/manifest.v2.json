@@ -1,0 +1,55 @@
+{
+  "schema_version": "independent-historical-subject-evidence-seal-v1",
+  "status": "immutable component of exact original semantic dispositions; value integration referrals remain explicit",
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+      "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+      "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/proposed-records.v1.json",
+      "sha256": "8f1a6e59a55820f65da5fca7df45288a6673ec0f951c1f0b1638168c67247d42"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/exact-field-diffs.v1.jsonl",
+      "sha256": "54f5317e827260171d6afde27a3334d7fc98223655d3f55382db3a0b47f87c39"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/evidence-value-dispositions.v1.jsonl",
+      "sha256": "ee168e711bf8d9a5368af61470fe9e3dc2b2feb2b51789dd6caf16e64324fd21"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/cross-owner-referrals.v1.json",
+      "sha256": "498de75750aad42b1fbe7b83c3eeb391463c40e2f201fc9c3639413e7609974f"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/source-reuse-and-reading.v1.json",
+      "sha256": "b27b58e28eeaa62a94db543c898555e8d6b52a52839c2f96c561c2957599930f"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/validation.v1.json",
+      "sha256": "5c97902be7ebd67bce8661660c1864ee5b8a110249fde293b305ea5c00226038"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/input-and-visibility-attestation.v1.json",
+      "sha256": "e19f41f698847b4511496b5a1177b67e33faab1e6cd1170ae4df5fdd1c269651"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/handoff-and-hash-conventions.v1.json",
+      "sha256": "6830fe42958b80401ab46e6511b61eb16d3d1cdc49d28e7891241fbe087a51d9"
+    }
+  ],
+  "counts": {
+    "historical_subjects": 724,
+    "historical_evidence_bindings": 1663,
+    "whole_owned_subject_proposals": 14,
+    "expanded_evidence_records": 26,
+    "new_evidence_records": 7
+  },
+  "approval_owner": "successor_independent_review",
+  "supersedes": "manifest.v1.json only to append integration handoff/hash conventions; all v1 artifacts unchanged"
+}

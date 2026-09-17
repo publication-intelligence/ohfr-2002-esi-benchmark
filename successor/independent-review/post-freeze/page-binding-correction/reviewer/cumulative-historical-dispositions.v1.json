@@ -1,0 +1,2060 @@
+{
+  "checkpoint_reuse": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/completed-ten-findings-checkpoint.v1.json",
+    "sha256": "a36b22082f1e03541e7bf8a775405049294dd0b85426890889f4b30098e1c4cf",
+    "bytes": 493737
+  },
+  "author_day_dispositions": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v4.json",
+    "sha256": "43828f756082f2ab0eea8f3bcb5221f9d6af6ca42fcc257a4c04617772629f4a",
+    "bytes": 70884
+  },
+  "author_batch_dispositions": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v5.json",
+    "sha256": "34ffd2eca2bea9d607e51d262572a08b06d34c4d5df5a377e6adfc1a910219b3",
+    "bytes": 145424
+  },
+  "historical_rows": [
+    {
+      "historical_key": "legacy:SUBJ-AC3BF591EBEB:EVID-736F5728858A",
+      "finding_id": "PBF-001",
+      "author_proposed_row_sha256": "a71284e0e1caba69055f9498db35e039824a76e8404814e944fb1cb209115573",
+      "author_row_pointer": "/rows/0",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 371,
+        "row_sha256": "8ef68ffd03fe9a27e7ad365c3522d31d762474bd725055ea2e4ce9b44b90b38c"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The three ministerial publicity examples are all in the latter part of56: lengthened edict preambles, replies to remonstrances and Maupeou’s publicity writers.57 contains the continuation of an observer’s warning, not these examples. Move7A2F to56, keeping its synthesizing role, and restrict the same censorship/publicity distinction CHUNK-002-S055 to56. The parent still needs57 for the separate warning.",
+      "current_subject_id": "SUBJ-SUCC-C3088DA62479",
+      "current_evidence_id": "EVID-SUCC-7A2F098446C6",
+      "current_relationship_id": null,
+      "proposed_evidence": {
+        "document_page": 56,
+        "source_page_label": "56",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+        "evidence_id": "EVID-SUCC-7A2F098446C6",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "native:SUBJ-0073:EVID-0073-002",
+      "finding_id": "PBF-002",
+      "author_proposed_row_sha256": "96680c4cfdfacc305d07161685c21730e8acb5c6e0722f06923129d86412c38a",
+      "author_row_pointer": "/rows/1",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 367,
+        "row_sha256": "d0edd402b48048bb7c824a3845c9ba5bda013084648879959ea2554382c2c38f"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The anxious observer’s words continue at the top of57 and predict revolutions from argumentative exchanges and expanding constitutional knowledge. Narrow EE0D to that attributed warning. The source-backed censorship and official-publicity claims remain on56 in the other evidence and parent. The revision avoids both a false single-page combination and an assertion of inevitable authorial causation.",
+      "current_subject_id": "SUBJ-SUCC-C3088DA62479",
+      "current_evidence_id": "EVID-SUCC-EE0D698188B1",
+      "current_relationship_id": null,
+      "proposed_evidence": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "An anxious contemporary warned that public exchanges about the constitution and the knowledge people were acquiring would eventually bring revolutions.",
+        "evidence_id": "EVID-SUCC-EE0D698188B1",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:SUBJ-59856BDB5388:EVID-82589FE9522B",
+      "finding_id": "PBF-003",
+      "author_proposed_row_sha256": "e4ec51463c67be476abbf9cb7d50832902cbfa8ef56cf178d55bc5c5da3aa281",
+      "author_row_pointer": "/rows/2",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1381,
+        "row_sha256": "0f3a32133fb2f72810d61e2bd399646c25d2afa9cda18b6c87eccc928ecbcdbe"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "Page132 connects the expansion from707million to nearly two billion in estimated short-term obligations with repeated compensation for abolished property and offices.131 instead discusses taxes and inherited debt generally. Move8C43 to132 and propagate it to the judicial treatment/facet and both C005-S083 copies. Retain117 as the recognition-of-property stage and134 as later assignat issuance; those are distinct parts of the same causal sequence.",
+      "current_subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "current_evidence_id": "EVID-SUCC-8C432DB3ADE6",
+      "current_relationship_id": null,
+      "proposed_evidence": {
+        "document_page": 132,
+        "source_page_label": "132",
+        "locator_class": "supporting",
+        "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+        "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+        "source_local_subject_id": "SUCC-C005-S019",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:SUBJ-B1C602729F9A:EVID-F51DC33F86B8",
+      "finding_id": "PBF-004",
+      "author_proposed_row_sha256": "3fdae1af82931a81e7dff857248d96ea9fb96532efcff3150b17d8707b35c8f3",
+      "author_row_pointer": "/rows/3",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1395,
+        "row_sha256": "b3316d19275d535ad5b843f690e16e1a8ea8977884b2e2c1c2affd40516636aa"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The revised deficit estimate from80million to294million, compelled by falling tax revenue, appears on134.132 discusses failed loans, the Patriotic Contribution and compensation obligations instead. Move51E5 to134 under the coherent tax-administration parent and its page metadata;131 remains the principal machinery/voluntary-payment argument.",
+      "current_subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "current_evidence_id": "EVID-SUCC-51E510B47B2A",
+      "current_relationship_id": null,
+      "proposed_evidence": {
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+        "evidence_id": "EVID-SUCC-51E510B47B2A",
+        "source_local_subject_id": "SUCC-C005-S027",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:SUBJ-6DF3AE004424:EVID-1D364125E592",
+      "finding_id": "PBF-005",
+      "author_proposed_row_sha256": "40b309f2b232c7c2f51f277ead94c711ce7c577959479cc65be2909d6b8f0ead",
+      "author_row_pointer": "/rows/4",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1392,
+        "row_sha256": "13285e0ed8580702014ce695aabb06000146ed71891d338664e858dcca4248f6"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The upward deficit revision is the134 consequence of tax-revenue shortfall. A separate poor-yield/debt discussion on132 cannot support that exact predicate. Move470F to134 and remove its132-only parent-page opportunity, retaining both existing134 supporting rows and all stable IDs. The nonpayment/Babeuf parent remains distinct from replacement-tax design.",
+      "current_subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "current_evidence_id": "EVID-SUCC-470F41497A94",
+      "current_relationship_id": null,
+      "proposed_evidence": {
+        "evidence_id": "EVID-SUCC-470F41497A94",
+        "source_evidence_id": "EVID-0E39B316A9CB",
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+        "provenance": {
+          "chunk_id": "CHUNK-005",
+          "local_subject_id": "C005-S068",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+          "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+        },
+        "source_local_subject_id": "SUCC-C005-S026",
+        "source_chunk_id": "CHUNK-005",
+        "historical_evidence_identity": {
+          "lineage": "legacy",
+          "subject_id": "SUBJ-6DF3AE004424",
+          "evidence_id": "EVID-1D364125E592"
+        },
+        "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+      },
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:SUBJ-FF945BB01182:EVID-DCE1629C9441",
+      "finding_id": "PBF-007",
+      "author_proposed_row_sha256": "e4565be0cd8a935a0635571fa573766fa08d5acdb0d947162a0a42d88448f9ba",
+      "author_row_pointer": "/rows/5",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1233,
+        "row_sha256": "b55df2e1a20424a976a9b9ae9807509c417a5644502114a72cdb737083b7941f"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The last sentence of113 begins with frequent offers by nobles and clergy but leaves its adverse predicate unfinished.114 supplies perceived municipal connections and the Versailles deputies’ conduct as reasons for distrust, with Dijon confinement as an example. Bind3E89 to114 with explicit113 continuation. Frequent offers do not establish frequent rejection; the revised summary removes that unwarranted frequency transfer while preserving the causal mechanism and113/114 retained span.",
+      "current_subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+      "current_evidence_id": "EVID-SUCC-3E891F904D2B",
+      "current_relationship_id": null,
+      "proposed_evidence": {
+        "document_page": 114,
+        "source_page_label": "114",
+        "locator_class": "principal",
+        "evidence_summary": "Continuing the offers-of-assistance sentence from page 113, the source explains distrust of nobles and clergy through their association with displaced municipalities and the earlier intransigence of their deputies at Versailles.",
+        "evidence_id": "EVID-SUCC-3E891F904D2B",
+        "source_local_subject_id": "SUCC-C005-S004",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:SUBJ-7797A861F8DE",
+      "finding_id": "PBF-006",
+      "author_proposed_row_sha256": "74a445d80cd6ba5e277581b0df1cabd957598bdd1cead8abaf6bc7fcf1150b80",
+      "author_row_pointer": "/rows/6",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+          "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+          "bytes": 5138775
+        },
+        "jsonl_line_one_based": 598,
+        "row_sha256": "537d5fb3dcc4a40f4ad00bedab926b6041f09b954fc61216c991fe771140bde9"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The final lines of132 explicitly describe newspapers taking both sides of the Church-property controversy.133 continues to deputies’ fixed views, hostile galleries and bank/assignat proposals; galleries do not establish press activity there. The current press evidence046B already correctly cites132. Replace only133 in retained C005-S042, aligning it with the treatment/facet and preserving its other supported press episodes.",
+      "current_subject_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "current_evidence_id": null,
+      "current_relationship_id": null,
+      "proposed_evidence": null,
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review.",
+      "current_retained_distinction": {
+        "source_local_subject_id": "C005-S042",
+        "meaning": "Pamphlets and newspapers became permanent mechanisms of popular scrutiny, anti-veto agitation, radical organization, and attacks on suspect leaders.",
+        "qualification": "The press is treated as a major new political force that broadened mobilization while amplifying suspicion and pressure.",
+        "source_pages": [
+          120,
+          124,
+          126,
+          132,
+          134
+        ]
+      },
+      "already_correct_evidence_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/proposed-evidence-lineage-repairs.v1.jsonl",
+          "sha256": "d2496abc66bb16c1a3ee9debca56183c72653b82f874e04760bf3321e16bb495",
+          "bytes": 416820
+        },
+        "jsonl_line_one_based": 72,
+        "row_sha256": "feccd0e12a3b0ef7536b37707d42457635e57749f2a6cf9323273a7a0118d425",
+        "current_evidence_id": "EVID-SUCC-046BDB0CCA2C",
+        "page": 132
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-59856BDB5388",
+      "finding_id": "PBF-003",
+      "author_proposed_row_sha256": "be84ccb47fe7dde3b7768ca722a4210bb19dc97a0f70401e47af3cfdf70c9b98",
+      "author_row_pointer": "/rows/7",
+      "prior_exact_inspection_binding_verified": {
+        "full_review": {
+          "path": "successor/independent-review/source-benchmark-review.v2.json",
+          "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+          "bytes": 492840
+        },
+        "related_exact_evidence_inspection": {
+          "file": {
+            "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+            "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+            "bytes": 4971257
+          },
+          "jsonl_line_one_based": 1381,
+          "row_sha256": "0f3a32133fb2f72810d61e2bd399646c25d2afa9cda18b6c87eccc928ecbcdbe"
+        },
+        "scope": "Current same-claim compensation metadata and related exact historical evidence were reinspected; unchanged old subject fields reuse the prior full review rather than a new original-key closure claim."
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "Page132 connects the expansion from707million to nearly two billion in estimated short-term obligations with repeated compensation for abolished property and offices.131 instead discusses taxes and inherited debt generally. Move8C43 to132 and propagate it to the judicial treatment/facet and both C005-S083 copies. Retain117 as the recognition-of-property stage and134 as later assignat issuance; those are distinct parts of the same causal sequence.",
+      "current_subject_id": null,
+      "current_evidence_id": null,
+      "current_relationship_id": null,
+      "proposed_evidence": null,
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review.",
+      "current_copies": [
+        {
+          "subject_id": "SUBJ-SUCC-5193E3F37320",
+          "retained_distinction": {
+            "source_local_subject_id": "C005-S083",
+            "meaning": "The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues.",
+            "qualification": "Compensation shows the property-minded limits of abolition even as it burdens the revolutionary state financially.",
+            "source_pages": [
+              117,
+              132,
+              134
+            ]
+          }
+        },
+        {
+          "subject_id": "SUBJ-SUCC-9E6D9535AA17",
+          "retained_distinction": {
+            "source_local_subject_id": "C005-S083",
+            "meaning": "The Assembly's recognition of abolished offices and some rights as compensable property enlarged public debt and drove later assignat issues.",
+            "qualification": "Compensation shows the property-minded limits of abolition even as it burdens the revolutionary state financially.",
+            "source_pages": [
+              117,
+              132,
+              134
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "historical_key": "legacy:REL-43B081C862F2",
+      "finding_id": "PBF-008",
+      "author_proposed_row_sha256": "306954740266123bc5c93d58ae91950f4fe825d589be15b872d18f26715444d6",
+      "author_row_pointer": "/rows/8",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+          "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+          "bytes": 536644
+        },
+        "jsonl_line_one_based": 80,
+        "row_sha256": "c1cf6060f805da188c50e3783980e3396b94e89795e8e3f680fb70258ea51199"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "Page11 directly describes gros fermiers enclosing and rejecting gleaning/grazing rights.16 describes the material value of common rights and communal lawsuits; its last sentence continues on17 into deterrence by legal, riot and passive resistance.12 is broader agricultural distribution and19 urban crafts, neither the precise communal-conflict support. The conflict remains bounded to these uses, with the same endpoints/operator/rationale and corrected[11,16,17] support.",
+      "current_subject_id": null,
+      "current_evidence_id": null,
+      "current_relationship_id": "REL-SUCC-0EC046BA86DD",
+      "proposed_evidence": null,
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:REL-55580B5DB452",
+      "finding_id": "PBF-008",
+      "author_proposed_row_sha256": "41f761b27e48d2bb4e4261a462b3a49b05f7e003adc19a48921bc4dc70e29b29",
+      "author_row_pointer": "/rows/9",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+          "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+          "bytes": 536644
+        },
+        "jsonl_line_one_based": 94,
+        "row_sha256": "f8a4639b9c54f5dcbea718e6ca1c6002e7cacfc388c291a1842cf32b9e9101f9"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "Page11 directly describes gros fermiers enclosing and rejecting gleaning/grazing rights.16 describes the material value of common rights and communal lawsuits; its last sentence continues on17 into deterrence by legal, riot and passive resistance.12 is broader agricultural distribution and19 urban crafts, neither the precise communal-conflict support. The conflict remains bounded to these uses, with the same endpoints/operator/rationale and corrected[11,16,17] support.",
+      "current_subject_id": null,
+      "current_evidence_id": null,
+      "current_relationship_id": "REL-SUCC-0EC046BA86DD",
+      "proposed_evidence": null,
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:REL-FB865B3C3289",
+      "finding_id": "PBF-009",
+      "author_proposed_row_sha256": "a1b1e3f7d37d4b5c784ca77a3c04ec8c9725571b9109825aae6dd1e8908d2aea",
+      "author_row_pointer": "/rows/10",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+          "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+          "bytes": 536644
+        },
+        "jsonl_line_one_based": 266,
+        "row_sha256": "57b3a31f5daa24b13374be885f1ed55f1ef4692d75b828243d113ba2ef189abb"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "30 establishes purchased commissions and obstacles facing poor or talented officers;31 develops army social distance and blocked experienced rankers, then begins the contrast with close, technically demanding shipboard life.32 completes naval recruitment, absence of purchase and competence.33 develops the clergy rather than the military comparison. Preserve the same bounded navy-to-army contrast with[30,31,32].",
+      "current_subject_id": null,
+      "current_evidence_id": null,
+      "current_relationship_id": "REL-SUCC-6346B62FAB7C",
+      "proposed_evidence": null,
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:SUBJ-DEFC7BAEFE7B:EVID-58B81A332BD2",
+      "finding_id": "PBF-010",
+      "author_proposed_row_sha256": "b5fa467e69f45e95f2f61248af6294c92193b2850557b8a0708b7aebaf831e6a",
+      "author_row_pointer": "/rows/11",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 384,
+        "row_sha256": "48f9dd4ada696e73beaf46736b46b34ad2c62f2ee33cff26ee207d0f816cb7ac"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The enumeration of customary/collective, feudal, fiscal, internal-trade, guild and privileged barriers is wholly on57, together with strong-state removal and fiscal attraction.58 applies one part of that doctrine to grain controls and its consequences. Move0B62 to57 and bind the exact general-doctrine distinction CHUNK-002-S060 only to57; retain the independent58 grain evidence and broader57/58 parent treatment/facet.",
+      "current_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+      "current_evidence_id": "EVID-SUCC-0B6249083880",
+      "current_relationship_id": null,
+      "proposed_evidence": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "supporting",
+        "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+        "evidence_id": "EVID-SUCC-0B6249083880",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "proposed_retained_distinction": null,
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "legacy:SUBJ-DEFC7BAEFE7B",
+      "finding_id": "PBF-010",
+      "author_proposed_row_sha256": "b18824fa4400f3d3c0433229519b2c103670136378a5b63c15f7cc2adb7a8508",
+      "author_row_pointer": "/rows/12",
+      "prior_exact_inspection_binding_verified": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+          "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+          "bytes": 5138775
+        },
+        "jsonl_line_one_based": 254,
+        "row_sha256": "c503affce5285b60266397a4255e0654bdc83fcbf71a20221d1e2d3004e87ef1"
+      },
+      "decision": "approve_additive_page_or_summary_qualification; preserve_prior_bytes_and_unaffected_meaning",
+      "independent_source_basis": "The enumeration of customary/collective, feudal, fiscal, internal-trade, guild and privileged barriers is wholly on57, together with strong-state removal and fiscal attraction.58 applies one part of that doctrine to grain controls and its consequences. Move0B62 to57 and bind the exact general-doctrine distinction CHUNK-002-S060 only to57; retain the independent58 grain evidence and broader57/58 parent treatment/facet.",
+      "current_subject_id": null,
+      "current_evidence_id": null,
+      "current_relationship_id": null,
+      "proposed_evidence": null,
+      "proposed_retained_distinction": {
+        "source_local_subject_id": "CHUNK-002-S060",
+        "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "qualification": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "source_pages": [
+          57
+        ]
+      },
+      "scope": "Only the identified current page/summary conclusion supersedes earlier support/reuse. Historical before values are not rewritten; their unchanged meaning, stance, priority and routes retain prior completed review."
+    },
+    {
+      "historical_key": "native:SUBJ-0113",
+      "finding_id": "PBF-011",
+      "decision": "approve_additive_casualty_qualification_only",
+      "independent_basis": "On83 the four deaths and roughly forty injuries belong to the riots as a whole. The following sentence separately identifies rooftop bombardment. Neither sequence nor the name Day of Tiles assigns the casualties to projectiles. The revised event-level summary, parent and every copied meaning/qualification preserve both facts and remove the unwarranted action-specific cause; the unchanged semicolon summary is compatible.82–84 place this within nationwide resistance to the May judicial reforms, with several groups and no single political programme.",
+      "exact_author_row_sha256": "7a226945d29348484636b2e1227162ced28bd742beaa6beff086c8a108ee6a24",
+      "author_pointer": "/rows/13"
+    },
+    {
+      "historical_key": "legacy:SUBJ-5D4F73F5073B",
+      "finding_id": "PBF-011",
+      "decision": "approve_additive_casualty_qualification_only",
+      "independent_basis": "On83 the four deaths and roughly forty injuries belong to the riots as a whole. The following sentence separately identifies rooftop bombardment. Neither sequence nor the name Day of Tiles assigns the casualties to projectiles. The revised event-level summary, parent and every copied meaning/qualification preserve both facts and remove the unwarranted action-specific cause; the unchanged semicolon summary is compatible.82–84 place this within nationwide resistance to the May judicial reforms, with several groups and no single political programme.",
+      "exact_author_row_sha256": "7cae46061f287234debbe63dc185a141635f3b09c7c583a4508060af3374a88a",
+      "author_pointer": "/rows/14"
+    },
+    {
+      "historical_key": "native:SUBJ-0113:EVID-0113-001",
+      "finding_id": "PBF-011",
+      "decision": "approve_additive_casualty_qualification_only",
+      "independent_basis": "On83 the four deaths and roughly forty injuries belong to the riots as a whole. The following sentence separately identifies rooftop bombardment. Neither sequence nor the name Day of Tiles assigns the casualties to projectiles. The revised event-level summary, parent and every copied meaning/qualification preserve both facts and remove the unwarranted action-specific cause; the unchanged semicolon summary is compatible.82–84 place this within nationwide resistance to the May judicial reforms, with several groups and no single political programme.",
+      "exact_author_row_sha256": "356d95d6144b41fd80e1c9f401484df6d6bce10ffdbff36ee1f8eeec5190c100",
+      "author_pointer": "/rows/15"
+    },
+    {
+      "historical_key": "legacy:SUBJ-5D4F73F5073B:EVID-193FD1F77154",
+      "finding_id": "PBF-011",
+      "decision": "approve_additive_casualty_qualification_only",
+      "independent_basis": "On83 the four deaths and roughly forty injuries belong to the riots as a whole. The following sentence separately identifies rooftop bombardment. Neither sequence nor the name Day of Tiles assigns the casualties to projectiles. The revised event-level summary, parent and every copied meaning/qualification preserve both facts and remove the unwarranted action-specific cause; the unchanged semicolon summary is compatible.82–84 place this within nationwide resistance to the May judicial reforms, with several groups and no single political programme.",
+      "exact_author_row_sha256": "74f3f42f89e6b750e268f99aefece866c13e046d32fda204ba772b56e7b72d47",
+      "author_pointer": "/rows/16"
+    },
+    {
+      "historical_key": "legacy:SUBJ-B7AF48A78D17:EVID-896C07599FEC",
+      "finding_id": "PBF-014",
+      "original_claim": {
+        "evidence_id": "EVID-896C07599FEC",
+        "source_evidence_id": "EVID-9BE1211D977D",
+        "document_page": 99,
+        "source_page_label": "99",
+        "locator_class": "supporting",
+        "evidence_summary": "He is elected among the small surviving group of celebrated robe magistrates.",
+        "provenance": {
+          "chunk_id": "CHUNK-004",
+          "local_subject_id": "CHUNK-004-S094",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-004.json",
+          "source_artifact_sha256": "d2531c6345809ae452eb4ce3963003ddc546417687b71648e6c477c46ee18ba3"
+        }
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+          "evidence_id": "EVID-SUCC-8997CECFCFFD"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "99 ends by stating that only twenty-two sovereign-court magistrates secured seats;100 names Duport, Fréteau and d’Éprémesnil as members of that group. The named Duport claim needs100, with99 as its genuine antecedent. Moving its supporting row and extending the three contextual page lists preserves the institutional bridge from club host and parliamentary organizer to elected deputy, without manufacturing another electoral requirement.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/41",
+        "row_sha256": "7b791132f17beff03f53d1d72f015860c567fddd44b42b77fadee82ebd942ddc"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-1865834725F2:EVID-B40D954BF94F",
+      "finding_id": "PBF-013",
+      "original_claim": {
+        "evidence_id": "EVID-B40D954BF94F",
+        "source_evidence_id": "EVID-CHUNK-006-0157",
+        "document_page": 141,
+        "source_page_label": "141",
+        "locator_class": "principal",
+        "evidence_summary": "Inventories and sales proceeded nationwide while religious houses were being closed.",
+        "provenance": {
+          "chunk_id": "CHUNK-006",
+          "local_subject_id": "CHUNK-006-SUBJ-057",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-006.json",
+          "source_artifact_sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6"
+        }
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-F066F35B29BE",
+          "evidence_id": "EVID-SUCC-5B185A8A66B9"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "At the foot of141, lands are being inventoried prior to sale as religious houses close.142 continues with loyalty tests and polarization. Preparations for sale is therefore the accurate contemporaneous predicate in all four changed copies. The corrected parent still preserves cumulative material dependence, salary differences, functional exceptions and educational/charitable obligations; no claim is made that later sales never occurred.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/640",
+        "row_sha256": "86b4649bf03e9d25e69f013d8beea2c4d2a66523677144cf799ab55917edb8b1"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-7429CB8E3D0C:EVID-69F18C61B56C",
+      "finding_id": "PBF-023",
+      "original_claim": {
+        "evidence_id": "EVID-69F18C61B56C",
+        "source_evidence_id": "CH11-EV-130",
+        "document_page": 249,
+        "source_page_label": "249",
+        "locator_class": "principal",
+        "evidence_summary": "His newspaper became Paris's dominant popular paper and helped transfer enragé demands into a new radical leadership.",
+        "provenance": {
+          "chunk_id": "CHUNK-011",
+          "local_subject_id": "CH11-SUBJ-057",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+          "source_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9"
+        }
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-952896DEE8C8"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "249 ends with Roux’s displacement and appropriation of his programme by new populists, identifying Chaumette and Hébert’s Commune roles.250 gives the best-selling Père Duchesne, Cordeliers influence, economic enforcement and Terror demands. The two revised summaries distribute these claims across their existing correct slots; later failed mobilization and fabricated trial allegations remain separately qualified. The original newspaper-dominance component is rebound to existing250 A6A3834D6447, not discarded with the narrowed249 row.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/1432",
+        "row_sha256": "7d166f49544aca9199fdcf32c44cad84758bc577e0777378c3233994f6439611"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-7429CB8E3D0C:EVID-160A2FF1E4F6",
+      "finding_id": "PBF-023",
+      "original_claim": {
+        "evidence_id": "EVID-160A2FF1E4F6",
+        "source_evidence_id": "CH11-EV-131",
+        "document_page": 250,
+        "source_page_label": "250",
+        "locator_class": "principal",
+        "evidence_summary": "He used economic hardship and resentment of moderation to press the Jacobins toward renewed popular action.",
+        "provenance": {
+          "chunk_id": "CHUNK-011",
+          "local_subject_id": "CH11-SUBJ-057",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+          "source_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9"
+        }
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-A6A3834D6447"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "249 ends with Roux’s displacement and appropriation of his programme by new populists, identifying Chaumette and Hébert’s Commune roles.250 gives the best-selling Père Duchesne, Cordeliers influence, economic enforcement and Terror demands. The two revised summaries distribute these claims across their existing correct slots; later failed mobilization and fabricated trial allegations remain separately qualified.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/1433",
+        "row_sha256": "33b32fc7d88370837ccda059043d2ec72ab1204f775c96fc14a950b24de4bfd5"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-9216E0E5FA9D:EVID-6580B24B79D4",
+      "finding_id": "PBF-017",
+      "original_claim": {
+        "evidence_id": "EVID-6580B24B79D4",
+        "source_evidence_id": "EVID-4B200746F0D1",
+        "document_page": 126,
+        "source_page_label": "126",
+        "locator_class": "principal",
+        "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+        "provenance": {
+          "chunk_id": "CHUNK-005",
+          "local_subject_id": "C005-S091",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+          "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+        }
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-8C547916DFE5",
+          "evidence_id": "EVID-SUCC-267D572896F9"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+          "evidence_id": "EVID-SUCC-7990A9A62DE8"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "126 directly authorizes municipal proclamation of martial law and Guard firing on crowds refusing to disperse. The sentence about reliability continues after the inserted graphic to128, where uniform cost, active citizenship and oaths narrow membership. The revised126 row accurately states its local predicate and explicitly locates the social restriction on128. The suffrage parent retains its distinction between civil equality, layered political eligibility and coercion.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/2309",
+        "row_sha256": "91fac55fd92de772eeb51d08559d000929e80f7e0cfa9714c1410152425c52ec"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-34EABFD13241:EVID-C8E8EC80455A",
+      "finding_id": "PBF-024",
+      "original_claim": {
+        "evidence_id": "EVID-C8E8EC80455A",
+        "source_evidence_id": "CH11-EV-039",
+        "document_page": 263,
+        "source_page_label": "263",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Centralizing legislation abolished unofficial local forces and retained only a single closely supervised army.",
+        "provenance": {
+          "chunk_id": "CHUNK-011",
+          "local_subject_id": "CH11-SUBJ-015",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+          "source_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9"
+        }
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+          "evidence_id": "EVID-SUCC-74C214138AAD"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "263 abolishes unofficial local bodies including local Revolutionary Armies.264 explicitly states reduction to a centrally supervised single force and the months needed to wind up provincial units. Splitting these predicates over the existing263/264 rows preserves abolition, institutional centralization and delayed implementation without claiming instantaneous practical extinction. The original single-force component remains in existing264 344E67A5005A rather than being lost from the narrower263 row.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/2587",
+        "row_sha256": "9a548e959709b4c653d33f3b82f6ed2a21f84817311122e100bf2dd32a880475"
+      }
+    },
+    {
+      "historical_key": "native:SUBJ-0382:EVID-0382-003",
+      "finding_id": "PBF-024",
+      "original_claim": {
+        "document_page": 264,
+        "source_page_label": "264",
+        "locator_class": "supporting",
+        "evidence_summary": "The Law of 14 Frimaire reduced the armies to a centrally supervised force and began winding up local units.",
+        "source_chunk_id": "CHUNK-011",
+        "source_local_subject_id": "CHUNK-011-S012",
+        "evidence_id": "EVID-0382-003"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+          "evidence_id": "EVID-SUCC-344E67A5005A"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "263 abolishes unofficial local bodies including local Revolutionary Armies.264 explicitly states reduction to a centrally supervised single force and the months needed to wind up provincial units. Splitting these predicates over the existing263/264 rows preserves abolition, institutional centralization and delayed implementation without claiming instantaneous practical extinction.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/4191",
+        "row_sha256": "e1780ec35fab42ed6981d241431dcd8c605e4b13dbac0e8c9779d146552b1ccc"
+      }
+    },
+    {
+      "historical_key": "native:SUBJ-0394:EVID-0394-001",
+      "finding_id": "PBF-023",
+      "original_claim": {
+        "document_page": 250,
+        "source_page_label": "250",
+        "locator_class": "principal",
+        "evidence_summary": "Hébert used Père Duchesne and the Cordeliers to demand price enforcement, Revolutionary Armies, mass mobilization, and terror.",
+        "source_chunk_id": "CHUNK-011",
+        "source_local_subject_id": "CHUNK-011-S024",
+        "evidence_id": "EVID-0394-001"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-A6A3834D6447"
+        }
+      ],
+      "decision": "retain_requirement_with_exact_page_local_qualification",
+      "independent_basis": "249 ends with Roux’s displacement and appropriation of his programme by new populists, identifying Chaumette and Hébert’s Commune roles.250 gives the best-selling Père Duchesne, Cordeliers influence, economic enforcement and Terror demands. The two revised summaries distribute these claims across their existing correct slots; later failed mobilization and fabricated trial allegations remain separately qualified.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/evidence.json",
+          "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+          "bytes": 9591256
+        },
+        "pointer": "/rows/4227",
+        "row_sha256": "82f35c01fdf1791be8faae3c95d6363f67e2d9851a395777abe40f23687240da"
+      }
+    },
+    {
+      "historical_key": "legacy:REL-25E8C92F6AC1",
+      "finding_id": "PBF-015",
+      "original_record": {
+        "relationship_id": "REL-25E8C92F6AC1",
+        "source_subject_id": "SUBJ-DA96B0CFF40C",
+        "type": "related_to",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "fractures_after"
+        ],
+        "descriptions": [
+          "Varennes and the king’s reinstatement split the network’s political purposes."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-019",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_subject_id": "SUBJ-F1AFC8BFD346"
+      },
+      "successor_relationship_ids": [
+        "REL-SUCC-F20FE071F595"
+      ],
+      "decision": "retain_supported_portion_with_corrected_actor_or_page_binding",
+      "independent_basis": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity. Its division-over-monarchy requirement remains explicit in the Jacobin parent,153–154 evidence and club/republican-sequence tasks. Mobilization alone is not certified as equivalent to division; the revised rationale now expressly distinguishes the latter.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/relationships.json",
+          "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+          "bytes": 14812114
+        },
+        "pointer": "/rows/211",
+        "row_sha256": "0fe2b67fa969462f566c1672637e61fd0fb892e1d684fb58f79f675d3a44829e"
+      }
+    },
+    {
+      "historical_key": "legacy:REL-8AB804FCA123",
+      "finding_id": "PBF-015",
+      "original_record": {
+        "relationship_id": "REL-8AB804FCA123",
+        "source_subject_id": "SUBJ-BC854EC092B5",
+        "type": "caused_by",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "caused_by"
+        ],
+        "descriptions": [
+          "The failed flight generated the emergency."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-045",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-F1AFC8BFD346"
+      },
+      "successor_relationship_ids": [
+        "REL-SUCC-F20FE071F595"
+      ],
+      "decision": "retain_supported_portion_with_corrected_actor_or_page_binding",
+      "independent_basis": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity. The old broad emergency is retained in621651 and its153 emergency row; this club edge does not exhaust the old composite.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/relationships.json",
+          "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+          "bytes": 14812114
+        },
+        "pointer": "/rows/760",
+        "row_sha256": "a12adfc84539acab5701ed29f20ddeadf048321775499ad1ffd5dd6a621b9ed7"
+      }
+    },
+    {
+      "historical_key": "legacy:REL-B494EAEB3D27",
+      "finding_id": "PBF-015",
+      "original_record": {
+        "relationship_id": "REL-B494EAEB3D27",
+        "source_subject_id": "SUBJ-BC854EC092B5",
+        "type": "causes",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "leads_to"
+        ],
+        "descriptions": [
+          "Cordeliers and Social Circle activists organized a republican petition."
+        ],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-045",
+            "local_relationship_index": 3
+          }
+        ],
+        "target_subject_id": "SUBJ-4A820DFF1196"
+      },
+      "successor_relationship_ids": [
+        "REL-SUCC-F20FE071F595",
+        "REL-SUCC-4365ACE17CB8"
+      ],
+      "decision": "retain_supported_portion_with_corrected_actor_or_page_binding",
+      "independent_basis": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity. The distinct republican petitioning demand remains in4365ACE17CB8 and the explicitly linked sequence tasks; Jacobin crowding is not alleged to cause Cordeliers organization.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/relationships.json",
+          "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+          "bytes": 14812114
+        },
+        "pointer": "/rows/995",
+        "row_sha256": "b93a00d70120e5ae705db144615ea2529fd254fa3bfe58b9dc3bb2761babecbe"
+      }
+    },
+    {
+      "historical_key": "legacy:REL-3E68B0889B9E",
+      "finding_id": "PBF-022",
+      "original_record": {
+        "relationship_id": "REL-3E68B0889B9E",
+        "source_subject_id": "SUBJ-A2641D6D46FA",
+        "type": "causes",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "cause"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-004",
+            "local_subject_id": "CHUNK-004-S025",
+            "local_relationship_index": 2
+          }
+        ],
+        "target_subject_id": "SUBJ-A6A70A870C7B"
+      },
+      "successor_relationship_ids": [
+        "REL-SUCC-E1D4C447CDC2"
+      ],
+      "decision": "retain_supported_portion_with_corrected_actor_or_page_binding",
+      "independent_basis": "93 supplies the unresolved voting premise.101 introduces the May opening;102 makes separate verification a test of separate voting;103 explains the move toward unilateral national verification. Replacing92 with93 connects the actual omission to the procedural deadlock without making a generic deterministic claim.",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/relationships.json",
+          "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+          "bytes": 14812114
+        },
+        "pointer": "/rows/353",
+        "row_sha256": "acb0bf0868ae6efe0ad163837e3b93970820ce9e9c94db1c5120e653a582ec06"
+      }
+    },
+    {
+      "historical_key": "legacy:REL-492A8A01B75C",
+      "finding_id": "PBF-021",
+      "original_record": {
+        "relationship_id": "REL-492A8A01B75C",
+        "source_subject_id": "SUBJ-2DD8B10A5910",
+        "type": "contrasts_with",
+        "resolution_status": "resolved",
+        "source_relationship_types": [
+          "contrast"
+        ],
+        "descriptions": [],
+        "provenance": [
+          {
+            "chunk_id": "CHUNK-004",
+            "local_subject_id": "CHUNK-004-S023",
+            "local_relationship_index": 1
+          }
+        ],
+        "target_subject_id": "SUBJ-A2641D6D46FA"
+      },
+      "successor_relationship_ids": [
+        "REL-SUCC-99785B6A720B"
+      ],
+      "decision": "retain_supported_portion_with_corrected_actor_or_page_binding",
+      "independent_basis": "91 records the second Notables’ votes against doubling and unwillingness to endorse head voting.93 records the contrary grant of doubling and deferral of common voting.92 develops princes’ petitions and provincial representation disputes, not the royal Result. The unchanged contrast operator and endpoints are supported by[91,93].",
+      "lineage_proof": {
+        "file": {
+          "path": "successor/synthesis/lineage/relationships.json",
+          "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+          "bytes": 14812114
+        },
+        "pointer": "/rows/417",
+        "row_sha256": "2c753d5bf5acc0452816db6dae02863d899f51d563f9bedc758c9fb40525fce8"
+      }
+    }
+  ],
+  "specific_prior_conclusion_qualifications": [
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "line_one_based": 132,
+        "row_sha256": "c526c410358a2a54f5c93dfa48038d26d965635f2c0caadb869a289e5623defb"
+      },
+      "finding_ids": [
+        "PBF-014"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "99 ends by stating that only twenty-two sovereign-court magistrates secured seats;100 names Duport, Fréteau and d’Éprémesnil as members of that group. The named Duport claim needs100, with99 as its genuine antecedent. Moving its supporting row and extending the three contextual page lists preserves the institutional bridge from club host and parliamentary organizer to elected deputy, without manufacturing another electoral requirement."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "line_one_based": 143,
+        "row_sha256": "f5c38287495d173017fc205d069ce4ca44ca8b38962cc0f4d64c30189a16792a"
+      },
+      "finding_ids": [
+        "PBF-012"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "98 describes scarcity, price fixing, grain searches and dues resistance during elections;98–99 recount the April Réveillon unrest and mixed slogans.109 describes May and June shortages and the later July armed rising. Removing109 from the pre-May retained distinction aligns its temporal scope with the existing evidence, parent, treatment and facet without denying later recurrence."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "line_one_based": 178,
+        "row_sha256": "1830e3831460a1284cf7070880c1f2ab12f373750006e26887790b59236c55dc"
+      },
+      "finding_ids": [
+        "PBF-013"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "At the foot of141, lands are being inventoried prior to sale as religious houses close.142 continues with loyalty tests and polarization. Preparations for sale is therefore the accurate contemporaneous predicate in all four changed copies. The corrected parent still preserves cumulative material dependence, salary differences, functional exceptions and educational/charitable obligations; no claim is made that later sales never occurred."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 1900,
+        "row_sha256": "c2b442d32d1e4f451460443eeb2652125a3c4808104dcb52614357d76eb2786a"
+      },
+      "finding_ids": [
+        "PBF-014"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "99 ends by stating that only twenty-two sovereign-court magistrates secured seats;100 names Duport, Fréteau and d’Éprémesnil as members of that group. The named Duport claim needs100, with99 as its genuine antecedent. Moving its supporting row and extending the three contextual page lists preserves the institutional bridge from club host and parliamentary organizer to elected deputy, without manufacturing another electoral requirement."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 1908,
+        "row_sha256": "325406a22caabb96eaa12731c0ed7c41a7d9d93c7adb297f5a5df52337e9dc8c"
+      },
+      "finding_ids": [
+        "PBF-014"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "99 ends by stating that only twenty-two sovereign-court magistrates secured seats;100 names Duport, Fréteau and d’Éprémesnil as members of that group. The named Duport claim needs100, with99 as its genuine antecedent. Moving its supporting row and extending the three contextual page lists preserves the institutional bridge from club host and parliamentary organizer to elected deputy, without manufacturing another electoral requirement."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 2160,
+        "row_sha256": "6852ade6a260efbdc0af88f9e6f856b08d854d1a8e0850b14880c45b70da69f4"
+      },
+      "finding_ids": [
+        "PBF-012"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "98 describes scarcity, price fixing, grain searches and dues resistance during elections;98–99 recount the April Réveillon unrest and mixed slogans.109 describes May and June shortages and the later July armed rising. Removing109 from the pre-May retained distinction aligns its temporal scope with the existing evidence, parent, treatment and facet without denying later recurrence."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 2167,
+        "row_sha256": "a32609ee9874e894e538417b381aa73689b24c75e4f54b7488e9afcdea60c476"
+      },
+      "finding_ids": [
+        "PBF-012"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "98 describes scarcity, price fixing, grain searches and dues resistance during elections;98–99 recount the April Réveillon unrest and mixed slogans.109 describes May and June shortages and the later July armed rising. Removing109 from the pre-May retained distinction aligns its temporal scope with the existing evidence, parent, treatment and facet without denying later recurrence."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 2744,
+        "row_sha256": "55c2d2076d8af4dc09cf0b31599d220bbd769ac2f7e2825fd373fcb97ea69e59"
+      },
+      "finding_ids": [
+        "PBF-013"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "At the foot of141, lands are being inventoried prior to sale as religious houses close.142 continues with loyalty tests and polarization. Preparations for sale is therefore the accurate contemporaneous predicate in all four changed copies. The corrected parent still preserves cumulative material dependence, salary differences, functional exceptions and educational/charitable obligations; no claim is made that later sales never occurred."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+          "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+          "bytes": 5138775
+        },
+        "line_one_based": 490,
+        "row_sha256": "731c0437fddd541521278c51587b8cbc1c41f61f334e30e276d132b40fd5348f"
+      },
+      "finding_ids": [
+        "PBF-012"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "98 describes scarcity, price fixing, grain searches and dues resistance during elections;98–99 recount the April Réveillon unrest and mixed slogans.109 describes May and June shortages and the later July armed rising. Removing109 from the pre-May retained distinction aligns its temporal scope with the existing evidence, parent, treatment and facet without denying later recurrence."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "line_one_based": 982,
+        "row_sha256": "8fff6006fab5bf492fb9f1e8e520e59e1f57b67340a2d5c8d123e00afa59725b"
+      },
+      "finding_ids": [
+        "PBF-014"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "99 ends by stating that only twenty-two sovereign-court magistrates secured seats;100 names Duport, Fréteau and d’Éprémesnil as members of that group. The named Duport claim needs100, with99 as its genuine antecedent. Moving its supporting row and extending the three contextual page lists preserves the institutional bridge from club host and parliamentary organizer to elected deputy, without manufacturing another electoral requirement."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "line_one_based": 1464,
+        "row_sha256": "744927ca62fb998d9d5e8ef3e025cb8ffabd7419ddc3df1a123e85f962d65cb2"
+      },
+      "finding_ids": [
+        "PBF-013"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "At the foot of141, lands are being inventoried prior to sale as religious houses close.142 continues with loyalty tests and polarization. Preparations for sale is therefore the accurate contemporaneous predicate in all four changed copies. The corrected parent still preserves cumulative material dependence, salary differences, functional exceptions and educational/charitable obligations; no claim is made that later sales never occurred."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/lead/relationship-component-review.v1.json",
+          "sha256": "be27e53af62d82d0487d3fa3fd52709a0efdecf004f6039790c1221a4cacccc1",
+          "bytes": 60479
+        },
+        "pointer": "/rows/47",
+        "row_sha256": "f535a6ddf8e213305e6bd714ec051532dfea859ecdf361cdc7fccfa763c273fd"
+      },
+      "finding_ids": [
+        "PBF-015"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.000-054.v1.json",
+          "sha256": "322546b2cd7aea9ef9932c0517545820f2a56400bcfc0cf0b925371e360f102c",
+          "bytes": 30574
+        },
+        "pointer": "/rows/22",
+        "row_sha256": "20d8116e6940712738119c03dacee16f1a4911d5cf217a89bf4937f612cbb4bb"
+      },
+      "finding_ids": [
+        "PBF-015"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.055-104.v1.json",
+          "sha256": "b0532910ecb0509746654d77d6797f66391bdb8288d1932f5cdbafc83cbbd976",
+          "bytes": 28368
+        },
+        "pointer": "/rows/42",
+        "row_sha256": "5c65f4d1859d9196e67cb0f4bbfe014451ee97c347eb15aa116b99faece9cc7a"
+      },
+      "finding_ids": [
+        "PBF-015"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.105-179.v1.json",
+          "sha256": "d216d8017793e673f097a9e23ad74439e9d05bdf50e1181db615cafddd146a2c",
+          "bytes": 39573
+        },
+        "pointer": "/rows/17",
+        "row_sha256": "7be48f6adcd2268f3b819ba3cec03080f7a9e72dd6cbf38c017a43401b75a185"
+      },
+      "finding_ids": [
+        "PBF-015"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 1710,
+        "row_sha256": "8f978c1086ea1cccd79fe90c9a2621a61bce7082218939a135f3ef38bde8e65c"
+      },
+      "finding_ids": [
+        "PBF-016"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "87 is the prior year’s Necker celebration;90–91 petition organization;95 commoner leadership and provincial conflict;98 April subsistence unrest;103–104 June verification/publicity. They are not12–14July.107 is a genuine immediate antecedent of unreliable troops and popular pressure already present as such in the parent.109–111 narrate the armed rising, Bastille and royal retreat. Narrowing the July treatment/facet metadata to107/109–111 matches those actual retained obligations and does not remove earlier topics from the book."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 1711,
+        "row_sha256": "adf0aedd7263eb7e63ef45caf0b24dcf51b95c82b85c52c956b4c1e0c3acf0f1"
+      },
+      "finding_ids": [
+        "PBF-016"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "87 is the prior year’s Necker celebration;90–91 petition organization;95 commoner leadership and provincial conflict;98 April subsistence unrest;103–104 June verification/publicity. They are not12–14July.107 is a genuine immediate antecedent of unreliable troops and popular pressure already present as such in the parent.109–111 narrate the armed rising, Bastille and royal retreat. Narrowing the July treatment/facet metadata to107/109–111 matches those actual retained obligations and does not remove earlier topics from the book."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 2551,
+        "row_sha256": "104ef39d4819e0d25c84591f8ff26d71b5a9d3aa3827ffb5e59e38341cc62d42"
+      },
+      "finding_ids": [
+        "PBF-017"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "126 directly authorizes municipal proclamation of martial law and Guard firing on crowds refusing to disperse. The sentence about reliability continues after the inserted graphic to128, where uniform cost, active citizenship and oaths narrow membership. The revised126 row accurately states its local predicate and explicitly locates the social restriction on128. The suffrage parent retains its distinction between civil equality, layered political eligibility and coercion."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 2620,
+        "row_sha256": "25f810e989a2bcd6179f55e1f64a113d5cadff92856b90691c8d75163cddcb9d"
+      },
+      "finding_ids": [
+        "PBF-018"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "The same126-to128 sentence continuation applies in the popular-sovereignty parent. Municipal coercive powers are126 evidence; social selection is explicitly128. The amendment preserves the tension between popular victories and representative restriction, rather than replacing it with an unsupported single-page compound claim."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "line_one_based": 2667,
+        "row_sha256": "cb5fe0866d22c063a0a0ef10faf2f5d1a815091dbf9064b012b03c7f0d22a130"
+      },
+      "finding_ids": [
+        "PBF-019"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "120–121 connect Marat, periodical agitation, plots and the elastic aristocrat accusation, including unjustly suspected people.128 attributes the hanging slogan to a popular song in a discussion of noble alienation, not to newspapers. Removing128 from this press-qualified retained distinction prevents medium substitution; its120–121 meaning and the separate132 Church-property correction remain intact."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+          "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+          "bytes": 128966
+        },
+        "line_one_based": 104,
+        "row_sha256": "56f1a2a6e12e3d16f0447561ef5b9729838426adbc6f27a21d707987b60b758c"
+      },
+      "finding_ids": [
+        "PBF-021"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "91 records the second Notables’ votes against doubling and unwillingness to endorse head voting.93 records the contrary grant of doubling and deferral of common voting.92 develops princes’ petitions and provincial representation disputes, not the royal Result. The unchanged contrast operator and endpoints are supported by[91,93]."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+          "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+          "bytes": 128966
+        },
+        "line_one_based": 106,
+        "row_sha256": "db03c8b80107717863edc97b6be035cad7840a36ecd50d02c15a57b66767c80a"
+      },
+      "finding_ids": [
+        "PBF-022"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "93 supplies the unresolved voting premise.101 introduces the May opening;102 makes separate verification a test of separate voting;103 explains the move toward unilateral national verification. Replacing92 with93 connects the actual omission to the procedural deadlock without making a generic deterministic claim."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+          "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+          "bytes": 292898
+        },
+        "pointer": "/466",
+        "row_sha256": "25a5a8bdf146fc35536ee6cdb05b0ac5ab242b3d97dd4ed0e38edc281ef06fff"
+      },
+      "finding_ids": [
+        "PBF-024"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "263 abolishes unofficial local bodies including local Revolutionary Armies.264 explicitly states reduction to a centrally supervised single force and the months needed to wind up provincial units. Splitting these predicates over the existing263/264 rows preserves abolition, institutional centralization and delayed implementation without claiming instantaneous practical extinction."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+          "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+          "bytes": 292898
+        },
+        "pointer": "/467",
+        "row_sha256": "a5602effcb74d47279aaab20be790910e0bf7261b514a7bc018ff0be59a92551"
+      },
+      "finding_ids": [
+        "PBF-024"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "263 abolishes unofficial local bodies including local Revolutionary Armies.264 explicitly states reduction to a centrally supervised single force and the months needed to wind up provincial units. Splitting these predicates over the existing263/264 rows preserves abolition, institutional centralization and delayed implementation without claiming instantaneous practical extinction."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+          "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+          "bytes": 292898
+        },
+        "pointer": "/500",
+        "row_sha256": "17ba08e5fcdc37722f2ffae98df3f9aa883d063ec5bb1eac427490bcfe297f9c"
+      },
+      "finding_ids": [
+        "PBF-023"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "249 ends with Roux’s displacement and appropriation of his programme by new populists, identifying Chaumette and Hébert’s Commune roles.250 gives the best-selling Père Duchesne, Cordeliers influence, economic enforcement and Terror demands. The two revised summaries distribute these claims across their existing correct slots; later failed mobilization and fabricated trial allegations remain separately qualified."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+          "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+          "bytes": 292898
+        },
+        "pointer": "/501",
+        "row_sha256": "fdfa404ab924ed15f13dbad552aef8d895fe751d0b400790c359cfb6f9b5e245"
+      },
+      "finding_ids": [
+        "PBF-023"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "249 ends with Roux’s displacement and appropriation of his programme by new populists, identifying Chaumette and Hébert’s Commune roles.250 gives the best-selling Père Duchesne, Cordeliers influence, economic enforcement and Terror demands. The two revised summaries distribute these claims across their existing correct slots; later failed mobilization and fabricated trial allegations remain separately qualified."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-007-012/subject-ledger.v1.json",
+          "sha256": "e91d86604d58b66f07bd9ce0c401a3dbb83307bf12534305cdddfada323d5cb7",
+          "bytes": 150235
+        },
+        "pointer": "/109",
+        "row_sha256": "94f55d9d290bb8f2d390b92f05ccee13e49e18cf8f169d3722fb4b77b87e760f"
+      },
+      "finding_ids": [
+        "PBF-024"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "263 abolishes unofficial local bodies including local Revolutionary Armies.264 explicitly states reduction to a centrally supervised single force and the months needed to wind up provincial units. Splitting these predicates over the existing263/264 rows preserves abolition, institutional centralization and delayed implementation without claiming instantaneous practical extinction."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-007-012/subject-ledger.v1.json",
+          "sha256": "e91d86604d58b66f07bd9ce0c401a3dbb83307bf12534305cdddfada323d5cb7",
+          "bytes": 150235
+        },
+        "pointer": "/117",
+        "row_sha256": "993dd006df03bc9f47431e8b300bd405a0fc0065c0ab0a0981a58be2d1dcb9ff"
+      },
+      "finding_ids": [
+        "PBF-023"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "249 ends with Roux’s displacement and appropriation of his programme by new populists, identifying Chaumette and Hébert’s Commune roles.250 gives the best-selling Père Duchesne, Cordeliers influence, economic enforcement and Terror demands. The two revised summaries distribute these claims across their existing correct slots; later failed mobilization and fabricated trial allegations remain separately qualified."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/source-first-chunk-013.json",
+          "sha256": "e557b9b0b6151bd2b61404357739ef8814b30b30a7c6582a9a969d3e7f1a703e",
+          "bytes": 17080
+        },
+        "pointer": "/uncertainties/0",
+        "row_sha256": "e30527d2a1b1c6b318be1048c08193506e5d1f1ea5bceed53f972d026c258161"
+      },
+      "finding_ids": [
+        "PBF-020"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "Full297 and310 identify the programme as23June; the rendered303 visibly says13June. Its identifiable comparison is a restoration programme less liberal than the earlier offer, and the current303 evidence already avoids imposing a date. Add the explicit non-weighted uncertainty, keeping the event chronology and comparative task intact. Neither invent a second programme nor silently correct the printed source."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/lead/historical-requirement-review.042-054.v1.json",
+          "sha256": "ac2c71c0d63b1e798ea6c6dbc1500bd5f439ab172a94dff96f956c91f6a2a750",
+          "bytes": 20205
+        },
+        "pointer": "/rows/2",
+        "row_sha256": "5e0a4b5948d735fead5b69ec2a2cce9efe7d055b4c449020c5c31bd05cb94723"
+      },
+      "finding_ids": [
+        "PBF-020"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "Full297 and310 identify the programme as23June; the rendered303 visibly says13June. Its identifiable comparison is a restoration programme less liberal than the earlier offer, and the current303 evidence already avoids imposing a date. Add the explicit non-weighted uncertainty, keeping the event chronology and comparative task intact. Neither invent a second programme nor silently correct the printed source."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.001-005.v1.json",
+          "sha256": "658c7ef1f078788160555edd69551c728b40f7fe2bbd7fc17c7d1d948121b1d6",
+          "bytes": 117742
+        },
+        "pointer": "/rows/0",
+        "row_sha256": "1fdb9ac05c0cd777c55cdb82f2d7377fa29c43bd90dc9ded90c996fd1629e79b"
+      },
+      "finding_ids": [
+        "PBF-020"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "Full297 and310 identify the programme as23June; the rendered303 visibly says13June. Its identifiable comparison is a restoration programme less liberal than the earlier offer, and the current303 evidence already avoids imposing a date. Add the explicit non-weighted uncertainty, keeping the event chronology and comparative task intact. Neither invent a second programme nor silently correct the printed source."
+    },
+    {
+      "exact_prior_binding": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/retained-source-uncertainties.v1.json",
+          "sha256": "197895ce32a91bc5d8dc7c005d965d93f396c84c7eb1449ca612e5e602b141ba",
+          "bytes": 1558
+        },
+        "pointer": "/source_inconsistencies/0",
+        "row_sha256": "ae6a7545a2aa7aa67f0b588068fc26b25b13a0ebd229b45e592effae83b24cb6"
+      },
+      "finding_ids": [
+        "PBF-020"
+      ],
+      "decision": "qualify_only_relevant_prior_support_conclusion; preserve_every_prior_byte",
+      "independent_basis": "Full297 and310 identify the programme as23June; the rendered303 visibly says13June. Its identifiable comparison is a restoration programme less liberal than the earlier offer, and the current303 evidence already avoids imposing a date. Add the explicit non-weighted uncertainty, keeping the event chronology and comparative task intact. Neither invent a second programme nor silently correct the printed source."
+    }
+  ],
+  "exact_reference_rows_verified": [
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 132,
+      "row_sha256": "c526c410358a2a54f5c93dfa48038d26d965635f2c0caadb869a289e5623defb"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 143,
+      "row_sha256": "f5c38287495d173017fc205d069ce4ca44ca8b38962cc0f4d64c30189a16792a"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 178,
+      "row_sha256": "1830e3831460a1284cf7070880c1f2ab12f373750006e26887790b59236c55dc"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1900,
+      "row_sha256": "c2b442d32d1e4f451460443eeb2652125a3c4808104dcb52614357d76eb2786a"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1908,
+      "row_sha256": "325406a22caabb96eaa12731c0ed7c41a7d9d93c7adb297f5a5df52337e9dc8c"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2160,
+      "row_sha256": "6852ade6a260efbdc0af88f9e6f856b08d854d1a8e0850b14880c45b70da69f4"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2167,
+      "row_sha256": "a32609ee9874e894e538417b381aa73689b24c75e4f54b7488e9afcdea60c476"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2744,
+      "row_sha256": "55c2d2076d8af4dc09cf0b31599d220bbd769ac2f7e2825fd373fcb97ea69e59"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+        "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+        "bytes": 5138775
+      },
+      "line_one_based": 490,
+      "row_sha256": "731c0437fddd541521278c51587b8cbc1c41f61f334e30e276d132b40fd5348f"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 982,
+      "row_sha256": "8fff6006fab5bf492fb9f1e8e520e59e1f57b67340a2d5c8d123e00afa59725b"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 1464,
+      "row_sha256": "744927ca62fb998d9d5e8ef3e025cb8ffabd7419ddc3df1a123e85f962d65cb2"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/relationship-component-review.v1.json",
+        "sha256": "be27e53af62d82d0487d3fa3fd52709a0efdecf004f6039790c1221a4cacccc1",
+        "bytes": 60479
+      },
+      "pointer": "/rows/47",
+      "row_sha256": "f535a6ddf8e213305e6bd714ec051532dfea859ecdf361cdc7fccfa763c273fd"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.000-054.v1.json",
+        "sha256": "322546b2cd7aea9ef9932c0517545820f2a56400bcfc0cf0b925371e360f102c",
+        "bytes": 30574
+      },
+      "pointer": "/rows/22",
+      "row_sha256": "20d8116e6940712738119c03dacee16f1a4911d5cf217a89bf4937f612cbb4bb"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.055-104.v1.json",
+        "sha256": "b0532910ecb0509746654d77d6797f66391bdb8288d1932f5cdbafc83cbbd976",
+        "bytes": 28368
+      },
+      "pointer": "/rows/42",
+      "row_sha256": "5c65f4d1859d9196e67cb0f4bbfe014451ee97c347eb15aa116b99faece9cc7a"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.105-179.v1.json",
+        "sha256": "d216d8017793e673f097a9e23ad74439e9d05bdf50e1181db615cafddd146a2c",
+        "bytes": 39573
+      },
+      "pointer": "/rows/17",
+      "row_sha256": "7be48f6adcd2268f3b819ba3cec03080f7a9e72dd6cbf38c017a43401b75a185"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1710,
+      "row_sha256": "8f978c1086ea1cccd79fe90c9a2621a61bce7082218939a135f3ef38bde8e65c"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1711,
+      "row_sha256": "adf0aedd7263eb7e63ef45caf0b24dcf51b95c82b85c52c956b4c1e0c3acf0f1"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2551,
+      "row_sha256": "104ef39d4819e0d25c84591f8ff26d71b5a9d3aa3827ffb5e59e38341cc62d42"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2620,
+      "row_sha256": "25f810e989a2bcd6179f55e1f64a113d5cadff92856b90691c8d75163cddcb9d"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2667,
+      "row_sha256": "cb5fe0866d22c063a0a0ef10faf2f5d1a815091dbf9064b012b03c7f0d22a130"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+        "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+        "bytes": 128966
+      },
+      "line_one_based": 104,
+      "row_sha256": "56f1a2a6e12e3d16f0447561ef5b9729838426adbc6f27a21d707987b60b758c"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+        "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+        "bytes": 128966
+      },
+      "line_one_based": 106,
+      "row_sha256": "db03c8b80107717863edc97b6be035cad7840a36ecd50d02c15a57b66767c80a"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/466",
+      "row_sha256": "25a5a8bdf146fc35536ee6cdb05b0ac5ab242b3d97dd4ed0e38edc281ef06fff"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/467",
+      "row_sha256": "a5602effcb74d47279aaab20be790910e0bf7261b514a7bc018ff0be59a92551"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/500",
+      "row_sha256": "17ba08e5fcdc37722f2ffae98df3f9aa883d063ec5bb1eac427490bcfe297f9c"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/501",
+      "row_sha256": "fdfa404ab924ed15f13dbad552aef8d895fe751d0b400790c359cfb6f9b5e245"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/subject-ledger.v1.json",
+        "sha256": "e91d86604d58b66f07bd9ce0c401a3dbb83307bf12534305cdddfada323d5cb7",
+        "bytes": 150235
+      },
+      "pointer": "/109",
+      "row_sha256": "94f55d9d290bb8f2d390b92f05ccee13e49e18cf8f169d3722fb4b77b87e760f"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/subject-ledger.v1.json",
+        "sha256": "e91d86604d58b66f07bd9ce0c401a3dbb83307bf12534305cdddfada323d5cb7",
+        "bytes": 150235
+      },
+      "pointer": "/117",
+      "row_sha256": "993dd006df03bc9f47431e8b300bd405a0fc0065c0ab0a0981a58be2d1dcb9ff"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/source-first-chunk-013.json",
+        "sha256": "e557b9b0b6151bd2b61404357739ef8814b30b30a7c6582a9a969d3e7f1a703e",
+        "bytes": 17080
+      },
+      "pointer": "/uncertainties/0",
+      "row_sha256": "e30527d2a1b1c6b318be1048c08193506e5d1f1ea5bceed53f972d026c258161"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-requirement-review.042-054.v1.json",
+        "sha256": "ac2c71c0d63b1e798ea6c6dbc1500bd5f439ab172a94dff96f956c91f6a2a750",
+        "bytes": 20205
+      },
+      "pointer": "/rows/2",
+      "row_sha256": "5e0a4b5948d735fead5b69ec2a2cce9efe7d055b4c449020c5c31bd05cb94723"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.001-005.v1.json",
+        "sha256": "658c7ef1f078788160555edd69551c728b40f7fe2bbd7fc17c7d1d948121b1d6",
+        "bytes": 117742
+      },
+      "pointer": "/rows/0",
+      "row_sha256": "1fdb9ac05c0cd777c55cdb82f2d7377fa29c43bd90dc9ded90c996fd1629e79b"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/retained-source-uncertainties.v1.json",
+        "sha256": "197895ce32a91bc5d8dc7c005d965d93f396c84c7eb1449ca612e5e602b141ba",
+        "bytes": 1558
+      },
+      "pointer": "/source_inconsistencies/0",
+      "row_sha256": "ae6a7545a2aa7aa67f0b588068fc26b25b13a0ebd229b45e592effae83b24cb6"
+    },
+    {
+      "kind": "initial_subject_review",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 112,
+      "row_sha256": "7a5d283128624cdabd31d11798092aba7cbe48be0f676b3c25724364ce5e5da8"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1561,
+      "row_sha256": "4baef7eee14e2a9cd5d290e235760442bcf439fb24b34f64a7bc4ef2bbaefe6a"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1562,
+      "row_sha256": "207297d1f1386398415f86b575ed7a18805a47430ccfd6325d6698010bfefed9"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1563,
+      "row_sha256": "93ec33a10904313b43f8a5d140863af6de2a8c67f427da060cbfbd2fb96a4b4c"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1564,
+      "row_sha256": "6d8c8db0cdf0613d853ccaf1df052b4c1e56eca71fc56651baf72afe3c67cbc6"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1565,
+      "row_sha256": "cdcbd43459c941bbdb761313f421d2e98f0968d7ce0c39df08edb0498418244b"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1566,
+      "row_sha256": "97731fd8950674d7d86a3f86e5fc90b33d70328a5f85a139ad8cb16f85ce695e"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 3732,
+      "row_sha256": "38014a0b5e3c0b20aabdf72dea9aaff2624e017d90ed4dfd535f05c5f6008d54"
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 3733,
+      "row_sha256": "e6869f771f56dde2f289cfac5479388e70e29f5bcd17f9d6000df0b14667bb64"
+    },
+    {
+      "kind": "historical_subject_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+        "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+        "bytes": 5138775
+      },
+      "line_one_based": 393,
+      "row_sha256": "9ca8e4b13b0f56040b0f4beeb947cb1f4bdf7993032aa813f9146603f9e17768"
+    },
+    {
+      "kind": "historical_subject_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+        "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+        "bytes": 5138775
+      },
+      "line_one_based": 395,
+      "row_sha256": "dcc8dfd00c9771352dc158da06c8b116c81a400d1c779320f0d656926e2a001b"
+    },
+    {
+      "kind": "historical_evidence_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 733,
+      "row_sha256": "2b8a38ab48c5e62c97791376c15490788dc34fed7df68f0f8dc8c8e81c4b6cae"
+    },
+    {
+      "kind": "historical_evidence_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 740,
+      "row_sha256": "781671c7480a691ba1dedb651c8ad3e4f3b39f017ee047711ead42cedc4ed5e9"
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/41",
+      "row_sha256": "7b791132f17beff03f53d1d72f015860c567fddd44b42b77fadee82ebd942ddc",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+          "evidence_id": "EVID-SUCC-8997CECFCFFD"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/640",
+      "row_sha256": "86b4649bf03e9d25e69f013d8beea2c4d2a66523677144cf799ab55917edb8b1",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-F066F35B29BE",
+          "evidence_id": "EVID-SUCC-5B185A8A66B9"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/1432",
+      "row_sha256": "7d166f49544aca9199fdcf32c44cad84758bc577e0777378c3233994f6439611",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-952896DEE8C8"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/1433",
+      "row_sha256": "33b32fc7d88370837ccda059043d2ec72ab1204f775c96fc14a950b24de4bfd5",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-A6A3834D6447"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/2309",
+      "row_sha256": "91fac55fd92de772eeb51d08559d000929e80f7e0cfa9714c1410152425c52ec",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-8C547916DFE5",
+          "evidence_id": "EVID-SUCC-267D572896F9"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+          "evidence_id": "EVID-SUCC-7990A9A62DE8"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/2587",
+      "row_sha256": "9a548e959709b4c653d33f3b82f6ed2a21f84817311122e100bf2dd32a880475",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+          "evidence_id": "EVID-SUCC-74C214138AAD"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/4191",
+      "row_sha256": "e1780ec35fab42ed6981d241431dcd8c605e4b13dbac0e8c9779d146552b1ccc",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+          "evidence_id": "EVID-SUCC-344E67A5005A"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/4227",
+      "row_sha256": "82f35c01fdf1791be8faae3c95d6363f67e2d9851a395777abe40f23687240da",
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-A6A3834D6447"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/211",
+      "row_sha256": "0fe2b67fa969462f566c1672637e61fd0fb892e1d684fb58f79f675d3a44829e"
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/760",
+      "row_sha256": "a12adfc84539acab5701ed29f20ddeadf048321775499ad1ffd5dd6a621b9ed7"
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/995",
+      "row_sha256": "b93a00d70120e5ae705db144615ea2529fd254fa3bfe58b9dc3bb2761babecbe"
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/353",
+      "row_sha256": "acb0bf0868ae6efe0ad163837e3b93970820ce9e9c94db1c5120e653a582ec06",
+      "additive_disposition": "Preserve the original contrast or unresolved-procedure requirement; replace the current relationship’s adjacent92 premise with explicit93. No endpoint/type/requirement is retired."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/417",
+      "row_sha256": "2c753d5bf5acc0452816db6dae02863d899f51d563f9bedc758c9fb40525fce8",
+      "additive_disposition": "Preserve the original contrast or unresolved-procedure requirement; replace the current relationship’s adjacent92 premise with explicit93. No endpoint/type/requirement is retired."
+    }
+  ],
+  "scope": "Only identified current portions and support conclusions are newly qualified. No historical before ledger is changed and no fresh original-key completion population is claimed."
+}

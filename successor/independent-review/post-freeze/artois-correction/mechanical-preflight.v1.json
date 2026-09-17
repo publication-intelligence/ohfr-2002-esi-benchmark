@@ -1,0 +1,60 @@
+{
+  "schema_version": "post-freeze-source-proposal-mechanical-preflight-v1",
+  "status": "read_only_preflight_pass; independent source approval pending",
+  "recorded_at": "2026-09-17T06:00:33.667237+00:00",
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/artois-correction/proposed-source-benchmark.v3.json",
+    "sha256": "5a3f59090b5c8e12668f761d228e5759e5a5cb19ee78e3555906c86912473919",
+    "bytes": 6740477
+  },
+  "source_state": {
+    "path": "successor/evaluation-state.source-correction-v3.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "copied_pre_state": {
+    "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "original_canonical_state_unchanged": {
+    "path": "successor/evaluation-state.json",
+    "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+    "bytes": 15542
+  },
+  "helper_access": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "native_schema_loader_unchanged": true,
+  "state_cli_validate": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "proposal_canonical_hash_pass": true,
+  "v2_to_proposal_cli_changes": [
+    {
+      "entity_type": "relationship",
+      "entity_id": "REL-SUCC-8AD7BFC51F21",
+      "action": "remove"
+    },
+    {
+      "entity_type": "benchmark",
+      "entity_id": "ohfr-2002-study-source-successor-v1",
+      "action": "update",
+      "fields": [
+        "independent_review_provenance",
+        "status"
+      ]
+    }
+  ],
+  "content_equality": "All531 subjects/3297 evidence/617 tasks/226 exclusions/147 uncertainties and all500 retained relationships equal frozenv2 exact JSON values.",
+  "deliberately_pending_final_wrapper": {
+    "only_final_schema_error": "freeze: 'frozen_at' is a required property",
+    "reason": "This is a sealed unapproved proposal, not a frozen final. The independent reviewer may finalize approval metadata only after substantive review and must attest the resulting exact final bytes."
+  },
+  "no_installed_runtime_access_or_reactivation": true,
+  "typed_freeze_run": false
+}

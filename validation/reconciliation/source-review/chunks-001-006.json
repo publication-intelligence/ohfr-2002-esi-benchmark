@@ -1,0 +1,2314 @@
+{
+  "schema_version": "source-only-semantic-comparison-partial-v1",
+  "review_id": "chunks-001-006",
+  "status": "bounded_source_review_complete_not_full_benchmark_approval",
+  "public_completeness_claims_allowed": false,
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "full_source_hash_recomputed": true,
+  "candidate_unexposed_attestation": {
+    "candidate_indexes_opened": false,
+    "candidate_results_opened": false,
+    "candidate_audits_opened": false,
+    "candidate_derived_measures_used": false,
+    "input_boundary": "Read only the input allowlist, allowlisted source/benchmark/discovery/policy/methodology files, installed PDF and ponytail skill instructions, and this reviewer's own outputs. No other workspace or task files opened.",
+    "metadata_limit": "Allowlisted files contain inherited identity strings; these were not used to select, name, score, or infer any candidate.",
+    "benchmark_preference_rule": "Neither counts, timestamps, incumbency, nor a mechanical label match determines quality."
+  },
+  "input_hashes_verified": [
+    {
+      "path": "source/source.pdf",
+      "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+    },
+    {
+      "path": "legacy/source/source-benchmark.v3.json",
+      "sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27"
+    },
+    {
+      "path": "native/source/source-benchmark.v2.json",
+      "sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c"
+    },
+    {
+      "path": "legacy/source/evaluation-policy.v2.json",
+      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62"
+    },
+    {
+      "path": "native/source/evaluation-policy.v4.json",
+      "sha256": "835112b6b8fc820d14ba1489f7940a72f71bd7913fe9e690ea789b9fab34843b"
+    },
+    {
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "path": "methodology/references/benchmark-review.md",
+      "sha256": "741f67c99bf2aa23f7b49fb88c705bfc0219704e2da02782a5c23afbcdbd40aa"
+    },
+    {
+      "path": "methodology/references/judgment-policy-v8.md",
+      "sha256": "0df26b5435fedae327ed7128856ef5664550c7bba0b4b5799d294a8f97241e17"
+    },
+    {
+      "path": "methodology/references/standard-policy-v8.md",
+      "sha256": "5164dc31e1442ffa0c37f93fbcf0f8913fffe396df2c318c360652362a6f5e3c"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "sha256": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pdf",
+      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "sha256": "1353e5061e5cc9988be43e54fe912a2c5b4b2e6bd2e069edb529786a0fde01a8"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "sha256": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pdf",
+      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "sha256": "b87631df54474bc7167f0eb7b4dd1e187cb75da7fe5a09d7697c2e798a66f154"
+    },
+    {
+      "path": "legacy/source/source-subject-chunk.CHUNK-001.json",
+      "sha256": "36866faa822f07013ed33b5c4e43f89b014e3a9b5335922a1f2a67597c034578"
+    },
+    {
+      "path": "legacy/source/source-subject-chunk.CHUNK-002.json",
+      "sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053"
+    },
+    {
+      "path": "legacy/source/source-subject-chunk.CHUNK-003.json",
+      "sha256": "d3c9ec3645b8ff0d0c755ddeebea36b6fe8f1c4a6483231e7474da7e697fa159"
+    },
+    {
+      "path": "legacy/source/source-subject-chunk.CHUNK-004.json",
+      "sha256": "d2531c6345809ae452eb4ce3963003ddc546417687b71648e6c477c46ee18ba3"
+    },
+    {
+      "path": "legacy/source/source-subject-chunk.CHUNK-005.json",
+      "sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+    },
+    {
+      "path": "legacy/source/source-subject-chunk.CHUNK-006.json",
+      "sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6"
+    },
+    {
+      "path": "native/source/source-subject-chunk.CHUNK-001.json",
+      "sha256": "85445ae2f986c9055c45b92899e02e4f3929d1c45cd8f7662a1e03319132643c"
+    },
+    {
+      "path": "native/source/source-subject-chunk.CHUNK-002.json",
+      "sha256": "6b9628305dce25867616592997a3657b2ed78b0232419a54b57f16875c892fdf"
+    },
+    {
+      "path": "native/source/source-subject-chunk.CHUNK-003.json",
+      "sha256": "35e538697d5f2dfb436fd22c044dff5157e2334ce852265dc95ce7cfb8339f71"
+    },
+    {
+      "path": "native/source/source-subject-chunk.CHUNK-004.json",
+      "sha256": "82f69c8c23f4cf8e78a1ac4c71802974652fffc2e6c01184793131add44fc618"
+    },
+    {
+      "path": "native/source/source-subject-chunk.CHUNK-005.json",
+      "sha256": "e84976b5ef52ea03ff3bab1596e17610191f2d431809aade5a0297d1d6c9e9ac"
+    },
+    {
+      "path": "native/source/source-subject-chunk.CHUNK-006.json",
+      "sha256": "eb4ec2ef0161883f0a1e3600d75456a3ae3cbdeeb14e035dcdf565debcfc2dc4"
+    },
+    {
+      "path": "legacy/source/source-subject-chunk.CHUNK-001.v2.json",
+      "sha256": "8bc6f13b0caf691e342232b6a9544da36889fa1bff41570581c728bf75c35fab"
+    }
+  ],
+  "coverage": {
+    "owned_chunks": [
+      "CHUNK-001",
+      "CHUNK-002",
+      "CHUNK-003",
+      "CHUNK-004",
+      "CHUNK-005",
+      "CHUNK-006"
+    ],
+    "owned_document_page_span": [
+      1,
+      158
+    ],
+    "prose_pages_semantically_inspected": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      116,
+      117,
+      118,
+      119,
+      120,
+      123,
+      124,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "prose_page_count": 40,
+    "additional_visual_pages": [
+      3,
+      127,
+      129
+    ],
+    "render_crosscheck_pages": [
+      151
+    ],
+    "total_distinct_source_pages_inspected": 43,
+    "packet_page_maps": {
+      "CHUNK-001": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "CHUNK-002": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "CHUNK-003": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "CHUNK-004": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "CHUNK-005": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        123,
+        124
+      ],
+      "CHUNK-006": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ]
+    },
+    "unreviewed_document_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      121,
+      122,
+      125,
+      126,
+      128,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158
+    ],
+    "reviewed_subject_ids": {
+      "legacy": [
+        "SUBJ-01EA4BAB8CCB",
+        "SUBJ-1D265C5817DA",
+        "SUBJ-204E54A098BB",
+        "SUBJ-20E4EBF24394",
+        "SUBJ-220425BEB2C4",
+        "SUBJ-2E23A2959678",
+        "SUBJ-2EC00EBD4264",
+        "SUBJ-38178ECBD1BB",
+        "SUBJ-3AB3152807AE",
+        "SUBJ-3E437C3A371B",
+        "SUBJ-3F86254AD12B",
+        "SUBJ-4118071D0D99",
+        "SUBJ-419FB0B5E7C6",
+        "SUBJ-4469F2CD371C",
+        "SUBJ-47DCC5FC038C",
+        "SUBJ-4BA72B2B7568",
+        "SUBJ-4F0D895676CA",
+        "SUBJ-51C8B1E0D8D5",
+        "SUBJ-5EF2BDD9F1CB",
+        "SUBJ-6DF73D7C8E48",
+        "SUBJ-6F8F25F2EBF4",
+        "SUBJ-70B58825E6C4",
+        "SUBJ-714A76F13EA0",
+        "SUBJ-721D8227847E",
+        "SUBJ-7781CDB98ADC",
+        "SUBJ-7AB98322DB7C",
+        "SUBJ-7DD4ADF50985",
+        "SUBJ-7E31C817E0F3",
+        "SUBJ-88F6BA8DD690",
+        "SUBJ-8C9C716904DC",
+        "SUBJ-912AF76A45C9",
+        "SUBJ-9BD1D016501B",
+        "SUBJ-9D27F4F8AFC9",
+        "SUBJ-9FDEFF1A0CED",
+        "SUBJ-A2641D6D46FA",
+        "SUBJ-A2EE5C9776B0",
+        "SUBJ-A6AE69CE5BCB",
+        "SUBJ-A8857B12C90E",
+        "SUBJ-B6A49FB2D4F1",
+        "SUBJ-B8BCB9562384",
+        "SUBJ-BABCE11981EE",
+        "SUBJ-BB6B1C3EC343",
+        "SUBJ-BE94BD9EED63",
+        "SUBJ-C12949E4F2AB",
+        "SUBJ-C6E8F7428FDC",
+        "SUBJ-C78EA2AE8ED3",
+        "SUBJ-CCDE14355C8F",
+        "SUBJ-CD1DA90B6666",
+        "SUBJ-CD9D1353AC97",
+        "SUBJ-D09EA66D177F",
+        "SUBJ-D24385753F88",
+        "SUBJ-F53D90D5BB05",
+        "SUBJ-F74A3EA15C8C",
+        "SUBJ-F8282C0D5793",
+        "SUBJ-F93C5DA22925",
+        "SUBJ-FAD31E1F4BA5",
+        "SUBJ-FC7CB3CE5F23",
+        "SUBJ-FF2C47900447"
+      ],
+      "native": [
+        "SUBJ-0027",
+        "SUBJ-0028",
+        "SUBJ-0029",
+        "SUBJ-0030",
+        "SUBJ-0057",
+        "SUBJ-0059",
+        "SUBJ-0060",
+        "SUBJ-0062",
+        "SUBJ-0063",
+        "SUBJ-0064",
+        "SUBJ-0088",
+        "SUBJ-0089",
+        "SUBJ-0098",
+        "SUBJ-0099",
+        "SUBJ-0106",
+        "SUBJ-0120",
+        "SUBJ-0124",
+        "SUBJ-0126",
+        "SUBJ-0166",
+        "SUBJ-0167",
+        "SUBJ-0168",
+        "SUBJ-0169",
+        "SUBJ-0170",
+        "SUBJ-0171",
+        "SUBJ-0176",
+        "SUBJ-0177",
+        "SUBJ-0193",
+        "SUBJ-0206",
+        "SUBJ-0208",
+        "SUBJ-0209",
+        "SUBJ-0217"
+      ]
+    },
+    "unreviewed_scoped_subject_ids": {
+      "legacy": [
+        "SUBJ-004480766BB2",
+        "SUBJ-00E32E86F40F",
+        "SUBJ-012A4692EE4A",
+        "SUBJ-016C741BEF0F",
+        "SUBJ-026CB51C44A0",
+        "SUBJ-02B007FF4444",
+        "SUBJ-04567679013F",
+        "SUBJ-053B77956014",
+        "SUBJ-05523F9A8A64",
+        "SUBJ-08A665104833",
+        "SUBJ-08F766AA2A24",
+        "SUBJ-09053AC7B9D4",
+        "SUBJ-0B1988F09198",
+        "SUBJ-0B20401906C2",
+        "SUBJ-0B28FDE06122",
+        "SUBJ-0B8D29B04324",
+        "SUBJ-0BC2985C0581",
+        "SUBJ-0C2794B30BCE",
+        "SUBJ-0CA52229A931",
+        "SUBJ-0CA9324C85E4",
+        "SUBJ-0D5DB6F245D4",
+        "SUBJ-0D78AB1DC303",
+        "SUBJ-0E82B88892D9",
+        "SUBJ-0EA13A1C4249",
+        "SUBJ-0F961CC11807",
+        "SUBJ-101C418EAE81",
+        "SUBJ-104DAD984E96",
+        "SUBJ-1055B8DA9BB6",
+        "SUBJ-109F83866F13",
+        "SUBJ-10D272AD3042",
+        "SUBJ-1156BABEF1FD",
+        "SUBJ-1225808C2FB7",
+        "SUBJ-1314C721848A",
+        "SUBJ-13348431C766",
+        "SUBJ-13579ABC629E",
+        "SUBJ-138B555F7F86",
+        "SUBJ-148DFDDAEB81",
+        "SUBJ-14A7B64EE45E",
+        "SUBJ-14AC4E54F71A",
+        "SUBJ-15DAA30AEE4F",
+        "SUBJ-16BC2BE6B7EB",
+        "SUBJ-1729D5F35AC4",
+        "SUBJ-1865834725F2",
+        "SUBJ-198508D3FC54",
+        "SUBJ-1A314F0F50F9",
+        "SUBJ-1A795CB66BC6",
+        "SUBJ-1B3D5DD0E6B3",
+        "SUBJ-1D53B0E2A7B7",
+        "SUBJ-1D72D37379B5",
+        "SUBJ-1E21E78BD9D6",
+        "SUBJ-1E488AF8C763",
+        "SUBJ-1EDA8109CE40",
+        "SUBJ-1F03F7A46F3D",
+        "SUBJ-207B69D3D583",
+        "SUBJ-21562139C339",
+        "SUBJ-21BE2ABB9415",
+        "SUBJ-21D587BB6298",
+        "SUBJ-2257517BF8D8",
+        "SUBJ-23EAA42383A8",
+        "SUBJ-24C81D51A3C0",
+        "SUBJ-24C9F05029E1",
+        "SUBJ-24DDAEADBC36",
+        "SUBJ-250B0891458E",
+        "SUBJ-25E2FAA6B532",
+        "SUBJ-2788BE0FC95D",
+        "SUBJ-27C137D334FC",
+        "SUBJ-2811A9AF5637",
+        "SUBJ-28DA371C7C71",
+        "SUBJ-2971571533AE",
+        "SUBJ-299EB407F3AE",
+        "SUBJ-29C43B2CDB31",
+        "SUBJ-2A495119285C",
+        "SUBJ-2AA16A2AEBC2",
+        "SUBJ-2AE3AD00F2C1",
+        "SUBJ-2B03388EC92C",
+        "SUBJ-2B17C3E16DBE",
+        "SUBJ-2B8C16332C03",
+        "SUBJ-2BAFA0E3DF66",
+        "SUBJ-2BC7DC12D8AE",
+        "SUBJ-2C0A21C26B6E",
+        "SUBJ-2C457D62F337",
+        "SUBJ-2DD8B10A5910",
+        "SUBJ-2E3097378FF3",
+        "SUBJ-2E403036FEDD",
+        "SUBJ-2EBED1C5133F",
+        "SUBJ-2EE4CD82AF04",
+        "SUBJ-2F438E0C229B",
+        "SUBJ-2F4A1CC30088",
+        "SUBJ-30CAE18651DF",
+        "SUBJ-30DCA37FAB85",
+        "SUBJ-3160A4C8D86E",
+        "SUBJ-32B77D20BDA5",
+        "SUBJ-32D6956D024F",
+        "SUBJ-32DAF3891228",
+        "SUBJ-33C2A3E0F962",
+        "SUBJ-3493D82174A5",
+        "SUBJ-34D5414EF490",
+        "SUBJ-34D960B49827",
+        "SUBJ-37476444BF1B",
+        "SUBJ-3875017EB588",
+        "SUBJ-3882D54BA8CF",
+        "SUBJ-38F843EB1160",
+        "SUBJ-3944FAD1A1BD",
+        "SUBJ-3ADE4DDC6D33",
+        "SUBJ-3AE2699B3A58",
+        "SUBJ-3C1CBF1748B5",
+        "SUBJ-3CC33E7A17B0",
+        "SUBJ-3D339A98CBD0",
+        "SUBJ-3E660F204DA5",
+        "SUBJ-3F90A731B7DA",
+        "SUBJ-40A2F689E89D",
+        "SUBJ-41BDCC6C49B6",
+        "SUBJ-427CF60736A4",
+        "SUBJ-428CB0A48764",
+        "SUBJ-431D7FF198C0",
+        "SUBJ-437828D62418",
+        "SUBJ-439F2B36DC85",
+        "SUBJ-439FD434C8E4",
+        "SUBJ-444D7FBD5419",
+        "SUBJ-44B0ED2F05CE",
+        "SUBJ-44E91CC8F640",
+        "SUBJ-4509F9764C5D",
+        "SUBJ-4532DBC2B460",
+        "SUBJ-45613C581C32",
+        "SUBJ-456A016200B6",
+        "SUBJ-45CBF744FC9E",
+        "SUBJ-464D45DF2952",
+        "SUBJ-478EEEAB8547",
+        "SUBJ-47E76C70E517",
+        "SUBJ-483C7B7FC93E",
+        "SUBJ-487B3DBB76B2",
+        "SUBJ-48A873D30327",
+        "SUBJ-48AC91C1BB99",
+        "SUBJ-48F14363F852",
+        "SUBJ-49123E29CFC9",
+        "SUBJ-497BC7CD4FB7",
+        "SUBJ-49D9D87F335B",
+        "SUBJ-4A820DFF1196",
+        "SUBJ-4A9B0267CF45",
+        "SUBJ-4AA7882E57E8",
+        "SUBJ-4B90382F8A8F",
+        "SUBJ-4D46CB5248E8",
+        "SUBJ-4D75353E54DC",
+        "SUBJ-4EEB720548CB",
+        "SUBJ-4FFA0844195F",
+        "SUBJ-5046CC17424F",
+        "SUBJ-50E754A4A36D",
+        "SUBJ-518421847D16",
+        "SUBJ-51B6BD7A7FF0",
+        "SUBJ-5291CCBF88D7",
+        "SUBJ-52EDE83D961E",
+        "SUBJ-54392412E8DB",
+        "SUBJ-54BA40D54EA6",
+        "SUBJ-559FF41B693D",
+        "SUBJ-56108E7D62E1",
+        "SUBJ-563AA60CC61A",
+        "SUBJ-56DD2F6050B8",
+        "SUBJ-574A727232D5",
+        "SUBJ-580EEC0DACF2",
+        "SUBJ-59856BDB5388",
+        "SUBJ-59DBEB992C67",
+        "SUBJ-5A2D0BF5B94C",
+        "SUBJ-5A40F49AF7C6",
+        "SUBJ-5B4E10CA0544",
+        "SUBJ-5BC8E99A4028",
+        "SUBJ-5C73C2F7782A",
+        "SUBJ-5C7EC243B160",
+        "SUBJ-5C994F5FBCB1",
+        "SUBJ-5D4F73F5073B",
+        "SUBJ-5DA5CABC46A3",
+        "SUBJ-5E5F1A9C8AF1",
+        "SUBJ-5F74ACED6A87",
+        "SUBJ-5FACAC7C9904",
+        "SUBJ-5FF8C913291F",
+        "SUBJ-603E23DB72BE",
+        "SUBJ-611F589EF4AE",
+        "SUBJ-6167BFD8404F",
+        "SUBJ-61D255C3A569",
+        "SUBJ-61E8D4E72C8D",
+        "SUBJ-61EEE9FD0893",
+        "SUBJ-61FFE953CB63",
+        "SUBJ-628B511D8514",
+        "SUBJ-62973E3BC57E",
+        "SUBJ-62D198F2B174",
+        "SUBJ-6357FA7E8117",
+        "SUBJ-6471234F0304",
+        "SUBJ-653ECB3F81B4",
+        "SUBJ-65425CEEC202",
+        "SUBJ-6550A91F0AA4",
+        "SUBJ-65811516D024",
+        "SUBJ-6593E9FCB27C",
+        "SUBJ-65C142D42E4A",
+        "SUBJ-6616EE8269DE",
+        "SUBJ-6658D5743C1B",
+        "SUBJ-67553FEC08F9",
+        "SUBJ-685E1518590F",
+        "SUBJ-68E6749C9CEC",
+        "SUBJ-69FD1DE24030",
+        "SUBJ-6A817DC357A8",
+        "SUBJ-6AEBE51FBFDA",
+        "SUBJ-6BFAF4B0A3F1",
+        "SUBJ-6C15D906DC25",
+        "SUBJ-6CFC867B5A0E",
+        "SUBJ-6D14246BD5DB",
+        "SUBJ-6D4DD1187342",
+        "SUBJ-6DD938C8BF9E",
+        "SUBJ-6DF3AE004424",
+        "SUBJ-6DFE11F16519",
+        "SUBJ-6E1413FB4E60",
+        "SUBJ-6EA57368DEA2",
+        "SUBJ-6EB39D4BADF0",
+        "SUBJ-6F60AC9A6DCD",
+        "SUBJ-6F77FC0A27C8",
+        "SUBJ-6F8CE59FD983",
+        "SUBJ-70790127F448",
+        "SUBJ-70984770DFC1",
+        "SUBJ-71287C642E57",
+        "SUBJ-71F706538E01",
+        "SUBJ-73243CBA53F8",
+        "SUBJ-739CE16DD3DE",
+        "SUBJ-7413620594F1",
+        "SUBJ-744C7C41CE77",
+        "SUBJ-7487241038A4",
+        "SUBJ-749D591E75F0",
+        "SUBJ-74A3E1496125",
+        "SUBJ-76110D390352",
+        "SUBJ-769005501CA7",
+        "SUBJ-7794258FEAAA",
+        "SUBJ-7797A861F8DE",
+        "SUBJ-77D426F5431D",
+        "SUBJ-77E95F41E921",
+        "SUBJ-788AFAEA1E95",
+        "SUBJ-78E7E110E39E",
+        "SUBJ-78F9B989096A",
+        "SUBJ-79F5882E3DFD",
+        "SUBJ-7A58BBEC77F3",
+        "SUBJ-7B3A1F691123",
+        "SUBJ-7B3CD6490ABF",
+        "SUBJ-7C4EDA841F6F",
+        "SUBJ-7C777E929055",
+        "SUBJ-7D163AC4CAC9",
+        "SUBJ-7DA3AC6BBD82",
+        "SUBJ-7E0A82421BD5",
+        "SUBJ-7E38947515C7",
+        "SUBJ-7EB56046A8EF",
+        "SUBJ-7EE262BC99D9",
+        "SUBJ-7F31150A764B",
+        "SUBJ-7F8A478F9D9C",
+        "SUBJ-7FCDE290728D",
+        "SUBJ-7FD6A9D39642",
+        "SUBJ-80311336472C",
+        "SUBJ-805F573AA1D7",
+        "SUBJ-80D0BC88A45D",
+        "SUBJ-829AC9E0A00A",
+        "SUBJ-8358DF32F380",
+        "SUBJ-8463BBD4250F",
+        "SUBJ-848E9E4E0D39",
+        "SUBJ-850B852DD31C",
+        "SUBJ-852C8CB05E66",
+        "SUBJ-86A8490D12E7",
+        "SUBJ-86C6F800D3C2",
+        "SUBJ-87A650E5EE9B",
+        "SUBJ-8988E075359C",
+        "SUBJ-8B6F73EEA127",
+        "SUBJ-8D5593BB3628",
+        "SUBJ-8DC242203EA6",
+        "SUBJ-8E0F25524063",
+        "SUBJ-8E5FAA86A8CB",
+        "SUBJ-8F372A6D509E",
+        "SUBJ-8F772DDFA4D1",
+        "SUBJ-8F9CFD997185",
+        "SUBJ-908A8D384BC8",
+        "SUBJ-916A4D30844C",
+        "SUBJ-91B3D5511305",
+        "SUBJ-9216E0E5FA9D",
+        "SUBJ-93AA68DD1D65",
+        "SUBJ-93D2B51DB37C",
+        "SUBJ-94B113752BC9",
+        "SUBJ-953E121B21F2",
+        "SUBJ-959E7676621B",
+        "SUBJ-95C2C73FD66C",
+        "SUBJ-95D7BA4A7CF1",
+        "SUBJ-95E9677EE6B0",
+        "SUBJ-96191F861334",
+        "SUBJ-967BE13B2110",
+        "SUBJ-97128EB89D78",
+        "SUBJ-97B8BE1E340B",
+        "SUBJ-97D045DEA6D5",
+        "SUBJ-97DE694FDD11",
+        "SUBJ-986DEE644E2F",
+        "SUBJ-98D32FFD2BEA",
+        "SUBJ-994B3E5B1E91",
+        "SUBJ-9965655E58E6",
+        "SUBJ-9990E8A5516A",
+        "SUBJ-99E7C9675526",
+        "SUBJ-9ADD4E92435B",
+        "SUBJ-9B38257CF7AA",
+        "SUBJ-9C3804C3F2CC",
+        "SUBJ-9DB0C36FBF94",
+        "SUBJ-9DB8852B8A2A",
+        "SUBJ-9DCEB4B38770",
+        "SUBJ-9F7C2AE9DCF6",
+        "SUBJ-A03A0F154A0A",
+        "SUBJ-A05FD9ED852B",
+        "SUBJ-A103C7D9B152",
+        "SUBJ-A12276801447",
+        "SUBJ-A2A7299F7165",
+        "SUBJ-A2ABBB904F42",
+        "SUBJ-A3A0997ADD8D",
+        "SUBJ-A3BE0DF17CCF",
+        "SUBJ-A491C1BF80D2",
+        "SUBJ-A4CF26547E4E",
+        "SUBJ-A5475CA6DC70",
+        "SUBJ-A5A5326D21D2",
+        "SUBJ-A64A96661A5D",
+        "SUBJ-A6A70A870C7B",
+        "SUBJ-A6D7A0FA07E4",
+        "SUBJ-A722951A6E72",
+        "SUBJ-A7C502BBBBAE",
+        "SUBJ-A866F3A43C0C",
+        "SUBJ-A881C96B7F5B",
+        "SUBJ-A8E006425D4D",
+        "SUBJ-AA55B8277809",
+        "SUBJ-AAEDA96A17B5",
+        "SUBJ-ABCE0B740A17",
+        "SUBJ-AC3BF591EBEB",
+        "SUBJ-AD4481D681F7",
+        "SUBJ-AE0B2AF99CC0",
+        "SUBJ-AF316C1345E0",
+        "SUBJ-AF5A15D64804",
+        "SUBJ-B1C602729F9A",
+        "SUBJ-B1CE6CEBD19E",
+        "SUBJ-B28EFB40156D",
+        "SUBJ-B2C6EC579882",
+        "SUBJ-B2FB0F518FFE",
+        "SUBJ-B33337AE7FB8",
+        "SUBJ-B34E7962AC9A",
+        "SUBJ-B397D42EE2D1",
+        "SUBJ-B6158B8EBEB7",
+        "SUBJ-B669DF379C64",
+        "SUBJ-B785633B9649",
+        "SUBJ-B7AF48A78D17",
+        "SUBJ-B83DEEFA8446",
+        "SUBJ-B948E7AE5AB1",
+        "SUBJ-B991F2E17796",
+        "SUBJ-B9B417663202",
+        "SUBJ-BA188573DB13",
+        "SUBJ-BA194620D159",
+        "SUBJ-BA757E64D0E8",
+        "SUBJ-BB3C730BF87D",
+        "SUBJ-BBA116A85CC0",
+        "SUBJ-BBED36EB31F1",
+        "SUBJ-BC03F3C72495",
+        "SUBJ-BC209B7A802C",
+        "SUBJ-BC33DA2D04F0",
+        "SUBJ-BC854EC092B5",
+        "SUBJ-BD1CD57723CC",
+        "SUBJ-BD93A4C2E741",
+        "SUBJ-BDC53DCB2EC8",
+        "SUBJ-BE345823A19B",
+        "SUBJ-BE40FD69C2CD",
+        "SUBJ-BFE311A2E166",
+        "SUBJ-BFEB7BBAD7A7",
+        "SUBJ-C059DC25AC25",
+        "SUBJ-C0B249669D3E",
+        "SUBJ-C0C198431DF4",
+        "SUBJ-C0FD8136FD64",
+        "SUBJ-C2080038E1A6",
+        "SUBJ-C22D094CEFA1",
+        "SUBJ-C337C183D04B",
+        "SUBJ-C3BF91DF3AA3",
+        "SUBJ-C45FA725A472",
+        "SUBJ-C4627712E9B3",
+        "SUBJ-C63462B08260",
+        "SUBJ-C72984C54286",
+        "SUBJ-C73AFEE89F82",
+        "SUBJ-C99BEF4329AB",
+        "SUBJ-C9FB9A23F9CA",
+        "SUBJ-CB0D3FAEF01D",
+        "SUBJ-CC017C84CEDA",
+        "SUBJ-CD5A9944E320",
+        "SUBJ-CE04EBCFCB26",
+        "SUBJ-CE51EF93039B",
+        "SUBJ-CF5E62E32A81",
+        "SUBJ-CF8D3E589683",
+        "SUBJ-CFCF78DEA2E9",
+        "SUBJ-D0468878A350",
+        "SUBJ-D0BFB4DCB2C9",
+        "SUBJ-D0EB46119D86",
+        "SUBJ-D13E6821AC5A",
+        "SUBJ-D1892A2D0CAE",
+        "SUBJ-D192C543E6EA",
+        "SUBJ-D1CB14637990",
+        "SUBJ-D25D909895AE",
+        "SUBJ-D3166B0FA21A",
+        "SUBJ-D3434BD57585",
+        "SUBJ-D3DA6D94D350",
+        "SUBJ-D4122D06B5A0",
+        "SUBJ-D41730F1ADAF",
+        "SUBJ-D53856E03089",
+        "SUBJ-D5E95EEA0DAE",
+        "SUBJ-D691A62D01C8",
+        "SUBJ-D73ECE99D7F4",
+        "SUBJ-D7563A1B7387",
+        "SUBJ-D75A25C98C27",
+        "SUBJ-D791EE4202A9",
+        "SUBJ-D7EE67C68149",
+        "SUBJ-D8041C4825ED",
+        "SUBJ-D89294B27C3F",
+        "SUBJ-D8D6709A1029",
+        "SUBJ-D975C6C97E4D",
+        "SUBJ-D976AA029042",
+        "SUBJ-D9CDA733A3BE",
+        "SUBJ-DA2BE3FB912D",
+        "SUBJ-DA96B0CFF40C",
+        "SUBJ-DB7159C593B0",
+        "SUBJ-DB8776518E9D",
+        "SUBJ-DBDADC1AD72E",
+        "SUBJ-DC01DAC8A1A8",
+        "SUBJ-DCB7840B38D8",
+        "SUBJ-DCE698874E49",
+        "SUBJ-DD54290C4568",
+        "SUBJ-DD6B277A752E",
+        "SUBJ-DD6D2C828421",
+        "SUBJ-DDE9B84BB41D",
+        "SUBJ-DE4A43C1D673",
+        "SUBJ-DE81560C77ED",
+        "SUBJ-DEFC7BAEFE7B",
+        "SUBJ-DF1F5F3BBB57",
+        "SUBJ-E0160877F0AC",
+        "SUBJ-E02073DCCE88",
+        "SUBJ-E02FC5484051",
+        "SUBJ-E0F1ADC10593",
+        "SUBJ-E1AC239F4B10",
+        "SUBJ-E1ADD9D2A2C5",
+        "SUBJ-E1CE4C021968",
+        "SUBJ-E254822544E7",
+        "SUBJ-E35B0626DC12",
+        "SUBJ-E3D49183C024",
+        "SUBJ-E3E1BC8F7D6A",
+        "SUBJ-E48979B83669",
+        "SUBJ-E48BFD25ED4C",
+        "SUBJ-E4B38B5F7F19",
+        "SUBJ-E526A6721E07",
+        "SUBJ-E69D33F163F7",
+        "SUBJ-E70B71584159",
+        "SUBJ-E766F5AF1D69",
+        "SUBJ-E7862C08C3FA",
+        "SUBJ-E7CFB0A69808",
+        "SUBJ-E7E4971D0502",
+        "SUBJ-E80E2E62DBC3",
+        "SUBJ-E86BBB006405",
+        "SUBJ-E8A4B6055370",
+        "SUBJ-E9CAAC38ECAF",
+        "SUBJ-E9F85129286D",
+        "SUBJ-EB437A2CC4F3",
+        "SUBJ-EC1F1639FDA3",
+        "SUBJ-EC7B7B6AFA0C",
+        "SUBJ-ED687F74C2F4",
+        "SUBJ-ED691EA07AF3",
+        "SUBJ-EE76153EF263",
+        "SUBJ-EF3E3EA301D8",
+        "SUBJ-EF9606744803",
+        "SUBJ-EFC207E72AC2",
+        "SUBJ-EFD055822BCE",
+        "SUBJ-F05D5FA879A3",
+        "SUBJ-F08677ECC543",
+        "SUBJ-F1AFC8BFD346",
+        "SUBJ-F1FF0A161E2F",
+        "SUBJ-F2925ACEB68B",
+        "SUBJ-F2C278EAF64E",
+        "SUBJ-F47D25B65717",
+        "SUBJ-F4A44A1FF01F",
+        "SUBJ-F51AC118BD30",
+        "SUBJ-F51DCCB791F6",
+        "SUBJ-F574EB3F8922",
+        "SUBJ-F58B3410D5FB",
+        "SUBJ-F5B062C9BECD",
+        "SUBJ-F6624A24F2A3",
+        "SUBJ-F6AB55B20EC3",
+        "SUBJ-F721E0D94AFF",
+        "SUBJ-F76991AB799D",
+        "SUBJ-F76D690E0435",
+        "SUBJ-F77D0B8E25E6",
+        "SUBJ-F7BA10314C24",
+        "SUBJ-F846036302CE",
+        "SUBJ-F8D921C1EFC3",
+        "SUBJ-F91137718CE1",
+        "SUBJ-F9D20351E8BB",
+        "SUBJ-FA746B9B86AD",
+        "SUBJ-FB3BD1AB679E",
+        "SUBJ-FB5835208AEC",
+        "SUBJ-FB641B1AFEC7",
+        "SUBJ-FBB0517D0EE2",
+        "SUBJ-FDB1486D892D",
+        "SUBJ-FE1F5C8FCBEF",
+        "SUBJ-FEFC37A6D46D",
+        "SUBJ-FF629F6A748B",
+        "SUBJ-FF945BB01182",
+        "SUBJ-FFAFBFD21733"
+      ],
+      "native": [
+        "SUBJ-0001",
+        "SUBJ-0002",
+        "SUBJ-0003",
+        "SUBJ-0004",
+        "SUBJ-0005",
+        "SUBJ-0006",
+        "SUBJ-0007",
+        "SUBJ-0008",
+        "SUBJ-0009",
+        "SUBJ-0010",
+        "SUBJ-0011",
+        "SUBJ-0012",
+        "SUBJ-0013",
+        "SUBJ-0014",
+        "SUBJ-0015",
+        "SUBJ-0016",
+        "SUBJ-0017",
+        "SUBJ-0018",
+        "SUBJ-0019",
+        "SUBJ-0020",
+        "SUBJ-0021",
+        "SUBJ-0022",
+        "SUBJ-0023",
+        "SUBJ-0024",
+        "SUBJ-0025",
+        "SUBJ-0026",
+        "SUBJ-0031",
+        "SUBJ-0032",
+        "SUBJ-0033",
+        "SUBJ-0034",
+        "SUBJ-0035",
+        "SUBJ-0036",
+        "SUBJ-0037",
+        "SUBJ-0038",
+        "SUBJ-0039",
+        "SUBJ-0040",
+        "SUBJ-0041",
+        "SUBJ-0042",
+        "SUBJ-0043",
+        "SUBJ-0044",
+        "SUBJ-0045",
+        "SUBJ-0046",
+        "SUBJ-0047",
+        "SUBJ-0048",
+        "SUBJ-0049",
+        "SUBJ-0050",
+        "SUBJ-0051",
+        "SUBJ-0052",
+        "SUBJ-0053",
+        "SUBJ-0054",
+        "SUBJ-0055",
+        "SUBJ-0056",
+        "SUBJ-0058",
+        "SUBJ-0061",
+        "SUBJ-0065",
+        "SUBJ-0066",
+        "SUBJ-0067",
+        "SUBJ-0068",
+        "SUBJ-0069",
+        "SUBJ-0070",
+        "SUBJ-0071",
+        "SUBJ-0072",
+        "SUBJ-0073",
+        "SUBJ-0074",
+        "SUBJ-0075",
+        "SUBJ-0076",
+        "SUBJ-0077",
+        "SUBJ-0078",
+        "SUBJ-0079",
+        "SUBJ-0080",
+        "SUBJ-0081",
+        "SUBJ-0082",
+        "SUBJ-0083",
+        "SUBJ-0084",
+        "SUBJ-0085",
+        "SUBJ-0086",
+        "SUBJ-0087",
+        "SUBJ-0090",
+        "SUBJ-0091",
+        "SUBJ-0092",
+        "SUBJ-0093",
+        "SUBJ-0094",
+        "SUBJ-0095",
+        "SUBJ-0096",
+        "SUBJ-0097",
+        "SUBJ-0100",
+        "SUBJ-0101",
+        "SUBJ-0102",
+        "SUBJ-0103",
+        "SUBJ-0104",
+        "SUBJ-0105",
+        "SUBJ-0107",
+        "SUBJ-0108",
+        "SUBJ-0109",
+        "SUBJ-0110",
+        "SUBJ-0111",
+        "SUBJ-0112",
+        "SUBJ-0113",
+        "SUBJ-0114",
+        "SUBJ-0115",
+        "SUBJ-0116",
+        "SUBJ-0117",
+        "SUBJ-0118",
+        "SUBJ-0119",
+        "SUBJ-0121",
+        "SUBJ-0122",
+        "SUBJ-0123",
+        "SUBJ-0125",
+        "SUBJ-0127",
+        "SUBJ-0128",
+        "SUBJ-0129",
+        "SUBJ-0130",
+        "SUBJ-0131",
+        "SUBJ-0132",
+        "SUBJ-0133",
+        "SUBJ-0134",
+        "SUBJ-0135",
+        "SUBJ-0136",
+        "SUBJ-0137",
+        "SUBJ-0138",
+        "SUBJ-0139",
+        "SUBJ-0140",
+        "SUBJ-0141",
+        "SUBJ-0142",
+        "SUBJ-0143",
+        "SUBJ-0144",
+        "SUBJ-0145",
+        "SUBJ-0146",
+        "SUBJ-0147",
+        "SUBJ-0148",
+        "SUBJ-0149",
+        "SUBJ-0150",
+        "SUBJ-0151",
+        "SUBJ-0152",
+        "SUBJ-0153",
+        "SUBJ-0154",
+        "SUBJ-0155",
+        "SUBJ-0156",
+        "SUBJ-0157",
+        "SUBJ-0158",
+        "SUBJ-0159",
+        "SUBJ-0160",
+        "SUBJ-0161",
+        "SUBJ-0162",
+        "SUBJ-0163",
+        "SUBJ-0164",
+        "SUBJ-0165",
+        "SUBJ-0172",
+        "SUBJ-0173",
+        "SUBJ-0174",
+        "SUBJ-0175",
+        "SUBJ-0178",
+        "SUBJ-0179",
+        "SUBJ-0180",
+        "SUBJ-0181",
+        "SUBJ-0182",
+        "SUBJ-0183",
+        "SUBJ-0184",
+        "SUBJ-0185",
+        "SUBJ-0186",
+        "SUBJ-0187",
+        "SUBJ-0188",
+        "SUBJ-0189",
+        "SUBJ-0190",
+        "SUBJ-0191",
+        "SUBJ-0192",
+        "SUBJ-0194",
+        "SUBJ-0195",
+        "SUBJ-0196",
+        "SUBJ-0197",
+        "SUBJ-0198",
+        "SUBJ-0199",
+        "SUBJ-0200",
+        "SUBJ-0201",
+        "SUBJ-0202",
+        "SUBJ-0203",
+        "SUBJ-0204",
+        "SUBJ-0205",
+        "SUBJ-0207",
+        "SUBJ-0210",
+        "SUBJ-0211",
+        "SUBJ-0212",
+        "SUBJ-0213",
+        "SUBJ-0214",
+        "SUBJ-0215",
+        "SUBJ-0216",
+        "SUBJ-0218"
+      ]
+    },
+    "limitations": [
+      "This is a targeted semantic comparison, not an item-complete approval or renewed freeze.",
+      "Label/page inventories were used for orientation only. Unlisted subjects, tasks and relationships are unreviewed.",
+      "For cross-chapter records, only the cited page packet is verified; the rest of their treatment and whole-book priority remain unreviewed.",
+      "No exhaustive fresh omission claim: source-first reading found meaningful lost distinctions/access, but did not establish every missing topic."
+    ]
+  },
+  "semantic_crosswalk": [
+    {
+      "crosswalk_id": "CW-001006-01",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-4469F2CD371C"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0027"
+      ],
+      "verified_document_pages": [
+        19,
+        20
+      ],
+      "source_pages": [
+        19,
+        20
+      ],
+      "judgment": "Native includes the same training hierarchy and qualified guild openness, plus small workshops and exceptional factories. Both preserve the authorial correction to a wholly closed guild model.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-02",
+      "relation": "split",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-C12949E4F2AB"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0027",
+        "SUBJ-0057"
+      ],
+      "verified_document_pages": [
+        19
+      ],
+      "source_pages": [
+        19
+      ],
+      "judgment": "Native distributes the institutional compagnonnage treatment into the guild record and keeps Menetra as an optional illustrated case; access survives without making biography a central theme.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-03",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-7781CDB98ADC",
+        "SUBJ-01EA4BAB8CCB"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0028"
+      ],
+      "verified_document_pages": [
+        20,
+        21
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "judgment": "The native combined unit retains the failed abolition/restoration, livret, combinations and the qualification that masters and workers could share craft solidarity.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-04",
+      "relation": "narrower",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-F53D90D5BB05"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0027",
+        "SUBJ-0028"
+      ],
+      "verified_document_pages": [
+        20
+      ],
+      "source_pages": [
+        20
+      ],
+      "judgment": "Native evidence acknowledges factories but its meaning/access emphasizes guilds and unrest. Legacy preserves the independently useful contrast between disciplined large factories and small workshops.",
+      "recommended_action": "Add a factory/work-discipline access route and explicit exceptional-scale distinction to the compact native treatment; a new subject is not necessarily required.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-05",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-9D27F4F8AFC9",
+        "SUBJ-51C8B1E0D8D5"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0029"
+      ],
+      "verified_document_pages": [
+        21,
+        22
+      ],
+      "source_pages": [
+        21,
+        22
+      ],
+      "judgment": "Native combines the event with its moral-economy explanation and explicitly preserves the correction that rioters defended precarious livelihoods. Essential priority is defensible for that integrated causal unit; it is not a simple relabeling of either legacy major unit.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-06",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-F93C5DA22925",
+        "SUBJ-4F0D895676CA",
+        "SUBJ-9FDEFF1A0CED"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0030"
+      ],
+      "verified_document_pages": [
+        22,
+        23
+      ],
+      "source_pages": [
+        22,
+        23
+      ],
+      "judgment": "Native coherently combines expanding wealth, patronage and visible inequality with access to culture and luxury; legacy separates useful facets. Either organization can work if facets remain retrievable.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-07",
+      "relation": "ambiguous",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-220425BEB2C4"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0059"
+      ],
+      "verified_document_pages": [
+        44,
+        45
+      ],
+      "source_pages": [
+        44,
+        45
+      ],
+      "judgment": "Native preserves the limited cultural backlash as a qualification but supplies no explicit backlash route. Legacy promotes the brief countercurrent to a separate major unit. The source supports the nuance, while a stand-alone major priority is uncertain.",
+      "recommended_action": "Keep the qualification and consider a backlash alias; do not automatically import the legacy priority.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-08",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-6DF73D7C8E48",
+        "SUBJ-6F8F25F2EBF4",
+        "SUBJ-C6E8F7428FDC",
+        "SUBJ-47DCC5FC038C"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0060"
+      ],
+      "verified_document_pages": [
+        45,
+        46
+      ],
+      "source_pages": [
+        45,
+        46
+      ],
+      "judgment": "Native retains press growth, foreign printing, incomplete supervision and circulation in one communications unit. Legacy better names foreign publication as a lookup route.",
+      "recommended_action": "Retain combined coverage; add foreign French-language press as an acceptable route.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-09",
+      "relation": "unmapped",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-721D8227847E"
+      ],
+      "native_subject_ids": [],
+      "verified_document_pages": [
+        46
+      ],
+      "source_pages": [
+        46
+      ],
+      "judgment": "No explicit counterpart for condemnation as publicity was found in scoped native meanings/stances/access; SUBJ-0061 is the nearest enclosing book-censorship unit. This is a lost explicit analytical distinction, not proof that all native censorship coverage is absent.",
+      "recommended_action": "Add the source-supported publicity paradox and Sorbonne/parlementary condemnation access to SUBJ-0061.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-10",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-CCDE14355C8F"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0062"
+      ],
+      "verified_document_pages": [
+        47,
+        48
+      ],
+      "source_pages": [
+        47,
+        48
+      ],
+      "judgment": "Native retains libraries and reading rooms, fees and social selectivity within literacy, print cost and reading-public composition; the legacy institutional distinction is accessible under the broader unit.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-11",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-B6A49FB2D4F1",
+        "SUBJ-CD9D1353AC97"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0063"
+      ],
+      "verified_document_pages": [
+        47,
+        48
+      ],
+      "source_pages": [
+        47,
+        48
+      ],
+      "judgment": "Native retains the contrast between broader literary societies and exclusive academies, including fees, election and noble overrepresentation. No separate subject is required to preserve this distinction.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-12",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-3F86254AD12B",
+        "SUBJ-B8BCB9562384",
+        "SUBJ-88F6BA8DD690"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0064"
+      ],
+      "verified_document_pages": [
+        48,
+        49
+      ],
+      "source_pages": [
+        48,
+        49
+      ],
+      "judgment": "Native combines institutional upheaval with continuing classical/Catholic instruction and new empirical science, preserving coexistence rather than a replacement narrative.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-13",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-FAD31E1F4BA5"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0088"
+      ],
+      "verified_document_pages": [
+        68,
+        69,
+        70
+      ],
+      "source_pages": [
+        68,
+        69,
+        70
+      ],
+      "judgment": "Both cover the integrated three-part reform plan and its need for confidence and loans. Essential status is supported by the sustained causal treatment.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-14",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-BB6B1C3EC343"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0098"
+      ],
+      "verified_document_pages": [
+        69,
+        71,
+        72,
+        74
+      ],
+      "source_pages": [
+        69,
+        71,
+        72,
+        74
+      ],
+      "judgment": "Both preserve tax equality in principle while distinguishing objections to permanence, payment in kind and representation; the Notables are not uniformly anti-reform.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-15",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-F74A3EA15C8C"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0099"
+      ],
+      "verified_document_pages": [
+        69,
+        71,
+        74
+      ],
+      "source_pages": [
+        69,
+        71,
+        74
+      ],
+      "judgment": "The sampled treatment of provincial representation and elite/intendant safeguards is equivalent. Evidence on later demands for estates is outside this packet.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-16",
+      "relation": "changed",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-3AB3152807AE",
+        "SUBJ-BE94BD9EED63"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0089",
+        "SUBJ-0098",
+        "SUBJ-0099"
+      ],
+      "verified_document_pages": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "source_pages": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "judgment": "The essential native umbrella emphasizes failed endorsement and political crisis; qualified acceptance survives in the tax and provincial-assembly units. Legacy states the qualification directly in the umbrella and a separate major unit.",
+      "recommended_action": "Retain the native grouping but place the anti-obstructionist qualification directly in SUBJ-0089 for reliable single-unit retrieval.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-17",
+      "relation": "narrower",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-3E437C3A371B",
+        "SUBJ-A2EE5C9776B0"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0089",
+        "SUBJ-0106"
+      ],
+      "verified_document_pages": [
+        71,
+        72,
+        74
+      ],
+      "source_pages": [
+        71,
+        72,
+        74
+      ],
+      "judgment": "Native evidence captures the permanent audit veto, but explicit accounts/audit access is lost within the Notables and king units. Legacy provides a useful accountability route, although its two units overlap.",
+      "recommended_action": "Add financial transparency/permanent audit access to the native unit; avoid importing both legacy records unchanged.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-18",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-70B58825E6C4",
+        "SUBJ-4BA72B2B7568",
+        "SUBJ-912AF76A45C9"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0120"
+      ],
+      "verified_document_pages": [
+        88,
+        89,
+        90,
+        91,
+        93
+      ],
+      "source_pages": [
+        88,
+        89,
+        90,
+        91,
+        93
+      ],
+      "judgment": "The native combined unit preserves the crucial distinction that numerical doubling is ineffective if voting remains by order; equivalence is at the combined semantic level.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-19",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-A6AE69CE5BCB",
+        "SUBJ-9BD1D016501B"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0124"
+      ],
+      "verified_document_pages": [
+        90,
+        93,
+        94
+      ],
+      "source_pages": [
+        90,
+        93,
+        94
+      ],
+      "judgment": "Native faithfully integrates social repolarization with the shift in nation/patriotism language, both central in the source synthesis. Essential priority is defensible.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-20",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-A2641D6D46FA"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0126"
+      ],
+      "verified_document_pages": [
+        93
+      ],
+      "source_pages": [
+        93
+      ],
+      "judgment": "Both record doubling, cross-order candidacy and the unresolved voting method. Native essential versus legacy major is a priority disagreement, not a coverage gap.",
+      "recommended_action": "Retain treatment; whole-book priority requires review beyond this packet.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-21",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-7DD4ADF50985",
+        "SUBJ-FF2C47900447"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0166"
+      ],
+      "verified_document_pages": [
+        116,
+        117
+      ],
+      "source_pages": [
+        116,
+        117
+      ],
+      "judgment": "Native preserves the planned intervention, emotional session, score settling and widening assault on privilege. Its essential priority is locally supported by the source emphasis on the sweeping session.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-22",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-CD1DA90B6666"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0167"
+      ],
+      "verified_document_pages": [
+        117,
+        118
+      ],
+      "source_pages": [
+        117,
+        118
+      ],
+      "judgment": "Both sharply distinguish redeemable legal dues from peasant nonpayment, and credit peasants with effective destruction. Native essential versus legacy major reflects scope/priority judgment, not stronger evidence.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-23",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-4118071D0D99"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0168"
+      ],
+      "verified_document_pages": [
+        117,
+        118
+      ],
+      "source_pages": [
+        117,
+        118
+      ],
+      "judgment": "Both capture abrogation of binding mandates as the mechanism enabling reconstruction beyond electoral instructions.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-24",
+      "relation": "split",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-C78EA2AE8ED3"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0169",
+        "SUBJ-0170"
+      ],
+      "verified_document_pages": [
+        118,
+        119
+      ],
+      "source_pages": [
+        118,
+        119
+      ],
+      "judgment": "Native separates drafting/authority from principles and explicitly preserves qualified religious/expression protections. Legacy umbrella already includes both facets; two essential native units may create correlated weight.",
+      "recommended_action": "Keep the two distinct reader tasks if desired, but review overlap and aggregation before scoring; do not automatically count the split as added coverage.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-25",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-419FB0B5E7C6"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0171"
+      ],
+      "verified_document_pages": [
+        119,
+        120
+      ],
+      "source_pages": [
+        119,
+        120
+      ],
+      "judgment": "Native combines the veto with monarchien bicameralism and retains both legislative compromise and popular hostility. Legacy essential versus native major is a significant priority difference requiring whole-book calibration.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-26",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-BABCE11981EE",
+        "SUBJ-D24385753F88"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0176"
+      ],
+      "verified_document_pages": [
+        123,
+        124
+      ],
+      "source_pages": [
+        123,
+        124
+      ],
+      "judgment": "Native cross-chapter constitution unit retains weak executive and exclusion of deputies from ministries. Later adoption/settlement evidence is unreviewed here.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-27",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-2E23A2959678",
+        "SUBJ-204E54A098BB",
+        "SUBJ-FC7CB3CE5F23"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0177"
+      ],
+      "verified_document_pages": [
+        124
+      ],
+      "source_pages": [
+        124
+      ],
+      "judgment": "The native unit preserves active citizenship, indirect election, silver mark and exclusion of women with explicit routes. This is a successful synthesis of distinct but tightly linked facets.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-28",
+      "relation": "merge",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-2EC00EBD4264",
+        "SUBJ-D09EA66D177F",
+        "SUBJ-714A76F13EA0",
+        "SUBJ-7AB98322DB7C"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0193"
+      ],
+      "verified_document_pages": [
+        144,
+        145,
+        146
+      ],
+      "source_pages": [
+        144,
+        145,
+        146
+      ],
+      "judgment": "Native combines the oath, refractory clergy, regional lay pressure and opinion-poll interpretation without erasing the source argument. The later counter-revolution/deportation portion is unreviewed.",
+      "recommended_action": "Retain synthesis; add regional oath-taking/parish opinion routes to make preserved distinctions directly findable.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-29",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-F8282C0D5793",
+        "SUBJ-38178ECBD1BB"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0206"
+      ],
+      "verified_document_pages": [
+        148,
+        149
+      ],
+      "source_pages": [
+        148,
+        149
+      ],
+      "judgment": "Native connects unemployment/prices, guild abolition, worker organization and the Le Chapelier prohibition. Both keep the causal sequence and duration.",
+      "recommended_action": "retain semantic coverage",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-30",
+      "relation": "broader",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-8C9C716904DC",
+        "SUBJ-1D265C5817DA"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0208"
+      ],
+      "verified_document_pages": [
+        150,
+        151
+      ],
+      "source_pages": [
+        150,
+        151
+      ],
+      "judgment": "Native combines rise with the two office-exclusion measures and preserves uncertainty about republicanism. Its phrase anticolonial positions is broader than the verified evidence.",
+      "recommended_action": "Replace anticolonial with anti-slavery and support for political rights regardless of color; retain self-denying-ordinance access.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-31",
+      "relation": "changed",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-20E4EBF24394",
+        "SUBJ-5EF2BDD9F1CB",
+        "SUBJ-A8857B12C90E"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0209"
+      ],
+      "verified_document_pages": [
+        150,
+        151
+      ],
+      "source_pages": [
+        150,
+        151
+      ],
+      "judgment": "Native preserves the distinction between refusal to abolish slavery and free-colored political rights in one clear unit. Legacy contains two near-identical slavery-preservation records after narrowing a former compound subject, with leftover rights evidence and relationships.",
+      "recommended_action": "Reconcile legacy duplicate and retarget/retype inherited relationships; the native combined treatment is locally preferable.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    },
+    {
+      "crosswalk_id": "CW-001006-32",
+      "relation": "equivalent",
+      "direction": "legacy to native; broader/narrower describes native relative to listed legacy record(s)",
+      "legacy_subject_ids": [
+        "SUBJ-7E31C817E0F3"
+      ],
+      "native_subject_ids": [
+        "SUBJ-0217"
+      ],
+      "verified_document_pages": [
+        148
+      ],
+      "source_pages": [
+        148
+      ],
+      "judgment": "Both preserve the uncertainty: no demonstrated escape plan at Saint-Cloud, but prevention helped make later flight self-fulfilling. Native optional versus legacy major is a priority question.",
+      "recommended_action": "Retain the causal detail without upgrading merely because it is separately named.",
+      "uncertainty": "Only the cited page packet is adjudicated; other evidence pages are unreviewed."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F-001006-01",
+      "lineage": "legacy",
+      "severity": "high",
+      "kind": "duplicate_and_stale_split",
+      "entity_ids": [
+        "SUBJ-20E4EBF24394",
+        "SUBJ-5EF2BDD9F1CB",
+        "SUBJ-A8857B12C90E"
+      ],
+      "document_pages": [
+        151
+      ],
+      "finding": "The first two subjects now assert the same preservation-of-slavery decision. The narrowed SUBJ-20E4EBF24394 still includes free-colored rights evidence from its compound discovery record CHUNK-006-SUBJ-041. CHUNK-006-SUBJ-069 independently supplies the duplicated slavery subject.",
+      "recommendation": "Merge/reconcile the slavery records; keep free-colored citizenship distinct in meaning even if using one umbrella.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-02",
+      "lineage": "legacy",
+      "severity": "high",
+      "kind": "relationship_semantics",
+      "entity_ids": [
+        "REL-40DAB00EC7B6",
+        "REL-F901AD713C65",
+        "REL-A189108B8550",
+        "REL-728B1FB47A0B"
+      ],
+      "document_pages": [
+        151
+      ],
+      "finding": "Post-narrowing edges imply Robespierre's rise supports preservation of slavery, place free-colored political rights under preservation of slavery, treat one duplicate as part of the other, and contrast Barnave with a decision he recommended. These are inconsistent with the source passage and the final node meanings.",
+      "recommendation": "Re-adjudicate all edges incident to SUBJ-20E4EBF24394 after fixing its identity. Do not repair labels without checking endpoints and relation types.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-03",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "meaning_overreach",
+      "entity_ids": [
+        "SUBJ-0208"
+      ],
+      "document_pages": [
+        151
+      ],
+      "finding": "Anticolonial positions implies a broader opposition to colonial rule than the cited passage establishes. The inspected evidence concerns slavery and political rights of free people of color.",
+      "recommendation": "Use the narrower source-supported description: anti-slavery and support for political rights regardless of color.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-04",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "missing_explicit_distinction",
+      "entity_ids": [
+        "SUBJ-0061"
+      ],
+      "document_pages": [
+        46
+      ],
+      "finding": "Flexible censorship is represented, but the source's explicit paradox that public condemnation advertised books is absent from this meaning, stance and acceptable access; legacy SUBJ-721D8227847E preserves it.",
+      "recommendation": "Add the publicity paradox and a book-condemnation route within the existing unit.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-05",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "access_weakness",
+      "entity_ids": [
+        "SUBJ-0089",
+        "SUBJ-0106"
+      ],
+      "document_pages": [
+        71,
+        72,
+        74
+      ],
+      "finding": "The permanent audit dispute is in evidence but has no direct financial-accountability/audit access route; legacy SUBJ-3E437C3A371B and SUBJ-A2EE5C9776B0 make this retrieval possible.",
+      "recommendation": "Add a permanent-audit or financial-transparency route, preserving the distinction between tax consent and oversight of royal accounts.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-06",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "access_weakness",
+      "entity_ids": [
+        "SUBJ-0027",
+        "SUBJ-0028"
+      ],
+      "document_pages": [
+        20
+      ],
+      "finding": "The factory/work-discipline contrast is acknowledged only as supporting evidence within guild/unrest units; no explicit factory or work-discipline route preserves the independently useful source distinction.",
+      "recommendation": "Add an alias and treatment clause for exceptional factory scale/discipline; a separate subject is an editorial option.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-07",
+      "lineage": "both",
+      "severity": "medium",
+      "kind": "priority_and_dependency_review",
+      "entity_ids": [
+        "SUBJ-C78EA2AE8ED3",
+        "SUBJ-0169",
+        "SUBJ-0170",
+        "SUBJ-419FB0B5E7C6",
+        "SUBJ-0171"
+      ],
+      "document_pages": [
+        118,
+        119,
+        120
+      ],
+      "finding": "The Declaration is split into two essential native units while the essential legacy veto unit becomes part of one native major unit. Both source treatments are substantive. These changes can shift weighting without changing semantic coverage.",
+      "recommendation": "Review priority and dependency at whole-book scale; do not score the split/merge as a simple gain/loss.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-08",
+      "lineage": "native",
+      "severity": "low",
+      "kind": "task_specificity",
+      "entity_ids": [
+        "TASK-0089",
+        "TASK-0193",
+        "TASK-0208",
+        "TASK-0209"
+      ],
+      "document_pages": [
+        71,
+        72,
+        74,
+        144,
+        145,
+        146,
+        150,
+        151
+      ],
+      "finding": "The four inspected tasks share one general causes/consequences/qualifications template. They are answerable, but do not name the decisive contrasts that the source and legacy task formulations make explicit.",
+      "recommendation": "Rewrite representative questions around qualified Notables support, oath geography/lay pressure, tactical versus long-run office exclusion, and slavery versus free-colored rights. Retain candidate-unexposed provenance; templating alone does not prove exposure.",
+      "confidence": "high"
+    },
+    {
+      "finding_id": "F-001006-09",
+      "lineage": "legacy",
+      "severity": "low",
+      "kind": "priority_uncertainty",
+      "entity_ids": [
+        "SUBJ-220425BEB2C4"
+      ],
+      "document_pages": [
+        44
+      ],
+      "finding": "The separately major cultural-backlash subject is supported by a brief, explicitly limited countercurrent. Native retains the nuance in its cultural-prestige stance. Separate major weight is not established by this packet.",
+      "recommendation": "Consider optional status or an alias under cultural influence, pending whole-book review.",
+      "confidence": "moderate"
+    },
+    {
+      "finding_id": "F-001006-10",
+      "lineage": "native",
+      "severity": "medium",
+      "kind": "word_count_scope",
+      "entity_ids": [
+        "CHUNK-001"
+      ],
+      "document_pages": [
+        3
+      ],
+      "finding": "The native CHUNK-001 count explicitly subtracts every extracted token on the non-prose map page. Visual inspection confirms a substantive caption, which the native source-scope policy includes. Thus its stated count method drops eligible caption text. This does not establish an exact corrected total.",
+      "recommendation": "Recount through an explicit region ledger that retains the substantive caption and excludes the source credit/cartographic internals under an agreed rule.",
+      "confidence": "high"
+    }
+  ],
+  "verified_strengths": [
+    {
+      "lineage": "native",
+      "entity_ids": [
+        "SUBJ-0029",
+        "SUBJ-0062",
+        "SUBJ-0063",
+        "SUBJ-0064",
+        "SUBJ-0120",
+        "SUBJ-0124",
+        "SUBJ-0167",
+        "SUBJ-0177",
+        "SUBJ-0209"
+      ],
+      "basis": "Compact combinations retain tested causal and contrastive distinctions with useful access; no inherent penalty for fewer units."
+    },
+    {
+      "lineage": "legacy",
+      "entity_ids": [
+        "SUBJ-721D8227847E",
+        "SUBJ-3E437C3A371B",
+        "SUBJ-F53D90D5BB05",
+        "SUBJ-D09EA66D177F",
+        "SUBJ-714A76F13EA0"
+      ],
+      "basis": "Explicit access to analytical details is stronger in tested censorship, accountability, factory discipline and oath-geography/opinion facets; no inherent benefit from more units."
+    }
+  ],
+  "reader_tasks": {
+    "reviewed_native_task_ids": [
+      "TASK-0089",
+      "TASK-0193",
+      "TASK-0208",
+      "TASK-0209"
+    ],
+    "reviewed_legacy_task_ids": [
+      "TASK-128062B0D465",
+      "TASK-06DC93A671AA",
+      "TASK-05F431DE849B",
+      "TASK-5D8F2405B6D1",
+      "TASK-E41B67D97744",
+      "TASK-FA40711730D5"
+    ],
+    "finding": "Specific legacy questions help preserve contrasts. Native templates are answerable but require explicit independent editorial checks; fallback_generated=false does not itself demonstrate task-specific reasoning. The legacy fallback task for audit is itself generic.",
+    "other_tasks": "unreviewed"
+  },
+  "relationships": {
+    "verified_problem_ids": [
+      "REL-40DAB00EC7B6",
+      "REL-F901AD713C65",
+      "REL-A189108B8550",
+      "REL-728B1FB47A0B"
+    ],
+    "sampled_supported_native_ids": [
+      "REL-0052",
+      "REL-0059",
+      "REL-0073",
+      "REL-0075"
+    ],
+    "sampled_supported_legacy_ids": [
+      "REL-25EC46346E2B",
+      "REL-E0BB11459212",
+      "REL-24959D4089EF"
+    ],
+    "interpretation": "Sampled native edges connect Notables deliberation to Estates-General demands and oath refusal to religious division; sampled legacy edges usefully connect audit to transparency, oath geography to parish opinion, and citizenship to the slavery contrast. These local checks do not approve the complete graph.",
+    "other_relationships": "unreviewed"
+  },
+  "uncertainty_review": {
+    "preserved_source_uncertainties": [
+      {
+        "legacy_subject_ids": [
+          "SUBJ-7E31C817E0F3"
+        ],
+        "native_subject_ids": [
+          "SUBJ-0217"
+        ],
+        "pages": [
+          148
+        ],
+        "topic": "Saint-Cloud excursion was not established as an escape attempt."
+      },
+      {
+        "legacy_subject_ids": [
+          "SUBJ-8C9C716904DC"
+        ],
+        "native_subject_ids": [
+          "SUBJ-0208"
+        ],
+        "pages": [
+          150
+        ],
+        "topic": "Robespierre's republicanism in early 1791 is uncertain despite observers' claims."
+      }
+    ],
+    "unresolved": [
+      "Whole-book priorities and cross-chapter identity beyond these pages.",
+      "Eligibility of map legends/gazetteer versus captions must be explicitly reconciled for a common denominator.",
+      "Both lineages' historical complete-review claims were not independently re-performed."
+    ]
+  },
+  "word_count_review": {
+    "counts": [
+      {
+        "chunk_id": "CHUNK-001",
+        "legacy": {
+          "artifact": "legacy/source/source-subject-chunk.CHUNK-001.v2.json",
+          "indexable_source_words": 19778
+        },
+        "native": {
+          "artifact": "native/source/source-subject-chunk.CHUNK-001.json",
+          "indexable_source_words": 19854
+        },
+        "reproducibility_judgment": "Legacy retains map/caption except source credit. Native uses whitespace count 20,083 minus 210 furniture/title tokens minus all 19 extracted map-page tokens = 19,854. Caption omission is verified; differing extraction/normalization is otherwise unresolved."
+      },
+      {
+        "chunk_id": "CHUNK-002",
+        "legacy": {
+          "artifact": "legacy/source/source-subject-chunk.CHUNK-002.json",
+          "indexable_source_words": 10088
+        },
+        "native": {
+          "artifact": "native/source/source-subject-chunk.CHUNK-002.json",
+          "indexable_source_words": 9970
+        },
+        "reproducibility_judgment": "Legacy extraction count 10,088 lacks a tokenizer/version. Native Unicode tokens with line-end joining yield 9,970 but neither regex nor exact removal ledger is preserved here."
+      },
+      {
+        "chunk_id": "CHUNK-003",
+        "legacy": {
+          "artifact": "legacy/source/source-subject-chunk.CHUNK-003.json",
+          "indexable_source_words": 9090
+        },
+        "native": {
+          "artifact": "native/source/source-subject-chunk.CHUNK-003.json",
+          "indexable_source_words": 9171
+        },
+        "reproducibility_judgment": "Legacy joins line-end hyphens and retains chapter title; native specifies pdftotext -raw whitespace tokens, excludes chapter number and retains heading. Different tokenization can account for some difference; no exact reproduction claimed."
+      },
+      {
+        "chunk_id": "CHUNK-004",
+        "legacy": {
+          "artifact": "legacy/source/source-subject-chunk.CHUNK-004.json",
+          "indexable_source_words": 11987
+        },
+        "native": {
+          "artifact": "native/source/source-subject-chunk.CHUNK-004.json",
+          "indexable_source_words": 11993
+        },
+        "reproducibility_judgment": "Legacy has per-page counts, excludes chapter title and note calls. Native says extraction total less 150 furniture tokens, with no exact tokenization/removal ledger. A six-word difference is not evidence of semantic superiority."
+      },
+      {
+        "chunk_id": "CHUNK-005",
+        "legacy": {
+          "artifact": "legacy/source/source-subject-chunk.CHUNK-005.json",
+          "indexable_source_words": 10384
+        },
+        "native": {
+          "artifact": "native/source/source-subject-chunk.CHUNK-005.json",
+          "indexable_source_words": 10328
+        },
+        "reproducibility_judgment": "Legacy retains map captions, legends and extractable labels while excluding raster-only labels from the token total. Native excludes dense map internals and Paris sectional gazetteer. Visual pages 127/129 confirm mixed captions, source credit, labels and gazetteer, requiring an explicit scope decision."
+      },
+      {
+        "chunk_id": "CHUNK-006",
+        "legacy": {
+          "artifact": "legacy/source/source-subject-chunk.CHUNK-006.json",
+          "indexable_source_words": 10356
+        },
+        "native": {
+          "artifact": "native/source/source-subject-chunk.CHUNK-006.json",
+          "indexable_source_words": 10573
+        },
+        "reproducibility_judgment": "Legacy specifies Unicode tokens, joined line-end hyphens, lexical hyphen compounds as one, and excludes chapter title and note calls. Native specifies wc -w: 10,756 minus 183 running tokens = 10,573. The denominators use materially different token conventions."
+      }
+    ],
+    "legacy_subtotal": 71683,
+    "native_subtotal": 71889,
+    "conclusion": "Neither six-chunk subtotal is a reproducible canonical denominator from the inspected artifacts alone. Both include method descriptions but lack a shared executable/tokenization specification and exact retained-region manifest. The differences do not determine benchmark choice.",
+    "lineage_note": "Legacy CHUNK-001 original discovery (33 subjects) and v2 (120 subjects) retain the identical 19,778 count; this shows unchanged denominator metadata, not independent recount validation. Native CHUNK-001 explicitly marks its count as bounded_estimate.",
+    "recommended_exact_protocol": [
+      "Bind exact PDF bytes, Poppler version, extraction flags and sidecar hash; process each owned source page once and never count context duplication.",
+      "Create a page/region ledger: retain body prose, substantive block quotations, chapter headings, substantive captions and any available substantive notes; exclude running heads, folios, note-call markers, source credits and bibliographic furniture. Fix these inclusion choices before counting.",
+      "Resolve maps explicitly: recommended common text denominator retains substantive captions but excludes cartographic internals, scales, key labels and the Paris-sections gazetteer. The p129 list is a 48-item numbered key keyed to map sections, with no independent table analysis; its function is cartographic even below the image. Inspect maps semantically in a separate coverage ledger. This is a proposed policy reconciliation, not permission to overwrite either frozen policy. If a different map rule is adopted, transcribe eligible raster text deterministically and apply it uniformly.",
+      "Normalize extracted Unicode with NFKC; remove soft hyphens; use a reviewed per-page join ledger for line-break hyphenation so lexical compounds are not silently changed. Keep both raw text hash and normalized retained-text hash privately.",
+      "Use Python 3 Unicode re with the frozen token expression r\"[0-9]+(?:[.,][0-9]+)*|[^\\W_]+(?:['’-][^\\W_]+)*\" after normalization. Numeric decimal/grouped expressions count as one; apostrophe/hyphen compounds count as one; dates/ranges beginning with numerals form separate numeric tokens. Publish boundary examples and freeze the implementation version. This recommended convention is not a claim that historical counts used it.",
+      "Publish page counts, chunk sums, excluded-region reasons, extraction warnings, and hashes; verify chunk sums equal the sum of owned page counts. Rerunning the exact code and retained-region manifest must reproduce the totals.",
+      "Recompute the source denominator independently of either subject count. For later density analysis use the same denominator for both, retain unrounded values, and disclose any region-policy sensitivity separately; do not use density to select or size the benchmark."
+    ]
+  },
+  "recommendation": {
+    "local_preference": "Use tested native groupings as a useful compact starting organization for these packets, while importing verified legacy analytical routes and specific reader-task contrasts.",
+    "required_before_any_successor": [
+      "Repair the legacy Saint-Domingue duplicate and stale relationships if that lineage is reused.",
+      "Correct native anticolonial wording and add verified censorship/audit/factory/oath access refinements.",
+      "Review Declaration split, veto downgrade and other priority differences at whole-book scale.",
+      "Replace mixed historical word counts with one reproducible, source-only measurement protocol."
+    ],
+    "global_selection": "No blanket winner or final freeze approval is justified by this partial review. Both lineages require editorial reconciliation.",
+    "frozen_artifacts_changed": false,
+    "successor_registered": false
+  }
+}

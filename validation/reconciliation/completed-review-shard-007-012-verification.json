@@ -1,0 +1,63 @@
+{
+  "schema_version": "source-review-shard-mechanical-verification-v1",
+  "recorded_at": "2026-09-16T22:09:06.261358+00:00",
+  "coordinator_candidate_unexposed": false,
+  "editorial_approval_by_coordinator": false,
+  "whole_book_review_complete": false,
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.assignment.v2.json",
+    "sha256": "5647d8b6ca557b63b72fe988ee59ab5f0ac33d67bfa51763e26ad40128d638e5"
+  },
+  "artifact_manifest": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012/artifact-manifest.v1.json",
+    "sha256": "8f97720b376f73921954a82d55213b69b9c440cf2c372ef861e56d1426c68720",
+    "all_ten_file_hashes_and_lengths_verified": true
+  },
+  "exact_coverage": {
+    "subject_ids": {
+      "count": 147,
+      "exact_assigned_ids": true,
+      "dispositions": {
+        "revise": 34,
+        "retain_as_drafted": 113
+      }
+    },
+    "evidence_ids": {
+      "count": 617,
+      "exact_assigned_ids": true,
+      "dispositions": {
+        "retain_as_drafted": 595,
+        "revise": 22
+      }
+    },
+    "relationship_ids": {
+      "count": 93,
+      "exact_assigned_ids": true,
+      "dispositions": {
+        "retain_as_drafted": 89,
+        "revise": 4
+      }
+    },
+    "reader_task_ids": {
+      "count": 55,
+      "exact_assigned_ids": true,
+      "dispositions": {
+        "retain_as_drafted": 41,
+        "revise": 14
+      }
+    },
+    "source_first_finding_ids": {
+      "count": 159,
+      "exact_assigned_ids": true,
+      "dispositions": {
+        "represented_with_proposed_revision": 37,
+        "represented_in_reviewed_owned_records": 65,
+        "represented_with_proposed_revision_and_lead_referral": 14,
+        "represented_in_owned_records_and_referred_to_lead": 26,
+        "referred_to_lead_owned_whole_records": 16,
+        "narrowed_to_eligible_caption": 1
+      }
+    }
+  },
+  "limitation": "This verifies artifact integrity and exact assignment coverage. Proposed revisions and cross-shard referrals remain subject to the independent lead whole-book review and final typed freeze."
+}

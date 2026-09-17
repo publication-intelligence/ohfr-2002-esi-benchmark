@@ -1,0 +1,141 @@
+{
+  "schema_version": "independent-legacy-tail-component-manifest-v1",
+  "status": "sealed_bounded_original_review_complete_with_exact_repair_proposals",
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-001-006.legacy-tail-historical-subject-evidence.assignment.v1.json",
+    "sha256": "2ec2f73f8f8987b62d3ba6e1cb9c4618fcdbddf3ab00ce01025ea476104a3d36",
+    "bytes": 26359
+  },
+  "counts": {
+    "result": "pass",
+    "subject_key_set_exact": true,
+    "evidence_key_set_exact": true,
+    "subject_count": 100,
+    "parent_qualified_evidence_count": 212,
+    "all_original_subject_evidence_enumerated": true,
+    "whole_proposed_subjects": 41,
+    "referrals": 43,
+    "exact_field_differences": 244,
+    "new_evidence_rows": 2,
+    "requirement_disposition_rows": 312,
+    "all_exact_diff_replays_match_whole_proposals": true,
+    "all_precise_evidence_bindings_resolve_to_reviewed_values": true,
+    "all_nonincidental_retained_evidence_in_its_treatment_page_scope": true,
+    "facets_independently_weighted": false,
+    "all37_inputs_hash_verified": true,
+    "prior_seals_and_both_partial_checkpoints_unchanged": true,
+    "all_original_source_pages_fully_reread": true,
+    "full_post_draft_page_rereads": 127,
+    "new_first_time_pages": 0,
+    "bounded_semantic_component_complete": true,
+    "integrated_approval": false,
+    "whole_book_approval": false
+  },
+  "authoritative_files": {
+    "subjects": "historical-subject-ledger.v2.jsonl",
+    "evidence": "historical-evidence-ledger.v2.jsonl",
+    "referrals": "correction-referrals.v2.json",
+    "whole_replacements": "proposed-records.v2.json",
+    "field_differences": "exact-field-diffs.v2.jsonl",
+    "source_reading": "source-reading-and-reuse.v1.json",
+    "attestation": "input-and-visibility-attestation.v1.json",
+    "later_context": "later-proposed-context.v1.json",
+    "validation": "validation.v1.json"
+  },
+  "superseded_intermediate_files": [
+    "historical-subject-ledger.v1.jsonl",
+    "historical-evidence-ledger.v1.jsonl",
+    "correction-referrals.v1.json",
+    "proposed-records.v1.json",
+    "exact-field-diffs.v1.jsonl"
+  ],
+  "partial_checkpoints_remain_partial": [
+    "checkpoint-040.v1.json",
+    "checkpoint-100.v1.json"
+  ],
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/checkpoint-040.v1.json",
+      "sha256": "2359bcd259500cac415e6e36ebf642d508d81af5c00d59d8a1073e01315e0e1d",
+      "bytes": 54221
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/checkpoint-100.v1.json",
+      "sha256": "f79a1a9731a000df9ec73eaae2881ef87a18ac8df41bba362ebcfddb345d0fb0",
+      "bytes": 131485
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/correction-referrals.v1.json",
+      "sha256": "cad3ba59189202190a0f717cd1f04827f60d3788e3e243e2201f0d2e1cf2e798",
+      "bytes": 69367
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/correction-referrals.v2.json",
+      "sha256": "8730bba854510a956b92feafc1e42069f14429852d4deebd7535168ec9b9600c",
+      "bytes": 70960
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/exact-field-diffs.v1.jsonl",
+      "sha256": "e102bba58bf5cdba35c60c6e743af1cc4c8d018b443f1cfba20713c67db2f6fe",
+      "bytes": 174324
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/exact-field-diffs.v2.jsonl",
+      "sha256": "f8f18e621d38ef2f04657bc9d8ad79da4a23e98c818a9988febd384aa73ebd71",
+      "bytes": 178953
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v1.jsonl",
+      "sha256": "5335a7162d795038778993b4d46843c43a3bb89599046ce2cf356b762d662cfc",
+      "bytes": 698846
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+      "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+      "bytes": 698912
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-subject-ledger.v1.jsonl",
+      "sha256": "b24060f41e5f8e310f6368535777c0eb49b34e2aa0b31be4e8f00e8c97874d2e",
+      "bytes": 259948
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-subject-ledger.v2.jsonl",
+      "sha256": "b24060f41e5f8e310f6368535777c0eb49b34e2aa0b31be4e8f00e8c97874d2e",
+      "bytes": 259948
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/input-and-visibility-attestation.v1.json",
+      "sha256": "24251a8cbd86ab0e2d7d0d619b92ba9bacc499d668b19de4709a9a7850c3f2e6",
+      "bytes": 15138
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/later-proposed-context.v1.json",
+      "sha256": "7cc8623379f3b460a55c5295470987a66ac3606b922994febb410b61e71bf17f",
+      "bytes": 1267
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/proposed-records.v1.json",
+      "sha256": "d17d6ae19ac1291321a9952bc5f0a568034a9fcf817ce4d7f40b0ab92978d254",
+      "bytes": 511667
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/proposed-records.v2.json",
+      "sha256": "493a95c5917750650e0a5fb7500953a2c347ea820f41277c12b65f17e4ad3c63",
+      "bytes": 511869
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/source-reading-and-reuse.v1.json",
+      "sha256": "0c1cade8a8d013b998e6940c392c560af0a2e5bb25f460a28b7625b5b277bafb",
+      "bytes": 57265
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/validation.v1.json",
+      "sha256": "374d69ba1ac8d93bd16c42787c4d395d0e7ac59bc80496cc5f4d932f5c20d453",
+      "bytes": 929
+    }
+  ],
+  "remaining_integration_work": "Lead must compose exact stage6-to-proposed fields with later components, especially overlapping native corrections. This seal certifies only the100/212 bounded original review and its exact proposals, not final integrated values or whole-book assent.",
+  "whole_book_approval": false,
+  "canonical_state_modified": false
+}

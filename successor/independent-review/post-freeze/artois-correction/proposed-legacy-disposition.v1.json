@@ -1,0 +1,31 @@
+{
+  "schema_version": "additive-source-relationship-correction-disposition-v1",
+  "status": "proposed_pending_independent_review",
+  "correction_id": "SOURCE-CORR-ARTOIS-305",
+  "original_frozen_benchmark": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "referral": {
+    "path": "successor/independent-review/post-freeze/artois-authorization-and-duplicate-distinction.referral.v1.json",
+    "sha256": "252fb041b0136193c231b6bdd471c32a1dfbb5c361f7619d28225fbae96688b9",
+    "bytes": 20105
+  },
+  "old_relationship_key": "legacy:REL-100E2B727434",
+  "superseded_review_pointer": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/historical-relationship-ledger.v1.json",
+    "pointer": "/rows/108"
+  },
+  "old_mapping_relationship_ids": [
+    "REL-SUCC-8AD7BFC51F21"
+  ],
+  "proposed_successor_relationship_ids": [],
+  "retained_successor_subject_ids": [
+    "SUBJ-SUCC-8EBFEFD6F582",
+    "SUBJ-SUCC-2CAD9C10478B"
+  ],
+  "disposition": "retire_unsubstantiated_individual_authorization",
+  "reason": "Page305 supports princely encouragement and network context without naming Artois as individual grantor. The corrected parent evidence and La Rouërie requirement retain that supported content; no replacement relation is needed.",
+  "original_author_and_review_ledgers_preserved": true
+}

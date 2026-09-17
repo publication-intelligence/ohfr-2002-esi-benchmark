@@ -1,0 +1,646 @@
+{
+  "schema_version": "subject-index-successor-release-v3",
+  "release_id": "ohfr-2002-successor-v10-2026-09-17-r2",
+  "methodology_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "artifact_freeze_commit": "f1823e1191375242f10c6040df3cfb27f8de317c",
+  "artifacts": {
+    "state": {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb"
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678"
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v3.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850"
+    },
+    "benchmark": {
+      "path": "successor/source/source-benchmark.v4.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5"
+    },
+    "study_lock": {
+      "path": "study-benchmark-lock.v10.r2.json",
+      "sha256": "2c7b2a71c2727b572e00d9c444981f17d66067e9e9c1b53db6a68b5f17ace636"
+    },
+    "page_map": {
+      "path": "successor/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    "chunk_manifest": {
+      "path": "successor/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    "source_policy": {
+      "path": "successor/source/evaluation-policy.v4.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
+    },
+    "policy_template": {
+      "path": "successor/study-policy-template.v10.json",
+      "sha256": "408bd67a3f6300f240a8768e8e2deec51a14c02ef084f3ef1482777fb7994177"
+    },
+    "access_overlay": {
+      "path": "successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json",
+      "sha256": "e9cd56beedbf880a3afff16f1a1e7a320c34b924e59d1ef01bdaafee827c6a90"
+    },
+    "access_review": {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/benchmark-access-review.v1.json",
+      "sha256": "9da0855afe7046913bad4acf37424f5d58008bcef0cb88a2d5c1decd2d125064"
+    }
+  },
+  "evidence": [
+    {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886"
+    },
+    {
+      "path": "successor/access-amendment/author/input-visibility-attestation.v1.json",
+      "sha256": "2067c298b1a710c4bec8ad4e10a9b1dac67d75c513fcc4eeae4bcb8314e0f0b3"
+    },
+    {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec"
+    },
+    {
+      "path": "successor/access-amendment/author/manifest.v1.json",
+      "sha256": "24a6a3088a3d5acdf222b6b8cc94d8be9061fb6132dd41253c82eda471f9111d"
+    },
+    {
+      "path": "successor/access-amendment/author/mechanical-check.v1.json",
+      "sha256": "f923880eea3016c613052d1b413b68c5e45a20df0665808beb9d09f37d2fb5a0"
+    },
+    {
+      "path": "successor/access-amendment/final-source-only-handoff.v1.json",
+      "sha256": "6b5ec466afd1e9bd68e928b7060531bbbe8fafde8b3f94a34e8d5cd1282fab42"
+    },
+    {
+      "path": "successor/access-amendment/reviewer-proposal-addendum.v1.json",
+      "sha256": "4520473718337623040552b165dc9a8db1253327c63dffe1c6173de83b42c3bb"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/input-and-visibility-attestation.v1.json",
+      "sha256": "15d5c4583de6f0781d803a2b5c1b4ecf6b4508a195edbede8611ba1668c28c1e"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-findings.v1.json",
+      "sha256": "7f1ea9ad94fd1f0542feba32e77e5ea7f4aafa70a2844bfb5469f5544aba8631"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-inspection-ledger.v1.json",
+      "sha256": "35549f1ffcb8b66933820a076fab31b0adbbd37506973f3dec68601d5cb83ce4"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-manifest.v1.json",
+      "sha256": "e16dc5e48f257795f897391d4447e770d2bcdaaf39b3605aeba3a95751948a0e"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-clause-review.v1.json",
+      "sha256": "95e3875dde60646c79358582171e29ac966764ab9a57bb5d1a4a910b16f2cc0b"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-identity-verification.v1.json",
+      "sha256": "ce6bfe864a3db11117ce41c324a95a459beab126714d4db63131ed18e8b0e373"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-review-manifest.v1.json",
+      "sha256": "ab28a7e2fb282600ca350dcb6f344b82f0f31c66802c9fb31bfe5900f6beb207"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-source-reading-and-reuse.v1.json",
+      "sha256": "b08e981572c3e4f61cd4632f3d43aa94809b25beb1d0317ca10af971c7aceec8"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-value-inspection-ledger.v1.json",
+      "sha256": "9d032802d7222d98ea64140b950b8aa083dfee967d7c0e87cb9bc28adb33f663"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/proposal-visibility-and-assent.v1.json",
+      "sha256": "c4d679837caec64f2bb1aac40183835c38b6ddfefb39d6ea665eac8cf8fc939e"
+    },
+    {
+      "path": "successor/access-amendment/reviewer/source-reading-and-reuse.v1.json",
+      "sha256": "85423272cd805ec596dd1a3968b3bd213715a898bab0b2d4619ef51f82911793"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author-assignment.v1.json",
+      "sha256": "b2df422fcd41547bc78c36abe0811ab4a36ef888b3c7cbbdfaf7fd547d0a3550"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/benchmark-access-overlay.v1.json",
+      "sha256": "29620e2cdaf56d25624be5ee21264cb0cdf9d9a8511c6a0444a2176bc56b305d"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "64f6f1b9504e0b7d6ebdb178ffdc79d158115a65159812ecfda9b4a296ad9ca0"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/exact-comparison.v1.json",
+      "sha256": "17532164aaf62375f17435cccf3f4f55358c278c2090e3a52cf637f326394614"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/input-visibility-attestation.v1.json",
+      "sha256": "a28430eb6550b767155f76837d2cf42f4b740f1caf23c2bb8522baa21abe0256"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/manifest.v1.json",
+      "sha256": "02a0b0cd8b451f00f0171a9629857254fd9e2bf531ba2e73c81dd02807335796"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/mechanical-check.v1.json",
+      "sha256": "e5ec2cbb97e3254bc308c4a249e3e14f13866e366cffecfc22c35ac971154fe8"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/reviewer-assignment.v1.json",
+      "sha256": "5bc47e25d812308af568e1dd8fc75064b481aebe37266d974d51a54f1d47713b"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/source-only-inputs.v1.json",
+      "sha256": "9b30760639bbcbf141603842da8628726a6e13200673e487a549e58a2e7c01ba"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/author-input-receipt.v1.json",
+      "sha256": "9d7fa7b7ef95ed61c4c76f959dbf0458a4e109c90cb97f4419f70bb5fb93afe6"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "d42e55f416219905f52136a51f9134a994bde09f8159e793f209fc6c1abcc23c"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/exact-comparison.v1.json",
+      "sha256": "f57647c49eba31f2b3d26662cbb53fb56f8e75f01bcc36e873b86d4926866a9d"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/input-visibility-attestation.v1.json",
+      "sha256": "60f35918a5a19d2847261c7fba46d8608777ad777c5dba067abc3477beeb062b"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/inspection-ledger.v1.json",
+      "sha256": "17fd7b7316a10ae3db5d475ba75a81f56e25d60d3360bb96591734547dde7126"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/manifest.v1.json",
+      "sha256": "7b244437955b567b4fe724e8fb4ce6e4635831f70b44c80f9c832385c2d0ede8"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/mechanical-check.v1.json",
+      "sha256": "f6fd40bb49e5739fc2f382761e683844402276665cc1c78821e12c25be331696"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/reviewer-handoff.v1.json",
+      "sha256": "2e97dad4dda6801a264a50526668733098dd8d7a2a880c48ec1b7c86d1964036"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/corrected-context-access-review.v1.json",
+      "sha256": "0795b0f55502794f9c1f883bb0195e1bb6c1736725c9d1670d1c24d6baa2c064"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/exact-identity-and-population-check.v1.json",
+      "sha256": "24ad570dd420b58d9037eba6adbb24f491a3e554863e1bf036d0364d77fbbb91"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/exact-proposal-byte-assent.v1.json",
+      "sha256": "7cdd918b0b69c53d7b5e82d78f33a9cbaf1ad29c83d814278293968c14e427a0"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/final-source-only-handoff.v1.json",
+      "sha256": "ece3fa77260638c9c83e30143f458660956d702881b882a5c58098538b227ee6"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/four-clause-review-and-reuse.v1.json",
+      "sha256": "4c062c62457900aea7ff4946d229564e8625535f8101e4e1430f6c2d8c1991c8"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/input-visibility-and-preservation-attestation.v1.json",
+      "sha256": "609a27e5939c3df2a7af01a17a6ec2020c87edd65d4b900227f43d2430419cf4"
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/reviewer/manifest.v1.json",
+      "sha256": "9cc3117889ca45c7a8e60a8c3c1d68676d6229ca00c0ba63e083836eaaa9e877"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/caption-evidence-class-correction.v1.json",
+      "sha256": "3dd3d4a075a40e8365645a09cf3279b0d1dd3f39f26eb57e923f22906e7d1a79"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+      "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-c11-validation.v1.json",
+      "sha256": "1b804a47618b8da97f5dfa232f324ad12ff33648728e1125bfa908969ebe26ab"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-independent-byte-assent.v1.json",
+      "sha256": "c60f9db869b02dfd88ffdbeeb2a9807608f318db1a2b8e8b09e4b521207c8757"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-metadata-and-status-disposition.v1.json",
+      "sha256": "86c38c54c349eff654aac293a5c8348f3b8c261910e17040a0259df2ff2b52fb"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/typed-freeze-receipt.v1.json",
+      "sha256": "61b93a4119e251d26c57db2939b729978fce1dd9e3300b6ecbeab1a29c726ee6"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-scope-disposition.v3.json",
+      "sha256": "adb81320deac697201511a04a9b4848a048db2aaa1613a267f492a6ef4a32577"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-authorization-and-duplicate-distinction.referral.v1.json",
+      "sha256": "252fb041b0136193c231b6bdd471c32a1dfbb5c361f7619d28225fbae96688b9"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/access-rebinding-assignment-plan.v1.json",
+      "sha256": "6a188ef9dcec0508949c26e078e80db89396cf2535fec7459afb5f0fafc0ab49"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/mechanical-preflight.v1.json",
+      "sha256": "c91ab54e5f6b8823893469ce72cf2245bfb564c97274acb28ed6ea9dacc1ab82"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/proposal-exact-diff.v1.json",
+      "sha256": "78485807b490dc43148023d1166afa7a9aa8f9a5e1663f631c3886250357e000"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/proposal-manifest.v1.json",
+      "sha256": "4bafd4bffb629cc2b70708dbc8a87d3d6824e5e858b606690a46435c02d1a773"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/proposal-manifest.v2.json",
+      "sha256": "ce71d24770fcb8669d11d0e328640b29cbc47bddbfe74245d89a961800f70f52"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/proposed-legacy-disposition.v1.json",
+      "sha256": "69a8497fdee4498e088506d7a1b7ee3863db4dd1ca25b33abac8ba4335dc69d5"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/proposed-source-benchmark.v3.json",
+      "sha256": "5a3f59090b5c8e12668f761d228e5759e5a5cb19ee78e3555906c86912473919"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer-assignment.v1.json",
+      "sha256": "9b0e64b512066e31fa0debf62c1a2820534a4bdcdb4e1694cdbe53796e3905b7"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer-assignment.v2.json",
+      "sha256": "db8aa0f495e7fffa18ea64e8dc5d4750465d398eb0d100800bde8875b230bdb2"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-byte-assent.v1.json",
+      "sha256": "b15e0db6181fa797baf7565e6f592bf0792ee05dbdf4ef91f15357b5150c10e3"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-diff.v1.json",
+      "sha256": "c8928abe93f742874be6205ed960bd020d63317da335528ec9cebb5e5fe087c7"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/input-visibility-and-preservation-attestation.v1.json",
+      "sha256": "69e7a5c3d730a6f71af2f7c55301e786ea94dc43a3fc8a644ded01b252f93f78"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/legacy-disposition.v1.json",
+      "sha256": "d558c417d9fac4c58044bd9cbbbd0359e28ac22a25301defff3122b9f75b3a4f"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/manifest.v1.json",
+      "sha256": "4f26a7819b4cbd5cb08a4118ffb5dc630f17562af2ab7cfb5002de95fbedf176"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/read-only-c11-validation.v1.json",
+      "sha256": "205468e369aa3125430b534b137d5a40341708917d3c9d0507098d35ba527e26"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/source-and-dependency-review.v1.json",
+      "sha256": "f6530e67b15692d32ac701e1b282fdc1d6db42d5e00ae21b947f6a71326056c2"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/source-freeze-plan.v1.json",
+      "sha256": "dffd420ecc26d8c3e94a46b95c3de0e58c265fb8ae64d62ffad6ee96708a13f6"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/source-freeze-plan.v2.json",
+      "sha256": "129254a75f50a661d83df040a637c565cba7b219eedf3fb514f576d55f2d8c04"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/typed-freeze-receipt.v1.json",
+      "sha256": "e0138ebbc7bc76841c007f126b52f301d02e45df84ad5274036f675fec844df8"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v1.json",
+      "sha256": "ec5e083ec39d7703c4900034d0263652787b905477c2d8e0957be3db313e6f98"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v2.json",
+      "sha256": "8ebafe989e0e0244863f7e109deff89578200fa8a6f6676952a43fb1ffe1b844"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v3.json",
+      "sha256": "4ef81ae5e3434100726f92800115ca02dc5dc824b61137f27337abbeb72749fe"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v4.json",
+      "sha256": "43828f756082f2ab0eea8f3bcb5221f9d6af6ca42fcc257a4c04617772629f4a"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v5.json",
+      "sha256": "34ffd2eca2bea9d607e51d262572a08b06d34c4d5df5a377e6adfc1a910219b3"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-source-findings.v1.json",
+      "sha256": "a4e1ec5dca4e7941bacb62ffc65d1e6a9775a7c9a5f0ea7a2b5e1fd0fa826000"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v1.json",
+      "sha256": "a629f3505ce0436f64dc3a820022cb87758d5635e0b4134527efd47995f188ca"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v2.json",
+      "sha256": "efdf3a54d1489352180951d4171781c8d544f4e15f8973733bdbe0904332e83c"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v3.json",
+      "sha256": "a256e8f18abce47d2cecb2f4c0a93102eed5e3642e110ccf3f51c1f09626efc2"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v4.json",
+      "sha256": "84a6d2bb4c3eefded2c7a000628db3ba721fcd120a90ea8a59e543d93b7c95e9"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v5.json",
+      "sha256": "6aa375e91e72e65dc06af1b661201b17d558fa81490b690350f4f47f38e6a538"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/day-of-tiles-finding.v1.json",
+      "sha256": "6ead4491bdb10077365028e7b0bbb3a1cbbd4446de684e52537f499c67deb622"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/final-batch-source-findings.v1.json",
+      "sha256": "2be192ac620890e694bb9e3959fd2289d37d2eec2e551e5bfc55de94ebaabcd8"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v1.json",
+      "sha256": "cea0357cb1d4801f49bacda9a63ea954642146fe752509ae08a708aed06bc0b6"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v2.json",
+      "sha256": "e85bb06bd9b8a85fe45932f72f685c69fb613ebc15d990a61ab329998e13541a"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v3.json",
+      "sha256": "9a7c07276c37e75f6e40346653d98bdfe63ec5258c18eab1d5061ae50465142e"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v4.json",
+      "sha256": "d57344ff1dc54267491664d7da3d7c913aa3e0f3676a2f22bb120b9717ce94cc"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v5.json",
+      "sha256": "d671c8228c57a469ef4b8787ec9281894ae6f47c792f08196aeccf9df99849e9"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v1.json",
+      "sha256": "916e5e009f373ead1254563427f6793375c206d0cc9f77db8ef56fb2d23feff8"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v3.json",
+      "sha256": "d1327ad14565f42635896797f60e02d41e59a962d574eb2c0271cca230f9934f"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v5.json",
+      "sha256": "285e1eee03d4817a330dae00eb7ac1b8c54949be31b279a811da94ce6ce8ae19"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/physiocracy-page-finding.v1.json",
+      "sha256": "4ebc54b5cf1ad6c42858cd31f4863d2e212e70680f9dfef28a7537e6ece91db5"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v1.json",
+      "sha256": "212c726bfcc886f100608c9e44d6eccaad894fcc56a4e8102118830cb16597c0"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v2.json",
+      "sha256": "a92d7b277c0df281054a32a660fb128f121cd31308ea6e0b015359c468201898"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v3.json",
+      "sha256": "2bcdb8702bb4afd00ea2cd69cdcf703f14051bba38e7066fa1661d194398d628"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v4.json",
+      "sha256": "90c741fe8d5aa22703eb48ed1fc28b8c8d65b9411140c72cbf68db5f49ab90b1"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v5.json",
+      "sha256": "ad062e4393324aa89d49129f9996de92aea6d4070e07717fb293df49dbadd488"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v1.json",
+      "sha256": "2d5056a83767ad141f3077113a231dc8d5787b7c44eff976b2ccd5eaae32a7c9"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v2.json",
+      "sha256": "2f780af16d6c80a8d169fa4757c5b0dedb3a9c1b9c4c9bfcba41944df913e16f"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v3.json",
+      "sha256": "93e5f70bafe54ca69ec8b5ff0b74be981ba8815c1a5a6814ae23e2d363eb43e2"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v4.json",
+      "sha256": "24b5d92a76bc4e0853fd9fe548c363436b7fb90444d7ab1f337fc5cba21bd7d8"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v5.json",
+      "sha256": "8c5cf762cbe2f6457fcfc75abb183d0184133f757df671a7c80b7891317a2b8a"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.json",
+      "sha256": "e898e82b740400cfb84c0c61e9733647197ac504b1370eb31e4727b63d9390df"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v2.json",
+      "sha256": "09cade68072133b6e6de8003b7a78ac284fdd2f2f8fb58457b554945f35aedb3"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v3.json",
+      "sha256": "42926549a34ea093883cdc538b63ce9c843a3f9bef5d5a9ec55e8de9c5e02baa"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v4.json",
+      "sha256": "a866af3d040d1fa6eceab292aebd26d9cc2338a0154d0f7cb19c0989c664b146"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v5.json",
+      "sha256": "1e9cba67c9c02a67e7d090ddf193bd65064a82dba4278160307841c6b036b28f"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/relationship-page-findings.v1.json",
+      "sha256": "2092a8866913dc721d27951edba887a35247a1f451865f2779827514d2062e02"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v1.json",
+      "sha256": "b5d4435e6244b2f5165798056f930861bf8b122588e35fcd0861434d737d3aaa"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v2.json",
+      "sha256": "6a340f95d49788205ea6545dae770024b8076e953a779bfc11b4f5d416f4a6e8"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v3.json",
+      "sha256": "c121a5b64e994596ec8cfaa1bfa6f1fbf2583142a92097c50e81b178cb9d7a46"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v4.json",
+      "sha256": "59d97bc1be1fe31ecdfef4ceb5dcb3a6e9fedabab15d6d4503a76bf8e9a7b142"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v5.json",
+      "sha256": "4bec4cd043f4027b3aeb5945d73699a403ed0431f5ae49a639192e36d4c9b375"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/completed-ten-findings-checkpoint.v1.json",
+      "sha256": "a36b22082f1e03541e7bf8a775405049294dd0b85426890889f4b30098e1c4cf"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/cumulative-field-dispositions.v1.json",
+      "sha256": "cad687cefa4798697cce59ad5496dfaf2723e8d3501f637791294b48ebc511b8"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/cumulative-historical-dispositions.v1.json",
+      "sha256": "13756000b37e4db3f96717e089ae427b9fe256211e2cc671450b64a17102d610"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/cumulative-page-coalescing-review.v1.json",
+      "sha256": "97a5855326734ba446215b63d5d160a8dd745bc2b18d999baf81fad3b467998f"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/cumulative-source-findings.v1.json",
+      "sha256": "03cb1900861325d879363c9fb56138fc825812edac6fb24cee5ae75449820a22"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/cumulative-whole-context-review.v1.json",
+      "sha256": "af49f482269c442d02d1e1adeeb621cfd4f18b4e71fd9bc981c50db658da17e9"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/exact-final-byte-assent.v1.json",
+      "sha256": "8846d2c2b9090156c68c3f16977db96f6691754bf8f83758c03313c1615f8466"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/exact-final-diff.v1.json",
+      "sha256": "90c756e91966819ff305c0a1bcfc04bb0ed6526aca7c424461c42fa497734d30"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/input-visibility-and-preservation-attestation.v1.json",
+      "sha256": "de64ce44f28e797ccdfa34c7ef5ae521e8ce20aca211b6a328b479300bed0032"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/manifest.v1.json",
+      "sha256": "73cc367404aee6e42bbf3e55d35e8c1b26564718fa0c9cf0c6749bd1a6adfffa"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/read-only-c11-validation.v1.json",
+      "sha256": "ecdb6f2abf4bb05bd5a6a50f1a0a76c392ac5780432ebe85bdae0808b9c67fab"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v1.json",
+      "sha256": "ce48f1e17a7c7fefcaafe73d05902632caa0d8bf5b7fe2a61bbd358dc6425856"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v2.json",
+      "sha256": "390d46d05d59f6f9ef9212e5bf44c53551b971a36a53af21d45548ca0b6efbbd"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v3.json",
+      "sha256": "627e2484c9d0a8651bbcdad3d083cca471f8919683fb2c81ad175bf6987376a6"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v4.json",
+      "sha256": "9c7acb8168f2b20679775a6e4baff61b10b10e84b66751b8b3e41d53791cdf60"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v5.json",
+      "sha256": "45272b61da94778d87b8974021fdb8c26724b5b7c3ab066084f8641e7c8b3632"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/typed-freeze-receipt.v1.json",
+      "sha256": "43d87c3e19a22b64b6d1a8566618531da849653099abd51c25a44d9f6fb558a3"
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-referral/published-source-only-referrals.v3.json",
+      "sha256": "3989fb3e71926d7e9ab236abf05dd6479e1ecb21af65ecfe934dfcb67e66ef83"
+    },
+    {
+      "path": "validation/reconciliation/source-correction-v3-freeze-verification.v1.json",
+      "sha256": "c169569c692980237614056915e77256b5c3a090d7a0f0cc1a2f97d7c19e9418"
+    },
+    {
+      "path": "validation/reconciliation/source-correction-v3-recovery-verification.v1.json",
+      "sha256": "cbdb6dc93cee30e4b4a4776af8cc195766e74f9c1dd5a2da35369ab49c099f02"
+    },
+    {
+      "path": "validation/reconciliation/source-correction-v3-technical-clearance.v1.json",
+      "sha256": "e4e3c7d2ce02844abfc4d658e04938398c3fe236536fe91f7c43893b7c182231"
+    },
+    {
+      "path": "validation/reconciliation/source-correction-v4-freeze-verification.v1.json",
+      "sha256": "c24f9f52d6555efa031e2fab16a545866c1111857d8a29e01d695b7a58fd3942"
+    },
+    {
+      "path": "validation/reconciliation/source-correction-v4-technical-clearance.v1.json",
+      "sha256": "f640bd90e1d929671cccce9ddcb60df1e29476a05be0449565db52c39b833577"
+    },
+    {
+      "path": "validation/reconciliation/source-review/source-density-measurement.json",
+      "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767"
+    },
+    {
+      "path": "validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+      "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562"
+    },
+    {
+      "path": "validation/reconciliation/source-review/source-density-scope-addendum.v2.json",
+      "sha256": "dd23c7699fc4225c09ccc8fc98a301f0b46bb117bb1bed824e0c1870dbe3b7a6"
+    },
+    {
+      "path": "validation/reconciliation/v10-access-final-review-binding-verification.v1.json",
+      "sha256": "62e6de14adaf1367bae50877fea93a0c8a8bb964a12991639834564163dceb31"
+    },
+    {
+      "path": "validation/reconciliation/v10-common-release-selection.v1.json",
+      "sha256": "175432d6e6848425ce4428f5629ed2a7792b3d2c117908aba6a9f26dc3bdf447"
+    },
+    {
+      "path": "validation/reconciliation/v10-corrected-common-release-selection.v1.json",
+      "sha256": "5b9f895d6a071780e8b4f86176b0514ae338b7a21abc9da18ab97b1e2438f1a3"
+    },
+    {
+      "path": "validation/reconciliation/v10-semantic-runtime-root-review.v2.json",
+      "sha256": "acf886028c8d05952d784159e0b049df77f4a1e71492901ea260dce7ccde1a03"
+    },
+    {
+      "path": "validation/reconciliation/v10-semantic-staged-installation-verification.v2.json",
+      "sha256": "29d0219c4ab3ee621fba78278d629b4c609f01b451701093bfaa378de3f15ca6"
+    }
+  ],
+  "checkpoints": [
+    {
+      "path": "exports/ohfr-2002-successor-v10-2026-09-17-r2.source-proof.zip",
+      "sha256": "4a7679ce8310d11d7156f90bc12b923fc338f4f1b008ec4332dac060746f5351",
+      "members": {
+        "study-benchmark-lock.v10.r2.json": "study-benchmark-lock.v10.r2.json",
+        "successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json": "successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json",
+        "successor/access-amendment/source-correction-v4/reviewer/benchmark-access-review.v1.json": "successor/access-amendment/source-correction-v4/reviewer/benchmark-access-review.v1.json",
+        "successor/evaluation-state.source-correction-v4.json": "successor/evaluation-state.source-correction-v4.json",
+        "successor/independent-review/source-benchmark-review.v3.json": "successor/independent-review/source-benchmark-review.v3.json",
+        "successor/source/chunk-manifest.json": "successor/source/chunk-manifest.json",
+        "successor/source/evaluation-policy.v4.json": "successor/source/evaluation-policy.v4.json",
+        "successor/source/page-map.json": "successor/source/page-map.json",
+        "successor/source/source-benchmark.draft.v1.json": "successor/source/source-benchmark.draft.v1.json",
+        "successor/source/source-benchmark.v4.json": "successor/source/source-benchmark.v4.json",
+        "successor/study-policy-template.v10.json": "successor/study-policy-template.v10.json"
+      }
+    }
+  ],
+  "release_sha256": "34729696c5bba2b8df9cc8c7954351f3d44eb3e09f28ce342afc5c7ee6e050cf"
+}

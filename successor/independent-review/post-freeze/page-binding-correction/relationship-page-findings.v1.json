@@ -1,0 +1,2258 @@
+{
+  "schema_version": "post-freeze-additive-relationship-page-findings-v1",
+  "status": "sealed_source_finding_and_proposal_only; separate_independent_review_pending",
+  "recorded_at": "2026-09-17T06:57:12.552319+00:00",
+  "origin": "Two additional source-only coordinator referrals received after the seven-item v4 proposal v1 was sealed, during benchmark application. Allegations were independently tested against complete exact source pages and current/prior records. No candidate content, paths, judgments or results were supplied or inspected. This is post-freeze correction, not fresh source-first discovery.",
+  "prior_sealed_proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v1.json",
+    "sha256": "2d5056a83767ad141f3077113a231dc8d5787b7c44eff976b2ccd5eaae32a7c9",
+    "bytes": 3027
+  },
+  "frozen_base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "source_files": [
+    {
+      "path": ".source-only/source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+      "bytes": 999377
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-001.pages.json",
+      "sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1",
+      "bytes": 6100
+    }
+  ],
+  "actual_source_inspection": [
+    {
+      "document_page": 11,
+      "source_page_label": "11",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 11,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page11.txt",
+        "sha256": "2e8f1e4876db221617ebef02f0dec0d086084f4660d4320bc2c007c91553b2d8",
+        "bytes": 3048
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page11.png",
+        "sha256": "1b45a1a4454b029bf3072c261543ad43471bce83a05bb6df4ea8a01d98f5638d",
+        "bytes": 358883
+      },
+      "paraphrased_source_assessment": "The opening paragraph identifies gros fermiers accumulating land, converting arable to pasture, enclosing open fields and rejecting gleaning/free-grazing rights; this directly supplies the commercial-farmer side of the conflict."
+    },
+    {
+      "document_page": 12,
+      "source_page_label": "12",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 12,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page12.txt",
+        "sha256": "db2d9da747e959bfe41bbb85324537008ed28a62e23a65bebc58fba5e66c7f1a",
+        "bytes": 2948
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page12.png",
+        "sha256": "6b440b3e83ea7087351ced6b619700fb2d62f2bec650dfe4519ad100ead9687f",
+        "bytes": 345694
+      },
+      "paraphrased_source_assessment": "Domaine congeable, harvest fluctuations, rising rents and divergent fortunes of landlords/big farmers versus small cultivators supply broader economic context. This page does not state the enclosure/common-rights conflict; remove it from this narrowly worded edge, without denying its valid role in other agricultural subjects."
+    },
+    {
+      "document_page": 16,
+      "source_page_label": "16",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 16,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page16.txt",
+        "sha256": "1a00e1e05ff0fdb85b0dadb5d7d9fa78c6baef02f2bc9b70966c7660af114a5b",
+        "bytes": 3007
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page16.png",
+        "sha256": "8f9222940cf2715d73e7d65677028066112606ae83c52330b34c64c277d26dd9",
+        "bytes": 345161
+      },
+      "paraphrased_source_assessment": "Peasant mixed livelihoods depend on commons, firewood, gleaning and stubble grazing; village legal defense and legislation permitting enclosure introduce the direct communal-rights conflict."
+    },
+    {
+      "document_page": 17,
+      "source_page_label": "17",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 17,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page17.txt",
+        "sha256": "4e4536f4dbf49f82afe61c2ef7effe60fd33dc4cac399372ebe30ca677a15f24",
+        "bytes": 2971
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page17.png",
+        "sha256": "8f6d4af9a8901d3098535a31b421e11948dd641d4e2a8eea9251d0fbf72e5be4",
+        "bytes": 347377
+      },
+      "paraphrased_source_assessment": "Continuation describes courts, riot and passive resistance to landowners, and qualifies village solidarity and yeomen relations with outside gros fermiers. It directly supports the defensive side and the edge rationale's restriction against a universal farmer/peasant antagonism."
+    },
+    {
+      "document_page": 19,
+      "source_page_label": "19",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 19,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page19.txt",
+        "sha256": "e9f8a8bc4b8d5fabedb185efaa6513814f695130128a092985a380c876b0e1ab",
+        "bytes": 3082
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page19.png",
+        "sha256": "5d780c5a03f8b88971be347ad263a78f1173d057318f7ca1f1ffe3ad6161b41c",
+        "bytes": 359011
+      },
+      "paraphrased_source_assessment": "The page concerns the aftermath of domestic service, urban casual labor, skilled trades, journeymen, Menetra, compagnonnages and guilds. It does not support this farming/common-rights edge."
+    },
+    {
+      "document_page": 30,
+      "source_page_label": "30",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 30,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page30.txt",
+        "sha256": "29e3d6839cb00490db20d2272cf22c7119063e34a380cbef3ff7243e00b6461c",
+        "bytes": 2932
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page30.png",
+        "sha256": "e27dc3c2a53b2eab2d4d67878e7e5aaff2e1511526a9ac1a20626facaf1dc2b9",
+        "bytes": 343438
+      },
+      "paraphrased_source_assessment": "Purchased army commissions, exclusion by wealth/birth, military schools and the Segur ordinance directly ground the officer-access side of the comparison, followed by defeat/reform context."
+    },
+    {
+      "document_page": 31,
+      "source_page_label": "31",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 31,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page31.txt",
+        "sha256": "08cc0abacddfd7cae89f732499d96a34de480caed1c9817505aad2afaabc91c5",
+        "bytes": 3058
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page31.png",
+        "sha256": "abda67b981638d525888a67c934d1c15c6f93351fb184c96d4f9c29fc4b412b5",
+        "bytes": 346665
+      },
+      "paraphrased_source_assessment": "Army recruitment and social separation, absent officers and blocked experienced officers of fortune are contrasted at the bottom with naval shipboard proximity and technical knowledge."
+    },
+    {
+      "document_page": 32,
+      "source_page_label": "32",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 32,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page32.txt",
+        "sha256": "cc89a689b5e255c87b3183bf7c4277054394f7418946da7d475f178b4f4c4474",
+        "bytes": 2993
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page32.png",
+        "sha256": "d2cb411c916a7a3b014cc7c06cffcccab1f2513572ff862a32d7f0028f5f4f69",
+        "bytes": 350381
+      },
+      "paraphrased_source_assessment": "Naval noble preference, red/blue recruitment, absence of purchase, competence and the classes reserve complete the comparison. Later fleet expenditure and the final transition to clerical privilege do not extend the comparison onto33."
+    },
+    {
+      "document_page": 33,
+      "source_page_label": "33",
+      "chunk_id": "CHUNK-001",
+      "chunk_pdf_page": 33,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page33.txt",
+        "sha256": "72e046b2fdd579bc50bcaa84823830a0a5fbec800109edf4117ce9300af717b0",
+        "bytes": 3093
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/relationship-page-bindings/page33.png",
+        "sha256": "782558093f6f62d29ddf77299ca1645933a7e49ea1f06e2691970fe7386c5d81",
+        "bytes": 352865
+      },
+      "paraphrased_source_assessment": "Clerical composition, local employment, wealth, tithes, exemptions and corporate finance are developed; no naval/army recruitment or competence predicate appears."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "PBF-008",
+      "relationship_id": "REL-SUCC-0EC046BA86DD",
+      "pointer": "/relationships/380",
+      "before": {
+        "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+        "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+        "relationship_type": "conflicts_with",
+        "evidence_document_pages": [
+          11,
+          12,
+          19
+        ],
+        "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+        "relationship_id": "REL-SUCC-0EC046BA86DD",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S013",
+        "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+      },
+      "before_sha256": "92693251db506d365cbe7558f18c596ed08b49025b3338bef4cb73209c9c7c8c",
+      "proposed": {
+        "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+        "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+        "relationship_type": "conflicts_with",
+        "evidence_document_pages": [
+          11,
+          16,
+          17
+        ],
+        "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+        "relationship_id": "REL-SUCC-0EC046BA86DD",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S013",
+        "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+      },
+      "proposed_sha256": "478d5d8cb06d353312c0c57886a9d414c2437c84bade07b2985f031dbf632cdb",
+      "exact_field_change": {
+        "pointer": "/relationships/380/evidence_document_pages",
+        "before": [
+          11,
+          12,
+          19
+        ],
+        "proposed": [
+          11,
+          16,
+          17
+        ],
+        "finding_id": "PBF-008",
+        "relationship_id": "REL-SUCC-0EC046BA86DD"
+      },
+      "disposition": "retain_edge_meaning_operator_and_endpoints; replace_only_page_array",
+      "conclusion": "The scoped conflict is supported.11 directly describes commercial enclosure/common-right violations and16–17 communal resources/defense.12 is general distributional background, not direct support for this operator, and19 is unrelated urban-trades material. The precise supporting array is[11,16,17].",
+      "genuine_continuity": "16 ends with enclosure legislation and landowners;17 immediately completes their deterrence by village resistance. This is a valid page-spanning argument, unlike the unrelated19 citation."
+    },
+    {
+      "finding_id": "PBF-009",
+      "relationship_id": "REL-SUCC-6346B62FAB7C",
+      "pointer": "/relationships/381",
+      "before": {
+        "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+        "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+        "relationship_id": "REL-SUCC-6346B62FAB7C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S040",
+        "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+      },
+      "before_sha256": "062e3701e0fc75c4e9ed6e260ecac60945856284534d31d8720be6757eb8953a",
+      "proposed": {
+        "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+        "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          30,
+          31,
+          32
+        ],
+        "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+        "relationship_id": "REL-SUCC-6346B62FAB7C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S040",
+        "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+      },
+      "proposed_sha256": "404e1b6a10bfb0effcaafbe887e09bdcbdc0271090f77d0c612f7c8889dca241",
+      "exact_field_change": {
+        "pointer": "/relationships/381/evidence_document_pages",
+        "before": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "proposed": [
+          30,
+          31,
+          32
+        ],
+        "finding_id": "PBF-009",
+        "relationship_id": "REL-SUCC-6346B62FAB7C"
+      },
+      "disposition": "retain_edge_meaning_operator_and_endpoints; remove_unrelated_page33",
+      "conclusion": "30–32 ground army purchase/social barriers and naval recruitment/competence, with a real31–32 continuation.33 instead develops the clergy; the end-of32 transition to clergy does not make33 support the military comparison."
+    }
+  ],
+  "whole_endpoint_records": [
+    {
+      "subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+      "pointer": "/subjects/56",
+      "record_sha256": "8ecb96d41b0f07b066b349756eeee577c9be7e394174d228d73b55095506e7be",
+      "record": {
+        "label": "Commercial farming—Paris basin and gros fermiers",
+        "priority": "major",
+        "meaning": "Urban demand around Paris and Flanders supported large leases, capital-intensive cultivation, and prosperous tenant farmers. High transport costs restricted wider market integration; even feasible improvements to roads, canals and tolls would not remove the basic national constraint on marketing surplus. Accessible urban demand supported exceptional large leaseholds and capitalized tenant farmers in the Paris basin, who accumulated land and challenged communal rights. High transport costs, regional markets, tolls, and the limits of road, river, and canal improvement constrained nationwide commercialization.",
+        "stance": "Commercial farmers improved market supply but disrupted village access to land, commons, gleaning, and customary rights. Treat large farming as productive but socially disruptive and geographically exceptional. Do not imply that feasible contemporary infrastructure reforms could eliminate the basic constraint.",
+        "subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+        "acceptable_access": [
+          "gros fermiers",
+          "Paris basin—commercial farming",
+          "Flanders—urban food market",
+          "agriculture—market incentives",
+          "commercial farming",
+          "large-scale farming",
+          "Paris basin—agriculture",
+          "transport costs",
+          "agricultural markets",
+          "roads and canals",
+          "commercialization",
+          "Commercial farming and gros fermiers",
+          "Commercial farming—Paris basin and gros fermiers"
+        ],
+        "evidence": [
+          {
+            "document_page": 10,
+            "source_page_label": "10",
+            "locator_class": "principal",
+            "evidence_summary": "Urban demand explains intensive Flanders farming and the Paris basin's large-scale leased farms.",
+            "evidence_id": "EVID-SUCC-98B1FA42AECC",
+            "source_local_subject_id": "SUCC-C001-S013",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 10,
+            "source_page_label": "10",
+            "locator_class": "principal",
+            "evidence_summary": "Urban demand and costly equipment support large leaseholds and gros fermiers.",
+            "evidence_id": "EVID-SUCC-CF6FC4DB3D2C",
+            "source_local_subject_id": "SUCC-C001-S013",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 11,
+            "source_page_label": "11",
+            "locator_class": "principal",
+            "evidence_summary": "Transport and market limits are identified as fundamental barriers beyond marginal improvement.",
+            "evidence_id": "EVID-SUCC-60DF1A916EA2",
+            "source_local_subject_id": "SUCC-C001-S013",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 11,
+            "source_page_label": "11",
+            "locator_class": "supporting",
+            "evidence_summary": "Gros fermiers accumulated good land, enclosed fields, shifted uses, and challenged communal practices.",
+            "evidence_id": "EVID-SUCC-1B8209742A70",
+            "source_local_subject_id": "SUCC-C001-S013",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 11,
+            "source_page_label": "11",
+            "locator_class": "supporting",
+            "evidence_summary": "Their enclosure, pasture conversion, and rejection of communal rights created conflict.",
+            "evidence_id": "EVID-SUCC-CBA1C8205832",
+            "source_local_subject_id": "SUCC-C001-S013",
+            "source_chunk_id": "CHUNK-001"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-001"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C001-S013",
+            "label": "Commercial farming—Paris basin and gros fermiers",
+            "meaning": "Urban demand around Paris and Flanders supported large leases, capital-intensive cultivation, and prosperous tenant farmers. High transport costs restricted wider market integration; even feasible improvements to roads, canals and tolls would not remove the basic national constraint on marketing surplus. Accessible urban demand supported exceptional large leaseholds and capitalized tenant farmers in the Paris basin, who accumulated land and challenged communal rights. High transport costs, regional markets, tolls, and the limits of road, river, and canal improvement constrained nationwide commercialization.",
+            "stance": "Commercial farmers improved market supply but disrupted village access to land, commons, gleaning, and customary rights. Treat large farming as productive but socially disruptive and geographically exceptional. Do not imply that feasible contemporary infrastructure reforms could eliminate the basic constraint.",
+            "acceptable_access": [
+              "gros fermiers",
+              "Paris basin—commercial farming",
+              "Flanders—urban food market",
+              "agriculture—market incentives",
+              "commercial farming",
+              "large-scale farming",
+              "Paris basin—agriculture",
+              "transport costs",
+              "agricultural markets",
+              "roads and canals",
+              "commercialization",
+              "Commercial farming and gros fermiers",
+              "Commercial farming—Paris basin and gros fermiers"
+            ],
+            "document_pages": [
+              10,
+              11
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C001-S013"
+        ],
+        "editorial_rationale": "Whole-record source repair implements the independent review; parent fields explicitly state retained substantive distinctions. Scoped historical portions and retired or rebound requirements are recorded in the repair dispositions.",
+        "access_scope_rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C001-S013",
+            "label": "Commercial farming—Paris basin and gros fermiers",
+            "meaning": "Urban demand around Paris and Flanders supported large leases, capital-intensive cultivation, and prosperous tenant farmers. High transport costs restricted wider market integration; even feasible improvements to roads, canals and tolls would not remove the basic national constraint on marketing surplus. Accessible urban demand supported exceptional large leaseholds and capitalized tenant farmers in the Paris basin, who accumulated land and challenged communal rights. High transport costs, regional markets, tolls, and the limits of road, river, and canal improvement constrained nationwide commercialization.",
+            "stance": "Commercial farmers improved market supply but disrupted village access to land, commons, gleaning, and customary rights. Treat large farming as productive but socially disruptive and geographically exceptional. Do not imply that feasible contemporary infrastructure reforms could eliminate the basic constraint.",
+            "acceptable_access": [
+              "gros fermiers",
+              "Paris basin—commercial farming",
+              "Flanders—urban food market",
+              "agriculture—market incentives",
+              "commercial farming",
+              "large-scale farming",
+              "Paris basin—agriculture",
+              "transport costs",
+              "agricultural markets",
+              "roads and canals",
+              "commercialization",
+              "Commercial farming and gros fermiers",
+              "Commercial farming—Paris basin and gros fermiers"
+            ],
+            "document_pages": [
+              10,
+              11
+            ],
+            "independently_weighted": false
+          }
+        ],
+        "retained_source_distinctions": [
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S033",
+            "meaning": "Accessible urban demand supported exceptional large leaseholds and capitalized tenant farmers in the Paris basin, who accumulated land and challenged communal rights.",
+            "qualification": "Treat large farming as productive but socially disruptive and geographically exceptional.",
+            "source_pages": [
+              10,
+              11
+            ]
+          },
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S034",
+            "meaning": "High transport costs, regional markets, tolls, and the limits of road, river, and canal improvement constrained nationwide commercialization.",
+            "qualification": "Do not imply that feasible contemporary infrastructure reforms could eliminate the basic constraint.",
+            "source_pages": [
+              11
+            ]
+          }
+        ]
+      },
+      "disposition": "retain_unchanged",
+      "review_scope": "Whole final record read for bounded relationship consistency; all evidence, source-treatment, retained-distinction and facet page metadata inspected. No endpoint change follows. Named newly reread pages are exact; unchanged supporting material outside them reuses prior source review without a new page-reading claim."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E64A7C4235E5",
+      "pointer": "/subjects/66",
+      "record_sha256": "84ef0ea5caba6938513bc1925b73ab931565a5e02d67391a95870b7f74c98e35",
+      "record": {
+        "label": "Peasantry—mixed livelihoods and communal rights",
+        "priority": "essential",
+        "meaning": "Most peasant households combined small plots with wage work, cottage industry, migration, and access to commons, gleaning, and stubble grazing.",
+        "stance": "Communal resources and collective legal or direct resistance were indispensable defenses against precarity and outside encroachment.",
+        "subject_id": "SUBJ-SUCC-E64A7C4235E5",
+        "acceptable_access": [
+          "peasants—livelihoods",
+          "commons and communal rights",
+          "village communities—collective resistance",
+          "rural migration",
+          "peasantry—livelihoods",
+          "seasonal labor",
+          "household economy",
+          "common rights",
+          "commons",
+          "enclosure",
+          "gleaning",
+          "village resistance",
+          "Peasant households—mixed livelihoods and migration",
+          "Village common rights, enclosure, and collective resistance",
+          "Peasantry—mixed livelihoods and communal rights"
+        ],
+        "evidence": [
+          {
+            "document_page": 16,
+            "source_page_label": "16",
+            "locator_class": "principal",
+            "evidence_summary": "Peasant demographic dominance, makeshift livelihoods, seasonal migration, and communal resources are surveyed.",
+            "evidence_id": "EVID-SUCC-FE79A91F953B",
+            "source_local_subject_id": "SUCC-C001-S023",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 16,
+            "source_page_label": "16",
+            "locator_class": "principal",
+            "evidence_summary": "Land, wage labor, cottage industry, migration, and vagrancy are placed in demographic context.",
+            "evidence_id": "EVID-SUCC-C707FE9CC389",
+            "source_local_subject_id": "SUCC-C001-S023",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 16,
+            "source_page_label": "16",
+            "locator_class": "principal",
+            "evidence_summary": "Pasture, firewood, gleaning, grazing, enclosure legislation, and community lawsuits are described.",
+            "evidence_id": "EVID-SUCC-A041A72D317E",
+            "source_local_subject_id": "SUCC-C001-S023",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 17,
+            "source_page_label": "17",
+            "locator_class": "supporting",
+            "evidence_summary": "Communities resisted enclosure, seigneurial claims, and tithe practices through courts, riots, and passive tactics.",
+            "evidence_id": "EVID-SUCC-E11B6BA6CB1A",
+            "source_local_subject_id": "SUCC-C001-S023",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 17,
+            "source_page_label": "17",
+            "locator_class": "supporting",
+            "evidence_summary": "Court action, riot, and resistance extended to tithe conflicts.",
+            "evidence_id": "EVID-SUCC-8761A1F124FF",
+            "source_local_subject_id": "SUCC-C001-S023",
+            "source_chunk_id": "CHUNK-001"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-001"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C001-S023",
+            "label": "Peasantry—mixed livelihoods and communal rights",
+            "meaning": "Most peasant households combined small plots with wage work, cottage industry, migration, and access to commons, gleaning, and stubble grazing.",
+            "stance": "Communal resources and collective legal or direct resistance were indispensable defenses against precarity and outside encroachment.",
+            "acceptable_access": [
+              "peasants—livelihoods",
+              "commons and communal rights",
+              "village communities—collective resistance",
+              "rural migration",
+              "peasantry—livelihoods",
+              "seasonal labor",
+              "household economy",
+              "common rights",
+              "commons",
+              "enclosure",
+              "gleaning",
+              "village resistance",
+              "Peasant households—mixed livelihoods and migration",
+              "Village common rights, enclosure, and collective resistance",
+              "Peasantry—mixed livelihoods and communal rights"
+            ],
+            "document_pages": [
+              16,
+              17
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C001-S023"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C001-S023",
+            "label": "Peasantry—mixed livelihoods and communal rights",
+            "meaning": "Most peasant households combined small plots with wage work, cottage industry, migration, and access to commons, gleaning, and stubble grazing.",
+            "stance": "Communal resources and collective legal or direct resistance were indispensable defenses against precarity and outside encroachment.",
+            "acceptable_access": [
+              "peasants—livelihoods",
+              "commons and communal rights",
+              "village communities—collective resistance",
+              "rural migration",
+              "peasantry—livelihoods",
+              "seasonal labor",
+              "household economy",
+              "common rights",
+              "commons",
+              "enclosure",
+              "gleaning",
+              "village resistance",
+              "Peasant households—mixed livelihoods and migration",
+              "Village common rights, enclosure, and collective resistance",
+              "Peasantry—mixed livelihoods and communal rights"
+            ],
+            "document_pages": [
+              16,
+              17
+            ],
+            "independently_weighted": false
+          }
+        ],
+        "retained_source_distinctions": [
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S053",
+            "meaning": "Most peasant families combined inadequate land with day labor, seasonal work, cottage industry, and temporary or permanent migration.",
+            "qualification": "Reject an isolated, exclusively agricultural peasantry.",
+            "source_pages": [
+              16
+            ]
+          },
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S054",
+            "meaning": "Commons, gleaning, grazing, firewood, and collective legal or direct resistance protected fragile households against enclosure, lords, and tithe gatherers.",
+            "qualification": "Treat common rights as material resources and organized community defense, not quaint custom.",
+            "source_pages": [
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      "disposition": "retain_unchanged",
+      "review_scope": "Whole final record read for bounded relationship consistency; all evidence, source-treatment, retained-distinction and facet page metadata inspected. No endpoint change follows. Named newly reread pages are exact; unchanged supporting material outside them reuses prior source review without a new page-reading claim."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+      "pointer": "/subjects/81",
+      "record_sha256": "72ffc016ba5a3b179abdc47fd82a4758dbd7b7f4dd848acf4f657ec2b36c7163",
+      "record": {
+        "label": "French army—reform, organization, and social separation",
+        "priority": "essential",
+        "meaning": "Defeat prompted Prussian-inspired reforms in tactics, uniforms, discipline, and officer formation, but the army remained internally divided and socially remote from much of France. Military defeats drove reforms modeled on Prussian officer formation, tactics, uniforms, maneuvers, and discipline, provoking controversy over compatibility with French honor and institutions. Purchased commissions and noble restrictions separated officers from rankers and blocked experienced officers of fortune, while generous leave weakened professional contact.",
+        "stance": "Professional reform did not overcome aristocratic barriers, officer indifference, regional concentration, or the exclusion of experienced men of talent. Treat Prussian influence as a contested reform model, not wholesale institutional copying. Distinguish professionalizing claims from the social distance reforms often reinforced.",
+        "subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+        "acceptable_access": [
+          "French army—reforms",
+          "Prussian military influence",
+          "army—officer corps",
+          "armed forces—social role",
+          "army reform",
+          "military discipline",
+          "French army",
+          "army officers",
+          "military commissions—purchase",
+          "officers of fortune",
+          "officer-ranker relations",
+          "Army reform and Prussian models",
+          "French army—reform, organization, and social separation"
+        ],
+        "evidence": [
+          {
+            "document_page": 30,
+            "source_page_label": "30",
+            "locator_class": "principal",
+            "evidence_summary": "Mid-century defeats and reform objectives are introduced.",
+            "evidence_id": "EVID-SUCC-FD3E358FBD92",
+            "source_local_subject_id": "SUCC-C001-S038",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 30,
+            "source_page_label": "30",
+            "locator_class": "supporting",
+            "evidence_summary": "Mid-century defeats and reforms set the institutional context.",
+            "evidence_id": "EVID-SUCC-3943A9961B0B",
+            "source_local_subject_id": "SUCC-C001-S038",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 30,
+            "source_page_label": "30",
+            "locator_class": "supporting",
+            "evidence_summary": "Commission purchase priced poor nobles out.",
+            "evidence_id": "EVID-SUCC-44E13F9E7B0E",
+            "source_local_subject_id": "SUCC-C001-S038",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 31,
+            "source_page_label": "31",
+            "locator_class": "principal",
+            "evidence_summary": "Prussian models, service composition, limited social footprint, officer-rank distance, and blocked talent are assessed.",
+            "evidence_id": "EVID-SUCC-674B7FD1E288",
+            "source_local_subject_id": "SUCC-C001-S038",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 31,
+            "source_page_label": "31",
+            "locator_class": "principal",
+            "evidence_summary": "Prussian tactics, dress, discipline, and controversy are specified.",
+            "evidence_id": "EVID-SUCC-4CF83BD89957",
+            "source_local_subject_id": "SUCC-C001-S038",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 31,
+            "source_page_label": "31",
+            "locator_class": "principal",
+            "evidence_summary": "Officer absence, Prussian drill, restrictions, and blocked officers of fortune are criticized.",
+            "evidence_id": "EVID-SUCC-AA809C131E51",
+            "source_local_subject_id": "SUCC-C001-S038",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "evidence_id": "EVID-SUCC-ADCE1F7E1C70",
+            "document_page": 30,
+            "source_page_label": "30",
+            "locator_class": "supporting",
+            "source_chunk_id": "CHUNK-001",
+            "source_local_subject_id": "SUCC-C001-S038",
+            "evidence_summary": "His army supplies the lost standard of military prestige."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-001"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C001-S038",
+            "label": "French army—reform, organization, and social separation",
+            "meaning": "Defeat prompted Prussian-inspired reforms in tactics, uniforms, discipline, and officer formation, but the army remained internally divided and socially remote from much of France. Military defeats drove reforms modeled on Prussian officer formation, tactics, uniforms, maneuvers, and discipline, provoking controversy over compatibility with French honor and institutions. Purchased commissions and noble restrictions separated officers from rankers and blocked experienced officers of fortune, while generous leave weakened professional contact.",
+            "stance": "Professional reform did not overcome aristocratic barriers, officer indifference, regional concentration, or the exclusion of experienced men of talent. Treat Prussian influence as a contested reform model, not wholesale institutional copying. Distinguish professionalizing claims from the social distance reforms often reinforced.",
+            "acceptable_access": [
+              "French army—reforms",
+              "Prussian military influence",
+              "army—officer corps",
+              "armed forces—social role",
+              "army reform",
+              "military discipline",
+              "French army",
+              "army officers",
+              "military commissions—purchase",
+              "officers of fortune",
+              "officer-ranker relations",
+              "Army reform and Prussian models",
+              "French army—reform, organization, and social separation"
+            ],
+            "document_pages": [
+              30,
+              31
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C001-S038"
+        ],
+        "editorial_rationale": "Whole-record source repair implements the independent review; parent fields explicitly state retained substantive distinctions. Scoped historical portions and retired or rebound requirements are recorded in the repair dispositions.",
+        "access_scope_rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C001-S038",
+            "label": "French army—reform, organization, and social separation",
+            "meaning": "Defeat prompted Prussian-inspired reforms in tactics, uniforms, discipline, and officer formation, but the army remained internally divided and socially remote from much of France. Military defeats drove reforms modeled on Prussian officer formation, tactics, uniforms, maneuvers, and discipline, provoking controversy over compatibility with French honor and institutions. Purchased commissions and noble restrictions separated officers from rankers and blocked experienced officers of fortune, while generous leave weakened professional contact.",
+            "stance": "Professional reform did not overcome aristocratic barriers, officer indifference, regional concentration, or the exclusion of experienced men of talent. Treat Prussian influence as a contested reform model, not wholesale institutional copying. Distinguish professionalizing claims from the social distance reforms often reinforced.",
+            "acceptable_access": [
+              "French army—reforms",
+              "Prussian military influence",
+              "army—officer corps",
+              "armed forces—social role",
+              "army reform",
+              "military discipline",
+              "French army",
+              "army officers",
+              "military commissions—purchase",
+              "officers of fortune",
+              "officer-ranker relations",
+              "Army reform and Prussian models",
+              "French army—reform, organization, and social separation"
+            ],
+            "document_pages": [
+              30,
+              31
+            ],
+            "independently_weighted": false
+          }
+        ],
+        "retained_source_distinctions": [
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S087",
+            "meaning": "Military defeats drove reforms modeled on Prussian officer formation, tactics, uniforms, maneuvers, and discipline, provoking controversy over compatibility with French honor and institutions.",
+            "qualification": "Treat Prussian influence as a contested reform model, not wholesale institutional copying.",
+            "source_pages": [
+              30,
+              31
+            ]
+          },
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S089",
+            "meaning": "Purchased commissions and noble restrictions separated officers from rankers and blocked experienced officers of fortune, while generous leave weakened professional contact.",
+            "qualification": "Distinguish professionalizing claims from the social distance reforms often reinforced.",
+            "source_pages": [
+              30,
+              31
+            ]
+          }
+        ]
+      },
+      "disposition": "retain_unchanged",
+      "review_scope": "Whole final record read for bounded relationship consistency; all evidence, source-treatment, retained-distinction and facet page metadata inspected. No endpoint change follows. Named newly reread pages are exact; unchanged supporting material outside them reuses prior source review without a new page-reading claim."
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B6818330CE83",
+      "pointer": "/subjects/83",
+      "record_sha256": "2d35d7fcb25ad3cb4440f3c5761acfce0bba049004dd4c3fa19984f1ee133e1c",
+      "record": {
+        "label": "French navy—professional competence, conscription, and expansion",
+        "priority": "major",
+        "meaning": "The navy combined more technical professional competence with red and blue officer routes, continuing noble preference, absence of purchased commissions and the classes reserve system for seamen. Expansion helped secure American independence but naval costs and the Cherbourg works added to fiscal exhaustion. Noble naval schools supplied 'red' officers, wartime maritime society supplied 'blues,' and registered naval classes mobilized experienced coastal labor, making competence more important than in the army. Post-1763 naval expansion produced wartime success and helped secure American independence, but sustained fleet and Cherbourg spending contributed to bankruptcy. Naval costs multiplied during the American war, while later defence spending and Cherbourg intensified fiscal strain.",
+        "stance": "Compare these recruitment and advancement institutions with the army without treating naval service as socially equal. Naval expenditure is a specific fiscal contribution, not the entire monarchy-wide finance dossier. Preserve noble preference without claiming complete noble monopoly or social equality at sea. Preserve both strategic achievement and fiscal unsustainability.",
+        "subject_id": "SUBJ-SUCC-B6818330CE83",
+        "acceptable_access": [
+          "French navy—professional competence, conscription, and expansion",
+          "French navy—officers and recruitment",
+          "naval conscription",
+          "American War of Independence—French navy",
+          "Cherbourg harbor",
+          "naval expenditure",
+          "navy—officers",
+          "red officers",
+          "blue officers",
+          "class system",
+          "naval expansion",
+          "American War of Independence",
+          "defence spending",
+          "state bankruptcy",
+          "military expenditure",
+          "Naval expansion, American independence, Cherbourg, and fiscal strain",
+          "Navy—officer recruitment, competence, and the class system"
+        ],
+        "evidence": [
+          {
+            "document_page": 31,
+            "source_page_label": "31",
+            "locator_class": "supporting",
+            "evidence_summary": "Close shipboard life and technical competence distinguish naval organization from the army.",
+            "evidence_id": "EVID-SUCC-E29CBC5010E0",
+            "source_local_subject_id": "SUCC-C001-S040",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 32,
+            "source_page_label": "32",
+            "locator_class": "principal",
+            "evidence_summary": "Red and blue officers, maritime classes, fleet expansion, American victory, Cherbourg, and bankruptcy are connected.",
+            "evidence_id": "EVID-SUCC-4A96BC8D8397",
+            "source_local_subject_id": "SUCC-C001-S040",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 32,
+            "source_page_label": "32",
+            "locator_class": "principal",
+            "evidence_summary": "Schools, red and blue officers, absence of purchase, competence, and naval classes are explained.",
+            "evidence_id": "EVID-SUCC-2EC69989E503",
+            "source_local_subject_id": "SUCC-C001-S040",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 32,
+            "source_page_label": "32",
+            "locator_class": "principal",
+            "evidence_summary": "Fleet growth, war success, American independence, royal commitment, Cherbourg, and bankruptcy are connected.",
+            "evidence_id": "EVID-SUCC-032E809D5FFD",
+            "source_local_subject_id": "SUCC-C001-S040",
+            "source_chunk_id": "CHUNK-001"
+          },
+          {
+            "document_page": 32,
+            "source_page_label": "32",
+            "locator_class": "principal",
+            "evidence_summary": "Naval costs quadruple during the American war, continued defense spending and Cherbourg raise doubts, and bankruptcy follows.",
+            "evidence_id": "EVID-SUCC-5C00339AD6A2",
+            "source_local_subject_id": "SUCC-C001-S040",
+            "source_chunk_id": "CHUNK-001"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-001"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C001-S040",
+            "label": "French navy—professional competence, conscription, and expansion",
+            "meaning": "The navy combined more technical professional competence with red and blue officer routes, continuing noble preference, absence of purchased commissions and the classes reserve system for seamen. Expansion helped secure American independence but naval costs and the Cherbourg works added to fiscal exhaustion. Noble naval schools supplied 'red' officers, wartime maritime society supplied 'blues,' and registered naval classes mobilized experienced coastal labor, making competence more important than in the army. Post-1763 naval expansion produced wartime success and helped secure American independence, but sustained fleet and Cherbourg spending contributed to bankruptcy. Naval costs multiplied during the American war, while later defence spending and Cherbourg intensified fiscal strain.",
+            "stance": "Compare these recruitment and advancement institutions with the army without treating naval service as socially equal. Naval expenditure is a specific fiscal contribution, not the entire monarchy-wide finance dossier. Preserve noble preference without claiming complete noble monopoly or social equality at sea. Preserve both strategic achievement and fiscal unsustainability.",
+            "acceptable_access": [
+              "French navy—professional competence, conscription, and expansion",
+              "French navy—officers and recruitment",
+              "naval conscription",
+              "American War of Independence—French navy",
+              "Cherbourg harbor",
+              "naval expenditure",
+              "navy—officers",
+              "red officers",
+              "blue officers",
+              "class system",
+              "naval expansion",
+              "American War of Independence",
+              "defence spending",
+              "state bankruptcy",
+              "military expenditure",
+              "Naval expansion, American independence, Cherbourg, and fiscal strain",
+              "Navy—officer recruitment, competence, and the class system"
+            ],
+            "document_pages": [
+              31,
+              32
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C001-S040"
+        ],
+        "editorial_rationale": "Whole-record source repair implements the independent review; parent fields explicitly state retained substantive distinctions. Scoped historical portions and retired or rebound requirements are recorded in the repair dispositions.",
+        "access_scope_rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C001-S040",
+            "label": "French navy—professional competence, conscription, and expansion",
+            "meaning": "The navy combined more technical professional competence with red and blue officer routes, continuing noble preference, absence of purchased commissions and the classes reserve system for seamen. Expansion helped secure American independence but naval costs and the Cherbourg works added to fiscal exhaustion. Noble naval schools supplied 'red' officers, wartime maritime society supplied 'blues,' and registered naval classes mobilized experienced coastal labor, making competence more important than in the army. Post-1763 naval expansion produced wartime success and helped secure American independence, but sustained fleet and Cherbourg spending contributed to bankruptcy. Naval costs multiplied during the American war, while later defence spending and Cherbourg intensified fiscal strain.",
+            "stance": "Compare these recruitment and advancement institutions with the army without treating naval service as socially equal. Naval expenditure is a specific fiscal contribution, not the entire monarchy-wide finance dossier. Preserve noble preference without claiming complete noble monopoly or social equality at sea. Preserve both strategic achievement and fiscal unsustainability.",
+            "acceptable_access": [
+              "French navy—professional competence, conscription, and expansion",
+              "French navy—officers and recruitment",
+              "naval conscription",
+              "American War of Independence—French navy",
+              "Cherbourg harbor",
+              "naval expenditure",
+              "navy—officers",
+              "red officers",
+              "blue officers",
+              "class system",
+              "naval expansion",
+              "American War of Independence",
+              "defence spending",
+              "state bankruptcy",
+              "military expenditure",
+              "Naval expansion, American independence, Cherbourg, and fiscal strain",
+              "Navy—officer recruitment, competence, and the class system"
+            ],
+            "document_pages": [
+              31,
+              32
+            ],
+            "independently_weighted": false
+          }
+        ],
+        "retained_source_distinctions": [
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S090",
+            "meaning": "Noble naval schools supplied 'red' officers, wartime maritime society supplied 'blues,' and registered naval classes mobilized experienced coastal labor, making competence more important than in the army.",
+            "qualification": "Preserve noble preference without claiming complete noble monopoly or social equality at sea.",
+            "source_pages": [
+              32
+            ]
+          },
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S091",
+            "meaning": "Post-1763 naval expansion produced wartime success and helped secure American independence, but sustained fleet and Cherbourg spending contributed to bankruptcy.",
+            "qualification": "Preserve both strategic achievement and fiscal unsustainability.",
+            "source_pages": [
+              32
+            ]
+          },
+          {
+            "source_local_subject_id": "CHUNK-001-V2-S120",
+            "meaning": "Naval costs multiplied during the American war, while later defence spending and Cherbourg intensified fiscal strain.",
+            "qualification": "Compare these recruitment and advancement institutions with the army without treating naval service as socially equal. Naval expenditure is a specific fiscal contribution, not the entire monarchy-wide finance dossier.",
+            "source_pages": [
+              32
+            ]
+          }
+        ]
+      },
+      "disposition": "retain_unchanged",
+      "review_scope": "Whole final record read for bounded relationship consistency; all evidence, source-treatment, retained-distinction and facet page metadata inspected. No endpoint change follows. Named newly reread pages are exact; unchanged supporting material outside them reuses prior source review without a new page-reading claim."
+    }
+  ],
+  "whole_linked_reader_tasks": [
+    {
+      "task_id": "TASK-SUCC-98B1FA42AECC",
+      "pointer": "/reader_tasks/32",
+      "record_sha256": "dac9eec470f0d83d3c993623ae6ad71f1f38d872da23f6156efba8f5e43a8f85",
+      "subject_dependencies": [
+        "SUBJ-SUCC-8091E0F5C8B0"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-98B1FA42AECC",
+        "question": "Find why large commercial farms developed around Paris and why they were resented.",
+        "subject_ids": [
+          "SUBJ-SUCC-8091E0F5C8B0"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S013:0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-12769C4F68EA",
+            "question": "How does Doyle explain why large commercial farms developed around Paris and why they were resented?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-8091E0F5C8B0"
+            ],
+            "historical_task_id": "TASK-12769C4F68EA",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-65B50204480D",
+      "pointer": "/reader_tasks/33",
+      "record_sha256": "95ee5c6cdbea3616d16bb338c45f3050dfec9a418e5ceccc2f06f9bce3622f5c",
+      "subject_dependencies": [
+        "SUBJ-SUCC-8091E0F5C8B0"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-65B50204480D",
+        "question": "Find why most cultivators remained outside large markets.",
+        "subject_ids": [
+          "SUBJ-SUCC-8091E0F5C8B0",
+          "SUBJ-SUCC-76502415BD29"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S013:1",
+          "SUCC-C001-S019:0"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-CF6FC4DB3D2C",
+          "TASK-SUCC-904E9FC09533"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-EDDF4B49B1F1",
+            "question": "How does Doyle explain why most cultivators remained outside large markets?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-76502415BD29",
+              "SUBJ-SUCC-8091E0F5C8B0"
+            ],
+            "historical_task_id": "TASK-EDDF4B49B1F1",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-FE79A91F953B",
+      "pointer": "/reader_tasks/53",
+      "record_sha256": "9426f9532b4b066134014f499759948ed8b2a049eeb3666261d9919de946cdd5",
+      "subject_dependencies": [
+        "SUBJ-SUCC-E64A7C4235E5"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-FE79A91F953B",
+        "question": "Retrieve the livelihood strategies of ordinary peasant households.",
+        "subject_ids": [
+          "SUBJ-SUCC-E64A7C4235E5"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S023:0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-43DE9274D223",
+            "question": "What does Doyle show about the livelihood strategies of ordinary peasant households?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-E64A7C4235E5"
+            ],
+            "historical_task_id": "TASK-43DE9274D223",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-C707FE9CC389",
+      "pointer": "/reader_tasks/54",
+      "record_sha256": "7b69cd59acb0629662203fe28acda6c598c59eb79c79c35126c51608f005e2e5",
+      "subject_dependencies": [
+        "SUBJ-SUCC-E64A7C4235E5"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-C707FE9CC389",
+        "question": "Find what communal rights provided and how villages defended them.",
+        "subject_ids": [
+          "SUBJ-SUCC-E64A7C4235E5"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S023:1"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-3F3DB23B3804",
+            "question": "What communal rights does Doyle identify, and how did villages defend them?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-E64A7C4235E5"
+            ],
+            "historical_task_id": "TASK-3F3DB23B3804",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-D2F65FAE48BD",
+      "pointer": "/reader_tasks/86",
+      "record_sha256": "9e193c1b0f9c0a3a51e903395c144c2e45bcc2439365a710060abac83983f0f3",
+      "subject_dependencies": [
+        "SUBJ-SUCC-4A0D9CB97E23"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-D2F65FAE48BD",
+        "question": "Retrieve how class and purchase shaped the officer corps.",
+        "subject_ids": [
+          "SUBJ-SUCC-00A1DFB36234",
+          "SUBJ-SUCC-4A0D9CB97E23"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S037:2",
+          "SUCC-C001-S038:1"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-F639464E6E18",
+          "TASK-SUCC-3943A9961B0B"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-F2B20EEC79B2",
+            "question": "What account does Doyle give of how class and purchase shaped the officer corps?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-00A1DFB36234",
+              "SUBJ-SUCC-4A0D9CB97E23"
+            ],
+            "historical_task_id": "TASK-F2B20EEC79B2",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-FD3E358FBD92",
+      "pointer": "/reader_tasks/87",
+      "record_sha256": "6aa5f934159875a86101500a9c4c8539b75ef58d20ccfaa7b118c358d3fc6445",
+      "subject_dependencies": [
+        "SUBJ-SUCC-4A0D9CB97E23"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-FD3E358FBD92",
+        "question": "Retrieve the causes and content of French army reform.",
+        "subject_ids": [
+          "SUBJ-SUCC-4A0D9CB97E23"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S038:0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-9BCCD3FDC068",
+            "question": "What does Doyle show about the causes and content of French army reform?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-4A0D9CB97E23"
+            ],
+            "historical_task_id": "TASK-9BCCD3FDC068",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-53932F27987A",
+      "pointer": "/reader_tasks/89",
+      "record_sha256": "d9737f93e9627f3a94b59f1b15f7da2dbab739734d1198d01e0d5b361817a6d5",
+      "subject_dependencies": [
+        "SUBJ-SUCC-B6818330CE83"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-53932F27987A",
+        "question": "Find how naval recruitment and service differed from the army.",
+        "subject_ids": [
+          "SUBJ-SUCC-B6818330CE83"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S040:0"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-F70322BD92B2",
+            "question": "What account does Doyle give of how naval recruitment and service differed from the army?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-B6818330CE83"
+            ],
+            "historical_task_id": "TASK-F70322BD92B2",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-E29CBC5010E0",
+      "pointer": "/reader_tasks/90",
+      "record_sha256": "4a18988c93cb172b5dddf8627eb78fef8a8920f82231f52832f8f6767733c44e",
+      "subject_dependencies": [
+        "SUBJ-SUCC-B6818330CE83"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-E29CBC5010E0",
+        "question": "Retrieve the achievements and financial consequences of Louis XVI's naval policy.",
+        "subject_ids": [
+          "SUBJ-SUCC-B6818330CE83"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S040:1"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-8831BBB3C2E2",
+            "question": "What does Doyle show about the achievements and financial consequences of Louis XVI's naval policy?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-B6818330CE83"
+            ],
+            "historical_task_id": "TASK-8831BBB3C2E2",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-D8BD97AE0CFB",
+      "pointer": "/reader_tasks/91",
+      "record_sha256": "bf1b866b6004ceebe3ab9ac2ca93f61c84a0b6fb63a94e7c15d59a6ba15ba089",
+      "subject_dependencies": [
+        "SUBJ-SUCC-B6818330CE83"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-D8BD97AE0CFB",
+        "question": "How did naval expenditure, court resistance to taxation and financier credit expose the monarchy’s fiscal vulnerability before 1789?",
+        "subject_ids": [
+          "SUBJ-SUCC-B6818330CE83",
+          "SUBJ-SUCC-60BD7301ADEB",
+          "SUBJ-SUCC-9728D0AA9CBE"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S040:2",
+          "SUCC-C001-S048:3",
+          "SUCC-C001-S051:2"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-4A96BC8D8397",
+          "TASK-SUCC-EB960A779D54",
+          "TASK-SUCC-1FC24C6B1C4E"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-434584E193FF",
+            "question": "How did naval expenditure, court resistance to taxation and financier credit expose the monarchy’s fiscal vulnerability before 1789?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-B6818330CE83",
+              "SUBJ-SUCC-60BD7301ADEB",
+              "SUBJ-SUCC-9728D0AA9CBE"
+            ],
+            "historical_task_id": "TASK-434584E193FF",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "This retained demand is explicitly stated in the parent question and is answered by the bounded parent targets; copied unrelated historical dossier targets are excluded."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    },
+    {
+      "task_id": "TASK-SUCC-AF32FA0F3F91",
+      "pointer": "/reader_tasks/114",
+      "record_sha256": "29d5cf292e8dcd1c507ff177814338592519244f0ff5ca37eef5187b7d50bd24",
+      "subject_dependencies": [
+        "SUBJ-SUCC-4A0D9CB97E23"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-AF32FA0F3F91",
+        "question": "What territorial, military, court and personal standards did Louis XVI inherit from Louis XIV, and how had they changed?",
+        "subject_ids": [
+          "SUBJ-SUCC-C3BE86BDA626",
+          "SUBJ-SUCC-842353BC1D2D",
+          "SUBJ-SUCC-C111CEB4281D",
+          "SUBJ-SUCC-4A0D9CB97E23"
+        ],
+        "source_task_ids": [
+          "SUCC-C001-S052:4",
+          "SUCC-C001-S054:3"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-86012C2AA14E",
+          "TASK-SUCC-D51EBA45CE34"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-9D777A6DDA6F",
+            "question": "What territorial, military, court and personal standards did Louis XVI inherit from Louis XIV, and how had they changed?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C3BE86BDA626",
+              "SUBJ-SUCC-842353BC1D2D",
+              "SUBJ-SUCC-C111CEB4281D",
+              "SUBJ-SUCC-4A0D9CB97E23"
+            ],
+            "historical_task_id": "TASK-9D777A6DDA6F",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "This retained demand is explicitly stated in the parent question and is answered by the bounded parent targets; copied unrelated historical dossier targets are excluded."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_relationship_page_correction",
+      "basis": "Whole question, parent links and every retained facet read. The two edge citation arrays neither change the inquiry nor introduce a new target/claim. These tasks contain no dependency on the erroneous relationship page numbers; unchanged broader inquiries retain earlier review."
+    }
+  ],
+  "all_exact_relationship_id_occurrences_in_base": [
+    {
+      "relationship_id": "REL-SUCC-0EC046BA86DD",
+      "pointer": "/relationships/380/relationship_id",
+      "value": "REL-SUCC-0EC046BA86DD"
+    },
+    {
+      "relationship_id": "REL-SUCC-6346B62FAB7C",
+      "pointer": "/relationships/381/relationship_id",
+      "value": "REL-SUCC-6346B62FAB7C"
+    }
+  ],
+  "prior_review_records": [
+    {
+      "kind": "initial_relationship_review",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+        "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+        "bytes": 128966
+      },
+      "line_one_based": 68,
+      "row_sha256": "0051f0d2d93aa61c243ffd7e72312b782b787f58de42ae39ca6dc530ffd03a40",
+      "row": {
+        "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+        "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+        "relationship_type": "conflicts_with",
+        "evidence_document_pages": [
+          11,
+          12,
+          19
+        ],
+        "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+        "relationship_id": "REL-SUCC-0EC046BA86DD",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S013",
+        "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E",
+        "verdict": "faithful",
+        "basis": "Pages 11–12/19 describe conflict over enclosure and communal usage; the rationale properly limits it to particular commercial cultivators and collective rights.",
+        "proposed_fix": "",
+        "reviewed_fields": [
+          "direction",
+          "relationship_type",
+          "source_subject_id",
+          "target_subject_id",
+          "rationale",
+          "evidence_document_pages"
+        ],
+        "old_lineage_ids": [
+          "legacy:REL-43B081C862F2",
+          "legacy:REL-55580B5DB452"
+        ]
+      }
+    },
+    {
+      "kind": "initial_relationship_review",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+        "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+        "bytes": 128966
+      },
+      "line_one_based": 69,
+      "row_sha256": "779fb89699e1c8137cc630d42bac11fc7acd17423864549469bb127360f687d7",
+      "row": {
+        "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+        "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+        "relationship_id": "REL-SUCC-6346B62FAB7C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S040",
+        "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC",
+        "verdict": "faithful",
+        "basis": "Pages 30–33 contrast naval professional recruitment with army purchase/social distance; a bounded institutional comparison is supported.",
+        "proposed_fix": "",
+        "reviewed_fields": [
+          "direction",
+          "relationship_type",
+          "source_subject_id",
+          "target_subject_id",
+          "rationale",
+          "evidence_document_pages"
+        ],
+        "old_lineage_ids": [
+          "legacy:REL-FB865B3C3289"
+        ]
+      }
+    },
+    {
+      "kind": "repair_requirement_disposition",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 3170,
+      "row_sha256": "61a21429c994a846d1ab6847a81cf7e469946568ed7f7dac80f6f0deb51b3e7b",
+      "row": {
+        "requirement_key": "REL-SUCC-0EC046BA86DD",
+        "record_id": "REL-SUCC-0EC046BA86DD",
+        "requirement_type": "relationship",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+          "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+          "relationship_type": "conflicts_with",
+          "evidence_document_pages": [
+            11,
+            12,
+            19
+          ],
+          "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+          "relationship_id": "REL-SUCC-0EC046BA86DD",
+          "resolution_status": "resolved",
+          "source_local_subject_id": "SUCC-C001-S013",
+          "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+        },
+        "after": {
+          "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+          "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+          "relationship_type": "conflicts_with",
+          "evidence_document_pages": [
+            11,
+            12,
+            19
+          ],
+          "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+          "relationship_id": "REL-SUCC-0EC046BA86DD",
+          "resolution_status": "resolved",
+          "source_local_subject_id": "SUCC-C001-S013",
+          "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+        },
+        "independent_basis": "Pages 11–12/19 describe conflict over enclosure and communal usage; the rationale properly limits it to particular commercial cultivators and collective rights.",
+        "repair_intent": ""
+      }
+    },
+    {
+      "kind": "repair_requirement_disposition",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 3171,
+      "row_sha256": "f164c730d1b38b0089c8e7722c531a834893b877e354cbda9e43171a3059b81f",
+      "row": {
+        "requirement_key": "REL-SUCC-6346B62FAB7C",
+        "record_id": "REL-SUCC-6346B62FAB7C",
+        "requirement_type": "relationship",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+          "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+          "relationship_type": "contrasts_with",
+          "evidence_document_pages": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+          "relationship_id": "REL-SUCC-6346B62FAB7C",
+          "resolution_status": "resolved",
+          "source_local_subject_id": "SUCC-C001-S040",
+          "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+        },
+        "after": {
+          "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+          "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+          "relationship_type": "contrasts_with",
+          "evidence_document_pages": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+          "relationship_id": "REL-SUCC-6346B62FAB7C",
+          "resolution_status": "resolved",
+          "source_local_subject_id": "SUCC-C001-S040",
+          "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+        },
+        "independent_basis": "Pages 30–33 contrast naval professional recruitment with army purchase/social distance; a bounded institutional comparison is supported.",
+        "repair_intent": ""
+      }
+    },
+    {
+      "kind": "historical_relationship_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+        "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+        "bytes": 536644
+      },
+      "line_one_based": 80,
+      "row_sha256": "c1cf6060f805da188c50e3783980e3396b94e89795e8e3f680fb70258ea51199",
+      "row": {
+        "review_key": "legacy:REL-43B081C862F2",
+        "old_record": {
+          "relationship_id": "REL-43B081C862F2",
+          "source_subject_id": "SUBJ-D7563A1B7387",
+          "type": "related_to",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "related"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-001",
+              "local_subject_id": "CHUNK-001-V2-S054",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-FA746B9B86AD"
+        },
+        "source_pages": [
+          11,
+          12,
+          19
+        ],
+        "current_relationship_ids": [
+          "REL-SUCC-0EC046BA86DD"
+        ],
+        "disposition": "retain_prior_substantive_review_and_bind_proposed_records",
+        "independent_review_bindings": [
+          {
+            "relationship_id": "REL-SUCC-0EC046BA86DD",
+            "basis": "Pages 11–12/19 describe conflict over enclosure and communal usage; the rationale properly limits it to particular commercial cultivators and collective rights.",
+            "required_lineage_disposition": "",
+            "proposed_record": {
+              "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+              "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+              "relationship_type": "conflicts_with",
+              "evidence_document_pages": [
+                11,
+                12,
+                19
+              ],
+              "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+              "relationship_id": "REL-SUCC-0EC046BA86DD",
+              "resolution_status": "resolved",
+              "source_local_subject_id": "SUCC-C001-S013",
+              "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+            }
+          }
+        ],
+        "source_parent_replacements": [
+          "SUBJ-SUCC-8091E0F5C8B0",
+          "SUBJ-SUCC-E64A7C4235E5"
+        ],
+        "cross_shard_status": "Any unowned target or distinct lead requirement remains unresolved; a reviewed current edge is not automatic semantic equivalence."
+      }
+    },
+    {
+      "kind": "historical_relationship_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+        "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+        "bytes": 536644
+      },
+      "line_one_based": 94,
+      "row_sha256": "f8a4639b9c54f5dcbea718e6ca1c6002e7cacfc388c291a1842cf32b9e9101f9",
+      "row": {
+        "review_key": "legacy:REL-55580B5DB452",
+        "old_record": {
+          "relationship_id": "REL-55580B5DB452",
+          "source_subject_id": "SUBJ-FA746B9B86AD",
+          "type": "contrasts_with",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "contrast"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-001",
+              "local_subject_id": "CHUNK-001-V2-S033",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-D7563A1B7387"
+        },
+        "source_pages": [
+          11,
+          12,
+          19
+        ],
+        "current_relationship_ids": [
+          "REL-SUCC-0EC046BA86DD"
+        ],
+        "disposition": "retain_prior_substantive_review_and_bind_proposed_records",
+        "independent_review_bindings": [
+          {
+            "relationship_id": "REL-SUCC-0EC046BA86DD",
+            "basis": "Pages 11–12/19 describe conflict over enclosure and communal usage; the rationale properly limits it to particular commercial cultivators and collective rights.",
+            "required_lineage_disposition": "",
+            "proposed_record": {
+              "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+              "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+              "relationship_type": "conflicts_with",
+              "evidence_document_pages": [
+                11,
+                12,
+                19
+              ],
+              "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+              "relationship_id": "REL-SUCC-0EC046BA86DD",
+              "resolution_status": "resolved",
+              "source_local_subject_id": "SUCC-C001-S013",
+              "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+            }
+          }
+        ],
+        "source_parent_replacements": [
+          "SUBJ-SUCC-8091E0F5C8B0",
+          "SUBJ-SUCC-E64A7C4235E5"
+        ],
+        "cross_shard_status": "Any unowned target or distinct lead requirement remains unresolved; a reviewed current edge is not automatic semantic equivalence."
+      }
+    },
+    {
+      "kind": "historical_relationship_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+        "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+        "bytes": 536644
+      },
+      "line_one_based": 266,
+      "row_sha256": "57b3a31f5daa24b13374be885f1ed55f1ef4692d75b828243d113ba2ef189abb",
+      "row": {
+        "review_key": "legacy:REL-FB865B3C3289",
+        "old_record": {
+          "relationship_id": "REL-FB865B3C3289",
+          "source_subject_id": "SUBJ-32D6956D024F",
+          "type": "contrasts_with",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "contrast"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-001",
+              "local_subject_id": "CHUNK-001-V2-S090",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-40A2F689E89D"
+        },
+        "source_pages": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "current_relationship_ids": [
+          "REL-SUCC-6346B62FAB7C"
+        ],
+        "disposition": "retain_prior_substantive_review_and_bind_proposed_records",
+        "independent_review_bindings": [
+          {
+            "relationship_id": "REL-SUCC-6346B62FAB7C",
+            "basis": "Pages 30–33 contrast naval professional recruitment with army purchase/social distance; a bounded institutional comparison is supported.",
+            "required_lineage_disposition": "",
+            "proposed_record": {
+              "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+              "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+              "relationship_type": "contrasts_with",
+              "evidence_document_pages": [
+                30,
+                31,
+                32,
+                33
+              ],
+              "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+              "relationship_id": "REL-SUCC-6346B62FAB7C",
+              "resolution_status": "resolved",
+              "source_local_subject_id": "SUCC-C001-S040",
+              "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+            }
+          }
+        ],
+        "source_parent_replacements": [
+          "SUBJ-SUCC-B6818330CE83",
+          "SUBJ-SUCC-4A0D9CB97E23"
+        ],
+        "cross_shard_status": "Any unowned target or distinct lead requirement remains unresolved; a reviewed current edge is not automatic semantic equivalence."
+      }
+    }
+  ],
+  "author_historical_mapping_records": [
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/380",
+      "row_sha256": "ae6698206cc6852eef18bd5dd442cc79fc4e971091f3a16214590a3925b7bfae",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-43B081C862F2",
+        "before": {
+          "relationship_id": "REL-43B081C862F2",
+          "source_subject_id": "SUBJ-D7563A1B7387",
+          "type": "related_to",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "related"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-001",
+              "local_subject_id": "CHUNK-001-V2-S054",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-FA746B9B86AD"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-0EC046BA86DD"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-8091E0F5C8B0",
+          "SUBJ-SUCC-E64A7C4235E5"
+        ],
+        "source_pages": [
+          11,
+          12,
+          19
+        ],
+        "rationale": "The old related link between “Village common rights, enclosure, and collective resistance” and “Commercial farming and gros fermiers” is replaced by the scoped conflicts_with claim, which reverses the old endpoint order to recover the source dependency. Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-43B081C862F2",
+          "owner_chunk": "CHUNK-001",
+          "old_final_record": {
+            "relationship_id": "REL-43B081C862F2",
+            "source_subject_id": "SUBJ-D7563A1B7387",
+            "type": "related_to",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "related"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-001",
+                "local_subject_id": "CHUNK-001-V2-S054",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-FA746B9B86AD"
+          },
+          "old_source_subject_id": "SUBJ-D7563A1B7387",
+          "old_target_subject_id": "SUBJ-FA746B9B86AD",
+          "old_source_label": "Village common rights, enclosure, and collective resistance",
+          "old_target_label": "Commercial farming and gros fermiers",
+          "old_source_meaning": "Commons, gleaning, grazing, firewood, and collective legal or direct resistance protected fragile households against enclosure, lords, and tithe gatherers.",
+          "old_target_meaning": "Accessible urban demand supported exceptional large leaseholds and capitalized tenant farmers in the Paris basin, who accumulated land and challenged communal rights.",
+          "source_pages": [
+            11,
+            12,
+            19
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-BB1653A999E5",
+            "EVID-DE5ECE1892D7"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-E64A7C4235E5"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-8091E0F5C8B0"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-4C8D40BC128E"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-8091E0F5C8B0",
+            "SUBJ-SUCC-E64A7C4235E5"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "The old related link between “Village common rights, enclosure, and collective resistance” and “Commercial farming and gros fermiers” is replaced by the scoped conflicts_with claim, which reverses the old endpoint order to recover the source dependency. Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+          "successor_local_bindings": {
+            "SUBJ-SUCC-8091E0F5C8B0": [
+              "SUCC-C001-S013"
+            ],
+            "SUBJ-SUCC-E64A7C4235E5": [
+              "SUCC-C001-S023"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-8091E0F5C8B0": [
+              {
+                "evidence_id": "EVID-SUCC-60DF1A916EA2",
+                "document_page": 11,
+                "source_local_subject_id": "SUCC-C001-S013"
+              },
+              {
+                "evidence_id": "EVID-SUCC-1B8209742A70",
+                "document_page": 11,
+                "source_local_subject_id": "SUCC-C001-S013"
+              },
+              {
+                "evidence_id": "EVID-SUCC-CBA1C8205832",
+                "document_page": 11,
+                "source_local_subject_id": "SUCC-C001-S013"
+              }
+            ],
+            "SUBJ-SUCC-E64A7C4235E5": []
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      }
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/471",
+      "row_sha256": "0d14238475d1c1671c36d3c006db4e7685eb220bf6efcc0eb0f4f4bf94a27a98",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-55580B5DB452",
+        "before": {
+          "relationship_id": "REL-55580B5DB452",
+          "source_subject_id": "SUBJ-FA746B9B86AD",
+          "type": "contrasts_with",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "contrast"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-001",
+              "local_subject_id": "CHUNK-001-V2-S033",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-D7563A1B7387"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-0EC046BA86DD"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-8091E0F5C8B0",
+          "SUBJ-SUCC-E64A7C4235E5"
+        ],
+        "source_pages": [
+          11,
+          12,
+          19
+        ],
+        "rationale": "The old contrast link between “Commercial farming and gros fermiers” and “Village common rights, enclosure, and collective resistance” is replaced by the scoped conflicts_with claim, which uses the selected facets of the mapped endpoints. Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-55580B5DB452",
+          "owner_chunk": "CHUNK-001",
+          "old_final_record": {
+            "relationship_id": "REL-55580B5DB452",
+            "source_subject_id": "SUBJ-FA746B9B86AD",
+            "type": "contrasts_with",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "contrast"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-001",
+                "local_subject_id": "CHUNK-001-V2-S033",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-D7563A1B7387"
+          },
+          "old_source_subject_id": "SUBJ-FA746B9B86AD",
+          "old_target_subject_id": "SUBJ-D7563A1B7387",
+          "old_source_label": "Commercial farming and gros fermiers",
+          "old_target_label": "Village common rights, enclosure, and collective resistance",
+          "old_source_meaning": "Accessible urban demand supported exceptional large leaseholds and capitalized tenant farmers in the Paris basin, who accumulated land and challenged communal rights.",
+          "old_target_meaning": "Commons, gleaning, grazing, firewood, and collective legal or direct resistance protected fragile households against enclosure, lords, and tithe gatherers.",
+          "source_pages": [
+            11,
+            12,
+            19
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-C47F826B119F",
+            "EVID-9685480DB587"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-8091E0F5C8B0"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-E64A7C4235E5"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-4C8D40BC128E"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-8091E0F5C8B0",
+            "SUBJ-SUCC-E64A7C4235E5"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "The old contrast link between “Commercial farming and gros fermiers” and “Village common rights, enclosure, and collective resistance” is replaced by the scoped conflicts_with claim, which uses the selected facets of the mapped endpoints. Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+          "successor_local_bindings": {
+            "SUBJ-SUCC-8091E0F5C8B0": [
+              "SUCC-C001-S013"
+            ],
+            "SUBJ-SUCC-E64A7C4235E5": [
+              "SUCC-C001-S023"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-8091E0F5C8B0": [
+              {
+                "evidence_id": "EVID-SUCC-60DF1A916EA2",
+                "document_page": 11,
+                "source_local_subject_id": "SUCC-C001-S013"
+              },
+              {
+                "evidence_id": "EVID-SUCC-1B8209742A70",
+                "document_page": 11,
+                "source_local_subject_id": "SUCC-C001-S013"
+              },
+              {
+                "evidence_id": "EVID-SUCC-CBA1C8205832",
+                "document_page": 11,
+                "source_local_subject_id": "SUCC-C001-S013"
+              }
+            ],
+            "SUBJ-SUCC-E64A7C4235E5": []
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      }
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/1365",
+      "row_sha256": "35f5a2a1ad98d039e14ef5a44cb7e8e6d167fc05a81b1e693ec1d3e7ee1ab4df",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-FB865B3C3289",
+        "before": {
+          "relationship_id": "REL-FB865B3C3289",
+          "source_subject_id": "SUBJ-32D6956D024F",
+          "type": "contrasts_with",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "contrast"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-001",
+              "local_subject_id": "CHUNK-001-V2-S090",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-40A2F689E89D"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-6346B62FAB7C"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-B6818330CE83",
+          "SUBJ-SUCC-4A0D9CB97E23"
+        ],
+        "source_pages": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "rationale": "The old contrast link between “Navy—officer recruitment, competence, and the class system” and “Army officer corps—purchase, social distance, and officers of fortune” is replaced by the scoped contrasts_with claim, which uses the selected facets of the mapped endpoints. Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-FB865B3C3289",
+          "owner_chunk": "CHUNK-001",
+          "old_final_record": {
+            "relationship_id": "REL-FB865B3C3289",
+            "source_subject_id": "SUBJ-32D6956D024F",
+            "type": "contrasts_with",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "contrast"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-001",
+                "local_subject_id": "CHUNK-001-V2-S090",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-40A2F689E89D"
+          },
+          "old_source_subject_id": "SUBJ-32D6956D024F",
+          "old_target_subject_id": "SUBJ-40A2F689E89D",
+          "old_source_label": "Navy—officer recruitment, competence, and the class system",
+          "old_target_label": "Army officer corps—purchase, social distance, and officers of fortune",
+          "old_source_meaning": "Noble naval schools supplied 'red' officers, wartime maritime society supplied 'blues,' and registered naval classes mobilized experienced coastal labor, making competence more important than in the army.",
+          "old_target_meaning": "Purchased commissions and noble restrictions separated officers from rankers and blocked experienced officers of fortune, while generous leave weakened professional contact.",
+          "source_pages": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-4257C9CBD6E0"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-B6818330CE83"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-00A1DFB36234",
+            "SUBJ-SUCC-4A0D9CB97E23"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-00E1414E6DFC"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-B6818330CE83",
+            "SUBJ-SUCC-4A0D9CB97E23"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "The old contrast link between “Navy—officer recruitment, competence, and the class system” and “Army officer corps—purchase, social distance, and officers of fortune” is replaced by the scoped contrasts_with claim, which uses the selected facets of the mapped endpoints. Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+          "successor_local_bindings": {
+            "SUBJ-SUCC-B6818330CE83": [
+              "SUCC-C001-S040"
+            ],
+            "SUBJ-SUCC-4A0D9CB97E23": [
+              "SUCC-C001-S038"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-B6818330CE83": [
+              {
+                "evidence_id": "EVID-SUCC-E29CBC5010E0",
+                "document_page": 31,
+                "source_local_subject_id": "SUCC-C001-S040"
+              },
+              {
+                "evidence_id": "EVID-SUCC-4A96BC8D8397",
+                "document_page": 32,
+                "source_local_subject_id": "SUCC-C001-S040"
+              },
+              {
+                "evidence_id": "EVID-SUCC-2EC69989E503",
+                "document_page": 32,
+                "source_local_subject_id": "SUCC-C001-S040"
+              },
+              {
+                "evidence_id": "EVID-SUCC-032E809D5FFD",
+                "document_page": 32,
+                "source_local_subject_id": "SUCC-C001-S040"
+              },
+              {
+                "evidence_id": "EVID-SUCC-5C00339AD6A2",
+                "document_page": 32,
+                "source_local_subject_id": "SUCC-C001-S040"
+              }
+            ],
+            "SUBJ-SUCC-4A0D9CB97E23": [
+              {
+                "evidence_id": "EVID-SUCC-FD3E358FBD92",
+                "document_page": 30,
+                "source_local_subject_id": "SUCC-C001-S038"
+              },
+              {
+                "evidence_id": "EVID-SUCC-3943A9961B0B",
+                "document_page": 30,
+                "source_local_subject_id": "SUCC-C001-S038"
+              },
+              {
+                "evidence_id": "EVID-SUCC-44E13F9E7B0E",
+                "document_page": 30,
+                "source_local_subject_id": "SUCC-C001-S038"
+              },
+              {
+                "evidence_id": "EVID-SUCC-674B7FD1E288",
+                "document_page": 31,
+                "source_local_subject_id": "SUCC-C001-S038"
+              },
+              {
+                "evidence_id": "EVID-SUCC-4CF83BD89957",
+                "document_page": 31,
+                "source_local_subject_id": "SUCC-C001-S038"
+              },
+              {
+                "evidence_id": "EVID-SUCC-AA809C131E51",
+                "document_page": 31,
+                "source_local_subject_id": "SUCC-C001-S038"
+              }
+            ]
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      }
+    }
+  ],
+  "draft_v2_v3_relationship_continuity": [
+    {
+      "file": {
+        "path": "successor/source/source-benchmark.draft.v1.json",
+        "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+        "bytes": 6170297
+      },
+      "exact_relationship_record_hashes": {
+        "REL-SUCC-0EC046BA86DD": "92693251db506d365cbe7558f18c596ed08b49025b3338bef4cb73209c9c7c8c",
+        "REL-SUCC-6346B62FAB7C": "062e3701e0fc75c4e9ed6e260ecac60945856284534d31d8720be6757eb8953a"
+      },
+      "records_equal_current_before": true
+    },
+    {
+      "file": {
+        "path": "successor/source/source-benchmark.v2.json",
+        "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+        "bytes": 6739462
+      },
+      "exact_relationship_record_hashes": {
+        "REL-SUCC-0EC046BA86DD": "92693251db506d365cbe7558f18c596ed08b49025b3338bef4cb73209c9c7c8c",
+        "REL-SUCC-6346B62FAB7C": "062e3701e0fc75c4e9ed6e260ecac60945856284534d31d8720be6757eb8953a"
+      },
+      "records_equal_current_before": true
+    },
+    {
+      "file": {
+        "path": "successor/source/source-benchmark.v3.json",
+        "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+        "bytes": 6740824
+      },
+      "exact_relationship_record_hashes": {
+        "REL-SUCC-0EC046BA86DD": "92693251db506d365cbe7558f18c596ed08b49025b3338bef4cb73209c9c7c8c",
+        "REL-SUCC-6346B62FAB7C": "062e3701e0fc75c4e9ed6e260ecac60945856284534d31d8720be6757eb8953a"
+      },
+      "records_equal_current_before": true
+    }
+  ],
+  "prior_review_interpretation": "No sealed scope clarification resolves these faulty citations. The initial independent relationship rows explicitly called the displayed arrays faithful; repair dispositions and historical reuse rows retained them. Exact continuity into v2/v3 confirms a missed citation correction. Those old judgments remain immutable evidence; this additive finding supersedes only their page-support conclusion. Lead final-byte closure also missed these citations.",
+  "dependency_conclusion": "Both endpoint subject records already carry their pertinent evidence and treatment/facet/retained page lists at11 and16–17, and30–32. No subject/evidence/task/facet change is needed, and the relation IDs occur only in their own records in the current benchmark. All ten linked task questions/facets remain coherent. No relationship deletion or new ID is proposed.",
+  "counts": {
+    "new_findings": 2,
+    "newly_inspected_full_source_pages": 9,
+    "changed_relationships": 2,
+    "unchanged_whole_endpoints_read": 4,
+    "unchanged_endpoint_evidence_rows": 22,
+    "linked_whole_tasks_read": 10,
+    "linked_task_facets_read": 10,
+    "old_relationship_keys": 3
+  },
+  "visibility_attestation": {
+    "candidate_content_and_results_unseen": true,
+    "no_root_docs_validation_or_app_task_history_read": true,
+    "original_frozen_bytes_unchanged": true,
+    "proposal_v1_unchanged": true,
+    "source_reading_is_post_freeze_targeted": true,
+    "independent_reviewer_dispatch_held": true
+  }
+}

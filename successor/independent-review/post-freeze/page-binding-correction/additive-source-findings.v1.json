@@ -1,0 +1,383 @@
+{
+  "schema_version": "post-freeze-source-referral-addendum-v1",
+  "status": "sealed_source_finding_and_proposal_only",
+  "recorded_at": "2026-09-17T06:45:07.932282+00:00",
+  "prior_six_item_report": {
+    "path": "successor/independent-review/post-freeze/page-binding-referral/finding-batch.v1.json",
+    "sha256": "8d9ae13baaeb12b09336cca0fc46d31c9caccafc36fa9181256fef252166f67c",
+    "bytes": 137908
+  },
+  "provenance": "Seventh source-only coordinator referral supplied after the six-item report seal, before v4 proposal seal; no candidate information. Additional C005-S083 occurrence found while performing authorized complete dependency closure, not a new whole-book discovery pass.",
+  "seventh_finding": {
+    "finding_id": "PBF-007",
+    "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+    "evidence_id": "EVID-SUCC-3E891F904D2B",
+    "verdict": "page_specific_binding_and_summary_qualification_required",
+    "basis": "Page113 ends with nobles and clergy offering help and an unfinished contrast. Their suspect association with displaced municipal authorities and the intransigence of privileged-order deputies is printed at the top of114. The sentence is genuinely continuous, but113 alone does not contain the adverse predicate. The source says offers were frequent; it does not separately quantify how often they were rejected. Bind the causal explanation to114 and explicitly identify the preceding sentence context, avoiding transfer of that frequency to rejection. This preserves the supported actor/mechanism distinction.",
+    "before": {
+      "document_page": 113,
+      "source_page_label": "113",
+      "locator_class": "principal",
+      "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+      "evidence_id": "EVID-SUCC-3E891F904D2B",
+      "source_local_subject_id": "SUCC-C005-S004",
+      "source_chunk_id": "CHUNK-005"
+    },
+    "before_sha256": "6507554fba77bb642c7d51ca38c29bdeff71b441ba3e63b108fe87a545371d87",
+    "proposed": {
+      "document_page": 114,
+      "source_page_label": "114",
+      "locator_class": "principal",
+      "evidence_summary": "Continuing the offers-of-assistance sentence from page 113, the source explains distrust of nobles and clergy through their association with displaced municipalities and the earlier intransigence of their deputies at Versailles.",
+      "evidence_id": "EVID-SUCC-3E891F904D2B",
+      "source_local_subject_id": "SUCC-C005-S004",
+      "source_chunk_id": "CHUNK-005"
+    },
+    "proposed_sha256": "9387c399cb5911179ef34f5727100d7d22638121b5db0bf2d00633b1af1435d3",
+    "existing_114_evidence": [
+      {
+        "document_page": 114,
+        "source_page_label": "114",
+        "locator_class": "supporting",
+        "evidence_summary": "Nobles and clergy are excluded or confined as the municipal upheaval attacks privileged authority.",
+        "evidence_id": "EVID-SUCC-BE4A108286DB",
+        "source_local_subject_id": "SUCC-C005-S004",
+        "source_chunk_id": "CHUNK-005"
+      },
+      {
+        "document_page": 114,
+        "source_page_label": "114",
+        "locator_class": "supporting",
+        "evidence_summary": "Precautionary confinement in Dijon illustrates the wider blow to privileged local authority.",
+        "evidence_id": "EVID-SUCC-EB09033F9318",
+        "source_local_subject_id": "SUCC-C005-S004",
+        "source_chunk_id": "CHUNK-005"
+      }
+    ],
+    "retained_page_context": "C005-S013 already contains113/114; retain both as the sentence/context span. The parent treatment and facet already cover both. No page-array change, row deletion, priority change or new evidence ID is necessary.",
+    "prior_dispositions": [
+      {
+        "kind": "initial",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+          "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+          "bytes": 722569
+        },
+        "jsonl_line_one_based": 157,
+        "row_sha256": "794293bfa0dec55cd4889dea5cf94fe035ce1aa3a3e6b997c04d61c3e88e8261",
+        "row": {
+          "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+          "label": "Municipal revolution in provincial towns",
+          "verdict": "revise",
+          "source_pages": [
+            113,
+            114,
+            115,
+            125,
+            126,
+            135
+          ],
+          "basis": "Pages113–115 support the municipal revolution’s dual role: replacing suspect power and restraining the disorder that enabled it, including grain supply and quick urban stabilization compared with rural unrest. The old distinctions additionally require privileged-order exclusion and later replacement by standardized elected bodies on pp.125–126, with a socially bounded widening of officeholding.",
+          "proposed_fix": "Include nobles/clergy’s political exclusion and institutional succession to uniform elected municipalities in parent meaning/stance, or rehome those distinct requirements explicitly. Keep participation broad among property holders without describing universal inclusion.",
+          "fields_inspected": [
+            "label",
+            "meaning",
+            "stance",
+            "priority",
+            "acceptable_access",
+            "access_scope_rule",
+            "editorial_rationale",
+            "source_treatments",
+            "required_access_facets",
+            "retained_source_distinctions",
+            "evidence"
+          ],
+          "source_treatment_ids": [
+            "SUCC-C005-S004"
+          ],
+          "required_access_facet_ids": [
+            "FACET-SUCC-C005-S004"
+          ],
+          "retained_distinction_ids": [
+            "C005-S009",
+            "C005-S010",
+            "C005-S011",
+            "C005-S012",
+            "C005-S013"
+          ],
+          "evidence_reviews": [
+            {
+              "evidence_id": "EVID-SUCC-8AD790A59588",
+              "page": "113",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-51A692AC1AF3",
+              "page": "113",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-1B2FAF3D196A",
+              "page": "113",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-420FEB6C4B90",
+              "page": "113",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-C4CD70878B52",
+              "page": "113",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-3E891F904D2B",
+              "page": "113",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-BE4A108286DB",
+              "page": "114",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-EB09033F9318",
+              "page": "114",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-6E1438B5A966",
+              "page": "115",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-545229611349",
+              "page": "125",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-7A4E3D18C2F8",
+              "page": "125",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-3C4B0B03D016",
+              "page": "126",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            },
+            {
+              "evidence_id": "EVID-SUCC-7F9BAD587C28",
+              "page": "135",
+              "verdict": "supported",
+              "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+            }
+          ],
+          "subject_lineage_inspected": true,
+          "evidence_lineage_audit_status": "exact_old_records_and_author_mapping_fields_checked; substantive_deltas_inspected; same_claim_text_reuses_inspected_evidence",
+          "review_status": "whole_subject_initial_verdict_complete; cross_entity_and_source_first_reconciliation_pending",
+          "facet_reviews": [
+            {
+              "facet_id": "FACET-SUCC-C005-S004",
+              "verdict": "revise",
+              "basis": "The facet exactly repeats the inspected parent meaning, stance and acceptable access; the authored subject disposition and fixes apply to this facet.",
+              "source_pages": [
+                113,
+                114,
+                115,
+                125,
+                126,
+                135
+              ],
+              "independently_weighted": false
+            }
+          ]
+        }
+      },
+      {
+        "kind": "requirements",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+          "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+          "bytes": 7517740
+        },
+        "jsonl_line_one_based": 2386,
+        "row_sha256": "e2bacf61cddbfbb4f91d8e6054940c2156f4f70b9ce646bfb948896e7f668f64",
+        "row": {
+          "requirement_key": "SUBJ-SUCC-A7CE991FCCA3:evidence:EVID-SUCC-3E891F904D2B",
+          "record_id": "SUBJ-SUCC-A7CE991FCCA3",
+          "requirement_type": "evidence",
+          "stable_item_id": "EVID-SUCC-3E891F904D2B",
+          "disposition": "retained_unchanged",
+          "before": {
+            "document_page": 113,
+            "source_page_label": "113",
+            "locator_class": "principal",
+            "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+            "evidence_id": "EVID-SUCC-3E891F904D2B",
+            "source_local_subject_id": "SUCC-C005-S004",
+            "source_chunk_id": "CHUNK-005"
+          },
+          "after": {
+            "document_page": 113,
+            "source_page_label": "113",
+            "locator_class": "principal",
+            "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+            "evidence_id": "EVID-SUCC-3E891F904D2B",
+            "source_local_subject_id": "SUCC-C005-S004",
+            "source_chunk_id": "CHUNK-005"
+          },
+          "independent_basis": "Pages113–115 support the municipal revolution’s dual role: replacing suspect power and restraining the disorder that enabled it, including grain supply and quick urban stabilization compared with rural unrest. The old distinctions additionally require privileged-order exclusion and later replacement by standardized elected bodies on pp.125–126, with a socially bounded widening of officeholding.",
+          "repair_intent": "Include nobles/clergy’s political exclusion and institutional succession to uniform elected municipalities in parent meaning/stance, or rehome those distinct requirements explicitly. Keep participation broad among property holders without describing universal inclusion."
+        }
+      },
+      {
+        "kind": "historical_evidence",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1233,
+        "row_sha256": "b55df2e1a20424a976a9b9ae9807509c417a5644502114a72cdb737083b7941f",
+        "row": {
+          "review_key": "legacy:SUBJ-FF945BB01182:EVID-DCE1629C9441",
+          "lineage": "legacy",
+          "old_subject_id": "SUBJ-FF945BB01182",
+          "old_evidence_id": "EVID-DCE1629C9441",
+          "review_index": 1233,
+          "original_lineage_pointer": "/rows/2360",
+          "original_before_sha256": "c2039f1feccbb50fd707a7dc4c9ecd8630bc845e65e2ba39c645477ffbd853f2",
+          "original_claim": {
+            "evidence_id": "EVID-DCE1629C9441",
+            "source_evidence_id": "EVID-26429A611FEB",
+            "document_page": 113,
+            "source_page_label": "113",
+            "locator_class": "principal",
+            "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+            "provenance": {
+              "chunk_id": "CHUNK-005",
+              "local_subject_id": "C005-S013",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+              "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+            }
+          },
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+          "literal_reuse_proofs": [
+            {
+              "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+              "evidence_id": "EVID-SUCC-3E891F904D2B",
+              "draft_pointer": "/subjects/193/evidence/5",
+              "matched_four_fields_sha256": "1f1959c168b6765024891c9ec390629908ee4b50d6d02889a54b20fd9fd55c9c",
+              "prior_evidence_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+                "pointer": "/2385",
+                "requirement_key": "SUBJ-SUCC-A7CE991FCCA3:evidence:EVID-SUCC-3E891F904D2B",
+                "row_sha256": "e2bacf61cddbfbb4f91d8e6054940c2156f4f70b9ce646bfb948896e7f668f64"
+              },
+              "prior_parent_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "pointer": "/156",
+                "row_sha256": "794293bfa0dec55cd4889dea5cf94fe035ce1aa3a3e6b997c04d61c3e88e8261"
+              },
+              "actual_integrated_evidence_equals_inspected_value": true
+            }
+          ],
+          "exact_proposed_bindings": [
+            {
+              "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+              "evidence_id": "EVID-SUCC-3E891F904D2B",
+              "binding_status": "current_claim_retained",
+              "evidence_fields": {
+                "document_page": 113,
+                "source_page_label": "113",
+                "locator_class": "principal",
+                "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+                "evidence_id": "EVID-SUCC-3E891F904D2B",
+                "source_local_subject_id": "SUCC-C005-S004",
+                "source_chunk_id": "CHUNK-005"
+              },
+              "evidence_sha256": "6507554fba77bb642c7d51ca38c29bdeff71b441ba3e63b108fe87a545371d87",
+              "actual_parent_main_sha256": "fb6df73582311967528a17d02e317bd6d22e15076771217887b9576d07fd9e78",
+              "parent_review": "exact prior whole-record review reused"
+            }
+          ],
+          "exact_exclusion_bindings": [],
+          "retired_or_unaccepted_author_bindings": [],
+          "required_referral": null,
+          "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+        }
+      }
+    ]
+  },
+  "additional_dependent_copy": {
+    "pointer": "/subjects/25/retained_source_distinctions/4/source_pages",
+    "before": [
+      117,
+      131,
+      134
+    ],
+    "proposed": [
+      117,
+      132,
+      134
+    ],
+    "finding_id": "PBF-003-dependent-copy",
+    "subject_id": "SUBJ-SUCC-5193E3F37320",
+    "local_id": "C005-S083",
+    "rationale": "Same preserved compensation distinction also appears under assignats. Its explicit evidence C49410FC6ED1 already correctly uses132, as do its source-treatment and facet page sets. Correct only this copied retained array; preserve all assignat meanings and evidence."
+  },
+  "source_inspection": [
+    {
+      "document_page": 113,
+      "source_page_label": "113",
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 4,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-113-114/page113.txt",
+        "sha256": "7dc6bbfca32397b2dbd1cb2bdc0aa8f5e41a5ad9bbe8de60c715833de4b4a2c7",
+        "bytes": 3060
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-113-114/page113.png",
+        "sha256": "4fe38fad10eef2c8a8366a26f897c62c722e7bc4b90278cea2180c971d15e875",
+        "bytes": 408381
+      }
+    },
+    {
+      "document_page": 114,
+      "source_page_label": "114",
+      "chunk_id": "CHUNK-005",
+      "chunk_pdf_page": 5,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-113-114/page114.txt",
+        "sha256": "bbc33359d0d8dfa2ed34a3bb97de0ded83669628c91d15e86219cc05ba89e1b7",
+        "bytes": 2952
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/page-binding-113-114/page114.png",
+        "sha256": "aef37b9688b8b6bb3cfeaa6242ae80488bff3ea13d9230ae001f676cf78c6f4a",
+        "bytes": 403253
+      }
+    }
+  ],
+  "candidate_unseen": true,
+  "frozen_bytes_unchanged": true
+}

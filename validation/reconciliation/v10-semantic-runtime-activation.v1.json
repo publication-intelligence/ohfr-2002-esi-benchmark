@@ -1,0 +1,24 @@
+{
+  "schema_version": "ohfr-v10-semantic-runtime-activation-v1",
+  "recorded_at": "2026-09-17T11:56:45.743865+00:00",
+  "result": "pass",
+  "active_runtime": "/home/john/.codex/skills/evaluate-subject-index",
+  "backup_runtime": "/home/john/.codex/runtime-backups/v10-815bcb66-before-semantic-202b6cf",
+  "previous_runtime_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "successor_runtime_commit": "202b6cfd098eba751881482293e75b17d9add255",
+  "runtime_payload_sha256": "91b8c3119d52669a1d35cdb58dc363f0f57b8263b837ac533f0893fb0e91b330",
+  "previous_installation_receipt_sha256": "a5a9f3014dd2b1eec3818c3e61c0eefb7dc01dcde1185c8313cd1da0f12fae5d",
+  "installed_receipt_sha256": "1358bca093892a7cf520b85ad7561f5370ef7ef8dedfd8218a7cceff65ff8425",
+  "verification": {
+    "verified_files": 203,
+    "payload_verification": "pass",
+    "semantic_cli_help_probe": "pass",
+    "runtime_fingerprint": "pass"
+  },
+  "candidate_cutover": {
+    "published": "quiescent",
+    "indexpdf": "quiescent",
+    "indexerlabs": "quiescent",
+    "indexia": "quiescent"
+  }
+}

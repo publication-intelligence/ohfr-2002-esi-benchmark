@@ -1,0 +1,51 @@
+{
+  "schema_version": "subject-index-policy-build-input-v1",
+  "policy_id": "ohfr-2002-study-source-successor-v1-policy-v8.2",
+  "source_scope": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "availability": {
+      "status": "partial_source_supplied",
+      "available_document_page_span": [
+        1,
+        425
+      ],
+      "unavailable_material": [
+        "front matter before source page 1",
+        "endnotes and other matter after source page 425"
+      ],
+      "note": "The exact 425-page source bytes used by the existing evaluation are available; omitted matter is not inferred or substituted."
+    },
+    "source_specific_included": [
+      "main text on supplied source pages 1-425"
+    ],
+    "source_specific_excluded": [
+      "front matter, endnotes, and other matter absent from the supplied 425-page source"
+    ]
+  },
+  "audience": {
+    "label": "scholarly",
+    "basis": "user_supplied",
+    "confidence": "high",
+    "rationale": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+  },
+  "audit_design": {
+    "mode": "full",
+    "candidate_blindness": "required"
+  },
+  "deviations": [],
+  "provenance": {
+    "status": "new source-only successor policy; not a retrospective migration",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "reused_configuration": [
+      "approved source identity, page map, chunk manifest, supplied scope, scholarly audience"
+    ],
+    "candidate_unseen_in_this_context": true,
+    "source_measurement": "Separate source-only measurement/protocol review proposes 193118 words; neither historical lineage word counts nor policies are changed."
+  }
+}

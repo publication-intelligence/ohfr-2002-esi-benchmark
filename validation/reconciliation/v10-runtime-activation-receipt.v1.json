@@ -1,0 +1,46 @@
+{
+  "schema_version": "methodology-activation-receipt-v1",
+  "recorded_at": "2026-09-17T05:33:32.559485+00:00",
+  "status": "installed_verified",
+  "installed_at": "2026-09-17T05:32:42.684300+00:00",
+  "validated_at": "2026-09-17T05:32:42.684300+00:00",
+  "installed_at_semantics": "Installation receipt timestamp recorded immediately after the successful directory switch and payload/CLI checks; rename syscall time was not separately logged.",
+  "tested_revision": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "merged_commit": "48cae7f2caf41c0fb744a4f76e06a8ff7a8a3aff",
+  "repository_git_tree": "dbd030f79c43473f95d279b8e50f52e241bfc53b",
+  "installed_skill_path": "/home/john/.codex/skills/evaluate-subject-index",
+  "installed_receipt_sha256": "a5a9f3014dd2b1eec3818c3e61c0eefb7dc01dcde1185c8313cd1da0f12fae5d",
+  "verified_tracked_files": 171,
+  "payload_manifest_sha256": "ac3d53a374bc90026dfbaae14d25ba9b135eddbe4934d24ac06a0ad578da7c1b",
+  "preserved_c11_backup": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66",
+  "preserved_c11_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+  "backup_complete_file_count": 123,
+  "backup_all_bytes_equal_preswitch": true,
+  "staged_receipt_sha256": "7a50a46f62f3af9eb5176ebde694ce3b8f5fde2b68cb984c984366b29e3b172d",
+  "staged_receipt_unchanged": true,
+  "prior_7ed_stage_and_final_fixture_export_unchanged": true,
+  "validation": {
+    "git_payload_bytes_blobs_modes": "passed171",
+    "pip_check": "No broken requirements found",
+    "v10_cli_help": "passed",
+    "v10_state_dispatch_help": "passed",
+    "full_tests_repeated": false,
+    "prior_staged_tests_passed": 239
+  },
+  "activation_plan_path": "/tmp/evaluate-subject-index-installation-staging/815bcb66d3319d2f730a9645800b304bcbd4b2e9/activation-plan.md",
+  "activation_plan_sha256": "4faabca32180738fc5b51b960b52a7e65315b806e6d43a405e021acc209d7189",
+  "executed_plan_block_sha256": "d94ba304cbb3983cbdafe1d453314e01b542b6448f5f325def8edb44f31a3852",
+  "coordinator_release_provenance": {
+    "common_release_file_sha256": "188902b77a2432944f9be1bdb24d8eb6610f34f33044212f8d2a6f632660f5fe",
+    "common_lock_file_sha256": "d64c91f6c44abedee0422edb9d2f998f8c399e9811844f373d2af4a0390d00be",
+    "artifact_freeze_commit": "191ce37a81878d41ce51e378e9ee61bd1af5c528",
+    "installation_hold_released": true,
+    "consumer_quiescence": "confirmed by coordinator before switch"
+  },
+  "remaining_holds": {
+    "candidate_execution": true,
+    "deployment": true
+  },
+  "source_candidate_or_lock_mutations": false,
+  "receipt_sha256": "07eadda5318a89447caa27800f06253f0b194147d320f56256302f8a8448114e"
+}

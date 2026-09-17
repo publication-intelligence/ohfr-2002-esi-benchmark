@@ -1,0 +1,94 @@
+{
+  "schema_version": "independent-integration-snapshot-inputs-v1",
+  "status": "source-only intermediate integration; final approval pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage5.v1.json",
+      "sha256": "3e4ecbdfef34303b33c2dcf6a1cd1d4082a91f841b4157ab516dbfec0c598139"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/composed-task-value-review.v1.json",
+      "sha256": "09113fb8eb8f5d33783ef306e7b4f5df579962795e68962a29efe1e174dfe946"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-original-cross-shard-referral-closure.v1.json",
+      "sha256": "5d9ef75975ef7b14039df9f2e60c576b046e519d01c7afd71a1f96b19afd97ab"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-additional-cross-shard-referral-closure.v1.json",
+      "sha256": "6a55f9c4affc8a3593d8acdcae8769b838060f8a222a92fe121f3300a94d1ba2"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-cross-shard-referral-closure.v1.json",
+      "sha256": "8801176e748fb737c8165909c8fadb9c2d63d9e0fb207912f38445296004092e"
+    }
+  ],
+  "ordered_application": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/composed-task-value-review.v1.json",
+      "subjects": 0,
+      "reader_tasks": 11,
+      "new_uncertainties": 0
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-original-cross-shard-referral-closure.v1.json",
+      "subjects": 2,
+      "reader_tasks": 0,
+      "new_uncertainties": 0
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/001-additional-cross-shard-referral-closure.v1.json",
+      "subjects": 2,
+      "reader_tasks": 1,
+      "new_uncertainties": 0
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-cross-shard-referral-closure.v1.json",
+      "subjects": 5,
+      "reader_tasks": 3,
+      "new_uncertainties": 2
+    }
+  ],
+  "output": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage6.v1.json",
+    "sha256": "ec761c1fc78568cda525116939e9010157ce45830a1f10c911f193689c0a61b9"
+  },
+  "counts": {
+    "subjects": 531,
+    "relationships": 501,
+    "reader_tasks": 617,
+    "exclusions": 226,
+    "uncertainties": 147
+  },
+  "replaced_subject_ids": [
+    "SUBJ-SUCC-0853ED267EBF",
+    "SUBJ-SUCC-0D87BD18FE77",
+    "SUBJ-SUCC-4E4FFDBB28E9",
+    "SUBJ-SUCC-612D98E91089",
+    "SUBJ-SUCC-6216510D2EE3",
+    "SUBJ-SUCC-888503D79595",
+    "SUBJ-SUCC-BBD84DC00640",
+    "SUBJ-SUCC-C81AF981D95D",
+    "SUBJ-SUCC-E4C3D945CE3F"
+  ],
+  "replaced_task_ids": [
+    "TASK-IR007012-PROP-001",
+    "TASK-IR007012-PROP-002",
+    "TASK-SUCC-0D6FF1B259FB",
+    "TASK-SUCC-156949ABB44D",
+    "TASK-SUCC-20CE5298E380",
+    "TASK-SUCC-452F3701522A",
+    "TASK-SUCC-4FFD69F0D9B3",
+    "TASK-SUCC-81AEFB30D474",
+    "TASK-SUCC-82D8298A6454",
+    "TASK-SUCC-89C9B3341F54",
+    "TASK-SUCC-8CB5814EF9CA",
+    "TASK-SUCC-B150812C78C8",
+    "TASK-SUCC-C8BB84DBCA99",
+    "TASK-SUCC-EA0E9E5C3E7A",
+    "TASK-SUCC-EFF63D1CF8B3"
+  ],
+  "task_facet_identity": "The identity of a retained historical task facet binding is (parent task_id, facet_id). A repeated historical facet_id traces one original task into multiple explicitly scoped parent portions. It does not assert global equality of adapted questions or add an independent scoring denominator.",
+  "binding_checks": "Every task facet required_subject_ids is contained in the parent task subject_ids; all subject IDs exist; within-parent facet IDs are unique. These are structural checks only.",
+  "whole_book_approval": false
+}

@@ -1,0 +1,606 @@
+{
+  "schema_version": "successor-principal-dependency-review-notes-v1",
+  "status": "in_progress",
+  "candidate_unseen": true,
+  "reviewed_final_relationship_sets": [
+    {
+      "lineage": "native",
+      "scope": "all281final relationship IDs",
+      "inspection": "source and target labels,type and complete relevant endpoint meanings read; exact source-field dispositions will bind to new authored graph; first6chapters delegated final adjudication."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all127 CHUNK-007 minimum-provenance relationships",
+      "inspection": "All exact IDs,final source and target labels,normalized and original relationship types,and descriptions read against owned source synthesis."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all177 CHUNK-008 minimum-provenance relationships",
+      "inspection": "All exact IDs,final source and target labels,normalized and original relationship types,and descriptions read against owned source synthesis."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all337 CHUNK-009 minimum-provenance relationships",
+      "inspection": "All exact IDs,final source/target labels,normalized and original relationship types,and descriptions read in three bounded packets against the source synthesis."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all149 CHUNK-013 minimum-provenance relationships",
+      "inspection": "Complete final labels,types,original clues and endpoint fields checked; CHUNK013 descriptions reuse the prior complete principal final-field pass. Owned source fully inspected."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all257 CHUNK-014 minimum-provenance relationships",
+      "inspection": "Complete final labels,types,original clues and endpoint fields checked; CHUNK013 descriptions reuse the prior complete principal final-field pass. Owned source fully inspected."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all142 CHUNK-015 minimum-provenance relationships",
+      "inspection": "All exact final IDs,source/target labels,normalized and original type fields inspected; CHUNK016 complete descriptions inspected in two bounded packets. Source arguments already reviewed throughout owned pages."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all149 CHUNK-016 minimum-provenance relationships",
+      "inspection": "All exact final IDs,source/target labels,normalized and original type fields inspected; CHUNK016 complete descriptions inspected in two bounded packets. Source arguments already reviewed throughout owned pages."
+    },
+    {
+      "lineage": "legacy",
+      "scope": "all235 CHUNK-017 minimum-provenance relationships",
+      "inspection": "All exact final IDs,source/target labels,normalized and original type fields inspected; CHUNK016 complete descriptions inspected in two bounded packets. Source arguments already reviewed throughout owned pages."
+    }
+  ],
+  "specific_dispositions": {
+    "legacy:REL-094E192265E2": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Leopold’s policy was enabled by the Reichenbach settlement; normalization from enabled_by to enables reverses direction. The valid reciprocal REL-24C91967E1DA states the enabling settlement."
+    },
+    "legacy:REL-2CFEDFFBBF10": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "JosephII’s reforms provoked Brabant resistance; the revolt did not cause those prior reforms. REL-A320A8137F43 preserves the sensible direction."
+    },
+    "legacy:REL-7456BD3EA1D7": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Nootka demonstrates rejection of dynastic obligations; the old expressed_in clue was normalized to expresses with its endpoints unchanged. Keep the event as evidence for the diplomatic argument."
+    },
+    "legacy:REL-A8B0CAD1A9AB": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Officer emigration constrained interventionist ambitions; constrained_by was normalized to constrains without reversal."
+    },
+    "legacy:REL-DEBE0DC8F421": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Varennes intensified foreign hostility; intensified_by was normalized to contributes_to with the wrong direction."
+    },
+    "legacy:REL-DF6FA8020163": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "German princely hostility enabled émigré organization; enabled_by was normalized to enables without reversing endpoints."
+    },
+    "legacy:REL-F7E23C388A55": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Foreign exiles expressed universalist principles; expressed_by cannot become active expresses with unchanged endpoints."
+    },
+    "legacy:REL-885D1EE5306C": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Earlier European upheavals provide contrast for the surprise of1789,not a demonstrated cause of the Bastille or European enthusiasm. Do not turn narrative preparation into causality."
+    },
+    "legacy:REL-416040A79E47": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Factional conflict was expressed in the appeal-to-the-people dispute; active expresses reverses the illustrative relationship."
+    },
+    "legacy:REL-4910EF9C4D7F": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Valmy exemplifies patriotic mass warfare; expressed_in was flattened into active expresses."
+    },
+    "legacy:REL-6B982B18F246": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Convention formation expresses claims to popular sovereignty,not the abstract principle acting as an institution."
+    },
+    "legacy:REL-731470ACF311": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "The Marseillaise expresses revolutionary internationalism; the normalized direction reverses that relation."
+    },
+    "legacy:REL-8DB0B36F3214": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Patriotic volunteering exemplifies the transformation of warfare; the normalized active expresses reverses expressed_in."
+    },
+    "legacy:REL-8E5878D7B738": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Emergency mobilization enabled the fédérés; enabled_by became enables without endpoint reversal."
+    },
+    "legacy:REL-A0B66D7129DB": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Sections express and contest popular sovereignty; the abstract principle is not the active institutional agent."
+    },
+    "legacy:REL-BE6E79C02875": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "The Commune claims to express popular sovereignty; the normalized active expresses is directionally misleading."
+    },
+    "legacy:REL-D44E7E439E11": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Depreciation intensified subsistence hardship; reinforced_by was normalized to supports without reversing direction."
+    },
+    "legacy:REL-E3BE961BDE3E": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "September-massacre blame became an expression of factional conflict; expressed_in should not be flattened to active expresses."
+    },
+    "legacy:REL-F247A74642B0": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Feuillants sought constitutional reconciliation. A supports edge into the final narrowed label Collapse of constitutional monarchy misleadingly attributes support for destruction rather than attempted preservation."
+    },
+    "legacy:REL-3F3CBA0BAA35": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "The National Guard’s democratization concerns popular organization and insurrection; do not import an unexplained institutional_basis_for claim into the Legislative Assembly’s composition. New source-specific tasks and institutional treatments preserve the distinct roles."
+    },
+    "legacy:REL-2B8F8597F8A6": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Indiscriminate massacre victims contradict assumptions that all prisoners were conspirators; they do not disprove the existence of any counter-revolution. Preserve that narrower qualification in the massacre stance."
+    },
+    "native:REL-0138": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Restoration programmes include competing constitutional and old-regime alternatives; the contrast is internalized in a qualified requirement rather than opposed to the entire constitutionalist population."
+    },
+    "native:REL-0165": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Extraction constrained client sovereignty and financed occupation; unspecified causal does not identify creation of sister republics as the caused outcome. Use the new explicit extraction/dependence meanings."
+    },
+    "native:REL-0171": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Coalition operations and French overextension contributed to defeat; the broad causal label is replaced by the developed military sequence without implying a single sufficient cause."
+    },
+    "native:REL-0200": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Swiss resistance,occupation and constitutional reform are broader than participation in the1799 campaigns; retain the military intersection without classifying the entire treatment as part of that campaign."
+    },
+    "native:REL-0244": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Only the forced loan and hostage law were repealed in the described Consular measures. Jourdan conscription remains a separate requirement and must not inherit repeal."
+    },
+    "native:REL-0256": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "The manipulated plebiscite supplied official legitimation claims,not proof of freely expressed popular consent. The new constitutional stance records inflated returns and abstention."
+    },
+    "native:REL-0111": {
+      "disposition": "do_not_import_old_claim; use explicit successor meaning and authored graph",
+      "rationale": "Subsistence pressure prompted concessions; it does not radicalize an agrarian-concessions policy as though that were a political actor."
+    },
+    "legacy:REL-7725304E33E9": {
+      "disposition": "do_not_import_old_claim; preserve qualified source argument in successor",
+      "rationale": "The1794 uprising cannot precede Kosciuszko’s1792 campaign. Preserve the chronological direction in the Polish sequence,with1792 intervention preceding1794 rebellion."
+    },
+    "legacy:REL-541CDBC3E129": {
+      "disposition": "do_not_import_old_claim; preserve qualified source argument in successor",
+      "rationale": "The February levy helped trigger the Vendée and recruitment resistance. It must not be generalized as the direct trigger of the entire Federalist revolt merely because the old target combines both movements."
+    },
+    "legacy:REL-EC0E374C091E": {
+      "disposition": "do_not_import_old_claim; preserve qualified source argument in successor",
+      "rationale": "The Second Partition of1793 is not a cause preceding French autumn1792 victories. Earlier competing Polish priorities could distract coalition powers; keep that qualified strategic argument separate from the dated partition."
+    },
+    "legacy:REL-C1C309427161": {
+      "disposition": "do_not_import_old_claim; preserve qualified source argument in successor",
+      "rationale": "The failure of Quiberon encouraged a shift in British priorities,but British Caribbean strategy already existed before1795. Do not preserve a simple precedes edge from Quiberon to the entire broad strategy."
+    },
+    "legacy:REL-D41D484A7BEF": {
+      "disposition": "do_not_import_old_claim; preserve qualified source argument in successor",
+      "rationale": "The Polish rising used French revolutionary models; the abstract model does not express the rising. Preserve the model/reception relation in the Polish requirement."
+    },
+    "legacy:REL-F259AB7E292B": {
+      "disposition": "do_not_import_old_claim; preserve qualified source argument in successor",
+      "rationale": "The occupation decree authorized and organized extraction; finance was not an instrument of the decree in the same sense. New war-aim and extraction requirements state the policy relationship directly."
+    },
+    "legacy:REL-0FDD0DEE84AD": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Breakup of the First Coalition and War with Spain and the Spanish Treaty of Basel, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-17ED28FA35DC": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Breakup of the First Coalition and Battle of Fleurus and the turning point of the war, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-1CA101058A7D": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Batavian Revolution of 1795 and Dutch patriots, the Batavian Legion, and revolutionary reading societies, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-362086E53E27": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Breakup of the First Coalition and Prussian withdrawal and Treaty of Basel, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-38C01B01F692": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Partition of Venice and Preliminaries of Leoben, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-396342F3B493": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For British imperial strategy in the Caribbean and British blockade and maritime pressure, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-497453292E0E": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French military recovery in autumn 1793 and Levée en masse and the nation in arms, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-5D5E160BDAB5": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Partition of Venice and Bonaparte's autonomous command and personal military power, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-7A6DD62222DD": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French and British peace negotiations at Lille and Pitt's wartime strategy and peace diplomacy, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-83CE97E82AE7": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Mass-army tactics and intensified warfare and Levée en masse and the nation in arms, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-9A2AD7B29B73": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Poland's strategic diversion of coalition powers and Kosciuszko Insurrection of 1794, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-B3FCFFBCFB76": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Formation of the First Coalition and Regicide Republic and European monarchical hostility, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-BCE4A95AB8DA": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French and British peace negotiations at Lille and French continental dominance and Anglo-French stalemate, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-C430971295F2": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Mass-army tactics and intensified warfare and Republican citizen-army identity, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-CC614F15C9CF": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Hoche and the attempted French invasion of Ireland and United Irishmen, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-CD82B4557CEB": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French military recovery and continental victory and Coalition disunity and absence of a common strategy, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-D8ECA0525163": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French military recovery and continental victory and Levée en masse and the nation in arms, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-DA8286D4E83F": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French military recovery in autumn 1793 and Coalition disunity and absence of a common strategy, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-DE529E455081": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Belgian independence aspirations and French annexation policy and Battle of Jemappes and conquest of the Austrian Netherlands, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-E882A8521126": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French military recovery and continental victory and Poland's strategic diversion of coalition powers, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-F3AE491EEED0": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Coup of Fructidor and hardening of peace terms and Bonaparte's autonomous command and personal military power, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-F596D76CC44E": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For Batavian Revolution of 1795 and French reconquest of Belgium after Fleurus, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-F8470957C881": {
+      "disposition": "replace_direction_losing_normalization; not_imported",
+      "rationale": "For French military and fiscal exploitation of the Rhineland and Prussian withdrawal and Treaty of Basel, the source clue ['enabled_by'] was reduced to active enables without the required direction. Preserve the claim through the explicitly oriented new treatment/graph,not the old normalized edge."
+    },
+    "legacy:REL-03D6257A57CA": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Artois supported Jalès planning; supported_by was made active without reversal."
+    },
+    "legacy:REL-07A1C6FAF234": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Puisaye promoted Quiberon; the expedition did not promote its planner in the same relation."
+    },
+    "legacy:REL-45E709C69154": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Contains meant militarily restrains the chouans,not includes them as members of Hoche’s pacification."
+    },
+    "legacy:REL-474563435E89": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Varennes accelerated emigration,not the reverse in this claim."
+    },
+    "legacy:REL-5436C1A9EB34": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Mallet supported the constitutional alternative; supported_by was normalized with wrong direction."
+    },
+    "legacy:REL-579A78F20231": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Hoche limited western insurgency; limited_by became constrains without reversal."
+    },
+    "legacy:REL-AD4A56F577D8": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Verona obstructed constitutional compromise rather than simply causing an electoral alternative; preserve the specific political obstacle."
+    },
+    "legacy:REL-B85B8AC691A5": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "D’Antraigues’s captured information revealed Pichegru contacts; revealed_by is not implemented_by."
+    },
+    "legacy:REL-D16811F10DD5": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "The Île d’Yeu operation sought Charette’s support; this is not proof it successfully supported him."
+    },
+    "legacy:REL-028A7FD7D940": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Dissolution of the Police Legion increased dependence on the army; the broad later dependency is not the cause of the dissolution."
+    },
+    "legacy:REL-04E6C4BE6490": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Loss of a stable majority helped create the1797 executive-legislative crisis,not vice versa in the election sequence."
+    },
+    "legacy:REL-150C57096A0C": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "The conspiracy’s planned subversion of the Police Legion belongs to the Equals; the later Grenelle appeal to troops is distinct. Avoid relabeling the entire plan as a Grenelle tactic."
+    },
+    "legacy:REL-1D9249889A2D": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Destruction of printing plates symbolized the end of assignats,not territorial mandates. The two instruments now have separate requirements."
+    },
+    "legacy:REL-3A15C22DE6FD": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Ottoman entry followed the invasion and naval defeat; it is not a component of the Battle of the Nile itself."
+    },
+    "legacy:REL-40D3B8E0FD99": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "The trials and repression cannot be flattened into a consequence of the later military defeat of the Grenelle option; preserve the separate sequences."
+    },
+    "legacy:REL-5D0B4CAE0230": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Boissy’s rejection of1793 supported the YearIII settlement; a contrast with the very settlement he advocated misplaces the target."
+    },
+    "legacy:REL-6A5B579AAC6D": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Russian entry into coalition war reacted to expansion; it is not part of creating the sister republics."
+    },
+    "legacy:REL-8FAE6821717E": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "A programme is not the organizational agent of the Equals; preserve ideas,organization and immediate demands as distinct facets."
+    },
+    "legacy:REL-9816164677A0": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "A proposed land bank was a monetary alternative,not an alternative to Jacobin press revival. The target is unrelated to the relevant financial decision."
+    },
+    "legacy:REL-9CA7578EB74C": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Sending Bonaparte to Egypt had a domestic political motive; the target should be the expedition,not army dependence as a whole."
+    },
+    "legacy:REL-9E92DF37A966": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Mandates preceded and facilitated speculation; they did not succeed that speculation as an earlier financial instrument."
+    },
+    "legacy:REL-C9084BE2198E": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Fiscal collapse and emergency sales led toward bankruptcy; the broad crisis is not simply a consequence of the later debt repudiation."
+    },
+    "legacy:REL-D5897ADBF1E8": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Debt-holder losses alienated proprietors; the old relation reverses that consequence."
+    },
+    "legacy:REL-D99BE6375BC8": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Speculative enrichment provoked resentment; the old relation reverses that sequence."
+    },
+    "legacy:REL-DC24DC553A7E": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "Babeuf’s arrest ended the conspiracy,not government repression of Jacobin organization."
+    },
+    "legacy:REL-EA05BEE844FD": {
+      "disposition": "supersede_defective_relation_with_explicit_source_treatment",
+      "rationale": "The later invasion schemes did not initiate the already ongoing war with Britain. They were strategies within that war."
+    },
+    "legacy:REL-CB60ED66F6F2": {
+      "disposition": "preserve_reviewed_post_discovery_direction",
+      "rationale": "The final caused_by correction is valid: abolition of sectional assemblies and the sectional Guard removed the infrastructure of the mass journée. Do not restore the erroneous discovery-era causes direction merely because source_relationship_types retained it. The successor section-abolition requirement retains this consequence and links it to conspiratorial tactics."
+    },
+    "legacy:REL-32C653BBCFF3": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Anti-Jewish violence targeted a minority associated by attackers with the revolutionary order; associated_with must not become participates_in as if violence were an activity of Italian Jacobins. Preserve the attacks as a distinct named facet in the Italian backlash requirement,p367."
+    },
+    "legacy:REL-9F115130C7D8": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Dutch economic costs weakened support for the client regime; weakened_support_for was normalized into supports,losing the negative meaning."
+    },
+    "legacy:REL-60A3009737C8": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The Irish rising received limited French assistance; that is not a constrains edge from the rising to intervention."
+    },
+    "legacy:REL-D160D3AE2916": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "French defeats contributed to collapse of client states but did not cause the already formed Second Coalition. The old target combines formation and outcome; narrow the dependency to the latter."
+    },
+    "legacy:REL-04B6B5FDBCA7": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The description says Amiens ended revolutionary war,while the target is middle-class reconciliation. Replace the stale target with the correct war-periodization/end-of-Revolution requirement."
+    },
+    "legacy:REL-72731A6F1298": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The description concerns consequences of revolutionary war,not a conclusion of middle-class reconciliation. Preserve the foreign-war distinction in Amiens and the retrospective European settlement."
+    },
+    "legacy:REL-C9CCF8221C2E": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The description explicitly concerns religious settlement,but the target is Louisiana. The end-of-Revolution argument depends on the Concordat,not this colonial cession."
+    },
+    "legacy:REL-A8FD1AFB5881": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Pacifying chouans weakened Bourbon restoration hopes; supports contradicts its own description. The new pacification stance keeps the weakening relation."
+    },
+    "legacy:REL-22F6E417D1D2": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Conscription partly caused renewed chouannerie; caused_partly_by was normalized to active causes in the wrong direction."
+    },
+    "legacy:REL-3B630702A4D7": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Repeal of the forced loan reassured proprietors; the loan itself did not support that reconciliation. Retain repeal as the operative change."
+    },
+    "legacy:REL-DC28630FF8DE": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Repeal of the hostage law aided pacification. A bare supports edge from the law loses the reversal."
+    },
+    "legacy:REL-50C9191B3FC3": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The description places anti-Jacobin repression within the strategy of middle-class reassurance. Do not interpret compromised_by as the claimed direction of popular reception; retain the coercive cost and reassurance as distinct qualifications."
+    },
+    "legacy:REL-C5BA26B77B87": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "YearVII elections illustrate collapsing directorial legitimacy,not the later disagreement between Bonaparte and Sieyes over executive design. The target is stale."
+    },
+    "legacy:REL-D98E9FA2CDD4": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Personal consolidation begins with Brumaire; begins_with was normalized into precedes,which reverses the sequence."
+    },
+    "legacy:REL-F7543FC7F149": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The source describes purging Tribunate and Legislative Body. The old composite endpoint also contains Council of State; it must not imply that all three institutions received this purge."
+    },
+    "legacy:REL-26E42380AA26": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Warfare accelerated state administration; Clausewitz’s interpretation explains that development but is not itself its historical cause."
+    },
+    "legacy:REL-4A980199C01A": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The promised right to public assistance was meant to replace dismantled charity; it is not a component of the old traditional relief system. Preserve the promise/implementation contrast."
+    },
+    "legacy:REL-59B55D16FF05": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Opposition to representation and free thought belongs to reactionary formulations,not every kind of conservatism. The same source also distinguishes reformist conservatism."
+    },
+    "legacy:REL-AF17AF511AEA": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "The calendar is not a useful causal or periodizing predecessor of Lunéville. This broad chronological link adds no supported retrieval requirement and is retired."
+    },
+    "legacy:REL-CB006AF3E245": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "British visitors’postwar reopening follows Amiens,not simply the earlier continental peace of Lunéville. Preserve valid Amiens counterpart REL-FDC219338DA5."
+    },
+    "legacy:REL-F45A94CD1E0A": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "Amiens follows the calendar only as an incidental chronology. The meaningful relation is its end of war and reopening to visitors; retire the unrelated predecessor edge."
+    },
+    "legacy:REL-616DECB22D58": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "European wartime state expansion was driven by mass warfare,not uniformly by the specific French August1793 decree. Preserve the transnational argument in its retrospective requirement."
+    },
+    "legacy:REL-7FBBBD8464E1": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "European surveillance,taxation and paper finance answered wartime demands; do not make all of them consequences of the particular French levée decree."
+    },
+    "legacy:REL-D46409FCA399": {
+      "disposition": "supersede_or_retire_misleading_relation; preserve_source_requirement",
+      "rationale": "10August suspended monarchy and opened the path to a republic; formal republican establishment followed inSeptember. Keep this sequence and avoid collapsing all constitutional changes into one date."
+    },
+    "legacy:REL-00DC9B8B20E4": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['strengthened_by'] relation between Second Coalition and collapse of the sister republics and Year VII wave of anti-French uprisings across occupied Europe was flattened to active supports. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-01B76C79F23C": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Internal customs barriers and their abolition and Long-term economic retardation and land-biased investment was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-022C4A8F720A": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['undermined_by'] relation between Royalist restoration hopes and Louis XVIII's overture to Bonaparte and Pacification of chouannerie was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-03D50ED281C2": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['restricted_by'] relation between Italian national unity movement and French obstruction and Bonaparte as conqueror, exploiter, and state-builder in Italy was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-09204FA1AD53": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['constrained_by'] relation between Equality: legal achievement, property limits, and exclusions and property rights and Notable rule was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-0F0EEBD499E1": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between The Revolution declared over: stability purchased by sacrificing 1789 principles and Life consulship and monarchical drift was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-0F5F61B5EDA3": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Royalist gains without a unified restoration party and Pures and constitutional monarchists in exile was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-167CEBE3A87B": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['undermined_by'] relation between Roman Republic, 1798-1799 and Religious suppression and economic crisis in the Roman Republic was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-2D1B46325E23": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['enabled_by'] relation between Jacobin revival and the Pantheon Club and Directory's balancing between royalism and Jacobinism was flattened to active enables. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-31A88CC0833C": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Royalist gains without a unified restoration party and Elections of Year V was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-32F025325026": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between French Revolution as the first modern and archetypal revolution and continuity with pre-1789 trends was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-46E68DF537BD": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between British economic and world-power ascendancy and pre-existing British industrial lead was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-46E70C7D3CC2": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['enabled_by'] relation between Jacobin revival and the Pantheon Club and Popular social resentment and radicalization was flattened to active enables. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-4B4DC938498B": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['expressed_through'] relation between The Great Nation—liberation ideology and coercive hegemony and French military and fiscal exploitation of the Rhineland was flattened to active expresses. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-4DA7A795877E": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Careers open to talents and professional re-regulation and professional disorder was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-4FBF1FE6AC13": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Guild abolition and the Le Chapelier Law and Long-term economic retardation and land-biased investment was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-54D5557F6E3E": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['undermined_by'] relation between The Great Nation—liberation ideology and coercive hegemony and Year VII wave of anti-French uprisings across occupied Europe was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-61CC8F82C78F": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['restricted_by'] relation between Women's revolutionary agency and exclusion from equality and Convention and Civil Code was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-7CA851B2DE51": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['demonstrated_by'] relation between Decline of foreign support for revolutionary France and Year VII wave of anti-French uprisings across occupied Europe was flattened to active evidence_for. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-9020A6052191": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Popular sovereignty and representative legitimacy and sansculotte violence and rigged endorsement was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-9850C9F99B5D": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['undermined_by'] relation between Royalist restoration hopes and Louis XVIII's overture to Bonaparte and Emigre return and preservation of confiscated property was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-AE7E5FAD8878": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['damaged_by'] relation between Hospitals, nursing sisters, and post-Terror recovery and religious and fiscal policy was flattened to active constrains. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-BAE3B2833AC0": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Feudal abolition—uneven economic effects and higher rents and tenancy was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-CC080B58CB83": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Depoliticization, disappearance of the independent press, and public preference for stability and Uncertainty in evidence for public reaction after press suppression was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-D18BA1E35C91": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Pius VII and the possibility of papal compromise and Organic Articles, Gallican controls, and the papal-authority paradox was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-D2C089F95FA0": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['expressed_through'] relation between Neo-Jacobin resurgence after Prairial and Manege Club was flattened to active expresses. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    },
+    "legacy:REL-F10A34269B86": {
+      "disposition": "retire_direction_losing_normalization",
+      "rationale": "The original ['qualified_by'] relation between Jewish emancipation, assimilation, and persistent prejudice and assimilation demands and prejudice was flattened to active qualifies. Preserve the qualification in the new explicit meanings; do not transfer this normalized direction."
+    }
+  },
+  "principal_legacy_relationships_fully_inspected": 1573,
+  "principal_legacy_provenance_chunks": [
+    7,
+    8,
+    9,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "remaining": "Integrate authors1–6 and10–12 ledgers; bind exact successor dispositions and dependency additions. This notes file alone is not a completed graph ledger."
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "successor-draft-coordinator-mechanical-verification-v1",
+  "candidate_unexposed": false,
+  "editorial_approval": false,
+  "draft_file_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+  "registered_state_file_sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+  "author_and_coordinator_screen_json_equal": true,
+  "historical_exact_id_closure": {
+    "subjects": 2004,
+    "relationships": 3741,
+    "reader_tasks": 1664,
+    "evidence_subject_pairs": 4823,
+    "exclusions": 307,
+    "uncertainties": 169
+  },
+  "draft_counts": {
+    "subjects": 531,
+    "relationships": 493,
+    "reader_tasks": 599,
+    "evidence": 3341,
+    "exclusions": 248,
+    "uncertainties": 151
+  },
+  "review_queue": {
+    "cross_chapter_subjects": 40,
+    "fallback_tasks": 6
+  },
+  "draft_addendum_sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760",
+  "allowlisted_files": 146,
+  "exact_before_after_and_target_checks": {
+    "subject_before_after_fields": 2004,
+    "evidence_before_and_declared_after_fields": 4823,
+    "relationship_before_and_targets": 3741,
+    "task_before_and_targets": 1664,
+    "auxiliary_before_after_records": 476
+  },
+  "evidence_after_projection_omits_only_optional_historical_evidence_identity": true,
+  "independent_assignments": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.assignment.v1.json",
+      "sha256": "77fb18262a820e09c6450fc36cab5eb8f8aea2e348d92f55a221dc25907d9277"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012.assignment.v2.json",
+      "sha256": "5647d8b6ca557b63b72fe988ee59ab5f0ac33d67bfa51763e26ad40128d638e5"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead.assignment.v2.json",
+      "sha256": "cf3a1b851cd4ac82684f836b3e3d4bd4bb81849a283ed979b463128acc1befe6"
+    }
+  ],
+  "independent_assignments_exhaustive_and_disjoint": true,
+  "source_first_findings_assigned_once": 446,
+  "screened_fallback_tasks_all_lead_owned": 6
+}

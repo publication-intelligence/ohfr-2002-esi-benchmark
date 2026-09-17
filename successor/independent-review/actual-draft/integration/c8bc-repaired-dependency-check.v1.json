@@ -1,0 +1,241 @@
+{
+  "schema_version": "independent-repaired-dependency-check-v1",
+  "status": "sealed_scoped_component; final_benchmark_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage7.v1.json",
+      "sha256": "7a1dddebead4dd25e305f0b9866c3e0b984d9109417eea607601abcefdd5f493"
+    }
+  ],
+  "source_basis": "All two tasks, their two facets and two current relationships binding the narrowed C8BC parent were read whole; eligible368 prose was already reread during the chapter015 retention check. No new source-first pass.",
+  "rows": [
+    {
+      "entity_type": "reader_task",
+      "entity_id": "TASK-SUCC-B8E68FF8EF19",
+      "before_record": {
+        "task_id": "TASK-SUCC-B8E68FF8EF19",
+        "question": "How did popular hostility and coalition warfare combine to destroy French clients in 1799?",
+        "subject_ids": [
+          "SUBJ-SUCC-F58A108E4435",
+          "SUBJ-SUCC-C8BC4BB76AF8"
+        ],
+        "source_task_ids": [
+          "SUCC-C015-T014"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-8DDC4848E704",
+            "question": "How do the Year VII uprisings, in Doyle's account, demonstrate declining foreign support for revolutionary France?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-F58A108E4435"
+            ],
+            "historical_task_id": "TASK-8DDC4848E704",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The YearVII synthesis itself explicitly contrasts shrinking friends and growing enemies on367–368; no global umbrella is needed to answer that question."
+          }
+        ]
+      },
+      "before_sha256": "4a0b120d1b05596e2e7190ae5f97c859011dcfd077e8e8aaa640dbc373834bd6",
+      "proposed_record": {
+        "task_id": "TASK-SUCC-B8E68FF8EF19",
+        "question": "How did foreign support for France decline in the Year VII, and how did popular resistance and coalition warfare combine to bring down the Italian client republics in1799?",
+        "subject_ids": [
+          "SUBJ-SUCC-F58A108E4435",
+          "SUBJ-SUCC-C8BC4BB76AF8"
+        ],
+        "source_task_ids": [
+          "SUCC-C015-T014"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-8DDC4848E704",
+            "question": "How do the Year VII uprisings, in Doyle's account, demonstrate declining foreign support for revolutionary France?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-F58A108E4435"
+            ],
+            "historical_task_id": "TASK-8DDC4848E704",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The YearVII synthesis itself explicitly contrasts shrinking friends and growing enemies on367–368; no global umbrella is needed to answer that question."
+          }
+        ]
+      },
+      "proposed_sha256": "5d8e7ef3f9f5a16ebe0e04b1ab945badfb460a7ec51d3f3ac41ccd5dbf450579",
+      "disposition": "Keep the broad decline-of-support facet answerable while stating the geographically limited Italian collapse in the parent question.",
+      "fields_changed": [
+        "question"
+      ],
+      "source_pages": [
+        368
+      ]
+    },
+    {
+      "entity_type": "reader_task",
+      "entity_id": "TASK-SUCC-3E389A82CD8E",
+      "before_record": {
+        "task_id": "TASK-SUCC-3E389A82CD8E",
+        "question": "How did popular resistance, coalition warfare and French overextension produce European disasters, and why did that news encourage Bonaparte’s departure from Egypt and return to political opportunity?",
+        "subject_ids": [
+          "SUBJ-SUCC-1C3515CE1B7F",
+          "SUBJ-SUCC-C8BC4BB76AF8",
+          "SUBJ-SUCC-F58A108E4435"
+        ],
+        "source_task_ids": [
+          "SUCC-C015-T015"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-BD18C0D4AAEC",
+            "question": "How does Doyle relate popular resistance, coalition warfare, French military overextension, and Bonaparte's return from Egypt?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C8BC4BB76AF8",
+              "SUBJ-SUCC-F58A108E4435",
+              "SUBJ-SUCC-1C3515CE1B7F"
+            ],
+            "historical_task_id": "TASK-BD18C0D4AAEC",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The conjuncture of resistance, coalition war and return is explicit."
+          }
+        ],
+        "source_pages": [
+          363,
+          366,
+          367,
+          368,
+          374
+        ]
+      },
+      "before_sha256": "47d2debede1cdd39ec48491315c0a823b2099546a783f6bc38c6c383bd21a190",
+      "proposed_record": {
+        "task_id": "TASK-SUCC-3E389A82CD8E",
+        "question": "How did popular resistance, coalition warfare and French overextension produce European disasters, and why did that news encourage Bonaparte’s departure from Egypt and return to political opportunity?",
+        "subject_ids": [
+          "SUBJ-SUCC-1C3515CE1B7F",
+          "SUBJ-SUCC-C8BC4BB76AF8",
+          "SUBJ-SUCC-F58A108E4435"
+        ],
+        "source_task_ids": [
+          "SUCC-C015-T015"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-BD18C0D4AAEC",
+            "question": "How does Doyle relate popular resistance, coalition warfare, French military overextension, and Bonaparte's return from Egypt?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-C8BC4BB76AF8",
+              "SUBJ-SUCC-F58A108E4435",
+              "SUBJ-SUCC-1C3515CE1B7F"
+            ],
+            "historical_task_id": "TASK-BD18C0D4AAEC",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The conjuncture of resistance, coalition war and return is explicit."
+          }
+        ],
+        "source_pages": [
+          363,
+          366,
+          367,
+          368,
+          374
+        ]
+      },
+      "proposed_sha256": "47d2debede1cdd39ec48491315c0a823b2099546a783f6bc38c6c383bd21a190",
+      "disposition": "European military disasters is broader than state collapse and correctly includes German and Swiss retreats; the existing question needs no change.",
+      "fields_changed": [],
+      "source_pages": [
+        368
+      ]
+    },
+    {
+      "entity_type": "relationship",
+      "entity_id": "REL-SUCC-ABFDC50E2E21",
+      "before_record": {
+        "relationship_id": "REL-SUCC-ABFDC50E2E21",
+        "source_subject_id": "SUBJ-SUCC-F58A108E4435",
+        "relationship_type": "reinforces_military_pressure_in",
+        "target_subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          368
+        ],
+        "rationale": "The source relation is retained from the author’s complete chapter review; its endpoints have been rebound to the corresponding whole-book requirements.",
+        "source_local_subject_id": "SUCC-C015-S005",
+        "source_local_relationship_index": 0
+      },
+      "before_sha256": "7b954cf1e416f0c4bfe8cbc863df752196bd2bd664b29f305c27c80b23b1c9c8",
+      "proposed_record": {
+        "relationship_id": "REL-SUCC-ABFDC50E2E21",
+        "source_subject_id": "SUBJ-SUCC-F58A108E4435",
+        "relationship_type": "reinforces_military_pressure_in",
+        "target_subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          368
+        ],
+        "rationale": "Declining support and growing local hostility amplified coalition military pressure; in Italy resistance exceeded French resources when campaigning resumed in1799.",
+        "source_local_subject_id": "SUCC-C015-S005",
+        "source_local_relationship_index": 0
+      },
+      "proposed_sha256": "0efd5693cf110f17b60ed24251a13b4f79768086434c0e157e3e31f4c76afea3",
+      "disposition": "Replace administrative author-review rationale with the actual368 causal connection, retaining the independently reviewed direction and targets.",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source_pages": [
+        368
+      ]
+    },
+    {
+      "entity_type": "relationship",
+      "entity_id": "REL-SUCC-ACA17DA68B27",
+      "before_record": {
+        "relationship_id": "REL-SUCC-ACA17DA68B27",
+        "source_subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+        "relationship_type": "prompts_departure_in",
+        "target_subject_id": "SUBJ-SUCC-1C3515CE1B7F",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          368
+        ],
+        "rationale": "News of French reverses and the collapse of client states encouraged Bonaparte to leave Egypt; his departure also served personal political calculation.",
+        "source_local_subject_id": "SUCC-C015-S006",
+        "source_local_relationship_index": 0
+      },
+      "before_sha256": "bcdbfe09bf876dd1639d12a1a710001e6bfcc443d7768e4f3a96521872f59906",
+      "proposed_record": {
+        "relationship_id": "REL-SUCC-ACA17DA68B27",
+        "source_subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+        "relationship_type": "prompts_departure_in",
+        "target_subject_id": "SUBJ-SUCC-1C3515CE1B7F",
+        "resolution_status": "resolved",
+        "evidence_document_pages": [
+          368
+        ],
+        "rationale": "News of French reverses and the collapse of Italian client states encouraged Bonaparte to leave Egypt; his departure also served personal political calculation.",
+        "source_local_subject_id": "SUCC-C015-S006",
+        "source_local_relationship_index": 0
+      },
+      "proposed_sha256": "61b36b56e812b248697de93a9d9b2353fc3eda0d4d08bf3772a03b344e55ac2a",
+      "disposition": "Make the already-repaired source parent scope explicit without changing the departure relation.",
+      "fields_changed": [
+        "rationale"
+      ],
+      "source_pages": [
+        368
+      ]
+    }
+  ],
+  "changed_entity_ids": [
+    "TASK-SUCC-B8E68FF8EF19",
+    "REL-SUCC-ABFDC50E2E21",
+    "REL-SUCC-ACA17DA68B27"
+  ],
+  "whole_book_approval": false
+}

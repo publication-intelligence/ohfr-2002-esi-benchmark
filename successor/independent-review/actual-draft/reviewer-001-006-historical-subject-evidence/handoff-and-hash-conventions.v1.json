@@ -1,0 +1,10 @@
+{
+  "manifest": "manifest.v2.json",
+  "record_hash_algorithm": "SHA256 of UTF-8 JSON with sorted keys, ensure_ascii=false, compact separators comma/colon; file hashes cover exact bytes.",
+  "source_proof": "Literal equality is used only with exact references to the reviewer’s completed source-grounded prior record/item inspection. New nonliteral fields and actual destinations were inspected separately.",
+  "proposed_records_structure": "subjects contains wrappers with subject_id, before_record_sha256, proposed_record_sha256, and the exact whole replacement under record. additions.evidence enumerates the same new evidence embedded in owned replacements plus foreign additions; avoid applying owned additions twice. foreign_evidence_full_value_referrals and foreign_main_value_referrals are proposals for the owning reviewer to integrate together.",
+  "lineage_semantics": "retired_or_unaccepted_author_bindings removes only unverified or wrong historical claim mappings; it does not delete current evidence records. Exact selected bindings preserve each accepted historical claim.",
+  "required_integration": "Apply fourteen owned whole-record replacements against the exact integration-base before values. Integrate foreign full-value evidence proposals and five main-meaning referrals together; synchronize facet/source-treatment scope. Resolve the explicit page-157 diplomatic referral. No final-current approval is implied.",
+  "validation": "All fourteen exact field-diff round trips reconstructed the proposed records. All artifacts in the original review, original repair and additional-task sealed manifests were rehashed and unchanged.",
+  "all_earlier_seals_preserved": true
+}

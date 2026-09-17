@@ -1,0 +1,2346 @@
+{
+  "schema_version": "source-subject-chunk-v1",
+  "chunk": {
+    "chunk_id": "CHUNK-013",
+    "chapter_labels": [
+      "13. Counter-Revolution, 1789-1795",
+      "Chapter 13"
+    ],
+    "owned_document_pages": [
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317
+    ],
+    "context_document_pages": [
+      295,
+      296,
+      318,
+      319
+    ]
+  },
+  "evaluation_id": "ohfr-2002-study-source-successor-v1",
+  "candidate_blindness": "preserved",
+  "page_review": {
+    "expected_owned_pages": 21,
+    "reviewed_owned_pages": 21,
+    "reviewed_owned_document_pages": [
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317
+    ],
+    "reused_complete_source_pages": [
+      297,
+      298,
+      303,
+      307,
+      308,
+      310,
+      314,
+      316,
+      317
+    ],
+    "new_complete_source_pages": [
+      299,
+      300,
+      301,
+      302,
+      304,
+      305,
+      306,
+      309,
+      311,
+      312,
+      313,
+      315
+    ],
+    "indexable_source_words": 9710,
+    "measurement_id": "ohfr-2002-source-prose-words-v1",
+    "complete": true
+  },
+  "subjects": [
+    {
+      "local_subject_id": "SUCC-C013-S001",
+      "label": "Counter-revolution: origins, definition, and historical scope",
+      "priority": "essential",
+      "meaning": "The emergence of a counter-revolutionary outlook after the claim of national sovereignty in June 1789, and the chapter's distinction between armed restoration, anti-revolutionary resistance, and later constitutional royalism.",
+      "stance": "Counter-revolution began as a reaction to the new regime rather than as a pre-existing unified doctrine; the author narrows the term and rejects indiscriminate revolutionary labeling of all resistance.",
+      "acceptable_access": [
+        "Counter-revolution",
+        "Counter-revolution--origins",
+        "Anti-revolution and counter-revolution"
+      ],
+      "relationships": [],
+      "evidence": [
+        {
+          "document_page": 297,
+          "source_page_label": "297",
+          "locator_class": "principal",
+          "evidence_summary": "Defines counter-revolution as a response formed only after the June 1789 assertion of national sovereignty and identifies the Royal Session as its first serious act."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Distinguishes armed overthrow from local resistance and argues that authorities too readily labeled opposition counter-revolutionary."
+        },
+        {
+          "document_page": 317,
+          "source_page_label": "317",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Contrasts failed armed restoration with the surviving possibility of constitutional monarchy through elections."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S001",
+          "CH13-S033"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-001"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S002",
+      "label": "Émigré counter-revolution: organization, army, and collapse",
+      "priority": "major",
+      "meaning": "Successive émigré waves built courts, committees, and an auxiliary army, retaining old hierarchies while accepting real personal sacrifices. Varennes accelerated officer emigration and militarization; the collapse after Valmy dispersed the main princely forces, leaving foreign-dependent remnants.",
+      "stance": "Neither a uniform aristocratic exodus nor an autonomous restoration army: sincere loyalty coexisted with status rivalry, logistical weakness, unrealistic expectations, and dependence on foreign strategy. The retreat after Valmy, rather than émigré participation in its cannonade, shattered the armed project.",
+      "acceptable_access": [
+        "Émigrés",
+        "Counter-revolution--émigrés",
+        "French exiles",
+        "Émigrés--waves and social composition",
+        "Émigré army",
+        "Koblenz--court and army",
+        "Army of the Princes--disbandment",
+        "Émigrés--social hierarchy and motives",
+        "Valmy--émigré consequences"
+      ],
+      "relationships": [
+        {
+          "type": "depends_on",
+          "target_local_subject_id": "SUCC-C013-S020",
+          "evidence_document_pages": [
+            302,
+            304,
+            316
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 298,
+          "source_page_label": "298",
+          "locator_class": "principal",
+          "evidence_summary": "Traces the first emigration after July 1789, frontier committees, and Artois's Turin organization."
+        },
+        {
+          "document_page": 299,
+          "source_page_label": "299",
+          "locator_class": "principal",
+          "evidence_summary": "Institutional abolition, army unrest, and church policy drew nobles, officers, magistrates, and clergy into emigration."
+        },
+        {
+          "document_page": 301,
+          "source_page_label": "301",
+          "locator_class": "principal",
+          "evidence_summary": "Varennes accelerated officer departures and transformed émigré rescue ambitions."
+        },
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "principal",
+          "evidence_summary": "Former officers formed an army centred on Koblenz, intended as an auxiliary to foreign armies."
+        },
+        {
+          "document_page": 303,
+          "source_page_label": "303",
+          "locator_class": "principal",
+          "evidence_summary": "Exile courts reproduced precedence disputes and suspicion of latecomers; the portrait is qualified by recognition of sacrifice."
+        },
+        {
+          "document_page": 304,
+          "source_page_label": "304",
+          "locator_class": "principal",
+          "evidence_summary": "Loyalty and risk qualified the portrait of selfish exile; subsidies, supply failure, disbandment, and refusal of amnesty reveal practical weakness."
+        },
+        {
+          "document_page": 306,
+          "source_page_label": "306",
+          "locator_class": "principal",
+          "evidence_summary": "The retreat after Valmy shattered princely formations; Condé alone retained a corps in imperial service and émigrés dispersed."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Concludes that feuding émigrés had no independent chance of arresting, moderating, or reversing events in France."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S002",
+          "CH13-S014",
+          "CH13-S017"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-004",
+          "CHUNK-013-SUBJ-013",
+          "CHUNK-013-SUBJ-023",
+          "CHUNK-013-SUBJ-026",
+          "CHUNK-013-SUBJ-029",
+          "CHUNK-013-SUBJ-031"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S003",
+      "label": "Counter-revolutionary factionalism",
+      "priority": "major",
+      "meaning": "Persistent divisions among early 'pure' émigrés, constitutional monarchists, royal agents, popular rebels, and competing leaders.",
+      "stance": "Counter-revolution was never unified; mutual suspicion and ideological rivalry repeatedly obstructed cooperation and outlasted military defeat.",
+      "acceptable_access": [
+        "Counter-revolution--factions",
+        "Émigrés--divisions",
+        "Royalism--factionalism",
+        "Pures and constitutional monarchists",
+        "Monarchiens and Feuillants--exile divisions"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to_failure_of",
+          "target_local_subject_id": "SUCC-C013-S035",
+          "evidence_document_pages": [
+            316
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 298,
+          "source_page_label": "298",
+          "locator_class": "principal",
+          "evidence_summary": "States at the outset that counter-revolution was no more a unity than the Revolution it opposed."
+        },
+        {
+          "document_page": 310,
+          "source_page_label": "310",
+          "locator_class": "principal",
+          "evidence_summary": "Contrasts 'pures' committed to pre-1789 restoration with diverse constitutional monarchists who accepted a representative constitution."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows post-Quiberon recrimination, conspiracy claims, and conflict over Puisaye's leadership."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Attributes counter-revolutionary failure in part to vicious feuding among groups that mistrusted one another."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S003"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-002",
+          "CHUNK-013-SUBJ-039"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S004",
+      "label": "Restoration programmes and the constitutional-monarchist alternative",
+      "priority": "major",
+      "meaning": "The princes claimed inherited royal authority against the Constitution of 1791 and repeatedly promised restoration of the old institutions and property. Constitutional royalists accepted written representative government; after armed restoration failed, limited monarchy remained an electoral possibility.",
+      "stance": "Full restoration and constitutional royalism are different programmes. Their appeal was unequal: the source rejects the viability of old-regime nostalgia while treating limited monarchy as a possible route to stability, not an inevitable outcome.",
+      "acceptable_access": [
+        "Monarchy--restoration programmes",
+        "Royalism--constitutional and absolutist",
+        "Old regime--proposed restoration",
+        "Princes’ manifesto, 10 September 1791",
+        "Constitution of 1791--émigré rejection",
+        "Constitutional monarchy--electoral alternative",
+        "Royalism--electoral strategy"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "SUCC-C013-S018",
+          "evidence_document_pages": [
+            310,
+            314,
+            317
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "principal",
+          "evidence_summary": "The princes denied the Assembly’s authority and treated royal assent to the constitution as coerced."
+        },
+        {
+          "document_page": 303,
+          "source_page_label": "303",
+          "locator_class": "principal",
+          "evidence_summary": "Interprets the princes' 1791 manifesto as seeking a free legislative king and an effectively complete restoration of the old regime."
+        },
+        {
+          "document_page": 307,
+          "source_page_label": "307",
+          "locator_class": "principal",
+          "evidence_summary": "The 1793 regency proclamation promises restoration of Church, orders, old judicial system, and confiscated property."
+        },
+        {
+          "document_page": 310,
+          "source_page_label": "310",
+          "locator_class": "principal",
+          "evidence_summary": "Sets out constitutional émigré variants united in refusing to return France to the era before written representative government."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "principal",
+          "evidence_summary": "Verona deliberately alienated constitutional émigrés and potential right-wing allies."
+        },
+        {
+          "document_page": 317,
+          "source_page_label": "317",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Argues that nostalgic restoration lacked mass appeal but limited constitutional monarchy could still attract support."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S004",
+          "CH13-S036"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-003",
+          "CHUNK-013-SUBJ-025",
+          "CHUNK-013-SUBJ-052"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S005",
+      "label": "Religion and counter-revolution",
+      "priority": "major",
+      "meaning": "The Civil Constitution, clerical oath, papal condemnation, and repression of refractories transformed religious allegiance and local resistance into organized opposition. Lay pressure mattered as well as clerical initiative; toleration later weakened insurgent support.",
+      "stance": "Religious resistance was neither uniformly manipulated by clergy nor automatically royalist. Treating refractory priests as counter-revolutionaries helped make them so; restoration of worship removed a central grievance.",
+      "acceptable_access": [
+        "Religion--counter-revolution",
+        "Civil Constitution of the Clergy--opposition",
+        "Catholic royalism",
+        "Refractory clergy--counter-revolution",
+        "Clerical oath--lay pressure and refusal",
+        "Religious toleration--western pacification"
+      ],
+      "relationships": [
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "SUCC-C013-S007",
+          "evidence_document_pages": [
+            308
+          ]
+        },
+        {
+          "type": "contributes_to",
+          "target_local_subject_id": "SUCC-C013-S008",
+          "evidence_document_pages": [
+            305,
+            308
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 304,
+          "source_page_label": "304",
+          "locator_class": "principal",
+          "evidence_summary": "Explains how the clerical oath and papal condemnation turned religious schism into official opposition to the Revolution."
+        },
+        {
+          "document_page": 305,
+          "source_page_label": "305",
+          "locator_class": "supporting",
+          "evidence_summary": "Brittany’s unusually extensive oath refusal and lay support made it promising for La Rouërie’s association."
+        },
+        {
+          "document_page": 308,
+          "source_page_label": "308",
+          "locator_class": "principal",
+          "evidence_summary": "Connects mass oath refusal, parishioner pressure, deportation policies, and allegiance to Church and king in the west."
+        },
+        {
+          "document_page": 312,
+          "source_page_label": "312",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Shows that restoration of open worship in 1795 removed a persistent grievance sustaining western insurgents."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S005",
+          "CH13-S024"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-027",
+          "CHUNK-013-SUBJ-043"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S007",
+      "label": "Vendée insurgency",
+      "priority": "essential",
+      "meaning": "The Vendéan uprising combined limited material gains, higher rents and taxes, intrusive local government and religious conflict, with conscription as the final trigger. Rebels formed a Catholic and Royal Army, sought British aid, suffered military destruction and reprisals, then renewed fighting before Hoche’s pacification.",
+      "stance": "An authentically popular royalist movement with local defensive aims, not an émigré instrument or a proven plan to conquer Paris. Conscription alone does not explain it; republican brutality probably prolonged resistance after destruction of the field army.",
+      "acceptable_access": [
+        "Vendée",
+        "Vendée--counter-revolution",
+        "Catholic and Royal Army",
+        "Vendée--causes",
+        "Peasantry--western counter-revolution",
+        "Conscription--western revolt",
+        "Vendée--rent, taxation, and local government",
+        "Popular royalism--localism",
+        "Vendée--republican reprisals"
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_in_organization_with",
+          "target_local_subject_id": "SUCC-C013-S008",
+          "evidence_document_pages": [
+            308
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 307,
+          "source_page_label": "307",
+          "locator_class": "principal",
+          "evidence_summary": "The March levy activated accumulated grievances among western peasants who had gained comparatively little from the abolition of old burdens."
+        },
+        {
+          "document_page": 308,
+          "source_page_label": "308",
+          "locator_class": "principal",
+          "evidence_summary": "Higher rents and exactions, religious coercion, and administrative intrusion preceded conscription, which turned resistance into open Catholic and royal identification."
+        },
+        {
+          "document_page": 309,
+          "source_page_label": "309",
+          "locator_class": "principal",
+          "evidence_summary": "Traces the march to Granville, military destruction at Le Mans and Savenay, and expectations of British aid."
+        },
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "supporting",
+          "evidence_summary": "Describes Charette's renewed revolt and the failed attempt to link a British-backed expedition with the Vendée."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "principal",
+          "evidence_summary": "Attributes pacification to reinforced counter-insurgency, executions of leaders, toleration, and discipline of republican troops."
+        },
+        {
+          "document_page": 317,
+          "source_page_label": "317",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Concludes that reprisals prolonged resistance and that the Vendéans were unlikely to project power toward Paris."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S006",
+          "CH13-S007",
+          "CH13-S022",
+          "CH13-S023",
+          "CH13-S033",
+          "CH13-S034"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-005",
+          "CHUNK-013-SUBJ-033",
+          "CHUNK-013-SUBJ-034"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S008",
+      "label": "Chouannerie in Brittany",
+      "priority": "major",
+      "meaning": "The decentralized Catholic and royal guerrilla movement in Brittany, its local strength, weak coordination, British contacts, and eventual suppression.",
+      "stance": "A locally rooted Catholic and royal guerrilla movement, distinct from the Vendéan field army. Local religious, fiscal, administrative, and conscription grievances sustained it, but scattered bands could not be treated as Puisaye’s unified national army or assumed capable of capturing a port.",
+      "acceptable_access": [
+        "Chouannerie",
+        "Brittany--royalist guerrillas",
+        "Counter-revolution--Brittany",
+        "Brittany--religious and economic grievances",
+        "Conscription--Breton resistance",
+        "Popular counter-revolution--localism"
+      ],
+      "relationships": [],
+      "evidence": [
+        {
+          "document_page": 308,
+          "source_page_label": "308",
+          "locator_class": "principal",
+          "evidence_summary": "Western religious and local grievances culminated in open royalism; Breton bands remained guerrillas rather than coalescing as in the Vendée."
+        },
+        {
+          "document_page": 311,
+          "source_page_label": "311",
+          "locator_class": "principal",
+          "evidence_summary": "Assesses the movement as under 22,000, decentralized and disruptive, but unable to capture and hold a port."
+        },
+        {
+          "document_page": 312,
+          "source_page_label": "312",
+          "locator_class": "supporting",
+          "evidence_summary": "Notes counter-insurgency pressure, defections, supply shortages, and incomplete adherence to La Mabilais."
+        },
+        {
+          "document_page": 315,
+          "source_page_label": "315",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Shows troop saturation reducing chouan mobility and Puisaye to hiding by 1796."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "The conclusion confines genuine mass Church-and-king movements to a few regions and stresses local aims."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S006",
+          "CH13-S008",
+          "CH13-S022",
+          "CH13-S023",
+          "CH13-S033"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-005",
+          "CHUNK-013-SUBJ-033",
+          "CHUNK-013-SUBJ-035"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S010",
+      "label": "Quiberon expedition, 1795",
+      "priority": "major",
+      "meaning": "The British-backed landing of émigrés and French prisoners at Quiberon, its faulty assumptions and command, Hoche's victory, and the executions that followed.",
+      "stance": "Quiberon was the decisive, disastrously bungled effort to combine foreign power, émigrés, and popular rebels; its failure exposed their operational and political divisions.",
+      "acceptable_access": [
+        "Quiberon expedition",
+        "Counter-revolution--Quiberon",
+        "British expeditions--Quiberon"
+      ],
+      "relationships": [],
+      "evidence": [
+        {
+          "document_page": 312,
+          "source_page_label": "312",
+          "locator_class": "principal",
+          "evidence_summary": "Explains preparations, the choice of Quiberon, the force of 3,000, and arms intended for 70,000 supporters."
+        },
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "principal",
+          "evidence_summary": "Narrates the stalled bridgehead, confused command, Hoche's recapture, 6,000 prisoners, and executions of émigrés and chouans."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Shows the expedition's aftermath in recrimination against Puisaye and renewed conflict between 'pures' and constitutionalists."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S010"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-045"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S011",
+      "label": "Royal Session of 23 June 1789",
+      "priority": "major",
+      "meaning": "The first serious attempt by the court to halt and reverse the Revolution, and the maximum reform programme later accepted by the émigré princes.",
+      "stance": "The programme mixed reforms with preservation of orders, privileges, feudal rights, and rejection of national sovereignty, making it counter-revolutionary despite concessions.",
+      "acceptable_access": [
+        "Royal Session, 23 June 1789",
+        "Counter-revolution--Royal Session",
+        "June programme of 1789"
+      ],
+      "evidence": [
+        {
+          "document_page": 297,
+          "source_page_label": "297",
+          "locator_class": "principal",
+          "evidence_summary": "Identifies the Royal Session as the first serious counter-revolutionary attempt and details its mixture of reforms and retained privilege."
+        },
+        {
+          "document_page": 303,
+          "source_page_label": "303",
+          "locator_class": "supporting",
+          "evidence_summary": "Uses the June programme as the benchmark against which the princes' later manifesto appears still less liberal."
+        },
+        {
+          "document_page": 310,
+          "source_page_label": "310",
+          "locator_class": "supporting",
+          "evidence_summary": "Defines the 'pures' by their refusal to contemplate restoration beyond Louis XVI's 23 June offer."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "first_reversal_attempt_in",
+          "target_local_subject_id": "SUCC-C013-S001",
+          "evidence_document_pages": [
+            297
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S011"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-009"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S012",
+      "label": "Artois and counter-revolutionary leadership",
+      "priority": "major",
+      "meaning": "Artois's role in the court reaction of 1789, émigré organization, foreign diplomacy, military schemes, and western expeditions.",
+      "stance": "Artois was a central, energetic but often unrealistic and ineffective leader whose absence or delay repeatedly frustrated royalist plans.",
+      "acceptable_access": [
+        "Artois, Count of",
+        "Charles, Count of Artois",
+        "Émigré princes--Artois"
+      ],
+      "relationships": [
+        {
+          "type": "organizes",
+          "target_local_subject_id": "SUCC-C013-S002",
+          "evidence_document_pages": [
+            298
+          ]
+        },
+        {
+          "type": "authorizes",
+          "target_local_subject_id": "SUCC-C013-S043",
+          "evidence_document_pages": [
+            305
+          ]
+        },
+        {
+          "type": "authorizes",
+          "target_local_subject_id": "SUCC-C013-S027",
+          "evidence_document_pages": [
+            312
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_page": 298,
+          "source_page_label": "298",
+          "locator_class": "principal",
+          "evidence_summary": "Shows Artois leaving France, establishing the Turin committee, and seeking support from crowned heads."
+        },
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "principal",
+          "evidence_summary": "Places his court at Koblenz and his diplomacy at Pillnitz at the center of émigré militarization."
+        },
+        {
+          "document_page": 307,
+          "source_page_label": "307",
+          "locator_class": "supporting",
+          "evidence_summary": "Records his appointment as Lieutenant-General and fruitless mission for material Russian support."
+        },
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "principal",
+          "evidence_summary": "Describes his delayed arrival after Quiberon's failure and abortive landing opposite the Vendée at Yeu."
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S012"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-010"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S013",
+      "label": "Louis XVI’s escape strategy and Varennes consequences",
+      "priority": "major",
+      "meaning": "The king balanced public constitutional avowals with private escape schemes, refusing some royalist plans and setting Varennes timing independently. The failed flight exposed his repudiation of the Revolution and changed republican opinion, officer emigration, and foreign diplomacy.",
+      "stance": "Varennes transformed counter-revolutionary prospects by exposing Louis XVI's rejection of the Revolution, accelerating officer emigration, and prompting greater foreign attention despite the escape's failure.",
+      "acceptable_access": [
+        "Varennes",
+        "Flight to Varennes--counter-revolutionary consequences",
+        "Louis XVI--flight",
+        "Louis XVI--hesitation and rescue plans",
+        "King and émigrés--independent strategy"
+      ],
+      "evidence": [
+        {
+          "document_page": 299,
+          "source_page_label": "299",
+          "locator_class": "principal",
+          "evidence_summary": "After Favras’s failure the king publicly endorsed the constitution but privately accepted counsel while postponing action."
+        },
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "principal",
+          "evidence_summary": "Louis XVI rejected the Lyon abduction plan as too risky while maintaining an independently directed escape project."
+        },
+        {
+          "document_page": 301,
+          "source_page_label": "301",
+          "locator_class": "principal",
+          "evidence_summary": "Explains how the flight revealed the king's repudiation of the Revolution, strengthened republicanism, and accelerated military emigration."
+        },
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Links Varennes directly to émigré militarization and the first serious great-power consideration of intervention."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "accelerates_militarization_of",
+          "target_local_subject_id": "SUCC-C013-S002",
+          "evidence_document_pages": [
+            301,
+            302
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S013"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-012",
+          "CHUNK-013-SUBJ-022"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S015",
+      "label": "Declaration of Pillnitz",
+      "priority": "major",
+      "meaning": "The 1791 Austro-Prussian declaration appropriated by the émigré princes as evidence of foreign backing.",
+      "stance": "The declaration encouraged counter-revolutionaries far beyond the uncertain intentions of the sovereigns who issued it.",
+      "acceptable_access": [
+        "Pillnitz, Declaration of",
+        "Declaration of Pillnitz--émigrés",
+        "Leopold II--French intervention"
+      ],
+      "evidence": [
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "principal",
+          "evidence_summary": "Explains the princes' uninvited role at Pillnitz and their use of the declaration in urging Louis XVI to reject the constitution."
+        },
+        {
+          "document_page": 304,
+          "source_page_label": "304",
+          "locator_class": "supporting",
+          "evidence_summary": "Shows how Pillnitz and subsidies inflated émigré confidence before the powers failed to act."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "encourages_expectations_of",
+          "target_local_subject_id": "SUCC-C013-S002",
+          "evidence_document_pages": [
+            302,
+            304
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S015"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-024"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S016",
+      "label": "Brunswick Manifesto",
+      "priority": "major",
+      "meaning": "The invading coalition's 1792 threats against Paris, welcomed by émigrés as protection for the royal family.",
+      "stance": "The manifesto was counterproductive: threats intended to deter attack helped precipitate the assault on the monarchy.",
+      "acceptable_access": [
+        "Brunswick Manifesto",
+        "Manifesto of Brunswick",
+        "Invasion of 1792--propaganda"
+      ],
+      "evidence": [
+        {
+          "document_page": 306,
+          "source_page_label": "306",
+          "locator_class": "principal",
+          "evidence_summary": "States that émigrés welcomed the threats as deterrence, though they instead helped precipitate the attack on the Tuileries."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "intensifies_failure_of",
+          "target_local_subject_id": "SUCC-C013-S002",
+          "evidence_document_pages": [
+            306
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S016"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-029",
+          "CHUNK-013-SUBJ-030"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S018",
+      "label": "Provence and Louis XVIII: regency, succession, and Verona",
+      "priority": "major",
+      "meaning": "Provence claimed a regency for Louis XVII after Louis XVI’s execution and became Louis XVIII after the child died in June 1795. His intransigent proclamations, culminating in Verona, rejected constitutional accommodation while foreign recognition and safe exile remained precarious.",
+      "stance": "His rigid restoration programme and poor diplomatic position marginalized him and alienated potential constitutional allies.",
+      "acceptable_access": [
+        "Louis XVIII",
+        "Provence, Count of",
+        "Bourbon regency in exile",
+        "Louis XVII--succession and regency",
+        "Declaration of Verona",
+        "Louis XVIII--constitutional accommodation rejected"
+      ],
+      "evidence": [
+        {
+          "document_page": 306,
+          "source_page_label": "306",
+          "locator_class": "supporting",
+          "evidence_summary": "Louis XVI’s execution prompted Provence to proclaim the child king and himself regent."
+        },
+        {
+          "document_page": 307,
+          "source_page_label": "307",
+          "locator_class": "principal",
+          "evidence_summary": "Details his assumption of the regency after Louis XVI's death, restoration proclamation, and near-total lack of foreign recognition."
+        },
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "supporting",
+          "evidence_summary": "Louis XVII died as the western expedition was preparing, transferring the Bourbon claim to his uncle."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "principal",
+          "evidence_summary": "Shows his accession as Louis XVIII and deliberate rebuff to moderate and constitutional émigrés in the Verona declaration."
+        },
+        {
+          "document_page": 315,
+          "source_page_label": "315",
+          "locator_class": "supporting",
+          "evidence_summary": "Follows his expulsion from Verona, unwelcome passage to Condé's army, and further displacement."
+        },
+        {
+          "document_page": 317,
+          "source_page_label": "317",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Contrasts his intransigence with wider French interest in a limited constitutional monarchy."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "rejects_constitutional_alternative_in",
+          "target_local_subject_id": "SUCC-C013-S004",
+          "evidence_document_pages": [
+            314,
+            317
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S018",
+          "CH13-S032"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-011",
+          "CHUNK-013-SUBJ-032"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S019",
+      "label": "British policy toward French counter-revolution",
+      "priority": "major",
+      "meaning": "British strategic goals, ambiguous constitutional commitments, naval support for western rebels, and mutual dependence and distrust with French royalists.",
+      "stance": "Britain became the most consistent foreign mainstay but pursued British power and strategic interests, not an unconditional programme of Bourbon restoration.",
+      "acceptable_access": [
+        "Great Britain--French counter-revolution",
+        "British aid to royalists",
+        "Pitt--counter-revolutionary policy"
+      ],
+      "evidence": [
+        {
+          "document_page": 307,
+          "source_page_label": "307",
+          "locator_class": "principal",
+          "evidence_summary": "Introduces Britain as the future principal foreign supporter while stressing its early caution and interest in limiting French power."
+        },
+        {
+          "document_page": 309,
+          "source_page_label": "309",
+          "locator_class": "principal",
+          "evidence_summary": "Describes British contact with western rebels, Moira's planned landing, and preference for aiding Brittany through Puisaye."
+        },
+        {
+          "document_page": 310,
+          "source_page_label": "310",
+          "locator_class": "principal",
+          "evidence_summary": "Shows British constitutional ambiguity and receptiveness to Mallet du Pan's moderate programme."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Records royalist accusations after Quiberon alongside continuing need for British refuge and supplies."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "supports",
+          "target_local_subject_id": "SUCC-C013-S010",
+          "evidence_document_pages": [
+            311,
+            312
+          ]
+        },
+        {
+          "type": "supports",
+          "target_local_subject_id": "SUCC-C013-S031",
+          "evidence_document_pages": [
+            313
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S019"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-007"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S020",
+      "label": "Foreign powers and counter-revolutionary dependence",
+      "priority": "major",
+      "meaning": "Émigrés and western rebels depended on military, financial, diplomatic, and naval assistance, but the foreign powers pursued a weakened and later stable France rather than an unconditional Bourbon restoration.",
+      "stance": "Foreign help was indispensable yet conditional. Diplomatic recognition, subsidy, and ceremonial encouragement did not establish a common restoration programme or guarantee intervention.",
+      "acceptable_access": [
+        "European powers--French counter-revolution",
+        "Foreign intervention--motives",
+        "Monarchy--foreign recognition",
+        "Counter-revolution--foreign support and dependence",
+        "Émigrés--foreign dependence"
+      ],
+      "evidence": [
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "principal",
+          "evidence_summary": "Varennes moved the powers toward intervention diplomacy, which the émigrés exaggerated into firm backing."
+        },
+        {
+          "document_page": 304,
+          "source_page_label": "304",
+          "locator_class": "principal",
+          "evidence_summary": "Subsidies and encouragement proved temporary when German hosts faced pressure and royalist forces became liabilities."
+        },
+        {
+          "document_page": 307,
+          "source_page_label": "307",
+          "locator_class": "supporting",
+          "evidence_summary": "Russia alone recognizes the regency but provides only ceremonial support; Britain avoids binding commitments."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Explains that powers pursued weakening or stabilizing France, recognized Louis XVIII only sporadically, and treated émigrés chiefly as complications or instruments."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S009",
+          "CH13-S020"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-006"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S021",
+      "label": "Nîmes bagarre and Catholic royalism in the Gard",
+      "priority": "major",
+      "meaning": "The 1790 sectarian conflict at Nîmes and its contribution to a Catholic royalist counter-revolutionary movement in the Midi.",
+      "stance": "Traditional Catholic-Protestant antagonism was sharpened by revolutionary reform; defeat at Nîmes created martyrs and strengthened regional royalism.",
+      "acceptable_access": [
+        "Nîmes--bagarre",
+        "Gard--Catholic royalism",
+        "Froment"
+      ],
+      "evidence": [
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "principal",
+          "evidence_summary": "Describes the Protestant victory over Catholic National Guards, Froment's Bourbon allegiance, and the massacre's royalist legacy."
+        },
+        {
+          "document_page": 305,
+          "source_page_label": "305",
+          "locator_class": "supporting",
+          "evidence_summary": "Contrasts durable sectarian counter-revolution in the south with weaker anti-revolution elsewhere."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Names the Gard as one of only three regions with a mass movement openly fighting for Church and king."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "encourages",
+          "target_local_subject_id": "SUCC-C013-S040",
+          "evidence_document_pages": [
+            300
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S021"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-018",
+          "CHUNK-013-SUBJ-019"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S025",
+      "label": "Federalist revolt distinguished from counter-revolution",
+      "priority": "major",
+      "meaning": "The limited royalist involvement in the Federalist revolt and the need to distinguish resistance to further radicalization from restorationist counter-revolution.",
+      "stance": "Counter-revolutionaries exploited Federalist episodes, but most participants did not seek old-regime restoration; Toulon was exceptional and still constitutionally ambiguous.",
+      "acceptable_access": [
+        "Federalist revolt--royalist involvement",
+        "Federalism and counter-revolution",
+        "Provincial revolt of 1793"
+      ],
+      "evidence": [
+        {
+          "document_page": 308,
+          "source_page_label": "308",
+          "locator_class": "principal",
+          "evidence_summary": "Warns that royalists too readily assumed opposition to the Convention implied royalism, though they did participate in several episodes."
+        },
+        {
+          "document_page": 309,
+          "source_page_label": "309",
+          "locator_class": "principal",
+          "evidence_summary": "Shows the narrow and constitutionally limited royalism of Toulon, the only Federalist city to proclaim the king."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Explicitly states that much resistance, including the so-called Federalist revolt, sought only to stop further revolutionary advance."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "has_qualified_royalist_exception",
+          "target_local_subject_id": "SUCC-C013-S026",
+          "evidence_document_pages": [
+            308,
+            309
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S025"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-036"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S026",
+      "label": "Toulon and royalism, 1793",
+      "priority": "major",
+      "meaning": "Toulon's invitation to the British fleet, proclamation of the king, constitutional terms, and collapse before Provence could arrive.",
+      "stance": "Toulon's royalism arose late from fear and accepted the constitution of 1791; old-regime behavior under occupation quickly exposed tensions within restorationism.",
+      "acceptable_access": [
+        "Toulon--royalism",
+        "Toulon--British occupation",
+        "Federalist revolt--Toulon"
+      ],
+      "evidence": [
+        {
+          "document_page": 308,
+          "source_page_label": "308",
+          "locator_class": "supporting",
+          "evidence_summary": "Identifies Toulon as the Federalist center that called in Britain and proclaimed the king."
+        },
+        {
+          "document_page": 309,
+          "source_page_label": "309",
+          "locator_class": "principal",
+          "evidence_summary": "Explains Provence's aborted journey, Hood's guarantee of the 1791 constitution, and local backlash against revived clerical and noble pretensions."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S026"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-037"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S027",
+      "label": "Puisaye and British-backed royalism",
+      "priority": "major",
+      "meaning": "Puisaye's claim to represent the Breton chouans, his persuasion of the British government, command role, and loss of authority after Quiberon.",
+      "stance": "Puisaye was persuasive but greatly overstated the unity and scale of chouannerie; his representation helped produce a strategically flawed expedition and later scapegoating.",
+      "acceptable_access": [
+        "Puisaye, Joseph de",
+        "Puisaye--chouannerie",
+        "Royalist agents--Puisaye"
+      ],
+      "evidence": [
+        {
+          "document_page": 311,
+          "source_page_label": "311",
+          "locator_class": "principal",
+          "evidence_summary": "Contrasts his claim of 70,000 potential fighters with a scattered movement under 22,000 and no firm command."
+        },
+        {
+          "document_page": 312,
+          "source_page_label": "312",
+          "locator_class": "supporting",
+          "evidence_summary": "Notes Artois's royal blessing and appointment of Puisaye as lieutenant-general."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Describes accusations that he deliberately caused Quiberon's failure and his ruined authority among the chouans."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "overstates_command_of",
+          "target_local_subject_id": "SUCC-C013-S008",
+          "evidence_document_pages": [
+            311
+          ]
+        },
+        {
+          "type": "persuades",
+          "target_local_subject_id": "SUCC-C013-S019",
+          "evidence_document_pages": [
+            311
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S027"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-042"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S028",
+      "label": "Mallet du Pan and constitutional royalism",
+      "priority": "major",
+      "meaning": "Mallet du Pan's moderate royalist analysis, propaganda strategy, intelligence role, and critique of restorationist intransigence.",
+      "stance": "His clear-eyed view was that military victory alone could not reverse the Revolution and that royalism had to preserve acknowledged gains and reassure the French.",
+      "acceptable_access": [
+        "Mallet du Pan, Jacques",
+        "Constitutional royalism--Mallet du Pan",
+        "Royalist propaganda"
+      ],
+      "evidence": [
+        {
+          "document_page": 310,
+          "source_page_label": "310",
+          "locator_class": "principal",
+          "evidence_summary": "Summarizes his argument for propaganda guaranteeing basic revolutionary gains and Britain's use of him as an analyst."
+        },
+        {
+          "document_page": 311,
+          "source_page_label": "311",
+          "locator_class": "supporting",
+          "evidence_summary": "Contrasts his intelligence with d'Antraigues's competing, loaded reporting."
+        },
+        {
+          "document_page": 317,
+          "source_page_label": "317",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Uses his warning to Louis XVIII that France would not willingly submit to former authority."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "contrasts_with",
+          "target_local_subject_id": "SUCC-C013-S029",
+          "evidence_document_pages": [
+            310,
+            311
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S028"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-040"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S029",
+      "label": "d'Antraigues and the royalist intelligence network",
+      "priority": "major",
+      "meaning": "The émigré intelligence network organized from Venice, its partisan reporting, allied customers, and eventual exposure.",
+      "stance": "The network was extensive but politically loaded; d'Antraigues manipulated reports to make old-regime restoration appear feasible and lost credibility after capture.",
+      "acceptable_access": [
+        "d'Antraigues, Emmanuel-Louis",
+        "Royalist intelligence networks",
+        "Émigrés--espionage"
+      ],
+      "evidence": [
+        {
+          "document_page": 310,
+          "source_page_label": "310",
+          "locator_class": "principal",
+          "evidence_summary": "Introduces the Venice-based network and d'Antraigues's uncompromising position."
+        },
+        {
+          "document_page": 311,
+          "source_page_label": "311",
+          "locator_class": "principal",
+          "evidence_summary": "Explains his correspondents' biases, his alteration of reports, and competition with other allied intelligence channels."
+        },
+        {
+          "document_page": 315,
+          "source_page_label": "315",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Records his 1797 arrest, disclosures about Pichegru, escape, and resulting loss of royalist credit."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "reveals_contacts_of",
+          "target_local_subject_id": "SUCC-C013-S048",
+          "evidence_document_pages": [
+            315
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S029"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-041",
+          "CHUNK-013-SUBJ-051"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S030",
+      "label": "Hoche's western counter-insurgency and pacification",
+      "priority": "major",
+      "meaning": "General Hoche's military concentration, guerrilla suppression, victory at Quiberon, and combined coercive and conciliatory pacification of the west.",
+      "stance": "Hoche’s pacification combined overwhelming and adaptive force with toleration and control of republican abuses. Treating this as repression alone erases why peasant support dwindled; earlier retaliatory brutality had helped prolong resistance.",
+      "acceptable_access": [
+        "Hoche, Lazare--western pacification",
+        "Vendée--pacification",
+        "Counter-insurgency--western France",
+        "Thermidor--religious détente and insurgent support",
+        "Army of the Ocean Coasts",
+        "Pacifier of the Vendée"
+      ],
+      "evidence": [
+        {
+          "document_page": 312,
+          "source_page_label": "312",
+          "locator_class": "principal",
+          "evidence_summary": "Describes new tactics that broke guerrilla bands and helped force western leaders into treaties."
+        },
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "principal",
+          "evidence_summary": "Shows Hoche concentrating regulars before recapturing Quiberon and taking thousands of prisoners."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Attributes the 1796 pacification to overwhelming force, executions, toleration, and discipline of blue troops."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "defeats",
+          "target_local_subject_id": "SUCC-C013-S010",
+          "evidence_document_pages": [
+            313
+          ]
+        },
+        {
+          "type": "pacifies",
+          "target_local_subject_id": "SUCC-C013-S007",
+          "evidence_document_pages": [
+            314,
+            315
+          ]
+        },
+        {
+          "type": "suppresses",
+          "target_local_subject_id": "SUCC-C013-S008",
+          "evidence_document_pages": [
+            312,
+            315
+          ]
+        },
+        {
+          "type": "helps_compel",
+          "target_local_subject_id": "SUCC-C013-S045",
+          "evidence_document_pages": [
+            312
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S030"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-043",
+          "CHUNK-013-SUBJ-047"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S031",
+      "label": "Île d'Yeu expedition, 1795",
+      "priority": "major",
+      "meaning": "The post-Quiberon British and émigré expedition carrying Artois to Île d'Yeu in hopes of joining Charette in the Vendée.",
+      "stance": "The expedition failed without battle because Hoche sealed the coast and Charette could not reach it, marking another collapse of coordination.",
+      "acceptable_access": [
+        "Île d'Yeu expedition",
+        "Artois--Île d'Yeu",
+        "British expeditions--Vendée"
+      ],
+      "evidence": [
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "principal",
+          "evidence_summary": "Narrates Artois's September landing, Hoche's coastal defenses, Charette's failure to break through, and the November recall."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "fails_to_link_with",
+          "target_local_subject_id": "SUCC-C013-S046",
+          "evidence_document_pages": [
+            313
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S031"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-046"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S035",
+      "label": "Defeat of armed counter-revolution by 1797",
+      "priority": "essential",
+      "meaning": "The cumulative military defeat of émigré armies, western insurgencies, and restoration projects by the end of the continental war.",
+      "stance": "By Leoben in April 1797 armed overthrow of the Republic and its innovations had failed, though electoral constitutional royalism remained possible.",
+      "acceptable_access": [
+        "Counter-revolution--defeat",
+        "Leoben--counter-revolution",
+        "Armed royalism--failure"
+      ],
+      "evidence": [
+        {
+          "document_page": 315,
+          "source_page_label": "315",
+          "locator_class": "principal",
+          "evidence_summary": "Declares armed counter-revolution defeated by the end of the land war at Leoben in April 1797."
+        },
+        {
+          "document_page": 316,
+          "source_page_label": "316",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Explains structural failure through émigré factionalism and mismatch with great-power interests."
+        },
+        {
+          "document_page": 317,
+          "source_page_label": "317",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Concludes that even a westward breakout would have met superior republican armies and little support for nostalgic restoration."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "leaves_open_constitutional_alternative",
+          "target_local_subject_id": "SUCC-C013-S004",
+          "evidence_document_pages": [
+            317
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S035"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-008"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S037",
+      "label": "Calonne's service to the émigré princes",
+      "priority": "optional",
+      "meaning": "Calonne's financial and diplomatic role in organizing the émigré court and representing it abroad.",
+      "stance": "His expertise supplied skills the early émigré leadership lacked, but did not overcome its strategic weakness.",
+      "acceptable_access": [
+        "Calonne, Charles-Alexandre de",
+        "Émigré court--Calonne"
+      ],
+      "evidence": [
+        {
+          "document_page": 298,
+          "source_page_label": "298",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Calonne's wealth, expertise, London diplomacy, and eventual arrival at Turin as adviser to the princes."
+        },
+        {
+          "document_page": 302,
+          "source_page_label": "302",
+          "locator_class": "supporting",
+          "evidence_summary": "Places him with Artois in the émigré intervention at Pillnitz."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S037"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-014"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S038",
+      "label": "Favras conspiracy",
+      "priority": "optional",
+      "meaning": "The 1789-1790 plot to extract Louis XVI from Paris and the execution of the Marquis de Favras.",
+      "stance": "An early internal counter-revolutionary conspiracy with ambiguous royal-family links; its failure pushed the king to public constitutional loyalty and angered émigrés.",
+      "acceptable_access": [
+        "Favras, Marquis de",
+        "Favras conspiracy",
+        "Louis XVI--rescue plots"
+      ],
+      "evidence": [
+        {
+          "document_page": 299,
+          "source_page_label": "299",
+          "locator_class": "principal",
+          "evidence_summary": "Narrates Favras's attempted armed rescue of the king, arrest, execution, and the king's public constitutional avowal."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S038"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-015"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S039",
+      "label": "Mirabeau's secret royal counsel",
+      "priority": "optional",
+      "meaning": "Mirabeau's paid advice to the royal family, including escape, bodyguard, and propaganda schemes.",
+      "stance": "Mirabeau was not a counter-revolutionary and remained a constitutional monarchist, though his practical schemes resembled plots developed by the émigrés.",
+      "acceptable_access": [
+        "Mirabeau--secret royal counsel",
+        "Louis XVI--Mirabeau",
+        "Constitutional monarchy--Mirabeau"
+      ],
+      "evidence": [
+        {
+          "document_page": 299,
+          "source_page_label": "299",
+          "locator_class": "principal",
+          "evidence_summary": "Distinguishes Mirabeau's constitutional aims from counter-revolution while comparing his practical royal rescue and propaganda schemes to Turin plots."
+        },
+        {
+          "document_page": 301,
+          "source_page_label": "301",
+          "locator_class": "supporting",
+          "evidence_summary": "Notes the renewed royal escape project based on Mirabeau's agent network and plan for an eastern dash."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "advises",
+          "target_local_subject_id": "SUCC-C013-S013",
+          "evidence_document_pages": [
+            299,
+            301
+          ]
+        },
+        {
+          "type": "differs_in_aims_from",
+          "target_local_subject_id": "SUCC-C013-S038",
+          "evidence_document_pages": [
+            299
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S039"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-012",
+          "CHUNK-013-SUBJ-016"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S040",
+      "label": "Jalès camps and Catholic Army of the Midi",
+      "priority": "optional",
+      "meaning": "The Jalès mobilizations in 1790 and 1792 as attempts to organize Catholic royalist power in southern France.",
+      "stance": "The first camp suggested large reserves, but later hopes proved inflated when the 1792 rising attracted only a few hundred and was crushed.",
+      "acceptable_access": [
+        "Jalès camps",
+        "Catholic Army of the Midi",
+        "Midi--counter-revolution"
+      ],
+      "evidence": [
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "supporting",
+          "evidence_summary": "Reports the 20,000 armed men at the first Jalès camp and the hopes it generated for southern royalism."
+        },
+        {
+          "document_page": 305,
+          "source_page_label": "305",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Froment's princely backing and the poorly supported, quickly suppressed July 1792 rising."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S040"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-020"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S041",
+      "label": "Royalist plotting in Lyons",
+      "priority": "optional",
+      "meaning": "Counter-revolutionary schemes to seize Lyons in 1790 and renewed émigré and Austrian plans around 1795-1796.",
+      "stance": "Repeatedly ambitious plans were thwarted by the king's refusal, arrests, divided strategy, and changing military conditions.",
+      "acceptable_access": [
+        "Lyons--royalist plots",
+        "Counter-revolution--Lyons",
+        "Lyonnais royalism"
+      ],
+      "evidence": [
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "principal",
+          "evidence_summary": "Describes the planned abduction of the king, uprising, and foreign column, aborted when Louis XVI refused and arrests followed."
+        },
+        {
+          "document_page": 315,
+          "source_page_label": "315",
+          "locator_class": "supporting",
+          "evidence_summary": "Describes later schemes linking Condé's émigrés, Austrian forces, Lyonnais royalists, and Pichegru."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S041"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-021"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S042",
+      "label": "Cazalès and Maury inside the Constituent Assembly",
+      "priority": "optional",
+      "meaning": "The strategy of conservative deputies who encouraged radical measures in expectation that excess would discredit and collapse the revolutionary order.",
+      "stance": "Counter-revolution affected the Assembly through deliberate obstruction and acceleration as well as emigration and armed plots.",
+      "acceptable_access": [
+        "Cazalès",
+        "Maury, Jean-Siffrein",
+        "Constituent Assembly--counter-revolutionary tactics"
+      ],
+      "evidence": [
+        {
+          "document_page": 301,
+          "source_page_label": "301",
+          "locator_class": "principal",
+          "evidence_summary": "Describes their tactic of voting for extreme measures so that worsening disorder would bring the new order down."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S042"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-017"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S043",
+      "label": "La Rouërie and the Breton Association",
+      "priority": "optional",
+      "meaning": "The early organization of a Breton counter-revolutionary association and its links to the émigré princes.",
+      "stance": "The association had contacts and arms but lacked a clear operational plan, foreshadowing later problems coordinating Breton resistance.",
+      "acceptable_access": [
+        "La Rouërie, Marquis de",
+        "Breton Association",
+        "Brittany--counter-revolutionary organization"
+      ],
+      "evidence": [
+        {
+          "document_page": 305,
+          "source_page_label": "305",
+          "locator_class": "principal",
+          "evidence_summary": "Details La Rouërie's approach to Koblenz, proposed network, adherents, arms, and absence of a clear plan."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S043"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-028"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S044",
+      "label": "Granville and Moira’s missed British expedition",
+      "priority": "optional",
+      "meaning": "The first British plan to land aid for the Vendéans during their march to Granville.",
+      "stance": "Delayed intelligence and coordination prevented contact, but the failed plan established the later pattern of British-supported western expeditions.",
+      "acceptable_access": [
+        "Moira, Lord",
+        "Moira expedition",
+        "British aid--Vendée",
+        "Granville--British linkage",
+        "Channel Islands--royalist supplies"
+      ],
+      "evidence": [
+        {
+          "document_page": 309,
+          "source_page_label": "309",
+          "locator_class": "principal",
+          "evidence_summary": "Describes Moira's appointment, the fleet's missed connection with the retreating Vendéans, and the persistence of British planning."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S044"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-038"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S045",
+      "label": "Western peace treaties of 1795",
+      "priority": "optional",
+      "meaning": "The negotiated truces between republican authorities and western royalist leaders, including La Mabilais.",
+      "stance": "The treaties reflected rebel weakness and supply exhaustion more than genuine reconciliation; important leaders secretly intended to resume war.",
+      "acceptable_access": [
+        "La Mabilais, treaty of",
+        "Western France--peace treaties",
+        "Chouans--truce of 1795"
+      ],
+      "evidence": [
+        {
+          "document_page": 312,
+          "source_page_label": "312",
+          "locator_class": "principal",
+          "evidence_summary": "Explains the military pressures behind the treaties and cites secret royalist disclaimers of sincere peace."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S045"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-044"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S046",
+      "label": "Charette",
+      "priority": "major",
+      "meaning": "Vendéan leader Charette's tactical peace, renewed rebellion, attempted coordination with Artois, reprisals, capture, and execution.",
+      "stance": "He remained committed to royalist war but could not coordinate with foreign intervention or withstand Hoche's strengthened forces.",
+      "acceptable_access": [
+        "Charette, François de",
+        "Vendée--Charette"
+      ],
+      "evidence": [
+        {
+          "document_page": 312,
+          "source_page_label": "312",
+          "locator_class": "principal",
+          "evidence_summary": "His secret message presents the peace as a temporary expedient caused by lack of powder."
+        },
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "principal",
+          "evidence_summary": "Shows his renewed fighting, reprisals, and inability to reach Artois's expedition."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Records his capture and execution during Hoche's final pacification."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "accepts_tactical_peace_in",
+          "target_local_subject_id": "SUCC-C013-S045",
+          "evidence_document_pages": [
+            312
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S046"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-048"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S047",
+      "label": "Georges Cadoudal",
+      "priority": "optional",
+      "meaning": "Cadoudal's emergence as the strongest remaining chouan chief after Quiberon.",
+      "stance": "His authority rose because he rejected the La Mabilais settlement and retained an uncompromising reputation when Puisaye's standing collapsed.",
+      "acceptable_access": [
+        "Cadoudal, Georges",
+        "Chouannerie--Cadoudal"
+      ],
+      "evidence": [
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "principal",
+          "evidence_summary": "Identifies Cadoudal as the movement's most credible leader after refusing La Mabilais and awaiting reinforcement at Quiberon."
+        }
+      ],
+      "relationships": [
+        {
+          "type": "supplants_authority_of",
+          "target_local_subject_id": "SUCC-C013-S027",
+          "evidence_document_pages": [
+            314
+          ]
+        }
+      ],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S047"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-049"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S048",
+      "label": "Condé’s surviving corps and Pichegru’s royalist contacts",
+      "priority": "major",
+      "meaning": "Condé’s corps survived the 1792 collapse in imperial service. Subsequent plans to combine it with Austrian forces, Lyonnais royalists, and Pichegru stalled amid negotiation and foreign caution; d’Antraigues’s later disclosures implicated Pichegru.",
+      "stance": "Survival in Austrian service did not provide independent Bourbon military capacity. Pichegru’s susceptibility and later implication did not mean that the proposed 1795 offensive took place.",
+      "acceptable_access": [
+        "Condé, Prince de--army",
+        "Pichegru--royalist contacts",
+        "Rhine--royalist plots",
+        "Army of Condé",
+        "Émigré regiments in Austrian service"
+      ],
+      "evidence": [
+        {
+          "document_page": 306,
+          "source_page_label": "306",
+          "locator_class": "principal",
+          "evidence_summary": "Condé’s surviving regiments entered imperial service as the main exception to émigré military disintegration."
+        },
+        {
+          "document_page": 315,
+          "source_page_label": "315",
+          "locator_class": "principal",
+          "evidence_summary": "Describes the 1795-1796 scheme, British agents, attempts to win Pichegru, Austrian reluctance, and Louis XVIII's unwelcome presence."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S048"
+        ],
+        "legacy_local_subject_ids": [
+          "CHUNK-013-SUBJ-050",
+          "CHUNK-013-SUBJ-051"
+        ],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S049",
+      "label": "Chateaubriand's return to join the émigré army",
+      "priority": "exclude_by_default",
+      "meaning": "A single memoir-based anecdote illustrating romantic Bourbon loyalty after Varennes.",
+      "stance": "Useful as evidence for émigré motivation, but not independently developed enough to require its own access point in this chapter.",
+      "acceptable_access": [
+        "Chateaubriand, François-René de--only if named-person granularity is adopted"
+      ],
+      "evidence": [
+        {
+          "document_page": 304,
+          "source_page_label": "304",
+          "locator_class": "incidental",
+          "evidence_summary": "Briefly recounts his voyage from America and enlistment as an illustration of irrational personal loyalty."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S049"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S050",
+      "label": "Victor Amadeus III and Joseph II as reluctant émigré hosts",
+      "priority": "exclude_by_default",
+      "meaning": "Foreign rulers' episodic reluctance to host or assist Artois and the émigré court.",
+      "stance": "These rulers provide supporting context for the exiles' weak diplomacy but are not treated as independent chapter subjects.",
+      "acceptable_access": [
+        "Foreign hosts of émigrés--only as a subordinate access point"
+      ],
+      "evidence": [
+        {
+          "document_page": 298,
+          "source_page_label": "298",
+          "locator_class": "incidental",
+          "evidence_summary": "Joseph II is cool toward Artois, while Victor Amadeus initially resists bringing Calonne to Turin."
+        },
+        {
+          "document_page": 300,
+          "source_page_label": "300",
+          "locator_class": "incidental",
+          "evidence_summary": "Victor Amadeus is asked by Louis XVI to prevent the princes from launching the Lyons project."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S050"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    },
+    {
+      "local_subject_id": "SUCC-C013-S051",
+      "label": "Artois's private debts in England",
+      "priority": "exclude_by_default",
+      "meaning": "Brief references to creditors affecting Artois's movements and place of residence.",
+      "stance": "Biographical color rather than an independently useful political subject; it should not generate a standalone access point by default.",
+      "acceptable_access": [
+        "Artois--financial difficulties only if embedded under his main entry"
+      ],
+      "evidence": [
+        {
+          "document_page": 313,
+          "source_page_label": "313",
+          "locator_class": "incidental",
+          "evidence_summary": "Unpaid debts delay Artois's departure from Bremen for England."
+        },
+        {
+          "document_page": 314,
+          "source_page_label": "314",
+          "locator_class": "incidental",
+          "evidence_summary": "Continuing creditor pressure helps explain his accommodation in Scotland."
+        }
+      ],
+      "relationships": [],
+      "source_reuse": {
+        "native_local_subject_ids": [
+          "CH13-S051"
+        ],
+        "legacy_local_subject_ids": [],
+        "review": "All owned pages and both local record sets read; reuse is explicit; actual changes are in chapter ledger."
+      }
+    }
+  ],
+  "reader_tasks": [
+    {
+      "task_id": "SUCC-C013-T001",
+      "question": "When does the author date the beginning of counter-revolution, and why is not all resistance included?",
+      "subject_ids": [
+        "SUCC-C013-S001",
+        "SUCC-C013-S011",
+        "SUCC-C013-S025"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T002",
+      "question": "How did émigré organization and military ambitions change after Varennes and Valmy?",
+      "subject_ids": [
+        "SUCC-C013-S002",
+        "SUCC-C013-S013",
+        "SUCC-C013-S020"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T003",
+      "question": "Why did the princes’ restoration programmes conflict with constitutional royalism?",
+      "subject_ids": [
+        "SUCC-C013-S003",
+        "SUCC-C013-S004",
+        "SUCC-C013-S018"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T004",
+      "question": "How did religious policy and local grievances turn western resistance into royalism?",
+      "subject_ids": [
+        "SUCC-C013-S005",
+        "SUCC-C013-S007",
+        "SUCC-C013-S008"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T005",
+      "question": "Why did Britain support French royalists without endorsing their full programme?",
+      "subject_ids": [
+        "SUCC-C013-S019",
+        "SUCC-C013-S020"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T006",
+      "question": "What made the Vendéan army and Breton guerrillas different military movements?",
+      "subject_ids": [
+        "SUCC-C013-S007",
+        "SUCC-C013-S008"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T007",
+      "question": "Why did Puisaye’s representation of chouannerie mislead British planning?",
+      "subject_ids": [
+        "SUCC-C013-S008",
+        "SUCC-C013-S027",
+        "SUCC-C013-S010"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T008",
+      "question": "Why did Quiberon and the Île d’Yeu expedition fail?",
+      "subject_ids": [
+        "SUCC-C013-S010",
+        "SUCC-C013-S030",
+        "SUCC-C013-S031",
+        "SUCC-C013-S046"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T009",
+      "question": "How did Hoche combine coercion and accommodation to pacify the west?",
+      "subject_ids": [
+        "SUCC-C013-S005",
+        "SUCC-C013-S030",
+        "SUCC-C013-S045"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T010",
+      "question": "How did Mallet du Pan and d’Antraigues offer rival forms of royalist analysis?",
+      "subject_ids": [
+        "SUCC-C013-S028",
+        "SUCC-C013-S029"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T011",
+      "question": "Why was Toulon’s monarchism not a mandate for restoring the old regime?",
+      "subject_ids": [
+        "SUCC-C013-S025",
+        "SUCC-C013-S026"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T012",
+      "question": "What explains defeat of armed counter-revolution, and why could electoral royalism survive?",
+      "subject_ids": [
+        "SUCC-C013-S002",
+        "SUCC-C013-S003",
+        "SUCC-C013-S004",
+        "SUCC-C013-S020",
+        "SUCC-C013-S035"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T013",
+      "question": "What distinguishes Mirabeau’s paid royal advice from counter-revolution?",
+      "subject_ids": [
+        "SUCC-C013-S013",
+        "SUCC-C013-S039"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T014",
+      "question": "Why did Nîmes and Jalès encourage southern royalists without producing a successful rising?",
+      "subject_ids": [
+        "SUCC-C013-S021",
+        "SUCC-C013-S040"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    },
+    {
+      "task_id": "SUCC-C013-T015",
+      "question": "Why did Condé’s surviving force and Pichegru’s contacts fail to yield an offensive?",
+      "subject_ids": [
+        "SUCC-C013-S041",
+        "SUCC-C013-S048"
+      ],
+      "source_basis": "Source-specific retrieval task reauthored after complete chapter inspection."
+    }
+  ],
+  "exclusions": [
+    {
+      "exclusion_id": "SUCC-CH13-X001",
+      "category": "running_furniture",
+      "scope": "owned document pages 297-317",
+      "reason": "Running chapter headers, folios, and display-only navigation are nonindexable production furniture."
+    },
+    {
+      "exclusion_id": "SUCC-CH13-X002",
+      "category": "citation_markers",
+      "scope": "superscript note references on pages 299-317",
+      "reason": "Citation numbers alone do not constitute subject treatment; the substantive quoted or paraphrased text remains in scope."
+    },
+    {
+      "exclusion_id": "SUCC-CH13-X003",
+      "category": "context_only_pages",
+      "scope": "document pages 295-296 and 318-319",
+      "reason": "These context pages remain owned by adjacent chunks; no evidence is assigned to them here. Current synthesis page-inspection claims are separately enumerated."
+    },
+    {
+      "exclusion_id": "SUCC-CH13-X004",
+      "category": "incidental_named_entities",
+      "scope": "minor diplomats, local officials, rulers, and one-mention participants throughout the chapter",
+      "reason": "Names used only to advance chronology or exemplify a broader treatment were not promoted to standalone subjects; representative borderline cases are retained as exclude_by_default records."
+    },
+    {
+      "exclusion_id": "SUCC-CH13-X005",
+      "category": "isolated_quantitative_details",
+      "scope": "troop, casualty, subsidy, and population figures within military narratives",
+      "reason": "Figures support the indexed event or movement but do not independently warrant numerical headings."
+    },
+    {
+      "exclusion_id": "SUCC-CH13-X006",
+      "category": "retrospective_transition",
+      "scope": "discussion that begins on document page 318 under Chapter 14",
+      "reason": "The succeeding chapter's constitutional narrative is outside CHUNK-013 ownership despite contextual relevance to electoral royalism."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "SUCC-CH13-U001",
+      "topic": "Boundary between anti-revolution and counter-revolution",
+      "affected_document_pages": [
+        300,
+        304,
+        305,
+        308,
+        316
+      ],
+      "issue": "The source explicitly warns that dissatisfaction and resistance were not automatically restorationist counter-revolution.",
+      "handling": "Subjects and evidence preserve the author's distinctions; anti-revolutionary episodes are included only where the text establishes royalist, clerical, or organized counter-revolutionary content.",
+      "status": "resolved_with_stance_constraint"
+    },
+    {
+      "uncertainty_id": "SUCC-CH13-U002",
+      "topic": "Chapter date in title versus concluding chronology",
+      "affected_document_pages": [
+        314,
+        315,
+        316,
+        317
+      ],
+      "issue": "The chapter title ends at 1795, but the narrative and explicit conclusion carry military defeat and pacification through April 1797.",
+      "handling": "Retain 1796-1797 evidence because it appears on owned pages and supplies the chapter's conclusion; do not silently force evidence into the title's date range.",
+      "status": "resolved_by_owned_source_scope"
+    },
+    {
+      "uncertainty_id": "SUCC-CH13-U003",
+      "topic": "Federalist revolt classification",
+      "affected_document_pages": [
+        308,
+        309,
+        316
+      ],
+      "issue": "Royalists participated in Federalist episodes, but the author denies that the revolt as a whole was counter-revolutionary.",
+      "handling": "Create a major distinction subject with stance-sensitive access; avoid a heading that equates Federalism with royalism.",
+      "status": "resolved_with_stance_constraint"
+    },
+    {
+      "uncertainty_id": "SUCC-CH13-U004",
+      "topic": "Mirabeau's classification",
+      "affected_document_pages": [
+        299,
+        301
+      ],
+      "issue": "His operational advice resembled émigré schemes, but the source explicitly says he was not a counter-revolutionary.",
+      "handling": "Retain only an optional, qualified subject under constitutional monarchy and royal counsel; prohibit unqualified counter-revolutionary access.",
+      "status": "resolved_with_stance_constraint"
+    },
+    {
+      "uncertainty_id": "SUCC-CH13-U005",
+      "topic": "Granularity of minor named participants",
+      "affected_document_pages": [
+        298,
+        300,
+        304,
+        313,
+        314
+      ],
+      "issue": "Several named people receive brief illustrative or logistical mentions without independent thematic development.",
+      "handling": "Do not use density as a quota; retain representative marginal cases as exclude_by_default and record the rest in exclusions rather than silently treating every name as a subject.",
+      "status": "editorial_boundary_recorded"
+    },
+    {
+      "uncertainty_id": "SUCC-C013-U006",
+      "topic": "Claimed armed strength",
+      "affected_document_pages": [
+        302,
+        311,
+        312
+      ],
+      "issue": "Royalist representations and the author’s estimates diverge.",
+      "handling": "Retain attribution, scale, and skeptical qualifications; no single reconstructed headcount.",
+      "status": "authorial_uncertainty_preserved"
+    }
+  ],
+  "provenance": {
+    "reviewer": "source_comparison",
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "historical_discovery_reused": true,
+    "actual_work": "Complete owned source-page reading, source-first omission pass, all51 native and52 legacy local semantic records/evidence/relationships, chapter-owned final relationships and tasks inspected; provisional priorities and cross-chapter dependencies retained for whole-book synthesis. This is synthesis, not independent final review.",
+    "candidate_unseen_in_this_context": true
+  },
+  "discovery_assessment": {
+    "density_used_as_subject_quota": false,
+    "whole_source_omission_pass_complete_for_owned_pages": true,
+    "independent_review_status": "pending_actual_draft"
+  }
+}

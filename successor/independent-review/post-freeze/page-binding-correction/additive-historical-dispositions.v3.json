@@ -1,0 +1,799 @@
+{
+  "schema_version": "post-freeze-additive-historical-dispositions-v3",
+  "status": "proposed_pending_independent_review",
+  "rows": [
+    {
+      "historical_key": "legacy:SUBJ-AC3BF591EBEB:EVID-736F5728858A",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 371,
+        "row_sha256": "8ef68ffd03fe9a27e7ad365c3522d31d762474bd725055ea2e4ce9b44b90b38c",
+        "review_key": "legacy:SUBJ-AC3BF591EBEB:EVID-736F5728858A",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-736F5728858A",
+          "source_evidence_id": "EVID-DCDC43982799",
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+          "provenance": {
+            "chunk_id": "CHUNK-002",
+            "local_subject_id": "CHUNK-002-S055",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-002.json",
+            "source_artifact_sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053"
+          }
+        },
+        "original_lineage_pointer": "/rows/315"
+      },
+      "finding_id": "PBF-001",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-C3088DA62479",
+      "current_evidence_id": "EVID-SUCC-7A2F098446C6",
+      "proposed_evidence": {
+        "document_page": 56,
+        "source_page_label": "56",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+        "evidence_id": "EVID-SUCC-7A2F098446C6",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      }
+    },
+    {
+      "historical_key": "native:SUBJ-0073:EVID-0073-002",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 367,
+        "row_sha256": "d0edd402b48048bb7c824a3845c9ba5bda013084648879959ea2554382c2c38f",
+        "review_key": "native:SUBJ-0073:EVID-0073-002",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "document_page": 57,
+          "source_page_label": "57",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Censorship of state affairs failed, ministers publicly justified policies, and contemporaries feared that the resulting constitutional analysis would produce revolution.",
+          "source_chunk_id": "CHUNK-002",
+          "source_local_subject_id": "CHUNK-002-S015",
+          "evidence_id": "EVID-0073-002"
+        },
+        "original_lineage_pointer": "/rows/3381"
+      },
+      "finding_id": "PBF-002",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-C3088DA62479",
+      "current_evidence_id": "EVID-SUCC-EE0D698188B1",
+      "proposed_evidence": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "An anxious contemporary warned that public exchanges about the constitution and the knowledge people were acquiring would eventually bring revolutions.",
+        "evidence_id": "EVID-SUCC-EE0D698188B1",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-59856BDB5388:EVID-82589FE9522B",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1381,
+        "row_sha256": "0f3a32133fb2f72810d61e2bd399646c25d2afa9cda18b6c87eccc928ecbcdbe",
+        "review_key": "legacy:SUBJ-59856BDB5388:EVID-82589FE9522B",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-82589FE9522B",
+          "source_evidence_id": "EVID-495F128B7B88",
+          "document_page": 131,
+          "source_page_label": "131",
+          "locator_class": "supporting",
+          "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S083",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          }
+        },
+        "original_lineage_pointer": "/rows/622"
+      },
+      "finding_id": "PBF-003",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-9E6D9535AA17",
+      "current_evidence_id": "EVID-SUCC-8C432DB3ADE6",
+      "proposed_evidence": {
+        "document_page": 132,
+        "source_page_label": "132",
+        "locator_class": "supporting",
+        "evidence_summary": "Ongoing compensation decrees contribute to a rapidly expanding estimate of state obligations.",
+        "evidence_id": "EVID-SUCC-8C432DB3ADE6",
+        "source_local_subject_id": "SUCC-C005-S019",
+        "source_chunk_id": "CHUNK-005"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-B1C602729F9A:EVID-F51DC33F86B8",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1395,
+        "row_sha256": "b3316d19275d535ad5b843f690e16e1a8ea8977884b2e2c1c2affd40516636aa",
+        "review_key": "legacy:SUBJ-B1C602729F9A:EVID-F51DC33F86B8",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-F51DC33F86B8",
+          "source_evidence_id": "EVID-38EFFC4E9AF7",
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S072",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          }
+        },
+        "original_lineage_pointer": "/rows/1123"
+      },
+      "finding_id": "PBF-004",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-9998092EF3FD",
+      "current_evidence_id": "EVID-SUCC-51E510B47B2A",
+      "proposed_evidence": {
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The underestimated revenue shortfall expands the deficit and undermines Necker's projections.",
+        "evidence_id": "EVID-SUCC-51E510B47B2A",
+        "source_local_subject_id": "SUCC-C005-S027",
+        "source_chunk_id": "CHUNK-005"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-6DF3AE004424:EVID-1D364125E592",
+      "prior_inspection": {
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1392,
+        "row_sha256": "13285e0ed8580702014ce695aabb06000146ed71891d338664e858dcca4248f6",
+        "review_key": "legacy:SUBJ-6DF3AE004424:EVID-1D364125E592",
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "original_claim": {
+          "evidence_id": "EVID-1D364125E592",
+          "source_evidence_id": "EVID-0E39B316A9CB",
+          "document_page": 132,
+          "source_page_label": "132",
+          "locator_class": "supporting",
+          "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S068",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          }
+        },
+        "original_lineage_pointer": "/rows/2938"
+      },
+      "finding_id": "PBF-005",
+      "disposition": "retain_meaning_with_corrected_current_page_binding_or_page_local_summary",
+      "current_subject_id": "SUBJ-SUCC-99A2AEA8AD04",
+      "current_evidence_id": "EVID-SUCC-470F41497A94",
+      "proposed_evidence": {
+        "evidence_id": "EVID-SUCC-470F41497A94",
+        "source_evidence_id": "EVID-0E39B316A9CB",
+        "document_page": 134,
+        "source_page_label": "134",
+        "locator_class": "supporting",
+        "evidence_summary": "The revenue shortfall forces drastic upward revision of the deficit and intensifies the financial emergency.",
+        "provenance": {
+          "chunk_id": "CHUNK-005",
+          "local_subject_id": "C005-S068",
+          "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+          "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+        },
+        "source_local_subject_id": "SUCC-C005-S026",
+        "source_chunk_id": "CHUNK-005",
+        "historical_evidence_identity": {
+          "lineage": "legacy",
+          "subject_id": "SUBJ-6DF3AE004424",
+          "evidence_id": "EVID-1D364125E592"
+        },
+        "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-FF945BB01182:EVID-DCE1629C9441",
+      "prior_inspection": {
+        "kind": "historical_evidence",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "jsonl_line_one_based": 1233,
+        "row_sha256": "b55df2e1a20424a976a9b9ae9807509c417a5644502114a72cdb737083b7941f",
+        "row": {
+          "review_key": "legacy:SUBJ-FF945BB01182:EVID-DCE1629C9441",
+          "lineage": "legacy",
+          "old_subject_id": "SUBJ-FF945BB01182",
+          "old_evidence_id": "EVID-DCE1629C9441",
+          "review_index": 1233,
+          "original_lineage_pointer": "/rows/2360",
+          "original_before_sha256": "c2039f1feccbb50fd707a7dc4c9ecd8630bc845e65e2ba39c645477ffbd853f2",
+          "original_claim": {
+            "evidence_id": "EVID-DCE1629C9441",
+            "source_evidence_id": "EVID-26429A611FEB",
+            "document_page": 113,
+            "source_page_label": "113",
+            "locator_class": "principal",
+            "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+            "provenance": {
+              "chunk_id": "CHUNK-005",
+              "local_subject_id": "C005-S013",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+              "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+            }
+          },
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+          "literal_reuse_proofs": [
+            {
+              "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+              "evidence_id": "EVID-SUCC-3E891F904D2B",
+              "draft_pointer": "/subjects/193/evidence/5",
+              "matched_four_fields_sha256": "1f1959c168b6765024891c9ec390629908ee4b50d6d02889a54b20fd9fd55c9c",
+              "prior_evidence_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+                "pointer": "/2385",
+                "requirement_key": "SUBJ-SUCC-A7CE991FCCA3:evidence:EVID-SUCC-3E891F904D2B",
+                "row_sha256": "e2bacf61cddbfbb4f91d8e6054940c2156f4f70b9ce646bfb948896e7f668f64"
+              },
+              "prior_parent_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "pointer": "/156",
+                "row_sha256": "794293bfa0dec55cd4889dea5cf94fe035ce1aa3a3e6b997c04d61c3e88e8261"
+              },
+              "actual_integrated_evidence_equals_inspected_value": true
+            }
+          ],
+          "exact_proposed_bindings": [
+            {
+              "subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+              "evidence_id": "EVID-SUCC-3E891F904D2B",
+              "binding_status": "current_claim_retained",
+              "evidence_fields": {
+                "document_page": 113,
+                "source_page_label": "113",
+                "locator_class": "principal",
+                "evidence_summary": "Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies.",
+                "evidence_id": "EVID-SUCC-3E891F904D2B",
+                "source_local_subject_id": "SUCC-C005-S004",
+                "source_chunk_id": "CHUNK-005"
+              },
+              "evidence_sha256": "6507554fba77bb642c7d51ca38c29bdeff71b441ba3e63b108fe87a545371d87",
+              "actual_parent_main_sha256": "fb6df73582311967528a17d02e317bd6d22e15076771217887b9576d07fd9e78",
+              "parent_review": "exact prior whole-record review reused"
+            }
+          ],
+          "exact_exclusion_bindings": [],
+          "retired_or_unaccepted_author_bindings": [],
+          "required_referral": null,
+          "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+        }
+      },
+      "finding_id": "PBF-007",
+      "disposition": "retain_causal_meaning_at114_with_explicit113_context; do_not_transfer_frequency_from_offers_to_rejection",
+      "current_subject_id": "SUBJ-SUCC-A7CE991FCCA3",
+      "current_evidence_id": "EVID-SUCC-3E891F904D2B",
+      "proposed_evidence": {
+        "document_page": 114,
+        "source_page_label": "114",
+        "locator_class": "principal",
+        "evidence_summary": "Continuing the offers-of-assistance sentence from page 113, the source explains distrust of nobles and clergy through their association with displaced municipalities and the earlier intransigence of their deputies at Versailles.",
+        "evidence_id": "EVID-SUCC-3E891F904D2B",
+        "source_local_subject_id": "SUCC-C005-S004",
+        "source_chunk_id": "CHUNK-005"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-7797A861F8DE",
+      "related_evidence_key": "legacy:SUBJ-7797A861F8DE:EVID-68284C129DCD",
+      "finding_id": "PBF-006",
+      "disposition": "Propagate previously corrected press evidence132 to retained C005-S042 page list; preserve historical before fields."
+    },
+    {
+      "historical_key": "legacy:SUBJ-59856BDB5388",
+      "finding_id": "PBF-003",
+      "disposition": "Both current C005-S083 preservation copies use132 for compensation-driven debt growth; retain117/134 and all substantive distinctions."
+    },
+    {
+      "historical_key": "legacy:REL-43B081C862F2",
+      "prior_inspection": {
+        "kind": "historical_relationship_reuse",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+          "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+          "bytes": 536644
+        },
+        "line_one_based": 80,
+        "row_sha256": "c1cf6060f805da188c50e3783980e3396b94e89795e8e3f680fb70258ea51199",
+        "row": {
+          "review_key": "legacy:REL-43B081C862F2",
+          "old_record": {
+            "relationship_id": "REL-43B081C862F2",
+            "source_subject_id": "SUBJ-D7563A1B7387",
+            "type": "related_to",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "related"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-001",
+                "local_subject_id": "CHUNK-001-V2-S054",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-FA746B9B86AD"
+          },
+          "source_pages": [
+            11,
+            12,
+            19
+          ],
+          "current_relationship_ids": [
+            "REL-SUCC-0EC046BA86DD"
+          ],
+          "disposition": "retain_prior_substantive_review_and_bind_proposed_records",
+          "independent_review_bindings": [
+            {
+              "relationship_id": "REL-SUCC-0EC046BA86DD",
+              "basis": "Pages 11–12/19 describe conflict over enclosure and communal usage; the rationale properly limits it to particular commercial cultivators and collective rights.",
+              "required_lineage_disposition": "",
+              "proposed_record": {
+                "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+                "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+                "relationship_type": "conflicts_with",
+                "evidence_document_pages": [
+                  11,
+                  12,
+                  19
+                ],
+                "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+                "relationship_id": "REL-SUCC-0EC046BA86DD",
+                "resolution_status": "resolved",
+                "source_local_subject_id": "SUCC-C001-S013",
+                "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+              }
+            }
+          ],
+          "source_parent_replacements": [
+            "SUBJ-SUCC-8091E0F5C8B0",
+            "SUBJ-SUCC-E64A7C4235E5"
+          ],
+          "cross_shard_status": "Any unowned target or distinct lead requirement remains unresolved; a reviewed current edge is not automatic semantic equivalence."
+        }
+      },
+      "finding_id": "PBF-008",
+      "current_relationship_id": "REL-SUCC-0EC046BA86DD",
+      "disposition": "retain_scoped_successor_relationship_and_original_historical_record; correct_current_supporting_page_array",
+      "before_pages": [
+        11,
+        12,
+        19
+      ],
+      "proposed_pages": [
+        11,
+        16,
+        17
+      ],
+      "basis": "Current relation meaning/operator remains supported by the newly inspected exact pages; author and independent historical array reuse did not cure unrelated-page citations."
+    },
+    {
+      "historical_key": "legacy:REL-55580B5DB452",
+      "prior_inspection": {
+        "kind": "historical_relationship_reuse",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+          "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+          "bytes": 536644
+        },
+        "line_one_based": 94,
+        "row_sha256": "f8a4639b9c54f5dcbea718e6ca1c6002e7cacfc388c291a1842cf32b9e9101f9",
+        "row": {
+          "review_key": "legacy:REL-55580B5DB452",
+          "old_record": {
+            "relationship_id": "REL-55580B5DB452",
+            "source_subject_id": "SUBJ-FA746B9B86AD",
+            "type": "contrasts_with",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "contrast"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-001",
+                "local_subject_id": "CHUNK-001-V2-S033",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-D7563A1B7387"
+          },
+          "source_pages": [
+            11,
+            12,
+            19
+          ],
+          "current_relationship_ids": [
+            "REL-SUCC-0EC046BA86DD"
+          ],
+          "disposition": "retain_prior_substantive_review_and_bind_proposed_records",
+          "independent_review_bindings": [
+            {
+              "relationship_id": "REL-SUCC-0EC046BA86DD",
+              "basis": "Pages 11–12/19 describe conflict over enclosure and communal usage; the rationale properly limits it to particular commercial cultivators and collective rights.",
+              "required_lineage_disposition": "",
+              "proposed_record": {
+                "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+                "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+                "relationship_type": "conflicts_with",
+                "evidence_document_pages": [
+                  11,
+                  12,
+                  19
+                ],
+                "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+                "relationship_id": "REL-SUCC-0EC046BA86DD",
+                "resolution_status": "resolved",
+                "source_local_subject_id": "SUCC-C001-S013",
+                "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+              }
+            }
+          ],
+          "source_parent_replacements": [
+            "SUBJ-SUCC-8091E0F5C8B0",
+            "SUBJ-SUCC-E64A7C4235E5"
+          ],
+          "cross_shard_status": "Any unowned target or distinct lead requirement remains unresolved; a reviewed current edge is not automatic semantic equivalence."
+        }
+      },
+      "finding_id": "PBF-008",
+      "current_relationship_id": "REL-SUCC-0EC046BA86DD",
+      "disposition": "retain_scoped_successor_relationship_and_original_historical_record; correct_current_supporting_page_array",
+      "before_pages": [
+        11,
+        12,
+        19
+      ],
+      "proposed_pages": [
+        11,
+        16,
+        17
+      ],
+      "basis": "Current relation meaning/operator remains supported by the newly inspected exact pages; author and independent historical array reuse did not cure unrelated-page citations."
+    },
+    {
+      "historical_key": "legacy:REL-FB865B3C3289",
+      "prior_inspection": {
+        "kind": "historical_relationship_reuse",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+          "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+          "bytes": 536644
+        },
+        "line_one_based": 266,
+        "row_sha256": "57b3a31f5daa24b13374be885f1ed55f1ef4692d75b828243d113ba2ef189abb",
+        "row": {
+          "review_key": "legacy:REL-FB865B3C3289",
+          "old_record": {
+            "relationship_id": "REL-FB865B3C3289",
+            "source_subject_id": "SUBJ-32D6956D024F",
+            "type": "contrasts_with",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "contrast"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-001",
+                "local_subject_id": "CHUNK-001-V2-S090",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-40A2F689E89D"
+          },
+          "source_pages": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "current_relationship_ids": [
+            "REL-SUCC-6346B62FAB7C"
+          ],
+          "disposition": "retain_prior_substantive_review_and_bind_proposed_records",
+          "independent_review_bindings": [
+            {
+              "relationship_id": "REL-SUCC-6346B62FAB7C",
+              "basis": "Pages 30–33 contrast naval professional recruitment with army purchase/social distance; a bounded institutional comparison is supported.",
+              "required_lineage_disposition": "",
+              "proposed_record": {
+                "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+                "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+                "relationship_type": "contrasts_with",
+                "evidence_document_pages": [
+                  30,
+                  31,
+                  32,
+                  33
+                ],
+                "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+                "relationship_id": "REL-SUCC-6346B62FAB7C",
+                "resolution_status": "resolved",
+                "source_local_subject_id": "SUCC-C001-S040",
+                "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+              }
+            }
+          ],
+          "source_parent_replacements": [
+            "SUBJ-SUCC-B6818330CE83",
+            "SUBJ-SUCC-4A0D9CB97E23"
+          ],
+          "cross_shard_status": "Any unowned target or distinct lead requirement remains unresolved; a reviewed current edge is not automatic semantic equivalence."
+        }
+      },
+      "finding_id": "PBF-009",
+      "current_relationship_id": "REL-SUCC-6346B62FAB7C",
+      "disposition": "retain_scoped_successor_relationship_and_original_historical_record; correct_current_supporting_page_array",
+      "before_pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "proposed_pages": [
+        30,
+        31,
+        32
+      ],
+      "basis": "Current relation meaning/operator remains supported by the newly inspected exact pages; author and independent historical array reuse did not cure unrelated-page citations."
+    },
+    {
+      "historical_key": "legacy:SUBJ-DEFC7BAEFE7B:EVID-58B81A332BD2",
+      "prior_inspection": {
+        "kind": "historical_evidence_reuse",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+          "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+          "bytes": 4971257
+        },
+        "line_one_based": 384,
+        "row_sha256": "48f9dd4ada696e73beaf46736b46b34ad2c62f2ee33cff26ee207d0f816cb7ac",
+        "row": {
+          "review_key": "legacy:SUBJ-DEFC7BAEFE7B:EVID-58B81A332BD2",
+          "lineage": "legacy",
+          "old_subject_id": "SUBJ-DEFC7BAEFE7B",
+          "old_evidence_id": "EVID-58B81A332BD2",
+          "review_index": 384,
+          "original_lineage_pointer": "/rows/2208",
+          "original_before_sha256": "eb93ba4ce67bf8dc4043b3bdaccae98ff7c486516b2d18239a80f5f1edb3fff9",
+          "original_claim": {
+            "evidence_id": "EVID-58B81A332BD2",
+            "source_evidence_id": "EVID-B0858BA46298",
+            "document_page": 58,
+            "source_page_label": "58",
+            "locator_class": "supporting",
+            "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+            "provenance": {
+              "chunk_id": "CHUNK-002",
+              "local_subject_id": "CHUNK-002-S060",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-002.json",
+              "source_artifact_sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053"
+            }
+          },
+          "disposition": "retain_by_exact_prior_claim_and_parent_review",
+          "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+          "literal_reuse_proofs": [
+            {
+              "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+              "evidence_id": "EVID-SUCC-0B6249083880",
+              "draft_pointer": "/subjects/118/evidence/4",
+              "matched_four_fields_sha256": "4e320294bb669cfc515e0f840cc6f73bed588128c131ae740318cec2dd438036",
+              "prior_evidence_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+                "pointer": "/885",
+                "requirement_key": "SUBJ-SUCC-6F86A8D885F6:evidence:EVID-SUCC-0B6249083880",
+                "row_sha256": "423f47ddb86d43e1e6a1cffee11837be116e40c749c0be14a27e2137df149e63"
+              },
+              "prior_parent_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "pointer": "/73",
+                "row_sha256": "ae1e7d39b7f0342b53d389c331572feb3a894d5553b51293bd612596785c12b7"
+              },
+              "actual_integrated_evidence_equals_inspected_value": true
+            }
+          ],
+          "exact_proposed_bindings": [
+            {
+              "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+              "evidence_id": "EVID-SUCC-0B6249083880",
+              "binding_status": "current_claim_retained",
+              "evidence_fields": {
+                "document_page": 58,
+                "source_page_label": "58",
+                "locator_class": "supporting",
+                "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+                "evidence_id": "EVID-SUCC-0B6249083880",
+                "source_local_subject_id": "SUCC-C002-S017",
+                "source_chunk_id": "CHUNK-002"
+              },
+              "evidence_sha256": "b5fd71f297f6ae138f2a17c939911bf6793408477e197795db601c46dfc773c6",
+              "actual_parent_main_sha256": "f226ca0ab43802551cda269e82d9fde32186c37b519ce7cfa68af851ed08ed52",
+              "parent_review": "exact prior whole-record review reused"
+            }
+          ],
+          "exact_exclusion_bindings": [],
+          "retired_or_unaccepted_author_bindings": [],
+          "required_referral": null,
+          "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+        }
+      },
+      "finding_id": "PBF-010",
+      "current_subject_id": "SUBJ-SUCC-6F86A8D885F6",
+      "current_evidence_id": "EVID-SUCC-0B6249083880",
+      "disposition": "retain_the_complete_enumerative_claim_at57; preserve_original_before_record_and_id",
+      "proposed_evidence": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "supporting",
+        "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+        "evidence_id": "EVID-SUCC-0B6249083880",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      }
+    },
+    {
+      "historical_key": "legacy:SUBJ-DEFC7BAEFE7B",
+      "prior_inspection": {
+        "kind": "historical_subject_reuse",
+        "file": {
+          "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+          "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+          "bytes": 5138775
+        },
+        "line_one_based": 254,
+        "row_sha256": "c503affce5285b60266397a4255e0654bdc83fcbf71a20221d1e2d3004e87ef1",
+        "row": {
+          "review_key": "legacy:SUBJ-DEFC7BAEFE7B",
+          "review_index": 254,
+          "original_lineage_pointer": "/rows/941",
+          "original_before_sha256": "d18b0b968570401e93acbef9c10063303e552cf9c54be034c03394eb9dfa36fe",
+          "original_before_fields": {
+            "label": "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+            "priority": "major",
+            "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+            "stance": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+            "acceptable_access": [
+              "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+              "Physiocracy—legal despotism",
+              "economic freedom—state intervention",
+              "guilds and privileges—reform",
+              "poor peasant poor kingdom"
+            ]
+          },
+          "source_pages": [
+            57,
+            58
+          ],
+          "disposition": "retain_by_exact_prior_substantive_inspection",
+          "independent_basis": "Reuse the exact prior inspected meaning/stance and its recorded source-grounded repair disposition, shown below. The current integrated record exactly equals the sealed reviewed value. Historical priority and access are reconciled to the coherent current parent rather than preserved as extra weighted units.",
+          "prior_source_grounded_parent_judgments": [
+            {
+              "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+              "basis": "Pages 57–58 support a specifically agrarian natural-order doctrine and the paradox of strong interventionist government clearing barriers for economic freedom and taxable prosperity. The parent says agriculture was the source of wealth, but the source and retained distinction make the exclusionary claim that it alone was genuinely productive.",
+              "proposed_fix": "State that Physiocrats regarded agriculture as the sole genuinely productive source, preserving the contrast with generic market liberalism. Keep legal despotism, coercive reform means and ministerial fiscal attraction distinct. The evidence and major priority otherwise fit."
+            }
+          ],
+          "literal_meaning_stance_reuse_proofs": [
+            {
+              "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+              "draft_meaning_pointer": "/subjects/118/retained_source_distinctions/1/meaning",
+              "draft_stance_pointer": "/subjects/118/retained_source_distinctions/1/qualification",
+              "matched_fields_sha256": "4f5969b86232015e54f4c9bc42de29fea6fcd43f5560a83bea0f1d4c9fd0c94b",
+              "prior_whole_record_inspection": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+                "pointer": "/73",
+                "row_sha256": "ae1e7d39b7f0342b53d389c331572feb3a894d5553b51293bd612596785c12b7"
+              },
+              "prior_specific_disposition": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+                "pointer": "/893",
+                "requirement_key": "SUBJ-SUCC-6F86A8D885F6:retained_source_distinctions:CHUNK-002-S060",
+                "row_sha256": "346c95fd124d3b67d9ba84f8fcf41a27769b23d793d556d264c0099f132d4037"
+              },
+              "prior_specific_verdict": "retained_unchanged",
+              "prior_specific_binding": null,
+              "integrated_subject_equals_prior_completed_whole_proposal_or_unchanged_draft": true
+            }
+          ],
+          "exact_destination_scopes": [
+            {
+              "subject_id": "SUBJ-SUCC-6F86A8D885F6",
+              "label": "Physiocracy and the natural economic order",
+              "priority": "major",
+              "current_record_sha256": "d8f5d6317da2ec50da6b8bb3a4680264bbbd902f9d7b65f3d01ea635272a66ca",
+              "prior_main_disposition": {
+                "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+                "pointer": "/884",
+                "requirement_key": "SUBJ-SUCC-6F86A8D885F6:parent",
+                "row_sha256": "11eaee08f3df8ebe08e3f92b1956b9becec3d130a93fa123fa1eac6ad497bd90"
+              },
+              "current_main_meaning": "Physiocrats regarded agriculture as the sole genuinely productive source of wealth and sought a natural economic order through freer circulation and removal of obstacles. Quesnay, Mirabeau, Dupont and Le Mercier connected this programme with a powerful reforming sovereign and an expanded taxable surplus. Quesnay and the Physiocrats argued that a benevolent natural economic order had been distorted by artificial intervention and that agriculture alone generated genuinely productive wealth. Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+              "current_main_stance": "Legal despotism was an apparent paradox: coercive authority could be used to create economic freedom. Distinguish this agricultural doctrine, its means and its fiscal attraction from generic market liberalism. Preserve the doctrine's specific agrarian theory rather than treating it as generic economic liberalism. Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+              "scope": "Use only this coherent parent’s actual temporal/causal scope; no wholesale replication of a broad historical unit under every destination."
+            }
+          ],
+          "retired_author_subject_bindings": [],
+          "priority_disposition": {
+            "old": "major",
+            "current": {
+              "SUBJ-SUCC-6F86A8D885F6": "major"
+            },
+            "judgment": "Retain the source-supported coherent-parent priority justified in the cited prior judgment. Local old optional/major units may form subordinate demands within a larger weighted parent; neither merger nor original count creates a new denominator. Explicit exclusion/retirement dispositions override weighting."
+          },
+          "access_disposition": {
+            "old_routes_literal_in_final_parent": [
+              "Physiocratic freedom, legal despotism, and state-led removal of economic privilege",
+              "Physiocracy—legal despotism",
+              "economic freedom—state intervention",
+              "guilds and privileges—reform",
+              "poor peasant poor kingdom"
+            ],
+            "remaining_wording_reviewed_for_semantic_route": [],
+            "judgment": "Compound old labels and typographic variants are not mandatory literal headings. Preserve their specific named, temporal and conceptual routes through the actual repaired main meanings/access above. Narrowed claims follow the exact prior repair; graph-derived routes are retired. Named cross-chapter/remaining obligations are explicit referrals."
+          },
+          "required_referral": null,
+          "closure_scope": "Exact historical subject fields reviewed or reused with precise prior inspection proof. Evidence-key closure is separately enumerated. Final integrated values and cross-owner fulfillment are not approved here."
+        }
+      },
+      "finding_id": "PBF-010",
+      "disposition": "retain_doctrine_meaning_stance_priority_access; bind_sole_current_CHUNK-002-S060_distinction_to57; broader_parent_grain_application_remains58",
+      "proposed_retained_distinction": {
+        "source_local_subject_id": "CHUNK-002-S060",
+        "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+        "qualification": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+        "source_pages": [
+          57
+        ]
+      }
+    }
+  ],
+  "original_ledgers_unchanged": true,
+  "prior_sealed_dispositions": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v2.json",
+    "sha256": "8ebafe989e0e0244863f7e109deff89578200fa8a6f6676952a43fb1ffe1b844",
+    "bytes": 28249
+  }
+}

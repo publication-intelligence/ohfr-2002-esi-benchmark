@@ -1,0 +1,61 @@
+{
+  "schema_version": "independent-review-assignment-amendment-v1",
+  "authorization": "Parent message explicitly authorizes handoff of genuinely untouched whole tasks and their facets to existing 001–006 reviewer; six fallback decisions remain lead-owned.",
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.assignment.v2.json",
+      "sha256": "df2cdd91693af398723f01f74a1b5663c06d8f38af941243f289761469d52a30"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead.assignment.v5.json",
+      "sha256": "b667b28208ab5bcb14c8ed168d7e3199cb077eb9c86f854af7e1651bdadf1def"
+    }
+  ],
+  "unchanged_other_assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.assignment.v4.json",
+    "sha256": "4143c099d80405815d187f66ffb361f4025b56bbcc2cabd6820377402f94c2cc"
+  },
+  "coverage_checks": {
+    "subject_ids": {
+      "count": 531,
+      "disjoint": true,
+      "unchanged_union": true
+    },
+    "evidence_ids": {
+      "count": 3341,
+      "disjoint": true,
+      "unchanged_union": true
+    },
+    "relationship_ids": {
+      "count": 493,
+      "disjoint": true,
+      "unchanged_union": true
+    },
+    "reader_task_ids": {
+      "count": 599,
+      "disjoint": true,
+      "unchanged_union": true
+    },
+    "source_first_finding_ids": {
+      "count": 446,
+      "disjoint": true,
+      "unchanged_union": true
+    },
+    "exclusion_ids": {
+      "count": 248,
+      "disjoint": true,
+      "unchanged_union": true
+    },
+    "uncertainty_ids": {
+      "count": 151,
+      "disjoint": true,
+      "unchanged_union": true
+    }
+  },
+  "additional_task_count": 87,
+  "additional_facet_binding_count": 185,
+  "additional_historical_task_key_count": 226,
+  "additional_dependency_subject_count": 153,
+  "editorial_completion_or_approval": false,
+  "note": "Administrative ownership only. No carried-forward entity is claimed as newly reviewed."
+}

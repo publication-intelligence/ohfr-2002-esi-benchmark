@@ -1,0 +1,870 @@
+{
+  "schema_version": "independent-auxiliary-review-v1",
+  "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+  "scope": "35 whole auxiliary records inspected as claims about scope/granularity, not as approvals of every entity on their listed pages. Exact source-first and current-record ledgers remain independently required.",
+  "source_pages_reinspected": [
+    7,
+    62,
+    72,
+    78,
+    80,
+    81
+  ],
+  "source_basis": "Frozen policy, approved chunk boundaries, source-scope-disposition.v3 with rendered maps, prior actual record/source-first passes and the explicitly re-read pages. Ownership is not semantic eligibility.",
+  "rows": [
+    {
+      "exclusion_id": "EXCL-SUCC-C76437E67E4D",
+      "draft_index": 51,
+      "review_disposition": "Retire: 44–45 are eligible chapter-two source pages. A chunk-one context boundary is division of labour, not an exclusion from the whole-book benchmark.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "fc8174ce7ae9af8b462af15b5dfc3c3a31ec876b163a2e403f8e6c5b906d7f04"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-339CB2EF2996",
+      "draft_index": 52,
+      "review_disposition": "Retain only bare citation markers, source-only apparatus and navigational cross-references as excluded regions. Page 7’s forward pointer does not exclude its substantive discussion of regional religion, Calas, commerce or institutions; attributed evidence remains eligible.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "a80b01550508ff31b701ca247bf92050dab2eeb65d28b9d3c923fa78aba6c6b1"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-7D1BE8EB26AE",
+      "draft_index": 53,
+      "review_disposition": "This is a granularity rule, not a blacklist of named places and people on entire pages. Retain under that narrow meaning, with no presumption that being an example makes useful subject access unnecessary.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "ccae8c6973e4edd0a514093059ae06a79b578d5b7e0ed9fdad4903b541f39750"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-BC27A4020508",
+      "draft_index": 54,
+      "review_disposition": "Statistics are substantive supporting evidence for scale and comparison, not normally independent conceptual subjects. Retain numerical evidence wherever it carries the argument; none of the listed pages is excluded.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "e472ef4ac2729480be15233e3c1e9d8c30b75ca73e41c33e2106289348d757d8"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-DF9911AC16A3",
+      "draft_index": 55,
+      "review_disposition": "An anecdote need not become a separate unit, but it may contain a unique causal or interpretive distinction. Preserve that content under its relevant subject rather than requiring already developed terminology as a precondition.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "79a8d23dcdf609dc28bef0843dc270274f8f81432e83af29ee49567643b9d283"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-1E8D2086F8C1",
+      "draft_index": 56,
+      "review_disposition": "Selective access is justified for regional comparison on 5–9. Preserve differences in environment, settlement, commerce, language, religion and jurisdiction; the rule excludes mechanical microheading multiplication, not meaningful place retrieval.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "b642c5d59c2fea800f03e9e4f29844fcf968ba70bace386b79d271814ec9ebfe"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-49F58EB46B7A",
+      "draft_index": 57,
+      "review_disposition": "Replace density-only semantic permission with the frozen-policy exclusion of the page 3 map interior/key/credit. Literal caption remains eligible. This disposition is grounded in the separately rendered exact page and v3 scope decision.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "reason",
+        "scope_constraint",
+        "category",
+        "document_pages"
+      ],
+      "draft_record_sha256": "247ad3dbd95b3e8cf748200b6171c92c4073abd26aecb4b212963759002b9edb"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-45BFDA2961F7",
+      "draft_index": 58,
+      "review_disposition": "Retire chunk-two context exclusion: 42–43 and 66–67 are eligible book pages assigned to adjacent owners; ownership does not remove source evidence from whole-book requirements.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "244f9cd782803646764cd5ae69670e976e97b2f62b56d3034b338133fd1065cd"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-4F498C90F1FD",
+      "draft_index": 59,
+      "review_disposition": "Retain local nonmultiplication only. Publication, salon and institutional names can supply useful routes through developed reading/opinion subjects; attribution or brief mention alone neither compels nor forbids a separate requirement.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "65cbb05064fa6d2492603dde6b37357b855fb25f838fcd4691c1331353151124"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-A5720CCB4841",
+      "draft_index": 60,
+      "review_disposition": "Retain numerical detail within the arguments about readership, affordability, institutional reach and finance. Remove a duration-based implication that support becomes eligible only when a policy is discussed at length.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "description",
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "4c4bcf429b466fe552a4931a30d821d572866583d14bc1d009c56bac1930f1ab"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-013FF9AD933D",
+      "draft_index": 61,
+      "review_disposition": "The 62 pointer to 66–68 is navigation, not evidence proving unspecified later claims. Whole-book substantive Necker finance on those eligible pages remains in scope regardless of chapter ownership.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "description",
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "4d49a780d14ee414031586ae074bf0222be0319857ffb03d89967cf87c57f08b"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-DC8E2975396F",
+      "draft_index": 62,
+      "review_disposition": "Retire duplicate erroneous map-policy boilerplate: chunk two has no identified map region in this record. The corrected global scope disposition and exact map-region records govern; no density permission survives.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "c28c52686206ad22df528866a07b9335d04beab107dcc19ffaa02677a698b947"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-A5389EEC138F",
+      "draft_index": 63,
+      "review_disposition": "Retire context-only record: 64–65 and 86–87 remain eligible through their owning source chunks.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "4884c2cff365c8c270ccb83852a3bcb72237f0332a98ef9931c8eaa6eaf72115"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-93434346B688",
+      "draft_index": 64,
+      "review_disposition": "Retain running heads, folios and production artifacts as excluded furniture. Distinguish repeated running chapter labels from substantive chapter/part headings, which remain eligible under the policy.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "f5b062108ca13f7b367d889262213fcaca292ad34076eadacaa7218b394f3e1d"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F20ADF0FCC63",
+      "draft_index": 65,
+      "review_disposition": "Bare markers are apparatus; names used only as attribution need not create biographies. The quotations themselves remain substantive evidence, and a witness’s developed treatment elsewhere remains eligible.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "4c9c8fab66afd4bd1ef829f7420fd03dc75537f9afbdc67a0b4376d4605e2054"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-E197B32A9918",
+      "draft_index": 66,
+      "review_disposition": "72/78/80/81 show concrete roles: first Estates-General taxing-right claim, inability to intervene abroad, exile of protesting magistrates and arrest of resistance leaders. Personal units are optional, but these actions and their consequences must survive in the relevant crisis subjects.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "507b93c26d5705308a93009f649b91cc99faa41ed462a90584e7b2796865346e"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-8E8B6A365D0C",
+      "draft_index": 67,
+      "review_disposition": "72 reports Mirabeau’s allegation of shady financial dealing during the pamphlet campaign. Exclude an asserted misconduct fact, but retain the allegation, its attribution and its contribution to public pressure on Calonne.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "reason",
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "4615b9cc741bda727b11ec69316f6583779f3069949a587dbae46fdfa00ab815"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-876DACE66D7E",
+      "draft_index": 68,
+      "review_disposition": "Individual dates/counts are not automatically separate subjects. Preserve essential sequence and vote/procedure distinctions, including uncertainty when dates conflict; usefulness does not require a narrowly scholarly audience.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "27e49cc4fa696fd821534b71c3840ef977baa4de399d03111c01965b448a86fc"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-65D91D10C1E5",
+      "draft_index": 69,
+      "review_disposition": "Retire duplicate erroneous map-policy boilerplate; no identified map on these owned pages and no density-based semantic permission.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "5775734b6ea0e9bb6fbb31f740e71d1bc0d160f9a34f6cb935e4348fc9f770b3"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-C9E211F05510",
+      "draft_index": 70,
+      "review_disposition": "Retain only the rule against automatic promotion from a name mention. Lists can still contain independently useful people or institutional routes; no listed page or already reviewed subject is excluded.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "a641c1d137b9d7b0ca4b08cbde94913f8f72b7182697d3a000ed2f9976ec92d8"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F68B6E4729CB",
+      "draft_index": 71,
+      "review_disposition": "Regional examples support economic, electoral and political variation. Preserve such contrasts and cross-chapter locality routes; sustained length is not a prerequisite for useful access.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "description",
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "66e8b5faabd9adc7f81627fc557c37eebe7df6dce2a5f8cedee0a65137108cc2"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F45FAEFC480F",
+      "draft_index": 72,
+      "review_disposition": "Retain supporting employment, petitions, troops, voting and casualties as evidence for scale and action. Do not create standalone number headings or exclude quantitative qualifications from the parent arguments.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "90e5f978d8fe9d410e4c51e7d320221fb3af4098b3d44232fa7fca7842ceed33"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-0DD7350BF51F",
+      "draft_index": 73,
+      "review_disposition": "A speaker’s lack of sustained biography does not remove the political force of an epigram or ceremony. Retain quotations and vignettes as eligible event/idea evidence, with personal weighting optional.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "description",
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "12bdcadf75c0865abb3a65aab15d0532a2894daa14731cd8df323e5f2a78b718"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F838CF7F3A1A",
+      "draft_index": 74,
+      "review_disposition": "Retire duplicate erroneous map-policy boilerplate without a map-page identity. Exact rendered-map scope governs elsewhere.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "6bacabc226b37617f8be0afb0a38d280a6db484775900a4e003e6634a481c8a1"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-B30038EE4A0A",
+      "draft_index": 75,
+      "review_disposition": "Retire chunk-five context exclusion: 110–111 and 136–137 remain eligible and cannot be described as without subject evidence in the integrated benchmark.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "fae0fb57a14edc9fd71f6c8e7db4e089162891d0c9dee1a79d540d6e0a7ba7e7"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-76FD26E0B959",
+      "draft_index": 76,
+      "review_disposition": "Retain repeated running heads and folios only. Substantive chapter text and captions, including mixed map pages, follow the separate source-region boundary.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "e7c3b976d0cda98d238f9ef6f9b290f338ade611aab8f0f8b0b9b69ffa060ee0"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F3BF829836F4",
+      "draft_index": 77,
+      "review_disposition": "Retain conditional nonmultiplication when no distinct access task is added; do not classify officeholders, locality examples or vote counts as inherently nonindexable. Recorded municipal, fiscal and constitutional distinctions remain.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "170bca3a66b675409ff292bf235b348cfc0a1bcfee03ec7ef005631859fad81d"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-4D842CAF08D5",
+      "draft_index": 78,
+      "review_disposition": "Retain superscript markers/citation-only matter; absent endnotes cannot be reconstructed. Quoted or other substantive body text on these pages remains eligible.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "d0f95c4728672bfbe6e3127f533a23748460d8f74bd29f3aa3cfd1681a5287bb"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-557A4DD62DC1",
+      "draft_index": 79,
+      "review_disposition": "113/115/126/130 provide municipal disturbance, rumour, administrative and fiscal examples. Separate microheadings are optional only while those differing mechanisms remain accessible under their parents.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "1c61d322de2802c7aba67aa39be4623c7a4fdc2e9fb4f563021e0e1580f8b7ec"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-2852F2FEE377",
+      "draft_index": 80,
+      "review_disposition": "Replace the density-only rule with semantic exclusion of map interiors and keys on 127 and 129. Their literal captions remain eligible; this does not erase prose on mixed pages or authorize geographic inferences from the graphics.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "reason",
+        "scope_constraint",
+        "category",
+        "document_pages"
+      ],
+      "draft_record_sha256": "c258430ee296583a6658c920de526b936f73e40c60fb25c8342bb2bc80c804f8"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-4C582BF2CB0A",
+      "draft_index": 81,
+      "review_disposition": "Retire ownership-only exclusion: 134–135 and 159–160 are eligible pages in the integrated scope.",
+      "decision": "remove_nonexclusion_or_duplicate_policy",
+      "changed_fields": [],
+      "draft_record_sha256": "0a8127d2bbcc88e39b463aa21d8d72e576b65512cca41be9010f7223746e7204"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-3C65FBC51E10",
+      "draft_index": 82,
+      "review_disposition": "Retain only nonautomatic personal weighting for brief exemplars/attributions. Political actors and witnesses with useful developed whole-book treatment retain their access.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "1e2ed46e7e8aff847669f095a891659025c440c8ba194354b07426222a510565"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-3F331E0C6326",
+      "draft_index": 83,
+      "review_disposition": "Retain decree dates/votes as evidence within policy and event arguments. Do not remove temporal sequence, constitutional meaning or the separately tracked Gerle/Lafayette date conflicts.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "8d764cdaab414edb589d4cae47dee91cbb1382c26a7f453f5a0a07afa3883629"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-0A69B19A40CF",
+      "draft_index": 84,
+      "review_disposition": "144–145 give meaningful geography of the clerical oath. Preserve regional contrasts and explanatory variation within the oath/schism route; local microheadings need not each carry independent weight.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "cee98b211cdf095b40be79852b6734d81e255dabaf26ae617c886c1afa9adb5f"
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-593117C490A6",
+      "draft_index": 85,
+      "review_disposition": "Retain rule against automatic biography from attribution; speakers’ words, letters and observations remain eligible substantive support. Note markers and unavailable endnote contents remain separate exclusions.",
+      "decision": "retain_with_scope_or_field_corrections",
+      "changed_fields": [
+        "scope_constraint"
+      ],
+      "draft_record_sha256": "0dc76afe5fbade74ecb5cd44244717a7a3c6b0662b5a37e09ca43fa6d351c3a5"
+    }
+  ],
+  "proposed_whole_exclusions": [
+    {
+      "exclusion_id": "EXCL-SUCC-339CB2EF2996",
+      "category": "citation_and_navigation_apparatus",
+      "document_pages": [
+        5,
+        7,
+        9,
+        14,
+        15,
+        16,
+        19,
+        20,
+        23,
+        24,
+        30,
+        36,
+        41,
+        42,
+        43
+      ],
+      "reason": "Bare note markers, attribution standing alone, source-line matter, and the forward reference on page 7 do not warrant independent subjects.",
+      "source_chunk_id": "CHUNK-001",
+      "scope_constraint": "Excludes only the specified running furniture, bare citation/source apparatus or navigational cross-reference, not substantive body text, attributed evidence or chapter/part headings on the listed eligible pages. Unavailable endnotes cannot be inferred."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-7D1BE8EB26AE",
+      "category": "named_entity_clutter",
+      "document_pages": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        40,
+        41,
+        42,
+        43
+      ],
+      "reason": "Towns, provinces, officeholders, observers, firms, and institutions named only as examples are subsumed under developed subjects unless separately promoted above.",
+      "source_chunk_id": "CHUNK-001",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-BC27A4020508",
+      "category": "isolated_statistics",
+      "document_pages": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        25,
+        26,
+        28,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        39,
+        40,
+        41,
+        42
+      ],
+      "reason": "One-off population, income, office, force-size, and production figures support broader analytical headings but are not standalone subjects.",
+      "source_chunk_id": "CHUNK-001",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-DF9911AC16A3",
+      "category": "illustrative_anecdotes",
+      "document_pages": [
+        1,
+        14,
+        23,
+        24,
+        25,
+        26,
+        29,
+        30,
+        38,
+        41,
+        42,
+        43
+      ],
+      "reason": "Colorful quotations and personal episodes are retained as evidence only where they illuminate a developed concept; most do not merit separate access.",
+      "source_chunk_id": "CHUNK-001",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-1E8D2086F8C1",
+      "category": "exhaustive_regional_microheadings",
+      "document_pages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "The regional survey warrants selective regional access, not a standalone heading for every locality, crop, port, accent, or jurisdiction mentioned.",
+      "source_chunk_id": "CHUNK-001",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "reason": "Map interiors, numbered keys and source credits on these supplied pages are excluded as semantic evidence under the frozen source policy and independent source-scope-disposition.v3. The exact literal substantive captions remain eligible; prose-density counting is not semantic authority.",
+      "exclusion_id": "EXCL-SUCC-49F58EB46B7A",
+      "source_chunk_id": "CHUNK-001",
+      "scope_constraint": "Only the identified graphic interior/key/credit regions are excluded. Literal substantive captions and any eligible prose on mixed pages remain in source scope.",
+      "category": "excluded_source_region",
+      "document_pages": [
+        3
+      ]
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-4F498C90F1FD",
+      "category": "illustrative_named_entities",
+      "description": "Most one-line place names, minor publication titles, salon references, officials, and local examples were retained as evidence for broader subjects rather than promoted to standalone subjects.",
+      "document_pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        62,
+        63,
+        64
+      ],
+      "source_chunk_id": "CHUNK-002",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-A5720CCB4841",
+      "category": "quantitative_supporting_detail",
+      "description": "Circulation totals, prices, membership counts and fiscal figures remain eligible support for arguments about scale, access and institutions. Individual numerical microheadings are not independently required.",
+      "document_pages": [
+        45,
+        46,
+        47,
+        48,
+        62,
+        64
+      ],
+      "source_chunk_id": "CHUNK-002",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-013FF9AD933D",
+      "category": "internal_cross_reference",
+      "description": "The forward pointer on page 62 is navigation, not independent proof of financial claims; substantive Necker financial treatment on eligible pages 66–68 remains within whole-book scope.",
+      "document_pages": [
+        62
+      ],
+      "source_chunk_id": "CHUNK-002",
+      "scope_constraint": "Only the navigational pointer is excluded; no source page or developed finance subject is excluded by chapter ownership."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-93434346B688",
+      "category": "running_furniture",
+      "label": "Running chapter heads, folios, and page-break artifacts",
+      "reason": "Navigation and production matter is nonindexable under the frozen policy.",
+      "document_pages": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "source_chunk_id": "CHUNK-003",
+      "scope_constraint": "Excludes only the specified running furniture, bare citation/source apparatus or navigational cross-reference, not substantive body text, attributed evidence or chapter/part headings on the listed eligible pages. Unavailable endnotes cannot be inferred."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F20ADF0FCC63",
+      "category": "citation_or_attribution_only",
+      "label": "Footnote markers and incidental quoted witnesses",
+      "reason": "Citations and attributions without independently useful treatment of the cited person do not warrant name access by default.",
+      "examples": [
+        "unnamed British charge d'affaires",
+        "unnamed English observer",
+        "Duke of Dorset",
+        "mayor of Montauban"
+      ],
+      "source_chunk_id": "CHUNK-003",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-E197B32A9918",
+      "category": "minor_named_entity",
+      "label": "Briefly named officials and participants without developed treatment",
+      "reason": "Names serving only event narration are omitted to prevent named-entity clutter unless they carry an independently useful reader task.",
+      "examples": [
+        "Leblanc de Castillon",
+        "Fréteau",
+        "Sabatier",
+        "Goislard de Montsabert",
+        "Montmorin"
+      ],
+      "source_chunk_id": "CHUNK-003",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-8E8B6A365D0C",
+      "category": "unverified_allegation",
+      "label": "Alleged stock-exchange misconduct by Calonne",
+      "reason": "The source reports Mirabeau’s hostile allegation but does not establish Calonne’s misconduct as fact. Preserve the attributed allegation and its political effect under pamphleteering and ministerial crisis; do not create a requirement asserting the alleged misconduct.",
+      "source_chunk_id": "CHUNK-003",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-876DACE66D7E",
+      "category": "procedural_detail",
+      "label": "Isolated meeting dates, vote sequences, and office counts",
+      "reason": "Retained within evidence summaries where analytically useful but not treated as independent subjects absent a distinct scholarly retrieval task.",
+      "source_chunk_id": "CHUNK-003",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-C9E211F05510",
+      "category": "passing_named_entities",
+      "document_pages": [
+        87,
+        90,
+        91,
+        92,
+        93,
+        95,
+        97,
+        98,
+        99,
+        100,
+        101,
+        106,
+        108,
+        109,
+        110,
+        111
+      ],
+      "description": "Names appearing only in lists, quotations, offices, or single illustrative incidents were not promoted without independently useful treatment.",
+      "source_chunk_id": "CHUNK-004",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F68B6E4729CB",
+      "category": "regional_examples",
+      "document_pages": [
+        87,
+        92,
+        93,
+        95,
+        98,
+        109
+      ],
+      "description": "The named regions and cities provide evidence of economic and political variation and may supply useful subordinate or cross-chapter access. Separate weighting is not automatic, and useful treatment does not require sustained length.",
+      "source_chunk_id": "CHUNK-004",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F45FAEFC480F",
+      "category": "isolated_statistics",
+      "document_pages": [
+        87,
+        91,
+        99,
+        100,
+        101,
+        108,
+        110
+      ],
+      "description": "Individual employment, petition, vote, troop, turnout, and casualty estimates support substantive subjects but are not standalone subject headings.",
+      "source_chunk_id": "CHUNK-004",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-0DD7350BF51F",
+      "category": "rhetorical_anecdotes",
+      "document_pages": [
+        90,
+        95,
+        101,
+        105,
+        106,
+        108,
+        111
+      ],
+      "description": "Quoted epigrams, ceremonial vignettes and memorable phrases remain eligible evidence for events, ideas and political perceptions. They do not automatically require a separate biography of the speaker.",
+      "source_chunk_id": "CHUNK-004",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-76FD26E0B959",
+      "category": "running_furniture",
+      "document_pages": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      "reason": "Running heads and folios are nonindexable furniture.",
+      "source_chunk_id": "CHUNK-005",
+      "scope_constraint": "Excludes only the specified running furniture, bare citation/source apparatus or navigational cross-reference, not substantive body text, attributed evidence or chapter/part headings on the listed eligible pages. Unavailable endnotes cannot be inferred."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-F3BF829836F4",
+      "category": "incidental_named_entities",
+      "document_pages": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        128,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      "reason": "Brief attributions, isolated officeholders, localities, vote counts, and colourful examples were not promoted when they added no durable access beyond a recorded thematic subject.",
+      "source_chunk_id": "CHUNK-005",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-4D842CAF08D5",
+      "category": "citation_and_note_markers",
+      "document_pages": [
+        115,
+        116,
+        120,
+        123,
+        124,
+        130
+      ],
+      "reason": "Superscript note markers and citation-only attributions were not treated as subjects; the absent endnote text was not inferred.",
+      "source_chunk_id": "CHUNK-005",
+      "scope_constraint": "Excludes only the specified running furniture, bare citation/source apparatus or navigational cross-reference, not substantive body text, attributed evidence or chapter/part headings on the listed eligible pages. Unavailable endnotes cannot be inferred."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-557A4DD62DC1",
+      "category": "minor_local_examples",
+      "document_pages": [
+        113,
+        115,
+        126,
+        130
+      ],
+      "reason": "Short lists of towns, regions, offices, and local disturbances function as examples of larger municipal, anti-feudal, administrative, or fiscal patterns.",
+      "source_chunk_id": "CHUNK-005",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "reason": "Map interiors, numbered keys and source credits on these supplied pages are excluded as semantic evidence under the frozen source policy and independent source-scope-disposition.v3. The exact literal substantive captions remain eligible; prose-density counting is not semantic authority.",
+      "exclusion_id": "EXCL-SUCC-2852F2FEE377",
+      "source_chunk_id": "CHUNK-005",
+      "scope_constraint": "Only the identified graphic interior/key/credit regions are excluded. Literal substantive captions and any eligible prose on mixed pages remain in source scope.",
+      "category": "excluded_source_region",
+      "document_pages": [
+        127,
+        129
+      ]
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-3C65FBC51E10",
+      "category": "named_entity_clutter",
+      "document_pages": [
+        140,
+        141,
+        144,
+        150,
+        152,
+        154
+      ],
+      "description": "Single-use historical exemplars, quotation sources, and minor participants were not promoted to required person headings unless the chapter developed an independent reader task.",
+      "source_chunk_id": "CHUNK-006",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-3F331E0C6326",
+      "category": "granularity",
+      "document_pages": [
+        137,
+        140,
+        143,
+        149,
+        150,
+        155
+      ],
+      "description": "Individual decree dates and procedural votes were retained as evidence under substantive policies or events, not multiplied into separate subjects.",
+      "source_chunk_id": "CHUNK-006",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-0A69B19A40CF",
+      "category": "geographic_list_clutter",
+      "document_pages": [
+        144,
+        145
+      ],
+      "description": "Regions listed to demonstrate the geography of oath-taking were treated as evidence for the national pattern rather than separate place subjects, except where sustained explanation created a distinct reader task.",
+      "source_chunk_id": "CHUNK-006",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    },
+    {
+      "exclusion_id": "EXCL-SUCC-593117C490A6",
+      "category": "citation_and_attribution_only",
+      "document_pages": [
+        143,
+        144,
+        146,
+        150,
+        152,
+        154,
+        158
+      ],
+      "description": "Speakers, letter writers, diplomatic observers, and note references used only to voice evidence were not automatically treated as independently indexable subjects.",
+      "source_chunk_id": "CHUNK-006",
+      "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+    }
+  ],
+  "removed_exclusion_ids": [
+    "EXCL-SUCC-C76437E67E4D",
+    "EXCL-SUCC-45BFDA2961F7",
+    "EXCL-SUCC-DC8E2975396F",
+    "EXCL-SUCC-A5389EEC138F",
+    "EXCL-SUCC-65D91D10C1E5",
+    "EXCL-SUCC-F838CF7F3A1A",
+    "EXCL-SUCC-B30038EE4A0A",
+    "EXCL-SUCC-4C582BF2CB0A"
+  ],
+  "approval_of_integrated_final_bytes": false
+}

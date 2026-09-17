@@ -1,0 +1,64 @@
+{
+  "schema_version": "independent-additive-historical-relationship-disposition-v1",
+  "decision": "approve_retirement",
+  "historical_key": "legacy:REL-100E2B727434",
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/artois-correction/proposed-legacy-disposition.v1.json",
+    "sha256": "69a8497fdee4498e088506d7a1b7ee3863db4dd1ca25b33abac8ba4335dc69d5",
+    "bytes": 1456
+  },
+  "superseded_review": {
+    "file": {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/historical-relationship-ledger.v1.json",
+      "sha256": "289315df75c2a37d8288445af0d78e77b4487febef9f8fd050c34536163128d2",
+      "bytes": 847187
+    },
+    "pointer": "/rows/108",
+    "row_sha256": "79418eae35895abff36cfe11c61a423af9057689199eec62e2444ee0522a104e"
+  },
+  "original_record": {
+    "relationship_id": "REL-100E2B727434",
+    "source_subject_id": "SUBJ-649715FCD0B8",
+    "type": "related_to",
+    "resolution_status": "resolved",
+    "source_relationship_types": [
+      "authorized_by"
+    ],
+    "descriptions": [
+      "Artois"
+    ],
+    "provenance": [
+      {
+        "chunk_id": "CHUNK-013",
+        "local_subject_id": "CHUNK-013-SUBJ-028",
+        "local_relationship_index": 2
+      }
+    ],
+    "target_subject_id": "SUBJ-C532A48A9329"
+  },
+  "original_endpoint_labels": {
+    "source_subject_id": "Breton Association of La Rouërie",
+    "target_subject_id": "Artois, Count of: counter-revolutionary leadership"
+  },
+  "operator_review": "The old source runs from the Breton Association to Artois. Although normalized type is related_to, source_relationship_types expressly retains authorized_by and descriptions names Artois. The successor reversed direction into Artois authorizes La Rouërie; both forms assert the same unsupported individual agency.",
+  "source_pages_inspected": [
+    305
+  ],
+  "disposition": "retire_unsubstantiated_individual_authorization",
+  "successor_relationship_ids": [],
+  "retired_successor_relationship_ids": [
+    "REL-SUCC-8AD7BFC51F21"
+  ],
+  "retained_successor_subject_ids": [
+    "SUBJ-SUCC-8EBFEFD6F582",
+    "SUBJ-SUCC-2CAD9C10478B"
+  ],
+  "retained_evidence_ids": [
+    "EVID-SUCC-89246D51BD6C",
+    "EVID-SUCC-C6EADF2D2AD2"
+  ],
+  "source_grounded_reason": "The page assigns encouragement to the princely/exile context but does not name Artois as individual grantor. Artois is individually named later for an expectation about the war. The network context and Breton organizational limits remain explicit in the two retained subjects. No replacement relationship is needed to preserve them.",
+  "unsupported_claim_not_inferred_false": "Retirement means the supplied source does not warrant this exact benchmark obligation; it is not a historical claim that Artois could never have authorized him.",
+  "prior_original_review_ledgers_preserved": true,
+  "additive_disposition_supersedes_only_this_mapping": true
+}

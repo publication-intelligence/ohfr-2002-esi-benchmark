@@ -1,0 +1,40 @@
+{
+  "schema_version": "source-correction-technical-clearance-v1",
+  "recorded_at": "2026-09-17T06:13:29.224199+00:00",
+  "result": "pass",
+  "manifest": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/manifest.v1.json",
+    "sha256": "4f26a7819b4cbd5cb08a4118ffb5dc630f17562af2ab7cfb5002de95fbedf176"
+  },
+  "final": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa"
+  },
+  "review": {
+    "path": "successor/independent-review/source-benchmark-review.v2.json",
+    "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e"
+  },
+  "independent_exact_byte_assent": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-byte-assent.v1.json",
+    "sha256": "b15e0db6181fa797baf7565e6f592bf0792ee05dbdf4ef91f15357b5150c10e3"
+  },
+  "pre_freeze_state": {
+    "path": "successor/evaluation-state.source-correction-v3.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e"
+  },
+  "verified_manifest_bindings": 33,
+  "native_c11_final_review_checks": "pass",
+  "native_c11_full_state_check": {
+    "command": "validate",
+    "ok": true,
+    "evaluation_id": "ohfr-2002-study-source-successor-v1",
+    "errors": [],
+    "warnings": []
+  },
+  "substantive_delta": {
+    "removed_relationship": "REL-SUCC-8AD7BFC51F21",
+    "all_other_entity_values": "identical"
+  },
+  "root_supplies_editorial_assent": false,
+  "technical_clearance": "Normal preserved-c11 typed freeze may now register these exact independently approved final and review bytes on successor/evaluation-state.source-correction-v3.json only. Preserve every old source, review, state and release file. No runtime activation or candidate action authorized by this receipt."
+}

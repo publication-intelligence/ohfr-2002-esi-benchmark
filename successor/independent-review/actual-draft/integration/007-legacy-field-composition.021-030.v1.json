@@ -1,0 +1,2973 @@
+{
+  "schema_version": "independent-legacy-repair-composition-v1",
+  "status": "sealed_scoped_repaired_values; whole_book_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage8.v1.json",
+      "sha256": "3e99af665c5211b22d76f8faed0f1db2626d6e37c7e0429aa44f12a081511ca1"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/current-record-corrections.v1.json",
+      "sha256": "8b3b3c23b0e9664a5baa3b6774421f30aa541415d94fca031f8a014c2d35ca61"
+    }
+  ],
+  "group_range": [
+    21,
+    30
+  ],
+  "rows": [
+    {
+      "group_index": 21,
+      "subject_id": "SUBJ-SUCC-5B53956EB181",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0033",
+        "CORR-007-LEGACY-0297",
+        "CORR-007-LEGACY-0298",
+        "CORR-007-LEGACY-0314",
+        "CORR-007-LEGACY-0315"
+      ],
+      "source_correction_row_sha256s": [
+        "51106b20b9172cc6de16f1a296d73a95c0aded62051462a198fa38b03208bc82",
+        "ce160e46b8fb0ad69d26ecc34403ed23462cd59a5d2554c4ec64b014a64579fb",
+        "062032bb0a85e434ee7e83b2b3eea55eac204eef0caf3f323b4f4ac783b9c15d",
+        "e336945a91e42bd693270a2ab2f2a6477aedf445563b95b7767b3e3e61c709eb",
+        "d46bb58df2227a0ff093f7f9c289afe3e221c0d0de40a2a1afaa840aaa706e20"
+      ],
+      "before_record": {
+        "label": "French war logistics, requisitioning, and mass-army tactics",
+        "priority": "major",
+        "meaning": "Supply by requisition and billeting, emergency arms and saltpetre production, and mass tactics adapted to rapidly raised citizen armies.",
+        "stance": "Makeshift logistics met unprecedented needs at heavy social cost, while patriotic mass tactics proved effective but intensified ferocity and disregard for life.",
+        "subject_id": "SUBJ-SUCC-5B53956EB181",
+        "acceptable_access": [
+          "French war logistics, requisitioning, and mass-army tactics",
+          "French armies, supply and requisitioning",
+          "Munitions production, 1793-1794",
+          "Mass-army tactics",
+          "Citizen soldiers and battlefield ferocity",
+          "requisitioning—French war effort",
+          "billeting",
+          "frontier districts—war burdens",
+          "army supply",
+          "munitions production, 1793–1794",
+          "saltpetre campaign",
+          "church bells—war requisition",
+          "arms workshops",
+          "revolutionary war economy",
+          "emergency administration",
+          "military improvisation, 1793–1794",
+          "French mass-army tactics",
+          "human-wave attacks",
+          "ferocity of revolutionary warfare",
+          "citizen soldiers—combat behavior"
+        ],
+        "evidence": [
+          {
+            "document_page": 205,
+            "source_page_label": "205",
+            "locator_class": "principal",
+            "evidence_summary": "Describes billeting, frontier requisitioning, emergency workshops, and metal collection.",
+            "evidence_id": "EVID-SUCC-FA66F9941970",
+            "source_local_subject_id": "SUCC-C009-S013",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 206,
+            "source_page_label": "206",
+            "locator_class": "principal",
+            "evidence_summary": "Covers saltpetre recovery, improvised supply, human-wave tactics, patriotic motivation, and intensified violence.",
+            "evidence_id": "EVID-SUCC-771785C12D27",
+            "source_local_subject_id": "SUCC-C009-S013",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S013",
+            "label": "French war logistics, requisitioning, and mass-army tactics",
+            "meaning": "Supply by requisition and billeting, emergency arms and saltpetre production, and mass tactics adapted to rapidly raised citizen armies.",
+            "stance": "Makeshift logistics met unprecedented needs at heavy social cost, while patriotic mass tactics proved effective but intensified ferocity and disregard for life.",
+            "acceptable_access": [
+              "French war logistics, requisitioning, and mass-army tactics",
+              "French armies, supply and requisitioning",
+              "Munitions production, 1793-1794",
+              "Mass-army tactics",
+              "Citizen soldiers and battlefield ferocity",
+              "requisitioning—French war effort",
+              "billeting",
+              "frontier districts—war burdens",
+              "army supply",
+              "munitions production, 1793–1794",
+              "saltpetre campaign",
+              "church bells—war requisition",
+              "arms workshops",
+              "revolutionary war economy",
+              "emergency administration",
+              "military improvisation, 1793–1794",
+              "French mass-army tactics",
+              "human-wave attacks",
+              "ferocity of revolutionary warfare",
+              "citizen soldiers—combat behavior"
+            ],
+            "document_pages": [
+              205,
+              206
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S013"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S013",
+            "label": "French war logistics, requisitioning, and mass-army tactics",
+            "meaning": "Supply by requisition and billeting, emergency arms and saltpetre production, and mass tactics adapted to rapidly raised citizen armies.",
+            "stance": "Makeshift logistics met unprecedented needs at heavy social cost, while patriotic mass tactics proved effective but intensified ferocity and disregard for life.",
+            "acceptable_access": [
+              "French war logistics, requisitioning, and mass-army tactics",
+              "French armies, supply and requisitioning",
+              "Munitions production, 1793-1794",
+              "Mass-army tactics",
+              "Citizen soldiers and battlefield ferocity",
+              "requisitioning—French war effort",
+              "billeting",
+              "frontier districts—war burdens",
+              "army supply",
+              "munitions production, 1793–1794",
+              "saltpetre campaign",
+              "church bells—war requisition",
+              "arms workshops",
+              "revolutionary war economy",
+              "emergency administration",
+              "military improvisation, 1793–1794",
+              "French mass-army tactics",
+              "human-wave attacks",
+              "ferocity of revolutionary warfare",
+              "citizen soldiers—combat behavior"
+            ],
+            "document_pages": [
+              205,
+              206
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "793a0f9b6b2976521bebed67d05fe5ad823703f558ca5db5a97f75ccce92a390",
+      "proposed_record": {
+        "label": "French war logistics, requisitioning, and mass-army tactics",
+        "priority": "major",
+        "meaning": "Supply by requisition and billeting, emergency arms and saltpetre production, and mass tactics adapted to rapidly raised citizen armies. Before the armies returned abroad, French frontier populations bore heavy burdens of food and shelter requisition. There was insufficient time to train the expanded forces in precise eighteenth-century drill, so numbers and patriotic drive supported mass assaults.",
+        "stance": "Makeshift logistics met unprecedented needs at heavy social cost, while patriotic mass tactics proved effective but intensified ferocity and disregard for life. This rough success also showed what later, more formal organization might achieve; it does not prove that the 1793–1794 system was already orderly.",
+        "subject_id": "SUBJ-SUCC-5B53956EB181",
+        "acceptable_access": [
+          "French war logistics, requisitioning, and mass-army tactics",
+          "French armies, supply and requisitioning",
+          "Munitions production, 1793-1794",
+          "Mass-army tactics",
+          "Citizen soldiers and battlefield ferocity",
+          "requisitioning—French war effort",
+          "billeting",
+          "frontier districts—war burdens",
+          "army supply",
+          "munitions production, 1793–1794",
+          "saltpetre campaign",
+          "church bells—war requisition",
+          "arms workshops",
+          "revolutionary war economy",
+          "emergency administration",
+          "military improvisation, 1793–1794",
+          "French mass-army tactics",
+          "human-wave attacks",
+          "ferocity of revolutionary warfare",
+          "citizen soldiers—combat behavior"
+        ],
+        "evidence": [
+          {
+            "document_page": 205,
+            "source_page_label": "205",
+            "locator_class": "principal",
+            "evidence_summary": "Describes billeting, frontier requisitioning, emergency workshops, and metal collection.",
+            "evidence_id": "EVID-SUCC-FA66F9941970",
+            "source_local_subject_id": "SUCC-C009-S013",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 206,
+            "source_page_label": "206",
+            "locator_class": "principal",
+            "evidence_summary": "Covers saltpetre recovery, improvised supply, human-wave tactics, patriotic motivation, and intensified violence. The author judges the war effort a ruthless makeshift triumph meeting unprecedented demands, suggesting the potential of later formal organization. Inadequate time for precision drill made numerical and patriotic assaults an effective alternative, at the cost of intensified ferocity and little quarter.",
+            "evidence_id": "EVID-SUCC-771785C12D27",
+            "source_local_subject_id": "SUCC-C009-S013",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S013",
+            "label": "French war logistics, requisitioning, and mass-army tactics",
+            "meaning": "Supply by requisition and billeting, emergency arms and saltpetre production, and mass tactics adapted to rapidly raised citizen armies. Before the armies returned abroad, French frontier populations bore heavy burdens of food and shelter requisition. There was insufficient time to train the expanded forces in precise eighteenth-century drill, so numbers and patriotic drive supported mass assaults.",
+            "stance": "Makeshift logistics met unprecedented needs at heavy social cost, while patriotic mass tactics proved effective but intensified ferocity and disregard for life. This rough success also showed what later, more formal organization might achieve; it does not prove that the 1793–1794 system was already orderly.",
+            "acceptable_access": [
+              "French war logistics, requisitioning, and mass-army tactics",
+              "French armies, supply and requisitioning",
+              "Munitions production, 1793-1794",
+              "Mass-army tactics",
+              "Citizen soldiers and battlefield ferocity",
+              "requisitioning—French war effort",
+              "billeting",
+              "frontier districts—war burdens",
+              "army supply",
+              "munitions production, 1793–1794",
+              "saltpetre campaign",
+              "church bells—war requisition",
+              "arms workshops",
+              "revolutionary war economy",
+              "emergency administration",
+              "military improvisation, 1793–1794",
+              "French mass-army tactics",
+              "human-wave attacks",
+              "ferocity of revolutionary warfare",
+              "citizen soldiers—combat behavior"
+            ],
+            "document_pages": [
+              205,
+              206
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S013"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S013",
+            "label": "French war logistics, requisitioning, and mass-army tactics",
+            "meaning": "Supply by requisition and billeting, emergency arms and saltpetre production, and mass tactics adapted to rapidly raised citizen armies. Before the armies returned abroad, French frontier populations bore heavy burdens of food and shelter requisition. There was insufficient time to train the expanded forces in precise eighteenth-century drill, so numbers and patriotic drive supported mass assaults.",
+            "stance": "Makeshift logistics met unprecedented needs at heavy social cost, while patriotic mass tactics proved effective but intensified ferocity and disregard for life. This rough success also showed what later, more formal organization might achieve; it does not prove that the 1793–1794 system was already orderly.",
+            "acceptable_access": [
+              "French war logistics, requisitioning, and mass-army tactics",
+              "French armies, supply and requisitioning",
+              "Munitions production, 1793-1794",
+              "Mass-army tactics",
+              "Citizen soldiers and battlefield ferocity",
+              "requisitioning—French war effort",
+              "billeting",
+              "frontier districts—war burdens",
+              "army supply",
+              "munitions production, 1793–1794",
+              "saltpetre campaign",
+              "church bells—war requisition",
+              "arms workshops",
+              "revolutionary war economy",
+              "emergency administration",
+              "military improvisation, 1793–1794",
+              "French mass-army tactics",
+              "human-wave attacks",
+              "ferocity of revolutionary warfare",
+              "citizen soldiers—combat behavior"
+            ],
+            "document_pages": [
+              205,
+              206
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "866df8e960437733f62d7cb3dd9d18aa954de4c65a56afd9ff9c71a0d898ba6e",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "205–206 explicitly locates the home-front burden before the armies returned abroad, explains mass tactics by inadequate training time and evaluates makeshift organization. Retain the return qualifier: the claim does not deny earlier foreign extraction in1792.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 22,
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0034",
+        "CORR-007-LEGACY-0035",
+        "CORR-007-LEGACY-0036"
+      ],
+      "source_correction_row_sha256s": [
+        "1d843c976756f56d55764c77d5068197ba13192ff0d7b4bf0ccd6c0213440f73",
+        "59d9ed38a209b00e684dda0f0c9ae3c8a70de56fab24b94a8553bc2a6c401baf",
+        "235403adcf332a5285e0bf202be31db200d5a2e73f32790568c94886d62f9555"
+      ],
+      "before_record": {
+        "label": "Winter of 1794-1795, famine, and bread-ration crisis",
+        "priority": "essential",
+        "meaning": "The severe winter, fuel and food shortages, soaring prices, and shrinking bread rations that drove urban and provincial distress. By March, failure of the bread ration undermined confidence in the Convention: royalists read shortages as republican failure, while women petitioned for bread and remembered the controlled economy; renewed talk of uprising developed alongside these competing responses.",
+        "stance": "The chapter links natural conditions, harvest failure, transport disruption, wartime claims, and policy changes; deprivation becomes the immediate setting for renewed popular politics.",
+        "subject_id": "SUBJ-SUCC-655205C566BE",
+        "acceptable_access": [
+          "Winter of 1794-1795, famine, and bread-ration crisis",
+          "famine of 1794-1795",
+          "bread shortages",
+          "winter of 1794-1795",
+          "subsistence crisis",
+          "subsistence crisis—1794-1795",
+          "famine—Year III",
+          "bread rationing—Paris",
+          "fuel shortage—1795",
+          "Paris—bread crisis in March 1795",
+          "women—bread petitions",
+          "popular memory of the Maximum",
+          "royalist propaganda—food shortage"
+        ],
+        "evidence": [
+          {
+            "document_page": 286,
+            "source_page_label": "286",
+            "locator_class": "principal",
+            "evidence_summary": "Exceptional cold, fuel shortages, poor harvests, army priorities, and blocked imports generate famine conditions and sharp food-price increases.",
+            "evidence_id": "EVID-SUCC-F15B83C9966D",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 287,
+            "source_page_label": "287",
+            "locator_class": "supporting",
+            "evidence_summary": "The expanding assignat issue and fiscal weakness magnify the real-resource crisis and reduce purchasing power further.",
+            "evidence_id": "EVID-SUCC-53814ACC1225",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 290,
+            "source_page_label": "290",
+            "locator_class": "principal",
+            "evidence_summary": "Shrinking or absent bread rations eroded confidence in the Convention, encouraged royalist claims of republican failure, revived memories of controls and brought women’s bread petitions and renewed talk of uprising.",
+            "evidence_id": "EVID-SUCC-A3CC9CB2EA57",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 293,
+            "source_page_label": "293",
+            "locator_class": "principal",
+            "evidence_summary": "Rations fall to a quarter-pound and then two ounces as food and fuel shortages worsen before Prairial.",
+            "evidence_id": "EVID-SUCC-4E42DF415C54",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 294,
+            "source_page_label": "294",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Bread scarcity supplies the central demand and mobilizing force of the Prairial invasion of the Convention.",
+            "evidence_id": "EVID-SUCC-92F9D4E457CF",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-012"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C012-S020",
+            "label": "Winter of 1794-1795, famine, and bread-ration crisis",
+            "meaning": "The severe winter, fuel and food shortages, soaring prices, and shrinking bread rations that drove urban and provincial distress.",
+            "stance": "The chapter links natural conditions, harvest failure, transport disruption, wartime claims, and policy changes; deprivation becomes the immediate setting for renewed popular politics.",
+            "acceptable_access": [
+              "Winter of 1794-1795, famine, and bread-ration crisis",
+              "famine of 1794-1795",
+              "bread shortages",
+              "winter of 1794-1795",
+              "subsistence crisis",
+              "subsistence crisis—1794-1795",
+              "famine—Year III",
+              "bread rationing—Paris",
+              "fuel shortage—1795",
+              "Paris—bread crisis in March 1795",
+              "women—bread petitions",
+              "popular memory of the Maximum",
+              "royalist propaganda—food shortage"
+            ],
+            "document_pages": [
+              286,
+              287,
+              290,
+              293,
+              294
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C012-S020"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C012-S020",
+            "label": "Winter of 1794-1795, famine, and bread-ration crisis",
+            "meaning": "The severe winter, fuel and food shortages, soaring prices, and shrinking bread rations that drove urban and provincial distress.",
+            "stance": "The chapter links natural conditions, harvest failure, transport disruption, wartime claims, and policy changes; deprivation becomes the immediate setting for renewed popular politics.",
+            "acceptable_access": [
+              "Winter of 1794-1795, famine, and bread-ration crisis",
+              "famine of 1794-1795",
+              "bread shortages",
+              "winter of 1794-1795",
+              "subsistence crisis",
+              "subsistence crisis—1794-1795",
+              "famine—Year III",
+              "bread rationing—Paris",
+              "fuel shortage—1795",
+              "Paris—bread crisis in March 1795",
+              "women—bread petitions",
+              "popular memory of the Maximum",
+              "royalist propaganda—food shortage"
+            ],
+            "document_pages": [
+              286,
+              287,
+              290,
+              293,
+              294
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "600280d9a345a05297fd2c3c75c5bbd7c730f0391ff5e035cf0441613d6b3bfa",
+      "proposed_record": {
+        "label": "Winter of 1794-1795, famine, and bread-ration crisis",
+        "priority": "essential",
+        "meaning": "The severe winter, fuel and food shortages, soaring prices, and shrinking bread rations that drove urban and provincial distress. By March, failure of the bread ration undermined confidence in the Convention: royalists read shortages as republican failure, while women petitioned for bread and remembered the controlled economy; renewed talk of uprising developed alongside these competing responses. Currency collapse and uncontrolled prices amplified failures of transport and milling, while army priority reduced civilian supplies.",
+        "stance": "The chapter links exceptional winter conditions, an indifferent harvest, disrupted transport and milling, wartime claims and policy changes. Parisian confidence survived temporarily through rationing, then collapsed as rations shrank; deprivation became the immediate setting for renewed popular politics.",
+        "subject_id": "SUBJ-SUCC-655205C566BE",
+        "acceptable_access": [
+          "Winter of 1794-1795, famine, and bread-ration crisis",
+          "famine of 1794-1795",
+          "bread shortages",
+          "winter of 1794-1795",
+          "subsistence crisis",
+          "subsistence crisis—1794-1795",
+          "famine—Year III",
+          "bread rationing—Paris",
+          "fuel shortage—1795",
+          "Paris—bread crisis in March 1795",
+          "women—bread petitions",
+          "popular memory of the Maximum",
+          "royalist propaganda—food shortage"
+        ],
+        "evidence": [
+          {
+            "document_page": 286,
+            "source_page_label": "286",
+            "locator_class": "principal",
+            "evidence_summary": "An exceptionally cold winter immobilized fuel and grain transport and milling after an indifferent harvest on which armies had first claim. Imported grain could not readily be used; local rationing and bread subsidies afforded uneven relief as uncontrolled prices rose.",
+            "evidence_id": "EVID-SUCC-F15B83C9966D",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 287,
+            "source_page_label": "287",
+            "locator_class": "supporting",
+            "evidence_summary": "The expanding assignat issue and fiscal weakness magnify the real-resource crisis and reduce purchasing power further.",
+            "evidence_id": "EVID-SUCC-53814ACC1225",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 290,
+            "source_page_label": "290",
+            "locator_class": "principal",
+            "evidence_summary": "Shrinking or absent bread rations eroded confidence in the Convention, encouraged royalist claims of republican failure, revived memories of controls and brought women’s bread petitions and renewed talk of uprising.",
+            "evidence_id": "EVID-SUCC-A3CC9CB2EA57",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 293,
+            "source_page_label": "293",
+            "locator_class": "principal",
+            "evidence_summary": "Rations fall to a quarter-pound and then two ounces as food and fuel shortages worsen before Prairial.",
+            "evidence_id": "EVID-SUCC-4E42DF415C54",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          },
+          {
+            "document_page": 294,
+            "source_page_label": "294",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Bread scarcity supplies the central demand and mobilizing force of the Prairial invasion of the Convention.",
+            "evidence_id": "EVID-SUCC-92F9D4E457CF",
+            "source_local_subject_id": "SUCC-C012-S020",
+            "source_chunk_id": "CHUNK-012"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-012"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C012-S020",
+            "label": "Winter of 1794-1795, famine, and bread-ration crisis",
+            "meaning": "The severe winter, fuel and food shortages, soaring prices, and shrinking bread rations that drove urban and provincial distress. By March, failure of the bread ration undermined confidence in the Convention: royalists read shortages as republican failure, while women petitioned for bread and remembered the controlled economy; renewed talk of uprising developed alongside these competing responses. Currency collapse and uncontrolled prices amplified failures of transport and milling, while army priority reduced civilian supplies.",
+            "stance": "The chapter links exceptional winter conditions, an indifferent harvest, disrupted transport and milling, wartime claims and policy changes. Parisian confidence survived temporarily through rationing, then collapsed as rations shrank; deprivation became the immediate setting for renewed popular politics.",
+            "acceptable_access": [
+              "Winter of 1794-1795, famine, and bread-ration crisis",
+              "famine of 1794-1795",
+              "bread shortages",
+              "winter of 1794-1795",
+              "subsistence crisis",
+              "subsistence crisis—1794-1795",
+              "famine—Year III",
+              "bread rationing—Paris",
+              "fuel shortage—1795",
+              "Paris—bread crisis in March 1795",
+              "women—bread petitions",
+              "popular memory of the Maximum",
+              "royalist propaganda—food shortage"
+            ],
+            "document_pages": [
+              286,
+              287,
+              290,
+              293,
+              294
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C012-S020"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C012-S020",
+            "label": "Winter of 1794-1795, famine, and bread-ration crisis",
+            "meaning": "The severe winter, fuel and food shortages, soaring prices, and shrinking bread rations that drove urban and provincial distress. By March, failure of the bread ration undermined confidence in the Convention: royalists read shortages as republican failure, while women petitioned for bread and remembered the controlled economy; renewed talk of uprising developed alongside these competing responses. Currency collapse and uncontrolled prices amplified failures of transport and milling, while army priority reduced civilian supplies.",
+            "stance": "The chapter links exceptional winter conditions, an indifferent harvest, disrupted transport and milling, wartime claims and policy changes. Parisian confidence survived temporarily through rationing, then collapsed as rations shrank; deprivation became the immediate setting for renewed popular politics.",
+            "acceptable_access": [
+              "Winter of 1794-1795, famine, and bread-ration crisis",
+              "famine of 1794-1795",
+              "bread shortages",
+              "winter of 1794-1795",
+              "subsistence crisis",
+              "subsistence crisis—1794-1795",
+              "famine—Year III",
+              "bread rationing—Paris",
+              "fuel shortage—1795",
+              "Paris—bread crisis in March 1795",
+              "women—bread petitions",
+              "popular memory of the Maximum",
+              "royalist propaganda—food shortage"
+            ],
+            "document_pages": [
+              286,
+              287,
+              290,
+              293,
+              294
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "c8c7e05b3eab776416fad09177ddcab00c813930d59868f6152bf2a7e4e57187",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "286 says an indifferent harvest, not harvest failure, and distinguishes frozen transport/milling from grain acquisition. Preserve the already repaired290 bread-politics paragraph and evidence while adding currency/army-priority mechanisms. Correct and synchronize both nested fields rather than retaining their older harvest wording.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 23,
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0037",
+        "CORR-007-LEGACY-0045",
+        "CORR-007-LEGACY-0046",
+        "CORR-007-LEGACY-0047",
+        "CORR-007-LEGACY-0104",
+        "CORR-007-LEGACY-0105",
+        "CORR-007-LEGACY-0152",
+        "CORR-007-LEGACY-0153",
+        "CORR-007-LEGACY-0445",
+        "CORR-007-LEGACY-0446"
+      ],
+      "source_correction_row_sha256s": [
+        "37343f93a10f0382ab1c179237e446c85fcf668e02aa7febf628a8664add839e",
+        "4c7d98a324a7c9cca91e2c8a0c8618b53c1eab6ad8f1842ffcc7383ad88e57bb",
+        "82aaf67264a42a50117003737811417a924df5dcf6a82a073e3d5c80369f7831",
+        "c0ed5de8cefa3a32e89a3754e7101c369c4bf7c3232860a9a7d75c8d9a3e6ae7",
+        "d982ca0935a9ddb4388c8739b91c621cbbbd64ff9242dfe2025725578f2a405c",
+        "64fd85a3488a5dfec5bd5cb52328290b3f3d9899f977e75f9447eec591264fe7",
+        "ef21c67100435ca1d7058400ff936c20b5a17744c5b3810d7fc5709391e15ffe",
+        "e66b9fa22dd3c3b0f6e6d0e89cb712cfb7b366b996200f797bb1de2563514462",
+        "ef3ad51f57091a0acfa000df89c2a31f40f8b4ff9415ffb4484b1008d10d9645",
+        "aeb676450e039981a1bd518ccb3848c2b12f095b19560c682a0e8f6c104df2ab"
+      ],
+      "before_record": {
+        "label": "Dechristianization, spread, resistance, and decline",
+        "priority": "essential",
+        "meaning": "Locally initiated attacks on Catholic practice became Paris Commune policy and a nationwide movement, provoked resistance, and helped drive the Committee toward centralization and formal protection of worship. Provincial initiatives spread through Parisian ceremony and church closure; clerical renunciation often involved coercion, including constitutional clergy. Popular resistance in Brie and Robespierre’s appeal to social order encouraged the December freedom-of-cults decree.",
+        "stance": "The movement was not initially authorized by the Convention and remained uneven; the source treats its excesses as politically counterproductive rather than as a uniform state plan. Legal protection of worship did not immediately reopen churches or end persecution. Grégoire’s resistance qualifies claims of universal clerical submission.",
+        "subject_id": "SUBJ-SUCC-72A1D9C70157",
+        "acceptable_access": [
+          "Dechristianization, spread, resistance, and decline",
+          "dechristianization > origins, spread, and reaction",
+          "religion > Terror and dechristianization",
+          "Catholic Church > attacks and closures",
+          "religious freedom > decree of 6 December 1793",
+          "Robespierre, Maximilien > religion and Supreme Being",
+          "liberty of cults",
+          "dechristianization",
+          "religion—Terror",
+          "church closures",
+          "iconoclasm—French Revolution",
+          "Cult of Reason",
+          "Paris Commune—dechristianization",
+          "Temple of Reason",
+          "Notre-Dame—Festival of Reason",
+          "Gobel—renunciation",
+          "Cult of Reason—Paris",
+          "clergy—Terror",
+          "priests—deportation",
+          "clerical renunciation",
+          "clerical marriage—dechristianization",
+          "constitutional clergy—persecution",
+          "dechristianization—popular resistance",
+          "Brie—religious revolt",
+          "Catholic practice—defense",
+          "religious policy—counterproductive effects",
+          "Robespierre—religion",
+          "Supreme Being—Robespierre",
+          "atheism—Robespierre",
+          "freedom of cults—1793",
+          "freedom of cults decree",
+          "religious freedom—December 1793",
+          "dechristianization—legal restraint",
+          "worship—protection"
+        ],
+        "evidence": [
+          {
+            "document_page": 257,
+            "source_page_label": "257",
+            "locator_class": "supporting",
+            "evidence_summary": "Non-juring priests formed a substantial share of those drowned at Nantes on suspicion of sustaining insurgent religious zeal.",
+            "evidence_id": "EVID-SUCC-1B7D81B3C1A2",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 259,
+            "source_page_label": "259",
+            "locator_class": "principal",
+            "evidence_summary": "Fouché transformed the Nièvre into a model of religious terror and inaugurated a civic cult.",
+            "evidence_id": "EVID-SUCC-F8ED1D540336",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 260,
+            "source_page_label": "260",
+            "locator_class": "principal",
+            "evidence_summary": "Attacks on clerical status, worship, symbols, and churches spread through representatives and Revolutionary Armies.",
+            "evidence_id": "EVID-SUCC-D96A19309B26",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 261,
+            "source_page_label": "261",
+            "locator_class": "supporting",
+            "evidence_summary": "The Paris Commune adopted dechristianization, closed churches, and staged the Festival of Reason in Notre-Dame.",
+            "evidence_id": "EVID-SUCC-1033558EC4B6",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 262,
+            "source_page_label": "262",
+            "locator_class": "principal",
+            "evidence_summary": "Rural resistance and official alarm led Robespierre and the Convention to defend freedom of cults, though closures continued.",
+            "evidence_id": "EVID-SUCC-6908CEFA7F61",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 262,
+            "source_page_label": "262",
+            "locator_class": "principal",
+            "evidence_summary": "Robespierre denounced atheistic excess, and the Convention formally prohibited violence against liberty of cults.",
+            "evidence_id": "EVID-SUCC-2A84A50F9763",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 263,
+            "source_page_label": "263",
+            "locator_class": "supporting",
+            "evidence_summary": "Centralization increasingly constrained local bodies that had sustained religious persecution.",
+            "evidence_id": "EVID-SUCC-F488545404E4",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 263,
+            "source_page_label": "263",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The chaos of dechristianization is identified as a major factor behind the centralizing Law of 14 Frimaire.",
+            "evidence_id": "EVID-SUCC-38FB8D50EB80",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S007",
+            "label": "Dechristianization, spread, resistance, and decline",
+            "meaning": "Locally initiated attacks on Catholic practice became Paris Commune policy and a nationwide movement, provoked resistance, and helped drive the Committee toward centralization and formal protection of worship. Provincial initiatives spread through Parisian ceremony and church closure; clerical renunciation often involved coercion, including constitutional clergy. Popular resistance in Brie and Robespierre’s appeal to social order encouraged the December freedom-of-cults decree.",
+            "stance": "The movement was not initially authorized by the Convention and remained uneven; the source treats its excesses as politically counterproductive rather than as a uniform state plan. Legal protection of worship did not immediately reopen churches or end persecution. Grégoire’s resistance qualifies claims of universal clerical submission.",
+            "acceptable_access": [
+              "Dechristianization, spread, resistance, and decline",
+              "dechristianization > origins, spread, and reaction",
+              "religion > Terror and dechristianization",
+              "Catholic Church > attacks and closures",
+              "religious freedom > decree of 6 December 1793",
+              "Robespierre, Maximilien > religion and Supreme Being",
+              "liberty of cults",
+              "dechristianization",
+              "religion—Terror",
+              "church closures",
+              "iconoclasm—French Revolution",
+              "Cult of Reason",
+              "Paris Commune—dechristianization",
+              "Temple of Reason",
+              "Notre-Dame—Festival of Reason",
+              "Gobel—renunciation",
+              "Cult of Reason—Paris",
+              "clergy—Terror",
+              "priests—deportation",
+              "clerical renunciation",
+              "clerical marriage—dechristianization",
+              "constitutional clergy—persecution",
+              "dechristianization—popular resistance",
+              "Brie—religious revolt",
+              "Catholic practice—defense",
+              "religious policy—counterproductive effects",
+              "Robespierre—religion",
+              "Supreme Being—Robespierre",
+              "atheism—Robespierre",
+              "freedom of cults—1793",
+              "freedom of cults decree",
+              "religious freedom—December 1793",
+              "dechristianization—legal restraint",
+              "worship—protection"
+            ],
+            "document_pages": [
+              257,
+              259,
+              260,
+              261,
+              262,
+              263
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S007"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S007",
+            "label": "Dechristianization, spread, resistance, and decline",
+            "meaning": "Locally initiated attacks on Catholic practice became Paris Commune policy and a nationwide movement, provoked resistance, and helped drive the Committee toward centralization and formal protection of worship. Provincial initiatives spread through Parisian ceremony and church closure; clerical renunciation often involved coercion, including constitutional clergy. Popular resistance in Brie and Robespierre’s appeal to social order encouraged the December freedom-of-cults decree.",
+            "stance": "The movement was not initially authorized by the Convention and remained uneven; the source treats its excesses as politically counterproductive rather than as a uniform state plan. Legal protection of worship did not immediately reopen churches or end persecution. Grégoire’s resistance qualifies claims of universal clerical submission.",
+            "acceptable_access": [
+              "Dechristianization, spread, resistance, and decline",
+              "dechristianization > origins, spread, and reaction",
+              "religion > Terror and dechristianization",
+              "Catholic Church > attacks and closures",
+              "religious freedom > decree of 6 December 1793",
+              "Robespierre, Maximilien > religion and Supreme Being",
+              "liberty of cults",
+              "dechristianization",
+              "religion—Terror",
+              "church closures",
+              "iconoclasm—French Revolution",
+              "Cult of Reason",
+              "Paris Commune—dechristianization",
+              "Temple of Reason",
+              "Notre-Dame—Festival of Reason",
+              "Gobel—renunciation",
+              "Cult of Reason—Paris",
+              "clergy—Terror",
+              "priests—deportation",
+              "clerical renunciation",
+              "clerical marriage—dechristianization",
+              "constitutional clergy—persecution",
+              "dechristianization—popular resistance",
+              "Brie—religious revolt",
+              "Catholic practice—defense",
+              "religious policy—counterproductive effects",
+              "Robespierre—religion",
+              "Supreme Being—Robespierre",
+              "atheism—Robespierre",
+              "freedom of cults—1793",
+              "freedom of cults decree",
+              "religious freedom—December 1793",
+              "dechristianization—legal restraint",
+              "worship—protection"
+            ],
+            "document_pages": [
+              257,
+              259,
+              260,
+              261,
+              262,
+              263
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "48fb80d9ee9a0a61f42edc0b771f07f4c505bd9ebca613e6a49825dcb1912eef",
+      "proposed_record": {
+        "label": "Dechristianization, spread, resistance, and decline",
+        "priority": "essential",
+        "meaning": "Locally initiated attacks on Catholic practice became Paris Commune policy and spread nationally through ceremonies, church closure and often coerced clerical renunciation, including constitutional clergy. Official alarm and Robespierre’s appeal to social order led to formal protection of worship on 6 December. Continued attacks then provoked the Brie rising in the second week of December, threatening a vital food-supply route to Paris; closures and persecution persisted despite legal restraint. The movement also lost momentum as churches, furnishings and clerical incumbents available to attack were exhausted.",
+        "stance": "The movement was not initially authorized by the Convention and remained uneven; the source treats its excesses as politically counterproductive rather than as a uniform state plan. Legal protection of worship did not immediately reopen churches or end persecution. Grégoire’s resistance qualifies claims of universal clerical submission. Robespierre defended popular belief in a Supreme Being as a basis for morality and opposed atheistic persecution without restoring Catholic establishment or endorsing superstition.",
+        "subject_id": "SUBJ-SUCC-72A1D9C70157",
+        "acceptable_access": [
+          "Dechristianization, spread, resistance, and decline",
+          "dechristianization > origins, spread, and reaction",
+          "religion > Terror and dechristianization",
+          "Catholic Church > attacks and closures",
+          "religious freedom > decree of 6 December 1793",
+          "Robespierre, Maximilien > religion and Supreme Being",
+          "liberty of cults",
+          "dechristianization",
+          "religion—Terror",
+          "church closures",
+          "iconoclasm—French Revolution",
+          "Cult of Reason",
+          "Paris Commune—dechristianization",
+          "Temple of Reason",
+          "Notre-Dame—Festival of Reason",
+          "Gobel—renunciation",
+          "Cult of Reason—Paris",
+          "clergy—Terror",
+          "priests—deportation",
+          "clerical renunciation",
+          "clerical marriage—dechristianization",
+          "constitutional clergy—persecution",
+          "dechristianization—popular resistance",
+          "Brie—religious revolt",
+          "Catholic practice—defense",
+          "religious policy—counterproductive effects",
+          "Robespierre—religion",
+          "Supreme Being—Robespierre",
+          "atheism—Robespierre",
+          "freedom of cults—1793",
+          "freedom of cults decree",
+          "religious freedom—December 1793",
+          "dechristianization—legal restraint",
+          "worship—protection"
+        ],
+        "evidence": [
+          {
+            "document_page": 257,
+            "source_page_label": "257",
+            "locator_class": "supporting",
+            "evidence_summary": "Non-juring priests formed a substantial share of those drowned at Nantes on suspicion of sustaining insurgent religious zeal.",
+            "evidence_id": "EVID-SUCC-1B7D81B3C1A2",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 259,
+            "source_page_label": "259",
+            "locator_class": "principal",
+            "evidence_summary": "Fouché transformed the Nièvre into a model of religious terror and inaugurated a civic cult.",
+            "evidence_id": "EVID-SUCC-F8ED1D540336",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 260,
+            "source_page_label": "260",
+            "locator_class": "principal",
+            "evidence_summary": "Representatives and Revolutionary Armies attacked worship, churches and symbols. Forced public abjuration was demanded even of constitutional clergy as a test of revolutionary loyalty; Fouché pressed clerics toward marriage or support of dependents.",
+            "evidence_id": "EVID-SUCC-D96A19309B26",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 261,
+            "source_page_label": "261",
+            "locator_class": "supporting",
+            "evidence_summary": "The Commune adopted dechristianization through symbolic removals, clerical renunciation, closures and the Notre-Dame Festival of Reason. The Convention’s October law made priests of either allegiance liable to deportation on denunciation and threatened execution for those already sentenced to deportation but found in France. Gobel resigned ceremonially; Grégoire resisted.",
+            "evidence_id": "EVID-SUCC-1033558EC4B6",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 262,
+            "source_page_label": "262",
+            "locator_class": "principal",
+            "evidence_summary": "Robespierre’s 21 November intervention and the 6 December liberty-of-cults decree preceded the Brie rising in December’s second week. Peasants attacked a club and armed in defense of priests, Mass and holy days, threatening the southern-Champagne supply route before republican forces restored order. Closures continued; by spring perhaps 20,000 priests had been pressured to renounce status and 6,000 had married. Dechristianization could not continue indefinitely once churches had been closed, stripped and deprived of incumbents; legal restraint then limited pursuit of private observance.",
+            "evidence_id": "EVID-SUCC-6908CEFA7F61",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 262,
+            "source_page_label": "262",
+            "locator_class": "principal",
+            "evidence_summary": "Robespierre called atheistic zeal fanatical, treated belief in a Supreme Being as a basis of popular morality and warned that coercion endangered the Revolution. Central warnings and the Convention’s decree protected liberty of cults without restoring Catholic establishment.",
+            "evidence_id": "EVID-SUCC-2A84A50F9763",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 263,
+            "source_page_label": "263",
+            "locator_class": "supporting",
+            "evidence_summary": "Centralization increasingly constrained local bodies that had sustained religious persecution.",
+            "evidence_id": "EVID-SUCC-F488545404E4",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 263,
+            "source_page_label": "263",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The chaos of dechristianization is identified as a major factor behind the centralizing Law of 14 Frimaire.",
+            "evidence_id": "EVID-SUCC-38FB8D50EB80",
+            "source_local_subject_id": "SUCC-C011-S007",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S007",
+            "label": "Dechristianization, spread, resistance, and decline",
+            "meaning": "Locally initiated attacks on Catholic practice became Paris Commune policy and spread nationally through ceremonies, church closure and often coerced clerical renunciation, including constitutional clergy. Official alarm and Robespierre’s appeal to social order led to formal protection of worship on 6 December. Continued attacks then provoked the Brie rising in the second week of December, threatening a vital food-supply route to Paris; closures and persecution persisted despite legal restraint. The movement also lost momentum as churches, furnishings and clerical incumbents available to attack were exhausted.",
+            "stance": "The movement was not initially authorized by the Convention and remained uneven; the source treats its excesses as politically counterproductive rather than as a uniform state plan. Legal protection of worship did not immediately reopen churches or end persecution. Grégoire’s resistance qualifies claims of universal clerical submission. Robespierre defended popular belief in a Supreme Being as a basis for morality and opposed atheistic persecution without restoring Catholic establishment or endorsing superstition.",
+            "acceptable_access": [
+              "Dechristianization, spread, resistance, and decline",
+              "dechristianization > origins, spread, and reaction",
+              "religion > Terror and dechristianization",
+              "Catholic Church > attacks and closures",
+              "religious freedom > decree of 6 December 1793",
+              "Robespierre, Maximilien > religion and Supreme Being",
+              "liberty of cults",
+              "dechristianization",
+              "religion—Terror",
+              "church closures",
+              "iconoclasm—French Revolution",
+              "Cult of Reason",
+              "Paris Commune—dechristianization",
+              "Temple of Reason",
+              "Notre-Dame—Festival of Reason",
+              "Gobel—renunciation",
+              "Cult of Reason—Paris",
+              "clergy—Terror",
+              "priests—deportation",
+              "clerical renunciation",
+              "clerical marriage—dechristianization",
+              "constitutional clergy—persecution",
+              "dechristianization—popular resistance",
+              "Brie—religious revolt",
+              "Catholic practice—defense",
+              "religious policy—counterproductive effects",
+              "Robespierre—religion",
+              "Supreme Being—Robespierre",
+              "atheism—Robespierre",
+              "freedom of cults—1793",
+              "freedom of cults decree",
+              "religious freedom—December 1793",
+              "dechristianization—legal restraint",
+              "worship—protection"
+            ],
+            "document_pages": [
+              257,
+              259,
+              260,
+              261,
+              262,
+              263
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S007"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S007",
+            "label": "Dechristianization, spread, resistance, and decline",
+            "meaning": "Locally initiated attacks on Catholic practice became Paris Commune policy and spread nationally through ceremonies, church closure and often coerced clerical renunciation, including constitutional clergy. Official alarm and Robespierre’s appeal to social order led to formal protection of worship on 6 December. Continued attacks then provoked the Brie rising in the second week of December, threatening a vital food-supply route to Paris; closures and persecution persisted despite legal restraint. The movement also lost momentum as churches, furnishings and clerical incumbents available to attack were exhausted.",
+            "stance": "The movement was not initially authorized by the Convention and remained uneven; the source treats its excesses as politically counterproductive rather than as a uniform state plan. Legal protection of worship did not immediately reopen churches or end persecution. Grégoire’s resistance qualifies claims of universal clerical submission. Robespierre defended popular belief in a Supreme Being as a basis for morality and opposed atheistic persecution without restoring Catholic establishment or endorsing superstition.",
+            "acceptable_access": [
+              "Dechristianization, spread, resistance, and decline",
+              "dechristianization > origins, spread, and reaction",
+              "religion > Terror and dechristianization",
+              "Catholic Church > attacks and closures",
+              "religious freedom > decree of 6 December 1793",
+              "Robespierre, Maximilien > religion and Supreme Being",
+              "liberty of cults",
+              "dechristianization",
+              "religion—Terror",
+              "church closures",
+              "iconoclasm—French Revolution",
+              "Cult of Reason",
+              "Paris Commune—dechristianization",
+              "Temple of Reason",
+              "Notre-Dame—Festival of Reason",
+              "Gobel—renunciation",
+              "Cult of Reason—Paris",
+              "clergy—Terror",
+              "priests—deportation",
+              "clerical renunciation",
+              "clerical marriage—dechristianization",
+              "constitutional clergy—persecution",
+              "dechristianization—popular resistance",
+              "Brie—religious revolt",
+              "Catholic practice—defense",
+              "religious policy—counterproductive effects",
+              "Robespierre—religion",
+              "Supreme Being—Robespierre",
+              "atheism—Robespierre",
+              "freedom of cults—1793",
+              "freedom of cults decree",
+              "religious freedom—December 1793",
+              "dechristianization—legal restraint",
+              "worship—protection"
+            ],
+            "document_pages": [
+              257,
+              259,
+              260,
+              261,
+              262,
+              263
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "385078a71d535d4dd93496c92950f51b39d519e5a146cfebda4db2174147a011",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "260–262 directly supports the corrected sequence: official anxiety,21 November speech and6 December decree preceded the second-week Brie rising. The earlier0037/0047 formulations are superseded where incomplete or chronologically wrong. Preserve distinct deportation/execution conditions, clerical coercion, continuing closures, Supreme Being argument and exhaustion of targets; legal restraint is not immediate religious restoration.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 24,
+      "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0038",
+        "CORR-007-LEGACY-0039"
+      ],
+      "source_correction_row_sha256s": [
+        "b5c8195fc195e8de07147a6833f841e0de03e1fe111e99688201b96e2e8efdac",
+        "ba1ac08912bde9c5d1c684cb0a22cd86253b0110396983ed860535d494008f41"
+      ],
+      "before_record": {
+        "label": "European censorship of French revolutionary influence",
+        "priority": "major",
+        "meaning": "European governments moved from openness or indifference to press controls, border policing, surveillance, and bans on French material.",
+        "stance": "Spain acted earliest; Sweden and Russia tightened controls as perceived subversion grew.",
+        "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+        "acceptable_access": [
+          "European censorship of French revolutionary influence",
+          "French revolutionary propaganda—European censorship",
+          "Censorship in Spain, Sweden, and Russia",
+          "censorship—French revolutionary influence",
+          "European governments—suppression of French ideas",
+          "French propaganda—state response",
+          "counterrevolutionary information controls",
+          "Spain—censorship of French Revolution",
+          "Inquisition—French revolutionary writings",
+          "Floridablanca—press controls",
+          "Spanish borders—revolutionary influence"
+        ],
+        "evidence": [
+          {
+            "document_page": 171,
+            "source_page_label": "171",
+            "locator_class": "principal",
+            "evidence_summary": "Spain's official press and Inquisition suppressed reporting and writings promoting insubordination from 1789.",
+            "evidence_id": "EVID-SUCC-9CFDA7DAA0C6",
+            "source_local_subject_id": "SUCC-C007-S030",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 172,
+            "source_page_label": "172",
+            "locator_class": "principal",
+            "evidence_summary": "Spain sealed borders; Sweden banned French material; Russian police monitored propaganda and meetings.",
+            "evidence_id": "EVID-SUCC-39F3FB24F185",
+            "source_local_subject_id": "SUCC-C007-S030",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S030",
+            "label": "European censorship of French revolutionary influence",
+            "meaning": "European governments moved from openness or indifference to press controls, border policing, surveillance, and bans on French material.",
+            "stance": "Spain acted earliest; Sweden and Russia tightened controls as perceived subversion grew.",
+            "acceptable_access": [
+              "European censorship of French revolutionary influence",
+              "French revolutionary propaganda—European censorship",
+              "Censorship in Spain, Sweden, and Russia",
+              "censorship—French revolutionary influence",
+              "European governments—suppression of French ideas",
+              "French propaganda—state response",
+              "counterrevolutionary information controls",
+              "Spain—censorship of French Revolution",
+              "Inquisition—French revolutionary writings",
+              "Floridablanca—press controls",
+              "Spanish borders—revolutionary influence"
+            ],
+            "document_pages": [
+              171,
+              172
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S030"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S030",
+            "label": "European censorship of French revolutionary influence",
+            "meaning": "European governments moved from openness or indifference to press controls, border policing, surveillance, and bans on French material.",
+            "stance": "Spain acted earliest; Sweden and Russia tightened controls as perceived subversion grew.",
+            "acceptable_access": [
+              "European censorship of French revolutionary influence",
+              "French revolutionary propaganda—European censorship",
+              "Censorship in Spain, Sweden, and Russia",
+              "censorship—French revolutionary influence",
+              "European governments—suppression of French ideas",
+              "French propaganda—state response",
+              "counterrevolutionary information controls",
+              "Spain—censorship of French Revolution",
+              "Inquisition—French revolutionary writings",
+              "Floridablanca—press controls",
+              "Spanish borders—revolutionary influence"
+            ],
+            "document_pages": [
+              171,
+              172
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "92d28759145c7b673cab83e36fd4f3cd8b7e004daba752e6421e7ca8f6efe933",
+      "proposed_record": {
+        "label": "European censorship of French revolutionary influence",
+        "priority": "major",
+        "meaning": "European governments moved from openness or indifference to press controls, border policing, surveillance, and bans on French material.",
+        "stance": "Spain acted earliest and achieved unusually deep insulation, with some villages still unaware of the Revolution in 1792. Sweden and Russia tightened controls as perceived subversion grew; this comparison does not establish universal success.",
+        "subject_id": "SUBJ-SUCC-47FEF473DEB5",
+        "acceptable_access": [
+          "European censorship of French revolutionary influence",
+          "French revolutionary propaganda—European censorship",
+          "Censorship in Spain, Sweden, and Russia",
+          "censorship—French revolutionary influence",
+          "European governments—suppression of French ideas",
+          "French propaganda—state response",
+          "counterrevolutionary information controls",
+          "Spain—censorship of French Revolution",
+          "Inquisition—French revolutionary writings",
+          "Floridablanca—press controls",
+          "Spanish borders—revolutionary influence"
+        ],
+        "evidence": [
+          {
+            "document_page": 171,
+            "source_page_label": "171",
+            "locator_class": "principal",
+            "evidence_summary": "Spain's official press and Inquisition suppressed reporting and writings promoting insubordination from 1789.",
+            "evidence_id": "EVID-SUCC-9CFDA7DAA0C6",
+            "source_local_subject_id": "SUCC-C007-S030",
+            "source_chunk_id": "CHUNK-007"
+          },
+          {
+            "document_page": 172,
+            "source_page_label": "172",
+            "locator_class": "principal",
+            "evidence_summary": "Spanish troops sealed frontiers and foreigners had to register; some villages remained unaware of the Revolution in 1792. Sweden prohibited French material and references, while Russian surveillance and censorship intensified.",
+            "evidence_id": "EVID-SUCC-39F3FB24F185",
+            "source_local_subject_id": "SUCC-C007-S030",
+            "source_chunk_id": "CHUNK-007"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-007"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C007-S030",
+            "label": "European censorship of French revolutionary influence",
+            "meaning": "European governments moved from openness or indifference to press controls, border policing, surveillance, and bans on French material.",
+            "stance": "Spain acted earliest and achieved unusually deep insulation, with some villages still unaware of the Revolution in 1792. Sweden and Russia tightened controls as perceived subversion grew; this comparison does not establish universal success.",
+            "acceptable_access": [
+              "European censorship of French revolutionary influence",
+              "French revolutionary propaganda—European censorship",
+              "Censorship in Spain, Sweden, and Russia",
+              "censorship—French revolutionary influence",
+              "European governments—suppression of French ideas",
+              "French propaganda—state response",
+              "counterrevolutionary information controls",
+              "Spain—censorship of French Revolution",
+              "Inquisition—French revolutionary writings",
+              "Floridablanca—press controls",
+              "Spanish borders—revolutionary influence"
+            ],
+            "document_pages": [
+              171,
+              172
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C007-S030"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C007-S030",
+            "label": "European censorship of French revolutionary influence",
+            "meaning": "European governments moved from openness or indifference to press controls, border policing, surveillance, and bans on French material.",
+            "stance": "Spain acted earliest and achieved unusually deep insulation, with some villages still unaware of the Revolution in 1792. Sweden and Russia tightened controls as perceived subversion grew; this comparison does not establish universal success.",
+            "acceptable_access": [
+              "European censorship of French revolutionary influence",
+              "French revolutionary propaganda—European censorship",
+              "Censorship in Spain, Sweden, and Russia",
+              "censorship—French revolutionary influence",
+              "European governments—suppression of French ideas",
+              "French propaganda—state response",
+              "counterrevolutionary information controls",
+              "Spain—censorship of French Revolution",
+              "Inquisition—French revolutionary writings",
+              "Floridablanca—press controls",
+              "Spanish borders—revolutionary influence"
+            ],
+            "document_pages": [
+              171,
+              172
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "2c8dbf8d5ea4c787588071d09460b9af5a3b662ba93241a61c6df6c2025c29c9",
+      "fields_changed": [
+        "stance",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "172 supports unusually effective Spanish insulation and contrasting Swedish/Russian controls, without establishing universal censorship success. The specific village observation remains qualified by its limited scale.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 25,
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0040",
+        "CORR-007-LEGACY-0333"
+      ],
+      "source_correction_row_sha256s": [
+        "04a043f28fd4b3af6636f186bd2fae823d042f858f40d554e74ec990c0b18566",
+        "c4106ef4cb24f867986a4c346e58ce7dcd7d4bf16fb13c11f248fc39bce4110c"
+      ],
+      "before_record": {
+        "label": "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+        "priority": "major",
+        "meaning": "Billaud and Collot promoted coercive emergency policy, entered the Committee, defended severe repression, and opposed the temporary Robespierre-Dantonist moderation campaign. As the Hébertist call for insurrection threatened the governing committees in March, they closed ranks; Collot now urged the Jacobins to rally behind established government and seek reconciliation with the Cordeliers.",
+        "stance": "Their alliance was strong on terror and central authority, but evidence should preserve each man's distinct actions and Collot's direct role at Lyons.",
+        "subject_id": "SUBJ-SUCC-35DD2729C31D",
+        "acceptable_access": [
+          "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+          "Billaud-Varenne, Jacques-Nicolas > Terror policy",
+          "Collot d'Herbois, Jean-Marie > Lyons and Committee of Public Safety",
+          "Committee of Public Safety > radical members",
+          "Collot d'Herbois—Lyons",
+          "Collot d'Herbois—Terror",
+          "Collot d'Herbois—Hébertists",
+          "Billaud-Varenne",
+          "Billaud-Varenne—Terror",
+          "Billaud-Varenne—Committee of Public Safety",
+          "Billaud-Varenne—centralization"
+        ],
+        "evidence": [
+          {
+            "document_page": 250,
+            "source_page_label": "250",
+            "locator_class": "principal",
+            "evidence_summary": "Both deputies stood out for rejecting caution and conciliation.",
+            "evidence_id": "EVID-SUCC-9E11FDF65916",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "Billaud-Varenne moved the September measure to organize and deploy the Revolutionary Armies; Danton seconded it, and Billaud and Collot then joined the Committee of Public Safety.",
+            "evidence_id": "EVID-SUCC-02C3BCEF9665",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 254,
+            "source_page_label": "254",
+            "locator_class": "principal",
+            "evidence_summary": "Collot directed accelerated repression and mass execution at Lyons with Fouché.",
+            "evidence_id": "EVID-SUCC-941113AB4309",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 263,
+            "source_page_label": "263",
+            "locator_class": "supporting",
+            "evidence_summary": "During centralization debates Billaud-Varenne pressed for an even cleaner concentration of executive authority.",
+            "evidence_id": "EVID-SUCC-517482085D67",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 268,
+            "source_page_label": "268",
+            "locator_class": "principal",
+            "evidence_summary": "Collot rallied defenders of terror, and with Billaud secured abolition of the proposed committee of justice.",
+            "evidence_id": "EVID-SUCC-845A50607207",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 269,
+            "source_page_label": "269",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Alarmed by the Hébertist insurrectionary challenge, the governing committees closed ranks; Collot urged support for established government and an invitation to the Cordeliers, which Vincent and Ronsin rejected.",
+            "evidence_id": "EVID-SUCC-DF908E661EE0",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S027",
+            "label": "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+            "meaning": "Billaud and Collot promoted coercive emergency policy, entered the Committee, defended severe repression, and opposed the temporary Robespierre-Dantonist moderation campaign.",
+            "stance": "Their alliance was strong on terror and central authority, but evidence should preserve each man's distinct actions and Collot's direct role at Lyons.",
+            "acceptable_access": [
+              "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+              "Billaud-Varenne, Jacques-Nicolas > Terror policy",
+              "Collot d'Herbois, Jean-Marie > Lyons and Committee of Public Safety",
+              "Committee of Public Safety > radical members",
+              "Collot d'Herbois—Lyons",
+              "Collot d'Herbois—Terror",
+              "Collot d'Herbois—Hébertists",
+              "Billaud-Varenne",
+              "Billaud-Varenne—Terror",
+              "Billaud-Varenne—Committee of Public Safety",
+              "Billaud-Varenne—centralization"
+            ],
+            "document_pages": [
+              250,
+              251,
+              254,
+              263,
+              268,
+              269
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S027",
+            "label": "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+            "meaning": "Billaud and Collot promoted coercive emergency policy, entered the Committee, defended severe repression, and opposed the temporary Robespierre-Dantonist moderation campaign.",
+            "stance": "Their alliance was strong on terror and central authority, but evidence should preserve each man's distinct actions and Collot's direct role at Lyons.",
+            "acceptable_access": [
+              "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+              "Billaud-Varenne, Jacques-Nicolas > Terror policy",
+              "Collot d'Herbois, Jean-Marie > Lyons and Committee of Public Safety",
+              "Committee of Public Safety > radical members",
+              "Collot d'Herbois—Lyons",
+              "Collot d'Herbois—Terror",
+              "Collot d'Herbois—Hébertists",
+              "Billaud-Varenne",
+              "Billaud-Varenne—Terror",
+              "Billaud-Varenne—Committee of Public Safety",
+              "Billaud-Varenne—centralization"
+            ],
+            "document_pages": [
+              250,
+              251,
+              254,
+              263,
+              268,
+              269
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "6d067b493c48c58644d4ab5c44a0382a40bdd898d46d18f8d22ae8603322b1e5",
+      "proposed_record": {
+        "label": "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+        "priority": "major",
+        "meaning": "Billaud and Collot promoted coercive emergency policy, entered the Committee, defended severe repression, and opposed the temporary Robespierre-Dantonist moderation campaign. After defending Ronsin and saving his own position, Collot opposed the renewed calls for purges. As the Hébertist call for insurrection threatened the committees in March, they closed ranks; he urged the Jacobins to rally behind established government and seek reconciliation with the Cordeliers.",
+        "stance": "Their alliance was strong on terror and central authority, but evidence should preserve each man's distinct actions and Collot's direct role at Lyons.",
+        "subject_id": "SUBJ-SUCC-35DD2729C31D",
+        "acceptable_access": [
+          "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+          "Billaud-Varenne, Jacques-Nicolas > Terror policy",
+          "Collot d'Herbois, Jean-Marie > Lyons and Committee of Public Safety",
+          "Committee of Public Safety > radical members",
+          "Collot d'Herbois—Lyons",
+          "Collot d'Herbois—Terror",
+          "Collot d'Herbois—Hébertists",
+          "Billaud-Varenne",
+          "Billaud-Varenne—Terror",
+          "Billaud-Varenne—Committee of Public Safety",
+          "Billaud-Varenne—centralization"
+        ],
+        "evidence": [
+          {
+            "document_page": 250,
+            "source_page_label": "250",
+            "locator_class": "principal",
+            "evidence_summary": "Billaud-Varenne moved the death penalty for hoarding; he and Collot stood out among Montagnards in rejecting caution and conciliation.",
+            "evidence_id": "EVID-SUCC-9E11FDF65916",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 251,
+            "source_page_label": "251",
+            "locator_class": "principal",
+            "evidence_summary": "Billaud-Varenne moved the September measure to organize and deploy the Revolutionary Armies; Danton seconded it, and Billaud and Collot then joined the Committee of Public Safety.",
+            "evidence_id": "EVID-SUCC-02C3BCEF9665",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 254,
+            "source_page_label": "254",
+            "locator_class": "principal",
+            "evidence_summary": "Collot directed accelerated repression and mass execution at Lyons with Fouché.",
+            "evidence_id": "EVID-SUCC-941113AB4309",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 263,
+            "source_page_label": "263",
+            "locator_class": "supporting",
+            "evidence_summary": "During centralization debates Billaud-Varenne pressed for an even cleaner concentration of executive authority.",
+            "evidence_id": "EVID-SUCC-517482085D67",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 268,
+            "source_page_label": "268",
+            "locator_class": "principal",
+            "evidence_summary": "Collot rallied defenders of terror, and with Billaud secured abolition of the proposed committee of justice.",
+            "evidence_id": "EVID-SUCC-845A50607207",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          },
+          {
+            "document_page": 269,
+            "source_page_label": "269",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Alarmed by the Hébertist insurrectionary challenge, the governing committees closed ranks; Collot urged support for established government and an invitation to the Cordeliers, which Vincent and Ronsin rejected.",
+            "evidence_id": "EVID-SUCC-DF908E661EE0",
+            "source_local_subject_id": "SUCC-C011-S027",
+            "source_chunk_id": "CHUNK-011"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-011"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C011-S027",
+            "label": "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+            "meaning": "Billaud and Collot promoted coercive emergency policy, entered the Committee, defended severe repression, and opposed the temporary Robespierre-Dantonist moderation campaign. After defending Ronsin and saving his own position, Collot opposed the renewed calls for purges. As the Hébertist call for insurrection threatened the committees in March, they closed ranks; he urged the Jacobins to rally behind established government and seek reconciliation with the Cordeliers.",
+            "stance": "Their alliance was strong on terror and central authority, but evidence should preserve each man's distinct actions and Collot's direct role at Lyons.",
+            "acceptable_access": [
+              "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+              "Billaud-Varenne, Jacques-Nicolas > Terror policy",
+              "Collot d'Herbois, Jean-Marie > Lyons and Committee of Public Safety",
+              "Committee of Public Safety > radical members",
+              "Collot d'Herbois—Lyons",
+              "Collot d'Herbois—Terror",
+              "Collot d'Herbois—Hébertists",
+              "Billaud-Varenne",
+              "Billaud-Varenne—Terror",
+              "Billaud-Varenne—Committee of Public Safety",
+              "Billaud-Varenne—centralization"
+            ],
+            "document_pages": [
+              250,
+              251,
+              254,
+              263,
+              268,
+              269
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C011-S027"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C011-S027",
+            "label": "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+            "meaning": "Billaud and Collot promoted coercive emergency policy, entered the Committee, defended severe repression, and opposed the temporary Robespierre-Dantonist moderation campaign. After defending Ronsin and saving his own position, Collot opposed the renewed calls for purges. As the Hébertist call for insurrection threatened the committees in March, they closed ranks; he urged the Jacobins to rally behind established government and seek reconciliation with the Cordeliers.",
+            "stance": "Their alliance was strong on terror and central authority, but evidence should preserve each man's distinct actions and Collot's direct role at Lyons.",
+            "acceptable_access": [
+              "Billaud-Varenne and Collot d'Herbois, radical government and defense of Terror",
+              "Billaud-Varenne, Jacques-Nicolas > Terror policy",
+              "Collot d'Herbois, Jean-Marie > Lyons and Committee of Public Safety",
+              "Committee of Public Safety > radical members",
+              "Collot d'Herbois—Lyons",
+              "Collot d'Herbois—Terror",
+              "Collot d'Herbois—Hébertists",
+              "Billaud-Varenne",
+              "Billaud-Varenne—Terror",
+              "Billaud-Varenne—Committee of Public Safety",
+              "Billaud-Varenne—centralization"
+            ],
+            "document_pages": [
+              250,
+              251,
+              254,
+              263,
+              268,
+              269
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "dd6cccf080c758d551dd3372aea78b25a1f2ed730afd0dbd3a7dd3adecc2818a",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "250 identifies Billaud’s particular hoarding proposal.269 supports Collot’s rally to the committees and invitation to reconcile with the Cordeliers after saving his position; compose this with the stage8 chronology instead of replacing it with a vaguer unity sentence.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 26,
+      "subject_id": "SUBJ-SUCC-BAE3182C598F",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0041",
+        "CORR-007-LEGACY-0042",
+        "CORR-007-LEGACY-0061",
+        "CORR-007-LEGACY-0079",
+        "CORR-007-LEGACY-0080",
+        "CORR-007-LEGACY-0081"
+      ],
+      "source_correction_row_sha256s": [
+        "521528bdfa1c5fd21a3af7ffda4075e48b1b97e9c16a03023d9900be894b68f7",
+        "9a11ed48093e71cf300f85841f4cbae65386a723bbd473562a69df822426799b",
+        "06c601d383a4f36e2fa11f0bb46edf841be449f6161ee69f680514e5d776466d",
+        "20fcef6a193577f8302f62f24ccb716beeadbec1c137e0d9f52794fb84c6ae21",
+        "f9e2dc16b47e6b97c415c9d6903e27c1af24cb30e673772f528247bf201a3f8b",
+        "597c1eac3fab6cc34f14ad67d77fc27f91310bc97e5f1ea0e91a71de4be0a2b5"
+      ],
+      "before_record": {
+        "label": "Kosciuszko Insurrection of 1794",
+        "priority": "major",
+        "meaning": "Kosciuszko's French-inspired national uprising, mass-mobilization ambitions, limited social reform, battlefield successes, and ultimate defeat. France provided little material aid: Montagnards prioritized securing revolution at home over the Girondin export policy, even while Poland materially relieved pressure on France.",
+        "stance": "The rising drew on Polish traditions as well as revolutionary language; it received little French aid but materially distracted France's enemies.",
+        "subject_id": "SUBJ-SUCC-BAE3182C598F",
+        "acceptable_access": [
+          "Kosciuszko Insurrection of 1794",
+          "Kosciuszko, Tadeusz",
+          "Kosciuszko Insurrection",
+          "Poland, uprising of 1794",
+          "Polish levee en masse",
+          "Polish uprising of 1794",
+          "Kosciuszko, Tadeusz—1794",
+          "Poland—French revolutionary influence",
+          "Polish Jacobinism",
+          "Society of Friends of the National Insurrection",
+          "Marseillaise—Poland",
+          "Połaniec Proclamation",
+          "Polish peasants—1794 uprising",
+          "Kosciuszko—social reforms",
+          "Polish levée en masse",
+          "France—failure to aid Poland",
+          "Montagnards—foreign revolution policy",
+          "Kosciuszko—French support",
+          "Polish uprising—effect on French war",
+          "coalition distraction by Poland",
+          "Fleurus—Polish context"
+        ],
+        "evidence": [
+          {
+            "document_page": 207,
+            "source_page_label": "207",
+            "locator_class": "principal",
+            "evidence_summary": "After unsuccessful Paris lobbying, Kosciuszko proclaimed the rising at Cracow; victory at Raclawice encouraged urban uprisings. French revolutionary forms combined with Polish traditions and limited peasant emancipation intended to sustain mobilization.",
+            "evidence_id": "EVID-SUCC-A7FDC3931BCC",
+            "source_local_subject_id": "SUCC-C009-S019",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 208,
+            "source_page_label": "208",
+            "locator_class": "principal",
+            "evidence_summary": "Prussian, Austrian and Russian intervention culminated in Kosciuszko’s defeat, the Praga massacre and Warsaw’s surrender. French non-assistance coexisted with the eastward distraction of coalition powers and the decision to partition Poland.",
+            "evidence_id": "EVID-SUCC-CBB3DD5DA4BF",
+            "source_local_subject_id": "SUCC-C009-S019",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 209,
+            "source_page_label": "209",
+            "locator_class": "principal",
+            "evidence_summary": "Serious French attention arrives only after Warsaw has fallen.",
+            "evidence_id": "EVID-SUCC-2AC9F04DDD2B",
+            "source_local_subject_id": "SUCC-C009-S019",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S019",
+            "label": "Kosciuszko Insurrection of 1794",
+            "meaning": "Kosciuszko's French-inspired national uprising, mass-mobilization ambitions, limited social reform, battlefield successes, and ultimate defeat. France provided little material aid: Montagnards prioritized securing revolution at home over the Girondin export policy, even while Poland materially relieved pressure on France.",
+            "stance": "The rising drew on Polish traditions as well as revolutionary language; it received little French aid but materially distracted France's enemies.",
+            "acceptable_access": [
+              "Kosciuszko Insurrection of 1794",
+              "Kosciuszko, Tadeusz",
+              "Kosciuszko Insurrection",
+              "Poland, uprising of 1794",
+              "Polish levee en masse",
+              "Polish uprising of 1794",
+              "Kosciuszko, Tadeusz—1794",
+              "Poland—French revolutionary influence",
+              "Polish Jacobinism",
+              "Society of Friends of the National Insurrection",
+              "Marseillaise—Poland",
+              "Połaniec Proclamation",
+              "Polish peasants—1794 uprising",
+              "Kosciuszko—social reforms",
+              "Polish levée en masse",
+              "France—failure to aid Poland",
+              "Montagnards—foreign revolution policy",
+              "Kosciuszko—French support",
+              "Polish uprising—effect on French war",
+              "coalition distraction by Poland",
+              "Fleurus—Polish context"
+            ],
+            "document_pages": [
+              207,
+              208,
+              209
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S019"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S019",
+            "label": "Kosciuszko Insurrection of 1794",
+            "meaning": "Kosciuszko's French-inspired national uprising, mass-mobilization ambitions, limited social reform, battlefield successes, and ultimate defeat. France provided little material aid: Montagnards prioritized securing revolution at home over the Girondin export policy, even while Poland materially relieved pressure on France.",
+            "stance": "The rising drew on Polish traditions as well as revolutionary language; it received little French aid but materially distracted France's enemies.",
+            "acceptable_access": [
+              "Kosciuszko Insurrection of 1794",
+              "Kosciuszko, Tadeusz",
+              "Kosciuszko Insurrection",
+              "Poland, uprising of 1794",
+              "Polish levee en masse",
+              "Polish uprising of 1794",
+              "Kosciuszko, Tadeusz—1794",
+              "Poland—French revolutionary influence",
+              "Polish Jacobinism",
+              "Society of Friends of the National Insurrection",
+              "Marseillaise—Poland",
+              "Połaniec Proclamation",
+              "Polish peasants—1794 uprising",
+              "Kosciuszko—social reforms",
+              "Polish levée en masse",
+              "France—failure to aid Poland",
+              "Montagnards—foreign revolution policy",
+              "Kosciuszko—French support",
+              "Polish uprising—effect on French war",
+              "coalition distraction by Poland",
+              "Fleurus—Polish context"
+            ],
+            "document_pages": [
+              207,
+              208,
+              209
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "a8146e3e86b45a3802eb45fcaf397f174c75b992dd9cfcb1cb2cd32c64ba9617",
+      "proposed_record": {
+        "label": "Kosciuszko Insurrection of 1794",
+        "priority": "major",
+        "meaning": "Kosciuszko's French-inspired national uprising, mass-mobilization ambitions, limited social reform, battlefield successes, and ultimate defeat. France provided little material aid: Montagnards prioritized securing revolution at home over the Girondin export policy, even while Poland materially relieved pressure on France. Insurgents borrowed tricolour symbols, songs and club organization while adapting national-rights language to Polish traditions. The May proclamation promised peasant personal freedom, reduced lordly burdens and possible further liberties to sustain mass mobilization, a programme contested by noble leaders.",
+        "stance": "The rising drew on Polish traditions as well as revolutionary language; it received little French aid but materially distracted France's enemies.",
+        "subject_id": "SUBJ-SUCC-BAE3182C598F",
+        "acceptable_access": [
+          "Kosciuszko Insurrection of 1794",
+          "Kosciuszko, Tadeusz",
+          "Kosciuszko Insurrection",
+          "Poland, uprising of 1794",
+          "Polish levee en masse",
+          "Polish uprising of 1794",
+          "Kosciuszko, Tadeusz—1794",
+          "Poland—French revolutionary influence",
+          "Polish Jacobinism",
+          "Society of Friends of the National Insurrection",
+          "Marseillaise—Poland",
+          "Połaniec Proclamation",
+          "Polish peasants—1794 uprising",
+          "Kosciuszko—social reforms",
+          "Polish levée en masse",
+          "France—failure to aid Poland",
+          "Montagnards—foreign revolution policy",
+          "Kosciuszko—French support",
+          "Polish uprising—effect on French war",
+          "coalition distraction by Poland",
+          "Fleurus—Polish context"
+        ],
+        "evidence": [
+          {
+            "document_page": 207,
+            "source_page_label": "207",
+            "locator_class": "principal",
+            "evidence_summary": "The Polish rising distracted France’s enemies at the French military turning point. After failed French lobbying, the Cracow proclamation and Raclawice victory triggered Warsaw and Vilno risings. Tricolours, translated revolutionary songs and a national-insurrection club adapted French forms to Polish traditions. The May proclamation promised peasant personal freedom, reduced lordly burdens and possible further liberties to sustain mobilization, alarming some noble leaders.",
+            "evidence_id": "EVID-SUCC-A7FDC3931BCC",
+            "source_local_subject_id": "SUCC-C009-S019",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 208,
+            "source_page_label": "208",
+            "locator_class": "principal",
+            "evidence_summary": "Partitioning monarchs treated the rising as international Jacobinism while competing for Polish territory. Prussian, Austrian and Russian intervention culminated in Kosciuszko’s defeat, the Praga massacre and Warsaw’s surrender. French non-assistance coexisted with the eastward diversion of coalition forces and bargaining over partition; Prussia disengaged from the western war.",
+            "evidence_id": "EVID-SUCC-CBB3DD5DA4BF",
+            "source_local_subject_id": "SUCC-C009-S019",
+            "source_chunk_id": "CHUNK-009"
+          },
+          {
+            "document_page": 209,
+            "source_page_label": "209",
+            "locator_class": "principal",
+            "evidence_summary": "Serious French attention arrives only after Warsaw has fallen.",
+            "evidence_id": "EVID-SUCC-2AC9F04DDD2B",
+            "source_local_subject_id": "SUCC-C009-S019",
+            "source_chunk_id": "CHUNK-009"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-009"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C009-S019",
+            "label": "Kosciuszko Insurrection of 1794",
+            "meaning": "Kosciuszko's French-inspired national uprising, mass-mobilization ambitions, limited social reform, battlefield successes, and ultimate defeat. France provided little material aid: Montagnards prioritized securing revolution at home over the Girondin export policy, even while Poland materially relieved pressure on France. Insurgents borrowed tricolour symbols, songs and club organization while adapting national-rights language to Polish traditions. The May proclamation promised peasant personal freedom, reduced lordly burdens and possible further liberties to sustain mass mobilization, a programme contested by noble leaders.",
+            "stance": "The rising drew on Polish traditions as well as revolutionary language; it received little French aid but materially distracted France's enemies.",
+            "acceptable_access": [
+              "Kosciuszko Insurrection of 1794",
+              "Kosciuszko, Tadeusz",
+              "Kosciuszko Insurrection",
+              "Poland, uprising of 1794",
+              "Polish levee en masse",
+              "Polish uprising of 1794",
+              "Kosciuszko, Tadeusz—1794",
+              "Poland—French revolutionary influence",
+              "Polish Jacobinism",
+              "Society of Friends of the National Insurrection",
+              "Marseillaise—Poland",
+              "Połaniec Proclamation",
+              "Polish peasants—1794 uprising",
+              "Kosciuszko—social reforms",
+              "Polish levée en masse",
+              "France—failure to aid Poland",
+              "Montagnards—foreign revolution policy",
+              "Kosciuszko—French support",
+              "Polish uprising—effect on French war",
+              "coalition distraction by Poland",
+              "Fleurus—Polish context"
+            ],
+            "document_pages": [
+              207,
+              208,
+              209
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C009-S019"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C009-S019",
+            "label": "Kosciuszko Insurrection of 1794",
+            "meaning": "Kosciuszko's French-inspired national uprising, mass-mobilization ambitions, limited social reform, battlefield successes, and ultimate defeat. France provided little material aid: Montagnards prioritized securing revolution at home over the Girondin export policy, even while Poland materially relieved pressure on France. Insurgents borrowed tricolour symbols, songs and club organization while adapting national-rights language to Polish traditions. The May proclamation promised peasant personal freedom, reduced lordly burdens and possible further liberties to sustain mass mobilization, a programme contested by noble leaders.",
+            "stance": "The rising drew on Polish traditions as well as revolutionary language; it received little French aid but materially distracted France's enemies.",
+            "acceptable_access": [
+              "Kosciuszko Insurrection of 1794",
+              "Kosciuszko, Tadeusz",
+              "Kosciuszko Insurrection",
+              "Poland, uprising of 1794",
+              "Polish levee en masse",
+              "Polish uprising of 1794",
+              "Kosciuszko, Tadeusz—1794",
+              "Poland—French revolutionary influence",
+              "Polish Jacobinism",
+              "Society of Friends of the National Insurrection",
+              "Marseillaise—Poland",
+              "Połaniec Proclamation",
+              "Polish peasants—1794 uprising",
+              "Kosciuszko—social reforms",
+              "Polish levée en masse",
+              "France—failure to aid Poland",
+              "Montagnards—foreign revolution policy",
+              "Kosciuszko—French support",
+              "Polish uprising—effect on French war",
+              "coalition distraction by Poland",
+              "Fleurus—Polish context"
+            ],
+            "document_pages": [
+              207,
+              208,
+              209
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "09d8653b885e04d1c7443ff3aec7949e9d27ccb8ca760941be3cb5842167fc59",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "207–208 supports Polish and French forms, limited peasant promises and noble objections, military sequence, territorial rivalry and strategic diversion. Retain stage8’s specific defeat, Praga massacre and Warsaw surrender while adding the opposed monarchs’ perception, never treating their Jacobin accusation as the reviewer’s explanation.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 27,
+      "subject_id": "SUBJ-SUCC-A91A3B09441B",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0043",
+        "CORR-007-LEGACY-0044"
+      ],
+      "source_correction_row_sha256s": [
+        "8111f03831bb7982ee9c6b280bc68048650dbce79fb2edb2efb3b68f8c53e772",
+        "554b0ec6ef1c9024d6e7baac15d6ec624b14a69263be130373a70ff93e902fcd"
+      ],
+      "before_record": {
+        "label": "Cispadane and Cisalpine Republics: formation",
+        "priority": "major",
+        "meaning": "The formation of the Cispadane Republic and its rapid incorporation with Lombardy into the Cisalpine Republic.",
+        "stance": "The republics arose through a mixture of local patriot initiatives and Bonaparte's strategic calculations, not through a settled plan for Italian nationhood.",
+        "subject_id": "SUBJ-SUCC-A91A3B09441B",
+        "acceptable_access": [
+          "Cispadane Republic",
+          "Cisalpine Republic—formation",
+          "Northern Italian sister republics",
+          "Cispadane Constitution",
+          "Reggio congress",
+          "Italian Legion"
+        ],
+        "evidence": [
+          {
+            "document_page": 359,
+            "source_page_label": "359",
+            "locator_class": "principal",
+            "evidence_summary": "Bologna, Ferrara, and Modena formed the Cispadane Republic with Bonaparte's encouragement.",
+            "evidence_id": "EVID-SUCC-565603A2C0AE",
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 360,
+            "source_page_label": "360",
+            "locator_class": "principal",
+            "evidence_summary": "Conservative elections prompted Bonaparte to merge Cispadana and Lombardy into the Cisalpine Republic.",
+            "evidence_id": "EVID-SUCC-9A25117271E0",
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 361,
+            "source_page_label": "361",
+            "locator_class": "supporting",
+            "evidence_summary": "Strategic consolidation and coherent frontiers made a north Italian client republic preferable to annexation.",
+            "evidence_id": "EVID-SUCC-36A85AA15FEE",
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "evidence_id": "EVID-SUCC-CBD814C9648B",
+            "source_evidence_id": "EVID-2470C5729D1B",
+            "document_page": 360,
+            "source_page_label": "360",
+            "locator_class": "supporting",
+            "evidence_summary": "Strategic and political calculations produced the Cispadane and then consolidated Cisalpine republics.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S013",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-9A050CC31262",
+              "evidence_id": "EVID-C4838B30FE6C"
+            },
+            "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S026",
+            "label": "Cispadane and Cisalpine Republics: formation",
+            "meaning": "The formation of the Cispadane Republic and its rapid incorporation with Lombardy into the Cisalpine Republic.",
+            "stance": "The republics arose through a mixture of local patriot initiatives and Bonaparte's strategic calculations, not through a settled plan for Italian nationhood.",
+            "acceptable_access": [
+              "Cispadane Republic",
+              "Cisalpine Republic—formation",
+              "Northern Italian sister republics",
+              "Cispadane Constitution",
+              "Reggio congress",
+              "Italian Legion"
+            ],
+            "document_pages": [
+              359,
+              360,
+              361
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S026"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S026",
+            "label": "Cispadane and Cisalpine Republics: formation",
+            "meaning": "The formation of the Cispadane Republic and its rapid incorporation with Lombardy into the Cisalpine Republic.",
+            "stance": "The republics arose through a mixture of local patriot initiatives and Bonaparte's strategic calculations, not through a settled plan for Italian nationhood.",
+            "acceptable_access": [
+              "Cispadane Republic",
+              "Cisalpine Republic—formation",
+              "Northern Italian sister republics",
+              "Cispadane Constitution",
+              "Reggio congress",
+              "Italian Legion"
+            ],
+            "document_pages": [
+              359,
+              360,
+              361
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "969cd4665af77ad3cd84e19757a553c34082c779cd498903e086d69ca15fa09b",
+      "proposed_record": {
+        "label": "Cispadane and Cisalpine Republics: formation",
+        "priority": "major",
+        "meaning": "Local administrations in Bologna, Ferrara and Modena concerted action, proclaimed the Cispadane Republic at Reggio and adopted a French-style constitution with Bonaparte’s encouragement. Conservative electoral success prompted his provisional government and rapid merger with Lombardy into the Cisalpine Republic.",
+        "stance": "The republics arose through a mixture of local patriot initiatives and Bonaparte's strategic calculations, not through a settled plan for Italian nationhood.",
+        "subject_id": "SUBJ-SUCC-A91A3B09441B",
+        "acceptable_access": [
+          "Cispadane Republic",
+          "Cisalpine Republic—formation",
+          "Northern Italian sister republics",
+          "Cispadane Constitution",
+          "Reggio congress",
+          "Italian Legion"
+        ],
+        "evidence": [
+          {
+            "document_page": 359,
+            "source_page_label": "359",
+            "locator_class": "principal",
+            "evidence_summary": "French-backed administrations in Bologna, Ferrara and Modena coordinated against conservative resistance, proclaimed the Cispadane Republic at Reggio, and drafted a constitution that Bonaparte personally expedited.",
+            "evidence_id": "EVID-SUCC-565603A2C0AE",
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 360,
+            "source_page_label": "360",
+            "locator_class": "principal",
+            "evidence_summary": "Conservative elections prompted Bonaparte to merge Cispadana and Lombardy into the Cisalpine Republic.",
+            "evidence_id": "EVID-SUCC-9A25117271E0",
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 361,
+            "source_page_label": "361",
+            "locator_class": "supporting",
+            "evidence_summary": "Strategic consolidation and coherent frontiers made a north Italian client republic preferable to annexation.",
+            "evidence_id": "EVID-SUCC-36A85AA15FEE",
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "evidence_id": "EVID-SUCC-CBD814C9648B",
+            "source_evidence_id": "EVID-2470C5729D1B",
+            "document_page": 360,
+            "source_page_label": "360",
+            "locator_class": "supporting",
+            "evidence_summary": "Strategic and political calculations produced the Cispadane and then consolidated Cisalpine republics.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S013",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S026",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-9A050CC31262",
+              "evidence_id": "EVID-C4838B30FE6C"
+            },
+            "reconciliation_rationale": "Reassign the page claim to its specific subject rather than the old composite endpoint. The exact claim and destination label identify the distinct event,policy or consequence being preserved."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S026",
+            "label": "Cispadane and Cisalpine Republics: formation",
+            "meaning": "Local administrations in Bologna, Ferrara and Modena concerted action, proclaimed the Cispadane Republic at Reggio and adopted a French-style constitution with Bonaparte’s encouragement. Conservative electoral success prompted his provisional government and rapid merger with Lombardy into the Cisalpine Republic.",
+            "stance": "The republics arose through a mixture of local patriot initiatives and Bonaparte's strategic calculations, not through a settled plan for Italian nationhood.",
+            "acceptable_access": [
+              "Cispadane Republic",
+              "Cisalpine Republic—formation",
+              "Northern Italian sister republics",
+              "Cispadane Constitution",
+              "Reggio congress",
+              "Italian Legion"
+            ],
+            "document_pages": [
+              359,
+              360,
+              361
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S026"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S026",
+            "label": "Cispadane and Cisalpine Republics: formation",
+            "meaning": "Local administrations in Bologna, Ferrara and Modena concerted action, proclaimed the Cispadane Republic at Reggio and adopted a French-style constitution with Bonaparte’s encouragement. Conservative electoral success prompted his provisional government and rapid merger with Lombardy into the Cisalpine Republic.",
+            "stance": "The republics arose through a mixture of local patriot initiatives and Bonaparte's strategic calculations, not through a settled plan for Italian nationhood.",
+            "acceptable_access": [
+              "Cispadane Republic",
+              "Cisalpine Republic—formation",
+              "Northern Italian sister republics",
+              "Cispadane Constitution",
+              "Reggio congress",
+              "Italian Legion"
+            ],
+            "document_pages": [
+              359,
+              360,
+              361
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "0a53aab4d8d3e5a17ccb80f8f36f81d14f72b84665ce435c827e7d2b84d9d9c3",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "359–360 explicitly gives local coordination, the Reggio declaration, Bonaparte’s constitutional intervention and response to conservative elections. The chapter’s mixture of initiative and strategic calculation remains qualified; no harmonization of the separate215 date discrepancy is attempted.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 28,
+      "subject_id": "SUBJ-SUCC-A6EB838468C1",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0048"
+      ],
+      "source_correction_row_sha256s": [
+        "5aeb6ecd69c097a21380c1f3bface6cdafb4aedbd2c93b7433f6ba13417f17c9"
+      ],
+      "before_record": {
+        "label": "Ligurian Republic",
+        "priority": "optional",
+        "meaning": "The French-backed transformation of Genoa into the Ligurian Republic and its subsequent subordination to French financial demands.",
+        "stance": "Its locally drafted and plebiscite-approved constitution contrasted with Cisalpina, but French coercion quickly constrained fiscal independence.",
+        "subject_id": "SUBJ-SUCC-A6EB838468C1",
+        "acceptable_access": [
+          "Ligurian Republic",
+          "Genoa—French-backed republic"
+        ],
+        "evidence": [
+          {
+            "document_page": 362,
+            "source_page_label": "362",
+            "locator_class": "principal",
+            "evidence_summary": "Genoa became the Ligurian Republic with a locally drafted constitution approved by plebiscite.",
+            "evidence_id": "EVID-SUCC-7DA653EC0029",
+            "source_local_subject_id": "SUCC-C015-S042",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 363,
+            "source_page_label": "363",
+            "locator_class": "principal",
+            "evidence_summary": "A French-engineered coup purged legislators who resisted a large forced loan.",
+            "evidence_id": "EVID-SUCC-5BDD58FB4859",
+            "source_local_subject_id": "SUCC-C015-S042",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S042",
+            "label": "Ligurian Republic",
+            "meaning": "The French-backed transformation of Genoa into the Ligurian Republic and its subsequent subordination to French financial demands.",
+            "stance": "Its locally drafted and plebiscite-approved constitution contrasted with Cisalpina, but French coercion quickly constrained fiscal independence.",
+            "acceptable_access": [
+              "Ligurian Republic",
+              "Genoa—French-backed republic"
+            ],
+            "document_pages": [
+              362,
+              363
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S042"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S042",
+            "label": "Ligurian Republic",
+            "meaning": "The French-backed transformation of Genoa into the Ligurian Republic and its subsequent subordination to French financial demands.",
+            "stance": "Its locally drafted and plebiscite-approved constitution contrasted with Cisalpina, but French coercion quickly constrained fiscal independence.",
+            "acceptable_access": [
+              "Ligurian Republic",
+              "Genoa—French-backed republic"
+            ],
+            "document_pages": [
+              362,
+              363
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "e53e79a030c6a1fadc4460ee4d481a5e1d7f79e1eb282027c26ac68fb0ede601",
+      "proposed_record": {
+        "label": "Ligurian Republic",
+        "priority": "optional",
+        "meaning": "The French-backed transformation of Genoa into the Ligurian Republic and its subsequent subordination to French financial demands.",
+        "stance": "Its locally drafted and plebiscite-approved constitution contrasted with Cisalpina, but French coercion quickly constrained fiscal independence.",
+        "subject_id": "SUBJ-SUCC-A6EB838468C1",
+        "acceptable_access": [
+          "Ligurian Republic",
+          "Genoa—French-backed republic",
+          "Ligurian coup of 1798",
+          "Genoa—French revolutionary rule"
+        ],
+        "evidence": [
+          {
+            "document_page": 362,
+            "source_page_label": "362",
+            "locator_class": "principal",
+            "evidence_summary": "Genoa became the Ligurian Republic with a locally drafted constitution approved by plebiscite.",
+            "evidence_id": "EVID-SUCC-7DA653EC0029",
+            "source_local_subject_id": "SUCC-C015-S042",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 363,
+            "source_page_label": "363",
+            "locator_class": "principal",
+            "evidence_summary": "A French-engineered coup purged legislators who resisted a large forced loan.",
+            "evidence_id": "EVID-SUCC-5BDD58FB4859",
+            "source_local_subject_id": "SUCC-C015-S042",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S042",
+            "label": "Ligurian Republic",
+            "meaning": "The French-backed transformation of Genoa into the Ligurian Republic and its subsequent subordination to French financial demands.",
+            "stance": "Its locally drafted and plebiscite-approved constitution contrasted with Cisalpina, but French coercion quickly constrained fiscal independence.",
+            "acceptable_access": [
+              "Ligurian Republic",
+              "Genoa—French-backed republic",
+              "Ligurian coup of 1798",
+              "Genoa—French revolutionary rule"
+            ],
+            "document_pages": [
+              362,
+              363
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S042"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S042",
+            "label": "Ligurian Republic",
+            "meaning": "The French-backed transformation of Genoa into the Ligurian Republic and its subsequent subordination to French financial demands.",
+            "stance": "Its locally drafted and plebiscite-approved constitution contrasted with Cisalpina, but French coercion quickly constrained fiscal independence.",
+            "acceptable_access": [
+              "Ligurian Republic",
+              "Genoa—French-backed republic",
+              "Ligurian coup of 1798",
+              "Genoa—French revolutionary rule"
+            ],
+            "document_pages": [
+              362,
+              363
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "671cdb4827a7235829cdd571bdb41827d72ffd93c27b3af01083208679a01b54",
+      "fields_changed": [
+        "acceptable_access",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "363 supports a distinct Ligurian coup route tied to the loan refusal. Add that route while preserving all existing reviewed alternatives; no added subject obligation beyond the existing treatment.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 29,
+      "subject_id": "SUBJ-SUCC-415BA63D659A",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0049",
+        "CORR-007-LEGACY-0339"
+      ],
+      "source_correction_row_sha256s": [
+        "dadec3d144467a79641239cd8c3cc102b7f56ec77162c7b8d5bee344702403c4",
+        "fc4cdd17d07d6b923ca9b55f11d2dc4a4f2346cfed11c067f43024ba9509875f"
+      ],
+      "before_record": {
+        "label": "Regicide and the irreversible Republican Revolution",
+        "priority": "essential",
+        "meaning": "The execution of Louis XVI completed the chapter's republican transformation by foreclosing compromise and strengthening both domestic and European enemies of the Revolution.",
+        "stance": "Regicide is interpreted less as a settled victory than as an irrevocable challenge that intensified the conflicts of 1793.",
+        "subject_id": "SUBJ-SUCC-415BA63D659A",
+        "acceptable_access": [
+          "Regicide and the irreversible Republican Revolution",
+          "Republican Revolution—climax",
+          "Regicide—consequences",
+          "French Revolution—irreversibility",
+          "Republican Revolution",
+          "republican revolution of 1791-1793",
+          "collapse of constitutional monarchy",
+          "road to regicide",
+          "regicide, consequences",
+          "meaning of Louis XVI's execution",
+          "irreversibility after regicide",
+          "old order, irreversible destruction",
+          "ancien regime, destruction",
+          "irreversibility of the Revolution"
+        ],
+        "evidence": [
+          {
+            "document_page": 174,
+            "source_page_label": "174",
+            "locator_class": "incidental",
+            "evidence_summary": "The chapter opens with a new legislature shaped by post-1789 local experience and hostility toward perceived domestic enemies.",
+            "evidence_id": "EVID-SUCC-95B53BB997F1",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 183,
+            "source_page_label": "183",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Peasants act to make feudal destruction irreversible, and the newly begun war is said to do still more toward that end.",
+            "evidence_id": "EVID-SUCC-91522CEE47B6",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 187,
+            "source_page_label": "187",
+            "locator_class": "supporting",
+            "evidence_summary": "The failed June confrontation and preparations for another make the constitutional settlement appear exhausted.",
+            "evidence_id": "EVID-SUCC-952CB182972B",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 189,
+            "source_page_label": "189",
+            "locator_class": "principal",
+            "evidence_summary": "The 10 August victory suspends monarchy and transfers effective power away from the legislature.",
+            "evidence_id": "EVID-SUCC-666039913CEB",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 193,
+            "source_page_label": "193",
+            "locator_class": "principal",
+            "evidence_summary": "Valmy coincides with the Convention’s opening in this account; page194 separately dates abolition of monarchy to21September and the republican epoch to22September.",
+            "evidence_id": "EVID-SUCC-ACA26CE3C972",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 196,
+            "source_page_label": "196",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The chapter concludes that execution made the destruction of the old regime irrevocable while multiplying the Republic's enemies.",
+            "evidence_id": "EVID-SUCC-3DB9661249BF",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S011",
+            "label": "Regicide and the irreversible Republican Revolution",
+            "meaning": "The execution of Louis XVI completed the chapter's republican transformation by foreclosing compromise and strengthening both domestic and European enemies of the Revolution.",
+            "stance": "Regicide is interpreted less as a settled victory than as an irrevocable challenge that intensified the conflicts of 1793.",
+            "acceptable_access": [
+              "Regicide and the irreversible Republican Revolution",
+              "Republican Revolution—climax",
+              "Regicide—consequences",
+              "French Revolution—irreversibility",
+              "Republican Revolution",
+              "republican revolution of 1791-1793",
+              "collapse of constitutional monarchy",
+              "road to regicide",
+              "regicide, consequences",
+              "meaning of Louis XVI's execution",
+              "irreversibility after regicide",
+              "old order, irreversible destruction",
+              "ancien regime, destruction",
+              "irreversibility of the Revolution"
+            ],
+            "document_pages": [
+              183,
+              187,
+              189,
+              193,
+              196
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S011"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S011",
+            "label": "Regicide and the irreversible Republican Revolution",
+            "meaning": "The execution of Louis XVI completed the chapter's republican transformation by foreclosing compromise and strengthening both domestic and European enemies of the Revolution.",
+            "stance": "Regicide is interpreted less as a settled victory than as an irrevocable challenge that intensified the conflicts of 1793.",
+            "acceptable_access": [
+              "Regicide and the irreversible Republican Revolution",
+              "Republican Revolution—climax",
+              "Regicide—consequences",
+              "French Revolution—irreversibility",
+              "Republican Revolution",
+              "republican revolution of 1791-1793",
+              "collapse of constitutional monarchy",
+              "road to regicide",
+              "regicide, consequences",
+              "meaning of Louis XVI's execution",
+              "irreversibility after regicide",
+              "old order, irreversible destruction",
+              "ancien regime, destruction",
+              "irreversibility of the Revolution"
+            ],
+            "document_pages": [
+              183,
+              187,
+              189,
+              193,
+              196
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "d034a46a0b59470490c6be76ffe2afb07432abddd5c42d859151045b77b3f430",
+      "proposed_record": {
+        "label": "Regicide and the irreversible Republican Revolution",
+        "priority": "essential",
+        "meaning": "Peasant anti-feudal action and the newly begun war progressively undermined restoration of the old social order. The execution of Louis XVI completed the chapter’s republican transformation by foreclosing compromise and strengthening domestic and European enemies. From the new Legislative Assembly through war, the 10 August insurrection and the Convention’s republican declaration, constitutional monarchy gave way to popular and representative challenges ending in regicide.",
+        "stance": "Regicide is interpreted less as a settled victory than as an irrevocable challenge that intensified the conflicts of 1793. This cumulative rupture does not mean every inherited institution vanished at once or that later monarchical restoration was impossible.",
+        "subject_id": "SUBJ-SUCC-415BA63D659A",
+        "acceptable_access": [
+          "Regicide and the irreversible Republican Revolution",
+          "Republican Revolution—climax",
+          "Regicide—consequences",
+          "French Revolution—irreversibility",
+          "Republican Revolution",
+          "republican revolution of 1791-1793",
+          "collapse of constitutional monarchy",
+          "road to regicide",
+          "regicide, consequences",
+          "meaning of Louis XVI's execution",
+          "irreversibility after regicide",
+          "old order, irreversible destruction",
+          "ancien regime, destruction",
+          "irreversibility of the Revolution",
+          "old order—irreversible destruction",
+          "ancien régime—destruction"
+        ],
+        "evidence": [
+          {
+            "document_page": 174,
+            "source_page_label": "174",
+            "locator_class": "incidental",
+            "evidence_summary": "The chapter opens with a new legislature shaped by post-1789 local experience and hostility toward perceived domestic enemies.",
+            "evidence_id": "EVID-SUCC-95B53BB997F1",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 183,
+            "source_page_label": "183",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Peasants act to make feudal destruction irreversible, and the newly begun war is said to do still more toward that end.",
+            "evidence_id": "EVID-SUCC-91522CEE47B6",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 187,
+            "source_page_label": "187",
+            "locator_class": "supporting",
+            "evidence_summary": "The failed June confrontation and preparations for another make the constitutional settlement appear exhausted.",
+            "evidence_id": "EVID-SUCC-952CB182972B",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 189,
+            "source_page_label": "189",
+            "locator_class": "principal",
+            "evidence_summary": "The 10 August victory suspends monarchy and transfers effective power away from the legislature.",
+            "evidence_id": "EVID-SUCC-666039913CEB",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 193,
+            "source_page_label": "193",
+            "locator_class": "principal",
+            "evidence_summary": "Valmy coincides with the Convention’s opening in this account; page194 separately dates abolition of monarchy to21September and the republican epoch to22September.",
+            "evidence_id": "EVID-SUCC-ACA26CE3C972",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          },
+          {
+            "document_page": 196,
+            "source_page_label": "196",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "The chapter concludes that execution made the destruction of the old regime irrevocable while multiplying the Republic's enemies.",
+            "evidence_id": "EVID-SUCC-3DB9661249BF",
+            "source_local_subject_id": "SUCC-C008-S011",
+            "source_chunk_id": "CHUNK-008"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-008"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C008-S011",
+            "label": "Regicide and the irreversible Republican Revolution",
+            "meaning": "Peasant anti-feudal action and the newly begun war progressively undermined restoration of the old social order. The execution of Louis XVI completed the chapter’s republican transformation by foreclosing compromise and strengthening domestic and European enemies. From the new Legislative Assembly through war, the 10 August insurrection and the Convention’s republican declaration, constitutional monarchy gave way to popular and representative challenges ending in regicide.",
+            "stance": "Regicide is interpreted less as a settled victory than as an irrevocable challenge that intensified the conflicts of 1793. This cumulative rupture does not mean every inherited institution vanished at once or that later monarchical restoration was impossible.",
+            "acceptable_access": [
+              "Regicide and the irreversible Republican Revolution",
+              "Republican Revolution—climax",
+              "Regicide—consequences",
+              "French Revolution—irreversibility",
+              "Republican Revolution",
+              "republican revolution of 1791-1793",
+              "collapse of constitutional monarchy",
+              "road to regicide",
+              "regicide, consequences",
+              "meaning of Louis XVI's execution",
+              "irreversibility after regicide",
+              "old order, irreversible destruction",
+              "ancien regime, destruction",
+              "irreversibility of the Revolution",
+              "old order—irreversible destruction",
+              "ancien régime—destruction"
+            ],
+            "document_pages": [
+              183,
+              187,
+              189,
+              193,
+              196
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C008-S011"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C008-S011",
+            "label": "Regicide and the irreversible Republican Revolution",
+            "meaning": "Peasant anti-feudal action and the newly begun war progressively undermined restoration of the old social order. The execution of Louis XVI completed the chapter’s republican transformation by foreclosing compromise and strengthening domestic and European enemies. From the new Legislative Assembly through war, the 10 August insurrection and the Convention’s republican declaration, constitutional monarchy gave way to popular and representative challenges ending in regicide.",
+            "stance": "Regicide is interpreted less as a settled victory than as an irrevocable challenge that intensified the conflicts of 1793. This cumulative rupture does not mean every inherited institution vanished at once or that later monarchical restoration was impossible.",
+            "acceptable_access": [
+              "Regicide and the irreversible Republican Revolution",
+              "Republican Revolution—climax",
+              "Regicide—consequences",
+              "French Revolution—irreversibility",
+              "Republican Revolution",
+              "republican revolution of 1791-1793",
+              "collapse of constitutional monarchy",
+              "road to regicide",
+              "regicide, consequences",
+              "meaning of Louis XVI's execution",
+              "irreversibility after regicide",
+              "old order, irreversible destruction",
+              "ancien regime, destruction",
+              "irreversibility of the Revolution",
+              "old order—irreversible destruction",
+              "ancien régime—destruction"
+            ],
+            "document_pages": [
+              183,
+              187,
+              189,
+              193,
+              196
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "4dc3731c15ef0a35e2601259af7c9a39c1f3e2f486d888a5544260744b8e25c6",
+      "fields_changed": [
+        "meaning",
+        "stance",
+        "acceptable_access",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "183 and196 support successive social destruction and regicide as an irreversible challenge. The broader chapter sequence already has inspected source support; retaining it does not assert that all inherited institutions vanished or that later monarchy could not return.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    },
+    {
+      "group_index": 30,
+      "subject_id": "SUBJ-SUCC-6BBDB6F461D1",
+      "source_correction_ids": [
+        "CORR-007-LEGACY-0050",
+        "CORR-007-LEGACY-0114",
+        "CORR-007-LEGACY-0299",
+        "CORR-007-LEGACY-0300",
+        "CORR-007-LEGACY-0452"
+      ],
+      "source_correction_row_sha256s": [
+        "5bb9a55f7b09efd1b7ab82c5d142adc9b0c37f7f8b2803e5a1e9901fb5d5b20b",
+        "7f752fefb873b719ff4cf5eff3d123277e7f2912717bb81485c3b2459db764cd",
+        "8b70cb0ed0aa3f78bd230b6fc31d3cee486bf9a10908b13dbef834ce96a3afad",
+        "ae8fbc71aaaba84a9618b83d6832262da36d5188ed7ad48d7c9800e2cae4d810",
+        "b8328780aebbc52d8573cefae2594113928b11419695ffed1e3170b663234bff"
+      ],
+      "before_record": {
+        "label": "Lasting rational and legal reforms",
+        "priority": "major",
+        "meaning": "Departments, metrication, the Civil Code, and criminal-law reform gave durable institutional form to revolutionary rationalism.",
+        "stance": "These were genuine and enduring achievements, although some were completed under Bonaparte and the guillotine became associated with terror rather than humanity. Codification also restricted women’s property rights, and economic rationalization supplied conditions for progress without itself producing immediate growth.",
+        "subject_id": "SUBJ-SUCC-6BBDB6F461D1",
+        "acceptable_access": [
+          "French Revolution—administrative and legal reforms",
+          "Departments",
+          "Metric system",
+          "Civil Code",
+          "Criminal-law reform",
+          "Guillotine--humanitarian design and Terror",
+          "Decimal measures",
+          "Civil Code--property security and patriarchal limits"
+        ],
+        "evidence": [
+          {
+            "document_page": 393,
+            "source_page_label": "393",
+            "locator_class": "principal",
+            "evidence_summary": "Administrative departments, metric and decimal measures, codification, and abolition of old criminal-law abuses are identified as permanent reforms.",
+            "evidence_id": "EVID-SUCC-D6815D4E1945",
+            "source_local_subject_id": "SUCC-C017-S003",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 420,
+            "source_page_label": "420",
+            "locator_class": "supporting",
+            "evidence_summary": "Bonaparte’s role in codification included restriction of women’s property rights; legal rationalization was not universally emancipatory.",
+            "evidence_id": "EVID-SUCC-39D0184B03B9",
+            "source_local_subject_id": "SUCC-C017-S003",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-DC0C111338DC",
+            "source_evidence_id": "EVID-B05B89163B4D",
+            "document_page": 405,
+            "source_page_label": "405",
+            "locator_class": "supporting",
+            "evidence_summary": "Standard measures are included among useful preconditions for later economic progress, though insufficient to generate growth by themselves.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S006",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S003",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-85F82FD73E2A",
+              "evidence_id": "EVID-8A534F46A923"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S003",
+            "label": "Lasting rational and legal reforms",
+            "meaning": "Departments, metrication, the Civil Code, and criminal-law reform gave durable institutional form to revolutionary rationalism.",
+            "stance": "These were genuine and enduring achievements, although some were completed under Bonaparte and the guillotine became associated with terror rather than humanity. Codification also restricted women’s property rights, and economic rationalization supplied conditions for progress without itself producing immediate growth.",
+            "acceptable_access": [
+              "French Revolution—administrative and legal reforms",
+              "Departments",
+              "Metric system",
+              "Civil Code",
+              "Criminal-law reform",
+              "Guillotine--humanitarian design and Terror",
+              "Decimal measures",
+              "Civil Code--property security and patriarchal limits"
+            ],
+            "document_pages": [
+              393,
+              405,
+              420
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S003"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S003",
+            "label": "Lasting rational and legal reforms",
+            "meaning": "Departments, metrication, the Civil Code, and criminal-law reform gave durable institutional form to revolutionary rationalism.",
+            "stance": "These were genuine and enduring achievements, although some were completed under Bonaparte and the guillotine became associated with terror rather than humanity. Codification also restricted women’s property rights, and economic rationalization supplied conditions for progress without itself producing immediate growth.",
+            "acceptable_access": [
+              "French Revolution—administrative and legal reforms",
+              "Departments",
+              "Metric system",
+              "Civil Code",
+              "Criminal-law reform",
+              "Guillotine--humanitarian design and Terror",
+              "Decimal measures",
+              "Civil Code--property security and patriarchal limits"
+            ],
+            "document_pages": [
+              393,
+              405,
+              420
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "before_sha256": "264d0be4227fa82abb23f48da17da29651ffa01b619f0abec460f2390d206a55",
+      "proposed_record": {
+        "label": "Lasting rational and legal reforms",
+        "priority": "major",
+        "meaning": "Departments, metrication, the Civil Code, and criminal-law reform gave durable institutional form to revolutionary rationalism. Metric and decimal measures replaced inherited complexity and subsequently spread internationally.",
+        "stance": "These were genuine and enduring achievements, although some were completed under Bonaparte and the guillotine became associated with terror rather than humanity. Codification also restricted women’s property rights, and economic rationalization supplied conditions for progress without itself producing immediate growth.",
+        "subject_id": "SUBJ-SUCC-6BBDB6F461D1",
+        "acceptable_access": [
+          "French Revolution—administrative and legal reforms",
+          "Departments",
+          "Metric system",
+          "Civil Code",
+          "Criminal-law reform",
+          "Guillotine--humanitarian design and Terror",
+          "Decimal measures",
+          "Civil Code--property security and patriarchal limits"
+        ],
+        "evidence": [
+          {
+            "document_page": 393,
+            "source_page_label": "393",
+            "locator_class": "principal",
+            "evidence_summary": "Departments replaced overlapping inherited jurisdictions with durable rational administration; metric measures, codification and removal of old criminal-law abuses were lasting reforms. The guillotine’s intended humane refinement became inseparable from its use as the public instrument of Terror. The metric and decimal system, introduced in April 1795 after years of development, subsequently spread across the world. Civil Code drafting began in 1790, fulfilling a long-standing pre-revolutionary aspiration only when the First Consul supplied the authority and determination to complete it.",
+            "evidence_id": "EVID-SUCC-D6815D4E1945",
+            "source_local_subject_id": "SUCC-C017-S003",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "document_page": 420,
+            "source_page_label": "420",
+            "locator_class": "supporting",
+            "evidence_summary": "Bonaparte’s role in codification included restriction of women’s property rights; legal rationalization was not universally emancipatory.",
+            "evidence_id": "EVID-SUCC-39D0184B03B9",
+            "source_local_subject_id": "SUCC-C017-S003",
+            "source_chunk_id": "CHUNK-017"
+          },
+          {
+            "evidence_id": "EVID-SUCC-DC0C111338DC",
+            "source_evidence_id": "EVID-B05B89163B4D",
+            "document_page": 405,
+            "source_page_label": "405",
+            "locator_class": "supporting",
+            "evidence_summary": "Standard measures are included among useful preconditions for later economic progress, though insufficient to generate growth by themselves.",
+            "provenance": {
+              "chunk_id": "CHUNK-017",
+              "local_subject_id": "CHUNK-017-S006",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+              "source_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac"
+            },
+            "source_local_subject_id": "SUCC-C017-S003",
+            "source_chunk_id": "CHUNK-017",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-85F82FD73E2A",
+              "evidence_id": "EVID-8A534F46A923"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-017"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C017-S003",
+            "label": "Lasting rational and legal reforms",
+            "meaning": "Departments, metrication, the Civil Code, and criminal-law reform gave durable institutional form to revolutionary rationalism. Metric and decimal measures replaced inherited complexity and subsequently spread internationally.",
+            "stance": "These were genuine and enduring achievements, although some were completed under Bonaparte and the guillotine became associated with terror rather than humanity. Codification also restricted women’s property rights, and economic rationalization supplied conditions for progress without itself producing immediate growth.",
+            "acceptable_access": [
+              "French Revolution—administrative and legal reforms",
+              "Departments",
+              "Metric system",
+              "Civil Code",
+              "Criminal-law reform",
+              "Guillotine--humanitarian design and Terror",
+              "Decimal measures",
+              "Civil Code--property security and patriarchal limits"
+            ],
+            "document_pages": [
+              393,
+              405,
+              420
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C017-S003"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C017-S003",
+            "label": "Lasting rational and legal reforms",
+            "meaning": "Departments, metrication, the Civil Code, and criminal-law reform gave durable institutional form to revolutionary rationalism. Metric and decimal measures replaced inherited complexity and subsequently spread internationally.",
+            "stance": "These were genuine and enduring achievements, although some were completed under Bonaparte and the guillotine became associated with terror rather than humanity. Codification also restricted women’s property rights, and economic rationalization supplied conditions for progress without itself producing immediate growth.",
+            "acceptable_access": [
+              "French Revolution—administrative and legal reforms",
+              "Departments",
+              "Metric system",
+              "Civil Code",
+              "Criminal-law reform",
+              "Guillotine--humanitarian design and Terror",
+              "Decimal measures",
+              "Civil Code--property security and patriarchal limits"
+            ],
+            "document_pages": [
+              393,
+              405,
+              420
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "proposed_sha256": "65792b70ab7ecf26e56680a0be824ee392139de16151fb3687f1fd09845743fe",
+      "fields_changed": [
+        "meaning",
+        "evidence",
+        "source_treatments",
+        "required_access_facets"
+      ],
+      "lead_source_and_composition_disposition": "393 directly supports lasting departments, worldwide metrication, earlier Civil Code aspiration/drafting and Consular completion, plus the intended-humanity/Terror-use contrast. Compose all repeated evidence additions and retain the parent’s existing qualifications about property rights and economic growth.",
+      "review_scope": "All listed proposed values and their stage8 counterpart fields inspected; nested treatment/facet scope reconciled. Exact composed whole record is bound for final repair closure; no whole-book approval."
+    }
+  ],
+  "actual_full_source_pages_reread_after_draft_access": [
+    172,
+    183,
+    196,
+    205,
+    206,
+    207,
+    208,
+    250,
+    260,
+    261,
+    262,
+    269,
+    286,
+    290,
+    359,
+    360,
+    363,
+    393
+  ],
+  "same_active_pass_source_page_reuse": [],
+  "new_evidence_ids": [],
+  "original_draft_unchanged": true,
+  "whole_book_approval": false
+}

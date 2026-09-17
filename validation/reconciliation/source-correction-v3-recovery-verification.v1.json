@@ -1,0 +1,22 @@
+{
+  "schema_version": "source-correction-recovery-checkpoint-v1",
+  "recorded_at": "2026-09-17T06:19:29.784105+00:00",
+  "source_state_sha256": "abb517647eeced5d45d44ebf0bbbcc51d8ad3b89f6650093bc00d66b5cd01d36",
+  "native_private_complete_archive": {
+    "path": "/home/john/.codex/evaluation-archives/ohfr-successor-source-freeze-abb51764/private-complete.zip",
+    "sha256": "b3e51399357efd7d469c159c0c286ffa98900d5cdefed2c2025b7225067319fc",
+    "bytes": 2259792
+  },
+  "preserved_supplemental_source_archive": {
+    "path": "/home/john/.codex/evaluation-archives/ohfr-successor-source-freeze-c45d672a/source-material.zip",
+    "sha256": "c1c4b1b70aea540bdceb33b1b6aa8b2c643e8ab53b2b931864fae45104c85376",
+    "bytes": 11863042
+  },
+  "registered_artifacts_verified": 24,
+  "excluded_count": 0,
+  "native_import_passed": true,
+  "exact_restored_state_and_registered_bytes": true,
+  "source_state_mutated": false,
+  "original_recovery_archives_preserved": true,
+  "note": "The native archive stores the exact corrected state as evaluation-state.json, preserving its state-relative registered paths. Unchanged raw source and17 chunk PDF/sidecar pairs remain in the independently verified predecessor source-material archive."
+}

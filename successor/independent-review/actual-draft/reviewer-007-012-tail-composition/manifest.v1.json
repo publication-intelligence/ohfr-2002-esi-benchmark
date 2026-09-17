@@ -1,0 +1,175 @@
+{
+  "schema_version": "independent-tail-composition-manifest-v1",
+  "status": "sealed_bounded_proposals_pending_lead_value_review",
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.tail-composition.assignment.v1.json",
+    "sha256": "9eac2ac68843d6235aab0cfdfafadd3204be319ad4a90b6245ddef8ac5f79593",
+    "bytes": 26250
+  },
+  "activation": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.tail-composition.activation.v1.json",
+    "sha256": "3cc6d8d2ef71d56a74d21fbd294c15478a733c7fd986c996da6f1c289f6b77e0",
+    "bytes": 1270
+  },
+  "base": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage9.v1.json",
+    "sha256": "3bc8b4289d286c01d6d8b4c20556a24eb64484002e55ac9c2e29c0c44c70e87c",
+    "bytes": 6701183
+  },
+  "counts": {
+    "whole_parents": 41,
+    "referrals": 43,
+    "stage9_parent_overlaps": 24,
+    "parent_field_differences": 188,
+    "existing_evidence_preserved": 172,
+    "added_evidence": 2,
+    "explicit_author_routing_compositions": 16,
+    "relationship_consistency_records": 73,
+    "task_consistency_records": 73,
+    "task_facets_inspected_for_consistency": 188,
+    "dependency_repair_proposals": 3,
+    "newly_reread_postdraft_pages": 8
+  },
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/composed-parents-001-014.v1.json",
+      "sha256": "1f429a675d56d849258c25876a7131b5a4137e01896eff9b944364a00f05887b",
+      "bytes": 310408
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/composed-parents-015-028.v1.json",
+      "sha256": "b9300d3d84a5534c85bc19f0de751b0b08ffda4b47cc2ba48410cd8b8b5b6db3",
+      "bytes": 272693
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/composed-parents-029-041.v1.json",
+      "sha256": "019147395738c490f91764cb70d95700ace472faa1aab34acbf2f66f909b16e6",
+      "bytes": 275269
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/referral-dispositions.v1.json",
+      "sha256": "92ff27ce76b1061eb1d78c48b70ee9488dc8d884aa117a6b1f8fd9f2138cb700",
+      "bytes": 129093
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/explicit-evidence-binding-composition.v1.json",
+      "sha256": "a866d0b417da048cd678c2ffcd1084583a674407db576984e0783efe08e9a3b0",
+      "bytes": 52600
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/dependency-consistency.v1.jsonl",
+      "sha256": "a57e74603a43b31e517ea4e9dac309f21cdc12477dfc4717bd6b757e39dd7d80",
+      "bytes": 314506
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/dependency-repair-proposals.v1.json",
+      "sha256": "8ee5f76004d8543eb72396c2e90b676b5ebe29824743666ea9798c9cb5c61395",
+      "bytes": 11447
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/composition-attestation.v1.json",
+      "sha256": "53537b82c32daf37cc632bb60a0878fa31225ec666c4e9c425c723bdce753c66",
+      "bytes": 8647
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/mechanical-integrity.v1.json",
+      "sha256": "cd34d751210346e48e3b5ee560da687f1ad5dd78a1e036f0ad7015b48c4c555b",
+      "bytes": 1159
+    }
+  ],
+  "subject_ids": [
+    "SUBJ-SUCC-A314B3102640",
+    "SUBJ-SUCC-7C338D256927",
+    "SUBJ-SUCC-525A1728F643",
+    "SUBJ-SUCC-38E8081905D0",
+    "SUBJ-SUCC-F0BD6A05AAAD",
+    "SUBJ-SUCC-1EBCC35F6918",
+    "SUBJ-SUCC-58F7F001857D",
+    "SUBJ-SUCC-C31553A0D1B9",
+    "SUBJ-SUCC-0D87BD18FE77",
+    "SUBJ-SUCC-7A343F73BC1F",
+    "SUBJ-SUCC-02AF5D334E8F",
+    "SUBJ-SUCC-E801BA395EE8",
+    "SUBJ-SUCC-65D590EBAFE2",
+    "SUBJ-SUCC-298B26A9D77A",
+    "SUBJ-SUCC-2E5B26D8A9D6",
+    "SUBJ-SUCC-C8838C6F47C7",
+    "SUBJ-SUCC-E57561515D9B",
+    "SUBJ-SUCC-13AF8F136719",
+    "SUBJ-SUCC-A946B0B96B6D",
+    "SUBJ-SUCC-1A51A7EA164F",
+    "SUBJ-SUCC-39CA1B8E5293",
+    "SUBJ-SUCC-28E04117C501",
+    "SUBJ-SUCC-C7DF46AA6436",
+    "SUBJ-SUCC-D25EFF329FF1",
+    "SUBJ-SUCC-CD9A2A52162E",
+    "SUBJ-SUCC-F7A0D2DCF841",
+    "SUBJ-SUCC-8A3FF7132FF1",
+    "SUBJ-SUCC-A09DB8EABD5C",
+    "SUBJ-SUCC-5D069D724C33",
+    "SUBJ-SUCC-85C459BB83CE",
+    "SUBJ-SUCC-431D9939D11B",
+    "SUBJ-SUCC-84B2C8434BA6",
+    "SUBJ-SUCC-6568AD1BCF30",
+    "SUBJ-SUCC-9601697A1247",
+    "SUBJ-SUCC-44A8A4E36810",
+    "SUBJ-SUCC-CC730DB406A0",
+    "SUBJ-SUCC-A7A6CD1D7787",
+    "SUBJ-SUCC-9EE30DCC1721",
+    "SUBJ-SUCC-F8A938B3B147",
+    "SUBJ-SUCC-43C2056DACCC",
+    "SUBJ-SUCC-5AAF2CE28F56"
+  ],
+  "referral_ids": [
+    "REF-ISR-001-LSE-001",
+    "REF-ISR-001-LSE-002",
+    "REF-ISR-001-LSE-003",
+    "REF-ISR-001-LSE-004",
+    "REF-ISR-001-LSE-005",
+    "REF-ISR-001-LSE-006",
+    "REF-ISR-001-LSE-007",
+    "REF-ISR-001-LSE-008",
+    "REF-ISR-001-LSE-009",
+    "REF-ISR-001-LSE-010",
+    "REF-ISR-001-LSE-011",
+    "REF-ISR-001-LSE-012",
+    "REF-ISR-001-LSE-013",
+    "REF-ISR-001-LSE-014",
+    "REF-ISR-001-LSE-015",
+    "REF-ISR-001-LSE-016",
+    "REF-ISR-001-LSE-017",
+    "REF-ISR-001-LSE-018",
+    "REF-ISR-001-LSE-019",
+    "REF-ISR-001-LSE-020",
+    "REF-ISR-001-LSE-021",
+    "REF-ISR-001-LSE-022",
+    "REF-ISR-001-LSE-023",
+    "REF-ISR-001-LSE-024",
+    "REF-ISR-001-LSE-025",
+    "REF-ISR-001-LSE-026",
+    "REF-ISR-001-LSE-027",
+    "REF-ISR-001-LSE-028",
+    "REF-ISR-001-LSE-029",
+    "REF-ISR-001-LSE-030",
+    "REF-ISR-001-LSE-031",
+    "REF-ISR-001-LSE-032",
+    "REF-ISR-001-LSE-033",
+    "REF-ISR-001-LSE-034",
+    "REF-ISR-001-LSE-035",
+    "REF-ISR-001-LSE-036",
+    "REF-ISR-001-LSE-037",
+    "REF-ISR-001-LSE-038",
+    "REF-ISR-001-LSE-039",
+    "REF-ISR-001-LSE-040",
+    "REF-ISR-001-LSE-041",
+    "REF-ISR-001-LSE-042",
+    "REF-ISR-001-LSE-043"
+  ],
+  "added_evidence_ids": [
+    "EVID-ISR-001-LSE-033-356",
+    "EVID-ISR-001-LSE-035-162"
+  ],
+  "whole_book_approval": false,
+  "canonical_state_modified": false,
+  "historical_key_ownership_changed": false
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "independent-source-scope-disposition-v1",
+  "reviewer": "independent_review_lead",
+  "scope_of_decision": "Interpret and apply the exact already-frozen source-region policy; no source-scope expansion or whole-benchmark approval.",
+  "candidate_visibility": "No candidate content or results seen.",
+  "policy_file": "successor/source/evaluation-policy.v4.json",
+  "policy_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "decision": "The graph-internals exclusion covers the inspected cartographic interiors and their explanatory keys. Substantive map captions are eligible only for what their own wording supports.",
+  "source_region_rationale": [
+    "The five inspected maps are bounded graphical representations: location labels, shapes, boundary lines, shading, arrows, scale bars and symbol legends jointly encode spatial information. They are graphic internals rather than substantive body prose, table text or independent captions.",
+    "The numbered Paris-sections list on129 is a key to numbers in the graphical representation. Its role is known and dependent on that representation; placement below the border does not make it an independent substantive table or unknown-role text.",
+    "The map caption identifies a subject and sometimes the kinds of information represented; its eligibility does not make the cartographic information it describes eligible. A caption identifying departments supports the existence/topic of that map, not particular department boundaries or annexation dates printed inside it.",
+    "A genuine body-prose treatment on another eligible page may independently support a geographical claim. Retain that claim only with its own prose support; do not preserve an interior-derived claim by relabeling the same map evidence as caption.",
+    "Substantive chapter/part text remains eligible under the explicit inclusion. The prose-density convention that omits chapter displays is not an eligibility rule.",
+    "The generic included phrase preparation-approved indexable content does not override the explicit graph-internals exclusion. The known cartographic roles are not eligible unknown-role text."
+  ],
+  "map_boundaries": [
+    {
+      "document_page": 3,
+      "eligible_caption_support": "Pre-revolutionary France and its administrative, judicial and fiscal subdivisions as the topic of the map.",
+      "excluded_region": "Map interior, locations, boundary systems, shading, scale and explanatory legend; source credit is bibliographic attribution."
+    },
+    {
+      "document_page": 127,
+      "eligible_caption_support": "Departments of revolutionary France as the map topic.",
+      "excluded_region": "Interior department names/boundaries, towns, frontier, annexation annotations and scale."
+    },
+    {
+      "document_page": 129,
+      "eligible_caption_support": "Revolutionary Paris, sections, principal places and streets as the map topic.",
+      "excluded_region": "Interior locations, street/section geography, scale, numbered sections key and source credit."
+    },
+    {
+      "document_page": 225,
+      "eligible_caption_support": "Resistance to the Revolution during1793–1799 as the map topic.",
+      "excluded_region": "Interior locations, routes, shaded resistance zones and symbol/line keys."
+    },
+    {
+      "document_page": 345,
+      "eligible_caption_support": "Europe in1799 as the map topic.",
+      "excluded_region": "Interior state/territory labels, boundaries, shading, political classifications, geographical relations and scale/key."
+    }
+  ],
+  "inspection_basis": {
+    "rendered_pages": [
+      3,
+      127,
+      129,
+      225,
+      345
+    ],
+    "newly_rendered_this_disposition": [
+      3,
+      127,
+      129
+    ],
+    "previously_rendered_and_inspected_in_actual_review": [
+      225,
+      345
+    ],
+    "source_first_notes_status": "Source-first map observations remain preserved; observations from excluded interiors do not become eligible benchmark requirements."
+  },
+  "density_contradiction": {
+    "input": "validation/reconciliation/source-review/source-density-measurement.json",
+    "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
+    "field": "protocol.source_role_note",
+    "disposition": "Its claim of semantic map eligibility conflicts with the frozen policy as applied here and has no authority to broaden it. The same measurement artifact explicitly limits its approval to computation.",
+    "word_count_effect": "No recount is required by this interpretation: the stated measurement already excluded interiors, numbered map key and credits. No numerical count has been changed or independently recomputed in this disposition.",
+    "required_metadata_correction": "Preserve original measurement bytes and attach a corrected metadata addendum or version that supersedes only the semantic source_role_note, cites this scope decision and preserves verified measurement counts and counting convention."
+  },
+  "required_benchmark_repairs": [
+    "Remove internal-map-derived evidence and access requirements or reground them in independently eligible prose. Caption-only subjects may be retained only at an appropriate optional priority with meaning/access bounded by caption wording.",
+    "Replace all exclusion scope_constraint boilerplate that states maps remain eligible with explicit caption/interior distinction; retain chapter/part semantics according to the frozen inclusion.",
+    "Correct the draft editorial-policy wording and source-only author report by preserved provenance plus reviewed-final disposition, not by changing immutable author draft or lineage files.",
+    "Review every affected dependency and source-first finding explicitly; an invalid historical or draft requirement may be retired with this source/policy reason."
+  ],
+  "whole_benchmark_review_complete": false,
+  "freeze_authorized": false
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "historical-auxiliary-association-check-v1",
+  "recorded_at": "2026-09-17T00:45:43.642982+00:00",
+  "source": {
+    "path": "successor/synthesis/lineage/auxiliary.json",
+    "sha256": "d35c8fc6fe296cf78332de2f7ced62ea92e79fad147f1a3c36629228b12c8d96"
+  },
+  "original_records": 476,
+  "exclusions": 307,
+  "uncertainties": 169,
+  "chapter_control_associations_not_individual_equivalence": 365,
+  "direct_lineage_associations": 111,
+  "unknown_successor_control_ids": [],
+  "empty_successor_control_keys": [
+    "legacy:EXCL-6FB502DA52A0",
+    "legacy:EXCL-5A9226AE479C",
+    "legacy:EXCL-B521314B0B72",
+    "legacy:EXCL-FC35CDDA96F6",
+    "legacy:UNC-3C53F2808DF9",
+    "legacy:UNC-93155A469E4B",
+    "legacy:UNC-E4EEFE06092B",
+    "legacy:UNC-564A3256BFCF",
+    "legacy:UNC-5111B6A9327E",
+    "legacy:UNC-B429BFF70821",
+    "native:EXCL-0001",
+    "native:EXCL-0009",
+    "native:EXCL-0020",
+    "native:EXCL-0025",
+    "native:EXCL-0033",
+    "native:EXCL-0043",
+    "native:UNC-0001",
+    "native:UNC-0010",
+    "native:UNC-0020",
+    "native:UNC-0067",
+    "native:UNC-0072",
+    "native:UNC-0075"
+  ],
+  "limitation": "Association coverage is not independent semantic review. The source lead owns original-record auxiliary closure, including explicit dispositions for empty successor mappings.",
+  "editorial_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}

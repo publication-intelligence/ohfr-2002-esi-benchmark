@@ -1,0 +1,59 @@
+{
+  "schema_version": "v10-independent-pre-proposal-manifest-v1",
+  "status": "sealed_pre_proposal_only",
+  "assignment": {
+    "path": "successor/access-amendment/reviewer-assignment.v1.json",
+    "sha256": "b42562087c977343af4aa544fadd1b17be122af5519854e0e911ae7b4083966d",
+    "bytes": 36016
+  },
+  "packet": {
+    "path": "successor/access-amendment/source-only-inputs.v1.json",
+    "sha256": "efe1d5364822240babcb60d2740695b11d40cbfa275ec4ccdf97c7b1f99cae29",
+    "bytes": 63779
+  },
+  "base_benchmark": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "files": [
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-findings.v1.json",
+      "sha256": "7f1ea9ad94fd1f0542feba32e77e5ea7f4aafa70a2844bfb5469f5544aba8631",
+      "bytes": 14774
+    },
+    {
+      "path": "successor/access-amendment/reviewer/pre-proposal-inspection-ledger.v1.json",
+      "sha256": "35549f1ffcb8b66933820a076fab31b0adbbd37506973f3dec68601d5cb83ce4",
+      "bytes": 77985
+    },
+    {
+      "path": "successor/access-amendment/reviewer/source-reading-and-reuse.v1.json",
+      "sha256": "85423272cd805ec596dd1a3968b3bd213715a898bab0b2d4619ef51f82911793",
+      "bytes": 11888
+    },
+    {
+      "path": "successor/access-amendment/reviewer/input-and-visibility-attestation.v1.json",
+      "sha256": "15d5c4583de6f0781d803a2b5c1b4ecf6b4508a195edbede8611ba1668c28c1e",
+      "bytes": 25881
+    }
+  ],
+  "counts": {
+    "packet_inputs_hash_verified": 123,
+    "subject_labels_screened": 531,
+    "subject_access_structures_inspected": 44,
+    "linked_task_questions_screened": 82,
+    "complete_task_access_structures_inspected": 26,
+    "complete_task_facets_inspected": 28,
+    "full_source_pages_reread": 14,
+    "exact_prior_whole_record_inspections_reused": 5,
+    "clause_specific_findings": 9,
+    "required_deltas_identified": 0,
+    "new_weighted_requirements_recommended": 0
+  },
+  "all_four_clauses_assessed": true,
+  "author_proposal_seen": false,
+  "amendment_approval": false,
+  "whole_population_no_delta_approval": false,
+  "candidate_seen": false
+}

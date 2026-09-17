@@ -1,0 +1,77 @@
+{
+  "schema_version": "benchmark-access-author-manifest-v1",
+  "role": "author",
+  "status": "sealed_proposal_pending_independent_review",
+  "decision": "no_delta",
+  "sealed_at": "2026-09-17T05:14:28.423930+00:00",
+  "assignment": {
+    "path": "successor/access-amendment/author-assignment.v1.json",
+    "sha256": "96b02cd9b0869087e6f4e59244f1cce15a08f286db4e611bf12d2aa365f3353f",
+    "bytes": 35951
+  },
+  "input_packet": {
+    "path": "successor/access-amendment/source-only-inputs.v1.json",
+    "sha256": "efe1d5364822240babcb60d2740695b11d40cbfa275ec4ccdf97c7b1f99cae29",
+    "bytes": 63779
+  },
+  "base": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "overlay_sha256": "7578ab4e013f77a6dfa773704459b7314c37a2fc7046099189d7fd9bbeaada3d",
+  "files": [
+    {
+      "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+      "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+      "bytes": 186329
+    },
+    {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886",
+      "bytes": 15095
+    },
+    {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec",
+      "bytes": 118951
+    },
+    {
+      "path": "successor/access-amendment/author/input-visibility-attestation.v1.json",
+      "sha256": "2067c298b1a710c4bec8ad4e10a9b1dac67d75c513fcc4eeae4bcb8314e0f0b3",
+      "bytes": 29394
+    },
+    {
+      "path": "successor/access-amendment/author/mechanical-check.v1.json",
+      "sha256": "f923880eea3016c613052d1b413b68c5e45a20df0665808beb9d09f37d2fb5a0",
+      "bytes": 1230
+    }
+  ],
+  "coverage": {
+    "targeted_subjects": 28,
+    "targeted_tasks": 43,
+    "additional_exploratory_subjects": 14,
+    "additional_exploratory_tasks": 1,
+    "subject_evidence_bindings": 129,
+    "new_source_pages": 0
+  },
+  "approved_clause_ids": [
+    "IPDF-GOV-02",
+    "IPDF-ANA-06",
+    "IPDF-VOC-01",
+    "IPDF-VOC-02"
+  ],
+  "population": {
+    "subjects_before": 531,
+    "subjects_after": 531,
+    "tasks_before": 617,
+    "tasks_after": 617,
+    "delta_count": 0
+  },
+  "author_does_not_approve_or_freeze": true,
+  "additional_methodology_input": {
+    "path": ".source-only/v10-access-interface-815bcb6/digest-helper.excerpt.v1.json",
+    "sha256": "8de25c4581c03fd8525657aeb54c63c71c9d83f640270cc4a54505a12f15df18",
+    "bytes": 1295
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "schema_version": "bounded-independent-post-freeze-source-correction-assignment-v4",
+  "status": "sealed_exact_amendment; reviewer_finalization_held_for_delta_check",
+  "author_id": "/root/successor_independent_review",
+  "reviewer_id": "/root/successor_independent_review/source_review_001_006",
+  "inputs": [
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-referral/finding-batch.v1.json",
+      "sha256": "8d9ae13baaeb12b09336cca0fc46d31c9caccafc36fa9181256fef252166f67c",
+      "bytes": 137908
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-referral/manifest.v1.json",
+      "sha256": "89c1ff42c8d0d4e008a207faa7c10bc7dbbade38f96edce307dc70ff2b43b7d0",
+      "bytes": 1102
+    },
+    {
+      "path": "successor/source/source-benchmark.v3.json",
+      "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+      "bytes": 6740824
+    },
+    {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v2.json",
+      "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+      "bytes": 492840
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-byte-assent.v1.json",
+      "sha256": "b15e0db6181fa797baf7565e6f592bf0792ee05dbdf4ef91f15357b5150c10e3",
+      "bytes": 3707
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/source-and-dependency-review.v1.json",
+      "sha256": "f6530e67b15692d32ac701e1b282fdc1d6db42d5e00ae21b947f6a71326056c2",
+      "bytes": 82834
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/typed-freeze-receipt.v1.json",
+      "sha256": "e0138ebbc7bc76841c007f126b52f301d02e45df84ad5274036f675fec844df8",
+      "bytes": 6893
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/final-independent-byte-assent.v1.json",
+      "sha256": "c60f9db869b02dfd88ffdbeeb2a9807608f318db1a2b8e8b09e4b521207c8757",
+      "bytes": 1865
+    },
+    {
+      "path": "successor/evaluation-state.json",
+      "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+      "bytes": 15542
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v3.json",
+      "sha256": "abb517647eeced5d45d44ebf0bbbcc51d8ad3b89f6650093bc00d66b5cd01d36",
+      "bytes": 15542
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    {
+      "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    {
+      "path": "successor/validation/source-benchmark-review-inventory.json",
+      "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+      "bytes": 54837
+    },
+    {
+      "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+      "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+      "bytes": 14144
+    },
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+      "bytes": 19774
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-source-findings.v1.json",
+      "sha256": "a4e1ec5dca4e7941bacb62ffc65d1e6a9775a7c9a5f0ea7a2b5e1fd0fa826000",
+      "bytes": 19398
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v1.json",
+      "sha256": "a629f3505ce0436f64dc3a820022cb87758d5635e0b4134527efd47995f188ca",
+      "bytes": 399898
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v1.json",
+      "sha256": "916e5e009f373ead1254563427f6793375c206d0cc9f77db8ef56fb2d23feff8",
+      "bytes": 267915
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.json",
+      "sha256": "e898e82b740400cfb84c0c61e9733647197ac504b1370eb31e4727b63d9390df",
+      "bytes": 6742566
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v1.json",
+      "sha256": "212c726bfcc886f100608c9e44d6eccaad894fcc56a4e8102118830cb16597c0",
+      "bytes": 20756
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v1.json",
+      "sha256": "ec5e083ec39d7703c4900034d0263652787b905477c2d8e0957be3db313e6f98",
+      "bytes": 17199
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v1.json",
+      "sha256": "cea0357cb1d4801f49bacda9a63ea954642146fe752509ae08a708aed06bc0b6",
+      "bytes": 1632
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v1.json",
+      "sha256": "ce48f1e17a7c7fefcaafe73d05902632caa0d8bf5b7fe2a61bbd358dc6425856",
+      "bytes": 3318
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "bytes": 715508
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-002.pages.json",
+      "sha256": "2d4d0cc922dbeaf146e97bdf16a6ff6236e3ce3931cf2b10cc0605551b1112b5",
+      "bytes": 3690
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "bytes": 741785
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-005.pages.json",
+      "sha256": "f9117474d9c2f749acbf2564b8e9e1fa08b8ba2b8a9808cb9175376cf3a574bf",
+      "bytes": 4002
+    },
+    {
+      "path": ".source-only/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "bytes": 106340
+    },
+    {
+      "path": ".source-only/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "bytes": 7563
+    },
+    {
+      "path": "successor/source/evaluation-policy.v4.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+      "bytes": 9735
+    },
+    {
+      "path": ".source-only/methodology/references/schemas/source-benchmark.schema.json",
+      "sha256": "405d6687b064bdf858f908b70be7e61d9ce3456f151fb23fcb891e8b8d477ae8",
+      "bytes": 4078
+    },
+    {
+      "path": ".source-only/methodology/references/benchmark-review.md",
+      "sha256": "741f67c99bf2aa23f7b49fb88c705bfc0219704e2da02782a5c23afbcdbd40aa",
+      "bytes": 7250
+    },
+    {
+      "path": ".source-only/methodology/references/judgment-policy-v8.md",
+      "sha256": "0df26b5435fedae327ed7128856ef5664550c7bba0b4b5799d294a8f97241e17",
+      "bytes": 3592
+    },
+    {
+      "path": "successor/synthesis/lineage/evidence.json",
+      "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+      "bytes": 9591256
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+      "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+      "bytes": 722569
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+      "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+      "bytes": 7517740
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+      "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+      "bytes": 4971257
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+      "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+      "bytes": 5138775
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/proposed-evidence-lineage-repairs.v1.jsonl",
+      "sha256": "d2496abc66bb16c1a3ee9debca56183c72653b82f874e04760bf3321e16bb495",
+      "bytes": 416820
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/draft-to-final-dispositions.v1.json",
+      "sha256": "6f91b366e91e8c5780fcac790d7949687c2ea9197905c453d6316fa50aaadaaf",
+      "bytes": 22889770
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/source-only-inputs.v1.json",
+      "sha256": "9b30760639bbcbf141603842da8628726a6e13200673e487a549e58a2e7c01ba",
+      "bytes": 70278
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/manifest.v1.json",
+      "sha256": "02a0b0cd8b451f00f0171a9629857254fd9e2bf531ba2e73c81dd02807335796",
+      "bytes": 3668
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/benchmark-access-overlay.v1.json",
+      "sha256": "29620e2cdaf56d25624be5ee21264cb0cdf9d9a8511c6a0444a2176bc56b305d",
+      "bytes": 186350
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/exact-comparison.v1.json",
+      "sha256": "17532164aaf62375f17435cccf3f4f55358c278c2090e3a52cf637f326394614",
+      "bytes": 729412
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "64f6f1b9504e0b7d6ebdb178ffdc79d158115a65159812ecfda9b4a296ad9ca0",
+      "bytes": 17664
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/input-visibility-attestation.v1.json",
+      "sha256": "a28430eb6550b767155f76837d2cf42f4b740f1caf23c2bb8522baa21abe0256",
+      "bytes": 35940
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/mechanical-check.v1.json",
+      "sha256": "e5ec2cbb97e3254bc308c4a249e3e14f13866e366cffecfc22c35ac971154fe8",
+      "bytes": 1314
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v1.json",
+      "sha256": "2d5056a83767ad141f3077113a231dc8d5787b7c44eff976b2ccd5eaae32a7c9",
+      "bytes": 3027
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/relationship-page-findings.v1.json",
+      "sha256": "2092a8866913dc721d27951edba887a35247a1f451865f2779827514d2062e02",
+      "bytes": 113453
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v2.json",
+      "sha256": "efdf3a54d1489352180951d4171781c8d544f4e15f8973733bdbe0904332e83c",
+      "bytes": 463834
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v2.json",
+      "sha256": "8ebafe989e0e0244863f7e109deff89578200fa8a6f6676952a43fb1ffe1b844",
+      "bytes": 28249
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v2.json",
+      "sha256": "09cade68072133b6e6de8003b7a78ac284fdd2f2f8fb58457b554945f35aedb3",
+      "bytes": 6743242
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v2.json",
+      "sha256": "a92d7b277c0df281054a32a660fb128f121cd31308ea6e0b015359c468201898",
+      "bytes": 27041
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v2.json",
+      "sha256": "e85bb06bd9b8a85fe45932f72f685c69fb613ebc15d990a61ab329998e13541a",
+      "bytes": 2511
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v2.json",
+      "sha256": "390d46d05d59f6f9ef9212e5bf44c53551b971a36a53af21d45548ca0b6efbbd",
+      "bytes": 3980
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+      "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+      "bytes": 128966
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/previously-reviewed-historical-relationship-bindings.v1.jsonl",
+      "sha256": "4e48080071fb3b1cf617d0492a2b4ad75630bd3293cffdf05b2a83a252537865",
+      "bytes": 536644
+    },
+    {
+      "path": "successor/synthesis/lineage/relationships.json",
+      "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+      "bytes": 14812114
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+      "bytes": 999377
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-001.pages.json",
+      "sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1",
+      "bytes": 6100
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v2.json",
+      "sha256": "2f780af16d6c80a8d169fa4757c5b0dedb3a9c1b9c4c9bfcba41944df913e16f",
+      "bytes": 3731
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/physiocracy-page-finding.v1.json",
+      "sha256": "4ebc54b5cf1ad6c42858cd31f4863d2e212e70680f9dfef28a7537e6ece91db5",
+      "bytes": 56229
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v3.json",
+      "sha256": "a256e8f18abce47d2cecb2f4c0a93102eed5e3642e110ccf3f51c1f09626efc2",
+      "bytes": 495514
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v3.json",
+      "sha256": "d1327ad14565f42635896797f60e02d41e59a962d574eb2c0271cca230f9934f",
+      "bytes": 270521
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v3.json",
+      "sha256": "4ef81ae5e3434100726f92800115ca02dc5dc824b61137f27337abbeb72749fe",
+      "bytes": 42425
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v3.json",
+      "sha256": "42926549a34ea093883cdc538b63ce9c843a3f9bef5d5a9ec55e8de9c5e02baa",
+      "bytes": 6743502
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v3.json",
+      "sha256": "2bcdb8702bb4afd00ea2cd69cdcf703f14051bba38e7066fa1661d194398d628",
+      "bytes": 28889
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v3.json",
+      "sha256": "9a7c07276c37e75f6e40346653d98bdfe63ec5258c18eab1d5061ae50465142e",
+      "bytes": 3299
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v3.json",
+      "sha256": "627e2484c9d0a8651bbcdad3d083cca471f8919683fb2c81ad175bf6987376a6",
+      "bytes": 3971
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v3.json",
+      "sha256": "93e5f70bafe54ca69ec8b5ff0b74be981ba8815c1a5a6814ae23e2d363eb43e2",
+      "bytes": 3972
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/day-of-tiles-finding.v1.json",
+      "sha256": "6ead4491bdb10077365028e7b0bbb3a1cbbd4446de684e52537f499c67deb622",
+      "bytes": 82086
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v4.json",
+      "sha256": "84a6d2bb4c3eefded2c7a000628db3ba721fcd120a90ea8a59e543d93b7c95e9",
+      "bytes": 525913
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v4.json",
+      "sha256": "43828f756082f2ab0eea8f3bcb5221f9d6af6ca42fcc257a4c04617772629f4a",
+      "bytes": 70884
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v4.json",
+      "sha256": "a866af3d040d1fa6eceab292aebd26d9cc2338a0154d0f7cb19c0989c664b146",
+      "bytes": 6744355
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v4.json",
+      "sha256": "90c741fe8d5aa22703eb48ed1fc28b8c8d65b9411140c72cbf68db5f49ab90b1",
+      "bytes": 49963
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v4.json",
+      "sha256": "d57344ff1dc54267491664d7da3d7c913aa3e0f3676a2f22bb120b9717ce94cc",
+      "bytes": 10816
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v4.json",
+      "sha256": "9c7acb8168f2b20679775a6e4baff61b10b10e84b66751b8b3e41d53791cdf60",
+      "bytes": 4076
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "bytes": 718103
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-003.pages.json",
+      "sha256": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272",
+      "bytes": 3434
+    }
+  ],
+  "source_access": "Original109-file source packet and exact listed prior source-only outputs remain permitted. The helper addendum authorizes its exact preservedc11 import closure/native49-schema store. No other root docs/validation, candidate content/results, app/task histories, broad .source-only discovery or active installed runtime. Hash-check before exposure.",
+  "source_review_scope": {
+    "source_pages": [
+      11,
+      12,
+      16,
+      17,
+      19,
+      30,
+      31,
+      32,
+      33,
+      56,
+      57,
+      58,
+      82,
+      83,
+      84,
+      113,
+      114,
+      131,
+      132,
+      133,
+      134
+    ],
+    "whole_affected_subject_ids": [
+      "SUBJ-SUCC-5193E3F37320",
+      "SUBJ-SUCC-C3088DA62479",
+      "SUBJ-SUCC-A7CE991FCCA3",
+      "SUBJ-SUCC-7B3E1AAE16C8",
+      "SUBJ-SUCC-9E6D9535AA17",
+      "SUBJ-SUCC-99A2AEA8AD04",
+      "SUBJ-SUCC-9998092EF3FD",
+      "SUBJ-SUCC-6F86A8D885F6",
+      "SUBJ-SUCC-E5CD9F2A376A"
+    ],
+    "changed_evidence_ids": [
+      "EVID-SUCC-3E891F904D2B",
+      "EVID-SUCC-470F41497A94",
+      "EVID-SUCC-51E510B47B2A",
+      "EVID-SUCC-7A2F098446C6",
+      "EVID-SUCC-8C432DB3ADE6",
+      "EVID-SUCC-EE0D698188B1",
+      "EVID-SUCC-0B6249083880",
+      "EVID-SUCC-0E9525FC57BE"
+    ],
+    "retained_local_ids": [
+      "CHUNK-002-S055",
+      "C005-S042",
+      "C005-S068",
+      "C005-S072",
+      "C005-S083",
+      "C005-S013",
+      "CHUNK-002-S060",
+      "C003-S043"
+    ],
+    "direct_relationship_ids": [
+      "REL-SUCC-B335A884C13F",
+      "REL-SUCC-38C6F6B928A7",
+      "REL-SUCC-E7124D7371DB",
+      "REL-SUCC-ABB3F86CCA53",
+      "REL-SUCC-068AD2631067",
+      "REL-SUCC-94F113005954",
+      "REL-SUCC-468E3CA045DD",
+      "REL-SUCC-E0978DE18957",
+      "REL-SUCC-2319D3861F52",
+      "REL-SUCC-96B06A30E955",
+      "REL-SUCC-59C4ABC05226",
+      "REL-SUCC-6F7FCC206FAB",
+      "REL-SUCC-2B8517C69BE7",
+      "REL-SUCC-DC7EC6A2552C",
+      "REL-SUCC-33091612EED4",
+      "REL-SUCC-2202F9DA335C",
+      "REL-SUCC-PROP-1711FB45813D",
+      "REL-SUCC-EEB4AA771571",
+      "REL-SUCC-4F9108A9AFC4",
+      "REL-SUCC-D12B3E40A6FB"
+    ],
+    "direct_task_ids": [
+      "TASK-SUCC-B527523CD324",
+      "TASK-SUCC-7F50CD4D3BD7",
+      "TASK-SUCC-6391F0BDF782",
+      "TASK-SUCC-88014BC44F0A",
+      "TASK-SUCC-2F6D1A0D8441",
+      "TASK-SUCC-059C6795CA49",
+      "TASK-SUCC-51A692AC1AF3",
+      "TASK-SUCC-1B2FAF3D196A",
+      "TASK-SUCC-3300A648B86D",
+      "TASK-SUCC-C4CD70878B52",
+      "TASK-SUCC-A205EFEAF336",
+      "TASK-SUCC-3A03F04E995C",
+      "TASK-SUCC-688AF1562009",
+      "TASK-SUCC-89C978AB6CEE",
+      "TASK-SUCC-077FE592CCA7",
+      "TASK-SUCC-19927B2A3EEA",
+      "TASK-SUCC-4FFD69F0D9B3",
+      "TASK-SUCC-05050DC02C27",
+      "TASK-SUCC-6C21335BAF60",
+      "TASK-SUCC-B5BF6625C79A",
+      "TASK-SUCC-69EFE6209488",
+      "TASK-SUCC-D48E026A040E",
+      "TASK-SUCC-8CA89FDEC871",
+      "TASK-SUCC-1C80693391C9",
+      "TASK-SUCC-FAA264D1A4DA",
+      "TASK-SUCC-6568E9149DE8",
+      "TASK-SUCC-94EDE94B8AE6",
+      "TASK-SUCC-2D3236B315D6",
+      "TASK-SUCC-74A035B98503",
+      "TASK-SUCC-3A26DDBBA720",
+      "TASK-SUCC-B9CB770CB965",
+      "TASK-SUCC-89C9B3341F54",
+      "TASK-SUCC-4374EAFE3872",
+      "TASK-SUCC-F2D0FABD33B4",
+      "TASK-SUCC-64F12025200D",
+      "TASK-SUCC-9B38A6C902D7",
+      "TASK-SUCC-1ED05A0875F4",
+      "TASK-SUCC-DA535ADA7DEC"
+    ],
+    "content_field_replacements": 38,
+    "changed_relationship_ids": [
+      "REL-SUCC-0EC046BA86DD",
+      "REL-SUCC-6346B62FAB7C"
+    ],
+    "additional_unchanged_endpoint_subject_ids": [
+      "SUBJ-SUCC-8091E0F5C8B0",
+      "SUBJ-SUCC-E64A7C4235E5",
+      "SUBJ-SUCC-B6818330CE83",
+      "SUBJ-SUCC-4A0D9CB97E23"
+    ],
+    "additional_linked_task_ids": [
+      "TASK-SUCC-98B1FA42AECC",
+      "TASK-SUCC-65B50204480D",
+      "TASK-SUCC-FE79A91F953B",
+      "TASK-SUCC-C707FE9CC389",
+      "TASK-SUCC-D2F65FAE48BD",
+      "TASK-SUCC-FD3E358FBD92",
+      "TASK-SUCC-53932F27987A",
+      "TASK-SUCC-E29CBC5010E0",
+      "TASK-SUCC-D8BD97AE0CFB",
+      "TASK-SUCC-AF32FA0F3F91"
+    ],
+    "findings": [
+      "PBF-001",
+      "PBF-002",
+      "PBF-003",
+      "PBF-004",
+      "PBF-005",
+      "PBF-006",
+      "PBF-007",
+      "PBF-008",
+      "PBF-009",
+      "PBF-010",
+      "PBF-011"
+    ]
+  },
+  "public_output_directory": "successor/independent-review/post-freeze/page-binding-correction/reviewer",
+  "restricted_output_directory": ".source-only/independent-review-work/post-freeze/page-binding-correction-reviewer",
+  "instructions": [
+    "Reuse your actual completed independent checks of the ten findings in immutable proposalv3, with exact component/record bindings. Independently check the new PBF-011 Day of Tiles whole-record delta against full82–84: nine changed main/nested/evidence fields, retained C003-S043, the unchanged second evidence row and sole linked whole task/facet. The allegation and prior repair intent do not substitute for reading the exact source and proposed values.",
+    "Verify exact aggregate fullv3-base-to-selected-proposalv4/final diff and exact proposal-revision3-to-revision4 delta. All preceding ten findings must be unchanged. Aggregate38 content-field changes affect9subjects and2relationships;8existing evidence rows change. Preserve all rowIDs, priorities, access routes, task/relationship direction and page/class populations. The casualty qualification must be coherent in every current copy and evidence summary without importing outside history. Report any further needed correction before expanding scope. Complete page-coalescing sets remain2080→2079 and2393→2395 from prior corrections; PBF-011 adds no page/class change.",
+    "Record actual prior-review reuse for demonstrably unchanged values, true continuing candidate-unseen context and post-freeze-referral provenance. Do not claim a fresh source-first or new whole-book review.",
+    "If approved, finalize only permitted wrapper metadata into NEW successor/source/source-benchmark.v4.json. Author NEW current-schema successor/independent-review/source-benchmark-review.v3.json with exact ORIGINAL DRAFT to final approved_changes, inherited complete review proof and this narrow independently checked correction. Bind exact final/review bytes in a new exact-final-byte-assent and preserve exact before/final diffs, historical dispositions and input visibility.",
+    "If any value remains wrong or review incomplete, report required revisions rather than approve. Do not edit any original/frozen/proposal bytes or either source state. Do not freeze, reactivate runtime, activate amendment, select a lock or inspect candidates. Root technical clearance is a distinct later step. Seal a manifest and report hashes."
+  ],
+  "methodology_execution": "Only exact preservedc11 helper/interpreter/native schemas from the bound addendum; no SCHEMA_ROOT override or installed runtime access.",
+  "supersedes_for_dispatch_only": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v3.json",
+    "sha256": "c121a5b64e994596ec8cfaa1bfa6f1fbf2583142a92097c50e81b178cb9d7a46",
+    "bytes": 23356
+  },
+  "selected_proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v4.json",
+    "sha256": "a866af3d040d1fa6eceab292aebd26d9cc2338a0154d0f7cb19c0989c664b146",
+    "bytes": 6744355
+  },
+  "prior_proposal_selection": "Every v1–v3 proposal remains immutable; only proposed-source-benchmark.v4.v4.json is selected. Reuse actual completed prior checks with exact bindings; independently inspect the new delta before finalization."
+}

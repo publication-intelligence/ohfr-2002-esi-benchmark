@@ -1,0 +1,70 @@
+{
+  "status": "complete_for_assigned_scope_parent_integration_required",
+  "candidate_content_accessed": false,
+  "scope": {
+    "relationships": {
+      "legacy": 500,
+      "native": 32,
+      "total": 532,
+      "minimum_original_chunk": [
+        "CHUNK-010",
+        "CHUNK-011",
+        "CHUNK-012"
+      ]
+    },
+    "reader_tasks": {
+      "legacy": 341,
+      "native": 225,
+      "total": 566,
+      "wholly_scoped_chunks": [
+        "CHUNK-007",
+        "CHUNK-008",
+        "CHUNK-009",
+        "CHUNK-010",
+        "CHUNK-011",
+        "CHUNK-012"
+      ],
+      "scope_rule": "Legacy final declared chapter_provenance wholly CHUNK-007–012; native scope derived from target subject evidence chunks. Some legacy tasks share mixed subject provenance with the parent strict-union slice; deduplicate by exact lineage/task ID."
+    }
+  },
+  "relationship_disposition_counts": {
+    "retired_as_redundant_or_nonspecific": 138,
+    "superseded_by_exact_new_edge": 120,
+    "internalized": 211,
+    "propose_necessary_new_edge": 63
+  },
+  "proposed_new_edges": 38,
+  "proposed_existing_edge_amendments": 6,
+  "proposed_new_questions": 6,
+  "proposed_existing_task_amendments": 3,
+  "validation": {
+    "exact_relationship_inventory": true,
+    "exact_task_inventory": true,
+    "relationship_targets_resolve": true,
+    "proposed_edges_resolve": true,
+    "edge_refs_resolve": true,
+    "question_refs_resolve": true,
+    "question_targets_resolve": true,
+    "no_empty_source_pages": true,
+    "original_freezes_unchanged": true,
+    "post_edit_full_inventory_and_reference_validation": true
+  },
+  "unreviewed_owned_relationship_ids": [],
+  "unreviewed_owned_task_ids": [],
+  "scope_limits": [
+    "This is not whole-book final approval or a freeze.",
+    "Earlier minimum-provenance relationships, cross-scope old reader tasks, and all entities outside the assigned scope remain with the parent.",
+    "Public-safe source analysis only; exact old records and concise analytical summaries are preserved, not source prose extracts.",
+    "Specific historical questions are retained as unweighted task facets. Their broader successor question is not claimed to be verbatim equivalent. Parent must integrate facet aliases and the explicit amendments."
+  ],
+  "task_facets_attachment_count": 580,
+  "output_paths": [
+    "successor/synthesis/final-dependencies-007-012/relationship-dispositions.json",
+    "successor/synthesis/final-dependencies-007-012/proposed-relationships.json",
+    "successor/synthesis/final-dependencies-007-012/relationship-amendments.json",
+    "successor/synthesis/final-dependencies-007-012/task-dispositions.json",
+    "successor/synthesis/final-dependencies-007-012/proposed-tasks.json",
+    "successor/synthesis/final-dependencies-007-012/task-facet-attachments.json",
+    "successor/synthesis/final-dependencies-007-012/inputs.json"
+  ]
+}

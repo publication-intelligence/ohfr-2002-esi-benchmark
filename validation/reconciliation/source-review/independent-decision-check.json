@@ -1,0 +1,533 @@
+{
+  "schema_version": "source-only-independent-decision-check-v1",
+  "review_id": "independent-decision-check",
+  "status": "bounded_independent_check_complete",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "candidate_unexposed_attestation": {
+    "fresh_review_context": true,
+    "parent_history_opened": false,
+    "candidate_indexes_opened": false,
+    "candidate_results_opened": false,
+    "candidate_audits_opened": false,
+    "candidate_derived_measures_used": false,
+    "task_tools_used": false,
+    "unrelated_repository_documents_opened": false,
+    "boundary": "Allowlisted source, map, manifest, benchmark and discovery files; permitted source-only review reports and density code/output; installed skill instructions; own restricted working files.",
+    "prior_hypothesis_visibility": "This reviewer received the disputed claims and read prior source-only findings, then independently checked the exact source pages and benchmark fields. This is independent verification of hypotheses, not independent blind discovery.",
+    "selection_rule": "No release was preselected; counts, dates and incumbency were not treated as quality criteria."
+  },
+  "coverage": {
+    "source_text_pages_read_in_full": [
+      150,
+      151,
+      152,
+      274,
+      275,
+      276
+    ],
+    "source_pages_visually_inspected_in_full": [
+      3,
+      127,
+      129,
+      151,
+      225,
+      275,
+      345
+    ],
+    "chapter_opening_top_regions_visually_checked": [
+      1,
+      44,
+      66,
+      86,
+      112,
+      136,
+      159,
+      174,
+      197,
+      220,
+      247,
+      272,
+      297,
+      318,
+      341,
+      369,
+      391
+    ],
+    "chapter_opening_scope": "Chapter display and first body lines only; these are layout checks, not complete semantic reviews of those pages.",
+    "density_mechanical_scope": {
+      "document_pages": 425,
+      "manifest_chunks": 17,
+      "one_owned_occurrence_per_page": true
+    },
+    "semantic_adjudication_focus": [
+      151,
+      275
+    ],
+    "legacy_subjects_targeted": [
+      "SUBJ-20E4EBF24394",
+      "SUBJ-5EF2BDD9F1CB",
+      "SUBJ-A8857B12C90E",
+      "SUBJ-8C9C716904DC",
+      "SUBJ-61FFE953CB63",
+      "SUBJ-744C7C41CE77",
+      "SUBJ-04661509BFF9",
+      "SUBJ-62A63322B066"
+    ],
+    "native_subjects_targeted": [
+      "SUBJ-0208",
+      "SUBJ-0209",
+      "SUBJ-0448"
+    ],
+    "legacy_incident_edges_checked": [
+      {
+        "relationship_id": "REL-40DAB00EC7B6",
+        "from": "SUBJ-8C9C716904DC",
+        "type": "supports",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "stale_endpoint_after_narrowing",
+        "reason": "The source describes Robespierre opposing slavery and supporting political equality; the final target denotes preserving slavery."
+      },
+      {
+        "relationship_id": "REL-F901AD713C65",
+        "from": "SUBJ-A8857B12C90E",
+        "type": "part_of",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "stale_endpoint_after_narrowing",
+        "reason": "The citizenship issue was a component of the former compound colonial subject, not a component of the final slavery-preservation decision."
+      },
+      {
+        "relationship_id": "REL-A189108B8550",
+        "from": "SUBJ-5EF2BDD9F1CB",
+        "type": "part_of",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "collapsed_distinction_after_narrowing",
+        "reason": "Both endpoints now denote the same 1790 refusal of abolition; the former component-to-umbrella distinction no longer exists."
+      },
+      {
+        "relationship_id": "REL-728B1FB47A0B",
+        "from": "SUBJ-61FFE953CB63",
+        "type": "contrasts_with",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "stale_endpoint_after_narrowing",
+        "reason": "The inherited contrast concerns Barnave and Robespierre. The final target instead denotes the preservation decision recommended by Barnave’s committee."
+      },
+      {
+        "relationship_id": "REL-028476B899D6",
+        "from": "SUBJ-20E4EBF24394",
+        "type": "supports",
+        "to": "SUBJ-8C9C716904DC",
+        "verdict": "additional_stale_endpoint_confirmed",
+        "reason": "The inherited causal description concerns a rights-debate victory increasing Robespierre’s standing; the final source node denotes preservation of slavery."
+      },
+      {
+        "relationship_id": "REL-16B98BBC3184",
+        "from": "SUBJ-20E4EBF24394",
+        "type": "evidence_for",
+        "to": "SUBJ-744C7C41CE77",
+        "verdict": "locally_supported",
+        "reason": "Preserving slavery supplies an example of the exclusions qualifying the Assembly’s rights legacy; narrowing does not destroy this relation."
+      },
+      {
+        "relationship_id": "REL-CAB4FAA85E16",
+        "from": "SUBJ-744C7C41CE77",
+        "type": "constrains",
+        "to": "SUBJ-20E4EBF24394",
+        "verdict": "additional_direction_mismatch",
+        "reason": "The preserved source relation is limited_by and its description makes colonial exclusion the qualification on the rights legacy. The final constrains type with unchanged endpoints reverses that direction. Re-adjudication is warranted; this is not needed for the principal withholding decision."
+      }
+    ],
+    "whole_book_semantic_review": false,
+    "exhaustive_omission_audit": false
+  },
+  "input_hashes_verified": [
+    {
+      "artifact": "source_pdf",
+      "file_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "matches_input_allowlist": true
+    },
+    {
+      "artifact": "page_map",
+      "file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "matches_input_allowlist": true
+    },
+    {
+      "artifact": "chunk_manifest",
+      "file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "matches_input_allowlist": true
+    },
+    {
+      "artifact": "legacy_benchmark_v3",
+      "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "matches_input_allowlist": true
+    },
+    {
+      "artifact": "native_benchmark_v2",
+      "file_sha256": "f58fae3d56c427fcac8771d8ca4181f98a9d496096e35ea1d130e200567a816c",
+      "matches_input_allowlist": true
+    },
+    {
+      "artifact": "legacy_discovery_chunk_006",
+      "file_sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6",
+      "matches_input_allowlist": true
+    },
+    {
+      "artifact": "legacy_discovery_chunk_012",
+      "file_sha256": "074c27d7ca132dac6c642eac49ccb90015708cba2b121a6fae381b077a02ecab",
+      "matches_input_allowlist": true
+    },
+    {
+      "artifact": "native_discovery_chunk_012",
+      "file_sha256": "7edb3f244ba8ad70184110886b6b9a1653d465430758bcc4d35daa1bf505b504",
+      "matches_input_allowlist": true
+    }
+  ],
+  "comparison_artifact_hashes": [
+    {
+      "artifact": "chunks-001-006.json",
+      "sha256": "0021effeac65697f227890690300868029eaa6503ac6c8f819be255f0c0bc3ab"
+    },
+    {
+      "artifact": "chunks-007-012.json",
+      "sha256": "37ebe9c81cc73f2596fa39efa22892c77b1e3ccd9786ea858022079665eac1ee"
+    },
+    {
+      "artifact": "source-density-measurement.json",
+      "sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767"
+    },
+    {
+      "artifact": "measure_source_density.py",
+      "sha256": "74205eeff2bced9962b7ed40a5b8095142060c56c8ec69a2971cf2e6bca95663"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "IDC-01",
+      "prior_findings": [
+        "F-001006-01"
+      ],
+      "lineage": "legacy",
+      "document_pages": [
+        151
+      ],
+      "subject_ids": [
+        "SUBJ-20E4EBF24394",
+        "SUBJ-5EF2BDD9F1CB",
+        "SUBJ-A8857B12C90E"
+      ],
+      "discovery_ids": [
+        "CHUNK-006-SUBJ-041",
+        "CHUNK-006-SUBJ-069",
+        "CHUNK-006-SUBJ-070"
+      ],
+      "evidence_ids": [
+        "EVID-1EF9C8BC913A",
+        "EVID-3DC8D7D02A51",
+        "EVID-FFD99C485273",
+        "EVID-BFE0155CA531"
+      ],
+      "verdict": "confirmed_with_scope_qualification",
+      "category": "duplicate_meaning_and_stale_principal_evidence",
+      "assessment": "The source distinguishes the 1790 refusal of abolition from the later struggle for political rights of free people of color. Two final major subjects now express the same refusal of abolition. The narrowed subject retains principal evidence belonging to its former two-part meaning. Its final stance itself requires the two issues to remain distinct.",
+      "qualification": "Separate slavery and citizenship subjects are defensible; a combined subject with both distinctions is also defensible, as native SUBJ-0209 shows locally. The problem is duplicate final meaning and unreconciled inherited fields. The retained evidence is a true description of the page and can be relevant context, but it no longer directly establishes the narrowed principal subject."
+    },
+    {
+      "finding_id": "IDC-02",
+      "prior_findings": [
+        "F-001006-02"
+      ],
+      "lineage": "legacy",
+      "document_pages": [
+        151
+      ],
+      "relationship_ids": [
+        "REL-40DAB00EC7B6",
+        "REL-F901AD713C65",
+        "REL-A189108B8550",
+        "REL-728B1FB47A0B",
+        "REL-028476B899D6",
+        "REL-16B98BBC3184",
+        "REL-CAB4FAA85E16"
+      ],
+      "verdict": "four_named_edges_confirmed_with_additional_incident_findings",
+      "category": "relationship_semantics",
+      "assessment": "The four previously named stale edges are confirmed by their exact final endpoints and types. A fifth stale edge is independently identified, one other incident edge remains locally supported, and another preserves an inverse relation with the wrong normalized direction.",
+      "qualification": "Descriptions preserve parts of the intended older meanings, but do not make the final typed graph coherent. This is a bounded incident-edge check, not an audit of the whole relationship graph."
+    },
+    {
+      "finding_id": "IDC-03",
+      "prior_findings": [
+        "chunks-007-012:F-01"
+      ],
+      "lineage": "native",
+      "document_pages": [
+        275
+      ],
+      "subject_ids": [
+        "SUBJ-0448"
+      ],
+      "evidence_ids": [
+        "EVID-0448-001",
+        "EVID-0448-002"
+      ],
+      "discovery_ids": [
+        "CHUNK-012-S039"
+      ],
+      "verdict": "confirmed_material_interpretation_defect",
+      "category": "changed_phase_inference_not_preserved",
+      "assessment": "The source’s argument concerns an altered June–July execution pattern and cautiously infers that social status contributed to selection for at least some victims, while allowing possible subversive activity. The native stance instead foregrounds a general rejection of class warfare, and EVID-0448-002 supplies an argument about discrimination against lower classes that the page does not make. The numerical execution summary in EVID-0448-001 is supported.",
+      "qualification": "The native caveat that class was not the sole basis is not, by itself, a formal contradiction of the source. The material defect is the substitution of the general argument for the specific qualified phase change, plus the unsupported lower-class counterargument. This is a source-meaning issue rather than a major-versus-essential priority choice.",
+      "locally_supported_alternative": {
+        "subject_id": "SUBJ-04661509BFF9",
+        "uncertainty_id": "UNC-0790C024035C",
+        "assessment": "The legacy stance and uncertainty preserve both the changed social profile and the limit on inferring innocence. Other cited pages of that subject were not adjudicated."
+      }
+    },
+    {
+      "finding_id": "IDC-04",
+      "prior_findings": [
+        "chunks-007-012:F-02"
+      ],
+      "lineage": "legacy",
+      "document_pages": [
+        275
+      ],
+      "subject_ids": [
+        "SUBJ-04661509BFF9",
+        "SUBJ-62A63322B066"
+      ],
+      "relationship_ids": [
+        "REL-B0C022DE2900",
+        "REL-E772A101C09E"
+      ],
+      "discovery_ids": [
+        "CHUNK-012-S010"
+      ],
+      "verdict": "confirmed_direction_defect",
+      "category": "inverse_relation_normalization",
+      "assessment": "Discovery relates the Great Terror to the Prairial law using enabled_by. REL-B0C022DE2900 retains that endpoint order but uses enables. The page and REL-E772A101C09E support the law as a mechanism producing the intensification, not the reverse.",
+      "qualification": "This demonstrates a local normalization defect; it does not prove that all inverse relations are wrong."
+    },
+    {
+      "finding_id": "IDC-05",
+      "prior_findings": [
+        "F-001006-03"
+      ],
+      "lineage": "native",
+      "document_pages": [
+        150,
+        151
+      ],
+      "subject_ids": [
+        "SUBJ-0208"
+      ],
+      "evidence_ids": [
+        "EVID-0208-003"
+      ],
+      "verdict": "locally_confirmed_overbroad_wording",
+      "category": "scope_of_claim",
+      "assessment": "The inspected passage supports opposition to slavery and support for political rights regardless of color. It does not establish opposition to colonial rule as such, which the anticolonial wording can imply.",
+      "qualification": "This is a supplemental local wording finding. Pages 154–155 in the full record were not semantically checked here; the unchanged-adoption decision does not depend on this finding."
+    }
+  ],
+  "density_protocol_check": {
+    "verdict": "defensible_reproducible_operational_prose_denominator_for_exact_bound_inputs",
+    "registration_or_policy_change_approved": false,
+    "measurement_status": "computed_unregistered_measurement",
+    "mechanical": {
+      "reproduced_byte_for_byte": true,
+      "measurement_file_sha256": "f75de355a810958346c77f250f7a3c9708ff6f1f22c5d71ff9fdfcea33fcd767",
+      "pages": 425,
+      "chunks": 17,
+      "total": 193118,
+      "script_sha256": "74205eeff2bced9962b7ed40a5b8095142060c56c8ec69a2971cf2e6bca95663",
+      "extraction_xml_sha256": "862b6c08b11d5a75c18e0f4c99b190c7256984e7a054f05d5fac3ed780e5a30e",
+      "cross_page_join_count": 2,
+      "chapter_display_excluded_raw_tokens": 91,
+      "page_map_identity_verified": true,
+      "all_mapped_pages_in_scope": true,
+      "owned_page_multiplicity": {
+        "1": 425
+      },
+      "chapter_opening_geometry": [
+        {
+          "page": 1,
+          "threshold": 170,
+          "last_excluded_line_yMin": 101.7,
+          "first_retained_line_yMin": 175.3325
+        },
+        {
+          "page": 44,
+          "threshold": 170,
+          "last_excluded_line_yMin": 101.7,
+          "first_retained_line_yMin": 175.3325
+        },
+        {
+          "page": 66,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 197.3325
+        },
+        {
+          "page": 86,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 195.1125
+        },
+        {
+          "page": 112,
+          "threshold": 170,
+          "last_excluded_line_yMin": 125.7,
+          "first_retained_line_yMin": 197.3325
+        },
+        {
+          "page": 136,
+          "threshold": 210,
+          "last_excluded_line_yMin": 144.9,
+          "first_retained_line_yMin": 219.3325
+        },
+        {
+          "page": 159,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 197.3325
+        },
+        {
+          "page": 174,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 195.1125
+        },
+        {
+          "page": 197,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 195.1125
+        },
+        {
+          "page": 220,
+          "threshold": 170,
+          "last_excluded_line_yMin": 101.7,
+          "first_retained_line_yMin": 175.3325
+        },
+        {
+          "page": 247,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 195.1125
+        },
+        {
+          "page": 272,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 197.3325
+        },
+        {
+          "page": 297,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 197.3325
+        },
+        {
+          "page": 318,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 198.1125
+        },
+        {
+          "page": 341,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 197.3325
+        },
+        {
+          "page": 369,
+          "threshold": 170,
+          "last_excluded_line_yMin": 120.9,
+          "first_retained_line_yMin": 195.1125
+        },
+        {
+          "page": 391,
+          "threshold": 170,
+          "last_excluded_line_yMin": 125.7,
+          "first_retained_line_yMin": 197.3325
+        }
+      ],
+      "negative_binding_checks": [
+        {
+          "input": "source",
+          "altered_bytes_rejected": true,
+          "no_measurement_output": true
+        },
+        {
+          "input": "manifest",
+          "altered_bytes_rejected": true,
+          "no_measurement_output": true
+        },
+        {
+          "input": "page-map",
+          "altered_bytes_rejected": true,
+          "no_measurement_output": true
+        }
+      ]
+    },
+    "page_map_canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_canonical_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "source_map_manifest_binding": "Exact file hashes, recomputed canonical JSON identities, source-to-map binding, map-to-manifest binding, identity page labels and single ownership all verified. Altered source, page map and manifest bytes each fail before writing a measurement.",
+    "extractor": "pdftotext version 24.02.0",
+    "map_regions": [
+      {
+        "page": 3,
+        "caption_words": 8,
+        "judgment": "Both caption lines are retained; the adjacent source credit and all graphic labels, legend and scale are excluded."
+      },
+      {
+        "page": 127,
+        "caption_words": 5,
+        "judgment": "The single substantive caption is retained; raster map labels and legend are excluded."
+      },
+      {
+        "page": 129,
+        "caption_words": 13,
+        "judgment": "Both caption lines are retained; the adjacent source credit and 48-item numbered section key are excluded. The list maps numbers to graphic regions and functions as a cartographic key, despite its placement below the picture."
+      },
+      {
+        "page": 225,
+        "caption_words": 5,
+        "judgment": "The single substantive caption is retained; graphic resistance labels, legend and scale are excluded."
+      },
+      {
+        "page": 345,
+        "caption_words": 5,
+        "judgment": "The single substantive caption is retained; graphic territorial labels, legend and scale are excluded."
+      }
+    ],
+    "chapter_geometry_assessment": "All 17 opening cutoffs separate chapter display from body prose without deleting the first body line. The special cutoff of 210 on page 136 is harmless; 170 would separate its display and body equally well.",
+    "policy_discretion": "Excluding chapter display and map keys is a declared scope choice for a uniform prose denominator, not proof that these features are semantically unimportant or inherently unindexable. The earlier review’s proposal to retain chapter headings uses a different scope. Either choice must be explicit and common to all later comparisons.",
+    "limits": [
+      "This is reproducibility under the recorded Poppler version and exact PDF, not validation of every token’s linguistic segmentation.",
+      "The 91 excluded chapter-display raw tokens include chapter numerals and headings; this is a removal ledger statistic, not a separately normalized alternative denominator.",
+      "Graphic map internals are predominantly raster and excluded from the prose count; their absence from extractable-token counts does not make them absent as source evidence.",
+      "All 425 page counts were recomputed, but individual ordinary-page exclusions and every within-page hyphen join were not visually adjudicated.",
+      "No frozen historical word count or evaluation policy was overwritten."
+    ]
+  },
+  "decision": {
+    "withhold_unchanged_legacy_v3_adoption": true,
+    "withhold_unchanged_native_v2_adoption": true,
+    "basis": "Each release contains at least one directly verified substantive source-meaning or typed-relationship defect in the bounded packets. That is sufficient to withhold unchanged adoption, without identifying a whole-book winner or claiming completeness.",
+    "does_not_establish": [
+      "A blanket quality ranking of either lineage",
+      "That all differences in grouping or priority are defects",
+      "An approved reconciled successor",
+      "Exhaustive source coverage or a whole-book review"
+    ],
+    "benchmark_changed": false,
+    "freeze_performed": false,
+    "successor_registered": false
+  },
+  "public_output_check": {
+    "source_prose_excerpts_included": false,
+    "private_filesystem_paths_included": false,
+    "candidate_information_included": false
+  }
+}

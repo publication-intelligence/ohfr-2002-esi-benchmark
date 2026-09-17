@@ -1,0 +1,11 @@
+The assigned actual-draft review is complete:147 whole subjects,617 evidence records,93 relationships,55 reader tasks and128 task facets were inspected, and all159 source-first findings have explicit dispositions. Assignmentv2 governs task ownership. Candidate content and candidate results remain unseen.
+
+The ledgers recommend retaining113 subjects as drafted and revising34; retaining89 relationships and revising4; and retaining41 tasks and revising14. These are dispositions on the original records, not approval of proposed repaired records. Two useful task facets are proposed as separate coherent inquiries. Counts describe the review and are not targets.
+
+Material repairs preserve the distinction between royal hopes of French defeat and generals’ different aims; correct the chronology of Europe’s reaction to Church conflict; avoid implying abolition of Polish noble political monopoly; correct two Toulon locators to292; and retain uncertainty rather than adding authorial claims of prescience. The map225 record is replaced by an optional caption-only retrieval route. Its former requirements based on shading, symbols, named regions and Granville routes are ineligible.
+
+Source-first reconciliation adds an explicit assassination-and-attribution treatment to the existing GustavusIII subject and the apparently accidental Grenelle explosion to press politics. At the lead’s request, direct reinspection of413 supports a clearly identified British Saint-Domingue mortality and1798 withdrawal extension; the enlarged Caribbean subject requires lead whole-record review. It is distinct from later French losses.
+
+Field corrections provide exact entity IDs, field paths, before/after values, source pages and reasons. Proposed records are complete replacements for review, not mutations to the source draft. Source-first and cross-shard ledgers preserve broader qualifications, including source chronology tensions, as referrals where whole-record ownership lies with the lead.
+
+All assigned ID sets reconcile exactly, every proposed task facet is represented in its parent’s subject bindings, and all109 original plus146 addendum input hashes reverify without mismatch. Draft and registered-state bytes remain unchanged. No freeze, canonical mutation or whole-book approval has occurred.

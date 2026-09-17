@@ -1,0 +1,32 @@
+{
+  "schema_version": "frozen-source-v10-compatibility-verification-v1",
+  "result": "pass",
+  "recorded_at": "2026-09-17T05:02:39.617919+00:00",
+  "methodology_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "source_methodology": {
+    "policy_profile": "subject-index-standard-policy-v8.2",
+    "rubric_version": "subject-index-rubric-v8.2",
+    "calculation_profile": "subject-index-dimension-calculation-v7",
+    "source_policy_sha256": "63f4cdebb96137b32874df6a0a5035ca638519892ff72e444dcbc925e1ef42ae",
+    "source_policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
+  },
+  "source_files": {
+    "successor/source/source-benchmark.v2.json": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "successor/evaluation-state.json": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+    "successor/source/source-benchmark.draft.v1.json": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+    "successor/independent-review/source-benchmark-review.v1.json": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+    "successor/source/evaluation-policy.v4.json": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
+  },
+  "base_benchmark_semantic_sha256": "bfd742cbd06bf79d234091617298cb46604a9f1d71f84424f3c4093441f5f9c1",
+  "prepared_policy_template": {
+    "path": "successor/study-policy-template.v10.json",
+    "sha256": "408bd67a3f6300f240a8768e8e2deec51a14c02ef084f3ef1482777fb7994177",
+    "policy_semantic_sha256": "7fea875a46370351481128234c15825225ac5cdabffb0f0bd22ea7adfb0d2beb",
+    "preservation": "Exact CLI-produced bytes copied from temporary preparation into the benchmark repository; unfrozen common policy template."
+  },
+  "native_lineage_validation": "Passed final V10 native current-source-freeze proof with temporary screening recomputation.",
+  "source_files_unchanged": true,
+  "study_lock_selected": false,
+  "runtime_installation_activated": false,
+  "candidate_migration_performed": false
+}

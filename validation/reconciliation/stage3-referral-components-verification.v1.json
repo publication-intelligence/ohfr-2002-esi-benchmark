@@ -1,0 +1,38 @@
+{
+  "schema_version": "stage3-and-referral-component-verification-v1",
+  "recorded_at": "2026-09-17T01:53:09.715843+00:00",
+  "stage3_binding": {
+    "path": "successor/independent-review/actual-draft/integration/integration-stage3.inputs.v1.json",
+    "sha256": "575836b422fe92019e4267918114adfcf83f21463a68c53fa9a99de31b0bbcb6"
+  },
+  "stage3_exact_reconstruction_from_bound_stage2_and_proposals": true,
+  "whole_subject_replacements": 46,
+  "referral_components": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-parent-referral-closure.001-016.v1.json",
+      "sha256": "72ce97cc247a9d6f5e937ffe5f0ca9bb553f95b2d37afdc8b791cffa6ec249b4",
+      "referral_rows": 16,
+      "whole_subject_proposals": 2,
+      "field_diffs": 2
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/007-parent-referral-closure.017-032.v1.json",
+      "sha256": "f63e6aa1a060f92f301fc449bf7dc9e8304be4aa63b709f96ce4bf418948816b",
+      "referral_rows": 16,
+      "whole_subject_proposals": 9,
+      "field_diffs": 18
+    }
+  ],
+  "exact_referral_rows": 32,
+  "exact_field_diff_reconstruction": 20,
+  "lead_repaired_value_assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-001-006-lead-repaired-values.assignment.v1.json",
+    "sha256": "cb4101384a75b670f4249fbba0da449d602ac1c39580a205a4d75970c63a8976",
+    "exact_embedded_stage3_subjects": 22,
+    "evidence_rows": 95
+  },
+  "editorial_approval": false,
+  "final_integrated_value_approval": false,
+  "candidate_information_used": false,
+  "coordinator_candidate_unexposed": false
+}

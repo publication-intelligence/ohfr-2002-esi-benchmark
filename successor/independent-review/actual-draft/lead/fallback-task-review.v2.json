@@ -1,0 +1,238 @@
+{
+  "schema_version": "independent-fallback-task-review-v1",
+  "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+  "screen_queue_ids": [
+    "TASK-SUCC-PROP-EF2613B9F6E1",
+    "TASK-SUCC-PROP-84AA1A064536",
+    "TASK-SUCC-PROP-64DC48AB3844",
+    "TASK-SUCC-PROP-7FC43B3C934E",
+    "TASK-SUCC-PROP-0A1D8790304E",
+    "TASK-SUCC-PROP-3BE9ACD9FB2D"
+  ],
+  "screen_interpretation": "All six actual tasks have fallback_generated=false and empty source_task_ids. They are reviewed because the screening queue identifies them, not presumed machine-written or acceptable.",
+  "rows": [
+    {
+      "task_id": "TASK-SUCC-PROP-EF2613B9F6E1",
+      "actual_record_read_in_full": true,
+      "facet_ids_read": [
+        "legacy:TASK-D4E202BC0230",
+        "legacy:TASK-83919095FE68",
+        "legacy:TASK-5E3DA9FC93F1"
+      ],
+      "source_pages_reconnected": [
+        264,
+        272,
+        273,
+        276,
+        277
+      ],
+      "disposition": "retain_question_and_linkage",
+      "source_grounded_reason": "The source directly links the cult to virtue/deity/immortality on276 and ceremonial prominence to suspicion on277. The three attached facets concern purpose, political reception and Christianity, and all target the cult subject already present in parent subject_ids. Contextual targets distinguish dechristianization and Robespierre’s dependent authority. Whitsunday intention remains uncertain in the subject and must not become a presumed aim of the task.",
+      "proposed_repairs": [],
+      "target_subject_whole_record_review_status": "separate_assigned_reviews_pending_integration"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-84AA1A064536",
+      "actual_record_read_in_full": true,
+      "facet_ids_read": [
+        "legacy:TASK-1DB3676BF8A3",
+        "legacy:TASK-90380DD3A93F",
+        "legacy:TASK-A774DF30ABAA",
+        "legacy:TASK-5B36B77F7CD8"
+      ],
+      "source_pages_reconnected": [
+        257,
+        258,
+        259,
+        274,
+        275
+      ],
+      "disposition": "revise_metadata_and_facet_scope",
+      "source_grounded_reason": "The comparative question is answerable and useful:259 gives all-Terror class/geographic denominators;274–275 gives preventive punishment and the concentrated June–July phase. Source_pages omits259. The generic attached class-profile question is linked only to the Great Terror subject; its historical lineage scope274–275/278/282 shows it was a phase-specific question. Clarify that facet to say Great Terror, preserving the main task’s comparison to all victims. Do not read percentages of noble/clerical victims killed in this phase as percentages of all Great Terror victims.",
+      "proposed_repairs": [
+        {
+          "field": "source_pages",
+          "operation": "include",
+          "value": 259
+        },
+        {
+          "facet_id": "legacy:TASK-1DB3676BF8A3",
+          "field": "question",
+          "proposed": "What does Doyle show about the class profile of victims during the Great Terror?"
+        }
+      ],
+      "target_subject_whole_record_review_status": "separate_assigned_reviews_pending_integration"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-64DC48AB3844",
+      "actual_record_read_in_full": true,
+      "facet_ids_read": [
+        "legacy:TASK-2E407D9B7BC4"
+      ],
+      "source_pages_reconnected": [
+        222,
+        232,
+        233,
+        239,
+        245,
+        247,
+        253,
+        254
+      ],
+      "disposition": "revise_support_pages_and_facet_linkage",
+      "source_grounded_reason": "222 supports Le Peletier’s assassination and Pantheon reception;239 Chalier’s execution;245 explicitly compares the martyrs and Marat’s political construction;253–254 connects Chalier to exemplary Lyonnais vengeance.232–233 do not support the martyr comparison and should not be listed as its support. The parent includes all three relevant subjects, but the attached all-three-martyrs question targets only Marat. Broaden that facet linkage to the same three subjects so local Lyonnais consequences cannot be satisfied by the name-only comparison on245.",
+      "proposed_repairs": [
+        {
+          "field": "source_pages",
+          "proposed": [
+            222,
+            239,
+            245,
+            247,
+            253,
+            254
+          ]
+        },
+        {
+          "facet_id": "legacy:TASK-2E407D9B7BC4",
+          "field": "required_subject_ids",
+          "proposed": [
+            "SUBJ-SUCC-0B38A7EF0244",
+            "SUBJ-SUCC-B7832AC4F354",
+            "SUBJ-SUCC-C8838C6F47C7"
+          ]
+        }
+      ],
+      "target_subject_whole_record_review_status": "separate_assigned_reviews_pending_integration"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-7FC43B3C934E",
+      "actual_record_read_in_full": true,
+      "facet_ids_read": [
+        "legacy:TASK-4B00E34B96C2",
+        "legacy:TASK-1B69EEA8C72D",
+        "legacy:TASK-7E7F688955F0"
+      ],
+      "source_pages_reconnected": [
+        189,
+        192,
+        220,
+        221,
+        223,
+        236,
+        251,
+        272,
+        273,
+        293,
+        406,
+        407,
+        418
+      ],
+      "disposition": "revise_question_facets_and_linkage",
+      "source_grounded_reason": "272 explicitly distinguishes Robespierre’s delegation-based democracy from a people perpetually in action.220–223/236 cover capital versus national representatives;406–407/418 moral economy, tutelage and later democratic memory.189/192/251 give tradesmen/artisans and paid working participation, but the current three parent subjects do not fully represent the requested social-base and suppression inquiry. The attached economy-disaster facet is substantively unrelated to this political comparison; it already also appears under economy tasks TASK-SUCC-89C9B3341F54 and TASK-SUCC-2A6B974A7B01 and must be reviewed there, not projected into this task. Retain the coherent sansculotte inquiry and link participation/suppression to their developed subjects; exact rewrite awaits those whole-subject reviews.",
+      "proposed_repairs": [
+        {
+          "facet_id": "legacy:TASK-7E7F688955F0",
+          "operation": "remove_from_this_task_only",
+          "preservation_targets": [
+            "TASK-SUCC-89C9B3341F54",
+            "TASK-SUCC-2A6B974A7B01"
+          ]
+        },
+        {
+          "field": "source_pages",
+          "operation": "include_key_support",
+          "values": [
+            272,
+            406,
+            407,
+            418
+          ]
+        },
+        {
+          "field": "subject_ids_and_question",
+          "operation": "pending_exact_rewrite",
+          "candidate_additional_targets": [
+            "SUBJ-SUCC-9EE66EC07AA3",
+            "SUBJ-SUCC-AF9995D451BE",
+            "SUBJ-SUCC-9B51E63EF68F"
+          ]
+        }
+      ],
+      "target_subject_whole_record_review_status": "separate_assigned_reviews_pending_integration"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-0A1D8790304E",
+      "actual_record_read_in_full": true,
+      "facet_ids_read": [
+        "legacy:TASK-49AC0B719F50",
+        "legacy:TASK-6D3995A14BC3",
+        "legacy:TASK-151FA588B054"
+      ],
+      "source_pages_reconnected": [
+        202,
+        204,
+        205,
+        210,
+        211,
+        212,
+        217,
+        218,
+        219,
+        223,
+        413
+      ],
+      "disposition": "retain_question_with_explicit_cross_chapter_support_and_parent_scope_revision",
+      "source_grounded_reason": "202/204 support blockade/coalition context,212 Caribbean aims and limits,217 colonial restitution as an obstacle to peace,218 continuing naval strength. Full-page413 inspection supplies direct British human-cost evidence: intervention since1793, reinforcement, lethal climate and withdrawal in1798 with13,000 dead. This must not be confused with the later French reconquest losses on the same page. The question is useful and supported across chapters9/17, but current source_pages205/210/211 and the narrowly chapter9 evidence/meaning do not carry the full demand. Add the British-specific413 claim to the Caribbean subject with explicit chapter17 provenance and revise task pages. Lead must review the expanded final subject as cross-chapter.205 concerns army organization and should be removed from task support.",
+      "proposed_repairs": [
+        {
+          "field": "source_pages",
+          "proposed": [
+            202,
+            204,
+            210,
+            212,
+            217,
+            218,
+            413
+          ]
+        },
+        {
+          "field": "target_subject_parent_scope_and_evidence",
+          "operation": "extend_only_with_British_1793_1798_intervention_and_costs",
+          "subject_id": "SUBJ-SUCC-51F0F6F76B36",
+          "source_page": 413,
+          "coordination": "007–012 reviewer notified; lead final cross-chapter re-review required"
+        }
+      ],
+      "target_subject_whole_record_review_status": "separate_assigned_reviews_pending_integration"
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-3BE9ACD9FB2D",
+      "actual_record_read_in_full": true,
+      "facet_ids_read": [
+        "legacy:TASK-F2EE63617D44"
+      ],
+      "source_pages_reconnected": [
+        228,
+        229
+      ],
+      "disposition": "retain_question_facets_and_linkage",
+      "source_grounded_reason": "228 narrates removal of deputy immunity, Girondin impeachment, counter-demand to expel Girondins and acquittal;229 gives renewed economic pressure. The Tribunal and Girondin/Montagnard parent subjects jointly answer the question and the preserved exact historical facet. This is a distinct judicial-political episode from Louis XVI’s trial.",
+      "proposed_repairs": [],
+      "target_subject_whole_record_review_status": "separate_assigned_reviews_pending_integration"
+    }
+  ],
+  "all_six_questions_facets_and_linkages_inspected": true,
+  "approval_claim": false,
+  "remaining_work": [
+    "Resolve proposed repairs and their subject/task dependencies.",
+    "Finalize source-pages and parent scope for social-base/suppression task after whole-subject review.",
+    "Integrate repaired task records only in separate final benchmark; draft stays immutable."
+  ],
+  "supersedes": {
+    "path": "successor/independent-review/actual-draft/lead/fallback-task-review.v1.json",
+    "sha256": "3309a34c02419e2e980492c1c3e06cbe16bc88544323efb4a527856931f2b1ff",
+    "reason": "Full page413 reconnection directly supports British human costs in1793–1798; earlier phase-local tentative proposal wrongly discounted that source."
+  }
+}

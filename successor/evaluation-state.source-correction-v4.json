@@ -1,0 +1,433 @@
+{
+  "schema_version": "subject-index-evaluation-state-v6",
+  "evaluation_id": "ohfr-2002-study-source-successor-v1",
+  "created_at": "2026-09-16T19:51:37Z",
+  "updated_at": "2026-09-17T11:18:45Z",
+  "source": {
+    "title": "The Oxford History of the French Revolution",
+    "edition": "William Doyle, 2002; supplied 425-page source",
+    "filename": "source.pdf",
+    "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "document_page_basis": "one_based_inclusive"
+  },
+  "candidate": null,
+  "configuration": {
+    "audit_mode": "full",
+    "index_type": "subject_index",
+    "intended_readership": "scholarly",
+    "readership_provenance": {
+      "basis": "user_supplied",
+      "confidence": "high",
+      "rationale": "Reuses the established scholarly readership documented in both source-only policy lineage inputs."
+    },
+    "output_format": "json",
+    "storage_mode": "local",
+    "policy_profile": "subject-index-standard-policy-v8.2",
+    "rubric_version": "subject-index-rubric-v8.2",
+    "scoring_identity": {
+      "rubric_version": "subject-index-rubric-v8.2",
+      "dimension_calculation_profile": "subject-index-dimension-calculation-v7"
+    }
+  },
+  "stages": {
+    "initialize": {
+      "status": "completed",
+      "updated_at": "2026-09-16T19:51:37Z",
+      "notes": []
+    },
+    "page_mapping": {
+      "status": "completed",
+      "updated_at": "2026-09-16T19:52:44Z",
+      "notes": [
+        "Reuses exact approved source page map; no remapping."
+      ]
+    },
+    "chunk_definition": {
+      "status": "completed",
+      "updated_at": "2026-09-16T19:52:44Z",
+      "notes": [
+        "Reuses exact approved seventeen chunk boundaries."
+      ]
+    },
+    "define_policy": {
+      "status": "completed",
+      "updated_at": "2026-09-16T19:52:45Z",
+      "notes": [
+        "New c11c6cc V8.2 source-only policy with retained source/audience configuration."
+      ]
+    },
+    "source_chunk_preparation": {
+      "status": "completed",
+      "updated_at": "2026-09-16T19:53:29Z",
+      "notes": [
+        "Exact historical source PDF packets and sidecars rehosted under ignored restricted paths; inventory records current paths and byte-preserving reuse."
+      ]
+    },
+    "source_subject_discovery": {
+      "status": "completed",
+      "updated_at": "2026-09-16T21:12:09Z",
+      "notes": [
+        "Complete source re-examination and omission pass underway with transparent reuse of prior source inspections; no historical discovery is relabeled as fresh.",
+        "Registered parallel source discoveries: CHUNK-001, CHUNK-002, CHUNK-003, CHUNK-004, CHUNK-005, CHUNK-006, CHUNK-007, CHUNK-008, CHUNK-009, CHUNK-010, CHUNK-011, CHUNK-012, CHUNK-013, CHUNK-014, CHUNK-015, CHUNK-016, CHUNK-017."
+      ]
+    },
+    "benchmark_synthesis": {
+      "status": "completed",
+      "updated_at": "2026-09-16T21:26:16Z",
+      "notes": [
+        "Complete candidate-unexposed source synthesis after all 17 validated discovery artifacts and exact final-lineage reconciliation. Actual independent draft review and freeze remain pending."
+      ]
+    },
+    "benchmark_review": {
+      "status": "completed",
+      "updated_at": "2026-09-17T11:18:45Z",
+      "notes": [
+        "Validated independent candidate-blind review ledger."
+      ]
+    },
+    "benchmark_freeze": {
+      "status": "completed",
+      "updated_at": "2026-09-17T11:18:45Z",
+      "notes": [
+        "Validated and registered the approved final benchmark atomically with review."
+      ]
+    },
+    "candidate_normalization": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "locator_chunk_preparation": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "locator_audit": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "missing_access_audit": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "structure_audit": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "scoring": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "web_report": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "ART-A156EA383B11",
+      "stage": "benchmark_review",
+      "artifact_type": "source_benchmark_review",
+      "path": "independent-review/source-benchmark-review.v3.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T11:18:45Z"
+    },
+    {
+      "artifact_id": "ART-493F1BBD1F10",
+      "stage": "chunk_definition",
+      "artifact_type": "chunk_manifest",
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T19:52:44Z",
+      "schema_version": "chunk-manifest-v1"
+    },
+    {
+      "artifact_id": "ART-201EE2B211C2",
+      "stage": "define_policy",
+      "artifact_type": "evaluation_policy",
+      "path": "source/evaluation-policy.v4.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T19:52:45Z",
+      "schema_version": "subject-index-evaluation-policy-v4"
+    },
+    {
+      "artifact_id": "ART-9607411ECD7A",
+      "stage": "page_mapping",
+      "artifact_type": "page_map",
+      "path": "source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T19:52:44Z",
+      "schema_version": "page-map-v1"
+    },
+    {
+      "artifact_id": "ART-DDAFCAE78FF7",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "benchmark_draft",
+      "path": "source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": false,
+      "recorded_at": "2026-09-16T21:26:16Z",
+      "schema_version": "source-subject-benchmark-draft-v1"
+    },
+    {
+      "artifact_id": "ART-530B3AB563FC",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v4.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T11:18:45Z"
+    },
+    {
+      "artifact_id": "ART-8A0ADDBF61D4",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source_chunk_inventory",
+      "path": "source/source-chunk-inventory.json",
+      "sha256": "cd148319e73d5f977aad4ee11b29fe1518848685178fa156243b76777660026a",
+      "media_type": "application/json",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T19:53:29Z",
+      "schema_version": "source-chunk-inventory-v1"
+    },
+    {
+      "artifact_id": "ART-61356719A1F5",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-001.json",
+      "sha256": "dbc672b966b23874f4d1db51a6a4d99bef013d4c9f61ee05f89fd470eb8ce22c",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-EC2765127C22",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-002.json",
+      "sha256": "fade90914f0d43ed4762b3041edc902d3136b2f559d7c5e6d509abea7013d319",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-5ACB068C9B6B",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-003.json",
+      "sha256": "d7a0680bf2586582d7f38f827ef52ce1cc62dae39233d6b758f5f1501f03e2c3",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-CB1AD3ED183F",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-004.json",
+      "sha256": "d63918ee8110aed59dd49f7015aabef0059d60bfc65fe0b3abd640baea686a7f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-DE99B006B20E",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-005.json",
+      "sha256": "867d9e58812957792e08123d032fb66d01fd4484be16b503dffe0242190b6a61",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-5CE9E6067C3E",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-006.json",
+      "sha256": "c235b39d45fedf9be64043aca2f2546c5f336d9dadc482e89dd75f3b10ee7206",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-F63442FD0999",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-007.json",
+      "sha256": "44e77a51356654b48b2ad967591b045a43e3ea407a13cb02a2db12e3de8d9f48",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-5DB0E9FF2DFF",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-008.json",
+      "sha256": "8fe78700a8ac040aa755376080e0730e0fcb207a845b88923bdb086b6fae44f0",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-71E093061604",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-009.json",
+      "sha256": "462ee8195e4b874eb749820e78549c018482bd566f082106f6c427320c55afc9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-DB2636716A27",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-010.json",
+      "sha256": "2e80d08bd631ae0fe988f4cd96a62e6a34f104d1972e87e118b7b971977542fe",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-96EACC70984E",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-011.json",
+      "sha256": "857a25c1e6970c69047119456178c591df80d55a97a9ea7078d19c8642e2a2b8",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-D8185BE0F725",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-012.json",
+      "sha256": "801617c238b6a0c6ec4b830d18b53ca5bed6f92677c20965fc1b72a008554dd4",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-918AA68A8141",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-013.json",
+      "sha256": "efa972b6d20a6b95f654d6e6b1f1fbb6226a335ea88d68cdde1e6e228cf31dba",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-68F59042C610",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-014.json",
+      "sha256": "954782992d9b31c7cafe74cf4f694eed0b83d0b09412f3ef8b5c8c4fb6911ca6",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-E0DA8F59D0DF",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-015.json",
+      "sha256": "f7344453c228acc3918bda3b24dfe2d76f28c72878d56afd4550543f42b8f2f6",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-BBA4F00E06AD",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-016.json",
+      "sha256": "ecc61fcc76eb9c2cb143c06f123f8b7fbeac6b2ead0170266b6a0896b99d2244",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    },
+    {
+      "artifact_id": "ART-6A5D32F81EBD",
+      "stage": "source_subject_discovery",
+      "artifact_type": "source_subject_chunk",
+      "path": "source/source-subject-chunk.CHUNK-017.json",
+      "sha256": "c91e38c3d83004792908de66a09f4d821f66552e025dc36ab59b4579bc6b08b2",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T21:12:09Z"
+    }
+  ],
+  "blockers": []
+}

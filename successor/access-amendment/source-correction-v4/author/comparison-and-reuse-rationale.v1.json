@@ -1,0 +1,339 @@
+{
+  "schema_version": "source-correction-access-author-rationale-v1",
+  "role": "author",
+  "status": "sealed_proposal_pending_independent_review",
+  "decision": "propose_no_additional_access_delta_on_actual_frozen_v4",
+  "overlay": {
+    "path": "successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json",
+    "sha256": "e9cd56beedbf880a3afff16f1a1e7a320c34b924e59d1ef01bdaafee827c6a90",
+    "bytes": 186350
+  },
+  "exact_comparison": {
+    "path": "successor/access-amendment/source-correction-v4/author/exact-comparison.v1.json",
+    "sha256": "f57647c49eba31f2b3d26662cbb53fb56f8e75f01bcc36e873b86d4926866a9d",
+    "bytes": 459227
+  },
+  "inspection_ledger": {
+    "path": "successor/access-amendment/source-correction-v4/author/inspection-ledger.v1.json",
+    "sha256": "17fd7b7316a10ae3db5d475ba75a81f56e25d60d3360bb96591734547dde7126",
+    "bytes": 74646
+  },
+  "base_source_is_not_semantically_identical_to_v3": true,
+  "source_corrections": {
+    "changed_subject_ids": [
+      "SUBJ-SUCC-45D9EA9DAAF0",
+      "SUBJ-SUCC-5193E3F37320",
+      "SUBJ-SUCC-6A5ADB894FAD",
+      "SUBJ-SUCC-6F86A8D885F6",
+      "SUBJ-SUCC-7754A8D39F3E",
+      "SUBJ-SUCC-7B3E1AAE16C8",
+      "SUBJ-SUCC-7FD46BD9C318",
+      "SUBJ-SUCC-8C547916DFE5",
+      "SUBJ-SUCC-9998092EF3FD",
+      "SUBJ-SUCC-99A2AEA8AD04",
+      "SUBJ-SUCC-9E6D9535AA17",
+      "SUBJ-SUCC-A7CE991FCCA3",
+      "SUBJ-SUCC-C1C93BC08ECB",
+      "SUBJ-SUCC-C3088DA62479",
+      "SUBJ-SUCC-C5578768FEE3",
+      "SUBJ-SUCC-E5CD9F2A376A",
+      "SUBJ-SUCC-F066F35B29BE"
+    ],
+    "changed_relationship_ids": [
+      "REL-SUCC-0EC046BA86DD",
+      "REL-SUCC-6346B62FAB7C",
+      "REL-SUCC-99785B6A720B",
+      "REL-SUCC-E1D4C447CDC2",
+      "REL-SUCC-F20FE071F595"
+    ],
+    "added_uncertainty_ids": [
+      "UNC-ISR-PAGE303-JUNE-PROGRAMME"
+    ],
+    "changed_evidence_ids": [
+      "EVID-SUCC-EE0D698188B1",
+      "EVID-SUCC-7A2F098446C6",
+      "EVID-SUCC-0B6249083880",
+      "EVID-SUCC-0E9525FC57BE",
+      "EVID-SUCC-8997CECFCFFD",
+      "EVID-SUCC-3E891F904D2B",
+      "EVID-SUCC-267D572896F9",
+      "EVID-SUCC-7990A9A62DE8",
+      "EVID-SUCC-8C432DB3ADE6",
+      "EVID-SUCC-470F41497A94",
+      "EVID-SUCC-51E510B47B2A",
+      "EVID-SUCC-5B185A8A66B9",
+      "EVID-SUCC-74C214138AAD",
+      "EVID-SUCC-344E67A5005A",
+      "EVID-SUCC-952896DEE8C8",
+      "EVID-SUCC-A6A3834D6447"
+    ],
+    "exact_values_location": {
+      "path": "successor/access-amendment/source-correction-v4/author/exact-comparison.v1.json",
+      "sha256": "f57647c49eba31f2b3d26662cbb53fb56f8e75f01bcc36e873b86d4926866a9d",
+      "bytes": 459227
+    },
+    "opportunities_before": {
+      "subject_page": 2080,
+      "subject_page_class": 2393
+    },
+    "opportunities_after": {
+      "subject_page": 2079,
+      "subject_page_class": 2395
+    },
+    "preservation": "All 17 corrected whole subjects, 16 corrected evidence rows, five corrected relationships and the added uncertainty remain exact in the V4 base. Zero delta applies only to additional access amendments; it does not reverse, deny or reapprove the source correction."
+  },
+  "prior_reasoning_reuse": {
+    "original_rationale": {
+      "path": "successor/access-amendment/author/clause-rationale.v1.json",
+      "sha256": "de81b21d355b1f68dac157d2a890ea6f813204bb60b4c4197757ae328fd58886",
+      "bytes": 15095
+    },
+    "original_inspection_ledger": {
+      "path": "successor/access-amendment/author/inspection-ledger.v1.json",
+      "sha256": "819197220e4458615fbd428095f732a064c76eac71f91060cb912de08ad5caec",
+      "bytes": 118951
+    },
+    "v3_rationale": {
+      "path": "successor/access-amendment/source-correction-v3/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "64f6f1b9504e0b7d6ebdb178ffdc79d158115a65159812ecfda9b4a296ad9ca0",
+      "bytes": 17664
+    },
+    "basis": "All nine earlier access cases retain exactly equal subject and task records from V3 to V4. Reuse the completed source grounding and clause reasoning for those cases, and separately assess the changed records. Prior proposal approval is not approval of this new proposal.",
+    "case_identity_checks": [
+      {
+        "case_id": "ACCESS-AUTH-01",
+        "subject_ids": [
+          "SUBJ-SUCC-2AC42802019F",
+          "SUBJ-SUCC-8E42988D62D9",
+          "SUBJ-SUCC-71A8FF90E718",
+          "SUBJ-SUCC-60C460F43224",
+          "SUBJ-SUCC-E460E732EDD9"
+        ],
+        "task_ids": [
+          "TASK-SUCC-305B85115DE8",
+          "TASK-SUCC-A8C8E69D91F8",
+          "TASK-SUCC-20CE5298E380"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-02",
+        "subject_ids": [
+          "SUBJ-SUCC-38F9D4ACE8D4",
+          "SUBJ-SUCC-0BEECB354226",
+          "SUBJ-SUCC-7CE8C15FFC5B"
+        ],
+        "task_ids": [
+          "TASK-SUCC-7AB31871C812",
+          "TASK-SUCC-822FD108A319",
+          "TASK-SUCC-D68F990957A8"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-03",
+        "subject_ids": [
+          "SUBJ-SUCC-87628E298F61",
+          "SUBJ-SUCC-21DA491F60E3"
+        ],
+        "task_ids": [
+          "TASK-SUCC-4A89DC3E66D8"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-04",
+        "subject_ids": [
+          "SUBJ-SUCC-E64A7C4235E5",
+          "SUBJ-SUCC-FC3075CE0927",
+          "SUBJ-SUCC-191FA6C1BCC9",
+          "SUBJ-SUCC-B4386E288802"
+        ],
+        "task_ids": [
+          "TASK-SUCC-FE79A91F953B",
+          "TASK-SUCC-C707FE9CC389",
+          "TASK-SUCC-2615667861B8",
+          "TASK-SUCC-172307628112"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-05",
+        "subject_ids": [
+          "SUBJ-SUCC-65EB9D04AEF8",
+          "SUBJ-SUCC-C6F2BF879546"
+        ],
+        "task_ids": [
+          "TASK-SUCC-46BC20C9AA18",
+          "TASK-SUCC-392398A8EC5B"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-06",
+        "subject_ids": [
+          "SUBJ-SUCC-DF242A7BAF78",
+          "SUBJ-SUCC-2EC1BFCD2A04",
+          "SUBJ-SUCC-96C1B44E5402",
+          "SUBJ-SUCC-54D178FEEEA6",
+          "SUBJ-SUCC-CB77C5EDB693",
+          "SUBJ-SUCC-13D741A01D65"
+        ],
+        "task_ids": [
+          "TASK-SUCC-829CD54276C2",
+          "TASK-SUCC-637CA4EAD5D1",
+          "TASK-SUCC-DCC4DAA8230F",
+          "TASK-SUCC-F79534FB3C18",
+          "TASK-SUCC-0383E3E68698"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-07",
+        "subject_ids": [
+          "SUBJ-SUCC-04E7153E268C",
+          "SUBJ-SUCC-BBD84DC00640",
+          "SUBJ-SUCC-C81AF981D95D",
+          "SUBJ-SUCC-4E4FFDBB28E9"
+        ],
+        "task_ids": [
+          "TASK-SUCC-243F183EE4A3",
+          "TASK-SUCC-E7721458013C"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-08",
+        "subject_ids": [
+          "SUBJ-SUCC-81DD3C32CF36"
+        ],
+        "task_ids": [],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      },
+      {
+        "case_id": "ACCESS-AUTH-09",
+        "subject_ids": [
+          "SUBJ-SUCC-9DA29F300357"
+        ],
+        "task_ids": [
+          "TASK-SUCC-243F183EE4A3"
+        ],
+        "whole_subject_and_task_values_equal_v3_to_v4": true,
+        "reuse": "Prior clause reasoning remains applicable to these exact records; the corrected records are assessed separately below."
+      }
+    ]
+  },
+  "clause_assessments": [
+    {
+      "clause_id": "IPDF-GOV-02",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-GOV-02",
+        "decision": "no_delta",
+        "reason": "The frozen scholarly audience is explicit. Existing questions support retrieval, explanation, comparison and source criticism, with coherent main demands and named target subjects. Cases 01–09 show specific reader needs already covered rather than relying on a generic book-level question. No distinct source-supported reader obligation was found that needs an additional parent or unweighted facet.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-02",
+          "ACCESS-AUTH-03",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-05",
+          "ACCESS-AUTH-06",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08",
+          "ACCESS-AUTH-09"
+        ]
+      },
+      "v4_specific_reasoning": "The scholarly audience is unchanged. The affected questions still ask coherent explanation, retrieval or comparison: e.g. local resistance to the May Edicts, public opinion and censorship, separate Bastille antecedents, judicial compensation, coercive fiscal weakness, Church estrangement, centralization of Revolutionary Armies and factional mobilization. Corrected pages and narrower causal claims change how the source supports answers, but do not create a separate unmet reader demand."
+    },
+    {
+      "clause_id": "IPDF-ANA-06",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-ANA-06",
+        "decision": "no_delta",
+        "reason": "The completed representation review is reused and the present cases test likely erasure points: women’s diverse agency, distinct colonial legal populations, religious communities, ordinary households, popular resistance and minority violence in Italy. Their material source treatment already has explicit access without inventing equal coverage, uniformly virtuous actors or an unsupported stand-alone population history.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-02",
+          "ACCESS-AUTH-03",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-05",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08"
+        ]
+      },
+      "v4_specific_reasoning": "The corrections preserve local crowds, Duport, property-owning municipal participants, politically excluded women and poorer men, clergy, local authorities, Jacobin participants and named Hébertist actors in their distinct roles. They avoid assigning casualties or vigilance organization to unsupported agents. Prior community-agency cases remain literally unchanged; no source-treated group loses its route through these corrections."
+    },
+    {
+      "clause_id": "IPDF-VOC-01",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-VOC-01",
+        "decision": "no_delta",
+        "reason": "The final parent/facet values expressly preserve attribution, contested labels, uncertainty, chronology and negation. Examples distinguish claimed constitutional law, conditional diplomacy, alleged plots, possible payment, different emancipation phases and the failure to restore slavery in Saint-Domingue. Existing plain-language routes make these source-faithful requirements intelligible to the stipulated scholarly reader.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-02",
+          "ACCESS-AUTH-03",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-05",
+          "ACCESS-AUTH-06",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08",
+          "ACCESS-AUTH-09"
+        ]
+      },
+      "v4_specific_reasoning": "V4 itself now states the casualty uncertainty, preparation-for-sale timing and Jacobin/local-authority distinction. Corrected evidence pages preserve sentence completion and chronology. The added June-programme uncertainty explicitly prevents silent date repair or a fabricated second programme. Existing parent meanings, qualifications and tasks support these distinctions without adding a new overlay requirement."
+    },
+    {
+      "clause_id": "IPDF-VOC-02",
+      "decision": "no_delta",
+      "prior_reasoning_reused": {
+        "clause_id": "IPDF-VOC-02",
+        "decision": "no_delta",
+        "reason": "Existing accepted routes cover meaningful lexical alternatives, accents, personal/topic access, translated specialist vocabulary, calendar variants and temporally qualified place/state names. The base access policy accepts a clear route that retrieves the required meaning; it does not require verbatim matching to a closed alias list. A valid equivalent route still must reach the right source treatment. Enumerating every imaginable spelling, abbreviation or later name would not by itself add a missing source-supported obligation, and blanket equivalence could erase the temporal or political distinctions in Cases 01, 06 and 07.",
+        "case_ids": [
+          "ACCESS-AUTH-01",
+          "ACCESS-AUTH-04",
+          "ACCESS-AUTH-06",
+          "ACCESS-AUTH-07",
+          "ACCESS-AUTH-08"
+        ]
+      },
+      "v4_specific_reasoning": "All 531 parent and 597 facet navigation labels, accepted routes, present aliases and weights are identical, as are all 617 task records. Their source-bound interpretation matters: Church-land sale routes can retrieve preparations without asserting completed sales; June-programme routes do not make inconsistent dates interchangeable; a Bastille umbrella does not regain excluded antecedent pages. Prior alternative-vocabulary cases remain applicable and the open route rule continues to accept clear equivalent retrieval."
+    }
+  ],
+  "narrow_source_decision": "The earlier unsupported Artois-to-La Rouërie personal-authorization edge remains retired, while the qualified royal-network routes remain. The new V4 source corrections are already present in the frozen base. None of the four access clauses requires an additional parent, facet, label, alias, priority or task change after those corrections.",
+  "population_accounting": {
+    "before": {
+      "subjects": 531,
+      "reader_tasks": 617
+    },
+    "after": {
+      "subjects": 531,
+      "reader_tasks": 617
+    },
+    "delta_count": 0,
+    "weighted_parent_changes": 0,
+    "unweighted_facet_changes": 0,
+    "subject_facets": 597,
+    "task_facets": 980,
+    "opportunities_are_recomputed_from_v4_not_reused_from_v3": true
+  },
+  "field_changes": [],
+  "independent_author_judgment": "No additional access delta is warranted. This conclusion rests on the exact corrected meanings and retained task demands, not on equal population counts or on assuming V4 source semantics are unchanged.",
+  "limits": [
+    "No candidate content, paths, judgments or results inspected.",
+    "No new raw source-page inspection or source discovery in this V4 access pass. The independent source-review correction is reused, not attributed to this author.",
+    "The 617-task equality check is not a claim of a fresh substantive review of all tasks. The new task scope checks are enumerated in the inspection ledger.",
+    "No amendment approval, freeze, lock selection or runtime activation. Separate independent review is required."
+  ]
+}
