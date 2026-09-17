@@ -1,0 +1,1332 @@
+{
+  "schema_version": "independent-source-first-composed-retention-check-v1",
+  "status": "sealed_scoped_component; final_benchmark_approval_pending",
+  "inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage6.v1.json",
+      "sha256": "ec761c1fc78568cda525116939e9010157ce45830a1f10c911f193689c0a61b9"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+      "sha256": "0bb5698e6eedb90930d2c5b00010b89b8ec9b752b22c02f14bdaaedbe40420c4"
+    }
+  ],
+  "rows": [
+    {
+      "finding_id": "ISR-C15-001",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-001",
+        "source_page_labels": [
+          "341",
+          "342",
+          "343"
+        ],
+        "source_first_requirement": "United Irishmen sought independence and organized through rural Defenders, whose grievances were more local and sectarian. French strategy needed proof of a rising while Irish leaders awaited intervention. Repression, arrests and uneven outbreaks preceded late French landings.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-E26867406B1D",
+          "SUBJ-SUCC-7C338D256927"
+        ],
+        "independent_reconciliation": "The intervention and rebellion parents preserve different Irish groups and aims. Retain the mutual-waiting problem, local Defenders’ grievances, state pre-emption and separate 1796/1798 episodes; recent full-page rereads 341–343 confirm the distinctions.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 0,
+        "row_sha256": "846c1133c89546a06d34956ddf7dac49315e233cb8d030d5bac113f06628b9a9"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-E26867406B1D",
+          "record_sha256": "4585952a39417e8a792016773117013cdcb4f72fa6d18b29e7c9e2f7f623d4f0",
+          "meaning": "Limited Catholic concessions in1793 sought Irish wartime loyalty without further reform. United Irish reformers then developed underground separatist plans and recruited through agrarian Defender networks, while Tone sought French intervention. Hoche’s prestige ambitions and the Directory’s wish to subvert Britain encouraged the1796 expedition, defeated by weather before landing; a mass rising was probably premature and geographically mismatched. Government coercion and infiltration, French insistence on prior rebellion, and late, inadequate expeditions doomed the1798 uprising: Humbert surrendered at Ballinamuck after landing at Killala, and Tone was captured and died. Rural religious and material grievances, urban republican aims and French expectations of supervision never formed a shared political programme.",
+          "stance": "A potent coalition did not share a coherent political destination. French intervention fell short and implied supervision that Irish leaders underestimated; rural grievances were not identical to urban republican aims."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-7C338D256927",
+          "record_sha256": "384d275ed324691a549f7538fc7d9e628c8e7c00ce329cb200681bd883a685c8",
+          "meaning": "The Irish rising’s planning, government pre-emption, regional outbreaks, British repression, defeat and casualties. Disarmament and arrests helped precipitate desperate action; localized armies lacked coordination and faced overwhelming force. Wexford’s sectarian panic and defeat at Vinegar Hill are an important regional phase.",
+          "stance": "The rebellion had little realistic chance of success and never became the imagined British Vendée. Its exceptional pro-French character and destructive scale coexist with geographic fragmentation and incompatible political aims; preserve the source’s qualification that Poland might rival its size."
+        }
+      ],
+      "lead_retention_check": "The Irish coalition retains different urban, rural and French aims, mutual timing problems and separate1796/1798 operations; Humbert and Tone are not collapsed into Wexford.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-002",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-002",
+        "source_page_labels": [
+          "342",
+          "343",
+          "368"
+        ],
+        "source_first_requirement": "Wexford, Vinegar Hill, Humbert’s Mayo landing and Ballinamuck were separate episodes. Doyle emphasizes limited reach, inadequate French commitment and large death toll, while distinguishing comparison with Warsaw and French Terror.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-7C338D256927",
+          "SUBJ-SUCC-E26867406B1D"
+        ],
+        "independent_reconciliation": "Separate rebellion and expedition treatments retain Wexford/Vinegar Hill, late Humbert landing and Ballinamuck. Preserve geographic limits, inadequate French commitment and exact comparative death-toll denominators; Tone did not arrive in Humbert’s own expedition.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 1,
+        "row_sha256": "f2f0bdac83492afceb3343fd14676a814497ca3e534e1b7ef15cc31329b78322"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-7C338D256927",
+          "record_sha256": "384d275ed324691a549f7538fc7d9e628c8e7c00ce329cb200681bd883a685c8",
+          "meaning": "The Irish rising’s planning, government pre-emption, regional outbreaks, British repression, defeat and casualties. Disarmament and arrests helped precipitate desperate action; localized armies lacked coordination and faced overwhelming force. Wexford’s sectarian panic and defeat at Vinegar Hill are an important regional phase.",
+          "stance": "The rebellion had little realistic chance of success and never became the imagined British Vendée. Its exceptional pro-French character and destructive scale coexist with geographic fragmentation and incompatible political aims; preserve the source’s qualification that Poland might rival its size."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E26867406B1D",
+          "record_sha256": "4585952a39417e8a792016773117013cdcb4f72fa6d18b29e7c9e2f7f623d4f0",
+          "meaning": "Limited Catholic concessions in1793 sought Irish wartime loyalty without further reform. United Irish reformers then developed underground separatist plans and recruited through agrarian Defender networks, while Tone sought French intervention. Hoche’s prestige ambitions and the Directory’s wish to subvert Britain encouraged the1796 expedition, defeated by weather before landing; a mass rising was probably premature and geographically mismatched. Government coercion and infiltration, French insistence on prior rebellion, and late, inadequate expeditions doomed the1798 uprising: Humbert surrendered at Ballinamuck after landing at Killala, and Tone was captured and died. Rural religious and material grievances, urban republican aims and French expectations of supervision never formed a shared political programme.",
+          "stance": "A potent coalition did not share a coherent political destination. French intervention fell short and implied supervision that Irish leaders underestimated; rural grievances were not identical to urban republican aims."
+        }
+      ],
+      "lead_retention_check": "The Wexford regional phase and Humbert’s late intervention remain distinct. The stance explicitly qualifies the scale comparison with Poland; comparative death claims remain attributed, not interchangeable Terror counts.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-003",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-003",
+        "source_page_labels": [
+          "343",
+          "344",
+          "346"
+        ],
+        "source_first_requirement": "Initial Dutch sympathy and representative traditions mattered. Federalist-unitary stalemate, rejected 1797 draft, French-backed January purge and democratic 1798 constitution preceded attempted self-perpetuation and Daendels’s June coup, followed by regular elections.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-F0BD6A05AAAD",
+          "SUBJ-SUCC-3256F9538F44"
+        ],
+        "independent_reconciliation": "Two Batavian parents preserve constitution and interventions. Final records must distinguish January purge, democratic constitutional design, self-perpetuation and June removal followed by elections. Preserve the newly noted 344 two-years chronology wording rather than silently normalizing it.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 2,
+        "row_sha256": "6d3771aa06eef0f37677d8fad220554b84351031a4810d2d0931e03b66a0c972"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+          "record_sha256": "4e619ecdc9f2323cb025aeb592e39d64d3416f3d520b26b2e8b2b6e12468827d",
+          "meaning": "The prolonged replacement of the Dutch ancien régime by a unitary, representative Batavian constitution. Federalists defended inherited provincial autonomy while unitarians sought a centralized national constitution; their conflict produced deadlock before French-backed purges enabled a unitary outcome.",
+          "stance": "A genuinely democratic project emerged from an existing representative tradition, after deadlock and French-backed coercion. Regular elections and relatively wide internal autonomy distinguish the Batavian case; these do not amount to independent foreign policy. The supplied page344 says “Two years” after conquest while its surrounding chronology runs from 1795 to 1798; do not infer a corrected elapsed interval."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-3256F9538F44",
+          "record_sha256": "404414eb56efe33c04db44b141386831498b63279b641b49d743bec3b622c84b",
+          "meaning": "French orchestration or approval of Dutch purges and coups to resolve political impasse and curb successive factions. The French Fructidor coup provided an explicit model for breaking Batavian deadlock by purging opponents, followed in January 1798.",
+          "stance": "France first supported a unitary purge and then accepted Daendels’s removal of self-perpetuating radicals. He restored the imprisoned Federalists rather than seizing power, and they held elections. Changing intervention served French control without erasing all domestic autonomy."
+        }
+      ],
+      "lead_retention_check": "Federalist provincial autonomy differs from unitary constitutional aims. The coup parent preserves Fructidor’s model, January purge, later Daendels reversal and restored elections; the printed344 elapsed-time disagreement is explicit.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-004",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-004",
+        "source_page_labels": [
+          "346",
+          "347"
+        ],
+        "source_first_requirement": "Occupation costs, British war and blockade, colonial loss, French tariffs and disrupted charity impoverished cities. Orange restoration and neutrality offered no easy alternatives; some domestic autonomy persisted despite French interference.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-44A8A4E36810",
+          "SUBJ-SUCC-50777206BE7A",
+          "SUBJ-SUCC-E37BBBE4A6A6",
+          "SUBJ-SUCC-2FE1E44C6B8E"
+        ],
+        "independent_reconciliation": "Economic, invasion and comparative parents provide routes. Keep occupation costs, commercial exclusion and disestablishment’s welfare effects explicit, alongside constrained alternatives and meaningful domestic autonomy. Neither all Dutch sympathy nor all independence vanished immediately.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 3,
+        "row_sha256": "70ecf0174ea2096bf5534e9336e1033cd8a3dd2c3b5204b7a223ee72edd6a66c"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-44A8A4E36810",
+          "record_sha256": "1232bc4f5f00fe508b76bf7e67eac8e644affeb7b8ebea705d1a15215ffcf9a1",
+          "meaning": "The wartime destruction of Dutch commerce and industry and the domestic fiscal and welfare consequences of French alliance. British blockade and seizure of colonies cut supplies and markets, while occupation demands and discriminatory French tariffs added distinct costs and denied compensating access to France’s enlarged market.",
+          "stance": "Alliance imposed severe costs without compensating access to French markets, producing widespread disillusionment while leaving no practical foreign-policy alternative."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-50777206BE7A",
+          "record_sha256": "8d4315502b581c9b02f216ea0400cd8fbe64df793693c832e6fbc05cc47d84bf",
+          "meaning": "The invasion of northern Holland, Dutch naval surrender, joint French-Dutch defense, and limited Orangist response.",
+          "stance": "The invasion was defeated, but it exposed Batavian dependence and failed to produce a popular restoration movement for William V."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E37BBBE4A6A6",
+          "record_sha256": "d867904b39cc9393c6a663dfa49683fa29f96d249f4bfeece6b9779efe283267",
+          "meaning": "French armies and government relied on foreign coin, requisitions, indemnities, seized treasuries and art, trade restrictions and client-funded forces. These systemic demands strengthened commanders and burdened occupied societies; Belgium’s Agency for Trade and Extraction exemplified organized removal. Dutch losses combined British blockade and colonial warfare with French occupation costs and discriminatory tariffs. Effects varied: after earlier Belgian exploitation, urban industry benefited from French market access in calmer years, while rural hostility persisted.",
+          "stance": "Extraction was a state and military system, not merely private misconduct, and foreign coin did not solve France’s fiscal crisis. Distinguish French demands from Britain’s blockade, and immediate or persistent costs from the specific later Belgian industrial recovery; no universal recovery or permanent-impoverishment claim follows."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-2FE1E44C6B8E",
+          "record_sha256": "7f4ca23e34b0eaf0b559f38684a33bb10de35867176f913d5b880c2f41965a44",
+          "meaning": "French-sponsored republics varied in constitutional authorship and domestic autonomy. Dutch elected life and locally drafted Ligurian institutions differed from imposed Swiss unity, Bonaparte’s dictated Cisalpine constitution and initial nominees, and the Roman commandant’s explicit supremacy. Local reformers and French military or anti-clerical initiatives interacted; occupation, strategic access, fiscal obligations and repeated coups limited sovereignty. The Directory did not welcome every new satellite: Championnet’s independent Neapolitan creation depended on French troops and collapsed when they withdrew.",
+          "stance": "Do not flatten Dutch or Ligurian local initiative into the same model as imposed Swiss unity or Roman military supremacy. The Directory did not uniformly welcome every new satellite, but their spread deepened international alarm."
+        }
+      ],
+      "lead_retention_check": "British blockade/colonial losses and French occupation/tariffs are distinct in44A8/E37B. The347 evidence retains church-linked poor-relief disruption and no viable independent foreign-policy alternative; domestic autonomy does not mean foreign independence.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-005",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-005",
+        "source_page_labels": [
+          "345"
+        ],
+        "source_first_requirement": "Rendered whole page: map caption identifies territorial expansion, with visually distinct annexation, French occupation and sister-republic categories. Graph/map internals are excluded by policy, so this inspection does not generate subject evidence from internal labels.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-A4EB8133A5C7"
+        ],
+        "independent_reconciliation": "The eligible caption identifies expansion as the topic; internal shading, categories, labels and keys are excluded. Apply source-scope-disposition.v3 and its exact rendered caption binding. The source-first visual description is not authority to create internal-map evidence or mandatory geographic distinctions.",
+        "disposition": "caption_only_scope_exclusion_for_map_internals",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 4,
+        "row_sha256": "ec46069c902386dbf05740d1220c299ad3edd251bb731d8e86f09b9309cc39ce"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-A4EB8133A5C7",
+          "record_sha256": "c3d1f92bfcb98a605017f389e9827ae42d1a1b784d8ffc303afaf75db6653068",
+          "meaning": "Continental victory and post-Floréal confidence encouraged the Great Nation’s claim to superior liberty, natural frontiers and entitlement to follow its own rules. Belgium’s occupation and annexation contrasted with dependent Italian republics; nominally republican institutions could conceal appointed rulers and military supremacy. Extraction, religious coercion and disregard of foreign traditions turned deference into resistance and helped renew coalition war. Foreign collaborators and reforms remained real, but support diminished; the1799 military reversal destroyed the Italian client system, not every sister republic everywhere.",
+          "stance": "The source criticizes nationally exclusive liberty and arrogance while recognizing institutional changes and native collaborators. Territorial form and degrees of control differed; loss of legitimacy was not proof that every reform had no value."
+        }
+      ],
+      "lead_retention_check": "The literal345 caption can support an expansion topic only. Policy excludes internal categories, shading, labels and keys; geographic/state-form distinctions must rest on the independently reviewed prose parents and not this map finding.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "map_internal_claims_excluded_caption_and_prose_only"
+    },
+    {
+      "finding_id": "ISR-C15-006",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-006",
+        "source_page_labels": [
+          "348",
+          "349",
+          "350"
+        ],
+        "source_first_requirement": "Successive occupations treated Belgium as an extractive war resource; departmentalization and annexation ended extraordinary requisitions but introduced French laws. Rural hostility contrasts with urban accommodation and later industrial opportunity in the French market.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-8EB370248C8E",
+          "SUBJ-SUCC-38E8081905D0",
+          "SUBJ-SUCC-E37BBBE4A6A6"
+        ],
+        "independent_reconciliation": "Occupation/annexation and social-response parents preserve Belgian phases. Retain extraordinary requisitions ending with incorporation, subsequent French laws, urban economic opportunity and persistent rural hostility; pragmatism does not establish French identity.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 5,
+        "row_sha256": "af9f6413788df92c94b54ac3b4fdce30c03db9009928b8c215ec25d118dd0046"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-8EB370248C8E",
+          "record_sha256": "3beeb516200ab4257a4d73e943327f8f0dd6f8b78da4af92966ada6c004e2515",
+          "meaning": "French treatment of reconquered Belgium as enemy territory, followed by administrative reorganization and incorporation into France. The Agency for Trade and Extraction coordinated removal of Belgian resources before complaints and concern for longer-term consequences prompted its dissolution in 1795.",
+          "stance": "Annexation ended extraordinary levies and rationalized government, but followed a year of destructive exploitation and committed France to contested natural frontiers."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-38E8081905D0",
+          "record_sha256": "c4157d1a5adfbb5bf8b5a08f92595d976bf97f49695188667d5c7dd2e1daeec2",
+          "meaning": "The divergence between unreconciled rural communities and a pragmatic urban bourgeoisie after annexation.",
+          "stance": "Rural resistance persisted, while urban elites accepted administration and market opportunities without identifying as French."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E37BBBE4A6A6",
+          "record_sha256": "d867904b39cc9393c6a663dfa49683fa29f96d249f4bfeece6b9779efe283267",
+          "meaning": "French armies and government relied on foreign coin, requisitions, indemnities, seized treasuries and art, trade restrictions and client-funded forces. These systemic demands strengthened commanders and burdened occupied societies; Belgium’s Agency for Trade and Extraction exemplified organized removal. Dutch losses combined British blockade and colonial warfare with French occupation costs and discriminatory tariffs. Effects varied: after earlier Belgian exploitation, urban industry benefited from French market access in calmer years, while rural hostility persisted.",
+          "stance": "Extraction was a state and military system, not merely private misconduct, and foreign coin did not solve France’s fiscal crisis. Distinguish French demands from Britain’s blockade, and immediate or persistent costs from the specific later Belgian industrial recovery; no universal recovery or permanent-impoverishment claim follows."
+        }
+      ],
+      "lead_retention_check": "The Belgian Agency, extraction and annexation remain distinct stages. Rural hostility differs from later urban market opportunity; E37B expressly prevents universal impoverishment or recovery.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-007",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-007",
+        "source_page_labels": [
+          "349",
+          "350"
+        ],
+        "source_first_requirement": "Clerical confiscation, oath refusal and conscription escalated into 1798 rural uprising. Rebels had local/religious aims and limited urban or elite support; French repression was more bloody. Passive resistance continued and recruitment remained low.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-EB2C28D684C6",
+          "SUBJ-SUCC-6A33E492BFCC",
+          "SUBJ-SUCC-38E8081905D0"
+        ],
+        "independent_reconciliation": "Religious-policy and revolt parents provide distinct routes. Preserve conscription as trigger, local religious goals, weak elite/urban support, severe repression and continuing evasion. Separate laws ordering deportation from numbers actually seized or transported.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 6,
+        "row_sha256": "e3a12eac9203b036953b6d2db6c8b0531b09f7488ed4e10ea5c7febd3f29d0c5"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-EB2C28D684C6",
+          "record_sha256": "fefd4f20bed7d2e7fb66ded6e7d6672141d99d33250d4ae5b592d6171123d3b0",
+          "meaning": "The imposition of French religious policy through monastic dissolution, confiscation, civil registration, oaths, and clerical deportation.",
+          "stance": "An initially restrained occupation became aggressively anticlerical and alienated a population in which parish clergy held strong authority."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-6A33E492BFCC",
+          "record_sha256": "9e1331db3e6bb34d9c580bfe44f149b78590b06d555b6b8757bce173bb3eb6ab",
+          "meaning": "The rural revolt triggered by the Jourdan Law, its religious and local aims, defeat at Hasselt, and continuing draft evasion. A contemporaneous Luxembourg rising is briefly compared for its limited bloodshed, without assigning it the entire Belgian course.",
+          "stance": "The movement consciously echoed the Vendée but lacked elite leadership, broad urban support, or developed political aims; French repression was severe."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-38E8081905D0",
+          "record_sha256": "c4157d1a5adfbb5bf8b5a08f92595d976bf97f49695188667d5c7dd2e1daeec2",
+          "meaning": "The divergence between unreconciled rural communities and a pragmatic urban bourgeoisie after annexation.",
+          "stance": "Rural resistance persisted, while urban elites accepted administration and market opportunities without identifying as French."
+        }
+      ],
+      "lead_retention_check": "The Church-policy and revolt parents separate escalating religious grievance from the conscription trigger. The Belgian/Luxembourg comparison is qualified, and rural defeat does not imply universal acceptance.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-008",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-008",
+        "source_page_labels": [
+          "351",
+          "352",
+          "353"
+        ],
+        "source_first_requirement": "Natural-frontier claims conflicted with peace strategy and German territorial interests. Hoche’s proposed Cis-Rhenan client state, Reubell’s annexation policy, provisional international consent and administrative departments had different statuses and dates.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-63FC319A198D",
+          "SUBJ-SUCC-A4EB8133A5C7",
+          "SUBJ-SUCC-7EDE1C0062AD"
+        ],
+        "independent_reconciliation": "The Rhineland and diplomatic parents preserve the proposed Cis-Rhenan alternative, Reubell’s preference, administrative assimilation and delayed legal settlement. Do not label a proposal an existing republic or infer all exploitation began only after formal annexation.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 7,
+        "row_sha256": "83d47b928e28ff1f5e11b447656bc0e299eb0903994abe6bc7ff9dea4cadcd91"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-63FC319A198D",
+          "record_sha256": "e545a9ca84d4972c78280745057fabea5238fd721fe4a4ebb7819387727ef8a5",
+          "meaning": "French debate over natural-frontier annexation, the abandoned Cis-Rhenan option, and the provisional incorporation of the left bank. After Campo Formio, consent of the Empire was sought at the Congress of Rastadt and remained provisional while departmental administration already treated the territory as French.",
+          "stance": "Strategic and diplomatic objections delayed formal annexation, but departmental division in 1798 produced practical assimilation before legal settlement."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-A4EB8133A5C7",
+          "record_sha256": "c3d1f92bfcb98a605017f389e9827ae42d1a1b784d8ffc303afaf75db6653068",
+          "meaning": "Continental victory and post-Floréal confidence encouraged the Great Nation’s claim to superior liberty, natural frontiers and entitlement to follow its own rules. Belgium’s occupation and annexation contrasted with dependent Italian republics; nominally republican institutions could conceal appointed rulers and military supremacy. Extraction, religious coercion and disregard of foreign traditions turned deference into resistance and helped renew coalition war. Foreign collaborators and reforms remained real, but support diminished; the1799 military reversal destroyed the Italian client system, not every sister republic everywhere.",
+          "stance": "The source criticizes nationally exclusive liberty and arrogance while recognizing institutional changes and native collaborators. Territorial form and degrees of control differed; loss of legitimacy was not proof that every reform had no value."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-7EDE1C0062AD",
+          "record_sha256": "1eef539b79978b15389442fdf983a2753779fe3ba851954b1e3c7001c80ffd12",
+          "meaning": "After Fructidor ended Austrian hopes of exploiting French division, Campo Formio largely confirmed the earlier Leoben preliminaries: Belgium and Italian republics were recognized, Venice partitioned and France’s Rhine claims acknowledged by Austria. Austria could not bind the Holy Roman Empire, so compensatory German redistribution was deferred to Rastadt. The continental settlement left Britain at war and renewed coalition conflict already germinating.",
+          "stance": "Bonaparte largely dictated a settlement that confirmed French continental dominance but left Great Britain at war and future coalition conflict already germinating."
+        }
+      ],
+      "lead_retention_check": "The Cis-Rhenan option, provisional international consent and practical departmental assimilation remain distinct from completed legal annexation. Campo Formio does not bind the whole Empire.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-009",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-009",
+        "source_page_labels": [
+          "352",
+          "353"
+        ],
+        "source_first_requirement": "Repeated occupation impoverished a front-line region. Customs severed Rhine commerce; flight of prince-bishops wrecked court-service economies. Feudal dues/tithes were retained for revenue before abolition; rental substitution diluted relief. Clerical resistance lacked a mass uprising amid dense troops and absence of conscription.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-F8A938B3B147",
+          "SUBJ-SUCC-8760C754C67B",
+          "SUBJ-SUCC-E37BBBE4A6A6"
+        ],
+        "independent_reconciliation": "Economic and religious parents retain distinct mechanisms. Preserve customs disruption, lost court demand, temporary retention of dues/tithes for revenue and rental substitution, plus dense occupation and absent conscription explaining passive rather than mass armed resistance.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 8,
+        "row_sha256": "08a384276d9b5729e5c7226b130e96da663f5343fcffd7f2c071695becd2ccd6"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-F8A938B3B147",
+          "record_sha256": "4dc3bec20e222e0fca86b9f9136934f85484bcb678241799567340aea128cba8",
+          "meaning": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank.",
+          "stance": "Front-line demands and incorporation systematically impoverished the region and institutionalized hostility to French rule."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-8760C754C67B",
+          "record_sha256": "e0b568c1d8c35c93fa550cb313166757d59568a1dc92b9a4781ef97b2056559d",
+          "meaning": "Rhenish Catholic hostility to confiscation, anticlerical restrictions, clerical persecution, and foreign rule.",
+          "stance": "The region produced sustained passive resistance rather than a mass uprising, partly because of dense French occupation and the absence of conscription."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E37BBBE4A6A6",
+          "record_sha256": "d867904b39cc9393c6a663dfa49683fa29f96d249f4bfeece6b9779efe283267",
+          "meaning": "French armies and government relied on foreign coin, requisitions, indemnities, seized treasuries and art, trade restrictions and client-funded forces. These systemic demands strengthened commanders and burdened occupied societies; Belgium’s Agency for Trade and Extraction exemplified organized removal. Dutch losses combined British blockade and colonial warfare with French occupation costs and discriminatory tariffs. Effects varied: after earlier Belgian exploitation, urban industry benefited from French market access in calmer years, while rural hostility persisted.",
+          "stance": "Extraction was a state and military system, not merely private misconduct, and foreign coin did not solve France’s fiscal crisis. Distinguish French demands from Britain’s blockade, and immediate or persistent costs from the specific later Belgian industrial recovery; no universal recovery or permanent-impoverishment claim follows."
+        }
+      ],
+      "lead_retention_check": "Customs barriers, flight of courts and passive religious resistance survive. Add the353 fiscal mechanism explicitly: French retention of dues/tithes and rent substitution after tithe abolition limited relief. Do not imply dues and tithe were replaced identically.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "precise_additive_repair_proposed"
+    },
+    {
+      "finding_id": "ISR-C15-010",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-010",
+        "source_page_labels": [
+          "354",
+          "355"
+        ],
+        "source_first_requirement": "Italian conquests made Swiss Alpine passes strategically important. Ochs and La Harpe sought reform/emancipation, but local revolts pursued diverse older aims. France shifted from several states to one imposed constitution, coercing reluctant cantons.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-F15AB2809FA2",
+          "SUBJ-SUCC-2FE1E44C6B8E"
+        ],
+        "independent_reconciliation": "The Helvetic parent and comparative record preserve strategic passes, reform advocates and imposed unity. Retain Ochs/La Harpe, distinct Vaud and other local aims, changed French plans and absence of a convention; centralization cannot stand for local democratic consent.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 9,
+        "row_sha256": "21ab148364facfb448310021c03d08bec363395727da304dedf286dad3d67f48"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-F15AB2809FA2",
+          "record_sha256": "6cd1169956f663b1d1b5dae842feb25a0865237560ed0029f262575050384705",
+          "meaning": "French conquest of northern Italy made Swiss Alpine communications strategically important. Ochs sought a unitary state partly to resist domination by France or Austria, while La Harpe promoted Vaud’s liberation from Berne; these aims were not identical with consent to a Swiss-wide settlement. French intervention against Berne and local resistance produced an imposed Helvetic constitution without national ratification or broad cantonal consent. French forces impounded city treasuries and gained lasting access to the passes, reversing the reformers’ hope of protection from external domination.",
+          "stance": "French strategic needs and Swiss reformers' centralizing plans overrode older cantonal freedoms and local aims. Distinguish Ochs’s protective-centralization rationale, La Harpe’s Vaud campaign, local liberation aims and the eventual imposed state; Berne is a specific intervention, not a synonym for all Switzerland."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-2FE1E44C6B8E",
+          "record_sha256": "7f4ca23e34b0eaf0b559f38684a33bb10de35867176f913d5b880c2f41965a44",
+          "meaning": "French-sponsored republics varied in constitutional authorship and domestic autonomy. Dutch elected life and locally drafted Ligurian institutions differed from imposed Swiss unity, Bonaparte’s dictated Cisalpine constitution and initial nominees, and the Roman commandant’s explicit supremacy. Local reformers and French military or anti-clerical initiatives interacted; occupation, strategic access, fiscal obligations and repeated coups limited sovereignty. The Directory did not welcome every new satellite: Championnet’s independent Neapolitan creation depended on French troops and collapsed when they withdrew.",
+          "stance": "Do not flatten Dutch or Ligurian local initiative into the same model as imposed Swiss unity or Roman military supremacy. The Directory did not uniformly welcome every new satellite, but their spread deepened international alarm."
+        }
+      ],
+      "lead_retention_check": "Ochs’s protective unity, La Harpe’s Vaud purpose, local resistance, Berne and imposed Swiss-wide constitution remain distinguishable in F15; the main meaning now includes strategic Alpine communications.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-011",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-011",
+        "source_page_labels": [
+          "355",
+          "356"
+        ],
+        "source_first_requirement": "City treasuries financed French armies and Egypt. Conscription demands met legislative refusal; rationalizing reform was unevenly received. Catholic valleys resisted both religion policy and loss of established democratic autonomy; wartime requisitions defeated promises of restraint.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-E57561515D9B",
+          "SUBJ-SUCC-E37BBBE4A6A6",
+          "SUBJ-SUCC-65EB9D04AEF8"
+        ],
+        "independent_reconciliation": "The occupation parent preserves both reform and resistance. Keep treasury transfers including Egypt finance, refusal of manpower demands and Catholic valleys’ existing democratic autonomy, with wartime requisitions undermining restraint. Opposition to centralization was not opposition to democracy as such.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 10,
+        "row_sha256": "ab98a75f48149d3ff324f7eba65c89e349cde7e5c809acae8dc29a16b23b91c9"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-E57561515D9B",
+          "record_sha256": "33626516502804a7fca1785079b8a3f6b78f6d30fc4712d674e642d5e7f650ab",
+          "meaning": "French extraction, military demands, centralizing reforms, Catholic resistance, and the transformation of Switzerland into a war zone.",
+          "stance": "Rationalizing reforms removed inherited burdens, but centralization and church policy challenged communities with their own democratic as well as religious traditions. Occupation, imposed manpower demands and multinational warfare made French protection both burdensome and ineffective."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E37BBBE4A6A6",
+          "record_sha256": "d867904b39cc9393c6a663dfa49683fa29f96d249f4bfeece6b9779efe283267",
+          "meaning": "French armies and government relied on foreign coin, requisitions, indemnities, seized treasuries and art, trade restrictions and client-funded forces. These systemic demands strengthened commanders and burdened occupied societies; Belgium’s Agency for Trade and Extraction exemplified organized removal. Dutch losses combined British blockade and colonial warfare with French occupation costs and discriminatory tariffs. Effects varied: after earlier Belgian exploitation, urban industry benefited from French market access in calmer years, while rural hostility persisted.",
+          "stance": "Extraction was a state and military system, not merely private misconduct, and foreign coin did not solve France’s fiscal crisis. Distinguish French demands from Britain’s blockade, and immediate or persistent costs from the specific later Belgian industrial recovery; no universal recovery or permanent-impoverishment claim follows."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-65EB9D04AEF8",
+          "record_sha256": "6b54ad9d34c83b51935bcfe9ff15a4ef0c48c17ce1246a1e094359376406f44d",
+          "meaning": "The cross-regional role of church confiscation, clerical persecution, sacrilege, and threatened religious customs in generating resistance.",
+          "stance": "Religious policy was a central and often self-defeating source of hostility, especially when coupled with conscription and economic burdens."
+        }
+      ],
+      "lead_retention_check": "The Swiss parent preserves reform alongside coercion and religious/local-democratic resistance. Make355’s legislature refusal of conscription and inadequate volunteers explicit in its evidence, not an undifferentiated manpower shortage.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "precise_additive_repair_proposed"
+    },
+    {
+      "finding_id": "ISR-C15-012",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-012",
+        "source_page_labels": [
+          "356",
+          "357",
+          "358"
+        ],
+        "source_first_requirement": "No general republicanization plan initially governed the invasion; Alba patriots were abandoned. Educated urban radicals hoped to revive Enlightenment reform after reaction, but French leaders suspected Year II politics and weak popular support, aiming first at strategic gains and extraction.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-02AF5D334E8F",
+          "SUBJ-SUCC-84B2C8434BA6",
+          "SUBJ-SUCC-431D9939D11B"
+        ],
+        "independent_reconciliation": "The Italian patriot and Bonaparte parents preserve improvised policy and limited social reach. Retain Alba’s abandonment, educated urban reform hopes, French fear of Year II radicalism and priority of extraction; no settled initial plan for general republicanization or national unity is supported.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 11,
+        "row_sha256": "f115ced85b84e09f907b09a3c03320f28d9cd3754866a9c0f7068d4b62c90954"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+          "record_sha256": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c",
+          "meaning": "The social base, ambitions, divisions, and limited popular legitimacy of Italian supporters of the French Revolution.",
+          "stance": "Urban intellectuals welcomed France as a route to reform, but French distrust of radicalism and rural hostility sharply limited their power and independence. Moderate reformers favored separate territorial reform, while radicals sought unity, sometimes through terror; by1798–1799 some Jacobins plotted against French domination."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "record_sha256": "03b99440ff47a794ce6a6eed6f9d17815e7ff2350b674b7ac466ecc59d0a89a0",
+          "meaning": "Bonaparte's use of Italian patriots, suppression of independent radicalism, creation of client institutions, and priority for strategic and fiscal goals.",
+          "stance": "His Italian settlement was improvised around military needs and personal authority rather than a consistent commitment to Italian self-determination."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-431D9939D11B",
+          "record_sha256": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+          "meaning": "Patriot and Jacobin efforts to unite Italy, and French tactical use and repeated suppression of those aspirations.",
+          "stance": "French leaders used patriot aspirations and consolidated regional client states when strategically useful, while repeatedly blocking an independent project to unite the whole peninsula."
+        }
+      ],
+      "lead_retention_check": "Italian reformers and French political management remain distinct. The improvised strategic policy and suppression of independent unity prevent interpreting every conquest as a pre-existing republicanization plan.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-013",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-013",
+        "source_page_labels": [
+          "358",
+          "359"
+        ],
+        "source_first_requirement": "War contributions, requisitions, treasury and pawnshop seizures, art removal and generals’ profits funded armies and France. Pavia’s revolt and sack exemplify resistance; many dispersed rural revolts combined religious outrage and material loss.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-80B9CA82989A",
+          "SUBJ-SUCC-E37BBBE4A6A6",
+          "SUBJ-SUCC-C6F2BF879546"
+        ],
+        "independent_reconciliation": "The exploitation and revolt parents provide routes. Preserve pawnshop/treasury seizures and welfare effects alongside art removal, army finance and generals’ gains. Pavia and dispersed rural resistance do not constitute one unified nationalist movement.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 12,
+        "row_sha256": "cdfcb3e046d93cc4b755d70661eda28055c1922be8726fbcd5cc425d8a27c728"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-80B9CA82989A",
+          "record_sha256": "d8c48ae6bce5efed944d8b05986e564e330b4bdb6d3e1a75b3d51214e5f63c90",
+          "meaning": "The material exploitation of conquered northern Italy and the immediate peasant backlash against French and Jacobin authority.",
+          "stance": "French promises of Lombard independence were subordinated to army finance and plunder, provoking local resistance that remained fragmented."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-E37BBBE4A6A6",
+          "record_sha256": "d867904b39cc9393c6a663dfa49683fa29f96d249f4bfeece6b9779efe283267",
+          "meaning": "French armies and government relied on foreign coin, requisitions, indemnities, seized treasuries and art, trade restrictions and client-funded forces. These systemic demands strengthened commanders and burdened occupied societies; Belgium’s Agency for Trade and Extraction exemplified organized removal. Dutch losses combined British blockade and colonial warfare with French occupation costs and discriminatory tariffs. Effects varied: after earlier Belgian exploitation, urban industry benefited from French market access in calmer years, while rural hostility persisted.",
+          "stance": "Extraction was a state and military system, not merely private misconduct, and foreign coin did not solve France’s fiscal crisis. Distinguish French demands from Britain’s blockade, and immediate or persistent costs from the specific later Belgian industrial recovery; no universal recovery or permanent-impoverishment claim follows."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C6F2BF879546",
+          "record_sha256": "4270f8a599893f49da7a696d80fe4be2dc856f1e9fcdcbcdbf013f1284731b78",
+          "meaning": "Italian anti-French revolts joined fiscal, religious, urban-rural and local antagonisms without one uniform programme. Urban hardship and older Tuscan conflicts accompanied peasant resistance. Jews associated with promises of improved status became vulnerable to popular attacks after French withdrawal; revolutionary symbols could also be turned against France.",
+          "stance": "Treat anti-Jewish violence as an explicit minority access requirement within the wider backlash, not an unsupported independent general history of Italian Jews. Religious grievance, subsistence, local conflict and Jacobin hostility to France complicate a simple reactionary label."
+        }
+      ],
+      "lead_retention_check": "Extraction is systemic across E37B, while80B andC6F preserve fragmented local backlash, religious and social motives. Minority violence is treated as a bounded explicit access aspect, not an unsupported general history.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-014",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-014",
+        "source_page_labels": [
+          "359",
+          "360",
+          "361"
+        ],
+        "source_first_requirement": "Bonaparte encouraged limited cooperation while suppressing Milanese unity demands. Conservative Cispadane election results and strategic frontier problems helped produce Cisalpine consolidation. Venice became compensation for Austria; the new constitution and first officers were imposed.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-A91A3B09441B",
+          "SUBJ-SUCC-431D9939D11B",
+          "SUBJ-SUCC-84B2C8434BA6",
+          "SUBJ-SUCC-3B1FDDD99EF6"
+        ],
+        "independent_reconciliation": "Formation, unity and Venice parents preserve contingencies. Retain the conservative Cispadane result, strategic boundaries, imposed Cisalpine constitution/officers and Venetian bargaining. Correct the internally inconsistent earlier Cispadane date through explicit source uncertainty rather than unmarked normalization.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 13,
+        "row_sha256": "74574c44dece8563e390fd91034fb26cdb1a44a1b8edf50de48e8ff72cdc6e4a"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-A91A3B09441B",
+          "record_sha256": "969cd4665af77ad3cd84e19757a553c34082c779cd498903e086d69ca15fa09b",
+          "meaning": "The formation of the Cispadane Republic and its rapid incorporation with Lombardy into the Cisalpine Republic.",
+          "stance": "The republics arose through a mixture of local patriot initiatives and Bonaparte's strategic calculations, not through a settled plan for Italian nationhood."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-431D9939D11B",
+          "record_sha256": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+          "meaning": "Patriot and Jacobin efforts to unite Italy, and French tactical use and repeated suppression of those aspirations.",
+          "stance": "French leaders used patriot aspirations and consolidated regional client states when strategically useful, while repeatedly blocking an independent project to unite the whole peninsula."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "record_sha256": "03b99440ff47a794ce6a6eed6f9d17815e7ff2350b674b7ac466ecc59d0a89a0",
+          "meaning": "Bonaparte's use of Italian patriots, suppression of independent radicalism, creation of client institutions, and priority for strategic and fiscal goals.",
+          "stance": "His Italian settlement was improvised around military needs and personal authority rather than a consistent commitment to Italian self-determination."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-3B1FDDD99EF6",
+          "record_sha256": "7b06cb4a0fbd10bc1dd351989cc26ed42744b177777fdacd53244868ca92f884",
+          "meaning": "The French use of Venetian resistance and territory in the strategic and diplomatic settlement with Austria.",
+          "stance": "Venetian hostility provided Bonaparte an opportunity to trade most of Venetia to Austria while consolidating French-controlled northern Italy."
+        }
+      ],
+      "lead_retention_check": "The Cispadane/Cisalpine parent’s359–361 evidence preserves local initiative, conservative elections and strategic consolidation. Venetian compensation differs from Italian self-determination; imposed constitution/nominees remain explicit in2FE1.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-015",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-015",
+        "source_page_labels": [
+          "361",
+          "362",
+          "363"
+        ],
+        "source_first_requirement": "France demanded troop maintenance, its own army and commercial preferences. Treaty resistance prompted a purge; later conflicts over radicalism, constitutional restriction and Brune’s disobedience caused repeated reversals. Jacobin refugees continued to seek Italian unity.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-C9C4454491D0",
+          "SUBJ-SUCC-431D9939D11B",
+          "SUBJ-SUCC-2FE1E44C6B8E"
+        ],
+        "independent_reconciliation": "The Cisalpine parent must retain exact successive military/trade demands, treaty resistance and purges, including Brune’s disobedience and reversals. Apply the added reviewer’s correction that post-departure obligations were not personally imposed by absent Bonaparte; do not substitute generic French control for the sequence.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 14,
+        "row_sha256": "1ec14ec6a04d6bc4f9aed74454473a72fe6ebd62a485006d9fd6241a7d77c611"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-C9C4454491D0",
+          "record_sha256": "71be7e776be18880a7b4d17dc910f4e52c51e8bac2fe9275fa764f9ae12f2c97",
+          "meaning": "French nomination of institutions, military and trade obligations, and successive 1798 purges of the Cisalpine government.",
+          "stance": "The republic became a byword for exploitation and instability as Paris alternated between radical and conservative clients to preserve French interests. French agents were not always obedient instruments: Brune’s intervention temporarily defied Paris."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-431D9939D11B",
+          "record_sha256": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+          "meaning": "Patriot and Jacobin efforts to unite Italy, and French tactical use and repeated suppression of those aspirations.",
+          "stance": "French leaders used patriot aspirations and consolidated regional client states when strategically useful, while repeatedly blocking an independent project to unite the whole peninsula."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-2FE1E44C6B8E",
+          "record_sha256": "7f4ca23e34b0eaf0b559f38684a33bb10de35867176f913d5b880c2f41965a44",
+          "meaning": "French-sponsored republics varied in constitutional authorship and domestic autonomy. Dutch elected life and locally drafted Ligurian institutions differed from imposed Swiss unity, Bonaparte’s dictated Cisalpine constitution and initial nominees, and the Roman commandant’s explicit supremacy. Local reformers and French military or anti-clerical initiatives interacted; occupation, strategic access, fiscal obligations and repeated coups limited sovereignty. The Directory did not welcome every new satellite: Championnet’s independent Neapolitan creation depended on French troops and collapsed when they withdrew.",
+          "stance": "Do not flatten Dutch or Ligurian local initiative into the same model as imposed Swiss unity or Roman military supremacy. The Directory did not uniformly welcome every new satellite, but their spread deepened international alarm."
+        }
+      ],
+      "lead_retention_check": "C9C preserves alternating clients, fiscal/military obligations and Brune’s disobedience. These later interventions are not all assigned personally to Bonaparte after his departure.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-016",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-016",
+        "source_page_labels": [
+          "362",
+          "363"
+        ],
+        "source_first_requirement": "Ligurian constitution was locally drafted and plebiscitary but financial refusal provoked a coup. Rome’s imposed institutions used antique labels while allowing French command to legislate; religious/economic changes undermined charity and popular support.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-A6EB838468C1",
+          "SUBJ-SUCC-D33E439E4979",
+          "SUBJ-SUCC-2FE1E44C6B8E"
+        ],
+        "independent_reconciliation": "Distinct Ligurian and Roman parents preserve local drafting/plebiscite versus imposed antique-named institutions under French command. Retain coercive fiscal limits and Roman charity/religious-economic disruption; names do not establish ancient institutional identity.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 15,
+        "row_sha256": "db3b499fed1aabf0c708011c0d21c4b4519eb801904cfbe5e840aff868142e48"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-A6EB838468C1",
+          "record_sha256": "e53e79a030c6a1fadc4460ee4d481a5e1d7f79e1eb282027c26ac68fb0ede601",
+          "meaning": "The French-backed transformation of Genoa into the Ligurian Republic and its subsequent subordination to French financial demands.",
+          "stance": "Its locally drafted and plebiscite-approved constitution contrasted with Cisalpina, but French coercion quickly constrained fiscal independence."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-D33E439E4979",
+          "record_sha256": "e11031f8ce9d470d0284076115573ae7f32dfaa72d504469094dff2efd4cc301",
+          "meaning": "The French invasion of the Papal States, proclamation and constitution of the Roman Republic, popular resistance, and fiscal-religious crisis. Rome depended on religion, visiting pilgrims and clerical charity; antireligious measures and paper-money collapse undermined this economy, helping explain the crowds’ initial welcome for Neapolitan occupation before renewed French repression and exactions.",
+          "stance": "The republic lacked native autonomy, depended on French force, and intensified economic and religious disruption before renewed war."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-2FE1E44C6B8E",
+          "record_sha256": "7f4ca23e34b0eaf0b559f38684a33bb10de35867176f913d5b880c2f41965a44",
+          "meaning": "French-sponsored republics varied in constitutional authorship and domestic autonomy. Dutch elected life and locally drafted Ligurian institutions differed from imposed Swiss unity, Bonaparte’s dictated Cisalpine constitution and initial nominees, and the Roman commandant’s explicit supremacy. Local reformers and French military or anti-clerical initiatives interacted; occupation, strategic access, fiscal obligations and repeated coups limited sovereignty. The Directory did not welcome every new satellite: Championnet’s independent Neapolitan creation depended on French troops and collapsed when they withdrew.",
+          "stance": "Do not flatten Dutch or Ligurian local initiative into the same model as imposed Swiss unity or Roman military supremacy. The Directory did not uniformly welcome every new satellite, but their spread deepened international alarm."
+        }
+      ],
+      "lead_retention_check": "The Ligurian local constitution contrasts with Roman command and financial coercion. D33 expressly preserves the religion/pilgrimage/charity economy and the temporary welcome to Neapolitans.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-017",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-017",
+        "source_page_labels": [
+          "364",
+          "365"
+        ],
+        "source_first_requirement": "Championnet’s intervention exceeded Directory wishes and faced lazzaroni resistance. Retreat exposed Jacobins to Ruffo’s Holy Faith army; Ruffo mobilized social, rural-urban and religious grievances, even offering feudal relief before reformers. Subsequent reprisals were demanded over his opposition.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-A196529B349B",
+          "SUBJ-SUCC-56FAED657225",
+          "SUBJ-SUCC-C6F2BF879546"
+        ],
+        "independent_reconciliation": "The Parthenopean and Sanfedist parents preserve Championnet exceeding policy, lazzaroni opposition, withdrawal and Ruffo’s mixed mobilization. Preserve his early feudal relief and opposition to the restored court’s reprisals; restoration forces were not a uniform command or programme.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 16,
+        "row_sha256": "c4c030f7a921b83346ac294c94d5cda12657052b65301300807292ff86f4e194"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-A196529B349B",
+          "record_sha256": "24c76d7c8d725581faa2a383ff077128851be1b81a02c46304198ae192108800",
+          "meaning": "The French and Neapolitan Jacobin creation of a short-lived republic in Naples after the Bourbon court's flight. After its collapse, restored royal authority demanded show trials, executions and imprisonment of Jacobins despite Ruffo’s doubts about further reprisals. The lazzaroni armed against the French and fought them fiercely; amid the Bourbon court’s flight they also lynched nobles and sacked the empty royal palace. Their anti-elite urban violence was not simply disciplined Bourbon loyalty.",
+          "stance": "Championnet exceeded the Directory's strategic intentions; the urban republic depended on French arms and collapsed when they withdrew."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-56FAED657225",
+          "record_sha256": "979998c9140eb99ff703e93765838c564bc704dec0b8d62b96d36a9057b903ad",
+          "meaning": "Cardinal Ruffo's Christian Army of the Holy Faith and its peasant-based reconquest of southern Italy and Naples.",
+          "stance": "Ruffo mobilized poverty, religion, taxes, feudal burdens and hostility to towns, even abolishing burdens before the Jacobins did. The locally driven movement produced uncontrolled plunder; distinguish this from the restored court’s deliberate reprisals, which Ruffo questioned."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C6F2BF879546",
+          "record_sha256": "4270f8a599893f49da7a696d80fe4be2dc856f1e9fcdcbcdbf013f1284731b78",
+          "meaning": "Italian anti-French revolts joined fiscal, religious, urban-rural and local antagonisms without one uniform programme. Urban hardship and older Tuscan conflicts accompanied peasant resistance. Jews associated with promises of improved status became vulnerable to popular attacks after French withdrawal; revolutionary symbols could also be turned against France.",
+          "stance": "Treat anti-Jewish violence as an explicit minority access requirement within the wider backlash, not an unsupported independent general history of Italian Jews. Religious grievance, subsistence, local conflict and Jacobin hostility to France complicate a simple reactionary label."
+        }
+      ],
+      "lead_retention_check": "The urban lazzaroni, Jacobin republic, rural Sanfedists and restored court have distinct actions and aims. Ruffo’s early relief and reservations about later reprisals remain explicit.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-018",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-018",
+        "source_page_labels": [
+          "365",
+          "366",
+          "367"
+        ],
+        "source_first_requirement": "French pressure displaced Piedmont’s king and annexation was rigged; Tuscany was occupied for wartime resources. Resistance drew on older anti-reform and subsistence grievances and included anti-Jewish attacks.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-9C234417CEB0",
+          "SUBJ-SUCC-0E9117EAD92A",
+          "SUBJ-SUCC-C6F2BF879546"
+        ],
+        "independent_reconciliation": "Piedmont, Tuscany and revolt parents retain distinct routes, royal displacement, manipulated annexation and resource motives. Preserve urban as well as rural hardship, older Tuscan disputes and anti-Jewish violence; maintain the 366 chronology discrepancy explicitly.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 17,
+        "row_sha256": "58fd38d74b94e994fc31b4516d51d4a3e27fc55176b8e56160cfa6684d2510e6"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-9C234417CEB0",
+          "record_sha256": "8792e419d42d902aa6a81b7c2e7ee748d71e7e9d9a06914f7199aa12d5633f23",
+          "meaning": "The escalation from coerced alliance and garrison rights to occupation, abdication, and a rigged annexation referendum. Langhe peasants resisted impending annexation using images of Jacobin martyrs, demonstrating an anti-French movement not reducible to religious royalism.",
+          "stance": "French strategic pressure displaced the monarchy and converted patriot hopes into direct annexation rather than an autonomous republic. Page366 prints February1798 for the referendum after narrating December1798 occupation; page367 places resistance to impending annexation in February1799. Retain the inconsistency rather than silently supply a corrected referendum date."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-0E9117EAD92A",
+          "record_sha256": "75732d52edbe0b33f05f65125dfbbdd59886dd615fe983f35fb4752a0343ca0b",
+          "meaning": "French occupation of previously neutral Tuscany to obtain resources as war resumed.",
+          "stance": "The occupation was driven by strategic extraction and immediately faced both allied invasion and indigenous resistance."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C6F2BF879546",
+          "record_sha256": "4270f8a599893f49da7a696d80fe4be2dc856f1e9fcdcbcdbf013f1284731b78",
+          "meaning": "Italian anti-French revolts joined fiscal, religious, urban-rural and local antagonisms without one uniform programme. Urban hardship and older Tuscan conflicts accompanied peasant resistance. Jews associated with promises of improved status became vulnerable to popular attacks after French withdrawal; revolutionary symbols could also be turned against France.",
+          "stance": "Treat anti-Jewish violence as an explicit minority access requirement within the wider backlash, not an unsupported independent general history of Italian Jews. Religious grievance, subsistence, local conflict and Jacobin hostility to France complicate a simple reactionary label."
+        }
+      ],
+      "lead_retention_check": "Piedmont is annexation, not autonomous republican creation, and its printed referendum chronology remains unresolved. Tuscan extraction and local religious/material/anti-Jewish backlash remain distinct.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-019",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-019",
+        "source_page_labels": [
+          "366",
+          "367",
+          "368"
+        ],
+        "source_first_requirement": "Peasants linked foreign soldiers, exactions, impiety and urban collaborators; some Jacobins also opposed French control. Langhe peasants carried Jacobin martyr images in an anti-annexation rising, complicating ideological labels.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-C6F2BF879546",
+          "SUBJ-SUCC-02AF5D334E8F",
+          "SUBJ-SUCC-431D9939D11B",
+          "SUBJ-SUCC-F58A108E4435"
+        ],
+        "independent_reconciliation": "The resistance and patriot parents preserve divergent antagonisms. Keep Langhe use of Jacobin martyr images and Jacobin opposition to French domination as explicit complications; symbols alone do not prove allegiance to French occupation or a single reactionary coalition.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 18,
+        "row_sha256": "94eb8bd6e63819f84ec1f5ea58a3a230a27dd2892f1bcd8d7509479b9dc87602"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-C6F2BF879546",
+          "record_sha256": "4270f8a599893f49da7a696d80fe4be2dc856f1e9fcdcbcdbf013f1284731b78",
+          "meaning": "Italian anti-French revolts joined fiscal, religious, urban-rural and local antagonisms without one uniform programme. Urban hardship and older Tuscan conflicts accompanied peasant resistance. Jews associated with promises of improved status became vulnerable to popular attacks after French withdrawal; revolutionary symbols could also be turned against France.",
+          "stance": "Treat anti-Jewish violence as an explicit minority access requirement within the wider backlash, not an unsupported independent general history of Italian Jews. Religious grievance, subsistence, local conflict and Jacobin hostility to France complicate a simple reactionary label."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+          "record_sha256": "c466c866f9f1ce9f5a40ef287619cb454b47129399f882579aa127de4532454c",
+          "meaning": "The social base, ambitions, divisions, and limited popular legitimacy of Italian supporters of the French Revolution.",
+          "stance": "Urban intellectuals welcomed France as a route to reform, but French distrust of radicalism and rural hostility sharply limited their power and independence. Moderate reformers favored separate territorial reform, while radicals sought unity, sometimes through terror; by1798–1799 some Jacobins plotted against French domination."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-431D9939D11B",
+          "record_sha256": "a0f7a116377f3f03b6771f67ee17ea6eb4764285da25a43904d4422a6a406cc2",
+          "meaning": "Patriot and Jacobin efforts to unite Italy, and French tactical use and repeated suppression of those aspirations.",
+          "stance": "French leaders used patriot aspirations and consolidated regional client states when strategically useful, while repeatedly blocking an independent project to unite the whole peninsula."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-F58A108E4435",
+          "record_sha256": "3dcb3d6d0a9af76dd2158885fef17c295d37c89ae9fc6eb044ae07b6a4b794f8",
+          "meaning": "The 1798-1799 wave of peasant and urban resistance in Belgium, Luxembourg, Switzerland, and Italy.",
+          "stance": "The uprisings differed locally but collectively represented a broad rejection of French coercion and revolutionary authority; the Irish revolt was the exceptional pro-French case."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-9C234417CEB0",
+          "record_sha256": "8792e419d42d902aa6a81b7c2e7ee748d71e7e9d9a06914f7199aa12d5633f23",
+          "meaning": "The escalation from coerced alliance and garrison rights to occupation, abdication, and a rigged annexation referendum. Langhe peasants resisted impending annexation using images of Jacobin martyrs, demonstrating an anti-French movement not reducible to religious royalism.",
+          "stance": "French strategic pressure displaced the monarchy and converted patriot hopes into direct annexation rather than an autonomous republic. Page366 prints February1798 for the referendum after narrating December1798 occupation; page367 places resistance to impending annexation in February1799. Retain the inconsistency rather than silently supply a corrected referendum date."
+        }
+      ],
+      "lead_retention_check": "The Langhe symbolic paradox is explicit in9C234, supplementing C6F’s broad formulation. Italian Jacobin opposition to French rule and the pro-French Irish exception prevent uniform ideological classification.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "retained_in_composed_scope"
+    },
+    {
+      "finding_id": "ISR-C15-020",
+      "source_first_finding_and_prior_disposition": {
+        "finding_id": "ISR-C15-020",
+        "source_page_labels": [
+          "367",
+          "368"
+        ],
+        "source_first_requirement": "Local opposition magnified coalition pressure. Stockach and Suvorov’s advances exposed overstretch and collapsed sister republics. Bonaparte learned late of European losses and left his army before receiving evacuation orders; eventual surrender followed.",
+        "draft_subject_ids": [
+          "SUBJ-SUCC-C8BC4BB76AF8",
+          "SUBJ-SUCC-1C3515CE1B7F",
+          "SUBJ-SUCC-2FE1E44C6B8E"
+        ],
+        "independent_reconciliation": "The military-collapse and departure parents preserve interaction between coalition armies and local resistance. Apply exact battle/defeat sequence repairs, keep Bonaparte’s information and departure before receipt of evacuation orders, and distinguish eventual Egyptian surrender from his personal escape.",
+        "disposition": "source_argument_located; exact_final_retention_and_component_repairs_pending",
+        "unrepresented_finding": false
+      },
+      "prior_row_binding": {
+        "path": "successor/independent-review/actual-draft/lead/source-first-reconciliation.chunk-015.v1.json",
+        "row_index": 19,
+        "row_sha256": "0a6d7d9917689a5fd70413617efc4ee00795bf6066540d43eb6c53e6cc353397"
+      },
+      "stage6_parent_bindings": [
+        {
+          "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+          "record_sha256": "d500d47ba9527650f70461a9596dfa41d6366134868cac5219b99c31fd426691",
+          "meaning": "The interaction of indigenous resistance with coalition warfare that drove French armies back and destroyed the sister republics.",
+          "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and client-state collapse; do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-1C3515CE1B7F",
+          "record_sha256": "cdc2e2420764a25756cee24ecdc346137d5e55705bb3a1ccd40219bb188a0b9a",
+          "meaning": "News of European disasters and the failing Egyptian prospect led Bonaparte to leave his army without waiting for the Directory’s order. His acclaimed return made him the available military partner in a coalition with Sieyes, Lucien, Fouché and Talleyrand.",
+          "stance": "Prestige concealed abandonment and allowed different factions to project hopes onto him. Sieyes underestimated Bonaparte’s independent political ambition; the return prepared but did not itself accomplish Brumaire."
+        },
+        {
+          "subject_id": "SUBJ-SUCC-2FE1E44C6B8E",
+          "record_sha256": "7f4ca23e34b0eaf0b559f38684a33bb10de35867176f913d5b880c2f41965a44",
+          "meaning": "French-sponsored republics varied in constitutional authorship and domestic autonomy. Dutch elected life and locally drafted Ligurian institutions differed from imposed Swiss unity, Bonaparte’s dictated Cisalpine constitution and initial nominees, and the Roman commandant’s explicit supremacy. Local reformers and French military or anti-clerical initiatives interacted; occupation, strategic access, fiscal obligations and repeated coups limited sovereignty. The Directory did not welcome every new satellite: Championnet’s independent Neapolitan creation depended on French troops and collapsed when they withdrew.",
+          "stance": "Do not flatten Dutch or Ligurian local initiative into the same model as imposed Swiss unity or Roman military supremacy. The Directory did not uniformly welcome every new satellite, but their spread deepened international alarm."
+        }
+      ],
+      "lead_retention_check": "Narrow C8BC’s current broad collapse wording to Italian clients, consistent with346’s surviving Batavian institutions and368’s Italian campaign. Keep indigenous resistance distinct from coalition creation, and Bonaparte’s departure before receipt of evacuation orders distinct from later surrender.",
+      "inspection_scope": "Main meanings and stances compared to this exact finding; specifically cited evidence read where needed. Not a duplicate whole-entity or source-first review.",
+      "status": "precise_additive_repair_proposed"
+    }
+  ],
+  "proposed_subject_replacements": [
+    {
+      "subject_id": "SUBJ-SUCC-F8A938B3B147",
+      "before_record_sha256": "4dc3bec20e222e0fca86b9f9136934f85484bcb678241799567340aea128cba8",
+      "proposed_record": {
+        "label": "Rhineland under French occupation: exploitation and economic disruption",
+        "priority": "major",
+        "meaning": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank. French retention of feudal dues and tithes for revenue, followed by increased rents replacing abolished tithes, limited the relief inhabitants might have expected.",
+        "stance": "Front-line demands and incorporation systematically impoverished the region and institutionalized hostility to French rule.",
+        "subject_id": "SUBJ-SUCC-F8A938B3B147",
+        "acceptable_access": [
+          "Rhineland—French occupation",
+          "Rhineland—economic effects",
+          "French requisitions in Germany",
+          "Rhine customs frontier",
+          "Rhineland--smuggling",
+          "Court economies--collapse after ecclesiastical flight"
+        ],
+        "evidence": [
+          {
+            "document_page": 352,
+            "source_page_label": "352",
+            "locator_class": "principal",
+            "evidence_summary": "Army extraction impoverished the left bank; the new Rhine customs barrier additionally severed established commercial links and encouraged smuggling and confrontations.",
+            "evidence_id": "EVID-SUCC-828BBF842D01",
+            "source_local_subject_id": "SUCC-C015-S019",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 353,
+            "source_page_label": "353",
+            "locator_class": "supporting",
+            "evidence_summary": "Flight of ecclesiastical courts destroyed service employment. France retained feudal dues and tithes for military revenue until1798; when the tithe was abolished, an equivalent amount was added to rents, denying the expected relief.",
+            "evidence_id": "EVID-SUCC-F12F017097F2",
+            "source_local_subject_id": "SUCC-C015-S019",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S019",
+            "label": "Rhineland under French occupation: exploitation and economic disruption",
+            "meaning": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank. French retention of feudal dues and tithes for revenue, followed by increased rents replacing abolished tithes, limited the relief inhabitants might have expected.",
+            "stance": "Front-line demands and incorporation systematically impoverished the region and institutionalized hostility to French rule.",
+            "acceptable_access": [
+              "Rhineland—French occupation",
+              "Rhineland—economic effects",
+              "French requisitions in Germany",
+              "Rhine customs frontier",
+              "Rhineland--smuggling",
+              "Court economies--collapse after ecclesiastical flight"
+            ],
+            "document_pages": [
+              352,
+              353
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S019"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S019",
+            "label": "Rhineland under French occupation: exploitation and economic disruption",
+            "meaning": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank. French retention of feudal dues and tithes for revenue, followed by increased rents replacing abolished tithes, limited the relief inhabitants might have expected.",
+            "stance": "Front-line demands and incorporation systematically impoverished the region and institutionalized hostility to French rule.",
+            "acceptable_access": [
+              "Rhineland—French occupation",
+              "Rhineland—economic effects",
+              "French requisitions in Germany",
+              "Rhine customs frontier",
+              "Rhineland--smuggling",
+              "Court economies--collapse after ecclesiastical flight"
+            ],
+            "document_pages": [
+              352,
+              353
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "source_pages_reread": [
+        353
+      ],
+      "rationale": "Retain the specific fiscal limit on relief rather than only generic extraction.",
+      "exact_field_changes": [
+        {
+          "path": "/meaning",
+          "before": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank.",
+          "after": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank. French retention of feudal dues and tithes for revenue, followed by increased rents replacing abolished tithes, limited the relief inhabitants might have expected."
+        },
+        {
+          "path": "/evidence/1/evidence_summary",
+          "before": "Flight of ecclesiastical courts destroyed service employment while church and feudal revenues were diverted to French needs.",
+          "after": "Flight of ecclesiastical courts destroyed service employment. France retained feudal dues and tithes for military revenue until1798; when the tithe was abolished, an equivalent amount was added to rents, denying the expected relief."
+        },
+        {
+          "path": "/source_treatments/0/meaning",
+          "before": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank.",
+          "after": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank. French retention of feudal dues and tithes for revenue, followed by increased rents replacing abolished tithes, limited the relief inhabitants might have expected."
+        },
+        {
+          "path": "/required_access_facets/0/meaning",
+          "before": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank.",
+          "after": "The prolonged military extraction, forced labor, taxation, customs reorientation, and destruction of court-centered economies on the Rhine's left bank. French retention of feudal dues and tithes for revenue, followed by increased rents replacing abolished tithes, limited the relief inhabitants might have expected."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-E57561515D9B",
+      "before_record_sha256": "33626516502804a7fca1785079b8a3f6b78f6d30fc4712d674e642d5e7f650ab",
+      "proposed_record": {
+        "label": "Helvetic Republic: occupation, reform, and resistance",
+        "priority": "major",
+        "meaning": "French extraction, military demands, centralizing reforms, Catholic resistance, and the transformation of Switzerland into a war zone.",
+        "stance": "Rationalizing reforms removed inherited burdens, but centralization and church policy challenged communities with their own democratic as well as religious traditions. Occupation, imposed manpower demands and multinational warfare made French protection both burdensome and ineffective.",
+        "subject_id": "SUBJ-SUCC-E57561515D9B",
+        "acceptable_access": [
+          "Helvetic Republic—French occupation",
+          "Switzerland—reforms and resistance",
+          "Valais revolt, 1798",
+          "Swiss local democratic liberties",
+          "Valais revolt",
+          "Helvetic militia",
+          "Switzerland--abolition of internal barriers and feudal dues"
+        ],
+        "evidence": [
+          {
+            "document_page": 355,
+            "source_page_label": "355",
+            "locator_class": "principal",
+            "evidence_summary": "City treasuries funded the army of Italy and Egyptian expedition; taxes and French-directed removals accompanied occupation. Austrian entry exposed failed protection. The legislature rejected the demanded conscription and authorized only a volunteer force that fell far below the requested strength.",
+            "evidence_id": "EVID-SUCC-9066DF3250C0",
+            "source_local_subject_id": "SUCC-C015-S022",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 356,
+            "source_page_label": "356",
+            "locator_class": "principal",
+            "evidence_summary": "Institutional reforms provoked Catholic districts, the Valais revolt, guerrilla resistance, and renewed requisitioning amid war.",
+            "evidence_id": "EVID-SUCC-A6EA58399C32",
+            "source_local_subject_id": "SUCC-C015-S022",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S022",
+            "label": "Helvetic Republic: occupation, reform, and resistance",
+            "meaning": "French extraction, military demands, centralizing reforms, Catholic resistance, and the transformation of Switzerland into a war zone.",
+            "stance": "Rationalizing reforms removed inherited burdens, but centralization and church policy challenged communities with their own democratic as well as religious traditions. Occupation, imposed manpower demands and multinational warfare made French protection both burdensome and ineffective.",
+            "acceptable_access": [
+              "Helvetic Republic—French occupation",
+              "Switzerland—reforms and resistance",
+              "Valais revolt, 1798",
+              "Swiss local democratic liberties",
+              "Valais revolt",
+              "Helvetic militia",
+              "Switzerland--abolition of internal barriers and feudal dues"
+            ],
+            "document_pages": [
+              355,
+              356
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S022"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S022",
+            "label": "Helvetic Republic: occupation, reform, and resistance",
+            "meaning": "French extraction, military demands, centralizing reforms, Catholic resistance, and the transformation of Switzerland into a war zone.",
+            "stance": "Rationalizing reforms removed inherited burdens, but centralization and church policy challenged communities with their own democratic as well as religious traditions. Occupation, imposed manpower demands and multinational warfare made French protection both burdensome and ineffective.",
+            "acceptable_access": [
+              "Helvetic Republic—French occupation",
+              "Switzerland—reforms and resistance",
+              "Valais revolt, 1798",
+              "Swiss local democratic liberties",
+              "Valais revolt",
+              "Helvetic militia",
+              "Switzerland--abolition of internal barriers and feudal dues"
+            ],
+            "document_pages": [
+              355,
+              356
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "source_pages_reread": [
+        355
+      ],
+      "rationale": "Preserve the legislative refusal and limited authorized alternative within the already stated military-demands treatment.",
+      "exact_field_changes": [
+        {
+          "path": "/evidence/0/evidence_summary",
+          "before": "Seized treasuries, taxes, political removals, failed militia demands, and Austrian occupation exposed the republic's weakness.",
+          "after": "City treasuries funded the army of Italy and Egyptian expedition; taxes and French-directed removals accompanied occupation. Austrian entry exposed failed protection. The legislature rejected the demanded conscription and authorized only a volunteer force that fell far below the requested strength."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "before_record_sha256": "d500d47ba9527650f70461a9596dfa41d6366134868cac5219b99c31fd426691",
+      "proposed_record": {
+        "label": "Second Coalition and the collapse of French power in 1799",
+        "priority": "major",
+        "meaning": "The interaction of indigenous resistance with coalition warfare that drove French armies back and brought down the Italian client republics in1799.",
+        "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+        "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+        "acceptable_access": [
+          "Second Coalition—occupied Europe",
+          "Collapse of the Italian sister republics,1799",
+          "French military defeats, 1799",
+          "Stockach, battle of",
+          "Suvorov--Italian campaign",
+          "French military overextension,1799",
+          "Genoa--French retreat"
+        ],
+        "evidence": [
+          {
+            "document_page": 363,
+            "source_page_label": "363",
+            "locator_class": "supporting",
+            "evidence_summary": "The renewed war determined the fate of the increasingly unstable Italian sister republics.",
+            "evidence_id": "EVID-SUCC-E967D80207FC",
+            "source_local_subject_id": "SUCC-C015-S006",
+            "source_chunk_id": "CHUNK-015"
+          },
+          {
+            "document_page": 368,
+            "source_page_label": "368",
+            "locator_class": "principal",
+            "evidence_summary": "Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s Italian advance; the French withdrew toward Genoa and the Italian sister republics collapsed amid revenge and reprisal.",
+            "evidence_id": "EVID-SUCC-44B8B2998640",
+            "source_local_subject_id": "SUCC-C015-S006",
+            "source_chunk_id": "CHUNK-015"
+          }
+        ],
+        "chapter_provenance": [
+          "CHUNK-015"
+        ],
+        "source_treatments": [
+          {
+            "local_subject_id": "SUCC-C015-S006",
+            "label": "Second Coalition and the collapse of French power in 1799",
+            "meaning": "The interaction of indigenous resistance with coalition warfare that drove French armies back and brought down the Italian client republics in1799.",
+            "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+            "acceptable_access": [
+              "Second Coalition—occupied Europe",
+              "Collapse of the Italian sister republics,1799",
+              "French military defeats, 1799",
+              "Stockach, battle of",
+              "Suvorov--Italian campaign",
+              "French military overextension,1799",
+              "Genoa--French retreat"
+            ],
+            "document_pages": [
+              363,
+              368
+            ]
+          }
+        ],
+        "source_local_subject_ids": [
+          "SUCC-C015-S006"
+        ],
+        "editorial_rationale": "The fully reviewed chapter requirement remains a distinct source argument; no cross-chapter identity was inferred from its label alone.",
+        "access_scope_rule": "Accept any clear heading architecture that retrieves the meaning and source treatments below. Listed names are routes, not interchangeable substitutes for distinct claims. A broad umbrella alone does not satisfy a separately stated facet or reader task.",
+        "required_access_facets": [
+          {
+            "facet_id": "FACET-SUCC-C015-S006",
+            "label": "Second Coalition and the collapse of French power in 1799",
+            "meaning": "The interaction of indigenous resistance with coalition warfare that drove French armies back and brought down the Italian client republics in1799.",
+            "stance": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+            "acceptable_access": [
+              "Second Coalition—occupied Europe",
+              "Collapse of the Italian sister republics,1799",
+              "French military defeats, 1799",
+              "Stockach, battle of",
+              "Suvorov--Italian campaign",
+              "French military overextension,1799",
+              "Genoa--French retreat"
+            ],
+            "document_pages": [
+              363,
+              368
+            ],
+            "independently_weighted": false
+          }
+        ]
+      },
+      "source_pages_reread": [
+        346,
+        368
+      ],
+      "rationale": "Limit collapse to the Italian regimes described in context; preserve different Dutch and Swiss trajectories.",
+      "exact_field_changes": [
+        {
+          "path": "/meaning",
+          "before": "The interaction of indigenous resistance with coalition warfare that drove French armies back and destroyed the sister republics.",
+          "after": "The interaction of indigenous resistance with coalition warfare that drove French armies back and brought down the Italian client republics in1799."
+        },
+        {
+          "path": "/stance",
+          "before": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and client-state collapse; do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+          "after": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation."
+        },
+        {
+          "path": "/acceptable_access/1",
+          "before": "Collapse of the sister republics, 1799",
+          "after": "Collapse of the Italian sister republics,1799"
+        },
+        {
+          "path": "/evidence/1/evidence_summary",
+          "before": "Defeat at Stockach, retreat from Switzerland and Suvorov’s advance drove the French back; the sister republics then collapsed amid revenge and reprisal.",
+          "after": "Defeat at Stockach and retreat from Switzerland accompanied Suvorov’s Italian advance; the French withdrew toward Genoa and the Italian sister republics collapsed amid revenge and reprisal."
+        },
+        {
+          "path": "/source_treatments/0/meaning",
+          "before": "The interaction of indigenous resistance with coalition warfare that drove French armies back and destroyed the sister republics.",
+          "after": "The interaction of indigenous resistance with coalition warfare that drove French armies back and brought down the Italian client republics in1799."
+        },
+        {
+          "path": "/source_treatments/0/stance",
+          "before": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and client-state collapse; do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+          "after": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation."
+        },
+        {
+          "path": "/source_treatments/0/acceptable_access/1",
+          "before": "Collapse of the sister republics, 1799",
+          "after": "Collapse of the Italian sister republics,1799"
+        },
+        {
+          "path": "/required_access_facets/0/meaning",
+          "before": "The interaction of indigenous resistance with coalition warfare that drove French armies back and destroyed the sister republics.",
+          "after": "The interaction of indigenous resistance with coalition warfare that drove French armies back and brought down the Italian client republics in1799."
+        },
+        {
+          "path": "/required_access_facets/0/stance",
+          "before": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and client-state collapse; do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation.",
+          "after": "Coalition warfare and locally varied popular resistance reinforced one another. French offensives despite numerical inferiority ended in defeat and the collapse of Italian client regimes; Dutch and Swiss outcomes differed. Do not describe every revolt as caused by the coalition or treat hostility alone as a sufficient military explanation."
+        },
+        {
+          "path": "/required_access_facets/0/acceptable_access/1",
+          "before": "Collapse of the sister republics, 1799",
+          "after": "Collapse of the Italian sister republics,1799"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "findings_checked": 20,
+    "proposed_subject_replacements": 3,
+    "exact_field_changes": 15
+  },
+  "new_source_rereading": {
+    "document_pages": [
+      346,
+      353,
+      355,
+      368
+    ],
+    "purpose": "Resolve exact mechanisms and geographic scope after draft access, not a new source-first pass."
+  },
+  "scope_limits": "No source or existing component changed. Other chapters, full repaired-record/access/facet approval, incoming original S/E repairs and exact final-byte approval remain separate.",
+  "whole_book_approval": false
+}

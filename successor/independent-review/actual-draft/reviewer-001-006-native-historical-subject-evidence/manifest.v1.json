@@ -1,0 +1,97 @@
+{
+  "schema_version": "independent-native-original-review-manifest-v1",
+  "status": "sealed_bounded_component_complete_with_exact_repair_proposals",
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-001-006.native-historical-subject-evidence.assignment.v1.json",
+    "sha256": "d0633514c48539ff95f2c82b892e1ceddac27ebc023ec635455417c088087d67",
+    "bytes": 42613
+  },
+  "counts": {
+    "schema_version": "independent-native-component-validation-v1",
+    "result": "pass",
+    "subject_key_set_exact": true,
+    "evidence_key_set_exact": true,
+    "duplicate_subject_keys": 0,
+    "duplicate_evidence_keys": 0,
+    "all644_evidence_of275_subjects_inspected": true,
+    "evidence_only_bindings_exact": true,
+    "subject_count": 275,
+    "evidence_count": 650,
+    "whole_proposals": 34,
+    "referrals": 35,
+    "field_diffs": 142,
+    "exact_diff_replay_matches_all34_whole_proposals": true,
+    "field_diff_replay_semantics": "Paths bind immutable base and proposed records; replay replacements/additions before tail removals, with same-list removals in descending index order.",
+    "all35_referrals_have_proposed_component_implementation": true,
+    "new_evidence_count": 1,
+    "prior_seals_hash_verified": true,
+    "source_hash_verified": true,
+    "all31_assignment_inputs_hash_verified": true,
+    "new_post_draft_full_page_reading_count": 0,
+    "post_draft_full_page_reread_count": 215,
+    "no_canonical_edits": true,
+    "semantic_completion_is_bounded_component_only": true,
+    "whole_book_approval": false
+  },
+  "authoritative_files": {
+    "subjects": "historical-subject-ledger.v1.jsonl",
+    "evidence": "historical-evidence-ledger.v1.jsonl",
+    "referrals": "correction-referrals.v1.json",
+    "whole_replacements": "proposed-records.v1.json",
+    "field_differences": "exact-field-diffs.v1.jsonl",
+    "source_reading": "source-reading-and-reuse.v1.json",
+    "attestation": "input-and-visibility-attestation.v1.json",
+    "later_proposed_context": "later-proposed-context.v1.json",
+    "validation": "validation.v1.json"
+  },
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/correction-referrals.v1.json",
+      "sha256": "fc5d5f2641c235ee8a12d34c961563aacfa5233d462c53089091b3b8ffa10c42",
+      "bytes": 58344
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/exact-field-diffs.v1.jsonl",
+      "sha256": "6842470b118c377e7316d62df3dde6edbf62ce5c1d218984ce15b19bd50e5d05",
+      "bytes": 97804
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/historical-evidence-ledger.v1.jsonl",
+      "sha256": "09cc05b79846f0e11b121c6cea887fb70d79de4f7d91abe4b173275d0c5d06a1",
+      "bytes": 2128273
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/historical-subject-ledger.v1.jsonl",
+      "sha256": "b903d2436bbc84a45bc68d3ff68010ec1e881f614b727e84c97eec67f4a85ce9",
+      "bytes": 819315
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/input-and-visibility-attestation.v1.json",
+      "sha256": "4e5b13b1d7eeddf2880c35d961a1ec69761e2be0cb25b5ae16a474cf9d66e86d",
+      "bytes": 13099
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/later-proposed-context.v1.json",
+      "sha256": "0e04c5abd588b4b75dc83360caa91984f87f235dcabfddcb0c80172b9688ce60",
+      "bytes": 1416
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/proposed-records.v1.json",
+      "sha256": "76d05516c5bdc7de0a446c4765b073edb01d47ca26365cd904a4eed46296a86c",
+      "bytes": 291117
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/source-reading-and-reuse.v1.json",
+      "sha256": "80245016a1f129429a7f2ec997219c108b12fc0b5e8c3fd4dafc351b30d95831",
+      "bytes": 92980
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-native-historical-subject-evidence/validation.v1.json",
+      "sha256": "2e3924c073f376ec08c9b3acaee99230ee726e0bb2625dc6d4fd217ae1128a22",
+      "bytes": 1093
+    }
+  ],
+  "remaining_integration_work": "Lead must compose these source-grounded exact proposals and resolve overlapping later component fields. Bounded original-key review is complete; integrated repaired-value fulfillment and whole-book assent are not inferred.",
+  "whole_book_approval": false,
+  "canonical_state_modified": false
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "independent-benchmark-integration-inputs-v1",
+  "status": "composed_snapshot_not_final_approval",
+  "base": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage6.v1.json",
+    "sha256": "ec761c1fc78568cda525116939e9010157ce45830a1f10c911f193689c0a61b9"
+  },
+  "ordered_proposal_inputs": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/native-original-subject-evidence-repairs.integration.v1.json",
+      "sha256": "1549241ea49a3400f6e89f3dd9dc09954ddb41e9ef55adde96f05e6427c29d65"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/source-first-composed-retention.chapters013-014.v1.json",
+      "sha256": "76933b3b35ff474d380b017da73210c424174dea67e1338a321a0ba410e7cb89"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/source-first-composed-retention.chapter015.v1.json",
+      "sha256": "768b97a4a5c64ac3c6b43a3c3a137132da3177f28cc9d75abf93515cecf8042a"
+    }
+  ],
+  "explicit_overlap_resolutions": [
+    {
+      "subject_id": "SUBJ-SUCC-C8BC4BB76AF8",
+      "native_component_record_sha256": "4f8dd69e82f85d437927285d6d4433c2718aead507ccacf219921f965ce62844",
+      "lead_component_record_sha256": "1951a967bea19b35cd17a1d22d92cfc0365c73c4a2f4a309c794daddfec51954",
+      "chosen_record_sha256": "d32ce0c67f20c9639cd87e1093c983347056455a49d69610d20421b8841d3365",
+      "retained_native_fields": [
+        "meaning",
+        "evidence",
+        "source_treatments meaning",
+        "required_access_facets meaning"
+      ],
+      "retained_lead_fields": [
+        "stance",
+        "acceptable_access",
+        "source_treatments stance/acceptable_access",
+        "required_access_facets stance/acceptable_access"
+      ],
+      "reason": "Both narrow collapse to Italian republics. Native text additionally retains the end-June Genoa endpoint; lead adds explicit Dutch/Swiss contrast and qualified access route."
+    }
+  ],
+  "output": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage7.v1.json",
+    "sha256": "7a1dddebead4dd25e305f0b9866c3e0b984d9109417eea607601abcefdd5f493"
+  },
+  "changed_subject_ids": [
+    "SUBJ-SUCC-7593EEA0BB95",
+    "SUBJ-SUCC-A7A6CD1D7787",
+    "SUBJ-SUCC-DEFD34B1AF1D",
+    "SUBJ-SUCC-2FF0879B4083",
+    "SUBJ-SUCC-3A7F282F3591",
+    "SUBJ-SUCC-41EBDED9E240",
+    "SUBJ-SUCC-987993A8C47A",
+    "SUBJ-SUCC-5F07AA578495",
+    "SUBJ-SUCC-85C459BB83CE",
+    "SUBJ-SUCC-7E820E02A6A2",
+    "SUBJ-SUCC-B6A0C6B7E4B4",
+    "SUBJ-SUCC-E1A9AD724C4E",
+    "SUBJ-SUCC-7F74654DA992",
+    "SUBJ-SUCC-BAE3182C598F",
+    "SUBJ-SUCC-51F0F6F76B36",
+    "SUBJ-SUCC-162FE9FCA811",
+    "SUBJ-SUCC-C7DF46AA6436",
+    "SUBJ-SUCC-65D590EBAFE2",
+    "SUBJ-SUCC-86D03B0C3585",
+    "SUBJ-SUCC-A314B3102640",
+    "SUBJ-SUCC-0B38A7EF0244",
+    "SUBJ-SUCC-3CA26E8D160A",
+    "SUBJ-SUCC-BE019F6D22CE",
+    "SUBJ-SUCC-2CAD9C10478B",
+    "SUBJ-SUCC-C8BC4BB76AF8",
+    "SUBJ-SUCC-7C338D256927",
+    "SUBJ-SUCC-F8A938B3B147",
+    "SUBJ-SUCC-F15AB2809FA2",
+    "SUBJ-SUCC-E57561515D9B",
+    "SUBJ-SUCC-84B2C8434BA6",
+    "SUBJ-SUCC-C9FC2D29F642",
+    "SUBJ-SUCC-BEBD3DEC1E8D",
+    "SUBJ-SUCC-625493A707D6",
+    "SUBJ-SUCC-6BBDB6F461D1",
+    "SUBJ-SUCC-FA919FE4CE14",
+    "SUBJ-SUCC-191FA6C1BCC9",
+    "SUBJ-SUCC-E4C3D945CE3F"
+  ],
+  "counts": {
+    "subjects": 531,
+    "relationships": 501,
+    "reader_tasks": 617,
+    "changed_subjects": 37
+  },
+  "whole_book_approval": false
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "exact-original-key-transfer-receipt-v1",
+  "status": "mechanical partition verified; component review pending; root authorization requested after native component seal",
+  "original_assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v2.json",
+    "sha256": "9f25e5365a3bdc062afc3bd02f469759ccbc6ed49f579a071042e238018d8dcd",
+    "bytes": 81021
+  },
+  "reservation": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/proposed-untouched-legacy-transfer.v1.json",
+    "sha256": "e6142f2540026dc83ecef2407564cc4c2524bbdd64624c6a3e6c554a8b49063d",
+    "bytes": 16430
+  },
+  "amended_assignments": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v3.json",
+      "sha256": "89c1fe79b3163f04614cac20b3d4f7bb87b6a0cf04a4c79221cd9746960a211f",
+      "bytes": 68866,
+      "counts": {
+        "subjects": 407,
+        "evidence_bindings": 962
+      }
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.legacy-tail-historical-subject-evidence.assignment.v1.json",
+      "sha256": "2ec2f73f8f8987b62d3ba6e1cb9c4618fcdbddf3ab00ce01025ea476104a3d36",
+      "bytes": 26359,
+      "counts": {
+        "whole_subject_keys": 100,
+        "parent_qualified_evidence_keys": 212,
+        "evidence_only_parent_keys": 0,
+        "evidence_only_bindings": 0
+      }
+    }
+  ],
+  "old_counts": {
+    "subjects": 507,
+    "evidence_bindings": 1174
+  },
+  "evidence_only_parent_groups_transferred": [],
+  "invariants": [
+    "No original subject split; every assigned evidence binding for each transferred subject follows it",
+    "Transferred keys are untouched per source reviewer exact reservation, not inferred from labels",
+    "Subject and evidence partitions disjoint and exhaustive",
+    "All completed or read-but-unrecorded 007 work stays with 007",
+    "Original assignment, native assignment and prior sealed outputs remain unchanged",
+    "Current entity ownership and final approval remain unchanged"
+  ],
+  "candidate_unseen": true
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "stage7-integration-verification-v1",
+  "recorded_at": "2026-09-17T03:24:43.972514+00:00",
+  "input_manifest": {
+    "path": "successor/independent-review/actual-draft/integration/integration-stage7.inputs.v1.json",
+    "sha256": "c7d76a783b030eb35a8517dd3daba2199b0c20fb2391e97f6b5237933997b0bf"
+  },
+  "output": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage7.v1.json",
+    "sha256": "7a1dddebead4dd25e305f0b9866c3e0b984d9109417eea607601abcefdd5f493"
+  },
+  "exact_ordered_composition_matches": true,
+  "native_referrals_verified": 35,
+  "native_subject_replacements": 33,
+  "native_field_diff_roundtrips": 139,
+  "native_explicit_overlap_paths_verified": 4,
+  "cross_component_merged_parent_verified": true,
+  "total_changed_subjects": 37,
+  "source_first_16_17_component": {
+    "path": "successor/independent-review/actual-draft/integration/source-first-composed-retention.chapters016-017.v1.json",
+    "sha256": "a2edfc0a2fe6eecf471b4ecaae5cfb61cba0aa216221365032fcdb35a0fb48b2"
+  },
+  "exact_source_first_16_17_findings": 47,
+  "stage6_source_first_parent_bindings": 112,
+  "editorial_approval": false,
+  "whole_book_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}
