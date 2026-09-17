@@ -2,6 +2,8 @@
 
 The user authorized migration and reevaluation of Published, IndexPDF, IndexerLabs and Indexia against the independently reviewed successor, with commits and relevant PR merges. The subsequent [V9 cutover decision](v9-methodology-cutover.md) adds a required execution gate: finish the source freeze under the current V8.2 framework, validate percentage-native V9 with equivalent outcomes, and only then bind the common study lock and run all four candidates under V9. This protocol records the study's substantive review procedure; the representation migration must preserve its judgment meanings, weights and denominators.
 
+Execution is additionally on hold while the user assesses a possible V10 standards extension before candidate runs. Source freeze and invariant V9 implementation may continue; no new semantic requirements have been adopted. The linked cutover record carries the current sequencing status.
+
 ## Inputs and preservation
 
 Each owner receives the same exact source release, original draft and independent review, source-only frozen state, page map, 17-chunk manifest, shared policy template, density evidence and study lock. The methodology installation and each candidate's previous canonical state are bound by exact hashes. The approval records the user's existing instruction and actual candidate visibility. It does not claim new candidate-blind discovery.

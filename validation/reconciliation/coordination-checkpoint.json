@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T01:53:35.789226+00:00",
+  "recorded_at": "2026-09-17T01:57:02.373182+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -83,7 +83,9 @@
       "candidate_execution_hold": true,
       "website_deployment_authorized": false,
       "decision_document": "docs/v9-methodology-cutover.md"
-    }
+    },
+    "v9_implementation_status": "isolated_invariant_runtime_testing_in_progress",
+    "v10_status": "assessment_only_no_semantic_implementation_authorized"
   },
   "preservation_checks": {
     "legacy_v3_release_validator": "passed",
@@ -111,7 +113,10 @@
     "audit_transfer_authorized": false,
     "candidate_execution_gate": "source_freeze_under_v8_2_then_validated_percentage_native_v9_cutover",
     "candidate_owners_v9_hold_delivered": 4,
-    "v9_cutover_complete": false
+    "v9_cutover_complete": false,
+    "methodology_selection_hold": "possible_v10_standards_extension_under_user_assessment_no_semantic_adoption",
+    "candidate_owners_v10_assessment_hold_delivered": 4,
+    "runtime_activation_and_actual_study_lock_on_hold": true
   },
   "limitations": [
     "Bounded comparison supports successor development; it is not whole-book approval.",

@@ -1,5 +1,7 @@
 # V9 cutover before the four-index reevaluation
 
+Current sequencing hold: the user is assessing whether to add a separate V10 standards and benchmark-access-profile extension before candidate evaluation. That assessment does not adopt new semantic requirements. Finish the unchanged V8.2 source freeze and the invariant V9 implementation and review, but hold runtime activation, actual study-lock selection and all four candidate migrations until the methodology choice is settled. Any V10 adoption must identify the exact additional requirements and their effects before implementation. The V9 decision below remains the authorized implementation baseline.
+
 The user has selected percentage-native V9 for the forthcoming common-benchmark evaluation. Finish the successor's independent source review and typed freeze under the current reviewed V8.2 framework. V9 implementation and testing may proceed separately during that review; installation, study binding and candidate execution wait for the validated cutover.
 
 The required sequence is:
@@ -35,4 +37,4 @@ If implementing V9 requires a substantive semantic change, stop that part and su
 
 The methodology owner and the existing V9 rubric task coordinate runtime, schemas, migration, formulas and public contracts. The prepared website comparison consumer must support the validated V9 outputs while retaining historical V8 behavior. Actual data import, browser verification and exact-version CI follow the four completed evaluations. Commits and relevant PR merges are authorized. Website deployment is not authorized.
 
-Status: V9 implementation dispatched; no V9 cutover, candidate migration, reevaluation or new comparable scores have been produced.
+Status: V9 implementation and regression testing are in progress. A possible V10 extension is under assessment only. No methodology cutover, candidate migration, reevaluation or new comparable scores have been produced.
