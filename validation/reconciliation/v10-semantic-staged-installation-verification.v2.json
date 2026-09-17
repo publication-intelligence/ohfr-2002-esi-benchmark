@@ -1,0 +1,32 @@
+{
+  "schema_version": "v10-staged-installation-coordinator-verification-v2",
+  "recorded_at": "2026-09-17T11:42:54.860066+00:00",
+  "result": "pass",
+  "staging_root": "/tmp/evaluate-subject-index-installation-staging/202b6cfd098eba751881482293e75b17d9add255",
+  "tested_revision": "202b6cfd098eba751881482293e75b17d9add255",
+  "merged_commit": "b07ddba7c6ad24f70d98319731ec3cabd1c6332d",
+  "runtime_payload_sha256": "91b8c3119d52669a1d35cdb58dc363f0f57b8263b837ac533f0893fb0e91b330",
+  "bindings": [
+    {
+      "path": "/tmp/evaluate-subject-index-installation-staging/202b6cfd098eba751881482293e75b17d9add255/evaluate-subject-index/installation-receipt.json",
+      "sha256": "4c8e987a08903aa5ded71fd79962725482f8f1e4885f7d7cca33eeb09818365a",
+      "bytes": 56151
+    },
+    {
+      "path": "/tmp/evaluate-subject-index-installation-staging/202b6cfd098eba751881482293e75b17d9add255/payload-manifest.json",
+      "sha256": "98e41c13e789c90302beec9f6648d296b89c58728971048d97f082463ead9a9b",
+      "bytes": 23467
+    },
+    {
+      "path": "/tmp/evaluate-subject-index-installation-staging/202b6cfd098eba751881482293e75b17d9add255/verify-payload.py",
+      "sha256": "82e9d5c2e07b7d3f5245da2608576e959e4a401f575904690c50e4dbea5705cc",
+      "bytes": 1337
+    }
+  ],
+  "exact_payload_git_blob_sha256_and_modes_verified": 203,
+  "unexpected_payload_files": false,
+  "active_installation_unchanged": true,
+  "active_installation_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "activation_performed": false,
+  "source_or_candidate_state_changed": false
+}

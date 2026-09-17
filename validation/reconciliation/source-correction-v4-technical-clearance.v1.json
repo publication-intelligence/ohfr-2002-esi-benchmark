@@ -1,0 +1,50 @@
+{
+  "schema_version": "source-correction-technical-clearance-v1",
+  "recorded_at": "2026-09-17T11:18:30.624295+00:00",
+  "result": "pass",
+  "manifest": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/manifest.v1.json",
+    "sha256": "73cc367404aee6e42bbf3e55d35e8c1b26564718fa0c9cf0c6749bd1a6adfffa",
+    "bytes": 42936
+  },
+  "final": {
+    "path": "successor/source/source-benchmark.v4.json",
+    "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+    "bytes": 6749669
+  },
+  "review": {
+    "path": "successor/independent-review/source-benchmark-review.v3.json",
+    "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+    "bytes": 473259
+  },
+  "independent_exact_byte_assent": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/exact-final-byte-assent.v1.json",
+    "sha256": "8846d2c2b9090156c68c3f16977db96f6691754bf8f83758c03313c1615f8466",
+    "bytes": 4451
+  },
+  "pre_freeze_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "verified_manifest_bindings": 185,
+  "native_c11_final_review_checks": "pass",
+  "native_c11_full_state_check": {
+    "command": "validate",
+    "ok": true,
+    "evaluation_id": "ohfr-2002-study-source-successor-v1",
+    "errors": [],
+    "warnings": []
+  },
+  "substantive_delta": {
+    "changed_subjects": 17,
+    "changed_evidence_rows": 16,
+    "changed_relationships": 5,
+    "added_uncertainties": 1,
+    "existing_content_leaf_replacements": 63,
+    "whole_fields_replaced": 62,
+    "stable_ids_and_candidate_access_population": "unchanged"
+  },
+  "root_supplies_editorial_assent": false,
+  "technical_clearance": "Normal preserved-c11 typed freeze may now register these exact independently approved final and review bytes on successor/evaluation-state.source-correction-v4.json only. Preserve every old source, review, state and release file. No runtime activation or candidate action is authorized by this receipt."
+}

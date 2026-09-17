@@ -1,0 +1,2887 @@
+{
+  "schema_version": "post-freeze-additive-historical-dispositions-v5",
+  "prior_dispositions": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v4.json",
+    "sha256": "43828f756082f2ab0eea8f3bcb5221f9d6af6ca42fcc257a4c04617772629f4a",
+    "bytes": 70884
+  },
+  "new_report": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/final-batch-source-findings.v1.json",
+    "sha256": "2be192ac620890e694bb9e3959fd2289d37d2eec2e551e5bfc55de94ebaabcd8",
+    "bytes": 675251
+  },
+  "new_historical_evidence_rows": [
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/41",
+      "row_sha256": "7b791132f17beff03f53d1d72f015860c567fddd44b42b77fadee82ebd942ddc",
+      "before_lineage_row": {
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-B7AF48A78D17",
+        "old_evidence_id": "EVID-896C07599FEC",
+        "before": {
+          "evidence_id": "EVID-896C07599FEC",
+          "source_evidence_id": "EVID-9BE1211D977D",
+          "document_page": 99,
+          "source_page_label": "99",
+          "locator_class": "supporting",
+          "evidence_summary": "He is elected among the small surviving group of celebrated robe magistrates.",
+          "provenance": {
+            "chunk_id": "CHUNK-004",
+            "local_subject_id": "CHUNK-004-S094",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-004.json",
+            "source_artifact_sha256": "d2531c6345809ae452eb4ce3963003ddc546417687b71648e6c477c46ee18ba3"
+          }
+        },
+        "disposition": "same_claim_and_treatment_retained",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+            "evidence_id": "EVID-SUCC-8997CECFCFFD",
+            "fields": {
+              "document_page": 99,
+              "source_page_label": "99",
+              "locator_class": "supporting",
+              "evidence_summary": "He is elected among the small surviving group of celebrated robe magistrates.",
+              "evidence_id": "EVID-SUCC-8997CECFCFFD",
+              "source_local_subject_id": "SUCC-C004-S010",
+              "source_chunk_id": "CHUNK-004"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+          "evidence_id": "EVID-SUCC-8997CECFCFFD"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/640",
+      "row_sha256": "86b4649bf03e9d25e69f013d8beea2c4d2a66523677144cf799ab55917edb8b1",
+      "before_lineage_row": {
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-1865834725F2",
+        "old_evidence_id": "EVID-B40D954BF94F",
+        "before": {
+          "evidence_id": "EVID-B40D954BF94F",
+          "source_evidence_id": "EVID-CHUNK-006-0157",
+          "document_page": 141,
+          "source_page_label": "141",
+          "locator_class": "principal",
+          "evidence_summary": "Inventories and sales proceeded nationwide while religious houses were being closed.",
+          "provenance": {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-057",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-006.json",
+            "source_artifact_sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6"
+          }
+        },
+        "disposition": "same_claim_and_treatment_retained",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-F066F35B29BE",
+            "evidence_id": "EVID-SUCC-5B185A8A66B9",
+            "fields": {
+              "document_page": 141,
+              "source_page_label": "141",
+              "locator_class": "principal",
+              "evidence_summary": "Inventories and sales proceeded nationwide while religious houses were being closed.",
+              "evidence_id": "EVID-SUCC-5B185A8A66B9",
+              "source_local_subject_id": "SUCC-C006-S007",
+              "source_chunk_id": "CHUNK-006"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-F066F35B29BE",
+          "evidence_id": "EVID-SUCC-5B185A8A66B9"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/1432",
+      "row_sha256": "7d166f49544aca9199fdcf32c44cad84758bc577e0777378c3233994f6439611",
+      "before_lineage_row": {
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-7429CB8E3D0C",
+        "old_evidence_id": "EVID-69F18C61B56C",
+        "before": {
+          "evidence_id": "EVID-69F18C61B56C",
+          "source_evidence_id": "CH11-EV-130",
+          "document_page": 249,
+          "source_page_label": "249",
+          "locator_class": "principal",
+          "evidence_summary": "His newspaper became Paris's dominant popular paper and helped transfer enragé demands into a new radical leadership.",
+          "provenance": {
+            "chunk_id": "CHUNK-011",
+            "local_subject_id": "CH11-SUBJ-057",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+            "source_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9"
+          }
+        },
+        "disposition": "same_claim_and_treatment_retained",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+            "evidence_id": "EVID-SUCC-952896DEE8C8",
+            "fields": {
+              "document_page": 249,
+              "source_page_label": "249",
+              "locator_class": "principal",
+              "evidence_summary": "His newspaper became Paris's dominant popular paper and helped transfer enragé demands into a new radical leadership.",
+              "evidence_id": "EVID-SUCC-952896DEE8C8",
+              "source_local_subject_id": "SUCC-C011-S024",
+              "source_chunk_id": "CHUNK-011"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-952896DEE8C8"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/1433",
+      "row_sha256": "33b32fc7d88370837ccda059043d2ec72ab1204f775c96fc14a950b24de4bfd5",
+      "before_lineage_row": {
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-7429CB8E3D0C",
+        "old_evidence_id": "EVID-160A2FF1E4F6",
+        "before": {
+          "evidence_id": "EVID-160A2FF1E4F6",
+          "source_evidence_id": "CH11-EV-131",
+          "document_page": 250,
+          "source_page_label": "250",
+          "locator_class": "principal",
+          "evidence_summary": "He used economic hardship and resentment of moderation to press the Jacobins toward renewed popular action.",
+          "provenance": {
+            "chunk_id": "CHUNK-011",
+            "local_subject_id": "CH11-SUBJ-057",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+            "source_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9"
+          }
+        },
+        "disposition": "reexpressed_or_corrected_in_source_review",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+            "evidence_id": "EVID-SUCC-A6A3834D6447",
+            "fields": {
+              "document_page": 250,
+              "source_page_label": "250",
+              "locator_class": "principal",
+              "evidence_summary": "Hébert used Père Duchesne and the Cordeliers to demand price enforcement, Revolutionary Armies, mass mobilization, and terror.",
+              "evidence_id": "EVID-SUCC-A6A3834D6447",
+              "source_local_subject_id": "SUCC-C011-S024",
+              "source_chunk_id": "CHUNK-011"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-A6A3834D6447"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/2309",
+      "row_sha256": "91fac55fd92de772eeb51d08559d000929e80f7e0cfa9714c1410152425c52ec",
+      "before_lineage_row": {
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-9216E0E5FA9D",
+        "old_evidence_id": "EVID-6580B24B79D4",
+        "before": {
+          "evidence_id": "EVID-6580B24B79D4",
+          "source_evidence_id": "EVID-4B200746F0D1",
+          "document_page": 126,
+          "source_page_label": "126",
+          "locator_class": "principal",
+          "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+          "provenance": {
+            "chunk_id": "CHUNK-005",
+            "local_subject_id": "C005-S091",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+            "source_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0"
+          }
+        },
+        "disposition": "same_claim_and_treatment_retained",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-8C547916DFE5",
+            "evidence_id": "EVID-SUCC-267D572896F9",
+            "fields": {
+              "document_page": 126,
+              "source_page_label": "126",
+              "locator_class": "principal",
+              "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+              "evidence_id": "EVID-SUCC-267D572896F9",
+              "source_local_subject_id": "SUCC-C005-S016",
+              "source_chunk_id": "CHUNK-005"
+            }
+          },
+          {
+            "subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+            "evidence_id": "EVID-SUCC-7990A9A62DE8",
+            "fields": {
+              "document_page": 126,
+              "source_page_label": "126",
+              "locator_class": "principal",
+              "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+              "evidence_id": "EVID-SUCC-7990A9A62DE8",
+              "source_local_subject_id": "SUCC-C005-S018",
+              "source_chunk_id": "CHUNK-005"
+            }
+          },
+          {
+            "subject_id": "SUBJ-SUCC-2056A5304D29",
+            "evidence_id": "EVID-SUCC-DB484338FD70",
+            "fields": {
+              "document_page": 126,
+              "source_page_label": "126",
+              "locator_class": "principal",
+              "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+              "evidence_id": "EVID-SUCC-DB484338FD70",
+              "source_local_subject_id": "SUCC-C005-S022",
+              "source_chunk_id": "CHUNK-005"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-8C547916DFE5",
+          "evidence_id": "EVID-SUCC-267D572896F9"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-6A5ADB894FAD",
+          "evidence_id": "EVID-SUCC-7990A9A62DE8"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/2587",
+      "row_sha256": "9a548e959709b4c653d33f3b82f6ed2a21f84817311122e100bf2dd32a880475",
+      "before_lineage_row": {
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-34EABFD13241",
+        "old_evidence_id": "EVID-C8E8EC80455A",
+        "before": {
+          "evidence_id": "EVID-C8E8EC80455A",
+          "source_evidence_id": "CH11-EV-039",
+          "document_page": 263,
+          "source_page_label": "263",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Centralizing legislation abolished unofficial local forces and retained only a single closely supervised army.",
+          "provenance": {
+            "chunk_id": "CHUNK-011",
+            "local_subject_id": "CH11-SUBJ-015",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+            "source_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9"
+          }
+        },
+        "disposition": "same_claim_and_treatment_retained",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+            "evidence_id": "EVID-SUCC-74C214138AAD",
+            "fields": {
+              "document_page": 263,
+              "source_page_label": "263",
+              "locator_class": "synthesis_or_conclusion",
+              "evidence_summary": "Centralizing legislation abolished unofficial local forces and retained only a single closely supervised army.",
+              "evidence_id": "EVID-SUCC-74C214138AAD",
+              "source_local_subject_id": "SUCC-C011-S012",
+              "source_chunk_id": "CHUNK-011"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+          "evidence_id": "EVID-SUCC-74C214138AAD"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/4191",
+      "row_sha256": "e1780ec35fab42ed6981d241431dcd8c605e4b13dbac0e8c9779d146552b1ccc",
+      "before_lineage_row": {
+        "lineage": "native",
+        "old_subject_id": "SUBJ-0382",
+        "old_evidence_id": "EVID-0382-003",
+        "before": {
+          "document_page": 264,
+          "source_page_label": "264",
+          "locator_class": "supporting",
+          "evidence_summary": "The Law of 14 Frimaire reduced the armies to a centrally supervised force and began winding up local units.",
+          "source_chunk_id": "CHUNK-011",
+          "source_local_subject_id": "CHUNK-011-S012",
+          "evidence_id": "EVID-0382-003"
+        },
+        "disposition": "same_claim_and_treatment_retained",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+            "evidence_id": "EVID-SUCC-344E67A5005A",
+            "fields": {
+              "document_page": 264,
+              "source_page_label": "264",
+              "locator_class": "supporting",
+              "evidence_summary": "The Law of 14 Frimaire reduced the armies to a centrally supervised force and began winding up local units.",
+              "evidence_id": "EVID-SUCC-344E67A5005A",
+              "source_local_subject_id": "SUCC-C011-S012",
+              "source_chunk_id": "CHUNK-011"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+          "evidence_id": "EVID-SUCC-344E67A5005A"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/evidence.json",
+        "sha256": "54d53cdd79d5cb2d6e3ee52d521e27293812ec5271e1a62b714d26ad6319da99",
+        "bytes": 9591256
+      },
+      "pointer": "/rows/4227",
+      "row_sha256": "82f35c01fdf1791be8faae3c95d6363f67e2d9851a395777abe40f23687240da",
+      "before_lineage_row": {
+        "lineage": "native",
+        "old_subject_id": "SUBJ-0394",
+        "old_evidence_id": "EVID-0394-001",
+        "before": {
+          "document_page": 250,
+          "source_page_label": "250",
+          "locator_class": "principal",
+          "evidence_summary": "Hébert used Père Duchesne and the Cordeliers to demand price enforcement, Revolutionary Armies, mass mobilization, and terror.",
+          "source_chunk_id": "CHUNK-011",
+          "source_local_subject_id": "CHUNK-011-S024",
+          "evidence_id": "EVID-0394-001"
+        },
+        "disposition": "same_claim_and_treatment_retained",
+        "new_evidence_records": [
+          {
+            "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+            "evidence_id": "EVID-SUCC-A6A3834D6447",
+            "fields": {
+              "document_page": 250,
+              "source_page_label": "250",
+              "locator_class": "principal",
+              "evidence_summary": "Hébert used Père Duchesne and the Cordeliers to demand price enforcement, Revolutionary Armies, mass mobilization, and terror.",
+              "evidence_id": "EVID-SUCC-A6A3834D6447",
+              "source_local_subject_id": "SUCC-C011-S024",
+              "source_chunk_id": "CHUNK-011"
+            }
+          }
+        ],
+        "successor_exclusion_ids": [],
+        "explicit_rerouting": [],
+        "rationale": "The revised source requirement uses the explicitly authored claim and treatment shown here. Same-page records are trace pointers,not an automatic assertion that their wording or causal scope is equivalent; the owned semantic review and final-field inspection supply the editorial basis.",
+        "review_status": "source_claim_and_treatment_reviewed; independent_review_pending"
+      },
+      "affected_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+          "evidence_id": "EVID-SUCC-A6A3834D6447"
+        }
+      ],
+      "additive_disposition": "Preserve the historical requirement at its corrected current page-specific predicate or declared split below; original mappings are provenance, not an override of this source repair."
+    }
+  ],
+  "new_historical_relationship_rows": [
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/211",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-25E8C92F6AC1",
+        "before": {
+          "relationship_id": "REL-25E8C92F6AC1",
+          "source_subject_id": "SUBJ-DA96B0CFF40C",
+          "type": "related_to",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "fractures_after"
+          ],
+          "descriptions": [
+            "Varennes and the king’s reinstatement split the network’s political purposes."
+          ],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-006",
+              "local_subject_id": "CHUNK-006-SUBJ-019",
+              "local_relationship_index": 3
+            }
+          ],
+          "target_subject_id": "SUBJ-F1AFC8BFD346"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-F20FE071F595"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-6216510D2EE3",
+          "SUBJ-SUCC-ABA54E187E4B"
+        ],
+        "source_pages": [
+          152,
+          153
+        ],
+        "rationale": "The old fractures_after link between “Jacobin clubs: growth, affiliation, and political functions” and “Flight to Varennes” is replaced by the scoped mobilizes_vigilance_within claim, which reverses the old endpoint order to recover the source dependency. The flight activates the Jacobin network’s emergency vigilance and defense of the Revolution; subsequent club division is a different consequence.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-25E8C92F6AC1",
+          "owner_chunk": "CHUNK-006",
+          "old_final_record": {
+            "relationship_id": "REL-25E8C92F6AC1",
+            "source_subject_id": "SUBJ-DA96B0CFF40C",
+            "type": "related_to",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "fractures_after"
+            ],
+            "descriptions": [
+              "Varennes and the king’s reinstatement split the network’s political purposes."
+            ],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-006",
+                "local_subject_id": "CHUNK-006-SUBJ-019",
+                "local_relationship_index": 3
+              }
+            ],
+            "target_subject_id": "SUBJ-F1AFC8BFD346"
+          },
+          "old_source_subject_id": "SUBJ-DA96B0CFF40C",
+          "old_target_subject_id": "SUBJ-F1AFC8BFD346",
+          "old_source_label": "Jacobin clubs: growth, affiliation, and political functions",
+          "old_target_label": "Flight to Varennes",
+          "old_source_meaning": "The Paris Society of the Friends of the Constitution and its provincial affiliates formed a rapidly expanding national political network that debated policy, sustained enthusiasm, pressured authorities, and circulated patriotic information.",
+          "old_target_meaning": "Whole-book synthesis: Louis XVI and his family attempted to leave Paris for the eastern frontier under arrangements made through Fersen and Bouillé, but delays, public suspicion, and recognition led to their arrest at Varennes. The failed royal flight revealed Louis XVI’s repudiation of the Revolution, encouraged republicanism and officer emigration, and pushed European courts and émigrés toward military intervention.",
+          "source_pages": [
+            152,
+            153
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-97B1A8F0A551",
+            "EVID-EA7CD33AE6C2",
+            "EVID-082D2B5453BF",
+            "EVID-6E30D4719628"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-ABA54E187E4B"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-6216510D2EE3"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-EE04323F2D26"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-6216510D2EE3",
+            "SUBJ-SUCC-ABA54E187E4B"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "The old fractures_after link between “Jacobin clubs: growth, affiliation, and political functions” and “Flight to Varennes” is replaced by the scoped mobilizes_vigilance_within claim, which reverses the old endpoint order to recover the source dependency. The flight activates the Jacobin network’s emergency vigilance and defense of the Revolution; subsequent club division is a different consequence.",
+          "successor_local_bindings": {
+            "SUBJ-SUCC-6216510D2EE3": [
+              "SUCC-C006-S005",
+              "SUCC-C007-S032",
+              "SUCC-C013-S013"
+            ],
+            "SUBJ-SUCC-ABA54E187E4B": [
+              "SUCC-C006-S011"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-6216510D2EE3": [
+              {
+                "evidence_id": "EVID-SUCC-4948D5F5E6B0",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              },
+              {
+                "evidence_id": "EVID-SUCC-E8E163BA5286",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              },
+              {
+                "evidence_id": "EVID-SUCC-809C79A79E6D",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              }
+            ],
+            "SUBJ-SUCC-ABA54E187E4B": [
+              {
+                "evidence_id": "EVID-SUCC-21DD1479B6B0",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-B029F558AA74",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-462FCE542B18",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-D25251B09BCC",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-D0BD671B81A7",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              }
+            ]
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      },
+      "row_sha256": "0fe2b67fa969462f566c1672637e61fd0fb892e1d684fb58f79f675d3a44829e"
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/760",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-8AB804FCA123",
+        "before": {
+          "relationship_id": "REL-8AB804FCA123",
+          "source_subject_id": "SUBJ-BC854EC092B5",
+          "type": "caused_by",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "caused_by"
+          ],
+          "descriptions": [
+            "The failed flight generated the emergency."
+          ],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-006",
+              "local_subject_id": "CHUNK-006-SUBJ-045",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-F1AFC8BFD346"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-F20FE071F595"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-6216510D2EE3",
+          "SUBJ-SUCC-ABA54E187E4B"
+        ],
+        "source_pages": [
+          152,
+          153
+        ],
+        "rationale": "The old caused_by link between “Varennes emergency, vigilance, and the Jacobin network” and “Flight to Varennes” is replaced by the scoped mobilizes_vigilance_within claim, which reverses the old endpoint order to recover the source dependency. The flight activates the Jacobin network’s emergency vigilance and defense of the Revolution; subsequent club division is a different consequence.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-8AB804FCA123",
+          "owner_chunk": "CHUNK-006",
+          "old_final_record": {
+            "relationship_id": "REL-8AB804FCA123",
+            "source_subject_id": "SUBJ-BC854EC092B5",
+            "type": "caused_by",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "caused_by"
+            ],
+            "descriptions": [
+              "The failed flight generated the emergency."
+            ],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-006",
+                "local_subject_id": "CHUNK-006-SUBJ-045",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-F1AFC8BFD346"
+          },
+          "old_source_subject_id": "SUBJ-BC854EC092B5",
+          "old_target_subject_id": "SUBJ-F1AFC8BFD346",
+          "old_source_label": "Varennes emergency, vigilance, and the Jacobin network",
+          "old_target_label": "Flight to Varennes",
+          "old_source_meaning": "The royal flight produced nationwide expectations of Austrian intervention, Guard mobilization, vigilance committees, attacks on refractories, and intense political-club participation.",
+          "old_target_meaning": "Whole-book synthesis: Louis XVI and his family attempted to leave Paris for the eastern frontier under arrangements made through Fersen and Bouillé, but delays, public suspicion, and recognition led to their arrest at Varennes. The failed royal flight revealed Louis XVI’s repudiation of the Revolution, encouraged republicanism and officer emigration, and pushed European courts and émigrés toward military intervention.",
+          "source_pages": [
+            152,
+            153
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-5C294F90BC38",
+            "EVID-98F02EFB0CE3",
+            "EVID-ED1C928F16B5"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-ABA54E187E4B",
+            "SUBJ-SUCC-04E7153E268C"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-6216510D2EE3"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-EE04323F2D26"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-6216510D2EE3",
+            "SUBJ-SUCC-ABA54E187E4B"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "The old caused_by link between “Varennes emergency, vigilance, and the Jacobin network” and “Flight to Varennes” is replaced by the scoped mobilizes_vigilance_within claim, which reverses the old endpoint order to recover the source dependency. The flight activates the Jacobin network’s emergency vigilance and defense of the Revolution; subsequent club division is a different consequence.",
+          "successor_local_bindings": {
+            "SUBJ-SUCC-6216510D2EE3": [
+              "SUCC-C006-S005",
+              "SUCC-C007-S032",
+              "SUCC-C013-S013"
+            ],
+            "SUBJ-SUCC-ABA54E187E4B": [
+              "SUCC-C006-S011"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-6216510D2EE3": [
+              {
+                "evidence_id": "EVID-SUCC-4948D5F5E6B0",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              },
+              {
+                "evidence_id": "EVID-SUCC-E8E163BA5286",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              },
+              {
+                "evidence_id": "EVID-SUCC-809C79A79E6D",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              }
+            ],
+            "SUBJ-SUCC-ABA54E187E4B": [
+              {
+                "evidence_id": "EVID-SUCC-21DD1479B6B0",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-B029F558AA74",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-462FCE542B18",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-D25251B09BCC",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-D0BD671B81A7",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              }
+            ]
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      },
+      "row_sha256": "a12adfc84539acab5701ed29f20ddeadf048321775499ad1ffd5dd6a621b9ed7"
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/995",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-B494EAEB3D27",
+        "before": {
+          "relationship_id": "REL-B494EAEB3D27",
+          "source_subject_id": "SUBJ-BC854EC092B5",
+          "type": "causes",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "leads_to"
+          ],
+          "descriptions": [
+            "Cordeliers and Social Circle activists organized a republican petition."
+          ],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-006",
+              "local_subject_id": "CHUNK-006-SUBJ-045",
+              "local_relationship_index": 3
+            }
+          ],
+          "target_subject_id": "SUBJ-4A820DFF1196"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-F20FE071F595",
+          "REL-SUCC-4365ACE17CB8"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-6216510D2EE3",
+          "SUBJ-SUCC-ABA54E187E4B",
+          "SUBJ-SUCC-533DDAFD9F99"
+        ],
+        "source_pages": [
+          152,
+          153
+        ],
+        "rationale": "Varennes emergency mobilizes clubs and republican petitioning, but Jacobin vigilance does not by itself cause Cordeliers organization. Preserve the two qualified consequences of the flight.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-B494EAEB3D27",
+          "owner_chunk": "CHUNK-006",
+          "old_final_record": {
+            "relationship_id": "REL-B494EAEB3D27",
+            "source_subject_id": "SUBJ-BC854EC092B5",
+            "type": "causes",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "leads_to"
+            ],
+            "descriptions": [
+              "Cordeliers and Social Circle activists organized a republican petition."
+            ],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-006",
+                "local_subject_id": "CHUNK-006-SUBJ-045",
+                "local_relationship_index": 3
+              }
+            ],
+            "target_subject_id": "SUBJ-4A820DFF1196"
+          },
+          "old_source_subject_id": "SUBJ-BC854EC092B5",
+          "old_target_subject_id": "SUBJ-4A820DFF1196",
+          "old_source_label": "Varennes emergency, vigilance, and the Jacobin network",
+          "old_target_label": "Republican movement, Cordeliers, and Social Circle petition",
+          "old_source_meaning": "The royal flight produced nationwide expectations of Austrian intervention, Guard mobilization, vigilance committees, attacks on refractories, and intense political-club participation.",
+          "old_target_meaning": "Varennes brought republicanism into open politics as the Cordeliers and Social Circle demanded deposition or national consultation and drafted a petition treating the crown as vacant.",
+          "source_pages": [
+            152,
+            153
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-5C294F90BC38",
+            "EVID-98F02EFB0CE3",
+            "EVID-ED1C928F16B5"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-ABA54E187E4B",
+            "SUBJ-SUCC-04E7153E268C"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-533DDAFD9F99"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-EE04323F2D26",
+            "REL-PROP-C001006-69E4670A4564"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-6216510D2EE3",
+            "SUBJ-SUCC-ABA54E187E4B",
+            "SUBJ-SUCC-533DDAFD9F99"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "Varennes emergency mobilizes clubs and republican petitioning, but Jacobin vigilance does not by itself cause Cordeliers organization. Preserve the two qualified consequences of the flight.",
+          "retained_source_facet": "The royal flight produced nationwide expectations of Austrian intervention, Guard mobilization, vigilance committees, attacks on refractories, and intense political-club participation.",
+          "retained_target_facet": "Varennes brought republicanism into open politics as the Cordeliers and Social Circle demanded deposition or national consultation and drafted a petition treating the crown as vacant.",
+          "original_specific_relation_description": [
+            "Cordeliers and Social Circle activists organized a republican petition."
+          ],
+          "successor_local_bindings": {
+            "SUBJ-SUCC-6216510D2EE3": [
+              "SUCC-C006-S005",
+              "SUCC-C007-S032",
+              "SUCC-C013-S013"
+            ],
+            "SUBJ-SUCC-ABA54E187E4B": [
+              "SUCC-C006-S011"
+            ],
+            "SUBJ-SUCC-533DDAFD9F99": [
+              "SUCC-C006-S025"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-6216510D2EE3": [
+              {
+                "evidence_id": "EVID-SUCC-4948D5F5E6B0",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              },
+              {
+                "evidence_id": "EVID-SUCC-E8E163BA5286",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              },
+              {
+                "evidence_id": "EVID-SUCC-809C79A79E6D",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S005"
+              }
+            ],
+            "SUBJ-SUCC-ABA54E187E4B": [
+              {
+                "evidence_id": "EVID-SUCC-21DD1479B6B0",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-B029F558AA74",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-462FCE542B18",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-D25251B09BCC",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              },
+              {
+                "evidence_id": "EVID-SUCC-D0BD671B81A7",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S011"
+              }
+            ],
+            "SUBJ-SUCC-533DDAFD9F99": [
+              {
+                "evidence_id": "EVID-SUCC-482BDEEB4D23",
+                "document_page": 152,
+                "source_local_subject_id": "SUCC-C006-S025"
+              },
+              {
+                "evidence_id": "EVID-SUCC-4466B2F20FCF",
+                "document_page": 153,
+                "source_local_subject_id": "SUCC-C006-S025"
+              }
+            ]
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      },
+      "row_sha256": "b93a00d70120e5ae705db144615ea2529fd254fa3bfe58b9dc3bb2761babecbe"
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/353",
+      "row_sha256": "acb0bf0868ae6efe0ad163837e3b93970820ce9e9c94db1c5120e653a582ec06",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-3E68B0889B9E",
+        "before": {
+          "relationship_id": "REL-3E68B0889B9E",
+          "source_subject_id": "SUBJ-A2641D6D46FA",
+          "type": "causes",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "cause"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-004",
+              "local_subject_id": "CHUNK-004-S025",
+              "local_relationship_index": 2
+            }
+          ],
+          "target_subject_id": "SUBJ-A6A70A870C7B"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-E1D4C447CDC2"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-1AA4E445D945",
+          "SUBJ-SUCC-625C5AF207F1"
+        ],
+        "source_pages": [
+          92,
+          101,
+          102,
+          103
+        ],
+        "rationale": "The Result doubles representation but leaves voting and verification unresolved. Use that precise omission rather than generic cause.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-3E68B0889B9E",
+          "owner_chunk": "CHUNK-004",
+          "old_final_record": {
+            "relationship_id": "REL-3E68B0889B9E",
+            "source_subject_id": "SUBJ-A2641D6D46FA",
+            "type": "causes",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "cause"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-004",
+                "local_subject_id": "CHUNK-004-S025",
+                "local_relationship_index": 2
+              }
+            ],
+            "target_subject_id": "SUBJ-A6A70A870C7B"
+          },
+          "old_source_subject_id": "SUBJ-A2641D6D46FA",
+          "old_target_subject_id": "SUBJ-A6A70A870C7B",
+          "old_source_label": "Result of the King's Council of State, 27 December 1788",
+          "old_target_label": "Verification of powers",
+          "old_source_meaning": "The royal decision doubled third-estate representation and opened cross-order election while refusing to impose vote by head.",
+          "old_target_meaning": "Validation of deputies' credentials became the procedural mechanism for choosing between three constituted orders and one national body.",
+          "source_pages": [
+            92,
+            101,
+            102,
+            103
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-F1F2633F0142",
+            "EVID-98E0B40C7EAF",
+            "EVID-7C8206AFA530"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-1AA4E445D945"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-625C5AF207F1"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-D05125C767F6"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-1AA4E445D945",
+            "SUBJ-SUCC-625C5AF207F1"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "The Result doubles representation but leaves voting and verification unresolved. Use that precise omission rather than generic cause.",
+          "successor_local_bindings": {
+            "SUBJ-SUCC-1AA4E445D945": [
+              "SUCC-C004-S013"
+            ],
+            "SUBJ-SUCC-625C5AF207F1": [
+              "SUCC-C004-S030"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-1AA4E445D945": [],
+            "SUBJ-SUCC-625C5AF207F1": [
+              {
+                "evidence_id": "EVID-SUCC-89657EDF9AC2",
+                "document_page": 102,
+                "source_local_subject_id": "SUCC-C004-S030"
+              },
+              {
+                "evidence_id": "EVID-SUCC-64B1622CFDCD",
+                "document_page": 102,
+                "source_local_subject_id": "SUCC-C004-S030"
+              },
+              {
+                "evidence_id": "EVID-SUCC-4F3B77D2B319",
+                "document_page": 102,
+                "source_local_subject_id": "SUCC-C004-S030"
+              },
+              {
+                "evidence_id": "EVID-SUCC-E3239198AD98",
+                "document_page": 102,
+                "source_local_subject_id": "SUCC-C004-S030"
+              },
+              {
+                "evidence_id": "EVID-SUCC-A0CE75080AA2",
+                "document_page": 103,
+                "source_local_subject_id": "SUCC-C004-S030"
+              },
+              {
+                "evidence_id": "EVID-SUCC-D73D7BA1E247",
+                "document_page": 103,
+                "source_local_subject_id": "SUCC-C004-S030"
+              },
+              {
+                "evidence_id": "EVID-SUCC-1C0E3145582B",
+                "document_page": 103,
+                "source_local_subject_id": "SUCC-C004-S030"
+              },
+              {
+                "evidence_id": "EVID-SUCC-3437F3FF7F98",
+                "document_page": 102,
+                "source_local_subject_id": "SUCC-C004-S030"
+              }
+            ]
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      },
+      "additive_disposition": "Preserve the original contrast or unresolved-procedure requirement; replace the current relationship’s adjacent92 premise with explicit93. No endpoint/type/requirement is retired."
+    },
+    {
+      "file": {
+        "path": "successor/synthesis/lineage/relationships.json",
+        "sha256": "2b730bf471365b99b611942aed0e36b31be7d8a42d969e8ac37cbccbd145ff5e",
+        "bytes": 14812114
+      },
+      "pointer": "/rows/417",
+      "row_sha256": "2c753d5bf5acc0452816db6dae02863d899f51d563f9bedc758c9fb40525fce8",
+      "row": {
+        "lineage": "legacy",
+        "old_relationship_id": "REL-492A8A01B75C",
+        "before": {
+          "relationship_id": "REL-492A8A01B75C",
+          "source_subject_id": "SUBJ-2DD8B10A5910",
+          "type": "contrasts_with",
+          "resolution_status": "resolved",
+          "source_relationship_types": [
+            "contrast"
+          ],
+          "descriptions": [],
+          "provenance": [
+            {
+              "chunk_id": "CHUNK-004",
+              "local_subject_id": "CHUNK-004-S023",
+              "local_relationship_index": 1
+            }
+          ],
+          "target_subject_id": "SUBJ-A2641D6D46FA"
+        },
+        "disposition": "superseded_by_proposed_necessary_edge",
+        "successor_relationship_ids": [
+          "REL-SUCC-99785B6A720B"
+        ],
+        "successor_subject_ids": [
+          "SUBJ-SUCC-3FC7F858D56D",
+          "SUBJ-SUCC-1AA4E445D945"
+        ],
+        "source_pages": [
+          91,
+          92
+        ],
+        "rationale": "The old contrast link between “Second Assembly of Notables” and “Result of the King's Council of State, 27 December 1788” is replaced by the scoped contrasts_with claim, which uses the selected facets of the mapped endpoints. The second Notables oppose doubling; the royal Result grants doubled third-estate representation while leaving voting procedure unresolved.",
+        "specific_author_record": {
+          "lineage": "legacy",
+          "old_relationship_id": "REL-492A8A01B75C",
+          "owner_chunk": "CHUNK-004",
+          "old_final_record": {
+            "relationship_id": "REL-492A8A01B75C",
+            "source_subject_id": "SUBJ-2DD8B10A5910",
+            "type": "contrasts_with",
+            "resolution_status": "resolved",
+            "source_relationship_types": [
+              "contrast"
+            ],
+            "descriptions": [],
+            "provenance": [
+              {
+                "chunk_id": "CHUNK-004",
+                "local_subject_id": "CHUNK-004-S023",
+                "local_relationship_index": 1
+              }
+            ],
+            "target_subject_id": "SUBJ-A2641D6D46FA"
+          },
+          "old_source_subject_id": "SUBJ-2DD8B10A5910",
+          "old_target_subject_id": "SUBJ-A2641D6D46FA",
+          "old_source_label": "Second Assembly of Notables",
+          "old_target_label": "Result of the King's Council of State, 27 December 1788",
+          "old_source_meaning": "The reconvened, overwhelmingly noble body rejected doubling and declined to endorse vote by head.",
+          "old_target_meaning": "The royal decision doubled third-estate representation and opened cross-order election while refusing to impose vote by head.",
+          "source_pages": [
+            91,
+            92
+          ],
+          "frozen_source_evidence_ids": [
+            "EVID-49EA8C8FB167",
+            "EVID-39D0377DA904",
+            "EVID-0EEE5BAF7EFD"
+          ],
+          "review_basis": "Exact frozen edge, source clue direction, both final endpoint scopes and integrated successor meanings inspected; earlier complete owned-page source review reused.",
+          "mapped_successor_source_candidates": [
+            "SUBJ-SUCC-3FC7F858D56D"
+          ],
+          "mapped_successor_target_candidates": [
+            "SUBJ-SUCC-1AA4E445D945"
+          ],
+          "replacement_relationship_ids": [
+            "REL-PROP-C001006-4242E78DA566"
+          ],
+          "selected_successor_subject_ids": [
+            "SUBJ-SUCC-3FC7F858D56D",
+            "SUBJ-SUCC-1AA4E445D945"
+          ],
+          "disposition": "superseded_by_proposed_necessary_edge",
+          "rationale": "The old contrast link between “Second Assembly of Notables” and “Result of the King's Council of State, 27 December 1788” is replaced by the scoped contrasts_with claim, which uses the selected facets of the mapped endpoints. The second Notables oppose doubling; the royal Result grants doubled third-estate representation while leaving voting procedure unresolved.",
+          "successor_local_bindings": {
+            "SUBJ-SUCC-3FC7F858D56D": [
+              "SUCC-C004-S012"
+            ],
+            "SUBJ-SUCC-1AA4E445D945": [
+              "SUCC-C004-S013"
+            ]
+          },
+          "projection_guard": "Only listed replacement claims are proposed. Mapped candidate arrays are provenance; they do not authorize a Cartesian product of edges.",
+          "selected_successor_evidence": {
+            "SUBJ-SUCC-3FC7F858D56D": [
+              {
+                "evidence_id": "EVID-SUCC-1C705481AAC2",
+                "document_page": 91,
+                "source_local_subject_id": "SUCC-C004-S012"
+              },
+              {
+                "evidence_id": "EVID-SUCC-C3C3F61F99EE",
+                "document_page": 91,
+                "source_local_subject_id": "SUCC-C004-S012"
+              },
+              {
+                "evidence_id": "EVID-SUCC-B1D24F632837",
+                "document_page": 92,
+                "source_local_subject_id": "SUCC-C004-S012"
+              },
+              {
+                "evidence_id": "EVID-SUCC-768FFC1CDEA6",
+                "document_page": 92,
+                "source_local_subject_id": "SUCC-C004-S012"
+              }
+            ],
+            "SUBJ-SUCC-1AA4E445D945": [
+              {
+                "evidence_id": "EVID-SUCC-3AA2B38BDFAA",
+                "document_page": 91,
+                "source_local_subject_id": "SUCC-C004-S013"
+              }
+            ]
+          }
+        },
+        "author_ledger": "successor/synthesis/final-dependencies-001-006/relationship-ledger.json",
+        "review_status": "source_relation_direction_scope_and_resolution_reviewed; independent_review_pending"
+      },
+      "additive_disposition": "Preserve the original contrast or unresolved-procedure requirement; replace the current relationship’s adjacent92 premise with explicit93. No endpoint/type/requirement is retired."
+    }
+  ],
+  "specific_prior_inspections": [
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 132,
+      "row_sha256": "c526c410358a2a54f5c93dfa48038d26d965635f2c0caadb869a289e5623defb",
+      "row": {
+        "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+        "label": "Society of Thirty",
+        "verdict": "revise",
+        "source_pages": [
+          90,
+          91,
+          94,
+          95,
+          99
+        ],
+        "basis": "The society’s largely noble composition, funded propaganda, model petitions and loss of control are accurately supported on pp.90–95. The retained Duport dossier additionally requires parliamentary lobbying and his election as a robe magistrate on pp.91/99, which are not stated in the society-only parent.",
+        "proposed_fix": "Either articulate Duport’s institutional bridging role alongside the society or retain his separate personal requirement; do not require his later election under a club label alone. Keep elite catalysis distinct from conspiracy or lasting control.",
+        "fields_inspected": [
+          "label",
+          "meaning",
+          "stance",
+          "priority",
+          "acceptable_access",
+          "access_scope_rule",
+          "editorial_rationale",
+          "source_treatments",
+          "required_access_facets",
+          "retained_source_distinctions",
+          "evidence"
+        ],
+        "source_treatment_ids": [
+          "SUCC-C004-S010"
+        ],
+        "required_access_facet_ids": [
+          "FACET-SUCC-C004-S010"
+        ],
+        "retained_distinction_ids": [
+          "CHUNK-004-S020",
+          "CHUNK-004-S094"
+        ],
+        "evidence_reviews": [
+          {
+            "evidence_id": "EVID-SUCC-32A062C8615A",
+            "page": "90",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-2A659A0507BC",
+            "page": "90",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-0E22D26595F1",
+            "page": "90",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-8E07DA1243E0",
+            "page": "91",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-15DD6746E8A8",
+            "page": "91",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-E238B59683F5",
+            "page": "91",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-E6AC7CF7AEAE",
+            "page": "94",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-9CD6B128FD68",
+            "page": "95",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-8997CECFCFFD",
+            "page": "99",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          }
+        ],
+        "subject_lineage_inspected": true,
+        "evidence_lineage_audit_status": "exact_old_records_and_author_mapping_fields_checked; substantive_deltas_inspected; same_claim_text_reuses_inspected_evidence",
+        "review_status": "whole_subject_initial_verdict_complete; cross_entity_and_source_first_reconciliation_pending",
+        "facet_reviews": [
+          {
+            "facet_id": "FACET-SUCC-C004-S010",
+            "verdict": "revise",
+            "basis": "The facet exactly repeats the inspected parent meaning, stance and acceptable access; the authored subject disposition and fixes apply to this facet.",
+            "source_pages": [
+              90,
+              91,
+              94,
+              95,
+              99
+            ],
+            "independently_weighted": false
+          }
+        ]
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 143,
+      "row_sha256": "f5c38287495d173017fc205d069ce4ca44ca8b38962cc0f4d64c30189a16792a",
+      "row": {
+        "subject_id": "SUBJ-SUCC-C5578768FEE3",
+        "label": "Popular food disturbances before May 1789",
+        "verdict": "revise",
+        "source_pages": [
+          98,
+          99,
+          109
+        ],
+        "basis": "Page98 directly supports spring price fixing, searches, tithe/tax resistance and still-functioning repression. Pages98–99 support mixed patriotic and anti-rich Reveillon claims. Page109 is a later recurrence, not evidence of an event before May. The source’s distinct popular agenda is more than the general parent phrase about subsistence fear.",
+        "proposed_fix": "Treat p.109 as a clearly marked later comparison or move it to the July subject; add that popular economic grievances were not reducible to educated patriots’ constitutional program. Expand the Reveillon mixed-slogan support to pp.98–99.",
+        "fields_inspected": [
+          "label",
+          "meaning",
+          "stance",
+          "priority",
+          "acceptable_access",
+          "access_scope_rule",
+          "editorial_rationale",
+          "source_treatments",
+          "required_access_facets",
+          "retained_source_distinctions",
+          "evidence"
+        ],
+        "source_treatment_ids": [
+          "SUCC-C004-S023"
+        ],
+        "required_access_facet_ids": [
+          "FACET-SUCC-C004-S023"
+        ],
+        "retained_distinction_ids": [
+          "CHUNK-004-S042"
+        ],
+        "evidence_reviews": [
+          {
+            "evidence_id": "EVID-SUCC-6A6E43BECCCC",
+            "page": "98",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-E0D08DEC2B7F",
+            "page": "98",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-23A042D6C57F",
+            "page": "99",
+            "verdict": "expand_locator",
+            "basis": "Named patriotic and anti-rich slogans occur at the end of p.98; p.99 completes the property sentence and interprets the atmosphere."
+          },
+          {
+            "evidence_id": "EVID-SUCC-1E34858C1353",
+            "page": "109",
+            "verdict": "later_comparison_not_event_evidence",
+            "basis": "This is July recurrence on p.109, outside the before-May scope; retain only as a labeled comparison or reroute."
+          }
+        ],
+        "subject_lineage_inspected": true,
+        "evidence_lineage_audit_status": "exact_old_records_and_author_mapping_fields_checked; substantive_deltas_inspected; same_claim_text_reuses_inspected_evidence",
+        "review_status": "whole_subject_initial_verdict_complete; cross_entity_and_source_first_reconciliation_pending",
+        "facet_reviews": [
+          {
+            "facet_id": "FACET-SUCC-C004-S023",
+            "verdict": "revise",
+            "basis": "The facet exactly repeats the inspected parent meaning, stance and acceptable access; the authored subject disposition and fixes apply to this facet.",
+            "source_pages": [
+              98,
+              99,
+              109
+            ],
+            "independently_weighted": false
+          }
+        ]
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 178,
+      "row_sha256": "1830e3831460a1284cf7070880c1f2ab12f373750006e26887790b59236c55dc",
+      "row": {
+        "subject_id": "SUBJ-SUCC-F066F35B29BE",
+        "label": "Church dispossession and suppression of religious institutions",
+        "verdict": "revise",
+        "source_pages": [
+          136,
+          137,
+          140,
+          141,
+          142
+        ],
+        "basis": "The 136–142 evidence accurately explains cumulative institutional and material dispossession, salary redistribution, educational/charitable obligations and local enforcement. But the scored parent’s compressed removal/dissolution wording omits the distinct opening argument that clerical cooperation in June did not authorize surrender of corporate status, the exception for educational/charitable houses and prohibition of new vows, and mixed salary effects. These are meaningful retained distinctions rather than optional biography.",
+        "proposed_fix": "Expand the parent to preserve early goodwill without consent to corporate destruction; utility-based suppression with its functional exceptions and vow prohibition; loss of independence alongside higher minimum salaries for some priests, cuts and uncertain payment for others; and inventories/sales turning reform into a local loyalty test. Keep precedents distinct from the alarming cumulative pattern.",
+        "fields_inspected": [
+          "label",
+          "meaning",
+          "stance",
+          "priority",
+          "acceptable_access",
+          "access_scope_rule",
+          "editorial_rationale",
+          "source_treatments",
+          "required_access_facets",
+          "retained_source_distinctions",
+          "evidence"
+        ],
+        "source_treatment_ids": [
+          "SUCC-C006-S007"
+        ],
+        "required_access_facet_ids": [
+          "FACET-SUCC-C006-S007"
+        ],
+        "retained_distinction_ids": [
+          "CHUNK-006-SUBJ-002",
+          "CHUNK-006-SUBJ-003",
+          "CHUNK-006-SUBJ-005",
+          "CHUNK-006-SUBJ-057",
+          "CHUNK-006-SUBJ-058"
+        ],
+        "evidence_reviews": [
+          {
+            "evidence_id": "EVID-SUCC-AEEE0FFC967C",
+            "page": "136",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-3E20C763DCDC",
+            "page": "136",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-B960ECD87422",
+            "page": "136",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-7A6C1F544196",
+            "page": "136",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-DE5CF2C9A672",
+            "page": "137",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-E339293E8057",
+            "page": "137",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-25E03DC47E07",
+            "page": "137",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-FC9427E6548D",
+            "page": "137",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-4A13535FD069",
+            "page": "137",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-B51A8D135E36",
+            "page": "137",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-4A8D691166CD",
+            "page": "137",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-EA810509146C",
+            "page": "140",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-A7FCCE4C0D10",
+            "page": "140",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-5B185A8A66B9",
+            "page": "141",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-54E6BBE484AB",
+            "page": "141",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-FCDC2E438873",
+            "page": "142",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          }
+        ],
+        "subject_lineage_inspected": true,
+        "evidence_lineage_audit_status": "exact_old_records_and_author_mapping_fields_checked; substantive_deltas_inspected; same_claim_text_reuses_inspected_evidence",
+        "review_status": "whole_subject_initial_verdict_complete; cross_entity_and_source_first_reconciliation_pending",
+        "facet_reviews": [
+          {
+            "facet_id": "FACET-SUCC-C006-S007",
+            "verdict": "revise",
+            "basis": "The facet exactly repeats the inspected parent meaning, stance and acceptable access; the authored subject disposition and fixes apply to this facet.",
+            "source_pages": [
+              136,
+              137,
+              140,
+              141,
+              142
+            ],
+            "independently_weighted": false
+          }
+        ]
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1900,
+      "row_sha256": "c2b442d32d1e4f451460443eeb2652125a3c4808104dcb52614357d76eb2786a",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-45D9EA9DAAF0:evidence:EVID-SUCC-8997CECFCFFD",
+        "record_id": "SUBJ-SUCC-45D9EA9DAAF0",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-8997CECFCFFD",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 99,
+          "source_page_label": "99",
+          "locator_class": "supporting",
+          "evidence_summary": "He is elected among the small surviving group of celebrated robe magistrates.",
+          "evidence_id": "EVID-SUCC-8997CECFCFFD",
+          "source_local_subject_id": "SUCC-C004-S010",
+          "source_chunk_id": "CHUNK-004"
+        },
+        "after": {
+          "document_page": 99,
+          "source_page_label": "99",
+          "locator_class": "supporting",
+          "evidence_summary": "He is elected among the small surviving group of celebrated robe magistrates.",
+          "evidence_id": "EVID-SUCC-8997CECFCFFD",
+          "source_local_subject_id": "SUCC-C004-S010",
+          "source_chunk_id": "CHUNK-004"
+        },
+        "independent_basis": "The society’s largely noble composition, funded propaganda, model petitions and loss of control are accurately supported on pp.90–95. The retained Duport dossier additionally requires parliamentary lobbying and his election as a robe magistrate on pp.91/99, which are not stated in the society-only parent.",
+        "repair_intent": "Either articulate Duport’s institutional bridging role alongside the society or retain his separate personal requirement; do not require his later election under a club label alone. Keep elite catalysis distinct from conspiracy or lasting control."
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1908,
+      "row_sha256": "325406a22caabb96eaa12731c0ed7c41a7d9d93c7adb297f5a5df52337e9dc8c",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-45D9EA9DAAF0:retained_source_distinctions:CHUNK-004-S094",
+        "record_id": "SUBJ-SUCC-45D9EA9DAAF0",
+        "requirement_type": "retained_source_distinctions",
+        "stable_item_id": "CHUNK-004-S094",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_local_subject_id": "CHUNK-004-S094",
+          "meaning": "Duport served as organizer and institutional bridge among radical magistrates, elite reform networks, publicity, and later elected deputies.",
+          "qualification": "The chapter treats his influence as catalytic but insufficient to control the national movement he helped focus.",
+          "source_pages": [
+            90,
+            91,
+            99
+          ]
+        },
+        "after": {
+          "source_local_subject_id": "CHUNK-004-S094",
+          "meaning": "Duport served as organizer and institutional bridge among radical magistrates, elite reform networks, publicity, and later elected deputies.",
+          "qualification": "The chapter treats his influence as catalytic but insufficient to control the national movement he helped focus.",
+          "source_pages": [
+            90,
+            91,
+            99
+          ]
+        },
+        "independent_basis": "The society’s largely noble composition, funded propaganda, model petitions and loss of control are accurately supported on pp.90–95. The retained Duport dossier additionally requires parliamentary lobbying and his election as a robe magistrate on pp.91/99, which are not stated in the society-only parent.",
+        "repair_intent": "Either articulate Duport’s institutional bridging role alongside the society or retain his separate personal requirement; do not require his later election under a club label alone. Keep elite catalysis distinct from conspiracy or lasting control."
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2160,
+      "row_sha256": "6852ade6a260efbdc0af88f9e6f856b08d854d1a8e0850b14880c45b70da69f4",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-C5578768FEE3:evidence:EVID-SUCC-1E34858C1353",
+        "record_id": "SUBJ-SUCC-C5578768FEE3",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-1E34858C1353",
+        "disposition": "retired_or_rehomed",
+        "before": {
+          "document_page": 109,
+          "source_page_label": "109",
+          "locator_class": "synthesis_or_conclusion",
+          "evidence_summary": "Scarcity and rumor again combine with political crisis in the armed Paris rising.",
+          "evidence_id": "EVID-SUCC-1E34858C1353",
+          "source_local_subject_id": "SUCC-C004-S023",
+          "source_chunk_id": "CHUNK-004"
+        },
+        "after": null,
+        "independent_basis": "Page98 directly supports spring price fixing, searches, tithe/tax resistance and still-functioning repression. Pages98–99 support mixed patriotic and anti-rich Reveillon claims. Page109 is a later recurrence, not evidence of an event before May. The source’s distinct popular agenda is more than the general parent phrase about subsistence fear.",
+        "repair_intent": "Treat p.109 as a clearly marked later comparison or move it to the July subject; add that popular economic grievances were not reducible to educated patriots’ constitutional program. Expand the Reveillon mixed-slogan support to pp.98–99.",
+        "binding": {
+          "subject_id": "SUBJ-SUCC-C1C93BC08ECB",
+          "evidence_ids": [
+            "EVID-SUCC-72D7ADE83064"
+          ],
+          "claim": "Scarcity and rumor again combine with political crisis in the armed Paris rising.",
+          "source_page": 109,
+          "status": "bound_to_exact_claim"
+        }
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2167,
+      "row_sha256": "a32609ee9874e894e538417b381aa73689b24c75e4f54b7488e9afcdea60c476",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-C5578768FEE3:retained_source_distinctions:CHUNK-004-S042",
+        "record_id": "SUBJ-SUCC-C5578768FEE3",
+        "requirement_type": "retained_source_distinctions",
+        "stable_item_id": "CHUNK-004-S042",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_local_subject_id": "CHUNK-004-S042",
+          "meaning": "Market riots, popular price setting, searches for hoarded grain, tax resistance, and attacks on property accompanied the election campaign.",
+          "qualification": "The source treats these disturbances as grounded in real scarcity and unemployment but not reducible to the constitutional programme of educated patriots.",
+          "source_pages": [
+            98,
+            99,
+            109
+          ]
+        },
+        "after": {
+          "source_local_subject_id": "CHUNK-004-S042",
+          "meaning": "Market riots, popular price setting, searches for hoarded grain, tax resistance, and attacks on property accompanied the election campaign.",
+          "qualification": "The source treats these disturbances as grounded in real scarcity and unemployment but not reducible to the constitutional programme of educated patriots.",
+          "source_pages": [
+            98,
+            99,
+            109
+          ]
+        },
+        "independent_basis": "Page98 directly supports spring price fixing, searches, tithe/tax resistance and still-functioning repression. Pages98–99 support mixed patriotic and anti-rich Reveillon claims. Page109 is a later recurrence, not evidence of an event before May. The source’s distinct popular agenda is more than the general parent phrase about subsistence fear.",
+        "repair_intent": "Treat p.109 as a clearly marked later comparison or move it to the July subject; add that popular economic grievances were not reducible to educated patriots’ constitutional program. Expand the Reveillon mixed-slogan support to pp.98–99."
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2744,
+      "row_sha256": "55c2d2076d8af4dc09cf0b31599d220bbd769ac2f7e2825fd373fcb97ea69e59",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-F066F35B29BE:evidence:EVID-SUCC-5B185A8A66B9",
+        "record_id": "SUBJ-SUCC-F066F35B29BE",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-5B185A8A66B9",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 141,
+          "source_page_label": "141",
+          "locator_class": "principal",
+          "evidence_summary": "Inventories and sales proceeded nationwide while religious houses were being closed.",
+          "evidence_id": "EVID-SUCC-5B185A8A66B9",
+          "source_local_subject_id": "SUCC-C006-S007",
+          "source_chunk_id": "CHUNK-006"
+        },
+        "after": {
+          "document_page": 141,
+          "source_page_label": "141",
+          "locator_class": "principal",
+          "evidence_summary": "Inventories and sales proceeded nationwide while religious houses were being closed.",
+          "evidence_id": "EVID-SUCC-5B185A8A66B9",
+          "source_local_subject_id": "SUCC-C006-S007",
+          "source_chunk_id": "CHUNK-006"
+        },
+        "independent_basis": "The 136–142 evidence accurately explains cumulative institutional and material dispossession, salary redistribution, educational/charitable obligations and local enforcement. But the scored parent’s compressed removal/dissolution wording omits the distinct opening argument that clerical cooperation in June did not authorize surrender of corporate status, the exception for educational/charitable houses and prohibition of new vows, and mixed salary effects. These are meaningful retained distinctions rather than optional biography.",
+        "repair_intent": "Expand the parent to preserve early goodwill without consent to corporate destruction; utility-based suppression with its functional exceptions and vow prohibition; loss of independence alongside higher minimum salaries for some priests, cuts and uncertain payment for others; and inventories/sales turning reform into a local loyalty test. Keep precedents distinct from the alarming cumulative pattern."
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+        "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+        "bytes": 5138775
+      },
+      "line_one_based": 490,
+      "row_sha256": "731c0437fddd541521278c51587b8cbc1c41f61f334e30e276d132b40fd5348f",
+      "row": {
+        "review_key": "legacy:SUBJ-59DBEB992C67",
+        "review_index": 490,
+        "original_lineage_pointer": "/rows/986",
+        "original_before_sha256": "80edf4e3d776ab51ffc344bafe0342686273d5eb57a91ef3c20e7f6ac07b9e3a",
+        "original_before_fields": {
+          "label": "Popular subsistence disorders during elections",
+          "priority": "major",
+          "meaning": "Market riots, popular price setting, searches for hoarded grain, tax resistance, and attacks on property accompanied the election campaign.",
+          "stance": "The source treats these disturbances as grounded in real scarcity and unemployment but not reducible to the constitutional programme of educated patriots.",
+          "acceptable_access": [
+            "Popular subsistence disorders during elections",
+            "food riots, 1789",
+            "grain riots during elections",
+            "popular price fixing",
+            "subsistence disorder"
+          ]
+        },
+        "source_pages": [
+          98,
+          99,
+          109
+        ],
+        "disposition": "retain_by_exact_prior_substantive_inspection",
+        "independent_basis": "Reuse the exact prior inspected meaning/stance and its recorded source-grounded repair disposition, shown below. The current integrated record exactly equals the sealed reviewed value. Historical priority and access are reconciled to the coherent current parent rather than preserved as extra weighted units.",
+        "prior_source_grounded_parent_judgments": [
+          {
+            "subject_id": "SUBJ-SUCC-C5578768FEE3",
+            "basis": "Page98 directly supports spring price fixing, searches, tithe/tax resistance and still-functioning repression. Pages98–99 support mixed patriotic and anti-rich Reveillon claims. Page109 is a later recurrence, not evidence of an event before May. The source’s distinct popular agenda is more than the general parent phrase about subsistence fear.",
+            "proposed_fix": "Treat p.109 as a clearly marked later comparison or move it to the July subject; add that popular economic grievances were not reducible to educated patriots’ constitutional program. Expand the Reveillon mixed-slogan support to pp.98–99."
+          }
+        ],
+        "literal_meaning_stance_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-C5578768FEE3",
+            "draft_meaning_pointer": "/subjects/175/retained_source_distinctions/0/meaning",
+            "draft_stance_pointer": "/subjects/175/retained_source_distinctions/0/qualification",
+            "matched_fields_sha256": "d7079930d2153adca4a145842c522b16f212e4ae7c4ef9d50108e690eb235c24",
+            "prior_whole_record_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/142",
+              "row_sha256": "f5c38287495d173017fc205d069ce4ca44ca8b38962cc0f4d64c30189a16792a"
+            },
+            "prior_specific_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/2166",
+              "requirement_key": "SUBJ-SUCC-C5578768FEE3:retained_source_distinctions:CHUNK-004-S042",
+              "row_sha256": "a32609ee9874e894e538417b381aa73689b24c75e4f54b7488e9afcdea60c476"
+            },
+            "prior_specific_verdict": "retained_unchanged",
+            "prior_specific_binding": null,
+            "integrated_subject_equals_prior_completed_whole_proposal_or_unchanged_draft": true
+          }
+        ],
+        "exact_destination_scopes": [
+          {
+            "subject_id": "SUBJ-SUCC-C5578768FEE3",
+            "label": "Popular food disturbances before May 1789",
+            "priority": "major",
+            "current_record_sha256": "872e1708b74161256b4d2b4ad028c5319f5f542ba65d26bb5bca600c629a27c5",
+            "prior_main_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/2158",
+              "requirement_key": "SUBJ-SUCC-C5578768FEE3:parent",
+              "row_sha256": "91b66e128dbf72d38cb7d86b4c24dd91e7a925a1cd7326ca70b0a064580b706c"
+            },
+            "current_main_meaning": "Before the Estates-General convened, food shortages, price demands and failing local authority produced disturbances including the Réveillon riots, where a cheap-bread argument was misheard as a wage-cut proposal. Patriotic and anti-rich language overlapped with destructive action and rumours of repression. Market riots, popular price setting, searches for hoarded grain, tax resistance, and attacks on property accompanied the election campaign.",
+            "current_main_stance": "Popular economic grievances were not reducible to educated patriots’ constitutional programme. July’s recurrence is a later episode, not evidence that these events occurred before May. The source treats these disturbances as grounded in real scarcity and unemployment but not reducible to the constitutional programme of educated patriots.",
+            "scope": "Use only this coherent parent’s actual temporal/causal scope; no wholesale replication of a broad historical unit under every destination."
+          }
+        ],
+        "retired_author_subject_bindings": [],
+        "priority_disposition": {
+          "old": "major",
+          "current": {
+            "SUBJ-SUCC-C5578768FEE3": "major"
+          },
+          "judgment": "Retain the source-supported coherent-parent priority justified in the cited prior judgment. Local old optional/major units may form subordinate demands within a larger weighted parent; neither merger nor original count creates a new denominator. Explicit exclusion/retirement dispositions override weighting."
+        },
+        "access_disposition": {
+          "old_routes_literal_in_final_parent": [
+            "Popular subsistence disorders during elections",
+            "food riots, 1789",
+            "grain riots during elections",
+            "popular price fixing",
+            "subsistence disorder"
+          ],
+          "remaining_wording_reviewed_for_semantic_route": [],
+          "judgment": "Compound old labels and typographic variants are not mandatory literal headings. Preserve their specific named, temporal and conceptual routes through the actual repaired main meanings/access above. Narrowed claims follow the exact prior repair; graph-derived routes are retired. Named cross-chapter/remaining obligations are explicit referrals."
+        },
+        "required_referral": null,
+        "closure_scope": "Exact historical subject fields reviewed or reused with precise prior inspection proof. Evidence-key closure is separately enumerated. Final integrated values and cross-owner fulfillment are not approved here."
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 982,
+      "row_sha256": "8fff6006fab5bf492fb9f1e8e520e59e1f57b67340a2d5c8d123e00afa59725b",
+      "row": {
+        "review_key": "legacy:SUBJ-B7AF48A78D17:EVID-896C07599FEC",
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-B7AF48A78D17",
+        "old_evidence_id": "EVID-896C07599FEC",
+        "review_index": 982,
+        "original_lineage_pointer": "/rows/41",
+        "original_before_sha256": "df4a7008bea2352772fea0f562bed549d496048bfe0d81d7069d96ae8911d0d7",
+        "original_claim": {
+          "evidence_id": "EVID-896C07599FEC",
+          "source_evidence_id": "EVID-9BE1211D977D",
+          "document_page": 99,
+          "source_page_label": "99",
+          "locator_class": "supporting",
+          "evidence_summary": "He is elected among the small surviving group of celebrated robe magistrates.",
+          "provenance": {
+            "chunk_id": "CHUNK-004",
+            "local_subject_id": "CHUNK-004-S094",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-004.json",
+            "source_artifact_sha256": "d2531c6345809ae452eb4ce3963003ddc546417687b71648e6c477c46ee18ba3"
+          }
+        },
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+        "literal_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+            "evidence_id": "EVID-SUCC-8997CECFCFFD",
+            "draft_pointer": "/subjects/166/evidence/8",
+            "matched_four_fields_sha256": "738231839f7a9404ee5d093394f5f1fd2a32b6d836a278b08be9eb6f98d15df6",
+            "prior_evidence_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1899",
+              "requirement_key": "SUBJ-SUCC-45D9EA9DAAF0:evidence:EVID-SUCC-8997CECFCFFD",
+              "row_sha256": "c2b442d32d1e4f451460443eeb2652125a3c4808104dcb52614357d76eb2786a"
+            },
+            "prior_parent_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/131",
+              "row_sha256": "c526c410358a2a54f5c93dfa48038d26d965635f2c0caadb869a289e5623defb"
+            },
+            "actual_integrated_evidence_equals_inspected_value": true
+          }
+        ],
+        "exact_proposed_bindings": [
+          {
+            "subject_id": "SUBJ-SUCC-45D9EA9DAAF0",
+            "evidence_id": "EVID-SUCC-8997CECFCFFD",
+            "binding_status": "current_claim_retained",
+            "evidence_fields": {
+              "document_page": 99,
+              "source_page_label": "99",
+              "locator_class": "supporting",
+              "evidence_summary": "He is elected among the small surviving group of celebrated robe magistrates.",
+              "evidence_id": "EVID-SUCC-8997CECFCFFD",
+              "source_local_subject_id": "SUCC-C004-S010",
+              "source_chunk_id": "CHUNK-004"
+            },
+            "evidence_sha256": "75e7436563fedd4b8bb2a0d67f6697a6af8fd96a6de30ac4942c849be240e114",
+            "actual_parent_main_sha256": "d5632156452d52c5b095493d6e73d500bd50819fcc920aa450197dbf92cb25ba",
+            "parent_review": "exact prior whole-record review reused"
+          }
+        ],
+        "exact_exclusion_bindings": [],
+        "retired_or_unaccepted_author_bindings": [],
+        "required_referral": null,
+        "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 1464,
+      "row_sha256": "744927ca62fb998d9d5e8ef3e025cb8ffabd7419ddc3df1a123e85f962d65cb2",
+      "row": {
+        "review_key": "legacy:SUBJ-1865834725F2:EVID-B40D954BF94F",
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-1865834725F2",
+        "old_evidence_id": "EVID-B40D954BF94F",
+        "review_index": 1464,
+        "original_lineage_pointer": "/rows/640",
+        "original_before_sha256": "8eb1d2b8c77fc48326ef55ff409973b42ce12c15177d35823b212ace62f8c2d3",
+        "original_claim": {
+          "evidence_id": "EVID-B40D954BF94F",
+          "source_evidence_id": "EVID-CHUNK-006-0157",
+          "document_page": 141,
+          "source_page_label": "141",
+          "locator_class": "principal",
+          "evidence_summary": "Inventories and sales proceeded nationwide while religious houses were being closed.",
+          "provenance": {
+            "chunk_id": "CHUNK-006",
+            "local_subject_id": "CHUNK-006-SUBJ-057",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-006.json",
+            "source_artifact_sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6"
+          }
+        },
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+        "literal_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-F066F35B29BE",
+            "evidence_id": "EVID-SUCC-5B185A8A66B9",
+            "draft_pointer": "/subjects/222/evidence/13",
+            "matched_four_fields_sha256": "abad5610896fbf5a6073685e5a2e768a361ee93d8e003216da05d909053c269d",
+            "prior_evidence_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/2743",
+              "requirement_key": "SUBJ-SUCC-F066F35B29BE:evidence:EVID-SUCC-5B185A8A66B9",
+              "row_sha256": "55c2d2076d8af4dc09cf0b31599d220bbd769ac2f7e2825fd373fcb97ea69e59"
+            },
+            "prior_parent_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/177",
+              "row_sha256": "1830e3831460a1284cf7070880c1f2ab12f373750006e26887790b59236c55dc"
+            },
+            "actual_integrated_evidence_equals_inspected_value": true
+          }
+        ],
+        "exact_proposed_bindings": [
+          {
+            "subject_id": "SUBJ-SUCC-F066F35B29BE",
+            "evidence_id": "EVID-SUCC-5B185A8A66B9",
+            "binding_status": "current_claim_retained",
+            "evidence_fields": {
+              "document_page": 141,
+              "source_page_label": "141",
+              "locator_class": "principal",
+              "evidence_summary": "Inventories and sales proceeded nationwide while religious houses were being closed.",
+              "evidence_id": "EVID-SUCC-5B185A8A66B9",
+              "source_local_subject_id": "SUCC-C006-S007",
+              "source_chunk_id": "CHUNK-006"
+            },
+            "evidence_sha256": "3ff9d48dab8855847d4f20e6565ec1c911545024f34e3e2da8c3d928ac4c81ba",
+            "actual_parent_main_sha256": "36305223f8515a353c1f4a7f405520ca4cbc68916bfbfb67de4810e5ab0c1e50",
+            "parent_review": "exact prior whole-record review reused"
+          }
+        ],
+        "exact_exclusion_bindings": [],
+        "retired_or_unaccepted_author_bindings": [],
+        "required_referral": null,
+        "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+      }
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/relationship-component-review.v1.json",
+        "sha256": "be27e53af62d82d0487d3fa3fd52709a0efdecf004f6039790c1221a4cacccc1",
+        "bytes": 60479
+      },
+      "pointer": "/rows/47",
+      "row": {
+        "relationship_id": "REL-SUCC-F20FE071F595",
+        "source_subject_id": "SUBJ-SUCC-6216510D2EE3",
+        "target_subject_id": "SUBJ-SUCC-ABA54E187E4B",
+        "fields_inspected": [
+          "source_subject_id",
+          "target_subject_id",
+          "relationship_type",
+          "evidence_document_pages",
+          "rationale",
+          "relationship_id",
+          "resolution_status",
+          "source_local_subject_id",
+          "author_proposal_id"
+        ],
+        "basis": "153 clubs fill and grow amid national emergency, without a settled republican majority. Narrow relation evidence to153, where the club mechanism is developed.",
+        "disposition": "revise",
+        "historical_mapping_review_pending": true,
+        "changed_fields": [
+          "evidence_document_pages"
+        ]
+      },
+      "row_sha256": "f535a6ddf8e213305e6bd714ec051532dfea859ecdf361cdc7fccfa763c273fd"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.000-054.v1.json",
+        "sha256": "322546b2cd7aea9ef9932c0517545820f2a56400bcfc0cf0b925371e360f102c",
+        "bytes": 30574
+      },
+      "pointer": "/rows/22",
+      "row": {
+        "historical_key": "legacy:REL-25E8C92F6AC1",
+        "queue_row": 22,
+        "source_pages": [
+          152,
+          153
+        ],
+        "author_disposition": "superseded_by_proposed_necessary_edge",
+        "review_disposition": "Varennes and reinstatement divided Jacobin political purposes (153–154). F20FE preserves emergency mobilization, a different consequence. Retain a distinct scoped 621651→ABA54 division-over-monarchy relationship and the corresponding parent distinction; mobilization alone does not close this requirement.",
+        "status": "substantive_mapping_reviewed; exact_final_retention_or_repair_pending"
+      },
+      "row_sha256": "20d8116e6940712738119c03dacee16f1a4911d5cf217a89bf4937f612cbb4bb"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.055-104.v1.json",
+        "sha256": "b0532910ecb0509746654d77d6797f66391bdb8288d1932f5cdbafc83cbbd976",
+        "bytes": 28368
+      },
+      "pointer": "/rows/42",
+      "row": {
+        "historical_key": "legacy:REL-8AB804FCA123",
+        "queue_row": 97,
+        "source_pages": [
+          152,
+          153
+        ],
+        "author_disposition": "superseded_by_proposed_necessary_edge",
+        "review_disposition": "Page 153 supports nationwide Guard/vigilance/refractory persecution and Jacobin mobilization. F20FE covers the club facet only. Preserve the wider emergency inside 621651, not silently narrow the entire old composite to clubs.",
+        "status": "substantive_mapping_reviewed; exact_final_retention_or_repair_pending"
+      },
+      "row_sha256": "5c65f4d1859d9196e67cb0f4bbfe014451ee97c347eb15aa116b99faece9cc7a"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-relationship-review.105-179.v1.json",
+        "sha256": "d216d8017793e673f097a9e23ad74439e9d05bdf50e1181db615cafddd146a2c",
+        "bytes": 39573
+      },
+      "pointer": "/rows/17",
+      "row": {
+        "historical_key": "legacy:REL-B494EAEB3D27",
+        "queue_row": 122,
+        "source_pages": [
+          152,
+          153
+        ],
+        "author_disposition": "superseded_by_proposed_necessary_edge",
+        "review_disposition": "F20FE and 4365 preserve distinct effects of flight: Jacobin mobilization and republican petitioning. Do not imply that the Jacobins alone produced the Cordeliers campaign.",
+        "status": "substantive_mapping_reviewed; exact_final_retention_or_repair_pending"
+      },
+      "row_sha256": "7be48f6adcd2268f3b819ba3cec03080f7a9e72dd6cbf38c017a43401b75a185"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1710,
+      "row": {
+        "requirement_key": "SUBJ-SUCC-C1C93BC08ECB:source_treatments:SUCC-C004-S042",
+        "record_id": "SUBJ-SUCC-C1C93BC08ECB",
+        "requirement_type": "source_treatments",
+        "stable_item_id": "SUCC-C004-S042",
+        "disposition": "retained_unchanged",
+        "before": {
+          "local_subject_id": "SUCC-C004-S042",
+          "label": "Storming of the Bastille",
+          "meaning": "The 14 July attack on the Bastille, including failed negotiation, garrison fire, intervention of the French Guards, and surrender.",
+          "stance": "The fall of the poorly defended fortress became the climax of popular support for the Assembly and forced the decisive retreat of royal power.",
+          "acceptable_access": [
+            "Bastille > storming",
+            "14 July 1789",
+            "Paris > fall of the Bastille",
+            "storming of the Bastille",
+            "Bastille—surrender",
+            "Storming and surrender of the Bastille",
+            "Storming of the Bastille"
+          ],
+          "document_pages": [
+            110,
+            111
+          ]
+        },
+        "after": {
+          "local_subject_id": "SUCC-C004-S042",
+          "label": "Storming of the Bastille",
+          "meaning": "The 14 July attack on the Bastille, including failed negotiation, garrison fire, intervention of the French Guards, and surrender.",
+          "stance": "The fall of the poorly defended fortress became the climax of popular support for the Assembly and forced the decisive retreat of royal power.",
+          "acceptable_access": [
+            "Bastille > storming",
+            "14 July 1789",
+            "Paris > fall of the Bastille",
+            "storming of the Bastille",
+            "Bastille—surrender",
+            "Storming and surrender of the Bastille",
+            "Storming of the Bastille"
+          ],
+          "document_pages": [
+            110,
+            111
+          ]
+        },
+        "independent_basis": "The merged July rising/Bastille parent is coherent and essential on pp. 109–111: immediate military and subsistence fears, arms acquisition, trained Guards, cannon, failed negotiation and royal retreat belong to one sequence. Both facets were inspected. The uprising facet additionally inherits the entire earlier Paris and popular-intervention dossiers, including provincial order conflict and national petitions, which are not July 12–14 events. The parent also omits the facet’s specific fiscal barriers/hoarding and militia-versus-uncontrolled-crowd distinctions.",
+        "repair_intent": "Retain the event merger and mandatory Bastille access. Explicitly preserve attacks on toll barriers, Saint-Lazare hoarding fears, Invalides arms and the propertied militia’s limited control. Rehome earlier national mobilization and print/Paris episodes to their coherent requirements rather than broadening this dated event indiscriminately."
+      },
+      "row_sha256": "8f978c1086ea1cccd79fe90c9a2621a61bce7082218939a135f3ef38bde8e65c"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1711,
+      "row": {
+        "requirement_key": "SUBJ-SUCC-C1C93BC08ECB:required_access_facets:FACET-SUCC-C004-S041",
+        "record_id": "SUBJ-SUCC-C1C93BC08ECB",
+        "requirement_type": "required_access_facets",
+        "stable_item_id": "FACET-SUCC-C004-S041",
+        "disposition": "retained_unchanged",
+        "before": {
+          "facet_id": "FACET-SUCC-C004-S041",
+          "label": "Paris uprising, 12-14 July 1789",
+          "meaning": "The popular arming of Paris after Necker's dismissal, attacks on toll gates and suspected grain stores, and the electors' attempt to organize a militia.",
+          "stance": "Subsistence fear, anti-clerical suspicion, and expectation of military attack fused into an armed movement beyond the immediate control of propertied patriots.",
+          "acceptable_access": [
+            "Paris uprising, July 1789",
+            "Insurrection of 12-14 July",
+            "Customs wall > destruction",
+            "popular intervention, 1788-1789",
+            "crowds and the constitutional revolution",
+            "people and National Assembly",
+            "Paris toll gates—July 1789",
+            "customs wall—destruction",
+            "octroi revolt",
+            "Saint-Lazare—looting",
+            "grain hoarding—Saint-Lazare",
+            "anti-clerical violence, July 1789",
+            "Invalides—arms seizure",
+            "14 July 1789—Invalides",
+            "cannon used at Bastille",
+            "Paris—political mobilization",
+            "Paris and Estates-General",
+            "Attacks on Paris toll gates and customs wall",
+            "Saint-Lazare grain search and anti-clerical violence",
+            "Seizure of arms at the Invalides",
+            "Paris uprising, 12-14 July 1789"
+          ],
+          "document_pages": [
+            87,
+            90,
+            91,
+            95,
+            98,
+            103,
+            104,
+            107,
+            109,
+            110,
+            111
+          ],
+          "independently_weighted": false
+        },
+        "after": {
+          "facet_id": "FACET-SUCC-C004-S041",
+          "label": "Paris uprising, 12-14 July 1789",
+          "meaning": "The popular arming of Paris after Necker's dismissal, attacks on toll gates and suspected grain stores, and the electors' attempt to organize a militia.",
+          "stance": "Subsistence fear, anti-clerical suspicion, and expectation of military attack fused into an armed movement beyond the immediate control of propertied patriots.",
+          "acceptable_access": [
+            "Paris uprising, July 1789",
+            "Insurrection of 12-14 July",
+            "Customs wall > destruction",
+            "popular intervention, 1788-1789",
+            "crowds and the constitutional revolution",
+            "people and National Assembly",
+            "Paris toll gates—July 1789",
+            "customs wall—destruction",
+            "octroi revolt",
+            "Saint-Lazare—looting",
+            "grain hoarding—Saint-Lazare",
+            "anti-clerical violence, July 1789",
+            "Invalides—arms seizure",
+            "14 July 1789—Invalides",
+            "cannon used at Bastille",
+            "Paris—political mobilization",
+            "Paris and Estates-General",
+            "Attacks on Paris toll gates and customs wall",
+            "Saint-Lazare grain search and anti-clerical violence",
+            "Seizure of arms at the Invalides",
+            "Paris uprising, 12-14 July 1789"
+          ],
+          "document_pages": [
+            87,
+            90,
+            91,
+            95,
+            98,
+            103,
+            104,
+            107,
+            109,
+            110,
+            111
+          ],
+          "independently_weighted": false
+        },
+        "independent_basis": "The merged July rising/Bastille parent is coherent and essential on pp. 109–111: immediate military and subsistence fears, arms acquisition, trained Guards, cannon, failed negotiation and royal retreat belong to one sequence. Both facets were inspected. The uprising facet additionally inherits the entire earlier Paris and popular-intervention dossiers, including provincial order conflict and national petitions, which are not July 12–14 events. The parent also omits the facet’s specific fiscal barriers/hoarding and militia-versus-uncontrolled-crowd distinctions.",
+        "repair_intent": "Retain the event merger and mandatory Bastille access. Explicitly preserve attacks on toll barriers, Saint-Lazare hoarding fears, Invalides arms and the propertied militia’s limited control. Rehome earlier national mobilization and print/Paris episodes to their coherent requirements rather than broadening this dated event indiscriminately."
+      },
+      "row_sha256": "adf0aedd7263eb7e63ef45caf0b24dcf51b95c82b85c52c956b4c1e0c3acf0f1"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2551,
+      "row": {
+        "requirement_key": "SUBJ-SUCC-6A5ADB894FAD:evidence:EVID-SUCC-7990A9A62DE8",
+        "record_id": "SUBJ-SUCC-6A5ADB894FAD",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-7990A9A62DE8",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 126,
+          "source_page_label": "126",
+          "locator_class": "principal",
+          "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+          "evidence_id": "EVID-SUCC-7990A9A62DE8",
+          "source_local_subject_id": "SUCC-C005-S018",
+          "source_chunk_id": "CHUNK-005"
+        },
+        "after": {
+          "document_page": 126,
+          "source_page_label": "126",
+          "locator_class": "principal",
+          "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+          "evidence_id": "EVID-SUCC-7990A9A62DE8",
+          "source_local_subject_id": "SUCC-C005-S018",
+          "source_chunk_id": "CHUNK-005"
+        },
+        "independent_basis": "The franchise core on p.124 is accurate: formal male participation is substantial but narrower than the Estates-General, successive thresholds concentrate power and women are excluded with little discussion. Earlier popular victories and later coercive containment form a substantive tension only implicit in the parent’s abstract inconsistency with equality. The p.131 general direct-tax equality claim does not itself establish franchise restrictions.",
+        "repair_intent": "State exclusion of the popular forces that enabled July/October, women’s assumed exclusion, and the active-citizen/elector/deputy hierarchy. Keep contrasting enabling popular action and institutional containment explicit or rehome broader veto/crowd mechanisms. Reroute EVID-SUCC-46B9BEB99740 to fiscal reform, since equal tax assessment is not political-suffrage evidence. Correct the compound equality/taxation/careers locator to pp. 118–119."
+      },
+      "row_sha256": "104ef39d4819e0d25c84591f8ff26d71b5a9d3aa3827ffb5e59e38341cc62d42"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2620,
+      "row": {
+        "requirement_key": "SUBJ-SUCC-8C547916DFE5:evidence:EVID-SUCC-267D572896F9",
+        "record_id": "SUBJ-SUCC-8C547916DFE5",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-267D572896F9",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 126,
+          "source_page_label": "126",
+          "locator_class": "principal",
+          "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+          "evidence_id": "EVID-SUCC-267D572896F9",
+          "source_local_subject_id": "SUCC-C005-S016",
+          "source_chunk_id": "CHUNK-005"
+        },
+        "after": {
+          "document_page": 126,
+          "source_page_label": "126",
+          "locator_class": "principal",
+          "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+          "evidence_id": "EVID-SUCC-267D572896F9",
+          "source_local_subject_id": "SUCC-C005-S016",
+          "source_chunk_id": "CHUNK-005"
+        },
+        "independent_basis": "Page123 directly supports post-October Parisian surveillance and the risk of metropolitan popular despotism. The retained pp.118/120/122/124/126 argument additionally contrasts popular action enabling reform with representative autonomy, restricted suffrage and coercive containment. Current parent meaning begins after October and does not express those distinct reciprocal mechanisms.",
+        "repair_intent": "Broaden the parent into the source’s popular-intervention/representative-authority tension across July–October and constitutional settlement, explicitly including restricted citizenship and coercive control; alternatively retain this narrow Paris guardianship parent and rehome broader material to coherent popular-sovereignty, franchise and Guard subjects."
+      },
+      "row_sha256": "25f810e989a2bcd6179f55e1f64a113d5cadff92856b90691c8d75163cddcb9d"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 2667,
+      "row": {
+        "requirement_key": "SUBJ-SUCC-7B3E1AAE16C8:retained_source_distinctions:C005-S089",
+        "record_id": "SUBJ-SUCC-7B3E1AAE16C8",
+        "requirement_type": "retained_source_distinctions",
+        "stable_item_id": "C005-S089",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_local_subject_id": "C005-S089",
+          "meaning": "Revolutionary politics increasingly interpreted disagreement through plots, treason, aristocracy, and threatened popular punishment.",
+          "qualification": "The author regards this paranoia as both a deterrent to real opponents and a danger to innocent or merely disliked people.",
+          "source_pages": [
+            120,
+            121,
+            128
+          ]
+        },
+        "after": {
+          "source_local_subject_id": "C005-S089",
+          "meaning": "Revolutionary politics increasingly interpreted disagreement through plots, treason, aristocracy, and threatened popular punishment.",
+          "qualification": "The author regards this paranoia as both a deterrent to real opponents and a danger to innocent or merely disliked people.",
+          "source_pages": [
+            120,
+            121,
+            128
+          ]
+        },
+        "independent_basis": "The anti-veto and Marat examples on p. 120 are accurate, but the dossier also requires changing attacks on property franchises (124), Cordeliers newspapers (126), press contention over church property (133), and hostility that isolates Necker (134). Its parent meaning remains a single early Marat intervention and does not express that larger political function. The broader aristocrat accusation on p. 121 is relevant as a language of suspicion, with the source preserving innocent targets. Songs and popular oral celebration on p. 128 do not establish press activity.",
+        "repair_intent": "Rewrite the parent to describe the press as an independent mobilizing and accusatory force across these controversies, keeping Marat as a particular intervention. Rehome the songs/culture evidence to public celebration or political language rather than claiming newspaper support. Move the Church-property press claim to p. 132."
+      },
+      "row_sha256": "cb5fe0866d22c063a0a0ef10faf2f5d1a815091dbf9064b012b03c7f0d22a130"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+        "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+        "bytes": 128966
+      },
+      "line_one_based": 104,
+      "row": {
+        "source_subject_id": "SUBJ-SUCC-3FC7F858D56D",
+        "target_subject_id": "SUBJ-SUCC-1AA4E445D945",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          91,
+          92
+        ],
+        "rationale": "The second Notables oppose doubling; the royal Result grants doubled third-estate representation while leaving voting procedure unresolved.",
+        "relationship_id": "REL-SUCC-99785B6A720B",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S012",
+        "author_proposal_id": "REL-PROP-C001006-4242E78DA566",
+        "verdict": "faithful",
+        "basis": "Pages 91–92 contrast Notables’ rejection of doubling with the royal grant, leaving head voting unresolved; the comparison is direct.",
+        "proposed_fix": "",
+        "reviewed_fields": [
+          "direction",
+          "relationship_type",
+          "source_subject_id",
+          "target_subject_id",
+          "rationale",
+          "evidence_document_pages"
+        ],
+        "old_lineage_ids": [
+          "legacy:REL-492A8A01B75C"
+        ]
+      },
+      "row_sha256": "56f1a2a6e12e3d16f0447561ef5b9729838426adbc6f27a21d707987b60b758c"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/relationship-review.jsonl",
+        "sha256": "db47c8a254305f5fd95ea78bb01d0882e2606e31798b6ef61cc9ec602eb30103",
+        "bytes": 128966
+      },
+      "line_one_based": 106,
+      "row": {
+        "source_subject_id": "SUBJ-SUCC-1AA4E445D945",
+        "target_subject_id": "SUBJ-SUCC-625C5AF207F1",
+        "relationship_type": "leaves_unresolved",
+        "evidence_document_pages": [
+          92,
+          101,
+          102,
+          103
+        ],
+        "rationale": "Doubling the third estate without deciding voting procedure leaves the verification dispute capable of becoming a struggle over separate orders and national authority.",
+        "relationship_id": "REL-SUCC-E1D4C447CDC2",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C004-S013",
+        "author_proposal_id": "REL-PROP-C001006-D05125C767F6",
+        "verdict": "faithful",
+        "basis": "The December doubling left head voting undecided (pp. 92–93), enabling the verification conflict on pp. 101–103. Add p. 93 to the evidence list for the explicit unresolved-procedure statement.",
+        "proposed_fix": "",
+        "reviewed_fields": [
+          "direction",
+          "relationship_type",
+          "source_subject_id",
+          "target_subject_id",
+          "rationale",
+          "evidence_document_pages"
+        ],
+        "old_lineage_ids": [
+          "legacy:REL-3E68B0889B9E"
+        ]
+      },
+      "row_sha256": "db03c8b80107717863edc97b6be035cad7840a36ecd50d02c15a57b66767c80a"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/466",
+      "row": {
+        "evidence_id": "EVID-SUCC-74C214138AAD",
+        "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+        "source_page": 263,
+        "locator_class": "synthesis_or_conclusion",
+        "disposition": "retain_as_drafted",
+        "source_judgment": "The inspected passage supports this evidence summary in the subject’s reviewed scope; retain its locator classification.",
+        "whole_subject_rationale": "Internal coercive armies differ from field armies and were successively curtailed and dissolved."
+      },
+      "row_sha256": "25a5a8bdf146fc35536ee6cdb05b0ac5ab242b3d97dd4ed0e38edc281ef06fff"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/467",
+      "row": {
+        "evidence_id": "EVID-SUCC-344E67A5005A",
+        "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+        "source_page": 264,
+        "locator_class": "supporting",
+        "disposition": "retain_as_drafted",
+        "source_judgment": "The inspected passage supports this evidence summary in the subject’s reviewed scope; retain its locator classification.",
+        "whole_subject_rationale": "Internal coercive armies differ from field armies and were successively curtailed and dissolved."
+      },
+      "row_sha256": "a5602effcb74d47279aaab20be790910e0bf7261b514a7bc018ff0be59a92551"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/500",
+      "row": {
+        "evidence_id": "EVID-SUCC-952896DEE8C8",
+        "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "source_page": 249,
+        "locator_class": "principal",
+        "disposition": "retain_as_drafted",
+        "source_judgment": "The inspected passage supports this evidence summary in the subject’s reviewed scope; retain its locator classification.",
+        "whole_subject_rationale": "Organizational weakness and fabricated foreign-famine allegations differ from demonstrated insurrection appeals."
+      },
+      "row_sha256": "17ba08e5fcdc37722f2ffae98df3f9aa883d063ec5bb1eac427490bcfe297f9c"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/evidence-ledger.v1.json",
+        "sha256": "5ed97816c75aea3a103245c4a5c48e33146e34644e936caa63bcd6f29c8c9617",
+        "bytes": 292898
+      },
+      "pointer": "/501",
+      "row": {
+        "evidence_id": "EVID-SUCC-A6A3834D6447",
+        "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "source_page": 250,
+        "locator_class": "principal",
+        "disposition": "retain_as_drafted",
+        "source_judgment": "The inspected passage supports this evidence summary in the subject’s reviewed scope; retain its locator classification.",
+        "whole_subject_rationale": "Organizational weakness and fabricated foreign-famine allegations differ from demonstrated insurrection appeals."
+      },
+      "row_sha256": "fdfa404ab924ed15f13dbad552aef8d895fe751d0b400790c359cfb6f9b5e245"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/subject-ledger.v1.json",
+        "sha256": "e91d86604d58b66f07bd9ce0c401a3dbb83307bf12534305cdddfada323d5cb7",
+        "bytes": 150235
+      },
+      "pointer": "/109",
+      "row": {
+        "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+        "disposition": "retain_as_drafted",
+        "source_pages": [
+          251,
+          252,
+          258,
+          263,
+          264,
+          271
+        ],
+        "editorial_reason": "Internal coercive armies differ from field armies and were successively curtailed and dissolved.",
+        "reviewed_fields": [
+          "label",
+          "meaning",
+          "stance",
+          "priority",
+          "acceptable_access (including aliases)",
+          "all evidence IDs and locator classes",
+          "source_treatments",
+          "required_access_facets",
+          "access_scope_rule",
+          "editorial_rationale and provenance"
+        ],
+        "priority_disposition": "retain major",
+        "all_original_evidence_ids": [
+          "EVID-SUCC-BA922FE744AD",
+          "EVID-SUCC-374AF03EFB9D",
+          "EVID-SUCC-D81450C5FC7B",
+          "EVID-SUCC-74C214138AAD",
+          "EVID-SUCC-344E67A5005A",
+          "EVID-SUCC-6B32C9F4E8C4"
+        ],
+        "correction_reasons": [],
+        "final_repaired_record_approved": false
+      },
+      "row_sha256": "94f55d9d290bb8f2d390b92f05ccee13e49e18cf8f169d3722fb4b77b87e760f"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/subject-ledger.v1.json",
+        "sha256": "e91d86604d58b66f07bd9ce0c401a3dbb83307bf12534305cdddfada323d5cb7",
+        "bytes": 150235
+      },
+      "pointer": "/117",
+      "row": {
+        "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+        "disposition": "retain_as_drafted",
+        "source_pages": [
+          249,
+          250,
+          252,
+          267,
+          268,
+          269,
+          270
+        ],
+        "editorial_reason": "Organizational weakness and fabricated foreign-famine allegations differ from demonstrated insurrection appeals.",
+        "reviewed_fields": [
+          "label",
+          "meaning",
+          "stance",
+          "priority",
+          "acceptable_access (including aliases)",
+          "all evidence IDs and locator classes",
+          "source_treatments",
+          "required_access_facets",
+          "access_scope_rule",
+          "editorial_rationale and provenance"
+        ],
+        "priority_disposition": "retain major",
+        "all_original_evidence_ids": [
+          "EVID-SUCC-952896DEE8C8",
+          "EVID-SUCC-A6A3834D6447",
+          "EVID-SUCC-D4AEDE702C26",
+          "EVID-SUCC-AA9EE73544FA",
+          "EVID-SUCC-B1635DFA012A",
+          "EVID-SUCC-6C7BED7710D0",
+          "EVID-SUCC-547CEBB69221",
+          "EVID-SUCC-6CF22915C4C0",
+          "EVID-SUCC-C5574E1C16F9"
+        ],
+        "correction_reasons": [],
+        "final_repaired_record_approved": false
+      },
+      "row_sha256": "993dd006df03bc9f47431e8b300bd405a0fc0065c0ab0a0981a58be2d1dcb9ff"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/source-first-chunk-013.json",
+        "sha256": "e557b9b0b6151bd2b61404357739ef8814b30b30a7c6582a9a969d3e7f1a703e",
+        "bytes": 17080
+      },
+      "pointer": "/uncertainties/0",
+      "row": {
+        "uncertainty_id": "ISR-U013-01",
+        "source_page_labels": [
+          "297",
+          "303",
+          "310"
+        ],
+        "issue": "Page 303 visibly prints 13 June programme; pages 297 and 310 identify 23 June. Preserve as source inconsistency rather than silently normalizing all evidence.",
+        "status": "source_inconsistency_confirmed_by_render"
+      },
+      "row_sha256": "e30527d2a1b1c6b318be1048c08193506e5d1f1ea5bceed53f972d026c258161"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/lead/historical-requirement-review.042-054.v1.json",
+        "sha256": "ac2c71c0d63b1e798ea6c6dbc1500bd5f439ab172a94dff96f956c91f6a2a750",
+        "bytes": 20205
+      },
+      "pointer": "/rows/2",
+      "row": {
+        "subject_id": "SUBJ-SUCC-33CF41F89E1A",
+        "historical_subject_keys_reviewed": [
+          "legacy:SUBJ-415E3CD4F39E",
+          "legacy:SUBJ-AAADF12EC22E",
+          "legacy:SUBJ-FB5E74E4B9EE",
+          "native:SUBJ-0453",
+          "native:SUBJ-0477"
+        ],
+        "historical_evidence_keys_reviewed": [
+          "legacy:SUBJ-415E3CD4F39E:EVID-191C7C4A56BB",
+          "legacy:SUBJ-415E3CD4F39E:EVID-F933DDFE6C33",
+          "legacy:SUBJ-415E3CD4F39E:EVID-E591A7E8D9E2",
+          "legacy:SUBJ-415E3CD4F39E:EVID-E525BBE30496",
+          "legacy:SUBJ-AAADF12EC22E:EVID-3EFC6040600C",
+          "legacy:SUBJ-AAADF12EC22E:EVID-79645DA131E5",
+          "legacy:SUBJ-FB5E74E4B9EE:EVID-3E5430C75264",
+          "legacy:SUBJ-FB5E74E4B9EE:EVID-32254CEF15EF",
+          "legacy:SUBJ-FB5E74E4B9EE:EVID-965E8609E8B1",
+          "legacy:SUBJ-FB5E74E4B9EE:EVID-CB5F4F51D807",
+          "legacy:SUBJ-FB5E74E4B9EE:EVID-16DC1C7579CF",
+          "legacy:SUBJ-FB5E74E4B9EE:EVID-7466FC716288",
+          "native:SUBJ-0453:EVID-0453-001",
+          "native:SUBJ-0453:EVID-0453-002",
+          "native:SUBJ-0453:EVID-0453-003",
+          "native:SUBJ-0453:EVID-0453-004",
+          "native:SUBJ-0477:EVID-0477-001",
+          "native:SUBJ-0477:EVID-0477-002"
+        ],
+        "source_grounded_disposition": "All old fields/evidence inspected. Restoration programme and limited-monarchy alternative can compare recurrent full-restoration demands against irreversible representative gains and possible electoral stability.303 and307 are distinct programmes, not timeless identical text.302 royal coercion/Assembly illegitimacy and307 Church/orders/courts/property must be explicit.317C0B7A8DB569F should state elections as the viable route, not only abstract potential popularity.303 printed13June versus297/31023June is preserved uncertainty. The Royal Session parent retains only its own1789 episode; later303/310 programme evidence is not equivalent support for that earlier event.",
+        "status": "historical_semantic_mapping_reviewed_repairs_and_cross_destination_closure_pending"
+      },
+      "row_sha256": "5e0a4b5948d735fead5b69ec2a2cce9efe7d055b4c449020c5c31bd05cb94723"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.001-005.v1.json",
+        "sha256": "658c7ef1f078788160555edd69551c728b40f7fe2bbd7fc17c7d1d948121b1d6",
+        "bytes": 117742
+      },
+      "pointer": "/rows/0",
+      "row": {
+        "subject_id": "SUBJ-SUCC-1DB77B316BEB",
+        "disposition": "106–107actual refusal/backdown now explicit in parent; princes’ concession ceiling repointed298→297. The30313June versus297/31023June programme discrepancy remains a source uncertainty, not a corrected event date."
+      },
+      "row_sha256": "1fdb9ac05c0cd777c55cdb82f2d7377fa29c43bd90dc9ded90c996fd1629e79b"
+    },
+    {
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-additional-tasks/retained-source-uncertainties.v1.json",
+        "sha256": "197895ce32a91bc5d8dc7c005d965d93f396c84c7eb1449ca612e5e602b141ba",
+        "bytes": 1558
+      },
+      "pointer": "/source_inconsistencies/0",
+      "row": {
+        "pages": [
+          297,
+          303,
+          310
+        ],
+        "issue": "The source recalls the royal programme as13June on303but23June on297/310. Preserve the discrepancy rather than silently harmonizing it."
+      },
+      "row_sha256": "ae6a7545a2aa7aa67f0b588068fc26b25b13a0ebd229b45e592effae83b24cb6"
+    }
+  ],
+  "dispositions": [
+    {
+      "finding_id": "PBF-012",
+      "entity_id": "SUBJ-SUCC-C5578768FEE3",
+      "rationale": "98–99 support election-campaign disorders and the April Reveillon episode.109 distinguishes spring supply efforts from disturbances in May–July and the armed July rising. It cannot make that later recurrence a pre-May event. Earlier review already removed the109 evidence but did not remove109 from the sole retained distinction. Correct only that list.",
+      "before_sha256": "872e1708b74161256b4d2b4ad028c5319f5f542ba65d26bb5bca600c629a27c5",
+      "proposed_sha256": "fa3f73a2f3df2c3c31bfd33d23c9fac57c5b9f5d2f83b84c9cc3f2787824a332"
+    },
+    {
+      "finding_id": "PBF-013",
+      "entity_id": "SUBJ-SUCC-F066F35B29BE",
+      "rationale": "141 explicitly places inventorying before sale while religious houses close;142 continues with political loyalty and polarization. Preserve the inventory/sale-preparation distinction already correctly stated by54E6 and retained057. The contrary shorthand also appears in three main/treatment/facet copies, so qualify those rather than changing the evidence alone. The actual subsequent sale of lands elsewhere in the book is not denied.",
+      "before_sha256": "fba8722926a2120d0646412ba29b01bcfece8a5e292a775d3e69d2f56ce5973c",
+      "proposed_sha256": "8589941943a3009b40081fd00f2e168ed4c49dbc8a8aea6639fa162a962804c0"
+    },
+    {
+      "finding_id": "PBF-014",
+      "entity_id": "SUBJ-SUCC-45D9EA9DAAF0",
+      "rationale": "The election sentence truly spans99–100:99 states that only22 sovereign-court magistrates were elected, and100 names Duport, Freteau and d'Epremesnil among them. The named individual predicate is absent from99 alone. Anchor the existing supporting evidence at100 with its99 antecedent explicit, and preserve99–100 as the real contextual span in source-treatment/facet/retained metadata. No new evidence, person or election requirement is introduced; no claim that99 lacks meaningful group context.",
+      "before_sha256": "be171e5c46453fdd81b08fad08df912042da01127821f61040b48bf1d20a5ed6",
+      "proposed_sha256": "b57446cce69872ed6d9113f3425a879665bf93b17e8164e4b69182a19771619c"
+    },
+    {
+      "finding_id": "PBF-015",
+      "entity_id": "REL-SUCC-F20FE071F595",
+      "rationale": "Full153 assigns permanent vigilance committees to local authorities, then separately describes anxious patriots crowding Jacobin clubs and the clubs' divisions. Preserve flight-to-club mobilization, but remove the actor-blurring vigilance operator and rationale. Existing endpoints explicitly qualify wider emergency versus club participation; the prior lead edge review narrowed pages but did not implement that actor qualification. No new requirement, edge, subject, evidence or task is needed.",
+      "before_sha256": "47e0d7c3a861a11dc2aa1e62e6bed73c6308d75ec167a13fb564ffe055909435",
+      "proposed_sha256": "cc012108851a9c435085cc3aefb6e2622e3d47483fa6b5ce2e1e56b9e30be0af"
+    },
+    {
+      "finding_id": "PBF-016",
+      "entity_id": "SUBJ-SUCC-C1C93BC08ECB",
+      "rationale": "Earlier87/90/91/95/98/103/104 concern celebration, petitions, order conflict, election disturbances and publicity antecedents. Their evidence was already rehomed by prior review. The dated July facet and matching treatment retained stale page arrays. Align them to the scoped parent and retained077/105, preserving107 explicitly as the immediate June military/popular antecedent already retained by the parent, not claiming it narrates12–14July. Earlier topics remain under their previously reviewed distinct parents.",
+      "before_sha256": "6f66491bd1429efb534300e19c11414f7e718f2eb6304fa8273c9cc12037f5aa",
+      "proposed_sha256": "5aafe4eaa59bed80f7452eeafa05e4d990b09bf829b1d55ed34a3376f8be97e6"
+    },
+    {
+      "finding_id": "PBF-017",
+      "entity_id": "SUBJ-SUCC-6A5ADB894FAD",
+      "rationale": "126 supports the coercive municipal-law predicate and ends by introducing the need for reliability.128 supplies uniform-cost, active-citizen and oath restrictions. Narrow the compound126 summary, explicitly locating the continuation without moving the genuine126 evidence or adding a new requirement. The existing Guard parent2056 separately and correctly preserves128 social narrowing.",
+      "before_sha256": "9dd5cb78b1ef437108b31f6da3ac4b93630c080befdc0ac75d79300622873733",
+      "proposed_sha256": "a61ec548df0b5d63e1cf9132525fab8bcac870ea55d717196cb3fb5bee954ad5"
+    },
+    {
+      "finding_id": "PBF-018",
+      "entity_id": "SUBJ-SUCC-8C547916DFE5",
+      "rationale": "126 supports the coercive municipal-law predicate and ends by introducing the need for reliability.128 supplies uniform-cost, active-citizen and oath restrictions. Narrow the compound126 summary, explicitly locating the continuation without moving the genuine126 evidence or adding a new requirement. The existing Guard parent2056 separately and correctly preserves128 social narrowing.",
+      "before_sha256": "7993a71ac99b08e32da8768d5f4ca5b9a642420173ae71c9c23e8846560cfd99",
+      "proposed_sha256": "ca55b680538d8b061735e9501712138313409cd8e6ccef60a4747d217e628b10"
+    },
+    {
+      "finding_id": "PBF-019",
+      "entity_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "rationale": "128 contains anti-aristocratic threats in a song amid noble alienation, not newspaper activity. The revised parent and specific task077FE592CCA7 limit this retained portion to newspaper cultivation of suspicion. Prior repair expressly separated songs but left the retained array unchanged. Remove128 from this parent-qualified portion; retain the valid120–121 suspicion claim and existing separate song/festival treatment. The independent133→132 correction is already included in selected proposalv4 and is preserved.",
+      "before_sha256": "32be015f478c1e1357c2f028be7972752180d056c01c56db6d5a10f4a7ef40c3",
+      "proposed_sha256": "77167c49468ed8d96039eadaeceb263038d9af295c1a0bee01f7b8f24bda9da3"
+    },
+    {
+      "finding_id": "PBF-020",
+      "entity_id": "UNC-ISR-PAGE303-JUNE-PROGRAMME",
+      "rationale": "Explicit non-weighted disclosure of the genuine supplied-source disagreement; no date, meaning, evidence, task or priority is silently corrected.",
+      "before_sha256": null,
+      "proposed_sha256": "210bb375a3443f3c2a9ca23b2835c0d352c211805674e577dbe5211e3e663e95"
+    },
+    {
+      "finding_id": "PBF-021",
+      "entity_id": "REL-SUCC-99785B6A720B",
+      "rationale": "91 records the Notables' rejection;93 states the Result's contrasting concession and deferred voting.92 is adjacent petition/provincial context, not the stated Result predicate.",
+      "before_sha256": "5a01fc474f2e25b557f8b8fb990a1c7d69dc53e83ae5f40a92f252f4147c5f0d",
+      "proposed_sha256": "eeeb1174f737f0e449c77549fe99c129da9ed507f9b03d1e187c24946dfbd955"
+    },
+    {
+      "finding_id": "PBF-022",
+      "entity_id": "REL-SUCC-E1D4C447CDC2",
+      "rationale": "93 states the unresolved voting settlement.101–103 show its May/June continuation into verification deadlock. Replace adjacent92 with the actual premise page, preserving the operator, endpoint scopes and ensuing procedural evidence.",
+      "before_sha256": "61a39ab0700370c6550a197f55365953646a0831a29a329b54097baad7f716b7",
+      "proposed_sha256": "c6e340b588e3f3f610501821cf6df7efd0dac8d63c52055aa03b7f662444347d"
+    },
+    {
+      "finding_id": "PBF-023",
+      "entity_id": "SUBJ-SUCC-7FD46BD9C318",
+      "rationale": "249 ends with the appropriation of Roux's programme and identifies the communal roles.250 supplies the best-selling newspaper and specific demands. Preserve both existing pages and IDs; split the compound summary across their already existing rows instead of moving the249 evidence wholesale and losing its valid predicate.",
+      "before_sha256": "0bf3eb01d380bfc64fa6d9e68a8fd44dafa41c9ff40adf1519e1f6874a66401c",
+      "proposed_sha256": "f3d9d23bfe0ba0becafed32adc6534b2eb60d8ef11ab2f7de30c7a068f2f81be"
+    },
+    {
+      "finding_id": "PBF-024",
+      "entity_id": "SUBJ-SUCC-7754A8D39F3E",
+      "rationale": "263 supports abolition of unofficial local bodies, including local armies.264 explicitly supplies the single centrally supervised force and delayed implementation. Narrow263 and make the existing264 continuation explicit without changing IDs, pages, classes, parent scope or tasks.",
+      "before_sha256": "79f403c1729f0cabe2c895da1bb7434bb8ba48c19348d9cfc38c7248a49e8723",
+      "proposed_sha256": "b6fdb983dc6d1b5c888f2958ebf7c5b6a9587f05f1c0b7cf0517b256d7e7e18f"
+    }
+  ],
+  "preservation": "All historical and previously frozen bytes remain unchanged. Current page-local qualifications supersede only the exact portions named; broad original mappings do not defeat direct source evidence. The original whole-book review is reused for all untouched portions."
+}

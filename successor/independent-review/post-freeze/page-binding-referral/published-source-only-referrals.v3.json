@@ -1,0 +1,417 @@
+{
+  "schema_version": "private-source-only-referrals-v3",
+  "rows": [
+    {
+      "referral_id": "SOURCE-PAGE-SCOPE-REL-SUCC-0EC046BA86DD",
+      "relationship_id": "REL-SUCC-0EC046BA86DD",
+      "exact_frozen_relationship": {
+        "source_subject_id": "SUBJ-SUCC-8091E0F5C8B0",
+        "target_subject_id": "SUBJ-SUCC-E64A7C4235E5",
+        "relationship_type": "conflicts_with",
+        "evidence_document_pages": [
+          11,
+          12,
+          19
+        ],
+        "rationale": "Large commercial cultivators seek enclosure and concentrated use while villages defend collective grazing and other common rights; this is a conflict of uses, not a universal opposition between all farmers and all peasants.",
+        "relationship_id": "REL-SUCC-0EC046BA86DD",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S013",
+        "author_proposal_id": "REL-PROP-C001006-4C8D40BC128E"
+      },
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pointer": "/relationships/381",
+      "disputed_evidence_document_pages": [
+        19
+      ],
+      "fresh_full_source_page_read": 19,
+      "rationale": "The whole page19 concerns former domestic servants, apprenticeship, journeymen, Ménétra, compagnonnages and master guilds. It supplies no commercial-farmer versus village-common-rights evidence. The substantive land-use conflict is present on11 and village collective defense16–17; preserve the grounded relation while the extraneous19 evidence component awaits source-only disposition.",
+      "status": "pending_source_only_evidence_scope_disposition",
+      "core_relationship_rejected": false,
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "exact_object_sha256": "92693251db506d365cbe7558f18c596ed08b49025b3338bef4cb73209c9c7c8c"
+    },
+    {
+      "referral_id": "SOURCE-PAGE-SCOPE-REL-SUCC-6346B62FAB7C",
+      "relationship_id": "REL-SUCC-6346B62FAB7C",
+      "exact_frozen_relationship": {
+        "source_subject_id": "SUBJ-SUCC-B6818330CE83",
+        "target_subject_id": "SUBJ-SUCC-4A0D9CB97E23",
+        "relationship_type": "contrasts_with",
+        "evidence_document_pages": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "rationale": "Naval selection and technical competence contrast with the army officer corps’s purchase, social distance and uneven professional access; restrict the comparison to recruitment and competence.",
+        "relationship_id": "REL-SUCC-6346B62FAB7C",
+        "resolution_status": "resolved",
+        "source_local_subject_id": "SUCC-C001-S040",
+        "author_proposal_id": "REL-PROP-C001006-00E1414E6DFC"
+      },
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pointer": "/relationships/382",
+      "disputed_evidence_document_pages": [
+        33
+      ],
+      "fresh_full_source_page_read": 33,
+      "rationale": "The whole page33 concerns clergy composition, local ecclesiastical presence, Church land/tithes, exemption, Assembly/Agency and corporate finance. It supplies no navy/army recruitment or technical-competence comparison. The comparison is grounded on30–32; preserve it while the extraneous33 evidence component awaits source-only disposition.",
+      "status": "pending_source_only_evidence_scope_disposition",
+      "core_relationship_rejected": false,
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "exact_object_sha256": "062e3701e0fc75c4e9ed6e260ecac60945856284534d31d8720be6757eb8953a"
+    },
+    {
+      "referral_id": "SOURCE-PAGE-EVID-SUCC-7A2F098446C6",
+      "parent_id": "SUBJ-SUCC-C3088DA62479",
+      "evidence_id": "EVID-SUCC-7A2F098446C6",
+      "exact_frozen_evidence": {
+        "document_page": 57,
+        "source_page_label": "57",
+        "locator_class": "synthesis_or_conclusion",
+        "evidence_summary": "Longer edict preambles, published refutations, and Maupeou's hired writers show ministers courting opinion.",
+        "evidence_id": "EVID-SUCC-7A2F098446C6",
+        "source_local_subject_id": "SUCC-C002-S015",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pointer": "/subjects/116/evidence/6",
+      "fresh_full_source_pages_read": [
+        56,
+        57
+      ],
+      "rationale": "Fresh full56 contains longer edict preambles, refuted remonstrances and Maupeou hiring writers; full57 starts with the conclusion of an observer warning and then Seven Years War/Physiocracy. The specified ministerial-publicity examples are physically on56, not57.",
+      "status": "coordinator_confirmed_correction_pending_final_rebinding",
+      "core_treatment_rejected": false,
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "exact_object_sha256": "3e1c0af14f99eab375b31f3b7117413304488c9579334afe1107cf0ebddfc48e"
+    },
+    {
+      "referral_id": "SOURCE-PAGE-EVID-SUCC-0B6249083880",
+      "parent_id": "SUBJ-SUCC-6F86A8D885F6",
+      "evidence_id": "EVID-SUCC-0B6249083880",
+      "exact_frozen_evidence": {
+        "document_page": 58,
+        "source_page_label": "58",
+        "locator_class": "supporting",
+        "evidence_summary": "The many customary, feudal, fiscal, corporate, and local constraints targeted by reform are enumerated.",
+        "evidence_id": "EVID-SUCC-0B6249083880",
+        "source_local_subject_id": "SUCC-C002-S017",
+        "source_chunk_id": "CHUNK-002"
+      },
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pointer": "/subjects/118/evidence/4",
+      "fresh_full_source_pages_read": [
+        57,
+        58
+      ],
+      "rationale": "Fresh full57 ends with the enumerated customary/collective practices, feudal dues, indirect taxes, internal tolls/customs, guild monopolies and privileges. Full58 narrows to the grain-control apparatus. The general enumeration is on57, not58.",
+      "status": "coordinator_confirmed_correction_pending_final_rebinding",
+      "core_treatment_rejected": false,
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "exact_object_sha256": "b5fd71f297f6ae138f2a17c939911bf6793408477e197795db601c46dfc773c6",
+      "related_alignment_objects": [
+        {
+          "pointer": "/subjects/118/retained_source_distinctions/1",
+          "exact_value": {
+            "source_local_subject_id": "CHUNK-002-S060",
+            "meaning": "Economic freedom required a powerful state to sweep away collective practices, feudal dues, taxes, internal barriers, guilds, monopolies, and privileges; richer producers would then enlarge royal tax capacity.",
+            "qualification": "Preserve the paradox that laissez-faire ends implied coercive, interventionist means and strong government.",
+            "source_pages": [
+              57,
+              58
+            ]
+          },
+          "exact_object_sha256": "f62f363b35e49b247db320187c5f4a9f905065b7050af5d99e0391b02b906063",
+          "coordinator_confirmed_update": "source_pages [57,58] to [57]; broader facet and treatment retain [57,58] for the separate grain passage"
+        }
+      ]
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-E5CD9F2A376A-C003-S043",
+      "parent_id": "SUBJ-SUCC-E5CD9F2A376A",
+      "requirement_or_evidence_id": "C003-S043",
+      "source_pointer": "/subjects/156/retained_source_distinctions/0",
+      "exact_frozen_object": {
+        "source_local_subject_id": "C003-S043",
+        "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+        "qualification": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "source_pages": [
+          83
+        ]
+      },
+      "exact_object_sha256": "17bfb470c67da02ad4597cad7363883ee21fbd3015314f04df42e9421a8aa0f4",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        83
+      ],
+      "source_read_basis": "Complete source83 previously inspected in the preserved preparatory review and compatible current parent/evidence re-read",
+      "rationale": "Current parent/evidence distinguishes rooftop missiles from firing and does not attribute all deaths/injuries to tiles. Retained wording still says rooftop projectiles caused deaths and injuries. Align the subordinate causal claim with the qualified parent.",
+      "status": "pending_source_only_alignment_disposition",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/156"
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-C5578768FEE3-CHUNK-004-S042",
+      "parent_id": "SUBJ-SUCC-C5578768FEE3",
+      "requirement_or_evidence_id": "CHUNK-004-S042",
+      "source_pointer": "/subjects/175/retained_source_distinctions/0",
+      "exact_frozen_object": {
+        "source_local_subject_id": "CHUNK-004-S042",
+        "meaning": "Market riots, popular price setting, searches for hoarded grain, tax resistance, and attacks on property accompanied the election campaign.",
+        "qualification": "The source treats these disturbances as grounded in real scarcity and unemployment but not reducible to the constitutional programme of educated patriots.",
+        "source_pages": [
+          98,
+          99,
+          109
+        ]
+      },
+      "exact_object_sha256": "0980aeee44bb013a342ebe7a0fcba88657179f7212cce7fe9999ff9e388a8047",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        98,
+        99,
+        109
+      ],
+      "source_read_basis": "Fresh full98 and compatible earlier full99/109 source review; current revised parent and all subordinate requirements read",
+      "rationale": "Revised parent bounds the pre-May/election campaign disturbance and distinguishes July. The retained election-campaign distinction still includes109, which belongs to July; retain grounded98–99 and source-adjudicate the stale109 scope.",
+      "status": "pending_source_only_alignment_disposition",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/175"
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-C1C93BC08ECB-FACET-SUCC-C004-S041",
+      "parent_id": "SUBJ-SUCC-C1C93BC08ECB",
+      "requirement_or_evidence_id": "FACET-SUCC-C004-S041",
+      "source_pointer": "/subjects/37/required_access_facets/0",
+      "exact_frozen_object": {
+        "facet_id": "FACET-SUCC-C004-S041",
+        "label": "Paris uprising, 12-14 July 1789",
+        "meaning": "The popular arming of Paris after Necker's dismissal, attacks on toll gates and suspected grain stores, and the electors' attempt to organize a militia.",
+        "stance": "Subsistence fear, anti-clerical suspicion, and expectation of military attack fused into an armed movement beyond the immediate control of propertied patriots.",
+        "acceptable_access": [
+          "Paris uprising, July 1789",
+          "Insurrection of 12-14 July",
+          "Customs wall > destruction",
+          "popular intervention, 1788-1789",
+          "crowds and the constitutional revolution",
+          "people and National Assembly",
+          "Paris toll gates—July 1789",
+          "customs wall—destruction",
+          "octroi revolt",
+          "Saint-Lazare—looting",
+          "grain hoarding—Saint-Lazare",
+          "anti-clerical violence, July 1789",
+          "Invalides—arms seizure",
+          "14 July 1789—Invalides",
+          "cannon used at Bastille",
+          "Paris—political mobilization",
+          "Paris and Estates-General",
+          "Attacks on Paris toll gates and customs wall",
+          "Saint-Lazare grain search and anti-clerical violence",
+          "Seizure of arms at the Invalides",
+          "Paris uprising, 12-14 July 1789"
+        ],
+        "document_pages": [
+          87,
+          90,
+          91,
+          95,
+          98,
+          103,
+          104,
+          107,
+          109,
+          110,
+          111
+        ],
+        "independently_weighted": false
+      },
+      "exact_object_sha256": "ad39eff01ddf8f0082ab073f3478b93616984f9fc22065bf338e08cdb0390783",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        87,
+        90,
+        91,
+        95,
+        98,
+        103,
+        104,
+        107,
+        109,
+        110,
+        111
+      ],
+      "source_read_basis": "Compatible full-page preparatory evidence and current exact parent/facet/retained-distinction review",
+      "rationale": "Facet label/meaning describes the July12–14 uprising but retains earlier87/90/91/95/98/103/104 pages after parent and retained S077/S105 were narrowed to July with107 antecedent. Align stale facet page scope; do not erase the earlier topics from their independent parents.",
+      "status": "pending_source_only_alignment_disposition",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/37"
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-6A5ADB894FAD-EVID-SUCC-7990A9A62DE8",
+      "parent_id": "SUBJ-SUCC-6A5ADB894FAD",
+      "requirement_or_evidence_id": "EVID-SUCC-7990A9A62DE8",
+      "source_pointer": "/subjects/205/evidence/12",
+      "exact_frozen_object": {
+        "document_page": 126,
+        "source_page_label": "126",
+        "locator_class": "principal",
+        "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+        "evidence_id": "EVID-SUCC-7990A9A62DE8",
+        "source_local_subject_id": "SUCC-C005-S018",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "exact_object_sha256": "77a3dc4f779ba7892aee00a5de0d1cd4481496e1515aae56a705ef56662707e4",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        126,
+        128
+      ],
+      "source_read_basis": "Fresh full source-page reading in this review",
+      "rationale": "The126 evidence summary combines martial-law powers with a socially narrowed Guard. Full126 describes martial law and ends with the need for reliability; after intervening map127, full128 gives self-funded uniforms, active-citizen restriction and repeated oaths. Align this repeated compound summary as already done for EVID-SUCC-DB484338FD70 under the Guard parent; known126 martial-law treatment remains grounded.",
+      "status": "pending_source_only_alignment_disposition",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/205"
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-8C547916DFE5-EVID-SUCC-267D572896F9",
+      "parent_id": "SUBJ-SUCC-8C547916DFE5",
+      "requirement_or_evidence_id": "EVID-SUCC-267D572896F9",
+      "source_pointer": "/subjects/204/evidence/5",
+      "exact_frozen_object": {
+        "document_page": 126,
+        "source_page_label": "126",
+        "locator_class": "principal",
+        "evidence_summary": "Martial-law powers and a socially narrowed Guard institutionalize control of future crowds.",
+        "evidence_id": "EVID-SUCC-267D572896F9",
+        "source_local_subject_id": "SUCC-C005-S016",
+        "source_chunk_id": "CHUNK-005"
+      },
+      "exact_object_sha256": "1a82c946406190a58f7fb6f1fd46476b0a0d9b8e404ca48b50295242a27e63a0",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        126,
+        128
+      ],
+      "source_read_basis": "Fresh full source-page reading in this review",
+      "rationale": "The126 evidence summary combines martial-law powers with a socially narrowed Guard. Full126 describes martial law and ends with the need for reliability; after intervening map127, full128 gives self-funded uniforms, active-citizen restriction and repeated oaths. Align this repeated compound summary as already done for EVID-SUCC-DB484338FD70 under the Guard parent; known126 martial-law treatment remains grounded.",
+      "status": "pending_source_only_alignment_disposition",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/204"
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-7B3E1AAE16C8-C005-S042",
+      "parent_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "requirement_or_evidence_id": "C005-S042",
+      "source_pointer": "/subjects/201/retained_source_distinctions/0",
+      "exact_frozen_object": {
+        "source_local_subject_id": "C005-S042",
+        "meaning": "Pamphlets and newspapers became permanent mechanisms of popular scrutiny, anti-veto agitation, radical organization, and attacks on suspect leaders.",
+        "qualification": "The press is treated as a major new political force that broadened mobilization while amplifying suspicion and pressure.",
+        "source_pages": [
+          120,
+          124,
+          126,
+          133,
+          134
+        ]
+      },
+      "exact_object_sha256": "a0064c6d30e1532b25468b862f7702d356804a829a54b26997adf8cf3d2a330e",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        120,
+        124,
+        126,
+        132,
+        133,
+        134
+      ],
+      "source_read_basis": "Fresh full120/126/133/134 and compatible full124/132 preparatory review",
+      "rationale": "Retained press distinction lists133, while current parent evidence places Church-property newspaper debate132. Full133 has continuation of attitudes to Church reform, hostile galleries, banks, financiers and assignats; none supplies newspaper treatment. Source-adjudicate132 versus133.",
+      "status": "pending_source_only_alignment_disposition",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/201"
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-7B3E1AAE16C8-C005-S089",
+      "parent_id": "SUBJ-SUCC-7B3E1AAE16C8",
+      "requirement_or_evidence_id": "C005-S089",
+      "source_pointer": "/subjects/201/retained_source_distinctions/2",
+      "exact_frozen_object": {
+        "source_local_subject_id": "C005-S089",
+        "meaning": "Revolutionary politics increasingly interpreted disagreement through plots, treason, aristocracy, and threatened popular punishment.",
+        "qualification": "The author regards this paranoia as both a deterrent to real opponents and a danger to innocent or merely disliked people.",
+        "source_pages": [
+          120,
+          121,
+          128
+        ]
+      },
+      "exact_object_sha256": "a5ebe326eca7fabbf5a3a7962114d83024f83f3d2ebd3d1804b16e65892695b7",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        120,
+        121,
+        128
+      ],
+      "source_read_basis": "Fresh full source-page reading in this review",
+      "rationale": "Revised press parent explicitly excludes songs and festival culture as newspaper evidence. Retained general suspicion distinction still includes128, where the anti-aristocratic threat is added to Ça ira amid noble alienation. Align subordinate scope while preserving grounded press-related suspicion120–121 and the separate Federation/song parent.",
+      "status": "pending_source_only_alignment_disposition",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/201"
+    },
+    {
+      "referral_id": "SOURCE-ALIGNMENT-SUBJ-SUCC-1DB77B316BEB-EVID-SUCC-F5923807D2C9",
+      "parent_id": "SUBJ-SUCC-1DB77B316BEB",
+      "requirement_or_evidence_id": "EVID-SUCC-F5923807D2C9",
+      "source_pointer": "/subjects/0/evidence/9",
+      "exact_frozen_object": {
+        "document_page": 303,
+        "source_page_label": "303",
+        "locator_class": "supporting",
+        "evidence_summary": "Uses the June programme as the benchmark against which the princes' later manifesto appears still less liberal.",
+        "evidence_id": "EVID-SUCC-F5923807D2C9",
+        "source_local_subject_id": "SUCC-C013-S011",
+        "source_chunk_id": "CHUNK-013"
+      },
+      "exact_object_sha256": "0f8dcf60d55279a56545b353f81ac39e20e650bf3b58c755fffdcfb2bd61521a",
+      "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017",
+      "source_pages_reviewed": [
+        297,
+        303,
+        310
+      ],
+      "source_read_basis": "Fresh full source-page reading in this review",
+      "rationale": "Source-internal chronology advisory: full303 literally calls the princes’ reference point the13June programme, whereas297 and310 say23June and identify the Royal Session. Preserve that internal textual discrepancy if the unified parent normalizes to23June; this is not an invented candidate error or a reason to reject the identifiable policy comparison.",
+      "status": "source_internal_discrepancy_advisory_preserve_literal",
+      "candidate_missing_access_inferred": false,
+      "candidate_evidence_included": false,
+      "core_subject_rejected": false,
+      "related_parent_pointer": "/subjects/0"
+    }
+  ],
+  "status": "sealed_bounded_source_alignment_sweep_closed",
+  "scope": "Exact source-only discrepancies identified in the assigned chunks001–006 parents and requirements. This closes the bounded referral batch, not a claim that unfinished candidate access review is complete.",
+  "benchmark_path": "staging/v10/evaluation/migration-v10/selected-release/selected-benchmark.json",
+  "benchmark_file_sha256": "a0721b22e4479cf45392a4108ca46f917fdf41eccf322e2f2e813b23eb4a3017"
+}

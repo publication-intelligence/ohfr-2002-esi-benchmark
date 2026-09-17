@@ -1,0 +1,48 @@
+{
+  "schema_version": "v10-corrected-common-release-selection-v1",
+  "recorded_at": "2026-09-17T11:43:41.951997+00:00",
+  "result": "pass",
+  "supersedes_for_execution": {
+    "path": "study-benchmark-lock.v10.json",
+    "sha256": "d64c91f6c44abedee0422edb9d2f998f8c399e9811844f373d2af4a0390d00be"
+  },
+  "source_handoff": {
+    "path": "successor/access-amendment/source-correction-v4/reviewer/final-source-only-handoff.v1.json",
+    "sha256": "ece3fa77260638c9c83e30143f458660956d702881b882a5c58098538b227ee6"
+  },
+  "study_lock": {
+    "path": "study-benchmark-lock.v10.r2.json",
+    "sha256": "2c7b2a71c2727b572e00d9c444981f17d66067e9e9c1b53db6a68b5f17ace636"
+  },
+  "lock_sha256": "fbbf4f1a3f2f964f7a49fdbb3f4e2c64a4dc87b5b2cf6e33c887941df34795f1",
+  "release_id": "ohfr-2002-successor-v10-2026-09-17-r2",
+  "source_proof_validation_methodology_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "root_supplies_editorial_approval": false,
+  "native_release_lineage_density_access_validation": "pass",
+  "effective_benchmark_equals_frozen_v4_base": true,
+  "subject_count": 531,
+  "task_count": 617,
+  "relationship_count": 500,
+  "v3_to_v4_source_delta": {
+    "subjects": 17,
+    "evidence_rows": 16,
+    "relationships": 5,
+    "uncertainties_added": 1,
+    "subject_page_opportunities": [
+      2080,
+      2079
+    ],
+    "subject_page_class_opportunities": [
+      2393,
+      2395
+    ]
+  },
+  "additional_access_delta": {
+    "subjects": 0,
+    "tasks": 0,
+    "facets": 0,
+    "deltas": 0
+  },
+  "corrected_execution_runtime_adopted_by_this_operation": false,
+  "candidate_states_changed_by_this_operation": false
+}

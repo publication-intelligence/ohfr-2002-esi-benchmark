@@ -1,0 +1,41 @@
+{
+  "final": {
+    "path": "successor/source/source-benchmark.v4.json",
+    "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+    "bytes": 6749669
+  },
+  "review": {
+    "path": "successor/independent-review/source-benchmark-review.v3.json",
+    "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+    "bytes": 473259
+  },
+  "helper": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "interpreter": "/tmp/evaluate-subject-index-gate-venv/bin/python",
+  "proposal_stale_canonical_wrapper": {
+    "stored": "7a91a2c909ce75c7f45859bb9b7045daa053f5764e0403ad1d46181046ee7f93",
+    "native_recomputed": "837904307e35a7745fff36d9065f426a928963ee5868666ef90be75434a9a31d",
+    "handling": "Exact input bytes remain immutable. Final canonical hash is recomputed after authorized wrapper finalization."
+  },
+  "native_final_structure_errors": [],
+  "native_validate_final_data_errors": [],
+  "includes_native_review_schema_and_original_draft_inventory_checks": true,
+  "approved_changes_count": 905,
+  "state_structure": {
+    "state": {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    "check_files": false,
+    "errors": [],
+    "warnings": []
+  },
+  "schema_override": false,
+  "installed_runtime_access": false,
+  "typed_freeze": false,
+  "state_writes": false
+}

@@ -1,0 +1,1291 @@
+{
+  "schema_version": "post-freeze-additive-source-claim-finding-v1",
+  "status": "sealed_source_finding_and_proposal_only; separate_independent_delta_review_pending",
+  "recorded_at": "2026-09-17T10:27:00.464926+00:00",
+  "finding_id": "PBF-011",
+  "origin": "Additional source-only coordinator referral during benchmark application, after v1–v3 proposal seals and while independent review of the ten earlier findings was underway. Those completed checks remain scoped work; finalization is held for this exact new delta. No candidate information supplied or inspected; not fresh source-first discovery.",
+  "prior_sealed_proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v3.json",
+    "sha256": "93e5f70bafe54ca69ec8b5ff0b74be981ba8815c1a5a6814ae23e2d363eb43e2",
+    "bytes": 3972
+  },
+  "frozen_base": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "source_files": [
+    {
+      "path": ".source-only/source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "bytes": 718103
+    },
+    {
+      "path": ".source-only/source/chunks/CHUNK-003.pages.json",
+      "sha256": "137041fcbc7ece6a63fbef85072c760f342fc92b28734410a8aeccd1d5c8a272",
+      "bytes": 3434
+    }
+  ],
+  "actual_source_inspection": [
+    {
+      "document_page": 82,
+      "source_page_label": "82",
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 19,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/day-of-tiles/page82.txt",
+        "sha256": "84f46a4dd4234b9ae086c27718c9cee8280d803d40166a2d7cfa369e95cd540e",
+        "bytes": 2951
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/day-of-tiles/page82.png",
+        "sha256": "07c2d942c071b5d7fe4d83ec70c53754f0a8ebde71fa837826ee1257640d646a",
+        "bytes": 350553
+      }
+    },
+    {
+      "document_page": 83,
+      "source_page_label": "83",
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 20,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/day-of-tiles/page83.txt",
+        "sha256": "aab188aa7805d6269fbf92426ad969d69c170fd0cad29f7cf820354ab4fd4ce6",
+        "bytes": 3098
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/day-of-tiles/page83.png",
+        "sha256": "30a9c1d9a69b291366081d2fada7e789145160cb144b8833d9544cd759f90f8a",
+        "bytes": 354421
+      }
+    },
+    {
+      "document_page": 84,
+      "source_page_label": "84",
+      "chunk_id": "CHUNK-003",
+      "chunk_pdf_page": 21,
+      "full_page_text_read": true,
+      "full_page_render_inspected": true,
+      "restricted_text": {
+        "path": ".source-only/independent-review-work/post-freeze/day-of-tiles/page84.txt",
+        "sha256": "0ca288616250d52f92017b3b23ea3f6acf7a4ab0109cfa35fa8ebf5c571ca370",
+        "bytes": 3049
+      },
+      "restricted_render": {
+        "path": ".source-only/independent-review-work/post-freeze/day-of-tiles/page84.png",
+        "sha256": "a7dac3bcbef5d071a15784709cdb9e1a3b2197a185d7f971e98455e17e531665",
+        "bytes": 357008
+      }
+    }
+  ],
+  "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+  "conclusion": "The source reports four deaths and about forty injuries during the Grenoble riots and separately states that troops were bombarded from rooftops. It does not identify the actions causing the reported casualties. The retained distinction asserts rooftop projectiles caused deaths/injuries, and its copied wording appears in the main, source-treatment and facet meanings. A stance saying not every casualty was assigned to rooftops does not cure that positive unsupported attribution. This is an incomplete implementation of an already explicit earlier repair, not a newly discovered event or changed priority.",
+  "proposed_handling": "Replace only action-specific casualty causation with event-level co-occurrence throughout the one subject; make the uncertainty explicit in main/treatment/facet stances and retained qualification. Neutralize the parallel evidence wording that makes crowds the agent leaving people dead. Preserve the valid event, exile context, rooftop attacks, totals, local significance, optional priority, named routes, evidence IDs/classes/pages and sole linked task.",
+  "before_whole_parent": {
+    "label": "Day of Tiles at Grenoble",
+    "priority": "optional",
+    "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+    "stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+    "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+    "acceptable_access": [
+      "Day of Tiles (Grenoble, 1788)",
+      "Grenoble—resistance to parlementary exile",
+      "Day of Tiles",
+      "Grenoble uprising, 7 June 1788",
+      "Dauphine--resistance to May Edicts",
+      "Day of Tiles at Grenoble"
+    ],
+    "evidence": [
+      {
+        "document_page": 83,
+        "source_page_label": "83",
+        "locator_class": "principal",
+        "evidence_summary": "Grenoble rioters bombarded troops from rooftops; four people died and about forty were injured.",
+        "evidence_id": "EVID-SUCC-402912D5DB77",
+        "source_local_subject_id": "SUCC-C003-S028",
+        "source_chunk_id": "CHUNK-003"
+      },
+      {
+        "document_page": 83,
+        "source_page_label": "83",
+        "locator_class": "principal",
+        "evidence_summary": "Grenoble crowds resist the attempted exile of magistrates, bombard troops from roofs, and leave several dead and many injured in the event later named the Day of Tiles.",
+        "evidence_id": "EVID-SUCC-0E9525FC57BE",
+        "source_local_subject_id": "SUCC-C003-S028",
+        "source_chunk_id": "CHUNK-003"
+      }
+    ],
+    "chapter_provenance": [
+      "CHUNK-003"
+    ],
+    "source_treatments": [
+      {
+        "local_subject_id": "SUCC-C003-S028",
+        "label": "Day of Tiles at Grenoble",
+        "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+        "stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "acceptable_access": [
+          "Day of Tiles (Grenoble, 1788)",
+          "Grenoble—resistance to parlementary exile",
+          "Day of Tiles",
+          "Grenoble uprising, 7 June 1788",
+          "Dauphine--resistance to May Edicts",
+          "Day of Tiles at Grenoble"
+        ],
+        "document_pages": [
+          83
+        ]
+      }
+    ],
+    "source_local_subject_ids": [
+      "SUCC-C003-S028"
+    ],
+    "editorial_rationale": "Whole-record source repair implements the independent review; parent fields explicitly state retained substantive distinctions. Scoped historical portions and retired or rebound requirements are recorded in the repair dispositions.",
+    "access_scope_rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+    "required_access_facets": [
+      {
+        "facet_id": "FACET-SUCC-C003-S028",
+        "label": "Day of Tiles at Grenoble",
+        "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+        "stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "acceptable_access": [
+          "Day of Tiles (Grenoble, 1788)",
+          "Grenoble—resistance to parlementary exile",
+          "Day of Tiles",
+          "Grenoble uprising, 7 June 1788",
+          "Dauphine--resistance to May Edicts",
+          "Day of Tiles at Grenoble"
+        ],
+        "document_pages": [
+          83
+        ],
+        "independently_weighted": false
+      }
+    ],
+    "retained_source_distinctions": [
+      {
+        "source_local_subject_id": "C003-S043",
+        "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+        "qualification": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "source_pages": [
+          83
+        ]
+      }
+    ]
+  },
+  "before_whole_parent_sha256": "3da9d9e1dbc5ac79b8abcfb6654f2a0f1db82e0a18b53e85dea5519d0d48bd83",
+  "proposed_whole_parent": {
+    "label": "Day of Tiles at Grenoble",
+    "priority": "optional",
+    "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+    "stance": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+    "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+    "acceptable_access": [
+      "Day of Tiles (Grenoble, 1788)",
+      "Grenoble—resistance to parlementary exile",
+      "Day of Tiles",
+      "Grenoble uprising, 7 June 1788",
+      "Dauphine--resistance to May Edicts",
+      "Day of Tiles at Grenoble"
+    ],
+    "evidence": [
+      {
+        "document_page": 83,
+        "source_page_label": "83",
+        "locator_class": "principal",
+        "evidence_summary": "Grenoble rioters bombarded troops from rooftops; four people died and about forty were injured.",
+        "evidence_id": "EVID-SUCC-402912D5DB77",
+        "source_local_subject_id": "SUCC-C003-S028",
+        "source_chunk_id": "CHUNK-003"
+      },
+      {
+        "document_page": 83,
+        "source_page_label": "83",
+        "locator_class": "principal",
+        "evidence_summary": "During riots against the attempted exile of Grenoble's magistrates, troops were bombarded from rooftops; four people were killed and about forty injured in the episode remembered as the Day of Tiles.",
+        "evidence_id": "EVID-SUCC-0E9525FC57BE",
+        "source_local_subject_id": "SUCC-C003-S028",
+        "source_chunk_id": "CHUNK-003"
+      }
+    ],
+    "chapter_provenance": [
+      "CHUNK-003"
+    ],
+    "source_treatments": [
+      {
+        "local_subject_id": "SUCC-C003-S028",
+        "label": "Day of Tiles at Grenoble",
+        "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+        "stance": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "acceptable_access": [
+          "Day of Tiles (Grenoble, 1788)",
+          "Grenoble—resistance to parlementary exile",
+          "Day of Tiles",
+          "Grenoble uprising, 7 June 1788",
+          "Dauphine--resistance to May Edicts",
+          "Day of Tiles at Grenoble"
+        ],
+        "document_pages": [
+          83
+        ]
+      }
+    ],
+    "source_local_subject_ids": [
+      "SUCC-C003-S028"
+    ],
+    "editorial_rationale": "Whole-record source repair implements the independent review; parent fields explicitly state retained substantive distinctions. Scoped historical portions and retired or rebound requirements are recorded in the repair dispositions.",
+    "access_scope_rule": "A route must retrieve the stated meaning and qualifications. Main fields include the retained obligations; unweighted facets add no denominator. A listed name alone is insufficient. Eligible captions identify literal topics only; graph interiors and keys are excluded.",
+    "required_access_facets": [
+      {
+        "facet_id": "FACET-SUCC-C003-S028",
+        "label": "Day of Tiles at Grenoble",
+        "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+        "stance": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "acceptable_access": [
+          "Day of Tiles (Grenoble, 1788)",
+          "Grenoble—resistance to parlementary exile",
+          "Day of Tiles",
+          "Grenoble uprising, 7 June 1788",
+          "Dauphine--resistance to May Edicts",
+          "Day of Tiles at Grenoble"
+        ],
+        "document_pages": [
+          83
+        ],
+        "independently_weighted": false
+      }
+    ],
+    "retained_source_distinctions": [
+      {
+        "source_local_subject_id": "C003-S043",
+        "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+        "qualification": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "source_pages": [
+          83
+        ]
+      }
+    ]
+  },
+  "proposed_whole_parent_sha256": "e616a3055e3a61ebd9e5540990d7de067f441db20b7660a1d307aedefcb7198d",
+  "exact_content_changes": [
+    {
+      "pointer": "/subjects/156/evidence/1/evidence_summary",
+      "before": "Grenoble crowds resist the attempted exile of magistrates, bombard troops from roofs, and leave several dead and many injured in the event later named the Day of Tiles.",
+      "proposed": "During riots against the attempted exile of Grenoble's magistrates, troops were bombarded from rooftops; four people were killed and about forty injured in the episode remembered as the Day of Tiles.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/meaning",
+      "before": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/required_access_facets/0/meaning",
+      "before": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/required_access_facets/0/stance",
+      "before": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/retained_source_distinctions/0/meaning",
+      "before": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/retained_source_distinctions/0/qualification",
+      "before": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/source_treatments/0/meaning",
+      "before": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/source_treatments/0/stance",
+      "before": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/stance",
+      "before": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    }
+  ],
+  "all_matching_main_or_nested_claim_occurrences": [
+    {
+      "pointer": "/subjects/156/meaning",
+      "value": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt."
+    },
+    {
+      "pointer": "/subjects/156/stance",
+      "value": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt."
+    },
+    {
+      "pointer": "/subjects/156/evidence/1/evidence_id",
+      "value": "EVID-SUCC-0E9525FC57BE"
+    },
+    {
+      "pointer": "/subjects/156/source_treatments/0/meaning",
+      "value": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt."
+    },
+    {
+      "pointer": "/subjects/156/source_treatments/0/stance",
+      "value": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt."
+    },
+    {
+      "pointer": "/subjects/156/required_access_facets/0/meaning",
+      "value": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt."
+    },
+    {
+      "pointer": "/subjects/156/required_access_facets/0/stance",
+      "value": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt."
+    },
+    {
+      "pointer": "/subjects/156/retained_source_distinctions/0/meaning",
+      "value": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt."
+    }
+  ],
+  "all_same_retained_distinction_occurrences": [
+    {
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+      "pointer": "/subjects/156/retained_source_distinctions/0",
+      "before_record_sha256": "17bfb470c67da02ad4597cad7363883ee21fbd3015314f04df42e9421a8aa0f4",
+      "proposed_record_sha256": "dc4f79ec504deb21762ffbb93de3f8df4eac41a8987f155b90e054eb165fbe4a",
+      "before": {
+        "source_local_subject_id": "C003-S043",
+        "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+        "qualification": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "source_pages": [
+          83
+        ]
+      },
+      "proposed": {
+        "source_local_subject_id": "C003-S043",
+        "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+        "qualification": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "source_pages": [
+          83
+        ]
+      }
+    }
+  ],
+  "all_direct_dependencies": [
+    {
+      "collection": "reader_tasks",
+      "entity_id": "TASK-SUCC-DA535ADA7DEC",
+      "pointer": "/reader_tasks/254",
+      "record_sha256": "9eaa3dfcd104d962df35b8ad8d3c0df56e0e3b4878bee445fd4282bdca6499a7",
+      "subject_dependencies": [
+        "SUBJ-SUCC-E5CD9F2A376A"
+      ],
+      "record": {
+        "task_id": "TASK-SUCC-DA535ADA7DEC",
+        "question": "Identify the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology.",
+        "subject_ids": [
+          "SUBJ-SUCC-C830423C46F8",
+          "SUBJ-SUCC-2FEF2FC2A91D",
+          "SUBJ-SUCC-E5CD9F2A376A"
+        ],
+        "source_task_ids": [
+          "SUCC-C003-S014:1",
+          "SUCC-C003-S020:1",
+          "SUCC-C003-S028:0"
+        ],
+        "fallback_generated": false,
+        "reconciled_task_ids": [
+          "TASK-SUCC-2DCB99036A42",
+          "TASK-SUCC-0185F1FB3FC4",
+          "TASK-SUCC-402912D5DB77"
+        ],
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-A4B67D856560",
+            "question": "What does Doyle identify concerning the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-2FEF2FC2A91D",
+              "SUBJ-SUCC-C830423C46F8",
+              "SUBJ-SUCC-E5CD9F2A376A"
+            ],
+            "historical_task_id": "TASK-A4B67D856560",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+          }
+        ]
+      },
+      "disposition": "retain_unchanged_for_this_correction",
+      "basis": "The whole task and facet ask which groups/local events defeated implementation, explicitly without one unified ideology. Neither makes casualty causation an obligation. Complete82–84 contextual reading supports retaining the Grenoble episode in that inquiry; no task or target change is warranted."
+    }
+  ],
+  "prior_review_records": [
+    {
+      "kind": "initial_subject_review",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+        "sha256": "f4a7e1c02da6a7ee5ceb5c7ae50463424ac4035db05e424de7af065c7a14de06",
+        "bytes": 722569
+      },
+      "line_one_based": 112,
+      "row_sha256": "7a5d283128624cdabd31d11798092aba7cbe48be0f676b3c25724364ce5e5da8",
+      "row": {
+        "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+        "label": "Day of Tiles at Grenoble",
+        "verdict": "revise",
+        "source_pages": [
+          83
+        ],
+        "basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+        "proposed_fix": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action.",
+        "fields_inspected": [
+          "label",
+          "meaning",
+          "stance",
+          "priority",
+          "acceptable_access",
+          "access_scope_rule",
+          "editorial_rationale",
+          "source_treatments",
+          "required_access_facets",
+          "retained_source_distinctions",
+          "evidence"
+        ],
+        "source_treatment_ids": [
+          "SUCC-C003-S028"
+        ],
+        "required_access_facet_ids": [
+          "FACET-SUCC-C003-S028"
+        ],
+        "retained_distinction_ids": [
+          "C003-S043"
+        ],
+        "evidence_reviews": [
+          {
+            "evidence_id": "EVID-SUCC-402912D5DB77",
+            "page": "83",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          },
+          {
+            "evidence_id": "EVID-SUCC-0E9525FC57BE",
+            "page": "83",
+            "verdict": "supported",
+            "basis": "The cited page supports this paraphrased treatment in the subject scope assessed above."
+          }
+        ],
+        "subject_lineage_inspected": true,
+        "evidence_lineage_audit_status": "exact_old_records_and_author_mapping_fields_checked; substantive_deltas_inspected; same_claim_text_reuses_inspected_evidence",
+        "review_status": "whole_subject_initial_verdict_complete; cross_entity_and_source_first_reconciliation_pending",
+        "facet_reviews": [
+          {
+            "facet_id": "FACET-SUCC-C003-S028",
+            "verdict": "revise",
+            "basis": "The facet exactly repeats the inspected parent meaning, stance and acceptable access; the authored subject disposition and fixes apply to this facet.",
+            "source_pages": [
+              83
+            ],
+            "independently_weighted": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1561,
+      "row_sha256": "4baef7eee14e2a9cd5d290e235760442bcf439fb24b34f64a7bc4ef2bbaefe6a",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:parent",
+        "record_id": "SUBJ-SUCC-E5CD9F2A376A",
+        "requirement_type": "parent_subject",
+        "disposition": "replaced_whole_record",
+        "source_pages": [
+          83
+        ],
+        "independent_basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+        "repair_intent": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action.",
+        "proposed_meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+        "proposed_stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+        "priority": "optional"
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1562,
+      "row_sha256": "207297d1f1386398415f86b575ed7a18805a47430ccfd6325d6698010bfefed9",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:evidence:EVID-SUCC-0E9525FC57BE",
+        "record_id": "SUBJ-SUCC-E5CD9F2A376A",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-0E9525FC57BE",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 83,
+          "source_page_label": "83",
+          "locator_class": "principal",
+          "evidence_summary": "Grenoble crowds resist the attempted exile of magistrates, bombard troops from roofs, and leave several dead and many injured in the event later named the Day of Tiles.",
+          "evidence_id": "EVID-SUCC-0E9525FC57BE",
+          "source_local_subject_id": "SUCC-C003-S028",
+          "source_chunk_id": "CHUNK-003"
+        },
+        "after": {
+          "document_page": 83,
+          "source_page_label": "83",
+          "locator_class": "principal",
+          "evidence_summary": "Grenoble crowds resist the attempted exile of magistrates, bombard troops from roofs, and leave several dead and many injured in the event later named the Day of Tiles.",
+          "evidence_id": "EVID-SUCC-0E9525FC57BE",
+          "source_local_subject_id": "SUCC-C003-S028",
+          "source_chunk_id": "CHUNK-003"
+        },
+        "independent_basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+        "repair_intent": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action."
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1563,
+      "row_sha256": "93ec33a10904313b43f8a5d140863af6de2a8c67f427da060cbfbd2fb96a4b4c",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:evidence:EVID-SUCC-402912D5DB77",
+        "record_id": "SUBJ-SUCC-E5CD9F2A376A",
+        "requirement_type": "evidence",
+        "stable_item_id": "EVID-SUCC-402912D5DB77",
+        "disposition": "retained_unchanged",
+        "before": {
+          "document_page": 83,
+          "source_page_label": "83",
+          "locator_class": "principal",
+          "evidence_summary": "Grenoble rioters bombarded troops from rooftops; four people died and about forty were injured.",
+          "evidence_id": "EVID-SUCC-402912D5DB77",
+          "source_local_subject_id": "SUCC-C003-S028",
+          "source_chunk_id": "CHUNK-003"
+        },
+        "after": {
+          "document_page": 83,
+          "source_page_label": "83",
+          "locator_class": "principal",
+          "evidence_summary": "Grenoble rioters bombarded troops from rooftops; four people died and about forty were injured.",
+          "evidence_id": "EVID-SUCC-402912D5DB77",
+          "source_local_subject_id": "SUCC-C003-S028",
+          "source_chunk_id": "CHUNK-003"
+        },
+        "independent_basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+        "repair_intent": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action."
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1564,
+      "row_sha256": "6d8c8db0cdf0613d853ccaf1df052b4c1e56eca71fc56651baf72afe3c67cbc6",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:source_treatments:SUCC-C003-S028",
+        "record_id": "SUBJ-SUCC-E5CD9F2A376A",
+        "requirement_type": "source_treatments",
+        "stable_item_id": "SUCC-C003-S028",
+        "disposition": "revised_scope_or_claim",
+        "before": {
+          "local_subject_id": "SUCC-C003-S028",
+          "label": "Day of Tiles at Grenoble",
+          "meaning": "Resistance to the exile of Grenoble's parlement produced lethal rooftop attacks on troops on 7 June 1788, remembered as the Day of Tiles.",
+          "stance": "The source uses the episode as a concrete instance of the nationwide escalation against the May reforms rather than developing it as an independent local history.",
+          "acceptable_access": [
+            "Day of Tiles (Grenoble, 1788)",
+            "Grenoble—resistance to parlementary exile",
+            "Day of Tiles",
+            "Grenoble uprising, 7 June 1788",
+            "Dauphine--resistance to May Edicts",
+            "Day of Tiles at Grenoble"
+          ],
+          "document_pages": [
+            83
+          ]
+        },
+        "after": {
+          "local_subject_id": "SUCC-C003-S028",
+          "label": "Day of Tiles at Grenoble",
+          "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+          "stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+          "acceptable_access": [
+            "Day of Tiles (Grenoble, 1788)",
+            "Grenoble—resistance to parlementary exile",
+            "Day of Tiles",
+            "Grenoble uprising, 7 June 1788",
+            "Dauphine--resistance to May Edicts",
+            "Day of Tiles at Grenoble"
+          ],
+          "document_pages": [
+            83
+          ]
+        },
+        "independent_basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+        "repair_intent": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action."
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1565,
+      "row_sha256": "cdcbd43459c941bbdb761313f421d2e98f0968d7ce0c39df08edb0498418244b",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:required_access_facets:FACET-SUCC-C003-S028",
+        "record_id": "SUBJ-SUCC-E5CD9F2A376A",
+        "requirement_type": "required_access_facets",
+        "stable_item_id": "FACET-SUCC-C003-S028",
+        "disposition": "revised_scope_or_claim",
+        "before": {
+          "facet_id": "FACET-SUCC-C003-S028",
+          "label": "Day of Tiles at Grenoble",
+          "meaning": "Resistance to the exile of Grenoble's parlement produced lethal rooftop attacks on troops on 7 June 1788, remembered as the Day of Tiles.",
+          "stance": "The source uses the episode as a concrete instance of the nationwide escalation against the May reforms rather than developing it as an independent local history.",
+          "acceptable_access": [
+            "Day of Tiles (Grenoble, 1788)",
+            "Grenoble—resistance to parlementary exile",
+            "Day of Tiles",
+            "Grenoble uprising, 7 June 1788",
+            "Dauphine--resistance to May Edicts",
+            "Day of Tiles at Grenoble"
+          ],
+          "document_pages": [
+            83
+          ],
+          "independently_weighted": false
+        },
+        "after": {
+          "facet_id": "FACET-SUCC-C003-S028",
+          "label": "Day of Tiles at Grenoble",
+          "meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+          "stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+          "acceptable_access": [
+            "Day of Tiles (Grenoble, 1788)",
+            "Grenoble—resistance to parlementary exile",
+            "Day of Tiles",
+            "Grenoble uprising, 7 June 1788",
+            "Dauphine--resistance to May Edicts",
+            "Day of Tiles at Grenoble"
+          ],
+          "document_pages": [
+            83
+          ],
+          "independently_weighted": false
+        },
+        "independent_basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+        "repair_intent": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action."
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 1566,
+      "row_sha256": "97731fd8950674d7d86a3f86e5fc90b33d70328a5f85a139ad8cb16f85ce695e",
+      "row": {
+        "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:retained_source_distinctions:C003-S043",
+        "record_id": "SUBJ-SUCC-E5CD9F2A376A",
+        "requirement_type": "retained_source_distinctions",
+        "stable_item_id": "C003-S043",
+        "disposition": "retained_unchanged",
+        "before": {
+          "source_local_subject_id": "C003-S043",
+          "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+          "qualification": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+          "source_pages": [
+            83
+          ]
+        },
+        "after": {
+          "source_local_subject_id": "C003-S043",
+          "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+          "qualification": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+          "source_pages": [
+            83
+          ]
+        },
+        "independent_basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+        "repair_intent": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action."
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 3732,
+      "row_sha256": "38014a0b5e3c0b20aabdf72dea9aaff2624e017d90ed4dfd535f05c5f6008d54",
+      "row": {
+        "requirement_key": "TASK-SUCC-DA535ADA7DEC:parent",
+        "record_id": "TASK-SUCC-DA535ADA7DEC",
+        "requirement_type": "reader_task",
+        "disposition": "retained_after_subject_repair",
+        "before": {
+          "task_id": "TASK-SUCC-DA535ADA7DEC",
+          "question": "Identify the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology.",
+          "subject_ids": [
+            "SUBJ-SUCC-C830423C46F8",
+            "SUBJ-SUCC-2FEF2FC2A91D",
+            "SUBJ-SUCC-E5CD9F2A376A"
+          ],
+          "source_task_ids": [
+            "SUCC-C003-S014:1",
+            "SUCC-C003-S020:1",
+            "SUCC-C003-S028:0"
+          ],
+          "fallback_generated": false,
+          "reconciled_task_ids": [
+            "TASK-SUCC-2DCB99036A42",
+            "TASK-SUCC-0185F1FB3FC4",
+            "TASK-SUCC-402912D5DB77"
+          ],
+          "required_access_facets": [
+            {
+              "facet_id": "legacy:TASK-A4B67D856560",
+              "question": "What does Doyle identify concerning the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology?",
+              "required_subject_ids": [
+                "SUBJ-SUCC-2FEF2FC2A91D",
+                "SUBJ-SUCC-C830423C46F8",
+                "SUBJ-SUCC-E5CD9F2A376A"
+              ],
+              "historical_task_id": "TASK-A4B67D856560",
+              "historical_lineage": "legacy",
+              "weight": "unweighted_access_facet",
+              "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+            }
+          ]
+        },
+        "after": {
+          "task_id": "TASK-SUCC-DA535ADA7DEC",
+          "question": "Identify the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology.",
+          "subject_ids": [
+            "SUBJ-SUCC-C830423C46F8",
+            "SUBJ-SUCC-2FEF2FC2A91D",
+            "SUBJ-SUCC-E5CD9F2A376A"
+          ],
+          "source_task_ids": [
+            "SUCC-C003-S014:1",
+            "SUCC-C003-S020:1",
+            "SUCC-C003-S028:0"
+          ],
+          "fallback_generated": false,
+          "reconciled_task_ids": [
+            "TASK-SUCC-2DCB99036A42",
+            "TASK-SUCC-0185F1FB3FC4",
+            "TASK-SUCC-402912D5DB77"
+          ],
+          "required_access_facets": [
+            {
+              "facet_id": "legacy:TASK-A4B67D856560",
+              "question": "What does Doyle identify concerning the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology?",
+              "required_subject_ids": [
+                "SUBJ-SUCC-2FEF2FC2A91D",
+                "SUBJ-SUCC-C830423C46F8",
+                "SUBJ-SUCC-E5CD9F2A376A"
+              ],
+              "historical_task_id": "TASK-A4B67D856560",
+              "historical_lineage": "legacy",
+              "weight": "unweighted_access_facet",
+              "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+            }
+          ]
+        },
+        "independent_basis": "Pages82–84 give distinct local and corporate forms of resistance. Grenoble includes deaths, but the source does not warrant attributing all deaths to rooftop tile attacks.",
+        "repair_intent": "Use corrected2FEF concrete provincial forms and qualifyE5CD accounts of casualties; retain the explicit rejection of a single ideology."
+      }
+    },
+    {
+      "kind": "specific_repair_dispositions",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+        "sha256": "7d49c0fad28bf87813e485a0ebb2dd8a2b979fff46bc8b73099f404b704b329d",
+        "bytes": 7517740
+      },
+      "line_one_based": 3733,
+      "row_sha256": "e6869f771f56dde2f289cfac5479388e70e29f5bcd17f9d6000df0b14667bb64",
+      "row": {
+        "requirement_key": "TASK-SUCC-DA535ADA7DEC:facet:legacy:TASK-A4B67D856560",
+        "record_id": "TASK-SUCC-DA535ADA7DEC",
+        "requirement_type": "task_access_facet",
+        "before": {
+          "facet_id": "legacy:TASK-A4B67D856560",
+          "question": "What does Doyle identify concerning the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology?",
+          "required_subject_ids": [
+            "SUBJ-SUCC-2FEF2FC2A91D",
+            "SUBJ-SUCC-C830423C46F8",
+            "SUBJ-SUCC-E5CD9F2A376A"
+          ],
+          "historical_task_id": "TASK-A4B67D856560",
+          "historical_lineage": "legacy",
+          "weight": "unweighted_access_facet",
+          "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+        },
+        "disposition": "retained_or_scoped_to_parent_question",
+        "proposed_bindings": [
+          {
+            "task_id": "TASK-SUCC-DA535ADA7DEC",
+            "question": "Identify the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology.",
+            "parent_subject_ids": [
+              "SUBJ-SUCC-C830423C46F8",
+              "SUBJ-SUCC-2FEF2FC2A91D",
+              "SUBJ-SUCC-E5CD9F2A376A"
+            ],
+            "facet": {
+              "facet_id": "legacy:TASK-A4B67D856560",
+              "question": "What does Doyle identify concerning the groups and local events that defeated implementation of the May Edicts without assuming a single unified ideology?",
+              "required_subject_ids": [
+                "SUBJ-SUCC-2FEF2FC2A91D",
+                "SUBJ-SUCC-C830423C46F8",
+                "SUBJ-SUCC-E5CD9F2A376A"
+              ],
+              "historical_task_id": "TASK-A4B67D856560",
+              "historical_lineage": "legacy",
+              "weight": "unweighted_access_facet",
+              "binding_rationale": "The exact listed successor question preserves the source inquiry with a direct retrieval or analytical wording. Its scope, rather than string similarity, is the basis of this adjudication."
+            }
+          }
+        ],
+        "cross_shard_referrals": [],
+        "independent_basis": "Pages82–84 give distinct local and corporate forms of resistance. Grenoble includes deaths, but the source does not warrant attributing all deaths to rooftop tile attacks.",
+        "repair_intent": "Use corrected2FEF concrete provincial forms and qualifyE5CD accounts of casualties; retain the explicit rejection of a single ideology.",
+        "unweighted": true
+      }
+    },
+    {
+      "kind": "historical_subject_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+        "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+        "bytes": 5138775
+      },
+      "line_one_based": 393,
+      "row_sha256": "9ca8e4b13b0f56040b0f4beeb947cb1f4bdf7993032aa813f9146603f9e17768",
+      "row": {
+        "review_key": "native:SUBJ-0113",
+        "review_index": 393,
+        "original_lineage_pointer": "/rows/1478",
+        "original_before_sha256": "c615eb5a2e4e526a6a1b02e2a48eafdded1139b24a4081302ecdedcae8fea5cb",
+        "original_before_fields": {
+          "label": "Day of Tiles at Grenoble",
+          "priority": "optional",
+          "meaning": "Resistance to the exile of Grenoble's parlement produced lethal rooftop attacks on troops on 7 June 1788, remembered as the Day of Tiles.",
+          "stance": "The source uses the episode as a concrete instance of the nationwide escalation against the May reforms rather than developing it as an independent local history.",
+          "acceptable_access": [
+            "Day of Tiles at Grenoble",
+            "Day of Tiles (Grenoble, 1788)",
+            "Grenoble—resistance to parlementary exile"
+          ]
+        },
+        "source_pages": [
+          83
+        ],
+        "disposition": "retain_with_exact_prior_correction_or_rebinding",
+        "independent_basis": "Reuse the exact prior inspected meaning/stance and its recorded source-grounded repair disposition, shown below. The current integrated record exactly equals the sealed reviewed value. Historical priority and access are reconciled to the coherent current parent rather than preserved as extra weighted units.",
+        "prior_source_grounded_parent_judgments": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+            "proposed_fix": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action."
+          }
+        ],
+        "literal_meaning_stance_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "draft_meaning_pointer": "/subjects/156/meaning",
+            "draft_stance_pointer": "/subjects/156/stance",
+            "matched_fields_sha256": "0e38effcf0cf4965a4145093eff61939b0c709b43e45790ad6706221d13e4343",
+            "prior_whole_record_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/111",
+              "row_sha256": "7a5d283128624cdabd31d11798092aba7cbe48be0f676b3c25724364ce5e5da8"
+            },
+            "prior_specific_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1560",
+              "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:parent",
+              "row_sha256": "4baef7eee14e2a9cd5d290e235760442bcf439fb24b34f64a7bc4ef2bbaefe6a"
+            },
+            "prior_specific_verdict": "replaced_whole_record",
+            "prior_specific_binding": null,
+            "integrated_subject_equals_prior_completed_whole_proposal_or_unchanged_draft": true
+          },
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "draft_meaning_pointer": "/subjects/156/required_access_facets/0/meaning",
+            "draft_stance_pointer": "/subjects/156/required_access_facets/0/stance",
+            "matched_fields_sha256": "0e38effcf0cf4965a4145093eff61939b0c709b43e45790ad6706221d13e4343",
+            "prior_whole_record_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/111",
+              "row_sha256": "7a5d283128624cdabd31d11798092aba7cbe48be0f676b3c25724364ce5e5da8"
+            },
+            "prior_specific_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1564",
+              "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:required_access_facets:FACET-SUCC-C003-S028",
+              "row_sha256": "cdcbd43459c941bbdb761313f421d2e98f0968d7ce0c39df08edb0498418244b"
+            },
+            "prior_specific_verdict": "revised_scope_or_claim",
+            "prior_specific_binding": null,
+            "integrated_subject_equals_prior_completed_whole_proposal_or_unchanged_draft": true
+          }
+        ],
+        "exact_destination_scopes": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "label": "Day of Tiles at Grenoble",
+            "priority": "optional",
+            "current_record_sha256": "3da9d9e1dbc5ac79b8abcfb6654f2a0f1db82e0a18b53e85dea5519d0d48bd83",
+            "prior_main_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1560",
+              "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:parent",
+              "row_sha256": "4baef7eee14e2a9cd5d290e235760442bcf439fb24b34f64a7bc4ef2bbaefe6a"
+            },
+            "current_main_meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+            "current_main_stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+            "scope": "Use only this coherent parent’s actual temporal/causal scope; no wholesale replication of a broad historical unit under every destination."
+          }
+        ],
+        "retired_author_subject_bindings": [],
+        "priority_disposition": {
+          "old": "optional",
+          "current": {
+            "SUBJ-SUCC-E5CD9F2A376A": "optional"
+          },
+          "judgment": "Retain the source-supported coherent-parent priority justified in the cited prior judgment. Local old optional/major units may form subordinate demands within a larger weighted parent; neither merger nor original count creates a new denominator. Explicit exclusion/retirement dispositions override weighting."
+        },
+        "access_disposition": {
+          "old_routes_literal_in_final_parent": [
+            "Day of Tiles at Grenoble",
+            "Day of Tiles (Grenoble, 1788)",
+            "Grenoble—resistance to parlementary exile"
+          ],
+          "remaining_wording_reviewed_for_semantic_route": [],
+          "judgment": "Compound old labels and typographic variants are not mandatory literal headings. Preserve their specific named, temporal and conceptual routes through the actual repaired main meanings/access above. Narrowed claims follow the exact prior repair; graph-derived routes are retired. Named cross-chapter/remaining obligations are explicit referrals."
+        },
+        "required_referral": null,
+        "closure_scope": "Exact historical subject fields reviewed or reused with precise prior inspection proof. Evidence-key closure is separately enumerated. Final integrated values and cross-owner fulfillment are not approved here."
+      }
+    },
+    {
+      "kind": "historical_subject_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-subject-dispositions.v1.jsonl",
+        "sha256": "b0904ff648e9a25e88680e4b719904a6eeb72d3019cf0caa9a2e2c6489893f3c",
+        "bytes": 5138775
+      },
+      "line_one_based": 395,
+      "row_sha256": "dcc8dfd00c9771352dc158da06c8b116c81a400d1c779320f0d656926e2a001b",
+      "row": {
+        "review_key": "legacy:SUBJ-5D4F73F5073B",
+        "review_index": 395,
+        "original_lineage_pointer": "/rows/346",
+        "original_before_sha256": "c9e37b6cdec37338f5ac03436c3ce7a7f0b44972ff9b99e336affdb3f1d65fac",
+        "original_before_fields": {
+          "label": "Day of Tiles at Grenoble",
+          "priority": "major",
+          "meaning": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+          "stance": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+          "acceptable_access": [
+            "Day of Tiles at Grenoble",
+            "Day of Tiles",
+            "Grenoble uprising, 7 June 1788",
+            "Dauphine--resistance to May Edicts"
+          ]
+        },
+        "source_pages": [
+          83
+        ],
+        "disposition": "retain_by_exact_prior_substantive_inspection",
+        "independent_basis": "Reuse the exact prior inspected meaning/stance and its recorded source-grounded repair disposition, shown below. The current integrated record exactly equals the sealed reviewed value. Historical priority and access are reconciled to the coherent current parent rather than preserved as extra weighted units.",
+        "prior_source_grounded_parent_judgments": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "basis": "Page 83 supports the 7 June confrontation, rooftop bombardment, four dead and roughly forty injured; it does not identify those deaths as directly caused by rooftop projectiles. The standalone optional route is proportionate to a brief significant example within nationwide resistance.",
+            "proposed_fix": "Replace “lethal rooftop attacks” with “riots involving rooftop attacks on troops, with four deaths and about forty injuries”; preserve causal uncertainty rather than assign all casualties to a particular action."
+          }
+        ],
+        "literal_meaning_stance_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "draft_meaning_pointer": "/subjects/156/retained_source_distinctions/0/meaning",
+            "draft_stance_pointer": "/subjects/156/retained_source_distinctions/0/qualification",
+            "matched_fields_sha256": "a59c46b44211130b24ce90e353a798c23e1cd827c01643e0d73650d599e036ac",
+            "prior_whole_record_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/111",
+              "row_sha256": "7a5d283128624cdabd31d11798092aba7cbe48be0f676b3c25724364ce5e5da8"
+            },
+            "prior_specific_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1565",
+              "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:retained_source_distinctions:C003-S043",
+              "row_sha256": "97731fd8950674d7d86a3f86e5fc90b33d70328a5f85a139ad8cb16f85ce695e"
+            },
+            "prior_specific_verdict": "retained_unchanged",
+            "prior_specific_binding": null,
+            "integrated_subject_equals_prior_completed_whole_proposal_or_unchanged_draft": true
+          }
+        ],
+        "exact_destination_scopes": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "label": "Day of Tiles at Grenoble",
+            "priority": "optional",
+            "current_record_sha256": "3da9d9e1dbc5ac79b8abcfb6654f2a0f1db82e0a18b53e85dea5519d0d48bd83",
+            "prior_main_disposition": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1560",
+              "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:parent",
+              "row_sha256": "4baef7eee14e2a9cd5d290e235760442bcf439fb24b34f64a7bc4ef2bbaefe6a"
+            },
+            "current_main_meaning": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+            "current_main_stance": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+            "scope": "Use only this coherent parent’s actual temporal/causal scope; no wholesale replication of a broad historical unit under every destination."
+          }
+        ],
+        "retired_author_subject_bindings": [],
+        "priority_disposition": {
+          "old": "major",
+          "current": {
+            "SUBJ-SUCC-E5CD9F2A376A": "optional"
+          },
+          "judgment": "Retain the source-supported coherent-parent priority justified in the cited prior judgment. Local old optional/major units may form subordinate demands within a larger weighted parent; neither merger nor original count creates a new denominator. Explicit exclusion/retirement dispositions override weighting."
+        },
+        "access_disposition": {
+          "old_routes_literal_in_final_parent": [
+            "Day of Tiles at Grenoble",
+            "Day of Tiles",
+            "Grenoble uprising, 7 June 1788",
+            "Dauphine--resistance to May Edicts"
+          ],
+          "remaining_wording_reviewed_for_semantic_route": [],
+          "judgment": "Compound old labels and typographic variants are not mandatory literal headings. Preserve their specific named, temporal and conceptual routes through the actual repaired main meanings/access above. Narrowed claims follow the exact prior repair; graph-derived routes are retired. Named cross-chapter/remaining obligations are explicit referrals."
+        },
+        "required_referral": null,
+        "closure_scope": "Exact historical subject fields reviewed or reused with precise prior inspection proof. Evidence-key closure is separately enumerated. Final integrated values and cross-owner fulfillment are not approved here."
+      }
+    },
+    {
+      "kind": "historical_evidence_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 733,
+      "row_sha256": "2b8a38ab48c5e62c97791376c15490788dc34fed7df68f0f8dc8c8e81c4b6cae",
+      "row": {
+        "review_key": "native:SUBJ-0113:EVID-0113-001",
+        "lineage": "native",
+        "old_subject_id": "SUBJ-0113",
+        "old_evidence_id": "EVID-0113-001",
+        "review_index": 733,
+        "original_lineage_pointer": "/rows/3494",
+        "original_before_sha256": "13802b22875db01084ab026694f8d6e2b8f3d4e50dd51a9bec7ef4292e54416d",
+        "original_claim": {
+          "document_page": 83,
+          "source_page_label": "83",
+          "locator_class": "principal",
+          "evidence_summary": "Grenoble rioters bombarded troops from rooftops; four people died and about forty were injured.",
+          "source_chunk_id": "CHUNK-003",
+          "source_local_subject_id": "CHUNK-003-S028",
+          "evidence_id": "EVID-0113-001"
+        },
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+        "literal_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "evidence_id": "EVID-SUCC-402912D5DB77",
+            "draft_pointer": "/subjects/156/evidence/0",
+            "matched_four_fields_sha256": "cc43b79abc9fbb174107a07f75e67494f5dbfed90fb789503604c154042f656b",
+            "prior_evidence_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1562",
+              "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:evidence:EVID-SUCC-402912D5DB77",
+              "row_sha256": "93ec33a10904313b43f8a5d140863af6de2a8c67f427da060cbfbd2fb96a4b4c"
+            },
+            "prior_parent_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/111",
+              "row_sha256": "7a5d283128624cdabd31d11798092aba7cbe48be0f676b3c25724364ce5e5da8"
+            },
+            "actual_integrated_evidence_equals_inspected_value": true
+          }
+        ],
+        "exact_proposed_bindings": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "evidence_id": "EVID-SUCC-402912D5DB77",
+            "binding_status": "current_claim_retained",
+            "evidence_fields": {
+              "document_page": 83,
+              "source_page_label": "83",
+              "locator_class": "principal",
+              "evidence_summary": "Grenoble rioters bombarded troops from rooftops; four people died and about forty were injured.",
+              "evidence_id": "EVID-SUCC-402912D5DB77",
+              "source_local_subject_id": "SUCC-C003-S028",
+              "source_chunk_id": "CHUNK-003"
+            },
+            "evidence_sha256": "ed0dcee3210aeb0cffaa33dceba599ad0ae33b80228e7faa9b122e468d81f0fc",
+            "actual_parent_main_sha256": "1901383b5e22c1029b701aec4ab5e417ca25e5d970decfdce62dabb9f8b87510",
+            "parent_review": "exact prior whole-record review reused"
+          }
+        ],
+        "exact_exclusion_bindings": [],
+        "retired_or_unaccepted_author_bindings": [],
+        "required_referral": null,
+        "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+      }
+    },
+    {
+      "kind": "historical_evidence_reuse",
+      "file": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-historical-subject-evidence/historical-evidence-dispositions.v1.jsonl",
+        "sha256": "7914dfbb95c9ab4e6ecb7a84aafafb960f63524123c0a3034f1f8002aa9954c5",
+        "bytes": 4971257
+      },
+      "line_one_based": 740,
+      "row_sha256": "781671c7480a691ba1dedb651c8ad3e4f3b39f017ee047711ead42cedc4ed5e9",
+      "row": {
+        "review_key": "legacy:SUBJ-5D4F73F5073B:EVID-193FD1F77154",
+        "lineage": "legacy",
+        "old_subject_id": "SUBJ-5D4F73F5073B",
+        "old_evidence_id": "EVID-193FD1F77154",
+        "review_index": 740,
+        "original_lineage_pointer": "/rows/826",
+        "original_before_sha256": "646a0c40b03609a0ecdc6e4ebfb23d60842bd049d3d79c203de89bc4f1d83cfa",
+        "original_claim": {
+          "evidence_id": "EVID-193FD1F77154",
+          "source_evidence_id": "EVID-2678BA0F552C",
+          "document_page": 83,
+          "source_page_label": "83",
+          "locator_class": "principal",
+          "evidence_summary": "Grenoble crowds resist the attempted exile of magistrates, bombard troops from roofs, and leave several dead and many injured in the event later named the Day of Tiles.",
+          "provenance": {
+            "chunk_id": "CHUNK-003",
+            "local_subject_id": "C003-S043",
+            "source_artifact_path": "source/source-subject-chunk.CHUNK-003.json",
+            "source_artifact_sha256": "d3c9ec3645b8ff0d0c755ddeebea36b6fe8f1c4a6483231e7474da7e697fa159"
+          }
+        },
+        "disposition": "retain_by_exact_prior_claim_and_parent_review",
+        "independent_basis": "The complete page, source label, locator class and claim literally equal specifically inspected evidence in the shown source-grounded parent context. Reuse that exact prior evidence/parent judgment. Only these actual matches are retained; other same-page author suggestions are not certified.",
+        "literal_reuse_proofs": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "evidence_id": "EVID-SUCC-0E9525FC57BE",
+            "draft_pointer": "/subjects/156/evidence/1",
+            "matched_four_fields_sha256": "1e45a63edf53939f337391523716babf89f3e73f153dfbd8c9ae88b444c8edc2",
+            "prior_evidence_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006-repairs/requirement-dispositions.v1.jsonl",
+              "pointer": "/1561",
+              "requirement_key": "SUBJ-SUCC-E5CD9F2A376A:evidence:EVID-SUCC-0E9525FC57BE",
+              "row_sha256": "207297d1f1386398415f86b575ed7a18805a47430ccfd6325d6698010bfefed9"
+            },
+            "prior_parent_inspection": {
+              "file": "successor/independent-review/actual-draft/reviewer-001-006/subject-review.jsonl",
+              "pointer": "/111",
+              "row_sha256": "7a5d283128624cdabd31d11798092aba7cbe48be0f676b3c25724364ce5e5da8"
+            },
+            "actual_integrated_evidence_equals_inspected_value": true
+          }
+        ],
+        "exact_proposed_bindings": [
+          {
+            "subject_id": "SUBJ-SUCC-E5CD9F2A376A",
+            "evidence_id": "EVID-SUCC-0E9525FC57BE",
+            "binding_status": "current_claim_retained",
+            "evidence_fields": {
+              "document_page": 83,
+              "source_page_label": "83",
+              "locator_class": "principal",
+              "evidence_summary": "Grenoble crowds resist the attempted exile of magistrates, bombard troops from roofs, and leave several dead and many injured in the event later named the Day of Tiles.",
+              "evidence_id": "EVID-SUCC-0E9525FC57BE",
+              "source_local_subject_id": "SUCC-C003-S028",
+              "source_chunk_id": "CHUNK-003"
+            },
+            "evidence_sha256": "ab4d9f39d821e5380f7f80b6d816248f1c149973c1d6e7bc2861320cebf51a54",
+            "actual_parent_main_sha256": "1901383b5e22c1029b701aec4ab5e417ca25e5d970decfdce62dabb9f8b87510",
+            "parent_review": "exact prior whole-record review reused"
+          }
+        ],
+        "exact_exclusion_bindings": [],
+        "retired_or_unaccepted_author_bindings": [],
+        "required_referral": null,
+        "closure_scope": "Exact historical claim and parent-qualified binding disposition; proposed additions/expansions and cross-owner referrals are not presumed integrated."
+      }
+    }
+  ],
+  "prior_review_interpretation": "Initial review expressly rejected assigning the deaths to rooftop attacks. The repair changed its opening parent sentence/stance but retained and copied the contrary legacy phrase; subsequent historical exact-value reuse and lead final closure failed to resolve the inconsistency. All old before records and judgments remain immutable; the additive disposition completes the intended qualification. No claim that a generic stance silently erased the retained obligation is accepted.",
+  "counts": {
+    "changed_whole_subjects": 1,
+    "content_field_replacements": 9,
+    "changed_existing_evidence_summaries": 1,
+    "retained_existing_evidence_rows": 2,
+    "changed_page_fields_or_arrays": 0,
+    "linked_whole_tasks": 1,
+    "linked_task_facets": 1,
+    "incident_relationships": 0
+  },
+  "page_coalescing_interpretation": "No page, class, evidence ID or count changes in this additive finding. All exact parent-page and parent-page-class sets remain those of sealed proposalv3.",
+  "visibility_attestation": {
+    "candidate_unseen": true,
+    "no_root_docs_validation_or_app_history_read": true,
+    "no_installed_runtime_access": true,
+    "no_push_or_freeze": true,
+    "source_reinspection_is_targeted_post_freeze": true,
+    "all_frozen_and_proposal_v1_v2_v3_bytes_preserved": true,
+    "independent_finalization_held": true
+  }
+}

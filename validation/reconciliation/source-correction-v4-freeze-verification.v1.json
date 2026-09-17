@@ -1,0 +1,65 @@
+{
+  "schema_version": "source-correction-v4-freeze-verification-v1",
+  "recorded_at": "2026-09-17T11:19:15.373550+00:00",
+  "result": "pass",
+  "typed_freeze_receipt": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/typed-freeze-receipt.v1.json",
+    "sha256": "43d87c3e19a22b64b6d1a8566618531da849653099abd51c25a44d9f6fb558a3",
+    "bytes": 4844
+  },
+  "source_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb",
+    "bytes": 15542
+  },
+  "verified_preserved_and_result_bindings": 14,
+  "state_delta_keys": [
+    "updated_at",
+    "stages",
+    "artifacts"
+  ],
+  "prior_artifacts_preserved": true,
+  "registered_new_artifacts": [
+    {
+      "artifact_id": "ART-A156EA383B11",
+      "stage": "benchmark_review",
+      "artifact_type": "source_benchmark_review",
+      "path": "independent-review/source-benchmark-review.v3.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T11:18:45Z"
+    },
+    {
+      "artifact_id": "ART-530B3AB563FC",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v4.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T11:18:45Z"
+    }
+  ],
+  "native_full_state_validation": {
+    "command": "validate",
+    "ok": true,
+    "evaluation_id": "ohfr-2002-study-source-successor-v1",
+    "errors": [],
+    "warnings": []
+  },
+  "source_editorial_assent": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/exact-final-byte-assent.v1.json",
+    "sha256": "8846d2c2b9090156c68c3f16977db96f6691754bf8f83758c03313c1615f8466",
+    "bytes": 4451
+  },
+  "root_supplies_editorial_assent": false,
+  "access_rebinding_may_start": true,
+  "source_only_access_scope": "Only narrow, independently reviewed rebinding to corrected source bytes; candidate-specific values remain outside the source amendment. Prior source/amendment/release bytes remain immutable."
+}

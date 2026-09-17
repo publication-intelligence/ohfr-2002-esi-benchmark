@@ -1,0 +1,181 @@
+{
+  "schema_version": "post-freeze-source-proposal-mechanical-preflight-v4",
+  "status": "read_only_preflight_pass; independent_source_review_pending",
+  "recorded_at": "2026-09-17T10:27:01.144744+00:00",
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v4.json",
+    "sha256": "a866af3d040d1fa6eceab292aebd26d9cc2338a0154d0f7cb19c0989c664b146",
+    "bytes": 6744355
+  },
+  "new_source_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "helper_access": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "native_schema_loader_unchanged": true,
+  "state_validation_with_files": {
+    "errors": [],
+    "warnings": []
+  },
+  "canonical_hash_pass": true,
+  "all_substantive_changes_bound": true,
+  "content_field_replacement_count": 38,
+  "v1_subject_repairs_preserved_exactly": true,
+  "new_relationship_field_replacements": [
+    {
+      "pointer": "/relationships/380/evidence_document_pages",
+      "before": [
+        11,
+        12,
+        19
+      ],
+      "proposed": [
+        11,
+        16,
+        17
+      ],
+      "finding_id": "PBF-008",
+      "relationship_id": "REL-SUCC-0EC046BA86DD"
+    },
+    {
+      "pointer": "/relationships/381/evidence_document_pages",
+      "before": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "proposed": [
+        30,
+        31,
+        32
+      ],
+      "finding_id": "PBF-009",
+      "relationship_id": "REL-SUCC-6346B62FAB7C"
+    }
+  ],
+  "page_opportunity_comparison": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v3.json",
+    "sha256": "d1327ad14565f42635896797f60e02d41e59a962d574eb2c0271cca230f9934f",
+    "bytes": 270521
+  },
+  "unique_subject_page_counts": {
+    "v3": 2080,
+    "v4_proposal_v1": 2079,
+    "v4_proposal_v2": 2079,
+    "v4_proposal_v3": 2079,
+    "v4_proposal_v4": 2079
+  },
+  "deliberately_pending_final_wrapper": {
+    "only_final_schema_error": [
+      "freeze: 'frozen_at' is a required property"
+    ],
+    "reason": "No frozen_at or approval metadata is manufactured for the proposal. Only a separate independent approval may finalize the new final wrapper."
+  },
+  "no_installed_runtime_access_or_activation": true,
+  "typed_freeze_run": false,
+  "v2_subject_and_relationship_repairs_preserved_exactly": true,
+  "additional_physiocracy_field_replacements": [
+    {
+      "pointer": "/subjects/118/evidence/4/document_page",
+      "before": 58,
+      "proposed": 57,
+      "finding_id": "PBF-010"
+    },
+    {
+      "pointer": "/subjects/118/evidence/4/source_page_label",
+      "before": "58",
+      "proposed": "57",
+      "finding_id": "PBF-010"
+    },
+    {
+      "pointer": "/subjects/118/retained_source_distinctions/1/source_pages",
+      "before": [
+        57,
+        58
+      ],
+      "proposed": [
+        57
+      ],
+      "finding_id": "PBF-010-dependent-metadata"
+    }
+  ],
+  "unique_subject_page_class_counts": {
+    "v3": 2393,
+    "v4_proposal_v2": 2394,
+    "v4_proposal_v3": 2395,
+    "v4_proposal_v4": 2395
+  },
+  "v3_preceding_ten_findings_preserved_exactly": true,
+  "additional_day_of_tiles_field_replacements": [
+    {
+      "pointer": "/subjects/156/evidence/1/evidence_summary",
+      "before": "Grenoble crowds resist the attempted exile of magistrates, bombard troops from roofs, and leave several dead and many injured in the event later named the Day of Tiles.",
+      "proposed": "During riots against the attempted exile of Grenoble's magistrates, troops were bombarded from rooftops; four people were killed and about forty injured in the episode remembered as the Day of Tiles.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/meaning",
+      "before": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/required_access_facets/0/meaning",
+      "before": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/required_access_facets/0/stance",
+      "before": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/retained_source_distinctions/0/meaning",
+      "before": "When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/retained_source_distinctions/0/qualification",
+      "before": "Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/source_treatments/0/meaning",
+      "before": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance used rooftop projectiles against troops, causing deaths and injuries and becoming a prominent symbol of provincial revolt.",
+      "proposed": "Grenoble’s Day of Tiles involved crowds defending the local parlement, rooftop attacks on troops and a breakdown of effective enforcement, with four deaths and about forty injuries. When officials tried to exile Grenoble's magistrates, urban resistance included rooftop attacks on troops during riots in which four people were killed and about forty injured; the episode became a prominent symbol of provincial revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/source_treatments/0/stance",
+      "before": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    },
+    {
+      "pointer": "/subjects/156/stance",
+      "before": "The source does not assign every casualty to the rooftop attacks. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "proposed": "The source reports deaths and injuries during the riots but does not identify which actions caused them. Preserve the episode’s local political setting and consequences without treating every participant as sharing one programme. Index the event as a consequential episode within the wider resistance, not as the sole beginning or cause of national revolt.",
+      "finding_id": "PBF-011",
+      "subject_id": "SUBJ-SUCC-E5CD9F2A376A"
+    }
+  ],
+  "page_coalescing_v3_reused_exactly": true
+}

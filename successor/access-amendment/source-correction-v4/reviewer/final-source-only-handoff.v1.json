@@ -1,0 +1,86 @@
+{
+  "schema_version": "source-correction-v4-access-source-only-handoff-v1",
+  "status": "independent_exact_access_proposal_review_complete",
+  "source": {
+    "path": "successor/source/source-benchmark.v4.json",
+    "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+    "bytes": 6749669
+  },
+  "source_review": {
+    "path": "successor/independent-review/source-benchmark-review.v3.json",
+    "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+    "bytes": 473259
+  },
+  "source_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb",
+    "bytes": 15542
+  },
+  "source_freeze_receipt": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/typed-freeze-receipt.v1.json",
+    "sha256": "43d87c3e19a22b64b6d1a8566618531da849653099abd51c25a44d9f6fb558a3",
+    "bytes": 4844
+  },
+  "source_canonical_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+  "access_author_manifest": {
+    "path": "successor/access-amendment/source-correction-v4/author/manifest.v1.json",
+    "sha256": "7b244437955b567b4fe724e8fb4ce6e4635831f70b44c80f9c832385c2d0ede8",
+    "bytes": 4014
+  },
+  "access_overlay": {
+    "path": "successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json",
+    "sha256": "e9cd56beedbf880a3afff16f1a1e7a320c34b924e59d1ef01bdaafee827c6a90",
+    "bytes": 186350
+  },
+  "access_overlay_semantic_sha256": "9a374a02de11909fff1e8306d976010d4bc6e783f9fbc70526051771c8a50de4",
+  "independent_access_review": {
+    "path": "successor/access-amendment/source-correction-v4/reviewer/benchmark-access-review.v1.json",
+    "sha256": "9da0855afe7046913bad4acf37424f5d58008bcef0cb88a2d5c1decd2d125064",
+    "bytes": 1664
+  },
+  "exact_byte_assent": {
+    "path": "successor/access-amendment/source-correction-v4/reviewer/exact-proposal-byte-assent.v1.json",
+    "sha256": "7cdd918b0b69c53d7b5e82d78f33a9cbaf1ad29c83d814278293968c14e427a0",
+    "bytes": 3169
+  },
+  "clause_review": {
+    "path": "successor/access-amendment/source-correction-v4/reviewer/four-clause-review-and-reuse.v1.json",
+    "sha256": "4c062c62457900aea7ff4946d229564e8625535f8101e4e1430f6c2d8c1991c8",
+    "bytes": 15302
+  },
+  "before_after_population_sha256": "6f8cbe9f994101437bf29ba94c9d898a9b60c19c9943d8235d47968afba03e8b",
+  "effective_content": "The approved empty overlay leaves actual frozen V4 content exact. It does not reinstate V3 source predicates or page opportunities.",
+  "preserved_source_changes": {
+    "subjects": 17,
+    "evidence_rows": 16,
+    "relationships": 5,
+    "uncertainties_added": 1,
+    "subject_page_opportunities": [
+      2080,
+      2079
+    ],
+    "subject_page_class_opportunities": [
+      2393,
+      2395
+    ]
+  },
+  "additional_access_changes": {
+    "subjects": 0,
+    "tasks": 0,
+    "facets": 0,
+    "deltas": 0
+  },
+  "candidate_visibility": {
+    "candidate_artifacts_seen": false,
+    "candidate_text_paths_locators_evidence_audits_or_score_files_inspected": false,
+    "earlier_limited_downstream_handling_assertion_received": true,
+    "disclosure": "The root Day of Tiles referral earlier stated that a candidate team applied the parent qualification/no penalty. No candidate artifact, wording, path, locator, evidence, audit or score file was supplied or inspected. That limited handling statement was not used as source or access evidence. The same continuing context has seen source drafts, frozen values and author proposals; no fresh candidate-unseen or source-first reset is claimed. The schema candidate_seen=false denotes candidate-content nonexposure, subject to this explicit disclosure.",
+    "new_candidate_information_received_this_access_phase": false
+  },
+  "new_source_pages": 0,
+  "no_source_or_access_freeze_performed": true,
+  "no_runtime_activation_or_lock_selected": true,
+  "no_scoring_or_candidate_work": true,
+  "remaining_editorial_blockers": [],
+  "handoff_scope": "Source-only exact proposal approval for root technical processing. This handoff is not runtime clearance, access registration, a lock selection, a scoring claim or a publication decision."
+}

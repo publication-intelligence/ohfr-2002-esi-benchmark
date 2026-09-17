@@ -1,0 +1,81 @@
+{
+  "schema_version": "source-correction-access-author-input-receipt-v1",
+  "role": "author",
+  "prepared_at": "2026-09-17T11:31:26.779812+00:00",
+  "authority": "Root dispatch authorizes V4 access rebinding under this output directory. This author-created receipt records the exact supplied authority; it is not a new root-authored assignment.",
+  "new_inputs": [
+    {
+      "path": "successor/source/source-benchmark.v4.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+      "bytes": 6749669
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v3.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+      "bytes": 473259
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb",
+      "bytes": 15542
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/typed-freeze-receipt.v1.json",
+      "sha256": "43d87c3e19a22b64b6d1a8566618531da849653099abd51c25a44d9f6fb558a3",
+      "bytes": 4844
+    }
+  ],
+  "previous_exact_allowlist": {
+    "path": "successor/access-amendment/source-correction-v3/source-only-inputs.v1.json",
+    "sha256": "9b30760639bbcbf141603842da8628726a6e13200673e487a549e58a2e7c01ba",
+    "bytes": 70278
+  },
+  "prior_allowlisted_file_count_reverified": 158,
+  "prior_author_manifest": {
+    "path": "successor/access-amendment/source-correction-v3/author/manifest.v1.json",
+    "sha256": "02a0b0cd8b451f00f0171a9629857254fd9e2bf531ba2e73c81dd02807335796",
+    "bytes": 3668
+  },
+  "prior_author_files": [
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/benchmark-access-overlay.v1.json",
+      "sha256": "29620e2cdaf56d25624be5ee21264cb0cdf9d9a8511c6a0444a2176bc56b305d",
+      "bytes": 186350
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/exact-comparison.v1.json",
+      "sha256": "17532164aaf62375f17435cccf3f4f55358c278c2090e3a52cf637f326394614",
+      "bytes": 729412
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "64f6f1b9504e0b7d6ebdb178ffdc79d158115a65159812ecfda9b4a296ad9ca0",
+      "bytes": 17664
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/input-visibility-attestation.v1.json",
+      "sha256": "a28430eb6550b767155f76837d2cf42f4b740f1caf23c2bb8522baa21abe0256",
+      "bytes": 35940
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v3/author/mechanical-check.v1.json",
+      "sha256": "e5ec2cbb97e3254bc308c4a249e3e14f13866e366cffecfc22c35ac971154fe8",
+      "bytes": 1314
+    }
+  ],
+  "interface_schema": {
+    "path": ".source-only/v10-access-interface-815bcb6/references/schemas/benchmark-access-overlay-v10.schema.json",
+    "sha256": "038fce5c2a42ed215784b3f32994f99fabe1c90e4fa4fd8c56c909f29f7a0874",
+    "bytes": 7781
+  },
+  "digest_helper": {
+    "path": ".source-only/v10-access-interface-815bcb6/digest-helper.excerpt.v1.json",
+    "sha256": "8de25c4581c03fd8525657aeb54c63c71c9d83f640270cc4a54505a12f15df18",
+    "bytes": 1295
+  },
+  "authorized_but_not_read_or_used": [
+    "validation/reconciliation/source-correction-v4-technical-clearance.v1.json",
+    "validation/reconciliation/source-correction-v4-freeze-verification.v1.json"
+  ],
+  "scope": "Assess only the four access clauses against corrected frozen V4. Preserve all existing source and author artifacts. No source discovery, candidate inputs, installed runtime, lock, freeze or approval work."
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "post-freeze-source-correction-proposal-manifest-v5",
+  "status": "sealed_author_proposal; independent_review_and_root_technical_clearance_pending",
+  "sealed_at": "2026-09-17T10:54:27.622750+00:00",
+  "files": [
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/final-batch-source-findings.v1.json",
+      "sha256": "2be192ac620890e694bb9e3959fd2289d37d2eec2e551e5bfc55de94ebaabcd8",
+      "bytes": 675251
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/complete-dependency-closure.v5.json",
+      "sha256": "6aa375e91e72e65dc06af1b661201b17d558fa81490b690350f4f47f38e6a538",
+      "bytes": 1382818
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/page-coalescing-comparison.v5.json",
+      "sha256": "285e1eee03d4817a330dae00eb7ac1b8c54949be31b279a811da94ce6ce8ae19",
+      "bytes": 1690576
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/additive-historical-dispositions.v5.json",
+      "sha256": "34ffd2eca2bea9d607e51d262572a08b06d34c4d5df5a377e6adfc1a910219b3",
+      "bytes": 145424
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v5.json",
+      "sha256": "1e9cba67c9c02a67e7d090ddf193bd65064a82dba4278160307841c6b036b28f",
+      "bytes": 6746035
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-exact-diff.v5.json",
+      "sha256": "ad062e4393324aa89d49129f9996de92aea6d4070e07717fb293df49dbadd488",
+      "bytes": 583889
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/mechanical-preflight.v5.json",
+      "sha256": "d671c8228c57a469ef4b8787ec9281894ae6f47c792f08196aeccf9df99849e9",
+      "bytes": 1341
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/source-freeze-plan.v5.json",
+      "sha256": "45272b61da94778d87b8974021fdb8c26724b5b7c3ab066084f8641e7c8b3632",
+      "bytes": 4733
+    },
+    {
+      "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v5.json",
+      "sha256": "4bec4cd043f4027b3aeb5945d73699a403ed0431f5ae49a639192e36d4c9b375",
+      "bytes": 34997
+    },
+    {
+      "path": "successor/evaluation-state.source-correction-v4.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    }
+  ],
+  "prior_sealed_manifest_not_selected": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposal-manifest.v4.json",
+    "sha256": "24b5d92a76bc4e0853fd9fe548c363436b7fb90444d7ab1f337fc5cba21bd7d8",
+    "bytes": 4288
+  },
+  "scope": {
+    "changed_subjects": 17,
+    "changed_evidence": 16,
+    "changed_relationships": 5,
+    "new_uncertainties": 1,
+    "content_field_changes": 64,
+    "incident_relationships": 41,
+    "reader_tasks": 81,
+    "task_facet_bindings": 117
+  },
+  "source_pages": [
+    11,
+    12,
+    16,
+    17,
+    19,
+    30,
+    31,
+    32,
+    33,
+    56,
+    57,
+    58,
+    82,
+    83,
+    84,
+    87,
+    90,
+    91,
+    92,
+    93,
+    95,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    107,
+    109,
+    110,
+    111,
+    113,
+    114,
+    120,
+    121,
+    126,
+    128,
+    131,
+    132,
+    133,
+    134,
+    141,
+    142,
+    152,
+    153,
+    154,
+    249,
+    250,
+    263,
+    264,
+    297,
+    303,
+    310
+  ],
+  "page_opportunity_counts": {
+    "before": 2080,
+    "proposed": 2079
+  },
+  "page_class_counts": {
+    "before": 2393,
+    "proposed": 2395
+  },
+  "visibility": {
+    "candidate_artifacts_content_or_files_not_inspected": true,
+    "limited_coordinator_application_handling_assertion_received": true,
+    "handling_assertion_used_as_source_evidence": false,
+    "reviewer_not_sent_handling_assertion": true,
+    "qualification": "Earlier candidate-blind source review/proposal chronology remains unchanged. After the Day-of-Tiles proposal sealed, a coordinator referral included a limited application-handling assertion outside the source-only boundary; it was flagged immediately, excluded from the reasoning, and not relayed to the independent reviewer. This preparation is supported by the exact source/records above, not by that assertion. No claim of having received only source facts throughout is made. The independent assignment omits the raw downstream referral artifact and any application-handling assertion. No candidate artifact content was inspected. This is a post-freeze application-origin referral, not fresh source-first discovery.",
+    "additional_authorized_referral_metadata": "Exact authorized3989fb3 source-only referral file included a downstream selected-benchmark path and application-scope metadata. The referenced path was not opened; metadata were not used as source evidence and will not be forwarded to the independent reviewer.",
+    "reviewer_received_downstream_referral_file": false
+  },
+  "all_older_frozen_and_proposal_bytes_preserved": true,
+  "reviewer_dispatched": false,
+  "typed_freeze_performed": false
+}

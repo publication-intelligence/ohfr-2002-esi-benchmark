@@ -1,0 +1,105 @@
+{
+  "schema_version": "source-correction-access-author-manifest-v1",
+  "role": "author",
+  "status": "sealed_proposal_pending_independent_review",
+  "decision": "no_additional_access_delta",
+  "sealed_at": "2026-09-17T11:31:27.026151+00:00",
+  "input_receipt": {
+    "path": "successor/access-amendment/source-correction-v4/author/author-input-receipt.v1.json",
+    "sha256": "9d7fa7b7ef95ed61c4c76f959dbf0458a4e109c90cb97f4419f70bb5fb93afe6",
+    "bytes": 3686
+  },
+  "base": {
+    "path": "successor/source/source-benchmark.v4.json",
+    "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+    "bytes": 6749669
+  },
+  "base_canonical_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+  "base_review": {
+    "path": "successor/independent-review/source-benchmark-review.v3.json",
+    "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+    "bytes": 473259
+  },
+  "actual_post_freeze_state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb",
+    "bytes": 15542
+  },
+  "source_freeze_receipt": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/typed-freeze-receipt.v1.json",
+    "sha256": "43d87c3e19a22b64b6d1a8566618531da849653099abd51c25a44d9f6fb558a3",
+    "bytes": 4844
+  },
+  "files": [
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/author-input-receipt.v1.json",
+      "sha256": "9d7fa7b7ef95ed61c4c76f959dbf0458a4e109c90cb97f4419f70bb5fb93afe6",
+      "bytes": 3686
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json",
+      "sha256": "e9cd56beedbf880a3afff16f1a1e7a320c34b924e59d1ef01bdaafee827c6a90",
+      "bytes": 186350
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/exact-comparison.v1.json",
+      "sha256": "f57647c49eba31f2b3d26662cbb53fb56f8e75f01bcc36e873b86d4926866a9d",
+      "bytes": 459227
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/inspection-ledger.v1.json",
+      "sha256": "17fd7b7316a10ae3db5d475ba75a81f56e25d60d3360bb96591734547dde7126",
+      "bytes": 74646
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/comparison-and-reuse-rationale.v1.json",
+      "sha256": "d42e55f416219905f52136a51f9134a994bde09f8159e793f209fc6c1abcc23c",
+      "bytes": 16067
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/input-visibility-attestation.v1.json",
+      "sha256": "60f35918a5a19d2847261c7fba46d8608777ad777c5dba067abc3477beeb062b",
+      "bytes": 35983
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/mechanical-check.v1.json",
+      "sha256": "f6fd40bb49e5739fc2f382761e683844402276665cc1c78821e12c25be331696",
+      "bytes": 2011
+    },
+    {
+      "path": "successor/access-amendment/source-correction-v4/author/reviewer-handoff.v1.json",
+      "sha256": "2e97dad4dda6801a264a50526668733098dd8d7a2a880c48ec1b7c86d1964036",
+      "bytes": 2507
+    }
+  ],
+  "overlay_sha256": "9a374a02de11909fff1e8306d976010d4bc6e783f9fbc70526051771c8a50de4",
+  "population": {
+    "subjects": 531,
+    "reader_tasks": 617,
+    "delta_count": 0
+  },
+  "source_corrections_disclosed": {
+    "subjects": 17,
+    "evidence_rows": 16,
+    "relationships": 5,
+    "added_uncertainties": 1,
+    "opportunities_before": {
+      "subject_page": 2080,
+      "subject_page_class": 2393
+    },
+    "opportunities_after": {
+      "subject_page": 2079,
+      "subject_page_class": 2395
+    }
+  },
+  "coverage": {
+    "mechanical_subject_records": 531,
+    "mechanical_task_records": 617,
+    "changed_subject_access_contexts": 17,
+    "additional_endpoint_access_contexts": 4,
+    "task_question_scope_checks": 62,
+    "new_raw_source_pages": 0,
+    "prior_case_reasoning_reused": 9
+  },
+  "author_does_not_approve_or_freeze": true
+}

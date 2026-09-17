@@ -1,0 +1,453 @@
+{
+  "schema_version": "independent-cumulative-page-binding-findings-v1",
+  "assignment": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer-assignment.v5.json",
+    "sha256": "4bec4cd043f4027b3aeb5945d73699a403ed0431f5ae49a639192e36d4c9b375",
+    "bytes": 34997
+  },
+  "selected_proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v5.json",
+    "sha256": "1e9cba67c9c02a67e7d090ddf193bd65064a82dba4278160307841c6b036b28f",
+    "bytes": 6746035
+  },
+  "reused_checkpoint": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/reviewer/completed-ten-findings-checkpoint.v1.json",
+    "sha256": "a36b22082f1e03541e7bf8a775405049294dd0b85426890889f4b30098e1c4cf",
+    "bytes": 493737
+  },
+  "rows": [
+    {
+      "finding_id": "PBF-001",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        56,
+        57
+      ],
+      "independent_source_judgment": "The three ministerial publicity examples are all in the latter part of56: lengthened edict preambles, replies to remonstrances and Maupeou’s publicity writers.57 contains the continuation of an observer’s warning, not these examples. Move7A2F to56, keeping its synthesizing role, and restrict the same censorship/publicity distinction CHUNK-002-S055 to56. The parent still needs57 for the separate warning.",
+      "exact_changed_pointers": [
+        "/subjects/116/evidence/6/document_page",
+        "/subjects/116/evidence/6/source_page_label",
+        "/subjects/116/retained_source_distinctions/3/source_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-002",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        56,
+        57
+      ],
+      "independent_source_judgment": "The anxious observer’s words continue at the top of57 and predict revolutions from argumentative exchanges and expanding constitutional knowledge. Narrow EE0D to that attributed warning. The source-backed censorship and official-publicity claims remain on56 in the other evidence and parent. The revision avoids both a false single-page combination and an assertion of inevitable authorial causation.",
+      "exact_changed_pointers": [
+        "/subjects/116/evidence/5/evidence_summary"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-003",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "independent_source_judgment": "Page132 connects the expansion from707million to nearly two billion in estimated short-term obligations with repeated compensation for abolished property and offices.131 instead discusses taxes and inherited debt generally. Move8C43 to132 and propagate it to the judicial treatment/facet and both C005-S083 copies. Retain117 as the recognition-of-property stage and134 as later assignat issuance; those are distinct parts of the same causal sequence.",
+      "exact_changed_pointers": [
+        "/subjects/206/evidence/18/document_page",
+        "/subjects/206/evidence/18/source_page_label",
+        "/subjects/206/source_treatments/0/document_pages",
+        "/subjects/206/required_access_facets/0/document_pages",
+        "/subjects/206/retained_source_distinctions/7/source_pages",
+        "/subjects/25/retained_source_distinctions/4/source_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-004",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "independent_source_judgment": "The revised deficit estimate from80million to294million, compelled by falling tax revenue, appears on134.132 discusses failed loans, the Patriotic Contribution and compensation obligations instead. Move51E5 to134 under the coherent tax-administration parent and its page metadata;131 remains the principal machinery/voluntary-payment argument.",
+      "exact_changed_pointers": [
+        "/subjects/213/evidence/9/document_page",
+        "/subjects/213/evidence/9/source_page_label",
+        "/subjects/213/source_treatments/0/document_pages",
+        "/subjects/213/required_access_facets/0/document_pages",
+        "/subjects/213/retained_source_distinctions/4/source_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-005",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "independent_source_judgment": "The upward deficit revision is the134 consequence of tax-revenue shortfall. A separate poor-yield/debt discussion on132 cannot support that exact predicate. Move470F to134 and remove its132-only parent-page opportunity, retaining both existing134 supporting rows and all stable IDs. The nonpayment/Babeuf parent remains distinct from replacement-tax design.",
+      "exact_changed_pointers": [
+        "/subjects/212/evidence/3/document_page",
+        "/subjects/212/evidence/3/source_page_label",
+        "/subjects/212/source_treatments/0/document_pages",
+        "/subjects/212/required_access_facets/0/document_pages",
+        "/subjects/212/retained_source_distinctions/0/source_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-006",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        132,
+        133,
+        134
+      ],
+      "independent_source_judgment": "The final lines of132 explicitly describe newspapers taking both sides of the Church-property controversy.133 continues to deputies’ fixed views, hostile galleries and bank/assignat proposals; galleries do not establish press activity there. The current press evidence046B already correctly cites132. Replace only133 in retained C005-S042, aligning it with the treatment/facet and preserving its other supported press episodes.",
+      "exact_changed_pointers": [
+        "/subjects/201/retained_source_distinctions/0/source_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-007",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        113,
+        114
+      ],
+      "independent_source_judgment": "The last sentence of113 begins with frequent offers by nobles and clergy but leaves its adverse predicate unfinished.114 supplies perceived municipal connections and the Versailles deputies’ conduct as reasons for distrust, with Dijon confinement as an example. Bind3E89 to114 with explicit113 continuation. Frequent offers do not establish frequent rejection; the revised summary removes that unwarranted frequency transfer while preserving the causal mechanism and113/114 retained span.",
+      "exact_changed_pointers": [
+        "/subjects/193/evidence/5/document_page",
+        "/subjects/193/evidence/5/source_page_label",
+        "/subjects/193/evidence/5/evidence_summary"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-008",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        11,
+        12,
+        16,
+        17,
+        19
+      ],
+      "independent_source_judgment": "Page11 directly describes gros fermiers enclosing and rejecting gleaning/grazing rights.16 describes the material value of common rights and communal lawsuits; its last sentence continues on17 into deterrence by legal, riot and passive resistance.12 is broader agricultural distribution and19 urban crafts, neither the precise communal-conflict support. The conflict remains bounded to these uses, with the same endpoints/operator/rationale and corrected[11,16,17] support.",
+      "exact_changed_pointers": [
+        "/relationships/380/evidence_document_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-009",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "independent_source_judgment": "30 establishes purchased commissions and obstacles facing poor or talented officers;31 develops army social distance and blocked experienced rankers, then begins the contrast with close, technically demanding shipboard life.32 completes naval recruitment, absence of purchase and competence.33 develops the clergy rather than the military comparison. Preserve the same bounded navy-to-army contrast with[30,31,32].",
+      "exact_changed_pointers": [
+        "/relationships/381/evidence_document_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-010",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        57,
+        58
+      ],
+      "independent_source_judgment": "The enumeration of customary/collective, feudal, fiscal, internal-trade, guild and privileged barriers is wholly on57, together with strong-state removal and fiscal attraction.58 applies one part of that doctrine to grain controls and its consequences. Move0B62 to57 and bind the exact general-doctrine distinction CHUNK-002-S060 only to57; retain the independent58 grain evidence and broader57/58 parent treatment/facet.",
+      "exact_changed_pointers": [
+        "/subjects/118/evidence/4/document_page",
+        "/subjects/118/evidence/4/source_page_label",
+        "/subjects/118/retained_source_distinctions/1/source_pages"
+      ],
+      "inspection_basis": "Exact completed-ten checkpoint reuse; approved field values remain identical."
+    },
+    {
+      "finding_id": "PBF-011",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        82,
+        83,
+        84
+      ],
+      "independent_source_judgment": "On83 the four deaths and roughly forty injuries belong to the riots as a whole. The following sentence separately identifies rooftop bombardment. Neither sequence nor the name Day of Tiles assigns the casualties to projectiles. The revised event-level summary, parent and every copied meaning/qualification preserve both facts and remove the unwarranted action-specific cause; the unchanged semicolon summary is compatible.82–84 place this within nationwide resistance to the May judicial reforms, with several groups and no single political programme.",
+      "exact_changed_pointers": [
+        "/subjects/156/evidence/1/evidence_summary",
+        "/subjects/156/meaning",
+        "/subjects/156/required_access_facets/0/meaning",
+        "/subjects/156/required_access_facets/0/stance",
+        "/subjects/156/retained_source_distinctions/0/meaning",
+        "/subjects/156/retained_source_distinctions/0/qualification",
+        "/subjects/156/source_treatments/0/meaning",
+        "/subjects/156/source_treatments/0/stance",
+        "/subjects/156/stance"
+      ]
+    },
+    {
+      "finding_id": "PBF-012",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        98,
+        99,
+        109
+      ],
+      "independent_source_judgment": "98 describes scarcity, price fixing, grain searches and dues resistance during elections;98–99 recount the April Réveillon unrest and mixed slogans.109 describes May and June shortages and the later July armed rising. Removing109 from the pre-May retained distinction aligns its temporal scope with the existing evidence, parent, treatment and facet without denying later recurrence.",
+      "exact_changed_pointers": [
+        "/subjects/175/retained_source_distinctions/0/source_pages"
+      ]
+    },
+    {
+      "finding_id": "PBF-013",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        141,
+        142
+      ],
+      "independent_source_judgment": "At the foot of141, lands are being inventoried prior to sale as religious houses close.142 continues with loyalty tests and polarization. Preparations for sale is therefore the accurate contemporaneous predicate in all four changed copies. The corrected parent still preserves cumulative material dependence, salary differences, functional exceptions and educational/charitable obligations; no claim is made that later sales never occurred.",
+      "exact_changed_pointers": [
+        "/subjects/222/evidence/13/evidence_summary",
+        "/subjects/222/meaning",
+        "/subjects/222/required_access_facets/0/meaning",
+        "/subjects/222/source_treatments/0/meaning"
+      ]
+    },
+    {
+      "finding_id": "PBF-014",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        99,
+        100
+      ],
+      "independent_source_judgment": "99 ends by stating that only twenty-two sovereign-court magistrates secured seats;100 names Duport, Fréteau and d’Éprémesnil as members of that group. The named Duport claim needs100, with99 as its genuine antecedent. Moving its supporting row and extending the three contextual page lists preserves the institutional bridge from club host and parliamentary organizer to elected deputy, without manufacturing another electoral requirement.",
+      "exact_changed_pointers": [
+        "/subjects/166/evidence/8/document_page",
+        "/subjects/166/evidence/8/evidence_summary",
+        "/subjects/166/evidence/8/source_page_label",
+        "/subjects/166/required_access_facets/0/document_pages",
+        "/subjects/166/retained_source_distinctions/1/source_pages",
+        "/subjects/166/source_treatments/0/document_pages"
+      ]
+    },
+    {
+      "finding_id": "PBF-015",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        152,
+        153,
+        154
+      ],
+      "independent_source_judgment": "153 assigns permanent vigilance committees to local authorities and separately describes anxious patriots filling clubs. It then differentiates deposition demands from limited republican commitment and division in the mother society. The new flight-to-club mobilization operator and rationale preserve this specific agency. Wider Guard mobilization and persecution remain in the Varennes parent; the Jacobin parent and tasks preserve division rather than equating membership growth with republican unanimity.",
+      "exact_changed_pointers": [
+        "/relationships/440/rationale",
+        "/relationships/440/relationship_type"
+      ]
+    },
+    {
+      "finding_id": "PBF-016",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        87,
+        90,
+        91,
+        95,
+        98,
+        103,
+        104,
+        107,
+        109,
+        110,
+        111
+      ],
+      "independent_source_judgment": "87 is the prior year’s Necker celebration;90–91 petition organization;95 commoner leadership and provincial conflict;98 April subsistence unrest;103–104 June verification/publicity. They are not12–14July.107 is a genuine immediate antecedent of unreliable troops and popular pressure already present as such in the parent.109–111 narrate the armed rising, Bastille and royal retreat. Narrowing the July treatment/facet metadata to107/109–111 matches those actual retained obligations and does not remove earlier topics from the book.",
+      "exact_changed_pointers": [
+        "/subjects/37/required_access_facets/0/document_pages",
+        "/subjects/37/source_treatments/0/document_pages"
+      ]
+    },
+    {
+      "finding_id": "PBF-017",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        126,
+        128
+      ],
+      "independent_source_judgment": "126 directly authorizes municipal proclamation of martial law and Guard firing on crowds refusing to disperse. The sentence about reliability continues after the inserted graphic to128, where uniform cost, active citizenship and oaths narrow membership. The revised126 row accurately states its local predicate and explicitly locates the social restriction on128. The suffrage parent retains its distinction between civil equality, layered political eligibility and coercion.",
+      "exact_changed_pointers": [
+        "/subjects/205/evidence/12/evidence_summary"
+      ]
+    },
+    {
+      "finding_id": "PBF-018",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        126,
+        128
+      ],
+      "independent_source_judgment": "The same126-to128 sentence continuation applies in the popular-sovereignty parent. Municipal coercive powers are126 evidence; social selection is explicitly128. The amendment preserves the tension between popular victories and representative restriction, rather than replacing it with an unsupported single-page compound claim.",
+      "exact_changed_pointers": [
+        "/subjects/204/evidence/5/evidence_summary"
+      ]
+    },
+    {
+      "finding_id": "PBF-019",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        120,
+        121,
+        128
+      ],
+      "independent_source_judgment": "120–121 connect Marat, periodical agitation, plots and the elastic aristocrat accusation, including unjustly suspected people.128 attributes the hanging slogan to a popular song in a discussion of noble alienation, not to newspapers. Removing128 from this press-qualified retained distinction prevents medium substitution; its120–121 meaning and the separate132 Church-property correction remain intact.",
+      "exact_changed_pointers": [
+        "/subjects/201/retained_source_distinctions/2/source_pages"
+      ]
+    },
+    {
+      "finding_id": "PBF-020",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        297,
+        303,
+        310
+      ],
+      "independent_source_judgment": "Full297 and310 identify the programme as23June; the rendered303 visibly says13June. Its identifiable comparison is a restoration programme less liberal than the earlier offer, and the current303 evidence already avoids imposing a date. Add the explicit non-weighted uncertainty, keeping the event chronology and comparative task intact. Neither invent a second programme nor silently correct the printed source.",
+      "exact_changed_pointers": [
+        "/uncertainties"
+      ]
+    },
+    {
+      "finding_id": "PBF-021",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        91,
+        92,
+        93
+      ],
+      "independent_source_judgment": "91 records the second Notables’ votes against doubling and unwillingness to endorse head voting.93 records the contrary grant of doubling and deferral of common voting.92 develops princes’ petitions and provincial representation disputes, not the royal Result. The unchanged contrast operator and endpoints are supported by[91,93].",
+      "exact_changed_pointers": [
+        "/relationships/408/evidence_document_pages"
+      ]
+    },
+    {
+      "finding_id": "PBF-022",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        92,
+        93,
+        101,
+        102,
+        103
+      ],
+      "independent_source_judgment": "93 supplies the unresolved voting premise.101 introduces the May opening;102 makes separate verification a test of separate voting;103 explains the move toward unilateral national verification. Replacing92 with93 connects the actual omission to the procedural deadlock without making a generic deterministic claim.",
+      "exact_changed_pointers": [
+        "/relationships/410/evidence_document_pages"
+      ]
+    },
+    {
+      "finding_id": "PBF-023",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        249,
+        250
+      ],
+      "independent_source_judgment": "249 ends with Roux’s displacement and appropriation of his programme by new populists, identifying Chaumette and Hébert’s Commune roles.250 gives the best-selling Père Duchesne, Cordeliers influence, economic enforcement and Terror demands. The two revised summaries distribute these claims across their existing correct slots; later failed mobilization and fabricated trial allegations remain separately qualified.",
+      "exact_changed_pointers": [
+        "/subjects/359/evidence/0/evidence_summary",
+        "/subjects/359/evidence/1/evidence_summary"
+      ]
+    },
+    {
+      "finding_id": "PBF-024",
+      "decision": "approve_exact_proposed_correction",
+      "full_source_pages_inspected": [
+        263,
+        264
+      ],
+      "independent_source_judgment": "263 abolishes unofficial local bodies including local Revolutionary Armies.264 explicitly states reduction to a centrally supervised single force and the months needed to wind up provincial units. Splitting these predicates over the existing263/264 rows preserves abolition, institutional centralization and delayed implementation without claiming instantaneous practical extinction.",
+      "exact_changed_pointers": [
+        "/subjects/351/evidence/3/evidence_summary",
+        "/subjects/351/evidence/4/evidence_summary"
+      ]
+    }
+  ],
+  "source_reading": {
+    "reused_targeted_pages": [
+      11,
+      12,
+      16,
+      17,
+      19,
+      30,
+      31,
+      32,
+      33,
+      56,
+      57,
+      58,
+      113,
+      114,
+      131,
+      132,
+      133,
+      134
+    ],
+    "new_complete_pages": [
+      82,
+      83,
+      84,
+      87,
+      90,
+      91,
+      92,
+      93,
+      95,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      107,
+      109,
+      110,
+      111,
+      120,
+      121,
+      126,
+      128,
+      141,
+      142,
+      152,
+      153,
+      154,
+      249,
+      250,
+      263,
+      264,
+      297,
+      303,
+      310
+    ],
+    "render_inspected": {
+      "path": ".source-only/independent-review-work/post-freeze/page-binding-correction-reviewer/page-303.png",
+      "sha256": "1d85f77bb90f88136c49c7529aa89ca57f950d49d9934bf73b371a68074cb814",
+      "bytes": 480335
+    }
+  },
+  "remaining_issues": []
+}

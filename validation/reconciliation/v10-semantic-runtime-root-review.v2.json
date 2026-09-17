@@ -1,0 +1,40 @@
+{
+  "schema_version": "v10-semantic-runtime-root-review-v2",
+  "recorded_at": "2026-09-17T11:42:54.859849+00:00",
+  "status": "runtime_review_passed_staged_not_activated",
+  "reviewed_head": "202b6cfd098eba751881482293e75b17d9add255",
+  "merged_commit": "b07ddba7c6ad24f70d98319731ec3cabd1c6332d",
+  "pull_requests": [
+    "https://github.com/publication-intelligence/evaluate-subject-index/pull/56",
+    "https://github.com/publication-intelligence/evaluate-subject-index/pull/57"
+  ],
+  "runtime_payload_sha256": "91b8c3119d52669a1d35cdb58dc363f0f57b8263b837ac533f0893fb0e91b330",
+  "validation": {
+    "complete_local_suite": {
+      "passed": 264,
+      "failed": 0
+    },
+    "focused_semantic_structure_suite": {
+      "passed": 18,
+      "failed": 0
+    },
+    "github_ci_success_run": 35216821616,
+    "reviewed_head_and_merge_tree_equal": true,
+    "payload_files_verified": 203
+  },
+  "contract_result": {
+    "semantic_locator_axes": "preserved",
+    "semantic_parent_access_axes": "preserved with neutral bounds and assessment blocker",
+    "semantic_architecture_prerequisites": "completed full review supported with neutral bounds and assessment blocker",
+    "physical_uninspectability_remains_distinct": true,
+    "private_rationale_public_leak_test": "pass"
+  },
+  "activation_performed": false,
+  "actual_release_adoption_approved": false,
+  "remaining": [
+    "final V4 access handoff",
+    "final selected source release and common lock",
+    "actual execution compatibility approval",
+    "quiescent four-candidate cutover"
+  ]
+}

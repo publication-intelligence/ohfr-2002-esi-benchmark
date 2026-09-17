@@ -1,0 +1,43 @@
+{
+  "schema_version": "source-proposal-native-c11-preflight-v5",
+  "recorded_at": "2026-09-17T10:54:26.997164+00:00",
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/page-binding-correction/proposed-source-benchmark.v4.v5.json",
+    "sha256": "1e9cba67c9c02a67e7d090ddf193bd65064a82dba4278160307841c6b036b28f",
+    "bytes": 6746035
+  },
+  "state": {
+    "path": "successor/evaluation-state.source-correction-v4.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "state_validation_with_files": {
+    "errors": [],
+    "warnings": []
+  },
+  "native_structure_errors": [
+    "freeze: 'frozen_at' is a required property"
+  ],
+  "expected_unapproved_proposal_error_only": true,
+  "counts": {
+    "subjects": 531,
+    "relationships": 500,
+    "reader_tasks": 617,
+    "exclusions": 226,
+    "uncertainties": 148
+  },
+  "evidence_count": 3297,
+  "closure_counts": {
+    "changed_subjects": 17,
+    "changed_evidence": 16,
+    "changed_relationships": 5,
+    "new_uncertainties": 1,
+    "content_field_changes": 64,
+    "incident_relationships": 41,
+    "reader_tasks": 81,
+    "task_facet_bindings": 117
+  },
+  "semantic_edits_outside_declared_scope": false,
+  "original_frozen_and_proposal_hashes_reverified": true,
+  "no_approval_or_freeze_performed": true
+}
