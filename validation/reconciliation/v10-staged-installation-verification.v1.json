@@ -1,0 +1,32 @@
+{
+  "schema_version": "v10-staged-installation-coordinator-verification-v1",
+  "recorded_at": "2026-09-17T03:47:28.956770+00:00",
+  "staging_root": "/tmp/evaluate-subject-index-installation-staging/815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "bindings": [
+    {
+      "path": "/tmp/evaluate-subject-index-installation-staging/815bcb66d3319d2f730a9645800b304bcbd4b2e9/evaluate-subject-index/installation-receipt.json",
+      "sha256": "7a50a46f62f3af9eb5176ebde694ce3b8f5fde2b68cb984c984366b29e3b172d"
+    },
+    {
+      "path": "/tmp/evaluate-subject-index-installation-staging/815bcb66d3319d2f730a9645800b304bcbd4b2e9/payload-manifest.json",
+      "sha256": "ac3d53a374bc90026dfbaae14d25ba9b135eddbe4934d24ac06a0ad578da7c1b"
+    },
+    {
+      "path": "/tmp/evaluate-subject-index-installation-staging/815bcb66d3319d2f730a9645800b304bcbd4b2e9/staging-checkpoint.json",
+      "sha256": "3b43e06dc0fdb96aa1e03b0cc2e57934f08af33eef682d7e66f8e8d8435a4c17"
+    },
+    {
+      "path": "/tmp/evaluate-subject-index-installation-staging/815bcb66d3319d2f730a9645800b304bcbd4b2e9/activation-plan.md",
+      "sha256": "4faabca32180738fc5b51b960b52a7e65315b806e6d43a405e021acc209d7189"
+    }
+  ],
+  "tested_revision": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "merged_commit": "48cae7f2caf41c0fb744a4f76e06a8ff7a8a3aff",
+  "exact_payload_git_blob_sha256_and_modes_verified": 171,
+  "unexpected_payload_files": false,
+  "active_c11_receipt_and_tracked_files_unchanged": true,
+  "active_c11_tracked_files_verified": 111,
+  "activation_plan_reviewed": true,
+  "activation_performed": false,
+  "source_or_candidate_state_changed": false
+}
