@@ -18,7 +18,9 @@ The source serializes retained distinction `C005-S004` twice under `SUBJ-SUCC-20
 
 The [post-freeze source-only report](../successor/independent-review/post-freeze/artois-authorization-and-duplicate-distinction.referral.v1.json) confirms a missed dependency correction. The parent evidence on page 305 correctly limits Artois to princely-network context, but `REL-SUCC-8AD7BFC51F21` still asserts his individual authorization of La Rouërie's organization. No sealed relationship clarification resolves that contradiction.
 
-The proposed minimal correction retires that edge, taking relationships from 501 to 500, while preserving both subjects, their evidence, the related comparative task, all priorities and every other source requirement. It requires a separately reviewed, versioned source freeze and new dependent access/release bindings. The initial source freeze, amendment, lock, descriptor and evaluation history remain immutable. Only this disputed relational obligation is pending; unaffected candidate review continues and its evidence is preserved for explicit compatibility review under the corrected release.
+The independently approved version 3 retires that edge, taking relationships from 501 to 500, while preserving both subjects, their evidence, the related comparative task, all priorities and every other source requirement. Its [typed freeze](../successor/independent-review/post-freeze/artois-correction/typed-freeze-receipt.v1.json) is registered in a separate source state; the [technical verification](../validation/reconciliation/source-correction-v3-freeze-verification.v1.json) and private checkpoint restore passed. The reviewer freshly inspected page 305 and explicitly reused the completed source review for demonstrably unchanged values.
+
+New dependent access/release bindings are being reviewed. The initial source freeze, amendment, lock, descriptor and evaluation history remain immutable. Unaffected candidate review continues and its evidence is preserved for explicit compatibility review under the corrected release; the partial source handoff does not authorize a candidate migration.
 
 ## Merge and publication status
 

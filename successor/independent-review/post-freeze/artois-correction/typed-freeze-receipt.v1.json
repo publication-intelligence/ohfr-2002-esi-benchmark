@@ -1,0 +1,168 @@
+{
+  "schema_version": "post-freeze-source-correction-typed-freeze-receipt-v1",
+  "recorded_at": "2026-09-17T06:15:26.794617+00:00",
+  "correction_id": "SOURCE-CORR-ARTOIS-305",
+  "status": "typed_freeze_completed_on_new_source_state",
+  "runtime_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "runtime_path": "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66",
+  "helper_access": {
+    "path": "successor/independent-review/post-freeze/preserved-c11-helper-access.v2.json",
+    "sha256": "e1be58189df291f2aecb5dfcc44b89cd3ea6daf04a3bffa79ae2128e4039ff80",
+    "bytes": 14144
+  },
+  "authorization": "Root technical clearance explicitly granted for exact final5351ea6e/review7e4b25f4 on NEW source-correction-v3 state only, after independent exact-value assent and full source-state validation.",
+  "command": [
+    "/tmp/evaluate-subject-index-gate-venv/bin/python",
+    "/home/john/.codex/runtime-backups/c11-before-v10-815bcb66/scripts/benchmark_review_cli.py",
+    "freeze",
+    "--state",
+    "successor/evaluation-state.source-correction-v3.json",
+    "--draft",
+    "successor/source/source-benchmark.draft.v1.json",
+    "--inventory",
+    "successor/validation/source-benchmark-review-inventory.json",
+    "--review",
+    "successor/independent-review/source-benchmark-review.v2.json",
+    "--final",
+    "successor/source/source-benchmark.v3.json"
+  ],
+  "returncode": 0,
+  "output": {
+    "command": "freeze",
+    "ok": true,
+    "evaluation_id": "ohfr-2002-study-source-successor-v1",
+    "version": 3,
+    "benchmark_sha256": "2dc940cc93d172d70d7371e382e93192aceb16d58832ec280c4f62dcff9ffbeb",
+    "artifacts_registered": [
+      "independent-review/source-benchmark-review.v2.json",
+      "source/source-benchmark.v3.json"
+    ],
+    "artifacts_written": [
+      "/home/john/.codex/worktrees/2920/ohfr-2002-esi-benchmark/successor/evaluation-state.source-correction-v3.json"
+    ],
+    "next_actions": [
+      {
+        "stage": "candidate_normalization",
+        "command": "normalize-index",
+        "status": "not_started",
+        "available": true,
+        "unmet_dependencies": [],
+        "required_inputs": [
+          "candidate index",
+          "page map"
+        ],
+        "completion_test": "A current V8 candidate normalization artifact is registered."
+      }
+    ],
+    "warnings": []
+  },
+  "before": {
+    "state": {
+      "path": "successor/evaluation-state.source-correction-v3.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    "inventory": {
+      "path": "successor/validation/source-benchmark-review-inventory.json",
+      "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+      "bytes": 54837
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v2.json",
+      "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+      "bytes": 492840
+    },
+    "final": {
+      "path": "successor/source/source-benchmark.v3.json",
+      "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+      "bytes": 6740824
+    }
+  },
+  "after": {
+    "state": {
+      "path": "successor/evaluation-state.source-correction-v3.json",
+      "sha256": "abb517647eeced5d45d44ebf0bbbcc51d8ad3b89f6650093bc00d66b5cd01d36",
+      "bytes": 15542
+    },
+    "draft": {
+      "path": "successor/source/source-benchmark.draft.v1.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "bytes": 6170297
+    },
+    "inventory": {
+      "path": "successor/validation/source-benchmark-review-inventory.json",
+      "sha256": "4c7378eef0fd0a2dd595740130af6112274f22e06eedfaa78d309b7f65cbd3bf",
+      "bytes": 54837
+    },
+    "review": {
+      "path": "successor/independent-review/source-benchmark-review.v2.json",
+      "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+      "bytes": 492840
+    },
+    "final": {
+      "path": "successor/source/source-benchmark.v3.json",
+      "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+      "bytes": 6740824
+    }
+  },
+  "independent_manifest": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/manifest.v1.json",
+    "sha256": "4f26a7819b4cbd5cb08a4118ffb5dc630f17562af2ab7cfb5002de95fbedf176",
+    "bytes": 8306
+  },
+  "exact_byte_assent": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-byte-assent.v1.json",
+    "sha256": "b15e0db6181fa797baf7565e6f592bf0792ee05dbdf4ef91f15357b5150c10e3",
+    "bytes": 3707
+  },
+  "preserved_originals": [
+    {
+      "path": "successor/evaluation-state.json",
+      "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+      "bytes": 15542
+    },
+    {
+      "path": "successor/evaluation-state.pre-independent-freeze.v1.json",
+      "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+      "bytes": 14344
+    },
+    {
+      "path": "successor/source/source-benchmark.v2.json",
+      "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+      "bytes": 6739462
+    },
+    {
+      "path": "successor/independent-review/source-benchmark-review.v1.json",
+      "sha256": "4f2bb5872d95d1f84d9c191a20e685c9bc8b2dd728a78ef63f7674afd1e5075a",
+      "bytes": 469741
+    },
+    {
+      "path": "successor/access-amendment/author/benchmark-access-overlay.v1.json",
+      "sha256": "8ef4c62d667690145ae898a2a928b42b5057923974ec8a43e8240b28603f584b",
+      "bytes": 186329
+    },
+    {
+      "path": "successor/access-amendment/reviewer/benchmark-access-review.v1.json",
+      "sha256": "78499f5df31659be648e39e9e5ae3056a40a0cc05ede56471cd107f889f4aa8f",
+      "bytes": 1517
+    },
+    {
+      "path": "successor/independent-review/post-freeze/artois-correction/reviewer/manifest.v1.json",
+      "sha256": "4f26a7819b4cbd5cb08a4118ffb5dc630f17562af2ab7cfb5002de95fbedf176",
+      "bytes": 8306
+    }
+  ],
+  "prior_and_new_final_review_bytes_unchanged": true,
+  "original_source_state_unchanged": true,
+  "only_state_written": "successor/evaluation-state.source-correction-v3.json",
+  "source_correction_scope": "One unsupported named Artois authorization relationship retired; all other source content unchanged. This is a post-freeze source-only correction, not new source-first discovery.",
+  "candidate_content_paths_judgments_results_seen": false,
+  "installed_runtime_access_or_reactivation": false,
+  "no_v10_amendment_or_lock_action": true,
+  "remaining_c11_source_work": "None for this correction; preserved c11 helpers are quiescent after this typed freeze."
+}

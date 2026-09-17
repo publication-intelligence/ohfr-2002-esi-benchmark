@@ -1,0 +1,73 @@
+{
+  "schema_version": "independent-final-byte-assent-v1",
+  "decision": "approve_exact_source_correction_pending_root_technical_clearance",
+  "reviewer_id": "/root/successor_independent_review/source_review_001_006",
+  "correction_id": "SOURCE-CORR-ARTOIS-305",
+  "final": {
+    "path": "successor/source/source-benchmark.v3.json",
+    "sha256": "5351ea6ef850ec0e3d06cfbbe1236cf1a564b9acb0de9135c2b8b38348e9cdaa",
+    "bytes": 6740824
+  },
+  "final_canonical_sha256": "2dc940cc93d172d70d7371e382e93192aceb16d58832ec280c4f62dcff9ffbeb",
+  "review": {
+    "path": "successor/independent-review/source-benchmark-review.v2.json",
+    "sha256": "7e4b25f48a7500cf940129088fb51890a0dad4c33477446630524f0b4193b99e",
+    "bytes": 492840
+  },
+  "base": {
+    "path": "successor/source/source-benchmark.v2.json",
+    "sha256": "ad8eabde42844ab295dd793deccf56c4514fb826992d873ba53ff744144aa90c",
+    "bytes": 6739462
+  },
+  "proposal": {
+    "path": "successor/independent-review/post-freeze/artois-correction/proposed-source-benchmark.v3.json",
+    "sha256": "5a3f59090b5c8e12668f761d228e5759e5a5cb19ee78e3555906c86912473919",
+    "bytes": 6740477
+  },
+  "full_final_diff": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/exact-final-diff.v1.json",
+    "sha256": "c8928abe93f742874be6205ed960bd020d63317da335528ec9cebb5e5fe087c7",
+    "bytes": 76848
+  },
+  "source_and_dependency_review": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/source-and-dependency-review.v1.json",
+    "sha256": "f6530e67b15692d32ac701e1b282fdc1d6db42d5e00ae21b947f6a71326056c2",
+    "bytes": 82834
+  },
+  "legacy_disposition": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/legacy-disposition.v1.json",
+    "sha256": "d558c417d9fac4c58044bd9cbbbd0359e28ac22a25301defff3122b9f75b3a4f",
+    "bytes": 2921
+  },
+  "validation": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/read-only-c11-validation.v1.json",
+    "sha256": "205468e369aa3125430b534b137d5a40341708917d3c9d0507098d35ba527e26",
+    "bytes": 2133
+  },
+  "visibility_attestation": {
+    "path": "successor/independent-review/post-freeze/artois-correction/reviewer/input-visibility-and-preservation-attestation.v1.json",
+    "sha256": "69e7a5c3d730a6f71af2f7c55301e786ea94dc43a3fc8a644ded01b252f93f78",
+    "bytes": 21767
+  },
+  "assent": "I independently approve these exact v3 final and reviewv2 bytes. The full305 reread supports only princely encouragement, not the named individual authorization; the retired edge and inverse legacy mapping are unsupported. Exact endpoint evidence and task access preserve the supported content. All other final content is exactly unchanged and reuses the bound completed v2 whole-book source review; no new whole-book pass or candidate-visibility reset is claimed.",
+  "substantive_changes": {
+    "relationships_removed": [
+      "REL-SUCC-8AD7BFC51F21"
+    ],
+    "other_changes": []
+  },
+  "candidate_unseen": true,
+  "source_state_unchanged": {
+    "path": "successor/evaluation-state.source-correction-v3.json",
+    "sha256": "f5694dd568fb71d784c019aa1c1ce868064446119da5f7d35fc0b797cf961f7e",
+    "bytes": 14344
+  },
+  "canonical_source_state_unchanged": {
+    "path": "successor/evaluation-state.json",
+    "sha256": "c45d672ac98a98dd6587d6f61e45a54b1e96414313357238c8be10dfc95b74f7",
+    "bytes": 15542
+  },
+  "typed_freeze_performed": false,
+  "technical_clearance_and_registration_pending": true,
+  "scope": "Source correction only. No candidate assessment, runtime activation, V10 amendment freeze, National Guard alteration or new identifier is authorized or performed by this assent."
+}
