@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T01:01:52.674098+00:00",
+  "recorded_at": "2026-09-17T01:07:00.685393+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -365,6 +365,41 @@
       "remaining_original_evidence_keys": 3487,
       "whole_record_meaning_and_value_approval": false,
       "basis": "Independent lead requested conservative exact-set accounting. Current subject/evidence reading is not automatically original-record review; reviewers may reuse demonstrably identical complete inspections with precise bindings."
+    },
+    "original_subject_evidence_followup_assignments": {
+      "receipt_sha256": "61db06a5a737d357a0f55dcb576b91a5179ef80fbe2b129ee51cbdedfd87cf93",
+      "exact_disjoint_remainder_verified": true,
+      "reviewer001_subjects": 724,
+      "reviewer001_evidence": 1663,
+      "reviewer007_subjects": 782,
+      "reviewer007_evidence": 1824,
+      "evidence_only_keys": 80,
+      "each_assignment_input_hashes_verified": 14,
+      "review_complete": false
+    },
+    "literal_field_reuse_aid": {
+      "path": "successor/independent-review/actual-draft/mechanical-literal-field-reuse-candidates.v1.json",
+      "sha256": "d0e855bcd7a325278036059c71ea07a94455b0435d8192132ffafb5c107e0436",
+      "literal_subject_meaning_stance_matches": 837,
+      "literal_evidence_four_field_matches": 2294,
+      "all_matches_include_author_mapped_destination": true,
+      "review_or_approval_inferred": false
+    },
+    "lead_fallback_and_chapter013_repairs": {
+      "fallback_tasks": 6,
+      "fallback_task_field_diffs_reconstructed": 15,
+      "historical_original_tasks_verified": 22,
+      "explicit_other_reviewer_task_overlaps": 2,
+      "chapter013_subject_proposals_reconstructed": 11,
+      "chapter013_subject_field_diffs_reconstructed": 29,
+      "additional_subject_proposals_hash_bound": 4,
+      "integration_and_final_value_approval": false
+    },
+    "provisional_repair_assembly": {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-base.v1.json",
+      "sha256": "2ac81eda1994ee929e80f9cb063220f05925460c770313eafb9704bd7773c97c",
+      "status": "assembly_only_not_reviewed_final_not_frozen",
+      "bound_by_source_only_followup_assignments": true
     }
   },
   "density_proposal": {

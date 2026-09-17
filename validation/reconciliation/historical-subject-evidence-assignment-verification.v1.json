@@ -1,0 +1,37 @@
+{
+  "schema_version": "historical-subject-evidence-assignment-verification-v1",
+  "recorded_at": "2026-09-17T01:05:27.977125+00:00",
+  "assignment_files": [
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006.historical-subject-evidence.assignment.v1.json",
+      "sha256": "139ecc8749a44f66ba3e4ef0636490304613e3bd1048b0034e1d1bef8c7cc568"
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-007-012.historical-subject-evidence.assignment.v1.json",
+      "sha256": "4da8653ee42de47087261b1f99a3ae5098235280c742abb8bb028b97e28635c5"
+    }
+  ],
+  "partition_receipt": {
+    "path": "successor/independent-review/actual-draft/historical-subject-evidence-partition.receipt.v1.json",
+    "sha256": "61db06a5a737d357a0f55dcb576b91a5179ef80fbe2b129ee51cbdedfd87cf93"
+  },
+  "each_assignment_input_hashes_verified": 14,
+  "exact_disjoint_complement_verified": {
+    "subjects": 1506,
+    "evidence": 3487,
+    "evidence_only_original_parent_keys": 80
+  },
+  "reviewer_counts": {
+    "001": {
+      "subjects": 724,
+      "evidence": 1663
+    },
+    "007": {
+      "subjects": 782,
+      "evidence": 1824
+    }
+  },
+  "editorial_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false
+}
