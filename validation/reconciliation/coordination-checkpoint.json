@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T00:17:33.722987+00:00",
+  "recorded_at": "2026-09-17T00:45:43.642982+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -288,6 +288,28 @@
       "lead_original_note_text_and_pages_verified": 106,
       "exact_disjoint_team_finding_ids_verified": 446,
       "final_repaired_value_approval": false
+    },
+    "completed_lead_semantic_components": {
+      "manifest_sha256": "098875e31fbdf32ac3f018ad0aa6796a2da5a9ed5192c9dad009d25d3510d9f9",
+      "bound_files_verified": 26,
+      "exact_current_subjects": 91,
+      "exact_current_evidence": 634,
+      "exact_current_relationships": 56,
+      "historical_subject_keys": 498,
+      "historical_subject_destination_bindings": 576,
+      "historical_evidence_keys": 1249,
+      "historical_evidence_destination_bindings": 1315,
+      "full_exact_key_and_repeated_mapping_verification": true,
+      "final_value_approval": false
+    },
+    "completed_lead_exclusion_components": {
+      "receipt_sha256": "626ed807211fce5ed0e137ea24918ff2d4498c67d7ae1da3df08bef7c0bb0539",
+      "bound_ledger_files_verified": 8,
+      "exact_original_record_hashes_verified": 248,
+      "proposed_retained": 226,
+      "proposed_removed": 22,
+      "changed_field_sets_verified": true,
+      "final_value_approval": false
     }
   },
   "density_proposal": {

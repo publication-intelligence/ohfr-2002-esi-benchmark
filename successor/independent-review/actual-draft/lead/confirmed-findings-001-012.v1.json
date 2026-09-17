@@ -1,0 +1,182 @@
+{
+  "schema_version": "independent-editorial-findings-v1",
+  "draft_sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+  "status": "partial_confirmed_findings_no_approval",
+  "issues": [
+    {
+      "finding_id": "AD-LEAD-001",
+      "kind": "frozen_policy_scope_conflict",
+      "subject_id": null,
+      "evidence_id": null,
+      "source_pages": [
+        3,
+        127,
+        129,
+        225,
+        345
+      ],
+      "finding": "Frozen source_scope.excluded includes graph internals and ignored regions. All248 exclusion scope strings and several specific controls treat map internals as semantically eligible based on their separate density exclusion. Rendered225/345 confirm that keys, symbols, shaded regions and routes are internal to graphics; captions sit outside.",
+      "required_repair": "Qualify global controls and editorial_policy to exclude graph internals while retaining substantive eligible captions/chapter headings. Review each affected evidence, subject and task individually; preserve valid prose and caption retrieval. Scope must not be inferred from the193118-word count.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-002",
+      "kind": "evidence_page_mismatch",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "evidence_id": "EVID-SUCC-B4324D92254B",
+      "source_pages": [
+        306,
+        307
+      ],
+      "finding": "The explicit conclusion that the war émigrés helped foment destroyed the Bourbon monarchy is on306.307 begins with regency/proclamation and foreign recognition.",
+      "required_repair": "Change document_page and source_page_label from307 to306.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-003",
+      "kind": "evidence_claim_crosses_page_boundary",
+      "subject_id": "SUBJ-SUCC-8EBFEFD6F582",
+      "evidence_id": "EVID-SUCC-4D7F2B730B7C",
+      "source_pages": [
+        313,
+        314
+      ],
+      "finding": "The314 record combines continuing British dependence on314 with no return to France until1814, which is printed313.",
+      "required_repair": "Keep314 and narrow its summary to dependence/refuge in Britain and Scotland; retain no-return claim only under313 support if needed.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-004",
+      "kind": "evidence_claim_crosses_page_boundary",
+      "subject_id": "SUBJ-SUCC-84FD75C62515",
+      "evidence_id": "EVID-SUCC-B9BEBB5B5450",
+      "source_pages": [
+        315,
+        316
+      ],
+      "finding": "Arrest, disclosures and permitted escape are on315; the ruined-credit consequence is the opening continuation on316.",
+      "required_repair": "Narrow315 summary to its events and add a316 supporting record for loss of credit, preserving the source qualification that the episode remains murky.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-005",
+      "kind": "evidence_page_mismatch",
+      "subject_id": "SUBJ-SUCC-B64ADAA022A3",
+      "evidence_id": "EVID-SUCC-7F3285562430",
+      "source_pages": [
+        313,
+        314
+      ],
+      "finding": "The recall and departure without mainland command occur on313, not314.",
+      "required_repair": "Relocate this evidence to313 or remove its redundant copy only after recording preservation by the existing313 principal record. Do not retain314 as if the recall is located there.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-006",
+      "kind": "evidence_claim_crosses_page_boundary",
+      "subject_id": "SUBJ-SUCC-4F5D0E057A07",
+      "evidence_id": "EVID-SUCC-AE3E322A5BCC",
+      "source_pages": [
+        315,
+        316
+      ],
+      "finding": "Pichegru’s implication by disclosures appears315;316 contains the effect on d’Antraigues’s credit.",
+      "required_repair": "Relocate/narrow the Pichegru disclosure claim to315; the separate d’Antraigues record should carry the316 reputational consequence.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-007",
+      "kind": "stance_overstates_source_certainty",
+      "subject_id": "SUBJ-SUCC-5398BE225AEB",
+      "evidence_id": null,
+      "source_pages": [
+        310
+      ],
+      "finding": "Source says Mallet du Pan doubted whether war alone could defeat the movement; current stance states flatly that military victory alone could not reverse it.",
+      "required_repair": "Use qualified wording: he doubted that war alone could defeat the Revolution and urged guarantees of basic gains plus propaganda; update matching treatment/facet stance consistently.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-008",
+      "kind": "stance_causal_overstatement",
+      "subject_id": "SUBJ-SUCC-4FF0A62E6420",
+      "evidence_id": null,
+      "source_pages": [
+        314
+      ],
+      "finding": "Source conditionally calls Cadoudal the closest thing to a chouan leader after Puisaye’s loss of authority, and identifies his refusal of La Mabilais. Current stance makes refusal the definite cause of his authority.",
+      "required_repair": "Retain the conditional leadership characterization and sequence without asserting proven causation from refusal alone; update matching treatment/facet.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-009",
+      "kind": "evidence_direction_error",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "evidence_id": "EVID-SUCC-1F6D028D350A",
+      "source_pages": [
+        317
+      ],
+      "finding": "The source considers a march from western France toward Paris; current summary says a westward breakout.",
+      "required_repair": "Replace westward breakout with a breakout from the west toward Paris.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-010",
+      "kind": "unsupported_local_evidence_scope",
+      "subject_id": "SUBJ-SUCC-C47971AD0857",
+      "evidence_id": "EVID-SUCC-6377C0A1D0C3",
+      "source_pages": [
+        305,
+        306
+      ],
+      "finding": "Marginalization through Prussian operational priorities is developed305;306 gives absence at Valmy and disintegration in retreat.",
+      "required_repair": "Narrow306 evidence summary to absence/disintegration and, if preserving the Prussian-priority claim in this subject, explicitly attach305 support.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-011",
+      "kind": "parent_meaning_underexpresses_required_argument",
+      "subject_id": "SUBJ-SUCC-069F55F49949",
+      "evidence_id": null,
+      "source_pages": [
+        315,
+        316,
+        317
+      ],
+      "finding": "The old causal requirement and current evidence state factionalism, conflicting foreign interests, localism, failed coordination and superior republican forces. Current main meaning lists defeated projects and stance dates defeat without expressing that causal argument.",
+      "required_repair": "Make the multi-causal explanation explicit in parent meaning/stance and consistent matching treatment/facet; retain priority based on the chapter conclusion, not inherited count.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    },
+    {
+      "finding_id": "AD-LEAD-012",
+      "kind": "parent_task_and_nested_facet_inconsistency",
+      "subject_id": null,
+      "evidence_id": null,
+      "source_pages": [
+        305,
+        308,
+        311,
+        315,
+        317,
+        374,
+        384,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407
+      ],
+      "finding": "A broad emigration-networks inquiry is repeated under narrow Puisaye, intelligence and Condé questions; a conscription/royalism/rural-crime inquiry appears under a Vendéan-army-versus-guerrillas question; a whole-economy inquiry appears under a sansculotte-democracy comparison. Many facet required_subject_ids are absent from parent IDs. True source claims and resolving IDs do not make these coherent task attachments.",
+      "required_repair": "Review every task and facet, rehome scope-mismatched facets to coherent questions with complete parent target IDs; do not mechanically union unrelated obligations. The economy facet already has relevant economy parents and can be removed from the sansculotte comparison without losing it, subject to review of those parents.",
+      "status": "confirmed_on_source_or_frozen_policy; final_change_not_applied"
+    }
+  ],
+  "not_completed": [
+    "all_entities",
+    "all_source_first_findings",
+    "all_historical_evidence_relationship_task_and_auxiliary_dispositions",
+    "final_repairs_and_validation"
+  ]
+}
