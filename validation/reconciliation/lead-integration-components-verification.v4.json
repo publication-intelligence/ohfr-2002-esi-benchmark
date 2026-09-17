@@ -1,0 +1,38 @@
+{
+  "schema_version": "lead-repair-component-verification-v1",
+  "recorded_at": "2026-09-17T01:34:47.955833+00:00",
+  "basis": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage2.v1.json",
+    "sha256": "e09f8e4c4a9a960fdc1554cf9de161c57ece2e157b0848ca7d4f256defb3af33"
+  },
+  "files": [
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.020-024.v1.json",
+      "sha256": "7cc7d51cd1e3e4dbb45ca088ac9691c69dfc4b524c88c1396bc0e20f4d822afc",
+      "whole_replacements_reconstructed": 5,
+      "field_diffs_reconstructed": 18,
+      "lead_owned_subjects": 5,
+      "explicit_external_subject_ids": []
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/lead-crosschapter-repairs.025-026.v1.json",
+      "sha256": "51344d57674652f938b3c57abfb15a631677765b1cc3d751152ce239d6ccd8b2",
+      "whole_replacements_reconstructed": 3,
+      "field_diffs_reconstructed": 11,
+      "lead_owned_subjects": 2,
+      "explicit_external_subject_ids": [
+        "SUBJ-SUCC-E4C3D945CE3F"
+      ]
+    }
+  ],
+  "prior_fallback_proposal_as_basis_preserved": true,
+  "global_integration_and_final_value_approval": false,
+  "editorial_approval": false,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false,
+  "stage2_assembly_exactly_reconstructed_from_four_bound_proposals": true,
+  "stage2_assembly_inputs": {
+    "path": "successor/independent-review/actual-draft/integration/integration-stage2.inputs.v1.json",
+    "sha256": "c1fa02b2130ebfe39a65328ecd6fd14ddfe2467381faa8becab75932f1058fa9"
+  }
+}

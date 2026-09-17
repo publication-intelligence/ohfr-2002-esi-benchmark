@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T01:29:22.499343+00:00",
+  "recorded_at": "2026-09-17T01:37:07.243382+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -234,7 +234,7 @@
       "relationship_keys": 1504,
       "task_keys": 377,
       "authorized": true,
-      "complete": false,
+      "complete": true,
       "limitation": "Prior current-entity review did not certify all retired/internalized historical keys; whole-book union must close explicitly."
     },
     "completed_repair_packet_001_006": {
@@ -291,7 +291,7 @@
       "retired_template_keys": 11,
       "global_assigned_exact_union": 1664,
       "new_keys_disjoint_from_other_assignments": true,
-      "review_complete": false
+      "review_complete": true
     },
     "completed_lead_historical_relationship_components": {
       "checkpoint_sha256": "0f21bbbd53e8ea8da622e2e9f4f888eb379b29c7559c83f25f6afb33360eb4dc",
@@ -378,7 +378,7 @@
       "input_files_verified": 19,
       "exact_original_control_keys_verified": 476,
       "original_empty_mappings_explicitly_included": 22,
-      "review_complete": false
+      "review_complete": true
     },
     "original_subject_evidence_review_complement": {
       "path": "successor/independent-review/actual-draft/mechanical-original-review-complement.v1.json",
@@ -433,8 +433,8 @@
       "exact_whole_replacements_reconstructed": 33,
       "field_diffs_reconstructed": 109,
       "total_single_chapter_subject_rows_encoded": 48,
-      "cross_chapter_subject_rows_encoded": 19,
-      "cross_chapter_subject_rows_remaining": 24,
+      "cross_chapter_subject_rows_encoded": 26,
+      "cross_chapter_subject_rows_remaining": 17,
       "final_value_approval": false
     },
     "lead_crosschapter_012_019_repairs": {
@@ -443,6 +443,40 @@
       "owned_subjects": 8,
       "explicit_external_dependency_subjects": 1,
       "field_diffs_reconstructed": 29,
+      "final_value_approval": false
+    },
+    "completed_original_auxiliary_component": {
+      "manifest_sha256": "c166ec83ffe9e31d03e0283843b55d98becda8ac319e08a991cbcfb8ff1cf1fc",
+      "bound_files_verified": 9,
+      "original_controls_verified": 476,
+      "empty_mappings_dispositioned": 22,
+      "whole_control_replacements_reconstructed": 6,
+      "new_uncertainty_proposal": 1,
+      "exact_existing_relationship_component_bindings": 39,
+      "v1_and_v2_provenance_preserved": true,
+      "final_value_approval": false
+    },
+    "exact_global_historical_task_review_components": {
+      "extension_manifest_sha256": "a2afc08b97bfb647259b55ce812a9e2a4122925ca5e50cfbbc9209618497bd37",
+      "extension_exact_originals_verified": 377,
+      "unique_original_keys": 1664,
+      "duplicate_component_bindings_not_double_counted": 13,
+      "original_key_union_verified": true,
+      "integration_and_final_value_approval": false
+    },
+    "lead_crosschapter_020_026_repairs": {
+      "receipt": "validation/reconciliation/lead-integration-components-verification.v4.json",
+      "whole_replacements_reconstructed": 8,
+      "owned_subjects": 7,
+      "explicit_external_subjects": 1,
+      "field_diffs_reconstructed": 29,
+      "stage2_exact_reconstruction_verified": true,
+      "final_value_approval": false
+    },
+    "lead_subject_repair_encoding_reported": {
+      "all_owned_subjects": 91,
+      "last_packet_wording_check_pending": true,
+      "root_verification_of_last_packets_pending": true,
       "final_value_approval": false
     }
   },

@@ -1,0 +1,332 @@
+{
+  "schema_version": "independent-auxiliary-proposals-v1",
+  "status": "supplementary proposals against exact lead current-control inputs; no canonical edits or final approval",
+  "replacements": [
+    {
+      "id": "EXCL-SUCC-FC4D43EC8062",
+      "entity_type": "exclusion",
+      "before_file": "successor/independent-review/actual-draft/lead/exclusion-review.021-035.v1.json",
+      "before_record_sha256": "abb7f1ba214902b88872ce6491596573e275cefa4856182ece55a46c88cc2c2f",
+      "before": {
+        "exclusion_id": "EXCL-SUCC-FC4D43EC8062",
+        "category": "incidental_subject_not_independently_weighted",
+        "label": "Revolutionary renaming of punished cities and regions",
+        "meaning": "Authorities symbolically renamed Lyons, Toulon, Marseilles, the Gironde, and the Vendée after repression or reconquest.",
+        "rationale": "The names are supporting details of punishment and ideological symbolism, not sustained independent treatments across the chapter.",
+        "acceptable_access": [],
+        "evidence": [
+          {
+            "document_page": 254,
+            "source_page_label": "254",
+            "locator_class": "incidental",
+            "evidence_summary": "The decree renamed the remnant of Lyons as Ville Affranchie."
+          },
+          {
+            "document_page": 255,
+            "source_page_label": "255",
+            "locator_class": "incidental",
+            "evidence_summary": "Toulon, Marseilles, and the Gironde received punitive or symbolic replacement names."
+          },
+          {
+            "document_page": 257,
+            "source_page_label": "257",
+            "locator_class": "incidental",
+            "evidence_summary": "The Vendée was rhetorically renamed Vengé after military defeat."
+          }
+        ],
+        "local_subject_ids": [
+          "SUCC-C011-S041"
+        ],
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "proposed": {
+        "exclusion_id": "EXCL-SUCC-FC4D43EC8062",
+        "category": "incidental_subject_not_independently_weighted",
+        "label": "Revolutionary renaming of punished cities and regions",
+        "meaning": "Authorities symbolically renamed Lyons, Toulon, Marseilles, the Gironde, and the Vendée after repression or reconquest.",
+        "rationale": "The punitive names are subordinate evidence of repression and ideological symbolism. Preserve their meaningful place-name routes under the relevant repression subjects without requiring another independently weighted subject for each name.",
+        "acceptable_access": [
+          "punitive place-name changes during the Terror",
+          "Ville Affranchie (Lyons)",
+          "Mountain-Port / Port-de-la-Montagne (Toulon)",
+          "Sansnom (Marseilles)",
+          "Bec d’Ambès (Gironde)",
+          "Vengé (Vendée)"
+        ],
+        "evidence": [
+          {
+            "document_page": 254,
+            "source_page_label": "254",
+            "locator_class": "incidental",
+            "evidence_summary": "The decree renamed the remnant of Lyons as Ville Affranchie."
+          },
+          {
+            "document_page": 255,
+            "source_page_label": "255",
+            "locator_class": "incidental",
+            "evidence_summary": "Toulon, Marseilles, and the Gironde received punitive or symbolic replacement names."
+          },
+          {
+            "document_page": 257,
+            "source_page_label": "257",
+            "locator_class": "incidental",
+            "evidence_summary": "The Vendée was rhetorically renamed Vengé after military defeat."
+          }
+        ],
+        "local_subject_ids": [
+          "SUCC-C011-S041"
+        ],
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "source_grounded_reason": "Eligible prose on pages 254, 255 and 257 gives the punitive names a symbolic and retrieval function; local nonduplication does not require deleting useful access."
+    },
+    {
+      "id": "EXCL-SUCC-E8F17C69BCD3",
+      "entity_type": "exclusion",
+      "before_file": "successor/independent-review/actual-draft/lead/exclusion-review.166-205.v1.json",
+      "before_record_sha256": "a3023999ed88b5e4326ed27bb331410a98d191965db3d5cfb8c9ab35941f3962",
+      "before": {
+        "exclusion_id": "EXCL-SUCC-E8F17C69BCD3",
+        "source_lineage": "legacy",
+        "source_exclusion_id": "CH11-EXC-005",
+        "item": "symbolic_renamings",
+        "reason": "Names such as Ville Affranchie, Port-de-la-Montagne, and Vengé are preserved as access terms under the relevant repression subjects rather than fragmented into trivial entries.",
+        "document_pages": [
+          254,
+          255,
+          257
+        ],
+        "review_disposition": "Independently reviewed source-scope or local nonduplication decision; density does not establish semantics.",
+        "source_chunk_id": "CHUNK-011",
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "proposed": {
+        "exclusion_id": "EXCL-SUCC-E8F17C69BCD3",
+        "source_lineage": "legacy",
+        "source_exclusion_id": "CH11-EXC-005",
+        "item": "symbolic_renamings",
+        "reason": "Preserve Ville Affranchie (Lyons), Mountain-Port / Port-de-la-Montagne (Toulon), Sansnom (Marseilles), Bec d’Ambès (Gironde), and Vengé (Vendée) as useful subordinate access under the corresponding repression treatments. Their political symbolism remains eligible; each name need not add an independent weighted subject.",
+        "document_pages": [
+          254,
+          255,
+          257
+        ],
+        "review_disposition": "Independently reviewed source-scope or local nonduplication decision; density does not establish semantics.",
+        "source_chunk_id": "CHUNK-011",
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "source_grounded_reason": "Align the companion local control with all five named places developed in the same eligible prose."
+    },
+    {
+      "id": "EXCL-SUCC-DD4C5F3A520D",
+      "entity_type": "exclusion",
+      "before_file": "successor/independent-review/actual-draft/lead/exclusion-review.021-035.v1.json",
+      "before_record_sha256": "14fd5476d151d7dd157ae484121e82f0cd34a6d8d42bd9cbd73b6eecebd49e27",
+      "before": {
+        "exclusion_id": "EXCL-SUCC-DD4C5F3A520D",
+        "category": "incidental_subject_not_independently_weighted",
+        "label": "David, Jacques-Louis, staging of the Festival of the Supreme Being",
+        "meaning": "David's role as the experienced organizer of the Paris festival.",
+        "rationale": "The brief personal identification does not require an additional independently weighted biography. Preserve David’s staging role and the ceremony’s political-artistic organization through the festival treatment; useful personal access remains acceptable.",
+        "acceptable_access": [],
+        "evidence": [
+          {
+            "document_page": 277,
+            "source_page_label": "277",
+            "locator_class": "incidental",
+            "evidence_summary": "David is identified as the painter and committee member entrusted with organizing the Paris ceremony."
+          }
+        ],
+        "local_subject_ids": [
+          "SUCC-C012-S041"
+        ],
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "proposed": {
+        "exclusion_id": "EXCL-SUCC-DD4C5F3A520D",
+        "category": "incidental_subject_not_independently_weighted",
+        "label": "David, Jacques-Louis, staging of the Festival of the Supreme Being",
+        "meaning": "David's role as the experienced organizer of the Paris festival.",
+        "rationale": "The brief personal identification does not require an additional independently weighted biography. Preserve David’s staging role and the ceremony’s political-artistic organization through the festival treatment; useful personal access remains acceptable.",
+        "acceptable_access": [
+          "David, Jacques-Louis",
+          "David, organization of the Festival of the Supreme Being"
+        ],
+        "evidence": [
+          {
+            "document_page": 277,
+            "source_page_label": "277",
+            "locator_class": "incidental",
+            "evidence_summary": "David is identified as the painter and committee member entrusted with organizing the Paris ceremony."
+          }
+        ],
+        "local_subject_ids": [
+          "SUCC-C012-S041"
+        ],
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "source_grounded_reason": "Page 277 supplies David’s actual organizing agency; the existing rationale permits name access but its access field is empty."
+    },
+    {
+      "id": "EXCL-SUCC-38524961568E",
+      "entity_type": "exclusion",
+      "before_file": "successor/independent-review/actual-draft/lead/exclusion-review.166-205.v1.json",
+      "before_record_sha256": "54f2e410912cf277829f0c0814e9603ef8944794847313a3e4bcbb96cca94093",
+      "before": {
+        "exclusion_id": "EXCL-SUCC-38524961568E",
+        "source_lineage": "native",
+        "source_exclusion_id": "CHUNK-012-X006",
+        "item": "Pamphlet and newspaper titles as separate subjects",
+        "reason": "Newspaper and pamphlet titles remain facet access and evidence within press politics (283–284) or Prairial organization (293), rather than separate weighted requirements.",
+        "document_pages": [
+          283,
+          284,
+          293
+        ],
+        "review_disposition": "Independently reviewed source-scope or local nonduplication decision; density does not establish semantics.",
+        "source_chunk_id": "CHUNK-012",
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "proposed": {
+        "exclusion_id": "EXCL-SUCC-38524961568E",
+        "source_lineage": "native",
+        "source_exclusion_id": "CHUNK-012-X006",
+        "item": "Pamphlet and newspaper titles as separate subjects",
+        "reason": "Preserve Robespierre’s Tail as subordinate access to Thermidorian polemic against Robespierre and his surviving associates (283–284), and People’s Insurrection as subordinate access to the circulated Prairial mobilization programme (293). The two titles perform different political functions; neither needs an additional independently weighted publication biography.",
+        "document_pages": [
+          283,
+          284,
+          293
+        ],
+        "review_disposition": "Independently reviewed source-scope or local nonduplication decision; density does not establish semantics.",
+        "source_chunk_id": "CHUNK-012",
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility.",
+        "acceptable_access": [
+          "Robespierre’s Tail — Thermidorian polemic",
+          "People’s Insurrection — Prairial mobilization programme"
+        ]
+      },
+      "source_grounded_reason": "Pages 283–284 and 293 develop different political uses of the two publications; titles need coherent distinct target routes."
+    },
+    {
+      "id": "UNC-SUCC-8A78F581FC86",
+      "entity_type": "uncertainty",
+      "before_file": "successor/independent-review/actual-draft/lead/uncertainty-review.076-100.v1.json",
+      "before_record_sha256": "63fed3130048983301113b6801fa0ad092c6dc520ba3c929677a31177e9f8029",
+      "before": {
+        "uncertainty_id": "UNC-SUCC-8A78F581FC86",
+        "source_lineage": "legacy",
+        "source_uncertainty_id": "legacy-3",
+        "source_chunk_id": "CHUNK-009",
+        "issue": "Granularity of British domestic politics",
+        "handling": "British reform societies, loyalist reaction, war policy and strategic-financial crisis retain separate requirements because they address different actors and explanatory questions.",
+        "status": "resolved_editorial",
+        "source_pages": [],
+        "author_review": "source_and_final_historical_fields_reviewed; independent_draft_review_pending",
+        "independent_review_note": "Source qualification/editorial rule inspected; exact final parent and dependency fulfillment remains subject to the independent final-byte review."
+      },
+      "proposed": {
+        "uncertainty_id": "UNC-SUCC-8A78F581FC86",
+        "source_lineage": "legacy",
+        "source_uncertainty_id": "legacy-3",
+        "source_chunk_id": "CHUNK-009",
+        "issue": "Granularity of British domestic politics",
+        "handling": "Preserve loyalism and anti-reform reaction, Whig division over war, repression and trials, Catholic relief, war finance and the bank crisis, and naval mutiny as distinct explanatory demands with useful direct routes. Coherent parent subjects may group related demands, but their main meanings and reader-task questions must express the retained obligations. Mutiny is grievance-driven in this account; a general subversion claim is not established. Final parent/task fulfillment requires exact binding rather than a chapter association.",
+        "status": "resolved_editorial",
+        "source_pages": [
+          201,
+          211,
+          212,
+          213,
+          216
+        ],
+        "author_review": "source_and_final_historical_fields_reviewed; independent_draft_review_pending",
+        "independent_review_note": "Source qualification/editorial rule inspected; exact final parent and dependency fulfillment remains subject to the independent final-byte review."
+      },
+      "source_grounded_reason": "The whole original control explicitly names six domestic-political demands. Broad British-politics wording omits distinctions that eligible prose sustains."
+    },
+    {
+      "id": "EXCL-SUCC-FCDFB6E2976E",
+      "entity_type": "exclusion",
+      "before_file": "successor/independent-review/actual-draft/lead/exclusion-review.000-020.v1.json",
+      "before_record_sha256": "1698654e876b397171a3008f50bca2cd3ddc70b19cd985581e756785bd291607",
+      "before": {
+        "exclusion_id": "EXCL-SUCC-FCDFB6E2976E",
+        "category": "incidental_subject_not_independently_weighted",
+        "label": "Arthur Young as quoted observer",
+        "meaning": "Young is quoted for contemporary impressions of Dutch-focused political conversation and public skepticism about Brienne.",
+        "rationale": "The quotations are useful evidence about opinion, not substantive treatment of Young himself; name access is therefore excluded by default.",
+        "acceptable_access": [],
+        "evidence": [
+          {
+            "document_page": 77,
+            "source_page_label": "77",
+            "locator_class": "incidental",
+            "evidence_summary": "Young is attributed a contemporary observation about French attention to the Dutch crisis."
+          },
+          {
+            "document_page": 78,
+            "source_page_label": "78",
+            "locator_class": "incidental",
+            "evidence_summary": "Young is quoted summarizing diverse public doubts about Brienne's capacity and the prospect of revolution."
+          }
+        ],
+        "local_subject_ids": [
+          "SUCC-C003-S030"
+        ],
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "proposed": {
+        "exclusion_id": "EXCL-SUCC-FCDFB6E2976E",
+        "category": "incidental_subject_not_independently_weighted",
+        "label": "Arthur Young as quoted observer",
+        "meaning": "Young is quoted for contemporary impressions of Dutch-focused political conversation and public skepticism about Brienne.",
+        "rationale": "These quotations support contemporary opinion about the Dutch crisis and Brienne; they do not require a second independently weighted biography from these two appearances. Attribution and useful subordinate access remain permissible, and developed treatment of Young elsewhere remains eligible.",
+        "acceptable_access": [
+          "Young, Arthur, contemporary observations"
+        ],
+        "evidence": [
+          {
+            "document_page": 77,
+            "source_page_label": "77",
+            "locator_class": "incidental",
+            "evidence_summary": "Young is attributed a contemporary observation about French attention to the Dutch crisis."
+          },
+          {
+            "document_page": 78,
+            "source_page_label": "78",
+            "locator_class": "incidental",
+            "evidence_summary": "Young is quoted summarizing diverse public doubts about Brienne's capacity and the prospect of revolution."
+          }
+        ],
+        "local_subject_ids": [
+          "SUCC-C003-S030"
+        ],
+        "scope_constraint": "Only the specified treatment is excluded as an independently weighted subject; substantive treatment and useful subordinate access elsewhere remain eligible. Source-region eligibility follows the frozen policy and independent scope disposition: map and graph interiors and keys are excluded, while substantive captions and chapter text remain eligible. The prose-word density denominator does not decide semantic eligibility."
+      },
+      "source_grounded_reason": "Pages 77–78 use Young as an attributed witness. This does not justify excluding name access by default, especially alongside substantive treatment elsewhere."
+    }
+  ],
+  "additions": {
+    "exclusions": [],
+    "uncertainties": [
+      {
+        "uncertainty_id": "UNC-ISR-760918CA219C",
+        "issue": "Dumouriez defection date differs between supplied pages",
+        "handling": "Page 202 gives 5 April 1793; page 227 gives 6 April 1793. Retain the defection, its setting and political consequences without silently requiring one day as an externally corrected fact. Use April 1793 or qualify the competing supplied-source dates where the day matters.",
+        "status": "source_inconsistency_preserved",
+        "source_pages": [
+          202,
+          227
+        ],
+        "source_chunk_id": "CHUNK-009",
+        "independent_review_note": "Both complete eligible prose pages were read after draft exposure; this is a source-only proposed control, subject to lead integration."
+      }
+    ]
+  },
+  "removals": [],
+  "source_reference": {
+    "path": ".source-only/source/source.pdf",
+    "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  }
+}
