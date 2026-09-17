@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T00:08:24.492461+00:00",
+  "recorded_at": "2026-09-17T00:17:33.722987+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -275,6 +275,19 @@
       "includes_all_lead_unique_keys": 590,
       "other_owned_overlap_keys_awaiting_reconciliation": 239,
       "final_repaired_value_review_complete": false
+    },
+    "later_page_relationship_referral_closure": {
+      "path": "successor/independent-review/actual-draft/lead/reviewer-001-later-historical-referral-closure.v1.json",
+      "sha256": "9b51e26aa7694048d6cbcc86d30138ec4153be54274199f346b394b8cece1760",
+      "exact_referral_keys_and_original_fields_verified": 27,
+      "final_repaired_retention_verified": false
+    },
+    "source_first_actual_draft_reconciliation": {
+      "lead_receipt_sha256": "8af8324f2076621e7430497d61d01d1622b404ad7fc897f369d84459f34b052b",
+      "lead_bound_files_verified": 5,
+      "lead_original_note_text_and_pages_verified": 106,
+      "exact_disjoint_team_finding_ids_verified": 446,
+      "final_repaired_value_approval": false
     }
   },
   "density_proposal": {
