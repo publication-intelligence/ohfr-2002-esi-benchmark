@@ -1,0 +1,1189 @@
+{
+  "status": "sealed_routing_composition_pending_lead",
+  "records": [
+    {
+      "original_key": "legacy:SUBJ-CDA0F4E6EA67:EVID-EED0BCD983E0",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 4,
+        "record_sha256": "fe2e22f7ec87cf213c392375d9368907fc81e2f11a8adeac55b020182c9ea4f5"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-525A1728F643",
+          "evidence_id": "EVID-SUCC-9EE576A9597F"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-73959CE24E90",
+          "evidence_id": "EVID-SUCC-528B1EB231E5"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-525A1728F643",
+          "evidence_id": "EVID-SUCC-9EE576A9597F"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "419 explicitly gives the later state motto and uneven chronology. Preserve that as Doyle’s retrospective dating of fraternity in the motto, not a denial of earlier uses of fraternity; the current liberty evidence is the precise destination.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-525A1728F643",
+          "evidence_id": "EVID-SUCC-9EE576A9597F",
+          "composed_subject_sha256": "e7c6bc86b28c85d6785a4be04d883b4e30b574d4cb27bb29a93340476d26e1c6",
+          "composed_evidence_sha256": "7f57e4f5d96a02779148aaf36fd6826c376db8a8a327d44381a0672df36156bd",
+          "composed_evidence": {
+            "document_page": 419,
+            "source_page_label": "419",
+            "locator_class": "principal",
+            "evidence_summary": "Freedom of thought, writing and worship endured as ideals despite practical restrictions. The later three-part motto compresses different trajectories: fraternity appeared later and largely faded with sansculotte influence. Doyle retrospectively dates fraternity in the motto to 1793, its retreat to late 1794, and the familiar formula’s state adoption to the Third Republic; earlier uses of fraternity are not excluded.",
+            "evidence_id": "EVID-SUCC-9EE576A9597F",
+            "source_local_subject_id": "SUCC-C017-S032",
+            "source_chunk_id": "CHUNK-017"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                418,
+                419
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                418,
+                419
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-D6A922169D31:EVID-426227380CE6",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 31,
+        "record_sha256": "922f3977a3dc8ff985f20faad6a20403b50b65fc013675c5ae7a7cedd916598f"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+          "evidence_id": "EVID-SUCC-44CD379362ED"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-431D9939D11B",
+          "evidence_id": "EVID-SUCC-019A0894470E"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+          "evidence_id": "EVID-SUCC-44CD379362ED"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "367 describes Langhe peasants carrying miniatures of LePeletier and Marat against impending annexation. This is missing from both current summaries; restore as the specific illustration, not infer ideological identity for all rebels.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+          "evidence_id": "EVID-SUCC-44CD379362ED",
+          "composed_subject_sha256": "c797c4c1a4806bbe011382ec3d0393fd00e129c2279f79805b8fd63a29cb916e",
+          "composed_evidence_sha256": "e0a14b4c5cbf7ef4132b735d8823d48e5ba3de136121324bd272d7a78a575fdb",
+          "composed_evidence": {
+            "document_page": 367,
+            "source_page_label": "367",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Moderate territorial reformers and radical unifiers remained divided, and some Jacobins turned against France by 1798-1799. Langhe peasants protesting French annexation in February 1799 carried Le Peletier and Marat miniatures, showing revolutionary imagery used against France.",
+            "evidence_id": "EVID-SUCC-44CD379362ED",
+            "source_local_subject_id": "SUCC-C015-S023",
+            "source_chunk_id": "CHUNK-015"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                361,
+                367
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                361,
+                367
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-DCA2B0F86907:EVID-5479E2A131B4",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 49,
+        "record_sha256": "0dfd48f513ab8cf1e18509b79655ae44f3a79fe5bbde669475d7d27704371678"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-B0DA70825BF2"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-3D22B3F79DA6"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-B08B87FFB7E1"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-B0DA70825BF2"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "Women mobilizing workers appears on293 immediately before armed Guards continuing on294. UseB08 for the former andB0DA for the latter;3D22 is the later collapse, useful context but not the same evidence claim.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-B08B87FFB7E1",
+          "composed_subject_sha256": "75cc5e437e9208ef0f0c08f7dd2d3f6260a1b8dc135c726385ce10c170e8c247",
+          "composed_evidence_sha256": "21241bee5c13d0cb9efd2ef6093f9dfc3ad8a039e8fcb7c0a2a1bc432ea7f541",
+          "composed_evidence": {
+            "document_page": 293,
+            "source_page_label": "293",
+            "locator_class": "principal",
+            "evidence_summary": "Starving Parisians organize for a journee after rations collapse and women lead workers toward the Convention.",
+            "evidence_id": "EVID-SUCC-B08B87FFB7E1",
+            "source_local_subject_id": "SUCC-C012-S029",
+            "source_chunk_id": "CHUNK-012"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                293,
+                294
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                293,
+                294
+              ]
+            }
+          ]
+        },
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-B0DA70825BF2",
+          "composed_subject_sha256": "75cc5e437e9208ef0f0c08f7dd2d3f6260a1b8dc135c726385ce10c170e8c247",
+          "composed_evidence_sha256": "a6942cf93cc3750218771e8eef5d1421c1bee5a97e5d53e99b64483f4fe55503",
+          "composed_evidence": {
+            "document_page": 294,
+            "source_page_label": "294",
+            "locator_class": "principal",
+            "evidence_summary": "After Féraud was shot while resisting entry, insurgents carried his head into the hall and demanded bread, the 1793 constitution, release of patriots, permanent sections, an independent Commune, food searches and arrests of returned émigrés and anti-Jacobin deputies.",
+            "evidence_id": "EVID-SUCC-B0DA70825BF2",
+            "source_local_subject_id": "SUCC-C012-S029",
+            "source_chunk_id": "CHUNK-012"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                293,
+                294
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                293,
+                294
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-DE2737CD61FA:EVID-91D16A3CCA27",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 54,
+        "record_sha256": "d64068b7168cc67b78893888d0924387809d0acc748f4002a37f3f66d7e328b2"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-E4F960D6BDCC"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-C2F95ECB3CDE"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-C2F95ECB3CDE"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "254’s C2F is the direct transfer/limited-action mapping;E4F concerns successors and is context rather than equivalent evidence of Couthon’s conduct.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-C2F95ECB3CDE",
+          "composed_subject_sha256": "3652093b2aa0620d0e939e177dec2dd2cf2220629c57f6e5fa60d4f2e24bc718",
+          "composed_evidence_sha256": "16173021bfb81c1293893dfab90d13f61dfb309c253ecde45d0d563f943f2a95",
+          "composed_evidence": {
+            "document_page": 254,
+            "source_page_label": "254",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Couthon began selective courts and limited demolition but requested transfer rather than carry out the full punitive decree.",
+            "evidence_id": "EVID-SUCC-C2F95ECB3CDE",
+            "source_local_subject_id": "SUCC-C011-S018",
+            "source_chunk_id": "CHUNK-011"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                247,
+                253,
+                254,
+                268
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                247,
+                253,
+                254,
+                268
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-DE2737CD61FA:EVID-C7CA9831E37A",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 55,
+        "record_sha256": "7fe8be272698c60eac40355e0c048f8e6e8056a231a40a00e19522439850a7a5"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-71D89D45E5F1"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-347FB3B538B0"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-347FB3B538B0"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "253 explicitly identifies successful Caen conciliation as Couthon’s model;347F is the direct mapping, while71D supplies the exceptional punitive context.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-347FB3B538B0",
+          "composed_subject_sha256": "3652093b2aa0620d0e939e177dec2dd2cf2220629c57f6e5fa60d4f2e24bc718",
+          "composed_evidence_sha256": "d385589e9df7a52c1a4b97176ff25b04ce7ed42203324547e41e575783c46456",
+          "composed_evidence": {
+            "document_page": 253,
+            "source_page_label": "253",
+            "locator_class": "principal",
+            "evidence_summary": "Couthon received the surrender and sought a policy of conciliation despite demands for exemplary punishment. Couthon’s intended conciliatory model was the treatment of Caen.",
+            "evidence_id": "EVID-SUCC-347FB3B538B0",
+            "source_local_subject_id": "SUCC-C011-S018",
+            "source_chunk_id": "CHUNK-011"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                247,
+                253,
+                254,
+                268
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                247,
+                253,
+                254,
+                268
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-E780A222175C:EVID-23EFCCED05A1",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 92,
+        "record_sha256": "37569da1b6a45f62dfe764412c26707fd011cbba5f1740705281fe18b09cd9e6"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-28E04117C501",
+          "evidence_id": "EVID-SUCC-2FA0C14F1B68"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-28E04117C501",
+          "evidence_id": "EVID-SUCC-D9A37306716C"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-28E04117C501",
+          "evidence_id": "EVID-SUCC-2FA0C14F1B68"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "397 completes monastic loss and the Concordat’s failure to restore cloistered life; corporate self-government is developed on396. Bind D9A396 plus repaired2FA397, not an unqualified sole397 corporate claim.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-28E04117C501",
+          "evidence_id": "EVID-SUCC-D9A37306716C",
+          "composed_subject_sha256": "86297586ae60bf368e4ab7729535d889f2865be64264f14c843baf80cf9a6fe8",
+          "composed_evidence_sha256": "e73333720829181fdfd15a654f8449fffe1a170853db44a4a54709c6a2add14b",
+          "composed_evidence": {
+            "document_page": 396,
+            "source_page_label": "396",
+            "locator_class": "principal",
+            "evidence_summary": "Loss of tithes, feudal rights, land, corporate autonomy, and monasticism preceded the Civil Constitution's formal restructuring.",
+            "evidence_id": "EVID-SUCC-D9A37306716C",
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                396,
+                397,
+                424
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                396,
+                397,
+                424
+              ]
+            }
+          ]
+        },
+        {
+          "subject_id": "SUBJ-SUCC-28E04117C501",
+          "evidence_id": "EVID-SUCC-2FA0C14F1B68",
+          "composed_subject_sha256": "86297586ae60bf368e4ab7729535d889f2865be64264f14c843baf80cf9a6fe8",
+          "composed_evidence_sha256": "b2ee6fac5d7efa936c82aba173741a68e7fdf23412d444969279b20f7969fe75",
+          "composed_evidence": {
+            "document_page": 397,
+            "source_page_label": "397",
+            "locator_class": "principal",
+            "evidence_summary": "Nuns overwhelmingly opposed convent dissolution, and the Concordat did not restore cloistered life on its former scale. The oath then divided clergy; refractories faced deprivation, massacre, execution, deportation and exile, while continuing schism and dechristianization deepened trauma. Nearly 25,000 clergy emigrated or were deported; the strong secular concentration meant parish-clergy loss was not far short of half, according to Doyle’s estimate. Constitutional clergy also fell under suspicion by 1794, after Rome and much of the population had repudiated them; continuing schism and attacks on worship injured both sides.",
+            "evidence_id": "EVID-SUCC-2FA0C14F1B68",
+            "source_local_subject_id": "SUCC-C017-S007",
+            "source_chunk_id": "CHUNK-017"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                396,
+                397,
+                424
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                396,
+                397,
+                424
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-E81DCEED5E62:EVID-81EF692CCF5A",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 100,
+        "record_sha256": "46ed409c8bf02b47b396c4f80d783229a555eeea79c049e04cfcd9e37745e75a"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+          "evidence_id": "EVID-SUCC-096EF28FB673"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+          "evidence_id": "EVID-SUCC-636DF76D8DAC"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+          "evidence_id": "EVID-SUCC-E3E407BFBF12"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+          "evidence_id": "EVID-SUCC-096EF28FB673"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "218 gives actual clubs and foreign fears.096E is the precise mapping;636D and E3E are broader concluding war effects rather than equivalent club claims.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C7DF46AA6436",
+          "evidence_id": "EVID-SUCC-096EF28FB673",
+          "composed_subject_sha256": "b3ada4a8875717a969cb3767e293d0e65e12fe0e5e30af045b8941b024f2dca6",
+          "composed_evidence_sha256": "fc4697f5213859625f84f1e803b2f7e92e7d4ce947df7ace3a5f941fb3cdabde",
+          "composed_evidence": {
+            "document_page": 218,
+            "source_page_label": "218",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "War forced Europeans, belligerent or neutral, to take sides. Withdrawal of the fraternity offer went unnoticed or unbelieved. French residents’ contempt for Church and king affected Spain; clubs appeared in Naples, Mainz, Poland and the Netherlands in the setting of French military or revolutionary influence. These circumstances reinforced fear of imposed revolution.",
+            "evidence_id": "EVID-SUCC-096EF28FB673",
+            "source_local_subject_id": "SUCC-C009-S036",
+            "source_chunk_id": "CHUNK-009"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                197,
+                200,
+                201,
+                202,
+                209,
+                210,
+                211,
+                213,
+                218,
+                219
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                197,
+                200,
+                201,
+                202,
+                209,
+                210,
+                211,
+                213,
+                218,
+                219
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F038A3F72E2F:EVID-3FC52C925E58",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 134,
+        "record_sha256": "3f4f308ece12180aad09d68b8a23e205f4a89557fa3946ee2bcbc23018aaa144"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CD9A2A52162E",
+          "evidence_id": "EVID-SUCC-682103871F3E"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CD9A2A52162E",
+          "evidence_id": "EVID-SUCC-A5A02973F65B"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "The comparison between unplanned1789 and later prepared revolutions is on421, not422. Bind repairedA5A;6821 remains the subsequent global examples.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CD9A2A52162E",
+          "evidence_id": "EVID-SUCC-A5A02973F65B",
+          "composed_subject_sha256": "2011c9f437b288830b396d08127af91d543135e18d8175e19b5222b1aa4a6817",
+          "composed_evidence_sha256": "6d265b46d4cf4ea9a3f8751128989d904ef23173aa5207d3802431eebc107545",
+          "composed_evidence": {
+            "document_page": 421,
+            "source_page_label": "421",
+            "locator_class": "principal",
+            "evidence_summary": "Babeuf pursued radical equality, and revolutionary declarations made insurrection a sacred right against oppressive government. This was a material egalitarian project beyond the narrow practical equality of governing regimes, justified by the right to resist oppression. The regimes’ title derived from 1789’s extra-legal seizure; August 1792 was a second revolution exercising resistance. The page contrasts unplanned 1789 with later prepared revolutions and supplies techniques, warnings, style and language as the model.",
+            "evidence_id": "EVID-SUCC-A5A02973F65B",
+            "source_local_subject_id": "SUCC-C017-S035",
+            "source_chunk_id": "CHUNK-017"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                421,
+                422
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                421,
+                422
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F21671CF77BA:EVID-0F619A9A886C",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 149,
+        "record_sha256": "fead08508ea5948c9a6e4498495faa1aaef0d381fccd4d937be95209d678a092"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-SUCC-F2286F756229"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-ISR-001-LSE-033-356"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-SUCC-F2286F756229"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "356 contains ignored Alba and discredited radicals;357 contains the Directory’s occupation/exchange plan. F228’s357 correction is valid only for the latter. Add a separate356 claim rather than treating the moved row as preserving both.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-ISR-001-LSE-033-356",
+          "composed_subject_sha256": "158af2573b3fc7b9ff0875ae3b0472bfd58bb7b3740d7d86f99c3f8f831ce685",
+          "composed_evidence_sha256": "2857d89bfb3e4ee3fd32f67937ce5aa47b71051cfde106b1dd47b3b80bfda1db",
+          "composed_evidence": {
+            "evidence_id": "EVID-ISR-001-LSE-033-356",
+            "document_page": 356,
+            "source_page_label": "356",
+            "locator_class": "supporting",
+            "evidence_summary": "Bonaparte ignored the small Alba republic after defeating Piedmont and left the king free to suppress its rebels; association with the Babeuf plot discredited radical Italian exiles in the Directory’s eyes.",
+            "source_chunk_id": "CHUNK-015",
+            "source_local_subject_id": "SUCC-C015-S033"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                360,
+                361
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                360,
+                361
+              ]
+            }
+          ]
+        },
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-SUCC-F2286F756229",
+          "composed_subject_sha256": "158af2573b3fc7b9ff0875ae3b0472bfd58bb7b3740d7d86f99c3f8f831ce685",
+          "composed_evidence_sha256": "ffae3b2ebe35139ca4daea6c4f880fdcd95bce9f0f745ccdfa33a186aebf4214",
+          "composed_evidence": {
+            "evidence_id": "EVID-SUCC-F2286F756229",
+            "source_evidence_id": "EVID-DFAFB8DB71DF",
+            "document_page": 357,
+            "source_page_label": "357",
+            "locator_class": "principal",
+            "evidence_summary": "The Directory distrusted Italian Jacobins and intended to occupy and exploit Italy, exchanging it for the Rhineland at the eventual peace.",
+            "provenance": {
+              "chunk_id": "CHUNK-015",
+              "local_subject_id": "CH15-S028",
+              "source_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+              "source_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666"
+            },
+            "source_local_subject_id": "SUCC-C015-S033",
+            "source_chunk_id": "CHUNK-015",
+            "historical_evidence_identity": {
+              "lineage": "legacy",
+              "subject_id": "SUBJ-F21671CF77BA",
+              "evidence_id": "EVID-0F619A9A886C"
+            },
+            "reconciliation_rationale": "Retain this inspected final-release page claim in the named successor treatment; the chapter proposal used fewer illustrative pages,which is not grounds to lose this source-supported facet."
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                360,
+                361
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                360,
+                361
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F21671CF77BA:EVID-6FFFBCC812D3",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 150,
+        "record_sha256": "18776050869852744ddcad6cdd2f56f364fb410d4109835a9803f930d6d9dce7"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-SUCC-E9B28112309F"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-02AF5D334E8F",
+          "evidence_id": "EVID-SUCC-80BBFB2E4E69"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-SUCC-E9B28112309F"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "361 explains the logical client-state alternative to incorporation;E9B should add this to its constitutional imposition claim.02AF80BB is refugee organization, not equivalent strategic evidence.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-84B2C8434BA6",
+          "evidence_id": "EVID-SUCC-E9B28112309F",
+          "composed_subject_sha256": "158af2573b3fc7b9ff0875ae3b0472bfd58bb7b3740d7d86f99c3f8f831ce685",
+          "composed_evidence_sha256": "48df9324d1f8b390f1c018fd5cda0ba591f9b34edde9bae1a4f730363b9bd9f1",
+          "composed_evidence": {
+            "document_page": 361,
+            "source_page_label": "361",
+            "locator_class": "principal",
+            "evidence_summary": "He dictated the Cisalpine constitution, nominated officers, and restricted radical clubs. A consolidated client republic with coherent frontiers was a practical alternative to incorporation into France, which would have alienated Italian supporters.",
+            "evidence_id": "EVID-SUCC-E9B28112309F",
+            "source_local_subject_id": "SUCC-C015-S033",
+            "source_chunk_id": "CHUNK-015"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                360,
+                361
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                356,
+                357,
+                358,
+                359,
+                360,
+                361
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F65ECC5BD7ED:EVID-733CB0D5B372",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 161,
+        "record_sha256": "fbabf8ffd2e19fcb3426a6b59f51e50afcbc0f308a0eea62ab2d9c3bd51ab078"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-9601697A1247",
+          "evidence_id": "EVID-SUCC-0B3F3C6F8A3E"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-9601697A1247",
+          "evidence_id": "EVID-SUCC-0B3F3C6F8A3E"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-9601697A1247",
+          "evidence_id": "EVID-ISR-001-LSE-035-162"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "Most refugees’ nearer destinations are on161, so0B3’s correction is valid for residence. The Dutch-change/Belgian-existing-liberties contrast is actually162 and requires explicit separate support.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-9601697A1247",
+          "evidence_id": "EVID-SUCC-0B3F3C6F8A3E",
+          "composed_subject_sha256": "a90ab045d1156963a982babb4ddf724f26cd4d4b59327b31955d8ba671944ca9",
+          "composed_evidence_sha256": "f88a834d857fa3828006e31a186d6a7152f780daff6204c65fcdf23e23dd312d",
+          "composed_evidence": {
+            "document_page": 161,
+            "source_page_label": "161",
+            "locator_class": "supporting",
+            "evidence_summary": "Most Dutch refugees stayed nearer home, especially in the Austrian Netherlands and Liège.",
+            "evidence_id": "EVID-SUCC-0B3F3C6F8A3E",
+            "source_local_subject_id": "SUCC-C007-S006",
+            "source_chunk_id": "CHUNK-007"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                159,
+                161,
+                162
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                159,
+                161,
+                162
+              ]
+            }
+          ]
+        },
+        {
+          "subject_id": "SUBJ-SUCC-9601697A1247",
+          "evidence_id": "EVID-ISR-001-LSE-035-162",
+          "composed_subject_sha256": "a90ab045d1156963a982babb4ddf724f26cd4d4b59327b31955d8ba671944ca9",
+          "composed_evidence_sha256": "a2fa6ae032c5ca9501609345d4d7d3ad5f993ee9d8acae98506a4318f9126da0",
+          "composed_evidence": {
+            "evidence_id": "EVID-ISR-001-LSE-035-162",
+            "document_page": 162,
+            "source_page_label": "162",
+            "locator_class": "supporting",
+            "evidence_summary": "Dutch Patriots sought to change political institutions, whereas Belgian resistance largely defended existing liberties against Joseph II’s reforms; shared exile surroundings did not make their programmes equivalent.",
+            "source_chunk_id": "CHUNK-007",
+            "source_local_subject_id": "SUCC-C007-S006"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                159,
+                161,
+                162
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                159,
+                161,
+                162
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F65EE31FF92E:EVID-5725C1943E67",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 164,
+        "record_sha256": "d7abd4b8439f405fe077984d9535d12ab1328a75ef9a2b3be59a171d57c22ed2"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+          "evidence_id": "EVID-SUCC-CDEAA28824C3"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-44A8A4E36810",
+          "evidence_id": "EVID-SUCC-28C63DACB433"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+          "evidence_id": "EVID-SUCC-CDEAA28824C3"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "346CDEA directly supports regular post-coup elections.44A28C concerns disillusionment and is adjacent context, not equivalent electoral evidence.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-F0BD6A05AAAD",
+          "evidence_id": "EVID-SUCC-CDEAA28824C3",
+          "composed_subject_sha256": "33663ba7f4f5e3074f80ae84dc3d6059eaf08bfcfeb0556880a9a763b67cd331",
+          "composed_evidence_sha256": "235b0f9664a53e250c4000eaa6381156c9566773cf41e51398748af7b1dc4dfa",
+          "composed_evidence": {
+            "document_page": 346,
+            "source_page_label": "346",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "After the June coup and elections, constitutional government functioned with regular elections until 1800. The radicals’ reservation of seats for themselves prompted Daendels’s intervention; the restored Federalists held elections rather than his taking personal power.",
+            "evidence_id": "EVID-SUCC-CDEAA28824C3",
+            "source_local_subject_id": "SUCC-C015-S010",
+            "source_chunk_id": "CHUNK-015"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                343,
+                344,
+                346
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                343,
+                344,
+                346
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F6BDB0C9F165:EVID-76FB99450FAA",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 165,
+        "record_sha256": "6fbc8a2747f444e2ee510e778daa969f06bca5d2df8eebbfc4c3fa07e167b1f1"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-B0DA70825BF2"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-3D22B3F79DA6"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-3D22B3F79DA6"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "2943D22 is the precise retreat/compromise mapping;B0DA is the earlier seizure, not the same claim. Parent already supplies social hesitation.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-3D22B3F79DA6",
+          "composed_subject_sha256": "75cc5e437e9208ef0f0c08f7dd2d3f6260a1b8dc135c726385ce10c170e8c247",
+          "composed_evidence_sha256": "0bdcc7a86e45aceee96b6e4c8d2a920b3552dfec50d2f7bcc8398316bc10d6c0",
+          "composed_evidence": {
+            "document_page": 294,
+            "source_page_label": "294",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Convention forces regain the hall and the next day's massed sectional support dissolves without firing. During the intervening early hours, before the next afternoon’s compromise, the Convention burned coerced votes and ordered the arrest of eleven supportive deputies; the later narrative recounts this retrospectively.",
+            "evidence_id": "EVID-SUCC-3D22B3F79DA6",
+            "source_local_subject_id": "SUCC-C012-S029",
+            "source_chunk_id": "CHUNK-012"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                293,
+                294
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                293,
+                294
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F6BDB0C9F165:EVID-EADA45C7C0C3",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 166,
+        "record_sha256": "3729491135dc8d8738a6a2ef4af13b6b6c490d8eb4fd00096f742f05ac3da8a9"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-E2EC7735E043"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-3D22B3F79DA6"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "Burned votes and arrest of eleven deputies are on294, before21May dispersal. Rebind to expanded3D22;295E2EC concerns ensuing prosecution and is context, not equivalent chronology.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-CC730DB406A0",
+          "evidence_id": "EVID-SUCC-3D22B3F79DA6",
+          "composed_subject_sha256": "75cc5e437e9208ef0f0c08f7dd2d3f6260a1b8dc135c726385ce10c170e8c247",
+          "composed_evidence_sha256": "0bdcc7a86e45aceee96b6e4c8d2a920b3552dfec50d2f7bcc8398316bc10d6c0",
+          "composed_evidence": {
+            "document_page": 294,
+            "source_page_label": "294",
+            "locator_class": "synthesis_or_conclusion",
+            "evidence_summary": "Convention forces regain the hall and the next day's massed sectional support dissolves without firing. During the intervening early hours, before the next afternoon’s compromise, the Convention burned coerced votes and ordered the arrest of eleven supportive deputies; the later narrative recounts this retrospectively.",
+            "evidence_id": "EVID-SUCC-3D22B3F79DA6",
+            "source_local_subject_id": "SUCC-C012-S029",
+            "source_chunk_id": "CHUNK-012"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                293,
+                294
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                293,
+                294
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-F74E28781303:EVID-A16261FF0FF9",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 175,
+        "record_sha256": "5745ac8691c42f22edee96d7697556130f5eb129e2d83407f42852f7da538465"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+          "evidence_id": "EVID-SUCC-406CC8133B3E"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+          "evidence_id": "EVID-SUCC-B3D6C2C1181F"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "Move the old battle claim’s route to202/B3D;201406C is causal background only, not the actual battle.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-0D87BD18FE77",
+          "evidence_id": "EVID-SUCC-B3D6C2C1181F",
+          "composed_subject_sha256": "567d44dec0ca306cf04935bfe34d9bac062f2939be9db4ebf28bb0e78cf27ce8",
+          "composed_evidence_sha256": "f826c010b4cdc925b799ced4482ca6c2abdc3f457047704c572b6bb83ef8a237",
+          "composed_evidence": {
+            "document_page": 202,
+            "source_page_label": "202",
+            "locator_class": "principal",
+            "evidence_summary": "Neerwinden, Dumouriez’s defection and Rhine losses reversed French advances as the Vendée revolt added a major domestic military emergency. The Rhineland retreat left about 20,000 men isolated at Mainz.",
+            "evidence_id": "EVID-SUCC-B3D6C2C1181F",
+            "source_local_subject_id": "SUCC-C009-S009",
+            "source_chunk_id": "CHUNK-009"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                201,
+                202,
+                203,
+                206
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                201,
+                202,
+                203,
+                206
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    },
+    {
+      "original_key": "legacy:SUBJ-FB9E7B21850C:EVID-5545163BEC27",
+      "tail_ledger_binding": {
+        "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+        "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+        "line_1_based": 200,
+        "record_sha256": "e60531c1608b4898b7cf18ba1f54c4ee0d52584a2f5e110fe7f2093b42199d74"
+      },
+      "supplied_old_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-71D89D45E5F1"
+        },
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-347FB3B538B0"
+        }
+      ],
+      "author_proposed_explicit_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-71D89D45E5F1"
+        }
+      ],
+      "composition_check": "Proposed destination meaning/page checked against the composed record; author historical verdict carried for lead lineage integration, without new original-key ownership or final assent.",
+      "source_reason_from_tail": "25371D is the demands-for-punishment mapping supported by Chalier’s death;347F is the contrasting conciliation, not itself an equivalent martyr claim.",
+      "composed_destinations": [
+        {
+          "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+          "evidence_id": "EVID-SUCC-71D89D45E5F1",
+          "composed_subject_sha256": "3652093b2aa0620d0e939e177dec2dd2cf2220629c57f6e5fa60d4f2e24bc718",
+          "composed_evidence_sha256": "4fb15c4cf1f526ec9417cd850bb9c09ac455fc5c380eb7fd3a2a0e04bed654ce",
+          "composed_evidence": {
+            "document_page": 253,
+            "source_page_label": "253",
+            "locator_class": "principal",
+            "evidence_summary": "Lyons surrendered after prolonged resistance, and Paris demanded punishment more severe than conciliation.",
+            "evidence_id": "EVID-SUCC-71D89D45E5F1",
+            "source_local_subject_id": "SUCC-C011-S018",
+            "source_chunk_id": "CHUNK-011"
+          },
+          "nested_page_scope": [
+            {
+              "type": "source_treatments",
+              "document_pages": [
+                247,
+                253,
+                254,
+                268
+              ]
+            },
+            {
+              "type": "required_access_facets",
+              "document_pages": [
+                247,
+                253,
+                254,
+                268
+              ]
+            }
+          ]
+        }
+      ],
+      "final_editorial_approval": false
+    }
+  ],
+  "scope_note": "These are the sixteen explicit author rebindings whose destination falls within the assigned41parents. Other original-key verdicts remain with their independent historical reviewer; this component does not claim reinspection of all100/212 original units. In the Prairial routing, stage9 already moved E2EC to294 for the distinct unproved-planning claim;3D22 receives annulment/arrest chronology, so an old reference to295E2EC is not a description of current bytes."
+}

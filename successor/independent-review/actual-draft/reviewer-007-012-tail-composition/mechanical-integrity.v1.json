@@ -1,0 +1,30 @@
+{
+  "status": "pass_for_bound_composition_integrity_only",
+  "counts": {
+    "whole_parents": 41,
+    "referrals": 43,
+    "stage9_parent_overlaps": 24,
+    "parent_field_differences": 188,
+    "existing_evidence_preserved": 172,
+    "added_evidence": 2,
+    "explicit_author_routing_compositions": 16,
+    "relationship_consistency_records": 73,
+    "task_consistency_records": 73,
+    "task_facets_inspected_for_consistency": 188,
+    "dependency_repair_proposals": 3,
+    "newly_reread_postdraft_pages": 8
+  },
+  "checks": [
+    "All12input hashes/lengths verified",
+    "All41stage9 and tail record hashes match assignment",
+    "Exact41parent and43referral unions",
+    "Full recursive diff recreation for41parents and3dependency proposals",
+    "All existing parent evidence IDs and access routes preserved;2named additions",
+    "All nested page scopes refer to actual evidence pages",
+    "Exact73relationship and73task dependency sets and188facet bindings",
+    "Every retained task facet subject lies in its parent subject_ids",
+    "All7prior sealed own manifests unchanged",
+    "Source PDF identity verified"
+  ],
+  "editorial_approval": false
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "tail-composition-binding-verification-v1",
+  "result": "pass",
+  "manifest": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012-tail-composition/manifest.v1.json",
+    "sha256": "c78531e4f896378e890aee83a212f9395a6d4ba47a22fa3d339ac75521db5cbe"
+  },
+  "sealed_files_verified": 9,
+  "whole_parent_roundtrips": 41,
+  "field_diffs": 188,
+  "referrals": 43,
+  "relationship_dependencies": 73,
+  "task_dependencies": 73,
+  "exact_task_facet_bindings": 188,
+  "dependency_repair_roundtrips": 3,
+  "added_evidence_ids": [
+    "EVID-ISR-001-LSE-033-356",
+    "EVID-ISR-001-LSE-035-162"
+  ],
+  "editorial_approval": false,
+  "final_integrated_assent_pending": true,
+  "coordinator_candidate_unexposed": false,
+  "candidate_information_used": false,
+  "recorded_at": "2026-09-17T04:42:38.442614+00:00"
+}

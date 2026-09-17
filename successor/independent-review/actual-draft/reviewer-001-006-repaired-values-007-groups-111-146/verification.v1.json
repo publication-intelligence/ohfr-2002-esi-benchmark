@@ -1,0 +1,28 @@
+{
+  "status": "passed_exact_component_checks",
+  "counts": {
+    "whole_subjects_reviewed": 36,
+    "evidence_rows_reviewed": 126,
+    "subject_nested_scopes_reviewed": 72,
+    "incoming_claim_corrections_inspected": 82,
+    "relationship_dependencies_reviewed": 52,
+    "task_dependencies_reviewed": 63,
+    "original_task_facet_bindings_reviewed": 181,
+    "subject_replacements": 5,
+    "relationship_replacements": 16,
+    "task_replacements": 3,
+    "whole_replacements": 24,
+    "field_diffs": 41,
+    "referrals": 10,
+    "full_pages_reread_post_draft": 189
+  },
+  "exact_assignment_identity_sets_match": true,
+  "all_input_hashes_match": true,
+  "all_before_record_and_diff_roundtrips_match": true,
+  "all_task_facets_bound_within_parent": true,
+  "all_assigned_subject_nested_page_scopes_match_nonincidental_evidence": true,
+  "all_claimed_source_page_extract_hashes_match": true,
+  "prior_tail16_files_unchanged": true,
+  "semantic_judgments": "Manual independent review recorded in subject, relationship, task and facet ledgers. These mechanical checks do not themselves confer editorial approval.",
+  "whole_book_approval": false
+}

@@ -1,0 +1,295 @@
+{
+  "status": "proposals_pending_lead_review",
+  "base": {
+    "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage9.v1.json",
+    "sha256": "3bc8b4289d286c01d6d8b4c20556a24eb64484002e55ac9c2e29c0c44c70e87c",
+    "bytes": 6701183
+  },
+  "records": [
+    {
+      "kind": "task",
+      "index": 4,
+      "id": "TASK-SUCC-1471EC30563C",
+      "stage9_record_sha256": "1f907cf21f614e8dd1678ddfe11effe3a9cb948be8fdc253b321da6abbace198",
+      "before_record": {
+        "task_id": "TASK-SUCC-1471EC30563C",
+        "question": "Explain how the Brunswick Manifesto and military reverses accelerated democratization and deposition demands.",
+        "subject_ids": [
+          "SUBJ-SUCC-9EE30DCC1721",
+          "SUBJ-SUCC-DCF7B27DF9DC",
+          "SUBJ-SUCC-3C56EEDB9FCC",
+          "SUBJ-SUCC-9EE66EC07AA3",
+          "SUBJ-SUCC-ED05A22FC18F"
+        ],
+        "source_task_ids": [
+          "SUCC-C008-TASK-009"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-C85ACB97E8A3",
+            "question": "What account does Doyle give of how the Brunswick Manifesto and military reverses accelerated democratization and deposition demands?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-9EE30DCC1721",
+              "SUBJ-SUCC-DCF7B27DF9DC",
+              "SUBJ-SUCC-3C56EEDB9FCC",
+              "SUBJ-SUCC-9EE66EC07AA3",
+              "SUBJ-SUCC-ED05A22FC18F"
+            ],
+            "historical_task_id": "TASK-C85ACB97E8A3",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The specific question was inspected against the source and fits this parent’s stated demand and explicit subject requirements. The historical wording remains a trace, not an independent scoring denominator."
+          }
+        ],
+        "source_pages": [
+          186,
+          187,
+          188,
+          189,
+          190
+        ]
+      },
+      "consistency_disposition": "propose_narrow_dependency_repair",
+      "rationale": "The expanded9EE parent supplies early military reverses as well as later democratization; explicitly include184 in this task’s source pages.",
+      "scope": "Consistency of the complete dependency and its facets with the composed tail parents; not renewed whole-record approval of other parent subjects or historical original keys.",
+      "facet_bindings_inspected": [
+        {
+          "facet_id": "legacy:TASK-C85ACB97E8A3",
+          "sha256": "cdc1c9eea572957b318badd1045beae41a0a727ae24c4b3b3b45fff005cb9d0e",
+          "required_subject_ids": [
+            "SUBJ-SUCC-9EE30DCC1721",
+            "SUBJ-SUCC-DCF7B27DF9DC",
+            "SUBJ-SUCC-3C56EEDB9FCC",
+            "SUBJ-SUCC-9EE66EC07AA3",
+            "SUBJ-SUCC-ED05A22FC18F"
+          ]
+        }
+      ],
+      "final_editorial_approval": false,
+      "proposed_record": {
+        "task_id": "TASK-SUCC-1471EC30563C",
+        "question": "Explain how the Brunswick Manifesto and military reverses accelerated democratization and deposition demands.",
+        "subject_ids": [
+          "SUBJ-SUCC-9EE30DCC1721",
+          "SUBJ-SUCC-DCF7B27DF9DC",
+          "SUBJ-SUCC-3C56EEDB9FCC",
+          "SUBJ-SUCC-9EE66EC07AA3",
+          "SUBJ-SUCC-ED05A22FC18F"
+        ],
+        "source_task_ids": [
+          "SUCC-C008-TASK-009"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-C85ACB97E8A3",
+            "question": "What account does Doyle give of how the Brunswick Manifesto and military reverses accelerated democratization and deposition demands?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-9EE30DCC1721",
+              "SUBJ-SUCC-DCF7B27DF9DC",
+              "SUBJ-SUCC-3C56EEDB9FCC",
+              "SUBJ-SUCC-9EE66EC07AA3",
+              "SUBJ-SUCC-ED05A22FC18F"
+            ],
+            "historical_task_id": "TASK-C85ACB97E8A3",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The specific question was inspected against the source and fits this parent’s stated demand and explicit subject requirements. The historical wording remains a trace, not an independent scoring denominator."
+          }
+        ],
+        "source_pages": [
+          184,
+          186,
+          187,
+          188,
+          189,
+          190
+        ]
+      },
+      "proposed_record_sha256": "765bece785a999b4c4c5ded9f0fe77c49209d99d81727eaaf32693cfe619419f",
+      "field_differences": [
+        {
+          "path": "/source_pages",
+          "before": [
+            186,
+            187,
+            188,
+            189,
+            190
+          ],
+          "after": [
+            184,
+            186,
+            187,
+            188,
+            189,
+            190
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "task",
+      "index": 28,
+      "id": "TASK-SUCC-B445EC8059DB",
+      "stage9_record_sha256": "2db176a0711d055e6f69752a9e2fa4d79adbd48e12aec5448c6aab0f8f45fcbd",
+      "before_record": {
+        "task_id": "TASK-SUCC-B445EC8059DB",
+        "question": "Why did the Irish rising fail despite large-scale participation?",
+        "subject_ids": [
+          "SUBJ-SUCC-7C338D256927",
+          "SUBJ-SUCC-E26867406B1D"
+        ],
+        "source_task_ids": [
+          "SUCC-C015-T001"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-0E320332A42B",
+            "question": "How does Doyle explain why the Irish Rebellion of 1798 began when it did and why it failed so quickly?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7C338D256927",
+              "SUBJ-SUCC-E26867406B1D"
+            ],
+            "historical_task_id": "TASK-0E320332A42B",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The specific question was inspected against the source and fits this parent’s stated demand and explicit subject requirements. The historical wording remains a trace, not an independent scoring denominator."
+          }
+        ],
+        "source_pages": [
+          341,
+          342,
+          343
+        ]
+      },
+      "consistency_disposition": "propose_narrow_dependency_repair",
+      "rationale": "The retained facet explicitly demands timing of outbreak, so make that demand explicit in the parent question alongside failure.",
+      "scope": "Consistency of the complete dependency and its facets with the composed tail parents; not renewed whole-record approval of other parent subjects or historical original keys.",
+      "facet_bindings_inspected": [
+        {
+          "facet_id": "legacy:TASK-0E320332A42B",
+          "sha256": "c42a8b58449ac06d313f97d65e4c2ee6d97b3c646ef7c455585d825a869a97e5",
+          "required_subject_ids": [
+            "SUBJ-SUCC-7C338D256927",
+            "SUBJ-SUCC-E26867406B1D"
+          ]
+        }
+      ],
+      "final_editorial_approval": false,
+      "proposed_record": {
+        "task_id": "TASK-SUCC-B445EC8059DB",
+        "question": "Why did the Irish rising of 1798 begin when it did, and why did it fail despite large-scale participation?",
+        "subject_ids": [
+          "SUBJ-SUCC-7C338D256927",
+          "SUBJ-SUCC-E26867406B1D"
+        ],
+        "source_task_ids": [
+          "SUCC-C015-T001"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [
+          {
+            "facet_id": "legacy:TASK-0E320332A42B",
+            "question": "How does Doyle explain why the Irish Rebellion of 1798 began when it did and why it failed so quickly?",
+            "required_subject_ids": [
+              "SUBJ-SUCC-7C338D256927",
+              "SUBJ-SUCC-E26867406B1D"
+            ],
+            "historical_task_id": "TASK-0E320332A42B",
+            "historical_lineage": "legacy",
+            "weight": "unweighted_access_facet",
+            "binding_rationale": "The specific question was inspected against the source and fits this parent’s stated demand and explicit subject requirements. The historical wording remains a trace, not an independent scoring denominator."
+          }
+        ],
+        "source_pages": [
+          341,
+          342,
+          343
+        ]
+      },
+      "proposed_record_sha256": "c8000455105b889ee6c38a3b69ff2d64e1593a2f82562806642ffb6099c89e54",
+      "field_differences": [
+        {
+          "path": "/question",
+          "before": "Why did the Irish rising fail despite large-scale participation?",
+          "after": "Why did the Irish rising of 1798 begin when it did, and why did it fail despite large-scale participation?"
+        }
+      ]
+    },
+    {
+      "kind": "task",
+      "index": 40,
+      "id": "TASK-SUCC-B18399A46518",
+      "stage9_record_sha256": "511eaf0e26768ea2ac50a3d092d42203d32088e2d9511666dd57ad38a55f5fbc",
+      "before_record": {
+        "task_id": "TASK-SUCC-B18399A46518",
+        "question": "How did military crisis and allied division enable constitutional change?",
+        "subject_ids": [
+          "SUBJ-SUCC-34E281DBB58D",
+          "SUBJ-SUCC-D25EFF329FF1",
+          "SUBJ-SUCC-1C3515CE1B7F"
+        ],
+        "source_task_ids": [
+          "SUCC-C016-T004"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [],
+        "source_pages": [
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ]
+      },
+      "consistency_disposition": "propose_narrow_dependency_repair",
+      "rationale": "Clarify renewed military victories as the immediate opportunity for Sieyes, retaining the earlier crisis and allied division as context.",
+      "scope": "Consistency of the complete dependency and its facets with the composed tail parents; not renewed whole-record approval of other parent subjects or historical original keys.",
+      "facet_bindings_inspected": [],
+      "final_editorial_approval": false,
+      "proposed_record": {
+        "task_id": "TASK-SUCC-B18399A46518",
+        "question": "How did military crisis, allied division and renewed French victories shape Sieyes’s opportunity for constitutional change and his alliance with Bonaparte?",
+        "subject_ids": [
+          "SUBJ-SUCC-34E281DBB58D",
+          "SUBJ-SUCC-D25EFF329FF1",
+          "SUBJ-SUCC-1C3515CE1B7F"
+        ],
+        "source_task_ids": [
+          "SUCC-C016-T004"
+        ],
+        "fallback_generated": false,
+        "required_access_facets": [],
+        "source_pages": [
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ]
+      },
+      "proposed_record_sha256": "8d19aaac8dd7618ca0caa01e08cf65cb975c48dc8ccc07c5ded142688f51a220",
+      "field_differences": [
+        {
+          "path": "/question",
+          "before": "How did military crisis and allied division enable constitutional change?",
+          "after": "How did military crisis, allied division and renewed French victories shape Sieyes’s opportunity for constitutional change and his alliance with Bonaparte?"
+        }
+      ]
+    }
+  ],
+  "whole_book_approval": false
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": "independent-tail-composition-attestation-v1",
+  "status": "sealed_authoring_component_pending_independent_lead_review",
+  "reviewer": "reviewer-007-012",
+  "scope": {
+    "whole_parents": 41,
+    "referrals": 43,
+    "stage9_parent_overlaps": 24,
+    "parent_field_differences": 188,
+    "existing_evidence_preserved": 172,
+    "added_evidence": 2,
+    "explicit_author_routing_compositions": 16,
+    "relationship_consistency_records": 73,
+    "task_consistency_records": 73,
+    "task_facets_inspected_for_consistency": 188,
+    "dependency_repair_proposals": 3,
+    "newly_reread_postdraft_pages": 8
+  },
+  "assignment": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.tail-composition.assignment.v1.json",
+    "sha256": "9eac2ac68843d6235aab0cfdfafadd3204be319ad4a90b6245ddef8ac5f79593",
+    "bytes": 26250
+  },
+  "activation": {
+    "path": "successor/independent-review/actual-draft/reviewer-007-012.tail-composition.activation.v1.json",
+    "sha256": "3cc6d8d2ef71d56a74d21fbd294c15478a733c7fd986c996da6f1c289f6b77e0",
+    "bytes": 1270
+  },
+  "candidate_exposure": "Candidate content and results remain unseen. Administrative supplier names and root mechanical counts are not candidate content; no root verification document was read.",
+  "draft_exposure": "Draft-exposed authoring continuation using explicit stage6, stage9 and the independent tail reviewer’s proposals. This is not a fresh pre-draft source-first review or an independent final review of my own compositions.",
+  "inputs_verified": [
+    {
+      "path": ".source-only/independent-review-inputs.json",
+      "sha256": "9f60dbf4d01bece2cce0e74a4806c9a437574a26dbbcb4fce743489c02775b49",
+      "bytes": 19774
+    },
+    {
+      "path": ".source-only/independent-review-draft-addendum.v1.json",
+      "sha256": "f7e75dadb5e95cad4cd51e99b5674ec0a4851a7a26eab82e37aeaef9a39f3760",
+      "bytes": 26163
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage9.v1.json",
+      "sha256": "3bc8b4289d286c01d6d8b4c20556a24eb64484002e55ac9c2e29c0c44c70e87c",
+      "bytes": 6701183
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/integration-stage9.inputs.v1.json",
+      "sha256": "593d7fc9b8d2d7ebb506de62893ed40613f501f473af30c25eef30485ab1507a",
+      "bytes": 84404
+    },
+    {
+      "path": "successor/independent-review/actual-draft/integration/benchmark.integration-stage6.v1.json",
+      "sha256": "ec761c1fc78568cda525116939e9010157ce45830a1f10c911f193689c0a61b9",
+      "bytes": 6541806
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/manifest.v1.json",
+      "sha256": "e740d4dbed40ddbd02780efba6ef20c69b8f9973e0f9e5be8a5bd4cb907f93ac",
+      "bytes": 6846
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/proposed-records.v2.json",
+      "sha256": "493a95c5917750650e0a5fb7500953a2c347ea820f41277c12b65f17e4ad3c63",
+      "bytes": 511869
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/correction-referrals.v2.json",
+      "sha256": "8730bba854510a956b92feafc1e42069f14429852d4deebd7535168ec9b9600c",
+      "bytes": 70960
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/exact-field-diffs.v2.jsonl",
+      "sha256": "f8f18e621d38ef2f04657bc9d8ad79da4a23e98c818a9988febd384aa73ebd71",
+      "bytes": 178953
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-subject-ledger.v2.jsonl",
+      "sha256": "b24060f41e5f8e310f6368535777c0eb49b34e2aa0b31be4e8f00e8c97874d2e",
+      "bytes": 259948
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/historical-evidence-ledger.v2.jsonl",
+      "sha256": "fb5eaeb93b81e8102cae51794aec48811f1577b634ce2ce367e5faa6a1235209",
+      "bytes": 698912
+    },
+    {
+      "path": "successor/independent-review/actual-draft/reviewer-001-006-legacy-tail-historical-subject-evidence/later-proposed-context.v1.json",
+      "sha256": "7cc8623379f3b460a55c5295470987a66ac3606b922994febb410b61e71bf17f",
+      "bytes": 1267
+    }
+  ],
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "source_scope": "425 supplied main-text pages; frozen policy and boundaries unchanged. Frontmatter/endnotes unavailable and excluded. Map interiors, labels, keys and routes remain excluded; eligible substantive captions only.",
+  "source_reinspection": {
+    "pages": [
+      183,
+      184,
+      188,
+      190,
+      191,
+      192,
+      409,
+      425
+    ],
+    "coverage": "Each listed page read in full as post-draft inspection during this composition; raw extraction retained only in private work. Other cited passages reuse earlier actual source reading, with exact supplied-page pointers in each parent disposition and each referral. No new source-first status is claimed.",
+    "precise_reuse_basis": "Prior original159–296 and later297–425 page inspections and own sealed whole-parent/evidence reviews remain the source-reading basis; these phases are distinguished from this draft-aware composition.",
+    "prior_manifest_bindings": [
+      {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012/artifact-manifest.v1.json",
+        "sha256": "8f97720b376f73921954a82d55213b69b9c440cf2c372ef861e56d1426c68720",
+        "bytes": 2309
+      },
+      {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-015-017/artifact-manifest.v1.json",
+        "sha256": "08b97e1e34f6de30e527387f6686369660a0c9a0d85626bf09f214656fb71139",
+        "bytes": 2982
+      },
+      {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012-additional-dependencies/artifact-manifest.v1.json",
+        "sha256": "1b4a463b49c44c9c07b6f88680b1e00c02b841559fd6f8cea53bdd46295edc78",
+        "bytes": 4017
+      },
+      {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-closure/relationship-component-manifest.v1.json",
+        "sha256": "085dfcf714f0a05b63a9e27c8ebc1b348e8217d2773dbc953a58066a9b35d420",
+        "bytes": 53370
+      },
+      {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-closure/task-component-manifest.v1.json",
+        "sha256": "a2afc08b97bfb647259b55ce812a9e2a4122925ca5e50cfbbc9209618497bd37",
+        "bytes": 13391
+      },
+      {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012-historical-subject-evidence/manifest.v1.json",
+        "sha256": "7151d94141fa8eb2b375517898708278a83c5f6a3af12322c5f59245521384a2",
+        "bytes": 2916
+      },
+      {
+        "path": "successor/independent-review/actual-draft/reviewer-007-012-composed-repairs-111-162/manifest.v1.json",
+        "sha256": "4c0fa256b55001549c329f3d5b84bdd50155ec93621557fed2024f1773a8ae1c",
+        "bytes": 3820
+      }
+    ]
+  },
+  "whole_record_method": "Read all41 stage9 parent labels/priorities/meanings/stances/access/evidence and source/access treatments; compare every tail semantic field change from stage6, preserve compatible intervening values and exact evidence identities. Nested identical values were displayed by reference to the complete parent text; distinct nested claims were displayed in full.",
+  "dependency_method": "Read all73 relationships and73 task questions/parent bindings and188 retained facets for consistency with composed parents. Repeated literal generic facet rationales were identified as assertions rather than source evidence. This does not transfer historical-key ownership or approve unowned parents/fallback screens.",
+  "new_evidence_ids": [
+    "EVID-ISR-001-LSE-033-356",
+    "EVID-ISR-001-LSE-035-162"
+  ],
+  "priority_change": {
+    "subject_id": "SUBJ-SUCC-9EE30DCC1721",
+    "from": "major",
+    "to": "essential",
+    "basis": "Substantial chapter-spanning April–September causal chain linking military reverses, political coercion, democratization, massacre panic and mobilization; confirmed by fresh full-page reinspection, not a quota or inherited label."
+  },
+  "approval_boundary": "All compositions and three dependency repairs are proposals for the lead’s independent exact-value review. Stage9, source draft/state and prior sealed artifacts unchanged; no whole-book approval or freeze."
+}
