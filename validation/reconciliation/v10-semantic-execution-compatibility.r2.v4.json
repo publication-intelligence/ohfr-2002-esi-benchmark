@@ -1,0 +1,23 @@
+{
+  "schema_version": "subject-index-v10-execution-compatibility-v1",
+  "compatibility_id": "ohfr-2002-four-family-decision-v3-pr71",
+  "approved_at": "2026-09-17T21:20:00+00:00",
+  "authorized_by": "OHFR benchmark owner",
+  "authorization_reference": "2026-09-17 standing authorization to migrate the shared V4 benchmark, reevaluate all four indexes under the latest V10 standard, and complete the comparison integration; evaluator PR 71 supplies the final homogeneous PATH-family first-lookup contract without overall score ceilings.",
+  "baseline_runtime_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
+  "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d",
+  "execution_contract_id": "subject-index-v10-semantic-execution-v3",
+  "contract_constituents": {
+    "subject-index-evaluation-v10-decision-v3": "779fb8ffb21bc17fe87a23ee9160a124e013a094c08280b7bdb26fef40d2da50",
+    "subject-index-evaluation-v10-semantic-uncertainty-addendum-v1": "e0f0e91a23274a94e292409b17df53d1b403bd0a52b26e6e7ae84809430c5f76",
+    "subject-index-evaluation-v10-semantic-uncertainty-addendum-v2": "fea2a5b87f9e063d28135895fdb7d3637dfe4d2edd294fb7a50fd3aff7009277",
+    "subject-index-evaluation-v10-semantic-uncertainty-addendum-v3": "4031abef00cb37508f30c8c89ec5e12592ce89369f144c1473ebc43bf9503a7d",
+    "subject-index-evaluation-v10-semantic-uncertainty-addendum-v4": "b5d51033cb03093ca242841f8d9a5aac510915cfedad800614078e5199220a64"
+  },
+  "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
+  "common_lock_file_sha256": "2883989706071128bb173568decc85c223e696cf0505f749fdccc9b850bef80a",
+  "common_lock_sha256": "f8cf1b0c5619f455749a7ac4b0947bf241a72e5d856dd75dd83c9fed10a5a74b",
+  "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94",
+  "source_release_sha256": "cf5d0e44baf53d70f401f6281d461f3b1a85ab7f04db40152de16bd7ce4da736",
+  "compatibility_sha256": "2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c"
+}
