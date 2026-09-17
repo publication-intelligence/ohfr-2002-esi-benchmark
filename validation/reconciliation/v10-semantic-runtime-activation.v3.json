@@ -1,0 +1,35 @@
+{
+  "schema_version": "ohfr-v10-semantic-runtime-activation-v3",
+  "recorded_at": "2026-09-17T13:13:28.982177+00:00",
+  "result": "pass",
+  "methodology_prs": [
+    "https://github.com/publication-intelligence/evaluate-subject-index/pull/58",
+    "https://github.com/publication-intelligence/evaluate-subject-index/pull/59"
+  ],
+  "merged_commit": "840e7820102c28299d39e655b2f54eb4524f4e40",
+  "active_runtime": "/home/john/.codex/skills/evaluate-subject-index",
+  "backup_runtime": "/home/john/.codex/runtime-backups/v10-ca70f16-before-fdb4bd8",
+  "previous_runtime_commit": "ca70f16b5f982b46f93d7468e8dc87bb0825ee70",
+  "successor_runtime_commit": "fdb4bd8c0254804d115f6072f37efc980e10e59d",
+  "runtime_payload_sha256": "accfb04682705fbd3a5835036f5538c18e36f3819f99ad063fd94d32364a3256",
+  "previous_installation_receipt_sha256": "d967f53bcd9b8b793c243a3b40229b5f9722bc4acd97c50896db3e2f2953e581",
+  "installed_receipt_sha256": "549ee24060c7848b94bf49459274d82c517f4846e4ebb224fab8c00078cb0df5",
+  "compatibility_file": "validation/reconciliation/v10-semantic-execution-compatibility.r2.v3.json",
+  "compatibility_file_sha256": "080329461b19df8c23d22c6b39b2e5fa8f2793fc347cd65926f2d7ef57fd39d2",
+  "compatibility_sha256": "033d06d9234872fa7b9ad895c6b77ea58c9090d954474729b76746fabc23874b",
+  "verification": {
+    "verified_files": 203,
+    "payload_verification": "pass",
+    "semantic_cli_help_probe": "pass",
+    "github_pr_59_ci": {
+      "deterministic_tests_passed": 266,
+      "semantic_tests_passed": 20
+    },
+    "focused_schema_and_semantic_runtime_tests_passed": 17
+  },
+  "scope": {
+    "benchmark_source_or_rules_changed": false,
+    "runtime_schema_propagation_only": true,
+    "candidate_factual_judgments_changed": false
+  }
+}
