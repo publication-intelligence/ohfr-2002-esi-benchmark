@@ -1,6 +1,6 @@
 {
   "schema_version": "study-reconciliation-coordination-checkpoint-v1",
-  "recorded_at": "2026-09-17T00:55:12.219768+00:00",
+  "recorded_at": "2026-09-17T01:01:52.674098+00:00",
   "benchmark_selection": "successor_synthesis_route_selected_no_final_release",
   "coordinator_candidate_unexposed": false,
   "source_review_context": {
@@ -354,6 +354,17 @@
       "exact_original_control_keys_verified": 476,
       "original_empty_mappings_explicitly_included": 22,
       "review_complete": false
+    },
+    "original_subject_evidence_review_complement": {
+      "path": "successor/independent-review/actual-draft/mechanical-original-review-complement.v1.json",
+      "sha256": "5115ba8db6dd78b6e097a08d54955657fcf199593c5c5b30274f5ef2d20ae66c",
+      "explicit_original_subject_keys": 498,
+      "remaining_original_subject_keys": 1506,
+      "explicit_original_evidence_union": 1336,
+      "lead_repair_evidence_overlap": 9,
+      "remaining_original_evidence_keys": 3487,
+      "whole_record_meaning_and_value_approval": false,
+      "basis": "Independent lead requested conservative exact-set accounting. Current subject/evidence reading is not automatically original-record review; reviewers may reuse demonstrably identical complete inspections with precise bindings."
     }
   },
   "density_proposal": {
