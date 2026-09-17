@@ -42,3 +42,7 @@ The [selected common lock](../study-benchmark-lock.v10.json) passes native relea
 Benchmark PR17 awaits the protected branch’s GitHub approval; its pushed immutable release is already CI-passing and usable for the authorized evaluations. No administrative override has been performed.
 
 The website consumer remains in [draft PR #5](https://github.com/publication-intelligence/publication-intelligence/pull/5). The exact completed four-candidate bundle must pass common preflight, atomic import and browser checks before integration merge. The user authorized coordination, relevant commits and merges, migration and reevaluation. Remaining holds are validation dependencies. Website deployment is outside the authorized scope.
+
+## Corrections identified during execution
+
+All four initial migrations passed shared binding checks. Fresh review identified the bounded [execution corrections](v10-execution-corrections.md): an uncertainty representation gap, one identical repeated retained distinction, and an unsupported relationship whose retirement requires a versioned source correction. The initial release remains preserved. Unaffected review continues; final results will use the same reviewed corrections for every candidate.

@@ -1,0 +1,85 @@
+{
+  "schema_version": "four-candidate-v10-initial-migration-binding-verification-v1",
+  "recorded_at": "2026-09-17T05:51:04.438543+00:00",
+  "result": "pass",
+  "scope": "Initial typed migration identity check; active states may advance afterward. This is not completed audit, final density/access preflight or score approval.",
+  "common_lock_sha256": "bb24e1d618584ee8eb5c75eb73aa98de4db3f2845d48a44fc3f81569c591ff9c",
+  "benchmark_semantic_sha256": "bfd742cbd06bf79d234091617298cb46604a9f1d71f84424f3c4093441f5f9c1",
+  "policy_semantic_sha256": "7fea875a46370351481128234c15825225ac5cdabffb0f0bd22ea7adfb0d2beb",
+  "candidates": [
+    {
+      "candidate": "Published",
+      "observed_state_sha256": "44be3619d990a79b8e6aa8d5f6803e740f736db8b2088f14e1548247158b711a",
+      "preserved_prior_state_sha256": "ad0231e3053c4e674ea94f58ab89fb7152af0319b94e3a0e7dc04c7717354a5e",
+      "selected_benchmark_sha256": "a468a5319d3de5c6c4d42ee64767be38471ff23485630f776b8ca3a6aaa8f0ec",
+      "selected_policy_sha256": "6c74dad5ab64753197446aaffe9b48fde9a306c0f371ced27868c4fb2313e28d",
+      "candidate_sha256": "d62c8d609fc90a5d44e624c4a44d1210b94b40c33cddb48225c82183ed54866a",
+      "exact_shared_release_and_lock_bindings": true,
+      "semantic_benchmark_and_policy_match": true,
+      "downstream_stage_statuses_at_observation": {
+        "locator_chunk_preparation": "completed",
+        "locator_audit": "not_started",
+        "missing_access_audit": "not_started",
+        "structure_audit": "not_started",
+        "scoring": "not_started",
+        "web_report": "not_started"
+      }
+    },
+    {
+      "candidate": "IndexPDF",
+      "observed_state_sha256": "19533f9f67397096d80f13d18debf9e9b117946783bccb63551c98d7e7918e44",
+      "preserved_prior_state_sha256": "577f66ae217afa3486398620ddab17f28db6036cfed3cef643147c9b2844e8f8",
+      "selected_benchmark_sha256": "e212d17a701c228be45d38d6d59e6e7ac60a068097e19ecdf4f95d7caa0c76f2",
+      "selected_policy_sha256": "ef93e2a379d130bc863a46109fc5734a434d34ba189bc7c769ce364a4744843b",
+      "candidate_sha256": "d79f3287af1ff9f80e8fd7f905c90640c1f33428ec3d926cbf358c96af260e73",
+      "exact_shared_release_and_lock_bindings": true,
+      "semantic_benchmark_and_policy_match": true,
+      "downstream_stage_statuses_at_observation": {
+        "locator_chunk_preparation": "completed",
+        "locator_audit": "completed",
+        "missing_access_audit": "not_started",
+        "structure_audit": "not_started",
+        "scoring": "not_started",
+        "web_report": "not_started"
+      }
+    },
+    {
+      "candidate": "IndexerLabs",
+      "observed_state_sha256": "2eb9b221f2c60176b7c2da2b558e56f8d47f549f6547bb2bab1e60bf943d6c5c",
+      "preserved_prior_state_sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+      "selected_benchmark_sha256": "0e5907da4dd817f1467e323c5d160c8754210014577cc8cf45b8663fa16e9be8",
+      "selected_policy_sha256": "4a6f132ca1da7441146e8bef66bb10c51aa324b18bd6c62ef4ce97cfd5c17e9e",
+      "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+      "exact_shared_release_and_lock_bindings": true,
+      "semantic_benchmark_and_policy_match": true,
+      "downstream_stage_statuses_at_observation": {
+        "locator_chunk_preparation": "completed",
+        "locator_audit": "not_started",
+        "missing_access_audit": "not_started",
+        "structure_audit": "not_started",
+        "scoring": "not_started",
+        "web_report": "not_started"
+      }
+    },
+    {
+      "candidate": "Indexia",
+      "observed_state_sha256": "d7ae3d63cafdbed42670821a1454236a050227c36521f6041a3aa28343f9416c",
+      "preserved_prior_state_sha256": "60605d32663803b99ce4c3f67365bd6ed55879a5610da74f1478f19b65ae7cec",
+      "selected_benchmark_sha256": "e469cd3f6ec97e884e707bc84eb5bfcd8500b1d1b3224d9fea588e6f26368657",
+      "selected_policy_sha256": "2c2e906bc25e05b8e5c9d6d181764a3d42407f154e6365e163340b34bf976c18",
+      "candidate_sha256": "9979219954bee42e4640d9e25357859f2f9f3409074fe8d43550a61fd62d018f",
+      "exact_shared_release_and_lock_bindings": true,
+      "semantic_benchmark_and_policy_match": true,
+      "downstream_stage_statuses_at_observation": {
+        "locator_chunk_preparation": "completed",
+        "locator_audit": "not_started",
+        "missing_access_audit": "not_started",
+        "structure_audit": "not_started",
+        "scoring": "not_started",
+        "web_report": "not_started"
+      }
+    }
+  ],
+  "runtime_correction_review_pending": true,
+  "final_comparison_ready": false
+}
